@@ -460,7 +460,7 @@ export const products: Product[] = [
     slug: 'cotton-jewelry-pouch',
     category: 'jewelry-pouches',
     dimensions: '5"L x 5"W',
-    image: '/images/carousel/3c6a919a16ad9eb6e7f67733201e2e9a copy.jpg',
+    image: '/images/carousel/exec-da26d365-4a4b-499b-aa99-f1d3e73e6f3a.png',
     gallery: [
       '/images/carousel/3c6a919a16ad9eb6e7f67733201e2e9a copy.jpg',
       '/images/carousel/8a27a76f-4fa1-42cd-a0db-14939ec0644b.png',
