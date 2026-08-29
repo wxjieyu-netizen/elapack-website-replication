@@ -464,7 +464,7 @@ export const products: Product[] = [
     gallery: [
       '/images/carousel/3c6a919a16ad9eb6e7f67733201e2e9a copy.jpg',
       '/images/carousel/8a27a76f-4fa1-42cd-a0db-14939ec0644b.png',
-      '/images/carousel/0dfb810b-ef56-47bc-bd26-e005c2cae788.png',
+      '/images/carousel/b9ee69b6-6eea-4db6-964d-f2387aa3fb71 copy.png',
       '/images/carousel/b9ee69b6-6eea-4db6-964d-f2387aa3fb71.png',
     ],
     description:
