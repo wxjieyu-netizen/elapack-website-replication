@@ -325,8 +325,13 @@ export const products: Product[] = [
     slug: 'double-ring-storage-box',
     category: 'jewelry-boxes',
     dimensions: '1-3/4"W x 2"D x 1-1/2"H',
-    image: img.ring5,
-    gallery: [img.ring5, img.ring6, img.ring7, img.ring8],
+    image: '/images/carousel/ring-box-black.png',
+    gallery: [
+      '/images/carousel/ring-box-black.png',
+      img.ring6,
+      img.ring7,
+      img.ring8,
+    ],
     description:
       'A slim black velvet double ring box designed for weddings and engagements. Holds two rings securely side by side with plush velvet lining. The elegant matte black exterior makes it perfect for proposal moments and retail presentation.',
     features: [
