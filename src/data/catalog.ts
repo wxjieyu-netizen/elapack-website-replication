@@ -259,12 +259,12 @@ export const products: Product[] = [
     slug: 'black-leather-jewelry-box',
     category: 'jewelry-boxes',
     dimensions: '1-3/4"W x 2"D x 1-1/2"H',
-    image: '/images/carousel/9e9c5d2a-80bd-4916-8798-04ded583770b copy.jpg',
+    image: '/images/carousel/black-leather-box.png',
     gallery: [
-      '/images/carousel/9e9c5d2a-80bd-4916-8798-04ded583770b copy.jpg',
-      '/images/carousel/4dd25c31-cbbd-4e80-b192-9dee24237ce5.jpg',
-      '/images/carousel/92b161c6-9a94-426f-b4cb-fa3115f84cbc.jpg',
-      '/images/carousel/c1a577cf691330f22f35a1486780a9d5.jpg',
+      '/images/carousel/black-leather-box.png',
+      '/images/carousel/black-leather-box-detail-1.png',
+      '/images/carousel/black-leather-box-detail-2.png',
+      '/images/carousel/black-leather-box-detail-3.png',
     ],
     description:
       'The black leather jewelry box is more than just storage — it is a timeless statement of sophistication. Crafted from smooth grain faux leather in a deep, matte black tone, this box offers an elevated unboxing experience that reflects your brand commitment to quality. Its sleek, fingerprint-resistant exterior enhances visual appeal while staying pristine even with daily use.',
@@ -298,8 +298,13 @@ export const products: Product[] = [
     slug: 'pandora-jewelry-box-white',
     category: 'jewelry-boxes',
     dimensions: '1-3/4"W x 2"D x 1-1/2"H',
-    image: img.ring1,
-    gallery: [img.ring1, img.ring2, img.ring3, img.ring4],
+    image: '/images/carousel/pandora-box.png',
+    gallery: [
+      '/images/carousel/pandora-box.png',
+      '/images/carousel/pandora-box-detail-1.png',
+      '/images/carousel/pandora-box-detail-2.png',
+      '/images/carousel/pandora-box-detail-3.png',
+    ],
     description:
       'A compact white plastic jewelry box inspired by Pandora-style packaging. Perfect for bracelets and small jewelry gifts, combining a clean minimalist look with durable protection. Ideal for retail display and gifting occasions.',
     features: [
@@ -328,9 +333,9 @@ export const products: Product[] = [
     image: '/images/carousel/ring-box-black.png',
     gallery: [
       '/images/carousel/ring-box-black.png',
-      img.ring6,
-      img.ring7,
-      img.ring8,
+      '/images/carousel/ring-box-detail-1.png',
+      '/images/carousel/ring-box-detail-2.png',
+      '/images/carousel/ring-box-detail-3.png',
     ],
     description:
       'A slim black velvet double ring box designed for weddings and engagements. Holds two rings securely side by side with plush velvet lining. The elegant matte black exterior makes it perfect for proposal moments and retail presentation.',
@@ -357,8 +362,13 @@ export const products: Product[] = [
     slug: 'wooden-ring-box-wedding',
     category: 'jewelry-boxes',
     dimensions: '1-3/4"W x 2"D x 1-1/2"H',
-    image: img.ring9,
-    gallery: [img.ring9, img.ring6, img.ring7, img.ring2],
+    image: '/images/carousel/wooden-ring-box.png',
+    gallery: [
+      '/images/carousel/wooden-ring-box.png',
+      '/images/carousel/wooden-ring-box-detail-1.png',
+      '/images/carousel/wooden-ring-box-detail-2.png',
+      '/images/carousel/wooden-ring-box-detail-3.png',
+    ],
     description:
       'An engraved wooden ring box for weddings, featuring natural wood grain with a smooth finish. The interior is lined with soft velvet to protect rings. Custom engraving of names, dates, or logos is available for a truly personalized keepsake.',
     features: [
@@ -384,8 +394,13 @@ export const products: Product[] = [
     slug: 'luxury-gift-box-ribbon',
     category: 'gift-boxes',
     dimensions: '8"L x 6"W x 3"H',
-    image: '/images/carousel/cd29b221-1054-48b1-9000-9b3d1bd8efe7.png',
-    gallery: ['/images/carousel/cd29b221-1054-48b1-9000-9b3d1bd8efe7.png', img.gift2, img.gift3, img.gift4],
+    image: '/images/carousel/luxury-gift-box.png',
+    gallery: [
+      '/images/carousel/luxury-gift-box.png',
+      '/images/carousel/luxury-gift-box-detail-1.png',
+      '/images/carousel/luxury-gift-box-detail-2.png',
+      '/images/carousel/luxury-gift-box-detail-3.png',
+    ],
     description:
       'A luxury gift box set with satin ribbon closure, designed for premium gifting occasions. The rigid box construction with matte finish and decorative ribbon creates an unforgettable unboxing experience. Perfect for corporate gifts, weddings, and high-end retail.',
     features: [
@@ -411,8 +426,13 @@ export const products: Product[] = [
     slug: 'magnetic-closure-gift-box',
     category: 'gift-boxes',
     dimensions: '6"L x 4"W x 2"H',
-    image: img.gift5,
-    gallery: [img.gift5, img.gift2, img.gift3, img.gift1],
+    image: '/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png',
+    gallery: [
+      '/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png',
+      '/images/carousel/magnetic-box-detail-1.png',
+      '/images/carousel/magnetic-box-detail-2.png',
+      '/images/carousel/magnetic-box-detail-3.png',
+    ],
     description:
       'A sleek magnetic closure gift box with flip-top design. The hidden magnetic mechanism provides a clean look while keeping the lid securely closed. Ideal for jewelry, cosmetics, and small luxury items.',
     features: [
@@ -438,8 +458,13 @@ export const products: Product[] = [
     slug: 'velvet-drawstring-pouch',
     category: 'jewelry-pouches',
     dimensions: '4"L x 4"W',
-    image: img.pouch1,
-    gallery: [img.pouch1, img.pouch2, img.pouch3, img.pouch4],
+    image: '/images/carousel/velvet-pouch.png',
+    gallery: [
+      '/images/carousel/velvet-pouch.png',
+      '/images/carousel/velvet-pouch-detail-1.png',
+      '/images/carousel/velvet-pouch-detail-2.png',
+      '/images/carousel/velvet-pouch-detail-3.png',
+    ],
     description:
       'A soft velvet drawstring jewelry pouch designed for elegant storage and gifting. The plush velvet exterior protects delicate jewelry while the drawstring closure keeps items secure. Available in multiple colors with custom branding options.',
     features: [
@@ -465,12 +490,12 @@ export const products: Product[] = [
     slug: 'cotton-jewelry-pouch',
     category: 'jewelry-pouches',
     dimensions: '5"L x 5"W',
-    image: '/images/carousel/exec-da26d365-4a4b-499b-aa99-f1d3e73e6f3a.png',
+    image: '/images/carousel/cotton-pouch.png',
     gallery: [
-      '/images/carousel/3c6a919a16ad9eb6e7f67733201e2e9a copy.jpg',
-      '/images/carousel/8a27a76f-4fa1-42cd-a0db-14939ec0644b.png',
-      '/images/carousel/b9ee69b6-6eea-4db6-964d-f2387aa3fb71 copy.png',
-      '/images/carousel/b9ee69b6-6eea-4db6-964d-f2387aa3fb71.png',
+      '/images/carousel/cotton-pouch.png',
+      '/images/carousel/cotton-pouch-detail-1.png',
+      '/images/carousel/cotton-pouch-detail-2.png',
+      '/images/carousel/cotton-pouch-detail-3.png',
     ],
     description:
       'An eco-friendly cotton drawstring pouch perfect for jewelry storage and gifting. Made from natural cotton fabric with a soft texture. Ideal for brands looking for sustainable packaging solutions.',
@@ -497,8 +522,13 @@ export const products: Product[] = [
     slug: 'velvet-necklace-display',
     category: 'jewelry-display',
     dimensions: '12"L x 4"W x 10"H',
-    image: img.display1,
-    gallery: [img.display1, img.display2, img.display3, img.display4],
+    image: '/images/carousel/velvet-necklace-stand.png',
+    gallery: [
+      '/images/carousel/velvet-necklace-stand.png',
+      '/images/carousel/velvet-necklace-stand-detail-1.png',
+      '/images/carousel/velvet-necklace-stand-detail-2.png',
+      '/images/carousel/velvet-necklace-stand-detail-3.png',
+    ],
     description:
       'A velvet necklace display stand designed for retail showcases. The plush velvet surface holds necklaces securely in place while presenting them elegantly. Available in multiple colors to match your brand aesthetic.',
     features: [
@@ -523,8 +553,13 @@ export const products: Product[] = [
     slug: 'acrylic-earring-display',
     category: 'jewelry-display',
     dimensions: '8"L x 3"W x 8"H',
-    image: img.display2,
-    gallery: [img.display2, img.display3, img.display4, img.display1],
+    image: '/images/carousel/acrylic-display.png',
+    gallery: [
+      '/images/carousel/acrylic-display.png',
+      '/images/carousel/acrylic-display-detail-1.png',
+      '/images/carousel/acrylic-display-detail-2.png',
+      '/images/carousel/acrylic-display-detail-3.png',
+    ],
     description:
       'A modern acrylic earring display stand with transparent construction. Perfect for showcasing earrings in a clean, contemporary retail setting. The clear acrylic design lets the jewelry be the focal point.',
     features: [
@@ -549,8 +584,13 @@ export const products: Product[] = [
     slug: 'kraft-paper-shopping-bag',
     category: 'paper-bags',
     dimensions: '10"L x 8"W x 12"H',
-    image: img.bag1,
-    gallery: [img.bag1, img.bag2, img.bag3, img.bag1],
+    image: '/images/carousel/kraft-bag.png',
+    gallery: [
+      '/images/carousel/kraft-bag.png',
+      '/images/carousel/kraft-bag-detail-1.png',
+      '/images/carousel/kraft-bag-detail-2.png',
+      '/images/carousel/kraft-bag-detail-3.png',
+    ],
     description:
       'A durable kraft paper shopping bag with twisted paper handles. Perfect for retail packaging, gift wrapping, and eco-conscious brands. Custom logo printing available on natural kraft background.',
     features: [
@@ -576,8 +616,13 @@ export const products: Product[] = [
     slug: 'stackable-jewelry-tray',
     category: 'jewelry-trays',
     dimensions: '14"L x 8"W x 1.5"H',
-    image: img.tray1,
-    gallery: [img.tray1, img.tray2, img.tray3, img.tray1],
+    image: '/images/carousel/jewelry-tray.png',
+    gallery: [
+      '/images/carousel/jewelry-tray.png',
+      '/images/carousel/jewelry-tray-detail-1.png',
+      '/images/carousel/jewelry-tray-detail-2.png',
+      '/images/carousel/jewelry-tray-detail-3.png',
+    ],
     description:
       'A stackable velvet jewelry tray with compartmental design for organized display. Perfect for retail showcases and drawer storage. The velvet surface protects jewelry while the stackable design maximizes space efficiency.',
     features: [
