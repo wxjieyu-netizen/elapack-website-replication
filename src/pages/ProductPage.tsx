@@ -14,15 +14,18 @@ import {
   ArrowLeft,
 } from 'lucide-react';
 import { products, faqs } from '@/data/catalog';
+import { productLines } from '@/data/lines';
+import { navigate } from '@/lib/router';
 
 interface ProductPageProps {
-  productId: string;
-  onNavigate: (page: string, params?: Record<string, string>) => void;
+  slug: string;
   onQuote: (productName?: string) => void;
 }
 
-export default function ProductPage({ productId, onNavigate, onQuote }: ProductPageProps) {
-  const product = products.find((p) => p.id === productId) || products[0];
+export default function ProductPage({ slug, onQuote }: ProductPageProps) {
+  const product = products.find((p) => p.slug === slug) || products[0];
+  const series = productLines.flatMap((l) => l.series).find((s) => s.products.includes(product.id));
+  const line = productLines.find((l) => l.id === series?.lineId);
   const [selectedImage, setSelectedImage] = useState(0);
   const [activeTab, setActiveTab] = useState<'description' | 'specifications'>('description');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -33,9 +36,15 @@ export default function ProductPage({ productId, onNavigate, onQuote }: ProductP
       <div className="bg-[#F8F8F8] border-b border-stone-100">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center gap-2 text-sm text-stone-500 flex-wrap">
-            <button onClick={() => onNavigate('home')} className="hover:text-sage-700 transition-colors">Home</button>
+            <button onClick={() => navigate('/')} className="hover:text-sage-700 transition-colors">Home</button>
             <ChevronRight className="w-3.5 h-3.5" />
-            <button onClick={() => onNavigate('collection', { category: product.category })} className="hover:text-sage-700 transition-colors">Product</button>
+            <button onClick={() => navigate(line ? line.path : '/pouches')} className="hover:text-sage-700 transition-colors">{line?.name || 'Product'}</button>
+            {series && (
+              <>
+                <ChevronRight className="w-3.5 h-3.5" />
+                <button onClick={() => navigate(series.path)} className="hover:text-sage-700 transition-colors">{series.name}</button>
+              </>
+            )}
             <ChevronRight className="w-3.5 h-3.5" />
             <span className="text-stone-700 line-clamp-1">{product.name}</span>
           </div>
@@ -284,7 +293,7 @@ export default function ProductPage({ productId, onNavigate, onQuote }: ProductP
       </section>
 
       <div className="max-w-7xl mx-auto px-6 py-8">
-        <button onClick={() => onNavigate('collection', { category: product.category })} className="inline-flex items-center gap-2 text-sm font-medium text-stone-600 hover:text-sage-700 transition-colors">
+        <button onClick={() => navigate(series ? series.path : '/pouches')} className="inline-flex items-center gap-2 text-sm font-medium text-stone-600 hover:text-sage-700 transition-colors">
           <ArrowLeft className="w-4 h-4" /> Back to Products
         </button>
       </div>

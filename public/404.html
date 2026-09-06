@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        var path = location.pathname;
+        if (path && path !== '/404.html' && path !== '/index.html') {
+          sessionStorage.setItem('spaRedirect', path);
+        }
+        location.replace('/');
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>Redirecting to <a href="/">homepage</a>…</noscript>
+  </body>
+</html>

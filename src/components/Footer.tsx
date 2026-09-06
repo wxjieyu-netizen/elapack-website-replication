@@ -1,11 +1,10 @@
-import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
-import { categories } from '@/data/catalog';
+import { Mail, Phone, MapPin } from 'lucide-react';
+import { productLines } from '@/data/lines';
+import { navigate } from '@/lib/router';
 
-interface FooterProps {
-  onNavigate: (page: string, params?: Record<string, string>) => void;
-}
+export default function Footer() {
+  const go = (path: string) => navigate(path);
 
-export default function Footer({ onNavigate }: FooterProps) {
   return (
     <footer className="bg-sage-900 text-sage-100">
       <div className="max-w-7xl mx-auto px-6 pt-16 pb-8">
@@ -21,8 +20,8 @@ export default function Footer({ onNavigate }: FooterProps) {
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-6 max-w-sm">
-              Custom jewelry packaging manufacturer since 2008. We help jewelry brands elevate their presentation
-              with premium, sustainable, and fully customizable packaging solutions.
+              Custom packaging manufacturer since 2008. We help brands elevate their presentation with premium,
+              sustainable, and fully customizable pouches, boxes, and gift sets.
             </p>
             <div className="space-y-2.5 text-sm">
               <div className="flex items-center gap-2.5">
@@ -43,14 +42,20 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <h4 className="text-white font-semibold text-sm mb-4 uppercase tracking-wider">Products</h4>
             <ul className="space-y-2 text-sm">
-              {categories.map((cat) => (
-                <li key={cat.slug}>
-                  <button
-                    onClick={() => onNavigate('collection', { category: cat.slug })}
-                    className="hover:text-sage-400 transition-colors text-left"
-                  >
-                    {cat.name}
+              {productLines.map((line) => (
+                <li key={line.id}>
+                  <button onClick={() => go(line.path)} className="hover:text-sage-400 transition-colors text-left font-medium text-white">
+                    {line.name}
                   </button>
+                  <ul className="mt-2 space-y-1.5 pl-2 border-l border-sage-800">
+                    {line.series.map((s) => (
+                      <li key={s.id}>
+                        <button onClick={() => go(s.path)} className="hover:text-sage-400 transition-colors text-left text-sage-300">
+                          {s.name}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
                 </li>
               ))}
             </ul>
@@ -59,10 +64,11 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <h4 className="text-white font-semibold text-sm mb-4 uppercase tracking-wider">Company</h4>
             <ul className="space-y-2 text-sm">
-              <li><button onClick={() => onNavigate('about')} className="hover:text-sage-400 transition-colors">About Us</button></li>
-              <li><button onClick={() => onNavigate('sustainability')} className="hover:text-sage-400 transition-colors">Sustainability</button></li>
-              <li><button onClick={() => onNavigate('custom')} className="hover:text-sage-400 transition-colors">Custom Options</button></li>
-              <li><button onClick={() => onNavigate('contact')} className="hover:text-sage-400 transition-colors">Contact</button></li>
+              <li><button onClick={() => go('/about')} className="hover:text-sage-400 transition-colors">About Us</button></li>
+              <li><button onClick={() => go('/custom')} className="hover:text-sage-400 transition-colors">How It Works</button></li>
+              <li><button onClick={() => go('/sustainability')} className="hover:text-sage-400 transition-colors">Sustainability</button></li>
+              <li><button onClick={() => go('/blog')} className="hover:text-sage-400 transition-colors">Insights</button></li>
+              <li><button onClick={() => go('/contact')} className="hover:text-sage-400 transition-colors">Contact</button></li>
             </ul>
           </div>
 
@@ -72,24 +78,21 @@ export default function Footer({ onNavigate }: FooterProps) {
             <div className="flex gap-2">
               <input
                 type="email"
-                placeholder="Your email"
-                className="flex-1 px-3 py-2 bg-stone-800 border border-stone-700 rounded-lg text-sm text-white placeholder-stone-500 focus:outline-none focus:border-sage-600"
+                placeholder="Email address"
+                className="flex-1 px-3 py-2 rounded-sm bg-sage-800 border border-sage-700 text-sm placeholder:text-sage-500 focus:outline-none focus:border-sage-400"
               />
-              <button className="px-3 py-2 bg-sage-700 text-white rounded-lg hover:bg-sage-600 transition-colors">
-                <ArrowRight className="w-4 h-4" />
+              <button className="px-4 py-2 bg-sage-500 text-white rounded-sm text-sm font-medium hover:bg-sage-400 transition-colors">
+                Join
               </button>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-stone-800 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-stone-500">
-            © 2024 ELAPACK. All rights reserved. Custom Lifestyle Packaging Manufacturer Since 2008.
-          </p>
-          <div className="flex gap-6 text-xs text-stone-500">
-            <button className="hover:text-sage-400 transition-colors">Privacy Policy</button>
-            <button className="hover:text-sage-400 transition-colors">Terms of Service</button>
-            <button className="hover:text-sage-400 transition-colors">Cookie Policy</button>
+        <div className="border-t border-sage-800 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-sage-400">
+          <span>© 2026 ELAPACK. All rights reserved.</span>
+          <div className="flex gap-6">
+            <button className="hover:text-sage-200 transition-colors">Privacy Policy</button>
+            <button className="hover:text-sage-200 transition-colors">Terms of Service</button>
           </div>
         </div>
       </div>

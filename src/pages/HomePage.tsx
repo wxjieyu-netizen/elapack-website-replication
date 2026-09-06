@@ -14,16 +14,16 @@ import {
   Globe,
 } from 'lucide-react';
 import {
-  categories,
   products,
   whyChooseUs,
   customizationSteps,
   caseStudies,
   brandLogos,
 } from '@/data/catalog';
+import { productLines } from '@/data/lines';
+import { navigate } from '@/lib/router';
 
 interface HomePageProps {
-  onNavigate: (page: string, params?: Record<string, string>) => void;
   onQuote: () => void;
 }
 
@@ -36,7 +36,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Palette,
 };
 
-export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
+export default function HomePage({ onQuote }: HomePageProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
@@ -45,17 +45,17 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
       subtitle: 'From concept to unboxing. Low MOQ, Free Design Support, Unlimited Materials.',
       image: '/images/carousel/exec-bf14589b-dedc-413f-b836-24299d7682c5 copy.png',
       cta: 'Explore Custom Options',
-      link: 'custom',
+      link: '/custom',
     },
     {
       title: 'Packaging With A Point Of View',
       subtitle: 'Custom Design & Wholesale Factory Since 2008. Elevate Your Brand Value.',
       image: '/images/carousel/image.png',
-      cta: 'Browse Jewelry Boxes',
-      link: 'collection',
+      cta: 'Browse Pouches & Bags',
+      link: '/pouches',
     },
     {
-      title: 'Supporting New & Growing Jewelry Brands',
+      title: 'Supporting New & Growing Brands',
       subtitle: 'Small-Batch Customization (100 pcs MOQ) Ready-to-Brand US Stock Styles.',
       image: '/images/carousel/exec-758f7f4a-0b5c-4138-9305-4d7086ffafa8.png',
       cta: 'Request a Quote',
@@ -70,6 +70,9 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
     return () => clearInterval(timer);
   }, [slides.length]);
 
+  const featuredSeries = productLines.flatMap((l) => l.series).filter((s) => s.products.length > 0).slice(0, 4);
+  const featuredProducts = featuredSeries.flatMap((s) => s.products.map((pid) => products.find((p) => p.id === pid))).filter(Boolean);
+
   return (
     <div>
       {/* Hero Slider */}
@@ -82,25 +85,18 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
             }`}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-sage-900/90 via-sage-900/55 to-sage-900/15 z-10" />
-            <img
-              src={slide.image}
-              alt={slide.title}
-              className="w-full h-full object-cover object-center md:object-right-center"
-              loading="eager"
-            />
+            <img src={slide.image} alt={slide.title} className="w-full h-full object-cover object-center md:object-right-center" loading="eager" />
             <div className="absolute inset-0 z-20 flex items-center">
               <div className="max-w-7xl mx-auto px-6 w-full">
                 <div className="max-w-xl">
                   <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-sage-600/20 text-sage-300 rounded-full text-xs font-medium mb-5 border border-sage-500/30">
                     <Sparkles className="w-3.5 h-3.5" /> Thoughtful Packaging Since 2008
                   </div>
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4">
-                    {slide.title}
-                  </h1>
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4">{slide.title}</h1>
                   <p className="text-lg text-stone-300 mb-8 leading-relaxed">{slide.subtitle}</p>
                   <div className="flex flex-wrap gap-4">
                     <button
-                      onClick={() => (slide.link === 'quote' ? onQuote() : onNavigate(slide.link, slide.link === 'collection' ? { category: 'jewelry-boxes' } : undefined))}
+                      onClick={() => (slide.link === 'quote' ? onQuote() : navigate(slide.link))}
                       className="px-7 py-3.5 bg-gradient-to-r from-sage-600 to-sage-700 text-white rounded-lg font-medium hover:from-sage-700 hover:to-sage-800 transition-all shadow-lg hover:shadow-xl flex items-center gap-2 group"
                     >
                       {slide.cta}
@@ -124,9 +120,7 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
             <button
               key={i}
               onClick={() => setCurrentSlide(i)}
-              className={`h-1.5 rounded-full transition-all ${
-                currentSlide === i ? 'w-8 bg-sage-500' : 'w-2 bg-white/40'
-              }`}
+              className={`h-1.5 rounded-full transition-all ${currentSlide === i ? 'w-8 bg-sage-500' : 'w-2 bg-white/40'}`}
             />
           ))}
         </div>
@@ -156,41 +150,34 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
         </div>
       </section>
 
-      {/* Product Categories */}
+      {/* Product Lines */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <div className="text-xs font-bold text-sage-700 uppercase tracking-widest mb-3">Our Collections</div>
-            <h2 className="text-3xl md:text-4xl font-bold text-stone-900 mb-3">Explore Our Packaging Categories</h2>
+            <div className="text-xs font-bold text-sage-700 uppercase tracking-widest mb-3">Our Products</div>
+            <h2 className="text-3xl md:text-4xl font-bold text-stone-900 mb-3">Explore Packaging Solutions</h2>
             <p className="text-stone-500 max-w-2xl mx-auto">
-              From jewelry boxes to paper bags, discover a full range of premium packaging solutions designed for jewelry brands.
+              Pouches & bags, boxes, and coordinated gift sets — fully customizable for jewelry, fragrance, beauty and fashion brands.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {categories.map((cat, i) => (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {productLines.map((line) => (
               <button
-                key={cat.slug}
-                onClick={() => onNavigate('collection', { category: cat.slug })}
-                className="group relative overflow-hidden rounded-sm bg-[#F0F1ED] aspect-[4/3] text-left"
+                key={line.id}
+                onClick={() => navigate(line.path)}
+                className="group relative overflow-hidden rounded-sm bg-[#F0F1ED] aspect-[4/5] text-left"
               >
-                <img
-                  src={cat.image}
-                  alt={cat.name}
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                />
+                <img src={line.heroImage} alt={line.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
                 <div className="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/30 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <div className="text-xs text-sage-400 font-medium mb-1.5 uppercase tracking-wider">
-                    {cat.groups.reduce((acc, g) => acc + g.items.length, 0)} Products
+                    {line.series.length} Series
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-1">{cat.name}</h3>
+                  <h3 className="text-xl font-bold text-white mb-1">{line.name}</h3>
                   <div className="flex items-center gap-1.5 text-sage-400 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                    Explore Collection <ArrowRight className="w-4 h-4" />
+                    Explore Line <ArrowRight className="w-4 h-4" />
                   </div>
-                </div>
-                <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                  <ChevronRight className="w-5 h-5 text-white" />
                 </div>
               </button>
             ))}
@@ -213,10 +200,7 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
             {whyChooseUs.map((item, i) => {
               const Icon = iconMap[item.icon] || Package;
               return (
-                <div
-                  key={i}
-                  className="bg-white rounded-sm p-6 border border-stone-100 hover:shadow-xl hover:border-sage-200 transition-all group"
-                >
+                <div key={i} className="bg-white rounded-sm p-6 border border-stone-100 hover:shadow-xl hover:border-sage-200 transition-all group">
                   <div className="w-14 h-14 rounded-sm bg-gradient-to-br from-sage-50 to-sage-100 flex items-center justify-center mb-4 group-hover:from-sage-100 group-hover:to-sage-200 transition-colors">
                     <Icon className="w-7 h-7 text-sage-700" />
                   </div>
@@ -237,16 +221,13 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-green-500/20 text-green-300 rounded-full text-xs font-medium mb-5 border border-green-500/30">
                 <Leaf className="w-3.5 h-3.5" /> Eco-Friendly Packaging
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-                Sustainable Packaging That Still Feels Premium
-              </h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">Sustainable Packaging That Still Feels Premium</h2>
               <p className="text-stone-300 mb-8 leading-relaxed">
                 Sustainability should support your brand, not weaken it. ELAPACK offers FSC-certified paper, recycled
-                materials, reusable structures, and lower-impact design options for jewelry brands that want more
-                responsible packaging without losing presentation value.
+                materials, reusable structures, and lower-impact design options without losing presentation value.
               </p>
               <button
-                onClick={() => onNavigate('sustainability')}
+                onClick={() => navigate('/sustainability')}
                 className="px-7 py-3.5 bg-green-600 text-white rounded-lg font-medium hover:bg-green-700 transition-all shadow-lg flex items-center gap-2 group"
               >
                 Explore Sustainable Packaging
@@ -256,34 +237,18 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <div className="rounded-sm overflow-hidden aspect-square">
-                  <img
-                    src="/images/carousel/d8cee77e-bbd9-4f3d-98f2-eaf4f4a1e493-ela-pack.webp"
-                    alt="Eco packaging"
-                    className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500"
-                  />
+                  <img src="/images/carousel/d8cee77e-bbd9-4f3d-98f2-eaf4f4a1e493-ela-pack.webp" alt="Eco packaging" className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500" />
                 </div>
                 <div className="rounded-sm overflow-hidden aspect-[4/3]">
-                  <img
-                    src="/images/carousel/9bf9f36fa19e5053791193d6605b485d.jpg"
-                    alt="Eco packaging"
-                    className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500"
-                  />
+                  <img src="/images/carousel/9bf9f36fa19e5053791193d6605b485d.jpg" alt="Eco packaging" className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500" />
                 </div>
               </div>
               <div className="space-y-4 pt-8">
                 <div className="rounded-sm overflow-hidden aspect-[4/3]">
-                  <img
-                    src="https://images.pexels.com/photos/31438304/pexels-photo-31438304.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Eco packaging"
-                    className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500"
-                  />
+                  <img src="https://images.pexels.com/photos/31438304/pexels-photo-31438304.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Eco packaging" className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500" />
                 </div>
                 <div className="rounded-sm overflow-hidden aspect-square">
-                  <img
-                    src="/images/carousel/b01d0e892b6e007244abdbc30bea7e3e-ela-pack.webp"
-                    alt="Eco packaging"
-                    className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500"
-                  />
+                  <img src="/images/carousel/b01d0e892b6e007244abdbc30bea7e3e-ela-pack.webp" alt="Eco packaging" className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500" />
                 </div>
               </div>
             </div>
@@ -292,65 +257,50 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
       </section>
 
       {/* Featured Products */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex items-end justify-between mb-12">
-            <div>
-              <div className="text-xs font-bold text-sage-700 uppercase tracking-widest mb-3">Featured Products</div>
-              <h2 className="text-3xl md:text-4xl font-bold text-stone-900">Popular Jewelry Packaging</h2>
+      {featuredProducts.length > 0 && (
+        <section className="py-20">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="flex items-end justify-between mb-12">
+              <div>
+                <div className="text-xs font-bold text-sage-700 uppercase tracking-widest mb-3">Featured Products</div>
+                <h2 className="text-3xl md:text-4xl font-bold text-stone-900">Popular Packaging</h2>
+              </div>
+              <button onClick={() => navigate('/pouches')} className="hidden md:flex items-center gap-2 text-sm font-medium text-sage-700 hover:text-sage-900 transition-colors">
+                View All Products <ArrowRight className="w-4 h-4" />
+              </button>
             </div>
-            <button
-              onClick={() => onNavigate('collection', { category: 'jewelry-boxes' })}
-              className="hidden md:flex items-center gap-2 text-sm font-medium text-sage-700 hover:text-sage-900 transition-colors"
-            >
-              View All Products <ArrowRight className="w-4 h-4" />
-            </button>
-          </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {products.slice(0, 8).map((product) => (
-              <button
-                key={product.id}
-                onClick={() => onNavigate('product', { id: product.id })}
-                className="group text-left"
-              >
-                <div className="relative aspect-square rounded-sm overflow-hidden bg-[#F0F1ED] mb-3">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                  />
-                  <div className="absolute inset-0 bg-sage-900/0 group-hover:bg-sage-900/10 transition-colors" />
-                  <div className="absolute bottom-3 left-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                    <div className="bg-white/95 backdrop-blur-sm rounded-lg px-4 py-2.5 text-center text-sm font-medium text-stone-900 hover:bg-sage-700 hover:text-white transition-colors">
-                      View Details
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {featuredProducts.slice(0, 8).map((product) => (
+                <button key={product.id} onClick={() => navigate(`/product/${product.slug}`)} className="group text-left">
+                  <div className="relative aspect-square rounded-sm overflow-hidden bg-[#F0F1ED] mb-3">
+                    <img src={product.image} alt={product.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
+                    <div className="absolute inset-0 bg-sage-900/0 group-hover:bg-sage-900/10 transition-colors" />
+                    <div className="absolute bottom-3 left-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <div className="bg-white/95 backdrop-blur-sm rounded-lg px-4 py-2.5 text-center text-sm font-medium text-stone-900 hover:bg-sage-700 hover:text-white transition-colors">
+                        View Details
+                      </div>
                     </div>
                   </div>
-                </div>
-                <h3 className="text-sm font-medium text-stone-800 line-clamp-2 group-hover:text-sage-700 transition-colors">
-                  {product.name}
-                </h3>
-                <p className="text-xs text-stone-500 mt-1">{product.dimensions}</p>
-              </button>
-            ))}
+                  <h3 className="text-sm font-medium text-stone-800 line-clamp-2 group-hover:text-sage-700 transition-colors">{product.name}</h3>
+                  <p className="text-xs text-stone-500 mt-1">{product.dimensions}</p>
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Trusted By */}
       <section className="py-8 bg-[#F8F8F8] border-y border-stone-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-10">
-            <h2 className="text-2xl font-bold text-stone-900 mb-2">Trusted by Jewelry Brands Worldwide</h2>
+            <h2 className="text-2xl font-bold text-stone-900 mb-2">Trusted by Brands Worldwide</h2>
             <p className="text-sm text-stone-500">From startup launches to long-term supply partnerships</p>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16">
             {brandLogos.map((logo) => (
-              <div
-                key={logo}
-                className="text-2xl font-bold text-stone-300 hover:text-stone-500 transition-colors cursor-default"
-                style={{ fontFamily: 'serif' }}
-              >
+              <div key={logo} className="text-2xl font-bold text-stone-300 hover:text-stone-500 transition-colors cursor-default" style={{ fontFamily: 'serif' }}>
                 {logo}
               </div>
             ))}
@@ -363,10 +313,10 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="text-xs font-bold text-sage-700 uppercase tracking-widest mb-3">Case Studies</div>
-            <h2 className="text-3xl md:text-4xl font-bold text-stone-900 mb-3">Jewelry Brand Packaging</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-stone-900 mb-3">Brand Packaging Solutions</h2>
             <p className="text-stone-500 max-w-2xl mx-auto">
-              From low-MOQ packaging upgrades to fully customized luxury box development, we help jewelry brands solve
-              packaging challenges with practical, scalable solutions.
+              From low-MOQ packaging upgrades to fully customized luxury development, we help brands solve packaging
+              challenges with practical, scalable solutions.
             </p>
           </div>
 
@@ -426,22 +376,16 @@ export default function HomePage({ onNavigate, onQuote }: HomePageProps) {
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-sage-700 to-sage-900 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Elevate Your Jewelry Packaging?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Elevate Your Packaging?</h2>
           <p className="text-sage-100 mb-8 text-lg">
             Get a free consultation and quote from our packaging experts. Low MOQ, free design support, and global delivery.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <button
-              onClick={onQuote}
-              className="px-8 py-4 bg-white text-sage-800 rounded-lg font-bold hover:bg-sage-50 transition-all shadow-lg flex items-center gap-2 group"
-            >
+            <button onClick={onQuote} className="px-8 py-4 bg-white text-sage-800 rounded-lg font-bold hover:bg-sage-50 transition-all shadow-lg flex items-center gap-2 group">
               Request a Free Quote
               <ArrowRight className="w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
             </button>
-            <button
-              onClick={() => onNavigate('collection', { category: 'jewelry-boxes' })}
-              className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-lg font-bold border border-white/30 hover:bg-white/20 transition-all"
-            >
+            <button onClick={() => navigate('/boxes')} className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-lg font-bold border border-white/30 hover:bg-white/20 transition-all">
               Browse Products
             </button>
           </div>

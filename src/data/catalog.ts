@@ -29,45 +29,7 @@ export const categories: Category[] = [
     name: 'Jewelry Boxes',
     slug: 'jewelry-boxes',
     image: '/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39 copy.png',
-    groups: [
-      {
-        label: 'By Material',
-        items: [
-          { name: 'Leatherette Jewelry Boxes', slug: 'leatherette' },
-          { name: 'Suede Jewelry Boxes', slug: 'suede' },
-          { name: 'Hinged Jewelry Boxes', slug: 'hinged' },
-          { name: 'Velvet Jewelry Boxes', slug: 'velvet' },
-          { name: 'Wooden Jewelry Boxes', slug: 'wooden' },
-          { name: 'Satin Finish Jewelry Boxes', slug: 'satin-finish' },
-          { name: 'Cardboard Boxes', slug: 'cardboard' },
-          { name: 'Genuine Leather Jewelry Boxes', slug: 'genuine-leather' },
-          { name: 'Fabric Jewelry Boxes', slug: 'fabric' },
-        ],
-      },
-      {
-        label: 'By Usage',
-        items: [
-          { name: 'Ring Boxes', slug: 'ring-boxes' },
-          { name: 'Necklace Boxes', slug: 'necklace-boxes' },
-          { name: 'Earring Boxes', slug: 'earring-boxes' },
-          { name: 'Bracelet Boxes', slug: 'bracelet-boxes' },
-          { name: 'Pendant Boxes', slug: 'pendant-boxes' },
-          { name: 'Watch Boxes', slug: 'watch-boxes' },
-          { name: 'Chain Boxes', slug: 'chain-boxes' },
-        ],
-      },
-      {
-        label: 'By Style',
-        items: [
-          { name: 'Luxury Jewelry Boxes', slug: 'luxury' },
-          { name: 'Minimalist Jewelry Boxes', slug: 'minimalist' },
-          { name: 'Vintage Jewelry Boxes', slug: 'vintage' },
-          { name: 'Magnetic Closure Boxes', slug: 'magnetic' },
-          { name: 'Drawer Jewelry Boxes', slug: 'drawer' },
-          { name: 'Flip-Top Jewelry Boxes', slug: 'flip-top' },
-        ],
-      },
-    ],
+    groups: [],
   },
   {
     name: 'Gift Boxes',
