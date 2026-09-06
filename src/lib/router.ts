@@ -42,13 +42,22 @@ export function navigate(path: string) {
 }
 
 // Subscribe to popstate events so components re-render on back/forward.
+// IMPORTANT: getSnapshot must return a cached stable reference, otherwise
+// useSyncExternalStore treats every render as a store change and loops forever
+// (React error #185). `cachedRoute` is only replaced inside the popstate handler.
+let cachedRoute: Route = currentRoute();
+
 function subscribe(cb: () => void) {
-  window.addEventListener('popstate', cb);
-  return () => window.removeEventListener('popstate', cb);
+  const handler = () => {
+    cachedRoute = currentRoute();
+    cb();
+  };
+  window.addEventListener('popstate', handler);
+  return () => window.removeEventListener('popstate', handler);
 }
 
 export function useRoute(): Route {
-  return useSyncExternalStore(subscribe, currentRoute);
+  return useSyncExternalStore(subscribe, () => cachedRoute);
 }
 
 // Breadcrumb-friendly helpers
