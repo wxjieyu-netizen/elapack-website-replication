@@ -41,15 +41,30 @@ export function navigate(path: string) {
   window.scrollTo({ top: 0 });
 }
 
-// Subscribe to popstate events so components re-render on back/forward.
-// IMPORTANT: getSnapshot must return a cached stable reference, otherwise
-// useSyncExternalStore treats every render as a store change and loops forever
-// (React error #185). `cachedRoute` is only replaced inside the popstate handler.
+// Route store with a cached snapshot.
+// IMPORTANT for useSyncExternalStore:
+//  - getSnapshot MUST return a stable reference while the path is unchanged,
+//    otherwise React treats every render as a store change and loops forever
+//    (React error #185).
+//  - The snapshot is re-resolved lazily whenever the pathname changes (including
+//    a history.replaceState done by the 404-fallback in main.tsx BEFORE the
+//    first render), so deep links like /pouches render the right page instead
+//    of falling back to the home snapshot captured at module load.
+let cachedPath = '';
 let cachedRoute: Route = currentRoute();
+
+function sync(): Route {
+  const path = window.location.pathname;
+  if (path !== cachedPath) {
+    cachedPath = path;
+    cachedRoute = parsePath(path);
+  }
+  return cachedRoute;
+}
 
 function subscribe(cb: () => void) {
   const handler = () => {
-    cachedRoute = currentRoute();
+    sync();
     cb();
   };
   window.addEventListener('popstate', handler);
@@ -57,7 +72,7 @@ function subscribe(cb: () => void) {
 }
 
 export function useRoute(): Route {
-  return useSyncExternalStore(subscribe, () => cachedRoute);
+  return useSyncExternalStore(subscribe, sync);
 }
 
 // Breadcrumb-friendly helpers
