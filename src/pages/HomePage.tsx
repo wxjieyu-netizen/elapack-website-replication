@@ -71,7 +71,9 @@ export default function HomePage({ onQuote }: HomePageProps) {
   }, [slides.length]);
 
   const featuredSeries = productLines.flatMap((l) => l.series).filter((s) => s.products.length > 0).slice(0, 4);
-  const featuredProducts = featuredSeries.flatMap((s) => s.products.map((pid) => products.find((p) => p.id === pid))).filter(Boolean);
+  // filter(Boolean) drops the undefined entries at runtime but does not narrow the
+  // type, so use an explicit predicate to tell TS the result is Product[].
+  const featuredProducts = featuredSeries.flatMap((s) => s.products.map((pid) => products.find((p) => p.id === pid))).filter((p): p is NonNullable<typeof p> => Boolean(p));
 
   return (
     <div>
