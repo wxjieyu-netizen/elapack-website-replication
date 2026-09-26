@@ -1,16 +1,9 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App.tsx';
-import './index.css';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-// Restore a deep link after GitHub Pages 404 fallback.
-const redirect = sessionStorage.getItem('spaRedirect');
-if (redirect) {
-  sessionStorage.removeItem('spaRedirect');
-  window.history.replaceState({}, '', redirect);
-}
+import App from "./App";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <App />
   </StrictMode>

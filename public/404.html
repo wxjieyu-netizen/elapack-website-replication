@@ -2,18 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Redirecting…</title>
-    <script>
-      (function () {
-        var path = location.pathname;
-        if (path && path !== '/404.html' && path !== '/index.html') {
-          sessionStorage.setItem('spaRedirect', path);
-        }
-        location.replace('/');
-      })();
-    </script>
+    <title>Page Not Found | ELAPACK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Montserrat", system-ui, sans-serif;
+        background: #f8f8f8;
+        color: #2a2a2a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      .box { text-align: center; max-width: 30rem; padding: 2rem; }
+      .code { font-size: 4rem; font-weight: 300; color: #a3b18a; letter-spacing: 0.1em; }
+      h1 { font-size: 1.25rem; font-weight: 600; margin: 1rem 0 0.5rem; }
+      p { color: #808080; line-height: 1.7; margin: 0 0 1.5rem; }
+      a {
+        display: inline-block; padding: 0.75rem 2rem; background: #5a5a5a;
+        color: #fff; text-decoration: none; letter-spacing: 0.12em;
+        font-size: 0.75rem; text-transform: uppercase; transition: background 0.2s;
+      }
+      a:hover { background: #a3b18a; }
+    </style>
   </head>
   <body>
-    <noscript>Redirecting to <a href="/">homepage</a>…</noscript>
+    <div class="box">
+      <div class="code">404</div>
+      <h1>Page not found</h1>
+      <p>The page you're looking for doesn't exist or has been moved.</p>
+      <a href="/">Return to ELAPACK</a>
+    </div>
+    <script>
+      // Old deep links (/pouches, /product/xyz, …) come through here because
+      // GitHub Pages has no rewrite rules. Hand them to the redirect map or
+      // the SPA router instead of dumping the user on a bare 404.
+      (function () {
+        var path = location.pathname;
+        if (path === "/" || path === "/index.html" || path === "/404.html") return;
+        try {
+          var map = JSON.parse(sessionStorage.getItem("redirectMap") || "null");
+          if (map && map[path]) {
+            location.replace(map[path]);
+            return;
+          }
+        } catch (e) {}
+        sessionStorage.setItem("spaRedirect", path);
+        location.replace("/");
+      })();
+    </script>
   </body>
 </html>
