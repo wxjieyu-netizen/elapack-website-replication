@@ -58,7 +58,7 @@ export const products: Product[] = [
       { label: "Insert", value: "Foam, EVA, molded plastic, recycled paper" },
       { label: "Surface Finish", value: "Matte / glossy / debossed / foil stamping / spot UV" },
       { label: "Closure Type", value: "Magnetic / snap / tuck flap / ribbon tie / drawer" },
-      { label: "Eco-Friendly", value: "Recyclable / biodegradable / reusable" },
+      { label: "Eco-Friendly", value: "Recyclable / reusable" },
     ],
     customizationOptions: [
       "Custom exterior materials and colors",
@@ -77,7 +77,7 @@ export const products: Product[] = [
       "A compact white plastic jewelry box inspired by Pandora-style packaging. Perfect for bracelets and small jewelry gifts, combining a clean minimalist look with durable protection. Ideal for retail display and gifting occasions.",
     image: "/images/carousel/pandora-box.png",
     materials: "Plastic exterior, velvet interior insert",
-    moq: "1000 pcs",
+    moq: "500 pcs",
     leadTime: "15–25 days",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
@@ -203,7 +203,7 @@ export const products: Product[] = [
       "A luxury gift box set with satin ribbon closure, designed for premium gifting occasions. The rigid box construction with matte finish and decorative ribbon creates an unforgettable unboxing experience. Perfect for corporate gifts, weddings, and high-end retail.",
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
-    moq: "1000 pcs",
+    moq: "500 pcs",
     leadTime: "15–25 days",
     industries: ["Gift", "Beauty", "Fragrance"],
     features: [
@@ -246,7 +246,7 @@ export const products: Product[] = [
       "A sleek magnetic closure gift box with flip-top design. The hidden magnetic mechanism provides a clean look while keeping the lid securely closed. Ideal for jewelry, cosmetics, and small luxury items.",
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
-    moq: "1000 pcs",
+    moq: "500 pcs",
     leadTime: "15–25 days",
     industries: ["Jewelry", "Beauty", "Gift", "Fashion"],
     features: [
@@ -323,10 +323,10 @@ export const products: Product[] = [
   },
   {
     slug: "cotton-jewelry-pouch",
-    name: "Organic Cotton Pouch",
+    name: "Cotton Drawstring Pouch",
     category: "Pouches & Bags",
     shortDesc:
-      "Eco-friendly natural cotton drawstring pouch — biodegradable, printable, gently protective.",
+      "Natural cotton drawstring pouch — eco-friendly, printable, gently protective.",
     description:
       "An eco-friendly cotton drawstring pouch perfect for jewelry storage and gifting. Made from natural cotton fabric with a soft texture. Ideal for brands looking for sustainable packaging solutions.",
     image: "/images/carousel/cotton-pouch.png",
@@ -340,7 +340,7 @@ export const products: Product[] = [
         desc: "Unbleached cotton fabric with a soft, natural hand feel.",
       },
       {
-        title: "Biodegradable & Recyclable",
+        title: "Natural & Recyclable",
         desc: "A genuinely circular packaging option for eco-positioned brands.",
       },
       {
@@ -355,11 +355,11 @@ export const products: Product[] = [
     specs: [
       { label: "Dimensions", value: '5" × 5" (customizable)' },
       { label: "String Type", value: "Cotton cord" },
-      { label: "Eco-Friendly", value: "Biodegradable / recyclable" },
+      { label: "Eco-Friendly", value: "Recyclable" },
     ],
     customizationOptions: [
       "Water-based ink printing",
-      "Organic (GOTS) cotton upgrade",
+      "Natural cotton upgrade",
       "Custom sizes and drawcord colors",
     ],
   },
@@ -455,12 +455,12 @@ export const products: Product[] = [
       "A durable kraft paper shopping bag with twisted paper handles. Perfect for retail packaging, gift wrapping, and eco-conscious brands. Custom logo printing available on natural kraft background.",
     image: "/images/carousel/kraft-bag.png",
     materials: "Recycled kraft paper, twisted paper handles",
-    moq: "1000 pcs",
+    moq: "200 pcs",
     leadTime: "10–20 days",
     industries: ["Fashion", "Beauty", "Gift"],
     features: [
       {
-        title: "100% Recycled Kraft",
+        title: "Recycled Kraft",
         desc: "Natural kraft substrate with visible fiber texture and eco story.",
       },
       {
@@ -479,7 +479,7 @@ export const products: Product[] = [
     specs: [
       { label: "Dimensions (L × W × H)", value: '10" × 8" × 12" (customizable)' },
       { label: "Handle Type", value: "Twisted paper / cotton cord" },
-      { label: "Eco-Friendly", value: "Recyclable / biodegradable" },
+      { label: "Eco-Friendly", value: "Recyclable" },
     ],
     customizationOptions: [
       "Custom sizes and paper weights",

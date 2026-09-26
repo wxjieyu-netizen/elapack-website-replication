@@ -2,11 +2,10 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 
 const milestones = [
-  { year: "2010", title: "Founded", desc: "Established as a packaging workshop with 12 artisans." },
-  { year: "2014", title: "First European Client", desc: "Began exporting to luxury brands in France and Italy." },
-  { year: "2018", title: "Design Studio", desc: "Opened in-house creative studio for brand-led packaging design." },
-  { year: "2021", title: "Material R&D Lab", desc: "Launched dedicated research lab for sustainable and premium materials." },
-  { year: "2024", title: "200+ Brand Partners", desc: "Now serving over 200 brands across 30+ countries worldwide." },
+  { year: "2018", title: "Founded", desc: "ELAPACK established as a custom packaging manufacturer for jewelry, eyewear, and gift brands." },
+  { year: "Today", title: "3 Production Lines", desc: "Three dedicated production lines for textile bags, rigid boxes, and custom gift sets." },
+  { year: "Today", title: "ISO 9001 Certified", desc: "Quality management system certified for the production and sales of paper and textile packaging products." },
+  { year: "Today", title: "Serving EU & US Brands", desc: "Exporting to mid-to-high-end brands across Europe and North America, with air and sea freight delivery." },
 ];
 
 const values = [
@@ -97,17 +96,16 @@ export default function About() {
                 From workshop to global partner.
               </h2>
               <p className="about-text">
-                ELAPACK began as a small workshop with a singular belief:
-                that packaging is not a container, but a brand's first
-                handshake. Over fifteen years, we have grown into a
+                Since 2018, ELAPACK has believed that packaging is not a
+                container, but a brand's first handshake. We have grown into a
                 full-service packaging partner for luxury brands across Europe
                 and North America.
               </p>
               <p className="about-text">
-                Today, our integrated model spans creative design, material
-                research and development, precision manufacturing, and global
-                logistics. We serve over 200 brand partners in 30+ countries —
-                from independent ateliers to established luxury houses.
+                Today, our integrated model spans creative design, precision
+                manufacturing across three production lines, and global
+                logistics — serving clients from independent ateliers to
+                established brands.
               </p>
               <p className="about-text">
                 We hold a rigorous quality management system and a sharp
@@ -201,16 +199,16 @@ export default function About() {
         <div className="container">
           <div className="materials-grid">
             <div className="materials-content reveal">
-              <p className="eyebrow">Material Innovation</p>
+              <p className="eyebrow">Material Options</p>
               <h2 className="section-title" style={{ marginTop: "1rem" }}>
                 Sourced with intention.
               </h2>
               <p className="about-text">
-                Our material R&D lab explores the frontier between luxury and
-                sustainability. We develop and source FSC-certified papers,
-                recycled textiles, plant-based inks, and biodegradable
-                laminations — all meeting the strictest European and North
-                American standards.
+                We work with a curated range of premium materials — velvet,
+                suede, linen, cotton, satin, and rigid paperboard —
+                and offer eco-friendly options such as recycled kraft and
+                natural textiles. Certification documents are available on
+                request.
               </p>
               <p className="about-text">
                 Because the world's finest brands demand materials that feel
@@ -234,7 +232,7 @@ export default function About() {
           <div className="section-header-center reveal">
             <p className="eyebrow">Our Journey</p>
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-              Fifteen Years of Craft
+              Our Journey Since 2018
             </h2>
           </div>
           <div className="timeline">

@@ -4,7 +4,7 @@ const articles = [
   {
     title: "The Future of Eco-Luxury Packaging",
     excerpt:
-      "How recycled textiles, plant-based inks, and FSC-certified papers are redefining what premium packaging can be — without compromising on aesthetics.",
+      "How recycled kraft, natural cotton, and linen are redefining what premium packaging can be — without compromising on aesthetics.",
     image: "/news-eco.webp",
     date: "August 2026",
     category: "Sustainability",

@@ -211,7 +211,7 @@ export default function Home() {
                   loop
                   playsInline
                   poster="/factory-video-poster.webp"
-                  aria-label="ELA PACK premium packaging facility"
+                  aria-label="ELAPACK premium packaging facility"
                   onPlay={() => setIntroPaused(false)}
                   onPause={() => setIntroPaused(true)}
                 >
@@ -258,7 +258,7 @@ export default function Home() {
               </div>
             </div>
             <div className="intro-right reveal reveal-delay-2">
-              <p className="eyebrow">About ELA PACK</p>
+              <p className="eyebrow">About ELAPACK</p>
               <h2 className="section-title" style={{ marginTop: "1rem" }}>
                 A builder of packaging aesthetics for the world's finest brands.
               </h2>
@@ -267,7 +267,7 @@ export default function Home() {
                 rooted in the European and American markets. From exquisite
                 gift boxes to luxury shopping bags, we provide one-stop
                 packaging solutions for global high-end brands — covering
-                creative design, material R&D, and lean production.
+                creative design, custom materials, and lean production.
               </p>
               <p className="intro-text">
                 Our product matrix spans premium gift boxes, luxury shopping
@@ -381,11 +381,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== Why ELA PACK ===== */}
+      {/* ===== Why ELAPACK ===== */}
       <section className="section advantages-section">
         <div className="container">
           <div className="section-header-center reveal">
-            <p className="eyebrow">Why ELA PACK</p>
+            <p className="eyebrow">Why ELAPACK</p>
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
               Your Brand Strategy Partner
             </h2>

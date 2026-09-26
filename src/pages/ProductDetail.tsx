@@ -3,10 +3,10 @@ import { Link, useParams } from "react-router-dom";
 import { getProductBySlug, products } from "../data/products";
 
 const trustBadges = [
-  { icon: "M", label: "100% Sustainable FSC Certified" },
+  { icon: "M", label: "Custom Pantone Matching" },
   { icon: "C", label: "100% Customization" },
   { icon: "D", label: "Design & Samples" },
-  { icon: "M", label: "Start From MOQ 1000pcs" },
+  { icon: "M", label: "Low MOQ From 200/500 pcs" },
 ];
 
 const processSteps = [
@@ -24,7 +24,7 @@ const processSteps = [
 const productFaqs = [
   {
     q: "What materials are available for custom pouches?",
-    a: "We offer high-quality silk, organic cotton, velvet, linen, and satin. Each material can be customized with various finishes such as matte, glossy, or textured to match your brand aesthetic.",
+    a: "We offer high-quality silk, cotton, velvet, linen, and satin. Each material can be customized with various finishes such as matte, glossy, or textured to match your brand aesthetic.",
   },
   {
     q: "Can I customize the size and shape of the pouches?",
@@ -32,7 +32,7 @@ const productFaqs = [
   },
   {
     q: "Are the pouches eco-friendly?",
-    a: "Yes. We offer FSC-certified materials, GOTS-certified organic cotton, and fully biodegradable options. Our plant-based inks and recycled textiles support circularity without compromising premium presentation.",
+    a: "We offer eco-friendly material options including recycled kraft paper, natural cotton, and linen. Certification documents are available on request.",
   },
   {
     q: "How long does the production process take?",

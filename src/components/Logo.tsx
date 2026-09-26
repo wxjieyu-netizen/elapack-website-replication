@@ -1,6 +1,6 @@
 export default function Logo() {
   return (
-    <span className="logo" aria-label="ELA PACK">
+    <span className="logo" aria-label="ELAPACK">
       <span className="logo-name" aria-hidden="true">
         <span className="logo-letter">E</span>
         <span className="logo-letter">L</span>

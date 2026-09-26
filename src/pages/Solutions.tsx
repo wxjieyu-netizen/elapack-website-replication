@@ -36,8 +36,8 @@ const solutionContent: Record<
     image: "/about-materials.webp",
     points: [
       {
-        title: "FSC-Certified Papers",
-        desc: "Sustainably sourced rigid board, art paper, textured paper, and kraft materials meeting European standards.",
+        title: "Premium Papers & Board",
+        desc: "Rigid board, art paper, textured paper, and kraft materials. Certification documents available on request.",
       },
       {
         title: "Luxury Textiles",
@@ -82,20 +82,20 @@ const solutionContent: Record<
     image: "/news-eco.webp",
     points: [
       {
-        title: "FSC-Certified Materials",
-        desc: "Paper and board from responsibly managed forests, certified to meet international chain-of-custody standards.",
+        title: "Eco-Friendly Materials",
+        desc: "Recycled kraft paper, natural cotton, and linen options. Certification documents available on request.",
       },
       {
-        title: "Recycled & Recyclable",
-        desc: "Recycled paper, recycled textiles, and fully recyclable packaging structures designed for circularity.",
-      },
-      {
-        title: "Plant-Based Inks",
-        desc: "Soy-based and plant-based inks that reduce environmental impact without compromising print quality.",
+        title: "Recyclable Structures",
+        desc: "Packaging structures designed to be recyclable where local facilities allow.",
       },
       {
         title: "Reusable Structures",
         desc: "Packaging designed to be kept and reused — from linen wraps to keepsake boxes that extend product lifecycle.",
+      },
+      {
+        title: "Responsible Sourcing",
+        desc: "We work with suppliers who can provide material documentation and certifications upon request.",
       },
     ],
   },

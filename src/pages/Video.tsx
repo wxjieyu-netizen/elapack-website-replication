@@ -77,8 +77,8 @@ const deliveryFeatures = [
     desc: "Our global production capabilities and efficient logistics network ensure your custom packaging is delivered on time, every time.",
   },
   {
-    title: "Strategic Global Facilities",
-    desc: "With production facilities and warehousing across Asia, we provide local support to streamline your supply chain.",
+    title: "Own Factory, 3 Production Lines",
+    desc: "Our own facility runs three dedicated production lines for textile bags, rigid boxes, and gift sets — with direct air and sea freight to Europe and North America.",
   },
   {
     title: "Competitive Global Reach",
@@ -97,7 +97,7 @@ const faqs = [
   },
   {
     q: "Do you provide eco-friendly packaging options?",
-    a: "Yes. We offer FSC-certified papers, recycled textiles, plant-based inks, and fully recyclable structures designed for circularity without compromising on premium presentation.",
+    a: "We offer eco-friendly options including recycled kraft paper, natural cotton, and linen, plus recyclable structures where local facilities allow. Certification documents are available on request.",
   },
   {
     q: "What is the process for getting started with a custom project?",

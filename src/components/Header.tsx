@@ -45,7 +45,7 @@ export default function Header() {
     <>
       <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
         <div className="container-wide header-inner">
-          <Link to="/" className="header-logo" aria-label="ELA PACK home">
+          <Link to="/" className="header-logo" aria-label="ELAPACK home">
             <Logo />
           </Link>
 

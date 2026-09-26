@@ -41,7 +41,7 @@ var import_react_router_dom = require("react-router-dom");
 // src/components/Logo.tsx
 var import_jsx_runtime = require("react/jsx-runtime");
 function Logo() {
-  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo", "aria-label": "ELA PACK", children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { className: "logo-name", "aria-hidden": "true", children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo", "aria-label": "ELAPACK", children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { className: "logo-name", "aria-hidden": "true", children: [
     /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo-letter", children: "E" }),
     /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo-letter", children: "L" }),
     /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo-letter logo-letter-accent", children: "A" }),
@@ -89,7 +89,7 @@ var products = [
       { label: "Insert", value: "Foam, EVA, molded plastic, recycled paper" },
       { label: "Surface Finish", value: "Matte / glossy / debossed / foil stamping / spot UV" },
       { label: "Closure Type", value: "Magnetic / snap / tuck flap / ribbon tie / drawer" },
-      { label: "Eco-Friendly", value: "Recyclable / biodegradable / reusable" }
+      { label: "Eco-Friendly", value: "Recyclable / reusable" }
     ],
     customizationOptions: [
       "Custom exterior materials and colors",
@@ -106,7 +106,7 @@ var products = [
     description: "A compact white plastic jewelry box inspired by Pandora-style packaging. Perfect for bracelets and small jewelry gifts, combining a clean minimalist look with durable protection. Ideal for retail display and gifting occasions.",
     image: "/images/carousel/pandora-box.png",
     materials: "Plastic exterior, velvet interior insert",
-    moq: "1000 pcs",
+    moq: "500 pcs",
     leadTime: "15\u201325 days",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
@@ -226,7 +226,7 @@ var products = [
     description: "A luxury gift box set with satin ribbon closure, designed for premium gifting occasions. The rigid box construction with matte finish and decorative ribbon creates an unforgettable unboxing experience. Perfect for corporate gifts, weddings, and high-end retail.",
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
-    moq: "1000 pcs",
+    moq: "500 pcs",
     leadTime: "15\u201325 days",
     industries: ["Gift", "Beauty", "Fragrance"],
     features: [
@@ -267,7 +267,7 @@ var products = [
     description: "A sleek magnetic closure gift box with flip-top design. The hidden magnetic mechanism provides a clean look while keeping the lid securely closed. Ideal for jewelry, cosmetics, and small luxury items.",
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
-    moq: "1000 pcs",
+    moq: "500 pcs",
     leadTime: "15\u201325 days",
     industries: ["Jewelry", "Beauty", "Gift", "Fashion"],
     features: [
@@ -342,9 +342,9 @@ var products = [
   },
   {
     slug: "cotton-jewelry-pouch",
-    name: "Organic Cotton Pouch",
+    name: "Cotton Drawstring Pouch",
     category: "Pouches & Bags",
-    shortDesc: "Eco-friendly natural cotton drawstring pouch \u2014 biodegradable, printable, gently protective.",
+    shortDesc: "Natural cotton drawstring pouch \u2014 eco-friendly, printable, gently protective.",
     description: "An eco-friendly cotton drawstring pouch perfect for jewelry storage and gifting. Made from natural cotton fabric with a soft texture. Ideal for brands looking for sustainable packaging solutions.",
     image: "/images/carousel/cotton-pouch.png",
     materials: "Natural cotton, cotton cord",
@@ -357,7 +357,7 @@ var products = [
         desc: "Unbleached cotton fabric with a soft, natural hand feel."
       },
       {
-        title: "Biodegradable & Recyclable",
+        title: "Natural & Recyclable",
         desc: "A genuinely circular packaging option for eco-positioned brands."
       },
       {
@@ -372,11 +372,11 @@ var products = [
     specs: [
       { label: "Dimensions", value: '5" \xD7 5" (customizable)' },
       { label: "String Type", value: "Cotton cord" },
-      { label: "Eco-Friendly", value: "Biodegradable / recyclable" }
+      { label: "Eco-Friendly", value: "Recyclable" }
     ],
     customizationOptions: [
       "Water-based ink printing",
-      "Organic (GOTS) cotton upgrade",
+      "Natural cotton upgrade",
       "Custom sizes and drawcord colors"
     ]
   },
@@ -466,12 +466,12 @@ var products = [
     description: "A durable kraft paper shopping bag with twisted paper handles. Perfect for retail packaging, gift wrapping, and eco-conscious brands. Custom logo printing available on natural kraft background.",
     image: "/images/carousel/kraft-bag.png",
     materials: "Recycled kraft paper, twisted paper handles",
-    moq: "1000 pcs",
+    moq: "200 pcs",
     leadTime: "10\u201320 days",
     industries: ["Fashion", "Beauty", "Gift"],
     features: [
       {
-        title: "100% Recycled Kraft",
+        title: "Recycled Kraft",
         desc: "Natural kraft substrate with visible fiber texture and eco story."
       },
       {
@@ -490,7 +490,7 @@ var products = [
     specs: [
       { label: "Dimensions (L \xD7 W \xD7 H)", value: '10" \xD7 8" \xD7 12" (customizable)' },
       { label: "Handle Type", value: "Twisted paper / cotton cord" },
-      { label: "Eco-Friendly", value: "Recyclable / biodegradable" }
+      { label: "Eco-Friendly", value: "Recyclable" }
     ],
     customizationOptions: [
       "Custom sizes and paper weights",
@@ -597,7 +597,7 @@ function Header() {
   };
   return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("header", { className: `site-header ${scrolled ? "is-scrolled" : ""}`, children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "container-wide header-inner", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_react_router_dom.Link, { to: "/", className: "header-logo", "aria-label": "ELA PACK home", children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Logo, {}) }),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_react_router_dom.Link, { to: "/", className: "header-logo", "aria-label": "ELAPACK home", children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Logo, {}) }),
       /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(
         "nav",
         {
@@ -1064,7 +1064,7 @@ function Home() {
               loop: true,
               playsInline: true,
               poster: "/factory-video-poster.webp",
-              "aria-label": "ELA PACK premium packaging facility",
+              "aria-label": "ELAPACK premium packaging facility",
               onPlay: () => setIntroPaused(false),
               onPause: () => setIntroPaused(true),
               children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("source", { src: "/videos/factory-tour.mp4", type: "video/mp4" })
@@ -1119,9 +1119,9 @@ function Home() {
         ] })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "intro-right reveal reveal-delay-2", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "eyebrow", children: "About ELA PACK" }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "eyebrow", children: "About ELAPACK" }),
         /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "A builder of packaging aesthetics for the world's finest brands." }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "intro-text", children: "We are a trade-and-manufacturing integrated enterprise deeply rooted in the European and American markets. From exquisite gift boxes to luxury shopping bags, we provide one-stop packaging solutions for global high-end brands \u2014 covering creative design, material R&D, and lean production." }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "intro-text", children: "We are a trade-and-manufacturing integrated enterprise deeply rooted in the European and American markets. From exquisite gift boxes to luxury shopping bags, we provide one-stop packaging solutions for global high-end brands \u2014 covering creative design, custom materials, and lean production." }),
         /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "intro-text", children: "Our product matrix spans premium gift boxes, luxury shopping bags, custom ribbons, textile fabric packaging, and complete brand collections \u2014 serving jewelry, eyewear, beauty, fragrance, gifting, and fashion brands with minimalist, sophisticated, and highly distinctive packaging." }),
         /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "intro-actions", children: [
           /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/about", className: "text-link", children: [
@@ -1204,7 +1204,7 @@ function Home() {
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("section", { className: "section advantages-section", children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "eyebrow", children: "Why ELA PACK" }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "eyebrow", children: "Why ELAPACK" }),
         /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Your Brand Strategy Partner" }),
         /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "section-subtitle", children: "Flexible sourcing, technical review, export coordination, and responsive support from concept to delivery." })
       ] }),
@@ -1444,10 +1444,10 @@ var import_react6 = require("react");
 var import_react_router_dom8 = require("react-router-dom");
 var import_jsx_runtime7 = require("react/jsx-runtime");
 var trustBadges = [
-  { icon: "M", label: "100% Sustainable FSC Certified" },
+  { icon: "M", label: "Custom Pantone Matching" },
   { icon: "C", label: "100% Customization" },
   { icon: "D", label: "Design & Samples" },
-  { icon: "M", label: "Start From MOQ 1000pcs" }
+  { icon: "M", label: "Low MOQ From 200/500 pcs" }
 ];
 var processSteps = [
   { step: "01", title: "Establish Contact" },
@@ -1463,7 +1463,7 @@ var processSteps = [
 var productFaqs = [
   {
     q: "What materials are available for custom pouches?",
-    a: "We offer high-quality silk, organic cotton, velvet, linen, and satin. Each material can be customized with various finishes such as matte, glossy, or textured to match your brand aesthetic."
+    a: "We offer high-quality silk, cotton, velvet, linen, and satin. Each material can be customized with various finishes such as matte, glossy, or textured to match your brand aesthetic."
   },
   {
     q: "Can I customize the size and shape of the pouches?",
@@ -1471,7 +1471,7 @@ var productFaqs = [
   },
   {
     q: "Are the pouches eco-friendly?",
-    a: "Yes. We offer FSC-certified materials, GOTS-certified organic cotton, and fully biodegradable options. Our plant-based inks and recycled textiles support circularity without compromising premium presentation."
+    a: "We offer eco-friendly material options including recycled kraft paper, natural cotton, and linen. Certification documents are available on request."
   },
   {
     q: "How long does the production process take?",
@@ -1984,8 +1984,8 @@ var solutionContent = {
     image: "/about-materials.webp",
     points: [
       {
-        title: "FSC-Certified Papers",
-        desc: "Sustainably sourced rigid board, art paper, textured paper, and kraft materials meeting European standards."
+        title: "Premium Papers & Board",
+        desc: "Rigid board, art paper, textured paper, and kraft materials. Certification documents available on request."
       },
       {
         title: "Luxury Textiles",
@@ -2030,20 +2030,20 @@ var solutionContent = {
     image: "/news-eco.webp",
     points: [
       {
-        title: "FSC-Certified Materials",
-        desc: "Paper and board from responsibly managed forests, certified to meet international chain-of-custody standards."
+        title: "Eco-Friendly Materials",
+        desc: "Recycled kraft paper, natural cotton, and linen options. Certification documents available on request."
       },
       {
-        title: "Recycled & Recyclable",
-        desc: "Recycled paper, recycled textiles, and fully recyclable packaging structures designed for circularity."
-      },
-      {
-        title: "Plant-Based Inks",
-        desc: "Soy-based and plant-based inks that reduce environmental impact without compromising print quality."
+        title: "Recyclable Structures",
+        desc: "Packaging structures designed to be recyclable where local facilities allow."
       },
       {
         title: "Reusable Structures",
         desc: "Packaging designed to be kept and reused \u2014 from linen wraps to keepsake boxes that extend product lifecycle."
+      },
+      {
+        title: "Responsible Sourcing",
+        desc: "We work with suppliers who can provide material documentation and certifications upon request."
       }
     ]
   }
@@ -2138,11 +2138,10 @@ var import_react9 = require("react");
 var import_react_router_dom11 = require("react-router-dom");
 var import_jsx_runtime10 = require("react/jsx-runtime");
 var milestones = [
-  { year: "2010", title: "Founded", desc: "Established as a packaging workshop with 12 artisans." },
-  { year: "2014", title: "First European Client", desc: "Began exporting to luxury brands in France and Italy." },
-  { year: "2018", title: "Design Studio", desc: "Opened in-house creative studio for brand-led packaging design." },
-  { year: "2021", title: "Material R&D Lab", desc: "Launched dedicated research lab for sustainable and premium materials." },
-  { year: "2024", title: "200+ Brand Partners", desc: "Now serving over 200 brands across 30+ countries worldwide." }
+  { year: "2018", title: "Founded", desc: "ELAPACK established as a custom packaging manufacturer for jewelry, eyewear, and gift brands." },
+  { year: "Today", title: "3 Production Lines", desc: "Three dedicated production lines for textile bags, rigid boxes, and custom gift sets." },
+  { year: "Today", title: "ISO 9001 Certified", desc: "Quality management system certified for the production and sales of paper and textile packaging products." },
+  { year: "Today", title: "Serving EU & US Brands", desc: "Exporting to mid-to-high-end brands across Europe and North America, with air and sea freight delivery." }
 ];
 var values = [
   {
@@ -2207,8 +2206,8 @@ function About() {
       /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "about-story-text reveal reveal-delay-2", children: [
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Our Story" }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "From workshop to global partner." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "ELAPACK began as a small workshop with a singular belief: that packaging is not a container, but a brand's first handshake. Over fifteen years, we have grown into a full-service packaging partner for luxury brands across Europe and North America." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Today, our integrated model spans creative design, material research and development, precision manufacturing, and global logistics. We serve over 200 brand partners in 30+ countries \u2014 from independent ateliers to established luxury houses." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Since 2018, ELAPACK has believed that packaging is not a container, but a brand's first handshake. We have grown into a full-service packaging partner for luxury brands across Europe and North America." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Today, our integrated model spans creative design, precision manufacturing across three production lines, and global logistics \u2014 serving clients from independent ateliers to established brands." }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We hold a rigorous quality management system and a sharp understanding of international markets. We are not just a producer \u2014 we are your brand strategy partner, committed to translating your design vision into tangible, market-ready art." })
       ] })
     ] }) }) }),
@@ -2274,9 +2273,9 @@ function About() {
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-materials", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "materials-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "materials-content reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Material Innovation" }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Material Options" }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "Sourced with intention." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Our material R&D lab explores the frontier between luxury and sustainability. We develop and source FSC-certified papers, recycled textiles, plant-based inks, and biodegradable laminations \u2014 all meeting the strictest European and North American standards." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We work with a curated range of premium materials \u2014 velvet, suede, linen, cotton, satin, and rigid paperboard \u2014 and offer eco-friendly options such as recycled kraft and natural textiles. Certification documents are available on request." }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Because the world's finest brands demand materials that feel as good as they look \u2014 and perform as well as they promise." })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "materials-image reveal reveal-delay-2", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
@@ -2291,7 +2290,7 @@ function About() {
     /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-timeline", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "section-header-center reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Our Journey" }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Fifteen Years of Craft" })
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Our Journey Since 2018" })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "timeline", children: milestones.map((m, i) => /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
         "div",
@@ -2327,7 +2326,7 @@ var import_jsx_runtime11 = require("react/jsx-runtime");
 var articles = [
   {
     title: "The Future of Eco-Luxury Packaging",
-    excerpt: "How recycled textiles, plant-based inks, and FSC-certified papers are redefining what premium packaging can be \u2014 without compromising on aesthetics.",
+    excerpt: "How recycled kraft, natural cotton, and linen are redefining what premium packaging can be \u2014 without compromising on aesthetics.",
     image: "/news-eco.webp",
     date: "August 2026",
     category: "Sustainability",
@@ -2676,8 +2675,8 @@ var deliveryFeatures = [
     desc: "Our global production capabilities and efficient logistics network ensure your custom packaging is delivered on time, every time."
   },
   {
-    title: "Strategic Global Facilities",
-    desc: "With production facilities and warehousing across Asia, we provide local support to streamline your supply chain."
+    title: "Own Factory, 3 Production Lines",
+    desc: "Our own facility runs three dedicated production lines for textile bags, rigid boxes, and gift sets \u2014 with direct air and sea freight to Europe and North America."
   },
   {
     title: "Competitive Global Reach",
@@ -2695,7 +2694,7 @@ var faqs = [
   },
   {
     q: "Do you provide eco-friendly packaging options?",
-    a: "Yes. We offer FSC-certified papers, recycled textiles, plant-based inks, and fully recyclable structures designed for circularity without compromising on premium presentation."
+    a: "We offer eco-friendly options including recycled kraft paper, natural cotton, and linen, plus recyclable structures where local facilities allow. Certification documents are available on request."
   },
   {
     q: "What is the process for getting started with a custom project?",
