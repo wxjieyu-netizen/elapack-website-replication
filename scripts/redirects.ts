@@ -13,10 +13,9 @@ import path from "node:path";
 const dist = path.resolve(__dirname, "../dist");
 
 const redirects: Record<string, string> = {
-  // product lines → products page (with category filter where it maps)
-  "/pouches": "/products?category=Pouches%20%26%20Bags",
-  "/boxes": "/products?category=Boxes",
-  "/sets": "/products?category=Sets%20%26%20Complete%20Packaging",
+  // NOTE: /pouches-bags, /boxes, /sets are now real landing pages rendered by
+  // the prerender step — the old /pouches /boxes /sets URLs land there directly,
+  // so no redirects here for the three product lines.
 
   // standalone pages
   "/sustainability": "/solutions",
