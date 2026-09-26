@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { articles as guides } from "../data/articles";
 
 const articles = [
   {
@@ -109,6 +110,39 @@ export default function News() {
                     <span>{article.readTime}</span>
                   </div>
                 </div>
+              </article>
+            ))}
+          </div>
+
+          {/* Buyer Guides */}
+          <div className="news-guides-head reveal">
+            <h2 className="section-title">Buyer Guides</h2>
+            <p className="page-subtitle">
+              Practical, supplier-neutral guides for choosing custom packaging —
+              specs to prepare before you request a quote.
+            </p>
+          </div>
+          <div className="news-grid">
+            {guides.map((article, i) => (
+              <article
+                key={article.slug}
+                className={`news-card reveal reveal-delay-${(i % 3) + 1}`}
+              >
+                <Link to={`/news/${article.slug}`} className="news-card-link">
+                  <div className="news-card-image">
+                    <img src={article.image} alt={article.imageAlt} loading="lazy" />
+                    <span className="news-category">{article.category}</span>
+                  </div>
+                  <div className="news-card-body">
+                    <h3 className="news-card-title">{article.title}</h3>
+                    <p className="news-card-excerpt">{article.excerpt}</p>
+                    <div className="news-meta">
+                      <span>{article.date}</span>
+                      <span className="news-meta-dot" />
+                      <span>{article.readTime}</span>
+                    </div>
+                  </div>
+                </Link>
               </article>
             ))}
           </div>

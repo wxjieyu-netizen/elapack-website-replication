@@ -3876,3 +3876,17 @@ a.contact-value:hover {
   box-shadow: 0 12px 30px rgba(24, 18, 12, 0.12);
   display: block;
 }
+
+/* Article page (/news/:slug) */
+.article-container { max-width: 780px; }
+.article-section .news-meta { justify-content: center; display: flex; margin-top: 1rem; }
+.article-body { font-size: 1.05rem; line-height: 1.8; color: var(--color-text, #3a332b); }
+.article-body h2 { font-size: 1.6rem; margin: 2.2rem 0 0.9rem; }
+.article-body h3 { font-size: 1.2rem; margin: 1.6rem 0 0.7rem; }
+.article-body p, .article-body ul, .article-body ol { margin: 0 0 1.1rem; }
+.article-body ul, .article-body ol { padding-left: 1.4rem; }
+.article-body li { margin-bottom: 0.5rem; }
+.article-body em { color: inherit; opacity: 0.85; }
+.article-back { margin-top: 2.5rem; text-align: center; }
+.news-card-link { text-decoration: none; color: inherit; display: block; }
+.news-guides-head { margin: 4rem 0 1.5rem; text-align: center; }

@@ -29,7 +29,7 @@ var import_node_path = __toESM(require("node:path"), 1);
 var import_server2 = require("react-router-dom/server");
 
 // src/App.tsx
-var import_react_router_dom14 = require("react-router-dom");
+var import_react_router_dom15 = require("react-router-dom");
 
 // src/components/Layout.tsx
 var import_react_router_dom5 = require("react-router-dom");
@@ -2465,8 +2465,77 @@ function About() {
 
 // src/pages/News.tsx
 var import_react_router_dom12 = require("react-router-dom");
-var import_jsx_runtime11 = require("react/jsx-runtime");
+
+// src/data/articles.ts
 var articles = [
+  {
+    "slug": "how-to-choose-a-custom-jewelry-pouch",
+    "title": "How to Choose a Custom Jewelry Pouch: Fabric, Size, Closure and Branding",
+    "category": "Sourcing Guide",
+    "date": "September 2026",
+    "readTime": "6 min read",
+    "image": "/images/factory/elapack-09.jpg",
+    "imageAlt": "Custom suede jewelry pouches being sewn on a production line",
+    "excerpt": "A pouch chosen by look alone is a guess. Map your piece and brand bar to fabric, size, closure and branding before you compare quotes.",
+    "metaDescription": "Learn how to choose a custom jewelry pouch by fabric, size, closure and branding \u2014 and prepare the specs to send for a quote.",
+    "body": "*Fabric, print and sizing guidance in this guide is generic industry knowledge. Confirm material and production specifics with the supplier you are evaluating.*\n\nThis guide is for packaging buyers and brand owners at jewelry labels who want custom pouches \u2014 for rings, necklaces, earrings, bracelets or small gift pieces \u2014 and need to choose them before they request samples or quotes. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **A pouch chosen by look alone is a guess; the fabric, size, closure and branding have to fit the piece and the print.** Work through the four decisions below and you will finish with a pouch shortlist and the spec list to send for a quote.\n\n## Why pouches picked by look alone go wrong\n\nA custom pouch has four jobs: it has to hold the piece safely, survive the presentation, carry your branding well, and feel right in the hand. Each job maps to a decision \u2014 fabric, size, closure, branding \u2014 and when a pouch is picked by photo alone, one of those jobs usually fails.\n\n1. A packaging buyer or brand owner at a jewelry brand adds branded pouches to their line.\n2. They order pouches chosen by look, then find the fabric pills, the size does not fit the piece, or the logo prints poorly.\n3. **Without mapping the piece and the brand bar to the pouch specs, the choice is guesswork and quotes are not comparable.**\n4. A wrong pouch means re-sampling, re-ordering, or an unboxing that misses the brand bar.\n5. The rework can delay a launch or leave stock that does not match the brand.\n6. The task on this page is to map the piece and brand to fabric, size, closure and branding, and prepare the specs for a quote.\n\nThe fix is not to look harder at photos. It is to decide the four specs on purpose, so the quote you request is for the pouch you actually need.\n\n## Four decisions that choose your pouch\n\n**Map the piece and the brand bar to the fabric, size, closure and branding before you compare quotes.** Each decision below ends with the question your piece has to answer.\n\n### Fabric\n\nThe first decision is the material. The main families are: velvet and suede, which read plush and premium and suit rings and pendants presented as gifts; cotton, muslin and linen, which read natural and understated and take print crisply; satin, which reads smooth and dressy against fine jewellery; and non-woven or microfiber, which read practical and economical for volume or retail use. The question from your side is which hand-feel and durability your brand needs, and how the fabric takes your print \u2014 a delicate logo needs a smooth, tight-weave surface, while a deep emboss or foil needs a fabric that holds the treatment. A supplier that works across this full range \u2014 velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, plus custom developments \u2014 lets you match the material to the piece instead of forcing the piece into one house fabric.\n\n### Size\n\nThe second decision is the fit. A pouch that is too small distorts the piece and the closure; one that is too large lets the piece rattle and looks sloppy at unboxing. Measure the piece and choose a pouch size with a little room \u2014 and remember the size also affects cost and the minimum order, so settle the size range before you ask for pricing. As a working reference, jewellery pouches commonly land in three bands: 7\xD79 and 8\xD710 cm for rings, stud earrings and slim pendants; 10\xD712 cm for larger pendants, bracelets and small gift pieces; and 12\xD715 cm upward when a piece ships with a box, a card or extra presentation. Sizes outside those bands are usually custom, so confirm the finished size in centimetres in the spec, not by eye from a product photo.\n\n### Closure\n\nThe third decision is how the pouch closes. A drawstring is classic and easy to open; a zipper is more secure and suits repeat use; a flap, tuck or button closure is minimal and clean for presentation. The question is what the piece needs and what you want the unboxing to feel like \u2014 a heavy piece that will be carried needs a secure closure, while a presentation piece may favour a clean drawstring. Most suppliers offer several closure options and can combine a closure with a specific fabric, so list the closure you want rather than leaving it to the supplier's default.\n\n### Branding\n\nThe fourth decision is how the brand appears. Options include a woven label sewn in, a printed logo, a deboss or foil stamp, embroidery, or a transfer print \u2014 and each suits different fabrics and order sizes. A woven label reads premium and durable; a printed logo is flexible for colour and placement; foil and deboss add a tactile, gift-like finish; embroidery reads heritage and bespoke. The question is what your brand bar requires \u2014 a logo that must be exact and consistent needs a method the fabric can hold across the run \u2014 so confirm the print method and the colour match (for example a Pantone reference) on the actual material before you commit.\n\nRead the four together. A pouch can pass on fabric and size and still fail on closure or branding, so decide all four before you compare quotes.\n\n## When a pouch that looks right is still wrong\n\n**A fabric or print that looks right in a photo can still pill, shrink or print poorly in production.** Three boundaries keep this page honest:\n\n- A photo does not show hand-feel, weight or how the fabric behaves over time. Ask for a physical swatch or sample of the actual fabric before you commit to a large run.\n- Print and branding behave differently on different fabrics. A logo that is crisp on a smooth cotton can blur on a textured velvet, so confirm the method on the actual material.\n- Size in the product photo is hard to judge. Confirm the finished size in the spec, not by eye from a picture, and check it against your piece.\n\n## Prepare the pouch spec list for your quote\n\nNothing on this page collects your data or sends anything. **Fill the pouch spec list for your quote request from the piece, the branding and the quantity.** Copy the lines below into your own note:\n\n1. The piece: what it is, its size and weight, and how it will be presented or shipped.\n2. The fabric: velvet, suede, cotton, muslin, satin, linen, microfiber, non-woven or another material, with any colour reference.\n3. The size: the finished pouch size in centimetres that fits the piece with a little room \u2014 from 7\xD79 / 8\xD710 / 10\xD712 cm for most jewellery up to custom sizes.\n4. The closure: drawstring, zipper, flap, tuck, button or another option.\n5. The branding: the logo treatment (woven, printed, deboss, foil, embroidery or transfer), the colour match (for example a Pantone reference), and the placement.\n\nKeep the note local, and send these specs to your supplier through your existing approved contact process \u2014 do not send it anywhere this page has not verified. With the list filled, you have finished the choosing task this page owns. Your next step is the comparison task \u2014 putting two pouches that both pass your four specs side by side on the same dimensions \u2014 which is a separate page for a separate decision."
+  },
+  {
+    "slug": "how-to-choose-custom-drawstring-bags",
+    "title": "How to Choose Custom Drawstring Bags: Fabric, Size, Closure and Print",
+    "category": "Sourcing Guide",
+    "date": "September 2026",
+    "readTime": "6 min read",
+    "image": "/images/factory/elapack-05.jpg",
+    "imageAlt": "Close-up of drawstring bag stitching at a sewing station",
+    "excerpt": "A bag chosen by look alone is a guess. Map your piece and brand bar to fabric, size, closure and print before you compare quotes.",
+    "metaDescription": "Learn how to choose custom drawstring or muslin bags by fabric, size, closure and print \u2014 and prepare the specs to send for a quote.",
+    "body": "*Fabric, print and sizing guidance in this guide is generic industry knowledge. Confirm material and production specifics with the supplier you are evaluating.*\n\nThis guide is for packaging buyers and brand owners at fragrance, gift and retail labels who want custom drawstring or muslin bags \u2014 for perfumes, candles, soaps, small gifts and retail products \u2014 and need to choose them before they request samples or quotes. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **A bag chosen by look alone is a guess; the fabric, size, closure and print have to fit the product and the print.** Work through the four decisions below and you will finish with a bag shortlist and the spec list to send for a quote.\n\n## Why bags picked by look alone go wrong\n\nA custom bag has four jobs: it has to hold the product safely, survive the presentation, carry your branding well, and feel right in the hand. Each job maps to a decision \u2014 fabric, size, closure, branding \u2014 and when a bag is picked by photo alone, one of those jobs usually fails.\n\n1. A packaging buyer or brand owner at a fragrance, gift or retail brand adds branded bags to their line.\n2. They order bags chosen by look, then find the fabric pills, the size does not fit the product, or the logo prints poorly.\n3. **Without mapping the product and the brand bar to the bag specs, the choice is guesswork and quotes are not comparable.**\n4. A wrong bag means re-sampling, re-ordering, or an unboxing that misses the brand bar.\n5. The rework can delay a launch or leave stock that does not match the brand.\n6. The task on this page is to map the product and brand to fabric, size, closure and print, and prepare the specs for a quote.\n\nThe fix is not to look harder at photos. It is to decide the four specs on purpose, so the quote you request is for the bag you actually need.\n\n## Four decisions that choose your bag\n\n**Map the product and the brand bar to the fabric, size, closure and print before you compare quotes.** Each decision below ends with the question your piece has to answer.\n\n### Fabric\n\nThe first decision is the material. The main families are: velvet and suede, which read plush and premium and suit candles, soaps and gift pieces presented as treats; cotton, muslin and linen, which read natural and understated and take print crisply \u2014 muslin is the classic drawstring-bag fabric; satin, which reads smooth and dressy for beauty and fragrance gifting; and non-woven or microfiber, which read practical and economical for retail or volume use. The question from your side is which hand-feel and durability your brand needs, and how the fabric takes your print \u2014 a delicate logo needs a smooth, tight-weave surface, while a deep emboss or foil needs a fabric that holds the treatment. A supplier that works across this full range \u2014 velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, plus custom developments \u2014 lets you match the material to the product instead of forcing the product into one house fabric.\n\n### Size\n\nThe second decision is the fit. A bag that is too small distorts the product and the closure; one that is too large lets the product rattle and looks sloppy at unboxing. Measure the product and choose a bag size with a little room \u2014 and remember the size also affects cost and the minimum order, so settle the size range before you ask for pricing. As a working reference, drawstring and muslin bags commonly land in three bands: 7\xD79 and 8\xD710 cm for samples, small soap bars and compact gift items; 10\xD712 and 12\xD715 cm for candles, standard soap bars and mid-size products; and 15\xD720 cm and up for gift sets or products that ship with extra presentation. Sizes outside those bands are usually custom, so confirm the finished size in centimetres in the spec, not by eye from a product photo.\n\n### Closure\n\nThe third decision is how the bag closes. A drawstring is the classic and most common option \u2014 easy to open, soft when gathered \u2014 and can be finished with a cord, a ribbon or a stopper; a zipper is more secure and suits repeat use; a flap, tuck or button closure is minimal and clean for presentation. The question is what the product needs and what you want the unboxing to feel like \u2014 a heavy set that will be carried needs a secure closure, while a presentation piece may favour a clean drawstring. Most suppliers offer several closure options and can pair the closure with the fabric and the cord finish, so name the closure and any cord detail in your spec rather than leaving it to the supplier's default.\n\n### Branding\n\nThe fourth decision is how the brand appears. Options include a woven label sewn in, a printed logo, a deboss or foil stamp, embroidery, or a transfer print \u2014 and each suits different fabrics and order sizes. A printed logo is the most common on muslin and cotton; a woven label reads premium and durable; foil and deboss add a tactile, gift-like finish on velvet and suede; embroidery reads heritage and bespoke. The question is what your brand bar requires \u2014 a logo that must be exact and consistent needs a method the fabric can hold across the run \u2014 so confirm the print method and the colour match (for example a Pantone reference) on the actual material before you commit.\n\nRead the four together. A bag can pass on fabric and size and still fail on closure or branding, so decide all four before you compare quotes.\n\n## When a bag that looks right is still wrong\n\n**A fabric or print that looks right in a photo can still pill, shrink or print poorly in production.** Three boundaries keep this page honest:\n\n- A photo does not show hand-feel, weight or how the fabric behaves over time. Ask for a physical swatch or sample of the actual fabric before you commit to a large run.\n- Print and branding behave differently on different fabrics. A logo that is crisp on a smooth cotton can blur on a textured velvet, so confirm the method on the actual material.\n- Size in the product photo is hard to judge. Confirm the finished size in the spec, not by eye from a picture, and check it against your piece.\n\n## Prepare the bag spec list for your quote\n\nNothing on this page collects your data or sends anything. **Fill the bag spec list for your quote request from the product, the branding and the quantity.** Copy the lines below into your own note:\n\n1. The product: what it is, its size and weight, and how it will be presented or shipped.\n2. The fabric: velvet, suede, cotton, muslin, satin, linen, microfiber, non-woven or another material, with any colour reference.\n3. The size: the finished bag size in centimetres that fits the product with a little room \u2014 from 7\xD79 / 8\xD710 cm for small items up through 10\xD712 / 12\xD715 / 15\xD720 cm for standard and gift-size products, to custom sizes.\n4. The closure: drawstring (with cord or ribbon finish), zipper, flap, tuck, button or another option.\n5. The branding: the logo treatment (woven, printed, deboss, foil, embroidery or transfer), the colour match (for example a Pantone reference), and the placement.\n\nKeep the note local, and send these specs to your supplier through your existing approved contact process \u2014 do not send it anywhere this page has not verified. With the list filled, you have finished the choosing task this page owns. Your next step is the comparison task \u2014 putting two bags that both pass your four specs side by side on the same dimensions \u2014 which is a separate page for a separate decision."
+  },
+  {
+    "slug": "custom-hair-extension-packaging-guide",
+    "title": "Custom Hair Extension Packaging: How to Choose Bags, Boxes and Bundle Formats",
+    "category": "Sourcing Guide",
+    "date": "September 2026",
+    "readTime": "7 min read",
+    "image": "/images/factory/elapack-08.jpg",
+    "imageAlt": "Fabric rolls in stock at a textile packaging factory",
+    "excerpt": "Hair packaging chosen by look alone is a guess. Map your hair product and brand bar to format, material, size and branding before you order.",
+    "metaDescription": "Learn how to choose custom hair extension and wig packaging by format, material, size and branding \u2014 and prepare the specs for a quote.",
+    "body": "*Material, sizing and transit guidance in this guide is generic industry knowledge. Confirm the specifics for your hair product with the supplier you are evaluating.*\n\nThis guide is for packaging buyers and brand owners at hair, beauty and wig brands who sell extensions, closures, bundles or full wigs and need custom packaging that protects the hair and carries the brand. It covers choosing the format, material, size and branding before you request samples or quotes. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **Hair packaging chosen by look alone is a guess; the format, material, size and branding have to fit the product and survive transit.** Work through the four decisions below and you will finish with a packaging shortlist and the spec list to send for a quote.\n\n## Why hair packaging picked by look alone fails\n\nHair products are not all the same to package: a bundle of loose extensions, a weft, a closure and a full wig each have different shapes, weights and fragility, and each needs packaging that keeps the hair from shifting, tangling or crushing while it also presents the brand. When packaging is chosen by photo alone, one of those jobs usually fails.\n\n1. A packaging buyer or brand owner at a hair, beauty or wig brand adds custom packaging to an extensions or wig line.\n2. They order packaging chosen by look, then the hair shifts in transit, the box is the wrong size, or the branding does not hold.\n3. **Without mapping the hair product and the brand bar to the packaging specs, the choice is guesswork and quotes are not comparable.**\n4. A wrong package means re-ordering, damaged returns, or packaging that does not protect the hair or present the brand.\n5. The rework can delay a launch or leave stock that does not match the brand or survive shipping.\n6. The task on this page is to map the hair product and brand to format, material, size and branding, and prepare the specs for a quote.\n\nThe fix is not to look harder at photos. It is to decide the four specs on purpose, so the quote you request is for packaging that actually protects and presents your product.\n\n## Four decisions that choose your hair packaging\n\n**Map the hair product and the brand bar to the format, material, size and branding before you compare quotes.** Each decision below ends with the question your product has to answer.\n\n### Format\n\nThe first decision is the packaging format. A bundle or weft often suits a box or a sleeve with the hair laid flat; a single unit may suit a pouch; a full wig usually needs a sturdier box or a large fabric bag with a support so the cap keeps its shape. Fabric bags are a real option for hair: a wide, tall drawstring pouch holds a wig with room for the cap to keep its shape while still reading soft-touch, and is lighter and less bulky to ship than a rigid box. The question from your side is which format holds your product's shape without crushing it, and fits how your customers will receive and store it.\n\n### Material\n\nThe second decision is the material. A fabric pouch or bag (velvet, cotton, muslin, satin, linen, non-woven, microfiber or a soft synthetic) suits a lower-cost, soft-touch presentation; a rigid box or a paperboard sleeve suits a more premium, protective presentation. The question is what your product needs \u2014 a wig cap that must keep its shape needs structure, while a bundle that sits flat may be fine in a padded pouch \u2014 and what your brand bar expects from the hand-feel. For a full wig in a bag, the fabric has to be strong enough to hold the weight without stretching out of shape, so confirm the material and construction for the finished size before you commit.\n\n### Size\n\nThe third decision is the fit. Hair that is packed too tightly can tangle or crease; a box or bag that is too large lets a wig shift and lose its shape. Measure the product in its selling form \u2014 a wig on a stand or folded, a bundle coiled \u2014 and choose a size that holds it without crushing, remembering that size also drives cost and minimum order. As a working reference, hair packaging commonly lands in three bands: 7\xD79 and 8\xD710 cm for small accessories like closures and combs; 12\xD715 and 15\xD720 cm for bundles and wefts laid flat; and 16\xD723, 20\xD730 and 30\xD740 cm for full wigs or sets that need height and room. Sizes outside those bands are usually custom, so confirm the finished size in centimetres in the spec against your actual product.\n\n### Branding\n\nThe fourth decision is how the brand appears. Woven labels, printed logos, foils, deboss, embroidery and transfer prints each read differently on fabric versus board, and each has different minimums and cost. On a fabric bag, a woven label or a printed logo are the common choices; foil and deboss add a premium finish on velvet and suede. The question is what your brand bar requires and which surface your chosen format gives you to carry it, so confirm the print or label method and the colour match (for example a Pantone reference) on the actual material before you commit.\n\nRead the four together. A format can look right and still fail on material or size, so decide all four before you compare quotes.\n\n## When packaging that looks premium is still wrong\n\n**Packaging that looks premium in a photo can still let hair shift in transit or fail the branding if the material is wrong.** Three boundaries keep this page honest:\n\n- A photo does not show how the product sits inside, how the material behaves, or whether the packaging survives shipping. Ask for a physical sample with your actual product before a large run.\n- Wigs and bundles need different protection. A package that works for a flat bundle can crush a wig cap, so test the format with the real product, not a generic assumption.\n- Branding behaves differently on fabric versus board. Confirm the label or print method on the actual material, and check the finished size against the product, not by eye.\n\n## Prepare the packaging spec list for your quote\n\nNothing on this page collects your data or sends anything. **Fill the packaging spec list for your quote request from the product, the branding and the quantity.** Copy the lines below into your own note:\n\n1. The product: extensions, a closure, a bundle or a full wig \u2014 its size, how it is sold and how it ships.\n2. The format: box, sleeve, pouch or bag, and whether the product needs a support or insert.\n3. The material: fabric (velvet, cotton, muslin, satin, linen, non-woven, microfiber) or board, with any colour reference.\n4. The size: the finished package size in centimetres that holds the product without crushing or shifting \u2014 from 7\xD79 / 8\xD710 cm for accessories up through 16\xD723 / 20\xD730 / 30\xD740 cm for wigs and sets.\n5. The branding: the label or print method (woven, printed, deboss, foil, embroidery or transfer), the colour match, and the placement.\n\nKeep the note local, and send these specs to your supplier through your existing approved contact process \u2014 do not send it anywhere this page has not verified. With the list filled, you have finished the choosing task this page owns. Your next step is the comparison task \u2014 putting two packaging options that both pass your four specs side by side on the same dimensions \u2014 which is a separate page for a separate decision."
+  },
+  {
+    "slug": "custom-clothing-apparel-packaging-guide",
+    "title": "Custom Clothing & Apparel Packaging: Bags and Boxes for Fashion Brands",
+    "category": "Sourcing Guide",
+    "date": "September 2026",
+    "readTime": "6 min read",
+    "image": "/images/factory/elapack-03.jpg",
+    "imageAlt": "Sewing floor producing custom textile packaging",
+    "excerpt": "Clothing packaging chosen by look alone is a guess. Map your garment and brand bar to format, material, size and branding before you order.",
+    "metaDescription": "Learn how to choose custom clothing and apparel packaging by format, material, size and branding \u2014 and prepare the specs for a quote.",
+    "body": "*Material, sizing and transit guidance in this guide is generic industry knowledge. Confirm the specifics for your garment with the supplier you are evaluating.*\n\nThis guide is for packaging buyers and brand owners at fashion, apparel and clothing brands who sell shirts, dresses, knitwear, accessories or other garments and need custom packaging that protects the piece and carries the brand. It covers choosing the format, material, size and branding before you request samples or quotes. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **Clothing packaging chosen by look alone is a guess; the format, material, size and branding have to fit the garment and survive transit.** Work through the four decisions below and you will finish with a packaging shortlist and the spec list to send for a quote.\n\n## Why clothing packaging picked by look alone fails\n\nGarments are not all the same to package: a folded shirt, a dress that needs to keep its shape on a hanger, a delicate knit and a small accessory each have different needs, and each package has to keep the piece from creasing, crushing or shifting while it also presents the brand. When packaging is chosen by photo alone, one of those jobs usually fails.\n\n1. A packaging buyer or brand owner at a fashion or apparel brand adds custom packaging to a clothing line.\n2. They order packaging chosen by look, then the garment creases in transit, the bag is the wrong size, or the branding does not hold.\n3. **Without mapping the garment and the brand bar to the packaging specs, the choice is guesswork and quotes are not comparable.**\n4. A wrong package means re-ordering, damaged or creased returns, or packaging that does not present the garment.\n5. The rework can delay a launch or leave stock that does not match the brand or survive shipping.\n6. The task on this page is to map the garment and brand to format, material, size and branding, and prepare the specs for a quote.\n\nThe fix is not to look harder at photos. It is to decide the four specs on purpose, so the quote you request is for packaging that actually protects and presents your product.\n\n## Four decisions that choose your clothing packaging\n\n**Map the garment and the brand bar to the format, material, size and branding before you compare quotes.** Each decision below ends with the question your product has to answer.\n\n### Format\n\nThe first decision is the packaging format. A folded shirt or a knit often suits a box or a mailer with the garment folded and supported; a dress or a piece that must keep its shape may need a garment bag or a box with tissue and a hanger cut-out; accessories suit smaller pouches or rigid boxes. The question from your side is which format holds your product without creasing or crushing it, and fits how your customers receive and store it.\n\n### Material\n\nThe second decision is the material. A fabric bag (velvet, cotton, muslin, satin, linen, non-woven, microfiber or a soft synthetic) reads casual and soft-touch; a rigid box or a paperboard mailer reads more premium and protective. The question is what your garment needs \u2014 a heavy or structured piece needs more support, while a soft knit may be fine in a padded fabric bag \u2014 and what your brand bar expects from the hand-feel. A supplier that works across the full fabric range plus boxes lets you pair the hand-feel with the piece instead of settling for a one-size packaging house.\n\n### Size\n\nThe third decision is the fit. A garment packed too tightly creases; a box or bag that is too large lets the piece shift and wrinkle. Measure the garment in its selling form \u2014 a shirt folded to its retail size, a dress on a hanger, an accessory in its pouch \u2014 and choose a size that holds it without crushing, remembering that size also drives cost and minimum order. As a working reference, accessories packaging commonly lands in three bands: 7\xD79 and 8\xD710 cm for small accessories such as scarves, belts and jewellery cases; 12\xD715 and 15\xD720 cm for mid-size accessories and folded knitwear; and 16\xD723 cm and up for larger pieces, garment bags or pieces that ship with a hanger or extra presentation. Sizes outside those bands are usually custom, so confirm the finished size in centimetres in the spec against the garment.\n\n### Branding\n\nThe fourth decision is how the brand appears. Woven labels, printed logos, foils, deboss, embroidery and transfer prints each read differently on fabric versus board, and each has different minimums and cost. On a fabric bag, a woven label or a printed logo are the common choices; foil and deboss add a premium finish on velvet and suede. The question is what your brand bar requires and which surface your chosen format gives you to carry it, so confirm the print or label method and the colour match (for example a Pantone reference) on the actual material before you commit.\n\nRead the four together. A format can look right and still fail on material or size, so decide all four before you compare quotes.\n\n## When packaging that looks premium is still wrong\n\n**Packaging that looks premium in a photo can still crease or damage the garment if the material or size is wrong.** Three boundaries keep this page honest:\n\n- A photo does not show how the garment sits inside, how the material behaves, or whether the packaging survives shipping. Ask for a physical sample with your actual garment before a large run.\n- Garments need different support. A package that works for a folded tee can crush a structured dress, so test the format with the real product, not a generic assumption.\n- Branding behaves differently on fabric versus board. Confirm the label or print method on the actual material, and check the finished size against the garment, not by eye.\n\n## Prepare the packaging spec list for your quote\n\nNothing on this page collects your data or sends anything. **Fill the packaging spec list for your quote request from the garment, the branding and the quantity.** Copy the lines below into your own note:\n\n1. The product: a folded shirt, a dress on a hanger, an accessory \u2014 its size, how it is sold and how it ships.\n2. The format: box, mailer, garment bag or pouch, and whether the piece needs tissue, a support or an insert.\n3. The material: fabric (velvet, cotton, muslin, satin, linen, non-woven, microfiber) or board, with any colour reference.\n4. The size: the finished package size in centimetres that holds the garment without creasing or shifting \u2014 from 7\xD79 / 8\xD710 cm for small accessories up through 15\xD720 / 16\xD723 cm and larger for garment bags.\n5. The branding: the label or print method (woven, printed, deboss, foil, embroidery or transfer), the colour match, and the placement.\n\nKeep the note local, and send these specs to your supplier through your existing approved contact process \u2014 do not send it anywhere this page has not verified. With the list filled, you have finished the choosing task this page owns. Your next step is the comparison task \u2014 putting two packaging options that both pass your four specs side by side on the same dimensions \u2014 which is a separate page for a separate decision."
+  },
+  {
+    "slug": "custom-gift-packaging-guide",
+    "title": "Custom Gift Packaging: Bags, Boxes and Gift Sets",
+    "category": "Sourcing Guide",
+    "date": "September 2026",
+    "readTime": "6 min read",
+    "image": "/images/factory/elapack-06.jpg",
+    "imageAlt": "Box-making machine in a paper packaging workshop",
+    "excerpt": "Gift packaging chosen by look alone is a guess. Map your gift and brand bar to format, material, size and branding before you order.",
+    "metaDescription": "Learn how to choose custom gift packaging by format, material, size and branding \u2014 and prepare the specs for a quote.",
+    "body": "*Material, sizing and transit guidance in this guide is generic industry knowledge. Confirm the specifics for your gift with the supplier you are evaluating.*\n\nThis guide is for packaging buyers and brand owners who create gift packaging \u2014 for beauty, fragrance, jewelry or keepsake products \u2014 and need custom packaging that presents the gift and carries the brand. It covers choosing the format, material, size and branding before you request samples or quotes. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **Gift packaging chosen by look alone is a guess; the format, material, size and branding have to fit the gift and the brand.** Work through the four decisions below and you will finish with a packaging shortlist and the spec list to send for a quote.\n\n## Why gift packaging picked by look alone fails\n\nGift products are not all the same to package: a beauty set, a fragrance in a bottle, a piece of jewelry and a small keepsake each have different needs, and each package has to hold the gift securely and present it well while it also carries the brand. When packaging is chosen by photo alone, one of those jobs usually fails.\n\n1. A packaging buyer or brand owner at a brand adds custom packaging to a gift range.\n2. They order packaging chosen by look, then the gift shifts in transit, the box is the wrong size, or the branding does not hold.\n3. **Without mapping the gift and the brand bar to the packaging specs, the choice is guesswork and quotes are not comparable.**\n4. A wrong package means re-ordering, damaged returns, or packaging that does not present the gift.\n5. The rework can delay a launch or leave stock that does not match the brand or survive shipping.\n6. The task on this page is to map the gift and brand to format, material, size and branding, and prepare the specs for a quote.\n\nThe fix is not to look harder at photos. It is to decide the four specs on purpose, so the quote you request is for packaging that actually protects and presents your gift.\n\n## Four decisions that choose your gift packaging\n\n**Map the gift and the brand bar to the format, material, size and branding before you compare quotes.** Each decision below ends with the question your product has to answer.\n\n### Format\n\nThe first decision is the packaging format. A beauty set or a fragrance often suits a rigid or folding box with a custom insert that holds each piece; a magnetic-closure box adds a premium, keepsake unboxing; a single item may suit a pouch or a small box with tissue; a keepsake or jewellery piece suits a smaller rigid box or pouch; and a fabric bag \u2014 drawstring or otherwise \u2014 can wrap a gift that does not need structure. The question from your side is which format holds your product without creasing or crushing it, and fits how your customers receive and store it \u2014 and whether a bag, a box or a bag-in-box combination best matches the price point of the gift.\n\n### Material\n\nThe second decision is the material. A fabric bag (velvet, cotton, muslin, satin, linen, non-woven, microfiber or a soft synthetic) reads casual and soft-touch; a rigid box, a magnetic box or a paperboard mailer reads more premium and protective; a rigid or folding box can carry an interior insert to hold a bottle or a set. The question is what your gift needs \u2014 a fragile bottle needs a protective insert, while a soft textile item may be fine in a fabric pouch \u2014 and what your brand bar expects from the hand-feel.\n\n### Size\n\nThe third decision is the fit. A gift packed too tightly can crush or distort; a box or bag that is too large lets the piece shift and look sloppy at unboxing. Measure the gift in its selling form \u2014 a set assembled, a bottle with its insert, a keepsake in its pouch \u2014 and choose a size that holds it securely, remembering that size also drives cost and minimum order. As a working reference, gift packaging commonly lands in three bands: 7\xD79 and 8\xD710 cm for small keepsakes and jewellery; 12\xD715 and 15\xD720 cm for standard gifts, single candles and beauty items; and 16\xD723, 20\xD730 and 30\xD740 cm for gift sets, larger fragrances or items that ship with multiple pieces. Sizes outside those bands are usually custom, so confirm the finished size in centimetres in the spec.\n\n### Branding\n\nThe fourth decision is how the brand appears. Woven labels, printed logos, foils, deboss, embroidery and transfer prints each read differently on fabric versus board \u2014 and foil and deboss are common on rigid and magnetic boxes to lift the brand \u2014 and each has different minimums and cost. The question is what your brand bar requires and which surface your chosen format gives you to carry it, so confirm the print or label method and the colour match (for example a Pantone reference) on the actual material before you commit.\n\nRead the four together. A format can look right and still fail on material or size, so decide all four before you compare quotes.\n\n## When packaging that looks premium is still wrong\n\n**Packaging that looks premium in a photo can still fail to protect the gift or present the brand if the material or size is wrong.** Three boundaries keep this page honest:\n\n- A photo does not show how the gift sits inside, how the material behaves, or whether the packaging survives shipping. Ask for a physical sample with your actual gift before a large run.\n- Gifts need different support. A package that works for a small item can leave a fragile bottle loose, so test the format with the real product, not a generic assumption.\n- Branding behaves differently on fabric versus board. Confirm the label or print method on the actual material, and check the finished size against the gift, not by eye.\n\n## Prepare the packaging spec list for your quote\n\nNothing on this page collects your data or sends anything. **Fill the packaging spec list for your quote request from the gift, the branding and the quantity.** Copy the lines below into your own note:\n\n1. The product: a beauty set, a fragrance or a keepsake \u2014 its size, how it is sold and how it ships.\n2. The format: box (rigid, folding or magnetic), mailer, bag or pouch, and whether the gift needs an insert, tissue or a divider.\n3. The material: fabric (velvet, cotton, muslin, satin, linen, non-woven, microfiber) or board, with any colour reference.\n4. The size: the finished package size in centimetres that holds the gift securely without shifting \u2014 from 7\xD79 / 8\xD710 cm for small keepsakes up through 15\xD720 / 20\xD730 / 30\xD740 cm for gift sets.\n5. The branding: the label or print method (woven, printed, deboss, foil, embroidery or transfer), the colour match, and the placement.\n\nKeep the note local, and send these specs to your supplier through your existing approved contact process \u2014 do not send it anywhere this page has not verified. With the list filled, you have finished the choosing task this page owns. Your next step is the comparison task \u2014 putting two packaging options that both pass your four specs side by side on the same dimensions \u2014 which is a separate page for a separate decision."
+  }
+];
+function getArticleBySlug(slug) {
+  return articles.find((a) => a.slug === slug);
+}
+
+// src/pages/News.tsx
+var import_jsx_runtime11 = require("react/jsx-runtime");
+var articles2 = [
   {
     title: "The Future of Eco-Luxury Packaging",
     excerpt: "How recycled kraft, natural cotton, and linen are redefining what premium packaging can be \u2014 without compromising on aesthetics.",
@@ -2521,15 +2590,15 @@ function News() {
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("section", { className: "section news-section", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("article", { className: "news-featured reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "news-featured-image", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: articles[0].image, alt: articles[0].title }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "news-featured-image", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: articles2[0].image, alt: articles2[0].title }) }),
         /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-featured-body", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-category", children: articles[0].category }),
-          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h2", { className: "news-featured-title", children: articles[0].title }),
-          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "news-featured-excerpt", children: articles[0].excerpt }),
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-category", children: articles2[0].category }),
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h2", { className: "news-featured-title", children: articles2[0].title }),
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "news-featured-excerpt", children: articles2[0].excerpt }),
           /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-meta", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: articles[0].date }),
+            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: articles2[0].date }),
             /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-meta-dot" }),
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: articles[0].readTime })
+            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: articles2[0].readTime })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(import_react_router_dom12.Link, { to: "/news", className: "text-link", children: [
             "Read Article",
@@ -2537,7 +2606,7 @@ function News() {
           ] })
         ] })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "news-grid", children: articles.slice(1).map((article, i) => /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "news-grid", children: articles2.slice(1).map((article, i) => /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(
         "article",
         {
           className: `news-card reveal reveal-delay-${i + 1}`,
@@ -2559,6 +2628,32 @@ function News() {
         },
         article.title
       )) }),
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-guides-head reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h2", { className: "section-title", children: "Buyer Guides" }),
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "page-subtitle", children: "Practical, supplier-neutral guides for choosing custom packaging \u2014 specs to prepare before you request a quote." })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "news-grid", children: articles.map((article, i) => /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+        "article",
+        {
+          className: `news-card reveal reveal-delay-${i % 3 + 1}`,
+          children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(import_react_router_dom12.Link, { to: `/news/${article.slug}`, className: "news-card-link", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-card-image", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: article.image, alt: article.imageAlt, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-category", children: article.category })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-card-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h3", { className: "news-card-title", children: article.title }),
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "news-card-excerpt", children: article.excerpt }),
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-meta", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: article.date }),
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-meta-dot" }),
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: article.readTime })
+              ] })
+            ] })
+          ] })
+        },
+        article.slug
+      )) }),
       /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "newsletter-box reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h3", { className: "newsletter-title", children: "Stay informed on craft, material, and design." }),
         /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "newsletter-text", children: "Subscribe to receive occasional insights from our design studio \u2014 no noise, just substance." }),
@@ -2579,9 +2674,105 @@ function News() {
   ] });
 }
 
+// src/pages/Article.tsx
+var import_react_router_dom13 = require("react-router-dom");
+var import_jsx_runtime12 = require("react/jsx-runtime");
+function inline(text, keyPrefix) {
+  const nodes = [];
+  const re = /\*\*(.+?)\*\*|\*(.+?)\*/g;
+  let last = 0;
+  let m;
+  let i = 0;
+  while (m = re.exec(text)) {
+    if (m.index > last) nodes.push(text.slice(last, m.index));
+    if (m[1] !== void 0) nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("strong", { children: m[1] }, `${keyPrefix}-b${i}`));
+    else nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("em", { children: m[2] }, `${keyPrefix}-i${i}`));
+    last = m.index + m[0].length;
+    i++;
+  }
+  if (last < text.length) nodes.push(text.slice(last));
+  return nodes;
+}
+function renderBody(body) {
+  const lines = body.split("\n");
+  const out = [];
+  let list = null;
+  const flush = () => {
+    if (!list) return;
+    const Tag = list.ordered ? "ol" : "ul";
+    out.push(
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(Tag, { children: list.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("li", { children: inline(item, `li${out.length}-${i}`) }, i)) }, `l${out.length}`)
+    );
+    list = null;
+  };
+  lines.forEach((raw) => {
+    const line = raw.trimEnd();
+    if (!line.trim()) {
+      flush();
+      return;
+    }
+    const ol = line.match(/^(\d+)\.\s+(.*)$/);
+    const ul = line.match(/^-\s+(.*)$/);
+    if (ol) {
+      if (!list || !list.ordered) {
+        flush();
+        list = { ordered: true, items: [] };
+      }
+      list.items.push(ol[2]);
+      return;
+    }
+    if (ul) {
+      if (!list || list.ordered) {
+        flush();
+        list = { ordered: false, items: [] };
+      }
+      list.items.push(ul[1]);
+      return;
+    }
+    flush();
+    if (line.startsWith("### ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h3", { children: inline(line.slice(4), `h3${out.length}`) }, out.length));
+    else if (line.startsWith("## ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: inline(line.slice(3), `h2${out.length}`) }, out.length));
+    else out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { children: inline(line, `p${out.length}`) }, out.length));
+  });
+  flush();
+  return out;
+}
+function Article() {
+  const { slug } = (0, import_react_router_dom13.useParams)();
+  const article = slug ? getArticleBySlug(slug) : void 0;
+  if (!article) {
+    return /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h1", { className: "section-title", children: "Article not found" }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { style: { textAlign: "center" }, children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: "/news", className: "text-link", children: [
+        "Back to News & Insights ",
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+      ] }) })
+    ] }) });
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_jsx_runtime12.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "eyebrow reveal", children: article.category }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: article.title }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "news-meta reveal reveal-delay-2", style: { justifyContent: "center" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: article.date }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "news-meta-dot" }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: article.readTime })
+      ] })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "section article-section", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container article-container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("figure", { className: "landing-hero reveal", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: article.image, alt: article.imageAlt, width: 1600, height: 1e3 }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-body reveal", children: renderBody(article.body) }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-back", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: "/news", className: "text-link", children: [
+        "Back to News & Insights ",
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+      ] }) })
+    ] }) })
+  ] });
+}
+
 // src/pages/Contact.tsx
 var import_react10 = require("react");
-var import_jsx_runtime12 = require("react/jsx-runtime");
+var import_jsx_runtime13 = require("react/jsx-runtime");
 var contactInfo = [
   {
     label: "Phone",
@@ -2617,43 +2808,43 @@ function Contact() {
     e.preventDefault();
     setSubmitted(true);
   };
-  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_jsx_runtime12.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "eyebrow reveal", children: "Contact Us" }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(import_jsx_runtime13.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "eyebrow reveal", children: "Contact Us" }),
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
         "Let's Begin a",
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("br", {}),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("br", {}),
         "Conversation"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Tell us about your brand and your packaging vision. We'll respond within one business day with next steps." })
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Tell us about your brand and your packaging vision. We'll respond within one business day with next steps." })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "section contact-section", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "contact-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "contact-info reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { className: "contact-heading", children: "Get in Touch" }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "contact-intro", children: "Whether you're an established luxury house or a growing brand, we'd love to hear from you. Reach us through any of the channels below." }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "contact-list", children: contactInfo.map((item) => /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "contact-item", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "contact-icon", children: item.icon }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "contact-item-body", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "contact-label", children: item.label }),
-            item.href ? /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("a", { href: item.href, className: "contact-value", children: item.value }) : /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "contact-value contact-value-text", children: item.value })
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "section contact-section", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-info reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "contact-heading", children: "Get in Touch" }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-intro", children: "Whether you're an established luxury house or a growing brand, we'd love to hear from you. Reach us through any of the channels below." }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "contact-list", children: contactInfo.map((item) => /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-icon", children: item.icon }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item-body", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-label", children: item.label }),
+            item.href ? /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", { href: item.href, className: "contact-value", children: item.value }) : /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-value contact-value-text", children: item.value })
           ] })
         ] }, item.label)) }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "contact-market", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h3", { className: "contact-market-title", children: "Target Markets" }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "market-tags-small", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: "Europe" }),
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: "North America" }),
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: "United Kingdom" }),
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: "Scandinavia" })
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-market", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h3", { className: "contact-market-title", children: "Target Markets" }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "market-tags-small", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { children: "Europe" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { children: "North America" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { children: "United Kingdom" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { children: "Scandinavia" })
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "contact-market-note", children: "Primary language: English. We serve mid-to-high-end brands and enterprise clients who value brand image, packaging quality, and supply chain stability." })
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-market-note", children: "Primary language: English. We serve mid-to-high-end brands and enterprise clients who value brand image, packaging quality, and supply chain stability." })
         ] })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "contact-form-wrap reveal reveal-delay-2", children: submitted ? /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "contact-success", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "success-icon", children: "\u2713" }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h3", { className: "success-title", children: "Thank you." }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "success-text", children: "Your message has been received. A member of our team will reach out within one business day." }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "contact-form-wrap reveal reveal-delay-2", children: submitted ? /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-success", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "success-icon", children: "\u2713" }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h3", { className: "success-title", children: "Thank you." }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "success-text", children: "Your message has been received. A member of our team will reach out within one business day." }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
           "button",
           {
             className: "btn-outline",
@@ -2661,13 +2852,13 @@ function Contact() {
             children: "Send Another Message"
           }
         )
-      ] }) : /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("form", { className: "contact-form", onSubmit: handleSubmit, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { className: "contact-heading", children: "Request a Quote" }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "contact-form-intro", children: "Share your project details and we'll prepare a tailored proposal for you." }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "form-row", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("label", { htmlFor: "name", children: "Full Name *" }),
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+      ] }) : /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("form", { className: "contact-form", onSubmit: handleSubmit, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "contact-heading", children: "Request a Quote" }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-form-intro", children: "Share your project details and we'll prepare a tailored proposal for you." }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "name", children: "Full Name *" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
               "input",
               {
                 id: "name",
@@ -2677,9 +2868,9 @@ function Contact() {
               }
             )
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("label", { htmlFor: "company", children: "Company / Brand" }),
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "company", children: "Company / Brand" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
               "input",
               {
                 id: "company",
@@ -2689,10 +2880,10 @@ function Contact() {
             )
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "form-row", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("label", { htmlFor: "email", children: "Email *" }),
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "email", children: "Email *" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
               "input",
               {
                 id: "email",
@@ -2702,9 +2893,9 @@ function Contact() {
               }
             )
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("label", { htmlFor: "phone", children: "Phone / WhatsApp" }),
-            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "phone", children: "Phone / WhatsApp" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
               "input",
               {
                 id: "phone",
@@ -2714,9 +2905,9 @@ function Contact() {
             )
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "form-group", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("label", { children: "Project Type" }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "chip-group", children: projectTypes.map((type) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { children: "Project Type" }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "chip-group", children: projectTypes.map((type) => /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
             "button",
             {
               type: "button",
@@ -2727,9 +2918,9 @@ function Contact() {
             type
           )) })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "form-group", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("label", { htmlFor: "quantity", children: "Estimated Quantity" }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "quantity", children: "Estimated Quantity" }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
             "input",
             {
               id: "quantity",
@@ -2738,9 +2929,9 @@ function Contact() {
             }
           )
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "form-group", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("label", { htmlFor: "message", children: "Project Details *" }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "message", children: "Project Details *" }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
             "textarea",
             {
               id: "message",
@@ -2750,7 +2941,7 @@ function Contact() {
             }
           )
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("button", { type: "submit", className: "btn-primary btn-full", children: "Submit Request" })
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("button", { type: "submit", className: "btn-primary btn-full", children: "Submit Request" })
       ] }) })
     ] }) }) })
   ] });
@@ -2758,8 +2949,8 @@ function Contact() {
 
 // src/pages/Video.tsx
 var import_react11 = require("react");
-var import_react_router_dom13 = require("react-router-dom");
-var import_jsx_runtime13 = require("react/jsx-runtime");
+var import_react_router_dom14 = require("react-router-dom");
+var import_jsx_runtime14 = require("react/jsx-runtime");
 var processSteps2 = [
   {
     phase: "Early",
@@ -2878,28 +3069,28 @@ var faqs = [
 ];
 function Video() {
   const [openFaq, setOpenFaq] = (0, import_react11.useState)(0);
-  return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(import_jsx_runtime13.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "page-header custom-solution-header", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "eyebrow reveal", children: "Custom Solutions" }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(import_jsx_runtime14.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "page-header custom-solution-header", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow reveal", children: "Custom Solutions" }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
         "Packaging Tailored",
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("br", {}),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("br", {}),
         "to Your Brand"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "From exquisite jewelry boxes to elegant gift packaging and sustainable paper cosmetics solutions \u2014 we offer comprehensive custom packaging services that bring your brand vision to life." })
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "From exquisite jewelry boxes to elegant gift packaging and sustainable paper cosmetics solutions \u2014 we offer comprehensive custom packaging services that bring your brand vision to life." })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "section custom-solution-intro-section", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "custom-solution-intro-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "section-title", style: { marginTop: 0 }, children: "Our Custom Services" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "custom-solution-text", children: "ELAPACK offers comprehensive custom packaging services tailored to your brand's needs. From exquisite jewelry boxes that showcase diamonds with museum-worthy presentations, to elegant gift boxes designed for luxury brand gifting, and sophisticated paper cosmetics packaging that balances sustainability with premium feel \u2014 we cover it all." }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "custom-solution-text", children: "Our design team leverages creativity, cutting-edge design tools, and industry-leading technology to craft custom packaging solutions that resonate with your brand's vision. Whether you need custom jewelry packaging boxes or unique personalized packaging, we have the expertise to bring your vision to life." }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "custom-solution-intro-actions", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_react_router_dom13.Link, { to: "/products", className: "btn-primary", children: "Explore Products" }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_react_router_dom13.Link, { to: "/contact", className: "btn-outline", children: "Request a Quote" })
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-intro-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "custom-solution-intro-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: 0 }, children: "Our Custom Services" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "custom-solution-text", children: "ELAPACK offers comprehensive custom packaging services tailored to your brand's needs. From exquisite jewelry boxes that showcase diamonds with museum-worthy presentations, to elegant gift boxes designed for luxury brand gifting, and sophisticated paper cosmetics packaging that balances sustainability with premium feel \u2014 we cover it all." }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "custom-solution-text", children: "Our design team leverages creativity, cutting-edge design tools, and industry-leading technology to craft custom packaging solutions that resonate with your brand's vision. Whether you need custom jewelry packaging boxes or unique personalized packaging, we have the expertise to bring your vision to life." }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "custom-solution-intro-actions", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Link, { to: "/products", className: "btn-primary", children: "Explore Products" }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Link, { to: "/contact", className: "btn-outline", children: "Request a Quote" })
         ] })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "custom-solution-intro-images reveal reveal-delay-2", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "custom-solution-intro-images reveal reveal-delay-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
           "img",
           {
             src: "/product-giftbox.webp",
@@ -2907,7 +3098,7 @@ function Video() {
             loading: "lazy"
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
           "img",
           {
             src: "/product-collection.webp",
@@ -2917,26 +3108,26 @@ function Video() {
         )
       ] })
     ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "section custom-solution-process-section", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "eyebrow", children: "How We Work" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Customization Process" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "section-subtitle", children: "Our custom packaging process is seamless and collaborative. From initial concept to prototype creation, we work closely with you to ensure every detail enhances your brand's value." })
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-process-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "How We Work" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Customization Process" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "section-subtitle", children: "Our custom packaging process is seamless and collaborative. From initial concept to prototype creation, we work closely with you to ensure every detail enhances your brand's value." })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "process-steps-grid", children: processSteps2.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "process-steps-grid", children: processSteps2.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
         "div",
         {
           className: `process-step-card reveal reveal-delay-${i + 1}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "process-step-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("img", { src: step.image, alt: step.title, loading: "lazy" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "process-step-phase", children: step.phase })
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "process-step-image", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: step.image, alt: step.title, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "process-step-phase", children: step.phase })
             ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "process-step-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h3", { className: "process-step-title", children: step.title }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "process-step-desc", children: step.desc }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("ul", { className: "process-step-points", children: step.points.map((p) => /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("li", { className: "process-step-point", children: [
-                /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "case-point-dot" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "process-step-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "process-step-title", children: step.title }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "process-step-desc", children: step.desc }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("ul", { className: "process-step-points", children: step.points.map((p) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("li", { className: "process-step-point", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "case-point-dot" }),
                 p
               ] }, p)) })
             ] })
@@ -2945,82 +3136,82 @@ function Video() {
         step.title
       )) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "section custom-solution-stories-section", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "eyebrow", children: "Our Success Stories" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Brands We've Transformed" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "section-subtitle", children: "Explore the success stories of brands we've helped transform through our custom packaging solutions. From high-end luxury packaging to innovative eco-friendly designs, see how we've partnered with leading brands to create packaging that truly stands out." })
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-stories-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "Our Success Stories" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Brands We've Transformed" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "section-subtitle", children: "Explore the success stories of brands we've helped transform through our custom packaging solutions. From high-end luxury packaging to innovative eco-friendly designs, see how we've partnered with leading brands to create packaging that truly stands out." })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "success-stories-grid", children: successStories.map((story, i) => /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "success-stories-grid", children: successStories.map((story, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
         "div",
         {
           className: `success-story-card reveal reveal-delay-${i % 4 + 1}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "success-story-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("img", { src: story.image, alt: story.client, loading: "lazy" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "success-story-category", children: story.category })
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "success-story-image", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: story.image, alt: story.client, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "success-story-category", children: story.category })
             ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "success-story-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "success-story-client", children: story.client }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h3", { className: "success-story-title", children: story.solution }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "success-story-desc", children: story.desc })
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "success-story-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "success-story-client", children: story.client }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "success-story-title", children: story.solution }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "success-story-desc", children: story.desc })
             ] })
           ]
         },
         story.client
       )) }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "success-stories-cta reveal", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_react_router_dom13.Link, { to: "/contact", className: "btn-primary", children: "Start Your Project" }) })
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "success-stories-cta reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Link, { to: "/contact", className: "btn-primary", children: "Start Your Project" }) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "section custom-solution-delivery-section", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "eyebrow", children: "Global Reach" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Global Production & Delivery" })
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-delivery-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "Global Reach" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Global Production & Delivery" })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "delivery-features-grid", children: deliveryFeatures.map((feat, i) => /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "delivery-features-grid", children: deliveryFeatures.map((feat, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
         "div",
         {
           className: `delivery-feature-card reveal reveal-delay-${i + 1}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h3", { className: "delivery-feature-title", children: feat.title }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "delivery-feature-desc", children: feat.desc })
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "delivery-feature-title", children: feat.title }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "delivery-feature-desc", children: feat.desc })
           ]
         },
         feat.title
       )) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "section custom-solution-faq-section", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "eyebrow", children: "Questions & Answers" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently Asked Questions" })
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-faq-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "Questions & Answers" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently Asked Questions" })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "faq-list reveal reveal-delay-1", children: faqs.map((faq, i) => /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "faq-list reveal reveal-delay-1", children: faqs.map((faq, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
         "div",
         {
           className: `faq-item ${openFaq === i ? "is-open" : ""}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
               "button",
               {
                 className: "faq-question",
                 onClick: () => setOpenFaq(openFaq === i ? null : i),
                 "aria-expanded": openFaq === i,
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("span", { children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("span", { children: [
                     "Q: ",
                     faq.q
                   ] }),
-                  /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "faq-toggle", "aria-hidden": "true", children: openFaq === i ? "\u2212" : "+" })
+                  /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "faq-toggle", "aria-hidden": "true", children: openFaq === i ? "\u2212" : "+" })
                 ]
               }
             ),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "faq-answer", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { children: faq.a }) })
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "faq-answer", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { children: faq.a }) })
           ]
         },
         faq.q
       )) }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "faq-cta reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { children: "Still have questions? We're here to help." }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_react_router_dom13.Link, { to: "/contact", className: "btn-outline", children: "Contact Us" })
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "faq-cta reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { children: "Still have questions? We're here to help." }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Link, { to: "/contact", className: "btn-outline", children: "Contact Us" })
       ] })
     ] }) })
   ] });
@@ -3212,54 +3403,54 @@ var landings = [
 var getLandingBySlug = (slug) => landings.find((l) => l.slug === slug);
 
 // src/pages/Landing.tsx
-var import_jsx_runtime14 = require("react/jsx-runtime");
+var import_jsx_runtime15 = require("react/jsx-runtime");
 function Landing({ slug }) {
   const landing = getLandingBySlug(slug);
   (0, import_react12.useEffect)(() => {
     if (landing) document.title = `${landing.eyebrow} | ELAPACK`;
   }, [landing]);
   if (!landing) return null;
-  return /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(import_jsx_runtime14.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow reveal", children: landing.eyebrow }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: landing.h1 }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: landing.subhead })
+  return /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(import_jsx_runtime15.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "eyebrow reveal", children: landing.eyebrow }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: landing.h1 }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: landing.subhead })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: landing.intro }) }),
-      landing.hero && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("figure", { className: "landing-hero reveal", style: { marginTop: "2.5rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: landing.hero.src, alt: landing.hero.alt, loading: "lazy", width: 1600, height: 1e3 }) })
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: landing.intro }) }),
+      landing.hero && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("figure", { className: "landing-hero reveal", style: { marginTop: "2.5rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("img", { src: landing.hero.src, alt: landing.hero.alt, loading: "lazy", width: 1600, height: 1e3 }) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.why.heading }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "values-grid", children: landing.why.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "value-title", children: item.title }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "value-desc", children: item.desc })
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.why.heading }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "values-grid", children: landing.why.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h3", { className: "value-title", children: item.title }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "value-desc", children: item.desc })
       ] }, item.title)) })
     ] }) }),
-    landing.tables.map((table) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: table.heading }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { style: { overflowX: "auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("table", { className: "spec-table", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("tr", { children: table.columns.map((col) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("th", { children: col }, col)) }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("tbody", { children: table.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("tr", { children: row.map((cell, ci) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("td", { children: cell }, ci)) }, row[0])) })
+    landing.tables.map((table) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: table.heading }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { style: { overflowX: "auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("table", { className: "spec-table", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("tr", { children: table.columns.map((col) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("th", { children: col }, col)) }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("tbody", { children: table.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("tr", { children: row.map((cell, ci) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("td", { children: cell }, ci)) }, row[0])) })
       ] }) }),
-      table.note && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "markets-note", style: { marginTop: "1rem" }, children: table.note })
+      table.note && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "markets-note", style: { marginTop: "1rem" }, children: table.note })
     ] }) }) }, table.heading)),
-    landing.lists.map((list) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: list.heading }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("ul", { className: "spec-list", children: list.items.map((item) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("li", { children: item }, item)) })
+    landing.lists.map((list) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: list.heading }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("ul", { className: "spec-list", children: list.items.map((item) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("li", { children: item }, item)) })
     ] }) }) }, list.heading)),
-    landing.gallery && landing.gallery.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "landing-gallery", children: landing.gallery.map((img) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("figure", { className: "landing-gallery-item reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: img.src, alt: img.alt, loading: "lazy", width: 1600, height: 1e3 }) }, img.src)) }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "How it works" }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "values-grid", children: landing.howItWorks.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "value-title", children: `${String(i + 1).padStart(2, "0")} \xB7 ${step.title}` }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "value-desc", children: step.desc })
+    landing.gallery && landing.gallery.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "landing-gallery", children: landing.gallery.map((img) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("figure", { className: "landing-gallery-item reveal", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("img", { src: img.src, alt: img.alt, loading: "lazy", width: 1600, height: 1e3 }) }, img.src)) }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "How it works" }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "values-grid", children: landing.howItWorks.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h3", { className: "value-title", children: `${String(i + 1).padStart(2, "0")} \xB7 ${step.title}` }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "value-desc", children: step.desc })
       ] }, step.title)) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "MOQ & lead time" }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "spec-list", children: landing.moq.map((row) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("strong", { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "MOQ & lead time" }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "spec-list", children: landing.moq.map((row) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("strong", { children: [
           row.label,
           ":"
         ] }),
@@ -3267,48 +3458,49 @@ function Landing({ slug }) {
         row.value
       ] }, row.label)) })
     ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Who it's for" }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "values-grid", children: landing.audience.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "value-title", children: a.title }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "value-desc", children: a.desc })
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Who it's for" }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "values-grid", children: landing.audience.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h3", { className: "value-title", children: a.title }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "value-desc", children: a.desc })
       ] }, a.title)) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "center" }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.ctaTitle }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("p", { className: "markets-note", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "center" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.ctaTitle }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "markets-note", children: [
         "Message Tina on WhatsApp or phone:",
         " ",
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" }),
         " ",
         "\xB7 Email: ",
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" })
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" })
       ] })
     ] }) }) })
   ] });
 }
 
 // src/App.tsx
-var import_jsx_runtime15 = require("react/jsx-runtime");
+var import_jsx_runtime16 = require("react/jsx-runtime");
 function AppRoutes() {
-  return /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(import_react_router_dom14.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Layout, {}), children: [
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Home, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Landing, { slug: "pouches-bags" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Landing, { slug: "boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Landing, { slug: "sets" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Products, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(ProductDetail, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Industries, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Solutions, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(About, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(News, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Contact, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Video, {}) })
+  return /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(import_react_router_dom15.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Layout, {}), children: [
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Home, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Landing, { slug: "pouches-bags" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Landing, { slug: "boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Landing, { slug: "sets" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Products, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(ProductDetail, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Industries, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Solutions, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(About, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(News, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/news/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Article, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Contact, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Video, {}) })
   ] }) });
 }
 
 // scripts/prerender.tsx
-var import_jsx_runtime16 = require("react/jsx-runtime");
+var import_jsx_runtime17 = require("react/jsx-runtime");
 var dist = import_node_path.default.resolve(__dirname, "../dist");
 var indexPath = import_node_path.default.join(dist, "index.html");
 var shell = import_node_fs.default.readFileSync(indexPath, "utf-8");
@@ -3326,7 +3518,8 @@ var ROUTES = [
   "/video",
   ...JSON.parse(
     import_node_fs.default.readFileSync(import_node_path.default.resolve(__dirname, "prerender-products.json"), "utf-8")
-  ).map((slug) => `/products/${slug}`)
+  ).map((slug) => `/products/${slug}`),
+  ...articles.map((a) => `/news/${a.slug}`)
 ];
 var STATIC_TITLES = {
   "/": "ELAPACK \u2014 Custom Luxury Packaging for Global Brands",
@@ -3339,7 +3532,8 @@ var STATIC_TITLES = {
   "/news": "News & Insights | ELAPACK",
   "/about": "About ELAPACK \u2014 From Workshop to Global Partner",
   "/contact": "Contact ELAPACK \u2014 Get a Custom Packaging Quote",
-  "/video": "Inside ELAPACK \u2014 Factory & Craft Videos"
+  "/video": "Inside ELAPACK \u2014 Factory & Craft Videos",
+  ...Object.fromEntries(articles.map((a) => [`/news/${a.slug}`, `${a.title} | ELAPACK`]))
 };
 var STATIC_DESCRIPTIONS = {
   "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets \u2014 one-stop custom packaging.",
@@ -3352,13 +3546,14 @@ var STATIC_DESCRIPTIONS = {
   "/news": "Packaging insights, material trends and sustainability notes from the ELAPACK team.",
   "/about": "ELAPACK began as a small workshop and grew into a full-service packaging partner for luxury brands across Europe and North America.",
   "/contact": "Talk to ELAPACK about your packaging project \u2014 quotes within one business day. Email, phone and WhatsApp available.",
-  "/video": "See ELAPACK's production floor, craft details and quality process in video."
+  "/video": "See ELAPACK's production floor, craft details and quality process in video.",
+  ...Object.fromEntries(articles.map((a) => [`/news/${a.slug}`, a.metaDescription]))
 };
 var ok = 0;
 for (const route of ROUTES) {
   try {
     const html = (0, import_server.renderToString)(
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_server2.StaticRouter, { location: route, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(AppRoutes, {}) })
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_server2.StaticRouter, { location: route, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(AppRoutes, {}) })
     );
     const productMatch = route.match(/^\/products\/([a-z0-9-]+)$/);
     const pageTag = productMatch ? `${productMatch[1].split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")} | ELAPACK` : STATIC_TITLES[route] || "ELAPACK";

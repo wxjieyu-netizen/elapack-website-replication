@@ -8,6 +8,7 @@ import Industries from "./pages/Industries";
 import Solutions from "./pages/Solutions";
 import About from "./pages/About";
 import News from "./pages/News";
+import Article from "./pages/Article";
 import Contact from "./pages/Contact";
 import Video from "./pages/Video";
 import Landing from "./pages/Landing";
@@ -34,6 +35,7 @@ export function AppRoutes() {
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/about" element={<About />} />
         <Route path="/news" element={<News />} />
+        <Route path="/news/:slug" element={<Article />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/video" element={<Video />} />
       </Route>

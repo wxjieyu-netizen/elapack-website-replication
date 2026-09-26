@@ -18,6 +18,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { StaticRouter } from "react-router-dom/server";
 import { AppRoutes } from "../src/App";
+import { articles as ARTICLES } from "../src/data/articles";
 
 const dist = path.resolve(__dirname, "../dist");
 const indexPath = path.join(dist, "index.html");
@@ -39,6 +40,7 @@ const ROUTES = [
   ...JSON.parse(
     fs.readFileSync(path.resolve(__dirname, "prerender-products.json"), "utf-8")
   ).map((slug) => `/products/${slug}`),
+  ...ARTICLES.map((a) => `/news/${a.slug}`),
 ];
 
 /** Static title per route (product pages compose their own from the slug). */
@@ -54,6 +56,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/about": "About ELAPACK — From Workshop to Global Partner",
   "/contact": "Contact ELAPACK — Get a Custom Packaging Quote",
   "/video": "Inside ELAPACK — Factory & Craft Videos",
+  ...Object.fromEntries(ARTICLES.map((a) => [`/news/${a.slug}`, `${a.title} | ELAPACK`])),
 };
 
 /** Route-level meta descriptions for SEO. */
@@ -69,6 +72,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/about": "ELAPACK began as a small workshop and grew into a full-service packaging partner for luxury brands across Europe and North America.",
   "/contact": "Talk to ELAPACK about your packaging project — quotes within one business day. Email, phone and WhatsApp available.",
   "/video": "See ELAPACK's production floor, craft details and quality process in video.",
+  ...Object.fromEntries(ARTICLES.map((a) => [`/news/${a.slug}`, a.metaDescription])),
 };
 
 let ok = 0;
