@@ -536,6 +536,135 @@ var products = [
       "Velvet color matching",
       "Edge banding and branding"
     ]
+  },
+  {
+    slug: "velvet-jewelry-display-set",
+    name: "Velvet Jewelry Display Set",
+    category: "Sets & Complete Packaging",
+    shortDesc: "Matched velvet display set \u2014 necklace busts, T-bar stand, ring cones, earring stands and cushions in one coordinated program.",
+    description: "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions \u2014 all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language.",
+    image: "/images/carousel/exec-0d39797a-3fe3-4f1d-a468-53dba5386b8f.png",
+    materials: "Velvet over structured core",
+    moq: "500 pcs (sets with box) / 200 pcs (display pieces only)",
+    leadTime: "15\u201320 days",
+    industries: ["Jewelry", "Gift", "Fashion"],
+    features: [
+      {
+        title: "One Matched Program",
+        desc: "Busts, stands, cones and cushions share the same velvet and core, so nothing looks pieced together."
+      },
+      {
+        title: "Modular Counter Layout",
+        desc: "Mix heights and piece types to fit any counter \u2014 from a single bust to a full runway of displays."
+      },
+      {
+        title: "Structured, Not Floppy",
+        desc: "Rigid cores keep busts and stands standing straight through daily retail handling."
+      },
+      {
+        title: "Brand-Color Velvet",
+        desc: "Velvet dyed to your brand palette, with optional label or embroidery placement."
+      }
+    ],
+    specs: [
+      { label: "Pieces", value: "Necklace busts (2 heights), T-bar stand, ring cones, earring stands, cushions" },
+      { label: "Covering", value: "Velvet in custom colors" },
+      { label: "Core", value: "Structured board for shape retention" },
+      { label: "MOQ", value: "500 pcs with box / 200 pcs display pieces only" }
+    ],
+    customizationOptions: [
+      "Custom velvet colors across every piece",
+      "Piece mix tailored to your assortment",
+      "Logo label or embroidery on busts and cushions",
+      "Bundle with pouches or boxes as a full set"
+    ]
+  },
+  {
+    slug: "leather-envelope-pouch",
+    name: "Leather Envelope Pouch",
+    category: "Pouches & Bags",
+    shortDesc: "Pebbled faux-leather envelope pouch with gold foil logo, snap closure and soft suede-touch interior.",
+    description: "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries \u2014 jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand.",
+    image: "/images/carousel/image.png",
+    materials: "Pebbled faux leather, suede-touch lining",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
+    industries: ["Jewelry", "Eyewear & Sunglasses", "Fashion", "Gift"],
+    features: [
+      {
+        title: "Pebbled Faux Leather",
+        desc: "A textured exterior that hides handling marks and reads premium at first touch."
+      },
+      {
+        title: "Snap-Closure Flap",
+        desc: "Envelope silhouette with a secure snap \u2014 stays closed in transit, opens with one hand."
+      },
+      {
+        title: "Gold Foil Logo",
+        desc: "Foil stamping positioned on the flap for a precise, understated brand mark."
+      },
+      {
+        title: "Slim, Mail-Friendly Profile",
+        desc: "Fits standard mailers and gift boxes without bulking up shipping."
+      }
+    ],
+    specs: [
+      { label: "Exterior", value: "Pebbled faux leather, custom colors" },
+      { label: "Interior", value: "Suede-touch lining" },
+      { label: "Closure", value: "Snap button" },
+      { label: "Branding", value: "Gold foil stamping / blind emboss / heat transfer" },
+      { label: "MOQ", value: "200 pcs" }
+    ],
+    customizationOptions: [
+      "Custom leather colors and grain textures",
+      "Foil stamping, embossing or debossing",
+      "Interior lining color matching",
+      "Custom sizes for jewelry, eyewear or cards"
+    ]
+  },
+  {
+    slug: "cream-rigid-magnetic-gift-box",
+    name: "Cream Rigid Magnetic Gift Box",
+    category: "Boxes",
+    shortDesc: "Matte cream rigid gift box with lift-off lid, magnetic closure, gold foil branding and satin ribbon finish.",
+    description: "A lift-off lid rigid box in matte cream wrap, finished with gold foil branding and a champagne satin ribbon \u2014 the quiet-luxury formula that photographs beautifully and ships well. A concealed magnetic closure lets the lid settle into place with that satisfying, slow close, while the rigid walls protect what's inside without bulky padding. Inside, the box takes tissue, foam or molded inserts to fit jewelry, eyewear, fragrance or gift programs.",
+    image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
+    materials: "Rigid cardboard, matte art paper wrap, satin ribbon",
+    moq: "500 pcs",
+    leadTime: "15\u201320 days",
+    industries: ["Jewelry", "Gift", "Beauty", "Eyewear & Sunglasses"],
+    features: [
+      {
+        title: "Concealed Magnetic Closure",
+        desc: "Hidden magnets give a smooth, premium close with no visible hardware."
+      },
+      {
+        title: "Matte Cream Wrap",
+        desc: "Fingerprint-tolerant matte lamination in cream or your brand color."
+      },
+      {
+        title: "Gold Foil Branding",
+        desc: "Foil-stamped logo on lid and box front, matched to your artwork."
+      },
+      {
+        title: "Lift-Off Lid Construction",
+        desc: "Full-height lid over a rigid base \u2014 strong walls, clean unboxing ritual."
+      }
+    ],
+    specs: [
+      { label: "Structure", value: "Rigid cardboard, lift-off lid" },
+      { label: "Wrap", value: "Matte art paper, custom colors" },
+      { label: "Closure", value: "Concealed magnetic" },
+      { label: "Finishing", value: "Gold foil stamping, satin ribbon" },
+      { label: "Inserts", value: "Foam / EVA / molded / recycled paper" },
+      { label: "MOQ", value: "500 pcs" }
+    ],
+    customizationOptions: [
+      "Custom sizes and wrap colors",
+      "Foil stamping, embossing or spot UV",
+      "Tailored interior inserts",
+      "Matching satin ribbons and seals"
+    ]
   }
 ];
 var categories = [
@@ -2361,6 +2490,22 @@ var articles = [
     date: "June 2026",
     category: "Trends",
     readTime: "6 min read"
+  },
+  {
+    title: "Inside the Factory: How Your Custom Packaging Is Made",
+    excerpt: "From dieline to sewing floor to box assembly \u2014 a walk through our three production lines shows what actually happens between approving a sample and receiving your order.",
+    image: "/images/factory/elapack-03.jpg",
+    date: "September 2026",
+    category: "Manufacturing",
+    readTime: "5 min read"
+  },
+  {
+    title: "MOQ Explained: Ordering Custom Packaging as a Smaller Brand",
+    excerpt: "Why minimums exist, how 200-piece pouch and 500-piece box runs are priced, and the choices \u2014 stock materials, simpler structures, phased launches \u2014 that keep small-batch custom viable.",
+    image: "/images/factory/elapack-08.jpg",
+    date: "September 2026",
+    category: "Sourcing Guide",
+    readTime: "6 min read"
   }
 ];
 function News() {
@@ -2895,6 +3040,12 @@ var CERT_LINE = "ISO 9001 \u2014 production and sales of paper and textile packa
 var landings = [
   {
     slug: "pouches-bags",
+    hero: { src: "/images/factory/elapack-09.jpg", alt: "Sewing custom suede pouches on ELAPACK's textile production line" },
+    gallery: [
+      { src: "/images/factory/elapack-08.jpg", alt: "Fabric library: velvet, suede, cotton and more \u2014 standard materials in stock" },
+      { src: "/images/factory/elapack-04.jpg", alt: "Screen printing station for custom logo printing on textile packaging" },
+      { src: "/images/factory/elapack-03.jpg", alt: "Sewing floor producing custom fabric pouches \u2014 one of ELAPACK's three production lines" }
+    ],
     eyebrow: "Pouches & Bags",
     h1: "Custom Fabric Pouches & Bags \u2014 Made to Your Spec, from 200 Pieces",
     subhead: "Your size. Your fabric. Your closure. Your logo. Cut, sewn and finished together.",
@@ -2955,6 +3106,10 @@ var landings = [
   },
   {
     slug: "boxes",
+    hero: { src: "/images/factory/elapack-01.jpg", alt: "Rigid box assembly line at ELAPACK \u2014 boxes made to order, not from stock" },
+    gallery: [
+      { src: "/images/factory/elapack-06.jpg", alt: "Automated box-making machine in ELAPACK's paper packaging workshop" }
+    ],
     eyebrow: "Boxes",
     h1: "Custom Rigid, Folding & Magnetic Boxes \u2014 Made to Your Spec, from 500 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
@@ -3007,6 +3162,7 @@ var landings = [
   },
   {
     slug: "sets",
+    hero: { src: "/images/factory/elapack-02.jpg", alt: "ELAPACK design team preparing pouch and box dielines for a custom packaging set" },
     eyebrow: "Sets & Bundles",
     h1: "Custom Packaging Sets \u2014 Pouch, Box & More, Made to Work Together",
     subhead: "One spec. One supplier. Pouch, box and insert that match \u2014 piece to piece.",
@@ -3069,7 +3225,10 @@ function Landing({ slug }) {
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: landing.h1 }),
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: landing.subhead })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: landing.intro }) }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: landing.intro }) }),
+      landing.hero && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("figure", { className: "landing-hero reveal", style: { marginTop: "2.5rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: landing.hero.src, alt: landing.hero.alt, loading: "lazy", width: 1600, height: 1e3 }) })
+    ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.why.heading }) }),
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "values-grid", children: landing.why.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
@@ -3089,6 +3248,7 @@ function Landing({ slug }) {
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: list.heading }),
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("ul", { className: "spec-list", children: list.items.map((item) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("li", { children: item }, item)) })
     ] }) }) }, list.heading)),
+    landing.gallery && landing.gallery.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "landing-gallery", children: landing.gallery.map((img) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("figure", { className: "landing-gallery-item reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: img.src, alt: img.alt, loading: "lazy", width: 1600, height: 1e3 }) }, img.src)) }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "How it works" }) }),
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "values-grid", children: landing.howItWorks.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [

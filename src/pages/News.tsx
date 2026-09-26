@@ -28,6 +28,24 @@ const articles = [
     category: "Trends",
     readTime: "6 min read",
   },
+  {
+    title: "Inside the Factory: How Your Custom Packaging Is Made",
+    excerpt:
+      "From dieline to sewing floor to box assembly — a walk through our three production lines shows what actually happens between approving a sample and receiving your order.",
+    image: "/images/factory/elapack-03.jpg",
+    date: "September 2026",
+    category: "Manufacturing",
+    readTime: "5 min read",
+  },
+  {
+    title: "MOQ Explained: Ordering Custom Packaging as a Smaller Brand",
+    excerpt:
+      "Why minimums exist, how 200-piece pouch and 500-piece box runs are priced, and the choices — stock materials, simpler structures, phased launches — that keep small-batch custom viable.",
+    image: "/images/factory/elapack-08.jpg",
+    date: "September 2026",
+    category: "Sourcing Guide",
+    readTime: "6 min read",
+  },
 ];
 
 export default function News() {

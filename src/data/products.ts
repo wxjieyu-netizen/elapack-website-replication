@@ -528,6 +528,141 @@ export const products: Product[] = [
       "Edge banding and branding",
     ],
   },
+  {
+    slug: "velvet-jewelry-display-set",
+    name: "Velvet Jewelry Display Set",
+    category: "Sets & Complete Packaging",
+    shortDesc:
+      "Matched velvet display set — necklace busts, T-bar stand, ring cones, earring stands and cushions in one coordinated program.",
+    description:
+      "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions — all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language.",
+    image: "/images/carousel/exec-0d39797a-3fe3-4f1d-a468-53dba5386b8f.png",
+    materials: "Velvet over structured core",
+    moq: "500 pcs (sets with box) / 200 pcs (display pieces only)",
+    leadTime: "15–20 days",
+    industries: ["Jewelry", "Gift", "Fashion"],
+    features: [
+      {
+        title: "One Matched Program",
+        desc: "Busts, stands, cones and cushions share the same velvet and core, so nothing looks pieced together.",
+      },
+      {
+        title: "Modular Counter Layout",
+        desc: "Mix heights and piece types to fit any counter — from a single bust to a full runway of displays.",
+      },
+      {
+        title: "Structured, Not Floppy",
+        desc: "Rigid cores keep busts and stands standing straight through daily retail handling.",
+      },
+      {
+        title: "Brand-Color Velvet",
+        desc: "Velvet dyed to your brand palette, with optional label or embroidery placement.",
+      },
+    ],
+    specs: [
+      { label: "Pieces", value: "Necklace busts (2 heights), T-bar stand, ring cones, earring stands, cushions" },
+      { label: "Covering", value: "Velvet in custom colors" },
+      { label: "Core", value: "Structured board for shape retention" },
+      { label: "MOQ", value: "500 pcs with box / 200 pcs display pieces only" },
+    ],
+    customizationOptions: [
+      "Custom velvet colors across every piece",
+      "Piece mix tailored to your assortment",
+      "Logo label or embroidery on busts and cushions",
+      "Bundle with pouches or boxes as a full set",
+    ],
+  },
+  {
+    slug: "leather-envelope-pouch",
+    name: "Leather Envelope Pouch",
+    category: "Pouches & Bags",
+    shortDesc:
+      "Pebbled faux-leather envelope pouch with gold foil logo, snap closure and soft suede-touch interior.",
+    description:
+      "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries — jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand.",
+    image: "/images/carousel/image.png",
+    materials: "Pebbled faux leather, suede-touch lining",
+    moq: "200 pcs",
+    leadTime: "15–20 days",
+    industries: ["Jewelry", "Eyewear & Sunglasses", "Fashion", "Gift"],
+    features: [
+      {
+        title: "Pebbled Faux Leather",
+        desc: "A textured exterior that hides handling marks and reads premium at first touch.",
+      },
+      {
+        title: "Snap-Closure Flap",
+        desc: "Envelope silhouette with a secure snap — stays closed in transit, opens with one hand.",
+      },
+      {
+        title: "Gold Foil Logo",
+        desc: "Foil stamping positioned on the flap for a precise, understated brand mark.",
+      },
+      {
+        title: "Slim, Mail-Friendly Profile",
+        desc: "Fits standard mailers and gift boxes without bulking up shipping.",
+      },
+    ],
+    specs: [
+      { label: "Exterior", value: "Pebbled faux leather, custom colors" },
+      { label: "Interior", value: "Suede-touch lining" },
+      { label: "Closure", value: "Snap button" },
+      { label: "Branding", value: "Gold foil stamping / blind emboss / heat transfer" },
+      { label: "MOQ", value: "200 pcs" },
+    ],
+    customizationOptions: [
+      "Custom leather colors and grain textures",
+      "Foil stamping, embossing or debossing",
+      "Interior lining color matching",
+      "Custom sizes for jewelry, eyewear or cards",
+    ],
+  },
+  {
+    slug: "cream-rigid-magnetic-gift-box",
+    name: "Cream Rigid Magnetic Gift Box",
+    category: "Boxes",
+    shortDesc:
+      "Matte cream rigid gift box with lift-off lid, magnetic closure, gold foil branding and satin ribbon finish.",
+    description:
+      "A lift-off lid rigid box in matte cream wrap, finished with gold foil branding and a champagne satin ribbon — the quiet-luxury formula that photographs beautifully and ships well. A concealed magnetic closure lets the lid settle into place with that satisfying, slow close, while the rigid walls protect what's inside without bulky padding. Inside, the box takes tissue, foam or molded inserts to fit jewelry, eyewear, fragrance or gift programs.",
+    image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
+    materials: "Rigid cardboard, matte art paper wrap, satin ribbon",
+    moq: "500 pcs",
+    leadTime: "15–20 days",
+    industries: ["Jewelry", "Gift", "Beauty", "Eyewear & Sunglasses"],
+    features: [
+      {
+        title: "Concealed Magnetic Closure",
+        desc: "Hidden magnets give a smooth, premium close with no visible hardware.",
+      },
+      {
+        title: "Matte Cream Wrap",
+        desc: "Fingerprint-tolerant matte lamination in cream or your brand color.",
+      },
+      {
+        title: "Gold Foil Branding",
+        desc: "Foil-stamped logo on lid and box front, matched to your artwork.",
+      },
+      {
+        title: "Lift-Off Lid Construction",
+        desc: "Full-height lid over a rigid base — strong walls, clean unboxing ritual.",
+      },
+    ],
+    specs: [
+      { label: "Structure", value: "Rigid cardboard, lift-off lid" },
+      { label: "Wrap", value: "Matte art paper, custom colors" },
+      { label: "Closure", value: "Concealed magnetic" },
+      { label: "Finishing", value: "Gold foil stamping, satin ribbon" },
+      { label: "Inserts", value: "Foam / EVA / molded / recycled paper" },
+      { label: "MOQ", value: "500 pcs" },
+    ],
+    customizationOptions: [
+      "Custom sizes and wrap colors",
+      "Foil stamping, embossing or spot UV",
+      "Tailored interior inserts",
+      "Matching satin ribbons and seals",
+    ],
+  },
 ];
 
 export const categories = [
