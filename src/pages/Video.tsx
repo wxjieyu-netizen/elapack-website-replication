@@ -45,29 +45,29 @@ const successStories = [
     client: "Marks & Spencer",
     category: "Retail Packaging",
     solution: "Cost-Effective Luxury Packaging",
-    image: "/case-marks.webp",
-    desc: "We designed a series of custom packaging for Marks & Spencer. By employing eco-friendly materials, they lowered packaging costs and enhanced appeal while ensuring sustainability.",
+    image: "/images/carousel/kraft-bag.png",
+    desc: "We designed a series of custom packaging for Marks & Spencer, lowering packaging costs while enhancing shelf appeal.",
   },
   {
     client: "EFFY",
     category: "Jewelry Packaging",
     solution: "Luxury Jewelry Box Design",
-    image: "/case-effy.webp",
-    desc: "We designed bespoke custom packaging boxes for EFFY, enhancing their brand's luxury appeal while ensuring sustainability through eco-friendly materials.",
+    image: "/images/carousel/luxury-gift-box.png",
+    desc: "We designed bespoke custom packaging boxes for EFFY, enhancing the brand's luxury appeal at the moment of unboxing.",
   },
   {
     client: "Majorica",
     category: "Heritage Packaging",
     solution: "Timeless Jewelry Boxes",
-    image: "/case-majorica.webp",
-    desc: "Custom packaging for Majorica reflects the brand's marine protection spirit and elegant temperament, combining timeless elegance with contemporary flair.",
+    image: "/images/carousel/black-leather-box.png",
+    desc: "Custom packaging for Majorica reflects the brand's elegant temperament, combining timeless design with contemporary flair.",
   },
   {
     client: "ZARA",
-    category: "Sustainable Packaging",
-    solution: "100% Recyclable Packaging",
-    image: "/case-zara.webp",
-    desc: "We developed tailor-made sustainable packaging solutions for ZARA, enhancing their commitment to sustainability through innovative, environmentally friendly designs.",
+    category: "Fashion Retail Packaging",
+    solution: "Retail Packaging Program",
+    image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
+    desc: "We developed tailor-made packaging for ZARA that complements their high-fashion products with consistent quality at volume.",
   },
 ];
 
@@ -113,7 +113,7 @@ const faqs = [
   },
   {
     q: "Where are your production facilities located?",
-    a: "Our production facilities are based in Asia with global logistics support, ensuring reliable delivery to Europe, North America, and worldwide.",
+    a: "Our production facility is located in Wuxi, Jiangsu, China, with global logistics support ensuring reliable delivery to Europe, North America, and worldwide.",
   },
   {
     q: "Can I see samples before placing a full order?",
@@ -139,6 +139,33 @@ export default function Video() {
             sustainable paper cosmetics solutions — we offer comprehensive
             custom packaging services that bring your brand vision to life.
           </p>
+        </div>
+      </section>
+
+      <section className="section" style={{ paddingTop: "3rem" }}>
+        <div className="container">
+          <div className="section-header-center reveal">
+            <p className="eyebrow">Factory Tour</p>
+            <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+              Inside Our Factory
+            </h2>
+            <p className="section-subtitle">
+              Three production lines in Wuxi, Jiangsu — textile bags, rigid
+              boxes and gift sets, made to your spec.
+            </p>
+          </div>
+          <div className="about-video-wrapper reveal" style={{ maxWidth: "900px", margin: "0 auto" }}>
+            <video
+              className="about-video-poster"
+              poster="/factory-video-poster.webp"
+              preload="none"
+              controls
+              playsInline
+            >
+              <source src="/videos/factory-tour.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </section>
 
