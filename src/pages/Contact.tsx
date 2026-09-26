@@ -25,6 +25,12 @@ const contactInfo = [
     href: null,
     icon: "◠",
   },
+  {
+    label: "Factory",
+    value: "Wuxi, Jiangsu, China",
+    href: null,
+    icon: "◈",
+  },
 ];
 
 const projectTypes = [

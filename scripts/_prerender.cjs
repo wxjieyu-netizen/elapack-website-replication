@@ -2354,7 +2354,7 @@ function About() {
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Our Story" }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "From workshop to global partner." }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Since 2018, ELAPACK has believed that packaging is not a container, but a brand's first handshake. We have grown into a full-service packaging partner for luxury brands across Europe and North America." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Today, our integrated model spans creative design, precision manufacturing across three production lines, and global logistics \u2014 serving clients from independent ateliers to established brands." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Today, our integrated model spans creative design, precision manufacturing across three production lines, and global logistics \u2014 serving clients from independent ateliers to established brands. Our factory is located in Wuxi, Jiangsu, China." }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We hold a rigorous quality management system and a sharp understanding of international markets. We are not just a producer \u2014 we are your brand strategy partner, committed to translating your design vision into tangible, market-ready art." })
       ] })
     ] }) }) }),
@@ -2883,6 +2883,12 @@ var contactInfo = [
     value: "T/T \xB7 PayPal",
     href: null,
     icon: "\u25E0"
+  },
+  {
+    label: "Factory",
+    value: "Wuxi, Jiangsu, China",
+    href: null,
+    icon: "\u25C8"
   }
 ];
 var projectTypes = [
@@ -3406,7 +3412,7 @@ var landings = [
         { title: "Rigid boxes", desc: "Thick, non-collapsible board; the premium, gift-ready structure." },
         { title: "Folding cartons", desc: "Printed paperboard that ships flat; practical and economical." },
         { title: "Magnetic closure boxes", desc: "Rigid boxes with a built-in magnetic flap; an unboxing moment." },
-        { title: "Custom structures", desc: "Made to your spec on request." }
+        { title: "Custom structures", desc: "Made to your spec on request \u2014 wrap colour matched to your Pantone reference, even for a single box style." }
       ]
     },
     tables: [

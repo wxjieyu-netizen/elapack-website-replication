@@ -105,7 +105,8 @@ export default function About() {
                 Today, our integrated model spans creative design, precision
                 manufacturing across three production lines, and global
                 logistics — serving clients from independent ateliers to
-                established brands.
+                established brands. Our factory is located in Wuxi, Jiangsu,
+                China.
               </p>
               <p className="about-text">
                 We hold a rigorous quality management system and a sharp

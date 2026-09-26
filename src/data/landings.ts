@@ -133,7 +133,7 @@ export const landings: Landing[] = [
         { title: "Rigid boxes", desc: "Thick, non-collapsible board; the premium, gift-ready structure." },
         { title: "Folding cartons", desc: "Printed paperboard that ships flat; practical and economical." },
         { title: "Magnetic closure boxes", desc: "Rigid boxes with a built-in magnetic flap; an unboxing moment." },
-        { title: "Custom structures", desc: "Made to your spec on request." },
+        { title: "Custom structures", desc: "Made to your spec on request — wrap colour matched to your Pantone reference, even for a single box style." },
       ],
     },
     tables: [
