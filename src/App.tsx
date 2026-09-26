@@ -10,6 +10,7 @@ import About from "./pages/About";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
 import Video from "./pages/Video";
+import Landing from "./pages/Landing";
 
 import "./styles/global.css";
 import "./styles/components.css";
@@ -24,6 +25,9 @@ export function AppRoutes() {
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
+        <Route path="/pouches-bags" element={<Landing slug="pouches-bags" />} />
+        <Route path="/boxes" element={<Landing slug="boxes" />} />
+        <Route path="/sets" element={<Landing slug="sets" />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:slug" element={<ProductDetail />} />
         <Route path="/industries" element={<Industries />} />

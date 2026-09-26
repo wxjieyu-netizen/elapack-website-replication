@@ -26,6 +26,9 @@ const shell = fs.readFileSync(indexPath, "utf-8");
 /** Homepage stays at /; these inner routes each get their own directory. */
 const ROUTES = [
   "/",
+  "/pouches-bags",
+  "/boxes",
+  "/sets",
   "/products",
   "/industries",
   "/solutions",
@@ -41,6 +44,9 @@ const ROUTES = [
 /** Static title per route (product pages compose their own from the slug). */
 const STATIC_TITLES: Record<string, string> = {
   "/": "ELAPACK — Custom Luxury Packaging for Global Brands",
+  "/pouches-bags": "Custom Fabric Pouches & Bags from 200 pcs | ELAPACK",
+  "/boxes": "Custom Rigid, Folding & Magnetic Boxes from 500 pcs | ELAPACK",
+  "/sets": "Custom Packaging Sets — Pouch, Box & More | ELAPACK",
   "/products": "Products — Boxes, Pouches & Gift Packaging | ELAPACK",
   "/industries": "Industries We Serve — Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions — Custom, Materials & Sustainability | ELAPACK",
@@ -53,6 +59,9 @@ const STATIC_TITLES: Record<string, string> = {
 /** Route-level meta descriptions for SEO. */
 const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets — one-stop custom packaging.",
+  "/pouches-bags": "Custom textile pouches and bags — velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
+  "/boxes": "Custom rigid, folding carton and magnetic closure boxes with EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
+  "/sets": "Custom packaging sets — pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference.",
   "/products": "Browse ELAPACK's custom packaging catalog — rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands — engineered for Europe and North America.",
   "/solutions": "Custom packaging solutions from ELAPACK — bespoke structures, premium materials and finishes, clear process, sustainable options.",

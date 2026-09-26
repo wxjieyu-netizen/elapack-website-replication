@@ -1386,6 +1386,20 @@ function Products() {
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "From single pieces to full brand systems \u2014 every product is engineered for luxury, designed for consistency, and produced for scale." })
     ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("section", { className: "section", style: { paddingBottom: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "values-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(import_react_router_dom7.Link, { to: "/pouches-bags", className: "value-card reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h3", { className: "value-title", children: "Custom Fabric Pouches & Bags" }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "value-desc", children: "Velvet, suede, cotton, muslin, satin, linen \u2014 your size, closure and branding. MOQ from 200 pieces." })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(import_react_router_dom7.Link, { to: "/boxes", className: "value-card reveal reveal-delay-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h3", { className: "value-title", children: "Custom Boxes" }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "value-desc", children: "Rigid, folding and magnetic closure boxes with inserts and Pantone-matched finishes. MOQ from 500 pieces." })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(import_react_router_dom7.Link, { to: "/sets", className: "value-card reveal reveal-delay-3", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h3", { className: "value-title", children: "Packaging Sets" }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "value-desc", children: "Pouch, box, insert and card designed together as one colour-matched set." })
+      ] })
+    ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("section", { className: "filter-bar-wrapper", children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "filter-bar reveal", children: categories.map((cat) => /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
       "button",
       {
@@ -2867,29 +2881,282 @@ function Video() {
   ] });
 }
 
-// src/App.tsx
+// src/pages/Landing.tsx
+var import_react12 = require("react");
+
+// src/data/landings.ts
+var HOW_IT_WORKS_SHARED = (sampleDays) => [
+  { title: "Send your spec", desc: "Share size, material, structure, branding and quantity." },
+  { title: "Confirm", desc: `We confirm materials and Pantone match, and send a free stock sample in ${sampleDays} days.` },
+  { title: "We make it", desc: "Your order, made to your spec, in 15\u201320 days production." },
+  { title: "We ship it", desc: "By air or by sea." }
+];
+var CERT_LINE = "ISO 9001 \u2014 production and sales of paper and textile packaging products";
+var landings = [
+  {
+    slug: "pouches-bags",
+    eyebrow: "Pouches & Bags",
+    h1: "Custom Fabric Pouches & Bags \u2014 Made to Your Spec, from 200 Pieces",
+    subhead: "Your size. Your fabric. Your closure. Your logo. Cut, sewn and finished together.",
+    metaDescription: "Custom textile pouches and bags for jewellery, fragrance, beauty, hair and fashion brands \u2014 velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in the size, closure and branding you specify. MOQ from 200 pieces.",
+    intro: "ELAPACK makes custom fabric pouches and bags for brands selling in the US and Europe. We are a trade-and-manufacturing company founded in 2018 with three production lines, ISO 9001 certified for the production and sales of paper and textile packaging products, and we make each order to your specification \u2014 not from stock \u2014 so the pouch matches your product and your brand, not the other way round.",
+    why: {
+      heading: "Why ELAPACK",
+      items: [
+        { title: "Your size, not a stock size", desc: "Standard bands run from 7\xD79 cm jewellery pouches up to 30\xD740 cm wig bags, and any custom size in between." },
+        { title: "Your fabric", desc: "Velvet, suede, cotton, muslin, satin, linen, microfiber or non-woven \u2014 plus custom developments on request." },
+        { title: "Your closure and your branding", desc: "Drawstring, zipper, flap, tuck or button; screen print, foil, deboss, woven label, embroidery or transfer, with Pantone colour matching." },
+        { title: "A low barrier to start", desc: "MOQ from 200 pieces, including custom sizes." }
+      ]
+    },
+    tables: [
+      {
+        heading: "Standard sizes",
+        note: "Any custom size made to your spec.",
+        columns: ["Band", "Sizes", "Typical use"],
+        rows: [
+          ["Small", "7\xD79 \xB7 8\xD710 \xB7 10\xD712 cm", "Jewellery \u2014 rings, earrings, pendants, bracelets"],
+          ["Medium", "12\xD715 \xB7 15\xD720 cm", "Fragrance & gift \u2014 candles, soaps, beauty items, gifts"],
+          ["Large", "16\xD723 \xB7 20\xD730 \xB7 30\xD740 cm", "Hair & beauty \u2014 wigs, bundles, sets"]
+        ]
+      },
+      {
+        heading: "Fabrics",
+        note: "Custom developments on request.",
+        columns: ["Fabric", "Reads as"],
+        rows: [
+          ["Velvet / suede", "Plush, premium, gift-like"],
+          ["Cotton / muslin / linen", "Natural, understated, prints crisply"],
+          ["Satin", "Smooth, dressy"],
+          ["Microfiber / non-woven", "Practical, economical"]
+        ]
+      }
+    ],
+    lists: [
+      { heading: "Closures", items: ["Drawstring (cord or ribbon finish)", "Zipper", "Flap", "Tuck", "Button", "Custom"] },
+      { heading: "Branding", items: ["Screen print", "Foil", "Deboss", "Woven label", "Embroidery", "Transfer \u2014 with Pantone colour matching"] }
+    ],
+    howItWorks: HOW_IT_WORKS_SHARED("4\u20139"),
+    moq: [
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "Sample", value: "Free stock sample \u2014 4\u20139 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea" },
+      { label: "Certifications", value: CERT_LINE }
+    ],
+    audience: [
+      { title: "Jewellery & eyewear", desc: "Small pouches for rings, earrings, pendants and eyewear." },
+      { title: "Fragrance", desc: "Medium drawstring bags for candles, soaps and fragrance gifts." },
+      { title: "Hair & beauty", desc: "Large bags for wigs, bundles and sets." },
+      { title: "Fashion", desc: "Pouches and bags for accessories and garments." },
+      { title: "Gift", desc: "Gift-ready pouches and bag-in-box combinations." }
+    ],
+    ctaTitle: "Request a quote for your custom pouch or bag"
+  },
+  {
+    slug: "boxes",
+    eyebrow: "Boxes",
+    h1: "Custom Rigid, Folding & Magnetic Boxes \u2014 Made to Your Spec, from 500 Pieces",
+    subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
+    metaDescription: "Custom packaging boxes for jewellery, fragrance, beauty, hair and fashion brands \u2014 rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
+    intro: "ELAPACK makes custom boxes for brands selling in the US and Europe. We are a trade-and-manufacturing company founded in 2018 with three production lines, ISO 9001 certified for the production and sales of paper and textile packaging products, and we make each order to your specification \u2014 not from stock \u2014 so the box fits your product and carries your brand, not the other way round.",
+    why: {
+      heading: "Box styles",
+      items: [
+        { title: "Rigid boxes", desc: "Thick, non-collapsible board; the premium, gift-ready structure." },
+        { title: "Folding cartons", desc: "Printed paperboard that ships flat; practical and economical." },
+        { title: "Magnetic closure boxes", desc: "Rigid boxes with a built-in magnetic flap; an unboxing moment." },
+        { title: "Custom structures", desc: "Made to your spec on request." }
+      ]
+    },
+    tables: [
+      {
+        heading: "Inserts",
+        note: "Boxes can include inserts to hold the product in place \u2014 custom inserts on request.",
+        columns: ["Insert", "Best for"],
+        rows: [
+          ["EVA", "Contoured, precise fit"],
+          ["Sponge", "Soft cushioning"],
+          ["Molded pulp", "Economical, eco-friendly structure"],
+          ["Flocked", "Velvet-touch luxury finish"]
+        ]
+      }
+    ],
+    lists: [
+      { heading: "Sizes", items: ["Standard sizes: 8\xD78\xD73 cm \xB7 10\xD710\xD73 cm", "Any custom size made to your spec"] },
+      {
+        heading: "Finishes & branding",
+        items: ["Matt lamination", "Glossy lamination", "Varnishing", "Stamping", "Embossing", "UV coating", "Gold foil \u2014 with Pantone colour matching", "Custom finishes on request"]
+      }
+    ],
+    howItWorks: HOW_IT_WORKS_SHARED("4\u20139"),
+    moq: [
+      { label: "MOQ", value: "500 pieces, custom sizes included" },
+      { label: "Sample", value: "Free stock sample \u2014 4\u20139 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea" },
+      { label: "Certifications", value: CERT_LINE }
+    ],
+    audience: [
+      { title: "Jewellery & eyewear", desc: "Small rigid boxes with fitted inserts." },
+      { title: "Fragrance & gift", desc: "Magnetic and rigid boxes for candles, soaps and fragrance gifts." },
+      { title: "Hair & beauty", desc: "Boxes for wig and bundle packaging sets." },
+      { title: "Fashion", desc: "Folding cartons and rigid boxes for accessories and garments." }
+    ],
+    ctaTitle: "Request a quote for your custom box"
+  },
+  {
+    slug: "sets",
+    eyebrow: "Sets & Bundles",
+    h1: "Custom Packaging Sets \u2014 Pouch, Box & More, Made to Work Together",
+    subhead: "One spec. One supplier. Pouch, box and insert that match \u2014 piece to piece.",
+    metaDescription: "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands \u2014 pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference. MOQ from 200 pieces.",
+    intro: "ELAPACK makes custom packaging sets for brands selling in the US and Europe. We are a trade-and-manufacturing company founded in 2018 with three production lines, ISO 9001 certified for the production and sales of paper and textile packaging products. Because pouches and boxes are made under one roof, the colour, material and branding match across every piece of the set \u2014 not roughly, but by spec.",
+    why: {
+      heading: "What a set can include",
+      items: [
+        { title: "Pouch + box", desc: "The classic pairing." },
+        { title: "Box + insert + pouch", desc: "Retail-ready, piece to piece." },
+        { title: "With a card", desc: "A thank-you card, company profile, slogan, design or product-showcase card, customised to match the set." },
+        { title: "Custom combinations", desc: "Built around your product on request." }
+      ]
+    },
+    tables: [],
+    lists: [
+      {
+        heading: "How sets come together",
+        items: [
+          "Every piece is designed as one: unified design, colour-matched to your Pantone reference.",
+          "You choose how it ships \u2014 packed and delivered as one set, or packed per piece, whichever suits your needs."
+        ]
+      }
+    ],
+    howItWorks: [
+      { title: "Send your spec", desc: "What goes in the set, per-piece size, material, branding, quantity." },
+      { title: "Confirm", desc: "We confirm materials and Pantone match, and send a free stock sample in 4\u20137 days." },
+      { title: "We make it", desc: "Your order, made to your spec, in 15\u201320 days production." },
+      { title: "We ship it", desc: "By air or by sea, packed as one set or per piece." }
+    ],
+    moq: [
+      { label: "MOQ", value: "500 pieces for sets that include a box \xB7 200 pieces for sets without a box" },
+      { label: "Sample", value: "Free stock sample \u2014 4\u20137 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea" },
+      { label: "Certifications", value: CERT_LINE }
+    ],
+    audience: [
+      { title: "Jewellery & eyewear", desc: "Pouch + box sets with fitted inserts." },
+      { title: "Fragrance & gift", desc: "Candle and gift sets: box, pouch, and insert as one." },
+      { title: "Hair & beauty", desc: "Wig and bundle sets for retail-ready presentation." },
+      { title: "Fashion", desc: "Accessory and garment packaging sets." }
+    ],
+    ctaTitle: "Request a quote for your custom packaging set"
+  }
+];
+var getLandingBySlug = (slug) => landings.find((l) => l.slug === slug);
+
+// src/pages/Landing.tsx
 var import_jsx_runtime14 = require("react/jsx-runtime");
+function Landing({ slug }) {
+  const landing = getLandingBySlug(slug);
+  (0, import_react12.useEffect)(() => {
+    if (landing) document.title = `${landing.eyebrow} | ELAPACK`;
+  }, [landing]);
+  if (!landing) return null;
+  return /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(import_jsx_runtime14.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow reveal", children: landing.eyebrow }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: landing.h1 }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: landing.subhead })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: landing.intro }) }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.why.heading }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "values-grid", children: landing.why.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "value-title", children: item.title }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "value-desc", children: item.desc })
+      ] }, item.title)) })
+    ] }) }),
+    landing.tables.map((table) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: table.heading }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { style: { overflowX: "auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("table", { className: "spec-table", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("tr", { children: table.columns.map((col) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("th", { children: col }, col)) }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("tbody", { children: table.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("tr", { children: row.map((cell, ci) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("td", { children: cell }, ci)) }, row[0])) })
+      ] }) }),
+      table.note && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "markets-note", style: { marginTop: "1rem" }, children: table.note })
+    ] }) }) }, table.heading)),
+    landing.lists.map((list) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: list.heading }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("ul", { className: "spec-list", children: list.items.map((item) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("li", { children: item }, item)) })
+    ] }) }) }, list.heading)),
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "How it works" }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "values-grid", children: landing.howItWorks.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "value-title", children: `${String(i + 1).padStart(2, "0")} \xB7 ${step.title}` }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "value-desc", children: step.desc })
+      ] }, step.title)) })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "MOQ & lead time" }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "spec-list", children: landing.moq.map((row) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("strong", { children: [
+          row.label,
+          ":"
+        ] }),
+        " ",
+        row.value
+      ] }, row.label)) })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Who it's for" }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "values-grid", children: landing.audience.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "value-title", children: a.title }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "value-desc", children: a.desc })
+      ] }, a.title)) })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "center" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.ctaTitle }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("p", { className: "markets-note", children: [
+        "Message Tina on WhatsApp or phone:",
+        " ",
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" }),
+        " ",
+        "\xB7 Email: ",
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" })
+      ] })
+    ] }) }) })
+  ] });
+}
+
+// src/App.tsx
+var import_jsx_runtime15 = require("react/jsx-runtime");
 function AppRoutes() {
-  return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(import_react_router_dom14.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Layout, {}), children: [
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Home, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Products, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(ProductDetail, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Industries, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Solutions, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(About, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(News, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Contact, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Video, {}) })
+  return /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(import_react_router_dom14.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Layout, {}), children: [
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Home, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Landing, { slug: "pouches-bags" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Landing, { slug: "boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Landing, { slug: "sets" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Products, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(ProductDetail, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Industries, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Solutions, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(About, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(News, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Contact, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom14.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Video, {}) })
   ] }) });
 }
 
 // scripts/prerender.tsx
-var import_jsx_runtime15 = require("react/jsx-runtime");
+var import_jsx_runtime16 = require("react/jsx-runtime");
 var dist = import_node_path.default.resolve(__dirname, "../dist");
 var indexPath = import_node_path.default.join(dist, "index.html");
 var shell = import_node_fs.default.readFileSync(indexPath, "utf-8");
 var ROUTES = [
   "/",
+  "/pouches-bags",
+  "/boxes",
+  "/sets",
   "/products",
   "/industries",
   "/solutions",
@@ -2903,6 +3170,9 @@ var ROUTES = [
 ];
 var STATIC_TITLES = {
   "/": "ELAPACK \u2014 Custom Luxury Packaging for Global Brands",
+  "/pouches-bags": "Custom Fabric Pouches & Bags from 200 pcs | ELAPACK",
+  "/boxes": "Custom Rigid, Folding & Magnetic Boxes from 500 pcs | ELAPACK",
+  "/sets": "Custom Packaging Sets \u2014 Pouch, Box & More | ELAPACK",
   "/products": "Products \u2014 Boxes, Pouches & Gift Packaging | ELAPACK",
   "/industries": "Industries We Serve \u2014 Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions \u2014 Custom, Materials & Sustainability | ELAPACK",
@@ -2913,6 +3183,9 @@ var STATIC_TITLES = {
 };
 var STATIC_DESCRIPTIONS = {
   "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets \u2014 one-stop custom packaging.",
+  "/pouches-bags": "Custom textile pouches and bags \u2014 velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
+  "/boxes": "Custom rigid, folding carton and magnetic closure boxes with EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
+  "/sets": "Custom packaging sets \u2014 pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference.",
   "/products": "Browse ELAPACK's custom packaging catalog \u2014 rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands \u2014 engineered for Europe and North America.",
   "/solutions": "Custom packaging solutions from ELAPACK \u2014 bespoke structures, premium materials and finishes, clear process, sustainable options.",
@@ -2925,7 +3198,7 @@ var ok = 0;
 for (const route of ROUTES) {
   try {
     const html = (0, import_server.renderToString)(
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_server2.StaticRouter, { location: route, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(AppRoutes, {}) })
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_server2.StaticRouter, { location: route, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(AppRoutes, {}) })
     );
     const productMatch = route.match(/^\/products\/([a-z0-9-]+)$/);
     const pageTag = productMatch ? `${productMatch[1].split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")} | ELAPACK` : STATIC_TITLES[route] || "ELAPACK";
