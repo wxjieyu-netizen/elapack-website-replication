@@ -36,11 +36,15 @@ const productFaqs = [
   },
   {
     q: "How long does the production process take?",
-    a: "Typical lead times range from 15-25 days for production after sample approval. The full process from initial contact to delivery usually takes 4-6 weeks depending on complexity and quantity.",
+    a: "Typical production time is 15–20 days after sample approval. Shipping is by air or by sea from Shanghai or Shenzhen.",
   },
   {
     q: "Can I see a sample before placing a full order?",
-    a: "Yes. We produce physical samples for your approval before mass production. Sample costs may apply and are often credited toward your final order.",
+    a: "Yes. Free stock samples ship in 2–3 days. Custom printed samples cost USD 25 plus USD 20 shipping (USD 45 total), are made in 3–5 days, and sample delivery takes 4–7 days.",
+  },
+  {
+    q: "What payment methods do you accept?",
+    a: "We accept T/T (bank transfer) and PayPal.",
   },
   {
     q: "What types of closures are available for the pouches?",

@@ -1618,11 +1618,15 @@ var productFaqs = [
   },
   {
     q: "How long does the production process take?",
-    a: "Typical lead times range from 15-25 days for production after sample approval. The full process from initial contact to delivery usually takes 4-6 weeks depending on complexity and quantity."
+    a: "Typical production time is 15\u201320 days after sample approval. Shipping is by air or by sea from Shanghai or Shenzhen."
   },
   {
     q: "Can I see a sample before placing a full order?",
-    a: "Yes. We produce physical samples for your approval before mass production. Sample costs may apply and are often credited toward your final order."
+    a: "Yes. Free stock samples ship in 2\u20133 days. Custom printed samples cost USD 25 plus USD 20 shipping (USD 45 total), are made in 3\u20135 days, and sample delivery takes 4\u20137 days."
+  },
+  {
+    q: "What payment methods do you accept?",
+    a: "We accept T/T (bank transfer) and PayPal."
   },
   {
     q: "What types of closures are available for the pouches?",
@@ -2873,6 +2877,12 @@ var contactInfo = [
     value: "+86 186 2635 2096",
     href: "https://wa.me/8618626352096",
     icon: "\u{1F4AC}"
+  },
+  {
+    label: "Payment",
+    value: "T/T \xB7 PayPal",
+    href: null,
+    icon: "\u25E0"
   }
 ];
 var projectTypes = [
@@ -3303,11 +3313,11 @@ function Video() {
 var import_react12 = require("react");
 
 // src/data/landings.ts
-var HOW_IT_WORKS_SHARED = (sampleDays) => [
+var HOW_IT_WORKS_SHARED = [
   { title: "Send your spec", desc: "Share size, material, structure, branding and quantity." },
-  { title: "Confirm", desc: `We confirm materials and Pantone match, and send a free stock sample in ${sampleDays} days.` },
+  { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples ship in 2\u20133 days; custom printed samples in 3\u20135 days (USD 25 + USD 20 shipping)." },
   { title: "We make it", desc: "Your order, made to your spec, in 15\u201320 days production." },
-  { title: "We ship it", desc: "By air or by sea." }
+  { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen." }
 ];
 var CERT_LINE = "ISO 9001 \u2014 production and sales of paper and textile packaging products";
 var landings = [
@@ -3360,12 +3370,14 @@ var landings = [
       { heading: "Closures", items: ["Drawstring (cord or ribbon finish)", "Zipper", "Flap", "Tuck", "Button", "Custom"] },
       { heading: "Branding", items: ["Screen print", "Foil", "Deboss", "Woven label", "Embroidery", "Transfer \u2014 with Pantone colour matching"] }
     ],
-    howItWorks: HOW_IT_WORKS_SHARED("4\u20139"),
+    howItWorks: HOW_IT_WORKS_SHARED,
     moq: [
       { label: "MOQ", value: "200 pieces, custom sizes included" },
-      { label: "Sample", value: "Free stock sample \u2014 4\u20139 days" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
-      { label: "Shipping", value: "By air or by sea" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" },
       { label: "Certifications", value: CERT_LINE }
     ],
     audience: [
@@ -3417,12 +3429,14 @@ var landings = [
         items: ["Matt lamination", "Glossy lamination", "Varnishing", "Stamping", "Embossing", "UV coating", "Gold foil \u2014 with Pantone colour matching", "Custom finishes on request"]
       }
     ],
-    howItWorks: HOW_IT_WORKS_SHARED("4\u20139"),
+    howItWorks: HOW_IT_WORKS_SHARED,
     moq: [
       { label: "MOQ", value: "500 pieces, custom sizes included" },
-      { label: "Sample", value: "Free stock sample \u2014 4\u20139 days" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
-      { label: "Shipping", value: "By air or by sea" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" },
       { label: "Certifications", value: CERT_LINE }
     ],
     audience: [
@@ -3462,15 +3476,17 @@ var landings = [
     ],
     howItWorks: [
       { title: "Send your spec", desc: "What goes in the set, per-piece size, material, branding, quantity." },
-      { title: "Confirm", desc: "We confirm materials and Pantone match, and send a free stock sample in 4\u20137 days." },
+      { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples ship in 2\u20133 days; custom printed samples in 3\u20135 days (USD 25 + USD 20 shipping)." },
       { title: "We make it", desc: "Your order, made to your spec, in 15\u201320 days production." },
-      { title: "We ship it", desc: "By air or by sea, packed as one set or per piece." }
+      { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." }
     ],
     moq: [
       { label: "MOQ", value: "500 pieces for sets that include a box \xB7 200 pieces for sets without a box" },
-      { label: "Sample", value: "Free stock sample \u2014 4\u20137 days" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
-      { label: "Shipping", value: "By air or by sea" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" },
       { label: "Certifications", value: CERT_LINE }
     ],
     audience: [

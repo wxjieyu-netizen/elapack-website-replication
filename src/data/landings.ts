@@ -33,11 +33,11 @@ export interface Landing {
   ctaTitle: string;
 }
 
-const HOW_IT_WORKS_SHARED = (sampleDays: string) => [
+const HOW_IT_WORKS_SHARED = [
   { title: "Send your spec", desc: "Share size, material, structure, branding and quantity." },
-  { title: "Confirm", desc: `We confirm materials and Pantone match, and send a free stock sample in ${sampleDays} days.` },
+  { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples ship in 2–3 days; custom printed samples in 3–5 days (USD 25 + USD 20 shipping)." },
   { title: "We make it", desc: "Your order, made to your spec, in 15–20 days production." },
-  { title: "We ship it", desc: "By air or by sea." },
+  { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen." },
 ];
 
 const CERT_LINE =
@@ -95,12 +95,14 @@ export const landings: Landing[] = [
       { heading: "Closures", items: ["Drawstring (cord or ribbon finish)", "Zipper", "Flap", "Tuck", "Button", "Custom"] },
       { heading: "Branding", items: ["Screen print", "Foil", "Deboss", "Woven label", "Embroidery", "Transfer — with Pantone colour matching"] },
     ],
-    howItWorks: HOW_IT_WORKS_SHARED("4–9"),
+    howItWorks: HOW_IT_WORKS_SHARED,
     moq: [
       { label: "MOQ", value: "200 pieces, custom sizes included" },
-      { label: "Sample", value: "Free stock sample — 4–9 days" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
-      { label: "Shipping", value: "By air or by sea" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
       { label: "Certifications", value: CERT_LINE },
     ],
     audience: [
@@ -154,12 +156,14 @@ export const landings: Landing[] = [
         items: ["Matt lamination", "Glossy lamination", "Varnishing", "Stamping", "Embossing", "UV coating", "Gold foil — with Pantone colour matching", "Custom finishes on request"],
       },
     ],
-    howItWorks: HOW_IT_WORKS_SHARED("4–9"),
+    howItWorks: HOW_IT_WORKS_SHARED,
     moq: [
       { label: "MOQ", value: "500 pieces, custom sizes included" },
-      { label: "Sample", value: "Free stock sample — 4–9 days" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
-      { label: "Shipping", value: "By air or by sea" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
       { label: "Certifications", value: CERT_LINE },
     ],
     audience: [
@@ -201,15 +205,17 @@ export const landings: Landing[] = [
     ],
     howItWorks: [
       { title: "Send your spec", desc: "What goes in the set, per-piece size, material, branding, quantity." },
-      { title: "Confirm", desc: "We confirm materials and Pantone match, and send a free stock sample in 4–7 days." },
+      { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples ship in 2–3 days; custom printed samples in 3–5 days (USD 25 + USD 20 shipping)." },
       { title: "We make it", desc: "Your order, made to your spec, in 15–20 days production." },
-      { title: "We ship it", desc: "By air or by sea, packed as one set or per piece." },
+      { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." },
     ],
     moq: [
       { label: "MOQ", value: "500 pieces for sets that include a box · 200 pieces for sets without a box" },
-      { label: "Sample", value: "Free stock sample — 4–7 days" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
-      { label: "Shipping", value: "By air or by sea" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
       { label: "Certifications", value: CERT_LINE },
     ],
     audience: [

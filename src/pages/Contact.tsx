@@ -19,6 +19,12 @@ const contactInfo = [
     href: "https://wa.me/8618626352096",
     icon: "💬",
   },
+  {
+    label: "Payment",
+    value: "T/T · PayPal",
+    href: null,
+    icon: "◠",
+  },
 ];
 
 const projectTypes = [
