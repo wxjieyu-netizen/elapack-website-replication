@@ -32,6 +32,11 @@ export default function Landing({ slug }: { slug: string }) {
               {landing.intro}
             </p>
           </div>
+          {landing.hero && (
+            <figure className="landing-hero reveal" style={{ marginTop: "2.5rem" }}>
+              <img src={landing.hero.src} alt={landing.hero.alt} loading="lazy" width={1600} height={1000} />
+            </figure>
+          )}
         </div>
       </section>
 
@@ -104,6 +109,20 @@ export default function Landing({ slug }: { slug: string }) {
           </div>
         </section>
       ))}
+
+      {landing.gallery && landing.gallery.length > 0 && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="landing-gallery">
+              {landing.gallery.map((img) => (
+                <figure key={img.src} className="landing-gallery-item reveal">
+                  <img src={img.src} alt={img.alt} loading="lazy" width={1600} height={1000} />
+                </figure>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">

@@ -10,8 +10,15 @@ export interface LandingSection {
   items: { title: string; desc: string }[];
 }
 
+export interface LandingImage {
+  src: string;
+  alt: string;
+}
+
 export interface Landing {
   slug: string;
+  hero?: LandingImage;
+  gallery?: LandingImage[];
   eyebrow: string;
   h1: string;
   subhead: string;
@@ -39,6 +46,12 @@ const CERT_LINE =
 export const landings: Landing[] = [
   {
     slug: "pouches-bags",
+    hero: { src: "/images/factory/elapack-09.jpg", alt: "Sewing custom suede pouches on ELAPACK's textile production line" },
+    gallery: [
+      { src: "/images/factory/elapack-08.jpg", alt: "Fabric library: velvet, suede, cotton and more — standard materials in stock" },
+      { src: "/images/factory/elapack-04.jpg", alt: "Screen printing station for custom logo printing on textile packaging" },
+      { src: "/images/factory/elapack-03.jpg", alt: "Sewing floor producing custom fabric pouches — one of ELAPACK's three production lines" },
+    ],
     eyebrow: "Pouches & Bags",
     h1: "Custom Fabric Pouches & Bags — Made to Your Spec, from 200 Pieces",
     subhead: "Your size. Your fabric. Your closure. Your logo. Cut, sewn and finished together.",
@@ -101,6 +114,10 @@ export const landings: Landing[] = [
   },
   {
     slug: "boxes",
+    hero: { src: "/images/factory/elapack-01.jpg", alt: "Rigid box assembly line at ELAPACK — boxes made to order, not from stock" },
+    gallery: [
+      { src: "/images/factory/elapack-06.jpg", alt: "Automated box-making machine in ELAPACK's paper packaging workshop" },
+    ],
     eyebrow: "Boxes",
     h1: "Custom Rigid, Folding & Magnetic Boxes — Made to Your Spec, from 500 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
@@ -155,6 +172,7 @@ export const landings: Landing[] = [
   },
   {
     slug: "sets",
+    hero: { src: "/images/factory/elapack-02.jpg", alt: "ELAPACK design team preparing pouch and box dielines for a custom packaging set" },
     eyebrow: "Sets & Bundles",
     h1: "Custom Packaging Sets — Pouch, Box & More, Made to Work Together",
     subhead: "One spec. One supplier. Pouch, box and insert that match — piece to piece.",
