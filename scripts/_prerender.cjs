@@ -1063,11 +1063,11 @@ var popularSolutions = [
   }
 ];
 var brandLogos = [
-  { name: "Marks & Spencer", type: "text" },
-  { name: "EFFY", type: "text" },
-  { name: "Majorica", type: "text" },
-  { name: "ZARA", type: "text" },
-  { name: "Inditex", type: "text" }
+  { name: "Luxury Jewelry Houses", type: "text" },
+  { name: "Heritage Pearl Brands", type: "text" },
+  { name: "US Designer Labels", type: "text" },
+  { name: "UK High-Street Retail", type: "text" },
+  { name: "Global Fashion Groups", type: "text" }
 ];
 var whyCards = [
   {
@@ -1093,7 +1093,7 @@ var whyCards = [
 ];
 var caseStudies = [
   {
-    client: "Marks & Spencer",
+    client: "A UK High-Street Retailer",
     category: "Retail Packaging",
     solution: "Cost-Effective Luxury Packaging",
     image: "/images/carousel/kraft-bag.png",
@@ -1104,7 +1104,7 @@ var caseStudies = [
     ]
   },
   {
-    client: "EFFY",
+    client: "A New York Jewelry House",
     category: "Jewelry Packaging",
     solution: "Luxury Jewelry Box Design",
     image: "/images/carousel/luxury-gift-box.png",
@@ -1115,7 +1115,7 @@ var caseStudies = [
     ]
   },
   {
-    client: "Majorica",
+    client: "A Heritage Pearl Maison",
     category: "Heritage Packaging",
     solution: "Timeless Jewelry Boxes",
     image: "/images/carousel/black-leather-box.png",
@@ -1126,7 +1126,7 @@ var caseStudies = [
     ]
   },
   {
-    client: "ZARA",
+    client: "A Global Fashion Group",
     category: "Cosmetic & Perfume",
     solution: "Fashion Retail Packaging",
     image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
@@ -3089,32 +3089,32 @@ var processSteps2 = [
 ];
 var successStories = [
   {
-    client: "Marks & Spencer",
+    client: "A UK High-Street Retailer",
     category: "Retail Packaging",
     solution: "Cost-Effective Luxury Packaging",
     image: "/images/carousel/kraft-bag.png",
-    desc: "We designed a series of custom packaging for Marks & Spencer, lowering packaging costs while enhancing shelf appeal."
+    desc: "We designed a series of custom packaging for a UK high-street retailer, lowering packaging costs while enhancing shelf appeal."
   },
   {
-    client: "EFFY",
+    client: "A New York Jewelry House",
     category: "Jewelry Packaging",
     solution: "Luxury Jewelry Box Design",
     image: "/images/carousel/luxury-gift-box.png",
-    desc: "We designed bespoke custom packaging boxes for EFFY, enhancing the brand's luxury appeal at the moment of unboxing."
+    desc: "We designed bespoke custom packaging boxes for a New York jewelry house, enhancing the brand's luxury appeal at the moment of unboxing."
   },
   {
-    client: "Majorica",
+    client: "A Heritage Pearl Maison",
     category: "Heritage Packaging",
     solution: "Timeless Jewelry Boxes",
     image: "/images/carousel/black-leather-box.png",
-    desc: "Custom packaging for Majorica reflects the brand's elegant temperament, combining timeless design with contemporary flair."
+    desc: "Custom packaging for a heritage pearl maison reflects the brand's elegant temperament, combining timeless design with contemporary flair."
   },
   {
-    client: "ZARA",
+    client: "A Global Fashion Group",
     category: "Fashion Retail Packaging",
     solution: "Retail Packaging Program",
     image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
-    desc: "We developed tailor-made packaging for ZARA that complements their high-fashion products with consistent quality at volume."
+    desc: "We developed tailor-made packaging for a global fashion group that complements their high-fashion products with consistent quality at volume."
   }
 ];
 var deliveryFeatures = [

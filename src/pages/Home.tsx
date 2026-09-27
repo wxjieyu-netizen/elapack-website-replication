@@ -56,11 +56,11 @@ const popularSolutions = [
 ];
 
 const brandLogos = [
-  { name: "Marks & Spencer", type: "text" as const },
-  { name: "EFFY", type: "text" as const },
-  { name: "Majorica", type: "text" as const },
-  { name: "ZARA", type: "text" as const },
-  { name: "Inditex", type: "text" as const },
+  { name: "Luxury Jewelry Houses", type: "text" as const },
+  { name: "Heritage Pearl Brands", type: "text" as const },
+  { name: "US Designer Labels", type: "text" as const },
+  { name: "UK High-Street Retail", type: "text" as const },
+  { name: "Global Fashion Groups", type: "text" as const },
 ];
 
 const whyCards = [
@@ -88,7 +88,7 @@ const whyCards = [
 
 const caseStudies = [
   {
-    client: "Marks & Spencer",
+    client: "A UK High-Street Retailer",
     category: "Retail Packaging",
     solution: "Cost-Effective Luxury Packaging",
     image: "/images/carousel/kraft-bag.png",
@@ -99,7 +99,7 @@ const caseStudies = [
     ],
   },
   {
-    client: "EFFY",
+    client: "A New York Jewelry House",
     category: "Jewelry Packaging",
     solution: "Luxury Jewelry Box Design",
     image: "/images/carousel/luxury-gift-box.png",
@@ -110,7 +110,7 @@ const caseStudies = [
     ],
   },
   {
-    client: "Majorica",
+    client: "A Heritage Pearl Maison",
     category: "Heritage Packaging",
     solution: "Timeless Jewelry Boxes",
     image: "/images/carousel/black-leather-box.png",
@@ -121,7 +121,7 @@ const caseStudies = [
     ],
   },
   {
-    client: "ZARA",
+    client: "A Global Fashion Group",
     category: "Cosmetic & Perfume",
     solution: "Fashion Retail Packaging",
     image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
