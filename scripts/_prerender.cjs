@@ -4296,6 +4296,7 @@ var collections = [
         heading: "Sizes",
         items: [
           { title: "Standard band", desc: "From 7\xD79 cm jewelry pouches up to 30\xD740 cm gift and wig bags." },
+          { title: "Travel jewelry pouches", desc: "Closable formats that keep rings, chains and small pieces secure in transit and in luggage \u2014 drawstring, flap or zip, sized to your jewelry set." },
           { title: "Any custom size", desc: "Made to your product dimensions, MOQ unchanged." }
         ]
       }
