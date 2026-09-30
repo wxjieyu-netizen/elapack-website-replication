@@ -41,15 +41,16 @@ var import_react_router_dom = require("react-router-dom");
 // src/components/Logo.tsx
 var import_jsx_runtime = require("react/jsx-runtime");
 function Logo() {
-  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo", "aria-label": "ELAPACK", children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { className: "logo-name", "aria-hidden": "true", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo-letter", children: "E" }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo-letter", children: "L" }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo-letter logo-letter-accent", children: "A" }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo-letter", children: "P" }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo-letter logo-letter-accent", children: "A" }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo-letter", children: "C" }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "logo-letter", children: "K" })
-  ] }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+    "img",
+    {
+      className: "logo-img",
+      src: "/images/brand/elapack-logo.png",
+      alt: "ELAPACK",
+      width: 1e3,
+      height: 383
+    }
+  );
 }
 
 // src/data/products.ts
@@ -347,7 +348,7 @@ var products = [
     category: "Pouches & Bags",
     shortDesc: "Velvet-covered retail display stand that presents necklaces securely in showcases.",
     description: "A velvet necklace display stand designed for retail showcases. The plush velvet surface holds necklaces securely in place while presenting them elegantly. Available in multiple colors to match your brand aesthetic.",
-    image: "/images/carousel/velvet-necklace-stand.png",
+    image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet, wooden base",
     moq: "200 pcs",
     leadTime: "15\u201320 days",
@@ -386,7 +387,7 @@ var products = [
     category: "Pouches & Bags",
     shortDesc: "Crystal-clear acrylic earring display with multi-tier slots and weighted base.",
     description: "A modern acrylic earring display stand with transparent construction. Perfect for showcasing earrings in a clean, contemporary retail setting. The clear acrylic design lets the jewelry be the focal point.",
-    image: "/images/carousel/acrylic-display.png",
+    image: "/images/placeholder/product-coming-soon.svg",
     materials: "Acrylic / PVC",
     moq: "200 pcs",
     leadTime: "15\u201320 days",
@@ -465,7 +466,7 @@ var products = [
     category: "Sets & Complete Packaging",
     shortDesc: "Stackable velvet-lined jewelry tray system with customizable compartments.",
     description: "A stackable velvet jewelry tray with compartmental design for organized display. Perfect for retail showcases and drawer storage. The velvet surface protects jewelry while the stackable design maximizes space efficiency.",
-    image: "/images/carousel/jewelry-tray.png",
+    image: "/images/placeholder/product-coming-soon.svg",
     materials: "MDF, velvet lining",
     moq: "200 pcs",
     leadTime: "15\u201320 days",
@@ -504,7 +505,7 @@ var products = [
     category: "Sets & Complete Packaging",
     shortDesc: "Matched velvet display set \u2014 necklace busts, T-bar stand, ring cones, earring stands and cushions in one coordinated program.",
     description: "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions \u2014 all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language.",
-    image: "/images/carousel/exec-0d39797a-3fe3-4f1d-a468-53dba5386b8f.png",
+    image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet over structured core",
     moq: "500 pcs (sets with box) / 200 pcs (display pieces only)",
     leadTime: "15\u201320 days",
@@ -581,6 +582,215 @@ var products = [
       "Foil stamping, embossing or debossing",
       "Interior lining color matching",
       "Custom sizes for jewelry, eyewear or cards"
+    ]
+  },
+  {
+    slug: "custom-satin-wig-bag",
+    name: "Custom Satin Wig Bag",
+    category: "Pouches & Bags",
+    shortDesc: "Satin drawstring wig bag in the standard 30\xD740 cm format \u2014 smooth interior that keeps fibers from tangling, with your logo.",
+    description: "A satin drawstring bag sized for wigs and hair extensions. The smooth satin surface lets fibers slide instead of snagging, so wigs come out of the bag the way they went in, and the drawstring closes in one pull. The standard 30\xD740 cm format fits most wig and extension presentations, and every bag is made to order \u2014 your satin colour, cord and branding. Product photography is in progress; request a stock sample to see and feel the material before ordering.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Satin, drawstring cord",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
+    industries: ["Hair & Wig", "Beauty", "Fashion"],
+    features: [
+      {
+        title: "Smooth Satin Interior",
+        desc: "Fibers glide instead of snagging \u2014 wigs and extensions stay tangle-free in storage and transit."
+      },
+      {
+        title: "Standard Wig Format",
+        desc: "30\xD740 cm fits most wig and extension programs; other sizes made to your spec."
+      },
+      {
+        title: "Drawstring Closure",
+        desc: "One-pull closing with a colour-matched satin or polyester cord."
+      },
+      {
+        title: "Your Branding",
+        desc: "Silkscreen logo, woven label or heat transfer \u2014 positioned inside or outside the bag."
+      }
+    ],
+    specs: [
+      { label: "Dimensions", value: "30 \xD7 40 cm standard \xB7 custom sizes on request" },
+      { label: "Fabric", value: "Satin \xB7 other fabrics on request" },
+      { label: "Fabric weight", value: "To be confirmed" },
+      { label: "Closure Type", value: "Drawstring" }
+    ],
+    customizationOptions: [
+      "Pantone satin color matching",
+      "Logo silkscreen, woven label or heat transfer",
+      "Custom sizes and cord options"
+    ]
+  },
+  {
+    slug: "custom-satin-jewelry-pouch",
+    name: "Custom Satin Jewelry Pouch",
+    category: "Pouches & Bags",
+    shortDesc: "Lustrous satin jewelry pouch with drawstring or flap closure \u2014 your colour, size and logo.",
+    description: "A satin jewelry pouch for programs that want a gift feel at first touch. The lustrous face catches light in retail displays and unboxing photos, while the soft drape protects finishes and platings. Made to order in your satin colour and size, with drawstring or flap closure and your logo silkscreened or hot-stamped. Product photography is in progress; request a stock sample to feel the material.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Satin, drawstring cord",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
+    industries: ["Jewelry", "Gift", "Fashion"],
+    features: [
+      {
+        title: "Lustrous Gift Face",
+        desc: "Light-catching satin that photographs well in retail and unboxing moments."
+      },
+      {
+        title: "Soft Drape Protection",
+        desc: "Gentle on platings and finishes \u2014 a natural fit for bridal and gifting lines."
+      },
+      {
+        title: "Closure Options",
+        desc: "Drawstring with matched cord, or an envelope flap with snap closure."
+      },
+      {
+        title: "Made to Your Colour",
+        desc: "Pantone-matched satin so the pouch lands exactly on brand."
+      }
+    ],
+    specs: [
+      { label: "Dimensions", value: "Made to your size" },
+      { label: "Fabric", value: "Satin, Pantone-matched" },
+      { label: "Fabric weight", value: "To be confirmed" },
+      { label: "Closure Type", value: "Drawstring / flap" }
+    ],
+    customizationOptions: [
+      "Pantone satin color matching",
+      "Silkscreen printing or hot-stamped logo",
+      "Drawstring or flap closure",
+      "Custom sizes, MOQ unchanged"
+    ]
+  },
+  {
+    slug: "custom-muslin-drawstring-pouch",
+    name: "Custom Muslin Drawstring Pouch",
+    category: "Pouches & Bags",
+    shortDesc: "Breathable unbleached muslin drawstring pouch \u2014 the natural-look carrier for jewelry, favors and small goods.",
+    description: "An unbleached muslin pouch with a visible, honest weave. Muslin is breathable, which makes it a natural fit for items that should not sit in sealed plastic \u2014 and its hand-made look suits artisan, bridal favor and natural-positioned brands. Cut, sewn and printed to order in your size, with a cotton drawstring and your logo in water-based ink. Product photography is in progress; request a stock sample to see the weave.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Unbleached muslin, cotton cord",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
+    industries: ["Jewelry", "Beauty", "Gift"],
+    features: [
+      {
+        title: "Breathable Weave",
+        desc: "Air moves through the fabric \u2014 kind to items that should not sit sealed."
+      },
+      {
+        title: "Natural, Unbleached Look",
+        desc: "A visible cotton weave that reads artisan and honest on shelf."
+      },
+      {
+        title: "Prints Beautifully",
+        desc: "Water-based inks on cotton give soft, matte logo prints."
+      },
+      {
+        title: "Light to Ship",
+        desc: "Featherweight construction keeps freight costs down on volume programs."
+      }
+    ],
+    specs: [
+      { label: "Dimensions", value: "Made to your size" },
+      { label: "Fabric", value: "Unbleached muslin cotton" },
+      { label: "Fabric weight", value: "To be confirmed" },
+      { label: "Closure Type", value: "Drawstring (cotton cord)" }
+    ],
+    customizationOptions: [
+      "Custom sizes and shapes",
+      "Water-based ink logo printing",
+      "Bleached or colored muslin on request",
+      "Cord color matching"
+    ]
+  },
+  {
+    slug: "custom-linen-jewelry-pouch",
+    name: "Custom Linen Jewelry Pouch",
+    category: "Pouches & Bags",
+    shortDesc: "Textured natural linen pouch with drawstring \u2014 matte, breathable and quietly premium.",
+    description: "A linen pouch for brands whose look is matte, natural and textured rather than glossy. The slubbed weave gives every pouch a subtle one-of-a-kind surface, and linen stays breathable and crisp over time. Made to order in natural, bleached or dyed linen, in your size, with drawstring or flap closure and your logo printed, labelled or embroidered. Product photography is in progress; request a stock sample to feel the weave.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Linen, cotton cord",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
+    industries: ["Jewelry", "Fashion", "Gift"],
+    features: [
+      {
+        title: "Textured Slub Weave",
+        desc: "A matte, natural surface with subtle variation \u2014 no two pouches identical."
+      },
+      {
+        title: "Breathable & Crisp",
+        desc: "Linen keeps its hand over time and lets air move through the bag."
+      },
+      {
+        title: "Natural or Dyed",
+        desc: "Natural and bleached stock options, or dyed to your Pantone reference."
+      },
+      {
+        title: "Quiet Branding",
+        desc: "Woven labels and embroidery sit especially well on linen texture."
+      }
+    ],
+    specs: [
+      { label: "Dimensions", value: "Made to your size" },
+      { label: "Fabric", value: "Linen \u2014 natural, bleached or dyed" },
+      { label: "Fabric weight", value: "To be confirmed" },
+      { label: "Closure Type", value: "Drawstring / flap" }
+    ],
+    customizationOptions: [
+      "Natural, bleached or Pantone-dyed linen",
+      "Woven label or embroidery branding",
+      "Custom sizes, MOQ unchanged",
+      "Mixed linen-cotton blends on request"
+    ]
+  },
+  {
+    slug: "custom-microfiber-jewelry-pouch",
+    name: "Custom Microfiber Jewelry Pouch",
+    category: "Pouches & Bags",
+    shortDesc: "Microfiber pouch that cleans as it carries \u2014 soft protection for jewelry, eyewear and screens.",
+    description: "A microfiber pouch that works twice: it carries the product and polishes it. The fine synthetic weave lifts oils and dust without scratching, which makes it a natural companion for eyewear, screens and polished jewelry. Made to order in your size and colour, with drawstring or flap closure and your logo printed on the pouch. Product photography is in progress; request a stock sample to test the wipe performance.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Microfiber, drawstring cord",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
+    industries: ["Jewelry", "Eyewear & Sunglasses", "Beauty"],
+    features: [
+      {
+        title: "Cleans as It Carries",
+        desc: "The pouch itself doubles as a polishing cloth for eyewear and screens."
+      },
+      {
+        title: "Scratch-Free Softness",
+        desc: "Fine-denier fibers are safe on polished metals, lenses and coatings."
+      },
+      {
+        title: "Full Colour Range",
+        desc: "Stock and dyed microfiber colours with matched drawcord."
+      },
+      {
+        title: "Retail-Ready Sizes",
+        desc: "Sized to your product \u2014 from eyewear sleeves to jewelry pouches."
+      }
+    ],
+    specs: [
+      { label: "Dimensions", value: "Made to your size" },
+      { label: "Fabric", value: "Microfiber" },
+      { label: "Fabric weight", value: "To be confirmed" },
+      { label: "Closure Type", value: "Drawstring / flap" }
+    ],
+    customizationOptions: [
+      "Custom sizes for eyewear, jewelry or devices",
+      "Logo printing in one or multiple colors",
+      "Dyed microfiber with matched cord",
+      "Bundle with boxes as a care kit"
     ]
   }
 ];
@@ -2690,7 +2900,11 @@ var RELATED = {
     "custom-velvet-drawstring-pouch",
     "custom-cotton-jewelry-pouch"
   ],
-  "custom-hair-extension-packaging-guide": ["custom-velvet-drawstring-pouch"],
+  "custom-hair-extension-packaging-guide": [
+    "custom-satin-wig-bag",
+    "custom-velvet-drawstring-pouch",
+    "custom-linen-jewelry-pouch"
+  ],
   "custom-clothing-apparel-packaging-guide": ["kraft-paper-shopping-bag", "luxury-gift-box-ribbon"],
   "custom-gift-packaging-guide": [
     "magnetic-closure-gift-box",
@@ -3673,6 +3887,7 @@ var collections = [
       "magnetic-closure-gift-box",
       "black-leather-jewelry-box",
       "custom-velvet-drawstring-pouch",
+      "custom-microfiber-jewelry-pouch",
       "leather-envelope-pouch"
     ],
     ctaTitle: "Request a quote for your eyewear packaging"
@@ -3730,9 +3945,61 @@ var collections = [
     productSlugs: [
       "custom-velvet-drawstring-pouch",
       "custom-cotton-jewelry-pouch",
+      "custom-satin-jewelry-pouch",
+      "custom-muslin-drawstring-pouch",
+      "custom-linen-jewelry-pouch",
+      "custom-microfiber-jewelry-pouch",
       "leather-envelope-pouch"
     ],
     ctaTitle: "Request a quote for your custom jewelry pouches"
+  },
+  {
+    slug: "custom-wig-packaging",
+    eyebrow: "Wig & Hair Packaging",
+    h1: "Custom Wig Packaging \u2014 Satin Wig Bags & Boxes",
+    subhead: "Satin wig bags in the standard 30\xD740 cm format, plus boxes and sets for wig and hair extension brands \u2014 your size, colour and logo.",
+    metaDescription: "Custom wig packaging with your logo \u2014 satin drawstring wig bags in the standard 30\xD740 cm format, plus rigid and magnetic boxes for wigs and hair extensions. Bags from 200 pieces. Free stock samples.",
+    intro: "Custom packaging for wig and hair extension brands selling in the US and Europe. We make the satin bags that carry and protect the hair \u2014 smooth interiors that keep fibers from tangling \u2014 and the boxes that present the program at retail, matched in colour and branding. Photography of our wig packaging is in progress; every fact on this page is our confirmed trade terms, and stock samples ship free so you can judge materials in hand.",
+    sections: [
+      {
+        heading: "Wig bags",
+        items: [
+          { title: "Satin drawstring bag", desc: "The standard 30\xD740 cm carrier \u2014 smooth satin lets fibers slide instead of snagging." },
+          { title: "Sized to your format", desc: "Any wig or extension length made to your dimensions, MOQ unchanged." },
+          { title: "Travel & storage bags", desc: "Larger formats with cord or zipper closures for storage and travel programs." }
+        ]
+      },
+      {
+        heading: "Boxes & cases",
+        items: [
+          { title: "Rigid wig boxes", desc: "Structured boxes that present wigs and extensions upright at retail." },
+          { title: "Magnetic flip-top", desc: "A clean open-close ritual for premium hair programs." },
+          { title: "Inserts & sleeves", desc: "Fitted inserts and satin sleeves that hold the presentation in place." }
+        ]
+      },
+      {
+        heading: "Branding",
+        items: [
+          { title: "Logo print & label", desc: "Silkscreen, heat transfer or woven label on bag and box." },
+          { title: "Pantone matching", desc: "Satin and box wrap aligned to your brand colour." },
+          { title: "Hang tags & cards", desc: "Care instructions and brand cards bundled with the bag." }
+        ]
+      }
+    ],
+    facts: [
+      { label: "MOQ", value: "Bags from 200 pieces \xB7 boxes from 500 pieces" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" }
+    ],
+    productSlugs: [
+      "custom-satin-wig-bag",
+      "magnetic-closure-gift-box",
+      "luxury-gift-box-ribbon"
+    ],
+    ctaTitle: "Request a quote for your custom wig packaging"
   }
 ];
 function getCollectionBySlug(slug) {
@@ -3823,6 +4090,7 @@ function AppRoutes() {
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-jewelry-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-boxes" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/eyewear-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "eyewear-packaging" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-jewelry-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-pouches" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-wig-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-wig-packaging" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Products, {}) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(ProductDetail, {}) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Industries, {}) }),
@@ -3848,6 +4116,7 @@ var ROUTES = [
   "/custom-jewelry-boxes",
   "/eyewear-packaging",
   "/custom-jewelry-pouches",
+  "/custom-wig-packaging",
   "/products",
   "/industries",
   "/solutions",
@@ -3868,6 +4137,7 @@ var STATIC_TITLES = {
   "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 500 pcs | ELAPACK",
   "/eyewear-packaging": "Custom Eyewear Packaging \u2014 Glasses Boxes & Pouches | ELAPACK",
   "/custom-jewelry-pouches": "Custom Jewelry Pouches with Logo, from 200 pcs | ELAPACK",
+  "/custom-wig-packaging": "Custom Wig Packaging \u2014 Satin Wig Bags & Boxes | ELAPACK",
   "/products": "Products \u2014 Boxes, Pouches & Gift Packaging | ELAPACK",
   "/industries": "Industries We Serve \u2014 Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions \u2014 Custom, Materials & Sustainability | ELAPACK",
@@ -3885,6 +4155,7 @@ var STATIC_DESCRIPTIONS = {
   "/custom-jewelry-boxes": "Custom jewelry boxes with your logo \u2014 rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 500 pieces, free stock samples.",
   "/eyewear-packaging": "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes from 500, pouches from 200 pieces. Free stock samples.",
   "/custom-jewelry-pouches": "Custom jewelry pouches with logo \u2014 velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",
+  "/custom-wig-packaging": "Custom wig packaging with your logo \u2014 satin drawstring wig bags in the standard 30\xD740 cm format, plus rigid and magnetic boxes for wigs and hair extensions. Bags from 200 pieces. Free stock samples.",
   "/products": "Browse ELAPACK's custom packaging catalog \u2014 rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands \u2014 engineered for Europe and North America.",
   "/solutions": "Custom packaging solutions from ELAPACK \u2014 bespoke structures, premium materials and finishes, clear process, sustainable options.",

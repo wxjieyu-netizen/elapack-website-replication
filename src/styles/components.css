@@ -1,31 +1,12 @@
 /* ===== Logo ===== */
-.logo {
-  display: inline-flex;
-  align-items: center;
+.logo-img {
+  display: block;
+  height: 34px;
+  width: auto;
 }
 
-.logo-name {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.035em;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.58rem;
-  font-weight: 300;
-  letter-spacing: 0.015em;
-  line-height: 1;
-  white-space: nowrap;
-  color: #58c6a4;
-}
-
-.logo-letter {
-  display: inline-block;
-}
-
-.logo-letter-accent {
-  background: linear-gradient(108deg, #1b654b 0 35%, #58c6a4 35% 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+.footer-brand .logo-img {
+  height: 44px;
 }
 
 /* ===== Header ===== */
@@ -62,8 +43,8 @@
   flex-shrink: 0;
 }
 
-.header-logo:hover .logo-name {
-  filter: brightness(0.82);
+.header-logo:hover .logo-img {
+  opacity: 0.82;
 }
 
 .header-nav {
@@ -283,17 +264,6 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.footer-brand .logo-name {
-  color: #77d9bb;
-}
-
-.footer-brand .logo-letter-accent {
-  background: linear-gradient(108deg, #3d9474 0 35%, #77d9bb 35% 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
 .footer-desc {
   margin-top: 1.25rem;
   font-size: 0.875rem;
@@ -422,7 +392,7 @@
     grid-template-columns: 1fr;
   }
 
-  .logo-name {
-    font-size: 1.12rem;
+  .logo-img {
+    height: 28px;
   }
 }

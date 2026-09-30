@@ -18,7 +18,11 @@ const RELATED: Record<string, string[]> = {
     "custom-velvet-drawstring-pouch",
     "custom-cotton-jewelry-pouch",
   ],
-  "custom-hair-extension-packaging-guide": ["custom-velvet-drawstring-pouch"],
+  "custom-hair-extension-packaging-guide": [
+    "custom-satin-wig-bag",
+    "custom-velvet-drawstring-pouch",
+    "custom-linen-jewelry-pouch",
+  ],
   "custom-clothing-apparel-packaging-guide": ["kraft-paper-shopping-bag", "luxury-gift-box-ribbon"],
   "custom-gift-packaging-guide": [
     "magnetic-closure-gift-box",

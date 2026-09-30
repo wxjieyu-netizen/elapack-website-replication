@@ -33,6 +33,7 @@ export function AppRoutes() {
         <Route path="/custom-jewelry-boxes" element={<Collection slug="custom-jewelry-boxes" />} />
         <Route path="/eyewear-packaging" element={<Collection slug="eyewear-packaging" />} />
         <Route path="/custom-jewelry-pouches" element={<Collection slug="custom-jewelry-pouches" />} />
+        <Route path="/custom-wig-packaging" element={<Collection slug="custom-wig-packaging" />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:slug" element={<ProductDetail />} />
         <Route path="/industries" element={<Industries />} />

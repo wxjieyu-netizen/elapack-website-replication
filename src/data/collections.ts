@@ -1,7 +1,8 @@
 /**
  * Collection pages (2026-09-30 keyword restructuring): keyword-anchored
  * category hubs that group real catalog products by buyer search intent —
- * /custom-jewelry-boxes, /eyewear-packaging, /custom-jewelry-pouches.
+ * /custom-jewelry-boxes, /eyewear-packaging, /custom-jewelry-pouches and
+ * /custom-wig-packaging (phase-2 placeholder edition).
  * All facts below are the confirmed trade facts (MOQ, samples, lead time).
  */
 export type Collection = {
@@ -131,6 +132,7 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
       "black-leather-jewelry-box",
       "custom-velvet-drawstring-pouch",
+      "custom-microfiber-jewelry-pouch",
       "leather-envelope-pouch",
     ],
     ctaTitle: "Request a quote for your eyewear packaging",
@@ -191,9 +193,64 @@ export const collections: Collection[] = [
     productSlugs: [
       "custom-velvet-drawstring-pouch",
       "custom-cotton-jewelry-pouch",
+      "custom-satin-jewelry-pouch",
+      "custom-muslin-drawstring-pouch",
+      "custom-linen-jewelry-pouch",
+      "custom-microfiber-jewelry-pouch",
       "leather-envelope-pouch",
     ],
     ctaTitle: "Request a quote for your custom jewelry pouches",
+  },
+  {
+    slug: "custom-wig-packaging",
+    eyebrow: "Wig & Hair Packaging",
+    h1: "Custom Wig Packaging — Satin Wig Bags & Boxes",
+    subhead:
+      "Satin wig bags in the standard 30×40 cm format, plus boxes and sets for wig and hair extension brands — your size, colour and logo.",
+    metaDescription:
+      "Custom wig packaging with your logo — satin drawstring wig bags in the standard 30×40 cm format, plus rigid and magnetic boxes for wigs and hair extensions. Bags from 200 pieces. Free stock samples.",
+    intro:
+      "Custom packaging for wig and hair extension brands selling in the US and Europe. We make the satin bags that carry and protect the hair — smooth interiors that keep fibers from tangling — and the boxes that present the program at retail, matched in colour and branding. Photography of our wig packaging is in progress; every fact on this page is our confirmed trade terms, and stock samples ship free so you can judge materials in hand.",
+    sections: [
+      {
+        heading: "Wig bags",
+        items: [
+          { title: "Satin drawstring bag", desc: "The standard 30×40 cm carrier — smooth satin lets fibers slide instead of snagging." },
+          { title: "Sized to your format", desc: "Any wig or extension length made to your dimensions, MOQ unchanged." },
+          { title: "Travel & storage bags", desc: "Larger formats with cord or zipper closures for storage and travel programs." },
+        ],
+      },
+      {
+        heading: "Boxes & cases",
+        items: [
+          { title: "Rigid wig boxes", desc: "Structured boxes that present wigs and extensions upright at retail." },
+          { title: "Magnetic flip-top", desc: "A clean open-close ritual for premium hair programs." },
+          { title: "Inserts & sleeves", desc: "Fitted inserts and satin sleeves that hold the presentation in place." },
+        ],
+      },
+      {
+        heading: "Branding",
+        items: [
+          { title: "Logo print & label", desc: "Silkscreen, heat transfer or woven label on bag and box." },
+          { title: "Pantone matching", desc: "Satin and box wrap aligned to your brand colour." },
+          { title: "Hang tags & cards", desc: "Care instructions and brand cards bundled with the bag." },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "Bags from 200 pieces · boxes from 500 pieces" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
+    ],
+    productSlugs: [
+      "custom-satin-wig-bag",
+      "magnetic-closure-gift-box",
+      "luxury-gift-box-ribbon",
+    ],
+    ctaTitle: "Request a quote for your custom wig packaging",
   },
 ];
 
