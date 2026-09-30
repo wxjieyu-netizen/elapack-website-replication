@@ -6,7 +6,7 @@ const trustBadges = [
   { icon: "M", label: "Custom Pantone Matching" },
   { icon: "C", label: "100% Customization" },
   { icon: "D", label: "Design & Samples" },
-  { icon: "M", label: "Low MOQ From 200/500 pcs" },
+  { icon: "M", label: "Low MOQ From 200 pcs" },
 ];
 
 const processSteps = [

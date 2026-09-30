@@ -26,7 +26,7 @@ export const collections: Collection[] = [
     subhead:
       "Rigid, magnetic and wrapped boxes for rings, earrings, necklaces and bracelets — your size, structure, finish and logo.",
     metaDescription:
-      "Custom jewelry boxes with your logo — rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 500 pieces, free stock samples.",
+      "Custom jewelry boxes with your logo — rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
     intro:
       "ELAPACK makes custom jewelry boxes for brands selling in the US and Europe. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products, we make each order to your specification — box structure, wrap colour, interior insert and branding — so the box fits your jewelry and carries your brand.",
     sections: [
@@ -68,7 +68,7 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "500 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -91,7 +91,7 @@ export const collections: Collection[] = [
     subhead:
       "Glasses boxes and fabric pouches that protect frames and carry your logo, made to your spec.",
     metaDescription:
-      "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes from 500, pouches from 200 pieces. Free stock samples.",
+      "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
     intro:
       "Custom packaging for eyewear and sunglasses brands selling in the US and Europe. We make both sides of the program — printed boxes that present and protect the frames, and fabric pouches that keep them safe after the sale — matched in colour and branding. Folded glasses set the footprint: share your frame dimensions and we build the box and insert around them.",
     sections: [
@@ -121,7 +121,7 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "Boxes from 500 pieces · pouches from 200 pieces" },
+      { label: "MOQ", value: "200 pieces — boxes and pouches alike, custom sizes included" },
       { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -204,7 +204,6 @@ export const collections: Collection[] = [
       "custom-cotton-envelope-pouches",
       "custom-satin-pouches",
       "custom-muslin-drawstring-pouch",
-      "custom-linen-jewelry-pouch",
       "custom-microfiber-pouches",
       "leather-envelope-pouch",
       "custom-pvc-bags",
@@ -235,7 +234,7 @@ export const collections: Collection[] = [
         heading: "Boxes & cases",
         items: [
           { title: "Rigid wig boxes", desc: "Structured boxes that present wigs and extensions upright at retail." },
-          { title: "Hair extension boxes", desc: "Sleeve, drawer and magnetic boxes made to bundle formats — MOQ to be confirmed." },
+          { title: "Hair extension boxes", desc: "Sleeve, drawer and magnetic boxes made to bundle formats — MOQ from 200 pieces." },
           { title: "Magnetic flip-top", desc: "A clean open-close ritual for premium hair programs." },
           { title: "Inserts & sleeves", desc: "Fitted inserts and satin sleeves that hold the presentation in place." },
         ],
@@ -250,7 +249,7 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "Bags from 200 pieces · wig boxes from 500 pieces · extension boxes to be confirmed" },
+      { label: "MOQ", value: "200 pieces — bags, wig boxes and extension boxes alike" },
       { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -273,7 +272,7 @@ export const collections: Collection[] = [
     subhead:
       "One manufacturer for the whole jewelry program — logo boxes, fabric pouches, display and sets, matched in colour and branding.",
     metaDescription:
-      "Custom jewelry packaging from one manufacturer — logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes from 500, pouches from 200 pieces. Free stock samples.",
+      "Custom jewelry packaging from one manufacturer — logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
     intro:
       "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display — and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets — colour-matched and branded as one system. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products.",
     sections: [
@@ -309,7 +308,7 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "Boxes from 500 pieces · pouches & display from 200 pieces" },
+      { label: "MOQ", value: "200 pieces — boxes, pouches and display alike" },
       { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -335,9 +334,9 @@ export const collections: Collection[] = [
     subhead:
       "Magnetic, ribbon-tie and two-piece rigid gift boxes — plus candle-ready formats — your size, finish and logo.",
     metaDescription:
-      "Custom gift boxes with your logo — magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 500 pieces, free stock samples.",
+      "Custom gift boxes with your logo — magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 200 pieces, free stock samples.",
     intro:
-      "Custom gift boxes for the occasions where the box is part of the gift. Corporate programs, candles, weddings, retail gifting and seasonal campaigns all start from the same place: a rigid structure that protects, a wrap that carries your brand, and a closure that makes opening feel like an event. Magnetic flip-tops, satin ribbon ties and two-piece rigid formats are all made to your size, Pantone colour and logo — MOQ from 500 pieces.",
+      "Custom gift boxes for the occasions where the box is part of the gift. Corporate programs, candles, weddings, retail gifting and seasonal campaigns all start from the same place: a rigid structure that protects, a wrap that carries your brand, and a closure that makes opening feel like an event. Magnetic flip-tops, satin ribbon ties and two-piece rigid formats are all made to your size, Pantone colour and logo — MOQ from 200 pieces.",
     sections: [
       {
         heading: "Magnetic closure gift boxes",
@@ -377,7 +376,7 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "500 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -434,7 +433,7 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "Eyelash boxes & pouches from 200 pieces · other boxes from 500 pieces" },
+      { label: "MOQ", value: "200 pieces — boxes and pouches alike, custom sizes included" },
       { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -503,7 +502,6 @@ export const collections: Collection[] = [
       "custom-velvet-pouches",
       "custom-satin-pouches",
       "custom-muslin-drawstring-pouch",
-      "custom-linen-jewelry-pouch",
       "custom-satin-wig-bag",
     ],
     ctaTitle: "Request a quote for your custom drawstring bags",

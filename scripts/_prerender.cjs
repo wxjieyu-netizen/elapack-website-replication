@@ -63,7 +63,7 @@ var products = [
     description: "The black leather jewelry box is more than just storage \u2014 it is a timeless statement of sophistication. Crafted from smooth grain faux leather in a deep, matte black tone, this box offers an elevated unboxing experience that reflects your brand commitment to quality. Its sleek, fingerprint-resistant exterior enhances visual appeal while staying pristine even with daily use.",
     image: "/images/carousel/black-leather-box.png",
     materials: "Faux leather, velvet interior, cardboard core",
-    moq: "500 pcs",
+    moq: "200 pcs",
     leadTime: "15\u201320 days",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
@@ -107,7 +107,7 @@ var products = [
     description: "A compact white jewelry box with a glossy rigid shell and velvet-lined cushion. Made for bracelets and small jewelry gifts, it pairs a clean minimalist look with durable protection, and carries your logo silkscreened or hot-stamped on the lid. Ideal for retail display and gifting occasions.",
     image: "/images/carousel/pandora-box.png",
     materials: "Plastic exterior, velvet interior insert",
-    moq: "500 pcs",
+    moq: "200 pcs",
     leadTime: "15\u201320 days",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
@@ -144,10 +144,10 @@ var products = [
     name: "Custom Ring & Engagement Ring Boxes",
     category: "Boxes",
     shortDesc: "Custom ring boxes for engagements, weddings and retail \u2014 single or double slots, velvet or foam cushions, your logo.",
-    description: "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour \u2014 MOQ from 500 pieces.",
+    description: "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour \u2014 MOQ from 200 pieces.",
     image: "/images/carousel/ring-box-black.png",
     materials: "Velvet exterior, foam insert with velvet covering",
-    moq: "500 pcs",
+    moq: "200 pcs",
     leadTime: "15\u201320 days",
     industries: ["Jewelry", "Gift"],
     features: [
@@ -188,7 +188,7 @@ var products = [
     description: "A luxury gift box set with satin ribbon closure, designed for premium gifting occasions. The rigid box construction with matte finish and decorative ribbon creates an unforgettable unboxing experience. Perfect for corporate gifts, weddings, and high-end retail.",
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
-    moq: "500 pcs",
+    moq: "200 pcs",
     leadTime: "15\u201320 days",
     industries: ["Gift", "Beauty", "Fragrance"],
     features: [
@@ -229,7 +229,7 @@ var products = [
     description: "A sleek magnetic closure gift box with flip-top design. The hidden magnetic mechanism provides a clean look while keeping the lid securely closed. Ideal for jewelry, eyewear, cosmetics, and small luxury items.",
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
-    moq: "500 pcs",
+    moq: "200 pcs",
     leadTime: "15\u201320 days",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Beauty", "Gift", "Fashion"],
     features: [
@@ -353,11 +353,11 @@ var products = [
     name: "Custom Printed Perfume Sample Card Boxes",
     category: "Boxes",
     shortDesc: "Fully printed paper sample cards for perfume vials and sachets \u2014 your card layout, count and artwork.",
-    description: "Perfume sample packaging as a printed paper card: vials or sachets mount onto a full-colour card that carries the brand, the scent story and the try-me moment in one mail-flat piece. This is a different product from our rigid perfume gift boxes \u2014 sample cards are printed card construction, sized to your sample count and vial format, with your artwork edge to edge. Sampling programs, subscription inserts, boutique handouts and press mailers all run on the same card system. MOQ and lead time to be confirmed for your card format \u2014 send your sample count and card size for a quote. Product photography is in progress.",
+    description: "Perfume sample packaging as a printed paper card: vials or sachets mount onto a full-colour card that carries the brand, the scent story and the try-me moment in one mail-flat piece. This is a different product from our rigid perfume gift boxes \u2014 sample cards are printed card construction, sized to your sample count and vial format, with your artwork edge to edge. Sampling programs, subscription inserts, boutique handouts and press mailers all run on the same card system. MOQ from 200 pieces with a 15\u201320 day lead time \u2014 send your sample count and card size for a quote. Product photography is in progress.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Printed paper card with mounted sample holders",
-    moq: "To be confirmed",
-    leadTime: "To be confirmed",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
     industries: ["Fragrance", "Beauty", "Gift"],
     features: [
       {
@@ -382,8 +382,8 @@ var products = [
       { label: "Sample count", value: "Custom \u2014 single to multi-scent layouts" },
       { label: "Card size", value: "Made to your spec" },
       { label: "Print", value: "Full colour, custom artwork" },
-      { label: "MOQ", value: "To be confirmed" },
-      { label: "Lead time", value: "To be confirmed" }
+      { label: "MOQ", value: "200 pcs" },
+      { label: "Lead time", value: "15\u201320 days" }
     ],
     customizationOptions: [
       "Card sizes and sample-count layouts",
@@ -397,10 +397,10 @@ var products = [
     name: "Custom Press-on Nail Boxes",
     category: "Boxes",
     shortDesc: "Custom press-on nail packaging boxes \u2014 sized to your nail sets and trays, with your logo from the first run.",
-    description: "Custom press-on nail packaging for nail brands selling direct and at retail. Press-on sets live or die on presentation \u2014 the box holds the nail trays or tips securely, shows the shade and size system, and carries your brand at first sight. Boxes are made to your set format: single-set sleeves, multi-size kits or wholesale display packs, with fitted inserts that keep every tray in place. Your logo is printed, foil-stamped or embossed on the wrap. MOQ to be confirmed \u2014 send your tray dimensions and set count for a quote. Product photography is in progress; request a stock sample to judge the board quality.",
+    description: "Custom press-on nail packaging for nail brands selling direct and at retail. Press-on sets live or die on presentation \u2014 the box holds the nail trays or tips securely, shows the shade and size system, and carries your brand at first sight. Boxes are made to your set format: single-set sleeves, multi-size kits or wholesale display packs, with fitted inserts that keep every tray in place. Your logo is printed, foil-stamped or embossed on the wrap. MOQ from 200 pieces \u2014 send your tray dimensions and set count for a quote. Product photography is in progress; request a stock sample to judge the board quality.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard with custom printed wrap, fitted tray inserts",
-    moq: "To be confirmed",
+    moq: "200 pcs",
     leadTime: "15\u201320 days",
     industries: ["Beauty", "Gift"],
     features: [
@@ -425,7 +425,7 @@ var products = [
       { label: "Dimensions", value: "Made to your nail set and trays" },
       { label: "Insert", value: "Fitted tray inserts, custom layouts" },
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
-      { label: "MOQ", value: "To be confirmed" }
+      { label: "MOQ", value: "200 pcs" }
     ],
     customizationOptions: [
       "Custom sizes for any set or kit format",
@@ -439,10 +439,10 @@ var products = [
     name: "Custom Hair Extension Boxes",
     category: "Boxes",
     shortDesc: "Custom hair extension packaging boxes \u2014 sleeve, drawer and magnetic formats that present bundles and wefts at retail.",
-    description: "Custom hair extension boxes for extension brands and salons. The box does two jobs: it keeps bundles and wefts orderly and protected, and it presents the length-shade system the way a premium hair program deserves. Sleeve boxes for single bundles, drawer boxes for multi-bundle sets and magnetic flip-tops for flagship programs \u2014 each made to your bundle dimensions, with inserts that hold hair in place without crushing it. Your logo prints, foils or embosses on the wrap. MOQ to be confirmed \u2014 send your bundle dimensions for a quote. Product photography is in progress.",
+    description: "Custom hair extension boxes for extension brands and salons. The box does two jobs: it keeps bundles and wefts orderly and protected, and it presents the length-shade system the way a premium hair program deserves. Sleeve boxes for single bundles, drawer boxes for multi-bundle sets and magnetic flip-tops for flagship programs \u2014 each made to your bundle dimensions, with inserts that hold hair in place without crushing it. Your logo prints, foils or embosses on the wrap. MOQ from 200 pieces \u2014 send your bundle dimensions for a quote. Product photography is in progress.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard with custom printed wrap, fitted bundle inserts",
-    moq: "To be confirmed",
+    moq: "200 pcs",
     leadTime: "15\u201320 days",
     industries: ["Hair & Wig", "Beauty", "Gift"],
     features: [
@@ -468,7 +468,7 @@ var products = [
       { label: "Dimensions", value: "Made to your bundle format" },
       { label: "Insert", value: "Fitted inserts for bundles and wefts" },
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
-      { label: "MOQ", value: "To be confirmed" }
+      { label: "MOQ", value: "200 pcs" }
     ],
     customizationOptions: [
       "Custom sizes for any bundle count",
@@ -482,10 +482,10 @@ var products = [
     name: "Custom Watch Boxes",
     category: "Boxes",
     shortDesc: "Custom watch boxes with fitted watch pillow inserts \u2014 single and multi-watch formats for retail and gifting.",
-    description: "Custom watch boxes for watch brands, strap makers and gifting programs. The structure is the same craft as our jewelry boxes: rigid board with your printed or wrapped finish, and a fitted watch pillow that holds the timepiece upright and still \u2014 single-watch presentation boxes through multi-watch cases with individually pillowed bays. Wraps range from matte art paper to faux leather, with foil stamping, embossing and spot UV branding. MOQ to be confirmed \u2014 send your watch dimensions and piece count for a quote. Product photography is in progress; request a stock sample to judge the board and finish.",
+    description: "Custom watch boxes for watch brands, strap makers and gifting programs. The structure is the same craft as our jewelry boxes: rigid board with your printed or wrapped finish, and a fitted watch pillow that holds the timepiece upright and still \u2014 single-watch presentation boxes through multi-watch cases with individually pillowed bays. Wraps range from matte art paper to faux leather, with foil stamping, embossing and spot UV branding. MOQ from 200 pieces \u2014 send your watch dimensions and piece count for a quote. Product photography is in progress; request a stock sample to judge the board and finish.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard or faux leather wrap, watch pillow inserts",
-    moq: "To be confirmed",
+    moq: "200 pcs",
     leadTime: "15\u201320 days",
     industries: ["Jewelry", "Gift"],
     features: [
@@ -511,7 +511,7 @@ var products = [
       { label: "Insert", value: "Fitted watch pillows, velvet or satin covered" },
       { label: "Wrap", value: "Art paper / textured wrap / faux leather" },
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / embossing" },
-      { label: "MOQ", value: "To be confirmed" }
+      { label: "MOQ", value: "200 pcs" }
     ],
     customizationOptions: [
       "Single- and multi-watch layouts",
@@ -648,7 +648,7 @@ var products = [
   {
     slug: "velvet-necklace-display",
     name: "Velvet Necklace Display Stand",
-    category: "Pouches & Bags",
+    category: "Sets & Complete Packaging",
     shortDesc: "Velvet-covered retail display stand that presents necklaces securely in showcases.",
     description: "A velvet necklace display stand designed for retail showcases. The plush velvet surface holds necklaces securely in place while presenting them elegantly. Available in multiple colors to match your brand aesthetic.",
     image: "/images/placeholder/product-coming-soon.svg",
@@ -687,7 +687,7 @@ var products = [
   {
     slug: "acrylic-earring-display",
     name: "Acrylic Earring Display Stand",
-    category: "Pouches & Bags",
+    category: "Sets & Complete Packaging",
     shortDesc: "Crystal-clear acrylic earring display with multi-tier slots and weighted base.",
     description: "A modern acrylic earring display stand with transparent construction. Perfect for showcasing earrings in a clean, contemporary retail setting. The clear acrylic design lets the jewelry be the focal point.",
     image: "/images/placeholder/product-coming-soon.svg",
@@ -810,7 +810,7 @@ var products = [
     description: "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions \u2014 all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet over structured core",
-    moq: "500 pcs (sets with box) / 200 pcs (display pieces only)",
+    moq: "200 pcs",
     leadTime: "15\u201320 days",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
@@ -835,7 +835,7 @@ var products = [
       { label: "Pieces", value: "Necklace busts (2 heights), T-bar stand, ring cones, earring stands, cushions" },
       { label: "Covering", value: "Velvet in custom colors" },
       { label: "Core", value: "Structured board for shape retention" },
-      { label: "MOQ", value: "500 pcs with box / 200 pcs display pieces only" }
+      { label: "MOQ", value: "200 pcs" }
     ],
     customizationOptions: [
       "Custom velvet colors across every piece",
@@ -1013,48 +1013,6 @@ var products = [
     ]
   },
   {
-    slug: "custom-linen-jewelry-pouch",
-    name: "Custom Linen Jewelry Pouch",
-    category: "Pouches & Bags",
-    shortDesc: "Textured natural linen pouch with drawstring \u2014 matte, breathable and quietly premium.",
-    description: "A linen pouch for brands whose look is matte, natural and textured rather than glossy. The slubbed weave gives every pouch a subtle one-of-a-kind surface, and linen stays breathable and crisp over time. Made to order in natural, bleached or dyed linen, in your size, with drawstring or flap closure and your logo printed, labelled or embroidered. Product photography is in progress; request a stock sample to feel the weave.",
-    image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Linen, cotton cord",
-    moq: "200 pcs",
-    leadTime: "15\u201320 days",
-    industries: ["Jewelry", "Fashion", "Gift"],
-    features: [
-      {
-        title: "Textured Slub Weave",
-        desc: "A matte, natural surface with subtle variation \u2014 no two pouches identical."
-      },
-      {
-        title: "Breathable & Crisp",
-        desc: "Linen keeps its hand over time and lets air move through the bag."
-      },
-      {
-        title: "Natural or Dyed",
-        desc: "Natural and bleached stock options, or dyed to your Pantone reference."
-      },
-      {
-        title: "Quiet Branding",
-        desc: "Woven labels and embroidery sit especially well on linen texture."
-      }
-    ],
-    specs: [
-      { label: "Dimensions", value: "Made to your size" },
-      { label: "Fabric", value: "Linen \u2014 natural, bleached or dyed" },
-      { label: "Fabric weight", value: "To be confirmed" },
-      { label: "Closure Type", value: "Drawstring / flap" }
-    ],
-    customizationOptions: [
-      "Natural, bleached or Pantone-dyed linen",
-      "Woven label or embroidery branding",
-      "Custom sizes, MOQ unchanged",
-      "Mixed linen-cotton blends on request"
-    ]
-  },
-  {
     slug: "custom-microfiber-pouches",
     name: "Custom Microfiber Pouches",
     category: "Pouches & Bags",
@@ -1088,7 +1046,7 @@ var products = [
       { label: "Fabric", value: "Microfiber" },
       { label: "Fabric weight", value: "To be confirmed" },
       { label: "Closure Type", value: "Drawstring / flap" },
-      { label: "Cloth + pouch set MOQ", value: "To be confirmed (pouch alone from 200 pcs)" }
+      { label: "Cloth + pouch set MOQ", value: "200 pcs" }
     ],
     customizationOptions: [
       "Custom sizes for eyewear, jewelry or devices",
@@ -1997,7 +1955,7 @@ function Products() {
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(import_react_router_dom7.Link, { to: "/boxes", className: "value-card reveal reveal-delay-2", children: [
         /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h3", { className: "value-title", children: "Custom Boxes" }),
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "value-desc", children: "Rigid, folding and magnetic closure boxes with inserts and Pantone-matched finishes. MOQ from 500 pieces." })
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "value-desc", children: "Rigid, folding and magnetic closure boxes with inserts and Pantone-matched finishes. MOQ from 200 pieces." })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(import_react_router_dom7.Link, { to: "/sets", className: "value-card reveal reveal-delay-3", children: [
         /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h3", { className: "value-title", children: "Packaging Sets" }),
@@ -2065,7 +2023,7 @@ var trustBadges = [
   { icon: "M", label: "Custom Pantone Matching" },
   { icon: "C", label: "100% Customization" },
   { icon: "D", label: "Design & Samples" },
-  { icon: "M", label: "Low MOQ From 200/500 pcs" }
+  { icon: "M", label: "Low MOQ From 200 pcs" }
 ];
 var processSteps = [
   { step: "01", title: "Establish Contact" },
@@ -3088,6 +3046,42 @@ Drift is normal and bounded; the question your spec answers is how much drift is
 When line 4 has an answer, you have finished the task this page owns: an acceptable-difference clause you can put in the next spec, and the questions to raise. Keep the note local, and raise those questions with your supplier through your existing approved contact process \u2014 do not send it anywhere this page has not verified.
 
 Your next step, once the tolerance is written, is the approval process \u2014 how to check a batch against that clause at incoming inspection. That is a separate page for a separate decision, and it starts from the number you have now put in the spec.`
+  },
+  {
+    "slug": "how-to-customize-eyelash-boxes",
+    "title": "How to Customize Your Eyelash Boxes: Formats, Inserts, Print and Quantity",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "6 min read",
+    "image": "/images/factory/elapack-02.jpg",
+    "imageAlt": "Dielines and structural drawings prepared for a custom box program",
+    "excerpt": "A lash box copied from a photo is a guess. Customize from the tray outward \u2014 format, structure, insert, print, quantity \u2014 before you brief a supplier.",
+    "metaDescription": "Learn how to customize eyelash boxes step by step \u2014 tray format, box structure, inserts, print finishes and MOQ planning \u2014 before you request a quote.",
+    "body": "*Format, print and sizing guidance in this guide is generic industry knowledge. Confirm material and production specifics with the supplier you are evaluating.*\n\nThis guide is for lash brand owners, salon buyers and wholesalers who are customizing eyelash boxes \u2014 a first run, a rebrand or a wholesale pack \u2014 and need to brief a supplier without wasting sampling rounds. It covers the five decisions that define a custom lash box: the tray format, the box structure, the insert, the print program and the quantity plan. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **A lash box customized from a photo reference is a guess; the box has to be built around the tray, the shelf and the brand, in that order.** Work through the five decisions below and you will finish with a customization brief ready to send for samples and quotes.\n\n## Why lash boxes customized from a photo disappoint\n\nA custom eyelash box does a double job: it holds the lash tray securely in transit and on the shelf, and it sells the shade and style system at first sight. When the box is copied from a photo instead of built from your tray, one of those jobs usually fails.\n\n1. A lash brand orders boxes customized to match a competitor photo or a marketplace template.\n2. The boxes arrive and the trays rattle, the lid presses on the lashes, or the printed layout sits over the wrong row.\n3. **Without mapping your trays and your retail context to the box specs, the customization is guesswork and quotes are not comparable.**\n4. A wrong box means re-sampling, re-cutting the insert, or retail stock that cannot go on shelf.\n5. The rework can delay a launch or a wholesale commitment, which raises the cost of a wrong brief.\n6. The task on this page is to map your trays and brand to structure, insert, print and quantity, and prepare the brief for a quote.\n\nThe fix is not a better photo. It is a brief that starts from the tray and works outward.\n\n## Five decisions that customize your lash box\n\n**Customize from the tray outward \u2014 format, structure, insert, print, quantity \u2014 before you compare quotes.** Each decision below ends with the question your line has to answer.\n\n### Start from the tray format\n\nThe tray decides the box, not the other way round. Measure the lash tray or pair card exactly \u2014 length, width and the height of the tray with lashes seated \u2014 and count how many trays one box must hold. As a working reference, stock lash formats commonly land near 14\xD710\xD76 cm for single-tray retail boxes, 15\xD715\xD75 cm for square multi-pair formats and 20\xD718\xD78 cm for wholesale display packs; anything outside those bands is fully custom. The question your line has to answer: how many trays per box, and does the box also carry accessories \u2014 glue, tweezers, an applicator \u2014 that need their own wells?\n\n### Choose the box structure\n\nThe structure follows the selling moment. A sleeve suits single-pair direct-to-consumer mailers; a tray-and-lid or flip-top box suits retail counters where the box is handled; a magnetic flip-top adds the premium open-close ritual for flagship lines; a tall display pack suits wholesale. The question: where does the box live \u2014 in a mailer, on a shelf, or in a display \u2014 and how often is it opened before purchase?\n\n### Specify the insert\n\nThe insert is what actually holds the lashes. Fitted inserts cut to the tray profile keep trays seated in transit and stop the rattle that reads as cheap; looser universal pockets cost less but let trays shift. Decide glued-in or loose, and whether accessory wells are part of the same insert tooling. The question: what happens to the box when it is dropped, and is that acceptable at your price point?\n\n### Plan the print and finish\n\nThe wrap carries the brand. Full-colour offset print covers the shade system and artwork edge to edge; foil stamping lifts a logo; embossing adds quiet relief; spot UV accents a pattern under shop light; inside-lid printing carries instructions or a brand line at the opening moment. The question: which two techniques carry the brand \u2014 and does the finish survive handling at retail, not just the photo?\n\n### Plan quantity and the run\n\nCustomization is priced per run, so quantity planning is part of the brief. Printing plates and cutting dies are set up once per design, which is why minimums exist; a low-MOQ supplier lets a first run act as a market test before the reorder. Check whether the minimum is per design or per SKU \u2014 one structure printed for several shade variants usually shares tooling but not always the minimum \u2014 and plan the first order around your fastest-moving shades. The question: how many pieces does the test need to be meaningful, and which variants earn the first run?\n\n## When customization cannot fix the problem\n\n**Some failures are decided before the box is ever customized.** Three boundaries keep this page honest:\n\n- A photo cannot tell you the internal clearance. The tray-to-lid gap has to be confirmed from a physical tray and sample, not from a product image.\n- Print proofs drift. A colour approved on screen can sit differently on the produced wrap; confirm the colour match on a printed sample of the actual board before the run.\n- Inserts are cut to a tolerance. A tray that measures fine on paper can sit loose if the insert is cut to a generic profile rather than yours; the sample should be checked with the real tray inside.\n\n## Prepare the customization brief\n\nNothing on this page collects your data or sends anything. Copy the six lines below into your own note and fill them for the line you are launching:\n\n1. The tray: dimensions, trays per box, and the accessories that ride along.\n2. The structure: sleeve, tray-and-lid, flip-top, magnetic or display pack \u2014 and where the box lives.\n3. The insert: fitted to the tray profile or universal, glued or loose, with or without accessory wells.\n4. The print: artwork coverage, the one or two finishes that carry the brand, and inside-lid printing if wanted.\n5. The quantity: first-run size, per design or per SKU, and the variants that earn the first run.\n6. The open spec: the one line above you cannot answer yet \u2014 that is the question for your supplier.\n\nKeep the note local, and send the brief to your supplier through your existing approved contact process. Your next step, once the brief is filled, is the sampling decision \u2014 approving a printed sample against the wrap and the real tray before the run \u2014 which is a separate step for a separate day."
+  },
+  {
+    "slug": "hair-extension-packaging-ideas",
+    "title": "Hair Extension Packaging Ideas: Formats and Materials for Bundles, Wefts and Wigs",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "6 min read",
+    "image": "/images/factory/elapack-09.jpg",
+    "imageAlt": "Custom fabric pouches being sewn on a production line",
+    "excerpt": "Packaging ideas only count when they fit the format you sell \u2014 bundle, weft, closure or full wig \u2014 and survive transit. Eight ideas that scale.",
+    "metaDescription": "Hair extension packaging ideas by product format \u2014 sleeve, drawer and magnetic boxes for bundles, satin wig bags, cotton envelope pouches and complete programs.",
+    "body": "*Format and material guidance in this guide is generic industry knowledge. Confirm the specifics for your hair product with the supplier you are evaluating.*\n\nThis guide is for packaging buyers and brand owners at hair, beauty and wig brands who are looking for hair extension packaging ideas \u2014 and need ones that fit the format they actually sell, not ones that merely photograph well. It groups eight proven ideas by the job they do, and ends with the spec list that turns a shortlist into a quote. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **An idea is only worth adopting if it fits the format you sell \u2014 bundle, weft, closure or full wig \u2014 and survives transit.** Read the ideas against your own line and you will finish with a shortlist and the specs to send.\n\n## Why idea lists mislead\n\nHair products punish generic packaging. A bundle lies flat, a closure is small and stiff, a weft hangs, and a wig has a cap that must keep its shape \u2014 yet most packaging galleries show the same flat-lay box regardless of what is inside.\n\n1. A hair brand picks a packaging idea from a gallery or a competitor feed.\n2. The order arrives and bundles shift in the box, the wig cap crushes, or the length-shade system is invisible at retail.\n3. **Without matching the idea to the product format and the selling context, the choice is decoration, not packaging.**\n4. A wrong format means re-ordering, damaged returns, or a shelf presentation that hides the system buyers shop by.\n5. The rework can delay a seasonal launch or a salon rollout, which raises the cost of a pretty picture.\n6. The task on this page is to filter the ideas against your format, your channel and your brand bar, and prepare the specs for a quote.\n\nThe fix is not more scrolling. It is running every idea through three filters: the format, the channel, the brand bar.\n\n## Eight ideas that fit how hair is actually sold\n\n**Grouped by job: boxes for the retail moment, fabric for the after-sale, and programs that tie them together.** Each idea ends with what to confirm.\n\n### Ideas 1\u20133: box formats for bundles and sets\n\n1. **The sleeve box for single bundles.** A printed sleeve over a fitted inner keeps one bundle flat and presents the length and shade on the face \u2014 the workhorse format for extension lines sold per bundle. Confirm the inner support: a sleeve alone can crush; with a tray it holds.\n2. **The drawer box for multi-bundle sets.** A drawer layers three to six bundles in separate bays, each held so hair cannot tangle across bundles \u2014 the format for curated sets and gifting. Confirm the drawer pull and the bay count against your bundle widths.\n3. **The magnetic flip-top for flagship programs.** The slow-close lid adds ceremony to premium lines and re-closes for storage after the first use. Confirm the insert: hair needs holding without pressing \u2014 soft or satin-lined bays, not hard edges.\n\n### Ideas 4\u20136: fabric carriers for the after-sale\n\n4. **The satin drawstring wig bag.** Smooth satin lets fibers slide instead of snagging, and a wide, tall cut \u2014 30\xD740 cm is the working standard \u2014 gives the cap room to keep its shape. The default after-sale carrier for wig lines. Confirm the fabric is strong enough at your size to hold the weight without stretching.\n5. **The cotton envelope pouch.** A structured cotton carrier with a flap-and-snap closure gifts beautifully and carries bundles, accessories and after-care kits alike. Confirm the style: flap-snap envelopes, open flat pockets and zip-envelope versions serve different uses.\n6. **The zip envelope for travel and salon use.** The zippered cotton format secures a folded wig or a bundle kit for travel \u2014 the format salon professional lines run as their everyday carrier. Confirm the zipper quality; it is the part that wears first.\n\n### Ideas 7\u20138: program-level ideas\n\n7. **The length-shade print program.** One structure across the line, with the wrap printed to your length and shade system \u2014 inch ladders, shade families, care icons \u2014 so the shelf reads as one system. Confirm how the system extends when you add a length.\n8. **The bag-in-box complete program.** Box for the retail moment, satin or cotton bag for the after-sale, matched in colour and branding and quoted as one program \u2014 the format that turns two purchases into one. Confirm both pieces share the same Pantone references and label placement.\n\n## When an idea that photographs well still fails\n\n**A flat-lay photo hides the three failures that decide the reorder.** Three boundaries keep this page honest:\n\n- A photo does not show what happens in transit. Hair shifts, caps crush and drawers pop; test the format with the real product, packed as it ships.\n- A photo does not show the fabric in hand. Satin weight and cotton weave decide whether the bag reads premium or disposable; ask for a physical sample.\n- A photo does not show the system at retail. The length-shade presentation has to be legible from a distance and consistent across every SKU on the shelf.\n\n## Turn the shortlist into a spec list\n\nNothing on this page collects your data or sends anything. Copy the five lines below into your own note and fill them for your line:\n\n1. The format: bundle, weft, closure or full wig \u2014 and how it is packed when it ships.\n2. The idea shortlist: which box format, which fabric carrier, and whether they run as one program.\n3. The material and colour: board or fabric spec, and the Pantone references both pieces share.\n4. The branding: print, foil, woven label or embroidery \u2014 and where each sits.\n5. The open spec: the line above you cannot answer yet \u2014 that is the question for your supplier.\n\nKeep the note local, and send the specs through your existing approved contact process. Your next step, once the shortlist is a spec list, is the sampling decision \u2014 testing the format with the real product inside \u2014 which is a separate step for a separate day."
+  },
+  {
+    "slug": "custom-packaging-moq-oem-odm-logo-guide",
+    "title": "Custom Packaging MOQs, OEM vs ODM and Logo Techniques Explained",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/factory/elapack-01.jpg",
+    "imageAlt": "Rigid boxes stacked on an assembly line at a packaging factory",
+    "excerpt": "Three terms decide what you can order, who owns the design, and whether your logo survives the run. Read them before your first quote.",
+    "metaDescription": "Custom packaging MOQs explained \u2014 why minimums exist, how 200-piece runs work \u2014 plus OEM vs ODM vs white label and logo techniques by surface.",
+    "body": "*MOQ, OEM/ODM and logo-technique explanations in this guide are generic industry knowledge, except where ELAPACK's own confirmed trade terms are stated as such. Confirm every term with the supplier you are evaluating.*\n\nThis guide is for packaging buyers and brand owners at small and mid-size brands who keep hitting the same three terms in every custom packaging conversation \u2014 the MOQ, the OEM/ODM choice, and the logo technique \u2014 and need to read all three before the first quote. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **These three terms decide what you can order, who owns the design, and whether your logo survives the run.** Read the three sections below and you will finish with a one-line answer to each, ready for the quote conversation.\n\n## What an MOQ is and why it exists\n\nA minimum order quantity is the quantity at which a production run makes economic sense for the factory \u2014 not a negotiation anchor. Custom packaging carries setup work that happens once per design regardless of quantity: printing plates and press makeready for boxes, cutting dies for inserts, dyeing lots for fabric, sewing-line setup for pouches. The MOQ is where that fixed setup amortizes enough that the unit price works on both sides.\n\nThree practical consequences follow:\n\n- **Unit price falls with quantity, and the first tier is the steepest.** The gap between a 200-piece and a 500-piece price is proportionally larger than the gap between 2,000 and 5,000; the setup cost is being spread over fewer pieces.\n- **A low MOQ changes what packaging is for.** When the minimum is high \u2014 1,000 pieces and up is common on boxes \u2014 packaging is a stocking decision made once per season. When it is low, packaging becomes a testing decision: launch a line, read sell-through, reorder the winner and retool the loser. As a confirmed trade term of ours, ELAPACK runs MOQ from 200 pieces on bags and boxes alike, with 15\u201320 day production \u2014 the model this section describes.\n- **The number that matters is per what.** Confirm whether the MOQ is per design, per SKU or per colour variant. One structure printed across three shades may share tooling and minimum, or may not; this single line changes what a multi-variant launch actually costs, more than the headline number does.\n\n## OEM vs ODM vs white label\n\nThe three cooperation models differ in who owns the design and what each side owes the other.\n\n- **OEM \u2014 you own the design.** You bring the dieline, the structure, the artwork; the factory manufactures to it. You get exactly the package you specified and you keep the design; in exchange, you owe precise, complete specifications, and the sampling rounds are where your spec gets proven.\n- **ODM \u2014 the factory owns the design, you customize it.** The factory's existing structure is adapted to your size, colour and logo placement. Setup is faster and cheaper because the design work exists; the trade-off is that the structure is not exclusively yours \u2014 check what exclusivity, if any, your volume buys, and what happens to your customizations if you leave.\n- **White label \u2014 no design at all.** A stock product with your logo applied. The lowest barrier and the least differentiation; the brand lives only in the mark.\n\nWhat to confirm regardless of model: who owns the dielines and artwork produced during the project, whether your customized version can be sold to anyone else, and what the re-order terms are once tooling exists. These questions are cheaper to ask before the first PO than after it.\n\n## Logo techniques by surface\n\nThe logo technique is chosen by the surface before the brand book. The same mark reads \u2014 and holds \u2014 differently on fabric and on board.\n\n**On fabric pouches and bags:**\n\n- **Silkscreen print** \u2014 crisp and economical; the default on cotton, muslin and satin, single to multi-colour against a colour reference.\n- **Heat transfer** \u2014 full-colour coverage where the artwork needs gradients or photography.\n- **Woven label** \u2014 the premium, durable option; reads as garment-grade branding stitched in.\n- **Embroidery** \u2014 heritage and bespoke; sits especially well on textured weaves.\n- **Foil stamping** \u2014 the metallic lift on velvet and suede that reads luxury at first touch.\n\n**On rigid and folding boxes:**\n\n- **Foil stamping** \u2014 gold or metallic logos on lid and base; the classic premium mark.\n- **Blind emboss and deboss** \u2014 relief without colour; quiet and tactile.\n- **Spot UV** \u2014 a gloss pattern over matte lamination that catches shop light.\n- **Inside-lid printing** \u2014 the brand line that lands at the opening moment.\n- **Matte or gloss lamination** \u2014 the base finish that sets how every technique above reads.\n\nTwo confirmations close the decision: the technique must hold across the run, so approve it on a printed sample of the actual material \u2014 a proof on screen or on a different substrate proves nothing \u2014 and the colour match should carry a reference (a Pantone number is the working standard) so close-enough has something to be measured against.\n\n## When the terms on paper are not enough\n\n**A quoted MOQ, model and technique still need one physical proof each.** Three boundaries keep this page honest:\n\n- An MOQ stated without its unit \u2014 per design, per SKU, per colour \u2014 is not yet a number you can plan a launch on. Ask until the unit is named.\n- An OEM/ODM ownership term that lives in a conversation, not a document, does not exist. Get the design-ownership and exclusivity lines in writing with the quote.\n- A logo technique approved off-spec is a colour risk. The swatch or printed sample on the actual material is the only approval that transfers to the run.\n\n## The three-line readiness check\n\nNothing on this page collects your data or sends anything. Copy the three lines below into your own note and fill them for your launch:\n\n1. The MOQ line: your quantity window, the minimum that applies, and its unit \u2014 per design, per SKU or per colour.\n2. The model line: OEM, ODM or white label \u2014 and who owns the design, in writing.\n3. The logo line: technique, surface and colour reference \u2014 approved on a sample of the actual material.\n\nKeep the note local, and raise the open lines with your supplier through your existing approved contact process. With the three lines filled, your first quote conversation starts from decisions made rather than terms decoded \u2014 and the comparison between quotes becomes a real choice."
   }
 ]);
 function getArticleBySlug(slug) {
@@ -3131,7 +3125,7 @@ var articles2 = [
   },
   {
     title: "MOQ Explained: Ordering Custom Packaging as a Smaller Brand",
-    excerpt: "Why minimums exist, how 200-piece pouch and 500-piece box runs are priced, and the choices \u2014 stock materials, simpler structures, phased launches \u2014 that keep small-batch custom viable.",
+    excerpt: "Why minimums exist, how 200-piece pouch and box runs are priced, and the choices \u2014 stock materials, simpler structures, phased launches \u2014 that keep small-batch custom viable.",
     image: "/images/factory/elapack-08.jpg",
     date: "September 2026",
     category: "Sourcing Guide",
@@ -3251,7 +3245,7 @@ var RELATED = {
   "custom-hair-extension-packaging-guide": [
     "custom-satin-wig-bag",
     "custom-velvet-pouches",
-    "custom-linen-jewelry-pouch"
+    "custom-cotton-envelope-pouches"
   ],
   "custom-clothing-apparel-packaging-guide": ["kraft-paper-shopping-bag", "luxury-gift-box-ribbon"],
   "custom-gift-packaging-guide": [
@@ -3266,6 +3260,21 @@ var RELATED = {
   "packaging-colour-tolerance-explained": [
     "luxury-gift-box-ribbon",
     "custom-velvet-pouches"
+  ],
+  "how-to-customize-eyelash-boxes": [
+    "custom-eyelash-packaging-boxes",
+    "custom-press-on-nail-boxes",
+    "magnetic-closure-gift-box"
+  ],
+  "hair-extension-packaging-ideas": [
+    "custom-hair-extension-boxes",
+    "custom-satin-wig-bag",
+    "custom-cotton-envelope-pouches"
+  ],
+  "custom-packaging-moq-oem-odm-logo-guide": [
+    "custom-velvet-pouches",
+    "magnetic-closure-gift-box",
+    "custom-pvc-bags"
   ]
 };
 function relatedProducts(slug) {
@@ -3941,9 +3950,9 @@ var landings = [
       { src: "/images/factory/elapack-06.jpg", alt: "Automated box-making machine in ELAPACK's paper packaging workshop" }
     ],
     eyebrow: "Boxes",
-    h1: "Custom Rigid, Folding & Magnetic Boxes \u2014 Made to Your Spec, from 500 Pieces",
+    h1: "Custom Rigid, Folding & Magnetic Boxes \u2014 Made to Your Spec, from 200 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
-    metaDescription: "Custom packaging boxes \u2014 rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
+    metaDescription: "Custom packaging boxes \u2014 rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 200 pieces.",
     intro: "ELAPACK makes custom boxes for brands selling in the US and Europe. We are a trade-and-manufacturing company founded in 2018 with three production lines, ISO 9001 certified for the production and sales of paper and textile packaging products, and we make each order to your specification \u2014 not from stock \u2014 so the box fits your product and carries your brand, not the other way round.",
     why: {
       heading: "Box styles",
@@ -3951,7 +3960,7 @@ var landings = [
         { title: "Rigid boxes", desc: "Thick, non-collapsible board; the premium, gift-ready structure." },
         { title: "Folding cartons", desc: "Printed paperboard that ships flat; practical and economical." },
         { title: "Magnetic closure boxes", desc: "Rigid boxes with a built-in magnetic flap; an unboxing moment." },
-        { title: "Corrugated mailer boxes", desc: "Printed corrugated mailers for e-commerce and subscription shipping \u2014 quoted to your spec, ask for MOQ." },
+        { title: "Corrugated mailer boxes", desc: "Printed corrugated mailers for e-commerce and subscription shipping \u2014 made to your spec, from 200 pieces." },
         { title: "Custom structures", desc: "Made to your spec on request \u2014 wrap colour matched to your Pantone reference, even for a single box style." }
       ]
     },
@@ -3977,7 +3986,7 @@ var landings = [
     ],
     howItWorks: HOW_IT_WORKS_SHARED,
     moq: [
-      { label: "MOQ", value: "500 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
@@ -4027,7 +4036,7 @@ var landings = [
       { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." }
     ],
     moq: [
-      { label: "MOQ", value: "500 pieces for sets that include a box \xB7 200 pieces for sets without a box" },
+      { label: "MOQ", value: "200 pieces, whether the set includes a box or not" },
       { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
@@ -4134,7 +4143,7 @@ var collections = [
     eyebrow: "Jewelry Boxes",
     h1: "Custom Jewelry Boxes with Logo",
     subhead: "Rigid, magnetic and wrapped boxes for rings, earrings, necklaces and bracelets \u2014 your size, structure, finish and logo.",
-    metaDescription: "Custom jewelry boxes with your logo \u2014 rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 500 pieces, free stock samples.",
+    metaDescription: "Custom jewelry boxes with your logo \u2014 rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
     intro: "ELAPACK makes custom jewelry boxes for brands selling in the US and Europe. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products, we make each order to your specification \u2014 box structure, wrap colour, interior insert and branding \u2014 so the box fits your jewelry and carries your brand.",
     sections: [
       {
@@ -4175,7 +4184,7 @@ var collections = [
       }
     ],
     facts: [
-      { label: "MOQ", value: "500 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
@@ -4196,7 +4205,7 @@ var collections = [
     eyebrow: "Eyewear Packaging",
     h1: "Custom Eyewear Packaging \u2014 Boxes & Pouches for Eyewear Brands",
     subhead: "Glasses boxes and fabric pouches that protect frames and carry your logo, made to your spec.",
-    metaDescription: "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes from 500, pouches from 200 pieces. Free stock samples.",
+    metaDescription: "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
     intro: "Custom packaging for eyewear and sunglasses brands selling in the US and Europe. We make both sides of the program \u2014 printed boxes that present and protect the frames, and fabric pouches that keep them safe after the sale \u2014 matched in colour and branding. Folded glasses set the footprint: share your frame dimensions and we build the box and insert around them.",
     sections: [
       {
@@ -4225,7 +4234,7 @@ var collections = [
       }
     ],
     facts: [
-      { label: "MOQ", value: "Boxes from 500 pieces \xB7 pouches from 200 pieces" },
+      { label: "MOQ", value: "200 pieces \u2014 boxes and pouches alike, custom sizes included" },
       { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
@@ -4305,7 +4314,6 @@ var collections = [
       "custom-cotton-envelope-pouches",
       "custom-satin-pouches",
       "custom-muslin-drawstring-pouch",
-      "custom-linen-jewelry-pouch",
       "custom-microfiber-pouches",
       "leather-envelope-pouch",
       "custom-pvc-bags"
@@ -4333,7 +4341,7 @@ var collections = [
         heading: "Boxes & cases",
         items: [
           { title: "Rigid wig boxes", desc: "Structured boxes that present wigs and extensions upright at retail." },
-          { title: "Hair extension boxes", desc: "Sleeve, drawer and magnetic boxes made to bundle formats \u2014 MOQ to be confirmed." },
+          { title: "Hair extension boxes", desc: "Sleeve, drawer and magnetic boxes made to bundle formats \u2014 MOQ from 200 pieces." },
           { title: "Magnetic flip-top", desc: "A clean open-close ritual for premium hair programs." },
           { title: "Inserts & sleeves", desc: "Fitted inserts and satin sleeves that hold the presentation in place." }
         ]
@@ -4348,7 +4356,7 @@ var collections = [
       }
     ],
     facts: [
-      { label: "MOQ", value: "Bags from 200 pieces \xB7 wig boxes from 500 pieces \xB7 extension boxes to be confirmed" },
+      { label: "MOQ", value: "200 pieces \u2014 bags, wig boxes and extension boxes alike" },
       { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
@@ -4369,7 +4377,7 @@ var collections = [
     eyebrow: "Jewelry Packaging",
     h1: "Custom Jewelry Packaging \u2014 Boxes, Pouches & Display",
     subhead: "One manufacturer for the whole jewelry program \u2014 logo boxes, fabric pouches, display and sets, matched in colour and branding.",
-    metaDescription: "Custom jewelry packaging from one manufacturer \u2014 logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes from 500, pouches from 200 pieces. Free stock samples.",
+    metaDescription: "Custom jewelry packaging from one manufacturer \u2014 logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
     intro: "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display \u2014 and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets \u2014 colour-matched and branded as one system. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products.",
     sections: [
       {
@@ -4404,7 +4412,7 @@ var collections = [
       }
     ],
     facts: [
-      { label: "MOQ", value: "Boxes from 500 pieces \xB7 pouches & display from 200 pieces" },
+      { label: "MOQ", value: "200 pieces \u2014 boxes, pouches and display alike" },
       { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
@@ -4428,8 +4436,8 @@ var collections = [
     eyebrow: "Gift Boxes",
     h1: "Custom Gift Boxes with Logo",
     subhead: "Magnetic, ribbon-tie and two-piece rigid gift boxes \u2014 plus candle-ready formats \u2014 your size, finish and logo.",
-    metaDescription: "Custom gift boxes with your logo \u2014 magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 500 pieces, free stock samples.",
-    intro: "Custom gift boxes for the occasions where the box is part of the gift. Corporate programs, candles, weddings, retail gifting and seasonal campaigns all start from the same place: a rigid structure that protects, a wrap that carries your brand, and a closure that makes opening feel like an event. Magnetic flip-tops, satin ribbon ties and two-piece rigid formats are all made to your size, Pantone colour and logo \u2014 MOQ from 500 pieces.",
+    metaDescription: "Custom gift boxes with your logo \u2014 magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 200 pieces, free stock samples.",
+    intro: "Custom gift boxes for the occasions where the box is part of the gift. Corporate programs, candles, weddings, retail gifting and seasonal campaigns all start from the same place: a rigid structure that protects, a wrap that carries your brand, and a closure that makes opening feel like an event. Magnetic flip-tops, satin ribbon ties and two-piece rigid formats are all made to your size, Pantone colour and logo \u2014 MOQ from 200 pieces.",
     sections: [
       {
         heading: "Magnetic closure gift boxes",
@@ -4469,7 +4477,7 @@ var collections = [
       }
     ],
     facts: [
-      { label: "MOQ", value: "500 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
@@ -4523,7 +4531,7 @@ var collections = [
       }
     ],
     facts: [
-      { label: "MOQ", value: "Eyelash boxes & pouches from 200 pieces \xB7 other boxes from 500 pieces" },
+      { label: "MOQ", value: "200 pieces \u2014 boxes and pouches alike, custom sizes included" },
       { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
@@ -4589,7 +4597,6 @@ var collections = [
       "custom-velvet-pouches",
       "custom-satin-pouches",
       "custom-muslin-drawstring-pouch",
-      "custom-linen-jewelry-pouch",
       "custom-satin-wig-bag"
     ],
     ctaTitle: "Request a quote for your custom drawstring bags"
@@ -4839,14 +4846,14 @@ var ROUTES = [
 var STATIC_TITLES = {
   "/": "ELAPACK \u2014 Custom Luxury Packaging for Global Brands",
   "/pouches-bags": "Custom Fabric Pouches & Bags from 200 pcs | ELAPACK",
-  "/boxes": "Custom Rigid, Folding & Magnetic Boxes from 500 pcs | ELAPACK",
+  "/boxes": "Custom Rigid, Folding & Magnetic Boxes from 200 pcs | ELAPACK",
   "/sets": "Custom Packaging Sets \u2014 Pouch, Box & More | ELAPACK",
-  "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 500 pcs | ELAPACK",
+  "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 200 pcs | ELAPACK",
   "/eyewear-packaging": "Custom Eyewear Packaging \u2014 Glasses Boxes & Pouches | ELAPACK",
   "/custom-jewelry-pouches": "Custom Jewelry Pouches with Logo, from 200 pcs | ELAPACK",
   "/custom-wig-packaging": "Custom Wig Packaging \u2014 Satin Wig Bags & Boxes | ELAPACK",
   "/custom-jewelry-packaging": "Custom Jewelry Packaging \u2014 Boxes, Pouches & Display | ELAPACK",
-  "/custom-gift-boxes": "Custom Gift Boxes with Logo, from 500 pcs | ELAPACK",
+  "/custom-gift-boxes": "Custom Gift Boxes with Logo, from 200 pcs | ELAPACK",
   "/custom-cosmetic-packaging": "Custom Cosmetic Packaging Boxes | ELAPACK",
   "/custom-drawstring-bags": "Custom Drawstring Bags & Pouches, from 200 pcs | ELAPACK",
   "/ribbons-accessories": "Custom Printed Ribbons & Packaging Accessories | ELAPACK",
@@ -4863,14 +4870,14 @@ var STATIC_TITLES = {
 var STATIC_DESCRIPTIONS = {
   "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets \u2014 one-stop custom packaging.",
   "/pouches-bags": "Custom textile pouches and bags \u2014 velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
-  "/boxes": "Custom rigid, folding carton and magnetic closure boxes with EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
+  "/boxes": "Custom rigid, folding carton and magnetic closure boxes with EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 200 pieces.",
   "/sets": "Custom packaging sets \u2014 pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference.",
-  "/custom-jewelry-boxes": "Custom jewelry boxes with your logo \u2014 rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 500 pieces, free stock samples.",
-  "/eyewear-packaging": "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes from 500, pouches from 200 pieces. Free stock samples.",
+  "/custom-jewelry-boxes": "Custom jewelry boxes with your logo \u2014 rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
+  "/eyewear-packaging": "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
   "/custom-jewelry-pouches": "Custom jewelry pouches with logo \u2014 velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",
   "/custom-wig-packaging": "Custom wig packaging with your logo \u2014 satin drawstring wig bags in the standard 30\xD740 cm format, plus rigid and magnetic boxes for wigs and hair extensions. Bags from 200 pieces. Free stock samples.",
-  "/custom-jewelry-packaging": "Custom jewelry packaging from one manufacturer \u2014 logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes from 500, pouches from 200 pieces. Free stock samples.",
-  "/custom-gift-boxes": "Custom gift boxes with your logo \u2014 magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 500 pieces, free stock samples.",
+  "/custom-jewelry-packaging": "Custom jewelry packaging from one manufacturer \u2014 logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
+  "/custom-gift-boxes": "Custom gift boxes with your logo \u2014 magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 200 pieces, free stock samples.",
   "/custom-cosmetic-packaging": "Custom cosmetic packaging \u2014 eyelash boxes from 200 pieces, magnetic and rigid gift boxes for beauty brands, plus fabric and clear PVC-zip cosmetic pouches with your logo. One manufacturer, matched branding. Free stock samples.",
   "/custom-drawstring-bags": "Custom drawstring bags with your logo \u2014 cotton, velvet, satin, muslin and linen pouches in any size, plus handbag and shoe dust bag formats. MOQ from 200 pieces, free stock samples.",
   "/ribbons-accessories": "Custom printed ribbons and packaging accessories \u2014 satin ribbon closures, logo-printed ribbon programs, cotton cords and drawstrings matched to your box and pouch programs.",

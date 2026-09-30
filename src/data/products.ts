@@ -15,7 +15,7 @@ export type Product = {
 };
 
 /**
- * Real product catalog (26 SKUs), mapped into the 4-category IA:
+ * Real product catalog (25 SKUs), mapped into the 4-category IA:
  *   Boxes / Pouches & Bags / Sets & Complete Packaging / Ribbons & Accessories
  * Images live under /images/carousel/ (real photos kept from the old site);
  * the 4 display SKUs and the placeholder SKUs use
@@ -32,7 +32,7 @@ export const products: Product[] = [
       "The black leather jewelry box is more than just storage — it is a timeless statement of sophistication. Crafted from smooth grain faux leather in a deep, matte black tone, this box offers an elevated unboxing experience that reflects your brand commitment to quality. Its sleek, fingerprint-resistant exterior enhances visual appeal while staying pristine even with daily use.",
     image: "/images/carousel/black-leather-box.png",
     materials: "Faux leather, velvet interior, cardboard core",
-    moq: "500 pcs",
+    moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
@@ -78,7 +78,7 @@ export const products: Product[] = [
       "A compact white jewelry box with a glossy rigid shell and velvet-lined cushion. Made for bracelets and small jewelry gifts, it pairs a clean minimalist look with durable protection, and carries your logo silkscreened or hot-stamped on the lid. Ideal for retail display and gifting occasions.",
     image: "/images/carousel/pandora-box.png",
     materials: "Plastic exterior, velvet interior insert",
-    moq: "500 pcs",
+    moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
@@ -117,10 +117,10 @@ export const products: Product[] = [
     shortDesc:
       "Custom ring boxes for engagements, weddings and retail — single or double slots, velvet or foam cushions, your logo.",
     description:
-      "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour — MOQ from 500 pieces.",
+      "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour — MOQ from 200 pieces.",
     image: "/images/carousel/ring-box-black.png",
     materials: "Velvet exterior, foam insert with velvet covering",
-    moq: "500 pcs",
+    moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Jewelry", "Gift"],
     features: [
@@ -163,7 +163,7 @@ export const products: Product[] = [
       "A luxury gift box set with satin ribbon closure, designed for premium gifting occasions. The rigid box construction with matte finish and decorative ribbon creates an unforgettable unboxing experience. Perfect for corporate gifts, weddings, and high-end retail.",
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
-    moq: "500 pcs",
+    moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Gift", "Beauty", "Fragrance"],
     features: [
@@ -206,7 +206,7 @@ export const products: Product[] = [
       "A sleek magnetic closure gift box with flip-top design. The hidden magnetic mechanism provides a clean look while keeping the lid securely closed. Ideal for jewelry, eyewear, cosmetics, and small luxury items.",
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
-    moq: "500 pcs",
+    moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Beauty", "Gift", "Fashion"],
     features: [
@@ -336,11 +336,11 @@ export const products: Product[] = [
     shortDesc:
       "Fully printed paper sample cards for perfume vials and sachets — your card layout, count and artwork.",
     description:
-      "Perfume sample packaging as a printed paper card: vials or sachets mount onto a full-colour card that carries the brand, the scent story and the try-me moment in one mail-flat piece. This is a different product from our rigid perfume gift boxes — sample cards are printed card construction, sized to your sample count and vial format, with your artwork edge to edge. Sampling programs, subscription inserts, boutique handouts and press mailers all run on the same card system. MOQ and lead time to be confirmed for your card format — send your sample count and card size for a quote. Product photography is in progress.",
+      "Perfume sample packaging as a printed paper card: vials or sachets mount onto a full-colour card that carries the brand, the scent story and the try-me moment in one mail-flat piece. This is a different product from our rigid perfume gift boxes — sample cards are printed card construction, sized to your sample count and vial format, with your artwork edge to edge. Sampling programs, subscription inserts, boutique handouts and press mailers all run on the same card system. MOQ from 200 pieces with a 15–20 day lead time — send your sample count and card size for a quote. Product photography is in progress.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Printed paper card with mounted sample holders",
-    moq: "To be confirmed",
-    leadTime: "To be confirmed",
+    moq: "200 pcs",
+    leadTime: "15–20 days",
     industries: ["Fragrance", "Beauty", "Gift"],
     features: [
       {
@@ -365,8 +365,8 @@ export const products: Product[] = [
       { label: "Sample count", value: "Custom — single to multi-scent layouts" },
       { label: "Card size", value: "Made to your spec" },
       { label: "Print", value: "Full colour, custom artwork" },
-      { label: "MOQ", value: "To be confirmed" },
-      { label: "Lead time", value: "To be confirmed" },
+      { label: "MOQ", value: "200 pcs" },
+      { label: "Lead time", value: "15–20 days" },
     ],
     customizationOptions: [
       "Card sizes and sample-count layouts",
@@ -382,10 +382,10 @@ export const products: Product[] = [
     shortDesc:
       "Custom press-on nail packaging boxes — sized to your nail sets and trays, with your logo from the first run.",
     description:
-      "Custom press-on nail packaging for nail brands selling direct and at retail. Press-on sets live or die on presentation — the box holds the nail trays or tips securely, shows the shade and size system, and carries your brand at first sight. Boxes are made to your set format: single-set sleeves, multi-size kits or wholesale display packs, with fitted inserts that keep every tray in place. Your logo is printed, foil-stamped or embossed on the wrap. MOQ to be confirmed — send your tray dimensions and set count for a quote. Product photography is in progress; request a stock sample to judge the board quality.",
+      "Custom press-on nail packaging for nail brands selling direct and at retail. Press-on sets live or die on presentation — the box holds the nail trays or tips securely, shows the shade and size system, and carries your brand at first sight. Boxes are made to your set format: single-set sleeves, multi-size kits or wholesale display packs, with fitted inserts that keep every tray in place. Your logo is printed, foil-stamped or embossed on the wrap. MOQ from 200 pieces — send your tray dimensions and set count for a quote. Product photography is in progress; request a stock sample to judge the board quality.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard with custom printed wrap, fitted tray inserts",
-    moq: "To be confirmed",
+    moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Beauty", "Gift"],
     features: [
@@ -410,7 +410,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your nail set and trays" },
       { label: "Insert", value: "Fitted tray inserts, custom layouts" },
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
-      { label: "MOQ", value: "To be confirmed" },
+      { label: "MOQ", value: "200 pcs" },
     ],
     customizationOptions: [
       "Custom sizes for any set or kit format",
@@ -426,10 +426,10 @@ export const products: Product[] = [
     shortDesc:
       "Custom hair extension packaging boxes — sleeve, drawer and magnetic formats that present bundles and wefts at retail.",
     description:
-      "Custom hair extension boxes for extension brands and salons. The box does two jobs: it keeps bundles and wefts orderly and protected, and it presents the length-shade system the way a premium hair program deserves. Sleeve boxes for single bundles, drawer boxes for multi-bundle sets and magnetic flip-tops for flagship programs — each made to your bundle dimensions, with inserts that hold hair in place without crushing it. Your logo prints, foils or embosses on the wrap. MOQ to be confirmed — send your bundle dimensions for a quote. Product photography is in progress.",
+      "Custom hair extension boxes for extension brands and salons. The box does two jobs: it keeps bundles and wefts orderly and protected, and it presents the length-shade system the way a premium hair program deserves. Sleeve boxes for single bundles, drawer boxes for multi-bundle sets and magnetic flip-tops for flagship programs — each made to your bundle dimensions, with inserts that hold hair in place without crushing it. Your logo prints, foils or embosses on the wrap. MOQ from 200 pieces — send your bundle dimensions for a quote. Product photography is in progress.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard with custom printed wrap, fitted bundle inserts",
-    moq: "To be confirmed",
+    moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Hair & Wig", "Beauty", "Gift"],
     features: [
@@ -455,7 +455,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your bundle format" },
       { label: "Insert", value: "Fitted inserts for bundles and wefts" },
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
-      { label: "MOQ", value: "To be confirmed" },
+      { label: "MOQ", value: "200 pcs" },
     ],
     customizationOptions: [
       "Custom sizes for any bundle count",
@@ -471,10 +471,10 @@ export const products: Product[] = [
     shortDesc:
       "Custom watch boxes with fitted watch pillow inserts — single and multi-watch formats for retail and gifting.",
     description:
-      "Custom watch boxes for watch brands, strap makers and gifting programs. The structure is the same craft as our jewelry boxes: rigid board with your printed or wrapped finish, and a fitted watch pillow that holds the timepiece upright and still — single-watch presentation boxes through multi-watch cases with individually pillowed bays. Wraps range from matte art paper to faux leather, with foil stamping, embossing and spot UV branding. MOQ to be confirmed — send your watch dimensions and piece count for a quote. Product photography is in progress; request a stock sample to judge the board and finish.",
+      "Custom watch boxes for watch brands, strap makers and gifting programs. The structure is the same craft as our jewelry boxes: rigid board with your printed or wrapped finish, and a fitted watch pillow that holds the timepiece upright and still — single-watch presentation boxes through multi-watch cases with individually pillowed bays. Wraps range from matte art paper to faux leather, with foil stamping, embossing and spot UV branding. MOQ from 200 pieces — send your watch dimensions and piece count for a quote. Product photography is in progress; request a stock sample to judge the board and finish.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard or faux leather wrap, watch pillow inserts",
-    moq: "To be confirmed",
+    moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Jewelry", "Gift"],
     features: [
@@ -500,7 +500,7 @@ export const products: Product[] = [
       { label: "Insert", value: "Fitted watch pillows, velvet or satin covered" },
       { label: "Wrap", value: "Art paper / textured wrap / faux leather" },
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / embossing" },
-      { label: "MOQ", value: "To be confirmed" },
+      { label: "MOQ", value: "200 pcs" },
     ],
     customizationOptions: [
       "Single- and multi-watch layouts",
@@ -643,7 +643,7 @@ export const products: Product[] = [
   {
     slug: "velvet-necklace-display",
     name: "Velvet Necklace Display Stand",
-    category: "Pouches & Bags",
+    category: "Sets & Complete Packaging",
     shortDesc:
       "Velvet-covered retail display stand that presents necklaces securely in showcases.",
     description:
@@ -684,7 +684,7 @@ export const products: Product[] = [
   {
     slug: "acrylic-earring-display",
     name: "Acrylic Earring Display Stand",
-    category: "Pouches & Bags",
+    category: "Sets & Complete Packaging",
     shortDesc:
       "Crystal-clear acrylic earring display with multi-tier slots and weighted base.",
     description:
@@ -815,7 +815,7 @@ export const products: Product[] = [
       "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions — all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet over structured core",
-    moq: "500 pcs (sets with box) / 200 pcs (display pieces only)",
+    moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
@@ -840,7 +840,7 @@ export const products: Product[] = [
       { label: "Pieces", value: "Necklace busts (2 heights), T-bar stand, ring cones, earring stands, cushions" },
       { label: "Covering", value: "Velvet in custom colors" },
       { label: "Core", value: "Structured board for shape retention" },
-      { label: "MOQ", value: "500 pcs with box / 200 pcs display pieces only" },
+      { label: "MOQ", value: "200 pcs" },
     ],
     customizationOptions: [
       "Custom velvet colors across every piece",
@@ -1026,50 +1026,6 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "custom-linen-jewelry-pouch",
-    name: "Custom Linen Jewelry Pouch",
-    category: "Pouches & Bags",
-    shortDesc:
-      "Textured natural linen pouch with drawstring — matte, breathable and quietly premium.",
-    description:
-      "A linen pouch for brands whose look is matte, natural and textured rather than glossy. The slubbed weave gives every pouch a subtle one-of-a-kind surface, and linen stays breathable and crisp over time. Made to order in natural, bleached or dyed linen, in your size, with drawstring or flap closure and your logo printed, labelled or embroidered. Product photography is in progress; request a stock sample to feel the weave.",
-    image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Linen, cotton cord",
-    moq: "200 pcs",
-    leadTime: "15–20 days",
-    industries: ["Jewelry", "Fashion", "Gift"],
-    features: [
-      {
-        title: "Textured Slub Weave",
-        desc: "A matte, natural surface with subtle variation — no two pouches identical.",
-      },
-      {
-        title: "Breathable & Crisp",
-        desc: "Linen keeps its hand over time and lets air move through the bag.",
-      },
-      {
-        title: "Natural or Dyed",
-        desc: "Natural and bleached stock options, or dyed to your Pantone reference.",
-      },
-      {
-        title: "Quiet Branding",
-        desc: "Woven labels and embroidery sit especially well on linen texture.",
-      },
-    ],
-    specs: [
-      { label: "Dimensions", value: "Made to your size" },
-      { label: "Fabric", value: "Linen — natural, bleached or dyed" },
-      { label: "Fabric weight", value: "To be confirmed" },
-      { label: "Closure Type", value: "Drawstring / flap" },
-    ],
-    customizationOptions: [
-      "Natural, bleached or Pantone-dyed linen",
-      "Woven label or embroidery branding",
-      "Custom sizes, MOQ unchanged",
-      "Mixed linen-cotton blends on request",
-    ],
-  },
-  {
     slug: "custom-microfiber-pouches",
     name: "Custom Microfiber Pouches",
     category: "Pouches & Bags",
@@ -1105,7 +1061,7 @@ export const products: Product[] = [
       { label: "Fabric", value: "Microfiber" },
       { label: "Fabric weight", value: "To be confirmed" },
       { label: "Closure Type", value: "Drawstring / flap" },
-      { label: "Cloth + pouch set MOQ", value: "To be confirmed (pouch alone from 200 pcs)" },
+      { label: "Cloth + pouch set MOQ", value: "200 pcs" },
     ],
     customizationOptions: [
       "Custom sizes for eyewear, jewelry or devices",

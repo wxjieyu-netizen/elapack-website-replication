@@ -36,6 +36,10 @@ const redirects: Record<string, string> = {
   "/products/custom-microfiber-jewelry-pouch": "/products/custom-microfiber-pouches",
   "/products/double-ring-storage-box": "/products/custom-ring-boxes",
 
+  // 2026-10-01 batch-3: linen SKU merged into the jewelry pouches collection
+  // (linen stays there as a fabric option; no standalone SKU page)
+  "/products/custom-linen-jewelry-pouch": "/custom-jewelry-pouches",
+
   // series pages (15) → category-filtered products
   "/pouches/jewelry-eyewear": "/products?category=Pouches%20%26%20Bags",
   "/pouches/fragrance": "/products?category=Pouches%20%26%20Bags",

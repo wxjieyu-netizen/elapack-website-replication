@@ -21,7 +21,7 @@ const RELATED: Record<string, string[]> = {
   "custom-hair-extension-packaging-guide": [
     "custom-satin-wig-bag",
     "custom-velvet-pouches",
-    "custom-linen-jewelry-pouch",
+    "custom-cotton-envelope-pouches",
   ],
   "custom-clothing-apparel-packaging-guide": ["kraft-paper-shopping-bag", "luxury-gift-box-ribbon"],
   "custom-gift-packaging-guide": [
@@ -36,6 +36,21 @@ const RELATED: Record<string, string[]> = {
   "packaging-colour-tolerance-explained": [
     "luxury-gift-box-ribbon",
     "custom-velvet-pouches",
+  ],
+  "how-to-customize-eyelash-boxes": [
+    "custom-eyelash-packaging-boxes",
+    "custom-press-on-nail-boxes",
+    "magnetic-closure-gift-box",
+  ],
+  "hair-extension-packaging-ideas": [
+    "custom-hair-extension-boxes",
+    "custom-satin-wig-bag",
+    "custom-cotton-envelope-pouches",
+  ],
+  "custom-packaging-moq-oem-odm-logo-guide": [
+    "custom-velvet-pouches",
+    "magnetic-closure-gift-box",
+    "custom-pvc-bags",
   ],
 };
 

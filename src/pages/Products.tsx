@@ -60,7 +60,7 @@ export default function Products() {
               <h3 className="value-title">Custom Boxes</h3>
               <p className="value-desc">
                 Rigid, folding and magnetic closure boxes with inserts and
-                Pantone-matched finishes. MOQ from 500 pieces.
+                Pantone-matched finishes. MOQ from 200 pieces.
               </p>
             </Link>
             <Link to="/sets" className="value-card reveal reveal-delay-3">

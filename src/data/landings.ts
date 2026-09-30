@@ -121,10 +121,10 @@ export const landings: Landing[] = [
       { src: "/images/factory/elapack-06.jpg", alt: "Automated box-making machine in ELAPACK's paper packaging workshop" },
     ],
     eyebrow: "Boxes",
-    h1: "Custom Rigid, Folding & Magnetic Boxes — Made to Your Spec, from 500 Pieces",
+    h1: "Custom Rigid, Folding & Magnetic Boxes — Made to Your Spec, from 200 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
     metaDescription:
-      "Custom packaging boxes — rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
+      "Custom packaging boxes — rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 200 pieces.",
     intro:
       "ELAPACK makes custom boxes for brands selling in the US and Europe. We are a trade-and-manufacturing company founded in 2018 with three production lines, ISO 9001 certified for the production and sales of paper and textile packaging products, and we make each order to your specification — not from stock — so the box fits your product and carries your brand, not the other way round.",
     why: {
@@ -133,7 +133,7 @@ export const landings: Landing[] = [
         { title: "Rigid boxes", desc: "Thick, non-collapsible board; the premium, gift-ready structure." },
         { title: "Folding cartons", desc: "Printed paperboard that ships flat; practical and economical." },
         { title: "Magnetic closure boxes", desc: "Rigid boxes with a built-in magnetic flap; an unboxing moment." },
-        { title: "Corrugated mailer boxes", desc: "Printed corrugated mailers for e-commerce and subscription shipping — quoted to your spec, ask for MOQ." },
+          { title: "Corrugated mailer boxes", desc: "Printed corrugated mailers for e-commerce and subscription shipping — made to your spec, from 200 pieces." },
         { title: "Custom structures", desc: "Made to your spec on request — wrap colour matched to your Pantone reference, even for a single box style." },
       ],
     },
@@ -159,7 +159,7 @@ export const landings: Landing[] = [
     ],
     howItWorks: HOW_IT_WORKS_SHARED,
     moq: [
-      { label: "MOQ", value: "500 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -211,7 +211,7 @@ export const landings: Landing[] = [
       { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." },
     ],
     moq: [
-      { label: "MOQ", value: "500 pieces for sets that include a box · 200 pieces for sets without a box" },
+      { label: "MOQ", value: "200 pieces, whether the set includes a box or not" },
       { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },

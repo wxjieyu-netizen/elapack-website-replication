@@ -41,7 +41,7 @@ const articles = [
   {
     title: "MOQ Explained: Ordering Custom Packaging as a Smaller Brand",
     excerpt:
-      "Why minimums exist, how 200-piece pouch and 500-piece box runs are priced, and the choices — stock materials, simpler structures, phased launches — that keep small-batch custom viable.",
+      "Why minimums exist, how 200-piece pouch and box runs are priced, and the choices — stock materials, simpler structures, phased launches — that keep small-batch custom viable.",
     image: "/images/factory/elapack-08.jpg",
     date: "September 2026",
     category: "Sourcing Guide",
