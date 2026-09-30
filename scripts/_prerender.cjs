@@ -4573,7 +4573,7 @@ var collections = [
       {
         heading: "Dust bag applications",
         items: [
-          { title: "Handbag dust bags", desc: "Cotton, satin and velvet drawstring dust bags that protect leather goods in storage and after-sale." },
+          { title: "Handbag dust bags", desc: "Cotton, satin, velvet and muslin drawstring dust bags that protect leather goods in storage and after-sale." },
           { title: "Shoe dust bags", desc: "Soft-fabric dust bags for footwear programs \u2014 branded and sized to the pair." }
         ]
       },
