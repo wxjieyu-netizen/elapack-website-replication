@@ -351,7 +351,7 @@ var products = [
     name: "Custom Cotton Pouches & Bags",
     category: "Pouches & Bags",
     shortDesc: "Natural cotton pouches and bags \u2014 printable, gently protective, made to your size and logo.",
-    description: "Custom cotton pouches and bags for brands that want a natural, honest carrier. Unbleached cotton has a soft hand feel that suits artisan, beauty, jewelry and favor programs alike, and the fabric takes water-based ink prints beautifully. Choose drawstring, flap or zipper closure, your size from small pouches to larger gift bags, and your logo printed or woven in. Made to order \u2014 every fact on this page is our confirmed trade term.",
+    description: "Custom cotton pouches and bags for brands that want a natural, honest carrier. Unbleached cotton has a soft hand feel that suits artisan, beauty, jewelry and favor programs alike, and the fabric takes water-based ink prints beautifully. Choose your style \u2014 drawstring, flap, envelope or zipper \u2014 in any size from small jewelry and cosmetics pouches to larger gift bags, with your logo printed or woven in. Made to order \u2014 every fact on this page is our confirmed trade term.",
     image: "/images/carousel/cotton-pouch.png",
     materials: "Natural cotton, cotton cord",
     moq: "200 pcs",
@@ -378,13 +378,13 @@ var products = [
     specs: [
       { label: "Dimensions", value: "Made to your size" },
       { label: "String Type", value: "Cotton cord" },
-      { label: "Closure Type", value: "Drawstring / flap / zipper" }
+      { label: "Closure Type", value: "Drawstring / flap / envelope / zipper" }
     ],
     customizationOptions: [
       "Water-based ink printing",
       "Natural, bleached or dyed cotton",
       "Custom sizes and drawcord colors",
-      "Drawstring, flap or zipper closure"
+      "Drawstring, flap, envelope or zipper closure"
     ]
   },
   {
@@ -703,12 +703,12 @@ var products = [
       { label: "Dimensions", value: "Made to your size" },
       { label: "Fabric", value: "Satin, Pantone-matched" },
       { label: "Fabric weight", value: "To be confirmed" },
-      { label: "Closure Type", value: "Drawstring / flap" }
+      { label: "Closure Type", value: "Drawstring / flap / envelope" }
     ],
     customizationOptions: [
       "Pantone satin color matching",
       "Silkscreen printing or hot-stamped logo",
-      "Drawstring or flap closure",
+      "Drawstring, flap or envelope closure",
       "Custom sizes, MOQ unchanged"
     ]
   },
