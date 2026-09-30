@@ -29,7 +29,7 @@ var import_node_path = __toESM(require("node:path"), 1);
 var import_server2 = require("react-router-dom/server");
 
 // src/App.tsx
-var import_react_router_dom15 = require("react-router-dom");
+var import_react_router_dom16 = require("react-router-dom");
 
 // src/components/Layout.tsx
 var import_react_router_dom5 = require("react-router-dom");
@@ -63,7 +63,7 @@ var products = [
     image: "/images/carousel/black-leather-box.png",
     materials: "Faux leather, velvet interior, cardboard core",
     moq: "500 pcs",
-    leadTime: "15\u201325 days",
+    leadTime: "15\u201320 days",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
       {
@@ -99,15 +99,15 @@ var products = [
     ]
   },
   {
-    slug: "pandora-jewelry-box-white",
-    name: "Compact White Jewelry Box",
+    slug: "custom-white-jewelry-box",
+    name: "Custom White Jewelry Box with Logo",
     category: "Boxes",
-    shortDesc: "Compact white plastic jewelry box with velvet cushion \u2014 clean minimalist retail and gift packaging.",
-    description: "A compact white plastic jewelry box inspired by Pandora-style packaging. Perfect for bracelets and small jewelry gifts, combining a clean minimalist look with durable protection. Ideal for retail display and gifting occasions.",
+    shortDesc: "Compact white jewelry box with velvet cushion and custom logo printing \u2014 clean minimalist retail and gift packaging.",
+    description: "A compact white jewelry box with a glossy rigid shell and velvet-lined cushion. Made for bracelets and small jewelry gifts, it pairs a clean minimalist look with durable protection, and carries your logo silkscreened or hot-stamped on the lid. Ideal for retail display and gifting occasions.",
     image: "/images/carousel/pandora-box.png",
     materials: "Plastic exterior, velvet interior insert",
     moq: "500 pcs",
-    leadTime: "15\u201325 days",
+    leadTime: "15\u201320 days",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
       {
@@ -147,7 +147,7 @@ var products = [
     image: "/images/carousel/ring-box-black.png",
     materials: "Velvet exterior, foam insert with velvet covering",
     moq: "500 pcs",
-    leadTime: "15\u201325 days",
+    leadTime: "15\u201320 days",
     industries: ["Jewelry", "Gift"],
     features: [
       {
@@ -179,46 +179,6 @@ var products = [
     ]
   },
   {
-    slug: "wooden-ring-box-wedding",
-    name: "Engraved Wooden Ring Box",
-    category: "Boxes",
-    shortDesc: "Natural wood ring box with laser engraving and velvet lining for weddings and keepsakes.",
-    description: "An engraved wooden ring box for weddings, featuring natural wood grain with a smooth finish. The interior is lined with soft velvet to protect rings. Custom engraving of names, dates, or logos is available for a truly personalized keepsake.",
-    image: "/images/carousel/wooden-ring-box.png",
-    materials: "Wood exterior, velvet interior",
-    moq: "500 pcs",
-    leadTime: "20\u201330 days",
-    industries: ["Jewelry", "Gift"],
-    features: [
-      {
-        title: "Natural Wood Construction",
-        desc: "Real wood grain with matte varnish \u2014 every box has a unique texture."
-      },
-      {
-        title: "Custom Laser Engraving",
-        desc: "Names, dates or logos engraved into the lid for personalized keepsakes."
-      },
-      {
-        title: "Velvet Interior",
-        desc: "Soft velvet lining protects rings from scratches during storage."
-      },
-      {
-        title: "Hinged Lid",
-        desc: "Secure hinged closure engineered for smooth, repeated opening."
-      }
-    ],
-    specs: [
-      { label: "Dimensions (L \xD7 W \xD7 H)", value: '1-3/4" \xD7 2" \xD7 1-1/2"' },
-      { label: "Closure Type", value: "Hinged lid" },
-      { label: "Surface Finish", value: "Natural wood with matte varnish" }
-    ],
-    customizationOptions: [
-      "Laser engraving of names, dates or logos",
-      "Wood species selection",
-      "Interior velvet colors"
-    ]
-  },
-  {
     slug: "luxury-gift-box-ribbon",
     name: "Luxury Gift Box with Ribbon",
     category: "Boxes",
@@ -227,7 +187,7 @@ var products = [
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
     moq: "500 pcs",
-    leadTime: "15\u201325 days",
+    leadTime: "15\u201320 days",
     industries: ["Gift", "Beauty", "Fragrance"],
     features: [
       {
@@ -261,15 +221,15 @@ var products = [
   },
   {
     slug: "magnetic-closure-gift-box",
-    name: "Magnetic Closure Gift Box",
+    name: "Custom Magnetic Closure Gift Box",
     category: "Boxes",
     shortDesc: "Sleek flip-top gift box with hidden magnetic closure and custom interior inserts.",
-    description: "A sleek magnetic closure gift box with flip-top design. The hidden magnetic mechanism provides a clean look while keeping the lid securely closed. Ideal for jewelry, cosmetics, and small luxury items.",
+    description: "A sleek magnetic closure gift box with flip-top design. The hidden magnetic mechanism provides a clean look while keeping the lid securely closed. Ideal for jewelry, eyewear, cosmetics, and small luxury items.",
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
     moq: "500 pcs",
-    leadTime: "15\u201325 days",
-    industries: ["Jewelry", "Beauty", "Gift", "Fashion"],
+    leadTime: "15\u201320 days",
+    industries: ["Jewelry", "Eyewear & Sunglasses", "Beauty", "Gift", "Fashion"],
     features: [
       {
         title: "Hidden Magnetic Closure",
@@ -297,19 +257,20 @@ var products = [
       "Custom inserts and compartments",
       "Foil or blind emboss branding",
       "Interior lid printing",
-      "Pantone-matched exterior"
+      "Pantone-matched exterior",
+      "Lift-off lid variant with matte cream wrap and satin ribbon finish"
     ]
   },
   {
-    slug: "velvet-drawstring-pouch",
-    name: "Velvet Drawstring Pouch",
+    slug: "custom-velvet-drawstring-pouch",
+    name: "Custom Velvet Drawstring Pouch",
     category: "Pouches & Bags",
     shortDesc: "Soft velvet drawstring pouch protecting delicate jewelry \u2014 multiple colors with custom branding.",
     description: "A soft velvet drawstring jewelry pouch designed for elegant storage and gifting. The plush velvet exterior protects delicate jewelry while the drawstring closure keeps items secure. Available in multiple colors with custom branding options.",
     image: "/images/carousel/velvet-pouch.png",
     materials: "Velvet, cotton cord drawstring",
-    moq: "500 pcs",
-    leadTime: "10\u201320 days",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
       {
@@ -341,15 +302,15 @@ var products = [
     ]
   },
   {
-    slug: "cotton-jewelry-pouch",
-    name: "Cotton Drawstring Pouch",
+    slug: "custom-cotton-jewelry-pouch",
+    name: "Custom Cotton Jewelry Pouch",
     category: "Pouches & Bags",
     shortDesc: "Natural cotton drawstring pouch \u2014 eco-friendly, printable, gently protective.",
     description: "An eco-friendly cotton drawstring pouch perfect for jewelry storage and gifting. Made from natural cotton fabric with a soft texture. Ideal for brands looking for sustainable packaging solutions.",
     image: "/images/carousel/cotton-pouch.png",
     materials: "Natural cotton, cotton cord",
-    moq: "500 pcs",
-    leadTime: "10\u201320 days",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
     industries: ["Jewelry", "Beauty", "Gift"],
     features: [
       {
@@ -389,7 +350,7 @@ var products = [
     image: "/images/carousel/velvet-necklace-stand.png",
     materials: "Velvet, wooden base",
     moq: "200 pcs",
-    leadTime: "15\u201325 days",
+    leadTime: "15\u201320 days",
     industries: ["Jewelry", "Fashion"],
     features: [
       {
@@ -428,7 +389,7 @@ var products = [
     image: "/images/carousel/acrylic-display.png",
     materials: "Acrylic / PVC",
     moq: "200 pcs",
-    leadTime: "15\u201325 days",
+    leadTime: "15\u201320 days",
     industries: ["Jewelry", "Beauty"],
     features: [
       {
@@ -467,7 +428,7 @@ var products = [
     image: "/images/carousel/kraft-bag.png",
     materials: "Recycled kraft paper, twisted paper handles",
     moq: "200 pcs",
-    leadTime: "10\u201320 days",
+    leadTime: "15\u201320 days",
     industries: ["Fashion", "Beauty", "Gift"],
     features: [
       {
@@ -507,7 +468,7 @@ var products = [
     image: "/images/carousel/jewelry-tray.png",
     materials: "MDF, velvet lining",
     moq: "200 pcs",
-    leadTime: "15\u201325 days",
+    leadTime: "15\u201320 days",
     industries: ["Jewelry", "Fashion"],
     features: [
       {
@@ -620,50 +581,6 @@ var products = [
       "Foil stamping, embossing or debossing",
       "Interior lining color matching",
       "Custom sizes for jewelry, eyewear or cards"
-    ]
-  },
-  {
-    slug: "cream-rigid-magnetic-gift-box",
-    name: "Cream Rigid Magnetic Gift Box",
-    category: "Boxes",
-    shortDesc: "Matte cream rigid gift box with lift-off lid, magnetic closure, gold foil branding and satin ribbon finish.",
-    description: "A lift-off lid rigid box in matte cream wrap, finished with gold foil branding and a champagne satin ribbon \u2014 the quiet-luxury formula that photographs beautifully and ships well. A concealed magnetic closure lets the lid settle into place with that satisfying, slow close, while the rigid walls protect what's inside without bulky padding. Inside, the box takes tissue, foam or molded inserts to fit jewelry, eyewear, fragrance or gift programs.",
-    image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
-    materials: "Rigid cardboard, matte art paper wrap, satin ribbon",
-    moq: "500 pcs",
-    leadTime: "15\u201320 days",
-    industries: ["Jewelry", "Gift", "Beauty", "Eyewear & Sunglasses"],
-    features: [
-      {
-        title: "Concealed Magnetic Closure",
-        desc: "Hidden magnets give a smooth, premium close with no visible hardware."
-      },
-      {
-        title: "Matte Cream Wrap",
-        desc: "Fingerprint-tolerant matte lamination in cream or your brand color."
-      },
-      {
-        title: "Gold Foil Branding",
-        desc: "Foil-stamped logo on lid and box front, matched to your artwork."
-      },
-      {
-        title: "Lift-Off Lid Construction",
-        desc: "Full-height lid over a rigid base \u2014 strong walls, clean unboxing ritual."
-      }
-    ],
-    specs: [
-      { label: "Structure", value: "Rigid cardboard, lift-off lid" },
-      { label: "Wrap", value: "Matte art paper, custom colors" },
-      { label: "Closure", value: "Concealed magnetic" },
-      { label: "Finishing", value: "Gold foil stamping, satin ribbon" },
-      { label: "Inserts", value: "Foam / EVA / molded / recycled paper" },
-      { label: "MOQ", value: "500 pcs" }
-    ],
-    customizationOptions: [
-      "Custom sizes and wrap colors",
-      "Foil stamping, embossing or spot UV",
-      "Tailored interior inserts",
-      "Matching satin ribbons and seals"
     ]
   }
 ];
@@ -1020,8 +937,8 @@ var featuredSlugs = [
   { slug: "magnetic-closure-gift-box", tag: "Signature" },
   { slug: "black-leather-jewelry-box", tag: "Icon" },
   { slug: "luxury-gift-box-ribbon", tag: "Premium" },
-  { slug: "velvet-drawstring-pouch", tag: "Bestseller" },
-  { slug: "cotton-jewelry-pouch", tag: "Eco" },
+  { slug: "custom-velvet-drawstring-pouch", tag: "Bestseller" },
+  { slug: "custom-cotton-jewelry-pouch", tag: "Eco" },
   { slug: "kraft-paper-shopping-bag", tag: "Retail" },
   { slug: "double-ring-storage-box", tag: "Wedding" },
   { slug: "stackable-jewelry-tray", tag: "Display" }
@@ -2763,6 +2680,36 @@ function News() {
 // src/pages/Article.tsx
 var import_react_router_dom13 = require("react-router-dom");
 var import_jsx_runtime12 = require("react/jsx-runtime");
+var RELATED = {
+  "how-to-choose-a-custom-jewelry-pouch": [
+    "custom-velvet-drawstring-pouch",
+    "custom-cotton-jewelry-pouch",
+    "leather-envelope-pouch"
+  ],
+  "how-to-choose-custom-drawstring-bags": [
+    "custom-velvet-drawstring-pouch",
+    "custom-cotton-jewelry-pouch"
+  ],
+  "custom-hair-extension-packaging-guide": ["custom-velvet-drawstring-pouch"],
+  "custom-clothing-apparel-packaging-guide": ["kraft-paper-shopping-bag", "luxury-gift-box-ribbon"],
+  "custom-gift-packaging-guide": [
+    "magnetic-closure-gift-box",
+    "luxury-gift-box-ribbon",
+    "velvet-jewelry-display-set"
+  ],
+  "how-to-read-a-packaging-specification-sheet": [
+    "magnetic-closure-gift-box",
+    "custom-velvet-drawstring-pouch"
+  ],
+  "packaging-colour-tolerance-explained": [
+    "luxury-gift-box-ribbon",
+    "custom-velvet-drawstring-pouch"
+  ]
+};
+function relatedProducts(slug) {
+  if (!slug) return [];
+  return (RELATED[slug] ?? []).map((s) => getProductBySlug(s)).filter((p) => p !== void 0);
+}
 function inline(text, keyPrefix) {
   const nodes = [];
   const re = /\*\*(.+?)\*\*|\*(.+?)\*/g;
@@ -2826,6 +2773,7 @@ function renderBody(body) {
 function Article() {
   const { slug } = (0, import_react_router_dom13.useParams)();
   const article = slug ? getArticleBySlug(slug) : void 0;
+  const related = relatedProducts(slug);
   if (!article) {
     return /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h1", { className: "section-title", children: "Article not found" }),
@@ -2848,6 +2796,14 @@ function Article() {
     /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "section article-section", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container article-container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("figure", { className: "landing-hero reveal", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: article.image, alt: article.imageAlt, width: 1600, height: 1e3 }) }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-body reveal", children: renderBody(article.body) }),
+      related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-related reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: "Related products" }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("ul", { className: "spec-list", children: related.map((p) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: `/products/${p.slug}`, className: "text-link", children: [
+          p.name,
+          " ",
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+        ] }) }, p.slug)) })
+      ] }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-back", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: "/news", className: "text-link", children: [
         "Back to News & Insights ",
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
@@ -3425,7 +3381,7 @@ var landings = [
     eyebrow: "Boxes",
     h1: "Custom Rigid, Folding & Magnetic Boxes \u2014 Made to Your Spec, from 500 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
-    metaDescription: "Custom packaging boxes for jewellery, fragrance, beauty, hair and fashion brands \u2014 rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
+    metaDescription: "Custom packaging boxes \u2014 rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
     intro: "ELAPACK makes custom boxes for brands selling in the US and Europe. We are a trade-and-manufacturing company founded in 2018 with three production lines, ISO 9001 certified for the production and sales of paper and textile packaging products, and we make each order to your specification \u2014 not from stock \u2014 so the box fits your product and carries your brand, not the other way round.",
     why: {
       heading: "Box styles",
@@ -3604,28 +3560,283 @@ function Landing({ slug }) {
   ] });
 }
 
-// src/App.tsx
+// src/pages/Collection.tsx
+var import_react13 = require("react");
+var import_react_router_dom15 = require("react-router-dom");
+
+// src/data/collections.ts
+var collections = [
+  {
+    slug: "custom-jewelry-boxes",
+    eyebrow: "Jewelry Boxes",
+    h1: "Custom Jewelry Boxes, Made to Your Spec",
+    subhead: "Rigid, magnetic and wrapped boxes for rings, earrings, necklaces and bracelets \u2014 your size, structure, finish and logo.",
+    metaDescription: "Custom jewelry boxes with your logo \u2014 rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 500 pieces, free stock samples.",
+    intro: "ELAPACK makes custom jewelry boxes for brands selling in the US and Europe. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products, we make each order to your specification \u2014 box structure, wrap colour, interior insert and branding \u2014 so the box fits your jewelry and carries your brand.",
+    sections: [
+      {
+        heading: "Box structures",
+        items: [
+          { title: "Rigid lift-off lid", desc: "Full-height lid over a rigid base \u2014 the premium, gift-ready structure." },
+          { title: "Magnetic flip-top", desc: "Hidden magnets give a clean exterior and a satisfying slow close." },
+          { title: "Ribbon tie", desc: "Satin ribbon closure that becomes part of the unboxing ritual." },
+          { title: "Faux leather wrap", desc: "Textured wrap with embossed branding for jewelry and gift programs." }
+        ]
+      },
+      {
+        heading: "By jewelry type",
+        items: [
+          { title: "Ring boxes", desc: "Single and double ring slots with velvet or foam cushions." },
+          { title: "Earring & pendant boxes", desc: "Fitted inserts that hold pairs and chains in place." },
+          { title: "Bracelet & small gift boxes", desc: "Compact footprints for retail counter and gifting." },
+          { title: "Complete jewelry sets", desc: "Box, pouch and insert designed together as one program." }
+        ]
+      },
+      {
+        heading: "Inserts & interiors",
+        items: [
+          { title: "EVA", desc: "Contoured, precise fit for each piece." },
+          { title: "Sponge", desc: "Soft cushioning under velvet or satin covering." },
+          { title: "Molded pulp", desc: "Economical structure with a natural look." },
+          { title: "Flocked & velvet", desc: "Velvet-touch luxury finish for premium lines." }
+        ]
+      },
+      {
+        heading: "Branding & finishes",
+        items: [
+          { title: "Foil stamping", desc: "Gold or metallic foil logos on lid and base." },
+          { title: "Embossing & debossing", desc: "Blind relief marks that read premium without colour." },
+          { title: "Spot UV & lamination", desc: "Matte or gloss laminate with spot UV accents." },
+          { title: "Pantone-matched wrap", desc: "Wrap colour matched to your Pantone reference, with interior lid printing." }
+        ]
+      }
+    ],
+    facts: [
+      { label: "MOQ", value: "500 pieces, custom sizes included" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" }
+    ],
+    productSlugs: [
+      "black-leather-jewelry-box",
+      "custom-white-jewelry-box",
+      "double-ring-storage-box",
+      "luxury-gift-box-ribbon",
+      "magnetic-closure-gift-box"
+    ],
+    ctaTitle: "Request a quote for your custom jewelry box"
+  },
+  {
+    slug: "eyewear-packaging",
+    eyebrow: "Eyewear Packaging",
+    h1: "Custom Eyewear Packaging \u2014 Boxes & Pouches for Eyewear Brands",
+    subhead: "Glasses boxes and fabric pouches that protect frames and carry your logo, made to your spec.",
+    metaDescription: "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes from 500, pouches from 200 pieces. Free stock samples.",
+    intro: "Custom packaging for eyewear and sunglasses brands selling in the US and Europe. We make both sides of the program \u2014 printed boxes that present and protect the frames, and fabric pouches that keep them safe after the sale \u2014 matched in colour and branding. Folded glasses set the footprint: share your frame dimensions and we build the box and insert around them.",
+    sections: [
+      {
+        heading: "Eyewear boxes",
+        items: [
+          { title: "Rigid boxes", desc: "Thick board with a premium feel for flagship frames." },
+          { title: "Magnetic flip-top", desc: "A clean open-close ritual for retail and unboxing." },
+          { title: "Folding cartons", desc: "Printed paperboard that ships flat \u2014 practical and economical." }
+        ]
+      },
+      {
+        heading: "Eyewear pouches & sleeves",
+        items: [
+          { title: "Velvet drawstring", desc: "Plush protection for finished frames and sunglasses." },
+          { title: "Faux leather envelope", desc: "Structured snap-closure sleeve that mails flat." },
+          { title: "Cotton & microfiber", desc: "Soft, gentle fabrics for everyday case-in-pocket use." }
+        ]
+      },
+      {
+        heading: "Branding",
+        items: [
+          { title: "Logo print & foil", desc: "Silkscreen, hot stamp or foil on box and pouch." },
+          { title: "Woven labels & embroidery", desc: "Quiet brand marks stitched into fabric." },
+          { title: "Pantone matching", desc: "Box wrap and pouch fabric aligned to your brand colour." }
+        ]
+      }
+    ],
+    facts: [
+      { label: "MOQ", value: "Boxes from 500 pieces \xB7 pouches from 200 pieces" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" }
+    ],
+    productSlugs: [
+      "magnetic-closure-gift-box",
+      "black-leather-jewelry-box",
+      "custom-velvet-drawstring-pouch",
+      "leather-envelope-pouch"
+    ],
+    ctaTitle: "Request a quote for your eyewear packaging"
+  },
+  {
+    slug: "custom-jewelry-pouches",
+    eyebrow: "Jewelry Pouches",
+    h1: "Custom Jewelry Pouches with Your Logo",
+    subhead: "Velvet, cotton, satin and microfiber pouches \u2014 your fabric, closure, size and branding.",
+    metaDescription: "Custom jewelry pouches with logo \u2014 velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",
+    intro: "Fabric jewelry pouches for brands that want the packaging to feel like part of the piece. Choose the fabric, the closure and the branding; we make each pouch to your spec \u2014 from standard 7\xD79 cm jewelry sizes up to large gift bags. MOQ from 200 pieces, including custom sizes.",
+    sections: [
+      {
+        heading: "Fabrics",
+        items: [
+          { title: "Velvet", desc: "Dense pile that cushions chains and stones." },
+          { title: "Cotton", desc: "Natural, printable and gently protective." },
+          { title: "Satin", desc: "A smooth, lustrous finish for gift programs." },
+          { title: "More fabrics", desc: "Suede, muslin, linen, microfiber and non-woven \u2014 plus custom developments on request." }
+        ]
+      },
+      {
+        heading: "Closures",
+        items: [
+          { title: "Drawstring", desc: "Cotton, satin or polyester cord, colour-matched." },
+          { title: "Flap", desc: "Envelope silhouette with snap or tuck closure." },
+          { title: "Zipper & button", desc: "Secure options for heavier or multi-piece sets." }
+        ]
+      },
+      {
+        heading: "Branding",
+        items: [
+          { title: "Screen printing", desc: "Single to multi-colour prints with water-based inks." },
+          { title: "Foil & deboss", desc: "Hot-stamped logos that read premium without noise." },
+          { title: "Woven label & embroidery", desc: "Stitched marks inside or outside the pouch." },
+          { title: "Pantone matching", desc: "Fabric and cord dyed to your brand colour." }
+        ]
+      },
+      {
+        heading: "Sizes",
+        items: [
+          { title: "Standard band", desc: "From 7\xD79 cm jewelry pouches up to 30\xD740 cm gift and wig bags." },
+          { title: "Any custom size", desc: "Made to your product dimensions, MOQ unchanged." }
+        ]
+      }
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" }
+    ],
+    productSlugs: [
+      "custom-velvet-drawstring-pouch",
+      "custom-cotton-jewelry-pouch",
+      "leather-envelope-pouch"
+    ],
+    ctaTitle: "Request a quote for your custom jewelry pouches"
+  }
+];
+function getCollectionBySlug(slug) {
+  return collections.find((c) => c.slug === slug);
+}
+
+// src/pages/Collection.tsx
 var import_jsx_runtime16 = require("react/jsx-runtime");
+function Collection({ slug }) {
+  const collection = getCollectionBySlug(slug);
+  (0, import_react13.useEffect)(() => {
+    if (collection) document.title = `${collection.eyebrow} | ELAPACK`;
+  }, [collection]);
+  if (!collection) return null;
+  const products3 = collection.productSlugs.map((s) => getProductBySlug(s)).filter((p) => p !== void 0);
+  return /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(import_jsx_runtime16.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "eyebrow reveal", children: collection.eyebrow }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: collection.h1 }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: collection.subhead })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: collection.intro }) }) }) }),
+    collection.sections.map((section) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: section.heading }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "values-grid", children: section.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h3", { className: "value-title", children: item.title }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "value-desc", children: item.desc })
+      ] }, item.title)) })
+    ] }) }, section.heading)),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Explore the products" }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "catalog-grid", children: products3.map((product, i) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(
+        import_react_router_dom15.Link,
+        {
+          to: `/products/${product.slug}`,
+          className: `catalog-card reveal reveal-delay-${i % 4 + 1}`,
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "catalog-card-image", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("img", { src: product.image, alt: product.name, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "catalog-category", children: product.category })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "catalog-card-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h3", { className: "catalog-name", children: product.name }),
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "catalog-desc", children: product.shortDesc }),
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "catalog-meta", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "meta-item", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "meta-label", children: "MOQ" }),
+                /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "meta-value", children: product.moq })
+              ] }) })
+            ] })
+          ]
+        },
+        product.slug
+      )) })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "MOQ & lead time" }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "spec-list", children: collection.facts.map((row) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("strong", { children: [
+          row.label,
+          ":"
+        ] }),
+        " ",
+        row.value
+      ] }, row.label)) })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "center" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: collection.ctaTitle }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", children: [
+        "Message Tina on WhatsApp or phone:",
+        " ",
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" }),
+        " ",
+        "\xB7 Email: ",
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" })
+      ] })
+    ] }) }) })
+  ] });
+}
+
+// src/App.tsx
+var import_jsx_runtime17 = require("react/jsx-runtime");
 function AppRoutes() {
-  return /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(import_react_router_dom15.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Layout, {}), children: [
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Home, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Landing, { slug: "pouches-bags" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Landing, { slug: "boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Landing, { slug: "sets" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Products, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(ProductDetail, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Industries, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Solutions, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(About, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(News, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/news/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Article, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Contact, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Video, {}) })
+  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(import_react_router_dom16.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Layout, {}), children: [
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Home, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "pouches-bags" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "sets" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-jewelry-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/eyewear-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "eyewear-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-jewelry-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-pouches" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Products, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(ProductDetail, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Industries, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Solutions, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(About, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(News, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/news/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Article, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Contact, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Video, {}) })
   ] }) });
 }
 
 // scripts/prerender.tsx
-var import_jsx_runtime17 = require("react/jsx-runtime");
+var import_jsx_runtime18 = require("react/jsx-runtime");
 var dist = import_node_path.default.resolve(__dirname, "../dist");
 var indexPath = import_node_path.default.join(dist, "index.html");
 var shell = import_node_fs.default.readFileSync(indexPath, "utf-8");
@@ -3634,6 +3845,9 @@ var ROUTES = [
   "/pouches-bags",
   "/boxes",
   "/sets",
+  "/custom-jewelry-boxes",
+  "/eyewear-packaging",
+  "/custom-jewelry-pouches",
   "/products",
   "/industries",
   "/solutions",
@@ -3651,6 +3865,9 @@ var STATIC_TITLES = {
   "/pouches-bags": "Custom Fabric Pouches & Bags from 200 pcs | ELAPACK",
   "/boxes": "Custom Rigid, Folding & Magnetic Boxes from 500 pcs | ELAPACK",
   "/sets": "Custom Packaging Sets \u2014 Pouch, Box & More | ELAPACK",
+  "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 500 pcs | ELAPACK",
+  "/eyewear-packaging": "Custom Eyewear Packaging \u2014 Glasses Boxes & Pouches | ELAPACK",
+  "/custom-jewelry-pouches": "Custom Jewelry Pouches with Logo, from 200 pcs | ELAPACK",
   "/products": "Products \u2014 Boxes, Pouches & Gift Packaging | ELAPACK",
   "/industries": "Industries We Serve \u2014 Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions \u2014 Custom, Materials & Sustainability | ELAPACK",
@@ -3665,6 +3882,9 @@ var STATIC_DESCRIPTIONS = {
   "/pouches-bags": "Custom textile pouches and bags \u2014 velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
   "/boxes": "Custom rigid, folding carton and magnetic closure boxes with EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
   "/sets": "Custom packaging sets \u2014 pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference.",
+  "/custom-jewelry-boxes": "Custom jewelry boxes with your logo \u2014 rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 500 pieces, free stock samples.",
+  "/eyewear-packaging": "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes from 500, pouches from 200 pieces. Free stock samples.",
+  "/custom-jewelry-pouches": "Custom jewelry pouches with logo \u2014 velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",
   "/products": "Browse ELAPACK's custom packaging catalog \u2014 rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands \u2014 engineered for Europe and North America.",
   "/solutions": "Custom packaging solutions from ELAPACK \u2014 bespoke structures, premium materials and finishes, clear process, sustainable options.",
@@ -3678,11 +3898,12 @@ var ok = 0;
 for (const route of ROUTES) {
   try {
     const html = (0, import_server.renderToString)(
-      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_server2.StaticRouter, { location: route, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(AppRoutes, {}) })
+      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_server2.StaticRouter, { location: route, children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(AppRoutes, {}) })
     );
     const productMatch = route.match(/^\/products\/([a-z0-9-]+)$/);
-    const pageTag = productMatch ? `${productMatch[1].split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")} | ELAPACK` : STATIC_TITLES[route] || "ELAPACK";
-    const pageDesc = STATIC_DESCRIPTIONS[route] || (productMatch ? `Custom ${productMatch[1].split("-").join(" ")} by ELAPACK \u2014 materials, MOQ, lead time and full customization options for luxury brands.` : void 0);
+    const product = productMatch ? products.find((p) => p.slug === productMatch[1]) : void 0;
+    const pageTag = product ? `${product.name} | ELAPACK` : STATIC_TITLES[route] || "ELAPACK";
+    const pageDesc = STATIC_DESCRIPTIONS[route] || (product ? `${product.shortDesc} ${product.name} by ELAPACK \u2014 materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.` : void 0);
     let out = shell.replace('<div id="root"></div>', `<div id="root">${html}</div>`).replace(/<title>[^<]*<\/title>/, `<title>${pageTag}</title>`);
     if (pageDesc) {
       out = out.replace(

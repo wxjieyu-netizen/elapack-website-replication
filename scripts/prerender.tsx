@@ -19,6 +19,7 @@ import path from "node:path";
 import { StaticRouter } from "react-router-dom/server";
 import { AppRoutes } from "../src/App";
 import { articles as ARTICLES } from "../src/data/articles";
+import { products as PRODUCTS } from "../src/data/products";
 
 const dist = path.resolve(__dirname, "../dist");
 const indexPath = path.join(dist, "index.html");
@@ -30,6 +31,9 @@ const ROUTES = [
   "/pouches-bags",
   "/boxes",
   "/sets",
+  "/custom-jewelry-boxes",
+  "/eyewear-packaging",
+  "/custom-jewelry-pouches",
   "/products",
   "/industries",
   "/solutions",
@@ -49,6 +53,9 @@ const STATIC_TITLES: Record<string, string> = {
   "/pouches-bags": "Custom Fabric Pouches & Bags from 200 pcs | ELAPACK",
   "/boxes": "Custom Rigid, Folding & Magnetic Boxes from 500 pcs | ELAPACK",
   "/sets": "Custom Packaging Sets — Pouch, Box & More | ELAPACK",
+  "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 500 pcs | ELAPACK",
+  "/eyewear-packaging": "Custom Eyewear Packaging — Glasses Boxes & Pouches | ELAPACK",
+  "/custom-jewelry-pouches": "Custom Jewelry Pouches with Logo, from 200 pcs | ELAPACK",
   "/products": "Products — Boxes, Pouches & Gift Packaging | ELAPACK",
   "/industries": "Industries We Serve — Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions — Custom, Materials & Sustainability | ELAPACK",
@@ -65,6 +72,9 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/pouches-bags": "Custom textile pouches and bags — velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
   "/boxes": "Custom rigid, folding carton and magnetic closure boxes with EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
   "/sets": "Custom packaging sets — pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference.",
+  "/custom-jewelry-boxes": "Custom jewelry boxes with your logo — rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 500 pieces, free stock samples.",
+  "/eyewear-packaging": "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes from 500, pouches from 200 pieces. Free stock samples.",
+  "/custom-jewelry-pouches": "Custom jewelry pouches with logo — velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",
   "/products": "Browse ELAPACK's custom packaging catalog — rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands — engineered for Europe and North America.",
   "/solutions": "Custom packaging solutions from ELAPACK — bespoke structures, premium materials and finishes, clear process, sustainable options.",
@@ -85,17 +95,17 @@ for (const route of ROUTES) {
     );
 
     const productMatch = route.match(/^\/products\/([a-z0-9-]+)$/);
-    const pageTag = productMatch
-      ? `${productMatch[1]
-          .split("-")
-          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-          .join(" ")} | ELAPACK`
+    const product = productMatch
+      ? PRODUCTS.find((p) => p.slug === productMatch[1])
+      : undefined;
+    const pageTag = product
+      ? `${product.name} | ELAPACK`
       : STATIC_TITLES[route] || "ELAPACK";
 
     const pageDesc =
       STATIC_DESCRIPTIONS[route] ||
-      (productMatch
-        ? `Custom ${productMatch[1].split("-").join(" ")} by ELAPACK — materials, MOQ, lead time and full customization options for luxury brands.`
+      (product
+        ? `${product.shortDesc} ${product.name} by ELAPACK — materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.`
         : undefined);
 
     let out = shell

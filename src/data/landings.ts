@@ -124,7 +124,7 @@ export const landings: Landing[] = [
     h1: "Custom Rigid, Folding & Magnetic Boxes — Made to Your Spec, from 500 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
     metaDescription:
-      "Custom packaging boxes for jewellery, fragrance, beauty, hair and fashion brands — rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
+      "Custom packaging boxes — rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 500 pieces.",
     intro:
       "ELAPACK makes custom boxes for brands selling in the US and Europe. We are a trade-and-manufacturing company founded in 2018 with three production lines, ISO 9001 certified for the production and sales of paper and textile packaging products, and we make each order to your specification — not from stock — so the box fits your product and carries your brand, not the other way round.",
     why: {

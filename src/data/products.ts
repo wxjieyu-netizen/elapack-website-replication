@@ -15,7 +15,7 @@ export type Product = {
 };
 
 /**
- * Real product catalog (12 SKUs with genuine photos), mapped from the old
+ * Real product catalog (13 SKUs with genuine photos), mapped from the old
  * catalog.ts into the new design's 4-category IA:
  *   Boxes / Pouches & Bags / Sets & Complete Packaging / Ribbons & Accessories
  * Images live under /images/carousel/ (real photos kept from the old site).
@@ -32,7 +32,7 @@ export const products: Product[] = [
     image: "/images/carousel/black-leather-box.png",
     materials: "Faux leather, velvet interior, cardboard core",
     moq: "500 pcs",
-    leadTime: "15–25 days",
+    leadTime: "15–20 days",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
       {
@@ -68,17 +68,17 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "pandora-jewelry-box-white",
-    name: "Compact White Jewelry Box",
+    slug: "custom-white-jewelry-box",
+    name: "Custom White Jewelry Box with Logo",
     category: "Boxes",
     shortDesc:
-      "Compact white plastic jewelry box with velvet cushion — clean minimalist retail and gift packaging.",
+      "Compact white jewelry box with velvet cushion and custom logo printing — clean minimalist retail and gift packaging.",
     description:
-      "A compact white plastic jewelry box inspired by Pandora-style packaging. Perfect for bracelets and small jewelry gifts, combining a clean minimalist look with durable protection. Ideal for retail display and gifting occasions.",
+      "A compact white jewelry box with a glossy rigid shell and velvet-lined cushion. Made for bracelets and small jewelry gifts, it pairs a clean minimalist look with durable protection, and carries your logo silkscreened or hot-stamped on the lid. Ideal for retail display and gifting occasions.",
     image: "/images/carousel/pandora-box.png",
     materials: "Plastic exterior, velvet interior insert",
     moq: "500 pcs",
-    leadTime: "15–25 days",
+    leadTime: "15–20 days",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
       {
@@ -120,7 +120,7 @@ export const products: Product[] = [
     image: "/images/carousel/ring-box-black.png",
     materials: "Velvet exterior, foam insert with velvet covering",
     moq: "500 pcs",
-    leadTime: "15–25 days",
+    leadTime: "15–20 days",
     industries: ["Jewelry", "Gift"],
     features: [
       {
@@ -152,48 +152,6 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "wooden-ring-box-wedding",
-    name: "Engraved Wooden Ring Box",
-    category: "Boxes",
-    shortDesc:
-      "Natural wood ring box with laser engraving and velvet lining for weddings and keepsakes.",
-    description:
-      "An engraved wooden ring box for weddings, featuring natural wood grain with a smooth finish. The interior is lined with soft velvet to protect rings. Custom engraving of names, dates, or logos is available for a truly personalized keepsake.",
-    image: "/images/carousel/wooden-ring-box.png",
-    materials: "Wood exterior, velvet interior",
-    moq: "500 pcs",
-    leadTime: "20–30 days",
-    industries: ["Jewelry", "Gift"],
-    features: [
-      {
-        title: "Natural Wood Construction",
-        desc: "Real wood grain with matte varnish — every box has a unique texture.",
-      },
-      {
-        title: "Custom Laser Engraving",
-        desc: "Names, dates or logos engraved into the lid for personalized keepsakes.",
-      },
-      {
-        title: "Velvet Interior",
-        desc: "Soft velvet lining protects rings from scratches during storage.",
-      },
-      {
-        title: "Hinged Lid",
-        desc: "Secure hinged closure engineered for smooth, repeated opening.",
-      },
-    ],
-    specs: [
-      { label: "Dimensions (L × W × H)", value: '1-3/4" × 2" × 1-1/2"' },
-      { label: "Closure Type", value: "Hinged lid" },
-      { label: "Surface Finish", value: "Natural wood with matte varnish" },
-    ],
-    customizationOptions: [
-      "Laser engraving of names, dates or logos",
-      "Wood species selection",
-      "Interior velvet colors",
-    ],
-  },
-  {
     slug: "luxury-gift-box-ribbon",
     name: "Luxury Gift Box with Ribbon",
     category: "Boxes",
@@ -204,7 +162,7 @@ export const products: Product[] = [
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
     moq: "500 pcs",
-    leadTime: "15–25 days",
+    leadTime: "15–20 days",
     industries: ["Gift", "Beauty", "Fragrance"],
     features: [
       {
@@ -238,17 +196,17 @@ export const products: Product[] = [
   },
   {
     slug: "magnetic-closure-gift-box",
-    name: "Magnetic Closure Gift Box",
+    name: "Custom Magnetic Closure Gift Box",
     category: "Boxes",
     shortDesc:
       "Sleek flip-top gift box with hidden magnetic closure and custom interior inserts.",
     description:
-      "A sleek magnetic closure gift box with flip-top design. The hidden magnetic mechanism provides a clean look while keeping the lid securely closed. Ideal for jewelry, cosmetics, and small luxury items.",
+      "A sleek magnetic closure gift box with flip-top design. The hidden magnetic mechanism provides a clean look while keeping the lid securely closed. Ideal for jewelry, eyewear, cosmetics, and small luxury items.",
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
     moq: "500 pcs",
-    leadTime: "15–25 days",
-    industries: ["Jewelry", "Beauty", "Gift", "Fashion"],
+    leadTime: "15–20 days",
+    industries: ["Jewelry", "Eyewear & Sunglasses", "Beauty", "Gift", "Fashion"],
     features: [
       {
         title: "Hidden Magnetic Closure",
@@ -277,11 +235,12 @@ export const products: Product[] = [
       "Foil or blind emboss branding",
       "Interior lid printing",
       "Pantone-matched exterior",
+      "Lift-off lid variant with matte cream wrap and satin ribbon finish",
     ],
   },
   {
-    slug: "velvet-drawstring-pouch",
-    name: "Velvet Drawstring Pouch",
+    slug: "custom-velvet-drawstring-pouch",
+    name: "Custom Velvet Drawstring Pouch",
     category: "Pouches & Bags",
     shortDesc:
       "Soft velvet drawstring pouch protecting delicate jewelry — multiple colors with custom branding.",
@@ -289,8 +248,8 @@ export const products: Product[] = [
       "A soft velvet drawstring jewelry pouch designed for elegant storage and gifting. The plush velvet exterior protects delicate jewelry while the drawstring closure keeps items secure. Available in multiple colors with custom branding options.",
     image: "/images/carousel/velvet-pouch.png",
     materials: "Velvet, cotton cord drawstring",
-    moq: "500 pcs",
-    leadTime: "10–20 days",
+    moq: "200 pcs",
+    leadTime: "15–20 days",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
       {
@@ -322,8 +281,8 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "cotton-jewelry-pouch",
-    name: "Cotton Drawstring Pouch",
+    slug: "custom-cotton-jewelry-pouch",
+    name: "Custom Cotton Jewelry Pouch",
     category: "Pouches & Bags",
     shortDesc:
       "Natural cotton drawstring pouch — eco-friendly, printable, gently protective.",
@@ -331,8 +290,8 @@ export const products: Product[] = [
       "An eco-friendly cotton drawstring pouch perfect for jewelry storage and gifting. Made from natural cotton fabric with a soft texture. Ideal for brands looking for sustainable packaging solutions.",
     image: "/images/carousel/cotton-pouch.png",
     materials: "Natural cotton, cotton cord",
-    moq: "500 pcs",
-    leadTime: "10–20 days",
+    moq: "200 pcs",
+    leadTime: "15–20 days",
     industries: ["Jewelry", "Beauty", "Gift"],
     features: [
       {
@@ -374,7 +333,7 @@ export const products: Product[] = [
     image: "/images/carousel/velvet-necklace-stand.png",
     materials: "Velvet, wooden base",
     moq: "200 pcs",
-    leadTime: "15–25 days",
+    leadTime: "15–20 days",
     industries: ["Jewelry", "Fashion"],
     features: [
       {
@@ -415,7 +374,7 @@ export const products: Product[] = [
     image: "/images/carousel/acrylic-display.png",
     materials: "Acrylic / PVC",
     moq: "200 pcs",
-    leadTime: "15–25 days",
+    leadTime: "15–20 days",
     industries: ["Jewelry", "Beauty"],
     features: [
       {
@@ -456,7 +415,7 @@ export const products: Product[] = [
     image: "/images/carousel/kraft-bag.png",
     materials: "Recycled kraft paper, twisted paper handles",
     moq: "200 pcs",
-    leadTime: "10–20 days",
+    leadTime: "15–20 days",
     industries: ["Fashion", "Beauty", "Gift"],
     features: [
       {
@@ -498,7 +457,7 @@ export const products: Product[] = [
     image: "/images/carousel/jewelry-tray.png",
     materials: "MDF, velvet lining",
     moq: "200 pcs",
-    leadTime: "15–25 days",
+    leadTime: "15–20 days",
     industries: ["Jewelry", "Fashion"],
     features: [
       {
@@ -615,52 +574,6 @@ export const products: Product[] = [
       "Foil stamping, embossing or debossing",
       "Interior lining color matching",
       "Custom sizes for jewelry, eyewear or cards",
-    ],
-  },
-  {
-    slug: "cream-rigid-magnetic-gift-box",
-    name: "Cream Rigid Magnetic Gift Box",
-    category: "Boxes",
-    shortDesc:
-      "Matte cream rigid gift box with lift-off lid, magnetic closure, gold foil branding and satin ribbon finish.",
-    description:
-      "A lift-off lid rigid box in matte cream wrap, finished with gold foil branding and a champagne satin ribbon — the quiet-luxury formula that photographs beautifully and ships well. A concealed magnetic closure lets the lid settle into place with that satisfying, slow close, while the rigid walls protect what's inside without bulky padding. Inside, the box takes tissue, foam or molded inserts to fit jewelry, eyewear, fragrance or gift programs.",
-    image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
-    materials: "Rigid cardboard, matte art paper wrap, satin ribbon",
-    moq: "500 pcs",
-    leadTime: "15–20 days",
-    industries: ["Jewelry", "Gift", "Beauty", "Eyewear & Sunglasses"],
-    features: [
-      {
-        title: "Concealed Magnetic Closure",
-        desc: "Hidden magnets give a smooth, premium close with no visible hardware.",
-      },
-      {
-        title: "Matte Cream Wrap",
-        desc: "Fingerprint-tolerant matte lamination in cream or your brand color.",
-      },
-      {
-        title: "Gold Foil Branding",
-        desc: "Foil-stamped logo on lid and box front, matched to your artwork.",
-      },
-      {
-        title: "Lift-Off Lid Construction",
-        desc: "Full-height lid over a rigid base — strong walls, clean unboxing ritual.",
-      },
-    ],
-    specs: [
-      { label: "Structure", value: "Rigid cardboard, lift-off lid" },
-      { label: "Wrap", value: "Matte art paper, custom colors" },
-      { label: "Closure", value: "Concealed magnetic" },
-      { label: "Finishing", value: "Gold foil stamping, satin ribbon" },
-      { label: "Inserts", value: "Foam / EVA / molded / recycled paper" },
-      { label: "MOQ", value: "500 pcs" },
-    ],
-    customizationOptions: [
-      "Custom sizes and wrap colors",
-      "Foil stamping, embossing or spot UV",
-      "Tailored interior inserts",
-      "Matching satin ribbons and seals",
     ],
   },
 ];

@@ -22,6 +22,13 @@ const redirects: Record<string, string> = {
   "/custom": "/solutions",
   "/blog": "/news",
 
+  // renamed/removed product slugs (2026-09-30 keyword restructuring)
+  "/products/pandora-jewelry-box-white": "/products/custom-white-jewelry-box",
+  "/products/velvet-drawstring-pouch": "/products/custom-velvet-drawstring-pouch",
+  "/products/cotton-jewelry-pouch": "/products/custom-cotton-jewelry-pouch",
+  "/products/cream-rigid-magnetic-gift-box": "/products/magnetic-closure-gift-box",
+  "/products/wooden-ring-box-wedding": "/products",
+
   // series pages (15) → category-filtered products
   "/pouches/jewelry-eyewear": "/products?category=Pouches%20%26%20Bags",
   "/pouches/fragrance": "/products?category=Pouches%20%26%20Bags",
@@ -43,19 +50,21 @@ const redirects: Record<string, string> = {
 // old product slugs (/product/:slug) → new /products/:slug
 const oldProductSlugs = [
   "black-leather-jewelry-box",
-  "pandora-jewelry-box-white",
   "double-ring-storage-box",
-  "wooden-ring-box-wedding",
   "luxury-gift-box-ribbon",
   "magnetic-closure-gift-box",
-  "velvet-drawstring-pouch",
-  "cotton-jewelry-pouch",
   "velvet-necklace-display",
   "acrylic-earring-display",
   "kraft-paper-shopping-bag",
   "stackable-jewelry-tray",
 ];
 for (const s of oldProductSlugs) redirects[`/product/${s}`] = `/products/${s}`;
+
+// old-site slugs that were renamed in the 2026-09-30 restructuring
+redirects["/product/pandora-jewelry-box-white"] = "/products/custom-white-jewelry-box";
+redirects["/product/wooden-ring-box-wedding"] = "/products";
+redirects["/product/velvet-drawstring-pouch"] = "/products/custom-velvet-drawstring-pouch";
+redirects["/product/cotton-jewelry-pouch"] = "/products/custom-cotton-jewelry-pouch";
 
 // old blog posts → /news
 for (let i = 1; i <= 5; i++) redirects[`/blog/post-${i}`] = "/news";

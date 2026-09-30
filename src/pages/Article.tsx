@@ -1,6 +1,46 @@
 import { Link, useParams } from "react-router-dom";
 import { getArticleBySlug } from "../data/articles";
+import { getProductBySlug } from "../data/products";
+import type { Product } from "../data/products";
 import type { ReactNode } from "react";
+
+/**
+ * Internal links from buyer guides to the product pages they describe —
+ * anchor text is the (Custom…) product name so relevance passes through.
+ */
+const RELATED: Record<string, string[]> = {
+  "how-to-choose-a-custom-jewelry-pouch": [
+    "custom-velvet-drawstring-pouch",
+    "custom-cotton-jewelry-pouch",
+    "leather-envelope-pouch",
+  ],
+  "how-to-choose-custom-drawstring-bags": [
+    "custom-velvet-drawstring-pouch",
+    "custom-cotton-jewelry-pouch",
+  ],
+  "custom-hair-extension-packaging-guide": ["custom-velvet-drawstring-pouch"],
+  "custom-clothing-apparel-packaging-guide": ["kraft-paper-shopping-bag", "luxury-gift-box-ribbon"],
+  "custom-gift-packaging-guide": [
+    "magnetic-closure-gift-box",
+    "luxury-gift-box-ribbon",
+    "velvet-jewelry-display-set",
+  ],
+  "how-to-read-a-packaging-specification-sheet": [
+    "magnetic-closure-gift-box",
+    "custom-velvet-drawstring-pouch",
+  ],
+  "packaging-colour-tolerance-explained": [
+    "luxury-gift-box-ribbon",
+    "custom-velvet-drawstring-pouch",
+  ],
+};
+
+function relatedProducts(slug: string | undefined): Product[] {
+  if (!slug) return [];
+  return (RELATED[slug] ?? [])
+    .map((s) => getProductBySlug(s))
+    .filter((p): p is Product => p !== undefined);
+}
 
 /** Render **bold** and *italic* inline markup. */
 function inline(text: string, keyPrefix: string): ReactNode[] {
@@ -74,6 +114,7 @@ function renderBody(body: string): ReactNode[] {
 export default function Article() {
   const { slug } = useParams();
   const article = slug ? getArticleBySlug(slug) : undefined;
+  const related = relatedProducts(slug);
 
   if (!article) {
     return (
@@ -108,6 +149,20 @@ export default function Article() {
             <img src={article.image} alt={article.imageAlt} width={1600} height={1000} />
           </figure>
           <div className="article-body reveal">{renderBody(article.body)}</div>
+          {related.length > 0 && (
+            <div className="article-related reveal">
+              <h2>Related products</h2>
+              <ul className="spec-list">
+                {related.map((p) => (
+                  <li key={p.slug}>
+                    <Link to={`/products/${p.slug}`} className="text-link">
+                      {p.name} <span className="text-link-arrow">→</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
           <p className="article-back">
             <Link to="/news" className="text-link">Back to News &amp; Insights <span className="text-link-arrow">→</span></Link>
           </p>

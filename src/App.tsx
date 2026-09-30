@@ -12,6 +12,7 @@ import Article from "./pages/Article";
 import Contact from "./pages/Contact";
 import Video from "./pages/Video";
 import Landing from "./pages/Landing";
+import Collection from "./pages/Collection";
 
 import "./styles/global.css";
 import "./styles/components.css";
@@ -29,6 +30,9 @@ export function AppRoutes() {
         <Route path="/pouches-bags" element={<Landing slug="pouches-bags" />} />
         <Route path="/boxes" element={<Landing slug="boxes" />} />
         <Route path="/sets" element={<Landing slug="sets" />} />
+        <Route path="/custom-jewelry-boxes" element={<Collection slug="custom-jewelry-boxes" />} />
+        <Route path="/eyewear-packaging" element={<Collection slug="eyewear-packaging" />} />
+        <Route path="/custom-jewelry-pouches" element={<Collection slug="custom-jewelry-pouches" />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:slug" element={<ProductDetail />} />
         <Route path="/industries" element={<Industries />} />
