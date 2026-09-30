@@ -15,10 +15,10 @@ export type Product = {
 };
 
 /**
- * Real product catalog (18 SKUs), mapped into the 4-category IA:
+ * Real product catalog (26 SKUs), mapped into the 4-category IA:
  *   Boxes / Pouches & Bags / Sets & Complete Packaging / Ribbons & Accessories
  * Images live under /images/carousel/ (real photos kept from the old site);
- * the 4 display SKUs and the 5 new placeholder SKUs use
+ * the 4 display SKUs and the placeholder SKUs use
  * /images/placeholder/product-coming-soon.svg until real photography lands.
  */
 export const products: Product[] = [
@@ -285,6 +285,231 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "custom-perfume-boxes",
+    name: "Custom Perfume Packaging Boxes",
+    category: "Boxes",
+    shortDesc:
+      "Custom perfume boxes built around your bottle — two-piece, drawer and magnetic structures, from 200 pieces.",
+    description:
+      "Custom perfume packaging boxes made around the bottle, not the other way round. Share your bottle dimensions and we build the structure to fit — two-piece lift-off lids for the flagship gifting moment, magnetic flip-tops for the retail counter, and drawer formats that layer bottle and story card. The wrap carries your full print, foil or emboss program, and fitted inserts hold glass steady from factory to vanity. MOQ from 200 pieces with your branding. Product photography is in progress; request a stock sample to judge the board and finish in hand.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Rigid paperboard with custom printed wrap, fitted bottle inserts",
+    moq: "200 pcs",
+    leadTime: "15–20 days",
+    industries: ["Fragrance", "Beauty", "Gift"],
+    features: [
+      {
+        title: "Built Around Your Bottle",
+        desc: "Box and insert sized from your bottle dimensions — travel sprays to flagship formats and multi-bottle gift sets.",
+      },
+      {
+        title: "Three Core Structures",
+        desc: "Two-piece lift-off, drawer and magnetic flip-top — the opening ritual that fits the line.",
+      },
+      {
+        title: "Full-Print Branding",
+        desc: "Offset print, foil stamping, embossing and spot UV on the wrap — inside lid printing available.",
+      },
+      {
+        title: "Secure Bottle Inserts",
+        desc: "EVA or molded inserts cut to the bottle profile, holding glass firmly through shipping and on shelf.",
+      },
+    ],
+    specs: [
+      { label: "Structures", value: "Two-piece lift-off / drawer / magnetic flip-top" },
+      { label: "Dimensions", value: "Made to your bottle" },
+      { label: "Insert", value: "EVA / molded pulp / sponge, cut to bottle profile" },
+      { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
+      { label: "MOQ", value: "200 pcs" },
+    ],
+    customizationOptions: [
+      "Sizing to any bottle format or gift set",
+      "Foil, emboss and full-colour print programs",
+      "Inserts cut to your bottle profile",
+      "Drawer and layered story-card layouts",
+    ],
+  },
+  {
+    slug: "custom-perfume-sample-card-boxes",
+    name: "Custom Printed Perfume Sample Card Boxes",
+    category: "Boxes",
+    shortDesc:
+      "Fully printed paper sample cards for perfume vials and sachets — your card layout, count and artwork.",
+    description:
+      "Perfume sample packaging as a printed paper card: vials or sachets mount onto a full-colour card that carries the brand, the scent story and the try-me moment in one mail-flat piece. This is a different product from our rigid perfume gift boxes — sample cards are printed card construction, sized to your sample count and vial format, with your artwork edge to edge. Sampling programs, subscription inserts, boutique handouts and press mailers all run on the same card system. MOQ and lead time to be confirmed for your card format — send your sample count and card size for a quote. Product photography is in progress.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Printed paper card with mounted sample holders",
+    moq: "To be confirmed",
+    leadTime: "To be confirmed",
+    industries: ["Fragrance", "Beauty", "Gift"],
+    features: [
+      {
+        title: "Full-Colour Card Printing",
+        desc: "Your artwork edge to edge — brand face, scent story and instructions on one card.",
+      },
+      {
+        title: "Sized to Your Sample Count",
+        desc: "Card layouts for single vials through multi-scent discovery sets.",
+      },
+      {
+        title: "Mail-Flat Construction",
+        desc: "Slim paper-card build that posts at standard letter weights in sampling campaigns.",
+      },
+      {
+        title: "Pairs with Gift Boxes",
+        desc: "Sample card for the try-me moment, rigid perfume box for the purchase — one matched program.",
+      },
+    ],
+    specs: [
+      { label: "Format", value: "Printed paper card with sample mount" },
+      { label: "Sample count", value: "Custom — single to multi-scent layouts" },
+      { label: "Card size", value: "Made to your spec" },
+      { label: "Print", value: "Full colour, custom artwork" },
+      { label: "MOQ", value: "To be confirmed" },
+      { label: "Lead time", value: "To be confirmed" },
+    ],
+    customizationOptions: [
+      "Card sizes and sample-count layouts",
+      "Full-colour artwork printing",
+      "Formats for vials, sachets and sprays",
+      "Matched programs with rigid perfume boxes",
+    ],
+  },
+  {
+    slug: "custom-press-on-nail-boxes",
+    name: "Custom Press-on Nail Boxes",
+    category: "Boxes",
+    shortDesc:
+      "Custom press-on nail packaging boxes — sized to your nail sets and trays, with your logo from the first run.",
+    description:
+      "Custom press-on nail packaging for nail brands selling direct and at retail. Press-on sets live or die on presentation — the box holds the nail trays or tips securely, shows the shade and size system, and carries your brand at first sight. Boxes are made to your set format: single-set sleeves, multi-size kits or wholesale display packs, with fitted inserts that keep every tray in place. Your logo is printed, foil-stamped or embossed on the wrap. MOQ to be confirmed — send your tray dimensions and set count for a quote. Product photography is in progress; request a stock sample to judge the board quality.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Rigid paperboard with custom printed wrap, fitted tray inserts",
+    moq: "To be confirmed",
+    leadTime: "15–20 days",
+    industries: ["Beauty", "Gift"],
+    features: [
+      {
+        title: "Sized to Your Set Format",
+        desc: "Single-set sleeves, multi-size kits and wholesale display packs — built around your trays.",
+      },
+      {
+        title: "Fitted Tray Inserts",
+        desc: "Inserts cut to hold nail trays, tips and accessories in place in transit and on shelf.",
+      },
+      {
+        title: "Shade-Forward Branding",
+        desc: "Full-colour print, foil and embossing that show the shade system and carry the brand.",
+      },
+      {
+        title: "Retail and DTC Ready",
+        desc: "Structures that work on a retail shelf and in an e-commerce mailer alike.",
+      },
+    ],
+    specs: [
+      { label: "Dimensions", value: "Made to your nail set and trays" },
+      { label: "Insert", value: "Fitted tray inserts, custom layouts" },
+      { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
+      { label: "MOQ", value: "To be confirmed" },
+    ],
+    customizationOptions: [
+      "Custom sizes for any set or kit format",
+      "Full-colour print, foil or embossed logo",
+      "Insert layouts tailored to your trays",
+      "Wholesale display pack formats",
+    ],
+  },
+  {
+    slug: "custom-hair-extension-boxes",
+    name: "Custom Hair Extension Boxes",
+    category: "Boxes",
+    shortDesc:
+      "Custom hair extension packaging boxes — sleeve, drawer and magnetic formats that present bundles and wefts at retail.",
+    description:
+      "Custom hair extension boxes for extension brands and salons. The box does two jobs: it keeps bundles and wefts orderly and protected, and it presents the length-shade system the way a premium hair program deserves. Sleeve boxes for single bundles, drawer boxes for multi-bundle sets and magnetic flip-tops for flagship programs — each made to your bundle dimensions, with inserts that hold hair in place without crushing it. Your logo prints, foils or embosses on the wrap. MOQ to be confirmed — send your bundle dimensions for a quote. Product photography is in progress.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Rigid paperboard with custom printed wrap, fitted bundle inserts",
+    moq: "To be confirmed",
+    leadTime: "15–20 days",
+    industries: ["Hair & Wig", "Beauty", "Gift"],
+    features: [
+      {
+        title: "Sleeve, Drawer & Magnetic",
+        desc: "Three structures matched to the program — single bundles, multi-bundle sets and flagship lines.",
+      },
+      {
+        title: "Bundle-Holding Inserts",
+        desc: "Inserts that keep wefts and bundles in place and presenting, without crushing the hair.",
+      },
+      {
+        title: "Length-Shade Presentation",
+        desc: "Print programs that show the length and shade system clearly at retail.",
+      },
+      {
+        title: "Matched Bag Programs",
+        desc: "Pairs with satin wig bags and cotton envelope pouches as one branded system.",
+      },
+    ],
+    specs: [
+      { label: "Structures", value: "Sleeve / drawer / magnetic flip-top" },
+      { label: "Dimensions", value: "Made to your bundle format" },
+      { label: "Insert", value: "Fitted inserts for bundles and wefts" },
+      { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
+      { label: "MOQ", value: "To be confirmed" },
+    ],
+    customizationOptions: [
+      "Custom sizes for any bundle count",
+      "Full-colour print, foil or embossed logo",
+      "Insert layouts for wefts and accessories",
+      "Matched programs with satin wig bags",
+    ],
+  },
+  {
+    slug: "custom-watch-boxes",
+    name: "Custom Watch Boxes",
+    category: "Boxes",
+    shortDesc:
+      "Custom watch boxes with fitted watch pillow inserts — single and multi-watch formats for retail and gifting.",
+    description:
+      "Custom watch boxes for watch brands, strap makers and gifting programs. The structure is the same craft as our jewelry boxes: rigid board with your printed or wrapped finish, and a fitted watch pillow that holds the timepiece upright and still — single-watch presentation boxes through multi-watch cases with individually pillowed bays. Wraps range from matte art paper to faux leather, with foil stamping, embossing and spot UV branding. MOQ to be confirmed — send your watch dimensions and piece count for a quote. Product photography is in progress; request a stock sample to judge the board and finish.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Rigid paperboard or faux leather wrap, watch pillow inserts",
+    moq: "To be confirmed",
+    leadTime: "15–20 days",
+    industries: ["Jewelry", "Gift"],
+    features: [
+      {
+        title: "Fitted Watch Pillows",
+        desc: "Velvet or satin-covered pillows hold each watch upright and still — the same insert craft as our ring boxes.",
+      },
+      {
+        title: "Single to Multi-Watch",
+        desc: "One-watch presentation boxes through multi-bay cases for collectors and sets.",
+      },
+      {
+        title: "Premium Wrap Options",
+        desc: "Matte art paper, textured wraps or faux leather — foil and emboss branding on every version.",
+      },
+      {
+        title: "Retail and Gift Ready",
+        desc: "Structures that present at the counter and protect through gifting and shipping.",
+      },
+    ],
+    specs: [
+      { label: "Structures", value: "Two-piece lift-off / drawer / magnetic flip-top" },
+      { label: "Insert", value: "Fitted watch pillows, velvet or satin covered" },
+      { label: "Wrap", value: "Art paper / textured wrap / faux leather" },
+      { label: "Surface Finish", value: "Matte / glossy / foil stamping / embossing" },
+      { label: "MOQ", value: "To be confirmed" },
+    ],
+    customizationOptions: [
+      "Single- and multi-watch layouts",
+      "Pillow materials and colours to your spec",
+      "Foil, emboss and full-print branding",
+      "Matched pouch programs for the after-sale",
+    ],
+  },
+  {
     slug: "custom-velvet-pouches",
     name: "Custom Velvet Pouches",
     category: "Pouches & Bags",
@@ -368,6 +593,51 @@ export const products: Product[] = [
       "Natural, bleached or dyed cotton",
       "Custom sizes and drawcord colors",
       "Drawstring, flap, envelope or zipper closure",
+    ],
+  },
+  {
+    slug: "custom-cotton-envelope-pouches",
+    name: "Custom Cotton Envelope Pouches",
+    category: "Pouches & Bags",
+    shortDesc:
+      "Cotton envelope pouches with flap-snap, flat-pocket and zip-envelope styles — a workhorse carrier for jewelry, wigs and beauty.",
+    description:
+      "The cotton envelope pouch is one of our most-run pouch programs: a structured cotton carrier with an envelope flap, made in many styles and custom sizes for jewelry, wigs and hair, and beauty lines. Three style families cover the uses — the flap-and-snap envelope that closes with one hand and gifts beautifully, the flat open pocket for inserts and slip cases, and the zip envelope that secures contents for travel and retail. Natural unbleached cotton takes water-based ink prints and woven labels well, and every size is made to your product. MOQ from 200 pieces. Product photography is in progress; request a stock sample to feel the weave.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Natural cotton, snap or zipper closure",
+    moq: "200 pcs",
+    leadTime: "15–20 days",
+    industries: ["Jewelry", "Hair & Wig", "Beauty"],
+    features: [
+      {
+        title: "Envelope Flap with Snap",
+        desc: "The signature style — a structured flap that closes with one hand and gifts beautifully.",
+      },
+      {
+        title: "Flat Pocket & Zip Envelope",
+        desc: "Open flat pockets for inserts and slip cases; zip envelopes that secure contents for travel.",
+      },
+      {
+        title: "Custom Sizes Across Lines",
+        desc: "Small jewelry envelopes through wig and beauty formats — made to your product, MOQ unchanged.",
+      },
+      {
+        title: "Prints & Labels",
+        desc: "Water-based ink prints, woven labels and heat transfers sit well on the natural weave.",
+      },
+    ],
+    specs: [
+      { label: "Styles", value: "Envelope flap (snap) / flat pocket / zip envelope" },
+      { label: "Dimensions", value: "Made to your size" },
+      { label: "Fabric", value: "Natural, bleached or dyed cotton" },
+      { label: "Closure", value: "Snap / open pocket / zipper" },
+      { label: "MOQ", value: "200 pcs" },
+    ],
+    customizationOptions: [
+      "Flap, flat-pocket and zip-envelope styles",
+      "Custom sizes for jewelry, wigs and beauty",
+      "Water-based ink printing or woven labels",
+      "Natural, bleached or dyed cotton",
     ],
   },
   {
@@ -842,6 +1112,52 @@ export const products: Product[] = [
       "Logo printing in one or multiple colors",
       "Printed microfiber cleaning cloth as a set component",
       "Dyed microfiber with matched cord",
+    ],
+  },
+  {
+    slug: "custom-pvc-bags",
+    name: "Custom Clear PVC Zip Bags with Logo",
+    category: "Pouches & Bags",
+    shortDesc:
+      "Clear PVC zip bags with your logo — transparent carriers for cosmetics, jewelry and press-on nails, from 200 pieces.",
+    description:
+      "Custom clear PVC zip bags for programs where seeing the product is the point. Transparent zip bags are the everyday carrier for cosmetics and skincare, a retail-proven format for jewelry, and a practical home for press-on nail sets — the customer sees everything without opening the bag. Your logo prints on the clear face, and sizes run from small item bags to full toiletry formats. MOQ from 200 pieces — well below the typical 500–1000 on the same format elsewhere. Closure type, thickness and print method are quoted to your spec. Product photography is in progress; request a stock sample to check the material in hand.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Clear PVC, zipper closure",
+    moq: "200 pcs",
+    leadTime: "15–20 days",
+    industries: ["Beauty", "Jewelry"],
+    features: [
+      {
+        title: "See-Through Convenience",
+        desc: "Customers and retail staff see the contents without opening — built for cosmetics, jewelry and press-on sets.",
+      },
+      {
+        title: "Zipper Closure",
+        desc: "Secure zip running the width of the bag — contents stay put in totes, drawers and travel.",
+      },
+      {
+        title: "Logo on the Clear Face",
+        desc: "Your logo printed on transparent PVC so the brand shows with the product.",
+      },
+      {
+        title: "Low MOQ 200",
+        desc: "Launch transparent-packaging programs from 200 pieces — typically 500–1000 elsewhere.",
+      },
+    ],
+    specs: [
+      { label: "Dimensions", value: "Made to your size" },
+      { label: "Material", value: "Clear PVC" },
+      { label: "Closure type", value: "To be confirmed (quoted to your spec)" },
+      { label: "Thickness / gauge", value: "To be confirmed" },
+      { label: "Print method", value: "To be confirmed" },
+      { label: "MOQ", value: "200 pcs" },
+    ],
+    customizationOptions: [
+      "Custom sizes from small item bags to toiletry formats",
+      "Logo printing on the clear face",
+      "Zipper and closure options quoted to spec",
+      "Matched programs with fabric pouch lines",
     ],
   },
 ];

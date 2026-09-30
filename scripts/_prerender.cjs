@@ -306,6 +306,221 @@ var products = [
     ]
   },
   {
+    slug: "custom-perfume-boxes",
+    name: "Custom Perfume Packaging Boxes",
+    category: "Boxes",
+    shortDesc: "Custom perfume boxes built around your bottle \u2014 two-piece, drawer and magnetic structures, from 200 pieces.",
+    description: "Custom perfume packaging boxes made around the bottle, not the other way round. Share your bottle dimensions and we build the structure to fit \u2014 two-piece lift-off lids for the flagship gifting moment, magnetic flip-tops for the retail counter, and drawer formats that layer bottle and story card. The wrap carries your full print, foil or emboss program, and fitted inserts hold glass steady from factory to vanity. MOQ from 200 pieces with your branding. Product photography is in progress; request a stock sample to judge the board and finish in hand.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Rigid paperboard with custom printed wrap, fitted bottle inserts",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
+    industries: ["Fragrance", "Beauty", "Gift"],
+    features: [
+      {
+        title: "Built Around Your Bottle",
+        desc: "Box and insert sized from your bottle dimensions \u2014 travel sprays to flagship formats and multi-bottle gift sets."
+      },
+      {
+        title: "Three Core Structures",
+        desc: "Two-piece lift-off, drawer and magnetic flip-top \u2014 the opening ritual that fits the line."
+      },
+      {
+        title: "Full-Print Branding",
+        desc: "Offset print, foil stamping, embossing and spot UV on the wrap \u2014 inside lid printing available."
+      },
+      {
+        title: "Secure Bottle Inserts",
+        desc: "EVA or molded inserts cut to the bottle profile, holding glass firmly through shipping and on shelf."
+      }
+    ],
+    specs: [
+      { label: "Structures", value: "Two-piece lift-off / drawer / magnetic flip-top" },
+      { label: "Dimensions", value: "Made to your bottle" },
+      { label: "Insert", value: "EVA / molded pulp / sponge, cut to bottle profile" },
+      { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
+      { label: "MOQ", value: "200 pcs" }
+    ],
+    customizationOptions: [
+      "Sizing to any bottle format or gift set",
+      "Foil, emboss and full-colour print programs",
+      "Inserts cut to your bottle profile",
+      "Drawer and layered story-card layouts"
+    ]
+  },
+  {
+    slug: "custom-perfume-sample-card-boxes",
+    name: "Custom Printed Perfume Sample Card Boxes",
+    category: "Boxes",
+    shortDesc: "Fully printed paper sample cards for perfume vials and sachets \u2014 your card layout, count and artwork.",
+    description: "Perfume sample packaging as a printed paper card: vials or sachets mount onto a full-colour card that carries the brand, the scent story and the try-me moment in one mail-flat piece. This is a different product from our rigid perfume gift boxes \u2014 sample cards are printed card construction, sized to your sample count and vial format, with your artwork edge to edge. Sampling programs, subscription inserts, boutique handouts and press mailers all run on the same card system. MOQ and lead time to be confirmed for your card format \u2014 send your sample count and card size for a quote. Product photography is in progress.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Printed paper card with mounted sample holders",
+    moq: "To be confirmed",
+    leadTime: "To be confirmed",
+    industries: ["Fragrance", "Beauty", "Gift"],
+    features: [
+      {
+        title: "Full-Colour Card Printing",
+        desc: "Your artwork edge to edge \u2014 brand face, scent story and instructions on one card."
+      },
+      {
+        title: "Sized to Your Sample Count",
+        desc: "Card layouts for single vials through multi-scent discovery sets."
+      },
+      {
+        title: "Mail-Flat Construction",
+        desc: "Slim paper-card build that posts at standard letter weights in sampling campaigns."
+      },
+      {
+        title: "Pairs with Gift Boxes",
+        desc: "Sample card for the try-me moment, rigid perfume box for the purchase \u2014 one matched program."
+      }
+    ],
+    specs: [
+      { label: "Format", value: "Printed paper card with sample mount" },
+      { label: "Sample count", value: "Custom \u2014 single to multi-scent layouts" },
+      { label: "Card size", value: "Made to your spec" },
+      { label: "Print", value: "Full colour, custom artwork" },
+      { label: "MOQ", value: "To be confirmed" },
+      { label: "Lead time", value: "To be confirmed" }
+    ],
+    customizationOptions: [
+      "Card sizes and sample-count layouts",
+      "Full-colour artwork printing",
+      "Formats for vials, sachets and sprays",
+      "Matched programs with rigid perfume boxes"
+    ]
+  },
+  {
+    slug: "custom-press-on-nail-boxes",
+    name: "Custom Press-on Nail Boxes",
+    category: "Boxes",
+    shortDesc: "Custom press-on nail packaging boxes \u2014 sized to your nail sets and trays, with your logo from the first run.",
+    description: "Custom press-on nail packaging for nail brands selling direct and at retail. Press-on sets live or die on presentation \u2014 the box holds the nail trays or tips securely, shows the shade and size system, and carries your brand at first sight. Boxes are made to your set format: single-set sleeves, multi-size kits or wholesale display packs, with fitted inserts that keep every tray in place. Your logo is printed, foil-stamped or embossed on the wrap. MOQ to be confirmed \u2014 send your tray dimensions and set count for a quote. Product photography is in progress; request a stock sample to judge the board quality.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Rigid paperboard with custom printed wrap, fitted tray inserts",
+    moq: "To be confirmed",
+    leadTime: "15\u201320 days",
+    industries: ["Beauty", "Gift"],
+    features: [
+      {
+        title: "Sized to Your Set Format",
+        desc: "Single-set sleeves, multi-size kits and wholesale display packs \u2014 built around your trays."
+      },
+      {
+        title: "Fitted Tray Inserts",
+        desc: "Inserts cut to hold nail trays, tips and accessories in place in transit and on shelf."
+      },
+      {
+        title: "Shade-Forward Branding",
+        desc: "Full-colour print, foil and embossing that show the shade system and carry the brand."
+      },
+      {
+        title: "Retail and DTC Ready",
+        desc: "Structures that work on a retail shelf and in an e-commerce mailer alike."
+      }
+    ],
+    specs: [
+      { label: "Dimensions", value: "Made to your nail set and trays" },
+      { label: "Insert", value: "Fitted tray inserts, custom layouts" },
+      { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
+      { label: "MOQ", value: "To be confirmed" }
+    ],
+    customizationOptions: [
+      "Custom sizes for any set or kit format",
+      "Full-colour print, foil or embossed logo",
+      "Insert layouts tailored to your trays",
+      "Wholesale display pack formats"
+    ]
+  },
+  {
+    slug: "custom-hair-extension-boxes",
+    name: "Custom Hair Extension Boxes",
+    category: "Boxes",
+    shortDesc: "Custom hair extension packaging boxes \u2014 sleeve, drawer and magnetic formats that present bundles and wefts at retail.",
+    description: "Custom hair extension boxes for extension brands and salons. The box does two jobs: it keeps bundles and wefts orderly and protected, and it presents the length-shade system the way a premium hair program deserves. Sleeve boxes for single bundles, drawer boxes for multi-bundle sets and magnetic flip-tops for flagship programs \u2014 each made to your bundle dimensions, with inserts that hold hair in place without crushing it. Your logo prints, foils or embosses on the wrap. MOQ to be confirmed \u2014 send your bundle dimensions for a quote. Product photography is in progress.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Rigid paperboard with custom printed wrap, fitted bundle inserts",
+    moq: "To be confirmed",
+    leadTime: "15\u201320 days",
+    industries: ["Hair & Wig", "Beauty", "Gift"],
+    features: [
+      {
+        title: "Sleeve, Drawer & Magnetic",
+        desc: "Three structures matched to the program \u2014 single bundles, multi-bundle sets and flagship lines."
+      },
+      {
+        title: "Bundle-Holding Inserts",
+        desc: "Inserts that keep wefts and bundles in place and presenting, without crushing the hair."
+      },
+      {
+        title: "Length-Shade Presentation",
+        desc: "Print programs that show the length and shade system clearly at retail."
+      },
+      {
+        title: "Matched Bag Programs",
+        desc: "Pairs with satin wig bags and cotton envelope pouches as one branded system."
+      }
+    ],
+    specs: [
+      { label: "Structures", value: "Sleeve / drawer / magnetic flip-top" },
+      { label: "Dimensions", value: "Made to your bundle format" },
+      { label: "Insert", value: "Fitted inserts for bundles and wefts" },
+      { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
+      { label: "MOQ", value: "To be confirmed" }
+    ],
+    customizationOptions: [
+      "Custom sizes for any bundle count",
+      "Full-colour print, foil or embossed logo",
+      "Insert layouts for wefts and accessories",
+      "Matched programs with satin wig bags"
+    ]
+  },
+  {
+    slug: "custom-watch-boxes",
+    name: "Custom Watch Boxes",
+    category: "Boxes",
+    shortDesc: "Custom watch boxes with fitted watch pillow inserts \u2014 single and multi-watch formats for retail and gifting.",
+    description: "Custom watch boxes for watch brands, strap makers and gifting programs. The structure is the same craft as our jewelry boxes: rigid board with your printed or wrapped finish, and a fitted watch pillow that holds the timepiece upright and still \u2014 single-watch presentation boxes through multi-watch cases with individually pillowed bays. Wraps range from matte art paper to faux leather, with foil stamping, embossing and spot UV branding. MOQ to be confirmed \u2014 send your watch dimensions and piece count for a quote. Product photography is in progress; request a stock sample to judge the board and finish.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Rigid paperboard or faux leather wrap, watch pillow inserts",
+    moq: "To be confirmed",
+    leadTime: "15\u201320 days",
+    industries: ["Jewelry", "Gift"],
+    features: [
+      {
+        title: "Fitted Watch Pillows",
+        desc: "Velvet or satin-covered pillows hold each watch upright and still \u2014 the same insert craft as our ring boxes."
+      },
+      {
+        title: "Single to Multi-Watch",
+        desc: "One-watch presentation boxes through multi-bay cases for collectors and sets."
+      },
+      {
+        title: "Premium Wrap Options",
+        desc: "Matte art paper, textured wraps or faux leather \u2014 foil and emboss branding on every version."
+      },
+      {
+        title: "Retail and Gift Ready",
+        desc: "Structures that present at the counter and protect through gifting and shipping."
+      }
+    ],
+    specs: [
+      { label: "Structures", value: "Two-piece lift-off / drawer / magnetic flip-top" },
+      { label: "Insert", value: "Fitted watch pillows, velvet or satin covered" },
+      { label: "Wrap", value: "Art paper / textured wrap / faux leather" },
+      { label: "Surface Finish", value: "Matte / glossy / foil stamping / embossing" },
+      { label: "MOQ", value: "To be confirmed" }
+    ],
+    customizationOptions: [
+      "Single- and multi-watch layouts",
+      "Pillow materials and colours to your spec",
+      "Foil, emboss and full-print branding",
+      "Matched pouch programs for the after-sale"
+    ]
+  },
+  {
     slug: "custom-velvet-pouches",
     name: "Custom Velvet Pouches",
     category: "Pouches & Bags",
@@ -385,6 +600,49 @@ var products = [
       "Natural, bleached or dyed cotton",
       "Custom sizes and drawcord colors",
       "Drawstring, flap, envelope or zipper closure"
+    ]
+  },
+  {
+    slug: "custom-cotton-envelope-pouches",
+    name: "Custom Cotton Envelope Pouches",
+    category: "Pouches & Bags",
+    shortDesc: "Cotton envelope pouches with flap-snap, flat-pocket and zip-envelope styles \u2014 a workhorse carrier for jewelry, wigs and beauty.",
+    description: "The cotton envelope pouch is one of our most-run pouch programs: a structured cotton carrier with an envelope flap, made in many styles and custom sizes for jewelry, wigs and hair, and beauty lines. Three style families cover the uses \u2014 the flap-and-snap envelope that closes with one hand and gifts beautifully, the flat open pocket for inserts and slip cases, and the zip envelope that secures contents for travel and retail. Natural unbleached cotton takes water-based ink prints and woven labels well, and every size is made to your product. MOQ from 200 pieces. Product photography is in progress; request a stock sample to feel the weave.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Natural cotton, snap or zipper closure",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
+    industries: ["Jewelry", "Hair & Wig", "Beauty"],
+    features: [
+      {
+        title: "Envelope Flap with Snap",
+        desc: "The signature style \u2014 a structured flap that closes with one hand and gifts beautifully."
+      },
+      {
+        title: "Flat Pocket & Zip Envelope",
+        desc: "Open flat pockets for inserts and slip cases; zip envelopes that secure contents for travel."
+      },
+      {
+        title: "Custom Sizes Across Lines",
+        desc: "Small jewelry envelopes through wig and beauty formats \u2014 made to your product, MOQ unchanged."
+      },
+      {
+        title: "Prints & Labels",
+        desc: "Water-based ink prints, woven labels and heat transfers sit well on the natural weave."
+      }
+    ],
+    specs: [
+      { label: "Styles", value: "Envelope flap (snap) / flat pocket / zip envelope" },
+      { label: "Dimensions", value: "Made to your size" },
+      { label: "Fabric", value: "Natural, bleached or dyed cotton" },
+      { label: "Closure", value: "Snap / open pocket / zipper" },
+      { label: "MOQ", value: "200 pcs" }
+    ],
+    customizationOptions: [
+      "Flap, flat-pocket and zip-envelope styles",
+      "Custom sizes for jewelry, wigs and beauty",
+      "Water-based ink printing or woven labels",
+      "Natural, bleached or dyed cotton"
     ]
   },
   {
@@ -837,6 +1095,50 @@ var products = [
       "Logo printing in one or multiple colors",
       "Printed microfiber cleaning cloth as a set component",
       "Dyed microfiber with matched cord"
+    ]
+  },
+  {
+    slug: "custom-pvc-bags",
+    name: "Custom Clear PVC Zip Bags with Logo",
+    category: "Pouches & Bags",
+    shortDesc: "Clear PVC zip bags with your logo \u2014 transparent carriers for cosmetics, jewelry and press-on nails, from 200 pieces.",
+    description: "Custom clear PVC zip bags for programs where seeing the product is the point. Transparent zip bags are the everyday carrier for cosmetics and skincare, a retail-proven format for jewelry, and a practical home for press-on nail sets \u2014 the customer sees everything without opening the bag. Your logo prints on the clear face, and sizes run from small item bags to full toiletry formats. MOQ from 200 pieces \u2014 well below the typical 500\u20131000 on the same format elsewhere. Closure type, thickness and print method are quoted to your spec. Product photography is in progress; request a stock sample to check the material in hand.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Clear PVC, zipper closure",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days",
+    industries: ["Beauty", "Jewelry"],
+    features: [
+      {
+        title: "See-Through Convenience",
+        desc: "Customers and retail staff see the contents without opening \u2014 built for cosmetics, jewelry and press-on sets."
+      },
+      {
+        title: "Zipper Closure",
+        desc: "Secure zip running the width of the bag \u2014 contents stay put in totes, drawers and travel."
+      },
+      {
+        title: "Logo on the Clear Face",
+        desc: "Your logo printed on transparent PVC so the brand shows with the product."
+      },
+      {
+        title: "Low MOQ 200",
+        desc: "Launch transparent-packaging programs from 200 pieces \u2014 typically 500\u20131000 elsewhere."
+      }
+    ],
+    specs: [
+      { label: "Dimensions", value: "Made to your size" },
+      { label: "Material", value: "Clear PVC" },
+      { label: "Closure type", value: "To be confirmed (quoted to your spec)" },
+      { label: "Thickness / gauge", value: "To be confirmed" },
+      { label: "Print method", value: "To be confirmed" },
+      { label: "MOQ", value: "200 pcs" }
+    ],
+    customizationOptions: [
+      "Custom sizes from small item bags to toiletry formats",
+      "Logo printing on the clear face",
+      "Zipper and closure options quoted to spec",
+      "Matched programs with fabric pouch lines"
     ]
   }
 ];
@@ -3649,6 +3951,7 @@ var landings = [
         { title: "Rigid boxes", desc: "Thick, non-collapsible board; the premium, gift-ready structure." },
         { title: "Folding cartons", desc: "Printed paperboard that ships flat; practical and economical." },
         { title: "Magnetic closure boxes", desc: "Rigid boxes with a built-in magnetic flap; an unboxing moment." },
+        { title: "Corrugated mailer boxes", desc: "Printed corrugated mailers for e-commerce and subscription shipping \u2014 quoted to your spec, ask for MOQ." },
         { title: "Custom structures", desc: "Made to your spec on request \u2014 wrap colour matched to your Pantone reference, even for a single box style." }
       ]
     },
@@ -3952,6 +4255,7 @@ var collections = [
           { title: "Velvet", desc: "Dense pile that cushions chains and stones." },
           { title: "Cotton", desc: "Natural, printable and gently protective." },
           { title: "Satin", desc: "A smooth, lustrous finish for gift programs." },
+          { title: "Organza", desc: "Sheer, lightweight and gift-ready \u2014 organza pouches made to your size, from 200 pieces." },
           { title: "More fabrics", desc: "Suede, muslin, linen, microfiber and non-woven \u2014 plus custom developments on request." }
         ]
       },
@@ -3961,6 +4265,13 @@ var collections = [
           { title: "Drawstring", desc: "Cotton, satin or polyester cord, colour-matched." },
           { title: "Flap", desc: "Envelope silhouette with snap or tuck closure." },
           { title: "Zipper & button", desc: "Secure options for heavier or multi-piece sets." }
+        ]
+      },
+      {
+        heading: "Clear PVC zip pouches",
+        items: [
+          { title: "Clear jewelry pouches", desc: "See-through PVC zip bags that show the piece without opening \u2014 MOQ from 200 pieces." },
+          { title: "Retail & travel uses", desc: "Counter display, travel protection and set organizing in one transparent format." }
         ]
       },
       {
@@ -3991,11 +4302,13 @@ var collections = [
     productSlugs: [
       "custom-velvet-pouches",
       "custom-cotton-pouches",
+      "custom-cotton-envelope-pouches",
       "custom-satin-pouches",
       "custom-muslin-drawstring-pouch",
       "custom-linen-jewelry-pouch",
       "custom-microfiber-pouches",
-      "leather-envelope-pouch"
+      "leather-envelope-pouch",
+      "custom-pvc-bags"
     ],
     ctaTitle: "Request a quote for your custom jewelry pouches"
   },
@@ -4011,6 +4324,7 @@ var collections = [
         heading: "Wig bags",
         items: [
           { title: "Satin drawstring bag", desc: "The standard 30\xD740 cm carrier \u2014 smooth satin lets fibers slide instead of snagging." },
+          { title: "Cotton envelope pouches", desc: "Structured cotton carriers in flap-snap, flat-pocket and zip-envelope styles \u2014 from 200 pieces." },
           { title: "Sized to your format", desc: "Any wig or extension length made to your dimensions, MOQ unchanged." },
           { title: "Travel & storage bags", desc: "Larger formats with cord or zipper closures for storage and travel programs." }
         ]
@@ -4019,6 +4333,7 @@ var collections = [
         heading: "Boxes & cases",
         items: [
           { title: "Rigid wig boxes", desc: "Structured boxes that present wigs and extensions upright at retail." },
+          { title: "Hair extension boxes", desc: "Sleeve, drawer and magnetic boxes made to bundle formats \u2014 MOQ to be confirmed." },
           { title: "Magnetic flip-top", desc: "A clean open-close ritual for premium hair programs." },
           { title: "Inserts & sleeves", desc: "Fitted inserts and satin sleeves that hold the presentation in place." }
         ]
@@ -4033,7 +4348,7 @@ var collections = [
       }
     ],
     facts: [
-      { label: "MOQ", value: "Bags from 200 pieces \xB7 boxes from 500 pieces" },
+      { label: "MOQ", value: "Bags from 200 pieces \xB7 wig boxes from 500 pieces \xB7 extension boxes to be confirmed" },
       { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
@@ -4042,6 +4357,8 @@ var collections = [
     ],
     productSlugs: [
       "custom-satin-wig-bag",
+      "custom-cotton-envelope-pouches",
+      "custom-hair-extension-boxes",
       "magnetic-closure-gift-box",
       "luxury-gift-box-ribbon"
     ],
@@ -4220,6 +4537,164 @@ var collections = [
       "custom-cotton-pouches"
     ],
     ctaTitle: "Request a quote for your cosmetic packaging"
+  },
+  {
+    slug: "custom-drawstring-bags",
+    eyebrow: "Drawstring Bags",
+    h1: "Custom Drawstring Bags & Pouches",
+    subhead: "Cotton, velvet, satin, muslin and linen drawstring bags \u2014 your fabric, size, cord and logo, from 200 pieces.",
+    metaDescription: "Custom drawstring bags with your logo \u2014 cotton, velvet, satin, muslin and linen pouches in any size, plus handbag and shoe dust bag formats. MOQ from 200 pieces, free stock samples.",
+    intro: "The drawstring closure is packaging's simplest ritual \u2014 one pull and the bag is closed. It is also our most-run pouch style, made in every fabric we carry: cotton first, the natural everyday carrier that prints beautifully, then velvet, satin, muslin and linen for gift and jewelry programs. Sizes run from 7\xD79 cm jewelry pouches to 30\xD740 cm wig bags and large dust bag formats, all made to your product and branded with print, label or embroidery. MOQ from 200 pieces, including custom sizes.",
+    sections: [
+      {
+        heading: "Cotton drawstring bags",
+        items: [
+          { title: "The everyday workhorse", desc: "Natural cotton pouches that print beautifully \u2014 favors, beauty, jewelry and retail programs alike." },
+          { title: "Any size, same MOQ", desc: "Small item pouches through large gift and dust bag formats, from 200 pieces." }
+        ]
+      },
+      {
+        heading: "Fabric options",
+        items: [
+          { title: "Cotton & muslin", desc: "Natural weaves with an honest, printable face \u2014 the volume formats." },
+          { title: "Velvet & satin", desc: "Plush and lustrous carriers for gifting, jewelry and fragrance programs." },
+          { title: "Linen & blends", desc: "Textured, matte natural fabrics for artisan and premium natural lines." }
+        ]
+      },
+      {
+        heading: "Dust bag applications",
+        items: [
+          { title: "Handbag dust bags", desc: "Cotton, satin and velvet drawstring dust bags that protect leather goods in storage and after-sale." },
+          { title: "Shoe dust bags", desc: "Soft-fabric dust bags for footwear programs \u2014 branded and sized to the pair." }
+        ]
+      },
+      {
+        heading: "Gift & specialty bags",
+        items: [
+          { title: "Gift bag formats", desc: "Drawstring gift bags for weddings, events and product gifting \u2014 Pantone-matched to the program." },
+          { title: "Wig & hair bags", desc: "Large formats up to 30\xD740 cm with smooth interiors that keep fibers tangle-free." }
+        ]
+      }
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" }
+    ],
+    productSlugs: [
+      "custom-cotton-pouches",
+      "custom-velvet-pouches",
+      "custom-satin-pouches",
+      "custom-muslin-drawstring-pouch",
+      "custom-linen-jewelry-pouch",
+      "custom-satin-wig-bag"
+    ],
+    ctaTitle: "Request a quote for your custom drawstring bags"
+  },
+  {
+    slug: "ribbons-accessories",
+    eyebrow: "Ribbons & Accessories",
+    h1: "Custom Printed Ribbons & Packaging Accessories",
+    subhead: "Ribbons, cords and finishing accessories that complete your box and pouch programs \u2014 matched to your brand.",
+    metaDescription: "Custom printed ribbons and packaging accessories \u2014 satin ribbon closures, logo-printed ribbon programs, cotton cords and drawstrings matched to your ELAPACK box and pouch programs.",
+    intro: "Boxes and pouches rarely ship alone. The ribbon on a gift box, the cord that closes a pouch and the finishing accessories around them are what make packaging read as one program. ELAPACK supplies ribbons, cords and accessories as part of your box and pouch programs \u2014 colour-matched to the packaging they finish, and quoted together with it. Founded in 2018, ISO 9001 certified for the production and sales of paper and textile packaging products.",
+    sections: [
+      {
+        heading: "Ribbons",
+        items: [
+          { title: "Satin ribbon closures", desc: "Double-face satin ribbon ties for rigid and gift boxes \u2014 part of the unboxing ritual." },
+          { title: "Custom printed ribbon", desc: "Logo printing on ribbon programs \u2014 quoted to your width, artwork and run length." },
+          { title: "Colour matching", desc: "Ribbon colours aligned to your box wrap and Pantone reference." }
+        ]
+      },
+      {
+        heading: "Cords & drawstrings",
+        items: [
+          { title: "Cotton cords", desc: "The standard drawcord for cotton, muslin and linen pouches." },
+          { title: "Satin ribbon & polyester cord", desc: "Alternative draw finishes matched to the pouch fabric." }
+        ]
+      },
+      {
+        heading: "As part of your program",
+        items: [
+          { title: "One supplier", desc: "Ribbon, cord, box and pouch quoted and made together \u2014 one brand system, not matched after the fact." },
+          { title: "Standalone accessory orders", desc: "Ribbons and cords quoted by spec \u2014 MOQ to be confirmed per program." }
+        ]
+      }
+    ],
+    facts: [
+      { label: "MOQ", value: "Quoted as part of your box or pouch program \u2014 standalone accessory MOQ to be confirmed" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" }
+    ],
+    productSlugs: [
+      "luxury-gift-box-ribbon",
+      "magnetic-closure-gift-box",
+      "custom-velvet-pouches"
+    ],
+    ctaTitle: "Request a quote for ribbons & accessories"
+  },
+  {
+    slug: "custom-cosmetic-pouches",
+    eyebrow: "Cosmetic Pouches",
+    h1: "Custom Cosmetic Pouches & Makeup Bags",
+    subhead: "Drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas \u2014 plus clear PVC zip bags, from 200 pieces.",
+    metaDescription: "Custom cosmetic pouches and makeup bags with your logo \u2014 drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas, plus clear PVC zip bags. MOQ from 200 pieces, free stock samples.",
+    intro: "Cosmetic packaging works twice: the pouch carries the product at retail and keeps it organized after the sale. Four styles cover the uses \u2014 drawstring, flap, envelope and the zippered makeup bag that beauty brands run as their everyday carrier \u2014 each made in cotton, satin, velvet or canvas, in your size and Pantone colour. Clear PVC zip bags complete the matrix where seeing the product is the point. MOQ from 200 pieces across the matrix, including custom sizes.",
+    sections: [
+      {
+        heading: "Styles",
+        items: [
+          { title: "Zipper makeup bags", desc: "The secure everyday carrier \u2014 classic and flat formats in fabric or clear PVC." },
+          { title: "Drawstring", desc: "One-pull closing for favors, sets and retail counters." },
+          { title: "Envelope & flap", desc: "Structured envelope and snap-flap styles that gift beautifully." }
+        ]
+      },
+      {
+        heading: "Fabrics",
+        items: [
+          { title: "Cotton & canvas", desc: "Natural, printable carriers for everyday and artisan beauty lines." },
+          { title: "Satin & velvet", desc: "Lustrous and plush finishes for gift and premium beauty programs." },
+          { title: "Clear PVC", desc: "Transparent zip bags that show the product \u2014 MOQ from 200 pieces." }
+        ]
+      },
+      {
+        heading: "Clear PVC zip bags",
+        items: [
+          { title: "See-through format", desc: "Cosmetics, skincare and travel sizes visible without opening the bag." },
+          { title: "Low MOQ differentiation", desc: "From 200 pieces \u2014 typically 500\u20131000 elsewhere on the same format." }
+        ]
+      },
+      {
+        heading: "Branding",
+        items: [
+          { title: "Print & label", desc: "Silkscreen, heat transfer and woven labels on every fabric." },
+          { title: "Pantone matching", desc: "Fabric, cord and trim dyed to your brand colour." }
+        ]
+      }
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces across fabric styles and clear PVC, custom sizes included" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" }
+    ],
+    productSlugs: [
+      "custom-cotton-pouches",
+      "custom-cotton-envelope-pouches",
+      "custom-satin-pouches",
+      "custom-velvet-pouches",
+      "custom-pvc-bags"
+    ],
+    ctaTitle: "Request a quote for your cosmetic pouches"
   }
 ];
 function getCollectionBySlug(slug) {
@@ -4314,6 +4789,9 @@ function AppRoutes() {
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-jewelry-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-packaging" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-gift-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-gift-boxes" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-cosmetic-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-drawstring-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-drawstring-bags" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/ribbons-accessories", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "ribbons-accessories" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-cosmetic-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-pouches" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Products, {}) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(ProductDetail, {}) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Industries, {}) }),
@@ -4343,6 +4821,9 @@ var ROUTES = [
   "/custom-jewelry-packaging",
   "/custom-gift-boxes",
   "/custom-cosmetic-packaging",
+  "/custom-drawstring-bags",
+  "/ribbons-accessories",
+  "/custom-cosmetic-pouches",
   "/products",
   "/industries",
   "/solutions",
@@ -4367,6 +4848,9 @@ var STATIC_TITLES = {
   "/custom-jewelry-packaging": "Custom Jewelry Packaging \u2014 Boxes, Pouches & Display | ELAPACK",
   "/custom-gift-boxes": "Custom Gift Boxes with Logo, from 500 pcs | ELAPACK",
   "/custom-cosmetic-packaging": "Custom Cosmetic Packaging Boxes | ELAPACK",
+  "/custom-drawstring-bags": "Custom Drawstring Bags & Pouches, from 200 pcs | ELAPACK",
+  "/ribbons-accessories": "Custom Printed Ribbons & Packaging Accessories | ELAPACK",
+  "/custom-cosmetic-pouches": "Custom Cosmetic Pouches & Makeup Bags with Logo | ELAPACK",
   "/products": "Products \u2014 Boxes, Pouches & Gift Packaging | ELAPACK",
   "/industries": "Industries We Serve \u2014 Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions \u2014 Custom, Materials & Sustainability | ELAPACK",
@@ -4388,6 +4872,9 @@ var STATIC_DESCRIPTIONS = {
   "/custom-jewelry-packaging": "Custom jewelry packaging from one manufacturer \u2014 logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes from 500, pouches from 200 pieces. Free stock samples.",
   "/custom-gift-boxes": "Custom gift boxes with your logo \u2014 magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 500 pieces, free stock samples.",
   "/custom-cosmetic-packaging": "Custom cosmetic packaging \u2014 eyelash boxes from 200 pieces, magnetic and rigid gift boxes for beauty brands, plus fabric and clear PVC-zip cosmetic pouches with your logo. One manufacturer, matched branding. Free stock samples.",
+  "/custom-drawstring-bags": "Custom drawstring bags with your logo \u2014 cotton, velvet, satin, muslin and linen pouches in any size, plus handbag and shoe dust bag formats. MOQ from 200 pieces, free stock samples.",
+  "/ribbons-accessories": "Custom printed ribbons and packaging accessories \u2014 satin ribbon closures, logo-printed ribbon programs, cotton cords and drawstrings matched to your box and pouch programs.",
+  "/custom-cosmetic-pouches": "Custom cosmetic pouches and makeup bags with your logo \u2014 drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas, plus clear PVC zip bags. MOQ from 200 pieces, free stock samples.",
   "/products": "Browse ELAPACK's custom packaging catalog \u2014 rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands \u2014 engineered for Europe and North America.",
   "/solutions": "Custom packaging solutions from ELAPACK \u2014 bespoke structures, premium materials and finishes, clear process, sustainable options.",

@@ -154,6 +154,7 @@ export const collections: Collection[] = [
           { title: "Velvet", desc: "Dense pile that cushions chains and stones." },
           { title: "Cotton", desc: "Natural, printable and gently protective." },
           { title: "Satin", desc: "A smooth, lustrous finish for gift programs." },
+          { title: "Organza", desc: "Sheer, lightweight and gift-ready — organza pouches made to your size, from 200 pieces." },
           { title: "More fabrics", desc: "Suede, muslin, linen, microfiber and non-woven — plus custom developments on request." },
         ],
       },
@@ -163,6 +164,13 @@ export const collections: Collection[] = [
           { title: "Drawstring", desc: "Cotton, satin or polyester cord, colour-matched." },
           { title: "Flap", desc: "Envelope silhouette with snap or tuck closure." },
           { title: "Zipper & button", desc: "Secure options for heavier or multi-piece sets." },
+        ],
+      },
+      {
+        heading: "Clear PVC zip pouches",
+        items: [
+          { title: "Clear jewelry pouches", desc: "See-through PVC zip bags that show the piece without opening — MOQ from 200 pieces." },
+          { title: "Retail & travel uses", desc: "Counter display, travel protection and set organizing in one transparent format." },
         ],
       },
       {
@@ -193,11 +201,13 @@ export const collections: Collection[] = [
     productSlugs: [
       "custom-velvet-pouches",
       "custom-cotton-pouches",
+      "custom-cotton-envelope-pouches",
       "custom-satin-pouches",
       "custom-muslin-drawstring-pouch",
       "custom-linen-jewelry-pouch",
       "custom-microfiber-pouches",
       "leather-envelope-pouch",
+      "custom-pvc-bags",
     ],
     ctaTitle: "Request a quote for your custom jewelry pouches",
   },
@@ -216,6 +226,7 @@ export const collections: Collection[] = [
         heading: "Wig bags",
         items: [
           { title: "Satin drawstring bag", desc: "The standard 30×40 cm carrier — smooth satin lets fibers slide instead of snagging." },
+          { title: "Cotton envelope pouches", desc: "Structured cotton carriers in flap-snap, flat-pocket and zip-envelope styles — from 200 pieces." },
           { title: "Sized to your format", desc: "Any wig or extension length made to your dimensions, MOQ unchanged." },
           { title: "Travel & storage bags", desc: "Larger formats with cord or zipper closures for storage and travel programs." },
         ],
@@ -224,6 +235,7 @@ export const collections: Collection[] = [
         heading: "Boxes & cases",
         items: [
           { title: "Rigid wig boxes", desc: "Structured boxes that present wigs and extensions upright at retail." },
+          { title: "Hair extension boxes", desc: "Sleeve, drawer and magnetic boxes made to bundle formats — MOQ to be confirmed." },
           { title: "Magnetic flip-top", desc: "A clean open-close ritual for premium hair programs." },
           { title: "Inserts & sleeves", desc: "Fitted inserts and satin sleeves that hold the presentation in place." },
         ],
@@ -238,7 +250,7 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "Bags from 200 pieces · boxes from 500 pieces" },
+      { label: "MOQ", value: "Bags from 200 pieces · wig boxes from 500 pieces · extension boxes to be confirmed" },
       { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -247,6 +259,8 @@ export const collections: Collection[] = [
     ],
     productSlugs: [
       "custom-satin-wig-bag",
+      "custom-cotton-envelope-pouches",
+      "custom-hair-extension-boxes",
       "magnetic-closure-gift-box",
       "luxury-gift-box-ribbon",
     ],
@@ -434,6 +448,173 @@ export const collections: Collection[] = [
       "custom-cotton-pouches",
     ],
     ctaTitle: "Request a quote for your cosmetic packaging",
+  },
+  {
+    slug: "custom-drawstring-bags",
+    eyebrow: "Drawstring Bags",
+    h1: "Custom Drawstring Bags & Pouches",
+    subhead:
+      "Cotton, velvet, satin, muslin and linen drawstring bags — your fabric, size, cord and logo, from 200 pieces.",
+    metaDescription:
+      "Custom drawstring bags with your logo — cotton, velvet, satin, muslin and linen pouches in any size, plus handbag and shoe dust bag formats. MOQ from 200 pieces, free stock samples.",
+    intro:
+      "The drawstring closure is packaging's simplest ritual — one pull and the bag is closed. It is also our most-run pouch style, made in every fabric we carry: cotton first, the natural everyday carrier that prints beautifully, then velvet, satin, muslin and linen for gift and jewelry programs. Sizes run from 7×9 cm jewelry pouches to 30×40 cm wig bags and large dust bag formats, all made to your product and branded with print, label or embroidery. MOQ from 200 pieces, including custom sizes.",
+    sections: [
+      {
+        heading: "Cotton drawstring bags",
+        items: [
+          { title: "The everyday workhorse", desc: "Natural cotton pouches that print beautifully — favors, beauty, jewelry and retail programs alike." },
+          { title: "Any size, same MOQ", desc: "Small item pouches through large gift and dust bag formats, from 200 pieces." },
+        ],
+      },
+      {
+        heading: "Fabric options",
+        items: [
+          { title: "Cotton & muslin", desc: "Natural weaves with an honest, printable face — the volume formats." },
+          { title: "Velvet & satin", desc: "Plush and lustrous carriers for gifting, jewelry and fragrance programs." },
+          { title: "Linen & blends", desc: "Textured, matte natural fabrics for artisan and premium natural lines." },
+        ],
+      },
+      {
+        heading: "Dust bag applications",
+        items: [
+          { title: "Handbag dust bags", desc: "Cotton, satin and velvet drawstring dust bags that protect leather goods in storage and after-sale." },
+          { title: "Shoe dust bags", desc: "Soft-fabric dust bags for footwear programs — branded and sized to the pair." },
+        ],
+      },
+      {
+        heading: "Gift & specialty bags",
+        items: [
+          { title: "Gift bag formats", desc: "Drawstring gift bags for weddings, events and product gifting — Pantone-matched to the program." },
+          { title: "Wig & hair bags", desc: "Large formats up to 30×40 cm with smooth interiors that keep fibers tangle-free." },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
+    ],
+    productSlugs: [
+      "custom-cotton-pouches",
+      "custom-velvet-pouches",
+      "custom-satin-pouches",
+      "custom-muslin-drawstring-pouch",
+      "custom-linen-jewelry-pouch",
+      "custom-satin-wig-bag",
+    ],
+    ctaTitle: "Request a quote for your custom drawstring bags",
+  },
+  {
+    slug: "ribbons-accessories",
+    eyebrow: "Ribbons & Accessories",
+    h1: "Custom Printed Ribbons & Packaging Accessories",
+    subhead:
+      "Ribbons, cords and finishing accessories that complete your box and pouch programs — matched to your brand.",
+    metaDescription:
+      "Custom printed ribbons and packaging accessories — satin ribbon closures, logo-printed ribbon programs, cotton cords and drawstrings matched to your ELAPACK box and pouch programs.",
+    intro:
+      "Boxes and pouches rarely ship alone. The ribbon on a gift box, the cord that closes a pouch and the finishing accessories around them are what make packaging read as one program. ELAPACK supplies ribbons, cords and accessories as part of your box and pouch programs — colour-matched to the packaging they finish, and quoted together with it. Founded in 2018, ISO 9001 certified for the production and sales of paper and textile packaging products.",
+    sections: [
+      {
+        heading: "Ribbons",
+        items: [
+          { title: "Satin ribbon closures", desc: "Double-face satin ribbon ties for rigid and gift boxes — part of the unboxing ritual." },
+          { title: "Custom printed ribbon", desc: "Logo printing on ribbon programs — quoted to your width, artwork and run length." },
+          { title: "Colour matching", desc: "Ribbon colours aligned to your box wrap and Pantone reference." },
+        ],
+      },
+      {
+        heading: "Cords & drawstrings",
+        items: [
+          { title: "Cotton cords", desc: "The standard drawcord for cotton, muslin and linen pouches." },
+          { title: "Satin ribbon & polyester cord", desc: "Alternative draw finishes matched to the pouch fabric." },
+        ],
+      },
+      {
+        heading: "As part of your program",
+        items: [
+          { title: "One supplier", desc: "Ribbon, cord, box and pouch quoted and made together — one brand system, not matched after the fact." },
+          { title: "Standalone accessory orders", desc: "Ribbons and cords quoted by spec — MOQ to be confirmed per program." },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "Quoted as part of your box or pouch program — standalone accessory MOQ to be confirmed" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
+    ],
+    productSlugs: [
+      "luxury-gift-box-ribbon",
+      "magnetic-closure-gift-box",
+      "custom-velvet-pouches",
+    ],
+    ctaTitle: "Request a quote for ribbons & accessories",
+  },
+  {
+    slug: "custom-cosmetic-pouches",
+    eyebrow: "Cosmetic Pouches",
+    h1: "Custom Cosmetic Pouches & Makeup Bags",
+    subhead:
+      "Drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas — plus clear PVC zip bags, from 200 pieces.",
+    metaDescription:
+      "Custom cosmetic pouches and makeup bags with your logo — drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas, plus clear PVC zip bags. MOQ from 200 pieces, free stock samples.",
+    intro:
+      "Cosmetic packaging works twice: the pouch carries the product at retail and keeps it organized after the sale. Four styles cover the uses — drawstring, flap, envelope and the zippered makeup bag that beauty brands run as their everyday carrier — each made in cotton, satin, velvet or canvas, in your size and Pantone colour. Clear PVC zip bags complete the matrix where seeing the product is the point. MOQ from 200 pieces across the matrix, including custom sizes.",
+    sections: [
+      {
+        heading: "Styles",
+        items: [
+          { title: "Zipper makeup bags", desc: "The secure everyday carrier — classic and flat formats in fabric or clear PVC." },
+          { title: "Drawstring", desc: "One-pull closing for favors, sets and retail counters." },
+          { title: "Envelope & flap", desc: "Structured envelope and snap-flap styles that gift beautifully." },
+        ],
+      },
+      {
+        heading: "Fabrics",
+        items: [
+          { title: "Cotton & canvas", desc: "Natural, printable carriers for everyday and artisan beauty lines." },
+          { title: "Satin & velvet", desc: "Lustrous and plush finishes for gift and premium beauty programs." },
+          { title: "Clear PVC", desc: "Transparent zip bags that show the product — MOQ from 200 pieces." },
+        ],
+      },
+      {
+        heading: "Clear PVC zip bags",
+        items: [
+          { title: "See-through format", desc: "Cosmetics, skincare and travel sizes visible without opening the bag." },
+          { title: "Low MOQ differentiation", desc: "From 200 pieces — typically 500–1000 elsewhere on the same format." },
+        ],
+      },
+      {
+        heading: "Branding",
+        items: [
+          { title: "Print & label", desc: "Silkscreen, heat transfer and woven labels on every fabric." },
+          { title: "Pantone matching", desc: "Fabric, cord and trim dyed to your brand colour." },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces across fabric styles and clear PVC, custom sizes included" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
+    ],
+    productSlugs: [
+      "custom-cotton-pouches",
+      "custom-cotton-envelope-pouches",
+      "custom-satin-pouches",
+      "custom-velvet-pouches",
+      "custom-pvc-bags",
+    ],
+    ctaTitle: "Request a quote for your cosmetic pouches",
   },
 ];
 
