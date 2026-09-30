@@ -24,7 +24,7 @@ export type Product = {
 export const products: Product[] = [
   {
     slug: "black-leather-jewelry-box",
-    name: "Black Leather Jewelry Box",
+    name: "Custom Black Leather Jewelry Boxes",
     category: "Boxes",
     shortDesc:
       "Faux leather rigid jewelry box with velvet interior, custom embossing and smart compartments.",
@@ -70,7 +70,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-white-jewelry-box",
-    name: "Custom White Jewelry Box with Logo",
+    name: "Custom White Jewelry Boxes",
     category: "Boxes",
     shortDesc:
       "Compact white jewelry box with velvet cushion and custom logo printing — clean minimalist retail and gift packaging.",
@@ -111,13 +111,13 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "double-ring-storage-box",
-    name: "Double Ring Storage Box",
+    slug: "custom-ring-boxes",
+    name: "Custom Ring & Engagement Ring Boxes",
     category: "Boxes",
     shortDesc:
-      "Slim black velvet double ring box for weddings and engagements, with magnetic closure.",
+      "Custom ring boxes for engagements, weddings and retail — single or double slots, velvet or foam cushions, your logo.",
     description:
-      "A slim black velvet double ring box designed for weddings and engagements. Holds two rings securely side by side with plush velvet lining. The elegant matte black exterior makes it perfect for proposal moments and retail presentation.",
+      "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour — MOQ from 500 pieces.",
     image: "/images/carousel/ring-box-black.png",
     materials: "Velvet exterior, foam insert with velvet covering",
     moq: "500 pcs",
@@ -125,36 +125,37 @@ export const products: Product[] = [
     industries: ["Jewelry", "Gift"],
     features: [
       {
-        title: "Dual Ring Slots",
-        desc: "Two precision-cut velvet slots hold rings side by side for proposal sets.",
+        title: "Single or Double Ring Slots",
+        desc: "One or two precision-cut velvet slots — solo rings or proposal sets side by side.",
       },
       {
-        title: "Slim Pocket Profile",
-        desc: "Thin enough to slip into a jacket pocket for the big moment.",
+        title: "Engagement-Ready Profile",
+        desc: "Slim enough to slip into a jacket pocket for the big moment.",
       },
       {
         title: "Matte Velvet Exterior",
-        desc: "Deep matte black velvet that photographs beautifully in proposal scenes.",
+        desc: "Deep matte velvet that photographs beautifully in proposal scenes.",
       },
       {
-        title: "Magnetic Closure",
-        desc: "Hidden magnets keep the lid securely shut with a satisfying snap.",
+        title: "Your Logo on the Lid",
+        desc: "Foil stamping, blind emboss or silkscreen — inside lid message printing available.",
       },
     ],
     specs: [
-      { label: "Dimensions (L × W × H)", value: '1-3/4" × 2" × 1-1/2"' },
+      { label: "Dimensions (L × W × H)", value: '1-3/4" × 2" × 1-1/2" (customizable)' },
       { label: "Closure Type", value: "Magnetic closure" },
       { label: "Surface Finish", value: "Matte velvet" },
     ],
     customizationOptions: [
+      "Single or double ring slot layouts",
       "Velvet color matching",
       "Interior message printing",
-      "Custom ring slot layout",
+      "Foil or embossed logo on the lid",
     ],
   },
   {
     slug: "luxury-gift-box-ribbon",
-    name: "Luxury Gift Box with Ribbon",
+    name: "Luxury Gift Boxes with Ribbon",
     category: "Boxes",
     shortDesc:
       "Rigid luxury gift box with satin ribbon tie closure — premium presentation for corporate gifting.",
@@ -197,7 +198,7 @@ export const products: Product[] = [
   },
   {
     slug: "magnetic-closure-gift-box",
-    name: "Custom Magnetic Closure Gift Box",
+    name: "Custom Magnetic Closure Gift Boxes",
     category: "Boxes",
     shortDesc:
       "Sleek flip-top gift box with hidden magnetic closure and custom interior inserts.",
@@ -240,13 +241,57 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "custom-velvet-drawstring-pouch",
-    name: "Custom Velvet Drawstring Pouch",
+    slug: "custom-eyelash-packaging-boxes",
+    name: "Custom Eyelash Packaging Boxes with Logo",
+    category: "Boxes",
+    shortDesc:
+      "Custom eyelash packaging boxes with your logo — three stock formats or fully custom sizes, from 200 pieces.",
+    description:
+      "Custom eyelash packaging boxes for lash brands, salons and wholesalers. Built around your lash trays — strip lashes, volume trays or extension programs — with fitted inserts that hold each tray in place and a printed wrap that carries your brand at retail and in unboxing. Three stock formats cover the common tray sizes: 14×10×6, 15×15×5 and 20×18×8 cm, and any dimension can be made to spec. MOQ from 200 pieces with your logo printed, foil-stamped or embossed. Product photography is in progress; request a stock sample to judge the board and print quality in hand.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Rigid paperboard with custom printed wrap, fitted lash tray inserts",
+    moq: "200 pcs",
+    leadTime: "15–20 days",
+    industries: ["Beauty", "Gift"],
+    features: [
+      {
+        title: "Three Stock Formats",
+        desc: "14×10×6, 15×15×5 and 20×18×8 cm cover the common lash tray sizes — or made fully to your spec.",
+      },
+      {
+        title: "Fitted Lash Tray Inserts",
+        desc: "Inserts cut to hold strip lash trays and extension programs securely in transit and on shelf.",
+      },
+      {
+        title: "Your Brand, Fully Printed",
+        desc: "Offset print, foil stamping, embossing and spot UV on the wrap — inside lid printing available.",
+      },
+      {
+        title: "Low MOQ 200",
+        desc: "Launch or test lash lines from 200 pieces — well below the typical wholesale 500.",
+      },
+    ],
+    specs: [
+      { label: "Dimensions (L × W × H)", value: "14×10×6 / 15×15×5 / 20×18×8 cm, or custom" },
+      { label: "Insert", value: "Fitted lash tray inserts, custom layouts" },
+      { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
+      { label: "MOQ", value: "200 pcs" },
+    ],
+    customizationOptions: [
+      "Custom sizes beyond the three stock formats",
+      "Full-color print, foil or embossed logo",
+      "Insert layout tailored to your lash trays",
+      "Boxes for single pairs up to multi-tray wholesale packs",
+    ],
+  },
+  {
+    slug: "custom-velvet-pouches",
+    name: "Custom Velvet Pouches",
     category: "Pouches & Bags",
     shortDesc:
-      "Soft velvet drawstring pouch protecting delicate jewelry — multiple colors with custom branding.",
+      "Soft velvet pouches in drawstring, flap, envelope and zipper styles — your colour, size and logo.",
     description:
-      "A soft velvet drawstring jewelry pouch designed for elegant storage and gifting. The plush velvet exterior protects delicate jewelry while the drawstring closure keeps items secure. Available in multiple colors with custom branding options.",
+      "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure — drawstring, flap, envelope or zipper — your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Made to order in any size, from small gift pouches to large presentation bags.",
     image: "/images/carousel/velvet-pouch.png",
     materials: "Velvet, cotton cord drawstring",
     moq: "200 pcs",
@@ -255,11 +300,11 @@ export const products: Product[] = [
     features: [
       {
         title: "Plush Velvet Protection",
-        desc: "Dense velvet pile cushions chains and stones against scratches.",
+        desc: "Dense velvet pile cushions jewelry, frames and finished goods against scratches.",
       },
       {
-        title: "Drawstring Closure",
-        desc: "Cotton, satin or polyester cord options, color-matched to the pouch.",
+        title: "Four Closure Styles",
+        desc: "Drawstring, flap, envelope or zipper — the closure that fits how the pouch is used.",
       },
       {
         title: "Full Color Range",
@@ -267,28 +312,29 @@ export const products: Product[] = [
       },
       {
         title: "Custom Branding",
-        desc: "Silkscreen printing or woven label stitched inside or outside.",
+        desc: "Silkscreen printing, foil stamping or woven label stitched inside or outside.",
       },
     ],
     specs: [
-      { label: "Dimensions", value: '4" × 4" (customizable)' },
+      { label: "Dimensions", value: "Made to your size" },
+      { label: "Closure Type", value: "Drawstring / flap / envelope / zipper" },
       { label: "String Type", value: "Cotton cord / satin ribbon / polyester cord" },
-      { label: "Closure Type", value: "Drawstring" },
     ],
     customizationOptions: [
       "Pantone velvet color matching",
-      "Logo printing or woven labels",
-      "Custom sizes and cord types",
+      "Logo printing, foil or woven labels",
+      "Drawstring, flap, envelope or zipper closure",
+      "Custom sizes, MOQ unchanged",
     ],
   },
   {
-    slug: "custom-cotton-jewelry-pouch",
-    name: "Custom Cotton Jewelry Pouch",
+    slug: "custom-cotton-pouches",
+    name: "Custom Cotton Pouches & Bags",
     category: "Pouches & Bags",
     shortDesc:
-      "Natural cotton drawstring pouch — eco-friendly, printable, gently protective.",
+      "Natural cotton pouches and bags — printable, gently protective, made to your size and logo.",
     description:
-      "An eco-friendly cotton drawstring pouch perfect for jewelry storage and gifting. Made from natural cotton fabric with a soft texture. Ideal for brands looking for sustainable packaging solutions.",
+      "Custom cotton pouches and bags for brands that want a natural, honest carrier. Unbleached cotton has a soft hand feel that suits artisan, beauty, jewelry and favor programs alike, and the fabric takes water-based ink prints beautifully. Choose drawstring, flap or zipper closure, your size from small pouches to larger gift bags, and your logo printed or woven in. Made to order — every fact on this page is our confirmed trade term.",
     image: "/images/carousel/cotton-pouch.png",
     materials: "Natural cotton, cotton cord",
     moq: "200 pcs",
@@ -300,27 +346,28 @@ export const products: Product[] = [
         desc: "Unbleached cotton fabric with a soft, natural hand feel.",
       },
       {
-        title: "Natural & Recyclable",
-        desc: "A genuinely circular packaging option for eco-positioned brands.",
-      },
-      {
-        title: "Custom Screen Printing",
+        title: "Prints Beautifully",
         desc: "Single to multi-color prints with water-based inks.",
       },
       {
         title: "Gentle Protection",
         desc: "Soft texture that protects finishes without abrading.",
       },
+      {
+        title: "Beauty & Favor Ready",
+        desc: "A natural fit for cosmetics, favors, retail and gifting programs.",
+      },
     ],
     specs: [
-      { label: "Dimensions", value: '5" × 5" (customizable)' },
+      { label: "Dimensions", value: "Made to your size" },
       { label: "String Type", value: "Cotton cord" },
-      { label: "Eco-Friendly", value: "Recyclable" },
+      { label: "Closure Type", value: "Drawstring / flap / zipper" },
     ],
     customizationOptions: [
       "Water-based ink printing",
-      "Natural cotton upgrade",
+      "Natural, bleached or dyed cotton",
       "Custom sizes and drawcord colors",
+      "Drawstring, flap or zipper closure",
     ],
   },
   {
@@ -579,7 +626,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-satin-wig-bag",
-    name: "Custom Satin Wig Bag",
+    name: "Custom Satin Wig Bags",
     category: "Pouches & Bags",
     shortDesc:
       "Satin drawstring wig bag in the standard 30×40 cm format — smooth interior that keeps fibers from tangling, with your logo.",
@@ -621,18 +668,18 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "custom-satin-jewelry-pouch",
-    name: "Custom Satin Jewelry Pouch",
+    slug: "custom-satin-pouches",
+    name: "Custom Satin Pouches",
     category: "Pouches & Bags",
     shortDesc:
-      "Lustrous satin jewelry pouch with drawstring or flap closure — your colour, size and logo.",
+      "Lustrous satin pouches with drawstring or flap closure — your colour, size and logo.",
     description:
-      "A satin jewelry pouch for programs that want a gift feel at first touch. The lustrous face catches light in retail displays and unboxing photos, while the soft drape protects finishes and platings. Made to order in your satin colour and size, with drawstring or flap closure and your logo silkscreened or hot-stamped. Product photography is in progress; request a stock sample to feel the material.",
+      "Custom satin pouches for programs that want a gift feel at first touch. The lustrous face catches light in retail displays and unboxing photos, while the soft drape protects finishes and platings — a natural fit for jewelry, bridal, beauty and gifting lines, and a classic choice for perfume bottle gift bags. Made to order in your satin colour and size, with drawstring or flap closure and your logo silkscreened or hot-stamped. Product photography is in progress; request a stock sample to feel the material.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Satin, drawstring cord",
     moq: "200 pcs",
     leadTime: "15–20 days",
-    industries: ["Jewelry", "Gift", "Fashion"],
+    industries: ["Jewelry", "Fragrance", "Beauty", "Gift"],
     features: [
       {
         title: "Lustrous Gift Face",
@@ -643,8 +690,8 @@ export const products: Product[] = [
         desc: "Gentle on platings and finishes — a natural fit for bridal and gifting lines.",
       },
       {
-        title: "Closure Options",
-        desc: "Drawstring with matched cord, or an envelope flap with snap closure.",
+        title: "Perfume Bottle Gift Bags",
+        desc: "A classic carrier for fragrance gifting — sized to your bottle format.",
       },
       {
         title: "Made to Your Colour",
@@ -666,7 +713,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-muslin-drawstring-pouch",
-    name: "Custom Muslin Drawstring Pouch",
+    name: "Custom Muslin Pouches",
     category: "Pouches & Bags",
     shortDesc:
       "Breathable unbleached muslin drawstring pouch — the natural-look carrier for jewelry, favors and small goods.",
@@ -753,34 +800,34 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "custom-microfiber-jewelry-pouch",
-    name: "Custom Microfiber Jewelry Pouch",
+    slug: "custom-microfiber-pouches",
+    name: "Custom Microfiber Pouches",
     category: "Pouches & Bags",
     shortDesc:
-      "Microfiber pouch that cleans as it carries — soft protection for jewelry, eyewear and screens.",
+      "Microfiber pouches that clean as they carry — eyewear sleeves, jewelry pouches and cloth-plus-pouch sets with your logo.",
     description:
-      "A microfiber pouch that works twice: it carries the product and polishes it. The fine synthetic weave lifts oils and dust without scratching, which makes it a natural companion for eyewear, screens and polished jewelry. Made to order in your size and colour, with drawstring or flap closure and your logo printed on the pouch. Product photography is in progress; request a stock sample to test the wipe performance.",
+      "Custom microfiber pouches for programs where the packaging works twice: it carries the product and polishes it. The fine synthetic weave lifts oils and dust without scratching, which makes it the standard companion for eyewear, sunglasses, screens and polished jewelry. Order the pouch alone, or as a set with a custom-printed microfiber cleaning cloth inside — a proven retail and care-kit combination. Made to order in your size and colour, with drawstring or flap closure and your logo. Product photography is in progress; request a stock sample to test the wipe performance.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Microfiber, drawstring cord",
     moq: "200 pcs",
     leadTime: "15–20 days",
-    industries: ["Jewelry", "Eyewear & Sunglasses", "Beauty"],
+    industries: ["Eyewear & Sunglasses", "Jewelry", "Beauty"],
     features: [
+      {
+        title: "Built for Eyewear",
+        desc: "The default fabric for glasses and sunglasses sleeves — soft on lenses and coatings.",
+      },
       {
         title: "Cleans as It Carries",
         desc: "The pouch itself doubles as a polishing cloth for eyewear and screens.",
       },
       {
+        title: "Cloth + Pouch Sets",
+        desc: "Bundle a custom-printed microfiber cleaning cloth inside the pouch — a ready-made care kit.",
+      },
+      {
         title: "Scratch-Free Softness",
         desc: "Fine-denier fibers are safe on polished metals, lenses and coatings.",
-      },
-      {
-        title: "Full Colour Range",
-        desc: "Stock and dyed microfiber colours with matched drawcord.",
-      },
-      {
-        title: "Retail-Ready Sizes",
-        desc: "Sized to your product — from eyewear sleeves to jewelry pouches.",
       },
     ],
     specs: [
@@ -788,12 +835,13 @@ export const products: Product[] = [
       { label: "Fabric", value: "Microfiber" },
       { label: "Fabric weight", value: "To be confirmed" },
       { label: "Closure Type", value: "Drawstring / flap" },
+      { label: "Cloth + pouch set MOQ", value: "To be confirmed (pouch alone from 200 pcs)" },
     ],
     customizationOptions: [
       "Custom sizes for eyewear, jewelry or devices",
       "Logo printing in one or multiple colors",
+      "Printed microfiber cleaning cloth as a set component",
       "Dyed microfiber with matched cord",
-      "Bundle with boxes as a care kit",
     ],
   },
 ];

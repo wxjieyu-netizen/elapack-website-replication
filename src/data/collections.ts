@@ -22,7 +22,7 @@ export const collections: Collection[] = [
   {
     slug: "custom-jewelry-boxes",
     eyebrow: "Jewelry Boxes",
-    h1: "Custom Jewelry Boxes, Made to Your Spec",
+    h1: "Custom Jewelry Boxes with Logo",
     subhead:
       "Rigid, magnetic and wrapped boxes for rings, earrings, necklaces and bracelets — your size, structure, finish and logo.",
     metaDescription:
@@ -78,7 +78,7 @@ export const collections: Collection[] = [
     productSlugs: [
       "black-leather-jewelry-box",
       "custom-white-jewelry-box",
-      "double-ring-storage-box",
+      "custom-ring-boxes",
       "luxury-gift-box-ribbon",
       "magnetic-closure-gift-box",
     ],
@@ -131,8 +131,8 @@ export const collections: Collection[] = [
     productSlugs: [
       "magnetic-closure-gift-box",
       "black-leather-jewelry-box",
-      "custom-velvet-drawstring-pouch",
-      "custom-microfiber-jewelry-pouch",
+      "custom-velvet-pouches",
+      "custom-microfiber-pouches",
       "leather-envelope-pouch",
     ],
     ctaTitle: "Request a quote for your eyewear packaging",
@@ -191,12 +191,12 @@ export const collections: Collection[] = [
       { label: "Payment", value: "T/T · PayPal" },
     ],
     productSlugs: [
-      "custom-velvet-drawstring-pouch",
-      "custom-cotton-jewelry-pouch",
-      "custom-satin-jewelry-pouch",
+      "custom-velvet-pouches",
+      "custom-cotton-pouches",
+      "custom-satin-pouches",
       "custom-muslin-drawstring-pouch",
       "custom-linen-jewelry-pouch",
-      "custom-microfiber-jewelry-pouch",
+      "custom-microfiber-pouches",
       "leather-envelope-pouch",
     ],
     ctaTitle: "Request a quote for your custom jewelry pouches",
@@ -251,6 +251,189 @@ export const collections: Collection[] = [
       "luxury-gift-box-ribbon",
     ],
     ctaTitle: "Request a quote for your custom wig packaging",
+  },
+  {
+    slug: "custom-jewelry-packaging",
+    eyebrow: "Jewelry Packaging",
+    h1: "Custom Jewelry Packaging — Boxes, Pouches & Display",
+    subhead:
+      "One manufacturer for the whole jewelry program — logo boxes, fabric pouches, display and sets, matched in colour and branding.",
+    metaDescription:
+      "Custom jewelry packaging from one manufacturer — logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes from 500, pouches from 200 pieces. Free stock samples.",
+    intro:
+      "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display — and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets — colour-matched and branded as one system. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products.",
+    sections: [
+      {
+        heading: "Jewelry boxes",
+        items: [
+          { title: "Rigid lift-off & magnetic", desc: "Gift-ready structures with fitted inserts for rings, earrings, necklaces and bracelets." },
+          { title: "Ring & engagement boxes", desc: "Single or double slots with velvet cushions, made for the proposal moment." },
+          { title: "Faux leather & wrapped", desc: "Textured wraps with embossed branding for premium lines." },
+        ],
+      },
+      {
+        heading: "Jewelry pouches",
+        items: [
+          { title: "Velvet & satin", desc: "Plush and lustrous gift pouches in your Pantone colour." },
+          { title: "Cotton, muslin & linen", desc: "Natural weaves for artisan and everyday-carrier programs." },
+          { title: "Microfiber", desc: "Pouches that clean as they carry — the after-sale companion." },
+        ],
+      },
+      {
+        heading: "Display & presentation",
+        items: [
+          { title: "Velvet display sets", desc: "Busts, T-bars, ring cones and cushions cut from one matched velvet." },
+          { title: "Counter & showcase", desc: "Modular pieces that turn a counter into a coherent brand moment." },
+        ],
+      },
+      {
+        heading: "Complete programs",
+        items: [
+          { title: "Box + pouch sets", desc: "Both pieces designed together — same colour, same branding, one PO." },
+          { title: "Retail to unboxing", desc: "Display at the counter, box at purchase, pouch after — one visual language." },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "Boxes from 500 pieces · pouches & display from 200 pieces" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
+    ],
+    productSlugs: [
+      "black-leather-jewelry-box",
+      "custom-white-jewelry-box",
+      "custom-ring-boxes",
+      "magnetic-closure-gift-box",
+      "luxury-gift-box-ribbon",
+      "custom-velvet-pouches",
+      "custom-cotton-pouches",
+      "leather-envelope-pouch",
+    ],
+    ctaTitle: "Request a quote for your jewelry packaging program",
+  },
+  {
+    slug: "custom-gift-boxes",
+    eyebrow: "Gift Boxes",
+    h1: "Custom Gift Boxes with Logo",
+    subhead:
+      "Magnetic, ribbon-tie and two-piece rigid gift boxes — plus candle-ready formats — your size, finish and logo.",
+    metaDescription:
+      "Custom gift boxes with your logo — magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 500 pieces, free stock samples.",
+    intro:
+      "Custom gift boxes for the occasions where the box is part of the gift. Corporate programs, candles, weddings, retail gifting and seasonal campaigns all start from the same place: a rigid structure that protects, a wrap that carries your brand, and a closure that makes opening feel like an event. Magnetic flip-tops, satin ribbon ties and two-piece rigid formats are all made to your size, Pantone colour and logo — MOQ from 500 pieces.",
+    sections: [
+      {
+        heading: "Magnetic closure gift boxes",
+        items: [
+          { title: "Flip-top magnetic", desc: "Hidden magnets, clean exterior, a satisfying slow close — the corporate-gift standard." },
+          { title: "Any footprint", desc: "From small jewelry and accessory sizes to large presentation formats." },
+        ],
+      },
+      {
+        heading: "Ribbon-tie luxury boxes",
+        items: [
+          { title: "Satin ribbon closure", desc: "Double-face satin that becomes part of the unboxing ritual." },
+          { title: "Foil & embossing", desc: "Metallic foil and raised relief marks for premium programs." },
+        ],
+      },
+      {
+        heading: "Two-piece & structure options",
+        items: [
+          { title: "Two-piece rigid", desc: "Full-height lift-off lid over a rigid base — the premium gift structure." },
+          { title: "Drawer & book-style", desc: "Structures made to your product and occasion, on request." },
+        ],
+      },
+      {
+        heading: "Candle gift boxes",
+        items: [
+          { title: "Jar & tin formats", desc: "Rigid boxes sized to your candle jars and travel tins, with inserts that hold glass steady." },
+          { title: "Gifting-ready finish", desc: "Matte and soft-touch wraps that suit candle and home-scent programs." },
+        ],
+      },
+      {
+        heading: "Occasions",
+        items: [
+          { title: "Corporate gifting", desc: "Inserts, lids and ribbons that carry a logo quietly and well." },
+          { title: "Weddings & events", desc: "Favor and gift formats across every size band." },
+          { title: "Retail & shoe gifting", desc: "Gift shoe boxes and retail-ready formats made to your product." },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "500 pieces, custom sizes included" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
+    ],
+    productSlugs: [
+      "magnetic-closure-gift-box",
+      "luxury-gift-box-ribbon",
+      "custom-white-jewelry-box",
+      "black-leather-jewelry-box",
+    ],
+    ctaTitle: "Request a quote for your custom gift boxes",
+  },
+  {
+    slug: "custom-cosmetic-packaging",
+    eyebrow: "Cosmetic & Beauty Packaging",
+    h1: "Custom Cosmetic Packaging Boxes",
+    subhead:
+      "Boxes and pouches for beauty brands — eyelash packaging from 200 pieces, gift boxes and cosmetic pouches with your logo.",
+    metaDescription:
+      "Custom cosmetic packaging — eyelash boxes from 200 pieces, magnetic and rigid gift boxes for beauty brands, plus fabric and clear PVC-zip cosmetic pouches with your logo. One manufacturer, matched branding. Free stock samples.",
+    intro:
+      "Custom packaging for beauty and cosmetics brands selling into the US and Europe. ELAPACK makes both halves of the program in-house: printed boxes that present the product at retail — eyelash boxes from just 200 pieces — and the fabric and clear-zip pouches that carry cosmetics after the sale, matched in colour and branding. Every order is made to your specification, from structure and insert to print and finish.",
+    sections: [
+      {
+        heading: "Eyelash packaging boxes",
+        items: [
+          { title: "From 200 pieces", desc: "Launch and test lash lines well below the typical wholesale 500." },
+          { title: "Three stock formats", desc: "14×10×6, 15×15×5 and 20×18×8 cm — or fully custom sizes." },
+          { title: "Fitted tray inserts", desc: "Inserts cut to strip lash trays and extension programs." },
+        ],
+      },
+      {
+        heading: "Beauty gift & retail boxes",
+        items: [
+          { title: "Magnetic & rigid gift boxes", desc: "Structures sized to cosmetic formats — from single items to curated sets." },
+          { title: "Full-print branding", desc: "Offset print, foil, embossing and spot UV on every surface." },
+        ],
+      },
+      {
+        heading: "Cosmetic pouches & bags",
+        items: [
+          { title: "Fabric pouches", desc: "Cotton, satin and velvet pouches in drawstring, flap and zipper styles." },
+          { title: "Clear PVC zip bags", desc: "Transparent zip bags for cosmetics — MOQ from 200 pieces." },
+        ],
+      },
+      {
+        heading: "Wig & hair extension packaging",
+        items: [
+          { title: "Satin wig bags & boxes", desc: "The standard 30×40 cm satin carrier plus retail boxes for hair programs." },
+          { title: "Matched programs", desc: "Bags, boxes and inserts branded as one system." },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "Eyelash boxes & pouches from 200 pieces · other boxes from 500 pieces" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
+    ],
+    productSlugs: [
+      "custom-eyelash-packaging-boxes",
+      "magnetic-closure-gift-box",
+      "luxury-gift-box-ribbon",
+      "custom-cotton-pouches",
+    ],
+    ctaTitle: "Request a quote for your cosmetic packaging",
   },
 ];
 

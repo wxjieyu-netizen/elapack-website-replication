@@ -10,17 +10,17 @@ import type { ReactNode } from "react";
  */
 const RELATED: Record<string, string[]> = {
   "how-to-choose-a-custom-jewelry-pouch": [
-    "custom-velvet-drawstring-pouch",
-    "custom-cotton-jewelry-pouch",
+    "custom-velvet-pouches",
+    "custom-cotton-pouches",
     "leather-envelope-pouch",
   ],
   "how-to-choose-custom-drawstring-bags": [
-    "custom-velvet-drawstring-pouch",
-    "custom-cotton-jewelry-pouch",
+    "custom-velvet-pouches",
+    "custom-cotton-pouches",
   ],
   "custom-hair-extension-packaging-guide": [
     "custom-satin-wig-bag",
-    "custom-velvet-drawstring-pouch",
+    "custom-velvet-pouches",
     "custom-linen-jewelry-pouch",
   ],
   "custom-clothing-apparel-packaging-guide": ["kraft-paper-shopping-bag", "luxury-gift-box-ribbon"],
@@ -31,11 +31,11 @@ const RELATED: Record<string, string[]> = {
   ],
   "how-to-read-a-packaging-specification-sheet": [
     "magnetic-closure-gift-box",
-    "custom-velvet-drawstring-pouch",
+    "custom-velvet-pouches",
   ],
   "packaging-colour-tolerance-explained": [
     "luxury-gift-box-ribbon",
-    "custom-velvet-drawstring-pouch",
+    "custom-velvet-pouches",
   ],
 };
 

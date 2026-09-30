@@ -7,10 +7,10 @@ const featuredSlugs = [
   { slug: "magnetic-closure-gift-box", tag: "Signature" },
   { slug: "black-leather-jewelry-box", tag: "Icon" },
   { slug: "luxury-gift-box-ribbon", tag: "Premium" },
-  { slug: "custom-velvet-drawstring-pouch", tag: "Bestseller" },
-  { slug: "custom-cotton-jewelry-pouch", tag: "Eco" },
+  { slug: "custom-velvet-pouches", tag: "Bestseller" },
+  { slug: "custom-cotton-pouches", tag: "Eco" },
   { slug: "kraft-paper-shopping-bag", tag: "Retail" },
-  { slug: "double-ring-storage-box", tag: "Wedding" },
+  { slug: "custom-ring-boxes", tag: "Wedding" },
   { slug: "stackable-jewelry-tray", tag: "Display" },
 ];
 

@@ -24,10 +24,17 @@ const redirects: Record<string, string> = {
 
   // renamed/removed product slugs (2026-09-30 keyword restructuring)
   "/products/pandora-jewelry-box-white": "/products/custom-white-jewelry-box",
-  "/products/velvet-drawstring-pouch": "/products/custom-velvet-drawstring-pouch",
-  "/products/cotton-jewelry-pouch": "/products/custom-cotton-jewelry-pouch",
+  "/products/velvet-drawstring-pouch": "/products/custom-velvet-pouches",
+  "/products/cotton-jewelry-pouch": "/products/custom-cotton-pouches",
   "/products/cream-rigid-magnetic-gift-box": "/products/magnetic-closure-gift-box",
   "/products/wooden-ring-box-wedding": "/products",
+
+  // 2026-10-01 batch-1: pouch SKU de-jewelring + ring box retitle (slug generalization, then URL freeze)
+  "/products/custom-velvet-drawstring-pouch": "/products/custom-velvet-pouches",
+  "/products/custom-cotton-jewelry-pouch": "/products/custom-cotton-pouches",
+  "/products/custom-satin-jewelry-pouch": "/products/custom-satin-pouches",
+  "/products/custom-microfiber-jewelry-pouch": "/products/custom-microfiber-pouches",
+  "/products/double-ring-storage-box": "/products/custom-ring-boxes",
 
   // series pages (15) → category-filtered products
   "/pouches/jewelry-eyewear": "/products?category=Pouches%20%26%20Bags",
@@ -63,8 +70,8 @@ for (const s of oldProductSlugs) redirects[`/product/${s}`] = `/products/${s}`;
 // old-site slugs that were renamed in the 2026-09-30 restructuring
 redirects["/product/pandora-jewelry-box-white"] = "/products/custom-white-jewelry-box";
 redirects["/product/wooden-ring-box-wedding"] = "/products";
-redirects["/product/velvet-drawstring-pouch"] = "/products/custom-velvet-drawstring-pouch";
-redirects["/product/cotton-jewelry-pouch"] = "/products/custom-cotton-jewelry-pouch";
+redirects["/product/velvet-drawstring-pouch"] = "/products/custom-velvet-pouches";
+redirects["/product/cotton-jewelry-pouch"] = "/products/custom-cotton-pouches";
 
 // old blog posts → /news
 for (let i = 1; i <= 5; i++) redirects[`/blog/post-${i}`] = "/news";
