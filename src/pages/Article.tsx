@@ -52,6 +52,16 @@ const RELATED: Record<string, string[]> = {
     "magnetic-closure-gift-box",
     "custom-pvc-bags",
   ],
+  "how-to-choose-custom-jewelry-boxes": [
+    "custom-ring-boxes",
+    "black-leather-jewelry-box",
+    "custom-white-jewelry-box",
+  ],
+  "custom-cosmetic-packaging-guide": [
+    "custom-eyelash-packaging-boxes",
+    "custom-press-on-nail-boxes",
+    "custom-perfume-boxes",
+  ],
 };
 
 function relatedProducts(slug: string | undefined): Product[] {
