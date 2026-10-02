@@ -5,6 +5,8 @@ export interface Article {
   metaDescription: string;
   category: string;
   date: string;
+  /** ISO publish date for Article structured data (git commit date). */
+  datePublished?: string;
   readTime: string;
   image: string;
   imageAlt: string;
@@ -15,6 +17,7 @@ export interface Article {
 export const articles: Article[] = [
   {
     "slug": "how-to-choose-a-custom-jewelry-pouch",
+    "datePublished": "2026-09-27",
     "title": "How to Choose a Custom Jewelry Pouch: Fabric, Size, Closure and Branding",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -27,6 +30,7 @@ export const articles: Article[] = [
   },
   {
     "slug": "how-to-choose-custom-drawstring-bags",
+    "datePublished": "2026-09-27",
     "title": "How to Choose Custom Drawstring Bags: Fabric, Size, Closure and Print",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -39,6 +43,7 @@ export const articles: Article[] = [
   },
   {
     "slug": "custom-hair-extension-packaging-guide",
+    "datePublished": "2026-09-27",
     "title": "Custom Hair Extension Packaging: How to Choose Bags, Boxes and Bundle Formats",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -51,6 +56,7 @@ export const articles: Article[] = [
   },
   {
     "slug": "custom-clothing-apparel-packaging-guide",
+    "datePublished": "2026-09-27",
     "title": "Custom Clothing & Apparel Packaging: Bags and Boxes for Fashion Brands",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -63,6 +69,7 @@ export const articles: Article[] = [
   },
   {
     "slug": "custom-gift-packaging-guide",
+    "datePublished": "2026-09-27",
     "title": "Custom Gift Packaging: Bags, Boxes and Gift Sets",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -76,6 +83,7 @@ export const articles: Article[] = [
 ].concat([
   {
   "slug": "how-to-read-a-packaging-specification-sheet",
+  "datePublished": "2026-09-27",
   "title": "How to Read a Custom Packaging Specification Sheet: The Specs That Decide Fit",
   "category": "Sourcing Guide",
   "date": "September 2026",
@@ -88,6 +96,7 @@ export const articles: Article[] = [
 },
   {
   "slug": "packaging-colour-tolerance-explained",
+  "datePublished": "2026-09-27",
   "title": "Packaging Colour Tolerance: What an Acceptable Colour Difference Means on a Custom Spec",
   "category": "Sourcing Guide",
   "date": "September 2026",
@@ -100,6 +109,7 @@ export const articles: Article[] = [
   },
   {
   "slug": "how-to-customize-eyelash-boxes",
+  "datePublished": "2026-10-01",
   "title": "How to Customize Your Eyelash Boxes: Formats, Inserts, Print and Quantity",
   "category": "Sourcing Guide",
   "date": "October 2026",
@@ -112,6 +122,7 @@ export const articles: Article[] = [
   },
   {
   "slug": "hair-extension-packaging-ideas",
+  "datePublished": "2026-10-01",
   "title": "Hair Extension Packaging Ideas: Formats and Materials for Bundles, Wefts and Wigs",
   "category": "Sourcing Guide",
   "date": "October 2026",
@@ -124,6 +135,7 @@ export const articles: Article[] = [
   },
   {
   "slug": "custom-packaging-moq-oem-odm-logo-guide",
+  "datePublished": "2026-10-01",
   "title": "Custom Packaging MOQs, OEM vs ODM and Logo Techniques Explained",
   "category": "Sourcing Guide",
   "date": "October 2026",
@@ -136,6 +148,7 @@ export const articles: Article[] = [
   },
   {
     "slug": "how-to-choose-custom-jewelry-boxes",
+    "datePublished": "2026-10-01",
     "title": "How to Choose Custom Jewelry Boxes: Structure, Insert, Finish and Size",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -148,6 +161,7 @@ export const articles: Article[] = [
   },
   {
     "slug": "custom-cosmetic-packaging-guide",
+    "datePublished": "2026-10-01",
     "title": "Custom Cosmetic Packaging: Boxes, Pouches and Sets for Beauty Brands",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -160,6 +174,7 @@ export const articles: Article[] = [
   },
   {
     "slug": "custom-perfume-packaging-guide",
+    "datePublished": "2026-10-02",
     "title": "Custom Perfume Packaging: Gift Boxes, Sample Cards and Pouches",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -172,6 +187,7 @@ export const articles: Article[] = [
   },
   {
     "slug": "press-on-nail-packaging-guide",
+    "datePublished": "2026-10-02",
     "title": "Custom Press-on Nail Packaging: Boxes, Inserts and Set Formats",
     "category": "Sourcing Guide",
     "date": "October 2026",

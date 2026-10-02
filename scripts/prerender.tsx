@@ -106,6 +106,22 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   ...Object.fromEntries(ARTICLES.map((a) => [`/news/${a.slug}`, a.metaDescription])),
 };
 
+const SITE = "https://elapack.com";
+
+/** Minimal HTML attribute escaping for injected meta content. */
+const esc = (s: string) =>
+  s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+
+/** Safe JSON-LD embed: "</" cannot terminate the script block. */
+const ld = (obj: unknown) => JSON.stringify(obj).replace(/</g, "\\u003c");
+
+/**
+ * og:image / Product image: SVG placeholders are not valid social-card or
+ * rich-result images, so placeholder SKUs fall back to the site hero.
+ */
+const pageImage = (image: string) =>
+  image.endsWith(".svg") ? `${SITE}/hero-packaging.webp` : `${SITE}${image}`;
+
 let ok = 0;
 for (const route of ROUTES) {
   try {
@@ -119,6 +135,10 @@ for (const route of ROUTES) {
     const product = productMatch
       ? PRODUCTS.find((p) => p.slug === productMatch[1])
       : undefined;
+    const articleMatch = route.match(/^\/news\/([a-z0-9-]+)$/);
+    const article = articleMatch
+      ? ARTICLES.find((a) => a.slug === articleMatch[1])
+      : undefined;
     const pageTag = product
       ? `${product.name} | ELAPACK`
       : STATIC_TITLES[route] || "ELAPACK";
@@ -129,6 +149,95 @@ for (const route of ROUTES) {
         ? `${product.shortDesc} ${product.name} by ELAPACK — materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.`
         : undefined);
 
+    // GitHub Pages 301s bare inner paths to the trailing-slash URL, so that
+    // form is the canonical one everywhere (head link, og:url, JSON-LD ids).
+    const canonical = `${SITE}${route === "/" ? "/" : route + "/"}`;
+    const ogImage = article
+      ? pageImage(article.image)
+      : product
+        ? pageImage(product.image)
+        : `${SITE}/hero-packaging.webp`;
+
+    const crumbs: { name: string; item?: string }[] = [
+      { name: "Home", item: `${SITE}/` },
+    ];
+    if (article) {
+      crumbs.push({ name: "News", item: `${SITE}/news/` });
+      crumbs.push({ name: article.title });
+    } else if (product) {
+      crumbs.push({ name: "Products", item: `${SITE}/products/` });
+      crumbs.push({ name: product.name });
+    } else if (route !== "/") {
+      crumbs.push({
+        name: STATIC_TITLES[route]?.replace(" | ELAPACK", "") || "ELAPACK",
+      });
+    }
+
+    const graph: object[] = [];
+    if (crumbs.length > 1) {
+      graph.push({
+        "@type": "BreadcrumbList",
+        itemListElement: crumbs.map((c, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: c.name,
+          ...(c.item ? { item: c.item } : {}),
+        })),
+      });
+    }
+    if (article) {
+      graph.push({
+        "@type": "Article",
+        "@id": `${canonical}#article`,
+        headline: article.title,
+        description: article.metaDescription,
+        image: [ogImage],
+        ...(article.datePublished
+          ? {
+              datePublished: article.datePublished,
+              dateModified: article.datePublished,
+            }
+          : {}),
+        author: { "@type": "Organization", name: "ELAPACK", url: `${SITE}/` },
+        publisher: {
+          "@type": "Organization",
+          name: "ELAPACK",
+          logo: {
+            "@type": "ImageObject",
+            url: `${SITE}/apple-touch-icon.png`,
+            width: 180,
+            height: 180,
+          },
+        },
+        mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
+      });
+    }
+    if (product) {
+      graph.push({
+        "@type": "Product",
+        "@id": `${canonical}#product`,
+        name: product.name,
+        description: product.shortDesc,
+        image: [ogImage],
+        sku: product.slug,
+        category: product.category,
+        brand: { "@type": "Brand", name: "ELAPACK" },
+        mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
+      });
+    }
+
+    const headExtras = [
+      `<link rel="canonical" href="${canonical}" />`,
+      ...(graph.length
+        ? [
+            `<script type="application/ld+json">${ld({
+              "@context": "https://schema.org",
+              "@graph": graph,
+            })}</script>`,
+          ]
+        : []),
+    ].join("\n    ");
+
     let out = shell
       .replace('<div id="root"></div>', `<div id="root">${html}</div>`)
       .replace(/<title>[^<]*<\/title>/, `<title>${pageTag}</title>`);
@@ -138,6 +247,46 @@ for (const route of ROUTES) {
         `$1${pageDesc}$2`
       );
     }
+
+    out = out
+      .replace(
+        /(<meta\s+property="og:title"\s+content=")[^"]*(")/,
+        `$1${esc(pageTag)}$2`
+      )
+      .replace(
+        /(<meta\s+property="og:url"\s+content=")[^"]*(")/,
+        `$1${canonical}$2`
+      )
+      .replace(
+        /(<meta\s+property="og:image"\s+content=")[^"]*(")/,
+        `$1${ogImage}$2`
+      )
+      .replace(
+        /(<meta\s+name="twitter:title"\s+content=")[^"]*(")/,
+        `$1${esc(pageTag)}$2`
+      )
+      .replace(
+        /(<meta\s+name="twitter:image"\s+content=")[^"]*(")/,
+        `$1${ogImage}$2`
+      );
+    if (article) {
+      out = out.replace(
+        /(<meta\s+property="og:type"\s+content=")website(")/,
+        `$1article$2`
+      );
+    }
+    if (pageDesc) {
+      out = out
+        .replace(
+          /(<meta\s+property="og:description"\s+content=")[^"]*(")/,
+          `$1${esc(pageDesc)}$2`
+        )
+        .replace(
+          /(<meta\s+name="twitter:description"\s+content=")[^"]*(")/,
+          `$1${esc(pageDesc)}$2`
+        );
+    }
+    out = out.replace("\n  </head>", `\n    ${headExtras}\n  </head>`);
 
     const dest =
       route === "/"

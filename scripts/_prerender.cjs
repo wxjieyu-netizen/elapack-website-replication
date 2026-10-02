@@ -2907,6 +2907,7 @@ var import_react_router_dom12 = require("react-router-dom");
 var articles = [
   {
     "slug": "how-to-choose-a-custom-jewelry-pouch",
+    "datePublished": "2026-09-27",
     "title": "How to Choose a Custom Jewelry Pouch: Fabric, Size, Closure and Branding",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -2919,6 +2920,7 @@ var articles = [
   },
   {
     "slug": "how-to-choose-custom-drawstring-bags",
+    "datePublished": "2026-09-27",
     "title": "How to Choose Custom Drawstring Bags: Fabric, Size, Closure and Print",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -2931,6 +2933,7 @@ var articles = [
   },
   {
     "slug": "custom-hair-extension-packaging-guide",
+    "datePublished": "2026-09-27",
     "title": "Custom Hair Extension Packaging: How to Choose Bags, Boxes and Bundle Formats",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -2943,6 +2946,7 @@ var articles = [
   },
   {
     "slug": "custom-clothing-apparel-packaging-guide",
+    "datePublished": "2026-09-27",
     "title": "Custom Clothing & Apparel Packaging: Bags and Boxes for Fashion Brands",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -2955,6 +2959,7 @@ var articles = [
   },
   {
     "slug": "custom-gift-packaging-guide",
+    "datePublished": "2026-09-27",
     "title": "Custom Gift Packaging: Bags, Boxes and Gift Sets",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -2968,6 +2973,7 @@ var articles = [
 ].concat([
   {
     "slug": "how-to-read-a-packaging-specification-sheet",
+    "datePublished": "2026-09-27",
     "title": "How to Read a Custom Packaging Specification Sheet: The Specs That Decide Fit",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -2980,6 +2986,7 @@ var articles = [
   },
   {
     "slug": "packaging-colour-tolerance-explained",
+    "datePublished": "2026-09-27",
     "title": "Packaging Colour Tolerance: What an Acceptable Colour Difference Means on a Custom Spec",
     "category": "Sourcing Guide",
     "date": "September 2026",
@@ -3049,6 +3056,7 @@ Your next step, once the tolerance is written, is the approval process \u2014 ho
   },
   {
     "slug": "how-to-customize-eyelash-boxes",
+    "datePublished": "2026-10-01",
     "title": "How to Customize Your Eyelash Boxes: Formats, Inserts, Print and Quantity",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -3061,6 +3069,7 @@ Your next step, once the tolerance is written, is the approval process \u2014 ho
   },
   {
     "slug": "hair-extension-packaging-ideas",
+    "datePublished": "2026-10-01",
     "title": "Hair Extension Packaging Ideas: Formats and Materials for Bundles, Wefts and Wigs",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -3073,6 +3082,7 @@ Your next step, once the tolerance is written, is the approval process \u2014 ho
   },
   {
     "slug": "custom-packaging-moq-oem-odm-logo-guide",
+    "datePublished": "2026-10-01",
     "title": "Custom Packaging MOQs, OEM vs ODM and Logo Techniques Explained",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -3085,6 +3095,7 @@ Your next step, once the tolerance is written, is the approval process \u2014 ho
   },
   {
     "slug": "how-to-choose-custom-jewelry-boxes",
+    "datePublished": "2026-10-01",
     "title": "How to Choose Custom Jewelry Boxes: Structure, Insert, Finish and Size",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -3097,6 +3108,7 @@ Your next step, once the tolerance is written, is the approval process \u2014 ho
   },
   {
     "slug": "custom-cosmetic-packaging-guide",
+    "datePublished": "2026-10-01",
     "title": "Custom Cosmetic Packaging: Boxes, Pouches and Sets for Beauty Brands",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -3109,6 +3121,7 @@ Your next step, once the tolerance is written, is the approval process \u2014 ho
   },
   {
     "slug": "custom-perfume-packaging-guide",
+    "datePublished": "2026-10-02",
     "title": "Custom Perfume Packaging: Gift Boxes, Sample Cards and Pouches",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -3121,6 +3134,7 @@ Your next step, once the tolerance is written, is the approval process \u2014 ho
   },
   {
     "slug": "press-on-nail-packaging-guide",
+    "datePublished": "2026-10-02",
     "title": "Custom Press-on Nail Packaging: Boxes, Inserts and Set Formats",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -4960,6 +4974,10 @@ var STATIC_DESCRIPTIONS = {
   "/video": "See ELAPACK's production floor, craft details and quality process in video.",
   ...Object.fromEntries(articles.map((a) => [`/news/${a.slug}`, a.metaDescription]))
 };
+var SITE = "https://elapack.com";
+var esc = (s) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+var ld = (obj) => JSON.stringify(obj).replace(/</g, "\\u003c");
+var pageImage = (image) => image.endsWith(".svg") ? `${SITE}/hero-packaging.webp` : `${SITE}${image}`;
 var ok = 0;
 for (const route of ROUTES) {
   try {
@@ -4968,8 +4986,85 @@ for (const route of ROUTES) {
     );
     const productMatch = route.match(/^\/products\/([a-z0-9-]+)$/);
     const product = productMatch ? products.find((p) => p.slug === productMatch[1]) : void 0;
+    const articleMatch = route.match(/^\/news\/([a-z0-9-]+)$/);
+    const article = articleMatch ? articles.find((a) => a.slug === articleMatch[1]) : void 0;
     const pageTag = product ? `${product.name} | ELAPACK` : STATIC_TITLES[route] || "ELAPACK";
     const pageDesc = STATIC_DESCRIPTIONS[route] || (product ? `${product.shortDesc} ${product.name} by ELAPACK \u2014 materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.` : void 0);
+    const canonical = `${SITE}${route === "/" ? "/" : route + "/"}`;
+    const ogImage = article ? pageImage(article.image) : product ? pageImage(product.image) : `${SITE}/hero-packaging.webp`;
+    const crumbs = [
+      { name: "Home", item: `${SITE}/` }
+    ];
+    if (article) {
+      crumbs.push({ name: "News", item: `${SITE}/news/` });
+      crumbs.push({ name: article.title });
+    } else if (product) {
+      crumbs.push({ name: "Products", item: `${SITE}/products/` });
+      crumbs.push({ name: product.name });
+    } else if (route !== "/") {
+      crumbs.push({
+        name: STATIC_TITLES[route]?.replace(" | ELAPACK", "") || "ELAPACK"
+      });
+    }
+    const graph = [];
+    if (crumbs.length > 1) {
+      graph.push({
+        "@type": "BreadcrumbList",
+        itemListElement: crumbs.map((c, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: c.name,
+          ...c.item ? { item: c.item } : {}
+        }))
+      });
+    }
+    if (article) {
+      graph.push({
+        "@type": "Article",
+        "@id": `${canonical}#article`,
+        headline: article.title,
+        description: article.metaDescription,
+        image: [ogImage],
+        ...article.datePublished ? {
+          datePublished: article.datePublished,
+          dateModified: article.datePublished
+        } : {},
+        author: { "@type": "Organization", name: "ELAPACK", url: `${SITE}/` },
+        publisher: {
+          "@type": "Organization",
+          name: "ELAPACK",
+          logo: {
+            "@type": "ImageObject",
+            url: `${SITE}/apple-touch-icon.png`,
+            width: 180,
+            height: 180
+          }
+        },
+        mainEntityOfPage: { "@type": "WebPage", "@id": canonical }
+      });
+    }
+    if (product) {
+      graph.push({
+        "@type": "Product",
+        "@id": `${canonical}#product`,
+        name: product.name,
+        description: product.shortDesc,
+        image: [ogImage],
+        sku: product.slug,
+        category: product.category,
+        brand: { "@type": "Brand", name: "ELAPACK" },
+        mainEntityOfPage: { "@type": "WebPage", "@id": canonical }
+      });
+    }
+    const headExtras = [
+      `<link rel="canonical" href="${canonical}" />`,
+      ...graph.length ? [
+        `<script type="application/ld+json">${ld({
+          "@context": "https://schema.org",
+          "@graph": graph
+        })}</script>`
+      ] : []
+    ].join("\n    ");
     let out = shell.replace('<div id="root"></div>', `<div id="root">${html}</div>`).replace(/<title>[^<]*<\/title>/, `<title>${pageTag}</title>`);
     if (pageDesc) {
       out = out.replace(
@@ -4977,6 +5072,40 @@ for (const route of ROUTES) {
         `$1${pageDesc}$2`
       );
     }
+    out = out.replace(
+      /(<meta\s+property="og:title"\s+content=")[^"]*(")/,
+      `$1${esc(pageTag)}$2`
+    ).replace(
+      /(<meta\s+property="og:url"\s+content=")[^"]*(")/,
+      `$1${canonical}$2`
+    ).replace(
+      /(<meta\s+property="og:image"\s+content=")[^"]*(")/,
+      `$1${ogImage}$2`
+    ).replace(
+      /(<meta\s+name="twitter:title"\s+content=")[^"]*(")/,
+      `$1${esc(pageTag)}$2`
+    ).replace(
+      /(<meta\s+name="twitter:image"\s+content=")[^"]*(")/,
+      `$1${ogImage}$2`
+    );
+    if (article) {
+      out = out.replace(
+        /(<meta\s+property="og:type"\s+content=")website(")/,
+        `$1article$2`
+      );
+    }
+    if (pageDesc) {
+      out = out.replace(
+        /(<meta\s+property="og:description"\s+content=")[^"]*(")/,
+        `$1${esc(pageDesc)}$2`
+      ).replace(
+        /(<meta\s+name="twitter:description"\s+content=")[^"]*(")/,
+        `$1${esc(pageDesc)}$2`
+      );
+    }
+    out = out.replace("\n  </head>", `
+    ${headExtras}
+  </head>`);
     const dest = route === "/" ? indexPath : import_node_path.default.join(dist, route.replace(/^\//, ""), "index.html");
     import_node_fs.default.mkdirSync(import_node_path.default.dirname(dest), { recursive: true });
     import_node_fs.default.writeFileSync(dest, out);
