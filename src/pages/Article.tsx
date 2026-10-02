@@ -62,6 +62,16 @@ const RELATED: Record<string, string[]> = {
     "custom-press-on-nail-boxes",
     "custom-perfume-boxes",
   ],
+  "custom-perfume-packaging-guide": [
+    "custom-perfume-boxes",
+    "custom-perfume-sample-card-boxes",
+    "custom-satin-pouches",
+  ],
+  "press-on-nail-packaging-guide": [
+    "custom-press-on-nail-boxes",
+    "custom-eyelash-packaging-boxes",
+    "custom-pvc-bags",
+  ],
 };
 
 function relatedProducts(slug: string | undefined): Product[] {
