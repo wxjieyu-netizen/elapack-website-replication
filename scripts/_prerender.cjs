@@ -3454,27 +3454,94 @@ var RELATED = {
     "custom-eyelash-packaging-boxes"
   ]
 };
+var ANCHORS = {
+  "how-to-choose-a-custom-jewelry-pouch": {
+    "velvet and suede": "custom-velvet-pouches",
+    "cotton, muslin and linen": "custom-cotton-pouches"
+  },
+  "how-to-choose-custom-drawstring-bags": {
+    "muslin bags": "custom-muslin-drawstring-pouch",
+    "velvet and suede": "custom-velvet-pouches",
+    "cotton, muslin and linen": "custom-cotton-pouches"
+  },
+  "custom-hair-extension-packaging-guide": {
+    "drawstring pouch": "custom-satin-wig-bag",
+    "velvet and suede": "custom-velvet-pouches"
+  },
+  "custom-clothing-apparel-packaging-guide": {
+    "velvet and suede": "custom-velvet-pouches"
+  },
+  "how-to-read-a-packaging-specification-sheet": {
+    "a shopping bag": "kraft-paper-shopping-bag",
+    "a ribbon or textile closure": "luxury-gift-box-ribbon"
+  },
+  "how-to-customize-eyelash-boxes": {
+    "eyelash boxes": "custom-eyelash-packaging-boxes",
+    "magnetic flip-top": "magnetic-closure-gift-box"
+  },
+  "hair-extension-packaging-ideas": {
+    "hair extension packaging": "custom-hair-extension-boxes"
+  },
+  "how-to-choose-custom-jewelry-boxes": {
+    "magnetic flip-top": "magnetic-closure-gift-box",
+    "ribbon tie": "luxury-gift-box-ribbon",
+    "faux leather wrap": "black-leather-jewelry-box"
+  },
+  "custom-cosmetic-packaging-guide": {
+    "clear PVC zip bags": "custom-pvc-bags",
+    "magnetic flip-tops": "magnetic-closure-gift-box"
+  },
+  "custom-perfume-packaging-guide": {
+    "rigid perfume boxes": "custom-perfume-boxes",
+    "printed sample cards": "custom-perfume-sample-card-boxes",
+    "satin pouch": "custom-satin-pouches"
+  },
+  "press-on-nail-packaging-guide": {
+    "press-on nail box": "custom-press-on-nail-boxes"
+  },
+  "custom-wig-packaging-guide": {
+    "satin drawstring wig bag": "custom-satin-wig-bag",
+    "magnetic flip-top": "magnetic-closure-gift-box"
+  }
+};
 function relatedProducts(slug) {
   if (!slug) return [];
   return (RELATED[slug] ?? []).map((s) => getProductBySlug(s)).filter((p) => p !== void 0);
 }
-function inline(text, keyPrefix) {
+function linkify(text, keyPrefix, ctx) {
+  const hit = Object.entries(ctx.anchors).filter(([phrase2]) => !ctx.used.has(phrase2) && text.includes(phrase2)).sort((a, b) => text.indexOf(a[0]) - text.indexOf(b[0]) || b[0].length - a[0].length)[0];
+  if (!hit) return [text];
+  const [phrase, slug] = hit;
+  const at = text.indexOf(phrase);
+  ctx.used.add(phrase);
+  return [
+    ...at > 0 ? [text.slice(0, at)] : [],
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_react_router_dom13.Link, { to: `/products/${slug}`, className: "text-link", children: phrase }, `${keyPrefix}-a`),
+    ...linkify(text.slice(at + phrase.length), `${keyPrefix}-r`, ctx)
+  ];
+}
+function inline(text, keyPrefix, ctx) {
   const nodes = [];
+  const push = (segment, key) => {
+    if (ctx) nodes.push(...linkify(segment, key, ctx));
+    else nodes.push(segment);
+  };
   const re = /\*\*(.+?)\*\*|\*(.+?)\*/g;
   let last = 0;
-  let m;
+  let m = null;
   let i = 0;
   while (m = re.exec(text)) {
-    if (m.index > last) nodes.push(text.slice(last, m.index));
+    if (m.index > last) push(text.slice(last, m.index), `${keyPrefix}-t${i}`);
     if (m[1] !== void 0) nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("strong", { children: m[1] }, `${keyPrefix}-b${i}`));
     else nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("em", { children: m[2] }, `${keyPrefix}-i${i}`));
     last = m.index + m[0].length;
     i++;
   }
-  if (last < text.length) nodes.push(text.slice(last));
+  if (last < text.length) push(text.slice(last), `${keyPrefix}-t`);
   return nodes;
 }
-function renderBody(body) {
+function renderBody(body, anchors = {}) {
+  const ctx = { anchors, used: /* @__PURE__ */ new Set() };
   const lines = body.split("\n");
   const out = [];
   let list = null;
@@ -3513,7 +3580,7 @@ function renderBody(body) {
     flush();
     if (line.startsWith("### ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h3", { children: inline(line.slice(4), `h3${out.length}`) }, out.length));
     else if (line.startsWith("## ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: inline(line.slice(3), `h2${out.length}`) }, out.length));
-    else out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { children: inline(line, `p${out.length}`) }, out.length));
+    else out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { children: inline(line, `p${out.length}`, ctx) }, out.length));
   });
   flush();
   return out;
@@ -3543,7 +3610,7 @@ function Article() {
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "section article-section", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container article-container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("figure", { className: "landing-hero reveal", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: article.image, alt: article.imageAlt, width: 1600, height: 1e3 }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-body reveal", children: renderBody(article.body) }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-body reveal", children: renderBody(article.body, ANCHORS[article.slug]) }),
       related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-related reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: "Related products" }),
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("ul", { className: "spec-list", children: related.map((p) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: `/products/${p.slug}`, className: "text-link", children: [
