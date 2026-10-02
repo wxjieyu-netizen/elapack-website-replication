@@ -72,6 +72,16 @@ const RELATED: Record<string, string[]> = {
     "custom-eyelash-packaging-boxes",
     "custom-pvc-bags",
   ],
+  "custom-wig-packaging-guide": [
+    "custom-satin-wig-bag",
+    "custom-hair-extension-boxes",
+    "custom-cotton-envelope-pouches",
+  ],
+  "custom-packaging-samples-guide": [
+    "custom-velvet-pouches",
+    "magnetic-closure-gift-box",
+    "custom-eyelash-packaging-boxes",
+  ],
 };
 
 function relatedProducts(slug: string | undefined): Product[] {
