@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getProductBySlug, products } from "../data/products";
+import { categoryCopy, neutralCopy, faqsFor } from "../data/categoryCopy";
 
 const trustBadges = [
   { icon: "M", label: "Custom Pantone Matching" },
@@ -21,36 +22,6 @@ const processSteps = [
   { step: "09", title: "Quality Inspection & Shipment" },
 ];
 
-const productFaqs = [
-  {
-    q: "What materials are available for custom pouches?",
-    a: "We offer high-quality silk, cotton, velvet, linen, and satin. Each material can be customized with various finishes such as matte, glossy, or textured to match your brand aesthetic.",
-  },
-  {
-    q: "Can I customize the size and shape of the pouches?",
-    a: "Absolutely. We offer standard sizes like 6x8 inches and 4x6 inches, plus fully custom dimensions. Shapes include classic drawstring, flat bottom, zip-top, and bespoke structural designs.",
-  },
-  {
-    q: "Are the pouches eco-friendly?",
-    a: "We offer eco-friendly material options including recycled kraft paper, natural cotton, and linen. Certification documents are available on request.",
-  },
-  {
-    q: "How long does the production process take?",
-    a: "Typical production time is 15–20 days after sample approval. Shipping is by air or by sea from Shanghai or Shenzhen.",
-  },
-  {
-    q: "Can I see a sample before placing a full order?",
-    a: "Yes. Free stock samples ship in 2–3 days. Custom printed samples cost USD 25 plus USD 20 shipping (USD 45 total), are made in 3–5 days, and sample delivery takes 4–7 days.",
-  },
-  {
-    q: "What payment methods do you accept?",
-    a: "We accept T/T (bank transfer) and PayPal.",
-  },
-  {
-    q: "What types of closures are available for the pouches?",
-    a: "We offer drawstring cord, zip-top, magnetic snap, button closure, and ribbon tie closures. Cord materials include silk, cotton, satin, and leather, all color-matched to your brand.",
-  },
-];
 
 export default function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -83,6 +54,8 @@ export default function ProductDetail() {
     .filter((p) => p.category === product.category && p.slug !== product.slug)
     .slice(0, 4);
 
+  const copy = categoryCopy[product.category] ?? neutralCopy;
+  const faqs = faqsFor(product.category);
   return (
     <>
       {/* Breadcrumb */}
@@ -233,34 +206,25 @@ export default function ProductDetail() {
         <div className="container">
           <div className="section-header-center reveal">
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-              The Importance of Luxury Jewelry Pouches in Your Jewelry Store
+              {copy.importanceTitle}
             </h2>
             <p className="product-description-text" style={{ maxWidth: "760px", margin: "1.5rem auto 0" }}>
-              In the competitive world of jewelry, every detail contributes to the customer experience, and luxury jewelry pouches play a crucial role. These stylish and carefully designed pouches go beyond aesthetics, offering several key benefits for jewelry stores:
+              {copy.importanceIntro}
             </p>
           </div>
           <div className="product-benefits-grid">
-            <div className="product-benefit-card reveal">
-              <span className="product-benefit-num">01</span>
-              <h3 className="product-benefit-title">Elevating Customer Experience</h3>
-              <p className="product-benefit-desc">
-                When customers receive their jewelry in a plush and luxurious pouch, it enhances the overall experience and makes them feel that they are acquiring something truly special.
-              </p>
-            </div>
-            <div className="product-benefit-card reveal reveal-delay-2">
-              <span className="product-benefit-num">02</span>
-              <h3 className="product-benefit-title">Protection and Preservation</h3>
-              <p className="product-benefit-desc">
-                These pouches provide an added layer of protection. They shield delicate and valuable pieces from potential scratches, dust, and damage, ensuring that the jewelry remains in pristine condition until it reaches the customer's hands.
-              </p>
-            </div>
-            <div className="product-benefit-card reveal reveal-delay-3">
-              <span className="product-benefit-num">03</span>
-              <h3 className="product-benefit-title">Subtle Branding Opportunity</h3>
-              <p className="product-benefit-desc">
-                Luxury jewelry pouches can serve as a discreet branding tool. By incorporating your jewelry store's logo or design on the pouch, you not only reinforce your brand's identity but also create a lasting impression on customers.
-              </p>
-            </div>
+            {copy.benefits.map((benefit, i) => (
+              <div
+                key={benefit.title}
+                className={`product-benefit-card reveal ${i === 1 ? "reveal-delay-2" : i === 2 ? "reveal-delay-3" : ""}`}
+              >
+                <span className="product-benefit-num">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <h3 className="product-benefit-title">{benefit.title}</h3>
+                <p className="product-benefit-desc">{benefit.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -272,26 +236,22 @@ export default function ProductDetail() {
             <div className="product-customize-bags-image reveal">
               <img
                 src="/custom-options.webp"
-                alt="Customize your jewelry bags"
+                alt={`Customize your ${copy.noun}`}
                 loading="lazy"
               />
             </div>
             <div className="product-customize-bags-content reveal reveal-delay-2">
               <p className="eyebrow">100% Customization</p>
               <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-                Customize Your Jewelry Bags
+                {copy.customizeTitle}
               </h2>
-              <p className="product-description-text">
-                At ELAPACK, we understand the importance of tailoring every detail to suit your unique style and preferences. If you don't find a compelling solution among the ones proposed, we also offer the possibility of 100% customized jewelry pouches wholesale.
-              </p>
-              <p className="product-description-text">
-                You can always request a highly customized project in line with your style and wishes: we will be happy to find you the right solution to satisfy your needs and your customers' preferences.
-              </p>
-              <p className="product-description-text">
-                Whether it's a specific color, texture, or design, we're dedicated to crafting solutions that exceed your expectations and resonate with your customers' preferences. Moreover, you can add to your jewelry pouches your logo and your graphics, creating packaging that totally reflects your brand and its characteristics.
-              </p>
+              {copy.customizeParas.map((para) => (
+                <p key={para.slice(0, 24)} className="product-description-text">
+                  {para}
+                </p>
+              ))}
               <Link to="/contact" className="btn-primary" style={{ marginTop: "0.5rem" }}>
-                Customize Your Pouches
+                {copy.customizeCta}
               </Link>
             </div>
           </div>
@@ -384,7 +344,7 @@ export default function ProductDetail() {
             </h2>
           </div>
           <div className="faq-list reveal reveal-delay-1">
-            {productFaqs.map((faq, i) => (
+            {faqs.map((faq, i) => (
               <div
                 key={faq.q}
                 className={`faq-item ${openFaq === i ? "is-open" : ""}`}

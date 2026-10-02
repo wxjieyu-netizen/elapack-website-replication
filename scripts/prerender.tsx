@@ -20,6 +20,7 @@ import { StaticRouter } from "react-router-dom/server";
 import { AppRoutes } from "../src/App";
 import { articles as ARTICLES } from "../src/data/articles";
 import { products as PRODUCTS } from "../src/data/products";
+import { faqsFor } from "../src/data/categoryCopy";
 
 const dist = path.resolve(__dirname, "../dist");
 const indexPath = path.join(dist, "index.html");
@@ -221,8 +222,22 @@ for (const route of ROUTES) {
         image: [ogImage],
         sku: product.slug,
         category: product.category,
+        material: product.materials,
         brand: { "@type": "Brand", name: "ELAPACK" },
+        additionalProperty: [
+          { "@type": "PropertyValue", name: "Minimum Order Quantity", value: product.moq },
+          { "@type": "PropertyValue", name: "Lead Time", value: product.leadTime },
+        ],
         mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
+      });
+      graph.push({
+        "@type": "FAQPage",
+        "@id": `${canonical}#faq`,
+        mainEntity: faqsFor(product.category).map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
       });
     }
 

@@ -32,6 +32,7 @@ var import_server2 = require("react-router-dom/server");
 var import_react_router_dom16 = require("react-router-dom");
 
 // src/components/Layout.tsx
+var import_react4 = require("react");
 var import_react_router_dom5 = require("react-router-dom");
 
 // src/components/Header.tsx
@@ -1433,11 +1434,27 @@ function useScrollToTop() {
   }, [pathname]);
 }
 
+// src/lib/track.ts
+function track(name, params = {}) {
+  const w = window;
+  w.gtag?.("event", name, params);
+}
+
 // src/components/Layout.tsx
 var import_jsx_runtime4 = require("react/jsx-runtime");
 function Layout({ children }) {
   useScrollReveal();
   useScrollToTop();
+  (0, import_react4.useEffect)(() => {
+    const onClick = (e) => {
+      const anchor = e.target.closest?.("a");
+      if (anchor && anchor.href.startsWith("https://wa.me/")) {
+        track("whatsapp_click", { link: anchor.href });
+      }
+    };
+    document.addEventListener("click", onClick);
+    return () => document.removeEventListener("click", onClick);
+  }, []);
   return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "app", children: [
     /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Header, {}),
     /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("main", { className: "main-content", children: children ?? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(import_react_router_dom5.Outlet, {}) }),
@@ -1446,7 +1463,7 @@ function Layout({ children }) {
 }
 
 // src/pages/Home.tsx
-var import_react4 = require("react");
+var import_react5 = require("react");
 var import_react_router_dom6 = require("react-router-dom");
 var import_jsx_runtime5 = require("react/jsx-runtime");
 var featuredSlugs = [
@@ -1571,9 +1588,9 @@ var caseStudies = [
   }
 ];
 function Home() {
-  const [activeSlide, setActiveSlide] = (0, import_react4.useState)(0);
-  const introVideoRef = (0, import_react4.useRef)(null);
-  const [introPaused, setIntroPaused] = (0, import_react4.useState)(false);
+  const [activeSlide, setActiveSlide] = (0, import_react5.useState)(0);
+  const introVideoRef = (0, import_react5.useRef)(null);
+  const [introPaused, setIntroPaused] = (0, import_react5.useState)(false);
   const toggleIntroVideo = () => {
     const video = introVideoRef.current;
     if (!video) return;
@@ -1919,14 +1936,14 @@ function Home() {
 }
 
 // src/pages/Products.tsx
-var import_react5 = require("react");
+var import_react6 = require("react");
 var import_react_router_dom7 = require("react-router-dom");
 var import_jsx_runtime6 = require("react/jsx-runtime");
 function Products() {
   const [searchParams, setSearchParams] = (0, import_react_router_dom7.useSearchParams)();
   const categoryParam = searchParams.get("category") || "All";
-  const [activeCategory, setActiveCategory] = (0, import_react5.useState)(categoryParam);
-  (0, import_react5.useEffect)(() => {
+  const [activeCategory, setActiveCategory] = (0, import_react6.useState)(categoryParam);
+  (0, import_react6.useEffect)(() => {
     setActiveCategory(categoryParam);
   }, [categoryParam]);
   const handleCategoryChange = (cat) => {
@@ -2016,8 +2033,191 @@ function Products() {
 }
 
 // src/pages/ProductDetail.tsx
-var import_react6 = require("react");
+var import_react7 = require("react");
 var import_react_router_dom8 = require("react-router-dom");
+
+// src/data/categoryCopy.ts
+var boxesCopy = {
+  noun: "boxes",
+  importanceTitle: "The Importance of Custom Boxes in Your Brand Experience",
+  importanceIntro: "A box is the first physical touch a customer has with your product, and a well-built rigid box does three jobs at once \u2014 quietly:",
+  benefits: [
+    {
+      title: "An Unboxing Customers Remember",
+      desc: "Weight, structure and finish are read in seconds. A considered box signals a considered product before it is even opened."
+    },
+    {
+      title: "Protection and Preservation",
+      desc: "Rigid board construction with tailored inserts keeps each piece stable in transit and in store \u2014 no shifting, no scratches, no damaged stock."
+    },
+    {
+      title: "Subtle Branding Opportunity",
+      desc: "Embossing, foil stamping and color-matched linings carry your identity without a word, and reinforce it every time the box is opened."
+    }
+  ],
+  customizeTitle: "Customize Your Boxes",
+  customizeParas: [
+    "At ELAPACK, every element of a custom box is specified around your product: exterior material, interior lining, insert layout, closure and surface finish. If none of our standard configurations fits, we build the structure from scratch.",
+    "You can always request a fully custom project in line with your brand: we will propose the right board, lining and printing method to match your product and your budget.",
+    "Whether it is a specific Pantone tone, a foil accent, or an insert with exact cavity positions for your pieces, we are dedicated to crafting a box that reflects your brand \u2014 with your logo and graphics placed exactly where they belong."
+  ],
+  customizeCta: "Customize Your Boxes",
+  faqMaterials: {
+    q: "What materials are available for custom boxes?",
+    a: "Exteriors in velvet, leatherette, satin, wood, MDF and genuine leather; interiors in velvet, satin, suede, microfiber or flocked fabric; inserts in foam, EVA, molded plastic or recycled paper. Finishes include matte, glossy, debossed, foil stamping and spot UV."
+  },
+  faqSizes: {
+    q: "Can I customize the size and structure of the boxes?",
+    a: "Absolutely. Boxes are built to your product dimensions \u2014 lid-and-base, flip-top, sleeve-drawer and bespoke structures. Insert cavities are cut to hold each piece exactly, and fully custom dimensions are welcome."
+  },
+  faqClosures: {
+    q: "What closure types are available for the boxes?",
+    a: "Magnetic flip-top, snap, tuck flap, ribbon tie and drawer constructions. Closures can be combined \u2014 for example a magnetic lid with a ribbon pull \u2014 and all hardware is color-matched to your brand."
+  }
+};
+var pouchesCopy = {
+  noun: "pouches and bags",
+  importanceTitle: "The Importance of Custom Pouches and Bags in Your Brand Experience",
+  importanceIntro: "In competitive retail, every detail contributes to the customer experience, and a well-made pouch or bag carries that experience beyond the store. Thoughtfully designed packaging offers several key benefits for brands:",
+  benefits: [
+    {
+      title: "Elevating Customer Experience",
+      desc: "When customers receive their purchase in a plush, well-finished pouch, it enhances the overall experience and makes them feel they are acquiring something truly special."
+    },
+    {
+      title: "Protection and Preservation",
+      desc: "Soft textile and durable paper constructions shield delicate and valuable pieces from scratches, dust and damage, keeping the product pristine until it reaches the customer's hands."
+    },
+    {
+      title: "Subtle Branding Opportunity",
+      desc: "A pouch or bag serves as a discreet branding tool. Your logo or design reinforces brand identity at every use and creates a lasting impression on customers."
+    }
+  ],
+  customizeTitle: "Customize Your Bags & Pouches",
+  customizeParas: [
+    "At ELAPACK, we understand the importance of tailoring every detail to suit your unique style and preferences. If you don't find a compelling solution among the ones proposed, we also offer the possibility of 100% customized pouches and bags wholesale.",
+    "You can always request a highly customized project in line with your style and wishes: we will be happy to find you the right solution to satisfy your needs and your customers' preferences.",
+    "Whether it's a specific color, texture, or design, we're dedicated to crafting solutions that exceed your expectations and resonate with your customers' preferences. Moreover, you can add your logo and your graphics, creating packaging that totally reflects your brand and its characteristics."
+  ],
+  customizeCta: "Customize Your Pouches",
+  faqMaterials: {
+    q: "What materials are available for custom pouches?",
+    a: "We offer high-quality silk, cotton, velvet, linen, and satin. Each material can be customized with various finishes such as matte, glossy, or textured to match your brand aesthetic."
+  },
+  faqSizes: {
+    q: "Can I customize the size and shape of the pouches?",
+    a: "Absolutely. We offer standard sizes like 6x8 inches and 4x6 inches, plus fully custom dimensions. Shapes include classic drawstring, flat bottom, zip-top, and bespoke structural designs."
+  },
+  faqClosures: {
+    q: "What types of closures are available for the pouches?",
+    a: "We offer drawstring cord, zip-top, magnetic snap, button closure, and ribbon tie closures. Cord materials include silk, cotton, satin, and leather, all color-matched to your brand."
+  }
+};
+var setsCopy = {
+  noun: "sets",
+  importanceTitle: "The Importance of Coordinated Packaging Sets in Your Brand Experience",
+  importanceIntro: "A collection of boxes, pouches and bags designed as one system tells customers the brand thinks in systems. Coordinated sets offer several key benefits:",
+  benefits: [
+    {
+      title: "One Consistent Brand Voice",
+      desc: "Matching materials, colors and finishes across every touchpoint \u2014 from retail display to gift wrap \u2014 so the brand reads the same everywhere it is met."
+    },
+    {
+      title: "Retail-Ready Presentation",
+      desc: "Display stands, boxes and pouches sized to work together present the collection as intended, in the showcase and in the unboxing alike."
+    },
+    {
+      title: "One Supplier, One Standard",
+      desc: "A complete set from a single production partner means one quality standard, one timeline and one point of contact for the whole collection."
+    }
+  ],
+  customizeTitle: "Customize Your Packaging Set",
+  customizeParas: [
+    "At ELAPACK, a set is designed as one project: box, pouch, bag and display elements share a material and color story specified around your brand.",
+    "You can request a fully coordinated collection \u2014 or start with one element and expand. We will propose the right combination of structures and textiles to match your products and budget.",
+    "Whether it is a specific Pantone tone carried from rigid box to velvet pouch, or a logo placed consistently across every piece, the set is crafted to reflect your brand at each touchpoint."
+  ],
+  customizeCta: "Customize Your Set",
+  faqMaterials: {
+    q: "What materials are available for packaging sets?",
+    a: "Sets combine our box and textile lines: rigid exteriors in velvet, leatherette, satin or MDF with velvet, satin or suede linings, paired with color-matched fabric pouches, bags and display pieces."
+  },
+  faqSizes: {
+    q: "Can I customize the sizes across the set?",
+    a: "Yes. Each element is sized to your product \u2014 box cavity, pouch dimensions and bag capacity are specified together so the collection works as one system."
+  },
+  faqClosures: {
+    q: "What closure options are available across a set?",
+    a: "Closures span both lines \u2014 magnetic flip-top or drawer boxes, drawstring or zip pouches, ribbon ties \u2014 coordinated so every opening gesture feels consistent."
+  }
+};
+var neutralCopy = {
+  noun: "products",
+  importanceTitle: "The Importance of Custom Packaging in Your Brand Experience",
+  importanceIntro: "Custom packaging is the first physical touch a customer has with your brand, and well-designed packaging works hard for it:",
+  benefits: [
+    {
+      title: "Elevating Customer Experience",
+      desc: "Packaging that fits the product and the brand makes every purchase feel considered and complete."
+    },
+    {
+      title: "Protection and Preservation",
+      desc: "The right material and structure shield the product from scratches, dust and damage until it reaches the customer's hands."
+    },
+    {
+      title: "Subtle Branding Opportunity",
+      desc: "Your logo and design, placed on packaging the customer keeps, reinforce brand identity long after the sale."
+    }
+  ],
+  customizeTitle: "Customize Your Packaging",
+  customizeParas: [
+    "At ELAPACK, every element of your packaging is specified around your product and brand \u2014 materials, structure, finish and print.",
+    "You can always request a fully custom project in line with your style and wishes: we will propose the right solution for your needs and budget.",
+    "Whether it's a specific color, texture, or design, we're dedicated to crafting packaging that reflects your brand \u2014 with your logo and graphics placed exactly where they belong."
+  ],
+  customizeCta: "Customize Your Packaging",
+  faqMaterials: {
+    q: "What materials are available for custom packaging?",
+    a: "Our lines cover rigid box exteriors with velvet, satin or suede linings, textile pouches in silk, cotton, velvet, linen and satin, and paper bags in recycled kraft \u2014 each customizable with matte, glossy or textured finishes."
+  },
+  faqSizes: {
+    q: "Can I customize the size and shape of my packaging?",
+    a: "Absolutely. Standard sizes and fully custom dimensions are both available, with structures and shapes built around your product."
+  },
+  faqClosures: {
+    q: "What closure options are available?",
+    a: "Drawstring cord, zip-top, magnetic flip-top, snap, button and ribbon tie closures \u2014 all color-matched to your brand."
+  }
+};
+var categoryCopy = {
+  Boxes: boxesCopy,
+  "Pouches & Bags": pouchesCopy,
+  "Sets & Complete Packaging": setsCopy
+};
+var ECO_FAQ_ANSWER = "We offer eco-friendly material options including recycled kraft paper, natural cotton, and linen. Certification documents are available on request.";
+function faqsFor(category) {
+  const c = categoryCopy[category] ?? neutralCopy;
+  return [
+    c.faqMaterials,
+    c.faqSizes,
+    c.faqClosures,
+    { q: `Are the ${c.noun} eco-friendly?`, a: ECO_FAQ_ANSWER },
+    {
+      q: "How long does the production process take?",
+      a: "Typical production time is 15\u201320 days after sample approval. Shipping is by air or by sea from Shanghai or Shenzhen."
+    },
+    {
+      q: "Can I see a sample before placing a full order?",
+      a: "Yes. Free stock samples ship in 2\u20133 days. Custom printed samples cost USD 25 plus USD 20 shipping (USD 45 total), are made in 3\u20135 days, and sample delivery takes 4\u20137 days."
+    },
+    {
+      q: "What payment methods do you accept?",
+      a: "We accept T/T (bank transfer) and PayPal."
+    }
+  ];
+}
+
+// src/pages/ProductDetail.tsx
 var import_jsx_runtime7 = require("react/jsx-runtime");
 var trustBadges = [
   { icon: "M", label: "Custom Pantone Matching" },
@@ -2036,40 +2236,10 @@ var processSteps = [
   { step: "08", title: "Mass Production" },
   { step: "09", title: "Quality Inspection & Shipment" }
 ];
-var productFaqs = [
-  {
-    q: "What materials are available for custom pouches?",
-    a: "We offer high-quality silk, cotton, velvet, linen, and satin. Each material can be customized with various finishes such as matte, glossy, or textured to match your brand aesthetic."
-  },
-  {
-    q: "Can I customize the size and shape of the pouches?",
-    a: "Absolutely. We offer standard sizes like 6x8 inches and 4x6 inches, plus fully custom dimensions. Shapes include classic drawstring, flat bottom, zip-top, and bespoke structural designs."
-  },
-  {
-    q: "Are the pouches eco-friendly?",
-    a: "We offer eco-friendly material options including recycled kraft paper, natural cotton, and linen. Certification documents are available on request."
-  },
-  {
-    q: "How long does the production process take?",
-    a: "Typical production time is 15\u201320 days after sample approval. Shipping is by air or by sea from Shanghai or Shenzhen."
-  },
-  {
-    q: "Can I see a sample before placing a full order?",
-    a: "Yes. Free stock samples ship in 2\u20133 days. Custom printed samples cost USD 25 plus USD 20 shipping (USD 45 total), are made in 3\u20135 days, and sample delivery takes 4\u20137 days."
-  },
-  {
-    q: "What payment methods do you accept?",
-    a: "We accept T/T (bank transfer) and PayPal."
-  },
-  {
-    q: "What types of closures are available for the pouches?",
-    a: "We offer drawstring cord, zip-top, magnetic snap, button closure, and ribbon tie closures. Cord materials include silk, cotton, satin, and leather, all color-matched to your brand."
-  }
-];
 function ProductDetail() {
   const { slug } = (0, import_react_router_dom8.useParams)();
   const product = slug ? getProductBySlug(slug) : void 0;
-  const [openFaq, setOpenFaq] = (0, import_react6.useState)(0);
+  const [openFaq, setOpenFaq] = (0, import_react7.useState)(0);
   if (!product) {
     return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
       "section",
@@ -2088,6 +2258,8 @@ function ProductDetail() {
     );
   }
   const related = products.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4);
+  const copy = categoryCopy[product.category] ?? neutralCopy;
+  const faqs2 = faqsFor(product.category);
   return /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(import_jsx_runtime7.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "breadcrumb-bar", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("nav", { className: "breadcrumb", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/", children: "Home" }),
@@ -2173,43 +2345,36 @@ function ProductDetail() {
     ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-importance-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "The Importance of Luxury Jewelry Pouches in Your Jewelry Store" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", style: { maxWidth: "760px", margin: "1.5rem auto 0" }, children: "In the competitive world of jewelry, every detail contributes to the customer experience, and luxury jewelry pouches play a crucial role. These stylish and carefully designed pouches go beyond aesthetics, offering several key benefits for jewelry stores:" })
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: copy.importanceTitle }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", style: { maxWidth: "760px", margin: "1.5rem auto 0" }, children: copy.importanceIntro })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-benefits-grid", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-benefit-card reveal", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-benefit-num", children: "01" }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-benefit-title", children: "Elevating Customer Experience" }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-benefit-desc", children: "When customers receive their jewelry in a plush and luxurious pouch, it enhances the overall experience and makes them feel that they are acquiring something truly special." })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-benefit-card reveal reveal-delay-2", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-benefit-num", children: "02" }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-benefit-title", children: "Protection and Preservation" }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-benefit-desc", children: "These pouches provide an added layer of protection. They shield delicate and valuable pieces from potential scratches, dust, and damage, ensuring that the jewelry remains in pristine condition until it reaches the customer's hands." })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-benefit-card reveal reveal-delay-3", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-benefit-num", children: "03" }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-benefit-title", children: "Subtle Branding Opportunity" }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-benefit-desc", children: "Luxury jewelry pouches can serve as a discreet branding tool. By incorporating your jewelry store's logo or design on the pouch, you not only reinforce your brand's identity but also create a lasting impression on customers." })
-        ] })
-      ] })
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-benefits-grid", children: copy.benefits.map((benefit, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
+        "div",
+        {
+          className: `product-benefit-card reveal ${i === 1 ? "reveal-delay-2" : i === 2 ? "reveal-delay-3" : ""}`,
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-benefit-num", children: String(i + 1).padStart(2, "0") }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-benefit-title", children: benefit.title }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-benefit-desc", children: benefit.desc })
+          ]
+        },
+        benefit.title
+      )) })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-customize-bags-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-customize-bags-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-customize-bags-image reveal", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
         "img",
         {
           src: "/custom-options.webp",
-          alt: "Customize your jewelry bags",
+          alt: `Customize your ${copy.noun}`,
           loading: "lazy"
         }
       ) }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-customize-bags-content reveal reveal-delay-2", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "100% Customization" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Customize Your Jewelry Bags" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", children: "At ELAPACK, we understand the importance of tailoring every detail to suit your unique style and preferences. If you don't find a compelling solution among the ones proposed, we also offer the possibility of 100% customized jewelry pouches wholesale." }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", children: "You can always request a highly customized project in line with your style and wishes: we will be happy to find you the right solution to satisfy your needs and your customers' preferences." }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", children: "Whether it's a specific color, texture, or design, we're dedicated to crafting solutions that exceed your expectations and resonate with your customers' preferences. Moreover, you can add to your jewelry pouches your logo and your graphics, creating packaging that totally reflects your brand and its characteristics." }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-primary", style: { marginTop: "0.5rem" }, children: "Customize Your Pouches" })
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: copy.customizeTitle }),
+        copy.customizeParas.map((para) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", children: para }, para.slice(0, 24))),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-primary", style: { marginTop: "0.5rem" }, children: copy.customizeCta })
       ] })
     ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-features-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
@@ -2261,7 +2426,7 @@ function ProductDetail() {
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Questions & Answers" }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently Asked Questions" })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "faq-list reveal reveal-delay-1", children: productFaqs.map((faq, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "faq-list reveal reveal-delay-1", children: faqs2.map((faq, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
         "div",
         {
           className: `faq-item ${openFaq === i ? "is-open" : ""}`,
@@ -2332,7 +2497,7 @@ function ProductDetail() {
 }
 
 // src/pages/Industries.tsx
-var import_react7 = require("react");
+var import_react8 = require("react");
 var import_react_router_dom9 = require("react-router-dom");
 var import_jsx_runtime8 = require("react/jsx-runtime");
 var industryContent = {
@@ -2410,8 +2575,8 @@ var industryContent = {
 function Industries() {
   const [searchParams, setSearchParams] = (0, import_react_router_dom9.useSearchParams)();
   const activeSector = searchParams.get("sector") || null;
-  const [selected, setSelected] = (0, import_react7.useState)(activeSector);
-  (0, import_react7.useEffect)(() => {
+  const [selected, setSelected] = (0, import_react8.useState)(activeSector);
+  (0, import_react8.useEffect)(() => {
     setSelected(activeSector);
   }, [activeSector]);
   const handleSelect = (ind) => {
@@ -2531,7 +2696,7 @@ function Industries() {
 }
 
 // src/pages/Solutions.tsx
-var import_react8 = require("react");
+var import_react9 = require("react");
 var import_react_router_dom10 = require("react-router-dom");
 var import_jsx_runtime9 = require("react/jsx-runtime");
 var solutionContent = {
@@ -2631,8 +2796,8 @@ var solutionContent = {
 function Solutions() {
   const [searchParams, setSearchParams] = (0, import_react_router_dom10.useSearchParams)();
   const activeTopic = searchParams.get("topic") || null;
-  const [selected, setSelected] = (0, import_react8.useState)(activeTopic);
-  (0, import_react8.useEffect)(() => {
+  const [selected, setSelected] = (0, import_react9.useState)(activeTopic);
+  (0, import_react9.useEffect)(() => {
     setSelected(activeTopic);
   }, [activeTopic]);
   const handleSelect = (sol) => {
@@ -2714,7 +2879,7 @@ function Solutions() {
 }
 
 // src/pages/About.tsx
-var import_react9 = require("react");
+var import_react10 = require("react");
 var import_react_router_dom11 = require("react-router-dom");
 var import_jsx_runtime10 = require("react/jsx-runtime");
 var milestones = [
@@ -2750,8 +2915,8 @@ var markets = [
   "Fashion & Apparel"
 ];
 function About() {
-  const videoRef = (0, import_react9.useRef)(null);
-  const videoWrapperRef = (0, import_react9.useRef)(null);
+  const videoRef = (0, import_react10.useRef)(null);
+  const videoWrapperRef = (0, import_react10.useRef)(null);
   const togglePlay = () => {
     const video = videoRef.current;
     if (!video) return;
@@ -3628,8 +3793,10 @@ function Article() {
 }
 
 // src/pages/Contact.tsx
-var import_react10 = require("react");
+var import_react11 = require("react");
 var import_jsx_runtime13 = require("react/jsx-runtime");
+var WEB3FORMS_KEY = "TO_BE_PROVIDED";
+var WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 var contactInfo = [
   {
     label: "Phone",
@@ -3671,11 +3838,29 @@ var projectTypes = [
   "Other"
 ];
 function Contact() {
-  const [submitted, setSubmitted] = (0, import_react10.useState)(false);
-  const [selectedType, setSelectedType] = (0, import_react10.useState)("");
-  const handleSubmit = (e) => {
+  const [submitted, setSubmitted] = (0, import_react11.useState)(false);
+  const [sending, setSending] = (0, import_react11.useState)(false);
+  const [failed, setFailed] = (0, import_react11.useState)(false);
+  const [selectedType, setSelectedType] = (0, import_react11.useState)("");
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSending(true);
+    setFailed(false);
+    try {
+      const data = new FormData(e.currentTarget);
+      data.append("access_key", WEB3FORMS_KEY);
+      data.append("subject", "New inquiry from elapack.com");
+      data.append("from_name", "ELAPACK Website");
+      const res = await fetch(WEB3FORMS_ENDPOINT, { method: "POST", body: data });
+      const json = await res.json().catch(() => ({ success: false }));
+      if (!res.ok || !json.success) throw new Error(json.message || "send failed");
+      track("generate_lead", { form: "contact" });
+      setSubmitted(true);
+    } catch {
+      setFailed(true);
+    } finally {
+      setSending(false);
+    }
   };
   return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(import_jsx_runtime13.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container", children: [
@@ -3724,6 +3909,24 @@ function Contact() {
       ] }) : /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("form", { className: "contact-form", onSubmit: handleSubmit, children: [
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "contact-heading", children: "Request a Quote" }),
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-form-intro", children: "Share your project details and we'll prepare a tailored proposal for you." }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+          "input",
+          {
+            type: "checkbox",
+            name: "botcheck",
+            tabIndex: -1,
+            autoComplete: "off",
+            style: { display: "none" }
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+          "input",
+          {
+            type: "hidden",
+            name: "project_type",
+            value: selectedType || "Not specified"
+          }
+        ),
         /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
           /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
             /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "name", children: "Full Name *" }),
@@ -3731,6 +3934,7 @@ function Contact() {
               "input",
               {
                 id: "name",
+                name: "name",
                 type: "text",
                 required: true,
                 placeholder: "Jane Doe"
@@ -3743,6 +3947,7 @@ function Contact() {
               "input",
               {
                 id: "company",
+                name: "company",
                 type: "text",
                 placeholder: "Your brand name"
               }
@@ -3756,6 +3961,7 @@ function Contact() {
               "input",
               {
                 id: "email",
+                name: "email",
                 type: "email",
                 required: true,
                 placeholder: "jane@brand.com"
@@ -3768,6 +3974,7 @@ function Contact() {
               "input",
               {
                 id: "phone",
+                name: "phone",
                 type: "tel",
                 placeholder: "+1 555 000 0000"
               }
@@ -3793,6 +4000,7 @@ function Contact() {
             "input",
             {
               id: "quantity",
+              name: "quantity",
               type: "text",
               placeholder: "e.g. 5,000 pcs"
             }
@@ -3804,20 +4012,42 @@ function Contact() {
             "textarea",
             {
               id: "message",
+              name: "message",
               required: true,
               rows: 5,
               placeholder: "Tell us about your brand, your packaging needs, timelines, and any specific materials or finishes you're considering."
             }
           )
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("button", { type: "submit", className: "btn-primary btn-full", children: "Submit Request" })
+        failed && /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(
+          "p",
+          {
+            className: "contact-form-error",
+            style: { color: "#b3261e", margin: "0 0 1rem" },
+            children: [
+              "Something went wrong sending your message. Please email us directly at",
+              " ",
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" }),
+              "."
+            ]
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+          "button",
+          {
+            type: "submit",
+            className: "btn-primary btn-full",
+            disabled: sending,
+            children: sending ? "Sending\u2026" : "Submit Request"
+          }
+        )
       ] }) })
     ] }) }) })
   ] });
 }
 
 // src/pages/Video.tsx
-var import_react11 = require("react");
+var import_react12 = require("react");
 var import_react_router_dom14 = require("react-router-dom");
 var import_jsx_runtime14 = require("react/jsx-runtime");
 var processSteps2 = [
@@ -3937,7 +4167,7 @@ var faqs = [
   }
 ];
 function Video() {
-  const [openFaq, setOpenFaq] = (0, import_react11.useState)(0);
+  const [openFaq, setOpenFaq] = (0, import_react12.useState)(0);
   return /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(import_jsx_runtime14.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "page-header custom-solution-header", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow reveal", children: "Custom Solutions" }),
@@ -4108,7 +4338,7 @@ function Video() {
 }
 
 // src/pages/Landing.tsx
-var import_react12 = require("react");
+var import_react13 = require("react");
 
 // src/data/landings.ts
 var HOW_IT_WORKS_SHARED = [
@@ -4303,7 +4533,7 @@ var getLandingBySlug = (slug) => landings.find((l) => l.slug === slug);
 var import_jsx_runtime15 = require("react/jsx-runtime");
 function Landing({ slug }) {
   const landing = getLandingBySlug(slug);
-  (0, import_react12.useEffect)(() => {
+  (0, import_react13.useEffect)(() => {
     if (landing) document.title = `${landing.eyebrow} | ELAPACK`;
   }, [landing]);
   if (!landing) return null;
@@ -4377,7 +4607,7 @@ function Landing({ slug }) {
 }
 
 // src/pages/Collection.tsx
-var import_react13 = require("react");
+var import_react14 = require("react");
 var import_react_router_dom15 = require("react-router-dom");
 
 // src/data/collections.ts
@@ -4957,7 +5187,7 @@ function getCollectionBySlug(slug) {
 var import_jsx_runtime16 = require("react/jsx-runtime");
 function Collection({ slug }) {
   const collection = getCollectionBySlug(slug);
-  (0, import_react13.useEffect)(() => {
+  (0, import_react14.useEffect)(() => {
     if (collection) document.title = `${collection.eyebrow} | ELAPACK`;
   }, [collection]);
   if (!collection) return null;
@@ -5214,8 +5444,22 @@ for (const route of ROUTES) {
         image: [ogImage],
         sku: product.slug,
         category: product.category,
+        material: product.materials,
         brand: { "@type": "Brand", name: "ELAPACK" },
+        additionalProperty: [
+          { "@type": "PropertyValue", name: "Minimum Order Quantity", value: product.moq },
+          { "@type": "PropertyValue", name: "Lead Time", value: product.leadTime }
+        ],
         mainEntityOfPage: { "@type": "WebPage", "@id": canonical }
+      });
+      graph.push({
+        "@type": "FAQPage",
+        "@id": `${canonical}#faq`,
+        mainEntity: faqsFor(product.category).map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a }
+        }))
       });
     }
     const headExtras = [

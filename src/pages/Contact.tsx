@@ -1,4 +1,14 @@
 import { useState } from "react";
+import { track } from "../lib/track";
+
+/**
+ * Web3Forms access key. Public by design (static site, no backend): it can
+ * only deliver mail to our own inbox, is domain-restricted in the Web3Forms
+ * dashboard and can be rotated/revoked there at any time.
+ */
+const WEB3FORMS_KEY = "TO_BE_PROVIDED";
+
+const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 
 const contactInfo = [
   {
@@ -44,11 +54,29 @@ const projectTypes = [
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [failed, setFailed] = useState(false);
   const [selectedType, setSelectedType] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSending(true);
+    setFailed(false);
+    try {
+      const data = new FormData(e.currentTarget);
+      data.append("access_key", WEB3FORMS_KEY);
+      data.append("subject", "New inquiry from elapack.com");
+      data.append("from_name", "ELAPACK Website");
+      const res = await fetch(WEB3FORMS_ENDPOINT, { method: "POST", body: data });
+      const json = await res.json().catch(() => ({ success: false }));
+      if (!res.ok || !json.success) throw new Error(json.message || "send failed");
+      track("generate_lead", { form: "contact" });
+      setSubmitted(true);
+    } catch {
+      setFailed(true);
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -140,11 +168,26 @@ export default function Contact() {
                     proposal for you.
                   </p>
 
+                  {/* Honeypot: humans never see it, bots fill it and get dropped. */}
+                  <input
+                    type="checkbox"
+                    name="botcheck"
+                    tabIndex={-1}
+                    autoComplete="off"
+                    style={{ display: "none" }}
+                  />
+                  <input
+                    type="hidden"
+                    name="project_type"
+                    value={selectedType || "Not specified"}
+                  />
+
                   <div className="form-row">
                     <div className="form-group">
                       <label htmlFor="name">Full Name *</label>
                       <input
                         id="name"
+                        name="name"
                         type="text"
                         required
                         placeholder="Jane Doe"
@@ -154,6 +197,7 @@ export default function Contact() {
                       <label htmlFor="company">Company / Brand</label>
                       <input
                         id="company"
+                        name="company"
                         type="text"
                         placeholder="Your brand name"
                       />
@@ -165,6 +209,7 @@ export default function Contact() {
                       <label htmlFor="email">Email *</label>
                       <input
                         id="email"
+                        name="email"
                         type="email"
                         required
                         placeholder="jane@brand.com"
@@ -174,6 +219,7 @@ export default function Contact() {
                       <label htmlFor="phone">Phone / WhatsApp</label>
                       <input
                         id="phone"
+                        name="phone"
                         type="tel"
                         placeholder="+1 555 000 0000"
                       />
@@ -200,6 +246,7 @@ export default function Contact() {
                     <label htmlFor="quantity">Estimated Quantity</label>
                     <input
                       id="quantity"
+                      name="quantity"
                       type="text"
                       placeholder="e.g. 5,000 pcs"
                     />
@@ -209,14 +256,30 @@ export default function Contact() {
                     <label htmlFor="message">Project Details *</label>
                     <textarea
                       id="message"
+                      name="message"
                       required
                       rows={5}
                       placeholder="Tell us about your brand, your packaging needs, timelines, and any specific materials or finishes you're considering."
                     />
                   </div>
 
-                  <button type="submit" className="btn-primary btn-full">
-                    Submit Request
+                  {failed && (
+                    <p
+                      className="contact-form-error"
+                      style={{ color: "#b3261e", margin: "0 0 1rem" }}
+                    >
+                      Something went wrong sending your message. Please email
+                      us directly at{" "}
+                      <a href="mailto:tina@elapack.com">tina@elapack.com</a>.
+                    </p>
+                  )}
+
+                  <button
+                    type="submit"
+                    className="btn-primary btn-full"
+                    disabled={sending}
+                  >
+                    {sending ? "Sending…" : "Submit Request"}
                   </button>
                 </form>
               )}
