@@ -84,6 +84,63 @@ const RELATED: Record<string, string[]> = {
   ],
 };
 
+/**
+ * Curated in-text anchors: article slug → { phrase: product slug }.
+ * The first occurrence of each phrase in a body paragraph becomes a text
+ * link to that product page; headings, lists and later occurrences stay
+ * plain so links read naturally and never cluster.
+ */
+const ANCHORS: Record<string, Record<string, string>> = {
+  "how-to-choose-a-custom-jewelry-pouch": {
+    "velvet and suede": "custom-velvet-pouches",
+    "cotton, muslin and linen": "custom-cotton-pouches",
+  },
+  "how-to-choose-custom-drawstring-bags": {
+    "muslin bags": "custom-muslin-drawstring-pouch",
+    "velvet and suede": "custom-velvet-pouches",
+    "cotton, muslin and linen": "custom-cotton-pouches",
+  },
+  "custom-hair-extension-packaging-guide": {
+    "drawstring pouch": "custom-satin-wig-bag",
+    "velvet and suede": "custom-velvet-pouches",
+  },
+  "custom-clothing-apparel-packaging-guide": {
+    "velvet and suede": "custom-velvet-pouches",
+  },
+  "how-to-read-a-packaging-specification-sheet": {
+    "a shopping bag": "kraft-paper-shopping-bag",
+    "a ribbon or textile closure": "luxury-gift-box-ribbon",
+  },
+  "how-to-customize-eyelash-boxes": {
+    "eyelash boxes": "custom-eyelash-packaging-boxes",
+    "magnetic flip-top": "magnetic-closure-gift-box",
+  },
+  "hair-extension-packaging-ideas": {
+    "hair extension packaging": "custom-hair-extension-boxes",
+  },
+  "how-to-choose-custom-jewelry-boxes": {
+    "magnetic flip-top": "magnetic-closure-gift-box",
+    "ribbon tie": "luxury-gift-box-ribbon",
+    "faux leather wrap": "black-leather-jewelry-box",
+  },
+  "custom-cosmetic-packaging-guide": {
+    "clear PVC zip bags": "custom-pvc-bags",
+    "magnetic flip-tops": "magnetic-closure-gift-box",
+  },
+  "custom-perfume-packaging-guide": {
+    "rigid perfume boxes": "custom-perfume-boxes",
+    "printed sample cards": "custom-perfume-sample-card-boxes",
+    "satin pouch": "custom-satin-pouches",
+  },
+  "press-on-nail-packaging-guide": {
+    "press-on nail box": "custom-press-on-nail-boxes",
+  },
+  "custom-wig-packaging-guide": {
+    "satin drawstring wig bag": "custom-satin-wig-bag",
+    "magnetic flip-top": "magnetic-closure-gift-box",
+  },
+};
+
 function relatedProducts(slug: string | undefined): Product[] {
   if (!slug) return [];
   return (RELATED[slug] ?? [])
@@ -91,25 +148,51 @@ function relatedProducts(slug: string | undefined): Product[] {
     .filter((p): p is Product => p !== undefined);
 }
 
-/** Render **bold** and *italic* inline markup. */
-function inline(text: string, keyPrefix: string): ReactNode[] {
+/** In-text anchor context: phrase → product slug map plus which phrases already linked. */
+type AnchorCtx = { anchors: Record<string, string>; used: Set<string> };
+
+/** Link the earliest unused anchor phrase in `text`, then recurse over the rest. */
+function linkify(text: string, keyPrefix: string, ctx: AnchorCtx): ReactNode[] {
+  const hit = Object.entries(ctx.anchors)
+    .filter(([phrase]) => !ctx.used.has(phrase) && text.includes(phrase))
+    .sort((a, b) => text.indexOf(a[0]) - text.indexOf(b[0]) || b[0].length - a[0].length)[0];
+  if (!hit) return [text];
+  const [phrase, slug] = hit;
+  const at = text.indexOf(phrase);
+  ctx.used.add(phrase);
+  return [
+    ...(at > 0 ? [text.slice(0, at)] : []),
+    <Link key={`${keyPrefix}-a`} to={`/products/${slug}`} className="text-link">
+      {phrase}
+    </Link>,
+    ...linkify(text.slice(at + phrase.length), `${keyPrefix}-r`, ctx),
+  ];
+}
+
+/** Render **bold** and *italic* inline markup, plus in-text anchors when ctx is given. */
+function inline(text: string, keyPrefix: string, ctx?: AnchorCtx): ReactNode[] {
   const nodes: ReactNode[] = [];
+  const push = (segment: string, key: string) => {
+    if (ctx) nodes.push(...linkify(segment, key, ctx));
+    else nodes.push(segment);
+  };
   const re = /\*\*(.+?)\*\*|\*(.+?)\*/g;
   let last = 0;
-  let m: RegExpExecArray | null;
+  let m: RegExpExecArray | null = null;
   let i = 0;
   while ((m = re.exec(text))) {
-    if (m.index > last) nodes.push(text.slice(last, m.index));
+    if (m.index > last) push(text.slice(last, m.index), `${keyPrefix}-t${i}`);
     if (m[1] !== undefined) nodes.push(<strong key={`${keyPrefix}-b${i}`}>{m[1]}</strong>);
     else nodes.push(<em key={`${keyPrefix}-i${i}`}>{m[2]}</em>);
     last = m.index + m[0].length;
     i++;
   }
-  if (last < text.length) nodes.push(text.slice(last));
+  if (last < text.length) push(text.slice(last), `${keyPrefix}-t`);
   return nodes;
 }
 
-function renderBody(body: string): ReactNode[] {
+function renderBody(body: string, anchors: Record<string, string> = {}): ReactNode[] {
+  const ctx: AnchorCtx = { anchors, used: new Set() };
   const lines = body.split("\n");
   const out: ReactNode[] = [];
   let list: { ordered: boolean; items: string[] } | null = null;
@@ -154,7 +237,7 @@ function renderBody(body: string): ReactNode[] {
     flush();
     if (line.startsWith("### ")) out.push(<h3 key={out.length}>{inline(line.slice(4), `h3${out.length}`)}</h3>);
     else if (line.startsWith("## ")) out.push(<h2 key={out.length}>{inline(line.slice(3), `h2${out.length}`)}</h2>);
-    else out.push(<p key={out.length}>{inline(line, `p${out.length}`)}</p>);
+    else out.push(<p key={out.length}>{inline(line, `p${out.length}`, ctx)}</p>);
   });
   flush();
   return out;
@@ -197,7 +280,7 @@ export default function Article() {
           <figure className="landing-hero reveal">
             <img src={article.image} alt={article.imageAlt} width={1600} height={1000} />
           </figure>
-          <div className="article-body reveal">{renderBody(article.body)}</div>
+          <div className="article-body reveal">{renderBody(article.body, ANCHORS[article.slug])}</div>
           {related.length > 0 && (
             <div className="article-related reveal">
               <h2>Related products</h2>
