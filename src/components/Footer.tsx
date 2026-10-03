@@ -63,7 +63,10 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} ELAPACK. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} ELAPACK. All rights reserved. ELAPACK
+            is a brand of Wuxi Magic Packaging Co., Ltd.
+          </p>
           <p className="footer-locale">Serving Europe & North America · English</p>
         </div>
       </div>

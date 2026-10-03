@@ -203,6 +203,7 @@ for (const route of ROUTES) {
         publisher: {
           "@type": "Organization",
           name: "ELAPACK",
+          legalName: "Wuxi Magic Packaging Co., Ltd",
           logo: {
             "@type": "ImageObject",
             url: `${SITE}/apple-touch-icon.png`,
