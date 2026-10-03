@@ -6,7 +6,7 @@ import { track } from "../lib/track";
  * only deliver mail to our own inbox, is domain-restricted in the Web3Forms
  * dashboard and can be rotated/revoked there at any time.
  */
-const WEB3FORMS_KEY = "TO_BE_PROVIDED";
+const WEB3FORMS_KEY = "7532f731-6678-43dd-9553-7c18090e71d5";
 
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 

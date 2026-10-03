@@ -3795,7 +3795,7 @@ function Article() {
 // src/pages/Contact.tsx
 var import_react11 = require("react");
 var import_jsx_runtime13 = require("react/jsx-runtime");
-var WEB3FORMS_KEY = "TO_BE_PROVIDED";
+var WEB3FORMS_KEY = "7532f731-6678-43dd-9553-7c18090e71d5";
 var WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 var contactInfo = [
   {
