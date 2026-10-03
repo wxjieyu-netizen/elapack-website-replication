@@ -3898,6 +3898,44 @@ function Contact() {
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "success-icon", children: "\u2713" }),
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h3", { className: "success-title", children: "Thank you." }),
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "success-text", children: "Your message has been received. A member of our team will reach out within one business day." }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "success-text", children: "While you wait, here are a few ways to move faster:" }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-list", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-icon", children: "\u{1F4AC}" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-label", children: "Need an answer today?" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+                "a",
+                {
+                  href: "https://wa.me/8618626352096",
+                  className: "contact-value",
+                  children: "Message us on WhatsApp"
+                }
+              )
+            ] })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-icon", children: "\u25C8" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-label", children: "Preparing your brief?" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", { href: "/products", className: "contact-value", children: "Browse all products & materials" })
+            ] })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-icon", children: "\u2709" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-label", children: "Have files to share?" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+                "a",
+                {
+                  href: "mailto:tina@elapack.com",
+                  className: "contact-value",
+                  children: "Email us directly with artwork or specs"
+                }
+              )
+            ] })
+          ] })
+        ] }),
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
           "button",
           {

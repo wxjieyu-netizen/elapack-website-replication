@@ -1,3 +1,27 @@
+# ELAPACK — search engines and AI crawlers are welcome.
+# The blanket rule below already allows every crawler; the named AI bot
+# groups exist to make that explicit and self-documenting.
+
+# --- AI search crawlers (visibility in AI answers) ---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# --- Everything else (Googlebot, Bingbot, ...) ---
 User-agent: *
 Allow: /
 

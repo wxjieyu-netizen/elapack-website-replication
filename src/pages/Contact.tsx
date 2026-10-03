@@ -153,6 +153,50 @@ export default function Contact() {
                     Your message has been received. A member of our team will
                     reach out within one business day.
                   </p>
+                  <p className="success-text">
+                    While you wait, here are a few ways to move faster:
+                  </p>
+                  <div className="contact-list">
+                    <div className="contact-item">
+                      <span className="contact-icon">💬</span>
+                      <div className="contact-item-body">
+                        <span className="contact-label">
+                          Need an answer today?
+                        </span>
+                        <a
+                          href="https://wa.me/8618626352096"
+                          className="contact-value"
+                        >
+                          Message us on WhatsApp
+                        </a>
+                      </div>
+                    </div>
+                    <div className="contact-item">
+                      <span className="contact-icon">◈</span>
+                      <div className="contact-item-body">
+                        <span className="contact-label">
+                          Preparing your brief?
+                        </span>
+                        <a href="/products" className="contact-value">
+                          Browse all products &amp; materials
+                        </a>
+                      </div>
+                    </div>
+                    <div className="contact-item">
+                      <span className="contact-icon">✉</span>
+                      <div className="contact-item-body">
+                        <span className="contact-label">
+                          Have files to share?
+                        </span>
+                        <a
+                          href="mailto:tina@elapack.com"
+                          className="contact-value"
+                        >
+                          Email us directly with artwork or specs
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                   <button
                     className="btn-outline"
                     onClick={() => setSubmitted(false)}
