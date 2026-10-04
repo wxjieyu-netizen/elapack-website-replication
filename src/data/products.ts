@@ -5,6 +5,8 @@ export type Product = {
   shortDesc: string;
   description: string;
   image: string;
+  /** Optional extra gallery photos after the hero; falls back to [image]. */
+  gallery?: string[];
   materials: string;
   moq: string;
   leadTime: string;
@@ -247,8 +249,18 @@ export const products: Product[] = [
     shortDesc:
       "Custom eyelash packaging boxes with your logo — three stock formats or fully custom sizes, from 200 pieces.",
     description:
-      "Custom eyelash packaging boxes for lash brands, salons and wholesalers. Built around your lash trays — strip lashes, volume trays or extension programs — with fitted inserts that hold each tray in place and a printed wrap that carries your brand at retail and in unboxing. Three stock formats cover the common tray sizes: 14×10×6, 15×15×5 and 20×18×8 cm, and any dimension can be made to spec. MOQ from 200 pieces with your logo printed, foil-stamped or embossed. Product photography is in progress; request a stock sample to judge the board and print quality in hand.",
-    image: "/images/placeholder/product-coming-soon.svg",
+      "Custom eyelash packaging boxes for false eyelash brands, salons and wholesalers — from single-pair retail boxes to empty wholesale packaging for full lash lines. Built around your lash trays — strip lashes, volume trays or extension programs — with fitted inserts that hold each tray in place for storage, transit and shelf, and a printed wrap that carries your brand at retail and in unboxing. Three stock formats cover the common tray sizes: 14×10×6, 15×15×5 and 20×18×8 cm, and any dimension can be made to spec. MOQ from 200 pieces with your logo printed, foil-stamped or embossed. Request a stock sample to judge the board and print quality in hand.",
+    image: "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-hero.jpg",
+    gallery: [
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-hero.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-01.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-02.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-03.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-04.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-05.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-scene-01.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-scene-02.jpg",
+    ],
     materials: "Rigid paperboard with custom printed wrap, fitted lash tray inserts",
     moq: "200 pcs",
     leadTime: "15–20 days",

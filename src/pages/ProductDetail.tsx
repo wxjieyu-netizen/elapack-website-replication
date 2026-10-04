@@ -27,6 +27,8 @@ export default function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
   const product = slug ? getProductBySlug(slug) : undefined;
   const [openFaq, setOpenFaq] = useState<number | null>(0);
+  const [activeImg, setActiveImg] = useState(0);
+  const galleryImgs = product?.gallery?.length ? product.gallery : product ? [product.image] : [];
 
   if (!product) {
     return (
@@ -77,17 +79,20 @@ export default function ProductDetail() {
           <div className="product-detail-grid">
             <div className="product-detail-gallery reveal">
               <div className="product-gallery-main">
-                <img src={product.image} alt={product.name} />
+                <img src={galleryImgs[activeImg] ?? product.image} alt={product.name} />
                 <span className="product-detail-category">
                   {product.category}
                 </span>
               </div>
               <div className="product-gallery-thumbs">
-                {[product.image]
+                {galleryImgs
                   .map((img, i) => (
                     <div
                       key={i}
-                      className={`product-gallery-thumb ${i === 0 ? "is-active" : ""}`}
+                      className={`product-gallery-thumb ${i === activeImg ? "is-active" : ""}`}
+                      onClick={() => setActiveImg(i)}
+                      role="button"
+                      aria-label={`View photo ${i + 1}`}
                     >
                       <img src={img} alt={`${product.name} view ${i + 1}`} loading="lazy" />
                     </div>
