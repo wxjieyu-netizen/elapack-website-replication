@@ -3897,3 +3897,8 @@ a.contact-value:hover {
 .article-related .spec-list { flex-direction: column; gap: 0.5rem; }
 .news-card-link { text-decoration: none; color: inherit; display: block; }
 .news-guides-head { margin: 4rem 0 1.5rem; text-align: center; }
+.article-table-wrap { overflow-x: auto; margin: 0 0 1.3rem; }
+.article-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; line-height: 1.55; }
+.article-table th, .article-table td { border: 1px solid rgba(24, 18, 12, 0.16); padding: 0.55rem 0.8rem; text-align: left; vertical-align: top; }
+.article-table th { background: rgba(24, 18, 12, 0.05); font-weight: 600; }
+.article-table tbody tr:nth-child(even) td { background: rgba(24, 18, 12, 0.025); }

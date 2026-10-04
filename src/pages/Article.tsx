@@ -91,6 +91,12 @@ const RELATED: Record<string, string[]> = {
  * plain so links read naturally and never cluster.
  */
 const ANCHORS: Record<string, Record<string, string>> = {
+  "custom-packaging-moq-sample-lead-times-2026": {
+    "custom drawstring bags": "custom-muslin-drawstring-pouch",
+    "custom eyelash packaging": "custom-eyelash-packaging-boxes",
+    "custom perfume boxes": "custom-perfume-boxes",
+    "Jewellery pouches": "custom-velvet-pouches",
+  },
   "how-to-choose-a-custom-jewelry-pouch": {
     "velvet and suede": "custom-velvet-pouches",
     "cotton, muslin and linen": "custom-cotton-pouches",
@@ -191,6 +197,13 @@ function inline(text: string, keyPrefix: string, ctx?: AnchorCtx): ReactNode[] {
   return nodes;
 }
 
+/** True for a markdown pipe-table row like `| a | b |`. */
+const isTableRow = (line: string) => /^\|.*\|$/.test(line.trim());
+/** True for the separator row like `| --- | --- |`. */
+const isTableDivider = (line: string) => /^\|(\s*:?-{3,}:?\s*\|)+$/.test(line.trim());
+const splitRow = (line: string) =>
+  line.trim().slice(1, -1).split("|").map((c) => c.trim());
+
 function renderBody(body: string, anchors: Record<string, string> = {}): ReactNode[] {
   const ctx: AnchorCtx = { anchors, used: new Set() };
   const lines = body.split("\n");
@@ -210,8 +223,37 @@ function renderBody(body: string, anchors: Record<string, string> = {}): ReactNo
     list = null;
   };
 
+  const flushTable = () => {
+    const rows = tableRows.map(splitRow);
+    tableRows = [];
+    out.push(
+      <div className="article-table-wrap" key={`tw${out.length}`}>
+        <table className="article-table">
+          <thead>
+            <tr>{rows[0].map((h, i) => <th key={i}>{inline(h, `th${out.length}-${i}`)}</th>)}</tr>
+          </thead>
+          <tbody>
+            {rows.slice(1).map((r, ri) => (
+              <tr key={ri}>{r.map((c, ci) => <td key={ci}>{inline(c, `td${out.length}-${ri}-${ci}`)}</td>)}</tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  };
+
+  let tableRows: string[] = [];
+
   lines.forEach((raw) => {
     const line = raw.trimEnd();
+    if (isTableRow(line)) {
+      if (tableRows.length === 1 && isTableDivider(line)) return; // header divider consumed
+      if (isTableDivider(line)) return;
+      flush();
+      tableRows.push(line);
+      return;
+    }
+    if (tableRows.length) flushTable();
     if (!line.trim()) {
       flush();
       return;
@@ -239,6 +281,7 @@ function renderBody(body: string, anchors: Record<string, string> = {}): ReactNo
     else if (line.startsWith("## ")) out.push(<h2 key={out.length}>{inline(line.slice(3), `h2${out.length}`)}</h2>);
     else out.push(<p key={out.length}>{inline(line, `p${out.length}`, ctx)}</p>);
   });
+  if (tableRows.length) flushTable();
   flush();
   return out;
 }
