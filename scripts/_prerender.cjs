@@ -3459,6 +3459,154 @@ These figures come from a manufacturer, not a trading desk: ELAPACK has produced
 ## How to use this page
 
 Treat every number here as a baseline to check other quotations against, not as a ceiling on what is possible. Quantities above 50,000 pieces, unusual materials, and compressed calendars are all quotable \u2014 the answer arrives as a written specification with the numbers that apply to your order. Start from the pages for the product you are sourcing \u2014 custom drawstring bags, custom eyelash packaging or custom perfume boxes \u2014 or the samples guide for the method behind the sample figures.`
+  },
+  {
+    "slug": "valentines-day-packaging-timeline",
+    "datePublished": "2026-10-05",
+    "title": "Valentine's Day Packaging Timeline: When to Order Boxes, Pouches and Cards",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "6 min read",
+    "image": "/images/factory/elapack-02.jpg",
+    "imageAlt": "Packaging samples laid out for review at a factory sample table",
+    "excerpt": "A Valentine's box is a calendar problem before it is a design problem. Count back from February 14 through packing, freight, 15\u201320 day production, sampling and artwork.",
+    "metaDescription": "A dated ordering timeline for Valentine's subscription box packaging \u2014 count back from February 14 through pack week, air or sea freight, 15\u201320 day production and the sample round.",
+    "body": `*The planning method in this guide is generic sourcing practice. Clocks stated as ELAPACK figures are the factory's confirmed 2026 trade terms; subscriber-side dates describe common market patterns, not promises about any fulfilment partner.*
+
+This guide is for founders and packaging buyers at subscription box programmes \u2014 candle, beauty, jewellery or gift clubs \u2014 planning a February 14 drop and needing to know when the packaging has to be ordered. If your question is theme design, supplier selection or pricing, stop here: this page does not design your box or choose a vendor. **A Valentine's box is a calendar problem before it is a design problem: artwork can be fixed overnight, a missed production slot cannot.** Work backwards from February 14 with the clocks below and you will finish with a dated order plan you can hold a supplier to.
+
+## Why Valentine's boxes miss the date
+
+A February drop has one constraint the rest of the year does not: every subscriber expects delivery before February 14, and the market's shipping patterns compress everything upstream of it.
+
+1. A subscription founder plans a Valentine's edition and briefs the theme in January.
+2. The quote comes back fine, but the 15\u201320 day production has not started \u2014 and the sample round has not happened.
+3. **The box that misses its production slot arrives as plain stock, as an air-freight premium, or as a February 20 "Valentine's" box \u2014 and subscribers notice all three.**
+4. The edition still ships, but the margin pays for air freight or the brand pays in look.
+5. Next season the same calendar repeats, because the lesson was filed as bad luck.
+6. The task on this page is to replace luck with arithmetic: count back from February 14 through packing, freight, production, sampling and artwork.
+
+The fix is not urgency. It is arithmetic done early, while every option is still open.
+
+## Count back from February 14
+
+**Build the calendar backwards; every upstream date is forced by the one after it.** Each step ends with the question that date has to answer. Figures marked as ELAPACK's are confirmed factory terms: production 15\u201320 days for runs of 200\u201320,000 pieces; custom samples built in 3\u20135 days with 4\u20137 days courier transit; dispatch from Shanghai or Shenzhen by air or by sea.
+
+### Step 1 \u2014 Subscriber delivery: the week of February 8
+
+Common market pattern: programmes set order cutoffs in late January and pack the February box in the first days of the month, so boxes reach subscribers roughly February 7\u201313. The question your fulfilment calendar answers: which day must the packed box leave your pack site?
+
+### Step 2 \u2014 Packing week: packaging on site by late January
+
+Packing a themed box \u2014 box, pouch, insert card, ribbon \u2014 takes days at volume, and finished packaging must be at the pack site in the last week of January. The question: how many domestic transit days from port or airport to your pack site does your forwarder quote?
+
+### Step 3 \u2014 Freight from China: air in days, sea in weeks
+
+Boxes leave Shanghai or Shenzhen by air or by sea. Air freight is counted in days and priced at a premium; sea freight is counted in weeks and priced for volume. Get both quotes in writing with transit days \u2014 this one choice moves your production deadline by weeks. The question: does this edition's volume justify air, or does the calendar only work if production finishes earlier and the boxes sail?
+
+### Step 4 \u2014 Production: 15\u201320 days, starting early January
+
+For subscription box packaging to be ready for a late-January dispatch with air freight, ELAPACK's confirmed 15\u201320 day production window has to start in the first ten days of January \u2014 counted from sample approval and deposit, not from first contact. The question: does your quantity, theme change or material sit inside standard terms, or does the quote need to state its own clock?
+
+### Step 5 \u2014 Sample approval: the two weeks before production
+
+A custom sample round at ELAPACK \u2014 USD 25 for the sample plus USD 20 shipping, built in 3\u20135 days from confirmed artwork, 4\u20137 days in transit \u2014 lands in roughly two weeks including a revision look. For approval before an early-January production start, the sample round runs in mid-December. The question: is your artwork confirmed enough that the sample is an approval, not a discovery?
+
+### Step 6 \u2014 Artwork and dieline: locked in early December
+
+Theme artwork and dieline \u2014 box structure, pouch size, card format \u2014 must be final before the sample is built, which is what makes the mid-December sample real. The question your team answers: who signs off artwork, and by which date?
+
+Read the chain together and the honest headline is: **the Valentine's calendar starts in early December, not January.** Reading this in October means you are early \u2014 spend the margin on theme design and dieline confirmation. Reading it in January means air freight and simplified structures are the honest paths, and the plan should say so out loud.
+
+## When a timeline that looks right still slips
+
+**A calendar with no buffer is a plan to miss by exactly one delay.** Three boundaries keep this page honest:
+
+- Every ELAPACK clock above starts from confirmed artwork or sample approval. A late approval moves every date after it, silently.
+- Cutoffs and pack weeks above describe common market patterns; your fulfilment partner's calendar is the one that counts. Confirm it in writing.
+- Sea-versus-air decided late is air at premium rates. Decide it while both options still exist.
+
+## The dated order plan
+
+Nothing on this page collects your data or sends anything. **Fill the dated plan for your edition from your own fulfilment calendar.** Copy the lines below into your own note:
+
+1. Subscriber delivery deadline: the date boxes must be in subscribers' hands, before February 14.
+2. Dispatch from pack site: your pack-and-ship day, from your fulfilment calendar.
+3. Packaging on site: dispatch date minus pack days and domestic transit.
+4. Freight choice: air or sea from Shanghai or Shenzhen, with written transit days.
+5. Production start: on-site date minus 15\u201320 days (ELAPACK standard, to 20,000 pieces; larger runs quoted).
+6. Sample approval date: production start minus a two-week custom sample round (USD 45 all-in).
+7. Artwork and dieline lock: the date theme files and dieline are final \u2014 the date the whole chain really starts.
+
+Keep the note local, and send it to your supplier through your existing approved contact process. With the dates filled, ordering a Valentine's edition stops being a bet on goodwill and becomes a schedule both sides signed \u2014 which is what a recurring programme runs on.`
+  },
+  {
+    "slug": "subscription-box-packaging-cost",
+    "datePublished": "2026-10-05",
+    "title": "How Much Does Subscription Box Packaging Cost? A Worked Breakdown",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "6 min read",
+    "image": "/images/factory/elapack-01.jpg",
+    "imageAlt": "Stacks of finished custom boxes on a factory production line",
+    "excerpt": 'A budget built from one "per box" benchmark is a guess. Cost assembles in four layers \u2014 box, contents, one-time items, volume \u2014 and the levers live in the spec.',
+    "metaDescription": "Subscription box packaging cost built layer by layer \u2014 box structure, pouches, insert cards, one-time tooling and volume breaks \u2014 with the seven-line spec that makes quotes comparable.",
+    "body": `*Industry price references in this guide are published third-party benchmarks and vary by market and volume. ELAPACK's own figures are its confirmed trade terms \u2014 MOQ, sample fees, lead times \u2014 stated as such; unit prices are quoted per specification, never announced.*
+
+This guide is for founders and packaging buyers at subscription box programmes budgeting the monthly box, its pouches and insert cards, who need a cost structure they can defend before quotes arrive. If your question is design or supplier selection, stop here: this page does not pick a vendor or price your exact specification. **A budget built from a single "per box" benchmark is a guess; subscription packaging cost is assembled in layers, and the levers live in the specification, not in the benchmark.** Work through the four layers below and you will finish with a budget frame and the seven-line spec that makes quotes comparable.
+
+## Why packaging budgets miss
+
+A monthly box looks like one purchase, so it gets budgeted as one number. Then the quote arrives at two or three times the benchmark \u2014 not because anyone cheated, but because the benchmark described a different specification in every layer.
+
+1. A founder budgets "about a dollar a box" from a blog benchmark.
+2. Quotes come back for a magnetic-closure rigid box with foil, a velvet pouch and a printed card \u2014 a different product in every layer.
+3. **The benchmark was never wrong; it was attached to the wrong specification, so every comparison built on it is meaningless.**
+4. The edition ships cheap and looks it, or ships right and eats a margin nobody modelled.
+5. Next month the same argument repeats, because the budget was a number, not a structure.
+6. The task on this page is to replace the single number with a layered frame \u2014 and the spec list that makes two quotes comparable line by line.
+
+## Four layers that build the cost
+
+**Read the cost as layers \u2014 box, contents, one-time items, volume \u2014 and budget each on purpose.** Each layer ends with the question your specification has to answer.
+
+### Layer 1 \u2014 The box itself
+
+Published benchmarks put box manufacturing at roughly USD 0.60\u20132.50 per unit depending on structure and quality, and a filled box \u2014 box, filler, inserts \u2014 at USD 2\u20134 at typical customisation. Structure moves the number most: a folding carton that ships flat sits toward the low end; a rigid lift-off lid in greyboard (commonly produced at 800\u20131,600 g) sits at the top; a magnetic flip-top lands between. Size is the quiet multiplier \u2014 a box grown two centimetres in every dimension grows board, print area and freight at once. The question: which structure does the unboxing actually require, and is every centimetre earning its freight?
+
+### Layer 2 \u2014 What goes inside
+
+The pouch that holds the jewellery, votive or mini carries a fabric cost driven by material band \u2014 satin 60\u2013120 gsm, muslin 100\u2013200 gsm, cotton 200\u2013400 gsm, velvet as a 0.8\u20132.0 mm composite \u2014 with print or label added per piece. Insert cards print to the monthly theme; EVA, sponge and pulp inserts are usually the smallest lines on the sheet. The question: does each inside item carry a job \u2014 protect, present, brand \u2014 or is it there because last month's box had one?
+
+### Layer 3 \u2014 One-time versus every month
+
+This layer decides whether a programme is expensive or cheap. One-time: the dieline and structural decisions, confirmed at the first sample round (ELAPACK custom sample: USD 25 plus USD 20 shipping, built in 3\u20135 days). Recurring: artwork and theme print. **The core economy of a subscription programme: confirm the dieline once, and monthly themes become print changes on a proven structure \u2014 the expensive decisions stop recurring.** Ask any supplier which tooling, plate or setup charges recur when only the artwork changes, and put the answer in the budget in writing. The question: has your structure been confirmed once, or is your programme re-deciding it every month?
+
+### Layer 4 \u2014 Volume and the MOQ floor
+
+Quantity is the biggest lever on unit cost across every layer \u2014 published references run from about USD 0.45 per box for materials at high volume to several dollars for bespoke rigid work. ELAPACK's floor is 200 pieces across all product lines, so a theme can be tested at 200 per variant instead of one oversized run; production runs 15\u201320 days at 200\u201320,000 pieces and 20\u201325 days toward 50,000. The question: is this month's quantity sized to what the theme proved, or to a volume discount you cannot yet use?
+
+## When a cheap quote is expensive
+
+**The lowest unit price is not the lowest cost; the spec you cannot see is where budgets die.** Three boundaries keep this page honest:
+
+- A quotation without material bands \u2014 "satin pouch" with no gsm \u2014 has not fixed the variable that moves price and hand-feel most. Ask for the weight in writing.
+- Tooling and plate charges that recur with every theme turn a cheap monthly unit price expensive by winter. Ask which charges are one-time.
+- Ex-works versus landed: confirm what a quoted price includes \u2014 freight terms from Shanghai or Shenzhen, and who pays each leg \u2014 before comparing two numbers as if they were the same kind of number.
+
+## The seven-line budget spec
+
+Nothing on this page collects your data or sends anything. **Fill the spec frame before you request quotes, so quotations arrive comparable.** Copy the lines below into your own note:
+
+1. Box: structure (folding carton, magnetic flip-top, rigid lift-off lid), finished size in cm, board weight if rigid.
+2. Pouch: fabric and band (for example cotton 200\u2013400 gsm), finished size, closure.
+3. Cards: format, printed sides, finish.
+4. Inserts: material (EVA, sponge, pulp) or none.
+5. Quantity: per variant and total, against the 200-piece floor.
+6. One-time items: dieline, tooling, plates \u2014 each marked one-time or recurring.
+7. Theme changes: what changes monthly (artwork only?) and what that change costs.
+
+Keep the note local, and send it to your supplier through your existing approved contact process. With the frame filled, the cost of subscription box packaging stops being a benchmark argument and becomes a line-by-line comparison \u2014 the only kind a recurring budget survives.`
   }
 ]);
 function getArticleBySlug(slug) {
@@ -3682,6 +3830,16 @@ var RELATED = {
     "custom-velvet-pouches",
     "magnetic-closure-gift-box",
     "custom-eyelash-packaging-boxes"
+  ],
+  "valentines-day-packaging-timeline": [
+    "magnetic-closure-gift-box",
+    "custom-velvet-pouches",
+    "luxury-gift-box-ribbon"
+  ],
+  "subscription-box-packaging-cost": [
+    "magnetic-closure-gift-box",
+    "custom-velvet-pouches",
+    "custom-cotton-pouches"
   ]
 };
 var ANCHORS = {
@@ -3738,6 +3896,12 @@ var ANCHORS = {
   "custom-wig-packaging-guide": {
     "satin drawstring wig bag": "custom-satin-wig-bag",
     "magnetic flip-top": "magnetic-closure-gift-box"
+  },
+  "valentines-day-packaging-timeline": {
+    "subscription box packaging": "/subscription-box-packaging"
+  },
+  "subscription-box-packaging-cost": {
+    "subscription box packaging": "/subscription-box-packaging"
   }
 };
 function relatedProducts(slug) {
@@ -3752,7 +3916,7 @@ function linkify(text, keyPrefix, ctx) {
   ctx.used.add(phrase);
   return [
     ...at > 0 ? [text.slice(0, at)] : [],
-    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_react_router_dom13.Link, { to: `/products/${slug}`, className: "text-link", children: phrase }, `${keyPrefix}-a`),
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_react_router_dom13.Link, { to: slug.startsWith("/") ? slug : `/products/${slug}`, className: "text-link", children: phrase }, `${keyPrefix}-a`),
     ...linkify(text.slice(at + phrase.length), `${keyPrefix}-r`, ctx)
   ];
 }

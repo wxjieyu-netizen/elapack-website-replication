@@ -82,6 +82,16 @@ const RELATED: Record<string, string[]> = {
     "magnetic-closure-gift-box",
     "custom-eyelash-packaging-boxes",
   ],
+  "valentines-day-packaging-timeline": [
+    "magnetic-closure-gift-box",
+    "custom-velvet-pouches",
+    "luxury-gift-box-ribbon",
+  ],
+  "subscription-box-packaging-cost": [
+    "magnetic-closure-gift-box",
+    "custom-velvet-pouches",
+    "custom-cotton-pouches",
+  ],
 };
 
 /**
@@ -145,6 +155,12 @@ const ANCHORS: Record<string, Record<string, string>> = {
     "satin drawstring wig bag": "custom-satin-wig-bag",
     "magnetic flip-top": "magnetic-closure-gift-box",
   },
+  "valentines-day-packaging-timeline": {
+    "subscription box packaging": "/subscription-box-packaging",
+  },
+  "subscription-box-packaging-cost": {
+    "subscription box packaging": "/subscription-box-packaging",
+  },
 };
 
 function relatedProducts(slug: string | undefined): Product[] {
@@ -168,7 +184,7 @@ function linkify(text: string, keyPrefix: string, ctx: AnchorCtx): ReactNode[] {
   ctx.used.add(phrase);
   return [
     ...(at > 0 ? [text.slice(0, at)] : []),
-    <Link key={`${keyPrefix}-a`} to={`/products/${slug}`} className="text-link">
+    <Link key={`${keyPrefix}-a`} to={slug.startsWith("/") ? slug : `/products/${slug}`} className="text-link">
       {phrase}
     </Link>,
     ...linkify(text.slice(at + phrase.length), `${keyPrefix}-r`, ctx),
