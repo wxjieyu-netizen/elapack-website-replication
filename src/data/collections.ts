@@ -615,6 +615,71 @@ export const collections: Collection[] = [
     ],
     ctaTitle: "Request a quote for your cosmetic pouches",
   },
+  {
+    slug: "subscription-box-packaging",
+    eyebrow: "Subscription Box Packaging",
+    h1: "Custom Subscription Box Packaging: Boxes, Pouches & Insert Cards",
+    subhead:
+      "Monthly themed boxes, fabric pouches and insert cards for subscription programs — one manufacturer, matched branding, from 200 pieces.",
+    metaDescription:
+      "Custom subscription box packaging from one manufacturer — printed boxes, fabric pouches and insert cards for monthly themed programs. Pantone-matched, MOQ from 200 pieces, free stock samples.",
+    intro:
+      "ELAPACK makes subscription box packaging for box programs shipping to the US and Europe. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products, we make the three pieces of a monthly box in one place — the printed box, the fabric pouches that hold small items, and the insert cards that carry your theme — so colours and branding match across every drop.",
+    sections: [
+      {
+        heading: "Monthly box structures",
+        items: [
+          { title: "Folding cartons", desc: "Printed paperboard that ships and stores flat — practical for recurring monthly runs." },
+          { title: "Magnetic flip-top", desc: "A clean open-close ritual for premium tiers and annual gift editions." },
+          { title: "Rigid lift-off lid", desc: "Thick board with a premium feel for flagship and collector boxes." },
+          { title: "Custom structures", desc: "Your dieline built to your product dimensions and packing line." },
+        ],
+      },
+      {
+        heading: "Inside the box",
+        items: [
+          { title: "Fabric pouches", desc: "Velvet, cotton and muslin drawstring pouches for jewelry, minis and small goods." },
+          { title: "Inserts", desc: "EVA, sponge, molded pulp and flocked interiors that hold items in place in transit." },
+          { title: "Insert cards", desc: "Welcome cards, thank-you notes and story cards printed to the monthly theme." },
+          { title: "Ribbon & trim", desc: "Satin ribbon closures and cords that carry the theme onto the box." },
+        ],
+      },
+      {
+        heading: "Built for recurring programs",
+        items: [
+          { title: "Same structure, new artwork", desc: "Keep one confirmed dieline and change only the printed theme each month." },
+          { title: "Pantone-matched themes", desc: "Box wrap, pouch fabric and card colour matched to one reference." },
+          { title: "Plan by season", desc: "Valentine's, spring, summer and winter editions ordered ahead on one production calendar." },
+          { title: "MOQ that fits themes", desc: "From 200 pieces — small enough to test a theme, sized to scale a winner." },
+        ],
+      },
+      {
+        heading: "Branding & finishes",
+        items: [
+          { title: "Matt & gloss lamination", desc: "Laminate finishes that set the tone of the unboxing." },
+          { title: "Foil stamping & gold foil", desc: "Metallic marks for premium monthly editions." },
+          { title: "Embossing & UV coating", desc: "Blind relief and spot UV accents on lid and sleeve." },
+          { title: "Pouch branding", desc: "Silkscreen and foil logos, woven labels and embroidery on every fabric." },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
+    ],
+    productSlugs: [
+      "magnetic-closure-gift-box",
+      "custom-velvet-pouches",
+      "custom-cotton-pouches",
+      "custom-muslin-drawstring-pouch",
+      "luxury-gift-box-ribbon",
+    ],
+    ctaTitle: "Request a quote for your subscription box program",
+  },
 ];
 
 export function getCollectionBySlug(slug: string): Collection | undefined {

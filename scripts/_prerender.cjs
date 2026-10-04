@@ -1393,7 +1393,7 @@ function Footer() {
       /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("p", { children: [
         "\xA9 ",
         (/* @__PURE__ */ new Date()).getFullYear(),
-        " ELAPACK. All rights reserved."
+        " ELAPACK. All rights reserved. ELAPACK is a brand of Wuxi Magic Packaging Co., Ltd."
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { className: "footer-locale", children: "Serving Europe & North America \xB7 English" })
     ] })
@@ -2952,7 +2952,7 @@ function About() {
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Our Story" }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "From workshop to global partner." }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Since 2018, ELAPACK has believed that packaging is not a container, but a brand's first handshake. We have grown into a full-service packaging partner for luxury brands across Europe and North America." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Today, our integrated model spans creative design, precision manufacturing across three production lines, and global logistics \u2014 serving clients from independent ateliers to established brands. Our factory is located in Wuxi, Jiangsu, China." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Today, our integrated model spans creative design, precision manufacturing across three production lines, and global logistics \u2014 serving clients from independent ateliers to established brands. ELAPACK is operated by Wuxi Magic Packaging Co., Ltd (est. 2018), with our factory located in Wuxi, Jiangsu, China." }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We hold a rigorous quality management system and a sharp understanding of international markets. We are not just a producer \u2014 we are your brand strategy partner, committed to translating your design vision into tangible, market-ready art." })
       ] })
     ] }) }) }),
@@ -3394,6 +3394,71 @@ Nothing on this page collects your data or sends anything. **Fill the request fr
 5. The calendar: transit in, review day, one revision round, 15\u201320 days production, outbound shipping \u2014 counted back from launch.
 
 Keep the note local, and send it to your supplier through your existing approved contact process. A round planned this way does what a sample is for: it finds the mistake at one piece, so the run that follows needs no excuse.`
+  },
+  {
+    "slug": "custom-packaging-moq-sample-lead-times-2026",
+    "datePublished": "2026-10-05",
+    "title": "Custom Packaging MOQ, Sample Times and Lead Times: 2026 Factory Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "5 min read",
+    "image": "/images/factory/elapack-05.jpg",
+    "imageAlt": "Custom packaging production data reference card with pouch and box samples",
+    "excerpt": "The numbers buyers ask for first, in one place: MOQ, sample fees and turnaround, lead times by order size and commonly produced material ranges \u2014 stated as confirmed factory data, not industry guesses.",
+    "metaDescription": "Verified 2026 factory data for custom packaging sourcing: MOQ by product line, sample costs and turnaround, production lead times by order size, and material weight ranges.",
+    "body": `*Every figure on this page is ELAPACK's own confirmed trade data for standard orders, current as of 2026. Where a value depends on your specification, the page says so rather than quoting a number that cannot hold.*
+
+When buyers compare custom packaging suppliers, the questions that decide the shortlist are rarely about design \u2014 they are about numbers: what quantity a factory will accept, what a sample costs and how quickly it ships, and how long production takes at the volume being planned. This page collects those numbers in one place, from one factory, so they can be checked against any other quotation. **ELAPACK's minimum order quantity is 200 pieces across all product lines; custom samples cost USD 25 plus USD 20 shipping and are built in 3\u20135 days with 4\u20137 days courier transit; standard production runs 15\u201320 days for orders up to 20,000 pieces and 20\u201325 days at around 50,000 pieces.** The sections below give each figure its context and its limits.
+
+## Minimum order quantity: 200 pieces, every line
+
+One number, no per-product exceptions. Pouches, boxes and display pieces all start at 200 pieces, which keeps small launch runs and multi-SKU programmes possible without negotiating a different threshold for each product. Buyers testing a market with three colourways of one pouch can order 200 of each rather than being pushed to a single large run. If your programme needs a lower quantity, that is a conversation about the specific product \u2014 not a published number this factory will quietly honour, so plan on 200 as the floor.
+
+## Samples: cost and clock
+
+| Item | Figure | Notes |
+| --- | --- | --- |
+| Stock sample | Free of charge | Proves material and construction standard |
+| Stock sample shipping | USD 20 | Dispatched in 2\u20133 days |
+| Custom sample | USD 25 | Built to your dieline and print |
+| Custom sample shipping | USD 20 | Same courier rate as stock |
+| Custom sample build time | 3\u20135 days | From confirmed artwork |
+| Courier transit | 4\u20137 days | Typical international delivery |
+
+A full custom sample round \u2014 fee, shipping, build and transit \u2014 lands in roughly two weeks and costs USD 45 in total. Stock samples exist to judge a factory's baseline; custom samples exist to judge your design as built. Choosing the wrong one for the question you are asking is the most common way a sample round wastes money; the method for that decision is covered in the custom packaging samples guide.
+
+## Production lead times by order size
+
+| Order quantity | Production lead time | Counted from |
+| --- | --- | --- |
+| 200 \u2013 20,000 pcs | 15\u201320 days | Sample approval and deposit |
+| 20,000 \u2013 50,000 pcs | 20\u201325 days | Sample approval and deposit |
+
+Two honest caveats keep this table usable. First, lead time starts at sample approval and deposit \u2014 not at first contact \u2014 so the calendar that matters is: sample round, approval, production, outbound shipping. Second, the two bands are the confirmed data points, verified up to 50,000 pieces; programmes above that volume are quoted case by case, and the quotation states the lead time in writing. Rush requirements are the same: possible or not is a question answered per order, never a published promise.
+
+## Material weight and thickness ranges
+
+Custom packaging is made to specification, so these are commonly produced ranges \u2014 the bands this factory runs most often \u2014 not a closed menu. Custom weights within or near these bands are routine.
+
+| Material | Commonly produced range | Typical use |
+| --- | --- | --- |
+| Satin | 60\u2013120 gsm | Jewellery pouches, wig bags |
+| Muslin | 100\u2013200 gsm | Drawstring pouches |
+| Cotton (incl. canvas) | 200\u2013400 gsm | Drawstring bags, tote-style packaging |
+| Microfiber | 180\u2013350 gsm | Lens and eyewear pouches |
+| Velvet | 0.8\u20132.0 mm composite | Jewellery pouches, display trays |
+| PVC | 0.12\u20130.50 mm, clear or frosted | Zip bags (cosmetics and jewellery) |
+| Greyboard (rigid boxes) | 800\u20131,600 g, typically 1,200 g with 120 g wrap | Rigid boxes, magnetic closures, drawer boxes |
+
+The range matters more than the midpoint. A 60 gsm satin and a 120 gsm satin are different products with different drape and print behaviour, and a quotation that states only "satin pouch" has not fixed the one variable that moves price and hand-feel most. When requesting a quote, name the band \u2014 or name the use, and let the factory propose the weight in writing.
+
+## The factory behind the numbers
+
+These figures come from a manufacturer, not a trading desk: ELAPACK has produced custom packaging since 2018 on three production lines, under an ISO 9001 quality management system whose certified scope is the production and sales of paper and textile packaging products. The practical meaning for buyers: the sample terms, lead times and material bands above are the factory's own operating data, and the same team that quotes them builds the order.
+
+## How to use this page
+
+Treat every number here as a baseline to check other quotations against, not as a ceiling on what is possible. Quantities above 50,000 pieces, unusual materials, and compressed calendars are all quotable \u2014 the answer arrives as a written specification with the numbers that apply to your order. Start from the pages for the product you are sourcing \u2014 custom drawstring bags, custom eyelash packaging or custom perfume boxes \u2014 or the samples guide for the method behind the sample figures.`
   }
 ]);
 function getArticleBySlug(slug) {
@@ -3620,6 +3685,12 @@ var RELATED = {
   ]
 };
 var ANCHORS = {
+  "custom-packaging-moq-sample-lead-times-2026": {
+    "custom drawstring bags": "custom-muslin-drawstring-pouch",
+    "custom eyelash packaging": "custom-eyelash-packaging-boxes",
+    "custom perfume boxes": "custom-perfume-boxes",
+    "Jewellery pouches": "custom-velvet-pouches"
+  },
   "how-to-choose-a-custom-jewelry-pouch": {
     "velvet and suede": "custom-velvet-pouches",
     "cotton, muslin and linen": "custom-cotton-pouches"
@@ -3705,6 +3776,9 @@ function inline(text, keyPrefix, ctx) {
   if (last < text.length) push(text.slice(last), `${keyPrefix}-t`);
   return nodes;
 }
+var isTableRow = (line) => /^\|.*\|$/.test(line.trim());
+var isTableDivider = (line) => /^\|(\s*:?-{3,}:?\s*\|)+$/.test(line.trim());
+var splitRow = (line) => line.trim().slice(1, -1).split("|").map((c) => c.trim());
 function renderBody(body, anchors = {}) {
   const ctx = { anchors, used: /* @__PURE__ */ new Set() };
   const lines = body.split("\n");
@@ -3718,8 +3792,27 @@ function renderBody(body, anchors = {}) {
     );
     list = null;
   };
+  const flushTable = () => {
+    const rows = tableRows.map(splitRow);
+    tableRows = [];
+    out.push(
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-table-wrap", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("table", { className: "article-table", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("tr", { children: rows[0].map((h, i) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("th", { children: inline(h, `th${out.length}-${i}`) }, i)) }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("tbody", { children: rows.slice(1).map((r, ri) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("tr", { children: r.map((c, ci) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("td", { children: inline(c, `td${out.length}-${ri}-${ci}`) }, ci)) }, ri)) })
+      ] }) }, `tw${out.length}`)
+    );
+  };
+  let tableRows = [];
   lines.forEach((raw) => {
     const line = raw.trimEnd();
+    if (isTableRow(line)) {
+      if (tableRows.length === 1 && isTableDivider(line)) return;
+      if (isTableDivider(line)) return;
+      flush();
+      tableRows.push(line);
+      return;
+    }
+    if (tableRows.length) flushTable();
     if (!line.trim()) {
       flush();
       return;
@@ -3747,6 +3840,7 @@ function renderBody(body, anchors = {}) {
     else if (line.startsWith("## ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: inline(line.slice(3), `h2${out.length}`) }, out.length));
     else out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { children: inline(line, `p${out.length}`, ctx) }, out.length));
   });
+  if (tableRows.length) flushTable();
   flush();
   return out;
 }
@@ -5215,6 +5309,68 @@ var collections = [
       "custom-pvc-bags"
     ],
     ctaTitle: "Request a quote for your cosmetic pouches"
+  },
+  {
+    slug: "subscription-box-packaging",
+    eyebrow: "Subscription Box Packaging",
+    h1: "Custom Subscription Box Packaging: Boxes, Pouches & Insert Cards",
+    subhead: "Monthly themed boxes, fabric pouches and insert cards for subscription programs \u2014 one manufacturer, matched branding, from 200 pieces.",
+    metaDescription: "Custom subscription box packaging from one manufacturer \u2014 printed boxes, fabric pouches and insert cards for monthly themed programs. Pantone-matched, MOQ from 200 pieces, free stock samples.",
+    intro: "ELAPACK makes subscription box packaging for box programs shipping to the US and Europe. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products, we make the three pieces of a monthly box in one place \u2014 the printed box, the fabric pouches that hold small items, and the insert cards that carry your theme \u2014 so colours and branding match across every drop.",
+    sections: [
+      {
+        heading: "Monthly box structures",
+        items: [
+          { title: "Folding cartons", desc: "Printed paperboard that ships and stores flat \u2014 practical for recurring monthly runs." },
+          { title: "Magnetic flip-top", desc: "A clean open-close ritual for premium tiers and annual gift editions." },
+          { title: "Rigid lift-off lid", desc: "Thick board with a premium feel for flagship and collector boxes." },
+          { title: "Custom structures", desc: "Your dieline built to your product dimensions and packing line." }
+        ]
+      },
+      {
+        heading: "Inside the box",
+        items: [
+          { title: "Fabric pouches", desc: "Velvet, cotton and muslin drawstring pouches for jewelry, minis and small goods." },
+          { title: "Inserts", desc: "EVA, sponge, molded pulp and flocked interiors that hold items in place in transit." },
+          { title: "Insert cards", desc: "Welcome cards, thank-you notes and story cards printed to the monthly theme." },
+          { title: "Ribbon & trim", desc: "Satin ribbon closures and cords that carry the theme onto the box." }
+        ]
+      },
+      {
+        heading: "Built for recurring programs",
+        items: [
+          { title: "Same structure, new artwork", desc: "Keep one confirmed dieline and change only the printed theme each month." },
+          { title: "Pantone-matched themes", desc: "Box wrap, pouch fabric and card colour matched to one reference." },
+          { title: "Plan by season", desc: "Valentine's, spring, summer and winter editions ordered ahead on one production calendar." },
+          { title: "MOQ that fits themes", desc: "From 200 pieces \u2014 small enough to test a theme, sized to scale a winner." }
+        ]
+      },
+      {
+        heading: "Branding & finishes",
+        items: [
+          { title: "Matt & gloss lamination", desc: "Laminate finishes that set the tone of the unboxing." },
+          { title: "Foil stamping & gold foil", desc: "Metallic marks for premium monthly editions." },
+          { title: "Embossing & UV coating", desc: "Blind relief and spot UV accents on lid and sleeve." },
+          { title: "Pouch branding", desc: "Silkscreen and foil logos, woven labels and embroidery on every fabric." }
+        ]
+      }
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "Stock sample", value: "Free \u2014 ships in 2\u20133 days (sample shipping USD 20, 4\u20137 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
+      { label: "Production time", value: "15\u201320 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" }
+    ],
+    productSlugs: [
+      "magnetic-closure-gift-box",
+      "custom-velvet-pouches",
+      "custom-cotton-pouches",
+      "custom-muslin-drawstring-pouch",
+      "luxury-gift-box-ribbon"
+    ],
+    ctaTitle: "Request a quote for your subscription box program"
   }
 ];
 function getCollectionBySlug(slug) {
@@ -5312,6 +5468,7 @@ function AppRoutes() {
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-drawstring-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-drawstring-bags" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/ribbons-accessories", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "ribbons-accessories" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-cosmetic-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-pouches" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/subscription-box-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "subscription-box-packaging" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Products, {}) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(ProductDetail, {}) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Industries, {}) }),
@@ -5344,6 +5501,7 @@ var ROUTES = [
   "/custom-drawstring-bags",
   "/ribbons-accessories",
   "/custom-cosmetic-pouches",
+  "/subscription-box-packaging",
   "/products",
   "/industries",
   "/solutions",
@@ -5371,6 +5529,7 @@ var STATIC_TITLES = {
   "/custom-drawstring-bags": "Custom Drawstring Bags & Pouches, from 200 pcs | ELAPACK",
   "/ribbons-accessories": "Custom Printed Ribbons & Packaging Accessories | ELAPACK",
   "/custom-cosmetic-pouches": "Custom Cosmetic Pouches & Makeup Bags with Logo | ELAPACK",
+  "/subscription-box-packaging": "Custom Subscription Box Packaging: Boxes, Pouches & Insert Cards, from 200 pcs | ELAPACK",
   "/products": "Products \u2014 Boxes, Pouches & Gift Packaging | ELAPACK",
   "/industries": "Industries We Serve \u2014 Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions \u2014 Custom, Materials & Sustainability | ELAPACK",
@@ -5395,6 +5554,7 @@ var STATIC_DESCRIPTIONS = {
   "/custom-drawstring-bags": "Custom drawstring bags with your logo \u2014 cotton, velvet, satin, muslin and linen pouches in any size, plus handbag and shoe dust bag formats. MOQ from 200 pieces, free stock samples.",
   "/ribbons-accessories": "Custom printed ribbons and packaging accessories \u2014 satin ribbon closures, logo-printed ribbon programs, cotton cords and drawstrings matched to your box and pouch programs.",
   "/custom-cosmetic-pouches": "Custom cosmetic pouches and makeup bags with your logo \u2014 drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas, plus clear PVC zip bags. MOQ from 200 pieces, free stock samples.",
+  "/subscription-box-packaging": "Custom subscription box packaging from one manufacturer \u2014 printed boxes, fabric pouches and insert cards for monthly themed programs. Pantone-matched, MOQ from 200 pieces, free stock samples.",
   "/products": "Browse ELAPACK's custom packaging catalog \u2014 rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands \u2014 engineered for Europe and North America.",
   "/solutions": "Custom packaging solutions from ELAPACK \u2014 bespoke structures, premium materials and finishes, clear process, sustainable options.",
@@ -5463,6 +5623,7 @@ for (const route of ROUTES) {
         publisher: {
           "@type": "Organization",
           name: "ELAPACK",
+          legalName: "Wuxi Magic Packaging Co., Ltd",
           logo: {
             "@type": "ImageObject",
             url: `${SITE}/apple-touch-icon.png`,
