@@ -269,8 +269,18 @@ var products = [
     name: "Custom Eyelash Packaging Boxes with Logo",
     category: "Boxes",
     shortDesc: "Custom eyelash packaging boxes with your logo \u2014 three stock formats or fully custom sizes, from 200 pieces.",
-    description: "Custom eyelash packaging boxes for lash brands, salons and wholesalers. Built around your lash trays \u2014 strip lashes, volume trays or extension programs \u2014 with fitted inserts that hold each tray in place and a printed wrap that carries your brand at retail and in unboxing. Three stock formats cover the common tray sizes: 14\xD710\xD76, 15\xD715\xD75 and 20\xD718\xD78 cm, and any dimension can be made to spec. MOQ from 200 pieces with your logo printed, foil-stamped or embossed. Product photography is in progress; request a stock sample to judge the board and print quality in hand.",
-    image: "/images/placeholder/product-coming-soon.svg",
+    description: "Custom eyelash packaging boxes for false eyelash brands, salons and wholesalers \u2014 from single-pair retail boxes to empty wholesale packaging for full lash lines. Built around your lash trays \u2014 strip lashes, volume trays or extension programs \u2014 with fitted inserts that hold each tray in place for storage, transit and shelf, and a printed wrap that carries your brand at retail and in unboxing. Three stock formats cover the common tray sizes: 14\xD710\xD76, 15\xD715\xD75 and 20\xD718\xD78 cm, and any dimension can be made to spec. MOQ from 200 pieces with your logo printed, foil-stamped or embossed. Request a stock sample to judge the board and print quality in hand.",
+    image: "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-hero.jpg",
+    gallery: [
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-hero.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-01.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-02.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-03.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-04.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-05.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-scene-01.jpg",
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-scene-02.jpg"
+    ],
     materials: "Rigid paperboard with custom printed wrap, fitted lash tray inserts",
     moq: "200 pcs",
     leadTime: "15\u201320 days",
@@ -311,9 +321,20 @@ var products = [
     name: "Custom Perfume Packaging Boxes",
     category: "Boxes",
     shortDesc: "Custom perfume boxes built around your bottle \u2014 two-piece, drawer and magnetic structures, from 200 pieces.",
-    description: "Custom perfume packaging boxes made around the bottle, not the other way round. Share your bottle dimensions and we build the structure to fit \u2014 two-piece lift-off lids for the flagship gifting moment, magnetic flip-tops for the retail counter, and drawer formats that layer bottle and story card. The wrap carries your full print, foil or emboss program, and fitted inserts hold glass steady from factory to vanity. MOQ from 200 pieces with your branding. Product photography is in progress; request a stock sample to judge the board and finish in hand.",
-    image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Rigid paperboard with custom printed wrap, fitted bottle inserts",
+    description: "Custom perfume packaging boxes made around the bottle, not the other way round. Share your bottle dimensions and we build the structure to fit \u2014 two-piece lift-off lids for the flagship gifting moment, magnetic flip-tops for the retail counter, and drawer formats that layer bottle and story card. The wrap carries your full print, foil or emboss program, and fitted inserts \u2014 EVA foam, paper card or moulded pulp, cut to your bottle profile \u2014 hold glass steady from factory to vanity. MOQ from 200 pieces with your branding. Request a stock sample to judge the board and finish in hand.",
+    image: "/images/products/custom-perfume-boxes/custom-perfume-boxes-hero.jpg",
+    gallery: [
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-hero.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-01.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-02.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-03.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-04.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-05.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-06-insert.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-scene-01.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-scene-02.jpg"
+    ],
+    materials: "Rigid paperboard with custom printed wrap, EVA / paper card / moulded pulp bottle inserts",
     moq: "200 pcs",
     leadTime: "15\u201320 days",
     industries: ["Fragrance", "Beauty", "Gift"],
@@ -338,7 +359,7 @@ var products = [
     specs: [
       { label: "Structures", value: "Two-piece lift-off / drawer / magnetic flip-top" },
       { label: "Dimensions", value: "Made to your bottle" },
-      { label: "Insert", value: "EVA / molded pulp / sponge, cut to bottle profile" },
+      { label: "Insert", value: "EVA foam / paper card / moulded pulp, cut to bottle profile" },
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
       { label: "MOQ", value: "200 pcs" }
     ],
@@ -2240,6 +2261,8 @@ function ProductDetail() {
   const { slug } = (0, import_react_router_dom8.useParams)();
   const product = slug ? getProductBySlug(slug) : void 0;
   const [openFaq, setOpenFaq] = (0, import_react7.useState)(0);
+  const [activeImg, setActiveImg] = (0, import_react7.useState)(0);
+  const galleryImgs = product?.gallery?.length ? product.gallery : product ? [product.image] : [];
   if (!product) {
     return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
       "section",
@@ -2271,13 +2294,16 @@ function ProductDetail() {
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "product-detail-hero", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-gallery reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-gallery-main", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: product.image, alt: product.name }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: galleryImgs[activeImg] ?? product.image, alt: product.name }),
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-detail-category", children: product.category })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-gallery-thumbs", children: [product.image].map((img, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-gallery-thumbs", children: galleryImgs.map((img, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
           "div",
           {
-            className: `product-gallery-thumb ${i === 0 ? "is-active" : ""}`,
+            className: `product-gallery-thumb ${i === activeImg ? "is-active" : ""}`,
+            onClick: () => setActiveImg(i),
+            role: "button",
+            "aria-label": `View photo ${i + 1}`,
             children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: img, alt: `${product.name} view ${i + 1}`, loading: "lazy" })
           },
           i
@@ -3607,6 +3633,107 @@ Nothing on this page collects your data or sends anything. **Fill the spec frame
 7. Theme changes: what changes monthly (artwork only?) and what that change costs.
 
 Keep the note local, and send it to your supplier through your existing approved contact process. With the frame filled, the cost of subscription box packaging stops being a benchmark argument and becomes a line-by-line comparison \u2014 the only kind a recurring budget survives.`
+  },
+  {
+    "slug": "subscription-box-packaging-buyers-guide",
+    "datePublished": "2026-10-06",
+    "title": "Subscription Box Packaging: The Complete Buyer's Guide for Recurring Programmes",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "8 min read",
+    "image": "/images/factory/elapack-06.jpg",
+    "imageAlt": "Box-making machine running rigid box blanks in a packaging workshop",
+    "excerpt": "A subscription box bought like a one-off box is a monthly mistake. Buy for the programme \u2014 structure, insides, monthly variation, transit, terms \u2014 and the tenth box costs less than the first.",
+    "metaDescription": "The complete buyer's guide to subscription box packaging \u2014 box structure, pouches and cards, monthly theme variation, transit survival and supplier terms for a recurring programme.",
+    "body": "*Structural and sourcing guidance in this guide is generic industry knowledge. Terms marked as ELAPACK figures are the factory's confirmed 2026 trade terms; everything else should be confirmed with the supplier you are evaluating.*\n\nThis guide is for founders and packaging buyers planning or running a subscription box programme \u2014 beauty, candle, jewellery, snack or gift clubs \u2014 who need to buy subscription box packaging that works in month ten as well as month one. Companion pages cover what a box costs and when to order it; this page covers the decisions that come first. If your question is theme design or vendor selection, stop here: this page does not design editions or pick a supplier. **A subscription box bought like a one-off box is a monthly mistake; the box has to be specified for the programme \u2014 the repeat, the variation and the transit \u2014 not for one edition.** Work through the five decisions below and you will finish with a programme spec you can hand to any supplier.\n\n## Why subscription boxes get bought wrong\n\nA subscription box looks like a box, so it gets specified like one: one structure, one quote, one order. Then the programme starts, and the box meets the three things a one-off never has to survive \u2014 repetition, variation and a monthly calendar.\n\n1. A founder specifies a beautiful box for launch month and orders it like any custom box.\n2. Month two needs a new theme; month three needs a taller product; month five needs 3,000 units, not 500.\n3. **Each month re-opens decisions the spec never fixed \u2014 because the box was specified for an edition, not for the programme.**\n4. The programme pays for it as repeated sampling, re-tooling and air freight, or as a box that quietly stops changing with the theme.\n5. By winter the unboxing looks like everyone else's, because variation was never designed in.\n6. The task on this page is to make the five programme-level decisions up front, so monthly editions become print changes on a settled structure.\n\nThe fix is not a better launch box. It is a specification that assumes the box will repeat and change at the same time.\n\n## Five decisions that specify a subscription box programme\n\n**Decide the programme before the edition: structure, insides, variation, transit, terms.** Each decision ends with the question your programme has to answer.\n\n### Decision 1 \u2014 The box structure, chosen for repeat opening\n\nA subscription box is opened every month, often kept, sometimes shown on camera. The main structures: a folding carton that ships flat and reads economical; a tuck-end mailer with a printed interior \u2014 the workhorse of high-volume programmes; a magnetic flip-top in greyboard (commonly produced at 800\u20131,600 g) that reads keepsake and gets reused by subscribers; a rigid lift-off lid for the gift-tier programme. The recurring question changes the choice: a box that must survive twelve openings a year and still look good on unboxing needs a different hinge and board than a box opened once. The question: will subscribers keep this box, and does the structure deserve that?\n\n### Decision 2 \u2014 What goes inside: pouch, insert, card\n\nThe inside items carry the edition. A pouch holds the small piece \u2014 jewellery, a votive, a mini \u2014 and the fabric band sets the hand-feel: satin 60\u2013120 gsm, muslin 100\u2013200 gsm, cotton 200\u2013400 gsm, velvet as a 0.8\u20132.0 mm composite. An insert \u2014 EVA, paper card or moulded pulp \u2014 holds the product so it does not shift on camera. The theme card prints the month. The question: does each inside item carry a job \u2014 protect, present, brand \u2014 and would a subscriber notice if one went missing?\n\n### Decision 3 \u2014 Variation mechanics: what changes monthly\n\nThis is the decision a one-off buyer never makes. Decide, in the spec, what changes every month and what does not: the dieline stays, the artwork changes; the box stays, the sleeve or belly band changes; the structure stays, the ribbon colour changes. Sleeve-and-box systems exist precisely for this \u2014 the box is confirmed once, and each month is a printed wrap. Ask any supplier which tooling and plate charges recur when only the artwork changes, and hold the answer in writing. The question: has the programme made variation cheap, or does every theme re-buy the box?\n\n### Decision 4 \u2014 Transit survival, every month\n\nA subscription box ships to consumers, monthly, in single parcels \u2014 so the packaging has to survive parcel handling without a secondary carton, and the product has to survive inside the box. Glass, wax and soft goods each fail differently: a candle glass needs an insert that locks it; wax softens in summer transit lanes; fabric creases. The question: what does this month's product do to the box in transit, and has that been tested \u2014 not assumed?\n\n### Decision 5 \u2014 Supplier terms that fit a recurring calendar\n\nThe programme terms matter more than the launch quote. ELAPACK's confirmed terms as a reference point: a 200-piece minimum across all product lines, so a theme variant can be tested at 200 instead of forcing one oversized run; production of 15\u201320 days at 200\u201320,000 pieces and 20\u201325 days at 20,000\u201350,000, counted from sample approval and deposit; custom samples at USD 25 plus USD 20 shipping, built in 3\u20135 days. A recurring programme consumes these terms monthly, so ask every supplier the recurring questions: does the tooling recur, does the sample round shorten once the dieline is confirmed, and does the lead time hold in the programme's busy quarter? The question: were these terms quoted for one order, or for twelve?\n\nRead the five together. A box that passes structure and fails variation, or passes price and fails transit, is still wrong for a programme.\n\n## When a good-looking box is still a wrong programme buy\n\n**The box that photographs best in month one is rarely the box that runs best in month ten.** Three boundaries keep this page honest:\n\n- A launch sample proves the edition, not the programme. Only a second month on the same dieline proves the variation mechanics.\n- A quotation that does not separate one-time tooling from recurring artwork charges hides the programme's real monthly cost.\n- Transit failures surface in peak season, when replacements are slow. Test the packed box in a parcel before the busy quarter, not during it.\n\n## The programme spec list\n\nNothing on this page collects your data or sends anything. **Fill the programme spec before you brief a supplier, so the programme is bought once.** Copy the lines below into your own note:\n\n1. Programme: what ships monthly, typical unit count per edition, and how many variants per theme.\n2. Box: structure (folding carton, tuck mailer, magnetic flip-top, rigid lid), finished size in cm, and whether subscribers keep it.\n3. Insides: pouch fabric and band, insert material, card format \u2014 each with its job named.\n4. Variation: what changes monthly (artwork only? sleeve? ribbon colour?) and which charges are one-time.\n5. Transit: the product's failure mode in a parcel, and the test that proves the box handles it.\n6. Terms: MOQ, lead time bands, sample terms \u2014 confirmed in writing for a recurring calendar.\n7. Calendar: the monthly order date that keeps 15\u201320 day production ahead of each pack week.\n\nKeep the note local, and send it to your supplier through your existing approved contact process \u2014 do not send it anywhere this page has not verified. With the programme spec filled, the companion pages take over: the cost breakdown builds the budget layer by layer, and the timeline guide turns the calendar into dates. A subscription programme that specifies once and varies cheaply is the whole game \u2014 the box is just where it shows."
+  },
+  {
+    "slug": "candle-subscription-box-packaging",
+    "datePublished": "2026-10-06",
+    "title": "Packaging a Monthly Candle Subscription Box: Boxes, Inserts and Monthly Themes",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/factory/elapack-01.jpg",
+    "imageAlt": "Finished rigid boxes stacked and ready for packing at a packaging factory",
+    "excerpt": "A candle box has two jobs a normal box does not: lock a glass vessel still, and look new every month. Specify the insert and the variation mechanic before the artwork.",
+    "metaDescription": "How to package a monthly candle subscription box \u2014 box structures, inserts that lock candle glass, pouches and wraps for votives, and how monthly themes change without re-buying the box.",
+    "body": "*Structural guidance in this guide is generic industry knowledge. Terms marked as ELAPACK figures are the factory's confirmed 2026 trade terms; candle-burning and product safety matters belong to the candle maker, not the packaging.*\n\nThis guide is for founders and packaging buyers at candle brands running \u2014 or planning \u2014 a monthly candle subscription box, where each edition ships a candle (or a votive set) in packaging that has to protect glass, survive parcel transit and still read new every month. If your question is candle making, scent design or vendor selection, stop here: this page does none of those. **A candle subscription box has two jobs a normal box does not: lock a glass vessel completely still, and change its look every month without re-buying the structure.** Work through the four decisions below and you will finish with a candle-box spec your supplier can hold across editions.\n\n## Why candle boxes fail differently\n\nMost subscription packaging failures are cosmetic. Candle packaging failures are broken glass, melted wax and dented tins \u2014 returns with photographs. The product is heavy for its size, fragile in one axis, and heat-sensitive in transit, and every one of those facts has to live in the packaging spec.\n\n1. A candle club ships month one in a box sized and printed nicely, with the candle held by tissue.\n2. The glass shifts in parcel handling; in summer lanes the wax softens; the monthly theme forces a new artwork round each time.\n3. **The box was treated as a printed container, when for a candle it is a shipping device with a theme on it \u2014 so neither job was specified.**\n4. The programme pays in breakage claims, double-boxed freight, or editions that stop matching their theme.\n5. Subscribers churn over a single broken glass, which costs the programme far more than the insert would have.\n6. The task on this page is to specify the hold, the heat plan and the variation mechanic before the artwork.\n\n## Four decisions that specify a candle subscription box\n\n**Specify the hold first, the heat second, the theme mechanic third, the terms last.** Each decision ends with the question your edition has to answer.\n\n### Decision 1 \u2014 The hold: insert and structure\n\nThe candle glass must not move, in any axis, in a parcel dropped from a metre. The main structures: a tuck mailer with a die-cut paper insert that locks the glass \u2014 the workhorse for single-candle editions; a folding carton with a moulded pulp or corrugated wrap for sets; a magnetic flip-top or rigid lift-off lid in greyboard (commonly produced at 800\u20131,600 g) for the gift-tier club, where the box is kept as a candle keeper. The insert is the decision that matters: EVA, paper card and moulded pulp each lock a glass differently, and the insert must be cut to your vessel profile, not to a standard candle size \u2014 vessel diameters vary by maker. The question: has this exact glass been drop-tested in this exact box, or is the hold an assumption?\n\n### Decision 2 \u2014 The heat plan: season and lane\n\nWax softens in warm transit lanes and parked delivery vans. Packaging cannot cool a parcel, but the spec can respect the physics: a tighter insert that stops a softened candle sliding; a box interior that does not print against the vessel rim where wax can smear; a summer edition that avoids dark outer colours on long warm routes where that matters. Multi-packs of votives or tea lights travel more kindly than one large glass, and several clubs run minis in warm months. The question: what does your warmest shipping month do to this pack, and has anyone asked it before?\n\n### Decision 3 \u2014 The variation mechanic: theme without re-buying\n\nA candle club changes scent monthly, so the packaging has to change monthly too \u2014 the trap is re-buying the whole box each time. The settled pattern: confirm the dieline and insert once, then vary the artwork, a printed sleeve, or a belly band each month. Fabric wraps and pouches carry themes cheaply \u2014 a cotton band or velvet pouch in the month's colour re-skins a stable box at a fraction of a new structure. ELAPACK's terms make this mechanic real: a 200-piece minimum across all lines lets a month's variant run at subscriber count, and production of 15\u201320 days at 200\u201320,000 pieces keeps the monthly cadence; which plate and tooling charges recur when only artwork changes is the question to hold in writing. The question: does month eleven cost a sleeve, or a whole new box?\n\n### Decision 4 \u2014 The recurring calendar and terms\n\nA candle club is a dated business: each edition has a pack week, and the packaging has to clear production and freight before it. ELAPACK's confirmed reference points: custom samples at USD 25 plus USD 20 shipping, built in 3\u20135 days from confirmed artwork \u2014 after the first confirmed dieline, sample rounds for artwork-only changes shorten; stock samples are free and dispatched in 2\u20133 days; runs above 20,000 pieces move to 20\u201325 days, so a fast-growing club should quote its peak-month volume, not its average month. The question: has the supplier seen the programme's peak month, not just month one?\n\nRead the four together. A box that holds the glass but cannot vary cheaply will fossilise; a box that varies beautifully but lets the glass move will churn the list.\n\n## When a candle box that looks right is still wrong\n\n**The unboxing photo proves the edition; only a drop test and a warm lane prove the pack.** Three boundaries keep this page honest:\n\n- A glass that survives domestic ground shipping may not survive a warm-week international lane. Ask which lanes the packed box has actually travelled.\n- An insert cut to a generic candle size will not hold your vessel, because there is no standard vessel. Cut to your measured profile.\n- A theme system that requires a full re-order each month is a cost structure, not a design choice \u2014 find it in the quotation before month three does.\n\n## The candle box spec list\n\nNothing on this page collects your data or sends anything. **Fill the spec before the artwork, so the theme lands on a pack that already works.** Copy the lines below into your own note:\n\n1. The vessel: measured diameter, height and weight of the candle glass (each SKU in the edition).\n2. The box: structure (tuck mailer, folding carton, magnetic flip-top, rigid lid), finished size in cm.\n3. The insert: material (die-cut paper card, EVA, moulded pulp), cut to the measured profile.\n4. The heat plan: warmest shipping month, lanes that matter, minis versus full-size in warm months.\n5. The variation mechanic: what changes monthly \u2014 artwork, sleeve, band or pouch \u2014 and which charges are one-time.\n6. The wrap: pouch or band fabric and colour (cotton 200\u2013400 gsm, velvet 0.8\u20132.0 mm composite), if used.\n7. The terms: quantity per edition against the 200-piece minimum, lead-time band, sample terms \u2014 in writing.\n\nKeep the note local, and send it to your supplier through your existing approved contact process \u2014 do not send it anywhere this page has not verified. With the hold proven and the variation mechanic settled, a candle club's monthly edition becomes a print order on a structure that already works \u2014 which is the only rhythm a dated, recurring programme survives."
+  },
+  {
+    "slug": "beauty-subscription-box-contents",
+    "datePublished": "2026-10-06",
+    "title": "Box + Pouch + Card: What Goes in a Beauty Subscription Box",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/factory/elapack-02.jpg",
+    "imageAlt": "Packaging samples laid out for review at a factory sample table",
+    "excerpt": "A beauty box is not a box with things in it \u2014 it is box, pouch, insert and card, each with a job. Specify the four layers and the monthly theme becomes a print change.",
+    "metaDescription": "The packaging anatomy of a beauty subscription box \u2014 outer box, pouches and bags, inserts and the theme card \u2014 what each layer does, what it costs to repeat monthly, and how to spec it.",
+    "body": `*Structural guidance in this guide is generic industry knowledge. Terms marked as ELAPACK figures are the factory's confirmed 2026 trade terms. Cosmetic product compliance is the brand's responsibility and is not covered here.*
+
+This guide is for founders and packaging buyers at beauty subscription boxes \u2014 skincare, makeup, haircare or mixed clubs \u2014 who are specifying what physically goes in the box: the outer box, the pouches, the inserts and the card. If your question is product curation, vendor selection or pricing, stop here. **A beauty box is not a box with things in it; it is four packaging layers \u2014 box, pouch, insert, card \u2014 and each layer has a job the unboxing exposes within ten seconds.** Work through the four layers below and you will finish with a contents spec that makes monthly editions cheap to vary and hard to get wrong.
+
+## Why beauty boxes look generic by month six
+
+Beauty is the most crowded subscription category, and its boxes converge: same tuck box, same crinkle fill, same printed card. Not because teams are lazy \u2014 because the packaging was bought as one object ("the box") instead of four layers with separate jobs.
+
+1. A beauty club orders "a box" for launch and fills it with products each month.
+
+2. Small items rattle, liquids leak onto printed surfaces, the theme card looks like an afterthought.
+
+3. **Every layer was asked to be decorative, so no layer was specified to protect, present or brand \u2014 the three jobs subscribers actually film.**
+
+4. By mid-year the unboxing is indistinguishable, and the theme changes cost full re-orders because variation was never designed in.
+
+5. Unboxing is the club's marketing; a generic box is a silent tax on growth.
+
+6. The task on this page is to specify each layer's job, so the box system \u2014 not just the box \u2014 carries the brand.
+
+## The four layers of a beauty box
+
+**Give every layer a job \u2014 hold, present, brand \u2014 and buy each on purpose.** Each layer ends with the question your edition has to answer.
+
+### Layer 1 \u2014 The outer box: the only layer everyone sees
+
+The outer box does the shipping and the first impression. The main structures: a tuck mailer with printed interior \u2014 the category workhorse, ships flat, economical at volume; a folding carton with a die-cut interior when products need locking; a magnetic flip-top in greyboard (commonly produced at 800\u20131,600 g) for the premium tier, where the box doubles as storage and subscribers keep it on a vanity. One beauty-specific fact decides more than appearance: beauty boxes ship liquids, powders and palettes in one parcel, so the interior has to keep a leaking worst case away from the printed surfaces \u2014 a lined interior or a sealed product bag is cheaper than a ruined edition. The question: does the box arrive looking like the photos, after parcel handling, with the worst product leaking?
+
+### Layer 2 \u2014 The pouches and bags: the layer subscribers reuse
+
+Pouches are the beauty box's signature layer \u2014 the item that survives the unboxing and carries the brand for months. A velvet pouch (a 0.8\u20132.0 mm composite) reads keepsake for a jewellery or rollerball item; cotton and muslin (100\u2013400 gsm across the two) read natural for skincare minis; satin (60\u2013120 gsm) reads dressy for fragrance; a clear PVC zip bag (0.12\u20130.50 mm) is the practical repeat-use option for cosmetics in transit. A monthly colour or fabric change on a stable pouch pattern is one of the cheapest theme mechanics available \u2014 the pattern is confirmed once, and each month is a colourway. The question: what does the subscriber keep, and is it branded?
+
+### Layer 3 \u2014 The inserts: the layer that makes the box film well
+
+The insert is what makes an opened beauty box look composed instead of jumbled: die-cut paper card holding each product in a named slot; EVA foam for glass bottles and droppers; moulded pulp where a natural read matters. Inserts are cut to the products, so an edition's product list locks the insert \u2014 and the honest consequence: when the product mix changes, either the insert has multiple slot sizes or the edition gets a new insert while the box stays. That trade (flexible insert versus edition-specific insert) is a cost decision to make on purpose, once, in the spec. The question: when the box is opened on camera, does every product sit where the theme put it?
+
+### Layer 4 \u2014 The card: the layer that talks
+
+The theme card is the only layer with words: the month, the theme, what the products are, sometimes a code. It prints to the theme, so it changes every month by design \u2014 which makes it the natural home of monthly variation while the box, pouches and inserts stay stable. ELAPACK's terms frame the whole system's economics: a 200-piece minimum across all product lines lets each layer run at subscriber count rather than forced volume; production of 15\u201320 days at 200\u201320,000 pieces on a monthly cadence; and the recurring-question test \u2014 which tooling charges recur when only the card artwork changes \u2014 is answered in writing before month one. The question: does the theme live on the card, where changing it is cheap?
+
+Read the four together. A box that films well but ships leaks, or a pouch that reads premium but arrives creased, breaks the system at its weakest layer.
+
+## When a beauty box that looks right is still wrong
+
+**The flat-lay photo proves the styling; only a packed, shaken, shipped box proves the layers.** Three boundaries keep this page honest:
+
+- Beauty boxes ship the leakiest product mix in subscription commerce. A pack test with the actual worst-case product beats any structural promise.
+- An insert sized to this month's products is not sized to month four. Decide the flexible-versus-specific insert trade in the spec, not at re-order.
+- PVC bags suit cosmetics and jewellery programmes; confirm suitability for any product that is neither. And a quotation that does not name fabric bands or board weights has not fixed the variables that move both cost and hand-feel.
+
+## The beauty box contents spec
+
+Nothing on this page collects your data or sends anything. **Fill the four-layer spec before you request quotes, so each layer is bought for its job.** Copy the lines below into your own note:
+
+1. The edition: product list with sizes, weights and the leak/shift risk of each.
+2. The outer box: structure (tuck mailer, folding carton, magnetic flip-top), finished size in cm, interior lining for leak worst case.
+3. The pouches: fabric and band (velvet 0.8\u20132.0 mm composite, cotton 200\u2013400 gsm, muslin 100\u2013200 gsm, satin 60\u2013120 gsm, PVC 0.12\u20130.50 mm), size, closure.
+4. The inserts: material (paper card, EVA, pulp), cut to product, and the flexible-versus-specific decision named.
+5. The card: format, printed sides, and confirmation that monthly theme changes live here.
+6. The variation plan: what changes monthly (card, pouch colourway, sleeve) and which charges are one-time.
+7. The terms: quantity per edition against the 200-piece minimum, lead-time band (15\u201320 days to 20,000 pieces), sample terms \u2014 in writing.
+
+Keep the note local, and send it to your supplier through your existing approved contact process \u2014 do not send it anywhere this page has not verified. With the four layers specified, a beauty club's month becomes a card print and a pouch colourway on a box system that already works \u2014 which is how a box stays on-theme in month twelve without ever re-buying month one.`
   }
 ]);
 function getArticleBySlug(slug) {
@@ -3840,6 +3967,21 @@ var RELATED = {
     "magnetic-closure-gift-box",
     "custom-velvet-pouches",
     "custom-cotton-pouches"
+  ],
+  "subscription-box-packaging-buyers-guide": [
+    "magnetic-closure-gift-box",
+    "custom-velvet-pouches",
+    "custom-muslin-drawstring-pouch"
+  ],
+  "candle-subscription-box-packaging": [
+    "magnetic-closure-gift-box",
+    "custom-cotton-pouches",
+    "luxury-gift-box-ribbon"
+  ],
+  "beauty-subscription-box-contents": [
+    "custom-velvet-pouches",
+    "custom-pvc-bags",
+    "custom-perfume-boxes"
   ]
 };
 var ANCHORS = {
@@ -3902,6 +4044,20 @@ var ANCHORS = {
   },
   "subscription-box-packaging-cost": {
     "subscription box packaging": "/subscription-box-packaging"
+  },
+  "subscription-box-packaging-buyers-guide": {
+    "subscription box packaging": "/subscription-box-packaging",
+    "magnetic flip-top": "magnetic-closure-gift-box",
+    "cotton 200\u2013400 gsm": "custom-cotton-pouches"
+  },
+  "candle-subscription-box-packaging": {
+    "candle subscription box": "/subscription-box-packaging",
+    "velvet pouch": "custom-velvet-pouches"
+  },
+  "beauty-subscription-box-contents": {
+    "beauty subscription box": "/subscription-box-packaging",
+    "velvet pouch": "custom-velvet-pouches",
+    "clear PVC zip bag": "custom-pvc-bags"
   }
 };
 function relatedProducts(slug) {
