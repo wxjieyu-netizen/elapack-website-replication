@@ -15,6 +15,8 @@ export type Collection = {
   sections: { heading: string; items: { title: string; desc: string }[] }[];
   facts: { label: string; value: string }[];
   productSlugs: string[];
+  /** Related /news sourcing guides linked at the page foot — curated, never forced. */
+  guideSlugs?: string[];
   ctaTitle: string;
 };
 
@@ -83,6 +85,11 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
     ],
     ctaTitle: "Request a quote for your custom jewelry box",
+    guideSlugs: [
+      "how-to-choose-custom-jewelry-boxes",
+      "custom-packaging-samples-guide",
+      "custom-packaging-moq-sample-lead-times-2026",
+    ],
   },
   {
     slug: "eyewear-packaging",
@@ -210,6 +217,10 @@ export const collections: Collection[] = [
       "custom-pvc-bags",
     ],
     ctaTitle: "Request a quote for your custom jewelry pouches",
+    guideSlugs: [
+      "how-to-choose-a-custom-jewelry-pouch",
+      "packaging-colour-tolerance-explained",
+    ],
   },
   {
     slug: "custom-wig-packaging",
@@ -265,6 +276,11 @@ export const collections: Collection[] = [
       "luxury-gift-box-ribbon",
     ],
     ctaTitle: "Request a quote for your custom wig packaging",
+    guideSlugs: [
+      "custom-wig-packaging-guide",
+      "custom-hair-extension-packaging-guide",
+      "hair-extension-packaging-ideas",
+    ],
   },
   {
     slug: "custom-jewelry-packaging",
@@ -327,6 +343,10 @@ export const collections: Collection[] = [
       "leather-envelope-pouch",
     ],
     ctaTitle: "Request a quote for your jewelry packaging program",
+    guideSlugs: [
+      "how-to-choose-custom-jewelry-boxes",
+      "how-to-choose-a-custom-jewelry-pouch",
+    ],
   },
   {
     slug: "custom-gift-boxes",
@@ -391,6 +411,11 @@ export const collections: Collection[] = [
       "black-leather-jewelry-box",
     ],
     ctaTitle: "Request a quote for your custom gift boxes",
+    guideSlugs: [
+      "custom-gift-packaging-guide",
+      "valentines-day-packaging-timeline",
+      "custom-packaging-samples-guide",
+    ],
   },
   {
     slug: "custom-cosmetic-packaging",
@@ -448,6 +473,12 @@ export const collections: Collection[] = [
       "custom-cotton-pouches",
     ],
     ctaTitle: "Request a quote for your cosmetic packaging",
+    guideSlugs: [
+      "custom-cosmetic-packaging-guide",
+      "how-to-customize-eyelash-boxes",
+      "press-on-nail-packaging-guide",
+      "beauty-subscription-box-contents",
+    ],
   },
   {
     slug: "custom-drawstring-bags",
@@ -506,6 +537,10 @@ export const collections: Collection[] = [
       "custom-satin-wig-bag",
     ],
     ctaTitle: "Request a quote for your custom drawstring bags",
+    guideSlugs: [
+      "how-to-choose-custom-drawstring-bags",
+      "custom-clothing-apparel-packaging-guide",
+    ],
   },
   {
     slug: "ribbons-accessories",
@@ -614,6 +649,10 @@ export const collections: Collection[] = [
       "custom-pvc-bags",
     ],
     ctaTitle: "Request a quote for your cosmetic pouches",
+    guideSlugs: [
+      "custom-cosmetic-packaging-guide",
+      "custom-perfume-packaging-guide",
+    ],
   },
   {
     slug: "subscription-box-packaging",
@@ -679,6 +718,14 @@ export const collections: Collection[] = [
       "luxury-gift-box-ribbon",
     ],
     ctaTitle: "Request a quote for your subscription box program",
+    guideSlugs: [
+      "subscription-box-packaging-buyers-guide",
+      "subscription-box-packaging-cost",
+      "candle-subscription-box-packaging",
+      "beauty-subscription-box-contents",
+      "valentines-day-packaging-timeline",
+      "custom-packaging-moq-sample-lead-times-2026",
+    ],
   },
 ];
 

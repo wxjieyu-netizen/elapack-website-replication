@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getCollectionBySlug } from "../data/collections";
 import { getProductBySlug } from "../data/products";
+import { getArticleBySlug } from "../data/articles";
 
 /**
  * Keyword-anchored collection page (/custom-jewelry-boxes,
@@ -20,6 +21,10 @@ export default function Collection({ slug }: { slug: string }) {
   const products = collection.productSlugs
     .map((s) => getProductBySlug(s))
     .filter((p): p is NonNullable<typeof p> => p !== undefined);
+
+  const guides = (collection.guideSlugs ?? [])
+    .map((s) => getArticleBySlug(s))
+    .filter((a): a is NonNullable<typeof a> => a !== undefined);
 
   return (
     <>
@@ -94,6 +99,29 @@ export default function Collection({ slug }: { slug: string }) {
           </div>
         </div>
       </section>
+
+      {guides.length > 0 && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+                Sourcing guides
+              </h2>
+              <div className="spec-list">
+                {guides.map((guide) => (
+                  <p key={guide.slug} className="markets-note" style={{ marginBottom: "0.5rem" }}>
+                    <Link to={`/news/${guide.slug}`} className="text-link">
+                      {guide.title}
+                    </Link>
+                    {" — "}
+                    {guide.excerpt}
+                  </p>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
