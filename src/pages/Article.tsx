@@ -92,6 +92,21 @@ const RELATED: Record<string, string[]> = {
     "custom-velvet-pouches",
     "custom-cotton-pouches",
   ],
+  "subscription-box-packaging-buyers-guide": [
+    "magnetic-closure-gift-box",
+    "custom-velvet-pouches",
+    "custom-muslin-drawstring-pouch",
+  ],
+  "candle-subscription-box-packaging": [
+    "magnetic-closure-gift-box",
+    "custom-cotton-pouches",
+    "luxury-gift-box-ribbon",
+  ],
+  "beauty-subscription-box-contents": [
+    "custom-velvet-pouches",
+    "custom-pvc-bags",
+    "custom-perfume-boxes",
+  ],
 };
 
 /**
@@ -160,6 +175,20 @@ const ANCHORS: Record<string, Record<string, string>> = {
   },
   "subscription-box-packaging-cost": {
     "subscription box packaging": "/subscription-box-packaging",
+  },
+  "subscription-box-packaging-buyers-guide": {
+    "subscription box packaging": "/subscription-box-packaging",
+    "magnetic flip-top": "magnetic-closure-gift-box",
+    "cotton 200–400 gsm": "custom-cotton-pouches",
+  },
+  "candle-subscription-box-packaging": {
+    "candle subscription box": "/subscription-box-packaging",
+    "velvet pouch": "custom-velvet-pouches",
+  },
+  "beauty-subscription-box-contents": {
+    "beauty subscription box": "/subscription-box-packaging",
+    "velvet pouch": "custom-velvet-pouches",
+    "clear PVC zip bag": "custom-pvc-bags",
   },
 };
 
