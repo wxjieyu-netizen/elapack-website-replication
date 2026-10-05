@@ -123,6 +123,21 @@ export default function Collection({ slug }: { slug: string }) {
         </section>
       )}
 
+      {collection.factBlock && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+                Key facts ({collection.factBlock.updated})
+              </h2>
+              <p className="markets-note" style={{ maxWidth: "820px" }}>
+                {collection.factBlock.paragraph}
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
           <div className="markets-box reveal">

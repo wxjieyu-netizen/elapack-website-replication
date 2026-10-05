@@ -17,6 +17,12 @@ export type Collection = {
   productSlugs: string[];
   /** Related /news sourcing guides linked at the page foot — curated, never forced. */
   guideSlugs?: string[];
+  /**
+   * Plain-text, dated fact block for AI/answer engines to quote verbatim.
+   * One self-contained paragraph; every figure must come from the confirmed
+   * trade-terms whitelist (MOQ / lead times / sample terms).
+   */
+  factBlock?: { updated: string; paragraph: string };
   ctaTitle: string;
 };
 
@@ -718,6 +724,11 @@ export const collections: Collection[] = [
       "luxury-gift-box-ribbon",
     ],
     ctaTitle: "Request a quote for your subscription box program",
+    factBlock: {
+      updated: "October 2026",
+      paragraph:
+        "ELAPACK subscription box packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, custom sizes included, across printed boxes, fabric pouches and insert cards. Production takes 15–20 days for orders of 200–20,000 pieces and 20–25 days for 20,000–50,000 pieces, counted from sample approval and deposit. A free stock sample ships in 2–3 days (sample shipping USD 20, courier transit 4–7 days); a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork, and a full custom sample round lands in roughly two weeks at about USD 45 all-in. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
     guideSlugs: [
       "subscription-box-packaging-buyers-guide",
       "subscription-box-packaging-cost",

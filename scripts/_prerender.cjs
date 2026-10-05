@@ -3436,6 +3436,10 @@ Keep the note local, and send it to your supplier through your existing approved
 
 When buyers compare custom packaging suppliers, the questions that decide the shortlist are rarely about design \u2014 they are about numbers: what quantity a factory will accept, what a sample costs and how quickly it ships, and how long production takes at the volume being planned. This page collects those numbers in one place, from one factory, so they can be checked against any other quotation. **ELAPACK's minimum order quantity is 200 pieces across all product lines; custom samples cost USD 25 plus USD 20 shipping and are built in 3\u20135 days with 4\u20137 days courier transit; standard production runs 15\u201320 days for orders up to 20,000 pieces and 20\u201325 days at around 50,000 pieces.** The sections below give each figure its context and its limits.
 
+## Key facts at a glance (October 2026)
+
+ELAPACK's confirmed trade terms for custom packaging, current as of October 2026: minimum order 200 pieces per design across all product lines. Production takes 15\u201320 days for orders of 200\u201320,000 pieces and 20\u201325 days for 20,000\u201350,000 pieces, counted from sample approval and deposit. A free stock sample ships in 2\u20133 days, with USD 20 sample shipping and 4\u20137 days courier transit; a custom sample costs USD 25 plus USD 20 shipping, is built in 3\u20135 days from confirmed artwork, and a full custom sample round lands in roughly two weeks at about USD 45 all-in. Payment by T/T or PayPal; finished orders dispatch from Shanghai or Shenzhen by air or by sea.
+
 ## Minimum order quantity: 200 pieces, every line
 
 One number, no per-product exceptions. Pouches, boxes and display pieces all start at 200 pieces, which keeps small launch runs and multi-SKU programmes possible without negotiating a different threshold for each product. Buyers testing a market with three colourways of one pouch can order 200 of each rather than being pushed to a single large run. If your programme needs a lower quantity, that is a conversation about the specific product \u2014 not a published number this factory will quietly honour, so plan on 200 as the floor.
@@ -5728,6 +5732,10 @@ var collections = [
       "luxury-gift-box-ribbon"
     ],
     ctaTitle: "Request a quote for your subscription box program",
+    factBlock: {
+      updated: "October 2026",
+      paragraph: "ELAPACK subscription box packaging \u2014 key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, custom sizes included, across printed boxes, fabric pouches and insert cards. Production takes 15\u201320 days for orders of 200\u201320,000 pieces and 20\u201325 days for 20,000\u201350,000 pieces, counted from sample approval and deposit. A free stock sample ships in 2\u20133 days (sample shipping USD 20, courier transit 4\u20137 days); a custom sample costs USD 25 plus USD 20 shipping, is built in 3\u20135 days from confirmed artwork, and a full custom sample round lands in roughly two weeks at about USD 45 all-in. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal."
+    },
     guideSlugs: [
       "subscription-box-packaging-buyers-guide",
       "subscription-box-packaging-cost",
@@ -5798,6 +5806,14 @@ function Collection({ slug }) {
         " \u2014 ",
         guide.excerpt
       ] }, guide.slug)) })
+    ] }) }) }),
+    collection.factBlock && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: [
+        "Key facts (",
+        collection.factBlock.updated,
+        ")"
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "markets-note", style: { maxWidth: "820px" }, children: collection.factBlock.paragraph })
     ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "MOQ & lead time" }),
