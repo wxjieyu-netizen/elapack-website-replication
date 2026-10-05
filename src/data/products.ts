@@ -303,9 +303,20 @@ export const products: Product[] = [
     shortDesc:
       "Custom perfume boxes built around your bottle — two-piece, drawer and magnetic structures, from 200 pieces.",
     description:
-      "Custom perfume packaging boxes made around the bottle, not the other way round. Share your bottle dimensions and we build the structure to fit — two-piece lift-off lids for the flagship gifting moment, magnetic flip-tops for the retail counter, and drawer formats that layer bottle and story card. The wrap carries your full print, foil or emboss program, and fitted inserts hold glass steady from factory to vanity. MOQ from 200 pieces with your branding. Product photography is in progress; request a stock sample to judge the board and finish in hand.",
-    image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Rigid paperboard with custom printed wrap, fitted bottle inserts",
+      "Custom perfume packaging boxes made around the bottle, not the other way round. Share your bottle dimensions and we build the structure to fit — two-piece lift-off lids for the flagship gifting moment, magnetic flip-tops for the retail counter, and drawer formats that layer bottle and story card. The wrap carries your full print, foil or emboss program, and fitted inserts — EVA foam, paper card or moulded pulp, cut to your bottle profile — hold glass steady from factory to vanity. MOQ from 200 pieces with your branding. Request a stock sample to judge the board and finish in hand.",
+    image: "/images/products/custom-perfume-boxes/custom-perfume-boxes-hero.jpg",
+    gallery: [
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-hero.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-01.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-02.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-03.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-04.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-05.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-06-insert.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-scene-01.jpg",
+      "/images/products/custom-perfume-boxes/custom-perfume-boxes-scene-02.jpg",
+    ],
+    materials: "Rigid paperboard with custom printed wrap, EVA / paper card / moulded pulp bottle inserts",
     moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Fragrance", "Beauty", "Gift"],
@@ -330,7 +341,7 @@ export const products: Product[] = [
     specs: [
       { label: "Structures", value: "Two-piece lift-off / drawer / magnetic flip-top" },
       { label: "Dimensions", value: "Made to your bottle" },
-      { label: "Insert", value: "EVA / molded pulp / sponge, cut to bottle profile" },
+      { label: "Insert", value: "EVA foam / paper card / moulded pulp, cut to bottle profile" },
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
       { label: "MOQ", value: "200 pcs" },
     ],
