@@ -5124,7 +5124,12 @@ var collections = [
       "luxury-gift-box-ribbon",
       "magnetic-closure-gift-box"
     ],
-    ctaTitle: "Request a quote for your custom jewelry box"
+    ctaTitle: "Request a quote for your custom jewelry box",
+    guideSlugs: [
+      "how-to-choose-custom-jewelry-boxes",
+      "custom-packaging-samples-guide",
+      "custom-packaging-moq-sample-lead-times-2026"
+    ]
   },
   {
     slug: "eyewear-packaging",
@@ -5245,7 +5250,11 @@ var collections = [
       "leather-envelope-pouch",
       "custom-pvc-bags"
     ],
-    ctaTitle: "Request a quote for your custom jewelry pouches"
+    ctaTitle: "Request a quote for your custom jewelry pouches",
+    guideSlugs: [
+      "how-to-choose-a-custom-jewelry-pouch",
+      "packaging-colour-tolerance-explained"
+    ]
   },
   {
     slug: "custom-wig-packaging",
@@ -5297,7 +5306,12 @@ var collections = [
       "magnetic-closure-gift-box",
       "luxury-gift-box-ribbon"
     ],
-    ctaTitle: "Request a quote for your custom wig packaging"
+    ctaTitle: "Request a quote for your custom wig packaging",
+    guideSlugs: [
+      "custom-wig-packaging-guide",
+      "custom-hair-extension-packaging-guide",
+      "hair-extension-packaging-ideas"
+    ]
   },
   {
     slug: "custom-jewelry-packaging",
@@ -5356,7 +5370,11 @@ var collections = [
       "custom-cotton-pouches",
       "leather-envelope-pouch"
     ],
-    ctaTitle: "Request a quote for your jewelry packaging program"
+    ctaTitle: "Request a quote for your jewelry packaging program",
+    guideSlugs: [
+      "how-to-choose-custom-jewelry-boxes",
+      "how-to-choose-a-custom-jewelry-pouch"
+    ]
   },
   {
     slug: "custom-gift-boxes",
@@ -5417,7 +5435,12 @@ var collections = [
       "custom-white-jewelry-box",
       "black-leather-jewelry-box"
     ],
-    ctaTitle: "Request a quote for your custom gift boxes"
+    ctaTitle: "Request a quote for your custom gift boxes",
+    guideSlugs: [
+      "custom-gift-packaging-guide",
+      "valentines-day-packaging-timeline",
+      "custom-packaging-samples-guide"
+    ]
   },
   {
     slug: "custom-cosmetic-packaging",
@@ -5471,7 +5494,13 @@ var collections = [
       "luxury-gift-box-ribbon",
       "custom-cotton-pouches"
     ],
-    ctaTitle: "Request a quote for your cosmetic packaging"
+    ctaTitle: "Request a quote for your cosmetic packaging",
+    guideSlugs: [
+      "custom-cosmetic-packaging-guide",
+      "how-to-customize-eyelash-boxes",
+      "press-on-nail-packaging-guide",
+      "beauty-subscription-box-contents"
+    ]
   },
   {
     slug: "custom-drawstring-bags",
@@ -5526,7 +5555,11 @@ var collections = [
       "custom-muslin-drawstring-pouch",
       "custom-satin-wig-bag"
     ],
-    ctaTitle: "Request a quote for your custom drawstring bags"
+    ctaTitle: "Request a quote for your custom drawstring bags",
+    guideSlugs: [
+      "how-to-choose-custom-drawstring-bags",
+      "custom-clothing-apparel-packaging-guide"
+    ]
   },
   {
     slug: "ribbons-accessories",
@@ -5628,7 +5661,11 @@ var collections = [
       "custom-velvet-pouches",
       "custom-pvc-bags"
     ],
-    ctaTitle: "Request a quote for your cosmetic pouches"
+    ctaTitle: "Request a quote for your cosmetic pouches",
+    guideSlugs: [
+      "custom-cosmetic-packaging-guide",
+      "custom-perfume-packaging-guide"
+    ]
   },
   {
     slug: "subscription-box-packaging",
@@ -5690,7 +5727,15 @@ var collections = [
       "custom-muslin-drawstring-pouch",
       "luxury-gift-box-ribbon"
     ],
-    ctaTitle: "Request a quote for your subscription box program"
+    ctaTitle: "Request a quote for your subscription box program",
+    guideSlugs: [
+      "subscription-box-packaging-buyers-guide",
+      "subscription-box-packaging-cost",
+      "candle-subscription-box-packaging",
+      "beauty-subscription-box-contents",
+      "valentines-day-packaging-timeline",
+      "custom-packaging-moq-sample-lead-times-2026"
+    ]
   }
 ];
 function getCollectionBySlug(slug) {
@@ -5706,6 +5751,7 @@ function Collection({ slug }) {
   }, [collection]);
   if (!collection) return null;
   const products3 = collection.productSlugs.map((s) => getProductBySlug(s)).filter((p) => p !== void 0);
+  const guides = (collection.guideSlugs ?? []).map((s) => getArticleBySlug(s)).filter((a) => a !== void 0);
   return /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(import_jsx_runtime16.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "eyebrow reveal", children: collection.eyebrow }),
@@ -5745,6 +5791,14 @@ function Collection({ slug }) {
         product.slug
       )) })
     ] }) }),
+    guides.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Sourcing guides" }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "spec-list", children: guides.map((guide) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Link, { to: `/news/${guide.slug}`, className: "text-link", children: guide.title }),
+        " \u2014 ",
+        guide.excerpt
+      ] }, guide.slug)) })
+    ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "MOQ & lead time" }),
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "spec-list", children: collection.facts.map((row) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
