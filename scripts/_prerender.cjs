@@ -3097,6 +3097,38 @@ var import_react_router_dom12 = require("react-router-dom");
 // src/data/articles.ts
 var articles = [
   {
+    "slug": "magnetic-closure-vs-ribbon-tie-gift-boxes",
+    "datePublished": "2026-10-06",
+    "title": "Magnetic Closure vs Ribbon-Tie Gift Boxes: A Buyer\u2019s Comparison",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "5 min read",
+    "image": "/magnetic-vs-ribbon-gift-box-checklist.png",
+    "imageAlt": "Magnetic closure vs ribbon tie gift boxes buyer sample checklist",
+    "imageWidth": 1080,
+    "imageHeight": 1080,
+    "fontFamily": "Arial",
+    "excerpt": "Compare magnetic and ribbon-tie boxes through the same loaded-fit, packing and quotation checks before choosing a closure.",
+    "metaDescription": "Compare magnetic closure and ribbon-tie gift boxes through sample checks for opening, packing work, loaded fit and quotation scope before choosing a design.",
+    "body": "If you are deciding between a magnetic closure and a ribbon-tie gift box, review how the pack will be assembled, opened and closed. Ask for comparable samples before choosing by appearance alone. The comparison below is a buying checklist, not a claim that one closure is universally stronger or less expensive.\n\n## Define the two constructions you are comparing\n\nELAPACK lists a [magnetic closure gift box](https://elapack.com/products/magnetic-closure-gift-box) and a [ribbon gift box](https://elapack.com/products/luxury-gift-box-ribbon). Use those references to identify the proposed structure, then confirm whether the ribbon closes the box, decorates it or works alongside another closure. A visible ribbon does not answer that question by itself.\n\nKeep the intended product, internal space and presentation requirements consistent where possible. If the proposed boxes differ in structure as well as closure, record both differences before attributing an observation to the magnet or ribbon.\n\n## Compare the packing task\n\nAsk the person who will pack the order to review each sample. For a ribbon-tie option, specify the desired tie arrangement and ask whether it will arrive tied or require work at the packing stage. For a magnetic option, review the actual lid movement after the product and insert are loaded.\n\n| Decision point | Magnetic sample review | Ribbon-tie sample review |\n|---|---|---|\n| Opening | Check how the intended recipient opens the lid | Check how the recipient releases the tie |\n| Closing | Review lid alignment with the contents loaded | Review tie position and the intended closing method |\n| Packing work | Record the steps for the proposed construction | Record threading, tying or adjustment where required |\n| Presentation | Inspect the closed box and its contact points | Inspect ribbon placement alongside the logo |\n| Quotation | Confirm structure, insert and assembly scope | Confirm ribbon specification and assembly scope |\n\nIf packing time matters, observe your team using both samples and document the same task for each. Do not use an invented speed comparison or assume that one sample represents every version of that closure.\n\n## Review the package around the closure\n\nCheck the filled box, insert and any pouch together. If this is a [complete packaging set](https://elapack.com/products?category=Sets%20%26%20Complete%20Packaging), include all intended components in the review. Ask separately about the outer shipping pack and any validation required for your delivery conditions; a presentation sample alone should not be treated as shipping-test evidence.\n\nFor additional options, compare the [custom box category](https://elapack.com/products?category=Boxes) and [ribbons and accessories](https://elapack.com/products?category=Ribbons%20%26%20Accessories). Request a written specification for the particular combination rather than mixing features from different catalog images.\n\n## Keep the price comparison like for like\n\nRequest the same quantity and delivery scope for each proposal. Ask suppliers to separate changes in the box construction, insert, finish, ribbon and packing work. If one option is quoted flat and another assembled, have that difference explained before comparing totals.\n\nChoose the version that meets the project\u2019s agreed requirements. If the ribbon arrangement is important to the design, approve it on the assembled sample. If repeated opening matters, agree on the review method for the actual sample rather than making an unsupported durability claim.\n\n## Prepare the comparison request\n\nFor a [gift packaging application](https://elapack.com/industries?sector=Gift), send the product dimensions, desired presentation, order quantity and packing arrangements. [Contact ELAPACK](https://elapack.com/contact) with the two constructions you want to compare and identify any requirement that needs sample or test evidence."
+  },
+  {
+    "slug": "compare-multi-component-gift-set-packaging-quotes",
+    "datePublished": "2026-10-06",
+    "title": "How to Compare Packaging Quotes for a Multi-Component Gift Set",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "5 min read",
+    "image": "/gift-set-packaging-quote-checklist.png",
+    "imageAlt": "Gift set packaging quote checklist for components quantities assembly and exclusions",
+    "imageWidth": 1080,
+    "imageHeight": 1080,
+    "fontFamily": "Arial",
+    "excerpt": "Compare gift-set quotations component by component, with quantities, assembly responsibilities and exclusions kept visible.",
+    "metaDescription": "Build a component-by-component gift-set quote comparison. Check quantities, assembly responsibilities, sample revisions and exclusions before approving an order.",
+    "body": "Before comparing prices for a gift set, write down exactly what one finished set contains. Ask each supplier to quote that same component list and identify any exceptions. This guide focuses on coordinating the parts of a set, not on a monthly subscription-box budget or a published price range.\n\n## Build a bill of materials\n\nUse a bill of materials\u2014a list of required components and quantities\u2014to describe the pack. Include the presentation box, insert, pouch, ribbon, card and outer packing only where your project needs them. Mark anything you will supply yourself.\n\nUse [complete packaging sets](https://elapack.com/products?category=Sets%20%26%20Complete%20Packaging) as a starting point, then specify individual [custom boxes](https://elapack.com/products?category=Boxes) and [pouches and bags](https://elapack.com/products?category=Pouches%20%26%20Bags). Do not treat every object in a product photograph as included in one quoted unit.\n\n## Count what goes into each version\n\nIf your gift range has several versions, create a separate column or row for each. Ask suppliers to state how their quoted quantities are split by size, color and artwork. Do not assume that a combined total meets every component\u2019s order requirement.\n\n| Worksheet field | What to enter |\n|---|---|\n| Component and version | A unique name for the part, size and design |\n| Units per finished set | The number required for that version |\n| Finished-set quantity | The intended number of that version |\n| Component quantity | Units per set \xD7 finished-set quantity, plus separately agreed spares |\n| Supply responsibility | Your company, this supplier or another supplier |\n| Approval reference | Specification and sample revision to be quoted |\n\nKeep spare components in their own line rather than hiding them inside the set count. If a quotation supplies different quantities of boxes and pouches, ask how many complete sets those quantities produce and what remains unassembled. The worksheet is an arithmetic tool, not a recommendation to order a fixed overage.\n\n## Name the assembly responsibilities\n\nSpecify who will insert the product, attach tags, tie ribbons and pack the finished sets. If the goods will be assembled at your warehouse, request the shipping arrangement for the loose components. If a supplier will assemble them, ask what work and materials the quoted assembly line includes.\n\nFor example, a [ribbon gift box](https://elapack.com/products/luxury-gift-box-ribbon) can be a reference for a discussion about the ribbon arrangement. Confirm the actual ribbon, tie, insert and assembly details in your proposal rather than assuming the catalog reference settles them.\n\n## Compare the entire quoted scope\n\nPlace setup, sampling, production, assembly and delivery in separate rows. Ask each supplier to mark \u201Cincluded,\u201D \u201Cseparately charged\u201D or \u201Cnot supplied.\u201D An empty row should remain a question until answered, not become a zero in your budget.\n\nIf you request a lower-cost alternative, ask which component or operation changes. Review whether it still fits the rest of the set before accepting the revised total. Keep the original and revised quotation identifiers so the chosen version is unambiguous.\n\n## Approve the set as an assembly\n\nRequest a review of the complete proposed assembly, with any unavailable customer-supplied item clearly identified. Record the loaded fit, placement of printed items and the closing arrangement. If one component is changed afterwards, decide whether another assembly review is needed.\n\nRetain the final component list with the approved sample references. For a future reorder, start from that version and list only the requested changes; ask the supplier to confirm any other proposed substitutions.\n\n## Send the component list with your enquiry\n\nFor a [gift packaging project](https://elapack.com/industries?sector=Gift), [contact ELAPACK](https://elapack.com/contact) with the list of components, quantities by version, product dimensions and delivery destination. Identify who will perform assembly and which items are still undecided so the quotation can address those gaps."
+  },
+  {
     "slug": "how-to-choose-a-custom-jewelry-pouch",
     "datePublished": "2026-09-27",
     "title": "How to Choose a Custom Jewelry Pouch: Fabric, Size, Closure and Branding",
@@ -3178,72 +3210,19 @@ var articles = [
   {
     "slug": "packaging-colour-tolerance-explained",
     "datePublished": "2026-09-27",
-    "title": "Packaging Colour Tolerance: What an Acceptable Colour Difference Means on a Custom Spec",
+    "dateModified": "2026-10-06",
+    "title": "How to Review Colour Across Boxes, Pouches and Ribbons",
     "category": "Sourcing Guide",
-    "date": "September 2026",
-    "readTime": "7 min read",
-    "image": "/images/factory/elapack-04.jpg",
-    "imageAlt": "Screen printing station for colour work on textile packaging",
-    "excerpt": "A colour difference is only acceptable when the spec names a number and a measurement method. Learn what tolerance means, where drift comes from, and how to draft the clause.",
-    "metaDescription": "Understand what colour tolerance means on a custom packaging spec, why colour drifts between sample and batch, and how to set an acceptable-difference bar before you order.",
-    "body": `*Measurement terms and example values in this guide are generic industry explanations, not a promise about any supplier's instruments. Confirm the delta-E scale and measurement method with the supplier you are evaluating.*
-
-This guide explains what colour tolerance means on a custom packaging specification, so you can tell \u2014 before you order or approve a run \u2014 whether a colour difference is inside an acceptable range or a real problem. It is for packaging buyers and brand managers at premium jewelry, fragrance & gift, and hair (wig) brands who approve packaging against a signed sample. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **A colour difference is only 'acceptable' if the spec names a number and a measurement method; an eye is not a measurement.** Read the sections below and you will be able to draft an acceptable-difference clause for your next spec, and list the questions to put to your supplier.
-
-## Why 'it looks different' is not a useful finding
-
-A colour difference between a new batch and an approved sample is common in custom packaging \u2014 inks, board, coating and press conditions all shift slightly between runs. The problem is rarely the difference itself. It is that most specs never name an acceptable range, so every disagreement is argued case by case instead of measured against a bar.
-
-1. A packaging buyer or brand manager approves a new batch of custom packaging against the signed sample.
-2. The batch looks different, but the spec does not state an acceptable colour difference or a measurement method.
-3. **Without a tolerance in the spec, the buyer cannot tell whether the difference is inside an acceptable range, so approval stalls.**
-4. The buyer and supplier argue each batch by eye \u2014 rematching, re-running, holding a launch \u2014 because there is no agreed number to measure against.
-5. The delay can push back a seasonal or limited launch, or leave stock that has to be reworked or written off.
-6. The task on this page is to learn what tolerance means and draft an acceptable-difference clause before the next run.
-
-The fix is not to demand a perfect match every time. It is to agree, in the spec, how close the colour has to be and how that closeness will be measured.
-
-## What colour tolerance actually means
-
-**Put a tolerance number and a measurement method in the spec before the run, not after the disagreement.** A tolerance is a stated acceptable difference between the produced colour and the reference \u2014 usually the signed sample or a measured colour value.
-
-- The reference. Tolerance only means something against a fixed reference. That is normally the approved production sample you both sign, or a measured value taken from it. Without a shared reference, a tolerance number has nothing to attach to.
-- The delta-E value. Colour difference is commonly expressed as delta-E (\u0394E), a single number that describes how far two colours sit apart. A lower number is a closer match. The exact scale and what each number looks like can vary by the method used, so the number only has meaning when the method is named.
-- The measurement method and light. A tolerance is measured, not judged. That means naming the instrument, the lighting condition (a standard daylight source is the common habit) and the geometry, so both sides measure the same way.
-
-A tolerance clause that names all three \u2014 reference, delta-E value, measurement method \u2014 turns "this looks different" into "this is inside / outside the agreed range".
-
-## Where colour drift between sample and batch comes from
-
-Understanding the common sources of drift helps you set a realistic bar. These are generic industry causes, and the specific mix for your supplier should be confirmed with them:
-
-- Ink and coating. The same Pantone reference can print differently on different board, coating, or press conditions. Matte and soft-touch coatings change how a colour reads under light.
-- Board and substrate. The base material's shade and absorbency affect the printed colour. A switch in board or a different lining can shift the result even with the same ink.
-- Press and process setup. Colour is set up per run; humidity, speed and press wear all cause small shifts. This is why a retained sample from the approved run is a more reliable reference than a digital proof.
-- Measurement conditions. The same piece can measure differently under warm store light, daylight, or a screen. Comparing under a controlled light and the same geometry removes this as a false alarm.
-
-Drift is normal and bounded; the question your spec answers is how much drift is acceptable and how it is verified.
-
-## When a tolerance on paper is not enough
-
-**A tolerance on paper only holds if the supplier measures the same way and can show the result.** Three boundaries keep this page honest:
-
-- A delta-E number without a named measurement method is not verifiable. Ask the supplier how they measure, under what light, and whether they can share the reading for a batch.
-- A signed sample from the approved run is the most reliable reference. A digital proof or a photo is not the same as the physical sample under controlled light.
-- Tolerance describes the finished piece against the reference. It does not replace sampling or approval \u2014 the tolerance is what you check against during approval, not a substitute for it.
-
-## Draft the acceptable-difference clause for your next spec
-
-**Draft the acceptable-difference clause for your next spec from the reference, the delta-E value and the lighting condition.** Nothing on this page collects your data or sends anything. Copy the four lines below into your own note and fill them from your launch:
-
-1. The reference: which signed production sample or measured colour value is the master?
-2. The delta-E value: what number is the acceptable difference \u2014 and is it stated per colour or for the whole design?
-3. The measurement method: which instrument, which lighting condition, and which geometry do you and the supplier agree on?
-4. The open question: which of these does the supplier need to confirm \u2014 their method, their retained sample, or the tolerance they can actually hold?
-
-When line 4 has an answer, you have finished the task this page owns: an acceptable-difference clause you can put in the next spec, and the questions to raise. Keep the note local, and raise those questions with your supplier through your existing approved contact process \u2014 do not send it anywhere this page has not verified.
-
-Your next step, once the tolerance is written, is the approval process \u2014 how to check a batch against that clause at incoming inspection. That is a separate page for a separate decision, and it starts from the number you have now put in the spec.`
+    "date": "October 2026",
+    "readTime": "5 min read",
+    "image": "/packaging-colour-matching-checklist.png",
+    "imageAlt": "Packaging colour matching workflow for boxes pouches and ribbons",
+    "imageWidth": 1080,
+    "imageHeight": 1080,
+    "fontFamily": "Arial",
+    "excerpt": "Review colour across boxes, pouches and ribbons using identified references, agreed viewing conditions and component-level approvals.",
+    "metaDescription": "Agree on colour references, viewing conditions and component approvals for boxes, pouches and ribbons without assuming one universal tolerance.",
+    "body": "If a box, pouch and ribbon are meant to work as one packaging set, agree on the colour relationship before approving the components. Decide whether they should closely match, form a tonal group or deliberately contrast. Then record the references and review conditions for that decision.\n\n## Give each component an identifiable reference\n\nPrepare a short colour brief for the [box](https://elapack.com/products?category=Boxes), [pouch](https://elapack.com/products?category=Pouches%20%26%20Bags) and [ribbon or accessory](https://elapack.com/products?category=Ribbons%20%26%20Accessories). Name the proposed material and finish, attach the design reference and identify the physical sample to be reviewed when available.\n\nIf your brief begins with a colour code or digital artwork, ask what sample will represent the finished component for approval. Keep the reference, supplier sample and final decision linked by an identifier; avoid approving an unnamed photograph that cannot later be tied to a specific sample.\n\n## Agree on lighting before judging a mismatch\n\nDatacolor explains that two samples may match under one light source and differ under another. This is called metamerism. Its guidance also distinguishes controlled visual assessment from instrument measurement; both have a role in a colour workflow. See [Datacolor\u2019s guide to light sources and colour evaluation](https://www.datacolor.com/business-solutions/blog/what-you-need-to-know-about-light-sources-and-color-evaluation/).\n\nFor your project, agree on the principal viewing conditions and any additional environment that matters to the intended presentation. Ask the supplier to describe how it will carry out the comparison. If the proposed review conditions cannot be reproduced by both sides, resolve that limitation before using the review as an acceptance requirement.\n\n## Inspect the components together\n\nOnce individual samples are ready, place the proposed box, pouch and ribbon together in their intended arrangement. Compare each component to its own reference, then review the overall relationship. Record whether you are accepting a close match, a tonal difference or an intentional contrast.\n\nA [ribbon gift box](https://elapack.com/products/luxury-gift-box-ribbon) can serve as a format reference when discussing where the ribbon sits against the box. It is not evidence that every proposed material combination will match. Ask to review the actual materials selected for your order.\n\n## Write down what \u201Cacceptable\u201D means\n\nDo not insert a universal numerical colour tolerance into the order without agreement. If instrumental measurements are part of acceptance, ask a qualified supplier or colour specialist to specify the method, settings, reference and limits suitable for the proposed components. Do not compare figures without knowing how they were obtained.\n\n| Approval record | What to keep |\n|---|---|\n| Component | Part name, proposed material and finish |\n| Reference | Identifiable physical standard or agreed reference |\n| Viewing conditions | Lighting and review arrangements agreed by both sides |\n| Measurement, if required | Method, settings and acceptance limits agreed for the project |\n| Visual decision | Match, tonal relationship or contrast accepted |\n| Exceptions | The specific difference accepted, or the revision required |\n| Version | Sample identifier, decision date and approver |\n\nTreat an approved exception as applying to that recorded version. If the material, finish or component supplier changes, ask whether the colour review needs to be repeated instead of carrying the previous approval forward without checking.\n\n## Make feedback actionable\n\nIf a sample is unsuitable, identify the component, reference and viewing conditions in the feedback. Describe the difference you observed and request a revised sample. Avoid a vague instruction such as \u201Cmake it more premium,\u201D which does not state the intended colour change.\n\nTo discuss coordinated packaging, [contact ELAPACK](https://elapack.com/contact) with the component list, colour references and intended [gift presentation](https://elapack.com/industries?sector=Gift). Indicate which samples or review conditions still need to be agreed before production approval."
   },
   {
     "slug": "how-to-customize-eyelash-boxes",
@@ -3889,6 +3868,15 @@ function News() {
 var import_react_router_dom13 = require("react-router-dom");
 var import_jsx_runtime12 = require("react/jsx-runtime");
 var RELATED = {
+  "magnetic-closure-vs-ribbon-tie-gift-boxes": [
+    "magnetic-closure-gift-box",
+    "luxury-gift-box-ribbon"
+  ],
+  "compare-multi-component-gift-set-packaging-quotes": [
+    "magnetic-closure-gift-box",
+    "custom-cotton-pouches",
+    "luxury-gift-box-ribbon"
+  ],
   "how-to-choose-a-custom-jewelry-pouch": [
     "custom-velvet-pouches",
     "custom-cotton-pouches",
@@ -4086,14 +4074,15 @@ function inline(text, keyPrefix, ctx) {
     if (ctx) nodes.push(...linkify(segment, key, ctx));
     else nodes.push(segment);
   };
-  const re = /\*\*(.+?)\*\*|\*(.+?)\*/g;
+  const re = /\[([^\]]+)\]\((https?:\/\/[^)]+|\/[^)]+)\)|\*\*(.+?)\*\*|\*(.+?)\*/g;
   let last = 0;
   let m = null;
   let i = 0;
   while (m = re.exec(text)) {
     if (m.index > last) push(text.slice(last, m.index), `${keyPrefix}-t${i}`);
-    if (m[1] !== void 0) nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("strong", { children: m[1] }, `${keyPrefix}-b${i}`));
-    else nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("em", { children: m[2] }, `${keyPrefix}-i${i}`));
+    if (m[1] !== void 0) nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("a", { href: m[2], className: "text-link", children: m[1] }, `${keyPrefix}-a${i}`));
+    else if (m[3] !== void 0) nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("strong", { children: m[3] }, `${keyPrefix}-b${i}`));
+    else nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("em", { children: m[4] }, `${keyPrefix}-i${i}`));
     last = m.index + m[0].length;
     i++;
   }
@@ -4181,8 +4170,9 @@ function Article() {
       ] }) })
     ] }) });
   }
+  const fontClass = article.fontFamily === "Arial" ? " article-font-arial" : "";
   return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_jsx_runtime12.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: `page-header${fontClass}`, children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "eyebrow reveal", children: article.category }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: article.title }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "news-meta reveal reveal-delay-2", style: { justifyContent: "center" }, children: [
@@ -4191,8 +4181,8 @@ function Article() {
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: article.readTime })
       ] })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "section article-section", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container article-container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("figure", { className: "landing-hero reveal", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: article.image, alt: article.imageAlt, width: 1600, height: 1e3 }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: `section article-section${fontClass}`, children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container article-container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("figure", { className: "landing-hero reveal", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: article.image, alt: article.imageAlt, width: article.imageWidth ?? 1600, height: article.imageHeight ?? 1e3 }) }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-body reveal", children: renderBody(article.body, ANCHORS[article.slug]) }),
       related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-related reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: "Related products" }),
@@ -6007,7 +5997,7 @@ for (const route of ROUTES) {
         image: [ogImage],
         ...article.datePublished ? {
           datePublished: article.datePublished,
-          dateModified: article.datePublished
+          dateModified: article.dateModified ?? article.datePublished
         } : {},
         author: { "@type": "Organization", name: "ELAPACK", url: `${SITE}/` },
         publisher: {

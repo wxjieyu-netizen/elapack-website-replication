@@ -9,6 +9,15 @@ import type { ReactNode } from "react";
  * anchor text is the (Custom…) product name so relevance passes through.
  */
 const RELATED: Record<string, string[]> = {
+  "magnetic-closure-vs-ribbon-tie-gift-boxes": [
+    "magnetic-closure-gift-box",
+    "luxury-gift-box-ribbon",
+  ],
+  "compare-multi-component-gift-set-packaging-quotes": [
+    "magnetic-closure-gift-box",
+    "custom-cotton-pouches",
+    "luxury-gift-box-ribbon",
+  ],
   "how-to-choose-a-custom-jewelry-pouch": [
     "custom-velvet-pouches",
     "custom-cotton-pouches",
@@ -227,14 +236,15 @@ function inline(text: string, keyPrefix: string, ctx?: AnchorCtx): ReactNode[] {
     if (ctx) nodes.push(...linkify(segment, key, ctx));
     else nodes.push(segment);
   };
-  const re = /\*\*(.+?)\*\*|\*(.+?)\*/g;
+  const re = /\[([^\]]+)\]\((https?:\/\/[^)]+|\/[^)]+)\)|\*\*(.+?)\*\*|\*(.+?)\*/g;
   let last = 0;
   let m: RegExpExecArray | null = null;
   let i = 0;
   while ((m = re.exec(text))) {
     if (m.index > last) push(text.slice(last, m.index), `${keyPrefix}-t${i}`);
-    if (m[1] !== undefined) nodes.push(<strong key={`${keyPrefix}-b${i}`}>{m[1]}</strong>);
-    else nodes.push(<em key={`${keyPrefix}-i${i}`}>{m[2]}</em>);
+    if (m[1] !== undefined) nodes.push(<a key={`${keyPrefix}-a${i}`} href={m[2]} className="text-link">{m[1]}</a>);
+    else if (m[3] !== undefined) nodes.push(<strong key={`${keyPrefix}-b${i}`}>{m[3]}</strong>);
+    else nodes.push(<em key={`${keyPrefix}-i${i}`}>{m[4]}</em>);
     last = m.index + m[0].length;
     i++;
   }
@@ -349,9 +359,11 @@ export default function Article() {
     );
   }
 
+  const fontClass = article.fontFamily === "Arial" ? " article-font-arial" : "";
+
   return (
     <>
-      <section className="page-header">
+      <section className={`page-header${fontClass}`}>
         <div className="container">
           <p className="eyebrow reveal">{article.category}</p>
           <h1 className="page-title reveal reveal-delay-1">{article.title}</h1>
@@ -363,10 +375,10 @@ export default function Article() {
         </div>
       </section>
 
-      <section className="section article-section">
+      <section className={`section article-section${fontClass}`}>
         <div className="container article-container">
           <figure className="landing-hero reveal">
-            <img src={article.image} alt={article.imageAlt} width={1600} height={1000} />
+            <img src={article.image} alt={article.imageAlt} width={article.imageWidth ?? 1600} height={article.imageHeight ?? 1000} />
           </figure>
           <div className="article-body reveal">{renderBody(article.body, ANCHORS[article.slug])}</div>
           {related.length > 0 && (

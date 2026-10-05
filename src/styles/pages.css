@@ -3881,6 +3881,7 @@ a.contact-value:hover {
 .article-container { max-width: 780px; }
 .article-section .news-meta { justify-content: center; display: flex; margin-top: 1rem; }
 .article-body { font-size: 1.05rem; line-height: 1.8; color: var(--color-text, #3a332b); }
+.article-font-arial .page-title, .article-font-arial .article-body { font-family: Arial, sans-serif; }
 .article-body h2 { font-size: 1.6rem; margin: 2.2rem 0 0.9rem; }
 .article-body h3 { font-size: 1.2rem; margin: 1.6rem 0 0.7rem; }
 .article-body p, .article-body ul, .article-body ol { margin: 0 0 1.1rem; }

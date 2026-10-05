@@ -199,7 +199,7 @@ for (const route of ROUTES) {
         ...(article.datePublished
           ? {
               datePublished: article.datePublished,
-              dateModified: article.datePublished,
+              dateModified: article.dateModified ?? article.datePublished,
             }
           : {}),
         author: { "@type": "Organization", name: "ELAPACK", url: `${SITE}/` },
