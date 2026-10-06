@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Bar chart: US monthly search volume: box finish keywords">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="64" y="60" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#18120c">US monthly search volume: box finish keywords</text>
+<text x="64" y="92" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b6258">Emboss/deboss variants total 440 searches/month; lamination and coatings 330; foil stamping 200</text>
+<rect x="700" y="118" width="14" height="14" fill="#8a7a68"/><text x="720" y="130" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4a4238">Emboss / deboss</text>
+<rect x="880" y="118" width="14" height="14" fill="#b08d46"/><text x="900" y="130" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4a4238">Foil stamping</text>
+<rect x="1044" y="118" width="14" height="14" fill="#5a6b5f"/><text x="1064" y="130" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4a4238">Lamination / coating</text>
+<text x="64" y="160" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">deboss emboss</text>
+<rect x="64" y="170" width="860" height="22" fill="e" rx="2"/>
+<text x="936" y="186" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">50 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 5)</tspan></text>
+<text x="64" y="234" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">debossed printing</text>
+<rect x="64" y="244" width="860" height="22" fill="e" rx="2"/>
+<text x="936" y="260" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">50 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 10)</tspan></text>
+<text x="64" y="308" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">custom hot stamping foil</text>
+<rect x="64" y="318" width="860" height="22" fill="f" rx="2"/>
+<text x="936" y="334" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">50 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 2)</tspan></text>
+<text x="64" y="382" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">emboss processing</text>
+<rect x="64" y="392" width="688" height="22" fill="e" rx="2"/>
+<text x="764" y="408" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">40 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 16)</tspan></text>
+<text x="64" y="456" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">box lamination</text>
+<rect x="64" y="466" width="688" height="22" fill="l" rx="2"/>
+<text x="764" y="482" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">40 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 3)</tspan></text>
+<text x="64" y="530" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">spot uv print</text>
+<rect x="64" y="540" width="688" height="22" fill="l" rx="2"/>
+<text x="764" y="556" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">40 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 10)</tspan></text>
+<text x="64" y="647" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8178">Source: Semrush US keyword database, exported 2026$&#8209;10$&#8209;07. KD = keyword difficulty (0$&#8211;100). Sub$&#8209;cluster totals: emboss/deboss 440, lamination and coatings 330, foil stamping ~200 searches/month.</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Bar chart: US monthly search volume: cotton drawstring demand around muslin bags">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="64" y="60" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#18120c">US monthly search volume: cotton drawstring demand around muslin bags</text>
+<text x="64" y="92" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b6258">Muslin (47/mo cluster) is a material subset of the wider cotton drawstring bag demand worth 2,000+/mo</text>
+<rect x="700" y="118" width="14" height="14" fill="#8a7a68"/><text x="720" y="130" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4a4238">Cotton drawstring (generic)</text>
+<rect x="976" y="118" width="14" height="14" fill="#b08d46"/><text x="996" y="130" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4a4238">Cotton drawstring (buying intent)</text>
+<rect x="1300" y="118" width="14" height="14" fill="#6b4f3a"/><text x="1320" y="130" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4a4238">Muslin cluster</text>
+<text x="64" y="160" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">cotton drawstring bags</text>
+<rect x="64" y="170" width="860" height="22" fill="q" rx="2"/>
+<text x="936" y="186" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">880 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 15)</tspan></text>
+<text x="64" y="234" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">cotton drawstring bag</text>
+<rect x="64" y="244" width="469" height="22" fill="q" rx="2"/>
+<text x="545" y="260" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">480 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 10)</tspan></text>
+<text x="64" y="308" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">cotton drawstring pouch</text>
+<rect x="64" y="318" width="254" height="22" fill="q" rx="2"/>
+<text x="330" y="334" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">260 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 10)</tspan></text>
+<text x="64" y="382" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">custom cotton drawstring bags</text>
+<rect x="64" y="392" width="87" height="22" fill="c" rx="2"/>
+<text x="163" y="408" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">90 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 14)</tspan></text>
+<text x="64" y="456" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">cotton drawstring bags bulk</text>
+<rect x="64" y="466" width="48" height="22" fill="c" rx="2"/>
+<text x="124" y="482" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">50 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 8)</tspan></text>
+<text x="64" y="530" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">custom muslin bags (cluster)</text>
+<rect x="64" y="540" width="45" height="22" fill="f" rx="2"/>
+<text x="121" y="556" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">47 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD n/a)</tspan></text>
+<text x="64" y="647" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8178">Source: Semrush US keyword database, exported 2026$&#8209;10$&#8209;01. Muslin cluster = custom muslin bags head term plus logo/bulk variants (KD not exported for this slice).</text>
+</svg>

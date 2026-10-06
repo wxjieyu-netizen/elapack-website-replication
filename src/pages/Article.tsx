@@ -9,6 +9,18 @@ import type { ReactNode } from "react";
  * anchor text is the (Custom…) product name so relevance passes through.
  */
 const RELATED: Record<string, string[]> = {
+  "surface-finishes-compared-guide": [
+    "magnetic-closure-gift-box",
+    "custom-ring-boxes",
+  ],
+  "custom-printed-ribbon-guide": [
+    "luxury-gift-box-ribbon",
+    "magnetic-closure-gift-box",
+  ],
+  "custom-muslin-bags-guide": [
+    "custom-muslin-drawstring-pouch",
+    "custom-cotton-pouches",
+  ],
   "custom-ring-boxes-guide": [
     "custom-ring-boxes",
     "magnetic-closure-gift-box",
@@ -134,6 +146,9 @@ const RELATED: Record<string, string[]> = {
  * plain so links read naturally and never cluster.
  */
 const ANCHORS: Record<string, Record<string, string>> = {
+  "surface-finishes-compared-guide": {
+    "magnetic flip-top": "magnetic-closure-gift-box",
+  },
   "custom-packaging-moq-sample-lead-times-2026": {
     "custom drawstring bags": "custom-muslin-drawstring-pouch",
     "custom eyelash packaging": "custom-eyelash-packaging-boxes",
