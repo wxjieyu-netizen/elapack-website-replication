@@ -195,7 +195,7 @@ export function faqsFor(category: string): { q: string; a: string }[] {
     c.faqClosures,
     {
       q: "Do I need to provide a dieline for custom packaging?",
-      a: "No. We draw the dieline to your confirmed product dimensions free of charge at the quotation stage, and custom samples are built to it. Files are supplied as PDF, AI or DXF. If you already have a vector dieline, we accept it and verify it with our die-making team before production; cutting-die tooling is included in the quoted order price.",
+      a: "No. We draw the dieline to your confirmed product dimensions free of charge at the quotation stage, and custom samples are built to it. Files are supplied as PDF, AI or DXF. If you already have a vector dieline, we accept it and verify it with our die-making team before production; cutting-die tooling, where a new die is required, is quoted at USD 50–100 depending on the product.",
     },
     { q: `Are the ${c.noun} eco-friendly?`, a: ECO_FAQ_ANSWER },
     {
