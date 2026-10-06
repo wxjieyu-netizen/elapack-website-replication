@@ -3898,6 +3898,9 @@ a.contact-value:hover {
 .article-related .spec-list { flex-direction: column; gap: 0.5rem; }
 .news-card-link { text-decoration: none; color: inherit; display: block; }
 .news-guides-head { margin: 4rem 0 1.5rem; text-align: center; }
+.article-figure { margin: 0 0 1.3rem; }
+.article-figure img { display: block; width: 100%; height: auto; border: 1px solid rgba(24, 18, 12, 0.16); background: #fff; }
+.article-figure figcaption { font-size: 0.85rem; color: rgba(24, 18, 12, 0.62); margin-top: 0.45rem; line-height: 1.5; }
 .article-table-wrap { overflow-x: auto; margin: 0 0 1.3rem; }
 .article-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; line-height: 1.55; }
 .article-table th, .article-table td { border: 1px solid rgba(24, 18, 12, 0.16); padding: 0.55rem 0.8rem; text-align: left; vertical-align: top; }

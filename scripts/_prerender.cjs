@@ -4177,7 +4177,15 @@ function renderBody(body, anchors = {}) {
       return;
     }
     flush();
-    if (line.startsWith("### ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h3", { children: inline(line.slice(4), `h3${out.length}`) }, out.length));
+    const figure = line.match(/^!\[([^\]]*)\]\((\/[^)\s]+)\)$/);
+    if (figure) {
+      out.push(
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("figure", { className: "article-figure", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: figure[2], alt: figure[1], width: 1200, height: 675, loading: "lazy" }),
+          figure[1] ? /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("figcaption", { children: figure[1] }) : null
+        ] }, `fig${out.length}`)
+      );
+    } else if (line.startsWith("### ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h3", { children: inline(line.slice(4), `h3${out.length}`) }, out.length));
     else if (line.startsWith("## ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: inline(line.slice(3), `h2${out.length}`) }, out.length));
     else out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { children: inline(line, `p${out.length}`, ctx) }, out.length));
   });

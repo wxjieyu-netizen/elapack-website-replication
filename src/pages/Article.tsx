@@ -332,7 +332,15 @@ function renderBody(body: string, anchors: Record<string, string> = {}): ReactNo
       return;
     }
     flush();
-    if (line.startsWith("### ")) out.push(<h3 key={out.length}>{inline(line.slice(4), `h3${out.length}`)}</h3>);
+    const figure = line.match(/^!\[([^\]]*)\]\((\/[^)\s]+)\)$/);
+    if (figure) {
+      out.push(
+        <figure key={`fig${out.length}`} className="article-figure">
+          <img src={figure[2]} alt={figure[1]} width={1200} height={675} loading="lazy" />
+          {figure[1] ? <figcaption>{figure[1]}</figcaption> : null}
+        </figure>
+      );
+    } else if (line.startsWith("### ")) out.push(<h3 key={out.length}>{inline(line.slice(4), `h3${out.length}`)}</h3>);
     else if (line.startsWith("## ")) out.push(<h2 key={out.length}>{inline(line.slice(3), `h2${out.length}`)}</h2>);
     else out.push(<p key={out.length}>{inline(line, `p${out.length}`, ctx)}</p>);
   });
