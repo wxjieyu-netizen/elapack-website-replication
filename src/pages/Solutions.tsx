@@ -154,6 +154,8 @@ export default function Solutions() {
                     src={solutionContent[sol].image}
                     alt={sol}
                     loading="lazy"
+                    width={1408}
+                    height={768}
                   />
                 </div>
                 <div className="solution-card-body">
@@ -190,6 +192,8 @@ export default function Solutions() {
                   src={solutionContent[selected].image}
                   alt={selected}
                   loading="lazy"
+                  width={1408}
+                  height={768}
                 />
               </div>
 

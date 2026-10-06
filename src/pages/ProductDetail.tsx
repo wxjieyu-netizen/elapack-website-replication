@@ -79,7 +79,7 @@ export default function ProductDetail() {
           <div className="product-detail-grid">
             <div className="product-detail-gallery reveal">
               <div className="product-gallery-main">
-                <img src={galleryImgs[activeImg] ?? product.image} alt={product.name} />
+                <img src={galleryImgs[activeImg] ?? product.image} alt={product.name} width={1254} height={1254} />
                 <span className="product-detail-category">
                   {product.category}
                 </span>
@@ -94,7 +94,7 @@ export default function ProductDetail() {
                       role="button"
                       aria-label={`View photo ${i + 1}`}
                     >
-                      <img src={img} alt={`${product.name} view ${i + 1}`} loading="lazy" />
+                      <img src={img} alt={` view `} loading="lazy" width={1254} height={1254} />
                     </div>
                   ))}
               </div>
@@ -200,6 +200,8 @@ export default function ProductDetail() {
                 src="/product-collection.webp"
                 alt={`${product.name} showcase`}
                 loading="lazy"
+              width={1408}
+              height={768}
               />
             </div>
           </div>
@@ -243,6 +245,8 @@ export default function ProductDetail() {
                 src="/custom-options.webp"
                 alt={`Customize your ${copy.noun}`}
                 loading="lazy"
+              width={1408}
+              height={768}
               />
             </div>
             <div className="product-customize-bags-content reveal reveal-delay-2">
@@ -397,7 +401,7 @@ export default function ProductDetail() {
                   className={`related-card reveal reveal-delay-${(i % 3) + 1}`}
                 >
                   <div className="related-card-image">
-                    <img src={item.image} alt={item.name} loading="lazy" />
+                    <img src={item.image} alt={item.name} loading="lazy" width={1254} height={1254} />
                   </div>
                   <div className="related-card-body">
                     <span className="related-category">{item.category}</span>

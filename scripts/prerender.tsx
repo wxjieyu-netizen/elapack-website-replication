@@ -178,6 +178,27 @@ for (const route of ROUTES) {
     }
 
     const graph: object[] = [];
+    graph.push({
+      "@type": "Organization",
+      "@id": `${SITE}/#organization`,
+      name: "ELAPACK",
+      legalName: "Wuxi Magic Packaging Co., Ltd",
+      url: `${SITE}/`,
+      logo: `${SITE}/images/brand/elapack-logo.png`,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Wuxi",
+        addressRegion: "Jiangsu",
+        addressCountry: "CN",
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+86-18626352096",
+        email: "tina@elapack.com",
+        contactType: "sales",
+        availableLanguage: ["en"],
+      },
+    });
     if (crumbs.length > 1) {
       graph.push({
         "@type": "BreadcrumbList",

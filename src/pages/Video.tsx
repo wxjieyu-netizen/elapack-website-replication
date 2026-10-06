@@ -206,11 +206,15 @@ export default function Video() {
                 src="/product-giftbox.webp"
                 alt="Custom luxury gift box"
                 loading="lazy"
+              width={1408}
+              height={768}
               />
               <img
                 src="/product-collection.webp"
                 alt="Custom packaging collection"
                 loading="lazy"
+              width={1408}
+              height={768}
               />
             </div>
           </div>
@@ -238,7 +242,7 @@ export default function Video() {
                 className={`process-step-card reveal reveal-delay-${i + 1}`}
               >
                 <div className="process-step-image">
-                  <img src={step.image} alt={step.title} loading="lazy" />
+                  <img src={step.image} alt={step.title} loading="lazy" width={1408} height={768} />
                   <span className="process-step-phase">{step.phase}</span>
                 </div>
                 <div className="process-step-body">
@@ -282,7 +286,7 @@ export default function Video() {
                 className={`success-story-card reveal reveal-delay-${(i % 4) + 1}`}
               >
                 <div className="success-story-image">
-                  <img src={story.image} alt={story.client} loading="lazy" />
+                  <img src={story.image} alt={story.client} loading="lazy" width={1254} height={1254} />
                   <span className="success-story-category">
                     {story.category}
                   </span>

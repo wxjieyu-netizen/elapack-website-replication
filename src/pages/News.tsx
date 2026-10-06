@@ -72,7 +72,7 @@ export default function News() {
           {/* Featured Article */}
           <article className="news-featured reveal">
             <div className="news-featured-image">
-              <img src={articles[0].image} alt={articles[0].title} />
+              <img src={articles[0].image} alt={articles[0].title} width={1600} height={1000} />
             </div>
             <div className="news-featured-body">
               <span className="news-category">{articles[0].category}</span>
@@ -98,7 +98,7 @@ export default function News() {
                 className={`news-card reveal reveal-delay-${i + 1}`}
               >
                 <div className="news-card-image">
-                  <img src={article.image} alt={article.title} loading="lazy" />
+                  <img src={article.image} alt={article.title} loading="lazy" width={1600} height={1000} />
                   <span className="news-category">{article.category}</span>
                 </div>
                 <div className="news-card-body">
@@ -130,7 +130,7 @@ export default function News() {
               >
                 <Link to={`/news/${article.slug}`} className="news-card-link">
                   <div className="news-card-image">
-                    <img src={article.image} alt={article.imageAlt} loading="lazy" />
+                    <img src={article.image} alt={article.imageAlt} loading="lazy" width={1600} height={1000} />
                     <span className="news-category">{article.category}</span>
                   </div>
                   <div className="news-card-body">

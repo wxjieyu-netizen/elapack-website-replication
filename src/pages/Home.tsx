@@ -163,6 +163,8 @@ export default function Home() {
           <img
             src="/hero-poster-oem-odm.webp"
             alt="OEM &amp; ODM custom packaging by ELAPACK: gift boxes, shopping bags, pouches and jewelry packaging"
+            width={1942}
+            height={809}
           />
         </div>
         {/* The poster carries its own headline and subheading, so the hero paints
@@ -314,7 +316,7 @@ export default function Home() {
                 className={`product-card reveal reveal-delay-${(i % 4) + 1}`}
               >
                 <div className="product-card-image">
-                  <img src={product.image} alt={product.name} loading="lazy" />
+                  <img src={product.image} alt={product.name} loading="lazy" width={1254} height={1254} />
                   <span className="product-tag">{product.tag}</span>
                 </div>
                 <div className="product-card-body">
@@ -352,7 +354,7 @@ export default function Home() {
                 className={`popular-card reveal reveal-delay-${(i % 4) + 1}`}
               >
                 <div className="popular-card-image">
-                  <img src={item.image} alt={item.name} loading="lazy" />
+                  <img src={item.image} alt={item.name} loading="lazy" width={1254} height={1254} />
                 </div>
                 <div className="popular-card-body">
                   <h3 className="popular-name">{item.name}</h3>
@@ -400,7 +402,7 @@ export default function Home() {
                 className={`advantage-card reveal reveal-delay-${i + 1}`}
               >
                 <div className="advantage-image">
-                  <img src={card.image} alt={card.title} loading="lazy" />
+                  <img src={card.image} alt={card.title} loading="lazy" width={1536} height={1024} />
                   <span className="advantage-arrow" aria-hidden="true">↗</span>
                 </div>
                 <div className="advantage-card-body">
@@ -437,6 +439,8 @@ export default function Home() {
               src="/custom-options.webp"
               alt="Custom packaging options showcase"
               loading="lazy"
+            width={1408}
+            height={768}
             />
           </div>
         </div>
@@ -484,7 +488,7 @@ export default function Home() {
                 <div key={study.client} className="case-carousel-slide">
                   <div className="case-card">
                     <div className="case-card-image">
-                      <img src={study.image} alt={study.client} loading="lazy" />
+                      <img src={study.image} alt={study.client} loading="lazy" width={1254} height={1254} />
                       <span className="case-category">{study.category}</span>
                     </div>
                     <div className="case-card-body">
@@ -543,6 +547,8 @@ export default function Home() {
                 src="/about-craft.webp"
                 alt="Artisan crafting premium packaging"
                 loading="lazy"
+              width={1408}
+              height={768}
               />
             </div>
             <div className="philosophy-content reveal reveal-delay-2">

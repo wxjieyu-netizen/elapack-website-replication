@@ -88,6 +88,8 @@ export default function About() {
                 src="/about-factory.webp"
                 alt="ELAPACK production facility"
                 loading="lazy"
+              width={1408}
+              height={768}
               />
             </div>
             <div className="about-story-text reveal reveal-delay-2">
@@ -222,6 +224,8 @@ export default function About() {
                 src="/about-materials.webp"
                 alt="Premium packaging materials"
                 loading="lazy"
+              width={1408}
+              height={768}
               />
             </div>
           </div>

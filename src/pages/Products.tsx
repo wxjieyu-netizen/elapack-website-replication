@@ -106,6 +106,8 @@ export default function Products() {
                     src={product.image}
                     alt={product.name}
                     loading="lazy"
+                    width={1254}
+                    height={1254}
                   />
                   <span className="catalog-category">{product.category}</span>
                 </div>

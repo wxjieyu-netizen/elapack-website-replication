@@ -58,6 +58,10 @@ export default function Footer() {
                 <span className="footer-label">WhatsApp</span>
                 <a href="https://wa.me/8618626352096">+86 18626352096</a>
               </li>
+              <li>
+                <span className="footer-label">Factory</span>
+                Wuxi, Jiangsu, China
+              </li>
             </ul>
           </div>
         </div>

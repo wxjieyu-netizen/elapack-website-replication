@@ -81,7 +81,7 @@ export default function Collection({ slug }: { slug: string }) {
                 className={`catalog-card reveal reveal-delay-${(i % 4) + 1}`}
               >
                 <div className="catalog-card-image">
-                  <img src={product.image} alt={product.name} loading="lazy" />
+                  <img src={product.image} alt={product.name} loading="lazy" width={1254} height={1254} />
                   <span className="catalog-category">{product.category}</span>
                 </div>
                 <div className="catalog-card-body">

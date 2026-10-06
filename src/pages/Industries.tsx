@@ -160,6 +160,8 @@ export default function Industries() {
                     src={industryContent[ind].image}
                     alt={ind}
                     loading="lazy"
+                    width={1408}
+                    height={768}
                   />
                 </div>
                 <div className="industry-card-body">
@@ -213,6 +215,8 @@ export default function Industries() {
                             src={product.image}
                             alt={product.name}
                             loading="lazy"
+                            width={1254}
+                            height={1254}
                           />
                         </div>
                         <div className="industry-product-body">

@@ -1406,6 +1406,10 @@ function Footer() {
           /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("li", { children: [
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-label", children: "WhatsApp" }),
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 18626352096" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("li", { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-label", children: "Factory" }),
+            "Wuxi, Jiangsu, China"
           ] })
         ] })
       ] })
@@ -1631,7 +1635,9 @@ function Home() {
         "img",
         {
           src: "/hero-poster-oem-odm.webp",
-          alt: "OEM & ODM custom packaging by ELAPACK: gift boxes, shopping bags, pouches and jewelry packaging"
+          alt: "OEM & ODM custom packaging by ELAPACK: gift boxes, shopping bags, pouches and jewelry packaging",
+          width: 1942,
+          height: 809
         }
       ) }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_router_dom6.Link, { to: "/contact", className: "hero-cta", children: "Get a Quote" }),
@@ -1753,7 +1759,7 @@ function Home() {
           className: `product-card reveal reveal-delay-${i % 4 + 1}`,
           children: [
             /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "product-card-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { src: product.image, alt: product.name, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { src: product.image, alt: product.name, loading: "lazy", width: 1254, height: 1254 }),
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "product-tag", children: product.tag })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "product-card-body", children: [
@@ -1781,7 +1787,7 @@ function Home() {
           to: `/products?category=${encodeURIComponent(item.category)}`,
           className: `popular-card reveal reveal-delay-${i % 4 + 1}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "popular-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { src: item.image, alt: item.name, loading: "lazy" }) }),
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "popular-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { src: item.image, alt: item.name, loading: "lazy", width: 1254, height: 1254 }) }),
             /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "popular-card-body", children: [
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("h3", { className: "popular-name", children: item.name }),
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "popular-desc", children: item.desc }),
@@ -1814,7 +1820,7 @@ function Home() {
           className: `advantage-card reveal reveal-delay-${i + 1}`,
           children: [
             /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "advantage-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { src: card.image, alt: card.title, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { src: card.image, alt: card.title, loading: "lazy", width: 1536, height: 1024 }),
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "advantage-arrow", "aria-hidden": "true", children: "\u2197" })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "advantage-card-body", children: [
@@ -1838,7 +1844,9 @@ function Home() {
         {
           src: "/custom-options.webp",
           alt: "Custom packaging options showcase",
-          loading: "lazy"
+          loading: "lazy",
+          width: 1408,
+          height: 768
         }
       ) })
     ] }) }),
@@ -1862,7 +1870,7 @@ function Home() {
           style: { transform: `translateX(-${activeSlide * 100}%)` },
           children: caseStudies.map((study) => /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "case-carousel-slide", children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "case-card", children: [
             /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "case-card-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { src: study.image, alt: study.client, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { src: study.image, alt: study.client, loading: "lazy", width: 1254, height: 1254 }),
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "case-category", children: study.category })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "case-card-body", children: [
@@ -1916,7 +1924,9 @@ function Home() {
         {
           src: "/about-craft.webp",
           alt: "Artisan crafting premium packaging",
-          loading: "lazy"
+          loading: "lazy",
+          width: 1408,
+          height: 768
         }
       ) }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "philosophy-content reveal reveal-delay-2", children: [
@@ -2022,7 +2032,9 @@ function Products() {
                 {
                   src: product.image,
                   alt: product.name,
-                  loading: "lazy"
+                  loading: "lazy",
+                  width: 1254,
+                  height: 1254
                 }
               ),
               /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "catalog-category", children: product.category })
@@ -2294,7 +2306,7 @@ function ProductDetail() {
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "product-detail-hero", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-gallery reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-gallery-main", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: galleryImgs[activeImg] ?? product.image, alt: product.name }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: galleryImgs[activeImg] ?? product.image, alt: product.name, width: 1254, height: 1254 }),
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-detail-category", children: product.category })
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-gallery-thumbs", children: galleryImgs.map((img, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
@@ -2304,7 +2316,7 @@ function ProductDetail() {
             onClick: () => setActiveImg(i),
             role: "button",
             "aria-label": `View photo ${i + 1}`,
-            children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: img, alt: `${product.name} view ${i + 1}`, loading: "lazy" })
+            children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: img, alt: ` view `, loading: "lazy", width: 1254, height: 1254 })
           },
           i
         )) })
@@ -2365,7 +2377,9 @@ function ProductDetail() {
         {
           src: "/product-collection.webp",
           alt: `${product.name} showcase`,
-          loading: "lazy"
+          loading: "lazy",
+          width: 1408,
+          height: 768
         }
       ) })
     ] }) }) }),
@@ -2393,7 +2407,9 @@ function ProductDetail() {
         {
           src: "/custom-options.webp",
           alt: `Customize your ${copy.noun}`,
-          loading: "lazy"
+          loading: "lazy",
+          width: 1408,
+          height: 768
         }
       ) }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-customize-bags-content reveal reveal-delay-2", children: [
@@ -2495,7 +2511,7 @@ function ProductDetail() {
           to: `/products/${item.slug}`,
           className: `related-card reveal reveal-delay-${i % 3 + 1}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "related-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: item.image, alt: item.name, loading: "lazy" }) }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "related-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: item.image, alt: item.name, loading: "lazy", width: 1254, height: 1254 }) }),
             /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "related-card-body", children: [
               /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "related-category", children: item.category }),
               /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "related-name", children: item.name }),
@@ -2650,7 +2666,9 @@ function Industries() {
               {
                 src: industryContent[ind].image,
                 alt: ind,
-                loading: "lazy"
+                loading: "lazy",
+                width: 1408,
+                height: 768
               }
             ) }),
             /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-card-body", children: [
@@ -2696,7 +2714,9 @@ function Industries() {
                   {
                     src: product.image,
                     alt: product.name,
-                    loading: "lazy"
+                    loading: "lazy",
+                    width: 1254,
+                    height: 1254
                   }
                 ) }),
                 /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-product-body", children: [
@@ -2856,7 +2876,9 @@ function Solutions() {
               {
                 src: solutionContent[sol].image,
                 alt: sol,
-                loading: "lazy"
+                loading: "lazy",
+                width: 1408,
+                height: 768
               }
             ) }),
             /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "solution-card-body", children: [
@@ -2891,7 +2913,9 @@ function Solutions() {
           {
             src: solutionContent[selected].image,
             alt: selected,
-            loading: "lazy"
+            loading: "lazy",
+            width: 1408,
+            height: 768
           }
         ) }),
         /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solution-points-grid", children: solutionContent[selected].points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "solution-point-card", children: [
@@ -2971,7 +2995,9 @@ function About() {
         {
           src: "/about-factory.webp",
           alt: "ELAPACK production facility",
-          loading: "lazy"
+          loading: "lazy",
+          width: 1408,
+          height: 768
         }
       ) }),
       /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "about-story-text reveal reveal-delay-2", children: [
@@ -3054,7 +3080,9 @@ function About() {
         {
           src: "/about-materials.webp",
           alt: "Premium packaging materials",
-          loading: "lazy"
+          loading: "lazy",
+          width: 1408,
+          height: 768
         }
       ) })
     ] }) }) }),
@@ -3780,7 +3808,7 @@ function News() {
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("section", { className: "section news-section", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("article", { className: "news-featured reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "news-featured-image", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: articles2[0].image, alt: articles2[0].title }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "news-featured-image", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: articles2[0].image, alt: articles2[0].title, width: 1600, height: 1e3 }) }),
         /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-featured-body", children: [
           /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-category", children: articles2[0].category }),
           /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h2", { className: "news-featured-title", children: articles2[0].title }),
@@ -3802,7 +3830,7 @@ function News() {
           className: `news-card reveal reveal-delay-${i + 1}`,
           children: [
             /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-card-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: article.image, alt: article.title, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: article.image, alt: article.title, loading: "lazy", width: 1600, height: 1e3 }),
               /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-category", children: article.category })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-card-body", children: [
@@ -3828,7 +3856,7 @@ function News() {
           className: `news-card reveal reveal-delay-${i % 3 + 1}`,
           children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(import_react_router_dom12.Link, { to: `/news/${article.slug}`, className: "news-card-link", children: [
             /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-card-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: article.image, alt: article.imageAlt, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: article.image, alt: article.imageAlt, loading: "lazy", width: 1600, height: 1e3 }),
               /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-category", children: article.category })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-card-body", children: [
@@ -4661,7 +4689,9 @@ function Video() {
           {
             src: "/product-giftbox.webp",
             alt: "Custom luxury gift box",
-            loading: "lazy"
+            loading: "lazy",
+            width: 1408,
+            height: 768
           }
         ),
         /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
@@ -4669,7 +4699,9 @@ function Video() {
           {
             src: "/product-collection.webp",
             alt: "Custom packaging collection",
-            loading: "lazy"
+            loading: "lazy",
+            width: 1408,
+            height: 768
           }
         )
       ] })
@@ -4686,7 +4718,7 @@ function Video() {
           className: `process-step-card reveal reveal-delay-${i + 1}`,
           children: [
             /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "process-step-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: step.image, alt: step.title, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: step.image, alt: step.title, loading: "lazy", width: 1408, height: 768 }),
               /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "process-step-phase", children: step.phase })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "process-step-body", children: [
@@ -4714,7 +4746,7 @@ function Video() {
           className: `success-story-card reveal reveal-delay-${i % 4 + 1}`,
           children: [
             /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "success-story-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: story.image, alt: story.client, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: story.image, alt: story.client, loading: "lazy", width: 1254, height: 1254 }),
               /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "success-story-category", children: story.category })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "success-story-body", children: [
@@ -5773,7 +5805,7 @@ function Collection({ slug }) {
           className: `catalog-card reveal reveal-delay-${i % 4 + 1}`,
           children: [
             /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "catalog-card-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("img", { src: product.image, alt: product.name, loading: "lazy" }),
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("img", { src: product.image, alt: product.name, loading: "lazy", width: 1254, height: 1254 }),
               /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "catalog-category", children: product.category })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "catalog-card-body", children: [
@@ -5977,6 +6009,27 @@ for (const route of ROUTES) {
       });
     }
     const graph = [];
+    graph.push({
+      "@type": "Organization",
+      "@id": `${SITE}/#organization`,
+      name: "ELAPACK",
+      legalName: "Wuxi Magic Packaging Co., Ltd",
+      url: `${SITE}/`,
+      logo: `${SITE}/images/brand/elapack-logo.png`,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Wuxi",
+        addressRegion: "Jiangsu",
+        addressCountry: "CN"
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+86-18626352096",
+        email: "tina@elapack.com",
+        contactType: "sales",
+        availableLanguage: ["en"]
+      }
+    });
     if (crumbs.length > 1) {
       graph.push({
         "@type": "BreadcrumbList",
