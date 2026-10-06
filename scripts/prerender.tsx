@@ -72,7 +72,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/custom-drawstring-bags": "Custom Drawstring Bags & Pouches, from 200 pcs | ELAPACK",
   "/ribbons-accessories": "Custom Printed Ribbons & Packaging Accessories | ELAPACK",
   "/custom-cosmetic-pouches": "Custom Cosmetic Pouches & Makeup Bags with Logo | ELAPACK",
-  "/subscription-box-packaging": "Custom Subscription Box Packaging: Boxes, Pouches & Insert Cards, from 200 pcs | ELAPACK",
+  "/subscription-box-packaging": "Subscription Box Packaging: Boxes, Pouches, Insert Cards from 200 pcs | ELAPACK",
   "/products": "Products — Boxes, Pouches & Gift Packaging | ELAPACK",
   "/industries": "Industries We Serve — Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions — Custom, Materials & Sustainability | ELAPACK",

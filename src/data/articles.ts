@@ -319,7 +319,7 @@ export const articles: Article[] = ([
   {
     "slug": "candle-subscription-box-packaging",
     "datePublished": "2026-10-06",
-    "title": "Packaging a Monthly Candle Subscription Box: Boxes, Inserts and Monthly Themes",
+    "title": "Candle Subscription Box Packaging: Boxes, Inserts, Themes",
     "category": "Sourcing Guide",
     "date": "October 2026",
     "readTime": "7 min read",

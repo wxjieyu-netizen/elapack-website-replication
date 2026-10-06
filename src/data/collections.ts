@@ -105,6 +105,11 @@ export const collections: Collection[] = [
       "Glasses boxes and fabric pouches that protect frames and carry your logo, made to your spec.",
     metaDescription:
       "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
+    factBlock: {
+      updated: "October 2026",
+      paragraph:
+        "ELAPACK eyewear packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering printed glasses boxes, fabric pouches and fitted inserts, custom sizes included. Production takes 15–20 days for orders of 200–20,000 pieces and 20–25 days for 20,000–50,000 pieces, counted from sample approval and deposit. A free stock sample ships in 2–3 days (sample shipping USD 20, courier transit 4–7 days); a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork, and a full custom sample round lands in roughly two weeks at about USD 45 all-in. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
     intro:
       "Custom packaging for eyewear and sunglasses brands selling in the US and Europe. We make both sides of the program — printed boxes that present and protect the frames, and fabric pouches that keep them safe after the sale — matched in colour and branding. Folded glasses set the footprint: share your frame dimensions and we build the box and insert around them.",
     sections: [
@@ -296,6 +301,11 @@ export const collections: Collection[] = [
       "One manufacturer for the whole jewelry program — logo boxes, fabric pouches, display and sets, matched in colour and branding.",
     metaDescription:
       "Custom jewelry packaging from one manufacturer — logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
+    factBlock: {
+      updated: "October 2026",
+      paragraph:
+        "ELAPACK jewelry packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering jewelry boxes, fabric pouches, display sets and complete box-plus-pouch programs, custom sizes included. Production takes 15–20 days for orders of 200–20,000 pieces and 20–25 days for 20,000–50,000 pieces, counted from sample approval and deposit. A free stock sample ships in 2–3 days (sample shipping USD 20, courier transit 4–7 days); a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork, and a full custom sample round lands in roughly two weeks at about USD 45 all-in. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
     intro:
       "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display — and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets — colour-matched and branded as one system. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products.",
     sections: [
@@ -362,6 +372,11 @@ export const collections: Collection[] = [
       "Magnetic, ribbon-tie and two-piece rigid gift boxes — plus candle-ready formats — your size, finish and logo.",
     metaDescription:
       "Custom gift boxes with your logo — magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 200 pieces, free stock samples.",
+    factBlock: {
+      updated: "October 2026",
+      paragraph:
+        "ELAPACK custom gift boxes — key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering magnetic flip-top, satin ribbon-tie, two-piece rigid and candle-format boxes, custom sizes included. Production takes 15–20 days for orders of 200–20,000 pieces and 20–25 days for 20,000–50,000 pieces, counted from sample approval and deposit. A free stock sample ships in 2–3 days (sample shipping USD 20, courier transit 4–7 days); a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork, and a full custom sample round lands in roughly two weeks at about USD 45 all-in. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
     intro:
       "Custom gift boxes for the occasions where the box is part of the gift. Corporate programs, candles, weddings, retail gifting and seasonal campaigns all start from the same place: a rigid structure that protects, a wrap that carries your brand, and a closure that makes opening feel like an event. Magnetic flip-tops, satin ribbon ties and two-piece rigid formats are all made to your size, Pantone colour and logo — MOQ from 200 pieces.",
     sections: [

@@ -3661,7 +3661,7 @@ Keep the note local, and send it to your supplier through your existing approved
   {
     "slug": "candle-subscription-box-packaging",
     "datePublished": "2026-10-06",
-    "title": "Packaging a Monthly Candle Subscription Box: Boxes, Inserts and Monthly Themes",
+    "title": "Candle Subscription Box Packaging: Boxes, Inserts, Themes",
     "category": "Sourcing Guide",
     "date": "October 2026",
     "readTime": "7 min read",
@@ -5163,6 +5163,10 @@ var collections = [
     h1: "Custom Eyewear Packaging \u2014 Boxes & Pouches for Eyewear Brands",
     subhead: "Glasses boxes and fabric pouches that protect frames and carry your logo, made to your spec.",
     metaDescription: "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
+    factBlock: {
+      updated: "October 2026",
+      paragraph: "ELAPACK eyewear packaging \u2014 key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering printed glasses boxes, fabric pouches and fitted inserts, custom sizes included. Production takes 15\u201320 days for orders of 200\u201320,000 pieces and 20\u201325 days for 20,000\u201350,000 pieces, counted from sample approval and deposit. A free stock sample ships in 2\u20133 days (sample shipping USD 20, courier transit 4\u20137 days); a custom sample costs USD 25 plus USD 20 shipping, is built in 3\u20135 days from confirmed artwork, and a full custom sample round lands in roughly two weeks at about USD 45 all-in. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal."
+    },
     intro: "Custom packaging for eyewear and sunglasses brands selling in the US and Europe. We make both sides of the program \u2014 printed boxes that present and protect the frames, and fabric pouches that keep them safe after the sale \u2014 matched in colour and branding. Folded glasses set the footprint: share your frame dimensions and we build the box and insert around them.",
     sections: [
       {
@@ -5345,6 +5349,10 @@ var collections = [
     h1: "Custom Jewelry Packaging \u2014 Boxes, Pouches & Display",
     subhead: "One manufacturer for the whole jewelry program \u2014 logo boxes, fabric pouches, display and sets, matched in colour and branding.",
     metaDescription: "Custom jewelry packaging from one manufacturer \u2014 logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
+    factBlock: {
+      updated: "October 2026",
+      paragraph: "ELAPACK jewelry packaging \u2014 key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering jewelry boxes, fabric pouches, display sets and complete box-plus-pouch programs, custom sizes included. Production takes 15\u201320 days for orders of 200\u201320,000 pieces and 20\u201325 days for 20,000\u201350,000 pieces, counted from sample approval and deposit. A free stock sample ships in 2\u20133 days (sample shipping USD 20, courier transit 4\u20137 days); a custom sample costs USD 25 plus USD 20 shipping, is built in 3\u20135 days from confirmed artwork, and a full custom sample round lands in roughly two weeks at about USD 45 all-in. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal."
+    },
     intro: "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display \u2014 and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets \u2014 colour-matched and branded as one system. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products.",
     sections: [
       {
@@ -5408,6 +5416,10 @@ var collections = [
     h1: "Custom Gift Boxes with Logo",
     subhead: "Magnetic, ribbon-tie and two-piece rigid gift boxes \u2014 plus candle-ready formats \u2014 your size, finish and logo.",
     metaDescription: "Custom gift boxes with your logo \u2014 magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 200 pieces, free stock samples.",
+    factBlock: {
+      updated: "October 2026",
+      paragraph: "ELAPACK custom gift boxes \u2014 key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering magnetic flip-top, satin ribbon-tie, two-piece rigid and candle-format boxes, custom sizes included. Production takes 15\u201320 days for orders of 200\u201320,000 pieces and 20\u201325 days for 20,000\u201350,000 pieces, counted from sample approval and deposit. A free stock sample ships in 2\u20133 days (sample shipping USD 20, courier transit 4\u20137 days); a custom sample costs USD 25 plus USD 20 shipping, is built in 3\u20135 days from confirmed artwork, and a full custom sample round lands in roughly two weeks at about USD 45 all-in. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal."
+    },
     intro: "Custom gift boxes for the occasions where the box is part of the gift. Corporate programs, candles, weddings, retail gifting and seasonal campaigns all start from the same place: a rigid structure that protects, a wrap that carries your brand, and a closure that makes opening feel like an event. Magnetic flip-tops, satin ribbon ties and two-piece rigid formats are all made to your size, Pantone colour and logo \u2014 MOQ from 200 pieces.",
     sections: [
       {
@@ -5941,7 +5953,7 @@ var STATIC_TITLES = {
   "/custom-drawstring-bags": "Custom Drawstring Bags & Pouches, from 200 pcs | ELAPACK",
   "/ribbons-accessories": "Custom Printed Ribbons & Packaging Accessories | ELAPACK",
   "/custom-cosmetic-pouches": "Custom Cosmetic Pouches & Makeup Bags with Logo | ELAPACK",
-  "/subscription-box-packaging": "Custom Subscription Box Packaging: Boxes, Pouches & Insert Cards, from 200 pcs | ELAPACK",
+  "/subscription-box-packaging": "Subscription Box Packaging: Boxes, Pouches, Insert Cards from 200 pcs | ELAPACK",
   "/products": "Products \u2014 Boxes, Pouches & Gift Packaging | ELAPACK",
   "/industries": "Industries We Serve \u2014 Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions \u2014 Custom, Materials & Sustainability | ELAPACK",
