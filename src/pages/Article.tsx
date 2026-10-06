@@ -276,6 +276,21 @@ function inline(text: string, keyPrefix: string, ctx?: AnchorCtx): ReactNode[] {
   return nodes;
 }
 
+/** URL-safe anchor id for a heading: lowercase, non-alphanumerics to dashes. */
+const slugify = (text: string) =>
+  text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+
+/** Extract `## H2` headings (excluding h3) for the table of contents. */
+function tocEntries(body: string): { id: string; text: string }[] {
+  return body
+    .split("\n")
+    .filter((l) => l.startsWith("## "))
+    .map((l) => {
+      const text = l.slice(3).replace(/\*\*|\*/g, "");
+      return { id: slugify(text), text };
+    });
+}
+
 /** True for a markdown pipe-table row like `| a | b |`. */
 const isTableRow = (line: string) => /^\|.*\|$/.test(line.trim());
 /** True for the separator row like `| --- | --- |`. */
@@ -322,21 +337,44 @@ function renderBody(body: string, anchors: Record<string, string> = {}): ReactNo
   };
 
   let tableRows: string[] = [];
+  let quote: string[] | null = null;
+
+  const flushQuote = () => {
+    if (!quote) return;
+    out.push(
+      <blockquote key={`q${out.length}`} className="article-quote">
+        {quote.map((q, i) => (
+          <p key={i}>{inline(q, `q${out.length}-${i}`)}</p>
+        ))}
+      </blockquote>
+    );
+    quote = null;
+  };
+
 
   lines.forEach((raw) => {
     const line = raw.trimEnd();
     if (isTableRow(line)) {
       if (tableRows.length === 1 && isTableDivider(line)) return; // header divider consumed
       if (isTableDivider(line)) return;
+      flushQuote();
       flush();
       tableRows.push(line);
       return;
     }
     if (tableRows.length) flushTable();
     if (!line.trim()) {
+      flushQuote();
       flush();
       return;
     }
+    const bq = line.match(/^>\s?(.*)$/);
+    if (bq) {
+      quote = quote ?? [];
+      quote.push(bq[1]);
+      return;
+    }
+    flushQuote();
     const ol = line.match(/^(\d+)\.\s+(.*)$/);
     const ul = line.match(/^-\s+(.*)$/);
     if (ol) {
@@ -364,11 +402,12 @@ function renderBody(body: string, anchors: Record<string, string> = {}): ReactNo
           {figure[1] ? <figcaption>{figure[1]}</figcaption> : null}
         </figure>
       );
-    } else if (line.startsWith("### ")) out.push(<h3 key={out.length}>{inline(line.slice(4), `h3${out.length}`)}</h3>);
-    else if (line.startsWith("## ")) out.push(<h2 key={out.length}>{inline(line.slice(3), `h2${out.length}`)}</h2>);
+    } else if (line.startsWith("### ")) out.push(<h3 key={out.length} id={slugify(line.slice(4).replace(/\*\*|\*/g, ""))}>{inline(line.slice(4), `h3${out.length}`)}</h3>);
+    else if (line.startsWith("## ")) out.push(<h2 key={out.length} id={slugify(line.slice(3).replace(/\*\*|\*/g, ""))}>{inline(line.slice(3), `h2${out.length}`)}</h2>);
     else out.push(<p key={out.length}>{inline(line, `p${out.length}`, ctx)}</p>);
   });
   if (tableRows.length) flushTable();
+  flushQuote();
   flush();
   return out;
 }
@@ -392,6 +431,7 @@ export default function Article() {
   }
 
   const fontClass = article.fontFamily === "Arial" ? " article-font-arial" : "";
+  const toc = tocEntries(article.body);
 
   return (
     <>
@@ -412,6 +452,18 @@ export default function Article() {
           <figure className="landing-hero reveal">
             <img src={article.image} alt={article.imageAlt} width={article.imageWidth ?? 1600} height={article.imageHeight ?? 1000} />
           </figure>
+          {toc.length >= 3 && (
+            <nav className="article-toc reveal" aria-label="Table of contents">
+              <p className="article-toc-title">In this guide</p>
+              <ol>
+                {toc.map((t) => (
+                  <li key={t.id}>
+                    <a href={`#${t.id}`} className="text-link">{t.text}</a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
           <div className="article-body reveal">{renderBody(article.body, ANCHORS[article.slug])}</div>
           {related.length > 0 && (
             <div className="article-related reveal">
