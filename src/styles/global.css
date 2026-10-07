@@ -212,7 +212,9 @@ img {
   to { transform: scaleX(1); }
 }
 
-.reveal {
+/* Hidden for reveal only when JS is alive (main.tsx sets html.js);
+   without JS the content stays visible instead of a blank page. */
+html.js .reveal {
   opacity: 0;
 }
 

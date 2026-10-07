@@ -19,7 +19,10 @@ export function useScrollReveal() {
           }
         });
       },
-      { threshold: 0.15, rootMargin: "0px 0px -60px 0px" }
+      // threshold 0.15 made any block taller than ~6.5x the viewport
+      // (article bodies are 4000-6000px) permanently stuck at opacity:0
+      // on short windows — the reveal never fired and the page looked blank.
+      { threshold: 0, rootMargin: "0px 0px -60px 0px" }
     );
 
     const elements = document.querySelectorAll(".reveal");
