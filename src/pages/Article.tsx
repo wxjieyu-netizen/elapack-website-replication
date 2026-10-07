@@ -449,11 +449,11 @@ export default function Article() {
 
       <section className={`section article-section${fontClass}`}>
         <div className="container article-container">
-          <figure className="landing-hero reveal">
+          <figure className="landing-hero">
             <img src={article.image} alt={article.imageAlt} width={article.imageWidth ?? 1600} height={article.imageHeight ?? 1000} />
           </figure>
           {toc.length >= 3 && (
-            <nav className="article-toc reveal" aria-label="Table of contents">
+            <nav className="article-toc" aria-label="Table of contents">
               <p className="article-toc-title">In this guide</p>
               <ol>
                 {toc.map((t) => (
@@ -464,7 +464,7 @@ export default function Article() {
               </ol>
             </nav>
           )}
-          <div className="article-body reveal">{renderBody(article.body, ANCHORS[article.slug])}</div>
+          <div className="article-body">{renderBody(article.body, ANCHORS[article.slug])}</div>
           {related.length > 0 && (
             <div className="article-related reveal">
               <h2>Related products</h2>

@@ -4394,12 +4394,12 @@ function Article() {
       ] })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: `section article-section${fontClass}`, children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container article-container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("figure", { className: "landing-hero reveal", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: article.image, alt: article.imageAlt, width: article.imageWidth ?? 1600, height: article.imageHeight ?? 1e3 }) }),
-      toc.length >= 3 && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("nav", { className: "article-toc reveal", "aria-label": "Table of contents", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("figure", { className: "landing-hero", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: article.image, alt: article.imageAlt, width: article.imageWidth ?? 1600, height: article.imageHeight ?? 1e3 }) }),
+      toc.length >= 3 && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("nav", { className: "article-toc", "aria-label": "Table of contents", children: [
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-toc-title", children: "In this guide" }),
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("ol", { children: toc.map((t) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("a", { href: `#${t.id}`, className: "text-link", children: t.text }) }, t.id)) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-body reveal", children: renderBody(article.body, ANCHORS[article.slug]) }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-body", children: renderBody(article.body, ANCHORS[article.slug]) }),
       related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-related reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: "Related products" }),
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("ul", { className: "spec-list", children: related.map((p) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: `/products/${p.slug}`, className: "text-link", children: [
