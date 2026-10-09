@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Bar chart: US monthly search volume: jewellery-pouch material keywords">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="64" y="60" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#18120c">US monthly search volume: jewellery-pouch material keywords</text>
+<text x="64" y="92" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b6258">Comparison and material terms are low-difficulty long-tail — the cluster is won by suppliers who answer the comparison, not by one head term</text>
+  <text x="64" y="140" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">muslin vs linen</text>
+  <rect x="64" y="150" width="830" height="22" fill="#b08d46" rx="2"/>
+  <text x="906" y="166" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">260 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 7)</tspan></text>
+  <text x="64" y="204" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">cotton vs muslin</text>
+  <rect x="64" y="214" width="543" height="22" fill="#8a7a68" rx="2"/>
+  <text x="619" y="230" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">170 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 3)</tspan></text>
+  <text x="64" y="268" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">drawstring bag dimensions</text>
+  <rect x="64" y="278" width="287" height="22" fill="#8a7a68" rx="2"/>
+  <text x="363" y="294" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">90 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 2)</tspan></text>
+  <text x="64" y="332" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">velvet jewelry pouches</text>
+  <rect x="64" y="342" width="223" height="22" fill="#8a7a68" rx="2"/>
+  <text x="299" y="358" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">70 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 4)</tspan></text>
+  <text x="64" y="396" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">microfiber jewelry pouch</text>
+  <rect x="64" y="406" width="160" height="22" fill="#8a7a68" rx="2"/>
+  <text x="236" y="422" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">50 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 0)</tspan></text>
+<text x="64" y="647" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8178">Source: Semrush US keyword database, mirror lookups 2026-10-08. Volumes are monthly US averages; “jewelry” and “jewellery” spellings both occur in the cluster.</text>
+</svg>

@@ -3132,6 +3132,328 @@ var import_react_router_dom12 = require("react-router-dom");
 // src/data/articles.ts
 var articles = [
   {
+    "slug": "velvet-satin-muslin-pouches-compared",
+    "datePublished": "2026-10-09",
+    "title": "Velvet vs Satin vs Muslin Pouches: Which Material Fits Your Jewellery Brand?",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/covers/velvet-satin-muslin-pouches-compared.png",
+    "imageAlt": "Guide cover card: velvet, satin and muslin jewellery pouches compared on protection, presentation, print fit and cost positioning",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "The three pouch materials luxury brands actually choose between, compared on protection, presentation, print fit and cost \u2014 with US search demand and the specification fields that make quotes comparable.",
+    "metaDescription": "Compare velvet, satin and muslin jewellery pouches: protection, presentation, logo fit, cost positioning and US search demand, plus the spec fields to request from suppliers.",
+    "body": `*Search volumes and keyword difficulty (KD) are Semrush US database figures, mirror-looked-up 2026-10-08. Material descriptions are industry references as published by packaging suppliers and textile encyclopaedias (sources named inline). Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample at USD 25 plus USD 20 shipping \u2014 are ELAPACK's confirmed trade terms. Fibre compositions and fabric weights are supplier-specific: ELAPACK's confirmed ranges are quoted where stated, everything else is a decision framework, not a specification.*
+
+> **Quick answer:** velvet when the pouch is part of the luxury presentation and pieces need cushioning; satin for a sleek, lightweight sheen at lower cost; muslin for a soft, matte, natural-cotton look at the accessible end. None of the three names specifies fibre content or weight \u2014 request the fabric reference and composition for each before comparing quotes.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order | 200 pieces per design, all pouch lines | ELAPACK confirmed terms |
+| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |
+| Custom sample | USD 25 plus USD 20 shipping, built in 3\u20135 days | ELAPACK confirmed terms |
+| Comparison-term demand | muslin vs linen 260/month (KD 7); cotton vs muslin 170 (KD 3) | Semrush US, 2026-10-08 |
+| Product-term demand | velvet jewelry pouches 70 (KD 4); microfiber jewelry pouch 50 (KD 0) | Semrush US, 2026-10-08 |
+| Sizing demand | drawstring bag dimensions 90/month (KD 2) | Semrush US, 2026-10-08 |
+
+## What the search demand looks like
+
+![US monthly search volume for jewellery-pouch material keywords: muslin vs linen at 260 searches, cotton vs muslin at 170, drawstring bag dimensions at 90, velvet jewelry pouches at 70, microfiber jewelry pouch at 50. Semrush, October 2026.](/charts/pouch-materials-comparison-volume.svg)
+
+Buyers do not search one head term \u2014 they search the comparison itself. "Muslin vs linen" (260/month) and "cotton vs muslin" (170/month) outrank every single-material product term in this band, and difficulty sits at KD 0\u20137 across the comparison cluster. A factory-written comparison that answers the question and lands the buyer on a pouch page serves that intent directly.
+
+**Comparison queries are the demand \u2014 the supplier who answers the versus question owns the cluster.**
+
+## What the three names actually specify \u2014 and what they don't
+
+A material name is a construction or finish description, not a specification. As packaging references point out, pouches sold as "velvet" may be woven from polyester, rayon, cotton or blends, and "satin" may be silk or polyester \u2014 the trade name does not guarantee the fibre (as published on packgenio.com, checked October 2026). Muslin is a plain-weave cotton cloth: the weave is the definition, the yarn and weight still vary. That is why the first line of any pouch brief is the fabric reference and composition, not the trade name.
+
+**Treat velvet, satin and muslin as starting positions \u2014 approve the fabric reference, not the word.**
+
+## Velvet: the presentation and protection choice
+
+Velvet's cut pile is what reads as luxury: a deep, light-absorbing surface that cushions metal and keeps pieces from sliding. Industry guides recommend it where the pouch itself is part of the gift presentation and where hard pieces would otherwise knock against each other in transit or storage (as published on bagwalas.com and gemsondisplay.com). The same pile is its constraint \u2014 direct printing on velvet holds less detail than on flat weaves, which pushes premium programmes towards sewn labels or foil rather than screen ink (as published on drawstringpouchbag.com). ELAPACK lists a [velvet jewellery pouch](https://elapack.com/products/custom-velvet-pouches) in its standard range.
+
+**Choose velvet when the pouch will be kept, touched and photographed \u2014 and plan the logo method around the pile.**
+
+## Satin: the sheen at a lower cost tier
+
+Satin is the sleek option: a smooth, reflective face, lighter hand and a drape that suits ribbon-tied presentations. Published supplier comparisons place satin meaningfully below velvet on cost \u2014 one specialist supplier states satin runs 15\u201325% less than velvet while retaining most of the visual appeal (as published on richpkg.com) \u2014 with the trade-off that the smooth weave snags and frays more readily under repeated opening and closing (as published on drawstringpouchbag.com). For gift programmes where the pouch is opened once and presented, that durability gap rarely decides the purchase; for pouches handled daily it should. ELAPACK's range includes a [satin pouch](https://elapack.com/products/custom-satin-pouches).
+
+**Satin buys the shine at a tier below velvet \u2014 accept it for one-touch presentations, question it for daily handling.**
+
+## Muslin: the natural-cotton workhorse
+
+Muslin is plain-woven cotton: matte, soft, unstructured and the most accessible of the three on cost. It takes screen printing well (flat weave, cotton fibre), which is why branded muslin drawstring bags are a standard entry product for retail and event programmes \u2014 ELAPACK lists a [custom muslin drawstring pouch](https://elapack.com/products/custom-muslin-drawstring-pouch) and covers weights and sizes in a [dedicated muslin guide](https://elapack.com/news/custom-muslin-bags-guide). What muslin does not offer is structure or cushioning: it protects against dust and scratching, not against impact. Fabric weights in the trade run roughly 100\u2013145 gsm and above (as published on bagsgeek-type retail references; ELAPACK's confirmed weight options are quoted per project).
+
+**Muslin is the right answer for breathable, print-friendly, everyday branding \u2014 not for impact protection.**
+
+## The three-way comparison
+
+| Decision axis | Velvet | Satin | Muslin |
+|---|---|---|---|
+| Surface | Cut pile, deep matte lustre | Smooth, reflective sheen | Plain weave, soft matte |
+| Cushioning | Highest of the three | Light | Light, unstructured |
+| Typical positioning | Kept luxury packaging | Gift presentation, one-touch | Everyday branded storage |
+| Logo fit | Sewn label or foil preferred over direct print | Print and label both viable | Screen print friendly |
+| Cost tier | Highest of the three (satin cited 15\u201325% below it) | Mid | Most accessible |
+| Specification to request | Pile fibre and composition, lining | Weave fibre, face vs reverse | Yarn, weight (gsm), wash finish |
+
+*Editorial comparison of published material behaviour, not a test ranking. Column entries are positioning statements \u2014 the specification rows are what make quotes comparable.*
+
+## Compare samples, not names
+
+Run the review the same way for all three: same jewellery piece, same handling routine, logo at actual size. Record where cords, seams and closures touch the piece, and check the loaded pouch inside the intended box and insert \u2014 a [complete packaging set](https://elapack.com/products?category=Sets%20%26%20Complete%20Packaging) is approved as an assembly, not as separate empty parts. If appearance decides, compare both finalists under your presentation lighting before signing off. The [cotton pouch](https://elapack.com/products/custom-cotton-pouches) and [microfiber pouch](https://elapack.com/products/custom-microfiber-pouches) pages cover the adjacent flat-weave options if neither pile nor satin fits the brief.
+
+## What to put in your enquiry
+
+For each material under consideration: the fabric reference and fibre composition; the weight or construction unit the supplier quotes (gsm for muslin and cotton, pile description for velvet, weave for satin); usable internal dimensions with the closure drawn \u2014 the sizing question is real demand, at 90 US searches a month for drawstring bag dimensions alone; the logo method and its artwork requirements; quantity against the 200-piece minimum; and the sample route (custom sample USD 25 plus USD 20 shipping, 3\u20135 days). Browse the full [pouches and bags collection](https://elapack.com/products?category=Pouches%20%26%20Bags) or the [jewellery pouch line](https://elapack.com/custom-jewelry-pouches) to anchor the styles before you brief.
+
+## The bottom line
+
+Velvet for kept luxury and cushioning, satin for sheen at the tier below, muslin for print-friendly natural cotton \u2014 and in every case, the fabric reference beats the trade name. [Contact ELAPACK](https://elapack.com/contact) with the material shortlist, sizes, logo artwork and quantity, and the quotation will state the fabric, logo method and terms that apply to your [jewellery packaging](https://elapack.com/custom-jewelry-packaging) programme.`
+  },
+  {
+    "slug": "custom-candle-boxes-guide",
+    "datePublished": "2026-10-09",
+    "title": "Custom Candle Boxes: Sizes, Inserts and Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "8 min read",
+    "image": "/images/covers/custom-candle-boxes-guide.png",
+    "imageAlt": "Guide cover card: custom candle boxes \u2014 jar measurement rules, insert types, structures and the search demand behind the cluster",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Candle box sizing from the jar outward: measurement rules, the five insert systems, structure trade-offs and US search demand for the custom candle box cluster.",
+    "metaDescription": "Custom candle boxes explained: measure the jar, choose inserts (corrugated, foam, pulp, platform, divider), pick structure and board \u2014 with search demand and enquiry checklists.",
+    "body": `*Search volumes and keyword difficulty (KD) are Semrush US database figures exported 2026-10-07. Candle-box sizing, insert and structure descriptions are industry references as published by packaging suppliers (sources named inline). Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample at USD 25 plus USD 20 shipping, cutting-die tooling at USD 50\u2013100 where required \u2014 are ELAPACK's confirmed trade terms.*
+
+> **Quick answer:** size the box from the measured candle, not from an ounce chart \u2014 outside diameter, height with the lid on, filled weight \u2014 then add clearance and choose the insert for the shipping route. Glass jars moving through parcel networks need an insert; the box alone is not the protection.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order | 200 pieces per design, all box lines | ELAPACK confirmed terms |
+| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |
+| Custom sample | USD 25 plus USD 20 shipping, built in 3\u20135 days | ELAPACK confirmed terms |
+| Cutting-die tooling | USD 50\u2013100 where a new die is required | ELAPACK confirmed terms |
+| Cluster head demand | candle boxes 1,900/month (KD 14); custom candle boxes 1,000 (KD 26) | Semrush US, 2026-10-07 |
+| Commercial tail | candle boxes wholesale 590 (KD 22); candle boxes with inserts 140 (KD 4) | Semrush US, 2026-10-07 |
+
+## What the search demand looks like
+
+![US monthly search volume for custom candle box keywords: candle boxes at 1900 searches, custom candle boxes at 1000, candle packaging at 720, candle boxes wholesale at 590, candle box custom and personalized candle box at 320, luxury candle boxes at 210, candle boxes with inserts at 140. Semrush, October 2026.](/charts/candle-boxes-search-volume.svg)
+
+The cluster is commercial through and through: the head term runs 1,900 US searches a month at KD 14, wholesale variants (590/month) and insert-specific variants (140/month at KD 4) confirm buyers are sourcing, not browsing. Difficulty bands at KD 4\u201326 \u2014 inside the range a specialist factory guide can contest. This guide covers the one-off and retail candle box programme; if you pack a recurring monthly programme, see the [candle subscription box guide](https://elapack.com/news/candle-subscription-box-packaging) for the repeat-order structure.
+
+**Candle-box demand is buyer demand at moderate difficulty \u2014 an insert-and-sizing guide matches what the tail is literally searching for.**
+
+## Measure the candle before anything else
+
+Published sizing guides converge on the same rule: measure the actual filled candle, then add clearance. The measurements that matter are the outside diameter (or width and depth), the total height with the lid on, and the filled weight \u2014 weight because it drives board grade, not just footprint (as published on briskpackaging.com, August 2026). For clearance, supplier guides recommend adding roughly 0.25\u20130.5 inches per side between vessel and box wall (as published on thecustomizeboxes.com). As a worked reference, one supplier's published interior for an 8 oz round lidded jar is 3-7/8 \xD7 3-7/8 \xD7 4-3/8 inches (98 \xD7 98 \xD7 110 mm), with 4, 8 and 12 oz jars the most common volumes (as published on personalizedcandlebox.com and customboxdepot.com).
+
+| Jar volume | Box planning basis | Source basis |
+|---|---|---|
+| 4 oz | Measure jar, add 0.25\u20130.5" per side | Published clearance rule |
+| 8 oz | e.g. 98 \xD7 98 \xD7 110 mm interior for a round lidded jar | As published, personalizedcandlebox.com |
+| 12 oz | Measure jar, add clearance; check weight for board grade | Published rule, customboxdepot.com |
+| Pillar / taper | Diameter and burn-line height; platform insert | briskpackaging.com |
+| Votive / tealight sets | Unit count \xD7 cavity size; divider insert | briskpackaging.com |
+
+**An ounce chart is a starting point \u2014 the order-relevant dimensions come off your own filled vessel.**
+
+## Choose the insert for the shipping route
+
+The insert is what stops a glass jar becoming a claim. Published comparisons break the options into five systems: a corrugated cavity insert, cost-effective and recyclable, holding heavy vessels well for direct-to-parcel shipping; a foam insert, highest protection for fragile or irregular vessels at a higher unit cost; moulded pulp for eco-positioned brands, which needs volume to amortise tooling; a paperboard platform for pillars and tapers, keeping wax off the box walls; and multi-cavity dividers for votive and tealight multipacks, preventing unit-to-unit contact (as published on briskpackaging.com). The same source states the principle bluntly: a candle that cannot move cannot build momentum against the box wall.
+
+| Insert system | Best for | Cost position |
+|---|---|---|
+| Corrugated cavity | Heavy jars, direct parcel shipping | Cost-effective, recyclable |
+| Foam | Fragile or irregular vessels | Highest protection, higher unit cost |
+| Moulded pulp | Eco-positioned jar programmes | Needs volume for tooling |
+| Paperboard platform | Pillars and tapers | Light, simple |
+| Multi-cavity divider | Votive and tealight sets | Scales by cavity count |
+
+**Decide the insert by what happens after the tape gun \u2014 the parcel network, not the shelf, breaks candles.**
+
+## Structure: two-piece, rigid or folding
+
+Three structures cover the range. A two-piece lid-and-base lets the candle lift straight out without tipping, which protects glass rims, at a higher unit cost than cartons. A rigid box \u2014 chipboard core wrapped in printed paper \u2014 is the presentation choice and does not fold flat, with higher tooling and unit cost. Folding cartons ship and store flat and run efficiently at volume, but on their own they are not enough for heavy glass through parcel networks (structures compared as published on briskpackaging.com). Window cutouts show wax colour and vessel shape, at the cost of panel strength and an extra film step \u2014 published guidance keeps windows away from load-bearing corners and stacking faces. For presentation-grade candle gift sets, the [magnetic closure gift box](https://elapack.com/products/magnetic-closure-gift-box) and the [ribbon gift box](https://elapack.com/products/luxury-gift-box-ribbon) are the two most-used formats; box structures across the range are on the [boxes collection](https://elapack.com/products?category=Boxes) and [gift boxes page](https://elapack.com/custom-gift-boxes).
+
+## Board, finish and the brief
+
+Board options follow the contents: SBS white paperboard as the full-colour default, kraft for muted one-to-two-colour looks, E-flute corrugated where crush resistance matters, and rigid greyboard for keepsake boxes \u2014 with greyboard tiers from 1.5 to 3.0 mm carrying rising cost and presence (ELAPACK published reference ranges; grades at 2.5 mm suit medium-to-large gift boxes). Finishes run the same set as the rest of the luxury range \u2014 lamination, foil, emboss, spot UV \u2014 compared in the [surface finishes guide](https://elapack.com/news/surface-finishes-compared-guide). A quotable brief carries: measured vessel dimensions and weight, box structure, insert system, board and finish, artwork with Pantone references, quantity against the 200-piece minimum, and the destination shipping route so the insert choice can be checked against it.
+
+## The bottom line
+
+Measure the filled candle, size the box with real clearance, match the insert to the parcel route, and let structure and finish follow the brand position. [Contact ELAPACK](https://elapack.com/contact) with the jar dimensions, order quantity and delivery route, and the quotation will state structure, insert, board grade and tooling that apply.`
+  },
+  {
+    "slug": "jewelry-display-trays-guide",
+    "datePublished": "2026-10-09",
+    "title": "Jewellery Display and Storage: Trays, Inserts and Sizing Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/covers/jewelry-display-trays-guide.png",
+    "imageAlt": "Guide cover card: jewellery display and storage \u2014 the standard tray footprint, compartment layouts, lining choices and anti-tarnish questions to ask",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "The trade-standard tray footprint, compartment layouts by jewellery type, lining and anti-tarnish choices, and the sizing rule that keeps counters and drawers workable \u2014 with search demand data.",
+    "metaDescription": "Jewellery display trays explained: the 370 \xD7 210 mm standard footprint, compartment layouts by piece type, velvet and anti-tarnish linings, sizing rules and enquiry checklists.",
+    "body": `*Search volumes and keyword difficulty (KD) are Semrush US database figures exported 2026-10-07 (cleaned competitor word pool). Tray sizing, layout and lining descriptions are industry references as published by display and packaging suppliers (sources named inline); the market-size figure is Fact.MR data as cited by a published supplier guide. Order terms \u2014 MOQ 200 pieces, 15\u201320 day production \u2014 are ELAPACK's confirmed trade terms.*
+
+> **Quick answer:** the trade-standard tray footprint is about 370 \xD7 210 mm with 30\u201350 mm walls \u2014 choose the smallest footprint that lets a customer lift one piece without disturbing its neighbours, and ask any supplier claiming "anti-tarnish" lining which compound it actually treats.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Standard tray footprint | \u2248 370 \xD7 210 mm (\u2248 14.5 \xD7 8.25 in) | As published, grainmarkleather.com |
+| Standard wall height | 30\u201350 mm | As published, grainmarkleather.com |
+| Display-stand market | USD 651.6M (2025) \u2192 685.0M (2026), 5.1% CAGR to 2036 | Fact.MR, as cited by grainmarkleather.com |
+| Minimum order | 200 pieces per design | ELAPACK confirmed terms |
+| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |
+| Cluster shape | display/tray terms at 30\u201350 searches each, KD 0\u201319 | Semrush US, 2026-10-07 |
+
+## What the search demand looks like
+
+![US monthly search volume for jewellery display and tray keywords: bracelets rack display cases at 50 searches, best jewelry displays, card display jewelry, custom jewelry tray inserts, custom jewelry trays for drawers and custom made jewelry displays at 40 each, custom size jewelry trays at 30. Semrush, October 2026.](/charts/jewelry-display-search-volume.svg)
+
+Display demand is a long-tail cluster: no head term, every listed variant at 30\u201350 searches a month, difficulty KD 0\u201319. That shape favours suppliers who cover the topic once, properly \u2014 a guide plus a coherent [display and storage range](https://elapack.com/custom-jewelry-packaging) wins dozens of small terms together. The market context is steady growth rather than a spike: the jewellery display-stand segment is sized at USD 651.6M in 2025 and projected to USD 1,130M by 2036 (Fact.MR, as cited in a published supplier guide).
+
+**Long-tail shape means the range wins, not a page \u2014 cover footprint, layout and lining in one place and the cluster accumulates.**
+
+## The standard footprint, and when to leave it
+
+The trade standard is a tray footprint of roughly 370 \xD7 210 mm with 30\u201350 mm walls, sized to fit drawer units, travel cases and vendor showcase systems (as published on grainmarkleather.com). Standardising on that footprint is what makes trays stackable and interchangeable across fixtures. The published sizing rule for deviating from it: choose the smallest footprint that lets a customer or collector lift one item without disturbing its neighbours \u2014 oversized trays create dead space and awkward reaching, and several small modular trays usually outperform one oversized decorative tray (same source). Wall height is the sightline trade-off: low walls preserve the view across a counter; taller walls secure pieces in transport but can hide small items.
+
+**Footprint is a system decision \u2014 one standard size keeps drawers, cases and counters interchangeable.**
+
+## Compartment layouts by piece type
+
+Published display guides assign structure by handling pattern: rings in shallow individual slots or narrow channels; earrings in paired positions that keep mates together; bracelets on lengths that stop sliding into neighbouring pieces; necklaces in open lengthwise space that separates chains from clasps (as published on grainmarkleather.com and gemsondisplay.com). The general rule reads: more structure for small pieces, more open space for long or irregular items, with removable inserts for changing stock and fixed dividers for stable collections. ELAPACK's display range covers the four working formats: the [velvet necklace display](https://elapack.com/products/velvet-necklace-display), the [acrylic earring display](https://elapack.com/products/acrylic-earring-display), the [stackable jewellery tray](https://elapack.com/products/stackable-jewelry-tray) and the [velvet jewellery display set](https://elapack.com/products/velvet-jewelry-display-set).
+
+| Piece type | Layout that works | Watch-out |
+|---|---|---|
+| Rings | Shallow slots or narrow channels | Depth vs glove-and-go access |
+| Earrings | Paired positions | Losing mates across compartments |
+| Bracelets | Anti-slide lengths | Pieces migrating into neighbours |
+| Necklaces | Open lengthwise channels | Chain\u2013clasp tangle at the ends |
+| Mixed stock | Removable inserts | Fixed dividers lock the layout early |
+
+## Linings and the anti-tarnish question
+
+Shell materials run from wood and leather-wrapped to acrylic and metal; linings are where protection actually lives. Ordinary velvet and felt cushion pieces but do nothing about oxidation; treated polyester suede is designed to neutralise tarnish-related compounds; PEVA barriers work by excluding moisture and pollutants in enclosed cases (as published on grainmarkleather.com). The question that separates a specification from a marketing phrase: "anti-tarnish velvet" is a product description, not a specification \u2014 ask whether the treatment addresses sulfur compounds, moisture, or both, and ask for the treatment's basis in writing before accepting it as an order requirement. Published retail guidance adds that velvet tray liners are the most popular display choice because the soft pile holds pieces in place and prevents scratching (gemsondisplay.com).
+
+**Cushioning is standard; chemistry is optional \u2014 make the supplier state which one the lining actually provides.**
+
+## Test the layout before you order 200
+
+The published handling test is worth copying exactly: load the tray as it will be used, close the drawer or case, then remove the most-worn piece \u2014 if the other items shift, redesign for access. Measure the destination interior dimensions plus lifting clearance before ordering, and sort jewellery by handling pattern rather than by collection. For storage-adjacent programmes, the [black leather jewellery box](https://elapack.com/products/black-leather-jewelry-box) and the [jewellery boxes guide](https://elapack.com/news/how-to-choose-custom-jewelry-boxes) cover the kept-piece side; complete presentations sit in the [sets collection](https://elapack.com/products?category=Sets%20%26%20Complete%20Packaging).
+
+## The bottom line
+
+Standardise the footprint, assign compartments by handling pattern, and pin the lining claim to a stated chemistry. [Contact ELAPACK](https://elapack.com/contact) with your fixture dimensions and piece mix, and the quotation will state tray footprint, layout and lining options that fit your counter and drawer system.`
+  },
+  {
+    "slug": "custom-logo-pouches-guide",
+    "datePublished": "2026-10-09",
+    "title": "Logo on Custom Pouches: Screen Print, Heat Transfer or Woven Labels",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/covers/custom-logo-pouches-guide.png",
+    "imageAlt": "Guide cover card: logo methods on custom pouches \u2014 screen print, heat transfer and woven labels compared on durability, fabric fit and cost structure",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "The three logo methods for fabric pouches compared \u2014 durability, fabric fit, cost structure and artwork limits \u2014 with published supplier terms and the enquiry fields that make branding quotes comparable.",
+    "metaDescription": "Compare screen printing, heat transfer and woven labels for custom pouches: durability, fabric fit, cost at volume, artwork limits, and the spec fields suppliers need to quote.",
+    "body": `*Search volumes and keyword difficulty (KD) are Semrush US database figures exported 2026-10-07. Method descriptions, durability behaviour and one specialist supplier's published terms (MOQ 1,000\u20135,000, 5\u20137 day samples) are as published on drawstringpouchbag.com, rapidtags.com, ecogreenbag.my and triplecrownproducts.com, checked October 2026 \u2014 competitor terms are quoted for comparison only. ELAPACK's own terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample USD 25 plus USD 20 shipping in 3\u20135 days \u2014 are its confirmed trade terms.*
+
+> **Quick answer:** screen print for simple one-to-two-colour logos at volume; heat transfer for multicolour or gradient artwork on flat weaves; woven labels for pile fabrics and kept-luxury pouches where the logo must outlast the print. The fabric often decides the method before the budget does.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order (ELAPACK) | 200 pieces per design | ELAPACK confirmed terms |
+| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |
+| Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |
+| Head demand | custom printed pouches 320/month (KD 23) | Semrush US, 2026-10-07 |
+| Tail demand | drawstring jewelry pouches 50 (KD 11); bulk jewelry bags 40 (KD 8) | Semrush US, 2026-10-07 |
+| Competitor terms (as published) | One specialist factory: MOQ 1,000\u20135,000, samples 5\u20137 days | drawstringpouchbag.com |
+
+## What the demand looks like
+
+![US monthly search volume for branded-pouch keywords: custom printed pouches at 320 searches, drawstring jewelry pouches at 50, custom pouches wholesale at 50, bulk jewelry bags at 40. Semrush, October 2026.](/charts/pouch-logo-keywords-volume.svg)
+
+Branding demand is specific: buyers search the decoration and the pouch together ("custom printed pouches", 320/month) rather than a generic logo term. The box-side equivalent \u2014 "custom boxes with logo" at 1,900/month \u2014 sits at KD 50 and is excluded from this guide's scope; the pouch-side band runs KD 8\u201325, contestable with a method-level comparison. For the wider terms of trade (MOQ, OEM/ODM, tooling), see the [MOQ and OEM/ODM guide](https://elapack.com/news/custom-packaging-moq-oem-odm-logo-guide); this guide is the layer below it \u2014 which decoration goes on the fabric.
+
+**Buyers search the method and the pouch together \u2014 a method-by-fabric guide is what the query is asking for.**
+
+## The three methods side by side
+
+| Axis | Screen print | Heat transfer | Woven label |
+|---|---|---|---|
+| How it marks | Ink pushed through a stencil, per colour | Pre-printed film bonded by heat | Logo woven as yarn, sewn in |
+| Artwork fit | 1\u20134 spot colours; simple marks | CMYK, gradients, photographic detail | Thread-based; limited palette, crisp small text via fine weave |
+| Durability (as published) | Fades/cracks with repeated washing | Film can peel at edges | Cannot crack, peel or wash off \u2014 thread is the mark |
+| Set-up | Screen per colour | Film per design | One-time weaving set-up plus sewing |
+| Cost at volume | Lowest per piece at quantity | Mid, flexible at smaller runs | Highest tier; small delta at jewellery volumes |
+
+*Comparison of published method behaviour (drawstringpouchbag.com; rapidtags.com; triplecrownproducts.com), not a laboratory ranking. Quotes decide the real numbers.*
+
+## Durability: what actually fails, and how
+
+Published failure modes are consistent: on fabric pouches the two most common complaints are logo peeling and fading; screen ink on cotton eventually fades and cracks with repeated washing; heat-transfer films can peel; a woven mark cannot crack or wash off because the thread is the fabric (as published on drawstringpouchbag.com). The decision rule that follows: match the method to how long the pouch lives. A promotional pouch used ten times does not need woven permanence; a kept jewellery pouch that customers retain for years does \u2014 which is why premium jewellery programmes default to woven labels while event and seasonal programmes print.
+
+**Choose by the pouch's lifespan, not the logo's size \u2014 permanence is the feature you are buying with woven.**
+
+## Fabric fit: the constraint buyers forget
+
+The fabric can overrule the budget. Sewn labels work on all fabrics \u2014 velvet, canvas, organza, velour \u2014 and are the decisive option on pile fabrics, where direct printing holds less detail because the pile moves under the ink (as published on drawstringpouchbag.com). Screen printing runs cleanly on cotton, canvas, non-woven and polyester flat weaves. Practically: the [velvet pouch](https://elapack.com/products/custom-velvet-pouches) and [satin pouch](https://elapack.com/products/custom-satin-pouches) pages are label-and-foil territory; the [cotton pouch](https://elapack.com/products/custom-cotton-pouches), [muslin drawstring pouch](https://elapack.com/products/custom-muslin-drawstring-pouch) and [microfiber pouch](https://elapack.com/products/custom-microfiber-pouches) pages take direct print well. Both methods can combine on one pouch \u2014 printed face logo plus a woven care label in the seam \u2014 within one production run.
+
+**Bring the fabric to the method decision \u2014 pile weaves decide it before cost does.**
+
+## Cost structure and published terms
+
+Cost behaviour differs by structure, not just price: screen printing is the lowest-cost method at volume because one pass marks the piece and set-up amortises across the run \u2014 with set-up charged per colour; heat transfer trades a higher unit cost for design flexibility at smaller quantities; woven labels add a second production operation (weaving plus sewing), placing them in the highest tier, though at jewellery order volumes the published delta is described as small enough to justify for kept items (all as published on drawstringpouchbag.com and triplecrownproducts.com). For context on how terms vary by supplier: the same specialist factory publishes an MOQ of 1,000\u20135,000 pieces across logo methods with 5\u20137 day samples, while ELAPACK's confirmed terms run MOQ 200 pieces with a USD 25 custom sample plus USD 20 shipping in 3\u20135 days. Competitor figures are that supplier's published terms, not a market average.
+
+| Cost driver | Screen print | Heat transfer | Woven |
+|---|---|---|---|
+| Set-up basis | Per colour | Per design film | One-time weave + sewing |
+| Unit behaviour at volume | Falls sharply | Moderate | Highest tier, small delta at jewellery volumes |
+| Artwork change between runs | New screens | New film | Re-weave |
+
+## Artwork and the enquiry checklist
+
+Vector artwork (AI, PDF, EPS) is the baseline for every method; raster files cannot drive screens or looms cleanly. Watch the small-text floor: woven-label text below roughly 1.5 mm should be reviewed with the factory, as thread thickness sets the legibility limit (as published on drawstringpouchbag.com). A branding enquiry a factory can quote first time carries: the pouch style and fabric from the [pouches and bags collection](https://elapack.com/products?category=Pouches%20%26%20Bags); the logo method per position (print, transfer or label); vector artwork with colour count; Pantone references; quantity against the 200-piece minimum; and the sample route. Print-method context for ribbon and box counterparts sits in the [custom printed ribbon guide](https://elapack.com/news/custom-printed-ribbon-guide).
+
+## The bottom line
+
+Print for volume and flat weaves, transfer for colour-rich artwork, woven for pile fabrics and permanence \u2014 and let the fabric make the first cut. [Contact ELAPACK](https://elapack.com/contact) with the pouch style, artwork and quantity, and the quotation will state the decoration method, position and terms that apply.`
+  },
+  {
+    "slug": "custom-gift-card-boxes-guide",
+    "datePublished": "2026-10-09",
+    "title": "Custom Gift Card Boxes: Styles, Sizes and Q4 Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "8 min read",
+    "image": "/images/covers/custom-gift-card-boxes-guide.png",
+    "imageAlt": "Guide cover card: custom gift card boxes \u2014 five styles, the standard card size, published box dimensions and the Q4 ordering window worked backwards",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Gift card box styles compared \u2014 pop-up, folder, slider, lid-and-base, ribbon-tie \u2014 with the standard card size, published box dimensions, search demand and the Q4 timeline that decides when to order.",
+    "metaDescription": "Custom gift card boxes: pop-up, slider, folder and ribbon-tie styles, standard card sizing, published dimensions, US search demand and the Q4 ordering timeline for holiday programmes.",
+    "body": "*Search volumes and keyword difficulty (KD) are Semrush US database figures exported 2026-10-07. Style and dimension references are as published by US packaging suppliers (Mid-Atlantic Packaging, Superior Gift Wrap, Creative Carding, ActionPKG, Alya Packaging, BoxIt, NAPCO \u2014 checked October 2026); they describe those suppliers' stock ranges and are quoted for orientation, not as ELAPACK specifications. Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample USD 25 plus USD 20 shipping in 3\u20135 days, cutting-die tooling USD 50\u2013100 where required \u2014 are ELAPACK's confirmed trade terms.*\n\n> **Quick answer:** the card is the standard (3-3/8 \xD7 2-1/8 in, the credit-card size), so every style decision is about the unboxing \u2014 pop-up for theatre, slider or folder for slim retail, lid-and-base or ribbon-tie for gifting. For holiday programmes, work the Q4 maths backwards from your shelf date: production is 15\u201320 days plus transit.\n\n## Key facts at a glance\n\n| Item | Figure | Source |\n|---|---|---|\n| Minimum order | 200 pieces per design, all box lines | ELAPACK confirmed terms |\n| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |\n| Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |\n| Cutting-die tooling | USD 50\u2013100 where a new die is required | ELAPACK confirmed terms |\n| Cluster head demand | gift card boxes 1,900/month (KD 26); gift card gift box 1,300 (KD 25) | Semrush US, 2026-10-07 |\n| Q4 signal | christmas gift card boxes 170/month (KD 14), seasonal | Semrush US, 2026-10-07 |\n| Standard card size | 3-3/8 \xD7 2-1/8 in (credit-card standard) | As published, Mid-Atlantic Packaging |\n\n## What the search demand looks like\n\n![US monthly search volume for gift card box keywords: gift card boxes at 1900 searches, gift card gift box at 1300, gift card packaging and custom gift card holder and holders at 260 each, custom gift card sleeves at 210, christmas gift card boxes and custom gift card envelopes at 170 each. Semrush, October 2026.](/charts/gift-card-boxes-search-volume.svg)\n\nThe cluster runs over 3,200 US searches a month across the charted terms at KD 9\u201326, and the tail names the exact products buyers want \u2014 sleeves, envelopes, holders \u2014 which is a style-guide's table of contents written by the market. The christmas variant confirms the seasonal spike: Q4 is when gift-card packaging is shopped, and guides published before the window capture it. The occasion set is broad \u2014 birthdays, weddings, graduations, employee appreciation (as published on midatlanticpackaging.com) \u2014 but the demand concentrates in the holiday quarter.\n\n**The cluster tells you what to build \u2014 sleeves, envelopes, holders and boxes are separate line items in the same brief.**\n\n## Start from the card: one standard, every style\n\nEvery style fits the same card: 3-3/8 \xD7 2-1/8 inches, the credit-card (ISO/IEC 7810 ID-1) standard, which also covers business cards of the same cut. Published closed dimensions around that standard: a pop-up gift card folder at 5 \xD7 3-3/8 \xD7 3/16 in closed (midatlanticpackaging.com), and a pop-up gift card box at 4-5/8 \xD7 3-3/8 \xD7 5/8 in holding up to six cards (superiorgiftwrap.com). Those are stock-product references \u2014 your own programme sizes from the card outward, adding insert thickness and the number of cards per box to the closed height.\n\n| Style | Published structure | What it is bought for |\n|---|---|---|\n| Pop-up | Built-in insert lifts the card as the box opens (midatlanticpackaging.com); To/From/Amount fields printed on inserts (creativecarding.com) | Unboxing theatre at POS and gifting |\n| Folder / sleeve | Slim flat closure, e.g. 5 \xD7 3-3/8 \xD7 3/16 in closed | Slim retail, mailers, card sleeves at 210+/month demand |\n| Slider | Sliding-lid drawer construction (alyapackaging.com) | Reusable keepsake slider |\n| Lid-and-base / magnetic | Lift-off and magnetic-lid variants with card or foam inserts (alyapackaging.com) | Premium gifting and sets |\n| Ribbon-tie | Tied bow as the closure and presentation, 50-count packs as published (midatlanticpackaging.com) | Wedding and occasion gifting |\n| Pull-ribbon | Ribbon-pull opening format (napco.com) | Novelty reveal |\n\n*Structure rows are published observations of US suppliers' stock ranges; ELAPACK quotes gift card box constructions to order \u2014 style feasibility and insert details are confirmed on the quotation, and unconfirmed construction details are deliberately not promised here.*\n\n**Pick the moment, not the box: the opening experience the recipient has is the entire style decision.**\n\n## Inserts: what holds the card\n\nPublished insert options run from the built-in pop-up platform, through die-cut card slots, to foam padding that stops cards sliding in transit (boxitpackages.com, actionpkg.com, midatlanticpackaging.com). Card capacity is a real specification \u2014 one supplier's pop-up box holds up to six cards (superiorgiftwrap.com) \u2014 so state cards-per-box in the brief if the pack is a multi-card set. Printing belongs on the insert as much as the wrap: To/From/Amount fields are a published standard feature of pop-up inserts (creativecarding.com), and they turn the box into the greeting card. Finish options on the box itself are the luxury set \u2014 foil stamping for logo and metallics, with the full finish comparison in the [surface finishes guide](https://elapack.com/news/surface-finishes-compared-guide).\n\n## The Q4 timeline, worked backwards\n\nHoliday gift-card programmes fail on dates, not design. With production at 15\u201320 days once artwork and the pre-production sample are approved, a shelf date in the first week of December needs the order placed with artwork ready by early-to-mid November \u2014 earlier if sea freight is involved, later for air. The sample route (custom sample USD 25 plus USD 20 shipping, 3\u20135 days) is the place to lock the pop-up action and insert fit before tooling; where a new cutting die is required it is quoted at USD 50\u2013100. The same backwards maths, with seasonal wording swapped, runs the Valentine's window \u2014 see the [Valentine's packaging timeline](https://elapack.com/news/valentines-day-packaging-timeline) for that worked calendar.\n\n**Set the shelf date first and let it set the order date \u2014 Q4 lead times do not bend for late artwork.**\n\n## What to put in your enquiry\n\nA gift card box brief a factory can quote first time carries: the style and construction (or a reference to the table above as a starting point); cards-per-box and card size confirmation; the insert type \u2014 pop-up platform, die-cut slot or cushioned; printed fields on the insert if wanted; quantity against the 200-piece minimum; artwork in vector with Pantone references; and the need-by date so production and freight can be planned to it. Adjacent formats for the same programme: the [magnetic closure gift box](https://elapack.com/products/magnetic-closure-gift-box) for premium sets, the [ribbon gift box](https://elapack.com/products/luxury-gift-box-ribbon) for occasion gifting, and the parent [custom gift boxes](https://elapack.com/custom-gift-boxes) and [boxes collection](https://elapack.com/products?category=Boxes) pages for the wider range. Specification-sheet fields are covered in the [spec sheet guide](https://elapack.com/news/how-to-read-a-packaging-specification-sheet).\n\n## The bottom line\n\nOne card standard, six working styles, and a Q4 clock: choose the opening moment, size from the card outward, and order against the holiday maths. [Contact ELAPACK](https://elapack.com/contact) with the style, quantity, artwork and need-by date, and the quotation will state the construction, insert and tooling that apply to your gift card programme."
+  },
+  {
     "slug": "surface-finishes-compared-guide",
     "datePublished": "2026-10-07",
     "title": "Surface Finishes for Custom Boxes Compared: Embossing, Foil, Lamination and Spot UV",
@@ -4022,6 +4344,28 @@ function News() {
 var import_react_router_dom13 = require("react-router-dom");
 var import_jsx_runtime12 = require("react/jsx-runtime");
 var RELATED = {
+  "velvet-satin-muslin-pouches-compared": [
+    "custom-velvet-pouches",
+    "custom-satin-pouches",
+    "custom-muslin-drawstring-pouch"
+  ],
+  "custom-candle-boxes-guide": [
+    "magnetic-closure-gift-box",
+    "luxury-gift-box-ribbon"
+  ],
+  "jewelry-display-trays-guide": [
+    "stackable-jewelry-tray",
+    "velvet-jewelry-display-set",
+    "velvet-necklace-display"
+  ],
+  "custom-logo-pouches-guide": [
+    "custom-cotton-pouches",
+    "custom-velvet-pouches"
+  ],
+  "custom-gift-card-boxes-guide": [
+    "magnetic-closure-gift-box",
+    "luxury-gift-box-ribbon"
+  ],
   "surface-finishes-compared-guide": [
     "magnetic-closure-gift-box",
     "custom-ring-boxes"
