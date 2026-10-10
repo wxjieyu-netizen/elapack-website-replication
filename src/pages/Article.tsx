@@ -9,6 +9,26 @@ import type { ReactNode } from "react";
  * anchor text is the (Custom…) product name so relevance passes through.
  */
 const RELATED: Record<string, string[]> = {
+  "custom-cosmetic-bags-guide": [
+    "custom-pvc-bags",
+    "custom-velvet-pouches",
+  ],
+  "custom-soap-packaging-guide": [
+    "kraft-paper-shopping-bag",
+    "magnetic-closure-gift-box",
+  ],
+  "custom-shopping-bags-guide": [
+    "kraft-paper-shopping-bag",
+    "luxury-gift-box-ribbon",
+  ],
+  "how-to-vet-a-packaging-manufacturer": [
+    "custom-velvet-pouches",
+    "magnetic-closure-gift-box",
+  ],
+  "custom-printed-boxes-guide": [
+    "magnetic-closure-gift-box",
+    "custom-ring-boxes",
+  ],
   "custom-rigid-boxes-guide": [
     "magnetic-closure-gift-box",
     "custom-ring-boxes",

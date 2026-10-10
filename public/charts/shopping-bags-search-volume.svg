@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="US search demand: custom retail shopping bag cluster">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <text x="60" y="70" font-family="Georgia,serif" font-size="28" fill="#18120c">US search demand: custom retail shopping bag cluster</text>
+  <text x="60" y="102" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6b6258">Monthly average search volume, selected keywords (bar = monthly searches, right = keyword difficulty)</text>
+  <text x="306" y="171" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">custom boutique bags</text>
+  <rect x="320" y="150" width="830" height="28" rx="3" fill="#b08d46"/>
+  <text x="1162" y="170" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#18120c">70</text>
+  <text x="1162" y="170" dx="0" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#8a8178" text-anchor="start" transform="translate(64,0)">KD 37</text>
+  <text x="306" y="235" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">custom fabric shopping bags</text>
+  <rect x="320" y="214" width="474" height="28" rx="3" fill="#8a7a68"/>
+  <text x="806" y="234" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#18120c">40</text>
+  <text x="806" y="234" dx="0" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#8a8178" text-anchor="start" transform="translate(64,0)">KD 10</text>
+  <text x="306" y="299" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">custom kraft shopping bags</text>
+  <rect x="320" y="278" width="356" height="28" rx="3" fill="#8a7a68"/>
+  <text x="688" y="298" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#18120c">30</text>
+  <text x="688" y="298" dx="0" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#8a8178" text-anchor="start" transform="translate(64,0)">KD 17</text>
+  <text x="306" y="363" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">custom printing paper bags</text>
+  <rect x="320" y="342" width="356" height="28" rx="3" fill="#8a7a68"/>
+  <text x="688" y="362" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#18120c">30</text>
+  <text x="688" y="362" dx="0" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#8a8178" text-anchor="start" transform="translate(64,0)">KD 18</text>
+  <text x="306" y="427" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">recycled paper bags w/ handles</text>
+  <rect x="320" y="406" width="356" height="28" rx="3" fill="#8a7a68"/>
+  <text x="688" y="426" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#18120c">30</text>
+  <text x="688" y="426" dx="0" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#8a8178" text-anchor="start" transform="translate(64,0)">KD 13</text>
+  <text x="306" y="491" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">custom cloth shopping bags</text>
+  <rect x="320" y="470" width="356" height="28" rx="3" fill="#8a7a68"/>
+  <text x="688" y="490" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#18120c">30</text>
+  <text x="688" y="490" dx="0" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#8a8178" text-anchor="start" transform="translate(64,0)">KD 22</text>
+  <text x="60" y="640" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#8a8178">Source: Semrush US database via competitor keyword pool, exported 2026-10-07</text>
+</svg>
