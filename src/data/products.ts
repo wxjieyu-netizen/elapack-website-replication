@@ -1171,3 +1171,133 @@ export const solutions = [
 export function getProductBySlug(slug: string): Product | undefined {
   return products.find((p) => p.slug === slug);
 }
+
+/** Related /news sourcing guides linked on each product detail page — curated, never forced. */
+export const productGuides: Record<string, string[]> = {
+  "black-leather-jewelry-box": [
+    "how-to-choose-custom-jewelry-boxes",
+    "custom-rigid-boxes-guide",
+    "surface-finishes-compared-guide",
+  ],
+  "custom-white-jewelry-box": [
+    "how-to-choose-custom-jewelry-boxes",
+    "surface-finishes-compared-guide",
+    "custom-rigid-boxes-guide",
+  ],
+  "custom-ring-boxes": [
+    "custom-ring-boxes-guide",
+    "packaging-inserts-guide",
+    "custom-rigid-boxes-guide",
+  ],
+  "luxury-gift-box-ribbon": [
+    "custom-printed-ribbon-guide",
+    "magnetic-closure-vs-ribbon-tie-gift-boxes",
+    "packaging-colour-tolerance-explained",
+  ],
+  "magnetic-closure-gift-box": [
+    "magnetic-gift-boxes-guide",
+    "magnetic-closure-vs-ribbon-tie-gift-boxes",
+    "custom-rigid-boxes-guide",
+  ],
+  "custom-eyelash-packaging-boxes": [
+    "how-to-customize-eyelash-boxes",
+    "custom-rigid-boxes-guide",
+    "packaging-inserts-guide",
+  ],
+  "custom-perfume-boxes": [
+    "custom-perfume-packaging-guide",
+    "custom-rigid-boxes-guide",
+    "packaging-inserts-guide",
+  ],
+  "custom-perfume-sample-card-boxes": [
+    "custom-perfume-packaging-guide",
+    "how-to-read-a-packaging-specification-sheet",
+    "custom-gift-card-boxes-guide",
+  ],
+  "custom-press-on-nail-boxes": [
+    "press-on-nail-packaging-guide",
+    "custom-rigid-boxes-guide",
+    "packaging-inserts-guide",
+  ],
+  "custom-hair-extension-boxes": [
+    "custom-hair-extension-packaging-guide",
+    "hair-extension-packaging-ideas",
+    "custom-rigid-boxes-guide",
+  ],
+  "custom-watch-boxes": [
+    "custom-rigid-boxes-guide",
+    "packaging-inserts-guide",
+    "how-to-choose-custom-jewelry-boxes",
+  ],
+  "custom-velvet-pouches": [
+    "velvet-satin-muslin-pouches-compared",
+    "how-to-choose-a-custom-jewelry-pouch",
+    "custom-logo-pouches-guide",
+  ],
+  "custom-cotton-pouches": [
+    "how-to-choose-a-custom-jewelry-pouch",
+    "velvet-satin-muslin-pouches-compared",
+    "custom-logo-pouches-guide",
+  ],
+  "custom-cotton-envelope-pouches": [
+    "how-to-choose-a-custom-jewelry-pouch",
+    "custom-logo-pouches-guide",
+    "how-to-read-a-packaging-specification-sheet",
+  ],
+  "velvet-necklace-display": [
+    "jewelry-display-trays-guide",
+    "custom-jewelry-packaging-guide",
+    "how-to-choose-custom-jewelry-boxes",
+  ],
+  "acrylic-earring-display": [
+    "jewelry-display-trays-guide",
+    "custom-jewelry-packaging-guide",
+    "how-to-choose-custom-jewelry-boxes",
+  ],
+  "kraft-paper-shopping-bag": [
+    "custom-gift-packaging-guide",
+    "custom-clothing-apparel-packaging-guide",
+    "custom-logo-pouches-guide",
+  ],
+  "stackable-jewelry-tray": [
+    "jewelry-display-trays-guide",
+    "packaging-inserts-guide",
+    "custom-jewelry-packaging-guide",
+  ],
+  "velvet-jewelry-display-set": [
+    "jewelry-display-trays-guide",
+    "custom-jewelry-packaging-guide",
+    "how-to-choose-custom-jewelry-boxes",
+  ],
+  "leather-envelope-pouch": [
+    "how-to-choose-a-custom-jewelry-pouch",
+    "velvet-satin-muslin-pouches-compared",
+    "custom-logo-pouches-guide",
+  ],
+  "custom-satin-wig-bag": [
+    "custom-wig-packaging-guide",
+    "velvet-satin-muslin-pouches-compared",
+    "custom-logo-pouches-guide",
+  ],
+  "custom-satin-pouches": [
+    "velvet-satin-muslin-pouches-compared",
+    "how-to-choose-a-custom-jewelry-pouch",
+    "custom-logo-pouches-guide",
+  ],
+  "custom-muslin-drawstring-pouch": [
+    "custom-muslin-bags-guide",
+    "how-to-choose-custom-drawstring-bags",
+    "velvet-satin-muslin-pouches-compared",
+  ],
+  "custom-microfiber-pouches": [
+    "how-to-choose-a-custom-jewelry-pouch",
+    "velvet-satin-muslin-pouches-compared",
+    "custom-logo-pouches-guide",
+  ],
+  "custom-pvc-bags": [
+    "how-to-choose-custom-drawstring-bags",
+    "custom-cosmetic-packaging-guide",
+    "custom-logo-pouches-guide",
+  ],
+};
+

@@ -1146,6 +1146,133 @@ var solutions = [
 function getProductBySlug(slug) {
   return products.find((p) => p.slug === slug);
 }
+var productGuides = {
+  "black-leather-jewelry-box": [
+    "how-to-choose-custom-jewelry-boxes",
+    "custom-rigid-boxes-guide",
+    "surface-finishes-compared-guide"
+  ],
+  "custom-white-jewelry-box": [
+    "how-to-choose-custom-jewelry-boxes",
+    "surface-finishes-compared-guide",
+    "custom-rigid-boxes-guide"
+  ],
+  "custom-ring-boxes": [
+    "custom-ring-boxes-guide",
+    "packaging-inserts-guide",
+    "custom-rigid-boxes-guide"
+  ],
+  "luxury-gift-box-ribbon": [
+    "custom-printed-ribbon-guide",
+    "magnetic-closure-vs-ribbon-tie-gift-boxes",
+    "packaging-colour-tolerance-explained"
+  ],
+  "magnetic-closure-gift-box": [
+    "magnetic-gift-boxes-guide",
+    "magnetic-closure-vs-ribbon-tie-gift-boxes",
+    "custom-rigid-boxes-guide"
+  ],
+  "custom-eyelash-packaging-boxes": [
+    "how-to-customize-eyelash-boxes",
+    "custom-rigid-boxes-guide",
+    "packaging-inserts-guide"
+  ],
+  "custom-perfume-boxes": [
+    "custom-perfume-packaging-guide",
+    "custom-rigid-boxes-guide",
+    "packaging-inserts-guide"
+  ],
+  "custom-perfume-sample-card-boxes": [
+    "custom-perfume-packaging-guide",
+    "how-to-read-a-packaging-specification-sheet",
+    "custom-gift-card-boxes-guide"
+  ],
+  "custom-press-on-nail-boxes": [
+    "press-on-nail-packaging-guide",
+    "custom-rigid-boxes-guide",
+    "packaging-inserts-guide"
+  ],
+  "custom-hair-extension-boxes": [
+    "custom-hair-extension-packaging-guide",
+    "hair-extension-packaging-ideas",
+    "custom-rigid-boxes-guide"
+  ],
+  "custom-watch-boxes": [
+    "custom-rigid-boxes-guide",
+    "packaging-inserts-guide",
+    "how-to-choose-custom-jewelry-boxes"
+  ],
+  "custom-velvet-pouches": [
+    "velvet-satin-muslin-pouches-compared",
+    "how-to-choose-a-custom-jewelry-pouch",
+    "custom-logo-pouches-guide"
+  ],
+  "custom-cotton-pouches": [
+    "how-to-choose-a-custom-jewelry-pouch",
+    "velvet-satin-muslin-pouches-compared",
+    "custom-logo-pouches-guide"
+  ],
+  "custom-cotton-envelope-pouches": [
+    "how-to-choose-a-custom-jewelry-pouch",
+    "custom-logo-pouches-guide",
+    "how-to-read-a-packaging-specification-sheet"
+  ],
+  "velvet-necklace-display": [
+    "jewelry-display-trays-guide",
+    "custom-jewelry-packaging-guide",
+    "how-to-choose-custom-jewelry-boxes"
+  ],
+  "acrylic-earring-display": [
+    "jewelry-display-trays-guide",
+    "custom-jewelry-packaging-guide",
+    "how-to-choose-custom-jewelry-boxes"
+  ],
+  "kraft-paper-shopping-bag": [
+    "custom-gift-packaging-guide",
+    "custom-clothing-apparel-packaging-guide",
+    "custom-logo-pouches-guide"
+  ],
+  "stackable-jewelry-tray": [
+    "jewelry-display-trays-guide",
+    "packaging-inserts-guide",
+    "custom-jewelry-packaging-guide"
+  ],
+  "velvet-jewelry-display-set": [
+    "jewelry-display-trays-guide",
+    "custom-jewelry-packaging-guide",
+    "how-to-choose-custom-jewelry-boxes"
+  ],
+  "leather-envelope-pouch": [
+    "how-to-choose-a-custom-jewelry-pouch",
+    "velvet-satin-muslin-pouches-compared",
+    "custom-logo-pouches-guide"
+  ],
+  "custom-satin-wig-bag": [
+    "custom-wig-packaging-guide",
+    "velvet-satin-muslin-pouches-compared",
+    "custom-logo-pouches-guide"
+  ],
+  "custom-satin-pouches": [
+    "velvet-satin-muslin-pouches-compared",
+    "how-to-choose-a-custom-jewelry-pouch",
+    "custom-logo-pouches-guide"
+  ],
+  "custom-muslin-drawstring-pouch": [
+    "custom-muslin-bags-guide",
+    "how-to-choose-custom-drawstring-bags",
+    "velvet-satin-muslin-pouches-compared"
+  ],
+  "custom-microfiber-pouches": [
+    "how-to-choose-a-custom-jewelry-pouch",
+    "velvet-satin-muslin-pouches-compared",
+    "custom-logo-pouches-guide"
+  ],
+  "custom-pvc-bags": [
+    "how-to-choose-custom-drawstring-bags",
+    "custom-cosmetic-packaging-guide",
+    "custom-logo-pouches-guide"
+  ]
+};
 
 // src/components/Header.tsx
 var import_jsx_runtime2 = require("react/jsx-runtime");
@@ -2071,1063 +2198,6 @@ function Products() {
 // src/pages/ProductDetail.tsx
 var import_react7 = require("react");
 var import_react_router_dom8 = require("react-router-dom");
-
-// src/data/categoryCopy.ts
-var boxesCopy = {
-  noun: "boxes",
-  importanceTitle: "The Importance of Custom Boxes in Your Brand Experience",
-  importanceIntro: "A box is the first physical touch a customer has with your product, and a well-built rigid box does three jobs at once \u2014 quietly:",
-  benefits: [
-    {
-      title: "An Unboxing Customers Remember",
-      desc: "Weight, structure and finish are read in seconds. A considered box signals a considered product before it is even opened."
-    },
-    {
-      title: "Protection and Preservation",
-      desc: "Rigid board construction with tailored inserts keeps each piece stable in transit and in store \u2014 no shifting, no scratches, no damaged stock."
-    },
-    {
-      title: "Subtle Branding Opportunity",
-      desc: "Embossing, foil stamping and color-matched linings carry your identity without a word, and reinforce it every time the box is opened."
-    }
-  ],
-  customizeTitle: "Customize Your Boxes",
-  customizeParas: [
-    "At ELAPACK, every element of a custom box is specified around your product: exterior material, interior lining, insert layout, closure and surface finish. If none of our standard configurations fits, we build the structure from scratch.",
-    "You can always request a fully custom project in line with your brand: we will propose the right board, lining and printing method to match your product and your budget.",
-    "Whether it is a specific Pantone tone, a foil accent, or an insert with exact cavity positions for your pieces, we are dedicated to crafting a box that reflects your brand \u2014 with your logo and graphics placed exactly where they belong."
-  ],
-  customizeCta: "Customize Your Boxes",
-  faqMaterials: {
-    q: "What materials are available for custom boxes?",
-    a: "Exteriors in velvet, leatherette, satin, wood, MDF and genuine leather; interiors in velvet, satin, suede, microfiber or flocked fabric; inserts in foam, EVA, molded plastic or recycled paper. Finishes include matte, glossy, debossed, foil stamping and spot UV."
-  },
-  faqSizes: {
-    q: "Can I customize the size and structure of the boxes?",
-    a: "Absolutely. Boxes are built to your product dimensions \u2014 lid-and-base, flip-top, sleeve-drawer and bespoke structures. Insert cavities are cut to hold each piece exactly, and fully custom dimensions are welcome."
-  },
-  faqClosures: {
-    q: "What closure types are available for the boxes?",
-    a: "Magnetic flip-top, snap, tuck flap, ribbon tie and drawer constructions. Closures can be combined \u2014 for example a magnetic lid with a ribbon pull \u2014 and all hardware is color-matched to your brand."
-  }
-};
-var pouchesCopy = {
-  noun: "pouches and bags",
-  importanceTitle: "The Importance of Custom Pouches and Bags in Your Brand Experience",
-  importanceIntro: "In competitive retail, every detail contributes to the customer experience, and a well-made pouch or bag carries that experience beyond the store. Thoughtfully designed packaging offers several key benefits for brands:",
-  benefits: [
-    {
-      title: "Elevating Customer Experience",
-      desc: "When customers receive their purchase in a plush, well-finished pouch, it enhances the overall experience and makes them feel they are acquiring something truly special."
-    },
-    {
-      title: "Protection and Preservation",
-      desc: "Soft textile and durable paper constructions shield delicate and valuable pieces from scratches, dust and damage, keeping the product pristine until it reaches the customer's hands."
-    },
-    {
-      title: "Subtle Branding Opportunity",
-      desc: "A pouch or bag serves as a discreet branding tool. Your logo or design reinforces brand identity at every use and creates a lasting impression on customers."
-    }
-  ],
-  customizeTitle: "Customize Your Bags & Pouches",
-  customizeParas: [
-    "At ELAPACK, we understand the importance of tailoring every detail to suit your unique style and preferences. If you don't find a compelling solution among the ones proposed, we also offer the possibility of 100% customized pouches and bags wholesale.",
-    "You can always request a highly customized project in line with your style and wishes: we will be happy to find you the right solution to satisfy your needs and your customers' preferences.",
-    "Whether it's a specific color, texture, or design, we're dedicated to crafting solutions that exceed your expectations and resonate with your customers' preferences. Moreover, you can add your logo and your graphics, creating packaging that totally reflects your brand and its characteristics."
-  ],
-  customizeCta: "Customize Your Pouches",
-  faqMaterials: {
-    q: "What materials are available for custom pouches?",
-    a: "We offer high-quality silk, cotton, velvet, linen, and satin. Each material can be customized with various finishes such as matte, glossy, or textured to match your brand aesthetic."
-  },
-  faqSizes: {
-    q: "Can I customize the size and shape of the pouches?",
-    a: "Absolutely. We offer standard sizes like 6x8 inches and 4x6 inches, plus fully custom dimensions. Shapes include classic drawstring, flat bottom, zip-top, and bespoke structural designs."
-  },
-  faqClosures: {
-    q: "What types of closures are available for the pouches?",
-    a: "We offer drawstring cord, zip-top, magnetic snap, button closure, and ribbon tie closures. Cord materials include silk, cotton, satin, and leather, all color-matched to your brand."
-  }
-};
-var setsCopy = {
-  noun: "sets",
-  importanceTitle: "The Importance of Coordinated Packaging Sets in Your Brand Experience",
-  importanceIntro: "A collection of boxes, pouches and bags designed as one system tells customers the brand thinks in systems. Coordinated sets offer several key benefits:",
-  benefits: [
-    {
-      title: "One Consistent Brand Voice",
-      desc: "Matching materials, colors and finishes across every touchpoint \u2014 from retail display to gift wrap \u2014 so the brand reads the same everywhere it is met."
-    },
-    {
-      title: "Retail-Ready Presentation",
-      desc: "Display stands, boxes and pouches sized to work together present the collection as intended, in the showcase and in the unboxing alike."
-    },
-    {
-      title: "One Supplier, One Standard",
-      desc: "A complete set from a single production partner means one quality standard, one timeline and one point of contact for the whole collection."
-    }
-  ],
-  customizeTitle: "Customize Your Packaging Set",
-  customizeParas: [
-    "At ELAPACK, a set is designed as one project: box, pouch, bag and display elements share a material and color story specified around your brand.",
-    "You can request a fully coordinated collection \u2014 or start with one element and expand. We will propose the right combination of structures and textiles to match your products and budget.",
-    "Whether it is a specific Pantone tone carried from rigid box to velvet pouch, or a logo placed consistently across every piece, the set is crafted to reflect your brand at each touchpoint."
-  ],
-  customizeCta: "Customize Your Set",
-  faqMaterials: {
-    q: "What materials are available for packaging sets?",
-    a: "Sets combine our box and textile lines: rigid exteriors in velvet, leatherette, satin or MDF with velvet, satin or suede linings, paired with color-matched fabric pouches, bags and display pieces."
-  },
-  faqSizes: {
-    q: "Can I customize the sizes across the set?",
-    a: "Yes. Each element is sized to your product \u2014 box cavity, pouch dimensions and bag capacity are specified together so the collection works as one system."
-  },
-  faqClosures: {
-    q: "What closure options are available across a set?",
-    a: "Closures span both lines \u2014 magnetic flip-top or drawer boxes, drawstring or zip pouches, ribbon ties \u2014 coordinated so every opening gesture feels consistent."
-  }
-};
-var neutralCopy = {
-  noun: "products",
-  importanceTitle: "The Importance of Custom Packaging in Your Brand Experience",
-  importanceIntro: "Custom packaging is the first physical touch a customer has with your brand, and well-designed packaging works hard for it:",
-  benefits: [
-    {
-      title: "Elevating Customer Experience",
-      desc: "Packaging that fits the product and the brand makes every purchase feel considered and complete."
-    },
-    {
-      title: "Protection and Preservation",
-      desc: "The right material and structure shield the product from scratches, dust and damage until it reaches the customer's hands."
-    },
-    {
-      title: "Subtle Branding Opportunity",
-      desc: "Your logo and design, placed on packaging the customer keeps, reinforce brand identity long after the sale."
-    }
-  ],
-  customizeTitle: "Customize Your Packaging",
-  customizeParas: [
-    "At ELAPACK, every element of your packaging is specified around your product and brand \u2014 materials, structure, finish and print.",
-    "You can always request a fully custom project in line with your style and wishes: we will propose the right solution for your needs and budget.",
-    "Whether it's a specific color, texture, or design, we're dedicated to crafting packaging that reflects your brand \u2014 with your logo and graphics placed exactly where they belong."
-  ],
-  customizeCta: "Customize Your Packaging",
-  faqMaterials: {
-    q: "What materials are available for custom packaging?",
-    a: "Our lines cover rigid box exteriors with velvet, satin or suede linings, textile pouches in silk, cotton, velvet, linen and satin, and paper bags in recycled kraft \u2014 each customizable with matte, glossy or textured finishes."
-  },
-  faqSizes: {
-    q: "Can I customize the size and shape of my packaging?",
-    a: "Absolutely. Standard sizes and fully custom dimensions are both available, with structures and shapes built around your product."
-  },
-  faqClosures: {
-    q: "What closure options are available?",
-    a: "Drawstring cord, zip-top, magnetic flip-top, snap, button and ribbon tie closures \u2014 all color-matched to your brand."
-  }
-};
-var categoryCopy = {
-  Boxes: boxesCopy,
-  "Pouches & Bags": pouchesCopy,
-  "Sets & Complete Packaging": setsCopy
-};
-var ECO_FAQ_ANSWER = "We offer eco-friendly material options including recycled kraft paper, natural cotton, and linen. Certification documents are available on request.";
-function faqsFor(category) {
-  const c = categoryCopy[category] ?? neutralCopy;
-  return [
-    c.faqMaterials,
-    c.faqSizes,
-    c.faqClosures,
-    {
-      q: "Do I need to provide a dieline for custom packaging?",
-      a: "No. We draw the dieline to your confirmed product dimensions free of charge at the quotation stage, and custom samples are built to it. Files are supplied as PDF, AI or DXF. If you already have a vector dieline, we accept it and verify it with our die-making team before production; cutting-die tooling, where a new die is required, is quoted at USD 50\u2013100 depending on the product."
-    },
-    { q: `Are the ${c.noun} eco-friendly?`, a: ECO_FAQ_ANSWER },
-    {
-      q: "How long does the production process take?",
-      a: "Typical production time is 15\u201320 days after sample approval. Shipping is by air or by sea from Shanghai or Shenzhen."
-    },
-    {
-      q: "Can I see a sample before placing a full order?",
-      a: "Yes. Free stock samples ship in 2\u20133 days. Custom printed samples cost USD 25 plus USD 20 shipping (USD 45 total), are made in 3\u20135 days, and sample delivery takes 4\u20137 days."
-    },
-    {
-      q: "What payment methods do you accept?",
-      a: "We accept T/T (bank transfer) and PayPal."
-    }
-  ];
-}
-
-// src/pages/ProductDetail.tsx
-var import_jsx_runtime7 = require("react/jsx-runtime");
-var trustBadges = [
-  { icon: "M", label: "Custom Pantone Matching" },
-  { icon: "C", label: "100% Customization" },
-  { icon: "D", label: "Design & Samples" },
-  { icon: "M", label: "Low MOQ From 200 pcs" }
-];
-var processSteps = [
-  { step: "01", title: "Establish Contact" },
-  { step: "02", title: "Communicate OEM & ODM Requirements" },
-  { step: "03", title: "Quotation" },
-  { step: "04", title: "Customized Samples" },
-  { step: "05", title: "Printing & Surface Treatment" },
-  { step: "06", title: "Confirm Order" },
-  { step: "07", title: "Make Payment" },
-  { step: "08", title: "Mass Production" },
-  { step: "09", title: "Quality Inspection & Shipment" }
-];
-function ProductDetail() {
-  const { slug } = (0, import_react_router_dom8.useParams)();
-  const product = slug ? getProductBySlug(slug) : void 0;
-  const [openFaq, setOpenFaq] = (0, import_react7.useState)(0);
-  const [activeImg, setActiveImg] = (0, import_react7.useState)(0);
-  const galleryImgs = product?.gallery?.length ? product.gallery : product ? [product.image] : [];
-  if (!product) {
-    return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
-      "section",
-      {
-        className: "section",
-        style: {
-          textAlign: "center",
-          paddingTop: "calc(var(--header-height) + 6rem)"
-        },
-        children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h1", { className: "section-title", children: "Product not found" }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "text-soft", style: { margin: "1rem 0 2rem" }, children: "The product you're looking for doesn't exist or has been moved." }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/products", className: "btn-primary", children: "Back to Products" })
-        ] })
-      }
-    );
-  }
-  const related = products.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4);
-  const copy = categoryCopy[product.category] ?? neutralCopy;
-  const faqs2 = faqsFor(product.category);
-  return /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(import_jsx_runtime7.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "breadcrumb-bar", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("nav", { className: "breadcrumb", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/", children: "Home" }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "breadcrumb-sep", children: "/" }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/products", children: "Products" }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "breadcrumb-sep", children: "/" }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "breadcrumb-current", children: product.name })
-    ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "product-detail-hero", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-gallery reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-gallery-main", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: galleryImgs[activeImg] ?? product.image, alt: product.name, width: 1254, height: 1254 }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-detail-category", children: product.category })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-gallery-thumbs", children: galleryImgs.map((img, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
-          "div",
-          {
-            className: `product-gallery-thumb ${i === activeImg ? "is-active" : ""}`,
-            onClick: () => setActiveImg(i),
-            role: "button",
-            "aria-label": `View photo ${i + 1}`,
-            children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: img, alt: ` view `, loading: "lazy", width: 1254, height: 1254 })
-          },
-          i
-        )) })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-info reveal reveal-delay-2", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h1", { className: "product-detail-title", children: product.name }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-detail-desc", children: product.description }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-quote", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-quote-title", children: "Get A Custom Quote:" }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-quote-actions", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-primary", children: "Request a Quote" }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-outline", children: "Contact Us" })
-          ] })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-trust-badges", children: trustBadges.map((badge) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-trust-badge", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-trust-icon", children: badge.icon }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-trust-label", children: badge.label })
-        ] }, badge.label)) }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-meta", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "detail-meta-item", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-label", children: "Materials" }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-value", children: product.materials })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "detail-meta-item", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-label", children: "Minimum Order" }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-value", children: product.moq })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "detail-meta-item", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-label", children: "Lead Time" }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-value", children: product.leadTime })
-          ] })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-industries", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-label", children: "Industries" }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "industry-tags", children: product.industries.map((ind) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "industry-tag", children: ind }, ind)) })
-        ] })
-      ] })
-    ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-specs-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-specs-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-specs-intro reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Technical Details" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "Specifications" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-specs-text", children: "Every dimension, material, and finish is fully customizable to your brand's exact requirements. Below are our standard configurations \u2014 contact us to discuss custom specifications." }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-primary", children: "Discuss Your Project" })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-specs-table reveal reveal-delay-2", children: product.specs.map((spec) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "spec-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "spec-label", children: spec.label }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "spec-value", children: spec.value })
-      ] }, spec.label)) })
-    ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-description-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-description-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Product Description" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", style: { marginTop: "1rem" }, children: product.description })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-description-image reveal reveal-delay-2", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
-        "img",
-        {
-          src: "/product-collection.webp",
-          alt: `${product.name} showcase`,
-          loading: "lazy",
-          width: 1408,
-          height: 768
-        }
-      ) })
-    ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-importance-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: copy.importanceTitle }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", style: { maxWidth: "760px", margin: "1.5rem auto 0" }, children: copy.importanceIntro })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-benefits-grid", children: copy.benefits.map((benefit, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
-        "div",
-        {
-          className: `product-benefit-card reveal ${i === 1 ? "reveal-delay-2" : i === 2 ? "reveal-delay-3" : ""}`,
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-benefit-num", children: String(i + 1).padStart(2, "0") }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-benefit-title", children: benefit.title }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-benefit-desc", children: benefit.desc })
-          ]
-        },
-        benefit.title
-      )) })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-customize-bags-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-customize-bags-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-customize-bags-image reveal", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
-        "img",
-        {
-          src: "/custom-options.webp",
-          alt: `Customize your ${copy.noun}`,
-          loading: "lazy",
-          width: 1408,
-          height: 768
-        }
-      ) }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-customize-bags-content reveal reveal-delay-2", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "100% Customization" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: copy.customizeTitle }),
-        copy.customizeParas.map((para) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", children: para }, para.slice(0, 24))),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-primary", style: { marginTop: "0.5rem" }, children: copy.customizeCta })
-      ] })
-    ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-features-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Key Features" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Engineered for Excellence" })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-features-grid", children: product.features.map((feature, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
-        "div",
-        {
-          className: `product-feature-card reveal reveal-delay-${i % 4 + 1}`,
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-feature-num", children: String(i + 1).padStart(2, "0") }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-feature-title", children: feature.title }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-feature-desc", children: feature.desc })
-          ]
-        },
-        feature.title
-      )) })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-process-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "How We Work" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Customization Process" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "section-subtitle", children: "Our professional customization team meets 100% of customer needs \u2014 from initial contact to quality inspection before shipment." })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-process-grid", children: processSteps.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
-        "div",
-        {
-          className: `product-process-step reveal reveal-delay-${i % 4 + 1}`,
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-process-num", children: step.step }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-process-title", children: step.title })
-          ]
-        },
-        step.step
-      )) })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-custom-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Make It Yours" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Customization Options" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "section-subtitle", children: "Every element of this product can be tailored to your brand. Here are the most common customization paths." })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "custom-options-chips reveal reveal-delay-2", children: product.customizationOptions.map((opt) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "custom-chip", children: opt }, opt)) })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-faq-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Questions & Answers" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently Asked Questions" })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "faq-list reveal reveal-delay-1", children: faqs2.map((faq, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
-        "div",
-        {
-          className: `faq-item ${openFaq === i ? "is-open" : ""}`,
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
-              "button",
-              {
-                className: "faq-question",
-                onClick: () => setOpenFaq(openFaq === i ? null : i),
-                "aria-expanded": openFaq === i,
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("span", { children: [
-                    "Q: ",
-                    faq.q
-                  ] }),
-                  /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "faq-toggle", "aria-hidden": "true", children: openFaq === i ? "\u2212" : "+" })
-                ]
-              }
-            ),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "faq-answer", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { children: faq.a }) })
-          ]
-        },
-        faq.q
-      )) })
-    ] }) }),
-    related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-related-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Explore More" }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Related Products" })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(import_react_router_dom8.Link, { to: "/products", className: "text-link", children: [
-          "View All",
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
-        ] })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "related-grid", children: related.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
-        import_react_router_dom8.Link,
-        {
-          to: `/products/${item.slug}`,
-          className: `related-card reveal reveal-delay-${i % 3 + 1}`,
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "related-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: item.image, alt: item.name, loading: "lazy", width: 1254, height: 1254 }) }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "related-card-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "related-category", children: item.category }),
-              /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "related-name", children: item.name }),
-              /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "related-desc", children: item.shortDesc }),
-              /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("span", { className: "related-link", children: [
-                "View Details ",
-                /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-link-arrow", children: "\u2192" })
-              ] })
-            ] })
-          ]
-        },
-        item.slug
-      )) })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section cta-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "cta-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("h2", { className: "section-title-lg", style: { color: "#fff" }, children: [
-        "Ready to customize",
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("br", {}),
-        "this for your brand?"
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "cta-text", children: "Share your specifications and we'll prepare a tailored proposal within one business day." }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-primary", children: "Start Your Project" })
-    ] }) }) })
-  ] });
-}
-
-// src/pages/Industries.tsx
-var import_react8 = require("react");
-var import_react_router_dom9 = require("react-router-dom");
-var import_jsx_runtime8 = require("react/jsx-runtime");
-var industryContent = {
-  Jewelry: {
-    desc: "From ring boxes to necklace cases, we craft packaging that protects and presents fine jewelry with the luxury it deserves.",
-    image: "/product-giftbox.webp",
-    highlights: [
-      "Ring, earring, necklace & bracelet boxes",
-      "Velvet, suede & leatherette interiors",
-      "Foil-stamped branding & embossing",
-      "Low MOQ for independent jewelers"
-    ]
-  },
-  "Eyewear & Sunglasses": {
-    desc: "Slim, structured cases and pouches designed to protect eyewear while communicating brand quality at every touchpoint.",
-    image: "/product-shoppingbag.webp",
-    highlights: [
-      "Rigid slide cases & folding cartons",
-      "Microfiber pouches & cloths",
-      "Custom-shaped foam inserts",
-      "Retail display-ready packaging"
-    ]
-  },
-  Fragrance: {
-    desc: "Rigid gift boxes and drawer-style cases that turn fragrance unboxing into a ritual of discovery.",
-    image: "/product-collection.webp",
-    highlights: [
-      "Drawer-style & magnetic closure boxes",
-      "Flocked velvet & satin inserts",
-      "Pantone-matched color systems",
-      "Coordinated gift sets"
-    ]
-  },
-  "Hair & Wig": {
-    desc: "Breathable textile packaging and structured boxes designed to protect and present hair products with care.",
-    image: "/product-textile.webp",
-    highlights: [
-      "Breathable cotton & linen pouches",
-      "Structured display boxes",
-      "Custom-sized for wig & extension products",
-      "Branded woven labels & tags"
-    ]
-  },
-  Beauty: {
-    desc: "From cream jars to makeup palettes, we design packaging that elevates beauty brands on shelf and in hand.",
-    image: "/product-giftbox.webp",
-    highlights: [
-      "Folding cartons & rigid boxes",
-      "Soft-touch & matte lamination finishes",
-      "Spot UV & foil stamp accents",
-      "Sustainable material options"
-    ]
-  },
-  Fashion: {
-    desc: "Luxury shopping bags, garment packaging, and branded accessories that extend your brand beyond the product.",
-    image: "/product-shoppingbag.webp",
-    highlights: [
-      "Heavyweight shopping bags with rope handles",
-      "Garment bags & dust covers",
-      "Branded ribbons & hang tags",
-      "Complete retail packaging systems"
-    ]
-  },
-  Gift: {
-    desc: "Coordinated gift packaging systems that make every unboxing a memorable brand experience.",
-    image: "/product-collection.webp",
-    highlights: [
-      "Complete gift set collections",
-      "Seasonal & limited-edition packaging",
-      "Custom tissue paper & ribbons",
-      "Corporate gifting solutions"
-    ]
-  }
-};
-function Industries() {
-  const [searchParams, setSearchParams] = (0, import_react_router_dom9.useSearchParams)();
-  const activeSector = searchParams.get("sector") || null;
-  const [selected, setSelected] = (0, import_react8.useState)(activeSector);
-  (0, import_react8.useEffect)(() => {
-    setSelected(activeSector);
-  }, [activeSector]);
-  const handleSelect = (ind) => {
-    setSelected(ind);
-    if (ind) {
-      setSearchParams({ sector: ind });
-    } else {
-      setSearchParams({});
-    }
-  };
-  const filteredProducts = selected ? products.filter(
-    (p) => p.industries.some(
-      (ind) => ind.toLowerCase() === selected.toLowerCase() || ind.toLowerCase().includes(selected.toLowerCase()) || selected.toLowerCase().includes(ind.toLowerCase())
-    )
-  ) : [];
-  return /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(import_jsx_runtime8.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("p", { className: "eyebrow reveal", children: "Industries" }),
-      /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
-        "Packaging for",
-        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("br", {}),
-        "Every Industry"
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "We serve brands across jewelry, beauty, fragrance, fashion, and more \u2014 with packaging tailored to each industry's unique demands." })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("section", { className: "filter-bar-wrapper", "aria-label": "Browse industries", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "filter-bar", children: industries.map((ind) => /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-      "button",
-      {
-        type: "button",
-        className: `filter-chip ${selected === ind ? "is-active" : ""}`,
-        onClick: () => handleSelect(selected === ind ? null : ind),
-        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { children: ind })
-      },
-      ind
-    )) }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("section", { className: "section industries-section", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industries-grid", children: industries.map((ind, i) => /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(
-        "button",
-        {
-          className: `industry-card reveal reveal-delay-${i % 4 + 1} ${selected === ind ? "is-active" : ""}`,
-          onClick: () => handleSelect(selected === ind ? null : ind),
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industry-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-              "img",
-              {
-                src: industryContent[ind].image,
-                alt: ind,
-                loading: "lazy",
-                width: 1408,
-                height: 768
-              }
-            ) }),
-            /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-card-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("h3", { className: "industry-name", children: ind }),
-              /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("p", { className: "industry-desc", children: industryContent[ind].desc })
-            ] })
-          ]
-        },
-        ind
-      )) }),
-      selected && /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-detail reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-detail-header", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("p", { className: "eyebrow", children: selected }),
-            /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: [
-              "Packaging Solutions for ",
-              selected
-            ] })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-            "button",
-            {
-              className: "btn-outline",
-              onClick: () => handleSelect(null),
-              children: "Show All Industries"
-            }
-          )
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industry-highlights", children: industryContent[selected].highlights.map((h) => /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-highlight-item", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "case-point-dot" }),
-          h
-        ] }, h)) }),
-        filteredProducts.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(import_jsx_runtime8.Fragment, { children: [
-          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("h3", { className: "industry-products-title", children: "Recommended Products" }),
-          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industry-products-grid", children: filteredProducts.map((product) => /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(
-            import_react_router_dom9.Link,
-            {
-              to: `/products/${product.slug}`,
-              className: "industry-product-card",
-              children: [
-                /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industry-product-image", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-                  "img",
-                  {
-                    src: product.image,
-                    alt: product.name,
-                    loading: "lazy",
-                    width: 1254,
-                    height: 1254
-                  }
-                ) }),
-                /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-product-body", children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "industry-product-category", children: product.category }),
-                  /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("h4", { className: "industry-product-name", children: product.name }),
-                  /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("span", { className: "industry-product-link", children: [
-                    "View Product ",
-                    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "product-link-arrow", children: "\u2192" })
-                  ] })
-                ] })
-              ]
-            },
-            product.slug
-          )) })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industry-cta", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(import_react_router_dom9.Link, { to: "/contact", className: "btn-primary", children: [
-          "Request a Quote for ",
-          selected
-        ] }) })
-      ] })
-    ] }) })
-  ] });
-}
-
-// src/pages/Solutions.tsx
-var import_react9 = require("react");
-var import_react_router_dom10 = require("react-router-dom");
-var import_jsx_runtime9 = require("react/jsx-runtime");
-var solutionContent = {
-  "Custom Packaging": {
-    title: "Custom Packaging",
-    desc: "From structure and inserts to finish and branding, we turn your idea into packaging that feels consistent with your brand.",
-    image: "/custom-options.webp",
-    points: [
-      {
-        title: "Structure Design",
-        desc: "Rigid boxes, folding cartons, drawer styles, magnetic closures, and custom structural designs engineered for your product."
-      },
-      {
-        title: "Insert Engineering",
-        desc: "EVA foam, velvet, satin, molded pulp, and custom-fit inserts designed to protect and present your product."
-      },
-      {
-        title: "Logo & Finish",
-        desc: "Hot foil stamping, embossing, debossing, spot UV, screen printing, and metallic finishes for premium brand expression."
-      },
-      {
-        title: "Color Systems",
-        desc: "Pantone-matched colors, custom gradients, monochrome palettes, and brand-specific color systems across all components."
-      }
-    ]
-  },
-  "Materials & Finishes": {
-    title: "Materials & Finishes",
-    desc: "Choose from premium materials and logo techniques that match your price point and brand image.",
-    image: "/about-materials.webp",
-    points: [
-      {
-        title: "Premium Papers & Board",
-        desc: "Rigid board, art paper, textured paper, and kraft materials. Certification documents available on request."
-      },
-      {
-        title: "Luxury Textiles",
-        desc: "Leatherette, velvet, suede, linen, genuine leather, and recycled textiles for interior and exterior wrapping."
-      },
-      {
-        title: "Surface Finishes",
-        desc: "Matte/gloss lamination, soft-touch, spot UV, textured coatings, and specialty finishes for tactile distinction."
-      },
-      {
-        title: "Branding Techniques",
-        desc: "Hot foil stamping, embossing, debossing, screen printing, digital printing, and metallic foil applications."
-      }
-    ]
-  },
-  "How It Works": {
-    title: "How It Works",
-    desc: "A clear process that helps you move from idea to sample, then to production with fewer revisions.",
-    image: "/about-factory.webp",
-    points: [
-      {
-        title: "1. Consultation",
-        desc: "Share your brand, product, and packaging goals. We assess needs, timeline, and budget parameters."
-      },
-      {
-        title: "2. Design & Sampling",
-        desc: "Our design studio creates structural and visual concepts. We produce physical samples for your approval."
-      },
-      {
-        title: "3. Production",
-        desc: "Once samples are approved, we move to mass production with rigorous QC protocols at every stage."
-      },
-      {
-        title: "4. Delivery",
-        desc: "Quality-checked products are packed and shipped with reliable lead times to Europe and North America."
-      }
-    ]
-  },
-  Sustainability: {
-    title: "Sustainability",
-    desc: "Sustainability should support your brand, not weaken it. We offer responsible packaging without losing presentation value.",
-    image: "/news-eco.webp",
-    points: [
-      {
-        title: "Eco-Friendly Materials",
-        desc: "Recycled kraft paper, natural cotton, and linen options. Certification documents available on request."
-      },
-      {
-        title: "Recyclable Structures",
-        desc: "Packaging structures designed to be recyclable where local facilities allow."
-      },
-      {
-        title: "Reusable Structures",
-        desc: "Packaging designed to be kept and reused \u2014 from linen wraps to keepsake boxes that extend product lifecycle."
-      },
-      {
-        title: "Responsible Sourcing",
-        desc: "We work with suppliers who can provide material documentation and certifications upon request."
-      }
-    ]
-  }
-};
-function Solutions() {
-  const [searchParams, setSearchParams] = (0, import_react_router_dom10.useSearchParams)();
-  const activeTopic = searchParams.get("topic") || null;
-  const [selected, setSelected] = (0, import_react9.useState)(activeTopic);
-  (0, import_react9.useEffect)(() => {
-    setSelected(activeTopic);
-  }, [activeTopic]);
-  const handleSelect = (sol) => {
-    setSelected(sol);
-    if (sol) {
-      setSearchParams({ topic: sol });
-    } else {
-      setSearchParams({});
-    }
-  };
-  return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(import_jsx_runtime9.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "eyebrow reveal", children: "Solutions" }),
-      /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
-        "Packaging",
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("br", {}),
-        "Solutions"
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "From custom packaging design to sustainable materials \u2014 explore the services and capabilities that power your brand's packaging." })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("section", { className: "section solutions-section", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solutions-grid", children: solutions.map((sol, i) => /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(
-        "button",
-        {
-          className: `solution-card reveal reveal-delay-${i % 4 + 1} ${selected === sol ? "is-active" : ""}`,
-          onClick: () => handleSelect(selected === sol ? null : sol),
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solution-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
-              "img",
-              {
-                src: solutionContent[sol].image,
-                alt: sol,
-                loading: "lazy",
-                width: 1408,
-                height: 768
-              }
-            ) }),
-            /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "solution-card-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("h3", { className: "solution-name", children: sol }),
-              /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "solution-desc", children: solutionContent[sol].desc }),
-              /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("span", { className: "solution-link", children: [
-                selected === sol ? "Show All" : "Learn More",
-                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("span", { className: "product-link-arrow", children: "\u2192" })
-              ] })
-            ] })
-          ]
-        },
-        sol
-      )) }),
-      selected && /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "solution-detail reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "solution-detail-header", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "eyebrow", children: selected }),
-            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: solutionContent[selected].title })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
-            "button",
-            {
-              className: "btn-outline",
-              onClick: () => handleSelect(null),
-              children: "Show All Solutions"
-            }
-          )
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solution-detail-image", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
-          "img",
-          {
-            src: solutionContent[selected].image,
-            alt: selected,
-            loading: "lazy",
-            width: 1408,
-            height: 768
-          }
-        ) }),
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solution-points-grid", children: solutionContent[selected].points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "solution-point-card", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("h4", { className: "solution-point-title", children: point.title }),
-          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "solution-point-desc", children: point.desc })
-        ] }, point.title)) }),
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solution-cta", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(import_react_router_dom10.Link, { to: "/contact", className: "btn-primary", children: "Get Started" }) })
-      ] })
-    ] }) })
-  ] });
-}
-
-// src/pages/About.tsx
-var import_react10 = require("react");
-var import_react_router_dom11 = require("react-router-dom");
-var import_jsx_runtime10 = require("react/jsx-runtime");
-var milestones = [
-  { year: "2018", title: "Founded", desc: "ELAPACK established as a custom packaging manufacturer for jewelry, eyewear, and gift brands." },
-  { year: "Today", title: "3 Production Lines", desc: "Three dedicated production lines for textile bags, rigid boxes, and custom gift sets." },
-  { year: "Today", title: "ISO 9001 Certified", desc: "Quality management system certified for the production and sales of paper and textile packaging products." },
-  { year: "Today", title: "Serving EU & US Brands", desc: "Exporting to mid-to-high-end brands across Europe and North America, with air and sea freight delivery." }
-];
-var values = [
-  {
-    title: "Restraint",
-    desc: "We design with intention, not excess. Every element earns its place."
-  },
-  {
-    title: "Craft",
-    desc: "We honor the hands that make. Precision is our baseline, not our ceiling."
-  },
-  {
-    title: "Partnership",
-    desc: "We invest in your brand as if it were our own. Your success is our measure."
-  },
-  {
-    title: "Responsibility",
-    desc: "We source ethically and design for longevity. Luxury should not cost the earth."
-  }
-];
-var markets = [
-  "Jewelry & Watches",
-  "Eyewear",
-  "Beauty & Cosmetics",
-  "Fragrance",
-  "Gifting",
-  "Fashion & Apparel"
-];
-function About() {
-  const videoRef = (0, import_react10.useRef)(null);
-  const videoWrapperRef = (0, import_react10.useRef)(null);
-  const togglePlay = () => {
-    const video = videoRef.current;
-    if (!video) return;
-    if (video.paused) {
-      void video.play();
-    } else {
-      video.pause();
-    }
-  };
-  const markPlaying = (playing) => {
-    videoWrapperRef.current?.classList.toggle("is-playing", playing);
-  };
-  return /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(import_jsx_runtime10.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "page-header page-header-alt", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow reveal", children: "About Us" }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
-        "Packaging",
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("br", {}),
-        "Aesthetics Builders"
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "A trade-and-manufacturing integrated enterprise, deeply rooted in the European and American markets \u2014 crafting packaging that elevates brands." })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-story", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "about-story-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "about-story-image reveal", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
-        "img",
-        {
-          src: "/about-factory.webp",
-          alt: "ELAPACK production facility",
-          loading: "lazy",
-          width: 1408,
-          height: 768
-        }
-      ) }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "about-story-text reveal reveal-delay-2", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Our Story" }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "From workshop to global partner." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Since 2018, ELAPACK has believed that packaging is not a container, but a brand's first handshake. We have grown into a full-service packaging partner for luxury brands across Europe and North America." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Today, our integrated model spans creative design, precision manufacturing across three production lines, and global logistics \u2014 serving clients from independent ateliers to established brands. ELAPACK is operated by Wuxi Magic Packaging Co., Ltd (est. 2018), with our factory located in Wuxi, Jiangsu, China." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We hold a rigorous quality management system and a sharp understanding of international markets. We are not just a producer \u2014 we are your brand strategy partner, committed to translating your design vision into tangible, market-ready art." })
-      ] })
-    ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-video-section", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
-      "div",
-      {
-        ref: videoWrapperRef,
-        className: "about-video-wrapper reveal",
-        onClick: togglePlay,
-        role: "button",
-        tabIndex: 0,
-        "aria-label": "Play or pause the factory video",
-        onKeyDown: (e) => {
-          if (e.key === "Enter" || e.key === " ") {
-            e.preventDefault();
-            togglePlay();
-          }
-        },
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
-            "video",
-            {
-              ref: videoRef,
-              className: "about-video-poster",
-              poster: "/factory-video-poster.webp",
-              preload: "none",
-              playsInline: true,
-              onPlay: () => markPlaying(true),
-              onPause: () => markPlaying(false),
-              onEnded: () => markPlaying(false),
-              children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("source", { src: "/videos/factory-tour.mp4", type: "video/mp4" })
-            }
-          ),
-          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "about-video-overlay" }),
-          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "about-video-play", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("svg", { viewBox: "0 0 80 80", className: "play-icon", "aria-hidden": "true", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("circle", { cx: "40", cy: "40", r: "39", fill: "none", stroke: "currentColor", strokeWidth: "1" }),
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("path", { d: "M32 26 L54 40 L32 54 Z", fill: "currentColor" })
-          ] }) }),
-          /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "about-video-caption", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", style: { color: "rgba(255,255,255,0.7)" }, children: "Inside Our Factory" }),
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "about-video-title", children: "See How Premium Packaging Is Made" }),
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-video-subtitle", children: "Take a virtual tour of our production facility \u2014 from material selection to precision assembly." })
-          ] })
-        ]
-      }
-    ) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-values", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "What We Believe" }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "The Principles Behind Every Piece" })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "values-grid", children: values.map((val, i) => /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
-        "div",
-        {
-          className: `value-card reveal reveal-delay-${i % 4 + 1}`,
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h3", { className: "value-title", children: val.title }),
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "value-desc", children: val.desc })
-          ]
-        },
-        val.title
-      )) })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-materials", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "materials-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "materials-content reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Material Options" }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "Sourced with intention." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We work with a curated range of premium materials \u2014 velvet, suede, linen, cotton, satin, and rigid paperboard \u2014 and offer eco-friendly options such as recycled kraft and natural textiles. Certification documents are available on request." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Because the world's finest brands demand materials that feel as good as they look \u2014 and perform as well as they promise." })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "materials-image reveal reveal-delay-2", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
-        "img",
-        {
-          src: "/about-materials.webp",
-          alt: "Premium packaging materials",
-          loading: "lazy",
-          width: 1408,
-          height: 768
-        }
-      ) })
-    ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-timeline", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Our Journey" }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Our Journey Since 2018" })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "timeline", children: milestones.map((m, i) => /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
-        "div",
-        {
-          className: `timeline-item reveal reveal-delay-${i % 4 + 1}`,
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "timeline-marker", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("span", { className: "timeline-year", children: m.year }),
-              /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "timeline-dot" })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "timeline-content", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h3", { className: "timeline-title", children: m.title }),
-              /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "timeline-desc", children: m.desc })
-            ] })
-          ]
-        },
-        m.year
-      )) })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-markets", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Who We Serve" }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Industries We Elevate" }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "markets-list", children: markets.map((market) => /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("span", { className: "market-tag", children: market }, market)) }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "markets-note", children: "Our primary clients are mid-to-high-end brands and enterprises that value brand image, packaging quality, and supply chain stability \u2014 especially those serving European and American markets." }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(import_react_router_dom11.Link, { to: "/contact", className: "btn-primary", children: "Partner With Us" })
-    ] }) }) })
-  ] });
-}
-
-// src/pages/News.tsx
-var import_react_router_dom12 = require("react-router-dom");
 
 // src/data/articles.ts
 var articles = [
@@ -4506,7 +3576,1071 @@ function getArticleBySlug(slug) {
   return articles.find((a) => a.slug === slug);
 }
 
+// src/data/categoryCopy.ts
+var boxesCopy = {
+  noun: "boxes",
+  importanceTitle: "The Importance of Custom Boxes in Your Brand Experience",
+  importanceIntro: "A box is the first physical touch a customer has with your product, and a well-built rigid box does three jobs at once \u2014 quietly:",
+  benefits: [
+    {
+      title: "An Unboxing Customers Remember",
+      desc: "Weight, structure and finish are read in seconds. A considered box signals a considered product before it is even opened."
+    },
+    {
+      title: "Protection and Preservation",
+      desc: "Rigid board construction with tailored inserts keeps each piece stable in transit and in store \u2014 no shifting, no scratches, no damaged stock."
+    },
+    {
+      title: "Subtle Branding Opportunity",
+      desc: "Embossing, foil stamping and color-matched linings carry your identity without a word, and reinforce it every time the box is opened."
+    }
+  ],
+  customizeTitle: "Customize Your Boxes",
+  customizeParas: [
+    "At ELAPACK, every element of a custom box is specified around your product: exterior material, interior lining, insert layout, closure and surface finish. If none of our standard configurations fits, we build the structure from scratch.",
+    "You can always request a fully custom project in line with your brand: we will propose the right board, lining and printing method to match your product and your budget.",
+    "Whether it is a specific Pantone tone, a foil accent, or an insert with exact cavity positions for your pieces, we are dedicated to crafting a box that reflects your brand \u2014 with your logo and graphics placed exactly where they belong."
+  ],
+  customizeCta: "Customize Your Boxes",
+  faqMaterials: {
+    q: "What materials are available for custom boxes?",
+    a: "Exteriors in velvet, leatherette, satin, wood, MDF and genuine leather; interiors in velvet, satin, suede, microfiber or flocked fabric; inserts in foam, EVA, molded plastic or recycled paper. Finishes include matte, glossy, debossed, foil stamping and spot UV."
+  },
+  faqSizes: {
+    q: "Can I customize the size and structure of the boxes?",
+    a: "Absolutely. Boxes are built to your product dimensions \u2014 lid-and-base, flip-top, sleeve-drawer and bespoke structures. Insert cavities are cut to hold each piece exactly, and fully custom dimensions are welcome."
+  },
+  faqClosures: {
+    q: "What closure types are available for the boxes?",
+    a: "Magnetic flip-top, snap, tuck flap, ribbon tie and drawer constructions. Closures can be combined \u2014 for example a magnetic lid with a ribbon pull \u2014 and all hardware is color-matched to your brand."
+  }
+};
+var pouchesCopy = {
+  noun: "pouches and bags",
+  importanceTitle: "The Importance of Custom Pouches and Bags in Your Brand Experience",
+  importanceIntro: "In competitive retail, every detail contributes to the customer experience, and a well-made pouch or bag carries that experience beyond the store. Thoughtfully designed packaging offers several key benefits for brands:",
+  benefits: [
+    {
+      title: "Elevating Customer Experience",
+      desc: "When customers receive their purchase in a plush, well-finished pouch, it enhances the overall experience and makes them feel they are acquiring something truly special."
+    },
+    {
+      title: "Protection and Preservation",
+      desc: "Soft textile and durable paper constructions shield delicate and valuable pieces from scratches, dust and damage, keeping the product pristine until it reaches the customer's hands."
+    },
+    {
+      title: "Subtle Branding Opportunity",
+      desc: "A pouch or bag serves as a discreet branding tool. Your logo or design reinforces brand identity at every use and creates a lasting impression on customers."
+    }
+  ],
+  customizeTitle: "Customize Your Bags & Pouches",
+  customizeParas: [
+    "At ELAPACK, we understand the importance of tailoring every detail to suit your unique style and preferences. If you don't find a compelling solution among the ones proposed, we also offer the possibility of 100% customized pouches and bags wholesale.",
+    "You can always request a highly customized project in line with your style and wishes: we will be happy to find you the right solution to satisfy your needs and your customers' preferences.",
+    "Whether it's a specific color, texture, or design, we're dedicated to crafting solutions that exceed your expectations and resonate with your customers' preferences. Moreover, you can add your logo and your graphics, creating packaging that totally reflects your brand and its characteristics."
+  ],
+  customizeCta: "Customize Your Pouches",
+  faqMaterials: {
+    q: "What materials are available for custom pouches?",
+    a: "We offer high-quality silk, cotton, velvet, linen, and satin. Each material can be customized with various finishes such as matte, glossy, or textured to match your brand aesthetic."
+  },
+  faqSizes: {
+    q: "Can I customize the size and shape of the pouches?",
+    a: "Absolutely. We offer standard sizes like 6x8 inches and 4x6 inches, plus fully custom dimensions. Shapes include classic drawstring, flat bottom, zip-top, and bespoke structural designs."
+  },
+  faqClosures: {
+    q: "What types of closures are available for the pouches?",
+    a: "We offer drawstring cord, zip-top, magnetic snap, button closure, and ribbon tie closures. Cord materials include silk, cotton, satin, and leather, all color-matched to your brand."
+  }
+};
+var setsCopy = {
+  noun: "sets",
+  importanceTitle: "The Importance of Coordinated Packaging Sets in Your Brand Experience",
+  importanceIntro: "A collection of boxes, pouches and bags designed as one system tells customers the brand thinks in systems. Coordinated sets offer several key benefits:",
+  benefits: [
+    {
+      title: "One Consistent Brand Voice",
+      desc: "Matching materials, colors and finishes across every touchpoint \u2014 from retail display to gift wrap \u2014 so the brand reads the same everywhere it is met."
+    },
+    {
+      title: "Retail-Ready Presentation",
+      desc: "Display stands, boxes and pouches sized to work together present the collection as intended, in the showcase and in the unboxing alike."
+    },
+    {
+      title: "One Supplier, One Standard",
+      desc: "A complete set from a single production partner means one quality standard, one timeline and one point of contact for the whole collection."
+    }
+  ],
+  customizeTitle: "Customize Your Packaging Set",
+  customizeParas: [
+    "At ELAPACK, a set is designed as one project: box, pouch, bag and display elements share a material and color story specified around your brand.",
+    "You can request a fully coordinated collection \u2014 or start with one element and expand. We will propose the right combination of structures and textiles to match your products and budget.",
+    "Whether it is a specific Pantone tone carried from rigid box to velvet pouch, or a logo placed consistently across every piece, the set is crafted to reflect your brand at each touchpoint."
+  ],
+  customizeCta: "Customize Your Set",
+  faqMaterials: {
+    q: "What materials are available for packaging sets?",
+    a: "Sets combine our box and textile lines: rigid exteriors in velvet, leatherette, satin or MDF with velvet, satin or suede linings, paired with color-matched fabric pouches, bags and display pieces."
+  },
+  faqSizes: {
+    q: "Can I customize the sizes across the set?",
+    a: "Yes. Each element is sized to your product \u2014 box cavity, pouch dimensions and bag capacity are specified together so the collection works as one system."
+  },
+  faqClosures: {
+    q: "What closure options are available across a set?",
+    a: "Closures span both lines \u2014 magnetic flip-top or drawer boxes, drawstring or zip pouches, ribbon ties \u2014 coordinated so every opening gesture feels consistent."
+  }
+};
+var neutralCopy = {
+  noun: "products",
+  importanceTitle: "The Importance of Custom Packaging in Your Brand Experience",
+  importanceIntro: "Custom packaging is the first physical touch a customer has with your brand, and well-designed packaging works hard for it:",
+  benefits: [
+    {
+      title: "Elevating Customer Experience",
+      desc: "Packaging that fits the product and the brand makes every purchase feel considered and complete."
+    },
+    {
+      title: "Protection and Preservation",
+      desc: "The right material and structure shield the product from scratches, dust and damage until it reaches the customer's hands."
+    },
+    {
+      title: "Subtle Branding Opportunity",
+      desc: "Your logo and design, placed on packaging the customer keeps, reinforce brand identity long after the sale."
+    }
+  ],
+  customizeTitle: "Customize Your Packaging",
+  customizeParas: [
+    "At ELAPACK, every element of your packaging is specified around your product and brand \u2014 materials, structure, finish and print.",
+    "You can always request a fully custom project in line with your style and wishes: we will propose the right solution for your needs and budget.",
+    "Whether it's a specific color, texture, or design, we're dedicated to crafting packaging that reflects your brand \u2014 with your logo and graphics placed exactly where they belong."
+  ],
+  customizeCta: "Customize Your Packaging",
+  faqMaterials: {
+    q: "What materials are available for custom packaging?",
+    a: "Our lines cover rigid box exteriors with velvet, satin or suede linings, textile pouches in silk, cotton, velvet, linen and satin, and paper bags in recycled kraft \u2014 each customizable with matte, glossy or textured finishes."
+  },
+  faqSizes: {
+    q: "Can I customize the size and shape of my packaging?",
+    a: "Absolutely. Standard sizes and fully custom dimensions are both available, with structures and shapes built around your product."
+  },
+  faqClosures: {
+    q: "What closure options are available?",
+    a: "Drawstring cord, zip-top, magnetic flip-top, snap, button and ribbon tie closures \u2014 all color-matched to your brand."
+  }
+};
+var categoryCopy = {
+  Boxes: boxesCopy,
+  "Pouches & Bags": pouchesCopy,
+  "Sets & Complete Packaging": setsCopy
+};
+var ECO_FAQ_ANSWER = "We offer eco-friendly material options including recycled kraft paper, natural cotton, and linen. Certification documents are available on request.";
+function faqsFor(category) {
+  const c = categoryCopy[category] ?? neutralCopy;
+  return [
+    c.faqMaterials,
+    c.faqSizes,
+    c.faqClosures,
+    {
+      q: "Do I need to provide a dieline for custom packaging?",
+      a: "No. We draw the dieline to your confirmed product dimensions free of charge at the quotation stage, and custom samples are built to it. Files are supplied as PDF, AI or DXF. If you already have a vector dieline, we accept it and verify it with our die-making team before production; cutting-die tooling, where a new die is required, is quoted at USD 50\u2013100 depending on the product."
+    },
+    { q: `Are the ${c.noun} eco-friendly?`, a: ECO_FAQ_ANSWER },
+    {
+      q: "How long does the production process take?",
+      a: "Typical production time is 15\u201320 days after sample approval. Shipping is by air or by sea from Shanghai or Shenzhen."
+    },
+    {
+      q: "Can I see a sample before placing a full order?",
+      a: "Yes. Free stock samples ship in 2\u20133 days. Custom printed samples cost USD 25 plus USD 20 shipping (USD 45 total), are made in 3\u20135 days, and sample delivery takes 4\u20137 days."
+    },
+    {
+      q: "What payment methods do you accept?",
+      a: "We accept T/T (bank transfer) and PayPal."
+    }
+  ];
+}
+
+// src/pages/ProductDetail.tsx
+var import_jsx_runtime7 = require("react/jsx-runtime");
+var trustBadges = [
+  { icon: "M", label: "Custom Pantone Matching" },
+  { icon: "C", label: "100% Customization" },
+  { icon: "D", label: "Design & Samples" },
+  { icon: "M", label: "Low MOQ From 200 pcs" }
+];
+var processSteps = [
+  { step: "01", title: "Establish Contact" },
+  { step: "02", title: "Communicate OEM & ODM Requirements" },
+  { step: "03", title: "Quotation" },
+  { step: "04", title: "Customized Samples" },
+  { step: "05", title: "Printing & Surface Treatment" },
+  { step: "06", title: "Confirm Order" },
+  { step: "07", title: "Make Payment" },
+  { step: "08", title: "Mass Production" },
+  { step: "09", title: "Quality Inspection & Shipment" }
+];
+function ProductDetail() {
+  const { slug } = (0, import_react_router_dom8.useParams)();
+  const product = slug ? getProductBySlug(slug) : void 0;
+  const [openFaq, setOpenFaq] = (0, import_react7.useState)(0);
+  const [activeImg, setActiveImg] = (0, import_react7.useState)(0);
+  const galleryImgs = product?.gallery?.length ? product.gallery : product ? [product.image] : [];
+  if (!product) {
+    return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
+      "section",
+      {
+        className: "section",
+        style: {
+          textAlign: "center",
+          paddingTop: "calc(var(--header-height) + 6rem)"
+        },
+        children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h1", { className: "section-title", children: "Product not found" }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "text-soft", style: { margin: "1rem 0 2rem" }, children: "The product you're looking for doesn't exist or has been moved." }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/products", className: "btn-primary", children: "Back to Products" })
+        ] })
+      }
+    );
+  }
+  const related = products.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4);
+  const copy = categoryCopy[product.category] ?? neutralCopy;
+  const faqs2 = faqsFor(product.category);
+  const guides = (productGuides[product.slug] ?? []).map((s) => getArticleBySlug(s)).filter((a) => a !== void 0);
+  return /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(import_jsx_runtime7.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "breadcrumb-bar", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("nav", { className: "breadcrumb", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/", children: "Home" }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "breadcrumb-sep", children: "/" }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/products", children: "Products" }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "breadcrumb-sep", children: "/" }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "breadcrumb-current", children: product.name })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "product-detail-hero", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-gallery reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-gallery-main", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: galleryImgs[activeImg] ?? product.image, alt: product.name, width: 1254, height: 1254 }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-detail-category", children: product.category })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-gallery-thumbs", children: galleryImgs.map((img, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
+          "div",
+          {
+            className: `product-gallery-thumb ${i === activeImg ? "is-active" : ""}`,
+            onClick: () => setActiveImg(i),
+            role: "button",
+            "aria-label": `View photo ${i + 1}`,
+            children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: img, alt: ` view `, loading: "lazy", width: 1254, height: 1254 })
+          },
+          i
+        )) })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-info reveal reveal-delay-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h1", { className: "product-detail-title", children: product.name }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-detail-desc", children: product.description }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-quote", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-quote-title", children: "Get A Custom Quote:" }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-quote-actions", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-primary", children: "Request a Quote" }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-outline", children: "Contact Us" })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-trust-badges", children: trustBadges.map((badge) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-trust-badge", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-trust-icon", children: badge.icon }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-trust-label", children: badge.label })
+        ] }, badge.label)) }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-meta", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "detail-meta-item", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-label", children: "Materials" }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-value", children: product.materials })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "detail-meta-item", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-label", children: "Minimum Order" }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-value", children: product.moq })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "detail-meta-item", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-label", children: "Lead Time" }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-value", children: product.leadTime })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-industries", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "detail-meta-label", children: "Industries" }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "industry-tags", children: product.industries.map((ind) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "industry-tag", children: ind }, ind)) })
+        ] })
+      ] })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-specs-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-specs-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-specs-intro reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Technical Details" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "Specifications" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-specs-text", children: "Every dimension, material, and finish is fully customizable to your brand's exact requirements. Below are our standard configurations \u2014 contact us to discuss custom specifications." }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-primary", children: "Discuss Your Project" })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-specs-table reveal reveal-delay-2", children: product.specs.map((spec) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "spec-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "spec-label", children: spec.label }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "spec-value", children: spec.value })
+      ] }, spec.label)) })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-description-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-description-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Product Description" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", style: { marginTop: "1rem" }, children: product.description })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-description-image reveal reveal-delay-2", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
+        "img",
+        {
+          src: "/product-collection.webp",
+          alt: `${product.name} showcase`,
+          loading: "lazy",
+          width: 1408,
+          height: 768
+        }
+      ) })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-importance-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: copy.importanceTitle }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", style: { maxWidth: "760px", margin: "1.5rem auto 0" }, children: copy.importanceIntro })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-benefits-grid", children: copy.benefits.map((benefit, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
+        "div",
+        {
+          className: `product-benefit-card reveal ${i === 1 ? "reveal-delay-2" : i === 2 ? "reveal-delay-3" : ""}`,
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-benefit-num", children: String(i + 1).padStart(2, "0") }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-benefit-title", children: benefit.title }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-benefit-desc", children: benefit.desc })
+          ]
+        },
+        benefit.title
+      )) })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-customize-bags-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-customize-bags-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-customize-bags-image reveal", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
+        "img",
+        {
+          src: "/custom-options.webp",
+          alt: `Customize your ${copy.noun}`,
+          loading: "lazy",
+          width: 1408,
+          height: 768
+        }
+      ) }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-customize-bags-content reveal reveal-delay-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "100% Customization" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: copy.customizeTitle }),
+        copy.customizeParas.map((para) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", children: para }, para.slice(0, 24))),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-primary", style: { marginTop: "0.5rem" }, children: copy.customizeCta })
+      ] })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-features-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Key Features" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Engineered for Excellence" })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-features-grid", children: product.features.map((feature, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
+        "div",
+        {
+          className: `product-feature-card reveal reveal-delay-${i % 4 + 1}`,
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-feature-num", children: String(i + 1).padStart(2, "0") }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-feature-title", children: feature.title }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-feature-desc", children: feature.desc })
+          ]
+        },
+        feature.title
+      )) })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-process-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "How We Work" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Customization Process" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "section-subtitle", children: "Our professional customization team meets 100% of customer needs \u2014 from initial contact to quality inspection before shipment." })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-process-grid", children: processSteps.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
+        "div",
+        {
+          className: `product-process-step reveal reveal-delay-${i % 4 + 1}`,
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-process-num", children: step.step }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-process-title", children: step.title })
+          ]
+        },
+        step.step
+      )) })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-custom-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Make It Yours" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Customization Options" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "section-subtitle", children: "Every element of this product can be tailored to your brand. Here are the most common customization paths." })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "custom-options-chips reveal reveal-delay-2", children: product.customizationOptions.map((opt) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "custom-chip", children: opt }, opt)) })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-faq-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Questions & Answers" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently Asked Questions" })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "faq-list reveal reveal-delay-1", children: faqs2.map((faq, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
+        "div",
+        {
+          className: `faq-item ${openFaq === i ? "is-open" : ""}`,
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
+              "button",
+              {
+                className: "faq-question",
+                onClick: () => setOpenFaq(openFaq === i ? null : i),
+                "aria-expanded": openFaq === i,
+                children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("span", { children: [
+                    "Q: ",
+                    faq.q
+                  ] }),
+                  /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "faq-toggle", "aria-hidden": "true", children: openFaq === i ? "\u2212" : "+" })
+                ]
+              }
+            ),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "faq-answer", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { children: faq.a }) })
+          ]
+        },
+        faq.q
+      )) })
+    ] }) }),
+    related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-related-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Explore More" }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Related Products" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(import_react_router_dom8.Link, { to: "/products", className: "text-link", children: [
+          "View All",
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+        ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "related-grid", children: related.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
+        import_react_router_dom8.Link,
+        {
+          to: `/products/${item.slug}`,
+          className: `related-card reveal reveal-delay-${i % 3 + 1}`,
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "related-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: item.image, alt: item.name, loading: "lazy", width: 1254, height: 1254 }) }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "related-card-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "related-category", children: item.category }),
+              /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "related-name", children: item.name }),
+              /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "related-desc", children: item.shortDesc }),
+              /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("span", { className: "related-link", children: [
+                "View Details ",
+                /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-link-arrow", children: "\u2192" })
+              ] })
+            ] })
+          ]
+        },
+        item.slug
+      )) })
+    ] }) }),
+    guides.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Sourcing guides" }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "spec-list", children: guides.map((guide) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: `/news/${guide.slug}`, className: "text-link", children: guide.title }),
+        " \u2014 ",
+        guide.excerpt
+      ] }, guide.slug)) })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section cta-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "cta-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("h2", { className: "section-title-lg", style: { color: "#fff" }, children: [
+        "Ready to customize",
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("br", {}),
+        "this for your brand?"
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "cta-text", children: "Share your specifications and we'll prepare a tailored proposal within one business day." }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact", className: "btn-primary", children: "Start Your Project" })
+    ] }) }) })
+  ] });
+}
+
+// src/pages/Industries.tsx
+var import_react8 = require("react");
+var import_react_router_dom9 = require("react-router-dom");
+var import_jsx_runtime8 = require("react/jsx-runtime");
+var industryContent = {
+  Jewelry: {
+    desc: "From ring boxes to necklace cases, we craft packaging that protects and presents fine jewelry with the luxury it deserves.",
+    image: "/product-giftbox.webp",
+    highlights: [
+      "Ring, earring, necklace & bracelet boxes",
+      "Velvet, suede & leatherette interiors",
+      "Foil-stamped branding & embossing",
+      "Low MOQ for independent jewelers"
+    ]
+  },
+  "Eyewear & Sunglasses": {
+    desc: "Slim, structured cases and pouches designed to protect eyewear while communicating brand quality at every touchpoint.",
+    image: "/product-shoppingbag.webp",
+    highlights: [
+      "Rigid slide cases & folding cartons",
+      "Microfiber pouches & cloths",
+      "Custom-shaped foam inserts",
+      "Retail display-ready packaging"
+    ]
+  },
+  Fragrance: {
+    desc: "Rigid gift boxes and drawer-style cases that turn fragrance unboxing into a ritual of discovery.",
+    image: "/product-collection.webp",
+    highlights: [
+      "Drawer-style & magnetic closure boxes",
+      "Flocked velvet & satin inserts",
+      "Pantone-matched color systems",
+      "Coordinated gift sets"
+    ]
+  },
+  "Hair & Wig": {
+    desc: "Breathable textile packaging and structured boxes designed to protect and present hair products with care.",
+    image: "/product-textile.webp",
+    highlights: [
+      "Breathable cotton & linen pouches",
+      "Structured display boxes",
+      "Custom-sized for wig & extension products",
+      "Branded woven labels & tags"
+    ]
+  },
+  Beauty: {
+    desc: "From cream jars to makeup palettes, we design packaging that elevates beauty brands on shelf and in hand.",
+    image: "/product-giftbox.webp",
+    highlights: [
+      "Folding cartons & rigid boxes",
+      "Soft-touch & matte lamination finishes",
+      "Spot UV & foil stamp accents",
+      "Sustainable material options"
+    ]
+  },
+  Fashion: {
+    desc: "Luxury shopping bags, garment packaging, and branded accessories that extend your brand beyond the product.",
+    image: "/product-shoppingbag.webp",
+    highlights: [
+      "Heavyweight shopping bags with rope handles",
+      "Garment bags & dust covers",
+      "Branded ribbons & hang tags",
+      "Complete retail packaging systems"
+    ]
+  },
+  Gift: {
+    desc: "Coordinated gift packaging systems that make every unboxing a memorable brand experience.",
+    image: "/product-collection.webp",
+    highlights: [
+      "Complete gift set collections",
+      "Seasonal & limited-edition packaging",
+      "Custom tissue paper & ribbons",
+      "Corporate gifting solutions"
+    ]
+  }
+};
+function Industries() {
+  const [searchParams, setSearchParams] = (0, import_react_router_dom9.useSearchParams)();
+  const activeSector = searchParams.get("sector") || null;
+  const [selected, setSelected] = (0, import_react8.useState)(activeSector);
+  (0, import_react8.useEffect)(() => {
+    setSelected(activeSector);
+  }, [activeSector]);
+  const handleSelect = (ind) => {
+    setSelected(ind);
+    if (ind) {
+      setSearchParams({ sector: ind });
+    } else {
+      setSearchParams({});
+    }
+  };
+  const filteredProducts = selected ? products.filter(
+    (p) => p.industries.some(
+      (ind) => ind.toLowerCase() === selected.toLowerCase() || ind.toLowerCase().includes(selected.toLowerCase()) || selected.toLowerCase().includes(ind.toLowerCase())
+    )
+  ) : [];
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(import_jsx_runtime8.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("p", { className: "eyebrow reveal", children: "Industries" }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
+        "Packaging for",
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("br", {}),
+        "Every Industry"
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "We serve brands across jewelry, beauty, fragrance, fashion, and more \u2014 with packaging tailored to each industry's unique demands." })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("section", { className: "filter-bar-wrapper", "aria-label": "Browse industries", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "filter-bar", children: industries.map((ind) => /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
+      "button",
+      {
+        type: "button",
+        className: `filter-chip ${selected === ind ? "is-active" : ""}`,
+        onClick: () => handleSelect(selected === ind ? null : ind),
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { children: ind })
+      },
+      ind
+    )) }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("section", { className: "section industries-section", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industries-grid", children: industries.map((ind, i) => /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(
+        "button",
+        {
+          className: `industry-card reveal reveal-delay-${i % 4 + 1} ${selected === ind ? "is-active" : ""}`,
+          onClick: () => handleSelect(selected === ind ? null : ind),
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industry-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
+              "img",
+              {
+                src: industryContent[ind].image,
+                alt: ind,
+                loading: "lazy",
+                width: 1408,
+                height: 768
+              }
+            ) }),
+            /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-card-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("h3", { className: "industry-name", children: ind }),
+              /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("p", { className: "industry-desc", children: industryContent[ind].desc })
+            ] })
+          ]
+        },
+        ind
+      )) }),
+      selected && /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-detail reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-detail-header", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("p", { className: "eyebrow", children: selected }),
+            /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: [
+              "Packaging Solutions for ",
+              selected
+            ] })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
+            "button",
+            {
+              className: "btn-outline",
+              onClick: () => handleSelect(null),
+              children: "Show All Industries"
+            }
+          )
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industry-highlights", children: industryContent[selected].highlights.map((h) => /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-highlight-item", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "case-point-dot" }),
+          h
+        ] }, h)) }),
+        filteredProducts.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(import_jsx_runtime8.Fragment, { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("h3", { className: "industry-products-title", children: "Recommended Products" }),
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industry-products-grid", children: filteredProducts.map((product) => /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(
+            import_react_router_dom9.Link,
+            {
+              to: `/products/${product.slug}`,
+              className: "industry-product-card",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industry-product-image", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
+                  "img",
+                  {
+                    src: product.image,
+                    alt: product.name,
+                    loading: "lazy",
+                    width: 1254,
+                    height: 1254
+                  }
+                ) }),
+                /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-product-body", children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "industry-product-category", children: product.category }),
+                  /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("h4", { className: "industry-product-name", children: product.name }),
+                  /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("span", { className: "industry-product-link", children: [
+                    "View Product ",
+                    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "product-link-arrow", children: "\u2192" })
+                  ] })
+                ] })
+              ]
+            },
+            product.slug
+          )) })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "industry-cta", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(import_react_router_dom9.Link, { to: "/contact", className: "btn-primary", children: [
+          "Request a Quote for ",
+          selected
+        ] }) })
+      ] })
+    ] }) })
+  ] });
+}
+
+// src/pages/Solutions.tsx
+var import_react9 = require("react");
+var import_react_router_dom10 = require("react-router-dom");
+var import_jsx_runtime9 = require("react/jsx-runtime");
+var solutionContent = {
+  "Custom Packaging": {
+    title: "Custom Packaging",
+    desc: "From structure and inserts to finish and branding, we turn your idea into packaging that feels consistent with your brand.",
+    image: "/custom-options.webp",
+    points: [
+      {
+        title: "Structure Design",
+        desc: "Rigid boxes, folding cartons, drawer styles, magnetic closures, and custom structural designs engineered for your product."
+      },
+      {
+        title: "Insert Engineering",
+        desc: "EVA foam, velvet, satin, molded pulp, and custom-fit inserts designed to protect and present your product."
+      },
+      {
+        title: "Logo & Finish",
+        desc: "Hot foil stamping, embossing, debossing, spot UV, screen printing, and metallic finishes for premium brand expression."
+      },
+      {
+        title: "Color Systems",
+        desc: "Pantone-matched colors, custom gradients, monochrome palettes, and brand-specific color systems across all components."
+      }
+    ]
+  },
+  "Materials & Finishes": {
+    title: "Materials & Finishes",
+    desc: "Choose from premium materials and logo techniques that match your price point and brand image.",
+    image: "/about-materials.webp",
+    points: [
+      {
+        title: "Premium Papers & Board",
+        desc: "Rigid board, art paper, textured paper, and kraft materials. Certification documents available on request."
+      },
+      {
+        title: "Luxury Textiles",
+        desc: "Leatherette, velvet, suede, linen, genuine leather, and recycled textiles for interior and exterior wrapping."
+      },
+      {
+        title: "Surface Finishes",
+        desc: "Matte/gloss lamination, soft-touch, spot UV, textured coatings, and specialty finishes for tactile distinction."
+      },
+      {
+        title: "Branding Techniques",
+        desc: "Hot foil stamping, embossing, debossing, screen printing, digital printing, and metallic foil applications."
+      }
+    ]
+  },
+  "How It Works": {
+    title: "How It Works",
+    desc: "A clear process that helps you move from idea to sample, then to production with fewer revisions.",
+    image: "/about-factory.webp",
+    points: [
+      {
+        title: "1. Consultation",
+        desc: "Share your brand, product, and packaging goals. We assess needs, timeline, and budget parameters."
+      },
+      {
+        title: "2. Design & Sampling",
+        desc: "Our design studio creates structural and visual concepts. We produce physical samples for your approval."
+      },
+      {
+        title: "3. Production",
+        desc: "Once samples are approved, we move to mass production with rigorous QC protocols at every stage."
+      },
+      {
+        title: "4. Delivery",
+        desc: "Quality-checked products are packed and shipped with reliable lead times to Europe and North America."
+      }
+    ]
+  },
+  Sustainability: {
+    title: "Sustainability",
+    desc: "Sustainability should support your brand, not weaken it. We offer responsible packaging without losing presentation value.",
+    image: "/news-eco.webp",
+    points: [
+      {
+        title: "Eco-Friendly Materials",
+        desc: "Recycled kraft paper, natural cotton, and linen options. Certification documents available on request."
+      },
+      {
+        title: "Recyclable Structures",
+        desc: "Packaging structures designed to be recyclable where local facilities allow."
+      },
+      {
+        title: "Reusable Structures",
+        desc: "Packaging designed to be kept and reused \u2014 from linen wraps to keepsake boxes that extend product lifecycle."
+      },
+      {
+        title: "Responsible Sourcing",
+        desc: "We work with suppliers who can provide material documentation and certifications upon request."
+      }
+    ]
+  }
+};
+function Solutions() {
+  const [searchParams, setSearchParams] = (0, import_react_router_dom10.useSearchParams)();
+  const activeTopic = searchParams.get("topic") || null;
+  const [selected, setSelected] = (0, import_react9.useState)(activeTopic);
+  (0, import_react9.useEffect)(() => {
+    setSelected(activeTopic);
+  }, [activeTopic]);
+  const handleSelect = (sol) => {
+    setSelected(sol);
+    if (sol) {
+      setSearchParams({ topic: sol });
+    } else {
+      setSearchParams({});
+    }
+  };
+  return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(import_jsx_runtime9.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "eyebrow reveal", children: "Solutions" }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
+        "Packaging",
+        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("br", {}),
+        "Solutions"
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "From custom packaging design to sustainable materials \u2014 explore the services and capabilities that power your brand's packaging." })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("section", { className: "section solutions-section", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solutions-grid", children: solutions.map((sol, i) => /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(
+        "button",
+        {
+          className: `solution-card reveal reveal-delay-${i % 4 + 1} ${selected === sol ? "is-active" : ""}`,
+          onClick: () => handleSelect(selected === sol ? null : sol),
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solution-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+              "img",
+              {
+                src: solutionContent[sol].image,
+                alt: sol,
+                loading: "lazy",
+                width: 1408,
+                height: 768
+              }
+            ) }),
+            /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "solution-card-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("h3", { className: "solution-name", children: sol }),
+              /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "solution-desc", children: solutionContent[sol].desc }),
+              /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("span", { className: "solution-link", children: [
+                selected === sol ? "Show All" : "Learn More",
+                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("span", { className: "product-link-arrow", children: "\u2192" })
+              ] })
+            ] })
+          ]
+        },
+        sol
+      )) }),
+      selected && /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "solution-detail reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "solution-detail-header", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "eyebrow", children: selected }),
+            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: solutionContent[selected].title })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+            "button",
+            {
+              className: "btn-outline",
+              onClick: () => handleSelect(null),
+              children: "Show All Solutions"
+            }
+          )
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solution-detail-image", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+          "img",
+          {
+            src: solutionContent[selected].image,
+            alt: selected,
+            loading: "lazy",
+            width: 1408,
+            height: 768
+          }
+        ) }),
+        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solution-points-grid", children: solutionContent[selected].points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "solution-point-card", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("h4", { className: "solution-point-title", children: point.title }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "solution-point-desc", children: point.desc })
+        ] }, point.title)) }),
+        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solution-cta", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(import_react_router_dom10.Link, { to: "/contact", className: "btn-primary", children: "Get Started" }) })
+      ] })
+    ] }) })
+  ] });
+}
+
+// src/pages/About.tsx
+var import_react10 = require("react");
+var import_react_router_dom11 = require("react-router-dom");
+var import_jsx_runtime10 = require("react/jsx-runtime");
+var milestones = [
+  { year: "2018", title: "Founded", desc: "ELAPACK established as a custom packaging manufacturer for jewelry, eyewear, and gift brands." },
+  { year: "Today", title: "3 Production Lines", desc: "Three dedicated production lines for textile bags, rigid boxes, and custom gift sets." },
+  { year: "Today", title: "ISO 9001 Certified", desc: "Quality management system certified for the production and sales of paper and textile packaging products." },
+  { year: "Today", title: "Serving EU & US Brands", desc: "Exporting to mid-to-high-end brands across Europe and North America, with air and sea freight delivery." }
+];
+var values = [
+  {
+    title: "Restraint",
+    desc: "We design with intention, not excess. Every element earns its place."
+  },
+  {
+    title: "Craft",
+    desc: "We honor the hands that make. Precision is our baseline, not our ceiling."
+  },
+  {
+    title: "Partnership",
+    desc: "We invest in your brand as if it were our own. Your success is our measure."
+  },
+  {
+    title: "Responsibility",
+    desc: "We source ethically and design for longevity. Luxury should not cost the earth."
+  }
+];
+var markets = [
+  "Jewelry & Watches",
+  "Eyewear",
+  "Beauty & Cosmetics",
+  "Fragrance",
+  "Gifting",
+  "Fashion & Apparel"
+];
+function About() {
+  const videoRef = (0, import_react10.useRef)(null);
+  const videoWrapperRef = (0, import_react10.useRef)(null);
+  const togglePlay = () => {
+    const video = videoRef.current;
+    if (!video) return;
+    if (video.paused) {
+      void video.play();
+    } else {
+      video.pause();
+    }
+  };
+  const markPlaying = (playing) => {
+    videoWrapperRef.current?.classList.toggle("is-playing", playing);
+  };
+  return /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(import_jsx_runtime10.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "page-header page-header-alt", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow reveal", children: "About Us" }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
+        "Packaging",
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("br", {}),
+        "Aesthetics Builders"
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "A trade-and-manufacturing integrated enterprise, deeply rooted in the European and American markets \u2014 crafting packaging that elevates brands." })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-story", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "about-story-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "about-story-image reveal", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+        "img",
+        {
+          src: "/about-factory.webp",
+          alt: "ELAPACK production facility",
+          loading: "lazy",
+          width: 1408,
+          height: 768
+        }
+      ) }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "about-story-text reveal reveal-delay-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Our Story" }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "From workshop to global partner." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Since 2018, ELAPACK has believed that packaging is not a container, but a brand's first handshake. We have grown into a full-service packaging partner for luxury brands across Europe and North America." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Today, our integrated model spans creative design, precision manufacturing across three production lines, and global logistics \u2014 serving clients from independent ateliers to established brands. ELAPACK is operated by Wuxi Magic Packaging Co., Ltd (est. 2018), with our factory located in Wuxi, Jiangsu, China." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We hold a rigorous quality management system and a sharp understanding of international markets. We are not just a producer \u2014 we are your brand strategy partner, committed to translating your design vision into tangible, market-ready art." })
+      ] })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-video-section", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
+      "div",
+      {
+        ref: videoWrapperRef,
+        className: "about-video-wrapper reveal",
+        onClick: togglePlay,
+        role: "button",
+        tabIndex: 0,
+        "aria-label": "Play or pause the factory video",
+        onKeyDown: (e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            togglePlay();
+          }
+        },
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+            "video",
+            {
+              ref: videoRef,
+              className: "about-video-poster",
+              poster: "/factory-video-poster.webp",
+              preload: "none",
+              playsInline: true,
+              onPlay: () => markPlaying(true),
+              onPause: () => markPlaying(false),
+              onEnded: () => markPlaying(false),
+              children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("source", { src: "/videos/factory-tour.mp4", type: "video/mp4" })
+            }
+          ),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "about-video-overlay" }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "about-video-play", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("svg", { viewBox: "0 0 80 80", className: "play-icon", "aria-hidden": "true", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("circle", { cx: "40", cy: "40", r: "39", fill: "none", stroke: "currentColor", strokeWidth: "1" }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("path", { d: "M32 26 L54 40 L32 54 Z", fill: "currentColor" })
+          ] }) }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "about-video-caption", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", style: { color: "rgba(255,255,255,0.7)" }, children: "Inside Our Factory" }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "about-video-title", children: "See How Premium Packaging Is Made" }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-video-subtitle", children: "Take a virtual tour of our production facility \u2014 from material selection to precision assembly." })
+          ] })
+        ]
+      }
+    ) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-values", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "What We Believe" }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "The Principles Behind Every Piece" })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "values-grid", children: values.map((val, i) => /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
+        "div",
+        {
+          className: `value-card reveal reveal-delay-${i % 4 + 1}`,
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h3", { className: "value-title", children: val.title }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "value-desc", children: val.desc })
+          ]
+        },
+        val.title
+      )) })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-materials", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "materials-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "materials-content reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Material Options" }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "Sourced with intention." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We work with a curated range of premium materials \u2014 velvet, suede, linen, cotton, satin, and rigid paperboard \u2014 and offer eco-friendly options such as recycled kraft and natural textiles. Certification documents are available on request." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Because the world's finest brands demand materials that feel as good as they look \u2014 and perform as well as they promise." })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "materials-image reveal reveal-delay-2", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+        "img",
+        {
+          src: "/about-materials.webp",
+          alt: "Premium packaging materials",
+          loading: "lazy",
+          width: 1408,
+          height: 768
+        }
+      ) })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-timeline", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Our Journey" }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Our Journey Since 2018" })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "timeline", children: milestones.map((m, i) => /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
+        "div",
+        {
+          className: `timeline-item reveal reveal-delay-${i % 4 + 1}`,
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "timeline-marker", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("span", { className: "timeline-year", children: m.year }),
+              /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "timeline-dot" })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "timeline-content", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h3", { className: "timeline-title", children: m.title }),
+              /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "timeline-desc", children: m.desc })
+            ] })
+          ]
+        },
+        m.year
+      )) })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-markets", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Who We Serve" }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Industries We Elevate" }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "markets-list", children: markets.map((market) => /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("span", { className: "market-tag", children: market }, market)) }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "markets-note", children: "Our primary clients are mid-to-high-end brands and enterprises that value brand image, packaging quality, and supply chain stability \u2014 especially those serving European and American markets." }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(import_react_router_dom11.Link, { to: "/contact", className: "btn-primary", children: "Partner With Us" })
+    ] }) }) })
+  ] });
+}
+
 // src/pages/News.tsx
+var import_react_router_dom12 = require("react-router-dom");
 var import_jsx_runtime11 = require("react/jsx-runtime");
 var articles2 = [
   {
@@ -6068,7 +6202,12 @@ var collections = [
       "custom-microfiber-pouches",
       "leather-envelope-pouch"
     ],
-    ctaTitle: "Request a quote for your eyewear packaging"
+    ctaTitle: "Request a quote for your eyewear packaging",
+    guideSlugs: [
+      "custom-rigid-boxes-guide",
+      "packaging-inserts-guide",
+      "custom-logo-pouches-guide"
+    ]
   },
   {
     slug: "custom-jewelry-pouches",
@@ -6502,7 +6641,12 @@ var collections = [
       "magnetic-closure-gift-box",
       "custom-velvet-pouches"
     ],
-    ctaTitle: "Request a quote for ribbons & accessories"
+    ctaTitle: "Request a quote for ribbons & accessories",
+    guideSlugs: [
+      "custom-printed-ribbon-guide",
+      "magnetic-closure-vs-ribbon-tie-gift-boxes",
+      "packaging-colour-tolerance-explained"
+    ]
   },
   {
     slug: "custom-cosmetic-pouches",

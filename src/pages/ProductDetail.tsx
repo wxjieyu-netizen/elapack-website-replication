@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getProductBySlug, products } from "../data/products";
+import { getProductBySlug, products, productGuides } from "../data/products";
+import { getArticleBySlug } from "../data/articles";
 import { categoryCopy, neutralCopy, faqsFor } from "../data/categoryCopy";
 
 const trustBadges = [
@@ -58,6 +59,9 @@ export default function ProductDetail() {
 
   const copy = categoryCopy[product.category] ?? neutralCopy;
   const faqs = faqsFor(product.category);
+  const guides = (productGuides[product.slug] ?? [])
+    .map((s) => getArticleBySlug(s))
+    .filter((a): a is NonNullable<typeof a> => a !== undefined);
   return (
     <>
       {/* Breadcrumb */}
@@ -413,6 +417,29 @@ export default function ProductDetail() {
                   </div>
                 </Link>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {guides.length > 0 && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+                Sourcing guides
+              </h2>
+              <div className="spec-list">
+                {guides.map((guide) => (
+                  <p key={guide.slug} className="markets-note" style={{ marginBottom: "0.5rem" }}>
+                    <Link to={`/news/${guide.slug}`} className="text-link">
+                      {guide.title}
+                    </Link>
+                    {" — "}
+                    {guide.excerpt}
+                  </p>
+                ))}
+              </div>
             </div>
           </div>
         </section>

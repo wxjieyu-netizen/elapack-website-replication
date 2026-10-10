@@ -154,6 +154,11 @@ export const collections: Collection[] = [
       "leather-envelope-pouch",
     ],
     ctaTitle: "Request a quote for your eyewear packaging",
+    guideSlugs: [
+      "custom-rigid-boxes-guide",
+      "packaging-inserts-guide",
+      "custom-logo-pouches-guide",
+    ],
   },
   {
     slug: "custom-jewelry-pouches",
@@ -611,6 +616,11 @@ export const collections: Collection[] = [
       "custom-velvet-pouches",
     ],
     ctaTitle: "Request a quote for ribbons & accessories",
+    guideSlugs: [
+      "custom-printed-ribbon-guide",
+      "magnetic-closure-vs-ribbon-tie-gift-boxes",
+      "packaging-colour-tolerance-explained",
+    ],
   },
   {
     slug: "custom-cosmetic-pouches",
