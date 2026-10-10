@@ -31,7 +31,7 @@ export const products: Product[] = [
     shortDesc:
       "Faux leather rigid jewelry box with velvet interior, custom embossing and smart compartments.",
     description:
-      "The black leather jewelry box is more than just storage — it is a timeless statement of sophistication. Crafted from smooth grain faux leather in a deep, matte black tone, this box offers an elevated unboxing experience that reflects your brand commitment to quality. Its sleek, fingerprint-resistant exterior enhances visual appeal while staying pristine even with daily use.",
+      "The black leather jewelry box is more than just storage — it is a timeless statement of sophistication. Crafted from smooth grain faux leather in a deep, matte black tone, this box offers an elevated unboxing experience that reflects your brand commitment to quality. Its sleek, fingerprint-resistant exterior enhances visual appeal while staying pristine even with daily use. Inside, the velvet-lined smart compartments are laid out around your assortment — rings, chains, earrings or a mixed set — and embossed initials or a foil logo carry the brand quietly on the lid. Each quotation starts with a free digital dieline so the interior layout and exterior panels come from one drawing, with die tooling quoted separately at USD 50–100 only when a new die is genuinely needed. Runs ship in 15–20 days from 200 pieces, colour is held through a four-step control chain, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles grain, shade and emboss depth before bulk.",
     image: "/images/carousel/black-leather-box.png",
     materials: "Faux leather, velvet interior, cardboard core",
     moq: "200 pcs",
@@ -121,7 +121,7 @@ export const products: Product[] = [
     shortDesc:
       "Custom ring boxes for engagements, weddings and retail — single or double slots, velvet or foam cushions, your logo.",
     description:
-      "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour — MOQ from 200 pieces.",
+      "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour — MOQ from 200 pieces, delivered in 15–20 days. Every programme starts with a free digital dieline so cushion slots and box proportions come from one drawing; die tooling, when a new die is genuinely needed, is quoted separately at USD 50–100. Colour is held to Pantone references through a four-step control chain — artwork review, material test, on-press control and sample approval before bulk. Approve a custom sample first (USD 25 plus USD 20 shipping, 3–5 days) to check cushion fit with your actual ring before committing to the run.",
     image: "/images/carousel/ring-box-black.png",
     materials: "Velvet exterior, foam insert with velvet covering",
     moq: "200 pcs",
@@ -545,7 +545,7 @@ export const products: Product[] = [
     shortDesc:
       "Soft velvet pouches in drawstring, flap, envelope and zipper styles — your colour, size and logo.",
     description:
-      "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure — drawstring, flap, envelope or zipper — your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Made to order in any size, from small gift pouches to large presentation bags.",
+      "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure — drawstring, flap, envelope or zipper — your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Made to order in any size, from small gift pouches to large presentation bags. Runs start at 200 pieces with 15–20 day delivery, and velvet dye lots are held to your reference through a four-step colour control chain with sample approval before bulk. A custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles pile direction, shade and logo hand before the production order — the cheapest way to see the exact fabric your program will carry.",
     image: "/images/carousel/velvet-pouch.png",
     materials: "Velvet, cotton cord drawstring",
     moq: "200 pcs",
@@ -849,7 +849,7 @@ export const products: Product[] = [
     shortDesc:
       "Matched velvet display set — necklace busts, T-bar stand, ring cones, earring stands and cushions in one coordinated program.",
     description:
-      "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions — all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language.",
+      "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions — all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language. Set composition is built around your assortment — counts and heights are specified per piece, not fixed — and the velvet shade is matched to your counter palette through the four-step color control chain with sample approval before bulk. Runs start at 200 pieces per set with 15–20 day delivery, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) confirms shade and proportion with your actual jewelry before the production order. Stacks with the tray system for a full showcase build-out.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet over structured core",
     moq: "200 pcs",
@@ -893,7 +893,7 @@ export const products: Product[] = [
     shortDesc:
       "Pebbled faux-leather envelope pouch with gold foil logo, snap closure and soft suede-touch interior.",
     description:
-      "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries — jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand.",
+      "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries — jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand. Sizes are cut to your contents, from single-card minis to eyewear-length formats, and foil colour, thread and interior shade are specified together so the pouch reads as one palette — held through the four-step colour control chain with sample approval before bulk. Production runs from 200 pieces in 15–20 days, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles flap hand, foil density and interior fit with your actual product before the run.",
     image: "/images/carousel/image.png",
     materials: "Pebbled faux leather, suede-touch lining",
     moq: "200 pcs",
@@ -1025,7 +1025,7 @@ export const products: Product[] = [
     shortDesc:
       "Breathable unbleached muslin drawstring pouch — the natural-look carrier for jewelry, favors and small goods.",
     description:
-      "An unbleached muslin pouch with a visible, honest weave. Muslin is breathable, which makes it a natural fit for items that should not sit in sealed plastic — and its hand-made look suits artisan, bridal favor and natural-positioned brands. Cut, sewn and printed to order in your size, with a cotton drawstring and your logo in water-based ink. Product photography is in progress; request a stock sample to see the weave.",
+      "An unbleached muslin pouch with a visible, honest weave. Muslin is breathable, which makes it a natural fit for items that should not sit in sealed plastic — and its hand-made look suits artisan, bridal favor and natural-positioned brands. Cut, sewn and printed to order in your size, with a cotton drawstring and your logo in water-based ink. Runs start at 200 pieces with 15–20 day delivery, and print density on the open weave is confirmed on a custom sample (USD 25 plus USD 20 shipping, 3–5 days) before bulk — the weave reads differently at different ink weights, so the sample stage earns itself here. Weave weight and drawstring length are specified to your contents, from favor minis to bottle-length formats. Product photography is in progress; request a stock sample to see the weave.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Unbleached muslin, cotton cord",
     moq: "200 pcs",
@@ -1192,57 +1192,79 @@ export const productGuides: Record<string, string[]> = {
     "how-to-choose-custom-jewelry-boxes",
     "custom-rigid-boxes-guide",
     "surface-finishes-compared-guide",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "custom-white-jewelry-box": [
     "how-to-choose-custom-jewelry-boxes",
     "surface-finishes-compared-guide",
     "custom-rigid-boxes-guide",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "custom-ring-boxes": [
     "custom-ring-boxes-guide",
     "packaging-inserts-guide",
     "custom-rigid-boxes-guide",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "luxury-gift-box-ribbon": [
     "custom-printed-ribbon-guide",
     "magnetic-closure-vs-ribbon-tie-gift-boxes",
     "packaging-colour-tolerance-explained",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "magnetic-closure-gift-box": [
     "magnetic-gift-boxes-guide",
     "magnetic-closure-vs-ribbon-tie-gift-boxes",
     "custom-rigid-boxes-guide",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "custom-eyelash-packaging-boxes": [
     "how-to-customize-eyelash-boxes",
     "custom-rigid-boxes-guide",
     "packaging-inserts-guide",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "custom-perfume-boxes": [
     "custom-perfume-packaging-guide",
     "custom-rigid-boxes-guide",
     "packaging-inserts-guide",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "custom-perfume-sample-card-boxes": [
     "custom-perfume-packaging-guide",
     "how-to-read-a-packaging-specification-sheet",
     "custom-gift-card-boxes-guide",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "custom-press-on-nail-boxes": [
     "press-on-nail-packaging-guide",
     "custom-rigid-boxes-guide",
     "packaging-inserts-guide",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "custom-hair-extension-boxes": [
     "custom-hair-extension-packaging-guide",
     "hair-extension-packaging-ideas",
     "custom-rigid-boxes-guide",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "custom-watch-boxes": [
     "custom-rigid-boxes-guide",
     "packaging-inserts-guide",
     "how-to-choose-custom-jewelry-boxes",
-  ],
+  ,
+      "ppwr-packaging-regulation-guide",
+      "ppwr-recyclability-grades-guide"],
   "custom-velvet-pouches": [
     "velvet-satin-muslin-pouches-compared",
     "how-to-choose-a-custom-jewelry-pouch",
@@ -1272,7 +1294,8 @@ export const productGuides: Record<string, string[]> = {
     "custom-gift-packaging-guide",
     "custom-clothing-apparel-packaging-guide",
     "custom-logo-pouches-guide",
-  ],
+  ,
+      "candle-packaging-guide"],
   "stackable-jewelry-tray": [
     "jewelry-display-trays-guide",
     "packaging-inserts-guide",
