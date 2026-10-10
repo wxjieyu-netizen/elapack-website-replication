@@ -105,7 +105,7 @@ var products = [
     name: "Custom White Jewelry Boxes",
     category: "Boxes",
     shortDesc: "Compact white jewelry box with velvet cushion and custom logo printing \u2014 clean minimalist retail and gift packaging.",
-    description: "A compact white jewelry box with a glossy rigid shell and velvet-lined cushion. Made for bracelets and small jewelry gifts, it pairs a clean minimalist look with durable protection, and carries your logo silkscreened or hot-stamped on the lid. Ideal for retail display and gifting occasions.",
+    description: "A compact white jewelry box with a glossy rigid shell and velvet-lined cushion, made for bracelets, small jewelry gifts and clean minimalist retail. The durable shell is built for retail handling and efficient shipping at a lightweight footprint; the velvet insert holds pieces securely, and the snap closure keeps the box shut on shelf and in transit. Branding goes directly on lid and base by silkscreen or hot stamp, with interior insert colors matched to your palette through the four-step color control chain. Sizes are custom on request - from single-bracelet minis to multi-piece gift formats - and runs start at 200 pieces with 15-20 day delivery. Approve a custom sample first (USD 25 plus USD 20 shipping, 3-5 days) to check print density on the glossy shell and cushion fit with your actual piece before committing to bulk.",
     image: "/images/carousel/pandora-box.png",
     materials: "Plastic exterior, velvet interior insert",
     moq: "200 pcs",
@@ -132,7 +132,9 @@ var products = [
     specs: [
       { label: "Dimensions (L \xD7 W \xD7 H)", value: '1-3/4" \xD7 2" \xD7 1-1/2" (customizable)' },
       { label: "Surface Finish", value: "Glossy white" },
-      { label: "Closure Type", value: "Snap closure" }
+      { label: "Closure Type", value: "Snap closure" },
+      { label: "Color Control", value: "Four-step chain, sample approval before bulk" },
+      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
     ],
     customizationOptions: [
       "Custom logo printing",
@@ -186,7 +188,7 @@ var products = [
     name: "Luxury Gift Boxes with Ribbon",
     category: "Boxes",
     shortDesc: "Rigid luxury gift box with satin ribbon tie closure \u2014 premium presentation for corporate gifting.",
-    description: "A luxury gift box set with satin ribbon closure, designed for premium gifting occasions. The rigid box construction with matte finish and decorative ribbon creates an unforgettable unboxing experience. Perfect for corporate gifts, weddings, and high-end retail.",
+    description: "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held through a four-step control chain from artwork review to sample approval before bulk. Interior options secure the product for gifting and courier conditions alike. Each quotation starts with a free digital dieline; die tooling, when a new die is genuinely needed, is quoted separately at USD 50-100. Runs ship in 15-20 days from 200 pieces, and a custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
     moq: "200 pcs",
@@ -213,7 +215,9 @@ var products = [
     specs: [
       { label: "Dimensions (L \xD7 W \xD7 H)", value: '8" \xD7 6" \xD7 3" (customizable)' },
       { label: "Closure Type", value: "Ribbon tie" },
-      { label: "Surface Finish", value: "Matte / foil stamping / spot UV" }
+      { label: "Surface Finish", value: "Matte / foil stamping / spot UV" },
+      { label: "Dieline", value: "Free digital drawing at quotation" },
+      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
     ],
     customizationOptions: [
       "Pantone color matching",
@@ -227,7 +231,7 @@ var products = [
     name: "Custom Magnetic Closure Gift Boxes",
     category: "Boxes",
     shortDesc: "Sleek flip-top gift box with hidden magnetic closure and custom interior inserts.",
-    description: "A sleek magnetic closure gift box with flip-top design. The hidden magnetic mechanism provides a clean look while keeping the lid securely closed. Ideal for jewelry, eyewear, cosmetics, and small luxury items.",
+    description: "A sleek flip-top gift box with a hidden magnetic closure, built for jewelry, eyewear, cosmetics and small luxury programs. The concealed magnet pair keeps the lid shut in transit yet opens one-handed in a retail setting, and because the mechanism sits inside the wrap, the exterior stays clean for full-surface print or foil branding. Construction is 1200-1500gsm greyboard wrapped in your choice of art paper, with interior inserts cut to the product's exact footprint so contents ride immobile - EVA, velvet or molded pulp by product weight and fragility. Specify Pantone references for wrap and print; color is held through a four-step control chain from artwork and Pantone review through on-press control to sample approval before bulk. Every quotation starts with a free digital dieline, die tooling is quoted separately at USD 50-100 only when a new die is genuinely needed, and runs ship in 15-20 days from 200 pieces. Approve a custom sample first (USD 25 plus USD 20 shipping, 3-5 days) to check closure feel and color before committing to bulk.",
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
     moq: "200 pcs",
@@ -254,7 +258,9 @@ var products = [
     specs: [
       { label: "Dimensions (L \xD7 W \xD7 H)", value: '6" \xD7 4" \xD7 2" (customizable)' },
       { label: "Closure Type", value: "Magnetic / flip-top" },
-      { label: "Surface Finish", value: "Matte / glossy" }
+      { label: "Surface Finish", value: "Matte / glossy" },
+      { label: "Dieline", value: "Free digital drawing at quotation" },
+      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
     ],
     customizationOptions: [
       "Custom inserts and compartments",
@@ -672,7 +678,7 @@ var products = [
     name: "Velvet Necklace Display Stand",
     category: "Sets & Complete Packaging",
     shortDesc: "Velvet-covered retail display stand that presents necklaces securely in showcases.",
-    description: "A velvet necklace display stand designed for retail showcases. The plush velvet surface holds necklaces securely in place while presenting them elegantly. Available in multiple colors to match your brand aesthetic.",
+    description: "A velvet-covered necklace display stand for retail showcases. The plush surface holds chains and pendants in place without slipping, while the weighted base keeps the stand stable through high-traffic retail hours. Velvet colors are matched to your interior palette through the same four-step color control chain used across the packaging lines - artwork and reference review, material test, production control, and sample approval before bulk. Heights can be varied for different chain lengths, so one stand format can serve pendant, choker and lariat assortments. Runs start at 200 pieces with 15-20 day delivery, and a custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles fabric shade and proportion before the production order. Pairs with the velvet jewelry display set and stackable trays to build a coordinated counter program.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet, wooden base",
     moq: "200 pcs",
@@ -698,7 +704,9 @@ var products = [
     ],
     specs: [
       { label: "Dimensions (L \xD7 W \xD7 H)", value: '12" \xD7 4" \xD7 10"' },
-      { label: "Surface Finish", value: "Velvet covering" }
+      { label: "Surface Finish", value: "Velvet covering" },
+      { label: "Color Control", value: "Four-step chain, sample approval before bulk" },
+      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
     ],
     customizationOptions: [
       "Velvet color matching",
@@ -711,7 +719,7 @@ var products = [
     name: "Acrylic Earring Display Stand",
     category: "Sets & Complete Packaging",
     shortDesc: "Crystal-clear acrylic earring display with multi-tier slots and weighted base.",
-    description: "A modern acrylic earring display stand with transparent construction. Perfect for showcasing earrings in a clean, contemporary retail setting. The clear acrylic design lets the jewelry be the focal point.",
+    description: "A crystal-clear acrylic earring display with tiered slots and a weighted base, designed so the jewelry - not the stand - carries the visual. Optical-grade clarity suits contemporary retail settings; the multi-tier layout puts multiple pairs at eye level while the weighted base resists tipping in busy display environments. Slot count, tier count and height are engineered around your assortment, from stud-and-drop pairs to statement earrings, and bases take direct logo printing or frosted and colored acrylic variants for brand-matched counters. Production runs from 200 pieces in 15-20 days. Approve proportions with a custom sample first (USD 25 plus USD 20 shipping, 3-5 days), and specify slot layouts on the drawing so the finished stand fits your exact earring range without rework.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Acrylic / PVC",
     moq: "200 pcs",
@@ -737,7 +745,9 @@ var products = [
     ],
     specs: [
       { label: "Dimensions (L \xD7 W \xD7 H)", value: '8" \xD7 3" \xD7 8"' },
-      { label: "Surface Finish", value: "Transparent glossy" }
+      { label: "Surface Finish", value: "Transparent glossy" },
+      { label: "MOQ / Lead Time", value: "200 pcs, 15-20 days" },
+      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
     ],
     customizationOptions: [
       "Custom tiers and slot layouts",
@@ -750,7 +760,7 @@ var products = [
     name: "Kraft Paper Shopping Bag",
     category: "Pouches & Bags",
     shortDesc: "Durable recycled kraft shopping bag with twisted handles \u2014 custom logo printing.",
-    description: "A durable kraft paper shopping bag with twisted paper handles. Perfect for retail packaging, gift wrapping, and eco-conscious brands. Custom logo printing available on natural kraft background.",
+    description: "A durable kraft paper shopping bag with twisted paper handles set into reinforced boards, built for retail carry-out, gift wrapping and market days. The natural kraft substrate takes flexo or offset logo printing in up to four colors, and its visible fiber texture gives printed marks a warm, honest backdrop. Sizes and paper weights are custom - from boutique counter bags to event carry-all formats - with handle options in twisted paper or cotton cord. Construction is plastic-free and kerbside recyclable as made. Production runs from 200 pieces in 15-20 days, with color held to named references through a four-step control chain from artwork review to pre-bulk approval. Start with the free dieline at quotation to lock gusset depth and base format for your typical load, then approve a custom sample (USD 25 plus USD 20 shipping, 3-5 days) to test handle comfort and print density in hand before the bulk run.",
     image: "/images/carousel/kraft-bag.png",
     materials: "Recycled kraft paper, twisted paper handles",
     moq: "200 pcs",
@@ -777,7 +787,9 @@ var products = [
     specs: [
       { label: "Dimensions (L \xD7 W \xD7 H)", value: '10" \xD7 8" \xD7 12" (customizable)' },
       { label: "Handle Type", value: "Twisted paper / cotton cord" },
-      { label: "Eco-Friendly", value: "Recyclable" }
+      { label: "Eco-Friendly", value: "Recyclable" },
+      { label: "Dieline", value: "Free digital drawing at quotation" },
+      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
     ],
     customizationOptions: [
       "Custom sizes and paper weights",
@@ -790,7 +802,7 @@ var products = [
     name: "Stackable Jewelry Tray",
     category: "Sets & Complete Packaging",
     shortDesc: "Stackable velvet-lined jewelry tray system with customizable compartments.",
-    description: "A stackable velvet jewelry tray with compartmental design for organized display. Perfect for retail showcases and drawer storage. The velvet surface protects jewelry while the stackable design maximizes space efficiency.",
+    description: "A stackable velvet-lined jewelry tray system for organized showcase display and drawer storage. Velvet-lined compartments protect pieces while the vertical stacking format lets one SKU build a full display wall - trays lock in stack so the tower stays stable and presentable through retail hours. The MDF core stays flat and strong under stacked loads, and compartment counts and sizes are laid out around your assortment, from rings and earrings to chains and watches. Velvet colors match your counter palette through the four-step color control chain, with sample approval before bulk. Runs start at 200 pieces with 15-20 day lead times, and a custom sample (USD 25 plus USD 20 shipping, 3-5 days) confirms lining shade and compartment fit with your actual pieces before the production order. Combine with the velvet display set for a coordinated showcase program.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "MDF, velvet lining",
     moq: "200 pcs",
@@ -816,7 +828,9 @@ var products = [
     ],
     specs: [
       { label: "Dimensions (L \xD7 W \xD7 H)", value: '14" \xD7 8" \xD7 1-1/2"' },
-      { label: "Surface Finish", value: "Velvet covering" }
+      { label: "Surface Finish", value: "Velvet covering" },
+      { label: "Color Control", value: "Four-step chain, sample approval before bulk" },
+      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
     ],
     customizationOptions: [
       "Custom compartment layouts",
