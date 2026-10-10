@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Bar chart: US monthly search volume: packaging insert keywords">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="64" y="60" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#18120c">US monthly search volume: packaging insert keywords</text>
+<text x="64" y="92" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b6258">Insert demand splits between fitments and insert cards at KD 4–25 — low-difficulty commercial intent across the whole band</text>
+  <text x="64" y="140" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">box inserts</text>
+  <rect x="64" y="150" width="830" height="22" fill="#b08d46" rx="2"/>
+  <text x="906" y="166" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">260 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 11)</tspan></text>
+  <text x="64" y="204" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">custom packaging inserts</text>
+  <rect x="64" y="214" width="830" height="22" fill="#8a7a68" rx="2"/>
+  <text x="906" y="230" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">260 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 17)</tspan></text>
+  <text x="64" y="268" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">custom box inserts</text>
+  <rect x="64" y="278" width="830" height="22" fill="#8a7a68" rx="2"/>
+  <text x="906" y="294" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">260 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 19)</tspan></text>
+  <text x="64" y="332" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">cardboard inserts</text>
+  <rect x="64" y="342" width="670" height="22" fill="#8a7a68" rx="2"/>
+  <text x="746" y="358" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">210 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 25)</tspan></text>
+  <text x="64" y="396" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">packaging insert cards</text>
+  <rect x="64" y="406" width="543" height="22" fill="#8a7a68" rx="2"/>
+  <text x="619" y="422" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">170 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 13)</tspan></text>
+  <text x="64" y="460" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">corrugated box inserts</text>
+  <rect x="64" y="470" width="543" height="22" fill="#8a7a68" rx="2"/>
+  <text x="619" y="486" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">170 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 14)</tspan></text>
+  <text x="64" y="524" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#33302b">cardboard box inserts</text>
+  <rect x="64" y="534" width="447" height="22" fill="#8a7a68" rx="2"/>
+  <text x="523" y="550" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#18120c">140 <tspan fill="#8a8178" font-weight="400" font-size="14">(KD 7)</tspan></text>
+<text x="64" y="647" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8178">Source: Semrush US keyword database, exported 2026-10-07. The cluster covers both structural fitments and printed insert cards; the guide treats them as one specification decision.</text>
+</svg>

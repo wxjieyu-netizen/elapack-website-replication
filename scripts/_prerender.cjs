@@ -3132,6 +3132,313 @@ var import_react_router_dom12 = require("react-router-dom");
 // src/data/articles.ts
 var articles = [
   {
+    "slug": "custom-rigid-boxes-guide",
+    "datePublished": "2026-10-10",
+    "title": "Custom Rigid Boxes: Board Grades, Structures and Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "8 min read",
+    "image": "/images/covers/custom-rigid-boxes-guide.png",
+    "imageAlt": "Guide cover card: custom rigid boxes \u2014 greyboard grades, wrap and lining layers, box structures and the search demand behind the cluster",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "The rigid box from the board outward: greyboard grades and cost shares, the three-layer build, twelve structures, mailer formats and US search demand for the cluster.",
+    "metaDescription": "Custom rigid boxes explained: greyboard grades 1.5\u20133.0 mm with cost shares, wrap and lining layers, box structures, rigid mailers and enquiry checklists.",
+    "body": `*Search volumes and keyword difficulty (KD) are Semrush US database figures exported 2026-10-07. Construction descriptions are industry references as published by packaging suppliers (sources named inline); greyboard grades, cost shares and the twelve-structure list are ELAPACK's published production references. Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample USD 25 plus USD 20 shipping, cutting-die tooling USD 50\u2013100 \u2014 are ELAPACK's confirmed trade terms.*
+
+> **Quick answer:** a rigid box is a three-layer build \u2014 wrap paper, greyboard core, lining paper \u2014 and the greyboard grade is the decision that carries everything else: 1.5 mm for small light boxes, 2.0 mm as the standard premium grade, 2.5\u20133.0 mm for large and heavy formats. Fix the grade with the structure, not after it.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order | 200 pieces per design | ELAPACK confirmed terms |
+| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |
+| Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |
+| Cutting-die tooling | USD 50\u2013100 where a new die is required | ELAPACK confirmed terms |
+| Greyboard grades | 1.5 / 2.0 / 2.5 / 3.0 mm tiers | ELAPACK published references |
+| Board share of box cost | \u2248 8\u201314% at 1.5 mm rising to 16\u201325% at 3.0 mm | ELAPACK published figures, reference basis |
+| Cluster head demand | custom rigid boxes 1,300/month (KD 33); rigid mailers 1,000 (KD 16) | Semrush US, 2026-10-07 |
+
+## What the search demand looks like
+
+![US monthly search volume for rigid box keywords: custom rigid boxes at 1300 searches, rigid mailers at 1000, rigid gift boxes at 390, gift boxes rigid at 320, rigid box packaging supplier at 210, rigid box manufacturers and custom rigid box packaging at 170 each. Semrush, October 2026.](/charts/rigid-boxes-search-volume.svg)
+
+The rigid cluster runs \u22483,460 US searches a month across the charted terms, and it is buyer language throughout \u2014 "rigid box manufacturers", "rigid box packaging supplier" \u2014 with the tail at KD 4\u201328. The head "custom rigid boxes" sits at KD 33: reachable with a data-grade guide, not with a product listing. The structure decision this guide covers is the layer beneath the finishes compared in the [surface finishes guide](https://elapack.com/news/surface-finishes-compared-guide) \u2014 finishes sit on this build.
+
+**Rigid buyers search manufacturing language \u2014 a factory-written structure guide is the native answer to this cluster.**
+
+## The three-layer build
+
+Every rigid box is a sandwich. The greyboard core \u2014 also called chipboard, a dense layered material pressed from recycled fibres \u2014 gives the box its non-bending body (construction as published on zenpack.us and xactz.com); the wrap paper carries print, colour and finish; the lining paper closes the inside. Supplier references put typical box-body board at 1.2\u20133.0 mm (as published on thebestpriceboxes.com), with MDF board used by some factories as a premium alternative core (as published on blog.opack.com) \u2014 ELAPACK's range is built on greyboard tiers, published as follows.
+
+| Grade | Typical application | Share of box cost (reference) |
+|---|---|---|
+| 1.5 mm | Small boxes, light items \u2014 jewellery cards, sample kits | \u2248 8\u201314% |
+| 2.0 mm | Standard premium boxes \u2014 skincare, fragrance sets | \u2248 10\u201318% |
+| 2.5 mm | Medium-to-large gift boxes, press kits | \u2248 13\u201322% |
+| 3.0 mm | Large boxes, heavy contents, maximum presence | \u2248 16\u201325% |
+
+*Cost shares are ELAPACK published figures, for reference only, based on similar box size, structure and standard finishing.*
+
+**The grade sets depth, closure weight and cost in one line \u2014 choose it with the structure, never after the artwork.**
+
+## Twelve structures, three everyday heroes
+
+The published structure list runs to twelve: magnetic flip-top, lid-and-base, drawer, two-door, handle, folding, cylinder, window, display, advent, mailer and card box. In luxury gifting three carry most programmes: the [magnetic flip-top](https://elapack.com/products/magnetic-closure-gift-box) for one-hand opening, the [ribbon-tie box](https://elapack.com/products/luxury-gift-box-ribbon) for occasion presentation, and lid-and-base for sets \u2014 the magnetic structure has its own deep-dive in the [magnetic gift boxes guide](https://elapack.com/news/magnetic-gift-boxes-guide). Category formats follow their products: the [ring box](https://elapack.com/products/custom-ring-boxes) and the [eyelash box](https://elapack.com/products/custom-eyelash-packaging-boxes) are grade-1.5\u20132.0 formats, while display and advent builds lean on 2.5 mm and above.
+
+## Rigid mailers
+
+The mailer band is the cluster's quiet second head: "rigid mailers" at 1,000 searches a month, KD 16. A rigid mailer is the same build in a slim one-piece format \u2014 a presentation-grade unboxing that survives the parcel network, unlike a folding carton that only looks the part. The standalone "custom mailer boxes" term (2,400/month) runs at KD 40, above the difficulty band this programme targets; the mailer section here is the honest route into that demand. For e-commerce sets, pair the mailer with the insert decision covered in the [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide).
+
+**Mailer demand is rigid demand in shipping clothes \u2014 answer it with the structure, not a separate keyword chase.**
+
+## Wrap, lining and what drives cost
+
+Three cost levers sit above the board: the wrap (art paper, specialty paper, textile), the finish set on it (lamination, foil, emboss \u2014 compared in the finishes guide), and the lining. The published cost shares above cover the board layer only; wrap and finish stack on top by grade. Assembly matters as much as material: the six-station QC chain that gates a rigid run includes assembly fit \u2014 a box that measures right but closes wrong fails at the same station. Structures and stock formats across the range sit on the [boxes collection](https://elapack.com/products?category=Boxes) and the [custom gift boxes](https://elapack.com/custom-gift-boxes) page.
+
+## What to put in your enquiry
+
+A rigid enquiry a factory can quote first time carries: the structure (from the twelve, or a drawing); the greyboard grade \u2014 or the product and weight and let the factory propose; wrap and finish choices; internal layout, cross-referenced to the insert specification; quantity against the 200-piece minimum; vector artwork; and the sample route. Where a new cutting die is required it is quoted at USD 50\u2013100 \u2014 the dieline itself is drawn free to confirmed product dimensions, covered in the [die cutting and dielines guide](https://elapack.com/news/die-cutting-and-dielines-guide).
+
+## The bottom line
+
+Pick the grade for the weight, the structure for the opening, and let wrap and finish carry the brand. [Contact ELAPACK](https://elapack.com/contact) with the product, structure and quantity, and the quotation will state board grade, wrap, tooling and terms that apply.`
+  },
+  {
+    "slug": "packaging-inserts-guide",
+    "datePublished": "2026-10-10",
+    "title": "Packaging Inserts: Materials, Trade-Offs and Specification Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "8 min read",
+    "image": "/images/covers/packaging-inserts-guide.png",
+    "imageAlt": "Guide cover card: packaging inserts \u2014 paper, foam, pulp and layered systems compared on protection, cost and presentation",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Insert materials compared \u2014 paper systems, EVA/PET/PE foams, moulded pulp and layered board \u2014 with the weight/fragility rule, cost trade-offs and search demand for the cluster.",
+    "metaDescription": "Custom packaging inserts compared: paper systems, EVA/PET/PE foam, moulded pulp and layered board \u2014 protection, cost, presentation and the spec fields suppliers quote.",
+    "body": `*Search volumes and keyword difficulty (KD) are Semrush US database figures exported 2026-10-07. Material classifications and trade-offs are industry references as published by packaging suppliers (sources named inline); the three insert systems and the layered-board cost figure are ELAPACK's published production references. Order terms \u2014 MOQ 200 pieces, 15\u201320 day production \u2014 are ELAPACK's confirmed trade terms.*
+
+> **Quick answer:** inserts trade protection against presentation and cost. Paper systems are the recyclable default for light pieces, EVA/PET/PE foams hold heavy or fragile items in sculpted cavities, and layered A-grade board saves up to 40% of space and cost where a sculpted look is wanted without foam. Specify by product weight, fragility and how the piece is lifted out.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order | 200 pieces per design | ELAPACK confirmed terms |
+| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |
+| Insert systems (ELAPACK) | Recyclable paper line; EVA/PET/PE foam line; layered 2 mm A-grade board | ELAPACK published references |
+| Layered-board saving | Up to 40% of space and cost vs sculpted alternatives | ELAPACK published figure |
+| Cluster demand | box inserts 260/month (KD 11); custom packaging inserts 260 (KD 17); custom box inserts 260 (KD 19) | Semrush US, 2026-10-07 |
+| Card-side demand | packaging insert cards 170/month (KD 13) | Semrush US, 2026-10-07 |
+
+## What the search demand looks like
+
+![US monthly search volume for packaging insert keywords: box inserts, custom packaging inserts and custom box inserts at 260 searches each, cardboard inserts at 210, packaging insert cards at 170, corrugated box inserts at 170, cardboard box inserts at 140. Semrush, October 2026.](/charts/packaging-inserts-search-volume.svg)
+
+The insert cluster runs \u22481,470 searches a month at KD 4\u201325 \u2014 low-difficulty, commercial, and split between two intents the tools merge: structural fitments that hold the product, and printed insert cards (care cards, message cards) that ride along. This guide treats them as one specification decision, because in a luxury box they are: the fitment holds the ring, the card says what the ring is. The box they sit in has its own guide in [custom rigid boxes](https://elapack.com/news/custom-rigid-boxes-guide).
+
+**Fitment and card share one cluster \u2014 spec them together and the unboxing is one coherent object.**
+
+## The material systems side by side
+
+Industry references converge on five fitment families: paperboard, corrugated or fluted, moulded pulp, thermoformed, and foam (classification as published on wynalda.com), with foam subdivided into EVA, PU, EPE and PE grades (as published on dauxin.com and customboxmakers.com). ELAPACK's published range organises the same landscape into three systems.
+
+| System | What it is | Best at | Watch-out |
+|---|---|---|---|
+| Recyclable paper line | Die-cut paperboard cavities and platforms | Light pieces, sets, recyclable programmes | Needs design for heavy items |
+| EVA / PET / PE foam line | Sculpted cavities, custom-cut to the piece | Heavy, fragile or high-value pieces | Higher cost; sculpt per product |
+| Layered 2 mm A-grade board | Stacked board build-up in place of sculpted foam | Sculpted look at up to 40% space/cost saving | Confirm fit on sample, as with any cavity |
+| Moulded pulp (as published) | Pressed fibre forms | Jar-shaped goods at volume | Tooling needs quantity |
+| Thermoformed (as published) | Formed plastic trays | Clarity, sealed hygiene formats | Presentation mismatch in luxury sets |
+
+*Systems one to three are ELAPACK published ranges; pulp and thermoformed rows are published industry options included for completeness.*
+
+**Three systems cover luxury work \u2014 pulp and thermoform belong to other industries' toolkits.**
+
+## The rule that decides: weight, fragility, lift
+
+A published comparison gives the cleanest dividing line in the category: cardboard fitments run lower-cost and suit products under roughly two pounds with basic separation needs; foam runs higher-cost and protects fragile, heavy or high-value items (as published on printonpapers.com). Add the third axis luxury packaging adds: how the piece is lifted out. A cavity that protects in transit but fights the customer at the counter has the wrong draft angle, not the wrong material \u2014 which is why the sample review loads the actual product and lifts it, in the [sample process](https://elapack.com/news/custom-packaging-samples-guide). Format examples across the range: a [watch box](https://elapack.com/products/custom-watch-boxes) with a sculpted pillow, an [eyelash box](https://elapack.com/products/custom-eyelash-packaging-boxes) with a die-cut platform, a [magnetic gift box](https://elapack.com/products/magnetic-closure-gift-box) with a layered-board fitment.
+
+**Choose by weight, fragility and lift \u2014 in that order \u2014 and prove the lift on the loaded sample.**
+
+## Insert cards: the quiet second intent
+
+"Packaging insert cards" is its own 170/month demand: care cards, warranty cards, gift messages. They are specified like any printed component \u2014 board weight, size against the fitment's slot, artwork, Pantones \u2014 and they fail in one predictable way: ordered at a size that does not slot into the final fitment. Specify the card with the fitment, not after it. For colour approvals across card and fitment, the four-step control chain in the [colour tolerance guide](https://elapack.com/news/packaging-colour-tolerance-explained) applies to both.
+
+## Worked examples in the range
+
+The candle programme in the [candle boxes guide](https://elapack.com/news/custom-candle-boxes-guide) maps all five published fitment types to jar, pillar and votive formats. Complete presentations \u2014 box, fitment, pouch, card \u2014 sit in the [sets collection](https://elapack.com/products?category=Sets%20%26%20Complete%20Packaging), and the softest layer of the stack, wrapping tissue, has its own guide in [custom tissue paper](https://elapack.com/news/custom-tissue-paper-guide).
+
+## What to put in your enquiry
+
+An insert enquiry a factory can quote first time carries: the product's dimensions and weight; fragility notes (glass, plating, scratch-sensitive faces); the box it goes into; the lift requirement \u2014 how the piece is removed and by whom; the material system or a request for proposals across two; card slot requirements if insert cards ride along; and quantity against the 200-piece minimum. Sculpted foam cavities are cut to the confirmed product drawing, so product drawings come before insert quotations.
+
+## The bottom line
+
+Paper for light and recyclable, foam for heavy and fragile, layered board for the sculpted look at lower cost \u2014 and specify the card with the cavity. [Contact ELAPACK](https://elapack.com/contact) with the product drawing, weight and box format, and the quotation will state the insert system, cavity layout and terms that apply.`
+  },
+  {
+    "slug": "custom-tissue-paper-guide",
+    "datePublished": "2026-10-10",
+    "title": "Custom Tissue Paper: Weights, Printing and Specification Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/covers/custom-tissue-paper-guide.png",
+    "imageAlt": "Guide cover card: custom tissue paper \u2014 gsm weight bands from 12 to 33, one-colour versus full-colour printing, and the specification fields to request",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "The largest untapped keyword cluster in the set \u2014 \u22487,030 US searches a month at KD 14\u201323 \u2014 mapped to the decisions that matter: gsm band, print capability, sheet sizing and how tissue rides with the box.",
+    "metaDescription": "Custom tissue paper explained: gsm weight bands from 12 to 33, one-colour versus full-colour printing by weight, sheet sizing logic and enquiry checklists for branded wrapping.",
+    "body": `*Search volumes and keyword difficulty (KD) are Semrush US database figures exported 2026-10-07. Weight bands, printing capability by weight and use-case mapping are as published by specialist tissue suppliers (tissuemotif.com, checked October 2026). ELAPACK supplies printed tissue as a component of its gift-box programmes \u2014 specifications are confirmed per project; the trade terms quoted are its confirmed order terms for boxes (MOQ 200 pieces, 15\u201320 day production).*
+
+> **Quick answer:** the gsm band decides everything \u2014 17 gsm is the classic branded wrap for one-colour logos at everyday cost, 28 gsm is the premium band that carries full-colour artwork, and 12\u201314 gsm wraps delicate jewellery while 30\u201333 gsm lines rigid boxes. Size the sheet to the box interior, and specify tissue with the box, not as an afterthought.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Cluster demand | custom tissue paper 2,900/month (KD 23); with-logo variant 880 (KD 22) | Semrush US, 2026-10-07 |
+| Cluster total | \u2248 7,030 searches/month across eight brand-led variants, KD 14\u201323 | Semrush US, 2026-10-07 |
+| Everyday weight | 17 gsm \u2014 one-colour printing, branded wrapping at value cost | As published, tissuemotif.com |
+| Premium weight | 28 gsm \u2014 one-colour or full-colour printing | As published, tissuemotif.com |
+| Band edges | 12\u201314 gsm delicate wrap; 30\u201333 gsm heavy lining for rigid boxes | As published, tissuemotif.com |
+| Box programme terms | MOQ 200 pieces, 15\u201320 day production | ELAPACK confirmed terms |
+
+## What the search demand looks like
+
+![US monthly search volume for custom tissue paper keywords: custom tissue paper at 2900 searches, printed tissue paper at 880, custom tissue paper with logo at 880, custom printed tissue paper at 720, branded tissue paper at 480, customized, personalized and tissue paper packaging at 390 each. Semrush, October 2026.](/charts/tissue-paper-search-volume.svg)
+
+No niche in the keyword set hides this much demand at this little difficulty: \u22487,030 searches a month, every variant brand-led ("custom", "branded", "personalized"), difficulty KD 14\u201323 across the band. The intent is unambiguous \u2014 businesses buying printed tissue, not crafters. Yet the SERP is print-shop product pages and artwork-spec pages; almost nobody has written the buyer's guide. This guide is that layer for the programmes ELAPACK packs: tissue specified with the [rigid box](https://elapack.com/news/custom-rigid-boxes-guide) it lines and the [insert](https://elapack.com/news/packaging-inserts-guide) it softens.
+
+**Seven thousand brand-led searches at KD 14\u201323 with no buyer's guide in sight \u2014 the clearest content gap in the set.**
+
+## The gsm ladder, rung by rung
+
+Weight \u2014 grams per square metre \u2014 is the specification axis for tissue, and the published ladder maps cleanly to use: lower gsm is lighter, softer, more translucent; higher gsm feels fuller, firmer, gives greater coverage (as published on tissuemotif.com). The bands that matter to a packaging buyer:
+
+| Band | Character | Published use |
+|---|---|---|
+| 12\u201314 gsm | Very lightweight, delicate | Jewellery, small gifts, decorative wrapping |
+| 17 gsm | Classic lightweight, best value | Apparel, retail, accessories, e-commerce; one-colour print |
+| 20\u201322 gsm | Medium-light | Beauty, boutique, gifts |
+| 24\u201325 gsm | Medium weight | Gift boxes, cosmetics, retail |
+| 28 gsm | Premium, full-colour capable | Premium gifts, fashion, beauty, branding |
+| 30\u201333 gsm | Heavy tissue | Rigid-box lining, luxury, specialty presentation |
+
+*Band definitions and use mapping as published by tissuemotif.com; ELAPACK quotes weights per project on the confirmed specification.*
+
+**Pick the rung before the artwork \u2014 the weight decides what printing is even possible.**
+
+## Printing: capability splits at 17 and 28
+
+The capability line is published and sharp: 17 gsm supports one-colour printing \u2014 simple logos, repeating patterns, clean branded designs; 28 gsm supports one-colour or full-colour, at a higher cost for full colour (as published on tissuemotif.com). Between them sits the practical reality of branded wrapping: most logo tissue is one-colour on 17 gsm, and most brands that upgrade to 28 gsm do it for the paper's feel as much as the print range. Artwork follows print-shop norms across the industry: vector logos, confirmed before production, with a final proof issued before the run (workflow as published by ecoenclose.com and inkablelabel.com).
+
+**One colour on 17 gsm is the workhorse; 28 gsm full-colour is the statement \u2014 decide which job the tissue does.**
+
+## Sizing and how tissue rides with the box
+
+Sheet sizes vary by print shop \u2014 one stock range offers four sizes at multiple densities (as published on overnightprints.com) \u2014 so the buyer's rule is not a stock chart but a fit rule: size the sheet to the box interior and the fold style, and confirm the sheet list on the quotation. In ELAPACK programmes tissue is specified as a component: it wraps the product inside the fitment of a [magnetic gift box](https://elapack.com/products/magnetic-closure-gift-box) or [ring box](https://elapack.com/products/custom-ring-boxes), fills the dead space of an [eyelash box](https://elapack.com/products/custom-eyelash-packaging-boxes), and finishes complete presentations in the [sets collection](https://elapack.com/products?category=Sets%20%26%20Complete%20Packaging). Specified this way, the unboxing reads as one object: box, fitment, tissue, card.
+
+## What to put in your enquiry
+
+A tissue enquiry a factory can quote first time carries: the gsm band (or the use case and a request for proposals at two weights); the print scope \u2014 one-colour or full-colour, and at which weight that is possible; the sheet size needed against the box interior and fold style; the logo artwork in vector with the print colour reference; the quantity against the box programme's 200-piece minimum; and the need-by date so tissue and box land together. Tissue-specific unit pricing and availability are confirmed per project on the written quotation.
+
+## The bottom line
+
+Weight band, print scope, sheet fit \u2014 three decisions, in that order, and the tissue stops being packaging filler and starts being the brand layer it already is on the shelf. [Contact ELAPACK](https://elapack.com/contact) with the box programme and the tissue scope, and the quotation will state the weight, print and sheet specification that ride with it.`
+  },
+  {
+    "slug": "custom-jewelry-packaging-guide",
+    "datePublished": "2026-10-10",
+    "title": "Custom Jewelry Packaging: The Buyer's Overview with Search Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/covers/custom-jewelry-packaging-guide.png",
+    "imageAlt": "Guide cover card: custom jewellery packaging overview \u2014 the component stack from box to pouch to card, ordering sequence and search demand for the cluster",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "One overview for the whole jewellery packaging programme: the component stack in buying order \u2014 box, pouch, card, set, display \u2014 each linked to its deep-dive guide, with the cluster's search data.",
+    "metaDescription": "Custom jewelry packaging overview: search demand for the cluster, the component stack in buying order \u2014 box, pouch, insert, card, set, display \u2014 and how to sequence a jewellery packaging programme.",
+    "body": "*Search volumes and keyword difficulty (KD) are Semrush US database figures: packaging terms are mirror lookups of 2026-10-08; the ring-box term is from the export of 2026-10-07. Component descriptions summarise ELAPACK's published product ranges and its confirmed order terms (MOQ 200 pieces, 15\u201320 day production, custom sample USD 25 plus USD 20 shipping). Each component named here has its own deep-dive guide, linked where it appears.*\n\n> **Quick answer:** buy the stack in this order \u2014 box structure, insert, pouch, card, display \u2014 because each choice constrains the next. The box takes the longest and carries the tooling; the pouch and card ride its dimensions; the display mirrors the box's layout. One supplier quoting the stack as a set beats five quotes for five parts.\n\n## Key facts at a glance\n\n| Item | Figure | Source |\n|---|---|---|\n| Head demand | jewelry packaging 1,300/month (KD 27) | Semrush US, mirror 2026-10-08 |\n| Custom variants | custom jewelry packaging 390 (KD 7); for small business 320 (KD 1) | Semrush US, mirror 2026-10-08 |\n| Component demand | where to buy a ring box 210/month (KD 13) | Semrush US, exported 2026-10-07 |\n| Minimum order | 200 pieces per design, all lines | ELAPACK confirmed terms |\n| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |\n| Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |\n\n## What the demand looks like\n\n![US monthly search volume for jewellery packaging keywords: jewelry packaging at 1300 searches, custom jewelry packaging at 390, custom jewelry packaging for small business at 320, where to buy a ring box at 210. Semrush, October 2026.](/charts/jewelry-packaging-search-volume.svg)\n\nThe head term runs 1,300 searches a month at KD 27, and the custom variants sit at KD 1\u20137 \u2014 about as open as commercial intent gets. The SERP mixes B2B customisers with DIY content (live SERP checked October 2026); the buyer's overview \u2014 what the components are, what order to buy them in, what they cost to specify \u2014 is the missing layer. The product catalogue side lives on the [jewellery packaging page](https://elapack.com/custom-jewelry-packaging); this guide is the decision layer above it.\n\n**KD 1\u20137 custom variants with mixed SERPs \u2014 the overview position is open, and it funnels to every component guide below.**\n\n## The stack, in buying order\n\n### 1. The box\n\nStructure, board grade and finish set everything downstream \u2014 dimensions, tooling, unboxing. The full decision path is the [custom jewellery boxes guide](https://elapack.com/news/how-to-choose-custom-jewelry-boxes); the construction layer beneath (greyboard, three-ply build, twelve structures) is the [rigid boxes guide](https://elapack.com/news/custom-rigid-boxes-guide). Ring programmes narrow further into the [ring box guide](https://elapack.com/news/custom-ring-boxes-guide) with sizing and insert data.\n\n### 2. The insert\n\nWhat holds the piece: paper systems, EVA/PET/PE foams, or layered board at up to 40% space-and-cost saving \u2014 the [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide) compares them on weight, fragility and lift. The insert is specified with the box, not after it.\n\n### 3. The pouch\n\nThe soft layer that travels with the piece: velvet, satin, muslin, cotton, microfiber \u2014 compared in the [jewellery pouch guide](https://elapack.com/news/how-to-choose-a-custom-jewelry-pouch) and the [material comparison](https://elapack.com/news/velvet-satin-muslin-pouches-compared). The logo method on it has its own guide in [logo on custom pouches](https://elapack.com/news/custom-logo-pouches-guide).\n\n### 4. The card\n\nCare cards, message cards, gift cards \u2014 specified with the insert's slot, printed to the same colour discipline as the box. The colour review process that keeps box, pouch and card reading as one set is the [colour tolerance guide](https://elapack.com/news/packaging-colour-tolerance-explained).\n\n### 5. The set, and the display\n\nComplete presentations \u2014 box, fitment, pouch, card quoted as one object \u2014 sit in the [sets collection](https://elapack.com/products?category=Sets%20%26%20Complete%20Packaging); the counter-and-drawer side is the [display and storage guide](https://elapack.com/news/jewelry-display-trays-guide). Display mirrors the box layout: what sits in the tray should sit in the box the same way.\n\n**Each layer constrains the next \u2014 sequence the programme and the quotes reconcile; buy out of order and every later choice reopens an earlier one.**\n\n## What a one-supplier brief looks like\n\nA stack brief a factory can quote as a set carries: the piece list with dimensions and weights; the box structure and grade per format; insert system per format; pouch material and logo method; card scope; the quantities per line against the 200-piece minimum; artwork in vector with Pantone references; and the delivery window. The quotation fields that make offers comparable across suppliers are catalogued in the [specification sheet guide](https://elapack.com/news/how-to-read-a-packaging-specification-sheet). For small brands starting the stack, the MOQ and sampling economics \u2014 what a first 200-piece order actually buys \u2014 are worked in the [MOQ, sample and lead-time guide](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026).\n\n## The bottom line\n\nBuy box \u2192 insert \u2192 pouch \u2192 card \u2192 display, quote the stack as one object, and approve colour across every layer at once. Start on the [jewellery packaging catalogue](https://elapack.com/custom-jewelry-packaging), then [contact ELAPACK](https://elapack.com/contact) with the piece list and quantities \u2014 the quotation will cover the stack as a programme, not as parts."
+  },
+  {
+    "slug": "magnetic-gift-boxes-guide",
+    "datePublished": "2026-10-10",
+    "title": "Magnetic Gift Boxes: Construction, Magnet Systems and Buying Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "8 min read",
+    "image": "/images/covers/magnetic-gift-boxes-guide.png",
+    "imageAlt": "Guide cover card: magnetic gift boxes \u2014 jacket and tray construction, magnet and iron-plate systems, rigid versus foldable formats and buying data",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "For buyers who have chosen magnetic closure: the construction anatomy \u2014 jacket, tray, magnet-and-plate sets \u2014 the rigid-versus-foldable decision, board and strength matching, and the cluster's search data.",
+    "metaDescription": "Magnetic gift box construction explained: jacket and tray anatomy, magnet-and-iron-plate systems, rigid vs foldable formats, strength and board matching, plus US search demand.",
+    "body": `*Search volumes and keyword difficulty (KD) are Semrush US database figures exported 2026-10-07 (cleaned word pools); the \u22481,600/month flagship-line total is the adjudicated 2026-10-07 cluster figure. Construction anatomy and assembly references are as published by packaging manufacturers (sources named inline, checked October 2026). Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample USD 25 plus USD 20 shipping \u2014 are ELAPACK's confirmed trade terms. This guide is the structure deep-dive; if you are still choosing between closure types, start with the [magnetic versus ribbon-tie comparison](https://elapack.com/news/magnetic-closure-vs-ribbon-tie-gift-boxes).*
+
+> **Quick answer:** a magnetic box is a jacket and a tray held shut by two to three magnet-and-iron-plate sets buried in the wrapped board. The two decisions that matter: rigid (ships assembled, always premium) versus foldable (ships flat, assembles at destination), and magnet strength matched to box size and board weight \u2014 verified as closing feel on the loaded sample, not on paper.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order | 200 pieces per design | ELAPACK confirmed terms |
+| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |
+| Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |
+| Anatomy | Jacket + tray; 2\u20133 magnet-and-plate sets; 4\u20136 structural holes per box | As published, chiefcolor.com |
+| Flagship-line demand | \u2248 1,600/month across the magnetic cluster | Adjudicated cluster figure, 2026-10-07 |
+| Charted variants | magnetic lid gift box 210/month (KD 7); magnet gift box 210 (KD 7) | Semrush US, 2026-10-07 |
+
+## What the search demand looks like
+
+![US monthly search volume for magnetic gift box keywords: magnetic lid gift box and magnet gift box at 210 searches each, box magnetic closure and collapsible gift box with magnetic closure at 40 each, christmas boxes with magnetic closure at 40, custom magnetic closure box at 30, custom magnetic boxes wholesale at 30. Semrush, October 2026.](/charts/magnetic-boxes-search-volume.svg)
+
+Magnetic-closure demand is long-tail: the charted variants run 30\u2013210 searches a month at KD 0\u201323, inside an adjudicated cluster of \u22481,600 searches a month that includes variants beyond those charted. The seasonal note matters \u2014 "christmas boxes with magnetic closure" spikes with Q4 \u2014 and so does the wholesale tail: this is trade demand. The [magnetic closure gift box](https://elapack.com/products/magnetic-closure-gift-box) is the product anchor for the line.
+
+**A \u22481,600/month cluster of KD 0\u201323 long-tail variants \u2014 won by the supplier who explains the construction, not the one with the largest product grid.**
+
+## Anatomy: jacket, tray, and what holds it shut
+
+A magnetic box is two working parts: the jacket \u2014 the wrapped outer shell with the closing flap \u2014 and the tray that slides or sits inside. The closure is a pairing of magnets and iron plates (thin ferrous discs) set into the structure: a typical foldable magnetic box carries two to three sets, which means four to six holes engineered into the board, and large formats more (a published example runs to fourteen holes on an oversized storage box). The magnets go in after the jacket is wrapped, and are fixed with glue dots so they cannot drop out in handling; the industry has moved from hand-placement to semi-automatic magnet-applying machines that fill up to three holes per pass (anatomy and assembly as published on blog.chiefcolor.com).
+
+| Component | Role | Buyer's specification angle |
+|---|---|---|
+| Jacket | Wrapped outer shell, carries the flap | Wrap, finish, print \u2014 the brand layer |
+| Tray | Inner carrier for product and insert | Depth, insert fit, product clearance |
+| Magnet + iron plate sets | Closure pairs, 2\u20133 per box typical | Closing feel, hold when loaded |
+| Structural holes | Housing for each magnet/plate | Count and position follow the flap design |
+
+**Every magnet set is engineered structure \u2014 flap design changes hole count, and hole count is a tooling conversation, not a decoration one.**
+
+## Rigid or foldable
+
+The two formats split on one variable: what state the box travels in. A rigid magnetic box ships fully assembled and keeps its shape \u2014 the premium unboxing, at shipping volume. A foldable (collapsible) magnetic box ships flat and assembles at destination \u2014 the freight-efficient format for e-commerce and events, with the same closure once built (formats compared as published on richpkg.com and packagingoftheworld.com). The decision rule is logistics-driven: assembled boxes cube out containers and closets; flat boxes trade a fold-and-tuck step for a fraction of the freight. Board grade follows either path \u2014 the [rigid boxes guide](https://elapack.com/news/custom-rigid-boxes-guide) covers greyboard tiers and the three-layer build beneath this closure.
+
+**Let the freight and the fulfilment step decide \u2014 premium shelf presence is rigid, mail-heavy programmes earn back the fold.**
+
+## Strength, board and the closing feel
+
+Magnet strength is matched to the box, not maximised: the working rule published by manufacturers is that strength follows the cumulative weight of lid and board, with heavier boards and larger flaps taking stronger magnets, and magnet grades stepping from N35 to N52 on the neodymium scale (references as published on packshion.com and insights.made-in-china.com). Two specification consequences follow. First, strength is verified physically: the sample review closes the loaded box \u2014 with product and insert in place \u2014 and checks the flap seats without drift, the same loaded-sample discipline the finishes guide applies to colour. Second, a magnet that is too strong fights the recipient; the target is a hold, not a snap. Specific magnet grades and positions are confirmed per project on the quotation.
+
+**Specify a closing feel, not a magnet grade \u2014 and approve it loaded, with the insert in.**
+
+## Where the format travels
+
+Magnetic closure carries across the range: the flagship [magnetic gift box](https://elapack.com/products/magnetic-closure-gift-box), [watch boxes](https://elapack.com/products/custom-watch-boxes) and [eyelash boxes](https://elapack.com/products/custom-eyelash-packaging-boxes) in smaller formats, and full presentations in the [sets collection](https://elapack.com/products?category=Sets%20%26%20Complete%20Packaging). The ribbon alternative \u2014 where a tied bow is the presentation rather than the closure \u2014 is the [ribbon gift box](https://elapack.com/products/luxury-gift-box-ribbon); the two closures also combine, covered in the [comparison guide](https://elapack.com/news/magnetic-closure-vs-ribbon-tie-gift-boxes). Q4 programmes should read the ordering-maths section of the [gift card boxes guide](https://elapack.com/news/custom-gift-card-boxes-guide) \u2014 the holiday clock applies to this format as much as any.
+
+## What to put in your enquiry
+
+A magnetic-box enquiry a factory can quote first time carries: format \u2014 rigid or foldable; box structure and greyboard grade; the flap design (which sets the magnet count and position); the closing-feel requirement in words \u2014 soft hold, firm hold \u2014 rather than a magnet grade; wrap and finish; insert scope from the [inserts guide](https://elapack.com/news/packaging-inserts-guide); quantity against the 200-piece minimum; and the shipping state \u2014 assembled or flat \u2014 so freight can be planned with production.
+
+## The bottom line
+
+Jacket, tray, two-to-three magnet sets: choose rigid or foldable by logistics, match strength to board, and approve the closing feel on the loaded sample. [Contact ELAPACK](https://elapack.com/contact) with the format, flap design and quantity, and the quotation will state the construction, magnet specification and terms that apply.`
+  },
+  {
     "slug": "velvet-satin-muslin-pouches-compared",
     "datePublished": "2026-10-09",
     "title": "Velvet vs Satin vs Muslin Pouches: Which Material Fits Your Jewellery Brand?",
@@ -4344,6 +4651,26 @@ function News() {
 var import_react_router_dom13 = require("react-router-dom");
 var import_jsx_runtime12 = require("react/jsx-runtime");
 var RELATED = {
+  "custom-rigid-boxes-guide": [
+    "magnetic-closure-gift-box",
+    "custom-ring-boxes"
+  ],
+  "packaging-inserts-guide": [
+    "magnetic-closure-gift-box",
+    "custom-watch-boxes"
+  ],
+  "custom-tissue-paper-guide": [
+    "magnetic-closure-gift-box",
+    "custom-ring-boxes"
+  ],
+  "custom-jewelry-packaging-guide": [
+    "custom-velvet-pouches",
+    "magnetic-closure-gift-box"
+  ],
+  "magnetic-gift-boxes-guide": [
+    "magnetic-closure-gift-box",
+    "custom-watch-boxes"
+  ],
   "velvet-satin-muslin-pouches-compared": [
     "custom-velvet-pouches",
     "custom-satin-pouches",
