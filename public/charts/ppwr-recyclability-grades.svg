@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="PPWR recyclability grade thresholds">
+  <rect width="1200" height="675" fill="#faf9f7"></rect>
+  <text x="60" y="70" font-family="Georgia,serif" font-size="28" fill="#18120c">PPWR recyclability grades: thresholds and market floors</text>
+  <text x="60" y="102" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6b6258">Recyclable-by-weight threshold per grade (regulation grading methodology, as reported by compliance analyses)</text>
+  <text x="306" y="201" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">Grade A</text>
+  <rect x="320" y="180" width="789" height="28" rx="3" fill="#b08d46"></rect>
+  <text x="1119" y="200" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#18120c">~95%</text>
+  <text x="306" y="265" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">Grade B</text>
+  <rect x="320" y="244" width="664" height="28" rx="3" fill="#8a7a68"></rect>
+  <text x="994" y="264" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#18120c">~80%</text>
+  <text x="1000" y="264" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#8a8178">min to market from 1 Jan 2038</text>
+  <text x="306" y="329" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">Grade C</text>
+  <rect x="320" y="308" width="581" height="28" rx="3" fill="#8a7a68"></rect>
+  <text x="911" y="328" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#18120c">~70%</text>
+  <text x="917" y="328" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#8a8178">min to market from 1 Jan 2030</text>
+  <text x="60" y="420" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">Timeline: grading compliance starts 1 January 2030; recycled-at-scale criterion added 2035; minimum grade B from 1 January 2038.</text>
+  <text x="60" y="450" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#33302b">Sources: Regulation (EU) 2025/40 (EUR-Lex, recital 28); European Commission packaging waste page (read 11 Oct 2026).</text>
+  <text x="60" y="640" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#8a8178">Thresholds: regulation grading methodology as consistently reported by compliance analyses of the official text</text>
+</svg>
