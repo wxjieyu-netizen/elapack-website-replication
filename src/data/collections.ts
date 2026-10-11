@@ -155,6 +155,7 @@ export const collections: Collection[] = [
     ],
     ctaTitle: "Request a quote for your eyewear packaging",
     guideSlugs: [
+      "custom-glasses-cases-pouches-guide",
       "custom-rigid-boxes-guide",
       "packaging-inserts-guide",
       "custom-logo-pouches-guide",
@@ -438,6 +439,8 @@ export const collections: Collection[] = [
     ],
     ctaTitle: "Request a quote for your custom gift boxes",
     guideSlugs: [
+      "magnetic-gift-boxes-wholesale-guide",
+      "apparel-gift-boxes-guide",
       "custom-gift-packaging-guide",
       "valentines-day-packaging-timeline",
       "custom-packaging-samples-guide",
@@ -500,6 +503,7 @@ export const collections: Collection[] = [
     ],
     ctaTitle: "Request a quote for your cosmetic packaging",
     guideSlugs: [
+      "custom-makeup-bags-guide",
       "custom-cosmetic-packaging-guide",
       "how-to-customize-eyelash-boxes",
       "press-on-nail-packaging-guide",
@@ -681,6 +685,7 @@ export const collections: Collection[] = [
     ],
     ctaTitle: "Request a quote for your cosmetic pouches",
     guideSlugs: [
+      "custom-makeup-bags-guide",
       "custom-cosmetic-packaging-guide",
       "custom-perfume-packaging-guide",
     ],

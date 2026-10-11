@@ -1190,6 +1190,7 @@ var productGuides = {
     "ppwr-recyclability-grades-guide"
   ],
   "magnetic-closure-gift-box": [
+    "magnetic-gift-boxes-wholesale-guide",
     "magnetic-gift-boxes-guide",
     "magnetic-closure-vs-ribbon-tie-gift-boxes",
     "custom-rigid-boxes-guide",
@@ -1239,11 +1240,13 @@ var productGuides = {
     "ppwr-recyclability-grades-guide"
   ],
   "custom-velvet-pouches": [
+    "custom-glasses-cases-pouches-guide",
     "velvet-satin-muslin-pouches-compared",
     "how-to-choose-a-custom-jewelry-pouch",
     "custom-logo-pouches-guide"
   ],
   "custom-cotton-pouches": [
+    "custom-glasses-cases-pouches-guide",
     "how-to-choose-a-custom-jewelry-pouch",
     "velvet-satin-muslin-pouches-compared",
     "custom-logo-pouches-guide"
@@ -1290,6 +1293,7 @@ var productGuides = {
     "custom-logo-pouches-guide"
   ],
   "custom-satin-pouches": [
+    "custom-makeup-bags-guide",
     "velvet-satin-muslin-pouches-compared",
     "how-to-choose-a-custom-jewelry-pouch",
     "custom-logo-pouches-guide"
@@ -1300,11 +1304,13 @@ var productGuides = {
     "velvet-satin-muslin-pouches-compared"
   ],
   "custom-microfiber-pouches": [
+    "custom-glasses-cases-pouches-guide",
     "how-to-choose-a-custom-jewelry-pouch",
     "velvet-satin-muslin-pouches-compared",
     "custom-logo-pouches-guide"
   ],
   "custom-pvc-bags": [
+    "custom-makeup-bags-guide",
     "how-to-choose-custom-drawstring-bags",
     "custom-cosmetic-packaging-guide",
     "custom-logo-pouches-guide"
@@ -6525,6 +6531,7 @@ var collections = [
     ],
     ctaTitle: "Request a quote for your eyewear packaging",
     guideSlugs: [
+      "custom-glasses-cases-pouches-guide",
       "custom-rigid-boxes-guide",
       "packaging-inserts-guide",
       "custom-logo-pouches-guide"
@@ -6794,6 +6801,8 @@ var collections = [
     ],
     ctaTitle: "Request a quote for your custom gift boxes",
     guideSlugs: [
+      "magnetic-gift-boxes-wholesale-guide",
+      "apparel-gift-boxes-guide",
       "custom-gift-packaging-guide",
       "valentines-day-packaging-timeline",
       "custom-packaging-samples-guide"
@@ -6853,6 +6862,7 @@ var collections = [
     ],
     ctaTitle: "Request a quote for your cosmetic packaging",
     guideSlugs: [
+      "custom-makeup-bags-guide",
       "custom-cosmetic-packaging-guide",
       "how-to-customize-eyelash-boxes",
       "press-on-nail-packaging-guide",
@@ -7025,6 +7035,7 @@ var collections = [
     ],
     ctaTitle: "Request a quote for your cosmetic pouches",
     guideSlugs: [
+      "custom-makeup-bags-guide",
       "custom-cosmetic-packaging-guide",
       "custom-perfume-packaging-guide"
     ]

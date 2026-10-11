@@ -1217,6 +1217,7 @@ export const productGuides: Record<string, string[]> = {
       "ppwr-recyclability-grades-guide",
   ],
   "magnetic-closure-gift-box": [
+    "magnetic-gift-boxes-wholesale-guide",
     "magnetic-gift-boxes-guide",
     "magnetic-closure-vs-ribbon-tie-gift-boxes",
     "custom-rigid-boxes-guide",
@@ -1266,11 +1267,13 @@ export const productGuides: Record<string, string[]> = {
       "ppwr-recyclability-grades-guide",
   ],
   "custom-velvet-pouches": [
+    "custom-glasses-cases-pouches-guide",
     "velvet-satin-muslin-pouches-compared",
     "how-to-choose-a-custom-jewelry-pouch",
     "custom-logo-pouches-guide",
   ],
   "custom-cotton-pouches": [
+    "custom-glasses-cases-pouches-guide",
     "how-to-choose-a-custom-jewelry-pouch",
     "velvet-satin-muslin-pouches-compared",
     "custom-logo-pouches-guide",
@@ -1317,6 +1320,7 @@ export const productGuides: Record<string, string[]> = {
     "custom-logo-pouches-guide",
   ],
   "custom-satin-pouches": [
+    "custom-makeup-bags-guide",
     "velvet-satin-muslin-pouches-compared",
     "how-to-choose-a-custom-jewelry-pouch",
     "custom-logo-pouches-guide",
@@ -1327,11 +1331,13 @@ export const productGuides: Record<string, string[]> = {
     "velvet-satin-muslin-pouches-compared",
   ],
   "custom-microfiber-pouches": [
+    "custom-glasses-cases-pouches-guide",
     "how-to-choose-a-custom-jewelry-pouch",
     "velvet-satin-muslin-pouches-compared",
     "custom-logo-pouches-guide",
   ],
   "custom-pvc-bags": [
+    "custom-makeup-bags-guide",
     "how-to-choose-custom-drawstring-bags",
     "custom-cosmetic-packaging-guide",
     "custom-logo-pouches-guide",
