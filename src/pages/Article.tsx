@@ -28,6 +28,10 @@ const RELATED: Record<string, string[]> = {
     "custom-microfiber-pouches",
     "custom-velvet-pouches",
   ],
+  "perfume-sample-cards-guide": [
+    "custom-perfume-sample-card-boxes",
+    "custom-perfume-boxes",
+  ],
   "luxury-candle-boxes-guide": [
     "magnetic-closure-gift-box",
     "luxury-gift-box-ribbon",
@@ -268,6 +272,10 @@ const ANCHORS: Record<string, Record<string, string>> = {
     "cotton for printed GWP": "custom-cotton-pouches",
     "microfiber when the pouch": "custom-microfiber-pouches",
     "soft pouch": "/eyewear-packaging",
+  },
+  "perfume-sample-cards-guide": {
+    "custom perfume sample cards": "custom-perfume-sample-card-boxes",
+    "subscription packaging collection": "/subscription-box-packaging",
   },
   "surface-finishes-compared-guide": {
     "magnetic flip-top": "magnetic-closure-gift-box",

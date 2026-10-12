@@ -1212,6 +1212,7 @@ var productGuides = {
     "ppwr-recyclability-grades-guide"
   ],
   "custom-perfume-sample-card-boxes": [
+    "perfume-sample-cards-guide",
     "custom-perfume-packaging-guide",
     "how-to-read-a-packaging-specification-sheet",
     "custom-gift-card-boxes-guide",
@@ -3775,6 +3776,114 @@ Keep the note local, and send it to your supplier through your existing approved
     "excerpt": "The eyewear carrier map, honestly drawn: hard shells are a different industry, and the KD 0-9 word family rewards the supplier that says so. Formats, pouch fabrics, frame-driven box sizing and ordering terms.",
     "metaDescription": "Custom glasses cases and pouches: formats from hard shell to soft microfiber, US search data at KD 0-9, personalisation intent, and ordering terms from 200 pieces.",
     "body": "*Keyword data in this guide was read from the Semrush US database through a logged-in session on 12 October 2026, no export \u2014 the eyewear family is absent from our S1/S2 export, which is precisely why this cluster went unmeasured until now. Ordering terms are as published on our [eyewear packaging](https://elapack.com/eyewear-packaging) page.*\n\nEyewear is our longest-standing category and the one with the biggest content gap: until this week, the word data simply was not in the library. The mirror-read changes that \u2014 the custom glasses case family turns out to be small in volume but the easiest difficulty profile we have ever measured in a commercial cluster. This page fills the gap properly: formats compared honestly (including the one we do not make), the word data, and the ordering terms.\n\n> **Quick answer:** custom glasses carriers split into hard shells (injection-moulded, a specialist industry), semi-hard cases, soft pouches in velvet, cotton or microfiber, and printed boxes with fitted inserts. We make the pouch and box sides \u2014 from 200 pieces per design, 15-20 working days \u2014 and the honest spec decision is which side of that line your product actually needs.\n\n## What the search data says\n\n![US search demand: custom glasses case cluster](/charts/glasses-cases-search-volume.svg)\n\n| Keyword | Monthly US searches | KD | Intent |\n|---|---|---|---|\n| custom glasses case | 170 | 3 | commercial |\n| custom eyeglass case | 140 | 3 | commercial |\n| personalised spectacle case | 140 | 4 | commercial |\n| personalised eyeglass cases | 70 | 0 | commercial |\n| personalised eyeglass case | 140 | 4 | commercial |\n| custom sunglasses case | 90 | 9 | commercial |\n| spectacle case soft | 70 | n/a | commercial |\n\n*Source: Semrush US database, read via logged-in session on 12 October 2026 (no export). Head volume is modest; difficulty 0-9 across the family is the lowest we have measured in any commercial cluster.*\n\nTwo structural reads. First, the personalisation angle is as large as the custom angle \u2014 personalised variants match the custom variants almost word for word, which means gifting and branding intent, not just optical-industry supply. Second, the soft-case phrases register inside the family (spectacle case soft, 70): the fabric side of this market is native demand, not an upsell.\n\n## Formats: the honest map\n\n| Format | Construction | Who makes it | What it is for |\n|---|---|---|---|\n| Hard shell | injection-moulded or metal, hinge or spring | hard-case specialists \u2014 not us | everyday carry, optical retail |\n| Semi-hard | fabric over structured shell | case specialists | carry with some protection |\n| Soft pouch | velvet, cotton or microfiber, open or drawstring | us \u2014 [velvet](https://elapack.com/products/custom-velvet-pouches), [cotton](https://elapack.com/products/custom-cotton-pouches), [microfiber](https://elapack.com/products/custom-microfiber-pouches) | in-box protection, lens cleaning, GWP |\n| Printed box with fitted insert | rigid or magnetic box, EVA or moulded insert | us \u2014 [eyewear packaging](https://elapack.com/eyewear-packaging) | retail presentation, gift sets, e-commerce |\n| Fold-flat box | engineered creases, ships flat | us | subscription and volume programs |\n\nStating the boundary plainly: if the product needs a hinged hard shell, that is a different factory's catalogue, and pretending otherwise wastes your sampling budget. What pairs with every frame line is the fabric-plus-box program \u2014 the pouch that keeps the frames safe after the sale, and the printed box that presents them at it.\n\n## The pouch decision\n\nThe [jewellery pouch guide](https://elapack.com/news/how-to-choose-a-custom-jewelry-pouch) covers fabric, size and closure logic that transfers directly to eyewear: velvet for premium presentation, cotton for printed GWP programs, microfiber when the pouch doubles as the cleaning cloth. Logo economics \u2014 screen print versus heat transfer versus woven labels \u2014 are broken out in the [pouch logo guide](https://elapack.com/news/custom-logo-pouches-guide); the one-line version is screen print under three colours, woven labels on velvet and satin.\n\nPersonalisation is where the word data says the money is: the personalised variants (personalised spectacle case, personalised eyeglass case) carry gifting intent \u2014 monogram-style single-decoration runs, which suit a 200-piece MOQ program per design.\n\n## The box decision: frames set the footprint\n\nA folded pair of glasses defines the box interior \u2014 share the folded frame dimensions and the box and insert get built around them, the same rule our eyewear collection page publishes. Standard decisions:\n\n| Decision | Options | Notes |\n|---|---|---|\n| Construction | rigid two-piece, magnetic flip-lid, fold-flat | magnetic pairs with the [magnetic gift box guide](https://elapack.com/news/magnetic-gift-boxes-guide) |\n| Insert | moulded EVA, die-cut board, fabric-wrapped tray | insert materials compared in [packaging inserts](https://elapack.com/news/packaging-inserts-guide) |\n| Program | single-frame box, two-frame gift set, box + pouch + card | sets mirror the [jewellery packaging](https://elapack.com/news/custom-jewelry-packaging-guide) playbook |\n\n## Ordering data\n\n| Line item | Terms |\n|---|---|\n| MOQ | 200 pieces per design \u2014 printed glasses boxes, fabric pouches and fitted inserts included, custom sizes included |\n| Production | 15-20 working days (200-20,000), 20-25 days (20,000-50,000), from sample approval and deposit |\n| Stock sample | free, ships 2-3 days (USD 20 courier) |\n| Custom sample | USD 25 + USD 20 shipping, built 3-5 days from confirmed artwork; a full custom round lands in roughly two weeks at about USD 45 all-in |\n| Payment and freight | T/T or PayPal; air or sea from Shanghai or Shenzhen |\n\n## Bottom line\n\nMeasure the cluster honestly: small volume, near-zero difficulty, personalisation-heavy intent \u2014 a content and product page that states the hard-shell boundary will outrank a generic supplier page that blurs it. On the supply side, order the box and the pouch as one program so colour and branding match across both.\n\n**Spec an eyewear packaging program:** send folded frame dimensions and artwork status through the [contact page](https://elapack.com/contact), or start from the [eyewear packaging collection](https://elapack.com/eyewear-packaging). For the wider trust checklist before a deposit, see [how to vet a packaging manufacturer](https://elapack.com/news/how-to-vet-a-packaging-manufacturer)."
+  },
+  {
+    "slug": "perfume-sample-cards-guide",
+    "datePublished": "2026-10-13",
+    "title": "Perfume Sample Cards: Formats, Blotters and Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "8 min read",
+    "image": "/images/covers/perfume-sample-cards-guide.webp",
+    "imageAlt": "Editorial info-card cover for the ELAPACK perfume sample cards",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Perfume sample cards from the buyer side: the four card formats, what to settle at artwork, the three sourcing paths and quote-sheet terms from a 200-piece MOQ.",
+    "metaDescription": "Custom and wholesale perfume sample cards: four formats, sourcing paths and ordering terms (MOQ 200, free dieline, sample USD 25).",
+    "body": `*Ordering terms below are ELAPACK quote-sheet terms; supplier practices are described as published by the packaging industry. We print and supply custom perfume sample cards, so read this as a manufacturer's data sheet rather than a neutral review. For the bottle, cap and gift-box side of fragrance packaging, see the [custom perfume packaging guide](https://elapack.com/news/custom-perfume-packaging-guide); this page stays on the sample-card carriers.*
+
+> **Quick answer.** Perfume sample cards are printed card carriers for scent \u2014 blotter strips, vials or sachets mounted on a branded card. Brands order them for counter programmes, press mailers, boutique handouts and subscription inserts: the card fixes the sample in place, posts mail-flat, and carries the brand face, scent story and instruction on one printed piece. This guide covers the four formats, what to settle at artwork stage, the three sourcing paths, shipping practice, and the ordering terms for a run \u2014 MOQ 200 per design, free dieline at quotation, custom sample USD 25 plus USD 20 shipping, 15\u201320 day production.
+
+## What a sample-card programme covers
+
+Three buyer groups order these cards. Fine-fragrance brands run counter programmes and press mailers. Home-fragrance brands \u2014 candle and diffuser \u2014 put scent cards into catalogue mailings and subscription boxes, so the customer smells the fragrance before buying the candle. Subscription curators add them as monthly inserts alongside the box and void fill.
+
+The card earns its place over a loose vial in four ways. It fixes the sample in position for transit. It posts mail-flat, so a programme ships without parcel packaging. It prints \u2014 brand face, scent story and instruction on one piece, edge to edge. And it standardises the handout: one card per scent, same size, same fold, whether the run is 200 pieces or 20,000.
+
+The brief that reaches a printer specifies three things \u2014 sample count, vial format and card size. That triplet drives the dieline, and the formats below are the four ways it gets answered.
+
+![Four sample-card formats and their typical programmes](/charts/perfume-sample-cards-formats.svg)
+
+*Fig. 1 \u2014 Format-to-programme mapping: the four card formats and where each one runs.*
+
+## Four formats: blotters, cards, wallet size, vial-on-card
+
+**Table 1 \u2014 The four formats at a glance.**
+
+| Format | Stock and size (as published) | Typical programme |
+|---|---|---|
+| Blotter strips | absorbent blotter board; marketplace listings commonly 300\u2013400 gsm | counter blocks, single-scent tests |
+| Standard cards | folded or flat card, cut to sample count and vial format | discovery sets, mailers |
+| Wallet-size cards | 85.60 \xD7 53.98 mm, ISO/IEC 7810 ID-1 | catalogues, envelopes, counter stacks |
+| Vial-on-card | printed card with mounted vial | press mailers, GWP counters |
+
+The weight band is quoted as published by supplier listings \u2014 Alibaba blotter-card listings run 300, 350 and 400 gsm, and specialist suppliers such as maxi-mise describe heavy absorbent board for fragrance evaluation. ELAPACK house stock is confirmed at quotation, with the sample.
+
+**Blotter strips.** The perfumery standard: narrow absorbent paper, dipped or sprayed, handed over a counter or mailed in blocks. Fine-fragrance suppliers also call them mouillettes. One strip carries one scent; blocks run into the hundreds for a launch or a counter programme.
+
+**Standard sample cards.** A folded or flat printed card carrying one vial or a row of them. Layouts run from single-scent cards to multi-scent discovery sets \u2014 the card is cut to your sample count and vial format, with artwork printed edge to edge. This is the format most "custom perfume sample cards" buyers are describing.
+
+**Wallet-size cards.** The credit-card format \u2014 85.60 \xD7 53.98 mm, the ISO/IEC 7810 ID-1 size \u2014 fits envelopes, counter stacks and wallets. It is the one format the customer can pocket, which makes the size itself worth naming in the artwork brief.
+
+**Vial-on-card.** A vial mounted on a printed card: the format for press mailers and GWP counters where the customer keeps the card and uses the sample.
+
+One boundary line for this page: the four formats above are card carriers. Standalone sample vials sold retail \u2014 decants of existing fragrances \u2014 are a consumer market with its own suppliers and price logic; nothing here covers buying 2 ml of a scent you already know.
+
+## Printing and branding the card
+
+The card is a brand surface before it is a scent carrier. Production artwork usually carries three blocks: the brand face (logo and colour), the scent story (name, notes, one line), and the handling instruction for the vial or sachet. Artwork prints edge to edge, so the blocks live on the card itself rather than on an added label.
+
+Logo application across our custom packaging \u2014 position, colour build, method selection \u2014 is covered in the [MOQ/OEM logo guide](https://elapack.com/news/custom-packaging-moq-oem-odm-logo-guide); the same decision list applies to card faces.
+
+Ink odour is one variable the print industry already manages. It is driven by the solvent base of the ink, and low-odour / low-migration ink classes exist for scent-sensitive print work \u2014 both facts as published in technical sources developed mainly for food-contact packaging (Daihei Ink technical notes; low-migration ink literature). When the print sits on a scent carrier, naming the ink class in the specification is the buyer-side control.
+
+What print cannot fix is layout. The vial position, the fold line and the scent zone have to work as one dieline, which is why the dieline is drawn at quotation (free of charge) and the artwork develops against it: sample count and card size first, then the drawing, then final print files.
+
+## The candle crossover
+
+Candle and home-fragrance brands buy the same product for a different job. They use scent cards where perfume counters use blotters: in catalogue mailings, order inserts, counter displays and subscription boxes, so the customer smells the wax fragrance before buying the candle.
+
+The card system is identical. What changes is the fragrance application, and that gets settled at the sampling stage rather than in the artwork. Candle brands already ordering boxes for jars and tins can plan the card inside the same programme \u2014 the container side is covered in our [candle packaging guide](https://elapack.com/news/candle-packaging-guide) and the custom candle boxes guide; for the insert side of a monthly box, the subscription packaging collection lists the structures that pair with a scent card.
+
+## Where brands actually source sample cards
+
+Three sourcing paths cover the market:
+
+**Marketplace blanks.** Amazon and Etsy listings hold the visible results for ready-made white sample cards \u2014 small quantities, no branding, shipped from stock. Fits tests and one-off mailings; does not fit a branded programme.
+
+**Factory blanks.** The middle path is unprinted cards bought in bulk from a printer, with fragrance applied in-house. You gain quantity pricing and keep application control; you give up the print.
+
+**Custom-printed factory cards.** The third path is buyers approaching factories directly: your artwork, your vial layout, one dieline. This is the path this page quotes for.
+
+Wholesale-where questions recur on Reddit and in trade communities \u2014 which is where a manufacturer's answer page earns its place.
+
+Quantity and branding decide the path: unbranded tests at marketplace scale, branded runs from 200 pieces per design with custom print.
+
+## Shipping and protecting the sample
+
+Shipping questions in this family cluster around the vial, not the card: community threads recur on how to mail mini perfume bottles without leaks or breakage. The card answers part of that by construction. The vial mounts on the printed card, the piece stays mail-flat, and a sampling programme posts without parcel packaging \u2014 the programmes already running on this card system are sampling programmes, subscription inserts, boutique handouts and press mailers.
+
+For the outer side of a mailing \u2014 box, insert, void fill \u2014 the subscription packaging collection covers the structures that ship alongside a scent card.
+
+## Ordering data
+
+**Table 2 \u2014 quote-sheet terms, custom perfume sample cards.**
+
+| Item | Term |
+|---|---|
+| MOQ | 200 pieces per design |
+| Dieline | Free, drawn at quotation |
+| Cutting die | USD 50\u2013100, one-time |
+| Custom sample | USD 25 + USD 20 shipping, 3\u20135 days |
+| Stock sample | Free + USD 20 shipping, 2\u20133 days |
+| Lead time, 200\u201320,000 pcs | 15\u201320 days |
+| Payment | T/T or PayPal |
+
+Sample cards are die-cut products, so the cutting-die line applies to every format above \u2014 it is a one-time cost at first order. To plan a run: confirm sample count and card size, receive the dieline at quotation, approve a sample, then production.
+
+## Bottom line
+
+Four formats cover the demand: blotters for counter blocks, standard cards for discovery sets and mailers, wallet size for catalogues, vial-on-card for press mailers. Candle and home-fragrance programmes run on the same card system. Branded runs start at 200 pieces per design, dieline free at quotation, custom sample USD 25 plus USD 20 shipping, 15\u201320 day production.`
   }
 ]);
 function getArticleBySlug(slug) {
@@ -5009,6 +5118,10 @@ var RELATED = {
     "custom-microfiber-pouches",
     "custom-velvet-pouches"
   ],
+  "perfume-sample-cards-guide": [
+    "custom-perfume-sample-card-boxes",
+    "custom-perfume-boxes"
+  ],
   "luxury-candle-boxes-guide": [
     "magnetic-closure-gift-box",
     "luxury-gift-box-ribbon"
@@ -5242,6 +5355,10 @@ var ANCHORS = {
     "cotton for printed GWP": "custom-cotton-pouches",
     "microfiber when the pouch": "custom-microfiber-pouches",
     "soft pouch": "/eyewear-packaging"
+  },
+  "perfume-sample-cards-guide": {
+    "custom perfume sample cards": "custom-perfume-sample-card-boxes",
+    "subscription packaging collection": "/subscription-box-packaging"
   },
   "surface-finishes-compared-guide": {
     "magnetic flip-top": "magnetic-closure-gift-box"

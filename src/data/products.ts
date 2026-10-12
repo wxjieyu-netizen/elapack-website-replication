@@ -1239,6 +1239,7 @@ export const productGuides: Record<string, string[]> = {
       "ppwr-recyclability-grades-guide",
   ],
   "custom-perfume-sample-card-boxes": [
+    "perfume-sample-cards-guide",
     "custom-perfume-packaging-guide",
     "how-to-read-a-packaging-specification-sheet",
     "custom-gift-card-boxes-guide",
