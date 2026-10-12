@@ -563,6 +563,8 @@ export default function Article() {
           <p className="eyebrow reveal">{article.category}</p>
           <h1 className="page-title reveal reveal-delay-1">{article.title}</h1>
           <div className="news-meta reveal reveal-delay-2" style={{ justifyContent: "center" }}>
+            <span>By <Link to="/about" className="text-link">Tina</Link></span>
+            <span className="news-meta-dot" />
             <span>{article.date}</span>
             <span className="news-meta-dot" />
             <span>{article.readTime}</span>

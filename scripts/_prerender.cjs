@@ -5542,6 +5542,11 @@ function Article() {
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "eyebrow reveal", children: article.category }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: article.title }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "news-meta reveal reveal-delay-2", style: { justifyContent: "center" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("span", { children: [
+          "By ",
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_react_router_dom13.Link, { to: "/about", className: "text-link", children: "Tina" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "news-meta-dot" }),
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: article.date }),
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "news-meta-dot" }),
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: article.readTime })
@@ -7425,7 +7430,7 @@ for (const route of ROUTES) {
           datePublished: article.datePublished,
           dateModified: article.dateModified ?? article.datePublished
         } : {},
-        author: { "@type": "Organization", name: "ELAPACK", url: `${SITE}/` },
+        author: { "@type": "Person", name: "Tina", url: `${SITE}/about`, worksFor: { "@type": "Organization", name: "ELAPACK", url: `${SITE}/` } },
         publisher: {
           "@type": "Organization",
           name: "ELAPACK",
