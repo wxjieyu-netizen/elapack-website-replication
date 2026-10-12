@@ -247,6 +247,28 @@ const RELATED: Record<string, string[]> = {
  * plain so links read naturally and never cluster.
  */
 const ANCHORS: Record<string, Record<string, string>> = {
+  "magnetic-gift-boxes-wholesale-guide": {
+    "wholesale magnetic gift boxes": "magnetic-closure-gift-box",
+    "magnetic box": "/custom-gift-boxes",
+  },
+  "custom-makeup-bags-guide": {
+    "cotton canvas and muslin": "custom-cotton-pouches",
+    "satin and velvet": "custom-satin-pouches",
+    "microfiber cleans": "custom-microfiber-pouches",
+  },
+  "custom-packaging-small-business-guide": {
+    "pouch": "custom-cotton-pouches",
+  },
+  "apparel-gift-boxes-guide": {
+    "tissue plus ribbon": "luxury-gift-box-ribbon",
+    "apparel box": "magnetic-closure-gift-box",
+  },
+  "custom-glasses-cases-pouches-guide": {
+    "velvet for premium presentation": "custom-velvet-pouches",
+    "cotton for printed GWP": "custom-cotton-pouches",
+    "microfiber when the pouch": "custom-microfiber-pouches",
+    "soft pouch": "/eyewear-packaging",
+  },
   "surface-finishes-compared-guide": {
     "magnetic flip-top": "magnetic-closure-gift-box",
   },
@@ -566,6 +588,10 @@ export default function Article() {
             </nav>
           )}
           <div className="article-body">{renderBody(article.body, ANCHORS[article.slug])}</div>
+          <div className="article-cta reveal">
+            <p className="article-cta-facts">MOQ 200 per design · free dieline at quotation · custom sample USD 25 + USD 20 shipping, 3-5 days</p>
+            <Link to="/contact" className="btn-primary article-cta-btn">Request a quote</Link>
+          </div>
           {related.length > 0 && (
             <div className="article-related reveal">
               <h2>Related products</h2>

@@ -5284,6 +5284,28 @@ var RELATED = {
   ]
 };
 var ANCHORS = {
+  "magnetic-gift-boxes-wholesale-guide": {
+    "wholesale magnetic gift boxes": "magnetic-closure-gift-box",
+    "magnetic box": "/custom-gift-boxes"
+  },
+  "custom-makeup-bags-guide": {
+    "cotton canvas and muslin": "custom-cotton-pouches",
+    "satin and velvet": "custom-satin-pouches",
+    "microfiber cleans": "custom-microfiber-pouches"
+  },
+  "custom-packaging-small-business-guide": {
+    "pouch": "custom-cotton-pouches"
+  },
+  "apparel-gift-boxes-guide": {
+    "tissue plus ribbon": "luxury-gift-box-ribbon",
+    "apparel box": "magnetic-closure-gift-box"
+  },
+  "custom-glasses-cases-pouches-guide": {
+    "velvet for premium presentation": "custom-velvet-pouches",
+    "cotton for printed GWP": "custom-cotton-pouches",
+    "microfiber when the pouch": "custom-microfiber-pouches",
+    "soft pouch": "/eyewear-packaging"
+  },
   "surface-finishes-compared-guide": {
     "magnetic flip-top": "magnetic-closure-gift-box"
   },
@@ -5532,6 +5554,10 @@ function Article() {
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("ol", { children: toc.map((t) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("a", { href: `#${t.id}`, className: "text-link", children: t.text }) }, t.id)) })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-body", children: renderBody(article.body, ANCHORS[article.slug]) }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-cta reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-cta-facts", children: "MOQ 200 per design \xB7 free dieline at quotation \xB7 custom sample USD 25 + USD 20 shipping, 3-5 days" }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_react_router_dom13.Link, { to: "/contact", className: "btn-primary article-cta-btn", children: "Request a quote" })
+      ] }),
       related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-related reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: "Related products" }),
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("ul", { className: "spec-list", children: related.map((p) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: `/products/${p.slug}`, className: "text-link", children: [
