@@ -1176,6 +1176,7 @@ var productGuides = {
     "ppwr-recyclability-grades-guide"
   ],
   "custom-ring-boxes": [
+    "custom-watch-boxes-guide",
     "custom-ring-boxes-guide",
     "packaging-inserts-guide",
     "custom-rigid-boxes-guide",
@@ -1202,14 +1203,16 @@ var productGuides = {
     "custom-rigid-boxes-guide",
     "packaging-inserts-guide",
     "ppwr-packaging-regulation-guide",
-    "ppwr-recyclability-grades-guide"
+    "ppwr-recyclability-grades-guide",
+    "ppwr-empty-space-rules-guide"
   ],
   "custom-perfume-boxes": [
     "custom-perfume-packaging-guide",
     "custom-rigid-boxes-guide",
     "packaging-inserts-guide",
     "ppwr-packaging-regulation-guide",
-    "ppwr-recyclability-grades-guide"
+    "ppwr-recyclability-grades-guide",
+    "wholesale-perfume-boxes-guide"
   ],
   "custom-perfume-sample-card-boxes": [
     "perfume-sample-cards-guide",
@@ -1224,9 +1227,11 @@ var productGuides = {
     "custom-rigid-boxes-guide",
     "packaging-inserts-guide",
     "ppwr-packaging-regulation-guide",
-    "ppwr-recyclability-grades-guide"
+    "ppwr-recyclability-grades-guide",
+    "ppwr-empty-space-rules-guide"
   ],
   "custom-hair-extension-boxes": [
+    "custom-hair-extension-boxes-guide",
     "custom-hair-extension-packaging-guide",
     "hair-extension-packaging-ideas",
     "custom-rigid-boxes-guide",
@@ -1234,6 +1239,7 @@ var productGuides = {
     "ppwr-recyclability-grades-guide"
   ],
   "custom-watch-boxes": [
+    "custom-watch-boxes-guide",
     "custom-rigid-boxes-guide",
     "packaging-inserts-guide",
     "how-to-choose-custom-jewelry-boxes",
@@ -1250,12 +1256,14 @@ var productGuides = {
     "custom-glasses-cases-pouches-guide",
     "how-to-choose-a-custom-jewelry-pouch",
     "velvet-satin-muslin-pouches-compared",
-    "custom-logo-pouches-guide"
+    "custom-logo-pouches-guide",
+    "custom-toiletry-bags-guide"
   ],
   "custom-cotton-envelope-pouches": [
     "how-to-choose-a-custom-jewelry-pouch",
     "custom-logo-pouches-guide",
-    "how-to-read-a-packaging-specification-sheet"
+    "how-to-read-a-packaging-specification-sheet",
+    "custom-toiletry-bags-guide"
   ],
   "velvet-necklace-display": [
     "jewelry-display-trays-guide",
@@ -1291,7 +1299,8 @@ var productGuides = {
   "custom-satin-wig-bag": [
     "custom-wig-packaging-guide",
     "velvet-satin-muslin-pouches-compared",
-    "custom-logo-pouches-guide"
+    "custom-logo-pouches-guide",
+    "custom-hair-extension-boxes-guide"
   ],
   "custom-satin-pouches": [
     "custom-makeup-bags-guide",
@@ -1314,7 +1323,8 @@ var productGuides = {
     "custom-makeup-bags-guide",
     "how-to-choose-custom-drawstring-bags",
     "custom-cosmetic-packaging-guide",
-    "custom-logo-pouches-guide"
+    "custom-logo-pouches-guide",
+    "custom-toiletry-bags-guide"
   ]
 };
 
@@ -3884,6 +3894,357 @@ Sample cards are die-cut products, so the cutting-die line applies to every form
 ## Bottom line
 
 Four formats cover the demand: blotters for counter blocks, standard cards for discovery sets and mailers, wallet size for catalogues, vial-on-card for press mailers. Candle and home-fragrance programmes run on the same card system. Branded runs start at 200 pieces per design, dieline free at quotation, custom sample USD 25 plus USD 20 shipping, 15\u201320 day production.`
+  },
+  {
+    "slug": "custom-watch-boxes-guide",
+    "datePublished": "2026-10-14",
+    "title": "Custom Watch Boxes: Personalisation, Structures and Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/covers/custom-watch-boxes-guide.webp",
+    "imageAlt": "Editorial info-card cover for the ELAPACK custom watch boxes guide",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Custom watch boxes from the buyer side: three structures, fitted pillow inserts sized from the watch itself, personalisation routes on the print-and-board line, and quote-sheet terms from a 200-piece MOQ.",
+    "metaDescription": "Custom and personalised watch boxes: three structures, fitted pillow inserts, monogram and branding routes, and ordering terms (MOQ 200, sample USD 25, 15\u201320 days).",
+    "body": `*Ordering terms below are ELAPACK quote-sheet terms. Supplier practices and comparator terms are described as published by the named suppliers, read 14 October 2026. Community sentiment is summarised from public watch-community discussions, read 14 October 2026. We make and supply custom watch boxes, so read this as a manufacturer's data sheet rather than a neutral review.*
+
+For the jewellery-box family across ring, necklace and gift formats, see the [custom jewellery boxes guide](https://elapack.com/news/how-to-choose-custom-jewelry-boxes); this page stays on the watch programme.
+
+> **Quick answer.** A custom watch box is a rigid presentation box with a fitted pillow that holds the watch upright and still \u2014 single-watch presentation pieces through multi-bay boxes for sets and collectors. Three structures cover the demand: two-piece lift-off, drawer and magnetic flip-top, in art-paper, textured or faux-leather wraps. Personalisation on this line runs in foil, embossing or print; engraved wooden boxes are a different industry. Branded runs start at 200 pieces per design, dieline free at quotation, custom sample USD 25 plus USD 20 shipping, 15\u201320 day production.
+
+### 1. What a branded watch box programme covers
+
+Three buyer groups order these boxes. Watch brands and microbrands box the watch itself \u2014 counter presentation, e-commerce parcels, the box-and-papers that follow a piece at resale. Strap makers box straps and strap-and-watch sets. Gift and corporate programmes order monogrammed presentation boxes for retirement, graduation and wedding-party gifting \u2014 this is where the personalised and monogrammed demand lands when it arrives as a business order rather than a one-off retail purchase.
+
+The watch-buying community holds a settled opinion worth reading before the budget line. Across recurring microbrand threads, buyers argue that large, high-cost boxes waste money that belongs in the watch, and favour low-profile boxes that keep shipping prices down \u2014 "big into low profile boxes that keep shipping prices down and costs put into the watches" is the recurring phrasing. The counterpoint, that original box and papers matter at resale, is the reason the box survives as a programme at all. Both positions land on the same specification: keep the profile low and the presentation intact.
+
+What the box then does is fixed: present the piece at the counter, hold it upright and still in transit, protect it through gifting and shipping, and carry the brand face on every surface.
+
+**Takeaway:** the community that buys watches asks for low profile first \u2014 the presentation has to earn its height.
+
+### 2. Three structures: lift-off lid, drawer, magnetic flip-top
+
+**Table 1 \u2014 the three structures at a glance.**
+
+| Structure | How it works | Works hardest at |
+|---|---|---|
+| Two-piece lift-off | lid lifts clear of a base | counter presentation, gifting |
+| Drawer | tray slides from a sleeve | strap-and-watch sets, premium unboxing |
+| Magnetic flip-top | hinged lid closes flat | e-commerce retail, parcel post |
+
+The lift-off is the classic single-watch presentation piece: the lid comes clear away, the base carries the pillow, and the unboxing is a two-hand moment built for counters and gifting. The drawer suits sets \u2014 the tray carries the fitted pillow while the sleeve carries the finish, so a watch-plus-strap programme presents as one piece. The magnetic flip-top closes flat and opens one-handed at a counter, and the closure holds through parcel handling; the construction logic behind magnetic lids is covered in the [magnetic gift boxes guide](https://elapack.com/news/magnetic-gift-boxes-guide).
+
+Layouts run from one-watch presentation boxes to multi-watch boxes with individually pillowed bays. For size class, stock comparators as published by Westpack (read 14 October 2026): single lacquered watch gift boxes at 9 \xD7 9 \xD7 8.5 cm, watch-and-bracelet combinations at 13 \xD7 13 \xD7 10.5 cm \u2014 a single-watch box is a small object, and the structure list above decides how that small object opens, not how big it gets.
+
+**Takeaway:** structure follows where the box works hardest \u2014 counter, unboxing or parcel.
+
+### 3. The insert: watch pillows and bays
+
+The pillow is the part that fits the watch. Fitted pillows, velvet or satin covered, hold each timepiece upright and still \u2014 the same insert craft that runs in our ring boxes, with pillow materials and colours specified to the programme. A watch laid loose in a lined box rolls in transit and presents at an angle; the pillow fixes head and strap so the piece sits the way it is worn.
+
+Multi-watch boxes get individually pillowed bays, so a two-watch gift pair or a six-watch collector set holds each piece independently \u2014 one bay per watch, each cut to the same specification.
+
+The specification inputs are the watch's own numbers: case dimensions, strap, and piece count per box. Those three settle the pillow cut and the bay spacing at dieline stage, which is why a watch-box quotation starts from watch dimensions rather than box dimensions. For the wider insert logic across box families \u2014 foam, moulded pulp, board and textile \u2014 the [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide) compares the materials.
+
+**Takeaway:** the pillow is the fit decision \u2014 quote from the watch's dimensions, not the box's.
+
+![Three watch-box structures and where each works hardest](/charts/custom-watch-boxes-structures.svg)
+
+*Fig. 1 \u2014 Structure-to-context mapping: the three structures and the multi-bay layout, and where each one works.*
+
+### 4. Wraps, finishes and personalisation
+
+The wrap is the brand surface. Three wrap families spec to the programme: matte art paper for full-print branding, textured wraps for a tactile finish under foil, and faux leather for the gift and counter end. Board construction is the same craft as our jewellery boxes \u2014 greyboard at 1.5 mm through 3.0 mm by box size, board cost running roughly 8\u201325 % of the box depending on size, structure and finishing (ELAPACK process data, for reference only). Surface finishes layer on top: matte or gloss lamination, foil stamping, embossing and spot UV \u2014 the [surface finishes comparison](https://elapack.com/news/surface-finishes-compared-guide) breaks down the cost and appearance trade-offs.
+
+Personalisation on this line runs in three routes. A foil monogram \u2014 initials stamped in foil on the wrap \u2014 is the gifting route for corporate and wedding-party programmes. An embossed or debossed brand mark reads blind, without colour, and carries the jewellery-counter register. Full print turns the whole wrap into the brand face, edge to edge.
+
+One boundary line: the retail monogrammed-watch-box market runs on engraved wood and leather, and that supply is a different industry \u2014 joinery and leather goods, not print-and-board packaging. A monogram does not require engraving. Foil initials on a matte wrap are the standard route when the order is a branded run rather than a one-off retail gift, and this page stays on the print-and-board side of that line.
+
+After the box opens, matched velvet pouches carry the watch through storage and travel \u2014 the after-sale programme runs on the same colour and logo specification.
+
+**Takeaway:** monograms on this line run in foil, emboss or print \u2014 engraved wood is another industry.
+
+### 5. Sizing the box to the watch \u2014 and the parcel
+
+Sizing starts at quotation, and the inputs are the watch's numbers plus the piece count. The dieline is drawn free at quotation to the confirmed sizes: bay width follows case diameter plus strap, and box height follows pillow depth plus lid clearance. Nothing in that chain needs a standard box size, because the watch is the standard.
+
+The parcel is the second number. Couriers bill by the greater of actual and volumetric weight \u2014 standard published practice across carriers \u2014 so box height converts directly into freight cost per piece. This is the arithmetic behind the community's low-profile preference: a single-watch lift-off at single-figure centimetres of height ships as a small parcel, and a tall lacquered chest does not. For gifting programmes on a calendar, the [packaging timeline guide](https://elapack.com/news/valentines-day-packaging-timeline) works back from the giving date to order and production dates.
+
+**Takeaway:** two numbers size the box \u2014 the watch, and the parcel it ships in.
+
+### 6. Ordering data
+
+**Table 2 \u2014 quote-sheet terms, custom watch boxes.**
+
+| Item | Term |
+|---|---|
+| MOQ | 200 pieces per design |
+| Dieline | Free, drawn at quotation |
+| Cutting die | USD 50\u2013100, one-time |
+| Custom sample | USD 25 + USD 20 shipping, 3\u20135 days |
+| Stock sample | Free + USD 20 shipping, 2\u20133 days |
+| Lead time, 200\u201320,000 pcs | 15\u201320 days |
+| Payment | T/T or PayPal |
+
+Watch boxes are die-cut rigid products, so the cutting-die line applies to a first order as a one-time cost. Supplier photography for this line is still in progress \u2014 a stock sample (free plus USD 20 shipping, 2\u20133 days) judges the board and wrap in hand before any artwork decision, and a custom sample (USD 25 plus USD 20 shipping, 3\u20135 days) settles wrap, colour and personalisation before the run. What a packaging sample should show, and what it costs across formats, is covered in the [packaging samples guide](https://elapack.com/news/custom-packaging-samples-guide).
+
+**Table 3 \u2014 comparator terms, as published by each supplier (read 14 October 2026).**
+
+| Supplier | Published term |
+|---|---|
+| Westpack | logo-customised watch boxes from MOQ 250 (single styles) / 300 (watch-and-bracelet combos); stock boxes no MOQ |
+| Allure Pack | logo plate fees from USD 75; box-and-pouch sets from USD 89 |
+
+These are each supplier's own published terms, quoted for comparison only; ELAPACK terms are Table 2 and run from 200 pieces per design. To request a quote: watch dimensions, piece count and bay count, wrap family, personalisation artwork, and the target ship date.
+
+**Takeaway:** 200 pieces per design is the entry point; the dieline and a USD 25 sample settle the spec before the run.
+
+**Bottom line.** Three structures carry the demand \u2014 lift-off lids for counters and gifting, drawers for sets, magnetic flip-tops for parcels \u2014 with fitted pillows sizing from the watch itself and wraps from art paper to faux leather. Personalisation on the print-and-board line runs in foil, emboss and print; engraved wooden boxes belong to a different industry. Branded runs start at 200 pieces per design, dieline free at quotation, custom sample USD 25 plus USD 20 shipping, 15\u201320 day production.`
+  },
+  {
+    "slug": "ppwr-empty-space-rules-guide",
+    "datePublished": "2026-10-14",
+    "title": "PPWR Packaging Minimisation and Empty Space Rules: The 50% Cap Explained",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "8 min read",
+    "image": "/images/covers/ppwr-empty-space-rules-guide.webp",
+    "imageAlt": "Editorial info-card cover for the ELAPACK PPWR empty-space rules guide",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "The PPWR empty-space rule read from the official text: the 50% cap from 2030, the 40% confusion cleared up, how to measure the ratio, and the right-sizing habit that satisfies it and cuts freight.",
+    "metaDescription": "The PPWR caps empty space at 50% for grouped, transport and e-commerce packaging from 2030. What the rule says, how to measure the ratio, and what to change at your next box order. Orders from 200 pieces.",
+    "body": `*Regulatory facts below are anchored to the European Commission's packaging waste page and the EUR-Lex official summary of Regulation (EU) 2025/40, read on 14 October 2026; items marked as-published are compliance-service readings, not official text. This page is a procurement reading, not legal advice, and its regulatory readings are rechecked weekly against the official sources.*
+
+The PPWR reaches box specifications through two levers: what the box is made of and how big it is. The material lever \u2014 recyclability grading from 2030 \u2014 has its own page in the [PPWR recyclability grades guide](https://elapack.com/news/ppwr-recyclability-grades-guide); the volume lever is this one. The full timeline, from entry into force on 11 February 2025 to application on 12 August 2026, is in the [PPWR buyer's guide](https://elapack.com/news/ppwr-packaging-regulation-guide).
+
+> **Quick answer:** from 2030, the grouped, transport and e-commerce packaging you fill must not exceed 50% empty space, and filler counts as empty space in compliance readings of the rule. Sales packaging must minimise empty space while staying functional, and double walls or false bottoms used to inflate perceived volume are prohibited unless the shape is protected by design rights or trademarks. The "40% by August 2026" figure circulating in advisories is a different duty \u2014 the reusable-transport target. The buyer's move is one habit: size to the product plus a fixed clearance, on a dieline drawn from your product dimensions.
+
+## What the rule actually says
+
+Four sentences in the official summary carry the whole rule for box buyers.
+
+| Official fact | What it says | Anchor |
+|---|---|---|
+| Empty-space cap | by 2030, grouped, transport and e-commerce packaging must not exceed 50% empty space | EUR-Lex summary |
+| Sales packaging | must minimise empty space while maintaining functionality | EUR-Lex summary |
+| Weight and volume | must be minimised; marketing requirements and consumer acceptance do not justify more packaging | EUR-Lex summary |
+| Perceived volume | double walls and false bottoms prohibited unless protected by design rights or trademarks | EUR-Lex summary |
+| Governing article | Article 24 | as-published by compliance analyses |
+
+The first row is the number that made the rule famous. The other three matter just as much to a custom-box programme: the sales-packaging duty means the gift box itself is in scope for minimisation, the weight-and-volume sentence removes "but it looks premium bigger" as a defence, and the perceived-volume clause names the luxury trade's two oldest tricks directly. A double-wall build or a false-bottom insert used to make a box feel fuller is the exact construction the regulation lists \u2014 from 2030 it survives only where the shape itself is protected by design rights or trademarks.
+
+**Takeaway:** one hard cap (50%, transport layer, 2030) plus three minimisation duties that reach the retail box itself.
+
+## Where the 40% number comes from
+
+Two figures circulate in packaging advisories: a 50% empty-space cap and a 40% requirement with an August 2026 date attached. The second is a different duty wearing a similar hat. The official summary's 40% is the reusable-transport target \u2014 by 2030, 40% of transport packaging must be reusable \u2014 and some advisories compress the two into a single rule stamped with the regulation's general application date. A buyer who plans against a 40% cap in August 2026 is fixing the wrong number at the wrong time: the empty-space duty is 50%, and its date is 2030. What actually switched on on 12 August 2026 is the documentation machinery \u2014 declarations, technical files, supplier information duties \u2014 covered further down this page.
+
+**Takeaway:** if an advisor quotes 40% and August 2026 in one breath, they are describing the reuse target, not the sizing cap.
+
+## How the ratio works and how to measure it
+
+The regulation does not put a tape measure in your hand, so the method below follows compliance-service explanations of the rule (as-published), not official text. The ratio compares what your products occupy with the internal volume of the packaging around them \u2014 and in those readings, filler is not exempt: paper, air pillows and shredded void fill all count as empty space, because the rule is written to stop shipping air.
+
+Measurement is three numbers and a division:
+
+1. Internal volume of the filled box, in centimetres: length \xD7 width \xD7 depth.
+2. Volume of the product as it sits in the box, including any fixed tray it stands in.
+3. Ratio = (box volume \u2212 product volume) \xF7 box volume.
+
+![The empty-space ratio, measured](/charts/ppwr-empty-space-rules.svg)
+
+*Fig. 1 \u2014 The same 7,200 cm\xB3 product in two shippers: 60% empty fails the 2030 cap, 27% passes.*
+
+| Illustrative build | Internal volume | Product volume | Empty-space ratio | From 2030 |
+|---|---|---|---|---|
+| Oversized shipper, 40 \xD7 30 \xD7 15 cm | 18,000 cm\xB3 | 7,200 cm\xB3 | 60% | fails the cap |
+| Right-sized shipper, 33 \xD7 25 \xD7 12 cm | 9,900 cm\xB3 | 7,200 cm\xB3 | 27% | passes |
+
+The numbers are illustrative, not regulation text \u2014 but the gap between the two rows is the entire project. No material change, no grade calculation: the same product in a smaller box is compliant.
+
+**Takeaway:** the ratio is arithmetic, not chemistry \u2014 a tape measure and the internal dimensions settle it before any supplier is contacted.
+
+## Which packages the cap actually touches
+
+The cap covers three layers: grouped packaging (a shrink-banded multipack of sales units), transport packaging (the shipper carton) and e-commerce packaging (the box the online customer receives). For a custom-box buyer the mapping is direct: a rigid gift box travelling inside a shipper is sales packaging within transport packaging, and the 50% cap applies to the shipper you fill. The gift box carries the other duties \u2014 minimisation, and the perceived-volume clause above.
+
+This is where the regulation and the luxury format meet honestly. Where a tall build is functional \u2014 a candle box sized to a fixed-height vessel, a watch box whose pillow sets the depth \u2014 the functionality language is the defence. Where the height is theatre \u2014 a deep lid over a shallow product, a false floor lifting a ring into "presentation position" \u2014 the construction is named. The build mechanics of the boxes themselves are covered in the [rigid boxes guide](https://elapack.com/news/custom-rigid-boxes-guide) and the [gift box collection](https://elapack.com/custom-gift-boxes); the compliance question is always whether the volume works for the product or for the shelf.
+
+**Takeaway:** the cap bites the shipping layer; the retail box answers the minimisation and perceived-volume clauses instead.
+
+## The sizing habit that satisfies it \u2014 and cuts freight
+
+A 50% empty-space cap rewards the same habit freight bills already reward, because air ships at billed weight. Volumetric pricing charges for the space a carton occupies, so every avoidable centimetre is paid for twice: once in board, once in freight. Four working rules:
+
+| Decision | Effect on the ratio | Effect on freight |
+|---|---|---|
+| Size to product plus fixed clearance | ratio drops directly | volumetric weight drops |
+| Fitted insert instead of loose filler | box drops a size without transit damage | fewer void-fill purchases, denser cartons |
+| Low-profile structure where the product allows | depth is the multiplier that inflates ratios most | shallow boxes stack |
+| Flat-fold or one-piece formats | transport layer ships flat before filling | maximum units per container |
+
+The clearance figure matters more than it looks: the 6\u201313 mm product-to-wall allowance documented in the [candle boxes guide](https://elapack.com/news/custom-candle-boxes-guide) is tight enough to keep ratios low and loose enough to protect corners in transit. Inserts do the rest \u2014 a fitted tray holds the product at the box wall so filler is not needed at all, and the [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide) compares the materials. The artefact that ties it together is the dieline: drawn from your product dimensions before any board is cut, it is simultaneously the sizing document, the compliance evidence and the freight calculation. Ours are drawn free at quotation.
+
+**Takeaway:** right-sizing is the rare compliance duty that pays for itself \u2014 the cap, the board cost and the freight bill all move on the same centimetre.
+
+## What to ask for at quotation
+
+The PPWR's evidence duties are already live \u2014 the regulation applied from 12 August 2026 \u2014 and the official summary states two of them plainly: manufacturers must carry out conformity assessment and draw up an EU declaration of conformity, keeping the technical documentation for five years, and suppliers must provide manufacturers with the information that documentation requires. For a buyer, three lines on a purchase order capture the practical side:
+
+| Ask | What it proves |
+|---|---|
+| Internal dimensions as built | the ratio can be computed on receipt, not estimated |
+| Material composition statement | feeds the recyclability grade file in the [grades guide](https://elapack.com/news/ppwr-recyclability-grades-guide) |
+| Declaration-of-conformity status | the five-year paper trail exists before the order does |
+
+Suppliers who answer those three precisely are the ones the [manufacturer vetting checklist](https://elapack.com/news/how-to-vet-a-packaging-manufacturer) is designed to find \u2014 specificity about dimensions, materials and documents is the same competence at every scale. The sample stage verifies the rest: a stock sample settles board and build quality, a custom sample settles the final dimensions before the run, and the [samples guide](https://elapack.com/news/custom-packaging-samples-guide) lists the costs and timings. Order terms themselves \u2014 200-piece minimums, 15\u201320 day runs, tooling \u2014 are set out in the [2026 factory data page](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026).
+
+**Takeaway:** dimensions, composition, declaration \u2014 three asks, one order, file complete.
+
+## The 2026\u20132030 sequence
+
+Live since 12 August 2026: the documentation machinery \u2014 conformity assessment, declarations, five-year technical files, supplier information duties, and the country-by-country EPR layer described in the [buyer's guide](https://elapack.com/news/ppwr-packaging-regulation-guide). Arriving on 1 January 2030: the specification wall \u2014 the 50% empty-space cap, recyclability grades, the Annex V format prohibitions, and the 40% reusable-transport target from the confusion above. Between the two dates, every redesign is a compliance event: size it to the product, state its composition, file its documents. A box right-sized in 2027 for freight reasons meets the 2030 cap without a second project \u2014 the buyer's advantage of starting the habit inside the current order cycle rather than the regulatory one.
+
+**Takeaway:** the paperwork started in August 2026; the dimensions are judged in 2030; the habit is worth starting on the next order.
+
+## Bottom line
+
+The 50% cap is a 2030 date with a 2026 habit attached. It will trouble buyers whose boxes were sized for shelf theatre; it will not register with buyers already sizing to product-plus-clearance and shipping denser cartons. ELAPACK draws dielines free from your product dimensions and states material composition at quotation \u2014 the two supplier behaviours the empty-space era rewards. [Start a quote](https://elapack.com/contact) with your product dimensions and target quantities.`
+  },
+  {
+    "slug": "custom-toiletry-bags-guide",
+    "datePublished": "2026-10-14",
+    "title": "Custom Toiletry Bags: Formats, Materials and Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "8 min read",
+    "image": "/images/covers/custom-toiletry-bags-guide.webp",
+    "imageAlt": "Editorial info-card cover for the ELAPACK custom toiletry bags guide",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Custom toiletry bags from the buyer side: the three size bands, the cotton and clear-PVC material tracks, the honest Oxford-nylon boundary with named suppliers, and ordering data from 200 pieces.",
+    "metaDescription": "Custom toiletry bags in cotton and clear PVC zip formats, sized from item bags to full travel kits. Formats, materials, supplier terms and ordering data from 200 pieces.",
+    "body": "*Product facts and ordering terms below are this factory's published trade terms. Supplier terms in the comparison table are as published on supplier pages read 14 October 2026 and are quoted for comparison only. No environmental claims are made on this page.*\n\nThe beauty side of small custom bags \u2014 cosmetic bags for retail and storage \u2014 has its own page in the [custom cosmetic bags guide](https://elapack.com/news/custom-cosmetic-bags-guide). This page is the travel side: toiletry bags that live in suitcases, grooming kits, hotel amenity programmes and gift sets. The search results for these products are dominated by promotional-product suppliers and nylon-bag factories; what is missing is the buyer's spec sheet \u2014 which format family, which material track, what sizes, and what the ordering terms actually are. That is this page.\n\n> **Quick answer:** custom toiletry bags run in two format families from this factory \u2014 cotton pouches (drawstring, flap, envelope and zip styles, unbleached or dyed, printed or woven-labelled) and clear PVC zip bags in toiletry sizes \u2014 both from 200 pieces per design in 15\u201320 working days. Hard-sided Oxford nylon Dopp kits are a different trade, supplied by the factories listed below as-published. For a travel programme, the bag is the carrier layer: box, tissue and ribbon complete the set, and one artwork runs across all of them.\n\n## What the travel format actually holds\n\nA toiletry bag is specified around what stands upright inside it. Bottles and pumps set the depth; caps and sprays set the closure clearance; the count of items sets the footprint. Three size bands cover nearly every brief:\n\n| Band | Typical contents | Format that carries it |\n|---|---|---|\n| Item bag | lipsticks, minis, a single fragrance | small cotton drawstring or small PVC zip |\n| Standard toiletry | daily grooming set, 6\u201310 pieces | flap or zip cotton pouch, mid PVC zip |\n| Full travel kit | shave, hair, skin, fragrance together | envelope pouch with flat pocket, large PVC zip |\n\n![Toiletry formats by size band](/charts/custom-toiletry-bags-formats.svg)\n\n*Fig. 1 \u2014 The three size bands and the formats that carry them; the dashed boundary marks the Oxford-nylon trade this line does not serve.*\n\nThe cotton families are documented on the [custom cotton pouches](https://elapack.com/products/custom-cotton-pouches) page \u2014 drawstring, flap, envelope and zipper styles, any size from item bags up \u2014 and the [cotton envelope pouch](https://elapack.com/products/custom-cotton-envelope-pouches) adds the flat-pocket and flap-snap constructions that suit grooming kits. Clear formats run on the [custom PVC zip bags](https://elapack.com/products/custom-pvc-bags) line, sized from item bags to full toiletry formats, where seeing the contents is the point \u2014 hotel amenity and press-on-nail programmes use them for exactly that.\n\n**Takeaway:** specify from the tallest bottle downwards; depth is the dimension that decides the format.\n\n## Two material tracks, one honest boundary\n\nThe cotton track is the natural-fibre option: unbleached cotton with a soft hand feel, printed in water-based inks or carrying a woven label, in any size. It gifts well, packs flat, and suits artisan, beauty and travel programmes alike.\n\nThe clear track is functional: transparent zip bags let the traveller or the hotel guest see every item without opening anything, and the format is a proven retail carrier for cosmetics and skincare.\n\nThe boundary: hard-sided Oxford-nylon Dopp kits \u2014 the 300D/600D waterproof construction the search results are full of \u2014 are not this factory's product. We build sewn pouches and clear zip formats. Buyers who need the Oxford construction are served by the factories named in the table below, as-published. Buyers who need cotton or clear formats at factory-direct terms are served here, and the two trades rarely compete on the same brief.\n\n**Takeaway:** cotton for the gift feel, clear for utility \u2014 and an honest no on Oxford, with the factories that do build it listed by name.\n\n## The published market, read from the supplier pages\n\n| Supplier tier | Published terms | As published by |\n|---|---|---|\n| Promotional products | custom toiletry bags from USD 1.44, minimum 200, free setup | Totally Promotional page, read 14 Oct 2026 |\n| Oxford-nylon factories | BSCI-certified production, 300D/600D waterproof Oxford, tech-pack quotes | Eland Manufacturing page, read 14 Oct 2026 |\n| Blank and custom dopp kits | blank or logo'd dopp kits and travel pouches | BagzDepot page, read 14 Oct 2026 |\n| This factory, cotton and clear | 200 pieces per design, 15\u201320 working days, factory-direct | our published terms |\n\nThe promotional tier sells decorated blanks \u2014 low entry price, catalogue formats, setup often bundled. The Oxford factories sell sewn hard-sided nylon to tech packs \u2014 a serious trade for the grooming-kit market, and not ours. This factory's line sits on the third rail: sewn cotton and clear-zip formats, made to your sizes, at factory-direct pricing from 200 pieces \u2014 the same order-of-magnitude entry as the promotional tier with construction made to measure rather than chosen from a catalogue.\n\n**Takeaway:** three tiers, three different machines \u2014 the buyer's question is which construction the brief actually needs before comparing prices.\n\n## Sizing a toiletry programme\n\nThe measuring rule is the same one that governs every sewn format on this site: send the item list with dimensions, and the bag is drawn around it. For travel sets, the bag is only the carrier layer \u2014 a full programme usually runs three pieces with one artwork:\n\n| Layer | Piece | Guide |\n|---|---|---|\n| Carrier | the toiletry bag itself | this page |\n| Gift structure | a box for the folded set | [custom shopping bags guide](https://elapack.com/news/custom-shopping-bags-guide) for the carry-out layer |\n| Finish | tissue and ribbon | [custom tissue paper](https://elapack.com/news/custom-tissue-paper-guide) and [printed ribbon](https://elapack.com/news/custom-printed-ribbon-guide) |\n\nOne design round covers all three: the logo artwork approved for the bag reappears on the tissue fold and the ribbon bow. The economics of running layers in sequence \u2014 what to order first, sample paths, budget arithmetic \u2014 are laid out for first orders in the [small business packaging guide](https://elapack.com/news/custom-packaging-small-business-guide).\n\n**Takeaway:** order the carrier first, reuse the artwork across the set, and let one supplier carry all three layers so colour matches across materials.\n\n## Ordering data\n\n| Line item | Terms |\n|---|---|\n| Minimum order | 200 pieces per design, any format family |\n| Production | 15\u201320 working days (200\u201320,000 pieces) |\n| Stock sample | free, ships 2\u20133 days, plus USD 20 courier |\n| Custom sample | USD 25 + USD 20 shipping, 3\u20135 days from artwork |\n| Print | water-based ink for cotton; logo print on clear face for PVC |\n| Payment | T/T or PayPal |\n\nThe sample sequence matters more for bags than for boxes, because hand feel is the spec: a stock sample settles the fabric and zip action before artwork exists, a custom sample settles print and construction. The full path, with costs, is in the [packaging samples guide](https://elapack.com/news/custom-packaging-samples-guide), and volume terms \u2014 tiered quotes, tooling, freight \u2014 are documented in the [2026 factory data page](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026).\n\n## Men's grooming, hotel and gift programmes\n\nThe men's side of the search demand is real and underserved \u2014 the grooming kit is now a standard corporate gift and hotel amenity, and the formats above are specified the same way: item list, tallest bottle, closure clearance. Monogram-style personalisation runs through the woven-label and print options on the cotton line. For hotel amenity programmes, the clear zip format does the daily work while a printed cotton pouch carries the brand; for corporate gifting, the envelope pouch with flap-snap gifts best of the cotton families. In every case the vetting questions are the ones in the [manufacturer vetting checklist](https://elapack.com/news/how-to-vet-a-packaging-manufacturer) \u2014 fabric specifics, print method, colour control \u2014 asked before the deposit moves.\n\n## Bottom line\n\nSpecify from the tallest bottle, pick the material track the brief needs \u2014 cotton for gift feel, clear for utility \u2014 and treat Oxford Dopp as a different purchase with named suppliers. ELAPACK builds both sewn cotton and clear-zip toiletry formats to your sizes from 200 pieces, with stock samples shipping in 2\u20133 days. [Send the item list](https://elapack.com/contact) and the format recommendation comes back with the quote."
+  },
+  {
+    "slug": "custom-hair-extension-boxes-guide",
+    "datePublished": "2026-10-14",
+    "title": "Custom Hair Extension Boxes: Bundle Formats, Inserts and Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "6 min read",
+    "image": "/images/covers/custom-hair-extension-boxes-guide.webp",
+    "imageAlt": "Editorial info-card cover for the ELAPACK custom hair extension boxes guide",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Custom hair extension boxes from the buyer side: sleeve, drawer and magnetic formats, inserts that hold bundles without crushing, the length-shade system, and ordering data from 200 pieces.",
+    "metaDescription": "Sleeve, drawer and magnetic boxes for hair extension bundles and wefts, with inserts that hold hair without crushing. Formats, bundle sizing and ordering data from 200 pieces.",
+    "body": "*Product facts and ordering terms below are this factory's published trade terms for its hair extension box line. Supplier terms in the comparison table are as published on supplier pages read 14 October 2026 and are quoted for comparison only.*\n\nThe wig side of hair packaging \u2014 satin bags, presentation sets, full wig programmes \u2014 has its own page in the [custom wig packaging guide](https://elapack.com/news/custom-wig-packaging-guide). Extensions are a different product with a different box problem: a wig is one presented object, while an extension line is a system of bundles and wefts organised by length and shade, sold in multiples, and judged in the salon by how legible that system looks on the shelf. The search results are all supplier product pages; the buyer's spec view is what follows.\n\n> **Quick answer:** hair extension boxes run in three formats from this factory \u2014 sleeve boxes for single bundles, drawer boxes for multi-bundle sets, and magnetic flip-tops for flagship programmes \u2014 each built to your bundle dimensions, with inserts that hold hair in place without crushing it, from 200 pieces per design. Logo prints, foils or embosses on the wrap. Send bundle dimensions for a quote; a stock sample settles board and print in hand first.\n\n## Two jobs the box has to do\n\nAn extension box is working packaging, not just presentation. The first job is protection with order: bundles and wefts must arrive tied, flat and uncrushed, and stay that way through storage and retail handling \u2014 which is an insert question before it is a wrap question. The second job is the length-shade system: an extension brand's range lives or dies on the buyer finding 18-inch #613 next to 20-inch #1B without opening anything, so the box carries numbering, shade panels or window placement as part of its structure. A box that protects but hides the system fails the salon; a box that displays but crushes the hair fails the customer. The format choice below is where those two jobs get balanced.\n\n**Takeaway:** inserts solve protection, wrap design solves the length-shade legibility \u2014 the format decides how much of each you get.\n\n## Three formats, three programme levels\n\n| Format | Built for | Typical use | Working level |\n|---|---|---|---|\n| Sleeve box | single bundle | per-length retail units, salon restock | entry programmes, high counts |\n| Drawer box | multi-bundle set | length-shade kits, gifting sets | mid-line and subscription-style sets |\n| Magnetic flip-top | flagship programme | premium launches, presentation at counter | top of range |\n\n![Three formats, three programme levels](/charts/hair-extension-box-formats.svg)\n\n*Fig. 1 \u2014 Sleeve, drawer and magnetic formats against the programme level each one carries.*\n\nThe sleeve is the volume format: one bundle, one slide, minimal board, maximum units per shipping carton. The drawer turns the set into a ritual \u2014 the slide action suits a graduated length run laid out in order. The magnetic flip-top is the counter piece, the format a flagship shade line deserves; the closure mechanics and build trade-offs of magnetic construction are covered in the [magnetic gift boxes guide](https://elapack.com/news/magnetic-gift-boxes-guide). All three share the same wrap options \u2014 art paper, textured wraps, printed, foiled or embossed logos \u2014 and the board-and-wrap engineering common to the [rigid boxes guide](https://elapack.com/news/custom-rigid-boxes-guide).\n\n**Takeaway:** most extension brands run sleeve for volume and one drawer or magnetic format for the top of the range \u2014 two formats, one artwork family.\n\n## Inserts and the length-shade system\n\nThe insert is the component that touches the hair, and it does two things at once: it holds the bundle in place without crushing it \u2014 flat-lying channels rather than compression \u2014 and it sets the geometry the shade system prints against. Multi-bundle drawers rely on the insert to keep lengths separated and ordered; the [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide) compares the material families and their feel grades. On the wrap side, the system needs space: length numbers, shade references or a shade panel are layout items, not afterthoughts, and they belong in the dieline round \u2014 which is why the dieline is drawn from your bundle dimensions before anything else, free at quotation.\n\n**Takeaway:** send the bundle and the shade-card together; the insert geometry and the panel layout are one drawing.\n\n## The published supplier pages, read as-published\n\n| Supplier | Published terms | Read |\n|---|---|---|\n| Custom Boxes Market | cardstock 60\u2013400 lb, no die or plate charges claimed, free shipping | 14 Oct 2026 |\n| Luxury-Paper-Box (KALI) | wholesale manufacturer for extensions, wigs, closures, hair spray and hair oil | 14 Oct 2026 |\n| OXO Packaging | custom sizes and designs, eco-friendly material options listed | 14 Oct 2026 |\n| This factory | sleeve/drawer/magnetic to bundle dimensions, 200 pieces per design, 15\u201320 working days | our published terms |\n\nRead these the way the [small business packaging guide](https://elapack.com/news/custom-packaging-small-business-guide) reads the whole market: no-charge come-ons belong to print-farm workflows where the unit price carries everything; a factory line quotes tooling honestly (a cutting die at USD 50\u2013100 only when a new die is genuinely needed) and builds to your dimensions. For a salon brand, the difference shows up at the insert \u2014 catalogue sizes crush bundles that were never catalogue-shaped.\n\n**Takeaway:** compare on insert fit and format honesty first; free-die claims price the die into the run somewhere.\n\n## Boxes as one branded system\n\nThe extension box rarely travels alone in a programme. Satin wig bags carry the wig side of the same brand \u2014 the [custom satin wig bag](https://elapack.com/products/custom-satin-wig-bag) pairs with the box line as one system \u2014 and the [cotton envelope pouch](https://elapack.com/products/custom-cotton-envelope-pouches) covers the travel and aftercare layer for hair and beauty lines. One artwork family across box, bag and pouch is what makes a two-product line read as a brand; the bag side of that pairing is laid out in the wig guide linked above.\n\n## Ordering data\n\n| Line item | Terms |\n|---|---|\n| Minimum order | 200 pieces per design, formats included |\n| Formats | sleeve (single bundle) / drawer (multi-bundle) / magnetic flip-top (flagship) |\n| Built to | your bundle dimensions; dieline drawn free at quotation |\n| Production | 15\u201320 working days (200\u201320,000 pieces) |\n| Stock sample | free, ships 2\u20133 days, plus USD 20 courier |\n| Custom sample | USD 25 + USD 20 shipping, 3\u20135 days from artwork |\n| Payment | T/T or PayPal |\n\nProduct photography for this line is still in progress, so the sample path matters more than usual: a stock sample settles board, wrap and print feel before artwork, a custom sample settles the insert fit on your actual bundles. The [samples guide](https://elapack.com/news/custom-packaging-samples-guide) has the costs and timings, and volume terms are in the [2026 factory data page](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026).\n\n## Bottom line\n\nPick sleeve for volume, drawer or magnetic for the top of the range, and spend the design round on the insert and the length-shade panel \u2014 that is where extension packaging wins or loses. ELAPACK builds all three formats to your bundle dimensions from 200 pieces; [send bundle dimensions and shade-card artwork status](https://elapack.com/contact) and the dieline comes back with the quote."
+  },
+  {
+    "slug": "wholesale-perfume-boxes-guide",
+    "datePublished": "2026-10-14",
+    "title": "Wholesale Perfume Boxes: Structures, Inserts and Bulk Terms",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "8 min read",
+    "image": "/images/covers/wholesale-perfume-boxes-guide.webp",
+    "imageAlt": "Editorial info-card cover for the ELAPACK wholesale perfume boxes guide",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Wholesale perfume boxes read from the buyer side: three structures, inserts cut to the bottle profile, what quantity does to price at 200 / 1,000 / 5,000, and the supplier ladder as published.",
+    "metaDescription": "Wholesale perfume boxes built around your bottle \u2014 two-piece, drawer and magnetic structures with EVA, paper card or moulded pulp inserts. Bulk terms, tiers and ordering data from 200 pieces.",
+    "body": `*Product facts and ordering terms below are this factory's published trade terms. Supplier terms in the comparison table are as published on supplier pages read 14 October 2026 and are quoted for comparison only. Community questions are quoted from public Reddit threads, read 12 October 2026.*
+
+Fragrance packaging on this site is covered twice already: the [custom perfume packaging guide](https://elapack.com/news/custom-perfume-packaging-guide) walks the whole programme, and the [perfume sample cards guide](https://elapack.com/news/perfume-sample-cards-guide) goes deep on trial formats. This third page is about the box itself, bought wholesale: which structure, which insert for which bottle, what quantity does to price, and what the supplier pages actually offer. It exists because the buying end of the fragrance community keeps asking aloud \u2014 "start a small fragrance brand: hardest part of packaging and sourcing?" is a recurring thread subject (community questions, read 12 October 2026) \u2014 and the ranking results are supplier catalogues, not a buyer's spec view.
+
+> **Quick answer:** wholesale perfume boxes run in three structures from this factory \u2014 two-piece lift-off lids for flagship gifting, drawer formats that layer bottle and story card, and magnetic flip-tops for the retail counter \u2014 each built to your bottle dimensions, with inserts cut to the bottle profile in EVA foam, paper card or moulded pulp. Orders run from 200 pieces per design in 15\u201320 working days; ask for tiered quotes at 200 / 1,000 / 5,000. Glass bottles and closures are the glass trade's product, not ours \u2014 the box is.
+
+## Three structures, three jobs
+
+| Structure | How it opens | Where it sits |
+|---|---|---|
+| Two-piece lift-off (lid and base) | lift the lid | flagship gifting, the presentation moment |
+| Drawer | slides out | bottle plus story card, layer by layer |
+| Magnetic flip-top | one-handed catch | retail counter, repeat-handled lines |
+
+![Three structures, one bottle](/charts/wholesale-perfume-boxes-structures.svg)
+
+*Fig. 1 \u2014 The three structures around the same bottle, with the insert cut to the bottle profile.*
+
+The choice is mostly about where the box is opened. A gift-boxed flagship is opened once, slowly \u2014 the lift-off lid earns its theatre. A drawer suits a line with a story to tell alongside the bottle: card on top, glass beneath. The magnetic flip-top is the workhorse of the counter \u2014 one-handed, closes itself, survives handling; the closure mechanics and build trade-offs are covered in the [magnetic gift boxes guide](https://elapack.com/news/magnetic-gift-boxes-guide). All three share the wrap options \u2014 full-colour print, foil or embossed branding \u2014 and the board-and-wrap engineering common to every format in the [rigid boxes guide](https://elapack.com/news/custom-rigid-boxes-guide).
+
+**Takeaway:** pick the structure by where the box is opened, not by how it photographs.
+
+## The insert is the glass question
+
+A perfume box is a box around a bottle, and the insert decides whether the glass rides safely from factory to vanity. Three insert materials cover the range:
+
+| Insert | Character | Best for |
+|---|---|---|
+| EVA foam | precise die-cut cradle | flagship formats, heavy glass |
+| Paper card | flat, printable, fibre-only | lighter bottles, grade-clean builds |
+| Moulded pulp | formed nest, fibre-only | transit-heavy lines, eco-honest programmes |
+
+Each is cut or formed to the bottle profile you supply \u2014 travel sprays to full flagship formats and multi-bottle gift sets \u2014 so the specification starts with bottle dimensions, not box dimensions. The material families and their feel grades are compared in the [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide); for EU-bound programmes the insert choice is also a grading variable, since fibre-only builds grade cleanest under the [PPWR recyclability grades guide](https://elapack.com/news/ppwr-recyclability-grades-guide).
+
+**Takeaway:** send the bottle first; the insert is drawn to the glass and the box is drawn to the insert.
+
+## What wholesale changes
+
+The economics of a wholesale box order are three lines, and only the first scales with ambition:
+
+| Line | Behaviour | Buyer's move |
+|---|---|---|
+| Unit price | falls in quantity steps at print-run thresholds | quote 200 / 1,000 / 5,000 on one sheet |
+| One-off tooling | cutting die USD 50\u2013100 where a new die is needed; never repeats on the same design | pay once, keep the dieline on file |
+| Freight | air for first runs; the pallet is where sea overtakes | plan the reorder before launch, not after |
+
+None of this is fragrance-specific \u2014 it is the arithmetic documented in the [2026 factory data page](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026) applied to fragrance volumes. What is fragrance-specific is the failure mode: brands that buy the launch quantity twice because the first run was sized to optimism. The tier sheet exists to prevent that.
+
+**Takeaway:** the quantity decision is a tier decision \u2014 let the sell-through forecast pick the run, not the launch-day mood.
+
+## The published supplier pages
+
+| Supplier | Published terms | Read |
+|---|---|---|
+| Packamor | fragrance packaging from 70-unit orders to 10,000+; bottles, boxes, labels bundled | 14 Oct 2026 |
+| Urgent Boxes | custom perfume boxes, no minimum order, free US shipping | 14 Oct 2026 |
+| Jinglin Packaging | FSC-certified factory-direct, MOQ 500; magnetic, lid-and-base, drawer, tube; flocked EVA inserts | 14 Oct 2026 |
+| Large-scale tier | Quadpack, Smurfit Kappa, WestRock and peers, as listed in a trade roundup | 14 Oct 2026 |
+| This factory | boxes and inserts only, 200 pieces per design, 15\u201320 working days, factory-direct | our published terms |
+
+Four machines, honestly read. The no-minimum pages are print farms \u2014 prototypes at entry prices, unit economics for nothing bigger. The 70-unit bundler sells first-launch convenience, bottles included, one catalogue. The MOQ-500 FSC line is this factory's machine with a higher door. The large-scale tier belongs to brands whose volumes have outgrown this conversation. A 200-piece, sample-first, factory-direct line sits one rung up from the bundlers and two rungs below the majors \u2014 which is exactly where a fragrance line with one proven SKU should be standing.
+
+**Takeaway:** the market is a ladder of minimums \u2014 pick the rung your realistic reorder can stand on.
+
+## Glass, and the rest of the programme
+
+Bottles, pumps, sprayers and collars are the glass trade's product. A packaging factory that implies otherwise is reselling someone else's line with a margin on it; the bundling suppliers above show the honest version of the combined offer, and it is a real convenience \u2014 priced in catalogue choices. The workable split for a small brand: glass from the glass trade, boxes from the box trade, both held to sample approval before the first bulk run. The rest of the fragrance programme \u2014 trial cards at multiples of retail volume, pouches with gift sets \u2014 is covered where it belongs: the [programme guide](https://elapack.com/news/custom-perfume-packaging-guide) and the [sample cards guide](https://elapack.com/news/perfume-sample-cards-guide). The box is this page; the rest links from here.
+
+**Takeaway:** buy the bottle where bottles are made and the box where boxes are made; the samples make the introduction.
+
+## Ordering data
+
+| Line item | Terms |
+|---|---|
+| Minimum order | 200 pieces per design |
+| Structures | two-piece lift-off / drawer / magnetic flip-top |
+| Built to | your bottle dimensions; dieline drawn free at quotation |
+| Inserts | EVA foam, paper card or moulded pulp, cut to bottle profile |
+| Production | 15\u201320 working days (200\u201320,000), from sample approval and deposit |
+| Stock sample | free, ships 2\u20133 days, plus USD 20 courier |
+| Custom sample | USD 25 + USD 20 shipping, 3\u20135 days from artwork |
+| Payment / freight | T/T or PayPal; air or sea from Shanghai or Shenzhen |
+
+The calendar note that matters: a line that wants shelf-ready boxes for the Q4 gift season needs samples approved by early Q3 \u2014 the 15\u201320 day production window sits behind the sample round and in front of the freight window. What a sample should prove, and what it costs, is the [packaging samples guide](https://elapack.com/news/custom-packaging-samples-guide); the questions to ask any factory before the deposit moves are in the [manufacturer vetting checklist](https://elapack.com/news/how-to-vet-a-packaging-manufacturer); and first-order structure \u2014 what to order first, in what sequence \u2014 is the [small business packaging guide](https://elapack.com/news/custom-packaging-small-business-guide)'s subject.
+
+## Bottom line
+
+Specify the structure by where the box opens, the insert by the bottle, and the quantity by the reorder forecast \u2014 then hold the supplier to a dieline, a sample and a stated composition. ELAPACK builds all three structures to your bottle dimensions from 200 pieces, inserts cut to profile, dielines free at quotation. [Start the quote](https://elapack.com/contact) with bottle dimensions, structure preference and target volumes.`
   }
 ]);
 function getArticleBySlug(slug) {

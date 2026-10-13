@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <rect width="1200" height="675" fill="#FAF7F2"/>
+  <g transform="translate(47.727 0) scale(1.53409)">
+
+    <rect width="720" height="440" fill="#FAF7F2"/>
+    <text x="360" y="40" text-anchor="middle" font-size="24" fill="#2B2B2B">Toiletry formats by size band</text>
+    <text x="360" y="64" text-anchor="middle" font-size="13" fill="#7A7A7A">Specify from the tallest bottle — depth decides the format. Bands illustrative.</text>
+    <rect x="60" y="100" width="160" height="120" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="140" y="165" text-anchor="middle" font-size="13" fill="#2B2B2B">item bag</text>
+    <rect x="280" y="90" width="200" height="150" fill="#E4D9C8" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="380" y="160" text-anchor="middle" font-size="13" fill="#2B2B2B">standard toiletry</text>
+    <rect x="540" y="80" width="130" height="190" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="605" y="170" text-anchor="middle" font-size="13" fill="#2B2B2B">full kit</text>
+    <line x1="60" y1="260" x2="670" y2="260" stroke="#D8C9B4"/>
+    <text x="140" y="285" text-anchor="middle" font-size="12" fill="#5E6E5A">cotton drawstring</text>
+    <text x="140" y="303" text-anchor="middle" font-size="12" fill="#5E6E5A">or small PVC zip</text>
+    <text x="380" y="285" text-anchor="middle" font-size="12" fill="#5E6E5A">cotton flap / zip pouch</text>
+    <text x="380" y="303" text-anchor="middle" font-size="12" fill="#5E6E5A">mid PVC zip</text>
+    <text x="605" y="285" text-anchor="middle" font-size="12" fill="#5E6E5A">envelope pouch</text>
+    <text x="605" y="303" text-anchor="middle" font-size="12" fill="#5E6E5A">large PVC zip</text>
+    <rect x="60" y="330" width="610" height="60" fill="none" stroke="#9C3D2E" stroke-width="1" stroke-dasharray="6,4"/>
+    <text x="365" y="355" text-anchor="middle" font-size="13" fill="#9C3D2E">Boundary: hard-sided Oxford nylon Dopp kits — built by named factories, not this line</text>
+    <text x="365" y="375" text-anchor="middle" font-size="12" fill="#7A7A7A">cotton track: unbleached, water-based ink, woven label · clear track: transparent zip, logo on face</text>
+    <text x="360" y="420" text-anchor="middle" font-size="12" fill="#7A7A7A">All formats from 200 pieces per design · 15–20 working days · stock sample free + USD 20 courier</text>
+  </g>
+</svg>

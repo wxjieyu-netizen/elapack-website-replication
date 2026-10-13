@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <rect width="1200" height="675" fill="#FAF7F2"/>
+  <g transform="translate(47.727 0) scale(1.53409)">
+
+    <rect width="720" height="440" fill="#FAF7F2"/>
+    <text x="360" y="40" text-anchor="middle" font-size="24" fill="#2B2B2B">Three structures, one bottle</text>
+    <text x="360" y="64" text-anchor="middle" font-size="13" fill="#7A7A7A">Inserts cut to bottle profile: EVA foam · paper card · moulded pulp · travel spray to multi-bottle sets</text>
+    <rect x="60" y="100" width="180" height="210" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+    <rect x="75" y="95" width="150" height="34" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <rect x="120" y="180" width="60" height="100" fill="#5E6E5A" stroke="#3E4A3B"/>
+    <text x="150" y="335" text-anchor="middle" font-size="14" fill="#2B2B2B">two-piece lift-off</text>
+    <text x="150" y="355" text-anchor="middle" font-size="12" fill="#7A7A7A">flagship gifting</text>
+    <rect x="290" y="100" width="180" height="210" fill="#E4D9C8" stroke="#8A7A5E" stroke-width="2"/>
+    <rect x="345" y="180" width="70" height="100" fill="#5E6E5A" stroke="#3E4A3B"/>
+    <rect x="300" y="130" width="160" height="8" fill="#8A7A5E"/>
+    <text x="380" y="335" text-anchor="middle" font-size="14" fill="#2B2B2B">drawer</text>
+    <text x="380" y="355" text-anchor="middle" font-size="12" fill="#7A7A7A">bottle + story card</text>
+    <rect x="520" y="100" width="180" height="210" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <circle cx="560" cy="125" r="4" fill="#8A7A5E"/><circle cx="600" cy="125" r="4" fill="#8A7A5E"/>
+    <rect x="575" y="180" width="70" height="100" fill="#5E6E5A" stroke="#3E4A3B"/>
+    <text x="610" y="335" text-anchor="middle" font-size="14" fill="#2B2B2B">magnetic flip-top</text>
+    <text x="610" y="355" text-anchor="middle" font-size="12" fill="#7A7A7A">retail counter</text>
+    <line x1="60" y1="378" x2="700" y2="378" stroke="#D8C9B4"/>
+    <text x="360" y="402" text-anchor="middle" font-size="13" fill="#2B2B2B">Tier quote 200 / 1,000 / 5,000 on one sheet · tooling once · freight at the pallet</text>
+    <text x="360" y="422" text-anchor="middle" font-size="12" fill="#7A7A7A">From 200 pieces per design · 15–20 working days · glass bottles and closures = the glass trade</text>
+  </g>
+</svg>

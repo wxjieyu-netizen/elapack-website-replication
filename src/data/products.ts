@@ -1203,6 +1203,7 @@ export const productGuides: Record<string, string[]> = {
       "ppwr-recyclability-grades-guide",
   ],
   "custom-ring-boxes": [
+    "custom-watch-boxes-guide",
     "custom-ring-boxes-guide",
     "packaging-inserts-guide",
     "custom-rigid-boxes-guide",
@@ -1230,6 +1231,7 @@ export const productGuides: Record<string, string[]> = {
     "packaging-inserts-guide",
       "ppwr-packaging-regulation-guide",
       "ppwr-recyclability-grades-guide",
+      "ppwr-empty-space-rules-guide",
   ],
   "custom-perfume-boxes": [
     "custom-perfume-packaging-guide",
@@ -1237,6 +1239,7 @@ export const productGuides: Record<string, string[]> = {
     "packaging-inserts-guide",
       "ppwr-packaging-regulation-guide",
       "ppwr-recyclability-grades-guide",
+      "wholesale-perfume-boxes-guide",
   ],
   "custom-perfume-sample-card-boxes": [
     "perfume-sample-cards-guide",
@@ -1252,8 +1255,10 @@ export const productGuides: Record<string, string[]> = {
     "packaging-inserts-guide",
       "ppwr-packaging-regulation-guide",
       "ppwr-recyclability-grades-guide",
+      "ppwr-empty-space-rules-guide",
   ],
   "custom-hair-extension-boxes": [
+    "custom-hair-extension-boxes-guide",
     "custom-hair-extension-packaging-guide",
     "hair-extension-packaging-ideas",
     "custom-rigid-boxes-guide",
@@ -1261,6 +1266,7 @@ export const productGuides: Record<string, string[]> = {
       "ppwr-recyclability-grades-guide",
   ],
   "custom-watch-boxes": [
+    "custom-watch-boxes-guide",
     "custom-rigid-boxes-guide",
     "packaging-inserts-guide",
     "how-to-choose-custom-jewelry-boxes",
@@ -1278,11 +1284,13 @@ export const productGuides: Record<string, string[]> = {
     "how-to-choose-a-custom-jewelry-pouch",
     "velvet-satin-muslin-pouches-compared",
     "custom-logo-pouches-guide",
+      "custom-toiletry-bags-guide",
   ],
   "custom-cotton-envelope-pouches": [
     "how-to-choose-a-custom-jewelry-pouch",
     "custom-logo-pouches-guide",
     "how-to-read-a-packaging-specification-sheet",
+      "custom-toiletry-bags-guide",
   ],
   "velvet-necklace-display": [
     "jewelry-display-trays-guide",
@@ -1319,6 +1327,7 @@ export const productGuides: Record<string, string[]> = {
     "custom-wig-packaging-guide",
     "velvet-satin-muslin-pouches-compared",
     "custom-logo-pouches-guide",
+      "custom-hair-extension-boxes-guide",
   ],
   "custom-satin-pouches": [
     "custom-makeup-bags-guide",
@@ -1342,6 +1351,7 @@ export const productGuides: Record<string, string[]> = {
     "how-to-choose-custom-drawstring-bags",
     "custom-cosmetic-packaging-guide",
     "custom-logo-pouches-guide",
+      "custom-toiletry-bags-guide",
   ],
 };
 

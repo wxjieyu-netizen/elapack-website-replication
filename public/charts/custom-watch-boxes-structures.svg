@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <rect width="1200" height="675" fill="#FAF7F2"/>
+  <g transform="translate(47.727 0) scale(1.53409)">
+
+    <rect width="720" height="440" fill="#faf9f7"/>
+    <text x="24" y="34" font-size="16" font-weight="600" fill="#1a1a1a">Three structures, four work sites</text>
+    <text x="24" y="52" font-size="11" fill="#6b6459">Structure choice follows where the box works hardest</text>
+    <g font-size="13" fill="#1a1a1a">
+      <rect x="24" y="78" width="180" height="64" rx="6" fill="#1a1a1a"/>
+      <text x="114" y="106" text-anchor="middle" fill="#faf9f7">Two-piece lift-off</text>
+      <text x="114" y="126" text-anchor="middle" fill="#b08d57" font-size="11">lid lifts clear</text>
+      <line x1="204" y1="110" x2="254" y2="110" stroke="#b08d57" stroke-width="1.5"/>
+      <text x="266" y="105">Counter &amp; gifting</text>
+      <text x="266" y="124" fill="#6b6459" font-size="11.5">single-watch presentation</text>
+
+      <rect x="24" y="162" width="180" height="64" rx="6" fill="#1a1a1a"/>
+      <text x="114" y="190" text-anchor="middle" fill="#faf9f7">Drawer</text>
+      <text x="114" y="210" text-anchor="middle" fill="#b08d57" font-size="11">tray slides from sleeve</text>
+      <line x1="204" y1="194" x2="254" y2="194" stroke="#b08d57" stroke-width="1.5"/>
+      <text x="266" y="189">Sets &amp; unboxing</text>
+      <text x="266" y="208" fill="#6b6459" font-size="11.5">watch-plus-strap programmes</text>
+
+      <rect x="24" y="246" width="180" height="64" rx="6" fill="#1a1a1a"/>
+      <text x="114" y="274" text-anchor="middle" fill="#faf9f7">Magnetic flip-top</text>
+      <text x="114" y="294" text-anchor="middle" fill="#b08d57" font-size="11">closes flat, one-hand open</text>
+      <line x1="204" y1="278" x2="254" y2="278" stroke="#b08d57" stroke-width="1.5"/>
+      <text x="266" y="273">E-commerce ship</text>
+      <text x="266" y="292" fill="#6b6459" font-size="11.5">retail counter, parcel post</text>
+
+      <rect x="24" y="330" width="180" height="64" rx="6" fill="#1a1a1a"/>
+      <text x="114" y="358" text-anchor="middle" fill="#faf9f7">Multi-bay layouts</text>
+      <text x="114" y="378" text-anchor="middle" fill="#b08d57" font-size="11">individually pillowed bays</text>
+      <line x1="204" y1="362" x2="254" y2="362" stroke="#b08d57" stroke-width="1.5"/>
+      <text x="266" y="357">Collectors &amp; sets</text>
+      <text x="266" y="376" fill="#6b6459" font-size="11.5">gift pairs through six-watch runs</text>
+    </g>
+    <text x="24" y="424" font-size="10.5" fill="#6b6459">Structures and bay layouts per ELAPACK product specifications.</text>
+  </g>
+</svg>
