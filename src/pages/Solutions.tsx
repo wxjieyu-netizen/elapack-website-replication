@@ -207,7 +207,7 @@ export default function Solutions() {
               </div>
 
               <div className="solution-cta">
-                <Link to="/contact" className="btn-primary">
+                <Link to="/contact/" className="btn-primary">
                   Get Started
                 </Link>
               </div>

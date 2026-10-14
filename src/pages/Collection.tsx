@@ -76,7 +76,7 @@ export default function Collection({ slug }: { slug: string }) {
           <div className="catalog-grid">
             {products.map((product, i) => (
               <Link
-                to={`/products/${product.slug}`}
+                to={`/products/${product.slug}/`}
                 key={product.slug}
                 className={`catalog-card reveal reveal-delay-${(i % 4) + 1}`}
               >
@@ -110,7 +110,7 @@ export default function Collection({ slug }: { slug: string }) {
               <div className="spec-list">
                 {guides.map((guide) => (
                   <p key={guide.slug} className="markets-note" style={{ marginBottom: "0.5rem" }}>
-                    <Link to={`/news/${guide.slug}`} className="text-link">
+                    <Link to={`/news/${guide.slug}/`} className="text-link">
                       {guide.title}
                     </Link>
                     {" — "}

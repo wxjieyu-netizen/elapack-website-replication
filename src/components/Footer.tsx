@@ -24,22 +24,22 @@ export default function Footer() {
             <h4 className="footer-heading">Navigate</h4>
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/products">Products</Link></li>
-              <li><Link to="/industries">Industries</Link></li>
-              <li><Link to="/solutions">Solutions</Link></li>
-              <li><Link to="/about">About Us</Link></li>
-              <li><Link to="/news">News</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/products/">Products</Link></li>
+              <li><Link to="/industries/">Industries</Link></li>
+              <li><Link to="/solutions/">Solutions</Link></li>
+              <li><Link to="/about/">About Us</Link></li>
+              <li><Link to="/news/">News</Link></li>
+              <li><Link to="/contact/">Contact</Link></li>
             </ul>
           </div>
 
           <div className="footer-col">
             <h4 className="footer-heading">Products</h4>
             <ul>
-              <li><Link to="/products?category=Pouches%20%26%20Bags">Pouches & Bags</Link></li>
-              <li><Link to="/products?category=Boxes">Boxes</Link></li>
-              <li><Link to="/products?category=Sets%20%26%20Complete%20Packaging">Sets & Complete Packaging</Link></li>
-              <li><Link to="/products?category=Ribbons%20%26%20Accessories">Ribbons & Accessories</Link></li>
+              <li><Link to="/products/?category=Pouches%20%26%20Bags">Pouches & Bags</Link></li>
+              <li><Link to="/products/?category=Boxes">Boxes</Link></li>
+              <li><Link to="/products/?category=Sets%20%26%20Complete%20Packaging">Sets & Complete Packaging</Link></li>
+              <li><Link to="/products/?category=Ribbons%20%26%20Accessories">Ribbons & Accessories</Link></li>
             </ul>
           </div>
 

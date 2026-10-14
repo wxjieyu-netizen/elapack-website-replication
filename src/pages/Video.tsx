@@ -193,10 +193,10 @@ export default function Video() {
                 vision to life.
               </p>
               <div className="custom-solution-intro-actions">
-                <Link to="/products" className="btn-primary">
+                <Link to="/products/" className="btn-primary">
                   Explore Products
                 </Link>
-                <Link to="/contact" className="btn-outline">
+                <Link to="/contact/" className="btn-outline">
                   Request a Quote
                 </Link>
               </div>
@@ -303,7 +303,7 @@ export default function Video() {
           </div>
 
           <div className="success-stories-cta reveal">
-            <Link to="/contact" className="btn-primary">
+            <Link to="/contact/" className="btn-primary">
               Start Your Project
             </Link>
           </div>
@@ -367,7 +367,7 @@ export default function Video() {
 
           <div className="faq-cta reveal">
             <p>Still have questions? We're here to help.</p>
-            <Link to="/contact" className="btn-outline">
+            <Link to="/contact/" className="btn-outline">
               Contact Us
             </Link>
           </div>

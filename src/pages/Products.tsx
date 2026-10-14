@@ -49,21 +49,21 @@ export default function Products() {
       <section className="section" style={{ paddingBottom: 0 }}>
         <div className="container">
           <div className="values-grid">
-            <Link to="/pouches-bags" className="value-card reveal">
+            <Link to="/pouches-bags/" className="value-card reveal">
               <h3 className="value-title">Custom Fabric Pouches &amp; Bags</h3>
               <p className="value-desc">
                 Velvet, suede, cotton, muslin, satin, linen — your size, closure
                 and branding. MOQ from 200 pieces.
               </p>
             </Link>
-            <Link to="/boxes" className="value-card reveal reveal-delay-2">
+            <Link to="/boxes/" className="value-card reveal reveal-delay-2">
               <h3 className="value-title">Custom Boxes</h3>
               <p className="value-desc">
                 Rigid, folding and magnetic closure boxes with inserts and
                 Pantone-matched finishes. MOQ from 200 pieces.
               </p>
             </Link>
-            <Link to="/sets" className="value-card reveal reveal-delay-3">
+            <Link to="/sets/" className="value-card reveal reveal-delay-3">
               <h3 className="value-title">Packaging Sets</h3>
               <p className="value-desc">
                 Pouch, box, insert and card designed together as one
@@ -97,7 +97,7 @@ export default function Products() {
           <div className="catalog-grid">
             {filtered.map((product, i) => (
               <Link
-                to={`/products/${product.slug}`}
+                to={`/products/${product.slug}/`}
                 key={product.slug}
                 className={`catalog-card reveal reveal-delay-${(i % 4) + 1}`}
               >
@@ -135,7 +135,7 @@ export default function Products() {
               customizable — from dimensions and materials to finishes and
               structural design.
             </p>
-            <Link to="/contact" className="btn-outline">
+            <Link to="/contact/" className="btn-outline">
               Request Custom Quote
             </Link>
           </div>

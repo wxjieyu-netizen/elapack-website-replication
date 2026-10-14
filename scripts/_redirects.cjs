@@ -85,17 +85,21 @@ for (let i = 1; i <= 5; i++) redirects[`/blog/post-${i}`] = "/news";
 var count = 0;
 for (const [from, to] of Object.entries(redirects)) {
   const dest = import_node_path.default.join(dist, from.replace(/^\//, ""), "index.html");
+  const qi = to.indexOf("?");
+  const base = qi === -1 ? to : to.slice(0, qi);
+  const rest = qi === -1 ? "" : to.slice(qi);
+  const toCanon = base === "/" ? to : base.endsWith("/") ? to : `${base}/${rest}`;
   const html = `<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Redirecting\u2026 | ELAPACK</title>
-    <meta http-equiv="refresh" content="0; url=${to}" />
-    <link rel="canonical" href="https://elapack.com${to}" />
+    <meta http-equiv="refresh" content="0; url=${toCanon}" />
+    <link rel="canonical" href="https://elapack.com${toCanon}" />
   </head>
   <body>
-    <p>This page has moved to <a href="${to}">${to}</a>.</p>
-    <script>location.replace("${to}");</script>
+    <p>This page has moved to <a href="${toCanon}">${toCanon}</a>.</p>
+    <script>location.replace("${toCanon}");</script>
   </body>
 </html>
 `;

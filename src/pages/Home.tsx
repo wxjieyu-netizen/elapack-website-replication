@@ -171,7 +171,7 @@ export default function Home() {
             no copy of its own — only the quote CTA, which sits under the
             poster's text block. The H1 stays in the document for screen readers
             and for search engines. */}
-        <Link to="/contact" className="hero-cta">
+        <Link to="/contact/" className="hero-cta">
           Get a Quote
         </Link>
         <h1 className="visually-hidden">
@@ -279,11 +279,11 @@ export default function Home() {
                 sophisticated, and highly distinctive packaging.
               </p>
               <div className="intro-actions">
-                <Link to="/about" className="text-link">
+                <Link to="/about/" className="text-link">
                   Discover Our Story
                   <span className="text-link-arrow">→</span>
                 </Link>
-                <Link to="/video" className="text-link">
+                <Link to="/video/" className="text-link">
                   Custom Solution
                   <span className="text-link-arrow">→</span>
                 </Link>
@@ -303,7 +303,7 @@ export default function Home() {
                 Packaging That Defines Brands
               </h2>
             </div>
-            <Link to="/products" className="text-link">
+            <Link to="/products/" className="text-link">
               View All Products
               <span className="text-link-arrow">→</span>
             </Link>
@@ -311,7 +311,7 @@ export default function Home() {
           <div className="products-grid">
             {products.map((product, i) => (
               <Link
-                to={`/products/${product.slug}`}
+                to={`/products/${product.slug}/`}
                 key={product.name}
                 className={`product-card reveal reveal-delay-${(i % 4) + 1}`}
               >
@@ -349,7 +349,7 @@ export default function Home() {
           <div className="popular-grid">
             {popularSolutions.map((item, i) => (
               <Link
-                to={`/products?category=${encodeURIComponent(item.category)}`}
+                to={`/products/?category=${encodeURIComponent(item.category)}`}
                 key={item.name}
                 className={`popular-card reveal reveal-delay-${(i % 4) + 1}`}
               >
@@ -372,10 +372,10 @@ export default function Home() {
               custom packaging services.
             </p>
             <div className="popular-cta-actions">
-              <Link to="/contact" className="btn-primary">
+              <Link to="/contact/" className="btn-primary">
                 Request a Quote
               </Link>
-              <Link to="/products" className="btn-outline">
+              <Link to="/products/" className="btn-outline">
                 View Catalogue
               </Link>
             </div>
@@ -430,7 +430,7 @@ export default function Home() {
               we help turn your idea into packaging that feels consistent with
               your brand.
             </p>
-            <Link to="/solutions" className="btn-primary">
+            <Link to="/solutions/" className="btn-primary">
               Explore Custom Options
             </Link>
           </div>
@@ -603,7 +603,7 @@ export default function Home() {
               Tell us about your brand. We'll bring the craft, materials, and
               vision to make it unforgettable.
             </p>
-            <Link to="/contact" className="btn-primary">
+            <Link to="/contact/" className="btn-primary">
               Start Your Project
             </Link>
           </div>

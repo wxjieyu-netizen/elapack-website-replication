@@ -45,7 +45,7 @@ export default function ProductDetail() {
           <p className="text-soft" style={{ margin: "1rem 0 2rem" }}>
             The product you're looking for doesn't exist or has been moved.
           </p>
-          <Link to="/products" className="btn-primary">
+          <Link to="/products/" className="btn-primary">
             Back to Products
           </Link>
         </div>
@@ -70,7 +70,7 @@ export default function ProductDetail() {
           <nav className="breadcrumb">
             <Link to="/">Home</Link>
             <span className="breadcrumb-sep">/</span>
-            <Link to="/products">Products</Link>
+            <Link to="/products/">Products</Link>
             <span className="breadcrumb-sep">/</span>
             <span className="breadcrumb-current">{product.name}</span>
           </nav>
@@ -111,10 +111,10 @@ export default function ProductDetail() {
               <div className="product-detail-quote">
                 <h3 className="product-quote-title">Get A Custom Quote:</h3>
                 <div className="product-quote-actions">
-                  <Link to="/contact" className="btn-primary">
+                  <Link to="/contact/" className="btn-primary">
                     Request a Quote
                   </Link>
-                  <Link to="/contact" className="btn-outline">
+                  <Link to="/contact/" className="btn-outline">
                     Contact Us
                   </Link>
                 </div>
@@ -173,7 +173,7 @@ export default function ProductDetail() {
                 your brand's exact requirements. Below are our standard
                 configurations — contact us to discuss custom specifications.
               </p>
-              <Link to="/contact" className="btn-primary">
+              <Link to="/contact/" className="btn-primary">
                 Discuss Your Project
               </Link>
             </div>
@@ -263,7 +263,7 @@ export default function ProductDetail() {
                   {para}
                 </p>
               ))}
-              <Link to="/contact" className="btn-primary" style={{ marginTop: "0.5rem" }}>
+              <Link to="/contact/" className="btn-primary" style={{ marginTop: "0.5rem" }}>
                 {copy.customizeCta}
               </Link>
             </div>
@@ -392,7 +392,7 @@ export default function ProductDetail() {
                   Related Products
                 </h2>
               </div>
-              <Link to="/products" className="text-link">
+              <Link to="/products/" className="text-link">
                 View All
                 <span className="text-link-arrow">→</span>
               </Link>
@@ -400,7 +400,7 @@ export default function ProductDetail() {
             <div className="related-grid">
               {related.map((item, i) => (
                 <Link
-                  to={`/products/${item.slug}`}
+                  to={`/products/${item.slug}/`}
                   key={item.slug}
                   className={`related-card reveal reveal-delay-${(i % 3) + 1}`}
                 >
@@ -432,7 +432,7 @@ export default function ProductDetail() {
               <div className="spec-list">
                 {guides.map((guide) => (
                   <p key={guide.slug} className="markets-note" style={{ marginBottom: "0.5rem" }}>
-                    <Link to={`/news/${guide.slug}`} className="text-link">
+                    <Link to={`/news/${guide.slug}/`} className="text-link">
                       {guide.title}
                     </Link>
                     {" — "}
@@ -458,7 +458,7 @@ export default function ProductDetail() {
               Share your specifications and we'll prepare a tailored proposal
               within one business day.
             </p>
-            <Link to="/contact" className="btn-primary">
+            <Link to="/contact/" className="btn-primary">
               Start Your Project
             </Link>
           </div>

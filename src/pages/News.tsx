@@ -83,7 +83,7 @@ export default function News() {
                 <span className="news-meta-dot" />
                 <span>{articles[0].readTime}</span>
               </div>
-              <Link to="/news" className="text-link">
+              <Link to="/news/" className="text-link">
                 Read Article
                 <span className="text-link-arrow">→</span>
               </Link>
@@ -128,7 +128,7 @@ export default function News() {
                 key={article.slug}
                 className={`news-card reveal reveal-delay-${(i % 3) + 1}`}
               >
-                <Link to={`/news/${article.slug}`} className="news-card-link">
+                <Link to={`/news/${article.slug}/`} className="news-card-link">
                   <div className="news-card-image">
                     <img src={article.image} alt={article.imageAlt} loading="lazy" width={1600} height={1000} />
                     <span className="news-category">{article.category}</span>

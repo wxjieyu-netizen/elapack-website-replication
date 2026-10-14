@@ -177,7 +177,7 @@ export default function Contact() {
                         <span className="contact-label">
                           Preparing your brief?
                         </span>
-                        <a href="/products" className="contact-value">
+                        <a href="/products/" className="contact-value">
                           Browse all products &amp; materials
                         </a>
                       </div>

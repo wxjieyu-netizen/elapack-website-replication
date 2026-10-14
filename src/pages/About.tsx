@@ -282,7 +282,7 @@ export default function About() {
               stability — especially those serving European and American
               markets.
             </p>
-            <Link to="/contact" className="btn-primary">
+            <Link to="/contact/" className="btn-primary">
               Partner With Us
             </Link>
           </div>

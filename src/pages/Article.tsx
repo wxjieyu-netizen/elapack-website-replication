@@ -253,7 +253,7 @@ const RELATED: Record<string, string[]> = {
 const ANCHORS: Record<string, Record<string, string>> = {
   "magnetic-gift-boxes-wholesale-guide": {
     "wholesale magnetic gift boxes": "magnetic-closure-gift-box",
-    "magnetic box": "/custom-gift-boxes",
+    "magnetic box": "/custom-gift-boxes/",
   },
   "custom-makeup-bags-guide": {
     "cotton canvas and muslin": "custom-cotton-pouches",
@@ -271,11 +271,11 @@ const ANCHORS: Record<string, Record<string, string>> = {
     "velvet for premium presentation": "custom-velvet-pouches",
     "cotton for printed GWP": "custom-cotton-pouches",
     "microfiber when the pouch": "custom-microfiber-pouches",
-    "soft pouch": "/eyewear-packaging",
+    "soft pouch": "/eyewear-packaging/",
   },
   "perfume-sample-cards-guide": {
     "custom perfume sample cards": "custom-perfume-sample-card-boxes",
-    "subscription packaging collection": "/subscription-box-packaging",
+    "subscription packaging collection": "/subscription-box-packaging/",
   },
   "surface-finishes-compared-guide": {
     "magnetic flip-top": "magnetic-closure-gift-box",
@@ -335,22 +335,22 @@ const ANCHORS: Record<string, Record<string, string>> = {
     "magnetic flip-top": "magnetic-closure-gift-box",
   },
   "valentines-day-packaging-timeline": {
-    "subscription box packaging": "/subscription-box-packaging",
+    "subscription box packaging": "/subscription-box-packaging/",
   },
   "subscription-box-packaging-cost": {
-    "subscription box packaging": "/subscription-box-packaging",
+    "subscription box packaging": "/subscription-box-packaging/",
   },
   "subscription-box-packaging-buyers-guide": {
-    "subscription box packaging": "/subscription-box-packaging",
+    "subscription box packaging": "/subscription-box-packaging/",
     "magnetic flip-top": "magnetic-closure-gift-box",
     "cotton 200–400 gsm": "custom-cotton-pouches",
   },
   "candle-subscription-box-packaging": {
-    "candle subscription box": "/subscription-box-packaging",
+    "candle subscription box": "/subscription-box-packaging/",
     "velvet pouch": "custom-velvet-pouches",
   },
   "beauty-subscription-box-contents": {
-    "beauty subscription box": "/subscription-box-packaging",
+    "beauty subscription box": "/subscription-box-packaging/",
     "velvet pouch": "custom-velvet-pouches",
     "clear PVC zip bag": "custom-pvc-bags",
   },
@@ -377,7 +377,7 @@ function linkify(text: string, keyPrefix: string, ctx: AnchorCtx): ReactNode[] {
   ctx.used.add(phrase);
   return [
     ...(at > 0 ? [text.slice(0, at)] : []),
-    <Link key={`${keyPrefix}-a`} to={slug.startsWith("/") ? slug : `/products/${slug}`} className="text-link">
+    <Link key={`${keyPrefix}-a`} to={slug.startsWith("/") ? slug : `/products/${slug}/`} className="text-link">
       {phrase}
     </Link>,
     ...linkify(text.slice(at + phrase.length), `${keyPrefix}-r`, ctx),
@@ -554,7 +554,7 @@ export default function Article() {
         <div className="container">
           <h1 className="section-title">Article not found</h1>
           <p style={{ textAlign: "center" }}>
-            <Link to="/news" className="text-link">Back to News &amp; Insights <span className="text-link-arrow">→</span></Link>
+            <Link to="/news/" className="text-link">Back to News &amp; Insights <span className="text-link-arrow">→</span></Link>
           </p>
         </div>
       </section>
@@ -571,7 +571,7 @@ export default function Article() {
           <p className="eyebrow reveal">{article.category}</p>
           <h1 className="page-title reveal reveal-delay-1">{article.title}</h1>
           <div className="news-meta reveal reveal-delay-2" style={{ justifyContent: "center" }}>
-            <span>By <Link to="/about" className="text-link">Tina</Link></span>
+            <span>By <Link to="/about/" className="text-link">Tina</Link></span>
             <span className="news-meta-dot" />
             <span>{article.date}</span>
             <span className="news-meta-dot" />
@@ -600,7 +600,7 @@ export default function Article() {
           <div className="article-body">{renderBody(article.body, ANCHORS[article.slug])}</div>
           <div className="article-cta reveal">
             <p className="article-cta-facts">MOQ 200 per design · free dieline at quotation · custom sample USD 25 + USD 20 shipping, 3-5 days</p>
-            <Link to="/contact" className="btn-primary article-cta-btn">Request a quote</Link>
+            <Link to="/contact/" className="btn-primary article-cta-btn">Request a quote</Link>
           </div>
           {related.length > 0 && (
             <div className="article-related reveal">
@@ -608,7 +608,7 @@ export default function Article() {
               <ul className="spec-list">
                 {related.map((p) => (
                   <li key={p.slug}>
-                    <Link to={`/products/${p.slug}`} className="text-link">
+                    <Link to={`/products/${p.slug}/`} className="text-link">
                       {p.name} <span className="text-link-arrow">→</span>
                     </Link>
                   </li>
@@ -617,7 +617,7 @@ export default function Article() {
             </div>
           )}
           <p className="article-back">
-            <Link to="/news" className="text-link">Back to News &amp; Insights <span className="text-link-arrow">→</span></Link>
+            <Link to="/news/" className="text-link">Back to News &amp; Insights <span className="text-link-arrow">→</span></Link>
           </p>
         </div>
       </section>

@@ -59,7 +59,7 @@ export default function Header() {
               onMouseEnter={() => handleDropdownEnter("products")}
             >
               <NavLink
-                to="/products"
+                to="/products/"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "is-active" : ""}`
                 }
@@ -72,7 +72,7 @@ export default function Header() {
                     {productCategories.map((cat) => (
                       <Link
                         key={cat}
-                        to={`/products?category=${encodeURIComponent(cat)}`}
+                        to={`/products/?category=${encodeURIComponent(cat)}`}
                         className="nav-dropdown-link"
                       >
                         {cat}
@@ -89,7 +89,7 @@ export default function Header() {
               onMouseEnter={() => handleDropdownEnter("industries")}
             >
               <NavLink
-                to="/industries"
+                to="/industries/"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "is-active" : ""}`
                 }
@@ -102,7 +102,7 @@ export default function Header() {
                     {industries.map((ind) => (
                       <Link
                         key={ind}
-                        to={`/industries?sector=${encodeURIComponent(ind)}`}
+                        to={`/industries/?sector=${encodeURIComponent(ind)}`}
                         className="nav-dropdown-link"
                       >
                         {ind}
@@ -119,7 +119,7 @@ export default function Header() {
               onMouseEnter={() => handleDropdownEnter("solutions")}
             >
               <NavLink
-                to="/solutions"
+                to="/solutions/"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "is-active" : ""}`
                 }
@@ -132,7 +132,7 @@ export default function Header() {
                     {solutions.map((sol) => (
                       <Link
                         key={sol}
-                        to={`/solutions?topic=${encodeURIComponent(sol)}`}
+                        to={`/solutions/?topic=${encodeURIComponent(sol)}`}
                         className="nav-dropdown-link"
                       >
                         {sol}
@@ -144,7 +144,7 @@ export default function Header() {
             </div>
 
             <NavLink
-              to="/about"
+              to="/about/"
               className={({ isActive }) =>
                 `nav-link ${isActive ? "is-active" : ""}`
               }
@@ -152,7 +152,7 @@ export default function Header() {
               About Us
             </NavLink>
             <NavLink
-              to="/news"
+              to="/news/"
               className={({ isActive }) =>
                 `nav-link ${isActive ? "is-active" : ""}`
               }
@@ -160,7 +160,7 @@ export default function Header() {
               News
             </NavLink>
             <NavLink
-              to="/contact"
+              to="/contact/"
               className={({ isActive }) =>
                 `nav-link ${isActive ? "is-active" : ""}`
               }
@@ -187,13 +187,13 @@ export default function Header() {
           {/* Products section */}
           <div className="mobile-nav-section">
             <span className="mobile-nav-heading">Products</span>
-            <Link to="/products" className="mobile-nav-link mobile-nav-sub">
+            <Link to="/products/" className="mobile-nav-link mobile-nav-sub">
               All Products
             </Link>
             {productCategories.map((cat) => (
               <Link
                 key={cat}
-                to={`/products?category=${encodeURIComponent(cat)}`}
+                to={`/products/?category=${encodeURIComponent(cat)}`}
                 className="mobile-nav-link mobile-nav-sub"
               >
                 {cat}
@@ -204,13 +204,13 @@ export default function Header() {
           {/* Industries section */}
           <div className="mobile-nav-section">
             <span className="mobile-nav-heading">Industries</span>
-            <Link to="/industries" className="mobile-nav-link mobile-nav-sub">
+            <Link to="/industries/" className="mobile-nav-link mobile-nav-sub">
               All Industries
             </Link>
             {industries.map((ind) => (
               <Link
                 key={ind}
-                to={`/industries?sector=${encodeURIComponent(ind)}`}
+                to={`/industries/?sector=${encodeURIComponent(ind)}`}
                 className="mobile-nav-link mobile-nav-sub"
               >
                 {ind}
@@ -221,13 +221,13 @@ export default function Header() {
           {/* Solutions section */}
           <div className="mobile-nav-section">
             <span className="mobile-nav-heading">Solutions</span>
-            <Link to="/solutions" className="mobile-nav-link mobile-nav-sub">
+            <Link to="/solutions/" className="mobile-nav-link mobile-nav-sub">
               All Solutions
             </Link>
             {solutions.map((sol) => (
               <Link
                 key={sol}
-                to={`/solutions?topic=${encodeURIComponent(sol)}`}
+                to={`/solutions/?topic=${encodeURIComponent(sol)}`}
                 className="mobile-nav-link mobile-nav-sub"
               >
                 {sol}
@@ -235,16 +235,16 @@ export default function Header() {
             ))}
           </div>
 
-          <Link to="/about" className="mobile-nav-link">
+          <Link to="/about/" className="mobile-nav-link">
             About Us
           </Link>
-          <Link to="/news" className="mobile-nav-link">
+          <Link to="/news/" className="mobile-nav-link">
             News
           </Link>
-          <Link to="/contact" className="mobile-nav-link">
+          <Link to="/contact/" className="mobile-nav-link">
             Contact
           </Link>
-          <Link to="/contact" className="mobile-cta">
+          <Link to="/contact/" className="mobile-cta">
             Get a Quote
           </Link>
         </nav>

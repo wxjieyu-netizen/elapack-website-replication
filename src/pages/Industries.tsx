@@ -207,7 +207,7 @@ export default function Industries() {
                     {filteredProducts.map((product) => (
                       <Link
                         key={product.slug}
-                        to={`/products/${product.slug}`}
+                        to={`/products/${product.slug}/`}
                         className="industry-product-card"
                       >
                         <div className="industry-product-image">
@@ -237,7 +237,7 @@ export default function Industries() {
               )}
 
               <div className="industry-cta">
-                <Link to="/contact" className="btn-primary">
+                <Link to="/contact/" className="btn-primary">
                   Request a Quote for {selected}
                 </Link>
               </div>
