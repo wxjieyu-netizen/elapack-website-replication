@@ -447,6 +447,80 @@ export const collections: Collection[] = [
     ],
   },
   {
+    slug: "custom-candle-boxes",
+    eyebrow: "Candle Packaging",
+    h1: "Custom Candle Boxes — Rigid Formats and Inserts",
+    subhead:
+      "Rigid lift-off, magnetic and sleeve boxes sized to candle jars and travel tins, with inserts that hold glass steady — your size, wrap and logo.",
+    metaDescription:
+      "Custom candle boxes with logo — rigid, magnetic and sleeve formats sized to jars and tins, with steady-glass inserts. MOQ 200 pieces, free stock samples.",
+    intro:
+      "Custom candle boxes for candle and home-scent brands shipping to the US and Europe. ELAPACK makes the box side of the programme — rigid and magnetic structures built to your jar and tin dimensions, with inserts cut to hold glass steady in transit and on the shelf. We make the packaging, not the candles themselves: send your jar or tin measurements and the box is drawn around them, from single-jar retail formats to gift sets and monthly programmes. Photography of candle-specific runs is in progress; every fact on this page is our confirmed trade terms, and stock samples ship free so you can judge board and wrap in hand.",
+    sections: [
+      {
+        heading: "Box structures",
+        items: [
+          { title: "Rigid lift-off lid", desc: "Full-height lid over a rigid base — the premium single-jar and gift-set structure." },
+          { title: "Magnetic flip-top", desc: "Hidden magnets, clean exterior, a satisfying slow close for retail candle lines." },
+          { title: "Sleeve & drawer", desc: "Inner tray sliding into a printed sleeve — the standard for multi-wick and votive sets." },
+          { title: "Folding carton", desc: "Printed paperboard that ships and stores flat — practical for recurring runs." },
+        ],
+      },
+      {
+        heading: "Inserts for jars and tins",
+        items: [
+          { title: "Contoured EVA", desc: "Cut to the jar shoulder so glass cannot shift in transit." },
+          { title: "Molded pulp", desc: "Economical structure with a natural look for eco-adjacent lines." },
+          { title: "Segmented board", desc: "Dividers for votive sets, tealight trays and two-packs." },
+          { title: "Sponge & velvet", desc: "Soft cushioning under a velvet-touch cover for premium gift formats." },
+        ],
+      },
+      {
+        heading: "Finishes & branding",
+        items: [
+          { title: "Matte & soft-touch wraps", desc: "The standard candle-box finish — quiet colour, fingerprint-resistant face." },
+          { title: "Foil & embossing", desc: "Metallic logos and blind relief marks for premium home-scent programmes." },
+          { title: "Full-print branding", desc: "Offset print, spot UV and lamination on every surface." },
+          { title: "Pantone-matched wrap", desc: "Box wrap and insert fabric aligned to your brand colour." },
+        ],
+      },
+      {
+        heading: "Candle programmes",
+        items: [
+          { title: "Single-jar retail", desc: "One box format sized to your hero jar, ordered in runs alongside production." },
+          { title: "Gift sets & two-packs", desc: "Larger footprints with segmented inserts that hold pairs and stacks." },
+          { title: "Travel tins", desc: "Compact formats with insert depth matched to tin height." },
+          { title: "Subscription monthly", desc: "Same structure, new printed theme each month — from 200 pieces per drop." },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "Stock sample", value: "Free — ships in 2–3 days (sample shipping USD 20, 4–7 days)" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
+    ],
+    productSlugs: [
+      "magnetic-closure-gift-box",
+      "luxury-gift-box-ribbon",
+    ],
+    ctaTitle: "Request a quote for your custom candle boxes",
+    factBlock: {
+      updated: "October 2026",
+      paragraph:
+        "ELAPACK custom candle boxes — key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering rigid lift-off, magnetic flip-top, sleeve and folding-carton formats with fitted inserts, custom sizes included. Production takes 15–20 days for orders of 200–20,000 pieces and 20–25 days for 20,000–50,000 pieces, counted from sample approval and deposit. A free stock sample ships in 2–3 days (sample shipping USD 20, courier transit 4–7 days); a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    guideSlugs: [
+      "custom-candle-boxes-guide",
+      "candle-box-inserts-guide",
+      "luxury-candle-boxes-guide",
+      "candle-packaging-guide",
+      "candle-subscription-box-packaging",
+    ],
+  },
+  {
     slug: "custom-cosmetic-packaging",
     eyebrow: "Cosmetic & Beauty Packaging",
     h1: "Custom Cosmetic Packaging Boxes",
@@ -503,7 +577,7 @@ export const collections: Collection[] = [
     ],
     ctaTitle: "Request a quote for your cosmetic packaging",
     guideSlugs: [
-      "custom-makeup-bags-guide",
+      "custom-cosmetic-bags-guide",
       "custom-cosmetic-packaging-guide",
       "how-to-customize-eyelash-boxes",
       "press-on-nail-packaging-guide",
@@ -685,7 +759,7 @@ export const collections: Collection[] = [
     ],
     ctaTitle: "Request a quote for your cosmetic pouches",
     guideSlugs: [
-      "custom-makeup-bags-guide",
+      "custom-cosmetic-bags-guide",
       "custom-cosmetic-packaging-guide",
       "custom-perfume-packaging-guide",
     ],

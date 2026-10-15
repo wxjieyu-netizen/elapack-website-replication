@@ -22,6 +22,9 @@ const redirects: Record<string, string> = {
   "/custom": "/solutions",
   "/blog": "/news",
 
+  // 2026-10-15 #38 merge: makeup-bags guide absorbed into cosmetic-bags guide
+  "/news/custom-makeup-bags-guide": "/news/custom-cosmetic-bags-guide/",
+
   // renamed/removed product slugs (2026-09-30 keyword restructuring)
   "/products/pandora-jewelry-box-white": "/products/custom-white-jewelry-box",
   "/products/velvet-drawstring-pouch": "/products/custom-velvet-pouches",
