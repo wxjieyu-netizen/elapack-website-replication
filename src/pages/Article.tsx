@@ -24,6 +24,14 @@ const RELATED: Record<string, string[]> = {
     "leather-envelope-pouch",
     "custom-satin-pouches",
   ],
+  "custom-sunglasses-pouches-guide": [
+    "custom-microfiber-pouches",
+    "custom-velvet-pouches",
+  ],
+  "custom-microfiber-cloths-guide": [
+    "custom-microfiber-pouches",
+    "custom-velvet-pouches",
+  ],
   "custom-packaging-small-business-guide": [
     "kraft-paper-shopping-bag",
     "custom-cotton-pouches",

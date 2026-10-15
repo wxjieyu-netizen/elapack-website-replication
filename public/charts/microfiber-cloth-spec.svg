@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <rect width="1200" height="675" fill="#FAF7F2"/>
+  <g transform="translate(60 40)">
+    <text x="300" y="30" text-anchor="middle" font-size="24" fill="#2B2B2B">Composition sets the tier, weight sets the use</text>
+    <!-- GSM ladder -->
+    <text x="185" y="70" text-anchor="middle" font-size="14" fill="#7A7A7A">GSM band (industry 120–280 · stocked 180–230)</text>
+    <rect x="60" y="90" width="150" height="30" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="1.5"/>
+    <rect x="60" y="150" width="150" height="70" fill="#E4D9C8" stroke="#8A7A5E" stroke-width="2.5"/>
+    <rect x="60" y="250" width="150" height="110" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="1.5"/>
+    <text x="245" y="108" font-size="13" fill="#2B2B2B">120–170 · filmy, giveaway volume</text>
+    <text x="245" y="182" font-size="14" font-weight="bold" fill="#2B2B2B">180–230 · stocked</text>
+    <text x="245" y="202" font-size="12" fill="#7A7A7A">80/20 poly-polyamide (client default)</text>
+    <text x="245" y="218" font-size="12" fill="#7A7A7A">or 100% polyamide (premium)</text>
+    <text x="245" y="305" font-size="13" fill="#2B2B2B">250+ · retail kits, gifting, fold bulk</text>
+    <path d="M 48 415 L 48 95" stroke="#8A7A5E" stroke-width="2"/>
+    <polygon points="48,90 43,100 53,100" fill="#8A7A5E"/>
+    <text x="30" y="260" font-size="12" fill="#7A7A7A" transform="rotate(-90 30 260)" text-anchor="middle">weight → fold thickness, premium feel</text>
+    <!-- print methods -->
+    <text x="800" y="70" text-anchor="middle" font-size="14" fill="#7A7A7A">Four ways to put a mark on the cloth</text>
+    <g>
+      <rect x="530" y="90" width="130" height="110" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+      <path d="M 560 130 h 70 M 560 150 h 45" stroke="#6E8A7A" stroke-width="6"/>
+      <text x="595" y="218" text-anchor="middle" font-size="13" fill="#2B2B2B">screen · 1–2 colours</text>
+      <text x="595" y="234" text-anchor="middle" font-size="11" fill="#7A7A7A">surface stays open · cleans best</text>
+    </g>
+    <g>
+      <rect x="690" y="90" width="130" height="110" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+      <rect x="715" y="120" width="80" height="50" rx="6" fill="#8A7A5E" opacity="0.65"/>
+      <text x="755" y="218" text-anchor="middle" font-size="13" fill="#2B2B2B">heat transfer · full colour</text>
+      <text x="755" y="234" text-anchor="middle" font-size="11" fill="#7A7A7A">coated zone wipes less well</text>
+    </g>
+    <g>
+      <rect x="530" y="270" width="130" height="110" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+      <path d="M 555 300 l 15 20 l -15 20 M 590 300 l 15 20 l -15 20 M 625 300 l 15 20 l -15 20" fill="none" stroke="#8A7A5E" stroke-width="3"/>
+      <text x="595" y="408" text-anchor="middle" font-size="13" fill="#2B2B2B">jacquard · woven-in</text>
+      <text x="595" y="424" text-anchor="middle" font-size="11" fill="#7A7A7A">logo in the knit · highest minimum</text>
+    </g>
+    <g>
+      <rect x="690" y="270" width="130" height="110" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+      <path d="M 715 320 h 80 M 715 335 h 60" stroke="#8A7A5E" stroke-width="4" opacity="0.5"/>
+      <rect x="715" y="300" width="80" height="18" fill="#D9CBB4" opacity="0.6"/>
+      <text x="755" y="408" text-anchor="middle" font-size="13" fill="#2B2B2B">emboss · blind-pressed</text>
+      <text x="755" y="424" text-anchor="middle" font-size="11" fill="#7A7A7A">no ink · wipe unaffected</text>
+    </g>
+    <text x="600" y="470" text-anchor="middle" font-size="13" fill="#7A7A7A">Sizes: 15×15 / 18×18 standalone · 14×14 / 10×10 in-case · custom cuts · MOQ 200</text>
+  </g>
+</svg>

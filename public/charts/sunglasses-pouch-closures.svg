@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <rect width="1200" height="675" fill="#FAF7F2"/>
+  <g transform="translate(74 40) scale(1.5)">
+    <rect width="700" height="390" fill="#FAF7F2"/>
+    <text x="350" y="36" text-anchor="middle" font-size="24" fill="#2B2B2B">Three closures, three retail contexts</text>
+    <text x="350" y="58" text-anchor="middle" font-size="13" fill="#7A7A7A">The closure decides how the pouch is used — pick it by retail context, not by looks</text>
+    <!-- drawstring -->
+    <path d="M 90 130 q 20 -35 60 -35 q 40 0 60 35 l -8 150 q -52 18 -104 0 z" fill="#E4D9C8" stroke="#8A7A5E" stroke-width="2"/>
+    <path d="M 96 128 q 54 -22 108 0" fill="none" stroke="#6E8A7A" stroke-width="3"/>
+    <circle cx="96" cy="128" r="4" fill="#6E8A7A"/>
+    <circle cx="204" cy="128" r="4" fill="#6E8A7A"/>
+    <line x1="96" y1="128" x2="70" y2="150" stroke="#6E8A7A" stroke-width="2"/>
+    <line x1="204" y1="128" x2="230" y2="150" stroke="#6E8A7A" stroke-width="2"/>
+    <text x="150" y="322" text-anchor="middle" font-size="14" fill="#2B2B2B">drawstring</text>
+    <text x="150" y="340" text-anchor="middle" font-size="12" fill="#7A7A7A">giveaways, travel, events</text>
+    <text x="150" y="356" text-anchor="middle" font-size="12" fill="#7A7A7A">one pull to close · lowest sew cost</text>
+    <!-- zip -->
+    <rect x="270" y="95" width="150" height="185" rx="10" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <line x1="270" y1="120" x2="420" y2="120" stroke="#8A7A5E" stroke-width="4"/>
+    <rect x="330" y="112" width="18" height="16" rx="3" fill="#FAF7F2" stroke="#8A7A5E" stroke-width="2"/>
+    <circle cx="339" cy="128" r="3" fill="#8A7A5E"/>
+    <text x="345" y="322" text-anchor="middle" font-size="14" fill="#2B2B2B">zip</text>
+    <text x="345" y="340" text-anchor="middle" font-size="12" fill="#7A7A7A">premium lines, heavier contents</text>
+    <text x="345" y="356" text-anchor="middle" font-size="12" fill="#7A7A7A">secure close · pull = branding surface</text>
+    <!-- flat fold -->
+    <path d="M 470 120 h 160 v 160 h -160 z" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+    <path d="M 470 120 q 80 45 160 0 l 0 -12 q -80 40 -160 0 z" fill="#E4D9C8" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="550" y="322" text-anchor="middle" font-size="14" fill="#2B2B2B">flat fold (envelope)</text>
+    <text x="550" y="340" text-anchor="middle" font-size="12" fill="#7A7A7A">mailer programmes</text>
+    <text x="550" y="356" text-anchor="middle" font-size="12" fill="#7A7A7A">no hardware · cheapest to ship</text>
+    <!-- size bar -->
+    <line x1="90" y1="390" x2="630" y2="390" stroke="#8A7A5E" stroke-width="2"/>
+    <line x1="90" y1="384" x2="90" y2="396" stroke="#8A7A5E" stroke-width="2"/>
+    <line x1="630" y1="384" x2="630" y2="396" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="360" y="412" text-anchor="middle" font-size="12" fill="#7A7A7A">cut to the folded frame — 130 mm (slim optical) to 160 mm+ (fashion sunglasses), 10–15 mm clearance</text>
+  </g>
+</svg>

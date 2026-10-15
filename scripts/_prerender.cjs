@@ -3770,7 +3770,7 @@ Keep the note local, and send it to your supplier through your existing approved
     "imageHeight": 1350,
     "excerpt": "The eyewear carrier map, honestly drawn: hard shells are a different industry, and the KD 0-9 word family rewards the supplier that says so. Formats, pouch fabrics, frame-driven box sizing and ordering terms.",
     "metaDescription": "Custom glasses cases and pouches: formats from hard shell to soft microfiber, US search data at KD 0-9, personalisation intent, and ordering terms from 200 pieces.",
-    "body": "*Keyword data in this guide was read from the Semrush US database through a logged-in session on 12 October 2026, no export \u2014 the eyewear family is absent from our S1/S2 export, which is precisely why this cluster went unmeasured until now. Ordering terms are as published on our [eyewear packaging](https://elapack.com/eyewear-packaging/) page.*\n\nEyewear is our longest-standing category and the one with the biggest content gap: until this week, the word data simply was not in the library. The mirror-read changes that \u2014 the custom glasses case family turns out to be small in volume but the easiest difficulty profile we have ever measured in a commercial cluster. This page fills the gap properly: formats compared honestly (including the one we do not make), the word data, and the ordering terms.\n\n> **Quick answer:** custom glasses carriers split into hard shells (injection-moulded, a specialist industry), semi-hard cases, soft pouches in velvet, cotton or microfiber, and printed boxes with fitted inserts. We make the pouch and box sides \u2014 from 200 pieces per design, 15-20 working days \u2014 and the honest spec decision is which side of that line your product actually needs.\n\n## What the search data says\n\n![US search demand: custom glasses case cluster](/charts/glasses-cases-search-volume.svg)\n\n| Keyword | Monthly US searches | KD | Intent |\n|---|---|---|---|\n| custom glasses case | 170 | 3 | commercial |\n| custom eyeglass case | 140 | 3 | commercial |\n| personalised spectacle case | 140 | 4 | commercial |\n| personalised eyeglass cases | 70 | 0 | commercial |\n| personalised eyeglass case | 140 | 4 | commercial |\n| custom sunglasses case | 90 | 9 | commercial |\n| spectacle case soft | 70 | n/a | commercial |\n\n*Source: Semrush US database, read via logged-in session on 12 October 2026 (no export). Head volume is modest; difficulty 0-9 across the family is the lowest we have measured in any commercial cluster.*\n\nTwo structural reads. First, the personalisation angle is as large as the custom angle \u2014 personalised variants match the custom variants almost word for word, which means gifting and branding intent, not just optical-industry supply. Second, the soft-case phrases register inside the family (spectacle case soft, 70): the fabric side of this market is native demand, not an upsell.\n\n## Formats: the honest map\n\n| Format | Construction | Who makes it | What it is for |\n|---|---|---|---|\n| Hard shell | injection-moulded or metal, hinge or spring | hard-case specialists \u2014 not us | everyday carry, optical retail |\n| Semi-hard | fabric over structured shell | case specialists | carry with some protection |\n| Soft pouch | velvet, cotton or microfiber, open or drawstring | us \u2014 [velvet](https://elapack.com/products/custom-velvet-pouches/), [cotton](https://elapack.com/products/custom-cotton-pouches/), [microfiber](https://elapack.com/products/custom-microfiber-pouches/) | in-box protection, lens cleaning, GWP |\n| Printed box with fitted insert | rigid or magnetic box, EVA or moulded insert | us \u2014 [eyewear packaging](https://elapack.com/eyewear-packaging/) | retail presentation, gift sets, e-commerce |\n| Fold-flat box | engineered creases, ships flat | us | subscription and volume programs |\n\nStating the boundary plainly: if the product needs a hinged hard shell, that is a different factory's catalogue, and pretending otherwise wastes your sampling budget. What pairs with every frame line is the fabric-plus-box program \u2014 the pouch that keeps the frames safe after the sale, and the printed box that presents them at it.\n\n## The pouch decision\n\nThe [jewellery pouch guide](https://elapack.com/news/how-to-choose-a-custom-jewelry-pouch/) covers fabric, size and closure logic that transfers directly to eyewear: velvet for premium presentation, cotton for printed GWP programs, microfiber when the pouch doubles as the cleaning cloth. Logo economics \u2014 screen print versus heat transfer versus woven labels \u2014 are broken out in the [pouch logo guide](https://elapack.com/news/custom-logo-pouches-guide/); the one-line version is screen print under three colours, woven labels on velvet and satin.\n\nPersonalisation is where the word data says the money is: the personalised variants (personalised spectacle case, personalised eyeglass case) carry gifting intent \u2014 monogram-style single-decoration runs, which suit a 200-piece MOQ program per design.\n\n## The box decision: frames set the footprint\n\nA folded pair of glasses defines the box interior \u2014 share the folded frame dimensions and the box and insert get built around them, the same rule our eyewear collection page publishes. Standard decisions:\n\n| Decision | Options | Notes |\n|---|---|---|\n| Construction | rigid two-piece, magnetic flip-lid, fold-flat | magnetic pairs with the [magnetic gift box guide](https://elapack.com/news/magnetic-gift-boxes-guide/) |\n| Insert | moulded EVA, die-cut board, fabric-wrapped tray | insert materials compared in [packaging inserts](https://elapack.com/news/packaging-inserts-guide/) |\n| Program | single-frame box, two-frame gift set, box + pouch + card | sets mirror the [jewellery packaging](https://elapack.com/news/custom-jewelry-packaging-guide/) playbook |\n\n## Ordering data\n\n| Line item | Terms |\n|---|---|\n| MOQ | 200 pieces per design \u2014 printed glasses boxes, fabric pouches and fitted inserts included, custom sizes included |\n| Production | 15-20 working days (200-20,000), 20-25 days (20,000-50,000), from sample approval and deposit |\n| Stock sample | free, ships 2-3 days (USD 20 courier) |\n| Custom sample | USD 25 + USD 20 shipping, built 3-5 days from confirmed artwork; a full custom round lands in roughly two weeks at about USD 45 all-in |\n| Payment and freight | T/T or PayPal; air or sea from Shanghai or Shenzhen |\n\n## Bottom line\n\nMeasure the cluster honestly: small volume, near-zero difficulty, personalisation-heavy intent \u2014 a content and product page that states the hard-shell boundary will outrank a generic supplier page that blurs it. On the supply side, order the box and the pouch as one program so colour and branding match across both.\n\n**Spec an eyewear packaging program:** send folded frame dimensions and artwork status through the [contact page](https://elapack.com/contact/), or start from the [eyewear packaging collection](https://elapack.com/eyewear-packaging/). For the wider trust checklist before a deposit, see [how to vet a packaging manufacturer](https://elapack.com/news/how-to-vet-a-packaging-manufacturer/)."
+    "body": "*Keyword data in this guide was read from the Semrush US database through a logged-in session on 12 October 2026, no export \u2014 the eyewear family is absent from our S1/S2 export, which is precisely why this cluster went unmeasured until now. Ordering terms are as published on our [eyewear packaging](https://elapack.com/eyewear-packaging/) page.*\n\nEyewear is our longest-standing category and the one with the biggest content gap: until this week, the word data simply was not in the library. The mirror-read changes that \u2014 the custom glasses case family turns out to be small in volume but the easiest difficulty profile we have ever measured in a commercial cluster. This page fills the gap properly: formats compared honestly (including the one we do not make), the word data, and the ordering terms.\n\n> **Quick answer:** custom glasses carriers split into hard shells (injection-moulded, a specialist industry), semi-hard cases, soft pouches in velvet, cotton or microfiber, and printed boxes with fitted inserts. We make the pouch and box sides \u2014 from 200 pieces per design, 15-20 working days \u2014 and the honest spec decision is which side of that line your product actually needs.\n\n## What the search data says\n\n![US search demand: custom glasses case cluster](/charts/glasses-cases-search-volume.svg)\n\n| Keyword | Monthly US searches | KD | Intent |\n|---|---|---|---|\n| custom glasses case | 170 | 3 | commercial |\n| custom eyeglass case | 140 | 3 | commercial |\n| personalised spectacle case | 140 | 4 | commercial |\n| personalised eyeglass cases | 70 | 0 | commercial |\n| personalised eyeglass case | 140 | 4 | commercial |\n| custom sunglasses case | 90 | 9 | commercial |\n| spectacle case soft | 70 | n/a | commercial |\n\n*Source: Semrush US database, read via logged-in session on 12 October 2026 (no export). Head volume is modest; difficulty 0-9 across the family is the lowest we have measured in any commercial cluster.*\n\nTwo structural reads. First, the personalisation angle is as large as the custom angle \u2014 personalised variants match the custom variants almost word for word, which means gifting and branding intent, not just optical-industry supply. Second, the soft-case phrases register inside the family (spectacle case soft, 70): the fabric side of this market is native demand, not an upsell.\n\n## Formats: the honest map\n\n| Format | Construction | Who makes it | What it is for |\n|---|---|---|---|\n| Hard shell | injection-moulded or metal, hinge or spring | hard-case specialists \u2014 not us | everyday carry, optical retail |\n| Semi-hard | fabric over structured shell | case specialists | carry with some protection |\n| Soft pouch | velvet, cotton or microfiber, open or drawstring | us \u2014 [velvet](https://elapack.com/products/custom-velvet-pouches/), [cotton](https://elapack.com/products/custom-cotton-pouches/), [microfiber](https://elapack.com/products/custom-microfiber-pouches/) | in-box protection, lens cleaning, GWP |\n| Printed box with fitted insert | rigid or magnetic box, EVA or moulded insert | us \u2014 [eyewear packaging](https://elapack.com/eyewear-packaging/) | retail presentation, gift sets, e-commerce |\n| Fold-flat box | engineered creases, ships flat | us | subscription and volume programs |\n\nStating the boundary plainly: if the product needs a hinged hard shell, that is a different factory's catalogue, and pretending otherwise wastes your sampling budget. What pairs with every frame line is the fabric-plus-box program \u2014 the pouch that keeps the frames safe after the sale, and the printed box that presents them at it.\n\n## The pouch decision\n\nThe [jewellery pouch guide](https://elapack.com/news/how-to-choose-a-custom-jewelry-pouch/) covers fabric, size and closure logic that transfers directly to eyewear: velvet for premium presentation, cotton for printed GWP programs, microfiber when the pouch doubles as the cleaning cloth. Logo economics \u2014 screen print versus heat transfer versus woven labels \u2014 are broken out in the [pouch logo guide](https://elapack.com/news/custom-logo-pouches-guide/); the one-line version is screen print under three colours, woven labels on velvet and satin.\n\nPersonalisation is where the word data says the money is: the personalised variants (personalised spectacle case, personalised eyeglass case) carry gifting intent \u2014 monogram-style single-decoration runs, which suit a 200-piece MOQ program per design.\n\n## The box decision: frames set the footprint\n\nA folded pair of glasses defines the box interior \u2014 share the folded frame dimensions and the box and insert get built around them, the same rule our eyewear collection page publishes. Standard decisions:\n\n| Decision | Options | Notes |\n|---|---|---|\n| Construction | rigid two-piece, magnetic flip-lid, fold-flat | magnetic pairs with the [magnetic gift box guide](https://elapack.com/news/magnetic-gift-boxes-guide/) |\n| Insert | moulded EVA, die-cut board, fabric-wrapped tray | insert materials compared in [packaging inserts](https://elapack.com/news/packaging-inserts-guide/) |\n| Program | single-frame box, two-frame gift set, box + pouch + card | sets mirror the [jewellery packaging](https://elapack.com/news/custom-jewelry-packaging-guide/) playbook |\n\n## Ordering data\n\n| Line item | Terms |\n|---|---|\n| MOQ | 200 pieces per design \u2014 printed glasses boxes, fabric pouches and fitted inserts included, custom sizes included |\n| Production | 15-20 working days (200-20,000), 20-25 days (20,000-50,000), from sample approval and deposit |\n| Stock sample | free, ships 2-3 days (USD 20 courier) |\n| Custom sample | USD 25 + USD 20 shipping, built 3-5 days from confirmed artwork; a full custom round lands in roughly two weeks at about USD 45 all-in |\n| Payment and freight | T/T or PayPal; air or sea from Shanghai or Shenzhen |\n\n## Bottom line\n\nMeasure the cluster honestly: small volume, near-zero difficulty, personalisation-heavy intent \u2014 a content and product page that states the hard-shell boundary will outrank a generic supplier page that blurs it. On the supply side, order the box and the pouch as one program so colour and branding match across both.\n\n**Spec an eyewear packaging program:** send folded frame dimensions and artwork status through the [contact page](https://elapack.com/contact/), or start from the [eyewear packaging collection](https://elapack.com/eyewear-packaging/). For the wider trust checklist before a deposit, see [how to vet a packaging manufacturer](https://elapack.com/news/how-to-vet-a-packaging-manufacturer/). For the soft side of the programme in depth, the [custom sunglasses pouches guide](https://elapack.com/news/custom-sunglasses-pouches-guide/) covers fabric, closure and print on pouches, and the [custom microfiber cloths guide](https://elapack.com/news/custom-microfiber-cloths-guide/) covers the lens cloths that pair with them."
   },
   {
     "slug": "perfume-sample-cards-guide",
@@ -4463,6 +4463,125 @@ For the bag-versus-case decision across the whole cosmetic line \u2014 fabric ba
 Write "PU, base fabric, thickness, lining" on the quote sheet before you write the logo \u2014 that one line eliminates most of the disappointment in leather-look orders, because the peeling and cracking complaints trace back to unspecified faces, not to PU itself. A 200-piece first run in one face and one mark, sampled at USD 25, tells you more about the look than any catalogue photo.
 
 **Spec a leather-look cosmetic bag:** send sizes, face reference and target quantity through the [contact page](https://elapack.com/contact/). Or settle the adjacent decisions first \u2014 the [cosmetic bags guide](https://elapack.com/news/custom-cosmetic-bags-guide/) for the wider format map, the [logo techniques guide](https://elapack.com/news/custom-logo-pouches-guide/) for print-method economics.`
+  },
+  {
+    "slug": "custom-sunglasses-pouches-guide",
+    "datePublished": "2026-10-15",
+    "title": "Custom Sunglasses Pouches: Fabric, Closure and Print Choices Compared",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "6 min read",
+    "image": "/images/covers/custom-sunglasses-pouches-guide.webp",
+    "imageAlt": "Custom sunglasses pouch builds compared \u2014 drawstring, zip and flat fold",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Fabric by positioning, closure by retail context, print by colour count: the three decisions that spec an eyewear pouch, from the 200-piece band promotional catalogues do not serve.",
+    "metaDescription": "Custom sunglasses and eyewear pouches compared by fabric, closure and print method \u2014 microfiber, velvet and cotton builds, drawstring vs zip vs flat fold, MOQ 200, samples in 3-5 days.",
+    "body": `
+*Product facts and ordering terms below are this factory's published trade terms. Competitor prices are quoted as published on their pages, read 15 October 2026, for comparison only.*
+
+A sunglasses pouch looks like the simplest item in an eyewear programme \u2014 until the specification sheet arrives. Fabric, closure, size, print method: each choice moves the unit price, the lead time and the way the pouch feels in a customer's hand. The promotional catalogues show none of this; they list a grey microfiber drawstring at one price and a full-colour print at another, and leave the brand to guess which specification fits which product line. This guide lays the choices out side by side, from a factory that sews these pouches at branded-run volumes.
+
+> **Quick answer:** for eyewear, microfiber is the working fabric (it cleans as well as protects), the closure follows the retail context \u2014 drawstring for giveaway and travel, zip for premium lines, flat fold for mailers \u2014 and print runs from one-colour screen at the lowest setup to full heat-transfer colour at the highest. MOQ 200 pieces per design; custom samples in 3\u20135 days.
+
+## Why microfiber owns the eyewear pouch
+
+Three fabrics carry most of the market. Microfiber \u2014 the same polyester-polyamide knit used for lens cloths \u2014 is the default because a pouch sewn from it doubles as a cleaner: the customer pulls the sunglasses out and wipes the lenses with the bag. The blend ratio works here exactly as it does on the cloths: 80/20 polyester-polyamide is the industry-standard balance most clients choose, 100% polyamide the premium tier with the softest hand, both stocked at 180\u2013230 GSM with custom blends on request. That dual function is why the microfiber variants dominate search demand across both the sunglasses and eyeglass word families, and why promotional suppliers build their catalogues around it. Velvet is the counter-choice for display and gifting contexts, where the pouch sits open in a box and touch sells. Cotton and muslin carry natural-fibre branding for eco lines at a slightly firmer hand. All three are stocked; the decision is positioning, not availability.
+
+
+![The three eyewear pouch builds \u2014 drawstring, zip and flat fold](/charts/sunglasses-pouch-closures.svg)
+
+*Fig. 1 \u2014 The three eyewear pouch builds \u2014 drawstring, zip and flat fold.*
+
+## Closures: drawstring, zip, flat fold
+
+The closure decides how the pouch is used more than how it looks. A drawstring closes in one pull, costs the least to sew, and suits high-volume giveaways, event merch and travel retail \u2014 it is the build behind nearly every promotional catalogue listing. A zip adds a secure close for premium lines and heavier contents (a sunglasses pouch that also carries a cloth and a small care card), at a modest sewing premium; fabric zips are stocked, metal pulls add a branding surface. The flat fold \u2014 an envelope with a tuck flap and no hardware at all \u2014 is the lightest and cheapest to ship, made for mailer programmes where the pouch arrives flat with the glasses. Between them these three builds cover the eyewear market; anything else is a bespoke pattern.
+
+## Print methods and what each costs in setup
+
+Screen printing prices per colour \u2014 one colour in one position is the promotional standard \u2014 and holds up at volume for simple logos. Heat transfer reproduces full-colour artwork, gradients and photographic marks, at a higher per-piece cost that falls with quantity. Woven-in or jacquard construction puts the logo into the fabric itself for premium microfiber builds, at the highest minimum. The specification question to answer first is not "which print" but "how many colours does the mark actually need" \u2014 most eyewear logos are one or two, which is why screen remains the volume default. A print method should be chosen on the artwork, not the catalogue page.
+
+## Sizing to the glasses, not the shelf
+
+Pouches are cut to contents, and eyewear spans a wide span: slim optical frames fold to 130\u2013140 mm, fashion sunglasses run to 160 mm and above, and oversized or wraparound styles need a bespoke pattern. A pouch with 10\u201315 mm of clearance closes easily and stops the glasses sliding; a pouch sized "generously" lets them rattle \u2014 the failure mode behind most re-order requests. The specification that matters is the folded length and width of the actual frame, measured hinge to hinge and across the widest lens point, sent with the quote.
+
+## What a first run looks like
+
+| Line item | Terms |
+|---|---|
+| Minimum | 200 pieces per design |
+| Production | 15\u201320 working days (200\u201320,000) |
+| Samples | stock free + USD 20 shipping (2\u20133 days); custom USD 25 + USD 20 (3\u20135 days) |
+| Fabrics | microfiber, velvet, cotton, satin \u2014 stocked |
+| Payment and freight | T/T or PayPal; air or sea from Shanghai or Shenzhen |
+
+Between the promotional 100-piece run and the 1,200-piece factory order sits the band most young eyewear brands actually buy in \u2014 200 to 500 pieces, one or two designs, custom fabric and full specification. That band is what this factory serves. Pair the pouch with a [branded microfiber cloth](https://elapack.com/news/custom-microfiber-cloths-guide/) from the same production line and the same freight; the cloth guide covers its specification separately. For the full eyewear packaging programme \u2014 boxes, inserts, pouches \u2014 the [eyewear packaging guide](https://elapack.com/news/custom-glasses-cases-pouches-guide/) maps the components.
+
+## Bottom line
+
+Specify the pouch like the product it is: fabric by positioning, closure by retail context, print by the artwork's colour count, size by the folded frame. [Start the quote](https://elapack.com/contact/) with frame dimensions and target volume; the pattern and sample follow.
+`
+  },
+  {
+    "slug": "custom-microfiber-cloths-guide",
+    "datePublished": "2026-10-15",
+    "title": "Custom Microfiber Cleaning Cloths for Glasses: GSM, Sizes and Print Methods",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "6 min read",
+    "image": "/images/covers/custom-microfiber-cloths-guide.webp",
+    "imageAlt": "Custom microfiber glasses cleaning cloth specification \u2014 composition, GSM and print methods",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "The blend ratio sets the tier, the weight sets the use: how to specify a branded microfiber lens cloth that cleans well, survives washing and keeps the print intact.",
+    "metaDescription": "Custom microfiber cleaning cloths for glasses and eyewear \u2014 GSM weight bands, standard sizes, print methods compared, care instructions that keep branding intact. MOQ 200, samples in 3-5 days.",
+    "body": `
+*Product facts and ordering terms below are this factory's published trade terms. Competitor prices are quoted as published on their pages, read 15 October 2026, for comparison only.*
+
+A branded cleaning cloth is the cheapest piece of brand real estate in eyewear: it travels in every case, gets used daily, and carries a logo for the life of the glasses. Yet most of what a buyer finds online is a price list \u2014 a no-minimum print shop at one end, a promotional catalogue in the middle, a factory price-per-thousand at the other \u2014 and almost nothing on the specification that decides whether the cloth cleans well, survives washing, and keeps the print intact. This guide covers that specification: weight, size, print, and care.
+
+> **Quick answer:** "microfiber" means a polyester-polyamide knit, and the blend ratio sets the tier \u2014 80/20 is the industry standard most clients choose, 100% polyamide the premium tier for streak-free lens wiping; this factory stocks both at 180\u2013230 GSM, custom blends on request. Standard sizes run 15\xD715 cm down to 10\xD710 cm for compact cases; print is screen, heat transfer, jacquard-woven or embossed; and a custom run starts at 200 pieces with samples in 3\u20135 days. Pair with a microfiber pouch from the same line for one freight, one programme.
+
+## Composition and weight: the two spec decisions
+
+"Microfiber" names the fibre fineness, not a single recipe: every microfiber cloth is a knit of polyester and polyamide, and the ratio sets the tier. Polyester provides the mechanical cleaning bite \u2014 its fibres grab oil and grit; polyamide provides absorbency and softness. 80% polyester / 20% polyamide is the ratio the industry treats as the standard, and it is what most clients of this factory choose: the best balance of wipe, durability and cost, which is why the market runs on it. 100% polyamide is the premium tier \u2014 maximum absorbency and the softest, streak-free finish on coated and AR lenses, at a higher fibre cost \u2014 the pick of premium eyewear and camera brands. Both are stocked here at 180\u2013230 GSM, with custom blends on request.
+
+Weight then does the rest of the work within the tier, and the band for optics runs roughly 120 to 280 GSM. Below the stocked band the cloth turns filmy \u2014 factory listings cluster there because it is cheapest, not because it wipes well; above 250 GSM it feels premium for retail kits at a cost in fold bulk. The buyer's rule: pick the blend for the brand tier, then the weight for where the cloth lives \u2014 case insert, standalone accessory, or gift kit \u2014 not the highest number on a quote.
+
+
+![Microfiber cloth specification \u2014 GSM bands and the four print methods](/charts/microfiber-cloth-spec.svg)
+
+*Fig. 1 \u2014 Microfiber cloth specification \u2014 GSM bands and the four print methods.*
+
+## Sizes and edge finishes
+
+Optical cloths mostly follow a small set of cut sizes: 15\xD715 cm and 18\xD718 cm as standalone accessories, 14\xD714 cm and 10\xD710 cm folded into cases, and custom cuts for oversized sunglasses or boxed kits. Two edge finishes dominate: laser-cut edges, which seal the knit against fraying at no sewing cost and suit promotional volume, and sewn-overlock edges for a finished look on heavier weights in retail kits. The specification worth writing down is the folded size \u2014 the size the cloth must collapse to inside the customer's case \u2014 because that, not the open cut, is what returns to the factory as a re-order problem when it is wrong.
+
+## Print methods and cleaning performance
+
+The print choice interacts with the cloth's function in a way catalogues never mention: ink covers microfiber. Screen printing one or two colours leaves most of the surface open and cleans best \u2014 the standard for optics. Heat transfer reproduces full colour but lays a larger coated zone that cleans less well where the artwork sits, acceptable when the logo is compact. Jacquard weaves the logo into the knit itself \u2014 nothing sits on the surface, cleaning is unaffected, and the minimum is highest; it is the premium default for eyewear and camera brands. Embossing presses the mark into the pile with heat and pressure instead of ink \u2014 a tonal, blind-stamped logo that reads as texture rather than print, leaves the wiping surface fully functional, and suits minimal monogram marks on premium cloths. The decision sequence: artwork colour count first, then how much of the cloth the mark may cover, then budget.
+
+## Keeping a branded cloth clean
+
+The most-searched questions in this cloth family are care questions \u2014 how to wash a microfiber eyeglass cloth \u2014 and the answer matters doubly for branded cloths, because the wash cycle is where a cheap print fails. Lukewarm water, mild detergent, no fabric softener (it coats the fibres and kills the cleaning action), air dry, and the print method above decides whether the logo survives the fiftieth wash. For a brand, publishing these instructions with the product cuts support questions and quietly demonstrates that the cloth was specified to last.
+
+## What a first run looks like
+
+| Line item | Terms |
+|---|---|
+| Minimum | 200 pieces per design |
+| Fabric | 80/20 polyester-polyamide or 100% polyamide, 180\u2013230 GSM (custom blends on request) |
+| Production | 15\u201320 working days (200\u201320,000) |
+| Samples | stock free + USD 20 shipping (2\u20133 days); custom USD 25 + USD 20 (3\u20135 days) |
+| Print | screen / heat transfer / jacquard-woven / embossed |
+| Payment and freight | T/T or PayPal; air or sea from Shanghai or Shenzhen |
+
+Cloth is the lightest freight in any eyewear programme, which makes it the natural companion order: a run of cloths pairs with a run of [custom sunglasses pouches](https://elapack.com/news/custom-sunglasses-pouches-guide/) from the same production line, shipping together at one freight cost. Sprays and lens solutions are a separate chemical trade this factory does not supply \u2014 cloths, pouches and print are the line here.
+
+## Bottom line
+
+Specify on function: weight by where the cloth lives, size by the folded case, print by colour count and how much surface it may cover. [Start the quote](https://elapack.com/contact/) with size, target weight and artwork; a sample follows in 3\u20135 days.
+`
   }
 ]);
 function getArticleBySlug(slug) {
@@ -5692,6 +5811,14 @@ var RELATED = {
   "custom-leather-cosmetic-bags-guide": [
     "leather-envelope-pouch",
     "custom-satin-pouches"
+  ],
+  "custom-sunglasses-pouches-guide": [
+    "custom-microfiber-pouches",
+    "custom-velvet-pouches"
+  ],
+  "custom-microfiber-cloths-guide": [
+    "custom-microfiber-pouches",
+    "custom-velvet-pouches"
   ],
   "custom-packaging-small-business-guide": [
     "kraft-paper-shopping-bag",
