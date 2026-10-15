@@ -4230,6 +4230,239 @@ The calendar note that matters: a line that wants shelf-ready boxes for the Q4 g
 ## Bottom line
 
 Specify the structure by where the box opens, the insert by the bottle, and the quantity by the reorder forecast \u2014 then hold the supplier to a dieline, a sample and a stated composition. ELAPACK builds all three structures to your bottle dimensions from 200 pieces, inserts cut to profile, dielines free at quotation. [Start the quote](https://elapack.com/contact/) with bottle dimensions, structure preference and target volumes.`
+  },
+  {
+    "slug": "custom-earring-cards-guide",
+    "datePublished": "2026-10-15",
+    "title": "Custom Earring Cards: Sizing, Slots and Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/covers/custom-earring-cards-guide.webp",
+    "imageAlt": "Editorial info-card cover for the ELAPACK custom earring cards guide",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Earring cards from the buyer side: slot styles by earring type, the sizing arithmetic (card height from drop length), cardstock bands and ordering data from 200 pieces.",
+    "metaDescription": "Custom earring cards with your logo \u2014 printed display cards sized to studs, drops and hoops, with slot and punch formats for jewelry brands. MOQ 200, free stock samples.",
+    "body": `*Product facts and ordering terms below are this factory's published trade terms. Competitor specs in the comparison sections are as published on supplier and marketplace pages read 15 October 2026, quoted for comparison only. The sizing method is geometry \u2014 card height from drop length, width from pair spacing \u2014 and needs no supplier claim to check. No environmental claims are made on this page.*
+
+Earring cards are the cheapest square centimetres in a jewelry programme and the easiest to get wrong: a card cut too short turns a pair of drop earrings into a crowded tangle, and a slot punched for studs will not hold a fishhook. This guide stays on the card itself \u2014 formats, slot styles, the sizing arithmetic, the cardstock bands the market prints on, and what ordering at each supplier tier actually costs. It sits beside the [jewelry display and storage guide](https://elapack.com/news/jewelry-display-trays-guide/) (trays and showcases) and the [jewelry packaging overview](https://elapack.com/news/custom-jewelry-packaging-guide/) (boxes, pouches and sets), and shares its paper-and-print logic with the [perfume sample cards guide](https://elapack.com/news/perfume-sample-cards-guide/).
+
+> **Quick answer:** specify the slot style by earring type first, then let the earring set the card size \u2014 height from drop length plus a brand band, width from pair spacing \u2014 and choose cardstock in the market's standard 14\u201318 pt cover band. Printed and die-cut cards from this factory run from 200 pieces per design in 15\u201320 working days; a USD 25 custom sample plus USD 20 shipping proofs the card, slot and print before the run.
+
+## What the card has to decide
+
+A card does two jobs in one piece of cardstock: it presents the pair at retail \u2014 price, name, brand \u2014 and it holds the earrings securely enough to survive being picked up, turned over and slid across a counter. The two jobs pull in opposite directions. Presentation wants clean space and a quiet logo; holding wants slots, punches and notches exactly where the earring needs them.
+
+That tension is why a card specified "same as last time but for hoops" fails. The slot system is the structure of the card, the way a lid is the structure of a box, and it changes with the earring type. Everything else \u2014 stock, finish, print \u2014 decorates that structure.
+
+The card is also the layer buyers see first in a marketplace listing. A pair photographed on a sized, branded card reads as a product line; the same pair on a generic card reads as craft output. For brands running both retail and online channels, one card artwork serves both, which is why the spec is worth getting right before the first print run rather than after the second reorder.
+
+## Slot and punch styles by earring type
+
+| Earring type | Holding feature | What it must fit | Spec decisions |
+|---|---|---|---|
+| Studs | Paired horizontal slots | post length + butterfly back | slot length vs post gauge, pair spacing |
+| Fishhook / drops | Top punch or hook slot | hook wire curve | punch position vs drop length, card height |
+| Hoops | Double notch or through-slits | hoop diameter when carded flat | notch pitch, card width for large hoops |
+| Huggies / clips | Snap-frame slit | closure bulk | slit reinforcement for heavier pairs |
+
+Two practical notes from the carding action itself. Butterfly backs go on behind the card, so slot length must clear the post with the back attached \u2014 the most common sizing miss on stud cards. And fishhook styles hang from the top band of the card, which means the hook punch and the brand mark compete for the same centimetres; decide which sits higher before artwork, not after.
+
+For pairs that ship flat but hang at retail, a hanging punch (the round hole at the card top) is a separate feature from the earring slots below it \u2014 specify both positions in the dieline so the hung card does not tilt.
+
+
+![Earring card slot styles mapped to earring types](/charts/earring-card-slot-styles.svg)
+
+*Fig. 1 \u2014 Slot and punch styles mapped to the earring type each one holds.*
+
+## Sizing the card correctly
+
+Community questions from jewelry makers keep returning to one problem \u2014 how to size earring cards and necklace display cards correctly (questions read 15 October 2026) \u2014 because most sellers inherit a card size instead of deriving it. The derivation is short:
+
+**Card height = drop length + holding allowance + brand band.** Measure the earring hanging as it will card (hook engaged or post through), add room for the back or a second finding, and leave the band at the top for logo and price. A 4 cm drop with findings and a 2 cm band lands near a 7 cm card \u2014 the market's 2"\xD74" earring card format (Gold Image Printing, as published, read 15 Oct 2026) covers exactly this arithmetic for typical drops.
+
+**Card width = pair spacing + margins.** Studs sit closer than hoops; a wide pair on a narrow card collides at the slots. When the same artwork must cover several earring types, size the card to the largest pair in the line and let smaller pairs sit with more air \u2014 cards look empty, earrings never look comfortable squeezed.
+
+Necklace display cards follow the same logic with one change: the chain, not a finding, sets the length, so the slit position and card height come from the chain's hanging length. The market runs these from 2.25" squares up to 3.5" squares with short, standard and high slits (as published, read 15 October 2026) \u2014 pick the slit height by where you want the chain's curve to sit, not by stock availability.
+
+## Cardstock and finishes
+
+The market prints jewelry cards on cover-weight board from 14 to 18 pt, with the finish doing the branding work: semi-gloss and matte as the workhorses, linen and felt weaves for artisan lines, soft-touch lamination at the top of the band (Gold Image Printing's published card menu, read 15 October 2026). What changes across that band is stiffness and edge behaviour \u2014 a 14 pt card flexes when handled, an 18 pt card reads as part of the product.
+
+From this factory's side, the card is a printed-and-die-cut paper product: CMYK print, foil stamping, embossing and debossing on the confirmed process list, with slots and punches cut to the dieline \u2014 the [die cutting and dielines guide](https://elapack.com/news/die-cutting-and-dielines-guide/) describes how the cutting form prices and what a new form costs (USD 50\u2013100 when a new die is needed).
+
+## Ordering data: marketplace packs vs factory runs
+
+| Tier | What you get | Published terms |
+|---|---|---|
+| Marketplace small packs | generic shapes, template print, ship fast | Etsy listings from about USD 14.85 per 100 cards (read 15 Oct 2026) |
+| Domestic print shops | full print menu, standard sizes | Gold Image Printing: 50\u20135,000 piece tiers, 3-business-day turnaround (read 15 Oct 2026) |
+| This factory | custom dieline, print and finish, made with the rest of the programme | 200 pieces per design, 15\u201320 working days, stock sample free + USD 20 shipping, custom sample USD 25 + USD 20 in 3\u20135 days |
+
+The three tiers are not really competitors. The marketplace tier sells convenience at retail-per-card pricing; the print-shop tier sells a full finish menu in domestic volumes; a factory run sells the card as part of the packaging programme \u2014 same dieline logic as the box, same print colour control, and the option to match card stock and pouch fabric to one Pantone reference. For a brand already ordering [custom jewelry pouches](https://elapack.com/custom-jewelry-pouches/) or boxes, adding the card to the same production calendar is the difference between a matched line and a matched-after-the-fact one. First-order budgeting for the full set \u2014 what to order first when the budget is tight \u2014 is walked through in the [small business packaging guide](https://elapack.com/news/custom-packaging-small-business-guide/).
+
+## Cards as part of the jewellery programme
+
+The card is the presentation layer that travels: box or pouch carries the pair, card presents it, display holds it at the counter. Programmes that run all three from one supplier keep one colour system across paper, fabric and acrylic \u2014 the same reason the [jewelry packaging collection](https://elapack.com/custom-jewelry-packaging/) groups boxes, pouches and display as one system. At the counter, [acrylic earring displays](https://elapack.com/products/acrylic-earring-display/) and [velvet necklace displays](https://elapack.com/products/velvet-necklace-display/) hold carded pairs upright; the card's hanging punch, specified back in the sizing section, is what makes them compatible.
+
+**Spec a card programme:** send the earring list with drop lengths and finding types through the [contact page](https://elapack.com/contact/), and the slot map and card sizes come back with the quote. Or read the adjacent decisions first \u2014 the [pouch logo guide](https://elapack.com/news/custom-logo-pouches-guide/) for print-method economics, the [samples guide](https://elapack.com/news/custom-packaging-samples-guide/) for what a USD 25 card sample proves.`
+  },
+  {
+    "slug": "clear-cosmetic-bags-guide",
+    "datePublished": "2026-10-15",
+    "title": "Clear Cosmetic Bags: Formats, Materials and Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/covers/clear-cosmetic-bags-guide.webp",
+    "imageAlt": "Editorial info-card cover for the ELAPACK clear cosmetic bags guide",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Clear cosmetic bags from the buyer side: the format set, clear PVC and TPU thickness bands, the TSA travel sizing rule, branding on transparent faces and ordering data.",
+    "metaDescription": "Custom clear cosmetic bags with logo \u2014 TSA-size travel bags, pro makeup cases and vinyl pouches in clear PVC/TPU, with thickness bands and ordering data. MOQ 200, free stock samples.",
+    "body": `*Product facts and ordering terms below are this factory's published trade terms. Competitor terms in the comparison table are as published on supplier pages read 15 October 2026, quoted for comparison only. The air-travel wording is quoted from the US TSA's published liquids rule, read the same day. No environmental claims are made on this page.*
+
+Clear bags are the only cosmetic-bag format specified by a rule as often as by a brand: airport security, retail visibility and pro-artist kits all pull toward transparent, and each pulls a different size. This page is the transparent-format deep dive \u2014 material and thickness, size bands, printing on clear film, and the ordering terms at each supplier tier. The full bag-and-case picture across fabrics sits in the [custom cosmetic & makeup bags guide](https://elapack.com/news/custom-cosmetic-bags-guide/), and the travel-grooming side of clear formats (the Oxford-nylon boundary included) in the [custom toiletry bags guide](https://elapack.com/news/custom-toiletry-bags-guide/).
+
+> **Quick answer:** specify a clear bag in three decisions \u2014 size band first, material thickness second, branding third. Transparent zip formats from this factory run in clear PVC across the published 0.12\u20130.50 mm band, made to your sizes from 200 pieces in 15\u201320 working days, for cosmetics and jewellery programmes. A USD 25 custom sample plus USD 20 shipping proves zip action and print on film before the run.
+
+## What clear formats are asked to do
+
+Four jobs cover nearly every clear-bag brief. The airport job: the US TSA's liquids rule allows "a quart-sized bag of liquids, aerosols, gels, creams and pastes" with "travel-sized containers that are 3.4 ounces (100 millilitres) or less per item" (TSA.gov, read 15 October 2026) \u2014 the transparent quart-format is a security constant, and beauty brands build travel minis around it. The retail job: a clear bag shows the shade range without unzipping anything, which is why press-on-nail and skincare-display programmes run transparent formats. The professional job: makeup artists and salon lines check contents at a glance across a full kit. And the organizing job: hotel amenity sets and subscription boxes use clear zips as the visible layer inside a printed outer.
+
+None of these jobs cares about the brand mark as much as a fabric bag does \u2014 clarity is the feature. That inverts the spec sheet: material and size come first, branding lands last and light.
+
+## The format set
+
+| Format | The job it serves | Construction note | Spec decisions |
+|---|---|---|---|
+| Flat zip pouch | minis, samplers, GWP | two layers, edge-welded zip | band thickness, zip style |
+| Gusseted zip bag | stands upright in kit or drawer | side gussets give a base | base footprint vs tallest bottle |
+| Clear tote | retail carry, show kits | welded handles | handle reinforcement at 0.30 mm+ |
+| Small item pouch | single-product retail | top zip, minimal seam count | seam width for small radii |
+
+The gusseted format is the one worth specifying carefully: a flat pouch stores flat but slumps when opened, while a gusseted bag stands and turns a drawer or kit into a display. The trade is a larger welding pattern, which at small sizes with tight corner radii is where quality shows \u2014 a bag specified with generous corner radii welds cleaner than one drawn with sharp corners.
+
+
+![Clear cosmetic bag formats and thickness bands](/charts/clear-cosmetic-bags-formats.svg)
+
+*Fig. 1 \u2014 The clear format set and the thickness band each format commonly runs.*
+
+## Clear material and what thickness numbers mean
+
+This factory's published clear line runs in PVC across a 0.12\u20130.50 mm band \u2014 the same band published for the clear rows of the cosmetic-bag format table. What the numbers do: at the thin end a bag feels like film, folds into a pocket and suits minis and samplers; mid-band it starts to hold shape; at the top of the band it stands when gusseted and carries welded handles without distortion. Thickness is quoted per project because the format sets it \u2014 a hanging retail format and a pocket quart-bag should not share a number.
+
+Buyers comparing transparent materials will meet TPU and EVA films in the market as softer and more cold-flexible alternatives; this factory's published clear programme is PVC, quoted for cosmetics and jewellery \u2014 the scope stated on the [clear PVC zip bag](https://elapack.com/products/custom-pvc-bags/) page. Programmes outside that scope are better served by the fabric tracks in the guides above.
+
+## Sizing: the travel rule and the working size bands
+
+The TSA rule fixes a format, not a factory dimension \u2014 the published wording says quart-sized and 100 ml containers and stops there (read 15 October 2026). Factories translate it into working bands:
+
+| Band | Contents | Format that carries it |
+|---|---|---|
+| Item bag | single mini, lipstick, sampler | small flat zip |
+| Travel quart-format | the security-carry set | flat or gusseted zip in the quart footprint |
+| Full kit | daily routine, brushes, minis together | gusseted zip, tote for retail |
+
+Sizing follows the tallest item, not the count: a 100 ml bottle sets the closed height plus zip clearance, and everything else shares the footprint. For gift programmes, the clear bag is the inner layer \u2014 the [cosmetic pouches collection](https://elapack.com/custom-cosmetic-pouches/) shows the fabric-and-clear pairings, and the outer box decision follows the same made-to-size logic in the [rigid boxes guide](https://elapack.com/news/custom-rigid-boxes-guide/).
+
+## Branding on a transparent bag
+
+Print on clear film does not behave like print on fabric. Ink sits on the surface and the unprinted artwork stays transparent, so a logo designed as a solid block reads as a window with edges; reversed-out and outline marks read better on film. One colour is the working rule \u2014 the same conclusion the [pouch logo guide](https://elapack.com/news/custom-logo-pouches-guide/) reaches for fabric \u2014 and on clear it is closer to a hard rule, because register tolerance on film shows at the second colour.
+
+The sample proves it: print adhesion, colour over transparency and zip action are all visible in one USD 25 custom sample (plus USD 20 shipping, 3\u20135 days from artwork) \u2014 the cheapest decision in the programme and the one that settles the artwork direction.
+
+## Ordering data: catalogue tier vs made-to-size
+
+| Tier | Model | Published terms |
+|---|---|---|
+| Promotional products | decorated catalogue stock | Totally Promotional: clear cosmetic bag from USD 4.44, minimum 100, free setup (read 15 Oct 2026) |
+| Marketplaces | bulk generic packs | Amazon bulk listings, per-unit pricing, no custom sizes |
+| This factory | made-to-size clear PVC | 200 pieces per design, 15\u201320 working days, stock sample free + USD 20 shipping, custom sample USD 25 + USD 20 in 3\u20135 days |
+
+The catalogue tier sells a stock shape with a logo on it, at an entry of 100 pieces \u2014 the right buy when any standard shape will do. The factory tier sells the dimension set: your tallest bottle, your shade count, your quart-format footprint, welded and printed to the drawing. The two structures suit different briefs, and the comparison that matters is not price per unit but which one fits the product list. Volume economics \u2014 tiered quotes and freight \u2014 are documented in the [2026 factory data page](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/).
+
+## Bottom line
+
+Order the size band from the tallest item, the thickness from the format, and the branding in one colour reversed out of the film. ELAPACK builds clear zip and tote formats in PVC to your sizes from 200 pieces, quoted for cosmetics and jewellery programmes. [Send the item list](https://elapack.com/contact/) and the size recommendation comes back with the quote; first-order sequencing is covered in the [small business packaging guide](https://elapack.com/news/custom-packaging-small-business-guide/).`
+  },
+  {
+    "slug": "custom-leather-cosmetic-bags-guide",
+    "datePublished": "2026-10-15",
+    "title": "Custom Leather Cosmetic Bags: PU Builds, Finishes and Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/covers/custom-leather-cosmetic-bags-guide.webp",
+    "imageAlt": "Editorial info-card cover for the ELAPACK custom leather cosmetic bags guide",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Leather-look cosmetic bags in PU over microfiber: four builds, faces and linings, foil and deboss branding, the PU-versus-genuine trade-off, and ordering data from 200 pieces.",
+    "metaDescription": "Custom leather cosmetic bags in PU over a microfiber base \u2014 zip, boxed, envelope and tray-in-wrap builds with foil and deboss branding. PU/faux only. MOQ 200, free stock samples.",
+    "body": `*Product facts in this guide are ELAPACK's confirmed 2026 trade terms; material longevity comparisons are quoted as published by the cited leather-trade sources, for comparison only. Search-demand figures come from a logged-in Semrush US mirror read on 15 October 2026.*
+
+Leather cosmetic bag demand is real and surprisingly reachable \u2014 the head term sits at 1,300 US searches a month at a difficulty most new sites can clear, with the plural variant and small-size variants close behind. What the search results do not offer is a buying guide: the front page is factory landing pages and promotional catalogues, none of which will tell you what "leather" actually means on a quote sheet. This page does, starting with the boundary that matters most.
+
+> **Quick answer:** we build leather-look cosmetic bags in PU over a microfiber base \u2014 pebbled, smooth or suede-touch faces \u2014 from a 200-piece minimum in 15\u201320 working days. Genuine (animal-hide) leather is a different trade and a different audit chain, and we do not quote it; if a supplier offers you "leather" without saying which, that silence is the first spec you should pin down. A USD 25 custom sample plus USD 20 shipping settles face, lining and branding before the run.
+
+## What "leather" means on a cosmetic-bag quote
+
+The word covers at least four different purchases: genuine animal-hide leather, bonded leather (hide fibres reconstituted with binder), PU leather (a polyurethane coat over a fabric base) and PVC leather (polyvinyl coat over the same). Factories that serve brand programmes overwhelmingly work in PU and faux \u2014 it takes colour consistently, embosses cleanly, and costs a fraction of hide \u2014 while genuine-leather bags come from a leather-goods trade with its own tannery sourcing and audit chain.
+
+For a cosmetic bag specifically, the honest trade-off runs in PU's favour more than most categories. A bag that lives in a bathroom drawer faces moisture and product spillage, and the failure mode of PU there is documented: polyurethane coatings break down by hydrolysis over several years, and users report cracking or peeling anywhere from months into heavy use, while genuine leather lasts decades with regular conditioning but needs that care. Neither is wrong \u2014 the decision is whether the bag is a keepsake you maintain or a branded programme piece you replace on a cycle. As-published sources put ordinary fabric-based PU at roughly three to five years before hydrolysis takes it; a microfiber base \u2014 what we run \u2014 sits in the more durable tier of faux leather, and we quote no specific year figure for it because real lifespan depends on the use cycle, not the datasheet. The buyer's use case, not our preference, should decide.
+
+**Spec the face and the base separately on the quote sheet** \u2014 "PU leather" without a base fabric and thickness is exactly as vague as "cardboard" without a gram weight.
+
+## Structures: the four builds that carry the leather look
+
+| Build | Construction | Reads as | Watch-out |
+|---|---|---|---|
+| Flat zip pouch | PU face, fabric interlining, zip or slider | everyday retail, men's lines | interlining omitted \u2192 face creases permanently |
+| Boxed (gusseted) pouch | stitched gussets, flat base | structured kit bag | corner stress needs reinforced stitching |
+| Envelope / flap pouch | structured flap, snap closure | jewellery-adjacent, gifting | flap spring comes from the interlining, not the PU |
+| Tray-in-wrap | rigid tray inside a PU wrap | premium sets, display | priced as rigid-box construction, see below |
+
+The fourth build is a boundary worth naming: a structured PU wrap around a rigid tray is rigid-box craft with a leather-look skin, and we build it like any [rigid box](https://elapack.com/news/custom-rigid-boxes-guide/) rather than like a sewn bag. The same construction already runs in our [leather envelope pouch](https://elapack.com/products/leather-envelope-pouch/) programme \u2014 pebbled faux leather, suede-touch interior, foil on the flap \u2014 which is the reference sample most leather-look cosmetic enquiries start from. Sewn soft bags and rigid tray-in-wrap share the face material and nothing else; quote them separately.
+
+
+![Four leather-look bag builds against structure complexity](/charts/leather-cosmetic-bag-builds.svg)
+
+*Fig. 1 \u2014 The four PU builds, from flat zip pouch to tray-in-wrap.*
+
+## Faces, linings and the finish set
+
+| Layer | Options we run | Decision driver |
+|---|---|---|
+| Face | pebbled, smooth, suede-touch PU | pebble hides handling marks; smooth takes foil best |
+| Base fabric | microfiber base under the PU coat (our standard) | microfiber sets tear strength and hydrolysis resistance above ordinary woven bases |
+| Lining | suede-touch, satin, plain cotton | suede-touch reads premium; satin wipes clean |
+| Edge | turned, bound or painted edges | painted edges are the premium tell |
+| Colour | matched through the four-step control chain | match face, lining and thread together |
+
+The men's side of this family \u2014 the largest variant pocket in the cluster \u2014 runs almost exclusively black or brown pebble with a one-colour mark, which is the cheapest branding that still reads deliberate. **Decide face texture before branding method: foil and emboss sit differently on pebble than on smooth, and a mark sized for one shows up wrongly on the other.**
+
+## Branding on a leather-look face
+
+Foil stamping and debossed logos are the two methods that belong on PU \u2014 a gold foil on a flap is the reference look for a reason, and a blind deboss reads as quietly expensive in exactly the way screen print does not on this face. Heat transfer works for multi-colour marks on smooth faces. The general economics of run length versus technique are laid out in the [MOQ and logo techniques guide](https://elapack.com/news/custom-packaging-moq-oem-odm-logo-guide/); the leather-specific rule is simpler: **one mark, one method, positioned on the flap or the corner \u2014 the face is the design, and the logo competes with it if oversized.**
+
+## Ordering data
+
+| Line item | Terms |
+|---|---|
+| MOQ | 200 pieces per design, PU builds included |
+| Production | 15\u201320 working days (200\u201320,000), from sample approval and deposit |
+| Stock sample | free, ships 2\u20133 days, plus USD 20 courier |
+| Custom sample | USD 25 + USD 20 shipping, built 3\u20135 days from confirmed artwork |
+| Payment and freight | T/T or PayPal; air or sea from Shanghai or Shenzhen |
+
+For the bag-versus-case decision across the whole cosmetic line \u2014 fabric bags, clear travel formats, toiletry kits \u2014 the [custom cosmetic bags guide](https://elapack.com/news/custom-cosmetic-bags-guide/) carries the format map; this page stays on the leather-look builds. Brands running a matched programme will find the jewellery-side leather pieces in the same construction language on the [jewelry pouches collection](https://elapack.com/custom-jewelry-pouches/).
+
+## Bottom line
+
+Write "PU, base fabric, thickness, lining" on the quote sheet before you write the logo \u2014 that one line eliminates most of the disappointment in leather-look orders, because the peeling and cracking complaints trace back to unspecified faces, not to PU itself. A 200-piece first run in one face and one mark, sampled at USD 25, tells you more about the look than any catalogue photo.
+
+**Spec a leather-look cosmetic bag:** send sizes, face reference and target quantity through the [contact page](https://elapack.com/contact/). Or settle the adjacent decisions first \u2014 the [cosmetic bags guide](https://elapack.com/news/custom-cosmetic-bags-guide/) for the wider format map, the [logo techniques guide](https://elapack.com/news/custom-logo-pouches-guide/) for print-method economics.`
   }
 ]);
 function getArticleBySlug(slug) {
@@ -5447,6 +5680,18 @@ var import_jsx_runtime12 = require("react/jsx-runtime");
 var RELATED = {
   "magnetic-gift-boxes-wholesale-guide": [
     "magnetic-closure-gift-box"
+  ],
+  "custom-earring-cards-guide": [
+    "acrylic-earring-display",
+    "velvet-necklace-display"
+  ],
+  "clear-cosmetic-bags-guide": [
+    "custom-pvc-bags",
+    "custom-cotton-pouches"
+  ],
+  "custom-leather-cosmetic-bags-guide": [
+    "leather-envelope-pouch",
+    "custom-satin-pouches"
   ],
   "custom-packaging-small-business-guide": [
     "kraft-paper-shopping-bag",

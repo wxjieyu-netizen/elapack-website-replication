@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <rect width="1200" height="675" fill="#FAF7F2"/>
+  <g transform="translate(74 30) scale(1.5)">
+    <rect width="700" height="410" fill="#FAF7F2"/>
+    <text x="350" y="36" text-anchor="middle" font-size="24" fill="#2B2B2B">Four PU builds, one face family</text>
+    <text x="350" y="58" text-anchor="middle" font-size="13" fill="#7A7A7A">PU over a microfiber base · pebbled, smooth or suede-touch faces · genuine leather is a different trade</text>
+    <!-- flat zip -->
+    <rect x="50" y="95" width="140" height="170" rx="10" fill="#E4D9C8" stroke="#8A7A5E" stroke-width="2"/>
+    <line x1="50" y1="118" x2="190" y2="118" stroke="#8A7A5E" stroke-width="2"/>
+    <circle cx="120" cy="118" r="7" fill="none" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="120" y="290" text-anchor="middle" font-size="14" fill="#2B2B2B">flat zip pouch</text>
+    <text x="120" y="308" text-anchor="middle" font-size="12" fill="#7A7A7A">everyday retail, men's lines</text>
+    <!-- boxed -->
+    <rect x="230" y="95" width="150" height="170" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <path d="M 230 95 L 260 70 L 410 70 L 410 165" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+    <path d="M 230 200 q 40 -18 80 0" fill="none" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="305" y="290" text-anchor="middle" font-size="14" fill="#2B2B2B">boxed (gusseted)</text>
+    <text x="305" y="308" text-anchor="middle" font-size="12" fill="#7A7A7A">structured kit bags</text>
+    <!-- envelope -->
+    <path d="M 440 95 h 150 v 170 h -150 z" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+    <path d="M 440 95 L 515 165 L 590 95" fill="#E4D9C8" stroke="#8A7A5E" stroke-width="2"/>
+    <circle cx="515" cy="190" r="5" fill="#8A7A5E"/>
+    <text x="515" y="290" text-anchor="middle" font-size="14" fill="#2B2B2B">envelope flap</text>
+    <text x="515" y="308" text-anchor="middle" font-size="12" fill="#7A7A7A">jewellery-adjacent, gifting</text>
+    <!-- tray-in-wrap -->
+    <rect x="620" y="95" width="150" height="170" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <rect x="638" y="125" width="114" height="30" fill="#FAF7F2" stroke="#8A7A5E" stroke-width="2"/>
+    <rect x="638" y="165" width="50" height="80" fill="#FAF7F2" stroke="#8A7A5E" stroke-width="2"/>
+    <rect x="700" y="165" width="52" height="80" fill="#FAF7F2" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="695" y="290" text-anchor="middle" font-size="14" fill="#2B2B2B">tray-in-wrap</text>
+    <text x="695" y="308" text-anchor="middle" font-size="12" fill="#7A7A7A">rigid-box craft, premium sets</text>
+    <line x1="50" y1="334" x2="695" y2="334" stroke="#D8C9B4"/>
+    <text x="372" y="358" text-anchor="middle" font-size="13" fill="#2B2B2B">Branding: foil stamp or blind deboss · one mark, one method · foil sits best on smooth faces</text>
+    <text x="372" y="378" text-anchor="middle" font-size="12" fill="#7A7A7A">From 200 pieces per design · 15–20 working days · PU/faux only</text>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <rect width="1200" height="675" fill="#FAF7F2"/>
+  <g transform="translate(74 30) scale(1.5)">
+    <rect width="700" height="410" fill="#FAF7F2"/>
+    <text x="350" y="36" text-anchor="middle" font-size="24" fill="#2B2B2B">Clear formats and what each runs in</text>
+    <text x="350" y="58" text-anchor="middle" font-size="13" fill="#7A7A7A">Clear PVC 0.12–0.50 mm · TPU and EVA as flexible alternatives · thickness follows the abuse the bag takes</text>
+    <!-- TSA quart -->
+    <rect x="55" y="95" width="150" height="180" fill="#E8F0EC" fill-opacity="0.6" stroke="#6E8A7A" stroke-width="2"/>
+    <line x1="55" y1="115" x2="205" y2="115" stroke="#6E8A7A" stroke-width="3"/>
+    <text x="130" y="300" text-anchor="middle" font-size="14" fill="#2B2B2B">TSA quart bag</text>
+    <text x="130" y="318" text-anchor="middle" font-size="12" fill="#7A7A7A">≈ 1 L · air travel kits</text>
+    <!-- flat zip pouch -->
+    <rect x="245" y="95" width="140" height="180" fill="#E8F0EC" fill-opacity="0.6" stroke="#6E8A7A" stroke-width="2"/>
+    <line x1="245" y1="112" x2="385" y2="112" stroke="#6E8A7A" stroke-width="2" stroke-dasharray="5 3"/>
+    <circle cx="315" cy="112" r="6" fill="#6E8A7A"/>
+    <text x="315" y="300" text-anchor="middle" font-size="14" fill="#2B2B2B">flat zip pouch</text>
+    <text x="315" y="318" text-anchor="middle" font-size="12" fill="#7A7A7A">everyday retail, GWP</text>
+    <!-- structured case -->
+    <rect x="425" y="95" width="150" height="180" fill="#E8F0EC" fill-opacity="0.6" stroke="#6E8A7A" stroke-width="2"/>
+    <path d="M 425 130 h 150" stroke="#6E8A7A" stroke-width="2"/>
+    <rect x="437" y="150" width="56" height="40" fill="#FFFFFF" stroke="#6E8A7A"/>
+    <rect x="507" y="150" width="56" height="40" fill="#FFFFFF" stroke="#6E8A7A"/>
+    <text x="500" y="300" text-anchor="middle" font-size="14" fill="#2B2B2B">pro makeup case</text>
+    <text x="500" y="318" text-anchor="middle" font-size="12" fill="#7A7A7A">artists, salon kits</text>
+    <!-- thickness ladder -->
+    <rect x="615" y="95" width="80" height="180" fill="none" stroke="#6E8A7A" stroke-width="2"/>
+    <rect x="623" y="215" width="64" height="52" fill="#D9E5DE"/>
+    <rect x="623" y="163" width="64" height="52" fill="#C4D6CC"/>
+    <rect x="623" y="111" width="64" height="52" fill="#AEC9BC"/>
+    <text x="655" y="300" text-anchor="middle" font-size="14" fill="#2B2B2B">thickness</text>
+    <text x="655" y="318" text-anchor="middle" font-size="12" fill="#7A7A7A">0.12 → 0.50 mm</text>
+    <line x1="55" y1="344" x2="695" y2="344" stroke="#D8C9B4"/>
+    <text x="350" y="368" text-anchor="middle" font-size="13" fill="#2B2B2B">Branding on clear: one-colour print on a solid band or trim · zip-pull tags carry the logo</text>
+    <text x="350" y="388" text-anchor="middle" font-size="12" fill="#7A7A7A">Catalogue stock sizes vs made-to-size from 200 pieces per design · 15–20 working days</text>
+  </g>
+</svg>

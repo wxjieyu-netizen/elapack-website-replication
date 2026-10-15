@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <rect width="1200" height="675" fill="#FAF7F2"/>
+  <g transform="translate(74 30) scale(1.5)">
+    <rect width="700" height="410" fill="#FAF7F2"/>
+    <text x="350" y="36" text-anchor="middle" font-size="24" fill="#2B2B2B">Slot styles by earring type</text>
+    <text x="350" y="58" text-anchor="middle" font-size="13" fill="#7A7A7A">The slot is cut to the finding, not to the card — spec slot style before card size</text>
+    <!-- studs: 2 holes -->
+    <rect x="55" y="90" width="130" height="190" fill="#FFFFFF" stroke="#8A7A5E" stroke-width="2"/>
+    <circle cx="120" cy="130" r="5" fill="none" stroke="#8A7A5E" stroke-width="2"/>
+    <circle cx="120" cy="230" r="5" fill="none" stroke="#8A7A5E" stroke-width="2"/>
+    <line x1="120" y1="130" x2="120" y2="230" stroke="#C9BBA4" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="120" y="308" text-anchor="middle" font-size="14" fill="#2B2B2B">double punch</text>
+    <text x="120" y="326" text-anchor="middle" font-size="12" fill="#7A7A7A">studs, posts</text>
+    <!-- fishhook: notch -->
+    <rect x="225" y="90" width="130" height="190" fill="#FFFFFF" stroke="#8A7A5E" stroke-width="2"/>
+    <path d="M 240 130 h 30 M 240 130 a 8 8 0 0 0 16 0" fill="none" stroke="#8A7A5E" stroke-width="2"/>
+    <path d="M 255 130 q -8 60 5 120" fill="none" stroke="#5E6E5A" stroke-width="2"/>
+    <text x="290" y="308" text-anchor="middle" font-size="14" fill="#2B2B2B">top notch</text>
+    <text x="290" y="326" text-anchor="middle" font-size="12" fill="#7A7A7A">fishhooks, wires</text>
+    <!-- drops: slot + punch -->
+    <rect x="395" y="90" width="130" height="190" fill="#FFFFFF" stroke="#8A7A5E" stroke-width="2"/>
+    <line x1="460" y1="128" x2="460" y2="152" stroke="#8A7A5E" stroke-width="3"/>
+    <circle cx="460" cy="240" r="5" fill="none" stroke="#8A7A5E" stroke-width="2"/>
+    <path d="M 448 165 l 12 45 l 12 -45 z" fill="#5E6E5A"/>
+    <text x="460" y="308" text-anchor="middle" font-size="14" fill="#2B2B2B">centre slot + punch</text>
+    <text x="460" y="326" text-anchor="middle" font-size="12" fill="#7A7A7A">drops, dangles</text>
+    <!-- hoops: side hooks -->
+    <rect x="565" y="90" width="130" height="190" fill="#FFFFFF" stroke="#8A7A5E" stroke-width="2"/>
+    <rect x="600" y="118" width="14" height="10" fill="none" stroke="#8A7A5E" stroke-width="2"/>
+    <rect x="646" y="118" width="14" height="10" fill="none" stroke="#8A7A5E" stroke-width="2"/>
+    <circle cx="630" cy="200" r="38" fill="none" stroke="#5E6E5A" stroke-width="3"/>
+    <text x="630" y="308" text-anchor="middle" font-size="14" fill="#2B2B2B">hook pair</text>
+    <text x="630" y="326" text-anchor="middle" font-size="12" fill="#7A7A7A">hoops, huggies</text>
+    <line x1="55" y1="352" x2="695" y2="352" stroke="#D8C9B4"/>
+    <text x="350" y="376" text-anchor="middle" font-size="13" fill="#2B2B2B">Card height = drop length + hanging allowance + brand band</text>
+    <text x="350" y="396" text-anchor="middle" font-size="12" fill="#7A7A7A">Market cardstock band 14–18 pt cover · die-cut slots from the dieline · from 200 pieces per design</text>
+  </g>
+</svg>
