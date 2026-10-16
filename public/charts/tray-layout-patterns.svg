@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Tray layout patterns by piece type: ring rows, bracelet channels and necklace lengthways layouts">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g transform="translate(48 28) scale(1.45)">
+    <text x="24" y="34" font-family="Georgia,serif" font-size="16" font-weight="600" fill="#18120c">Layout follows the handling pattern</text>
+    <text x="24" y="52" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">More structure for small pieces, more open space for long or irregular items</text>
+    <g font-family="Helvetica,Arial,sans-serif">
+      <!-- ring rows -->
+      <rect x="40" y="80" width="220" height="120" fill="#f2e9dc" stroke="#18120c" stroke-width="1.5"/>
+      <line x1="40" y1="140" x2="260" y2="140" stroke="#e5d5b8" stroke-width="2"/>
+      <line x1="40" y1="176" x2="260" y2="176" stroke="#e5d5b8" stroke-width="2"/>
+      <circle cx="76" cy="112" r="11" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <circle cx="112" cy="112" r="11" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <circle cx="148" cy="112" r="11" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <circle cx="184" cy="112" r="11" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <circle cx="220" cy="112" r="11" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <text x="40" y="222" font-size="13" fill="#18120c">Rings</text>
+      <text x="40" y="239" font-size="11" fill="#6b6258">shallow slots or narrow channels</text>
+
+      <!-- bracelet channels -->
+      <rect x="300" y="80" width="220" height="120" fill="#f2e9dc" stroke="#18120c" stroke-width="1.5"/>
+      <path d="M 330 110 q 40 18 80 0" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <path d="M 330 145 q 40 18 80 0" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <path d="M 430 127 q 30 14 60 0" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <text x="300" y="222" font-size="13" fill="#18120c">Bracelets</text>
+      <text x="300" y="239" font-size="11" fill="#6b6258">anti-slide lengths</text>
+
+      <!-- necklace lengthways -->
+      <rect x="560" y="80" width="220" height="120" fill="#f2e9dc" stroke="#18120c" stroke-width="1.5"/>
+      <line x1="560" y1="90" x2="780" y2="90" stroke="#18120c" stroke-width="1.2"/>
+      <circle cx="590" cy="90" r="4" fill="#b08d46"/>
+      <circle cx="690" cy="90" r="4" fill="#b08d46"/>
+      <path d="M 590 94 q 20 50 50 88" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+      <path d="M 690 94 q 0 50 -20 88" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+      <path d="M 740 94 q 15 40 0 88" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+      <text x="560" y="222" font-size="13" fill="#18120c">Necklaces</text>
+      <text x="560" y="239" font-size="11" fill="#6b6258">open lengthwise channels</text>
+
+      <!-- mixed removable -->
+      <rect x="40" y="268" width="220" height="104" fill="#f2e9dc" stroke="#18120c" stroke-width="1.5"/>
+      <rect x="56" y="284" width="88" height="72" fill="#faf9f7" stroke="#b08d46" stroke-width="1.5" stroke-dasharray="5 3"/>
+      <rect x="156" y="284" width="88" height="72" fill="#faf9f7" stroke="#b08d46" stroke-width="1.5" stroke-dasharray="5 3"/>
+      <text x="40" y="394" font-size="13" fill="#18120c">Mixed stock</text>
+      <text x="40" y="411" font-size="11" fill="#6b6258">removable inserts — the layout can change</text>
+    </g>
+    <text x="300" y="330" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#18120c">The test: load the tray, close the drawer, remove the most-worn piece —</text>
+    <text x="300" y="350" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#18120c">if the neighbours shift, redesign for access before ordering 200.</text>
+    <text x="24" y="424" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">Layout rules and the handling test as published by display suppliers; standard footprint ≈ 370 × 210 mm with 30–50 mm walls.</text>
+  </g>
+</svg>

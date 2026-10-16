@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Tissue weight bands mapped to print capability and use, from 12 to 33 grams per square metre">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g transform="translate(48 28) scale(1.45)">
+    <text x="24" y="34" font-family="Georgia,serif" font-size="16" font-weight="600" fill="#18120c">The weight ladder, rung by rung</text>
+    <text x="24" y="52" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">The gsm band decides what the sheet can carry — pick the rung before the artwork</text>
+    <g font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#18120c">
+      <rect x="24" y="76" width="180" height="52" rx="6" fill="#18120c"/>
+      <text x="114" y="98" text-anchor="middle" fill="#faf9f7">12–14 gsm</text>
+      <text x="114" y="116" text-anchor="middle" fill="#b08d46" font-size="11">delicate wrap</text>
+      <line x1="204" y1="102" x2="254" y2="102" stroke="#b08d46" stroke-width="1.5"/>
+      <text x="266" y="97">Jewellery, small gifts</text>
+      <text x="266" y="115" fill="#6b6258" font-size="11.5">lightest drape, finest folds</text>
+
+      <rect x="24" y="140" width="180" height="52" rx="6" fill="#18120c"/>
+      <text x="114" y="162" text-anchor="middle" fill="#faf9f7">17 gsm</text>
+      <text x="114" y="180" text-anchor="middle" fill="#b08d46" font-size="11">one-colour print</text>
+      <line x1="204" y1="166" x2="254" y2="166" stroke="#b08d46" stroke-width="1.5"/>
+      <text x="266" y="161">Apparel, retail, e-commerce</text>
+      <text x="266" y="179" fill="#6b6258" font-size="11.5">the branded-wrap workhorse</text>
+
+      <rect x="24" y="204" width="180" height="52" rx="6" fill="#18120c"/>
+      <text x="114" y="226" text-anchor="middle" fill="#faf9f7">20–25 gsm</text>
+      <text x="114" y="244" text-anchor="middle" fill="#b08d46" font-size="11">medium body</text>
+      <line x1="204" y1="230" x2="254" y2="230" stroke="#b08d46" stroke-width="1.5"/>
+      <text x="266" y="225">Beauty, boutique, gifts</text>
+      <text x="266" y="243" fill="#6b6258" font-size="11.5">fuller feel, more coverage</text>
+
+      <rect x="24" y="268" width="180" height="52" rx="6" fill="#18120c"/>
+      <text x="114" y="290" text-anchor="middle" fill="#faf9f7">28 gsm</text>
+      <text x="114" y="308" text-anchor="middle" fill="#b08d46" font-size="11">full-colour capable</text>
+      <line x1="204" y1="294" x2="254" y2="294" stroke="#b08d46" stroke-width="1.5"/>
+      <text x="266" y="289">Premium gifts, fashion</text>
+      <text x="266" y="307" fill="#6b6258" font-size="11.5">the statement band</text>
+
+      <rect x="24" y="332" width="180" height="52" rx="6" fill="#18120c"/>
+      <text x="114" y="354" text-anchor="middle" fill="#faf9f7">30–33 gsm</text>
+      <text x="114" y="372" text-anchor="middle" fill="#b08d46" font-size="11">heavy tissue</text>
+      <line x1="204" y1="358" x2="254" y2="358" stroke="#b08d46" stroke-width="1.5"/>
+      <text x="266" y="353">Rigid-box lining</text>
+      <text x="266" y="371" fill="#6b6258" font-size="11.5">carries structure, lines the build</text>
+    </g>
+    <text x="24" y="424" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">Band definitions and print capability as published by specialist tissue suppliers; ELAPACK quotes weights per project.</text>
+  </g>
+</svg>

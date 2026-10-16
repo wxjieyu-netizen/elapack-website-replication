@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Cross-section of a rigid box: wrap paper, greyboard core and lining, with magnet positions in the flap">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g transform="translate(48 28) scale(1.45)">
+    <text x="24" y="34" font-family="Georgia,serif" font-size="16" font-weight="600" fill="#18120c">The three-layer build, cut through</text>
+    <text x="24" y="52" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">Every rigid box is the same sandwich — the greyboard grade carries the rest</text>
+
+    <!-- exploded cross-section -->
+    <g font-family="Helvetica,Arial,sans-serif">
+      <!-- wrap paper -->
+      <rect x="60" y="90" width="480" height="14" fill="#b08d46"/>
+      <text x="560" y="101" font-size="12" fill="#18120c">wrap paper — print, colour, finish</text>
+      <!-- greyboard core -->
+      <rect x="60" y="124" width="480" height="46" fill="#e5d5b8" stroke="#b08d46" stroke-width="1.5"/>
+      <line x1="60" y1="139" x2="540" y2="139" stroke="#c9b68c" stroke-width="1"/>
+      <line x1="60" y1="154" x2="540" y2="154" stroke="#c9b68c" stroke-width="1"/>
+      <text x="560" y="151" font-size="12" fill="#18120c">greyboard core — 1.5 / 2.0 / 2.5 / 3.0 mm</text>
+      <!-- lining -->
+      <rect x="60" y="190" width="480" height="12" fill="#f2e9dc" stroke="#c9b68c" stroke-width="1"/>
+      <text x="560" y="201" font-size="12" fill="#18120c">lining paper — closes the inside</text>
+
+      <!-- assembled profile with magnet -->
+      <text x="60" y="252" font-family="Georgia,serif" font-size="13" fill="#18120c">Assembled flap, with the magnet set</text>
+      <path d="M 60 270 h 400 v 60 h -400 z" fill="#e5d5b8" stroke="#18120c" stroke-width="1.5"/>
+      <path d="M 60 270 q 0 -46 46 -46 h 354 v 46 z" fill="#f2e9dc" stroke="#18120c" stroke-width="1.5"/>
+      <circle cx="440" cy="292" r="9" fill="#b08d46"/>
+      <circle cx="440" cy="318" r="9" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <line x1="452" y1="292" x2="486" y2="278" stroke="#b08d46" stroke-width="1.2"/>
+      <text x="492" y="281" font-size="11.5" fill="#18120c">magnet in the jacket</text>
+      <line x1="452" y1="318" x2="486" y2="332" stroke="#b08d46" stroke-width="1.2"/>
+      <text x="492" y="336" font-size="11.5" fill="#18120c">iron plate in the tray rim</text>
+      <text x="60" y="356" font-size="11" fill="#6b6258">two to three magnet-and-plate sets per box — the closure is engineered structure</text>
+    </g>
+
+    <text x="24" y="424" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">Board grades and cost shares: ELAPACK published reference ranges; magnet counts as published by box manufacturers.</text>
+  </g>
+</svg>

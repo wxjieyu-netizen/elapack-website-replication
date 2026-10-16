@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="The jewelry packaging system: box, pouch, tray and card bought as one programme">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g transform="translate(48 28) scale(1.45)">
+    <text x="24" y="34" font-family="Georgia,serif" font-size="16" font-weight="600" fill="#18120c">Four components, one programme</text>
+    <text x="24" y="52" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">Buy in this order — each choice constrains the next</text>
+    <g font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#18120c">
+      <rect x="24" y="82" width="180" height="64" rx="6" fill="#18120c"/>
+      <text x="114" y="110" text-anchor="middle" fill="#faf9f7">1 · The box</text>
+      <text x="114" y="130" text-anchor="middle" fill="#b08d46" font-size="11">structure, grade, finish</text>
+      <line x1="204" y1="114" x2="254" y2="114" stroke="#b08d46" stroke-width="1.5"/>
+      <text x="266" y="109">The box that sells</text>
+      <text x="266" y="128" fill="#6b6258" font-size="11.5">carries tooling and the longest lead</text>
+
+      <rect x="24" y="166" width="180" height="64" rx="6" fill="#18120c"/>
+      <text x="114" y="194" text-anchor="middle" fill="#faf9f7">2 · The insert</text>
+      <text x="114" y="214" text-anchor="middle" fill="#b08d46" font-size="11">holds the piece</text>
+      <line x1="204" y1="198" x2="254" y2="198" stroke="#b08d46" stroke-width="1.5"/>
+      <text x="266" y="193">Specified with the box</text>
+      <text x="266" y="212" fill="#6b6258" font-size="11.5">paper, foam or layered board</text>
+
+      <rect x="24" y="250" width="180" height="64" rx="6" fill="#18120c"/>
+      <text x="114" y="278" text-anchor="middle" fill="#faf9f7">3 · The pouch</text>
+      <text x="114" y="298" text-anchor="middle" fill="#b08d46" font-size="11">the soft layer</text>
+      <line x1="204" y1="282" x2="254" y2="282" stroke="#b08d46" stroke-width="1.5"/>
+      <text x="266" y="277">The pouch that travels</text>
+      <text x="266" y="296" fill="#6b6258" font-size="11.5">velvet, satin, muslin, cotton</text>
+
+      <rect x="24" y="334" width="180" height="64" rx="6" fill="#18120c"/>
+      <text x="114" y="362" text-anchor="middle" fill="#faf9f7">4 · Card &amp; display</text>
+      <text x="114" y="382" text-anchor="middle" fill="#b08d46" font-size="11">words and counter</text>
+      <line x1="204" y1="366" x2="254" y2="366" stroke="#b08d46" stroke-width="1.5"/>
+      <text x="266" y="361">The card that brands</text>
+      <text x="266" y="380" fill="#6b6258" font-size="11.5">trays mirror the box layout</text>
+    </g>
+    <text x="24" y="424" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">One supplier quoting the stack as a set beats five quotes for five parts — MOQ 200 pieces per design, 15–20 day production.</text>
+  </g>
+</svg>
