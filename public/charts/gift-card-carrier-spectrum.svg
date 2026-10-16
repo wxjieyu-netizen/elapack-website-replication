@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1200" height="675" fill="#f7f5f0"/>
+  <text x="60" y="70" font-size="30" font-weight="bold" fill="#1a1a1a">Three flat carriers, one card standard</text>
+  <text x="60" y="102" font-size="17" fill="#6b6b6b">Sleeve, envelope and folder are different fold-and-glue decisions on the same CR80 card</text>
+
+  <!-- Sleeve -->
+  <g transform="translate(60,150)">
+    <rect x="0" y="40" width="300" height="190" rx="6" fill="#ffffff" stroke="#c9c2b4" stroke-width="2"/>
+    <rect x="28" y="70" width="244" height="130" rx="6" fill="#e8e2d4" stroke="#a89e88" stroke-width="2"/>
+    <rect x="80" y="95" width="140" height="88" rx="6" fill="#f4b942" stroke="#8f6c1d" stroke-width="2"/>
+    <text x="150" y="145" font-size="14" text-anchor="middle" fill="#5b4a1a">CARD</text>
+    <path d="M 55 55 L 245 55" stroke="#a89e88" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="150" y="30" font-size="22" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Sleeve</text>
+    <text x="150" y="265" font-size="15" fill="#4a4a4a" text-anchor="middle">open-ended slip</text>
+    <text x="150" y="288" font-size="14" fill="#8a7f6a" text-anchor="middle">counter · event · volume</text>
+  </g>
+
+  <!-- Envelope -->
+  <g transform="translate(450,150)">
+    <rect x="0" y="40" width="300" height="190" rx="6" fill="#ffffff" stroke="#c9c2b4" stroke-width="2"/>
+    <path d="M 30 78 L 150 150 L 270 78" fill="none" stroke="#a89e88" stroke-width="2"/>
+    <path d="M 30 200 L 30 72 L 270 72 L 270 200 Z" fill="#e8e2d4" stroke="#a89e88" stroke-width="0"/>
+    <path d="M 30 72 L 150 148 L 270 72" fill="#f0ebdf" stroke="#a89e88" stroke-width="2"/>
+    <circle cx="150" cy="170" r="7" fill="#b5543b"/>
+    <text x="150" y="30" font-size="22" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Envelope</text>
+    <text x="150" y="265" font-size="15" fill="#4a4a4a" text-anchor="middle">flap and seal</text>
+    <text x="150" y="288" font-size="14" fill="#8a7f6a" text-anchor="middle">formal · seasonal gifting</text>
+  </g>
+
+  <!-- Folder -->
+  <g transform="translate(840,150)">
+    <rect x="0" y="40" width="300" height="190" rx="6" fill="#ffffff" stroke="#c9c2b4" stroke-width="2"/>
+    <rect x="55" y="70" width="90" height="130" rx="4" fill="#e8e2d4" stroke="#a89e88" stroke-width="2"/>
+    <rect x="155" y="70" width="90" height="130" rx="4" fill="#ded6c2" stroke="#a89e88" stroke-width="2"/>
+    <path d="M 150 70 L 150 200" stroke="#8f8471" stroke-width="2.5" stroke-dasharray="7 4"/>
+    <text x="100" y="130" font-size="12" text-anchor="middle" fill="#5b4a1a">To / From</text>
+    <text x="100" y="150" font-size="12" text-anchor="middle" fill="#5b4a1a">panel</text>
+    <text x="200" y="145" font-size="13" text-anchor="middle" fill="#5b4a1a">CARD</text>
+    <text x="150" y="30" font-size="22" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Folder</text>
+    <text x="150" y="265" font-size="15" fill="#4a4a4a" text-anchor="middle">scored sheet folds around</text>
+    <text x="150" y="288" font-size="14" fill="#8a7f6a" text-anchor="middle">the card is the gift</text>
+  </g>
+
+  <!-- CR80 dimension line -->
+  <g transform="translate(60,500)">
+    <rect x="290" y="0" width="500" height="72" rx="8" fill="#1f3a5f"/>
+    <text x="540" y="44" font-size="20" fill="#ffffff" text-anchor="middle" letter-spacing="1">CR80 CARD</text>
+    <path d="M 290 92 L 790 92" stroke="#1a1a1a" stroke-width="2"/>
+    <path d="M 290 84 L 290 100 M 790 84 L 790 100" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="540" y="120" font-size="16" fill="#4a4a4a" text-anchor="middle">85.6 mm (3-3/8 in)</text>
+    <path d="M 812 0 L 812 72" stroke="#1a1a1a" stroke-width="2"/>
+    <path d="M 804 0 L 820 0 M 804 72 L 820 72" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="838" y="44" font-size="16" fill="#4a4a4a">54 mm</text>
+    <text x="838" y="64" font-size="13" fill="#8a7f6a">(2-1/8 in)</text>
+    <text x="60" y="44" font-size="15" fill="#6b6b6b">spec the inner size,</text>
+    <text x="60" y="64" font-size="15" fill="#6b6b6b">in millimetres</text>
+  </g>
+
+  <text x="60" y="645" font-size="13" fill="#9a917f">Format guide — no data plotted. Carriers shown at the same scale around one card.</text>
+</svg>
