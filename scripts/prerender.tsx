@@ -241,6 +241,36 @@ for (const route of ROUTES) {
         mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
       });
     }
+    if (article?.slug === "top-china-jewelry-packaging-suppliers") {
+      const list = [
+        ["Richpack", "Fuzhou"],
+        ["Haosung", "Qingdao"],
+        ["Jialan Package", "Yiwu"],
+        ["Shenzhen ITIS Packaging", "Shenzhen"],
+        ["Pakoro Packaging", "Shenzhen"],
+        ["Huaisheng Packaging", "Guangzhou"],
+        ["Winnerpak", "Guangzhou"],
+        ["Ecoicolor", "Dongguan"],
+        ["Annaigee", "Huizhou"],
+        ["ELAPACK", "Wuxi"],
+      ] as const;
+      graph.push({
+        "@type": "ItemList",
+        "@id": `${canonical}#list`,
+        name: article.title,
+        itemListOrder: "https://schema.org/ItemListOrderDescending",
+        numberOfItems: list.length,
+        itemListElement: list.map(([name, city], i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          item: {
+            "@type": "Organization",
+            name,
+            address: { "@type": "PostalAddress", addressLocality: city, addressCountry: "CN" },
+          },
+        })),
+      });
+    }
     if (product) {
       graph.push({
         "@type": "Product",

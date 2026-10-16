@@ -4596,7 +4596,7 @@ Specify on function: weight by where the cloth lives, size by the folded case, p
     "imageHeight": 1350,
     "excerpt": "Ten verified China jewelry packaging suppliers with locations, product focus, MOQs and policies taken only from each company's own website \u2014 plus Semrush visibility checks and a buyer-type shortcut. ELAPACK is entry #10, disclosed.",
     "metaDescription": "A verified shortlist of 10 China jewelry packaging suppliers \u2014 locations, product focus, MOQs and sample policies from each company's own site, plus a vetting checklist. ELAPACK included and disclosed.",
-    "body": `*Every supplier entry below is built only from what the company publishes on its own website (locations, product focus, MOQ and policy wording), read October 2026, plus domain visibility data we pulled from a logged-in Semrush US mirror on 16 October 2026. Ordering terms in the ELAPACK entry are this factory's confirmed trade terms. No third-party market statistics are quoted \u2014 figures that could not be traced to an original source were dropped.*
+    "body": `*Last updated 16 October 2026. Every supplier entry below is built only from what the company publishes on its own website (locations, product focus, MOQ and policy wording), read October 2026, plus domain visibility data we pulled from a logged-in Semrush US mirror on 16 October 2026. Ordering terms in the ELAPACK entry are this factory's confirmed trade terms. No third-party market statistics are quoted \u2014 figures that could not be traced to an original source were dropped.*
 
 Sourcing jewelry packaging from China is rarely a supply problem \u2014 it is a filtering problem. A search for suppliers returns hundreds of factories, and most of them can genuinely make a box. The harder questions come after: which of them actually specialise in jewelry rather than general gift boxes, what their real minimum order quantities are, and whether the sample policy fits your launch timeline before you commit to a production run.
 
@@ -4606,10 +4606,10 @@ Sourcing jewelry packaging from China is rarely a supply problem \u2014 it is a 
 
 Four filters, applied in order:
 
-1. **Product fit** \u2014 the supplier must run jewelry packaging as a stated product line, not just "gift boxes" in general.
+1. **Product fit and customization depth** \u2014 the supplier must run jewelry packaging as a stated product line (structures, inserts, logo application), not just "gift boxes" in general.
 2. **An auditable official website** \u2014 each entry's location, product focus and policies come from the company's own site. Two candidates were dropped because their sites publish no verifiable company information worth quoting.
-3. **Independent visibility check** \u2014 we ran each domain through a Semrush US mirror to see real organic traffic and keyword footprint. A supplier whose site ranks for nothing is not disqualified \u2014 many good factories are poor at SEO \u2014 but it tells you they will be found through directories and referrals, not search.
-4. **Disclosure** \u2014 ELAPACK is in this list, under the same evidence rules as everyone else: only what we publish on our own site.
+3. **Independent visibility and logistics check** \u2014 we ran each domain through a Semrush US mirror for organic traffic, and weighed export experience (overseas stock, multi-country plants) from the company's own disclosures. A supplier whose site ranks for nothing is not disqualified \u2014 many good factories are poor at SEO \u2014 but it tells you they will be found through directories and referrals, not search.
+4. **Buyer-side scoring dimensions** \u2014 across all entries we compared MOQ flexibility, material compliance and certification, customization depth, sample-to-production speed, and export logistics. 5. **Disclosure** \u2014 ELAPACK is in this list, under the same evidence rules as everyone else: only what we publish on our own site. Inclusion reflects verifiable scope, not advertising spend; this is not a sponsored ranking.
 
 One thing this list deliberately does not do: repeat client rosters. Several suppliers advertise famous brand names on their sites. We stick to certifications and product facts instead, because a logo wall is the easiest thing to inherit from a single old project and the hardest thing for you to verify.
 
@@ -4700,13 +4700,13 @@ Whichever you shortlist, run the same three checks: a written MOQ for your quant
 ## FAQ
 
 **How do I verify a jewelry packaging supplier in China before paying?**
-Ask for a business licence match, a scheduled live video factory walkthrough (not a polished clip), and paid custom samples. Cross-check the website's claims \u2014 address, certifications \u2014 against the licence and audit documents. The full step-by-step is in our [supplier vetting guide](https://elapack.com/news/how-to-vet-a-packaging-manufacturer/).
+Ask for a business licence match, a scheduled live video factory walkthrough (not a polished clip), and paid custom samples. On quality control specifically: request a pre-production sample approved in writing, plus in-line inspection photos during cutting and assembly \u2014 not just a final inspection report after everything is boxed. For fabric-based or hybrid packaging, check stitching consistency, material grain matching and insert fit separately; these are the failure points a generic QC checklist misses. The full step-by-step is in our [supplier vetting guide](https://elapack.com/news/how-to-vet-a-packaging-manufacturer/).
 
 **What MOQ should I expect from Chinese jewelry packaging suppliers?**
 Among these ten, published custom MOQs run from 200 to 500 per design; several do not publish. Low-volume programs are realistic, but below roughly 200 units, unit costs and setup fees rise sharply. Always get your exact quantity quoted in writing.
 
 **How long do sampling and production take?**
-Typical custom sampling runs about 3\u20135 days; mass production 15\u201320 days for mid-size runs, extending toward 20\u201325 days for large runs. Suppliers with overseas stock can ship replenishment faster. Build sampling plus one revision round into your launch timeline.
+Typical custom sampling runs about 3\u20135 days; mass production 15\u201320 days for mid-size runs, extending toward 20\u201325 days for large runs. Suppliers with overseas stock can ship replenishment faster. Ask for a phase-by-phase schedule \u2014 sample development, tooling, cutting, assembly, QC, packing \u2014 rather than one combined number, so a delay in one stage cannot silently push back the whole order. Build sampling plus one revision round into your launch timeline.
 
 **What should I prepare to get an accurate quote?**
 Box dimensions (internal), material and finish, insert type, print method, logo process, quantity tiers (for example 200 / 500 / 1,000), and destination for freight. Quotes built on a reference image alone are guesses.
@@ -8424,6 +8424,36 @@ for (const route of ROUTES) {
           }
         },
         mainEntityOfPage: { "@type": "WebPage", "@id": canonical }
+      });
+    }
+    if (article?.slug === "top-china-jewelry-packaging-suppliers") {
+      const list = [
+        ["Richpack", "Fuzhou"],
+        ["Haosung", "Qingdao"],
+        ["Jialan Package", "Yiwu"],
+        ["Shenzhen ITIS Packaging", "Shenzhen"],
+        ["Pakoro Packaging", "Shenzhen"],
+        ["Huaisheng Packaging", "Guangzhou"],
+        ["Winnerpak", "Guangzhou"],
+        ["Ecoicolor", "Dongguan"],
+        ["Annaigee", "Huizhou"],
+        ["ELAPACK", "Wuxi"]
+      ];
+      graph.push({
+        "@type": "ItemList",
+        "@id": `${canonical}#list`,
+        name: article.title,
+        itemListOrder: "https://schema.org/ItemListOrderDescending",
+        numberOfItems: list.length,
+        itemListElement: list.map(([name, city], i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          item: {
+            "@type": "Organization",
+            name,
+            address: { "@type": "PostalAddress", addressLocality: city, addressCountry: "CN" }
+          }
+        }))
       });
     }
     if (product) {
