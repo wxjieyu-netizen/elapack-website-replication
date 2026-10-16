@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Stacked diagram of retail box, insert, label substrate and outer shipping carton ordered as one specification">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <text x="60" y="64" font-family="Georgia, serif" font-size="28" fill="#18120c">The candle packaging system: four layers</text>
+  <rect x="220" y="125" width="760" height="86" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="250" y="161" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#18120c" text-anchor="start" font-weight="bold">Layer 4 · Outer carton</text>
+  <text x="250" y="185" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">corrugated, tested with the set assembled</text>
+  <rect x="220" y="223" width="760" height="86" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="250" y="259" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#18120c" text-anchor="start" font-weight="bold">Layer 3 · Label substrate</text>
+  <text x="250" y="283" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">specified with the box so materials coordinate</text>
+  <rect x="220" y="321" width="760" height="86" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="250" y="357" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#18120c" text-anchor="start" font-weight="bold">Layer 2 · Insert</text>
+  <text x="250" y="381" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">corrugated default; foam or pulp by fragility</text>
+  <rect x="220" y="419" width="760" height="86" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="250" y="455" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#18120c" text-anchor="start" font-weight="bold">Layer 1 · Retail box</text>
+  <text x="250" y="479" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">rigid or folding, vessel + 6–13 mm clearance</text>
+  <text x="600" y="630" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b6258" text-anchor="middle" font-weight="normal">Four layers, one drawing — the drawing is what you order, from one supplier, from 200 pieces.</text>
+</svg>

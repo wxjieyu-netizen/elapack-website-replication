@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Quadrant chart comparing die-cut cardboard, EVA-type foam, moulded pulp and multi-cell dividers on hold and cost">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <text x="60" y="64" font-family="Georgia, serif" font-size="28" fill="#18120c">Candle insert materials: hold vs cost</text>
+<g transform="translate(70,110) scale(1.35)">
+  <rect x="60" y="60" width="240" height="120" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="78" y="96" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#18120c" text-anchor="start" font-weight="bold">Die-cut cardboard</text>
+  <text x="78" y="124" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="start" font-weight="normal">clean look · medium hold</text>
+  <text x="78" y="148" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#b08d46" text-anchor="start" font-weight="normal">suits light jars</text>
+  <rect x="340" y="60" width="240" height="120" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="358" y="96" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#18120c" text-anchor="start" font-weight="bold">EVA-type foam</text>
+  <text x="358" y="124" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="start" font-weight="normal">highest hold · premium feel</text>
+  <text x="358" y="148" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#b08d46" text-anchor="start" font-weight="normal">suits heavy glass</text>
+  <rect x="60" y="220" width="240" height="120" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="78" y="256" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#18120c" text-anchor="start" font-weight="bold">Moulded pulp</text>
+  <text x="78" y="284" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="start" font-weight="normal">eco story · medium hold</text>
+  <text x="78" y="308" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#b08d46" text-anchor="start" font-weight="normal">suits matte-finish glass</text>
+  <rect x="340" y="220" width="240" height="120" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="358" y="256" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#18120c" text-anchor="start" font-weight="bold">Multi-cell divider</text>
+  <text x="358" y="284" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="start" font-weight="normal">ships multiples · board only</text>
+  <text x="358" y="308" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#b08d46" text-anchor="start" font-weight="normal">suits candle sets</text>
+  <text x="300" y="50" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="middle" font-weight="normal">↑ hold</text>
+  <text x="300" y="400" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="middle" font-weight="normal">cost →</text>
+</g>
+  <text x="600" y="640" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b6258" text-anchor="middle" font-weight="normal">Jar weight and glass finish pick the material — a candle that moves is a returned candle.</text>
+</svg>

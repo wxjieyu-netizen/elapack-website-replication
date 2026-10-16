@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Stacked layers diagram from rigid greyboard up through finish, insert and shipping overcarton, ordered as one drawing">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <text x="60" y="64" font-family="Georgia, serif" font-size="28" fill="#18120c">The luxury candle box as a specification stack</text>
+  <rect x="220" y="130" width="760" height="88" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="250" y="168" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#18120c" text-anchor="start" font-weight="bold">Shipping overcarton</text>
+  <text x="250" y="192" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">protects the object in transit</text>
+  <rect x="220" y="230" width="760" height="88" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="250" y="268" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#18120c" text-anchor="start" font-weight="bold">Fitted insert</text>
+  <text x="250" y="292" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">holds the candle dead still</text>
+  <rect x="220" y="330" width="760" height="88" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="250" y="368" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#18120c" text-anchor="start" font-weight="bold">Foiled or blind-embossed wrap</text>
+  <text x="250" y="392" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">the finish the hand reads</text>
+  <rect x="220" y="430" width="760" height="88" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <text x="250" y="468" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#18120c" text-anchor="start" font-weight="bold">Rigid greyboard construction</text>
+  <text x="250" y="492" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">the structure underneath everything</text>
+  <text x="600" y="635" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b6258" text-anchor="middle" font-weight="normal">Luxury is a stack, not a box — all four layers specified together on one drawing, or the object fails in the hand.</text>
+</svg>

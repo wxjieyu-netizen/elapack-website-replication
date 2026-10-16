@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Flow diagram showing how a flat dieline drawing becomes a steel-rule cutting die, which cuts and creases the sheet before the box is folded into form">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <text x="60" y="64" font-family="Georgia, serif" font-size="28" fill="#18120c">From dieline to die-cut box</text>
+<g transform="translate(48,110) scale(1.45)">
+  <rect x="0" y="40" width="150" height="140" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+  <line x1="0" y1="70" x2="150" y2="70" stroke="#e5d5b8" stroke-width="1"/>
+  <text x="12" y="62" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#b08d46" text-anchor="start" font-weight="bold">1 · The dieline</text>
+  <text x="12" y="90" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">Buyer\'s document</text>
+  <text x="12" y="115" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#18120c" text-anchor="start" font-weight="normal">Flat drawing: cut lines,</text>
+  <text x="12" y="131" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#18120c" text-anchor="start" font-weight="normal">crease lines, panels</text>
+  <path d="M 155 110 l 12 0 m -4 -5 l 6 5 l -6 5" stroke="#6b6258" fill="none" stroke-width="1.4"/>
+  <rect x="172" y="40" width="150" height="140" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+  <line x1="172" y1="70" x2="322" y2="70" stroke="#e5d5b8" stroke-width="1"/>
+  <text x="184" y="62" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#b08d46" text-anchor="start" font-weight="bold">2 · The cutting die</text>
+  <text x="184" y="90" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">Factory\'s tool</text>
+  <text x="184" y="115" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#18120c" text-anchor="start" font-weight="normal">Steel rules bent to match</text>
+  <text x="184" y="131" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#18120c" text-anchor="start" font-weight="normal">the dieline, mounted on wood</text>
+  <path d="M 327 110 l 12 0 m -4 -5 l 6 5 l -6 5" stroke="#6b6258" fill="none" stroke-width="1.4"/>
+  <rect x="344" y="40" width="150" height="140" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+  <line x1="344" y1="70" x2="494" y2="70" stroke="#e5d5b8" stroke-width="1"/>
+  <text x="356" y="62" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#b08d46" text-anchor="start" font-weight="bold">3 · Die-cutting</text>
+  <text x="356" y="90" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">Press pass</text>
+  <text x="356" y="115" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#18120c" text-anchor="start" font-weight="normal">Rules cut the outline and</text>
+  <text x="356" y="131" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#18120c" text-anchor="start" font-weight="normal">crease the folds in one hit</text>
+  <path d="M 499 110 l 12 0 m -4 -5 l 6 5 l -6 5" stroke="#6b6258" fill="none" stroke-width="1.4"/>
+  <rect x="516" y="40" width="150" height="140" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+  <line x1="516" y1="70" x2="666" y2="70" stroke="#e5d5b8" stroke-width="1"/>
+  <text x="528" y="62" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#b08d46" text-anchor="start" font-weight="bold">4 · The box blank</text>
+  <text x="528" y="90" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b6258" text-anchor="start" font-weight="normal">Folded form</text>
+  <text x="528" y="115" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#18120c" text-anchor="start" font-weight="normal">Cut, creased, folded —</text>
+  <text x="528" y="131" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#18120c" text-anchor="start" font-weight="normal">the finished structure</text>
+</g>
+  <text x="600" y="640" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b6258" text-anchor="middle" font-weight="normal">The dieline is drawn by the buyer (or the factory on request) — the die is made once, then reused across re-orders.</text>
+</svg>

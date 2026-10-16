@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Labeled diagram of a shopping bag showing handle, base material, gusset and reinforcement as specification decisions">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <text x="60" y="64" font-family="Georgia, serif" font-size="28" fill="#18120c">Anatomy of a specified shopping bag</text>
+<g transform="translate(60,100) scale(1.5)">
+  <rect x="180" y="60" width="220" height="240" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.5"/>
+  <path d="M 250 60 q 40 -70 80 0" fill="none" stroke="#18120c" stroke-width="4"/>
+  <line x1="290" y1="200" x2="400" y2="200" stroke="#b08d46" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <rect x="200" y="250" width="180" height="40" fill="none" stroke="#6b6258" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="150" y="40" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="start" font-weight="normal">handle: length set by carry test — hand + garment</text>
+  <text x="410" y="120" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="start" font-weight="normal">base material:</text>
+  <text x="410" y="138" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="start" font-weight="normal">kraft · coated art paper · cotton</text>
+  <text x="410" y="205" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="start" font-weight="normal">gusset depth:</text>
+  <text x="410" y="223" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="start" font-weight="normal">sets what the bag holds</text>
+  <text x="410" y="275" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b6258" text-anchor="start" font-weight="normal">reinforced base board</text>
+</g>
+  <text x="600" y="640" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b6258" text-anchor="middle" font-weight="normal">The specification is the order — handle, material, gusset, reinforcement — and the branding prints onto whatever carries.</text>
+</svg>
