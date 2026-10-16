@@ -32,6 +32,11 @@ const RELATED: Record<string, string[]> = {
     "custom-microfiber-pouches",
     "custom-velvet-pouches",
   ],
+  "top-china-jewelry-packaging-suppliers": [
+    "black-leather-jewelry-box",
+    "custom-velvet-pouches",
+    "magnetic-closure-gift-box",
+  ],
   "custom-packaging-small-business-guide": [
     "kraft-paper-shopping-bag",
     "custom-cotton-pouches",

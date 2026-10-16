@@ -4582,6 +4582,145 @@ Cloth is the lightest freight in any eyewear programme, which makes it the natur
 
 Specify on function: weight by where the cloth lives, size by the folded case, print by colour count and how much surface it may cover. [Start the quote](https://elapack.com/contact/) with size, target weight and artwork; a sample follows in 3\u20135 days.
 `
+  },
+  {
+    "slug": "top-china-jewelry-packaging-suppliers",
+    "datePublished": "2026-10-16",
+    "title": "Top 10 China Jewelry Packaging Suppliers (2026)",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "9 min read",
+    "image": "/images/covers/top-china-jewelry-packaging-suppliers.webp",
+    "imageAlt": "Map and comparison of ten China jewelry packaging suppliers \u2014 locations, product focus and published MOQs",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Ten verified China jewelry packaging suppliers with locations, product focus, MOQs and policies taken only from each company's own website \u2014 plus Semrush visibility checks and a buyer-type shortcut. ELAPACK is entry #10, disclosed.",
+    "metaDescription": "A verified shortlist of 10 China jewelry packaging suppliers \u2014 locations, product focus, MOQs and sample policies from each company's own site, plus a vetting checklist. ELAPACK included and disclosed.",
+    "body": `*Every supplier entry below is built only from what the company publishes on its own website (locations, product focus, MOQ and policy wording), read October 2026, plus domain visibility data we pulled from a logged-in Semrush US mirror on 16 October 2026. Ordering terms in the ELAPACK entry are this factory's confirmed trade terms. No third-party market statistics are quoted \u2014 figures that could not be traced to an original source were dropped.*
+
+Sourcing jewelry packaging from China is rarely a supply problem \u2014 it is a filtering problem. A search for suppliers returns hundreds of factories, and most of them can genuinely make a box. The harder questions come after: which of them actually specialise in jewelry rather than general gift boxes, what their real minimum order quantities are, and whether the sample policy fits your launch timeline before you commit to a production run.
+
+> **Quick answer:** ten suppliers made this list, and one disclosure comes first \u2014 ELAPACK, the publisher of this article, is entry #10. Every entry, ours included, is described using only what the company's own website states; where a number is not published we write "confirm on inquiry" instead of guessing. The two decisions that most differentiate these factories: published custom MOQs run from 200 to 500 pieces, and materials depth ranges from paper-only to wood, leatherette and documented-recycled options.
+
+## How this list was built
+
+Four filters, applied in order:
+
+1. **Product fit** \u2014 the supplier must run jewelry packaging as a stated product line, not just "gift boxes" in general.
+2. **An auditable official website** \u2014 each entry's location, product focus and policies come from the company's own site. Two candidates were dropped because their sites publish no verifiable company information worth quoting.
+3. **Independent visibility check** \u2014 we ran each domain through a Semrush US mirror to see real organic traffic and keyword footprint. A supplier whose site ranks for nothing is not disqualified \u2014 many good factories are poor at SEO \u2014 but it tells you they will be found through directories and referrals, not search.
+4. **Disclosure** \u2014 ELAPACK is in this list, under the same evidence rules as everyone else: only what we publish on our own site.
+
+One thing this list deliberately does not do: repeat client rosters. Several suppliers advertise famous brand names on their sites. We stick to certifications and product facts instead, because a logo wall is the easiest thing to inherit from a single old project and the hardest thing for you to verify.
+
+## The ten suppliers at a glance
+
+| # | Supplier | Location (own site) | Product focus | MOQ (own site) | Best for |
+|---|---|---|---|---|---|
+| 1 | Richpack | Fuzhou; plants CN/VN/TH, US warehouse | Luxury boxes, pouches, displays | 500 custom / 100 US stock | Luxury finishes at volume, multi-country capacity |
+| 2 | Haosung | Qingdao, since 2008 | Jewelry boxes, pouches, child-resistant | "from 1 piece" (site claim) | Certification-sensitive buyers (FSC, Sedex SMETA, Disney ILS) |
+| 3 | Jialan | Yiwu, est. 2014, 6,000 m\xB2 | Paper gift boxes, bags, jewelry sets | Confirm on inquiry | Small-batch paper packaging |
+| 4 | ITIS | Shenzhen (Bao'an) | Custom paper jewelry boxes, velvet pouches | Confirm on inquiry | One-stop design-to-delivery paper boxes |
+| 5 | Pakoro | Shenzhen | Rigid boxes, mailers, folding cartons | "Flexible MOQ" (site wording) | Box + e-commerce mailer in one program |
+| 6 | Huaisheng | Guangzhou (Zengcheng) | Foldable and magnetic-closure boxes | Confirm on inquiry | Magnetic and foldable structures |
+| 7 | Winnerpak | Since 1990 | Paper, leatherette, wood, LED, velvet boxes | 500 custom / 100 display items | Long-history materials-range specialist |
+| 8 | Ecoicolor | Dongguan (Fenggang) | Rigid boxes, pouches, recycled materials | Confirm on inquiry | Sustainability-documented projects (FSC/GRS docs) |
+| 9 | Annaigee | Huizhou (Zhongkai zone), 20+ yrs | Luxury boxes, storage, travel, watch boxes | Confirm on inquiry | High-end presentation and storage |
+| 10 | ELAPACK (that's us) | Wuxi | Jewelry boxes, pouches, eyewear packaging | 200 per design | Low-MOQ custom work with fast samples |
+
+
+![Map of the ten China jewelry packaging suppliers by location, with published custom MOQs](/charts/top-china-jewelry-packaging-suppliers.svg)
+
+*Fig. 1 \u2014 Where the ten suppliers sit: six cluster in Guangdong; the outliers are Qingdao, Yiwu, Wuxi and Fuzhou.*
+
+## The entries
+
+### 1. Richpack \u2014 the volume luxury specialist
+
+Richpack (Fuzhou, since 2008) is the strongest online presence in this group \u2014 real organic traffic, a keyword footprint in the thousands \u2014 and the only entry with a multi-country footprint: factories in China, Vietnam and Thailand plus US warehousing. The site positions them in luxury jewelry boxes, pouches, bags and display solutions, with a published MOQ of 500 for full customisation and 100 for selected US stock styles shipped in 5\u20137 days. If you sell into the US, the stock program shortens replenishment; if you customise heavily, the Vietnam and Thailand capacity matters for hedging tariff and lead-time risk across countries.
+
+### 2. Haosung \u2014 certifications on paper, not just promises
+
+Qingdao-based and operating since 2008, Haosung's distinguishing feature is documented compliance: FSC (C180570), Sedex SMETA and Disney ILS audits are stated on the site, alongside child-resistant packaging \u2014 rare among jewelry packaging makers. They claim low MOQ from 1 piece with free in-house design; treat any sub-factory-floor number as a starting point for negotiation, not a promise. If your retail chain or marketplace requires audited suppliers, this is the shortest verification path on the list.
+
+### 3. Jialan \u2014 Yiwu paper packaging, small-batch friendly
+
+Jialan Package (Yiwu, Zhejiang, established 2014, 6,000 m\xB2) focuses on paper gift boxes, bags and jewelry packaging sets, with separate wholesale and custom sites. Being Yiwu-based puts them inside the largest small-goods trading ecosystem in China \u2014 practical if you combine packaging with sourcing trips. MOQ is not published; confirm on inquiry.
+
+### 4. ITIS \u2014 Shenzhen one-stop paper box maker
+
+Shenzhen ITIS Packaging (Bao'an district) describes 20+ years in custom jewelry boxes with a design-to-delivery service across paper gift boxes, jewelry boxes, paper bags and velvet drawstring pouches. The range skews paper-centred; if your program needs leatherette or wood, check capability per item. No published MOQ.
+
+### 5. Pakoro \u2014 rigid boxes and mailers together
+
+Shenzhen Pakoro Packaging makes custom rigid boxes, corrugated mailers, folding cartons and paper bags \u2014 a combination that suits jewelry brands shipping direct-to-consumer, where the gift box and the shipping box usually come from different suppliers. The site advertises "flexible MOQ" without a number; get your exact quantity quoted explicitly.
+
+### 6. Huaisheng \u2014 foldable and magnetic formats
+
+Guangzhou Huaisheng Packaging (Zengcheng district) builds its range around box construction: foldable, magnetic-closure, sliding and collapsible structures across gift and jewelry categories, with the founder's 23 years in paper packaging printing. If your priority is a specific structure \u2014 a magnetic lid that survives shipping, a foldable that saves freight \u2014 this construction-first focus is the relevant lens. No published MOQ.
+
+### 7. Winnerpak \u2014 three decades of jewelry boxes
+
+Winnerpak traces its history to 1990 and covers an unusually wide materials range for jewelry boxes: paper, leatherette, wood, LED-lit, flocked and velvet, plus watch boxes and displays. Published MOQ: 500 for custom boxes, bags and pouches, 100 for display items \u2014 the higher end of this list for custom work. Their eco line uses FSC-certified paper.
+
+### 8. Ecoicolor \u2014 sustainability with documents
+
+Dongguan Ecoicolor targets beauty, fragrance and jewelry brands with rigid boxes, pouches and inserts, and is the most explicit here about material-level sustainability: recycled paper, vegan leathers, plant-based fibres, with FSC- and GRS-document-supported options \u2014 and a candid note that certificates apply per project scope, which is exactly the right caveat. Buyers with ESG requirements should ask for the certificate matching their substrate.
+
+### 9. Annaigee \u2014 high-end presentation focus
+
+Annaigee (Huizhou, Zhongkai High-Tech Zone) positions itself in custom luxury jewelry packaging with 20+ years of experience: jewelry boxes, storage organizers in leather, wood and acrylic, travel cases and watch boxes. The depth in storage and travel \u2014 not just presentation boxes \u2014 is the differentiator if your line extends beyond the box itself.
+
+### 10. ELAPACK \u2014 that's us
+
+ELAPACK (Wuxi, ISO 9001 certified, three production lines) makes custom [jewelry boxes](https://elapack.com/news/custom-rigid-boxes-guide/), [jewelry pouches](https://elapack.com/news/how-to-choose-a-custom-jewelry-pouch/) and [eyewear packaging](https://elapack.com/news/custom-glasses-cases-pouches-guide/) for export, focused on small and mid-size brands. What we publish and stand behind: MOQ 200 per design; custom samples at USD 25 plus USD 20 shipping, built in 3\u20135 days; free stock samples shipped in 2\u20133 days; 15\u201320 day production for 200\u201320,000 pieces. Being in a list we wrote is exactly the kind of thing you should verify \u2014 so check our claims against the quote and sample you receive, same as you would with any entry above.
+
+## What actually differs between them
+
+Three differences matter more than the rest:
+
+**MOQ structure.** Published minimums range from Winnerpak's 500 (custom) down to 200 per design at ELAPACK, with several suppliers not publishing at all. Treat "low MOQ" marketing claims as unverified until a specific quantity appears in a written quote \u2014 this is the single most common gap between a packaging website and reality.
+
+**Materials depth.** Paper-centred makers (ITIS, Jialan, Pakoro, Huaisheng) overlap heavily on rigid and folding cartons but differ in textile capability \u2014 velvet pouches, leatherette wraps. Winnerpak and Annaigee cover wood and leatherette; Haosung adds child-resistant structures; Ecoicolor adds documented recycled and vegan materials. Match the supplier to the material your product actually needs, not to their best-known category.
+
+**Geography and logistics.** Six entries cluster in Guangdong \u2014 convenient for combined factory visits. The outliers: Jialan in Yiwu (Zhejiang), Haosung in Qingdao (Shandong), Richpack in Fuzhou with Vietnam, Thailand and US stock, ELAPACK in Wuxi (Jiangsu). Factory location mainly changes your shipping lane; overseas stock changes your replenishment speed.
+
+What does not differ much: nobody on this list publishes unit prices, and we will not either \u2014 box pricing moves with size, materials, print method and quantity, so per-spec quotations are the only honest format.
+
+## How to choose, by buyer type
+
+- **Small brand, first custom order** \u2014 ELAPACK (MOQ 200, samples in 3\u20135 days) or Jialan for paper-heavy programs.
+- **Audited supply chain required** \u2014 Haosung or Ecoicolor.
+- **Luxury finishes at volume, multi-country capacity** \u2014 Richpack.
+- **Wide materials range including wood and leatherette** \u2014 Winnerpak or Annaigee.
+- **Box + mailer in one program** \u2014 Pakoro.
+
+Whichever you shortlist, run the same three checks: a written MOQ for your quantity, a paid sample before production, and a production timeline in the proforma invoice. A supplier who answers those three cleanly \u2014 including us \u2014 has earned the order on merit, not on a listicle. The full checklist lives in our [supplier vetting guide](https://elapack.com/news/how-to-vet-a-packaging-manufacturer/).
+
+## FAQ
+
+**How do I verify a jewelry packaging supplier in China before paying?**
+Ask for a business licence match, a scheduled live video factory walkthrough (not a polished clip), and paid custom samples. Cross-check the website's claims \u2014 address, certifications \u2014 against the licence and audit documents. The full step-by-step is in our [supplier vetting guide](https://elapack.com/news/how-to-vet-a-packaging-manufacturer/).
+
+**What MOQ should I expect from Chinese jewelry packaging suppliers?**
+Among these ten, published custom MOQs run from 200 to 500 per design; several do not publish. Low-volume programs are realistic, but below roughly 200 units, unit costs and setup fees rise sharply. Always get your exact quantity quoted in writing.
+
+**How long do sampling and production take?**
+Typical custom sampling runs about 3\u20135 days; mass production 15\u201320 days for mid-size runs, extending toward 20\u201325 days for large runs. Suppliers with overseas stock can ship replenishment faster. Build sampling plus one revision round into your launch timeline.
+
+**What should I prepare to get an accurate quote?**
+Box dimensions (internal), material and finish, insert type, print method, logo process, quantity tiers (for example 200 / 500 / 1,000), and destination for freight. Quotes built on a reference image alone are guesses.
+
+**Is sourcing from China actually cheaper for jewelry packaging?**
+For custom work at moderate volumes, generally yes \u2014 the advantage comes from tooling, materials supply chains and labour concentration in packaging clusters. At very small quantities, domestic stock suppliers can beat Chinese factory MOQs once freight and duties are counted.
+
+**Can I get certified sustainable jewelry packaging from China?**
+Yes \u2014 several suppliers here hold FSC documentation (Haosung, Winnerpak's eco line, Ecoicolor's document-supported options). The caveat that matters: certificates apply per material and scope, so require the certificate that matches your specific substrate, not a company-level logo.
+
+## Put ELAPACK through the same checks
+
+If you want to run us through the three checks above: send box dimensions, material reference and target quantity through the [contact page](https://elapack.com/contact/) \u2014 or start with a custom sample at USD 25 + 20 shipping, built in 3\u20135 days. The adjacent decisions are covered in the [jewelry boxes guide](https://elapack.com/news/custom-rigid-boxes-guide/), the [jewelry pouches comparison](https://elapack.com/news/velvet-satin-muslin-pouches-compared/) and the [small-business first-order walkthrough](https://elapack.com/news/custom-packaging-small-business-guide/).
+`
   }
 ]);
 function getArticleBySlug(slug) {
@@ -5819,6 +5958,11 @@ var RELATED = {
   "custom-microfiber-cloths-guide": [
     "custom-microfiber-pouches",
     "custom-velvet-pouches"
+  ],
+  "top-china-jewelry-packaging-suppliers": [
+    "black-leather-jewelry-box",
+    "custom-velvet-pouches",
+    "magnetic-closure-gift-box"
   ],
   "custom-packaging-small-business-guide": [
     "kraft-paper-shopping-bag",

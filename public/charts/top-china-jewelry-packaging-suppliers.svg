@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <rect width="1200" height="675" fill="#FAF7F2"/>
+  <text x="600" y="46" text-anchor="middle" font-size="26" fill="#2B2B2B">Where the ten suppliers sit on the map</text>
+  <text x="600" y="70" text-anchor="middle" font-size="14" fill="#7A7A7A">Locations as published on each company's own website — seven of ten cluster in Guangdong</text>
+
+  <!-- Guangdong cluster -->
+  <g>
+    <ellipse cx="820" cy="420" rx="230" ry="150" fill="#E4D9C8" opacity="0.55"/>
+    <text x="820" y="300" text-anchor="middle" font-size="17" fill="#2B2B2B" font-weight="bold">GUANGDONG CLUSTER · 6</text>
+    <!-- Winnerpak -->
+    <rect x="640" y="330" width="180" height="58" rx="8" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="730" y="353" text-anchor="middle" font-size="14" fill="#2B2B2B">Winnerpak</text>
+    <text x="730" y="372" text-anchor="middle" font-size="11" fill="#7A7A7A">since 1990 · MOQ 500</text>
+    <!-- ITIS -->
+    <rect x="840" y="330" width="180" height="58" rx="8" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="930" y="353" text-anchor="middle" font-size="14" fill="#2B2B2B">ITIS</text>
+    <text x="930" y="372" text-anchor="middle" font-size="11" fill="#7A7A7A">Shenzhen · paper boxes</text>
+    <!-- Huaisheng -->
+    <rect x="640" y="402" width="180" height="58" rx="8" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="730" y="425" text-anchor="middle" font-size="14" fill="#2B2B2B">Huaisheng</text>
+    <text x="730" y="444" text-anchor="middle" font-size="11" fill="#7A7A7A">Guangzhou · magnetic</text>
+    <!-- Pakoro -->
+    <rect x="840" y="402" width="180" height="58" rx="8" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="930" y="425" text-anchor="middle" font-size="14" fill="#2B2B2B">Pakoro</text>
+    <text x="930" y="444" text-anchor="middle" font-size="11" fill="#7A7A7A">Shenzhen · rigid+mailer</text>
+    <!-- Ecoicolor -->
+    <rect x="640" y="474" width="180" height="58" rx="8" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="730" y="497" text-anchor="middle" font-size="14" fill="#2B2B2B">Ecoicolor</text>
+    <text x="730" y="516" text-anchor="middle" font-size="11" fill="#7A7A7A">Dongguan · FSC/GRS docs</text>
+    <!-- Annaigee -->
+    <rect x="840" y="474" width="180" height="58" rx="8" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="930" y="497" text-anchor="middle" font-size="14" fill="#2B2B2B">Annaigee</text>
+    <text x="930" y="516" text-anchor="middle" font-size="11" fill="#7A7A7A">Huizhou · luxury</text>
+  </g>
+
+  <!-- East coast -->
+  <g>
+    <!-- Qingdao / Haosung -->
+    <rect x="520" y="110" width="180" height="58" rx="8" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="610" y="133" text-anchor="middle" font-size="14" fill="#2B2B2B">Haosung</text>
+    <text x="610" y="152" text-anchor="middle" font-size="11" fill="#7A7A7A">Qingdao · FSC/Sedex</text>
+    <!-- Yiwu / Jialan -->
+    <rect x="740" y="110" width="180" height="58" rx="8" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="830" y="133" text-anchor="middle" font-size="14" fill="#2B2B2B">Jialan</text>
+    <text x="830" y="152" text-anchor="middle" font-size="11" fill="#7A7A7A">Yiwu · est. 2014</text>
+    <!-- Wuxi / ELAPACK -->
+    <rect x="600" y="190" width="200" height="66" rx="8" fill="#6E8A7A" stroke="#54705F" stroke-width="2"/>
+    <text x="700" y="215" text-anchor="middle" font-size="14" fill="#FAF7F2">ELAPACK (that's us)</text>
+    <text x="700" y="236" text-anchor="middle" font-size="11" fill="#DDE8E2">Wuxi · MOQ 200 · samples 3–5 d</text>
+    <!-- Fuzhou / Richpack -->
+    <rect x="850" y="190" width="200" height="66" rx="8" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="950" y="215" text-anchor="middle" font-size="14" fill="#2B2B2B">Richpack</text>
+    <text x="950" y="236" text-anchor="middle" font-size="11" fill="#7A7A7A">Fuzhou · CN/VN/TH + US stock</text>
+  </g>
+
+  <!-- connection line east coast to Guangdong -->
+  <path d="M 700 260 q 40 60 100 90" fill="none" stroke="#8A7A5E" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- MOQ scale footer -->
+  <g transform="translate(90 590)">
+    <text x="0" y="0" font-size="14" fill="#2B2B2B" font-weight="bold">Published custom MOQs across the list</text>
+    <line x1="0" y1="30" x2="1020" y2="30" stroke="#8A7A5E" stroke-width="2"/>
+    <line x1="0" y1="24" x2="0" y2="36" stroke="#8A7A5E" stroke-width="2"/>
+    <line x1="1020" y1="24" x2="1020" y2="36" stroke="#8A7A5E" stroke-width="2"/>
+    <!-- ELAPACK 200 -->
+    <circle cx="204" cy="30" r="7" fill="#6E8A7A"/>
+    <text x="204" y="14" text-anchor="middle" font-size="12" fill="#2B2B2B">ELAPACK · 200</text>
+    <!-- Richpack/Winnerpak 500 -->
+    <circle cx="510" cy="30" r="7" fill="#8A7A5E"/>
+    <text x="530" y="14" text-anchor="middle" font-size="12" fill="#2B2B2B">Richpack · Winnerpak · 500</text>
+    <!-- flexible/unpublished -->
+    <text x="800" y="14" font-size="12" fill="#7A7A7A">others: "flexible" or not published —</text>
+    <text x="800" y="52" font-size="12" fill="#7A7A7A">confirm your quantity in a written quote</text>
+    <text x="0" y="52" font-size="12" fill="#7A7A7A">scale: 0 → 500+ pcs per design</text>
+  </g>
+  <text x="600" y="662" text-anchor="middle" font-size="11" fill="#7A7A7A">Sources: each supplier's own website, read October 2026 — no third-party market statistics used</text>
+</svg>
