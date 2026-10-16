@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Four apparel box structures and the garment measurement rule that sets the footprint">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g transform="translate(60 28) scale(1.45)" font-family="Helvetica,Arial,sans-serif">
+    <text x="24" y="22" font-family="Georgia,serif" font-size="16" font-weight="600" fill="#18120c">Four structures, one measurement rule</text>
+    <text x="24" y="40" font-size="11" fill="#6b6258">The choice is freight and unboxing, not strength — every footprint starts from the folded garment</text>
+
+    <g stroke="#18120c" stroke-width="1.5" fill="#f2e9dc">
+      <!-- two-piece rigid: lid over base -->
+      <rect x="44" y="106" width="116" height="26"/>
+      <rect x="50" y="132" width="104" height="64"/>
+      <!-- one-piece foldable: hinged lid open -->
+      <path d="M 216 158 l 10 -50 h 116 l 10 50"/>
+      <rect x="216" y="158" width="136" height="38"/>
+      <!-- shirt-box flat-fold: flat with tuck line -->
+      <rect x="392" y="136" width="136" height="60"/>
+      <line x1="392" y1="166" x2="528" y2="166" stroke-dasharray="4 3"/>
+      <!-- magnetic: flip lid with magnet catch -->
+      <rect x="568" y="132" width="128" height="64"/>
+      <rect x="568" y="112" width="128" height="20" fill="#e5d5b8"/>
+      <circle cx="632" cy="132" r="4" fill="#b08d46" stroke="none"/>
+    </g>
+    <g font-size="12.5" fill="#18120c" text-anchor="middle">
+      <text x="102" y="228" font-weight="600">two-piece rigid</text>
+      <text x="102" y="246" font-size="10.5" fill="#6b6258">lift-off lid · premium singles</text>
+      <text x="102" y="262" font-size="10.5" fill="#6b6258">ships set-up or nested</text>
+
+      <text x="284" y="228" font-weight="600">one-piece foldable</text>
+      <text x="284" y="246" font-size="10.5" fill="#6b6258">hinged lid · counter, shirt service</text>
+      <text x="284" y="262" font-size="10.5" fill="#6b6258">ships flat, assembles in-store</text>
+
+      <text x="460" y="228" font-weight="600">shirt-box flat-fold</text>
+      <text x="460" y="246" font-size="10.5" fill="#6b6258">slide or tuck · seasonal volume</text>
+      <text x="460" y="262" font-size="10.5" fill="#6b6258">maximum units per carton</text>
+
+      <text x="632" y="228" font-weight="600">magnetic closure</text>
+      <text x="632" y="246" font-size="10.5" fill="#6b6258">flip-lid, magnet catch · flagships</text>
+      <text x="632" y="262" font-size="10.5" fill="#6b6258">fold-flat engineering available</text>
+    </g>
+
+    <rect x="24" y="288" width="672" height="76" rx="6" fill="none" stroke="#b08d46"/>
+    <text x="360" y="314" text-anchor="middle" font-size="12.5" fill="#18120c" font-weight="600">The folded garment sets the footprint</text>
+    <text x="360" y="334" text-anchor="middle" font-size="11" fill="#6b6258">US standard shirt box 14.5 × 9.5 × 2 in exists because a folded dress shirt defines it</text>
+    <text x="360" y="352" text-anchor="middle" font-size="11" fill="#6b6258">knitwear needs the deeper 3–4 in base with anti-crush board · jeans take a long shallow box</text>
+
+    <text x="24" y="396" font-size="11" fill="#6b6258">From 200 pieces per design · 15–20 working days (200–20,000) · holiday structures ordered Q1–Q2 at the same MOQ.</text>
+  </g>
+</svg>
