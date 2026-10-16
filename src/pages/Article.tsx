@@ -24,6 +24,10 @@ const RELATED: Record<string, string[]> = {
     "leather-envelope-pouch",
     "custom-satin-pouches",
   ],
+  "perfume-packaging-sourcing-guide": [
+    "custom-perfume-boxes",
+    "custom-perfume-sample-card-boxes",
+  ],
   "custom-sunglasses-pouches-guide": [
     "custom-microfiber-pouches",
     "custom-velvet-pouches",

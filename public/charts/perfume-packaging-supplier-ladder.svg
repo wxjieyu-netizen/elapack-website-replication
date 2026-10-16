@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <rect width="1200" height="675" fill="#FAF7F2"/>
+  <text x="600" y="46" text-anchor="middle" font-size="24" fill="#2B2B2B">The fragrance-packaging supplier ladder</text>
+  <text x="600" y="68" text-anchor="middle" font-size="13" fill="#7A7A7A">Test on the low rungs, move the branded run up as soon as a SKU repeats</text>
+
+  <!-- ladder: four steps rising left to right -->
+  <g font-family="Georgia, serif">
+    <!-- rung 1: marketplace -->
+    <rect x="70" y="440" width="240" height="120" fill="#EFE7DC" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="190" y="470" text-anchor="middle" font-size="15" fill="#2B2B2B">1 · Marketplace</text>
+    <text x="190" y="494" text-anchor="middle" font-size="12" fill="#5A5A5A">many factories listed</text>
+    <text x="190" y="514" text-anchor="middle" font-size="12" fill="#7A7A7A">strength: low minimums</text>
+    <text x="190" y="532" text-anchor="middle" font-size="12" fill="#7A7A7A">cost: shipping, vetting on you</text>
+
+    <!-- rung 2: bundler -->
+    <rect x="330" y="380" width="240" height="180" fill="#E4D9C8" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="450" y="410" text-anchor="middle" font-size="15" fill="#2B2B2B">2 · Bundler</text>
+    <text x="450" y="434" text-anchor="middle" font-size="12" fill="#5A5A5A">one catalogue, whole launch</text>
+    <text x="450" y="454" text-anchor="middle" font-size="12" fill="#7A7A7A">strength: one PO, convenience</text>
+    <text x="450" y="472" text-anchor="middle" font-size="12" fill="#7A7A7A">cost: catalogue sizes only</text>
+
+    <!-- rung 3: print farm -->
+    <rect x="590" y="320" width="240" height="240" fill="#D9CBB4" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="710" y="350" text-anchor="middle" font-size="15" fill="#2B2B2B">3 · Print farm</text>
+    <text x="710" y="374" text-anchor="middle" font-size="12" fill="#5A5A5A">print-on-demand boxes</text>
+    <text x="710" y="394" text-anchor="middle" font-size="12" fill="#7A7A7A">strength: no minimum</text>
+    <text x="710" y="412" text-anchor="middle" font-size="12" fill="#7A7A7A">cost: unit price never improves</text>
+
+    <!-- rung 4: factory-direct -->
+    <rect x="850" y="260" width="280" height="300" fill="#C9B48C" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="990" y="290" text-anchor="middle" font-size="15" fill="#2B2B2B">4 · Factory-direct</text>
+    <text x="990" y="314" text-anchor="middle" font-size="12" fill="#5A5A5A">your dieline, your materials</text>
+    <text x="990" y="334" text-anchor="middle" font-size="12" fill="#7A7A7A">strength: full specification</text>
+    <text x="990" y="352" text-anchor="middle" font-size="12" fill="#7A7A7A">cost: minimums ~200 pieces</text>
+  </g>
+
+  <!-- rising arrow -->
+  <path d="M 100 600 L 1130 226" stroke="#8A7A5E" stroke-width="2" stroke-dasharray="6 5" fill="none"/>
+  <path d="M 1130 226 l -14 4 l 6 13 z" fill="#8A7A5E"/>
+
+  <!-- glass / print split -->
+  <g transform="translate(70 596)">
+    <line x1="0" y1="22" x2="1060" y2="22" stroke="#8A7A5E" stroke-width="1.5"/>
+    <line x1="530" y1="8" x2="530" y2="36" stroke="#8A7A5E" stroke-width="2"/>
+    <text x="265" y="14" text-anchor="middle" font-size="12" fill="#7A7A7A">glass trade — bottles, pumps, sprayers</text>
+    <text x="795" y="14" text-anchor="middle" font-size="12" fill="#7A7A7A">print-and-textile trade — boxes, cards, pouches</text>
+    <text x="530" y="56" text-anchor="middle" font-size="12" fill="#7A7A7A">buy each half where it is made · approve samples before bulk at every rung</text>
+  </g>
+</svg>
