@@ -53,6 +53,7 @@ export default function ProductDetail() {
     );
   }
 
+  const quoteUrl = `/contact/?product=${encodeURIComponent(product.slug)}`;
   const related = products
     .filter((p) => p.category === product.category && p.slug !== product.slug)
     .slice(0, 4);
@@ -111,10 +112,10 @@ export default function ProductDetail() {
               <div className="product-detail-quote">
                 <h3 className="product-quote-title">Get A Custom Quote:</h3>
                 <div className="product-quote-actions">
-                  <Link to="/contact/" className="btn-primary">
+                  <Link to={quoteUrl} className="btn-primary">
                     Request a Quote
                   </Link>
-                  <Link to="/contact/" className="btn-outline">
+                  <Link to={quoteUrl} className="btn-outline">
                     Contact Us
                   </Link>
                 </div>
@@ -173,7 +174,7 @@ export default function ProductDetail() {
                 your brand's exact requirements. Below are our standard
                 configurations — contact us to discuss custom specifications.
               </p>
-              <Link to="/contact/" className="btn-primary">
+              <Link to={quoteUrl} className="btn-primary">
                 Discuss Your Project
               </Link>
             </div>
@@ -263,7 +264,7 @@ export default function ProductDetail() {
                   {para}
                 </p>
               ))}
-              <Link to="/contact/" className="btn-primary" style={{ marginTop: "0.5rem" }}>
+              <Link to={quoteUrl} className="btn-primary" style={{ marginTop: "0.5rem" }}>
                 {copy.customizeCta}
               </Link>
             </div>
@@ -458,7 +459,7 @@ export default function ProductDetail() {
               Share your specifications and we'll prepare a tailored proposal
               within one business day.
             </p>
-            <Link to="/contact/" className="btn-primary">
+            <Link to={quoteUrl} className="btn-primary">
               Start Your Project
             </Link>
           </div>
