@@ -5303,7 +5303,7 @@ A jewelry box insert is the part of the box that does the actual work: it holds 
 | Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |
 | Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |
 | Cutting-die tooling | USD 50\u2013100 where a new die is required | ELAPACK confirmed terms |
-| Standard insert build | Velvet or leatherette over foam | ELAPACK published references |
+| Standard insert build | Velvet or satin covering over foam | ELAPACK published references |
 | Anti-tarnish lining | Optional, quoted per enquiry \u2014 not a default | ELAPACK confirmed terms |
 
 ![Cross-section of a jewelry box insert: covering fabric over a foam core, cavities cut into the core, and the optional anti-tarnish treatment carried by the covering](/charts/jewelry-box-insert-anatomy.svg)
@@ -5324,13 +5324,13 @@ Two honest limits apply, and both matter to a buyer. First, the lining is not pe
 
 As a supplementary measure, anti-tarnish strips placed in the compartment absorb moisture and airborne sulfur and are replaced about every six months \u2014 the practice Fire Mountain Gems documents in its [anti-tarnish strip instructions](https://www.firemountaingems.com/learn/categories/essential-resources/how-tos/A905-video-tutorial-with-instructions.html). A strip extends the working window of an existing insert; it does not make a plain lining anti-tarnish.
 
-ELAPACK's standard insert build is plain velvet or leatherette over foam. A treated anti-tarnish lining is quoted on enquiry \u2014 named as an option, never implied as the default, and never sold as permanent protection. Buyers holding silver inventory should say so in the enquiry so the lining question is answered up front rather than discovered at the sample stage.
+ELAPACK's standard insert build is a plain velvet or satin covering over foam. A treated anti-tarnish lining is quoted on enquiry \u2014 named as an option, never implied as the default, and never sold as permanent protection. Buyers holding silver inventory should say so in the enquiry so the lining question is answered up front rather than discovered at the sample stage.
 
 **Takeaway:** state the metal; the tarnish layer is an optional, saturating, replaceable add-on \u2014 not a permanent feature.
 
-## Cavity layout: ring slots, chain grooves and mixed trays
+## Cavity layout: ring slots, chain tabs and mixed trays
 
-The cavity is cut to the product, not chosen from a template. Rings take single or double slots; necklaces take a chain groove or chain tabs so the chain does not loop back on itself; earrings take a pad or hole; bracelets take a longer insert. A mixed tray \u2014 ring slot, chain groove and earring pad in one board \u2014 is standard when one box carries a set, and it is the layout that most often needs a custom die.
+The cavity is cut to the product, not chosen from a template. Rings take single or double slots; necklaces take chain tabs so the chain does not loop back on itself; earrings take a pad or hole; bracelets take a longer insert. A mixed tray \u2014 ring slot, chain tab and earring pad in one board \u2014 is standard when one box carries a set, and it is the layout that most often needs a custom die.
 
 The reading habit to carry into quotations is the one Westpack's catalog demonstrates: identify what each measurement belongs to before comparing dimensions. A single insert listed at 44 \xD7 44 \xD7 15 mm is a documented combination for particular 50 \xD7 50 \xD7 32 mm ring boxes, not an industry-wide clearance rule \u2014 the [foam insert listing](https://www.westpack.com/usd_us_eng/eco-foam-extra-insert-for-ring-box-00272004100.html) names its box models, and a [paperboard insert](https://www.westpack.com/usd_us_eng/fscrcertified-insert-for-ring-30282000100.html) of 44 \xD7 44 \xD7 7 mm is a separate construction, not a drop-in equivalent. Ask for box dimensions, usable internal space and insert dimensions as three separate fields, then add the product dimensions and orientation.
 
@@ -5350,7 +5350,7 @@ For a lighter, thinner insert, a [custom white jewelry box](https://elapack.com/
 
 ## Specifying an insert: what to put in the enquiry
 
-The enquiry that avoids a wasted sample round lists five things: the product (ring, necklace, earring or bracelet, with dimensions and orientation), the cavity layout (single slot, chain groove, mixed tray), the metal (to settle whether a tarnish layer is relevant), the covering material, and the quantity. ELAPACK's minimum is 200 pieces per design.
+The enquiry that avoids a wasted sample round lists five things: the product (ring, necklace, earring or bracelet, with dimensions and orientation), the cavity layout (single slot, chain tabs, mixed tray), the metal (to settle whether a tarnish layer is relevant), the covering material, and the quantity. ELAPACK's minimum is 200 pieces per design.
 
 The dimensions settle the die. When the product dimensions are not yet final, the first step is a free dieline drawn to the product dimensions \u2014 there is no downloadable template to copy, the dieline is drawn for the actual piece. Where a new cutting die is genuinely needed it is quoted separately at USD 50\u2013100; the custom sample that follows is USD 25 plus USD 20 shipping in 3\u20135 days, and production runs 15\u201320 days after sample approval.
 
@@ -5373,7 +5373,7 @@ The sample is the moment the fit is decided. A stock sample settles the covering
 
 Necklaces and bracelets are the two jewelry formats that punish a generic box most visibly \u2014 one tangles, the other slides. This page covers single-item boxes for necklaces and bracelets specifically. The ring side has its own page in the [custom ring boxes guide](https://elapack.com/news/custom-ring-boxes-guide/), earring cards in the [custom earring cards guide](https://elapack.com/news/custom-earring-cards-guide/), and the wider box family in [how to choose custom jewelry boxes](https://elapack.com/news/how-to-choose-custom-jewelry-boxes/). This page is the sourcing detail for the two chain-and-cuff formats those pages do not dig into.
 
-> **Quick answer:** choose the box after the chain. A pendant folds into a small square box, a long necklace needs chain tabs to stop it tangling, and a bracelet needs interior length and support. ELAPACK supplies all three from 200 pieces in 15\u201320 days, with the box, insert and chain control cut to the piece in one dieline.
+> **Quick answer:** choose the box after the chain. A pendant folds into a small square box, a long necklace needs chain tabs to stop it tangling, and a bracelet needs interior length and support. ELAPACK supplies all three from 200 pieces in 15\u201320 days, with the box and insert cut to the piece in one dieline.
 
 ## Key facts at a glance
 
@@ -5384,7 +5384,7 @@ Necklaces and bracelets are the two jewelry formats that punish a generic box mo
 | Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |
 | Cutting-die tooling | USD 50\u2013100 where a new die is required | ELAPACK confirmed terms |
 | Reference formats | Pendant 64\xD764\xD739 mm \xB7 necklace 160\xD7160\xD734 mm \xB7 bracelet 219\xD755\xD741 mm | Westpack, as published \u2014 for comparison |
-| Chain control | Chain tabs or groove, cut in the dieline with the box | ELAPACK published references |
+| Chain control | Chain tabs that hold the chain at both ends | Westpack, as published \u2014 for comparison |
 
 ![Three necklace and bracelet box formats: pendant square, long necklace with chain tabs, and narrow bracelet box](/charts/necklace-bracelet-box-formats.svg)
 
@@ -5398,9 +5398,9 @@ The ordering logic is the useful part: measure the piece first, then pick the fo
 
 ## Chain control: why necklaces tangle and how the box stops it
 
-A necklace tangles because the chain moves freely inside an open cavity. The fix is structure that keeps the chain in one plane: chain tabs that hold the chain at both ends, or a chain groove that keeps it from looping. Westpack states the rule directly \u2014 "necklaces and pendants need chain control" \u2014 and pairs "chain tabs for necklaces" with "longer inserts for bracelets and cushions for watches" on its [jewelry boxes page](https://www.westpack.com/usd_us_eng/jewelry-boxes.html).
+A necklace tangles because the chain moves freely inside an open cavity. The fix is structure that keeps the chain in one plane: chain tabs that hold the chain at both ends so it cannot loop back on itself. Westpack states the rule directly \u2014 "necklaces and pendants need chain control" \u2014 and pairs "chain tabs for necklaces" with "longer inserts for bracelets and cushions for watches" on its [jewelry boxes page](https://www.westpack.com/usd_us_eng/jewelry-boxes.html).
 
-This is the structural difference between a single-item necklace box and a generic box. A generic box protects the piece from outside impact but does nothing about the chain's own movement; a necklace box adds the tabs or groove so the chain arrives flat and the clasp is reachable. For a bracelet, the equivalent is interior length and support \u2014 the piece is held along its length rather than left to slide to one end.
+This is the structural difference between a single-item necklace box and a generic box. A generic box protects the piece from outside impact but does nothing about the chain's own movement; a necklace box adds the tabs so the chain arrives flat and the clasp is reachable. For a bracelet, the equivalent is interior length and support \u2014 the piece is held along its length rather than left to slide to one end.
 
 Three measurements decide a necklace box, and only one of them is the length printed on the necklace card. The total lay-flat chain length \u2014 clasp to clasp, with the chain laid out straight \u2014 sets the interior length the box needs; a chain whose laid-flat length exceeds its hanging length will not fold into a box sized from the worn figure. The pendant's diameter or drop sets the recess or the padding beneath it. The depth the chain stacks to once coiled sets the cavity height. Send all three, because the length on a necklace card describes how the piece is worn, not how it packs.
 
@@ -5418,13 +5418,13 @@ The entry terms on that page are a useful comparison anchor: a 50-unit minimum f
 
 Presentation grade comes from the pairing of surface and interior. Westpack's listings run matte-black cardboard with a black foam insert at the entry end, and black leatherette with a black velour interior at the presentation end, plus soft-touch finishes. The construction logic is the same as the insert page: the outer surface carries the brand, the interior covering carries the scratch control, and the two should be named in the same quotation.
 
-ELAPACK's necklace-and-bracelet path runs on the same materials the [custom jewelry boxes collection](https://elapack.com/custom-jewelry-boxes/) documents \u2014 velvet interiors over foam, or leatherette surfaces with a velour interior \u2014 with the chain tabs or longer insert cut to the piece. A magnetic closure is a presentation add-on for a box that should open one-handed; it is a separate line item, not an assumption.
+ELAPACK's necklace-and-bracelet path runs on the same materials the [custom jewelry boxes collection](https://elapack.com/custom-jewelry-boxes/) documents \u2014 velvet interiors over foam, or a faux-leather wrap \u2014 with the insert cut to the piece. A magnetic closure is a presentation add-on for a box that should open one-handed; it is a separate line item, not an assumption.
 
 **Takeaway:** specify surface and interior as a pair; magnetic closure is an add-on, not a default.
 
 ## Ordering: dimensions, inserts and the sample route
 
-The enquiry that avoids a re-draw lists: for a necklace, the total lay-flat chain length and the pendant diameter or drop; for a bracelet, the laid-out length and the rise above the insert; then the box format, the interior (chain tabs, longer insert or cushion), magnetic closure or not, and the quantity. ELAPACK's minimum is 200 pieces per design.
+The enquiry that avoids a re-draw lists: for a necklace, the total lay-flat chain length and the pendant diameter or drop; for a bracelet, the laid-out length and the rise above the insert; then the box format, the interior (a longer insert or a cushion), magnetic closure or not, and the quantity. ELAPACK's minimum is 200 pieces per design.
 
 The dimensions settle the dieline. Where they are not final, the first step is a free dieline drawn to the product dimensions \u2014 there is no downloadable template, the drawing is made for the piece. A new cutting die, when genuinely needed, is quoted separately at USD 50\u2013100; the custom sample is USD 25 plus USD 20 shipping in 3\u20135 days, and production runs 15\u201320 days after sample approval.
 
