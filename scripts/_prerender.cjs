@@ -29,7 +29,7 @@ var import_node_path = __toESM(require("node:path"), 1);
 var import_server2 = require("react-router-dom/server");
 
 // src/App.tsx
-var import_react_router_dom16 = require("react-router-dom");
+var import_react_router_dom17 = require("react-router-dom");
 
 // src/components/Layout.tsx
 var import_react4 = require("react");
@@ -5662,6 +5662,7 @@ function ProductDetail() {
       }
     );
   }
+  const quoteUrl = `/contact/?product=${encodeURIComponent(product.slug)}`;
   const related = products.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4);
   const copy = categoryCopy[product.category] ?? neutralCopy;
   const faqs2 = faqsFor(product.category);
@@ -5698,8 +5699,8 @@ function ProductDetail() {
         /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-quote", children: [
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-quote-title", children: "Get A Custom Quote:" }),
           /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-quote-actions", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact/", className: "btn-primary", children: "Request a Quote" }),
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact/", className: "btn-outline", children: "Contact Us" })
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-primary", children: "Request a Quote" }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-outline", children: "Contact Us" })
           ] })
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-trust-badges", children: trustBadges.map((badge) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-trust-badge", children: [
@@ -5731,7 +5732,7 @@ function ProductDetail() {
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Technical Details" }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "Specifications" }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-specs-text", children: "Every dimension, material, and finish is fully customizable to your brand's exact requirements. Below are our standard configurations \u2014 contact us to discuss custom specifications." }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact/", className: "btn-primary", children: "Discuss Your Project" })
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-primary", children: "Discuss Your Project" })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-specs-table reveal reveal-delay-2", children: product.specs.map((spec) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "spec-row", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "spec-label", children: spec.label }),
@@ -5787,7 +5788,7 @@ function ProductDetail() {
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "100% Customization" }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: copy.customizeTitle }),
         copy.customizeParas.map((para) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", children: para }, para.slice(0, 24))),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact/", className: "btn-primary", style: { marginTop: "0.5rem" }, children: copy.customizeCta })
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-primary", style: { marginTop: "0.5rem" }, children: copy.customizeCta })
       ] })
     ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-features-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
@@ -5912,7 +5913,7 @@ function ProductDetail() {
         "this for your brand?"
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "cta-text", children: "Share your specifications and we'll prepare a tailored proposal within one business day." }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/contact/", className: "btn-primary", children: "Start Your Project" })
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-primary", children: "Start Your Project" })
     ] }) }) })
   ] });
 }
@@ -7209,6 +7210,7 @@ function Article() {
 
 // src/pages/Contact.tsx
 var import_react11 = require("react");
+var import_react_router_dom14 = require("react-router-dom");
 var import_jsx_runtime13 = require("react/jsx-runtime");
 var WEB3FORMS_KEY = "7532f731-6678-43dd-9553-7c18090e71d5";
 var WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
@@ -7253,6 +7255,8 @@ var projectTypes = [
   "Other"
 ];
 function Contact() {
+  const [searchParams] = (0, import_react_router_dom14.useSearchParams)();
+  const selectedProduct = getProductBySlug(searchParams.get("product") ?? "");
   const [submitted, setSubmitted] = (0, import_react11.useState)(false);
   const [sending, setSending] = (0, import_react11.useState)(false);
   const [failed, setFailed] = (0, import_react11.useState)(false);
@@ -7282,6 +7286,7 @@ function Contact() {
       /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "eyebrow reveal", children: "Contact Us" }),
       /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
         "Let's Begin a",
+        " ",
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("br", {}),
         "Conversation"
       ] }),
@@ -7362,6 +7367,10 @@ function Contact() {
       ] }) : /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("form", { className: "contact-form", onSubmit: handleSubmit, children: [
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "contact-heading", children: "Request a Quote" }),
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-form-intro", children: "Share your project details and we'll prepare a tailored proposal for you." }),
+        selectedProduct && /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("p", { className: "contact-form-intro", children: [
+          "Product: ",
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("strong", { children: selectedProduct.name })
+        ] }),
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
           "input",
           {
@@ -7372,6 +7381,7 @@ function Contact() {
             style: { display: "none" }
           }
         ),
+        selectedProduct && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { type: "hidden", name: "product", value: selectedProduct.name }),
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
           "input",
           {
@@ -7501,7 +7511,7 @@ function Contact() {
 
 // src/pages/Video.tsx
 var import_react12 = require("react");
-var import_react_router_dom14 = require("react-router-dom");
+var import_react_router_dom15 = require("react-router-dom");
 var import_jsx_runtime14 = require("react/jsx-runtime");
 var processSteps2 = [
   {
@@ -7658,8 +7668,8 @@ function Video() {
         /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "custom-solution-text", children: "ELAPACK offers comprehensive custom packaging services tailored to your brand's needs. From exquisite jewelry boxes that showcase diamonds with museum-worthy presentations, to elegant gift boxes designed for luxury brand gifting, and sophisticated paper cosmetics packaging that balances sustainability with premium feel \u2014 we cover it all." }),
         /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "custom-solution-text", children: "Our design team leverages creativity, cutting-edge design tools, and industry-leading technology to craft custom packaging solutions that resonate with your brand's vision. Whether you need custom jewelry packaging boxes or unique personalized packaging, we have the expertise to bring your vision to life." }),
         /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "custom-solution-intro-actions", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Link, { to: "/products/", className: "btn-primary", children: "Explore Products" }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Link, { to: "/contact/", className: "btn-outline", children: "Request a Quote" })
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/products/", className: "btn-primary", children: "Explore Products" }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/contact/", className: "btn-outline", children: "Request a Quote" })
         ] })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "custom-solution-intro-images reveal reveal-delay-2", children: [
@@ -7737,7 +7747,7 @@ function Video() {
         },
         story.client
       )) }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "success-stories-cta reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Link, { to: "/contact/", className: "btn-primary", children: "Start Your Project" }) })
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "success-stories-cta reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/contact/", className: "btn-primary", children: "Start Your Project" }) })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-delivery-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
@@ -7788,7 +7798,7 @@ function Video() {
       )) }),
       /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "faq-cta reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { children: "Still have questions? We're here to help." }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Link, { to: "/contact/", className: "btn-outline", children: "Contact Us" })
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/contact/", className: "btn-outline", children: "Contact Us" })
       ] })
     ] }) })
   ] });
@@ -8065,7 +8075,7 @@ function Landing({ slug }) {
 
 // src/pages/Collection.tsx
 var import_react14 = require("react");
-var import_react_router_dom15 = require("react-router-dom");
+var import_react_router_dom16 = require("react-router-dom");
 
 // src/data/collections.ts
 var collections = [
@@ -8877,7 +8887,7 @@ function Collection({ slug }) {
     /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Explore the products" }) }),
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "catalog-grid", children: products3.map((product, i) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(
-        import_react_router_dom15.Link,
+        import_react_router_dom16.Link,
         {
           to: `/products/${product.slug}/`,
           className: `catalog-card reveal reveal-delay-${i % 4 + 1}`,
@@ -8902,7 +8912,7 @@ function Collection({ slug }) {
     guides.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Sourcing guides" }),
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "spec-list", children: guides.map((guide) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom15.Link, { to: `/news/${guide.slug}/`, className: "text-link", children: guide.title }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: `/news/${guide.slug}/`, className: "text-link", children: guide.title }),
         " \u2014 ",
         guide.excerpt
       ] }, guide.slug)) })
@@ -8943,32 +8953,32 @@ function Collection({ slug }) {
 // src/App.tsx
 var import_jsx_runtime17 = require("react/jsx-runtime");
 function AppRoutes() {
-  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(import_react_router_dom16.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Layout, {}), children: [
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Home, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "pouches-bags" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "sets" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-jewelry-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/eyewear-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "eyewear-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-jewelry-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-pouches" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-wig-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-wig-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-jewelry-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-gift-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-gift-boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-candle-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-candle-boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-cosmetic-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-drawstring-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-drawstring-bags" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/ribbons-accessories", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "ribbons-accessories" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/custom-cosmetic-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-pouches" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/subscription-box-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "subscription-box-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Products, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(ProductDetail, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Industries, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Solutions, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(About, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(News, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/news/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Article, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Contact, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom16.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Video, {}) })
+  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(import_react_router_dom17.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Layout, {}), children: [
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Home, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "pouches-bags" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "sets" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-jewelry-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/eyewear-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "eyewear-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-jewelry-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-pouches" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-wig-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-wig-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-jewelry-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-gift-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-gift-boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-candle-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-candle-boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-cosmetic-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-drawstring-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-drawstring-bags" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/ribbons-accessories", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "ribbons-accessories" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-cosmetic-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-pouches" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/subscription-box-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "subscription-box-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Products, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(ProductDetail, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Industries, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Solutions, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(About, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(News, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/news/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Article, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Contact, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Video, {}) })
   ] }) });
 }
 
