@@ -352,8 +352,8 @@ export default function Home() {
           </div>
           <div className="popular-cta reveal">
             <p className="popular-cta-text">
-              Trusted by over 200 companies worldwide for our exceptional
-              custom packaging services.
+              Explore box, bag, pouch and packaging set options, then send us
+              your dimensions, artwork and target quantity for a quote.
             </p>
             <div className="popular-cta-actions">
               <Link to="/contact/" className="btn-primary">
