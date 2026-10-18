@@ -140,8 +140,8 @@ export function faqsFor(product: { name: string; category: string; materials: st
       a: `The listed construction is ${product.materials}. Share your product dimensions and required finish so we can confirm the suitable specification in your quote.`,
     },
     {
-      q: "Do I need to provide a dieline for custom packaging?",
-      a: "No. We draw the dieline to your confirmed product dimensions free of charge at the quotation stage, and custom samples are built to it. Files are supplied as PDF, AI or DXF. If you already have a vector dieline, we accept it and verify it with our die-making team before production; cutting-die tooling, where a new die is required, is quoted at USD 50–100 depending on the product.",
+      q: "What drawing and tooling information do you need?",
+      a: "Send your product dimensions and any existing artwork or dieline. We will confirm the drawing requirements in your quote. If an existing stock-size die fits, there is no new tooling charge; if a new custom cutting die is needed, it is quoted at USD 50–100.",
     },
     {
       q: "How long does the production process take?",
@@ -149,7 +149,7 @@ export function faqsFor(product: { name: string; category: string; materials: st
     },
     {
       q: "Can I see a sample before placing a full order?",
-      a: "Yes. Free stock samples ship in 2–3 days. Custom printed samples cost USD 25 plus USD 20 shipping (USD 45 total), are made in 3–5 days, and sample delivery takes 4–7 days.",
+      a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
     },
     {
       q: "What payment methods do you accept?",
