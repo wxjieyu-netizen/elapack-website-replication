@@ -1163,6 +1163,8 @@ function getProductBySlug(slug) {
 var productGuides = {
   "black-leather-jewelry-box": [
     "how-to-choose-custom-jewelry-boxes",
+    "jewelry-box-inserts-guide",
+    "necklace-bracelet-packaging-guide",
     "custom-rigid-boxes-guide",
     "surface-finishes-compared-guide",
     "ppwr-packaging-regulation-guide",
@@ -1170,6 +1172,8 @@ var productGuides = {
   ],
   "custom-white-jewelry-box": [
     "how-to-choose-custom-jewelry-boxes",
+    "jewelry-box-inserts-guide",
+    "necklace-bracelet-packaging-guide",
     "surface-finishes-compared-guide",
     "custom-rigid-boxes-guide",
     "ppwr-packaging-regulation-guide",
@@ -1178,6 +1182,7 @@ var productGuides = {
   "custom-ring-boxes": [
     "custom-watch-boxes-guide",
     "custom-ring-boxes-guide",
+    "jewelry-box-inserts-guide",
     "packaging-inserts-guide",
     "custom-rigid-boxes-guide",
     "ppwr-packaging-regulation-guide",
@@ -5270,6 +5275,160 @@ Climb the ladder deliberately: marketplaces and bundlers for proof of concept, f
     "excerpt": "Custom gift card holders compared \u2014 sleeve, envelope and folder carriers by occasion and channel, with CR80 sizing, print methods and the ordering ladder from 25-piece online runs to 200-piece factory runs.",
     "metaDescription": "Custom gift card holders explained \u2014 sleeve, envelope, folder and box-style carriers compared by occasion, channel and protection, with CR80 sizing, print methods and ordering terms from 200 pieces.",
     "body": "*Style, dimension and minimum-order references are as published by US print suppliers (Company Folders, BD Print, Packaging Xpert, Oh My Print Solutions, VistaPrint, E-Card Systems \u2014 read 17 October 2026); they describe those suppliers' ranges and are quoted for comparison only. Ordering terms in this guide are this factory's confirmed trade terms.*\n\nA gift card is the most-sold gift in retail, and also the flattest object a brand ever has to present. The card itself is a standard rectangle \u2014 the same size as a bank card \u2014 so everything a brand adds around it is a choice about occasion and channel, not about fit. Yet the market answers that choice with three different words that few buyers can separate: the sleeve, the envelope and the holder. US print suppliers list all three side by side; community threads confirm the instinct \u2014 a sleeve reads casual, an envelope reads formal, a folder or holder adds protection and perceived value.\n\n> **Quick answer:** pick the carrier by occasion and channel, not by looks. Sleeves for counters, events and volume programmes; envelopes for formal and seasonal gifting; folders and box-style holders when the card is the whole gift and has to stand alone. All three are printed card-stock carriers built around the standard card size, and all three are custom-printed from 200 pieces per design at this factory.\n\n## Three carriers, three jobs\n\n![Custom gift card carriers compared: sleeve, envelope and folder built around the CR80 card](/charts/gift-card-carrier-spectrum.svg)\n\n| Carrier | What it is | Where it wins | Where it is wrong |\n|---|---|---|---|\n| Sleeve | open-ended slip, card slides in | counters, events, volume mailers | no closure; card can slide out |\n| Envelope | folded card stock with a flap | formal and seasonal gifting | slower to assemble by hand at volume |\n| Folder | scored sheet that folds around the card | corporate programmes, the card as the gift | more board per unit than a sleeve |\n\nThe sleeve is the workhorse. It is one piece of card stock, cut and glued into an open-ended slip, and it is the cheapest carrier to print and the fastest to pack \u2014 which is why promotional programmes and retail counters run on it. The envelope trades a little assembly speed for formality: a flap, a seal, sometimes a coloured lining, and the card becomes something that can be handed over at a dinner or slid into an invitation. The folder is the presentation tier of the flat carriers \u2014 a scored sheet that folds around the card, sometimes with a die-cut window or a printed To/From panel \u2014 and it is the right answer when the card is the entire gift and must carry the brand alone. The [gift card boxes guide](https://elapack.com/news/custom-gift-card-boxes-guide/) covers the tier above these: pop-up and slider structures for when the card needs a box, not a fold.\n\n**Choose by where the card changes hands, not by which sample photo looks best.**\n\n## One standard size, every carrier\n\nEvery carrier in this family is built around one number: the CR80 bank-card format, 3-3/8 \xD7 2-1/8 inches (85.6 \xD7 54 mm). US suppliers publish their stock carriers at a fraction over it \u2014 VistaPrint lists sleeves at 3.5 \xD7 2.25 inches, which is the card plus print bleed and a working slip tolerance (as published, read 17 October 2026). Two practical consequences follow. First, the inner dimension is the spec that matters: too tight and the card catches, too loose and it slides out of an open-ended sleeve. Second, one dieline family covers the whole programme \u2014 sleeve, envelope and folder are different fold-and-glue decisions on the same cut, which is why a brand can run mixed carriers from one supplier without three tooling conversations. Confirm the finished inner size in the spec, in millimetres, against the actual card you will load \u2014 including any magnetic stripe or embossed area that adds thickness.\n\n## Print methods and what they signal\n\nCard stock is a small surface, so the print method does outsized brand work. One or two Pantone spot colours on a coloured paper is the classic formal-envelope look \u2014 one US gift-card printer publishes exactly that construction: one or two spot colours, twelve paper colours, at a listed USD 0.39 per sleeve with about two to three weeks of production (as published, read 17 October 2026). Full digital print is the volume default for sleeves, where the artwork is a logo and a colour field. Foil and deboss lift a folder into gift territory on the same board. The method also prices the programme: spot colour means plates and a cleaner unit cost at volume; digital means no plates and a flat cost curve that favours first runs. State the method, the paper colour and the Pantone references in the enquiry, and ask for a printed proof on the actual stock \u2014 card-stock colour shifts are small in absolute terms and very visible on a 3.5-inch canvas.\n\n## When not to use a flat carrier at all\n\nTwo situations push past this family. When the card is mailed on its own, a flat carrier still needs an outer mailing envelope \u2014 a bare sleeve in a postal stream arrives scuffed, and the community's recurring complaint about over-packaging cuts the other way too: restraint is only honest when the carrier survives the trip. And when the card anchors a physical gift set \u2014 a bottle, a candle, a piece of jewellery \u2014 it belongs inside the box with the product, as an insert or a card slot, not in a standalone carrier. The [custom gift card boxes guide](https://elapack.com/news/custom-gift-card-boxes-guide/) covers the box-tier structures, and the [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide/) covers holding a card inside a larger set.\n\n## Ordering: the ladder you actually face\n\n| Rung | Typical published terms | Fit |\n|---|---|---|\n| Online printer | from 25 pieces (one lists 25\u20135,000, 100# coated stock) | first tests, domestic speed |\n| US print trade | folders and sleeves from USD 0.21 each at 50\u2013150 piece minimums (one publishes a per-type price table); spot-colour sleeves at a listed USD 0.39 each, ~2\u20133 weeks | formal programmes, mid volume |\n| US offset / volume tier | offset from 500 pieces; a listed curve that falls from USD 1.96 at 100 to 15.8 cents at 10,000 | large domestic runs |\n| This factory | 200 pieces per design \xB7 15\u201320 working days \xB7 custom sample USD 25 + USD 20 shipping, 3\u20135 days | branded runs, mixed carrier programmes |\n\nA first branded carrier programme usually mixes rungs: a domestic print run to prove the artwork, then a factory run once the design is stable and the quantities repeat. Bring the card (or its exact dimensions), the carrier split \u2014 how many sleeves, how many envelopes, how many folders \u2014 and the print method and paper colour. T/T or PayPal, air or sea freight from Shanghai or Shenzhen, and the sea-freight arithmetic is why the calendar in the [gift card boxes guide](https://elapack.com/news/custom-gift-card-boxes-guide/), worked backwards from a Q4 shelf date, applies to flat carriers exactly as it does to boxes.\n\n## The bottom line\n\nOne card standard, three flat carriers, and a ladder from 25-piece online tests to 200-piece factory runs: pick the carrier by where the card changes hands, spec the inner dimension in millimetres against the real card, and move to a factory run when the design is stable and the quantities repeat. [Start the enquiry](https://elapack.com/contact/) with the card dimensions, the carrier split and the print method; the quotation comes back with the dieline family that covers all three."
+  },
+  {
+    "slug": "jewelry-box-inserts-guide",
+    "datePublished": "2026-10-18",
+    "title": "Jewelry Box Inserts: Anti-Tarnish Linings, Cavity Layouts and Spec Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "7 min read",
+    "image": "/images/covers/jewelry-box-inserts-guide.webp",
+    "imageAlt": "Guide cover card: jewelry box inserts \u2014 the four stacked layers (covering fabric, foam core, cavity layout, anti-tarnish lining) and the spec fields that follow the metal",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Jewelry box inserts broken into their four layers \u2014 covering fabric, foam core, cavity layout and the optional anti-tarnish lining \u2014 with the metal-first rule, cavity specs and the enquiry fields a factory can quote first time.",
+    "metaDescription": "Jewelry box inserts explained: covering fabric, foam core and cavity layout, anti-tarnish linings quoted per enquiry, and the spec fields \u2014 product, layout, metal, material, quantity \u2014 from 200 pieces.",
+    "body": `*Insert construction, cavity and lining descriptions below are industry references as published by jewelry-packaging and jewellery-care suppliers (sources named inline). Anti-tarnish lining is an optional technique confirmed per enquiry, not a default capability, and no lining provides permanent protection. Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample USD 25 plus USD 20 shipping, cutting-die tooling USD 50\u2013100 \u2014 are ELAPACK's confirmed trade terms.*
+
+A jewelry box insert is the part of the box that does the actual work: it holds the piece in place, keeps polished surfaces from touching each other, and \u2014 when the brief calls for it \u2014 slows tarnish. This page is about box inserts (the in-box liner and cavity tray), not retail display trays. If you are fitting a showcase or countertop presentation, that is the [jewelry display trays guide](https://elapack.com/news/jewelry-display-trays-guide/) instead; this page covers the insert that ships inside a closed box.
+
+> **Quick answer:** an insert is four stacked decisions \u2014 covering fabric, core, cavity layout and (optionally) an anti-tarnish lining. Specify the product first: rings need a slot, necklaces need chain control, bracelets need length. ELAPACK supplies the covering, core and cavity from 200 pieces in 15\u201320 days; the anti-tarnish layer is quoted per enquiry because it is not a standard feature.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order | 200 pieces per design | ELAPACK confirmed terms |
+| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |
+| Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |
+| Cutting-die tooling | USD 50\u2013100 where a new die is required | ELAPACK confirmed terms |
+| Standard insert build | Velvet or leatherette over foam | ELAPACK published references |
+| Anti-tarnish lining | Optional, quoted per enquiry \u2014 not a default | ELAPACK confirmed terms |
+
+![Cross-section of a jewelry box insert: covering fabric over a foam core, cavities cut into the core, and the optional anti-tarnish treatment carried by the covering](/charts/jewelry-box-insert-anatomy.svg)
+
+## What a jewelry box insert actually does
+
+The insert carries three jobs at once: hold, scratch protection and tarnish control. The hold job is the one buyers underestimate \u2014 a ring that rotates in a loose slot photographs badly and can scratch its own setting. The scratch job is the reason a soft covering is non-negotiable: metal on bare foam or bare board abrades polished surfaces. The tarnish job only applies to silver and other sulfur-sensitive metals, and it is the one most often oversold in supplier copy.
+
+This order matters for the enquiry. If a buyer asks for "an insert" without naming the metal and the piece dimensions, the factory has to guess at the slot, the covering and the depth. Naming the metal first \u2014 silver, gold-filled, stainless, plated \u2014 tells the supplier whether the tarnish layer is even relevant, because gold and stainless do not need it.
+
+**Takeaway:** hold and scratch protection are always required; tarnish control is conditional on the metal, and it is quoted separately.
+
+## Anti-tarnish: a mechanism that follows the metal
+
+Tarnish is a chemical reaction between a metal and airborne compounds, primarily sulfur \u2014 the description used in Element 79's [anti-tarnish jewelry box guide](https://www.element79jewelry.com/blogs/element-79s-jewelry-blog/7-best-anti-tarnish-jewelry-box-picks-for-your-pie/). An anti-tarnish lining is fabric infused with compounds that absorb or neutralize those sulfur gases before they reach the metal. The common covering materials \u2014 flannel, velvet and suede \u2014 can carry this treatment; a mid-range option is treated polyester suede.
+
+Two honest limits apply, and both matter to a buyer. First, the lining is not permanent: it saturates with the pollutants it absorbs over time and loses effectiveness. Element 79 describes the useful life as "several years" with no exact expiration date, and the practical signal is the one the buyer can see \u2014 when silver starts to tarnish inside the box, the lining has done its work and needs replacing. Second, a treated lining is a specified add-on, not a default. A plain velvet insert does not absorb sulfur; only a lining that has been treated for it does.
+
+As a supplementary measure, anti-tarnish strips placed in the compartment absorb moisture and airborne sulfur and are replaced about every six months \u2014 the practice Fire Mountain Gems documents in its [anti-tarnish strip instructions](https://www.firemountaingems.com/learn/categories/essential-resources/how-tos/A905-video-tutorial-with-instructions.html). A strip extends the working window of an existing insert; it does not make a plain lining anti-tarnish.
+
+ELAPACK's standard insert build is plain velvet or leatherette over foam. A treated anti-tarnish lining is quoted on enquiry \u2014 named as an option, never implied as the default, and never sold as permanent protection. Buyers holding silver inventory should say so in the enquiry so the lining question is answered up front rather than discovered at the sample stage.
+
+**Takeaway:** state the metal; the tarnish layer is an optional, saturating, replaceable add-on \u2014 not a permanent feature.
+
+## Cavity layout: ring slots, chain grooves and mixed trays
+
+The cavity is cut to the product, not chosen from a template. Rings take single or double slots; necklaces take a chain groove or chain tabs so the chain does not loop back on itself; earrings take a pad or hole; bracelets take a longer insert. A mixed tray \u2014 ring slot, chain groove and earring pad in one board \u2014 is standard when one box carries a set, and it is the layout that most often needs a custom die.
+
+The reading habit to carry into quotations is the one Westpack's catalog demonstrates: identify what each measurement belongs to before comparing dimensions. A single insert listed at 44 \xD7 44 \xD7 15 mm is a documented combination for particular 50 \xD7 50 \xD7 32 mm ring boxes, not an industry-wide clearance rule \u2014 the [foam insert listing](https://www.westpack.com/usd_us_eng/eco-foam-extra-insert-for-ring-box-00272004100.html) names its box models, and a [paperboard insert](https://www.westpack.com/usd_us_eng/fscrcertified-insert-for-ring-30282000100.html) of 44 \xD7 44 \xD7 7 mm is a separate construction, not a drop-in equivalent. Ask for box dimensions, usable internal space and insert dimensions as three separate fields, then add the product dimensions and orientation.
+
+For necklaces and bracelets the same source's rule is direct: "chain tabs for necklaces, longer inserts for bracelets and cushions for watches," on its [jewelry boxes page](https://www.westpack.com/usd_us_eng/jewelry-boxes.html). A ring laid flat and a pendant held upright are different briefs even when the piece is the same size.
+
+**Takeaway:** quote box, insert and product as three matched fields \u2014 a slot depth that fits someone else's ring is not a spec for yours.
+
+## Materials: velvet, foam, leatherette and the foam-cover bond
+
+Four covering choices cover nearly every brief. Velvet is the soft-touch default for jewelry; leatherette (faux leather) gives a firmer, more durable surface and is what ELAPACK's [black leather jewelry box](https://elapack.com/products/black-leather-jewelry-box/) pairs with a velvet interior; flannel and suede are softer alternatives. The core under the covering is foam \u2014 EVA cut to the product footprint \u2014 and the load-bearing detail is the bond between the two.
+
+Bare foam abrades metal, so the covering is not cosmetic: it is the scratch-control layer. ELAPACK's [custom ring boxes](https://elapack.com/products/custom-ring-boxes/) state the construction directly \u2014 velvet exterior with a foam insert under velvet covering \u2014 and that "foam insert with velvet covering" wording is the point. A quotation that says only "foam insert" without naming the covering should be questioned, because uncovered foam is the version that damages polished surfaces.
+
+For a lighter, thinner insert, a [custom white jewelry box](https://elapack.com/products/custom-white-jewelry-box/) shows the same principle in a compact format: a rigid shell with a velvet-lined cushion, sized from single-bracelet minis to multi-piece formats.
+
+**Takeaway:** the covering is the scratch-control layer, not the decoration \u2014 always confirm it is named in the insert spec, not just "foam."
+
+## Specifying an insert: what to put in the enquiry
+
+The enquiry that avoids a wasted sample round lists five things: the product (ring, necklace, earring or bracelet, with dimensions and orientation), the cavity layout (single slot, chain groove, mixed tray), the metal (to settle whether a tarnish layer is relevant), the covering material, and the quantity. ELAPACK's minimum is 200 pieces per design.
+
+The dimensions settle the die. When the product dimensions are not yet final, the first step is a free dieline drawn to the product dimensions \u2014 there is no downloadable template to copy, the dieline is drawn for the actual piece. Where a new cutting die is genuinely needed it is quoted separately at USD 50\u2013100; the custom sample that follows is USD 25 plus USD 20 shipping in 3\u20135 days, and production runs 15\u201320 days after sample approval.
+
+The sample is the moment the fit is decided. A stock sample settles the covering and the core; a custom sample settles the cavity \u2014 whether the ring seats without rotating, whether the chain folds once and stays put, whether the mixed tray holds every piece without contact. [Send the product list and quantities](https://elapack.com/contact/) and the insert recommendation comes back with the quote.`
+  },
+  {
+    "slug": "necklace-bracelet-packaging-guide",
+    "datePublished": "2026-10-18",
+    "title": "Necklace and Bracelet Packaging: Formats, Chain Control and Ordering Data",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "6 min read",
+    "image": "/images/covers/necklace-bracelet-packaging-guide.webp",
+    "imageAlt": "Guide cover card: necklace and bracelet packaging \u2014 pendant, necklace box and bracelet box formats, chain control and ordering data",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Necklace and bracelet boxes chosen after the chain: pendant squares, necklace boxes with chain tabs, bracelet boxes with interior length \u2014 plus materials, the sample route and ordering terms from 200 pieces.",
+    "metaDescription": "Necklace and bracelet packaging explained \u2014 pendant, necklace box and bracelet box formats, chain tabs to stop tangling, interior inserts, and ordering terms from 200 pieces in 15\u201320 days.",
+    "body": `*Format and dimension descriptions below are as published on supplier pages read 18 October 2026 (sources named inline) and are quoted for comparison, not as ELAPACK stock specifications. Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample USD 25 plus USD 20 shipping, cutting-die tooling USD 50\u2013100 \u2014 are ELAPACK's confirmed trade terms.*
+
+Necklaces and bracelets are the two jewelry formats that punish a generic box most visibly \u2014 one tangles, the other slides. This page covers single-item boxes for necklaces and bracelets specifically. The ring side has its own page in the [custom ring boxes guide](https://elapack.com/news/custom-ring-boxes-guide/), earring cards in the [custom earring cards guide](https://elapack.com/news/custom-earring-cards-guide/), and the wider box family in [how to choose custom jewelry boxes](https://elapack.com/news/how-to-choose-custom-jewelry-boxes/). This page is the sourcing detail for the two chain-and-cuff formats those pages do not dig into.
+
+> **Quick answer:** choose the box after the chain. A pendant folds into a small square box, a long necklace needs chain tabs to stop it tangling, and a bracelet needs interior length and support. ELAPACK supplies all three from 200 pieces in 15\u201320 days, with the box, insert and chain control cut to the piece in one dieline.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order | 200 pieces per design | ELAPACK confirmed terms |
+| Production lead time | 15\u201320 days at 200\u201320,000 pieces | ELAPACK confirmed terms |
+| Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |
+| Cutting-die tooling | USD 50\u2013100 where a new die is required | ELAPACK confirmed terms |
+| Reference formats | Pendant 64\xD764\xD739 mm \xB7 necklace 160\xD7160\xD734 mm \xB7 bracelet 219\xD755\xD741 mm | Westpack, as published \u2014 for comparison |
+| Chain control | Chain tabs or groove, cut in the dieline with the box | ELAPACK published references |
+
+![Three necklace and bracelet box formats: pendant square, long necklace with chain tabs, and narrow bracelet box](/charts/necklace-bracelet-box-formats.svg)
+
+## The three formats that carry necklaces and bracelets
+
+The format follows the length of the piece, not the brand. A pendant or short chain fits a small square box \u2014 Westpack's Oslo earring/small-pendant format runs 64 \xD7 64 \xD7 39 mm in one catalog listing. A long necklace needs a larger square or wide box \u2014 the Oslo necklace format is 160 \xD7 160 \xD7 34 mm. A bracelet or bangle needs a narrow, long box \u2014 the Madrid bracelet format is 219 \xD7 55 \xD7 41 mm. A watch or wide bangle takes a larger cushion box at 100 \xD7 100 \xD7 74 mm. These are Westpack catalog values on its [jewelry boxes page](https://www.westpack.com/usd_us_eng/jewelry-boxes.html), quoted as reference proportions, not as ELAPACK stock sizes.
+
+The ordering logic is the useful part: measure the piece first, then pick the format, then specify the interior. A buyer who starts from "a nice box" and works backward to the chain usually ends up with a box that is either too tight to close over the fold or too roomy to hold the piece still.
+
+**Takeaway:** pendant \u2192 small square; long chain \u2192 square with chain control; bracelet \u2192 narrow with length.
+
+## Chain control: why necklaces tangle and how the box stops it
+
+A necklace tangles because the chain moves freely inside an open cavity. The fix is structure that keeps the chain in one plane: chain tabs that hold the chain at both ends, or a chain groove that keeps it from looping. Westpack states the rule directly \u2014 "necklaces and pendants need chain control" \u2014 and pairs "chain tabs for necklaces" with "longer inserts for bracelets and cushions for watches" on its [jewelry boxes page](https://www.westpack.com/usd_us_eng/jewelry-boxes.html).
+
+This is the structural difference between a single-item necklace box and a generic box. A generic box protects the piece from outside impact but does nothing about the chain's own movement; a necklace box adds the tabs or groove so the chain arrives flat and the clasp is reachable. For a bracelet, the equivalent is interior length and support \u2014 the piece is held along its length rather than left to slide to one end.
+
+Three measurements decide a necklace box, and only one of them is the length printed on the necklace card. The total lay-flat chain length \u2014 clasp to clasp, with the chain laid out straight \u2014 sets the interior length the box needs; a chain whose laid-flat length exceeds its hanging length will not fold into a box sized from the worn figure. The pendant's diameter or drop sets the recess or the padding beneath it. The depth the chain stacks to once coiled sets the cavity height. Send all three, because the length on a necklace card describes how the piece is worn, not how it packs.
+
+**Takeaway:** the chain-control element is what makes it a necklace box; ask for it by name, not as "a nice interior."
+
+## Bracelet boxes: interior length, support and the bangle fit
+
+The bracelet box is specified around interior length and insert support, because a bangle or cuff has no chain to tangle but does slide and knock against the ends. Two measurements carry that brief: the bracelet's laid-out length, measured on the inside of the curve, and the height the piece rises above its insert. A flat chain bracelet and a wide cuff can share an interior length and still need different cavity heights \u2014 which is why length alone is not a complete bracelet spec. Half Price Packaging's [bracelet boxes page](https://www.halfpricepackaging.com/jewelry/bracelet-boxes) lists the materials as rigid buxboard, cardboard and Kraft paperboard, with paper thicknesses from 8 pt to 28 pt and rigid construction where the box must carry weight.
+
+The entry terms on that page are a useful comparison anchor: a 50-unit minimum for standard styles, 100 or more for specialty rigid styles, and production from about 7 business days \u2014 all as-published, read 18 October 2026. ELAPACK's entry is 200 pieces per design in 15\u201320 days. The comparison is not about who is cheaper; it is about what each minimum buys: a catalog-format supplier with a low entry point versus made-to-measure construction where the box, insert and chain control are cut to the piece in one dieline.
+
+**Takeaway:** quote the interior length against the actual bracelet; the low-minimum catalogs and the made-to-measure trade serve different briefs.
+
+## Materials and finishes for presentation-grade boxes
+
+Presentation grade comes from the pairing of surface and interior. Westpack's listings run matte-black cardboard with a black foam insert at the entry end, and black leatherette with a black velour interior at the presentation end, plus soft-touch finishes. The construction logic is the same as the insert page: the outer surface carries the brand, the interior covering carries the scratch control, and the two should be named in the same quotation.
+
+ELAPACK's necklace-and-bracelet path runs on the same materials the [custom jewelry boxes collection](https://elapack.com/custom-jewelry-boxes/) documents \u2014 velvet interiors over foam, or leatherette surfaces with a velour interior \u2014 with the chain tabs or longer insert cut to the piece. A magnetic closure is a presentation add-on for a box that should open one-handed; it is a separate line item, not an assumption.
+
+**Takeaway:** specify surface and interior as a pair; magnetic closure is an add-on, not a default.
+
+## Ordering: dimensions, inserts and the sample route
+
+The enquiry that avoids a re-draw lists: for a necklace, the total lay-flat chain length and the pendant diameter or drop; for a bracelet, the laid-out length and the rise above the insert; then the box format, the interior (chain tabs, longer insert or cushion), magnetic closure or not, and the quantity. ELAPACK's minimum is 200 pieces per design.
+
+The dimensions settle the dieline. Where they are not final, the first step is a free dieline drawn to the product dimensions \u2014 there is no downloadable template, the drawing is made for the piece. A new cutting die, when genuinely needed, is quoted separately at USD 50\u2013100; the custom sample is USD 25 plus USD 20 shipping in 3\u20135 days, and production runs 15\u201320 days after sample approval.
+
+The sample is where the two failure modes are tested: does the necklace fold once and stay flat with the clasp reachable, and does the bracelet sit along its insert without sliding to the end. [Send the necklace and bracelet dimensions and quantities](https://elapack.com/contact/) and the format recommendation comes back with the quote.`
   }
 ]);
 function getArticleBySlug(slug) {
@@ -6742,6 +6901,15 @@ var RELATED = {
     "custom-velvet-pouches",
     "custom-pvc-bags",
     "custom-perfume-boxes"
+  ],
+  "jewelry-box-inserts-guide": [
+    "custom-ring-boxes",
+    "black-leather-jewelry-box",
+    "custom-white-jewelry-box"
+  ],
+  "necklace-bracelet-packaging-guide": [
+    "black-leather-jewelry-box",
+    "custom-white-jewelry-box"
   ]
 };
 var ANCHORS = {
@@ -7964,6 +8132,8 @@ var collections = [
     ctaTitle: "Request a quote for your custom jewelry box",
     guideSlugs: [
       "how-to-choose-custom-jewelry-boxes",
+      "jewelry-box-inserts-guide",
+      "necklace-bracelet-packaging-guide",
       "custom-packaging-samples-guide",
       "custom-packaging-moq-sample-lead-times-2026"
     ]

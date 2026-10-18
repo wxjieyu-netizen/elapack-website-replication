@@ -267,6 +267,15 @@ const RELATED: Record<string, string[]> = {
     "custom-pvc-bags",
     "custom-perfume-boxes",
   ],
+  "jewelry-box-inserts-guide": [
+    "custom-ring-boxes",
+    "black-leather-jewelry-box",
+    "custom-white-jewelry-box",
+  ],
+  "necklace-bracelet-packaging-guide": [
+    "black-leather-jewelry-box",
+    "custom-white-jewelry-box",
+  ],
 };
 
 /**

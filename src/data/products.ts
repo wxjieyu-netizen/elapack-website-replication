@@ -1190,6 +1190,8 @@ export function getProductBySlug(slug: string): Product | undefined {
 export const productGuides: Record<string, string[]> = {
   "black-leather-jewelry-box": [
     "how-to-choose-custom-jewelry-boxes",
+    "jewelry-box-inserts-guide",
+    "necklace-bracelet-packaging-guide",
     "custom-rigid-boxes-guide",
     "surface-finishes-compared-guide",
       "ppwr-packaging-regulation-guide",
@@ -1197,6 +1199,8 @@ export const productGuides: Record<string, string[]> = {
   ],
   "custom-white-jewelry-box": [
     "how-to-choose-custom-jewelry-boxes",
+    "jewelry-box-inserts-guide",
+    "necklace-bracelet-packaging-guide",
     "surface-finishes-compared-guide",
     "custom-rigid-boxes-guide",
       "ppwr-packaging-regulation-guide",
@@ -1205,6 +1209,7 @@ export const productGuides: Record<string, string[]> = {
   "custom-ring-boxes": [
     "custom-watch-boxes-guide",
     "custom-ring-boxes-guide",
+    "jewelry-box-inserts-guide",
     "packaging-inserts-guide",
     "custom-rigid-boxes-guide",
       "ppwr-packaging-regulation-guide",

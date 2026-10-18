@@ -93,6 +93,8 @@ export const collections: Collection[] = [
     ctaTitle: "Request a quote for your custom jewelry box",
     guideSlugs: [
       "how-to-choose-custom-jewelry-boxes",
+      "jewelry-box-inserts-guide",
+      "necklace-bracelet-packaging-guide",
       "custom-packaging-samples-guide",
       "custom-packaging-moq-sample-lead-times-2026",
     ],
