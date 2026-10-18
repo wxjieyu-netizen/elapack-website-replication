@@ -22,10 +22,10 @@ const products = featuredSlugs
   .filter((p): p is NonNullable<typeof p> => p !== null);
 
 const stats = [
-  { value: "10+", label: "Years of Craft" },
-  { value: "200+", label: "Brand Partners" },
-  { value: "30+", label: "Countries Served" },
-  { value: "99.6%", label: "Quality Pass Rate" },
+  { value: "200", label: "MOQ (pieces)" },
+  { value: "3–5", label: "Custom sample days" },
+  { value: "15–20", label: "Typical production days" },
+  { value: "1", label: "Business day to reply" },
 ];
 
 const popularSolutions = [
@@ -56,11 +56,11 @@ const popularSolutions = [
 ];
 
 const brandLogos = [
-  { name: "Luxury Jewelry Houses", type: "text" as const },
-  { name: "Heritage Pearl Brands", type: "text" as const },
-  { name: "US Designer Labels", type: "text" as const },
-  { name: "UK High-Street Retail", type: "text" as const },
-  { name: "Global Fashion Groups", type: "text" as const },
+  { name: "Jewelry", type: "text" as const },
+  { name: "Beauty", type: "text" as const },
+  { name: "Retail", type: "text" as const },
+  { name: "Gifting", type: "text" as const },
+  { name: "Fashion", type: "text" as const },
 ];
 
 const whyCards = [
@@ -88,48 +88,32 @@ const whyCards = [
 
 const caseStudies = [
   {
-    client: "A UK High-Street Retailer",
+    client: "Retail Shopping Bag",
     category: "Retail Packaging",
-    solution: "Cost-Effective Luxury Packaging",
+    solution: "Kraft Bag Options",
     image: "/images/carousel/kraft-bag.png",
-    points: [
-      "Budget-friendly without compromise",
-      "Efficient design, lower production costs",
-      "Bulk orders with better value",
-    ],
+    points: ["Confirm bag dimensions and handle style", "Share artwork and print requirements", "Request a quote for your order quantity"],
   },
   {
-    client: "A New York Jewelry House",
+    client: "Jewelry Gift Box",
     category: "Jewelry Packaging",
-    solution: "Luxury Jewelry Box Design",
+    solution: "Gift Box Options",
     image: "/images/carousel/luxury-gift-box.png",
-    points: [
-      "Packaging that solidifies brand image",
-      "Enhanced recognition and design sense",
-      "Meets customer aesthetic preferences",
-    ],
+    points: ["Choose a box style and insert layout", "Confirm product dimensions and materials", "Review sampling needs before production"],
   },
   {
-    client: "A Heritage Pearl Maison",
-    category: "Heritage Packaging",
-    solution: "Timeless Jewelry Boxes",
+    client: "Jewelry Presentation",
+    category: "Jewelry Packaging",
+    solution: "Display Box Options",
     image: "/images/carousel/black-leather-box.png",
-    points: [
-      "Classic packaging for heritage jewelry",
-      "Marketing impact that grows steadily",
-      "Presentation worthy of the brand",
-    ],
+    points: ["Match the insert to the jewelry piece", "Confirm finish and branding placement", "Check stock-size or custom tooling needs"],
   },
   {
-    client: "A Global Fashion Group",
-    category: "Cosmetic & Perfume",
-    solution: "Fashion Retail Packaging",
+    client: "Beauty & Fragrance",
+    category: "Beauty Packaging",
+    solution: "Presentation Box Options",
     image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
-    points: [
-      "Enhanced brand image",
-      "Consistent quality at volume",
-      "Complemented high-fashion products",
-    ],
+    points: ["Share bottle or product dimensions", "Select box structure and surface finish", "Confirm quantities and sample requirements"],
   },
 ];
 
@@ -255,8 +239,8 @@ export default function Home() {
                 </button>
               </div>
               <div className="intro-image-badge">
-                <span className="intro-badge-num">10+</span>
-                <span className="intro-badge-label">Years of Craft</span>
+                <span className="intro-badge-num">200</span>
+                <span className="intro-badge-label">MOQ (pieces)</span>
               </div>
             </div>
             <div className="intro-right reveal reveal-delay-2">
@@ -446,13 +430,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== Trusted by Brands Worldwide ===== */}
+      {/* ===== Packaging Applications ===== */}
       <section className="section brands-logos-section">
         <div className="container">
           <div className="section-header-center reveal">
-            <p className="eyebrow">Our Partners</p>
+            <p className="eyebrow">Applications</p>
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-              Trusted by Brands Worldwide
+              Packaging for Different Products
             </h2>
           </div>
           <div className="brands-logos-row reveal reveal-delay-2">
@@ -465,18 +449,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== Case Studies ===== */}
+      {/* ===== Packaging Options ===== */}
       <section className="section case-studies-section">
         <div className="container">
           <div className="section-header-center reveal">
-            <p className="eyebrow">Case Studies</p>
+            <p className="eyebrow">Packaging Options</p>
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-              Brands We've Elevated
+              Plan Your Packaging Brief
             </h2>
             <p className="section-subtitle">
-              From low-MOQ packaging upgrades to fully customized luxury box
-              development, we help brands solve packaging challenges with
-              practical, scalable solutions.
+              These examples show what to specify when requesting a quote.
+              Share dimensions, materials, artwork and quantity so we can check
+              the suitable structure, sample and tooling options.
             </p>
           </div>
           <div className="case-carousel reveal reveal-delay-2">
@@ -492,7 +476,7 @@ export default function Home() {
                       <span className="case-category">{study.category}</span>
                     </div>
                     <div className="case-card-body">
-                      <span className="case-client">Client: {study.client}</span>
+                      <span className="case-client">Option: {study.client}</span>
                       <h3 className="case-solution">{study.solution}</h3>
                       <div className="case-divider" />
                       <ul className="case-points">
@@ -513,7 +497,7 @@ export default function Home() {
             <button
               className="carousel-btn carousel-prev"
               onClick={prevSlide}
-              aria-label="Previous case study"
+              aria-label="Previous packaging option"
             >
               <span>‹</span>
             </button>
@@ -523,14 +507,14 @@ export default function Home() {
                   key={i}
                   className={`carousel-dot ${i === activeSlide ? "is-active" : ""}`}
                   onClick={() => setActiveSlide(i)}
-                  aria-label={`Go to case study ${i + 1}`}
+                  aria-label={`Go to packaging option ${i + 1}`}
                 />
               ))}
             </div>
             <button
               className="carousel-btn carousel-next"
               onClick={nextSlide}
-              aria-label="Next case study"
+              aria-label="Next packaging option"
             >
               <span>›</span>
             </button>
