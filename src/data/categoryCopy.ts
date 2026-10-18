@@ -133,11 +133,7 @@ export const categoryCopy: Record<string, CategoryCopy> = {
   "Sets & Complete Packaging": setsCopy,
 };
 
-const ECO_FAQ_ANSWER =
-  "We offer eco-friendly material options including recycled kraft paper, natural cotton, and linen. Certification documents are available on request.";
-
 export function faqsFor(product: { name: string; category: string; materials: string }): { q: string; a: string }[] {
-  const c = categoryCopy[product.category] ?? neutralCopy;
   return [
     {
       q: `What materials are listed for ${product.name}?`,
@@ -147,7 +143,6 @@ export function faqsFor(product: { name: string; category: string; materials: st
       q: "Do I need to provide a dieline for custom packaging?",
       a: "No. We draw the dieline to your confirmed product dimensions free of charge at the quotation stage, and custom samples are built to it. Files are supplied as PDF, AI or DXF. If you already have a vector dieline, we accept it and verify it with our die-making team before production; cutting-die tooling, where a new die is required, is quoted at USD 50–100 depending on the product.",
     },
-    { q: `Are the ${c.noun} eco-friendly?`, a: ECO_FAQ_ANSWER },
     {
       q: "How long does the production process take?",
       a: "Typical production time is 15–20 days after sample approval. Shipping is by air or by sea from Shanghai or Shenzhen.",
