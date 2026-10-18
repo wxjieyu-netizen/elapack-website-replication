@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
+import { getProductBySlug } from "../data/products";
 import { track } from "../lib/track";
 
 /**
@@ -53,6 +55,8 @@ const projectTypes = [
 ];
 
 export default function Contact() {
+  const [searchParams] = useSearchParams();
+  const selectedProduct = getProductBySlug(searchParams.get("product") ?? "");
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [failed, setFailed] = useState(false);
@@ -211,6 +215,11 @@ export default function Contact() {
                     Share your project details and we'll prepare a tailored
                     proposal for you.
                   </p>
+                  {selectedProduct && (
+                    <p className="contact-form-intro">
+                      Product: <strong>{selectedProduct.name}</strong>
+                    </p>
+                  )}
 
                   {/* Honeypot: humans never see it, bots fill it and get dropped. */}
                   <input
@@ -220,6 +229,9 @@ export default function Contact() {
                     autoComplete="off"
                     style={{ display: "none" }}
                   />
+                  {selectedProduct && (
+                    <input type="hidden" name="product" value={selectedProduct.name} />
+                  )}
                   <input
                     type="hidden"
                     name="project_type"
