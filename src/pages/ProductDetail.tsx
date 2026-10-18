@@ -59,7 +59,7 @@ export default function ProductDetail() {
     .slice(0, 4);
 
   const copy = categoryCopy[product.category] ?? neutralCopy;
-  const faqs = faqsFor(product.category);
+  const faqs = faqsFor(product);
   const guides = (productGuides[product.slug] ?? [])
     .map((s) => getArticleBySlug(s))
     .filter((a): a is NonNullable<typeof a> => a !== undefined);

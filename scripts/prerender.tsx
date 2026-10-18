@@ -291,7 +291,7 @@ for (const route of ROUTES) {
       graph.push({
         "@type": "FAQPage",
         "@id": `${canonical}#faq`,
-        mainEntity: faqsFor(product.category).map((f) => ({
+        mainEntity: faqsFor(product).map((f) => ({
           "@type": "Question",
           name: f.q,
           acceptedAnswer: { "@type": "Answer", text: f.a },

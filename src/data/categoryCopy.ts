@@ -11,9 +11,6 @@ export type CategoryCopy = {
   customizeTitle: string;
   customizeParas: string[];
   customizeCta: string;
-  faqMaterials: { q: string; a: string };
-  faqSizes: { q: string; a: string };
-  faqClosures: { q: string; a: string };
 };
 
 const boxesCopy: CategoryCopy = {
@@ -42,18 +39,6 @@ const boxesCopy: CategoryCopy = {
     "Whether it is a specific Pantone tone, a foil accent, or an insert with exact cavity positions for your pieces, we are dedicated to crafting a box that reflects your brand — with your logo and graphics placed exactly where they belong.",
   ],
   customizeCta: "Customize Your Boxes",
-  faqMaterials: {
-    q: "What materials are available for custom boxes?",
-    a: "Exteriors in velvet, leatherette, satin, wood, MDF and genuine leather; interiors in velvet, satin, suede, microfiber or flocked fabric; inserts in foam, EVA, molded plastic or recycled paper. Finishes include matte, glossy, debossed, foil stamping and spot UV.",
-  },
-  faqSizes: {
-    q: "Can I customize the size and structure of the boxes?",
-    a: "Absolutely. Boxes are built to your product dimensions — lid-and-base, flip-top, sleeve-drawer and bespoke structures. Insert cavities are cut to hold each piece exactly, and fully custom dimensions are welcome.",
-  },
-  faqClosures: {
-    q: "What closure types are available for the boxes?",
-    a: "Magnetic flip-top, snap, tuck flap, ribbon tie and drawer constructions. Closures can be combined — for example a magnetic lid with a ribbon pull — and all hardware is color-matched to your brand.",
-  },
 };
 
 const pouchesCopy: CategoryCopy = {
@@ -83,18 +68,6 @@ const pouchesCopy: CategoryCopy = {
     "Whether it's a specific color, texture, or design, we're dedicated to crafting solutions that exceed your expectations and resonate with your customers' preferences. Moreover, you can add your logo and your graphics, creating packaging that totally reflects your brand and its characteristics.",
   ],
   customizeCta: "Customize Your Pouches",
-  faqMaterials: {
-    q: "What materials are available for custom pouches?",
-    a: "We offer high-quality silk, cotton, velvet, linen, and satin. Each material can be customized with various finishes such as matte, glossy, or textured to match your brand aesthetic.",
-  },
-  faqSizes: {
-    q: "Can I customize the size and shape of the pouches?",
-    a: "Absolutely. We offer standard sizes like 6x8 inches and 4x6 inches, plus fully custom dimensions. Shapes include classic drawstring, flat bottom, zip-top, and bespoke structural designs.",
-  },
-  faqClosures: {
-    q: "What types of closures are available for the pouches?",
-    a: "We offer drawstring cord, zip-top, magnetic snap, button closure, and ribbon tie closures. Cord materials include silk, cotton, satin, and leather, all color-matched to your brand.",
-  },
 };
 
 const setsCopy: CategoryCopy = {
@@ -124,18 +97,6 @@ const setsCopy: CategoryCopy = {
     "Whether it is a specific Pantone tone carried from rigid box to velvet pouch, or a logo placed consistently across every piece, the set is crafted to reflect your brand at each touchpoint.",
   ],
   customizeCta: "Customize Your Set",
-  faqMaterials: {
-    q: "What materials are available for packaging sets?",
-    a: "Sets combine our box and textile lines: rigid exteriors in velvet, leatherette, satin or MDF with velvet, satin or suede linings, paired with color-matched fabric pouches, bags and display pieces.",
-  },
-  faqSizes: {
-    q: "Can I customize the sizes across the set?",
-    a: "Yes. Each element is sized to your product — box cavity, pouch dimensions and bag capacity are specified together so the collection works as one system.",
-  },
-  faqClosures: {
-    q: "What closure options are available across a set?",
-    a: "Closures span both lines — magnetic flip-top or drawer boxes, drawstring or zip pouches, ribbon ties — coordinated so every opening gesture feels consistent.",
-  },
 };
 
 export const neutralCopy: CategoryCopy = {
@@ -164,18 +125,6 @@ export const neutralCopy: CategoryCopy = {
     "Whether it's a specific color, texture, or design, we're dedicated to crafting packaging that reflects your brand — with your logo and graphics placed exactly where they belong.",
   ],
   customizeCta: "Customize Your Packaging",
-  faqMaterials: {
-    q: "What materials are available for custom packaging?",
-    a: "Our lines cover rigid box exteriors with velvet, satin or suede linings, textile pouches in silk, cotton, velvet, linen and satin, and paper bags in recycled kraft — each customizable with matte, glossy or textured finishes.",
-  },
-  faqSizes: {
-    q: "Can I customize the size and shape of my packaging?",
-    a: "Absolutely. Standard sizes and fully custom dimensions are both available, with structures and shapes built around your product.",
-  },
-  faqClosures: {
-    q: "What closure options are available?",
-    a: "Drawstring cord, zip-top, magnetic flip-top, snap, button and ribbon tie closures — all color-matched to your brand.",
-  },
 };
 
 export const categoryCopy: Record<string, CategoryCopy> = {
@@ -187,12 +136,13 @@ export const categoryCopy: Record<string, CategoryCopy> = {
 const ECO_FAQ_ANSWER =
   "We offer eco-friendly material options including recycled kraft paper, natural cotton, and linen. Certification documents are available on request.";
 
-export function faqsFor(category: string): { q: string; a: string }[] {
-  const c = categoryCopy[category] ?? neutralCopy;
+export function faqsFor(product: { name: string; category: string; materials: string }): { q: string; a: string }[] {
+  const c = categoryCopy[product.category] ?? neutralCopy;
   return [
-    c.faqMaterials,
-    c.faqSizes,
-    c.faqClosures,
+    {
+      q: `What materials are listed for ${product.name}?`,
+      a: `The listed construction is ${product.materials}. Share your product dimensions and required finish so we can confirm the suitable specification in your quote.`,
+    },
     {
       q: "Do I need to provide a dieline for custom packaging?",
       a: "No. We draw the dieline to your confirmed product dimensions free of charge at the quotation stage, and custom samples are built to it. Files are supplied as PDF, AI or DXF. If you already have a vector dieline, we accept it and verify it with our die-making team before production; cutting-die tooling, where a new die is required, is quoted at USD 50–100 depending on the product.",
