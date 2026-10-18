@@ -6,7 +6,7 @@ import { categoryCopy, neutralCopy, faqsFor } from "../data/categoryCopy";
 
 const trustBadges = [
   { icon: "M", label: "Custom Pantone Matching" },
-  { icon: "C", label: "100% Customization" },
+  { icon: "C", label: "Custom Options" },
   { icon: "D", label: "Design & Samples" },
   { icon: "M", label: "Low MOQ From 200 pcs" },
 ];
@@ -170,9 +170,9 @@ export default function ProductDetail() {
                 Specifications
               </h2>
               <p className="product-specs-text">
-                Every dimension, material, and finish is fully customizable to
-                your brand's exact requirements. Below are our standard
-                configurations — contact us to discuss custom specifications.
+                The options below show typical configurations. Share your dimensions,
+                material preferences, and finish requirements so we can confirm
+                what is feasible for this product.
               </p>
               <Link to={quoteUrl} className="btn-primary">
                 Discuss Your Project
@@ -255,7 +255,7 @@ export default function ProductDetail() {
               />
             </div>
             <div className="product-customize-bags-content reveal reveal-delay-2">
-              <p className="eyebrow">100% Customization</p>
+              <p className="eyebrow">Customization Options</p>
               <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
                 {copy.customizeTitle}
               </h2>
@@ -307,8 +307,8 @@ export default function ProductDetail() {
               Customization Process
             </h2>
             <p className="section-subtitle">
-              Our professional customization team meets 100% of customer needs —
-              from initial contact to quality inspection before shipment.
+              Our team reviews your requirements from initial contact through
+              sampling, production, and quality inspection before shipment.
             </p>
           </div>
           <div className="product-process-grid">
@@ -334,8 +334,8 @@ export default function ProductDetail() {
               Customization Options
             </h2>
             <p className="section-subtitle">
-              Every element of this product can be tailored to your brand.
-              Here are the most common customization paths.
+              The options below outline common ways to tailor this product.
+              Confirm your required materials, dimensions, and finishes with us.
             </p>
           </div>
           <div className="custom-options-chips reveal reveal-delay-2">
