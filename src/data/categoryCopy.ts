@@ -140,8 +140,8 @@ export function faqsFor(product: { name: string; category: string; materials: st
       a: `The listed construction is ${product.materials}. Share your product dimensions and required finish so we can confirm the suitable specification in your quote.`,
     },
     {
-      q: "What drawing and tooling information do you need?",
-      a: "Send your product dimensions and any existing artwork or dieline. We will confirm the drawing requirements in your quote. If an existing stock-size die fits, there is no new tooling charge; if a new custom cutting die is needed, it is quoted at USD 50–100.",
+      q: "Can I review a dieline preview?",
+      a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
     },
     {
       q: "How long does the production process take?",
