@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" width="2400" height="1350" role="img" aria-label="Free digital dieline preview and buyer checks for a custom box">
+<rect width="2400" height="1350" fill="#faf9f7"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#18120c">
+<text x="130" y="155" font-size="45" font-weight="700" letter-spacing="9">ELAPACK · BUYER GUIDE</text>
+<text x="130" y="340" font-size="120" font-weight="300">Every custom box starts flat.</text>
+<line x1="130" y1="415" x2="2270" y2="415" stroke="#b08d46" stroke-width="3"/>
+<text x="130" y="535" font-size="48" fill="#b08d46">01</text><text x="300" y="535" font-size="50" font-weight="700">Preview</text>
+<text x="780" y="535" font-size="44">Free digital dieline preview for structure confirmation</text>
+<line x1="130" y1="610" x2="2270" y2="610" stroke="#ded9d2" stroke-width="2"/>
+<text x="130" y="730" font-size="48" fill="#b08d46">02</text><text x="300" y="730" font-size="50" font-weight="700">Check</text>
+<text x="780" y="730" font-size="44">Finished size, panels, safe zones, bleed, board allowance</text>
+<line x1="130" y1="805" x2="2270" y2="805" stroke="#ded9d2" stroke-width="2"/>
+<text x="130" y="925" font-size="48" fill="#b08d46">03</text><text x="300" y="925" font-size="50" font-weight="700">Approve</text>
+<text x="780" y="925" font-size="44">Confirm the drawing before ordering a custom sample</text>
+<line x1="130" y1="1185" x2="2270" y2="1185" stroke="#b08d46" stroke-width="3"/>
+<text x="130" y="1250" font-size="36" fill="#6b6258">Die cutting and dielines, in plain words</text>
+<text x="1850" y="1250" font-size="36">elapack.com</text>
+</g></svg>
