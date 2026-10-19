@@ -13,7 +13,7 @@
       <rect x="60" y="124" width="480" height="46" fill="#e5d5b8" stroke="#b08d46" stroke-width="1.5"/>
       <line x1="60" y1="139" x2="540" y2="139" stroke="#c9b68c" stroke-width="1"/>
       <line x1="60" y1="154" x2="540" y2="154" stroke="#c9b68c" stroke-width="1"/>
-      <text x="560" y="151" font-size="12" fill="#18120c">greyboard core — 1.5 / 2.0 / 2.5 / 3.0 mm</text>
+      <text x="560" y="151" font-size="12" fill="#18120c">greyboard core — confirm thickness</text>
       <!-- lining -->
       <rect x="60" y="190" width="480" height="12" fill="#f2e9dc" stroke="#c9b68c" stroke-width="1"/>
       <text x="560" y="201" font-size="12" fill="#18120c">lining paper — closes the inside</text>
@@ -28,9 +28,9 @@
       <text x="492" y="281" font-size="11.5" fill="#18120c">magnet in the jacket</text>
       <line x1="452" y1="318" x2="486" y2="332" stroke="#b08d46" stroke-width="1.2"/>
       <text x="492" y="336" font-size="11.5" fill="#18120c">iron plate in the tray rim</text>
-      <text x="60" y="356" font-size="11" fill="#6b6258">two to three magnet-and-plate sets per box — the closure is engineered structure</text>
+      <text x="60" y="356" font-size="11" fill="#6b6258">magnet-and-plate layout depends on the selected closure design</text>
     </g>
 
-    <text x="24" y="424" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">Board grades and cost shares: ELAPACK published reference ranges; magnet counts as published by box manufacturers.</text>
+    <text x="24" y="424" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">Illustrative construction only; confirm board, closure and magnet layout for the selected design.</text>
   </g>
 </svg>
