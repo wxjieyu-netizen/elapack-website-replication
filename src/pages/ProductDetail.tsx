@@ -456,7 +456,7 @@ export default function ProductDetail() {
               this for your brand?
             </h2>
             <p className="cta-text">
-              Share your specifications and we'll prepare a tailored proposal
+              Share your specifications and we'll respond with next steps
               within one business day.
             </p>
             <Link to={quoteUrl} className="btn-primary">

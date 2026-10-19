@@ -63,9 +63,9 @@ const pouchesCopy: CategoryCopy = {
   ],
   customizeTitle: "Customize Your Bags & Pouches",
   customizeParas: [
-    "At ELAPACK, we understand the importance of tailoring every detail to suit your unique style and preferences. If you don't find a compelling solution among the ones proposed, we also offer the possibility of 100% customized pouches and bags wholesale.",
-    "You can always request a highly customized project in line with your style and wishes: we will be happy to find you the right solution to satisfy your needs and your customers' preferences.",
-    "Whether it's a specific color, texture, or design, we're dedicated to crafting solutions that exceed your expectations and resonate with your customers' preferences. Moreover, you can add your logo and your graphics, creating packaging that totally reflects your brand and its characteristics.",
+    "At ELAPACK, we understand the importance of tailoring every detail to suit your unique style and preferences. If you don't find a compelling solution among the ones proposed, we can discuss a custom pouch or bag specification based on your material, size, and artwork requirements.",
+    "Share the style and function you need, and we will review suitable construction and branding options for your project.",
+    "Whether it's a specific color, texture, or design, we can review suitable options for your logo, graphics, and packaging details during quotation.",
   ],
   customizeCta: "Customize Your Pouches",
 };
@@ -87,13 +87,13 @@ const setsCopy: CategoryCopy = {
     },
     {
       title: "One Supplier, One Standard",
-      desc: "A complete set from a single production partner means one quality standard, one timeline and one point of contact for the whole collection.",
+      desc: "Coordinating a set through one project contact can help align specifications and production planning across its components.",
     },
   ],
   customizeTitle: "Customize Your Packaging Set",
   customizeParas: [
     "At ELAPACK, a set is designed as one project: box, pouch, bag and display elements share a material and color story specified around your brand.",
-    "You can request a fully coordinated collection — or start with one element and expand. We will propose the right combination of structures and textiles to match your products and budget.",
+    "You can discuss a coordinated collection — or start with one element and expand. We will review suitable structures and textiles against your products and budget.",
     "Whether it is a specific Pantone tone carried from rigid box to velvet pouch, or a logo placed consistently across every piece, the set is crafted to reflect your brand at each touchpoint.",
   ],
   customizeCta: "Customize Your Set",
