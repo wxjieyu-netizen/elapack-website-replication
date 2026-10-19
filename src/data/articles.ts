@@ -541,7 +541,7 @@ export const articles: Article[] = ([
     "slug": "custom-packaging-moq-sample-lead-times-2026",
     "datePublished": "2026-10-05",
   "dateModified": "2026-10-19",
-    "title": "Custom Packaging MOQ, Sample Costs and Production Times | ELAPACK",
+    "title": "Custom Packaging MOQ, Sample Costs and Production Times",
     "category": "Sourcing Guide",
     "date": "October 2026",
     "readTime": "5 min read",
