@@ -363,10 +363,10 @@ export const products: Product[] = [
     shortDesc:
       "Fully printed paper sample cards for perfume vials and sachets — your card layout, count and artwork.",
     description:
-      "Perfume sample packaging as a printed paper card: vials or sachets mount onto a full-colour card that carries the brand, the scent story and the try-me moment in one mail-flat piece. This is a different product from our rigid perfume gift boxes — sample cards are printed card construction, sized to your sample count and vial format, with your artwork edge to edge. Sampling programs, subscription inserts, boutique handouts and press mailers all run on the same card system. MOQ from 200 cards with a 15–20 day lead time — send your sample count and card size for a quote. Product photography is in progress.",
+      "Perfume sample packaging as a printed paper card: vials or sachets mount onto a full-colour card that carries the brand, the scent story and the try-me moment in one mail-flat piece. This is a different product from our rigid perfume gift boxes — sample cards are printed card construction, sized to your sample count and vial format, with your artwork edge to edge. Sampling programs, subscription inserts, boutique handouts and press mailers all run on the same card system. MOQ from 200 pieces with a 15–20 day lead time — send your sample count and card size for a quote. Product photography is in progress.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Printed paper card with mounted sample holders",
-    moq: "200 per card",
+    moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Fragrance", "Beauty", "Gift"],
     features: [
@@ -392,7 +392,7 @@ export const products: Product[] = [
       { label: "Sample count", value: "Custom — single to multi-scent layouts" },
       { label: "Card size", value: "Made to your spec" },
       { label: "Print", value: "Full colour, custom artwork" },
-      { label: "MOQ", value: "200 per card" },
+      { label: "MOQ", value: "200 pcs" },
       { label: "Lead time", value: "15–20 days" },
     ],
     customizationOptions: [
