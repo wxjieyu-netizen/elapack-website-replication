@@ -36,7 +36,7 @@ export const collections: Collection[] = [
     metaDescription:
       "Custom jewelry boxes with your logo — rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
     intro:
-      "ELAPACK makes custom jewelry boxes for brands selling in the US and Europe. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products, we make each order to your specification — box structure, wrap colour, interior insert and branding — so the box fits your jewelry and carries your brand.",
+      "ELAPACK makes custom jewelry boxes for brands selling in the US and Europe. We make each order to your specification — box structure, wrap colour, interior insert and branding — so the box fits your jewelry and carries your brand.",
     sections: [
       {
         heading: "Box structures",
@@ -315,7 +315,7 @@ export const collections: Collection[] = [
         "ELAPACK jewelry packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering jewelry boxes, fabric pouches, display sets and complete box-plus-pouch programs, custom sizes included. Production takes 15–20 days for orders of 200–20,000 pieces and 20–25 days for 20,000–50,000 pieces, counted from sample approval and deposit. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     intro:
-      "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display — and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets — colour-matched and branded as one system. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products.",
+      "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display — and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets — colour-matched and branded as one system.",
     sections: [
       {
         heading: "Jewelry boxes",
@@ -657,7 +657,7 @@ export const collections: Collection[] = [
     metaDescription:
       "Custom printed ribbons and packaging accessories — satin ribbon closures, logo-printed ribbon programs, cotton cords and drawstrings matched to your ELAPACK box and pouch programs.",
     intro:
-      "Boxes and pouches rarely ship alone. The ribbon on a gift box, the cord that closes a pouch and the finishing accessories around them are what make packaging read as one program. ELAPACK supplies ribbons, cords and accessories as part of your box and pouch programs — colour-matched to the packaging they finish, and quoted together with it. Founded in 2018, ISO 9001 certified for the production and sales of paper and textile packaging products.",
+      "Boxes and pouches rarely ship alone. The ribbon on a gift box, the cord that closes a pouch and the finishing accessories around them are what make packaging read as one program. ELAPACK supplies ribbons, cords and accessories as part of your box and pouch programs — colour-matched to the packaging they finish, and quoted together with it.",
     sections: [
       {
         heading: "Ribbons",
@@ -775,7 +775,7 @@ export const collections: Collection[] = [
     metaDescription:
       "Custom subscription box packaging from one manufacturer — printed boxes, fabric pouches and insert cards for monthly themed programs. Pantone-matched, MOQ from 200 pieces, free stock samples.",
     intro:
-      "ELAPACK makes subscription box packaging for box programs shipping to the US and Europe. Founded in 2018 and ISO 9001 certified for the production and sales of paper and textile packaging products, we make the three pieces of a monthly box in one place — the printed box, the fabric pouches that hold small items, and the insert cards that carry your theme — so colours and branding match across every drop.",
+      "ELAPACK makes subscription box packaging for box programs shipping to the US and Europe. We make the three pieces of a monthly box in one place — the printed box, the fabric pouches that hold small items, and the insert cards that carry your theme — so colours and branding match across every drop.",
     sections: [
       {
         heading: "Monthly box structures",

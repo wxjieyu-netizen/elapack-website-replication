@@ -40,9 +40,6 @@ const HOW_IT_WORKS_SHARED = [
   { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen." },
 ];
 
-const CERT_LINE =
-  "ISO 9001 — production and sales of paper and textile packaging products";
-
 export const landings: Landing[] = [
   {
     slug: "pouches-bags",
@@ -50,7 +47,7 @@ export const landings: Landing[] = [
     gallery: [
       { src: "/images/factory/elapack-08.jpg", alt: "Fabric library: velvet, suede, cotton and more — standard materials in stock" },
       { src: "/images/factory/elapack-04.jpg", alt: "Screen printing station for custom logo printing on textile packaging" },
-      { src: "/images/factory/elapack-03.jpg", alt: "Sewing floor producing custom fabric pouches — one of ELAPACK's three production lines" },
+      { src: "/images/factory/elapack-03.jpg", alt: "Sewing floor producing custom fabric pouches" },
     ],
     eyebrow: "Pouches & Bags",
     h1: "Custom Fabric Pouches & Bags — Made to Your Spec, from 200 Pieces",
@@ -58,7 +55,7 @@ export const landings: Landing[] = [
     metaDescription:
       "Custom textile pouches and bags for jewellery, fragrance, beauty, hair and fashion brands — velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in the size, closure and branding you specify. MOQ from 200 pieces.",
     intro:
-      "ELAPACK makes custom fabric pouches and bags for brands selling in the US and Europe. We are a trade-and-manufacturing company founded in 2018 with three production lines, ISO 9001 certified for the production and sales of paper and textile packaging products, and we make each order to your specification — not from stock — so the pouch matches your product and your brand, not the other way round.",
+      "ELAPACK makes custom fabric pouches and bags for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification — not from stock — so the pouch matches your product and your brand, not the other way round.",
     why: {
       heading: "Why ELAPACK",
       items: [
@@ -103,7 +100,6 @@ export const landings: Landing[] = [
       { label: "Production time", value: "15–20 days" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
-      { label: "Certifications", value: CERT_LINE },
     ],
     audience: [
       { title: "Jewellery & eyewear", desc: "Small pouches for rings, earrings, pendants and eyewear." },
@@ -126,7 +122,7 @@ export const landings: Landing[] = [
     metaDescription:
       "Custom packaging boxes — rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 200 pieces.",
     intro:
-      "ELAPACK makes custom boxes for brands selling in the US and Europe. We are a trade-and-manufacturing company founded in 2018 with three production lines, ISO 9001 certified for the production and sales of paper and textile packaging products, and we make each order to your specification — not from stock — so the box fits your product and carries your brand, not the other way round.",
+      "ELAPACK makes custom boxes for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification — not from stock — so the box fits your product and carries your brand, not the other way round.",
     why: {
       heading: "Box styles",
       items: [
@@ -145,7 +141,7 @@ export const landings: Landing[] = [
         rows: [
           ["EVA", "Contoured, precise fit"],
           ["Sponge", "Soft cushioning"],
-          ["Molded pulp", "Economical, eco-friendly structure"],
+          ["Molded pulp", "Contoured insert option; confirm material specification"],
           ["Flocked", "Velvet-touch luxury finish"],
         ],
       },
@@ -165,7 +161,6 @@ export const landings: Landing[] = [
       { label: "Production time", value: "15–20 days" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
-      { label: "Certifications", value: CERT_LINE },
     ],
     audience: [
       { title: "Jewellery & eyewear", desc: "Small rigid boxes with fitted inserts." },
@@ -184,7 +179,7 @@ export const landings: Landing[] = [
     metaDescription:
       "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands — pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference. MOQ from 200 pieces.",
     intro:
-      "ELAPACK makes custom packaging sets for brands selling in the US and Europe. We are a trade-and-manufacturing company founded in 2018 with three production lines, ISO 9001 certified for the production and sales of paper and textile packaging products. Because pouches and boxes are made under one roof, the colour, material and branding match across every piece of the set — not roughly, but by spec.",
+      "ELAPACK makes custom packaging sets for brands selling in the US and Europe. We coordinate custom pouch, box, and insert specifications together. Specify the pouch and box together so colour, material, and branding can be checked across each piece of the set.",
     why: {
       heading: "What a set can include",
       items: [
@@ -217,7 +212,6 @@ export const landings: Landing[] = [
       { label: "Production time", value: "15–20 days" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
-      { label: "Certifications", value: CERT_LINE },
     ],
     audience: [
       { title: "Jewellery & eyewear", desc: "Pouch + box sets with fitted inserts." },

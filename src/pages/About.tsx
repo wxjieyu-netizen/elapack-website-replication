@@ -1,13 +1,6 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 
-const milestones = [
-  { year: "2018", title: "Founded", desc: "ELAPACK established as a custom packaging manufacturer for jewelry, eyewear, and gift brands." },
-  { year: "Today", title: "3 Production Lines", desc: "Three dedicated production lines for textile bags, rigid boxes, and custom gift sets." },
-  { year: "Today", title: "ISO 9001 Certified", desc: "Quality management system certified for the production and sales of paper and textile packaging products." },
-  { year: "Today", title: "Serving EU & US Brands", desc: "Exporting to mid-to-high-end brands across Europe and North America, with air and sea freight delivery." },
-];
-
 const values = [
   {
     title: "Restraint",
@@ -23,7 +16,7 @@ const values = [
   },
   {
     title: "Responsibility",
-    desc: "We source ethically and design for longevity. Luxury should not cost the earth.",
+    desc: "We discuss material choices and intended use with each buyer before production.",
   },
 ];
 
@@ -98,25 +91,19 @@ export default function About() {
                 From workshop to global partner.
               </h2>
               <p className="about-text">
-                Since 2018, ELAPACK has believed that packaging is not a
-                container, but a brand's first handshake. We have grown into a
-                full-service packaging partner for luxury brands across Europe
-                and North America.
+                ELAPACK approaches packaging as more than a container — it is
+                a brand's first handshake. We work with buyers on packaging
+                for jewelry, eyewear, beauty, and gifting.
               </p>
               <p className="about-text">
-                Today, our integrated model spans creative design, precision
-                manufacturing across three production lines, and global
-                logistics — serving clients from independent ateliers to
-                established brands. ELAPACK is operated by Wuxi Magic
-                Packaging Co., Ltd (est. 2018), with our factory located in
-                Wuxi, Jiangsu, China.
+                We coordinate packaging design, production, and shipping
+                around each order's specification. ELAPACK is operated by Wuxi
+                Magic Packaging Co., Ltd., based in Wuxi, Jiangsu, China.
               </p>
               <p className="about-text">
-                We hold a rigorous quality management system and a sharp
-                understanding of international markets. We are not just a
-                producer — we are your brand strategy partner, committed to
-                translating your design vision into tangible, market-ready
-                art.
+                Share your product dimensions, material preferences, branding,
+                and quantity so we can review the structure, sample, and
+                production requirements with you.
               </p>
             </div>
           </div>
@@ -208,11 +195,10 @@ export default function About() {
                 Sourced with intention.
               </h2>
               <p className="about-text">
-                We work with a curated range of premium materials — velvet,
-                suede, linen, cotton, satin, and rigid paperboard —
-                and offer eco-friendly options such as recycled kraft and
-                natural textiles. Certification documents are available on
-                request.
+                We work with materials such as velvet, suede, linen, cotton,
+                satin, and rigid paperboard. Tell us your preferred material
+                and intended use so we can confirm the available specification
+                and any supporting documents for that option.
               </p>
               <p className="about-text">
                 Because the world's finest brands demand materials that feel
@@ -228,35 +214,6 @@ export default function About() {
               height={768}
               />
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Timeline */}
-      <section className="section about-timeline">
-        <div className="container">
-          <div className="section-header-center reveal">
-            <p className="eyebrow">Our Journey</p>
-            <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-              Our Journey Since 2018
-            </h2>
-          </div>
-          <div className="timeline">
-            {milestones.map((m, i) => (
-              <div
-                key={m.year}
-                className={`timeline-item reveal reveal-delay-${(i % 4) + 1}`}
-              >
-                <div className="timeline-marker">
-                  <span className="timeline-year">{m.year}</span>
-                  <div className="timeline-dot" />
-                </div>
-                <div className="timeline-content">
-                  <h3 className="timeline-title">{m.title}</h3>
-                  <p className="timeline-desc">{m.desc}</p>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -277,10 +234,8 @@ export default function About() {
               ))}
             </div>
             <p className="markets-note">
-              Our primary clients are mid-to-high-end brands and enterprises
-              that value brand image, packaging quality, and supply chain
-              stability — especially those serving European and American
-              markets.
+              We discuss packaging requirements with buyers in these
+              categories, including size, material, branding, and quantity.
             </p>
             <Link to="/contact/" className="btn-primary">
               Partner With Us

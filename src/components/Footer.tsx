@@ -14,7 +14,7 @@ export default function Footer() {
               to end.
             </p>
             <div className="footer-badges">
-              <span className="footer-badge">Eco-Friendly Materials</span>
+              <span className="footer-badge">Material Options</span>
               <span className="footer-badge">ISO 9001 Certified</span>
               <span className="footer-badge">Global Shipping</span>
             </div>

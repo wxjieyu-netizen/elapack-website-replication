@@ -41,7 +41,7 @@ const solutionContent: Record<
       },
       {
         title: "Luxury Textiles",
-        desc: "Leatherette, velvet, suede, linen, genuine leather, and recycled textiles for interior and exterior wrapping.",
+        desc: "Leatherette, velvet, suede, linen, and genuine leather options for interior and exterior wrapping, subject to the selected specification.",
       },
       {
         title: "Surface Finishes",
@@ -78,24 +78,24 @@ const solutionContent: Record<
   },
   Sustainability: {
     title: "Sustainability",
-    desc: "Sustainability should support your brand, not weaken it. We offer responsible packaging without losing presentation value.",
+    desc: "Material and end-of-use choices depend on the exact packaging specification. We review the available options with each buyer.",
     image: "/news-eco.webp",
     points: [
       {
-        title: "Eco-Friendly Materials",
-        desc: "Recycled kraft paper, natural cotton, and linen options. Certification documents available on request.",
+        title: "Material Options",
+        desc: "Ask about recycled kraft paper, cotton, or linen for your project; availability and supporting documents depend on the selected material.",
       },
       {
-        title: "Recyclable Structures",
-        desc: "Packaging structures designed to be recyclable where local facilities allow.",
+        title: "End-of-Use Review",
+        desc: "Review board, coatings, windows, and local collection requirements before describing a finished package as recyclable.",
       },
       {
-        title: "Reusable Structures",
-        desc: "Packaging designed to be kept and reused — from linen wraps to keepsake boxes that extend product lifecycle.",
+        title: "Reuse Considerations",
+        desc: "Discuss whether a pouch or rigid box is suited to repeated use for your product and customer.",
       },
       {
-        title: "Responsible Sourcing",
-        desc: "We work with suppliers who can provide material documentation and certifications upon request.",
+        title: "Material Documents",
+        desc: "Request documentation for the exact material quoted; we confirm which documents are available before making a claim.",
       },
     ],
   },
@@ -130,7 +130,7 @@ export default function Solutions() {
             Solutions
           </h1>
           <p className="page-subtitle reveal reveal-delay-2">
-            From custom packaging design to sustainable materials — explore the
+            From custom packaging design to material choices — explore the
             services and capabilities that power your brand's packaging.
           </p>
         </div>
