@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Dust bag specification diagram: sizing from the stored object for handbags, shoe pair bags and single-shoe bags, and a storage fabric spectrum from open weaves to dense faces">
+<rect width="1200" height="675" fill="#faf9f7"/>
+<g font-family="Helvetica,Arial,sans-serif">
+<text x="60" y="54" font-family="Georgia,serif" font-size="26" font-weight="600" fill="#18120c">A dust bag is sized from the stored object, not the shelf</text>
+<text x="60" y="82" font-size="13.5" fill="#6b6258">Measure the bag or the pair the way it is stored, choose the weave for storage, then prove the fit on a loaded sample</text>
+<line x1="60" y1="104" x2="1140" y2="104" stroke="#e2ddd5" stroke-width="1"/>
+
+<text x="60" y="140" font-size="11.5" font-weight="600" letter-spacing="1.4" fill="#b08d46">1 — SIZE FROM THE STORED OBJECT</text>
+
+<rect x="60" y="160" width="520" height="196" rx="6" fill="#18120c"/>
+<text x="84" y="192" font-size="16" font-weight="600" fill="#faf9f7">Handbag dust bag</text>
+<text x="84" y="214" font-size="11.5" fill="#b08d46">Cut to the bag as it sits, handles laid down</text>
+<text x="84" y="244" font-size="12" fill="#cfc6b8">•  Widest stored width — base and gusset included</text>
+<text x="84" y="266" font-size="12" fill="#cfc6b8">•  Stored height + the distance handles drop when laid</text>
+<text x="84" y="288" font-size="12" fill="#cfc6b8">•  Drawstring channel 1–2 cm below the top edge</text>
+<text x="84" y="310" font-size="12" fill="#cfc6b8">•  Gathered opening clears the handles and hardware</text>
+<text x="84" y="338" font-size="11.5" fill="#8d8578">The bag rests on its own base — it is not suspended by the handles.</text>
+
+<rect x="620" y="160" width="520" height="196" rx="6" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+<text x="644" y="192" font-size="16" font-weight="600" fill="#18120c">Shoe dust bag — two formats</text>
+<text x="644" y="214" font-size="11.5" fill="#6b6258">Both quoted to the drawing and the quantity</text>
+
+<rect x="644" y="230" width="228" height="106" rx="4" fill="#f1ece4"/>
+<text x="662" y="254" font-size="12.5" font-weight="600" fill="#18120c">Pair bag</text>
+<text x="662" y="276" font-size="11.5" fill="#6b6258">Two shoes sole-to-sole;</text>
+<text x="662" y="295" font-size="11.5" fill="#6b6258">combined width = cut width</text>
+<text x="662" y="318" font-size="11" fill="#8d8578">the common format</text>
+
+<rect x="888" y="230" width="228" height="106" rx="4" fill="#f1ece4"/>
+<text x="906" y="254" font-size="12.5" font-weight="600" fill="#18120c">Single-shoe bag</text>
+<text x="906" y="276" font-size="11.5" fill="#6b6258">One shoe at its widest point;</text>
+<text x="906" y="295" font-size="11.5" fill="#6b6258">one bag per shoe</text>
+<text x="906" y="318" font-size="11" fill="#8d8578">for embellished, spiked pairs</text>
+
+<text x="60" y="400" font-size="11.5" font-weight="600" letter-spacing="1.4" fill="#b08d46">2 — CHOOSE THE WEAVE FOR STORAGE</text>
+
+<text x="60" y="428" font-size="11.5" fill="#b08d46">← airflow</text>
+<text x="1140" y="428" font-size="11.5" text-anchor="end" fill="#b08d46">dust hold →</text>
+
+<rect x="60" y="440" width="540" height="36" rx="4" fill="#e8e1d5"/>
+<rect x="600" y="440" width="540" height="36" rx="4" fill="#18120c"/>
+<text x="330" y="463" font-size="12.5" font-weight="600" text-anchor="middle" fill="#18120c">Cotton canvas · Linen · Muslin</text>
+<text x="870" y="463" font-size="12.5" font-weight="600" text-anchor="middle" fill="#faf9f7">Satin · Velvet · Microfiber</text>
+
+<text x="60" y="504" font-size="12" font-weight="600" fill="#18120c">Open weave</text>
+<text x="60" y="524" font-size="11.5" fill="#6b6258">Moves air through, and dust with it.</text>
+<text x="60" y="543" font-size="11.5" fill="#6b6258">The safer long-term home for leather in use.</text>
+
+<text x="1140" y="504" font-size="12" font-weight="600" text-anchor="end" fill="#18120c">Dense face</text>
+<text x="1140" y="524" font-size="11.5" text-anchor="end" fill="#6b6258">Holds dust out, and moisture in.</text>
+<text x="1140" y="543" font-size="11.5" text-anchor="end" fill="#6b6258">Softer against patent leather and hardware.</text>
+
+<rect x="60" y="572" width="1080" height="66" rx="6" fill="#f1ece4"/>
+<text x="600" y="598" font-size="13" text-anchor="middle" fill="#18120c">A fabric dust bag keeps off dust and surface marks, and keeps one item from scuffing the next.</text>
+<text x="600" y="622" font-size="13" font-weight="600" text-anchor="middle" fill="#b08d46">It does not protect against crushing — that is a rigid container, a different product.</text>
+</g>
+</svg>
