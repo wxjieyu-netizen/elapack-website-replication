@@ -145,7 +145,7 @@ export function faqsFor(product: { name: string; category: string; materials: st
     },
     {
       q: "How long does the production process take?",
-      a: "Typical production time is 15–20 days after sample approval. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      a: "Typical production time is 15–20 days after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
     },
     {
       q: "Can I see a sample before placing a full order?",

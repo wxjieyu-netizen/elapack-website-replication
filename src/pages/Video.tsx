@@ -105,7 +105,7 @@ const faqs = [
   },
   {
     q: "How long does it take to complete a custom order?",
-    a: "Typical lead times range from 15–30 days for production after sample approval, depending on complexity and quantity. We'll provide a precise timeline during consultation.",
+    a: "Typical production lead time is 15–20 days, counted from sample approval and payment receipt, depending on complexity and quantity. We'll provide a precise timeline during consultation.",
   },
   {
     q: "What is the minimum order quantity (MOQ) for custom packaging?",
