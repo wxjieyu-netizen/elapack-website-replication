@@ -31,7 +31,7 @@ export const products: Product[] = [
     shortDesc:
       "Faux leather rigid jewelry box with velvet interior, custom embossing and smart compartments.",
     description:
-      "The black leather jewelry box is more than just storage — it is a timeless statement of sophistication. Crafted from smooth grain faux leather in a deep, matte black tone, this box offers an elevated unboxing experience that reflects your brand commitment to quality. Its sleek, fingerprint-resistant exterior enhances visual appeal while staying pristine even with daily use. Inside, the velvet-lined smart compartments are laid out around your assortment — rings, chains, earrings or a mixed set — and embossed initials or a foil logo carry the brand quietly on the lid. Each quotation starts with a free digital dieline so the interior layout and exterior panels come from one drawing, with die tooling quoted separately at USD 50–100 only when a new die is genuinely needed. Runs ship in 15–20 days from 200 pieces, colour is held through a four-step control chain, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles grain, shade and emboss depth before bulk.",
+      "The black leather jewelry box is more than just storage — it is a timeless statement of sophistication. Crafted from smooth grain faux leather in a deep, matte black tone, this box offers an elevated unboxing experience that reflects your brand commitment to quality. Its sleek, fingerprint-resistant exterior enhances visual appeal while staying pristine even with daily use. Inside, the velvet-lined smart compartments are laid out around your assortment — rings, chains, earrings or a mixed set — and embossed initials or a foil logo carry the brand quietly on the lid. Each quotation starts with a free digital dieline so the interior layout and exterior panels come from one drawing, with die tooling quoted separately at USD 50–100 only when a new die is genuinely needed. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Colour is reviewed against the approved sample, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles grain, shade and emboss depth before bulk.",
     image: "/images/carousel/black-leather-box.png",
     materials: "Faux leather, velvet interior, cardboard core",
     moq: "200 pcs",
@@ -61,13 +61,11 @@ export const products: Product[] = [
       { label: "Insert", value: "Foam, EVA, molded plastic, recycled paper" },
       { label: "Surface Finish", value: "Matte / glossy / debossed / foil stamping / spot UV" },
       { label: "Closure Type", value: "Magnetic / snap / tuck flap / ribbon tie / drawer" },
-      { label: "Eco-Friendly", value: "Recyclable / reusable" },
     ],
     customizationOptions: [
       "Custom exterior materials and colors",
       "Logo embossing or foil stamping",
       "Tailored interior inserts",
-      "FSC-certified materials on request",
     ],
   },
   {
@@ -77,7 +75,7 @@ export const products: Product[] = [
     shortDesc:
       "Compact white jewelry box with velvet cushion and custom logo printing — clean minimalist retail and gift packaging.",
     description:
-      "A compact white jewelry box with a glossy rigid shell and velvet-lined cushion, made for bracelets, small jewelry gifts and clean minimalist retail. The durable shell is built for retail handling and efficient shipping at a lightweight footprint; the velvet insert holds pieces securely, and the snap closure keeps the box shut on shelf and in transit. Branding goes directly on lid and base by silkscreen or hot stamp, with interior insert colors matched to your palette through the four-step color control chain. Sizes are custom on request - from single-bracelet minis to multi-piece gift formats - and runs start at 200 pieces with 15-20 day delivery. Approve a custom sample first (USD 25 plus USD 20 shipping, 3-5 days) to check print density on the glossy shell and cushion fit with your actual piece before committing to bulk.",
+      "A compact white jewelry box with a glossy rigid shell and velvet-lined cushion, made for bracelets, small jewelry gifts and clean minimalist retail. The durable shell is built for retail handling and efficient shipping at a lightweight footprint; the velvet insert holds pieces securely, and the snap closure keeps the box shut on shelf and in transit. Branding goes directly on lid and base by silkscreen or hot stamp, with interior insert colors matched to your palette against an approved sample before bulk. Sizes are custom on request - from single-bracelet minis to multi-piece gift formats - and runs start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Approve a custom sample first (USD 25 plus USD 20 shipping, 3-5 days) to check print density on the glossy shell and cushion fit with your actual piece before committing to bulk.",
     image: "/images/carousel/pandora-box.png",
     materials: "Plastic exterior, velvet interior insert",
     moq: "200 pcs",
@@ -105,7 +103,7 @@ export const products: Product[] = [
       { label: "Dimensions (L × W × H)", value: '1-3/4" × 2" × 1-1/2" (customizable)' },
       { label: "Surface Finish", value: "Glossy white" },
       { label: "Closure Type", value: "Snap closure" },
-      { label: "Color Control", value: "Four-step chain, sample approval before bulk" },
+      { label: "Color Review", value: "Confirm against approved sample before bulk" },
       { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
     ],
     customizationOptions: [
@@ -121,7 +119,7 @@ export const products: Product[] = [
     shortDesc:
       "Custom ring boxes for engagements, weddings and retail — single or double slots, velvet or foam cushions, your logo.",
     description:
-      "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour — MOQ from 200 pieces, delivered in 15–20 days. Every programme starts with a free digital dieline so cushion slots and box proportions come from one drawing; die tooling, when a new die is genuinely needed, is quoted separately at USD 50–100. Colour is held to Pantone references through a four-step control chain — artwork review, material test, on-press control and sample approval before bulk. Approve a custom sample first (USD 25 plus USD 20 shipping, 3–5 days) to check cushion fit with your actual ring before committing to the run.",
+      "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour — MOQ starts at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Every programme starts with a free digital dieline so cushion slots and box proportions come from one drawing; die tooling, when a new die is genuinely needed, is quoted separately at USD 50–100. Colour is held to Pantone references against an approved sample before bulk. Approve a custom sample first (USD 25 plus USD 20 shipping, 3–5 days) to check cushion fit with your actual ring before committing to the run.",
     image: "/images/carousel/ring-box-black.png",
     materials: "Velvet exterior, foam insert with velvet covering",
     moq: "200 pcs",
@@ -164,7 +162,7 @@ export const products: Product[] = [
     shortDesc:
       "Rigid luxury gift box with satin ribbon tie closure — premium presentation for corporate gifting.",
     description:
-      "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held through a four-step control chain from artwork review to sample approval before bulk. Interior options secure the product for gifting and courier conditions alike. Each quotation starts with a free digital dieline; die tooling, when a new die is genuinely needed, is quoted separately at USD 50-100. Runs ship in 15-20 days from 200 pieces, and a custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
+      "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held against an approved sample before bulk. Interior options secure the product for gifting and courier conditions alike. Each quotation starts with a free digital dieline; die tooling, when a new die is genuinely needed, is quoted separately at USD 50-100. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
     moq: "200 pcs",
@@ -209,7 +207,7 @@ export const products: Product[] = [
     shortDesc:
       "Sleek flip-top gift box with hidden magnetic closure and custom interior inserts.",
     description:
-      "A sleek flip-top gift box with a hidden magnetic closure, built for jewelry, eyewear, cosmetics and small luxury programs. The concealed magnet pair keeps the lid shut in transit yet opens one-handed in a retail setting, and because the mechanism sits inside the wrap, the exterior stays clean for full-surface print or foil branding. Construction is 1200-1500gsm greyboard wrapped in your choice of art paper, with interior inserts cut to the product's exact footprint so contents ride immobile - EVA, velvet or molded pulp by product weight and fragility. Specify Pantone references for wrap and print; color is held through a four-step control chain from artwork and Pantone review through on-press control to sample approval before bulk. Every quotation starts with a free digital dieline, die tooling is quoted separately at USD 50-100 only when a new die is genuinely needed, and runs ship in 15-20 days from 200 pieces. Approve a custom sample first (USD 25 plus USD 20 shipping, 3-5 days) to check closure feel and color before committing to bulk.",
+      "A sleek flip-top gift box with a hidden magnetic closure, built for jewelry, eyewear, cosmetics and small luxury programs. The concealed magnet pair keeps the lid shut in transit yet opens one-handed in a retail setting, and because the mechanism sits inside the wrap, the exterior stays clean for full-surface print or foil branding. Construction is 1200-1500gsm greyboard wrapped in your choice of art paper, with interior inserts cut to the product's exact footprint so contents ride immobile - EVA, velvet or molded pulp by product weight and fragility. Specify Pantone references for wrap and print; color is held against an approved sample before bulk. Every quotation starts with a free digital dieline, die tooling is quoted separately at USD 50-100 only when a new die is genuinely needed, and orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Approve a custom sample first (USD 25 plus USD 20 shipping, 3-5 days) to check closure feel and color before committing to bulk.",
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
     moq: "200 pcs",
@@ -545,7 +543,7 @@ export const products: Product[] = [
     shortDesc:
       "Soft velvet pouches in drawstring, flap, envelope and zipper styles — your colour, size and logo.",
     description:
-      "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure — drawstring, flap, envelope or zipper — your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Made to order in any size, from small gift pouches to large presentation bags. Runs start at 200 pieces with 15–20 day delivery, and velvet dye lots are held to your reference through a four-step colour control chain with sample approval before bulk. A custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles pile direction, shade and logo hand before the production order — the cheapest way to see the exact fabric your program will carry.",
+      "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure — drawstring, flap, envelope or zipper — your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Custom sizing is reviewed against the product and construction, from small gift pouches to larger presentation bags. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Velvet colour is reviewed against the approved sample before bulk. A custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles pile direction, shade and logo hand before the production order — the cheapest way to see the exact fabric your program will carry.",
     image: "/images/carousel/velvet-pouch.png",
     materials: "Velvet, cotton cord drawstring",
     moq: "200 pcs",
@@ -588,7 +586,7 @@ export const products: Product[] = [
     shortDesc:
       "Natural cotton pouches and bags — printable, gently protective, made to your size and logo.",
     description:
-      "Custom cotton pouches and bags for brands that want a natural, honest carrier. Unbleached cotton has a soft hand feel that suits artisan, beauty, jewelry and favor programs alike, and the fabric takes water-based ink prints beautifully. Choose your style — drawstring, flap, envelope or zipper — in any size from small jewelry and cosmetics pouches to larger gift bags, with your logo printed or woven in. Made to order — every fact on this page is our confirmed trade term.",
+      "Custom cotton pouches and bags for brands that want a natural, honest carrier. Unbleached cotton has a soft hand feel that suits artisan, beauty, jewelry and favor programs alike, and the fabric takes water-based ink prints beautifully. Choose your style — drawstring, flap, envelope or zipper — in sizes reviewed against your product, from small jewelry and cosmetics pouches to larger gift bags, with your logo printed or woven in. Made to order, with materials, dimensions and finishes confirmed in your quote.",
     image: "/images/carousel/cotton-pouch.png",
     materials: "Natural cotton, cotton cord",
     moq: "200 pcs",
@@ -596,7 +594,7 @@ export const products: Product[] = [
     industries: ["Jewelry", "Beauty", "Gift"],
     features: [
       {
-        title: "100% Natural Cotton",
+        title: "Cotton Fabric",
         desc: "Unbleached cotton fabric with a soft, natural hand feel.",
       },
       {
@@ -676,7 +674,7 @@ export const products: Product[] = [
     shortDesc:
       "Velvet-covered retail display stand that presents necklaces securely in showcases.",
     description:
-      "A velvet-covered necklace display stand for retail showcases. The plush surface holds chains and pendants in place without slipping, while the weighted base keeps the stand stable through high-traffic retail hours. Velvet colors are matched to your interior palette through the same four-step color control chain used across the packaging lines - artwork and reference review, material test, production control, and sample approval before bulk. Heights can be varied for different chain lengths, so one stand format can serve pendant, choker and lariat assortments. Runs start at 200 pieces with 15-20 day delivery, and a custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles fabric shade and proportion before the production order. Pairs with the velvet jewelry display set and stackable trays to build a coordinated counter program.",
+      "A velvet-covered necklace display stand for retail showcases. The plush surface holds chains and pendants in place without slipping, while the weighted base keeps the stand stable through high-traffic retail hours. Velvet colors are matched to your interior palette against an approved sample before bulk. Heights can be varied for different chain lengths, so one stand format can serve pendant, choker and lariat assortments. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles fabric shade and proportion before the production order. Pairs with the velvet jewelry display set and stackable trays to build a coordinated counter program.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet, wooden base",
     moq: "200 pcs",
@@ -703,7 +701,7 @@ export const products: Product[] = [
     specs: [
       { label: "Dimensions (L × W × H)", value: '12" × 4" × 10"' },
       { label: "Surface Finish", value: "Velvet covering" },
-      { label: "Color Control", value: "Four-step chain, sample approval before bulk" },
+      { label: "Color Review", value: "Confirm against approved sample before bulk" },
       { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
     ],
     customizationOptions: [
@@ -760,17 +758,17 @@ export const products: Product[] = [
     name: "Kraft Paper Shopping Bag",
     category: "Pouches & Bags",
     shortDesc:
-      "Durable recycled kraft shopping bag with twisted handles — custom logo printing.",
+      "Kraft shopping bag with twisted handles — custom logo printing.",
     description:
-      "A durable kraft paper shopping bag with twisted paper handles set into reinforced boards, built for retail carry-out, gift wrapping and market days. The natural kraft substrate takes flexo or offset logo printing in up to four colors, and its visible fiber texture gives printed marks a warm, honest backdrop. Sizes and paper weights are custom - from boutique counter bags to event carry-all formats - with handle options in twisted paper or cotton cord. Construction is plastic-free and kerbside recyclable as made. Production runs from 200 pieces in 15-20 days, with color held to named references through a four-step control chain from artwork review to pre-bulk approval. Start with the free dieline at quotation to lock gusset depth and base format for your typical load, then approve a custom sample (USD 25 plus USD 20 shipping, 3-5 days) to test handle comfort and print density in hand before the bulk run.",
+      "A durable kraft paper shopping bag with twisted paper handles set into reinforced boards, built for retail carry-out, gift wrapping and market days. The natural kraft substrate takes flexo or offset logo printing in up to four colors, and its visible fiber texture gives printed marks a warm, honest backdrop. Sizes and paper weights are custom - from boutique counter bags to event carry-all formats - with handle options in twisted paper or cotton cord. Ask us to confirm the selected paper, handle and finish before assessing disposal options. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Colour is reviewed against the approved sample before bulk. Start with the free dieline at quotation to lock gusset depth and base format for your typical load, then approve a custom sample (USD 25 plus USD 20 shipping, 3-5 days) to test handle comfort and print density in hand before the bulk run.",
     image: "/images/carousel/kraft-bag.png",
-    materials: "Recycled kraft paper, twisted paper handles",
+    materials: "Kraft paper, twisted paper handles",
     moq: "200 pcs",
     leadTime: "15–20 days",
     industries: ["Fashion", "Beauty", "Gift"],
     features: [
       {
-        title: "Recycled Kraft",
+        title: "Kraft Paper",
         desc: "Natural kraft substrate with visible fiber texture and eco story.",
       },
       {
@@ -782,14 +780,13 @@ export const products: Product[] = [
         desc: "Flexo or offset logo printing in up to 4 colors.",
       },
       {
-        title: "Fully Recyclable",
-        desc: "Plastic-free construction — genuinely kerbside recyclable.",
+        title: "Paper Construction",
+        desc: "Review the selected paper, handle, inks and finish when assessing disposal options.",
       },
     ],
     specs: [
       { label: "Dimensions (L × W × H)", value: '10" × 8" × 12" (customizable)' },
       { label: "Handle Type", value: "Twisted paper / cotton cord" },
-      { label: "Eco-Friendly", value: "Recyclable" },
       { label: "Dieline", value: "Free digital drawing at quotation" },
       { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
     ],
@@ -806,7 +803,7 @@ export const products: Product[] = [
     shortDesc:
       "Stackable velvet-lined jewelry tray system with customizable compartments.",
     description:
-      "A stackable velvet-lined jewelry tray system for organized showcase display and drawer storage. Velvet-lined compartments protect pieces while the vertical stacking format lets one SKU build a full display wall - trays lock in stack so the tower stays stable and presentable through retail hours. The MDF core stays flat and strong under stacked loads, and compartment counts and sizes are laid out around your assortment, from rings and earrings to chains and watches. Velvet colors match your counter palette through the four-step color control chain, with sample approval before bulk. Runs start at 200 pieces with 15-20 day lead times, and a custom sample (USD 25 plus USD 20 shipping, 3-5 days) confirms lining shade and compartment fit with your actual pieces before the production order. Combine with the velvet display set for a coordinated showcase program.",
+      "A stackable velvet-lined jewelry tray system for organized showcase display and drawer storage. Velvet-lined compartments protect pieces while the vertical stacking format lets one SKU build a full display wall - trays lock in stack so the tower stays stable and presentable through retail hours. The MDF core stays flat and strong under stacked loads, and compartment counts and sizes are laid out around your assortment, from rings and earrings to chains and watches. Velvet colors match your counter palette against an approved sample before bulk. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) confirms lining shade and compartment fit with your actual pieces before the production order. Combine with the velvet display set for a coordinated showcase program.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "MDF, velvet lining",
     moq: "200 pcs",
@@ -833,7 +830,7 @@ export const products: Product[] = [
     specs: [
       { label: "Dimensions (L × W × H)", value: '14" × 8" × 1-1/2"' },
       { label: "Surface Finish", value: "Velvet covering" },
-      { label: "Color Control", value: "Four-step chain, sample approval before bulk" },
+      { label: "Color Review", value: "Confirm against approved sample before bulk" },
       { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
     ],
     customizationOptions: [
@@ -849,7 +846,7 @@ export const products: Product[] = [
     shortDesc:
       "Matched velvet display set — necklace busts, T-bar stand, ring cones, earring stands and cushions in one coordinated program.",
     description:
-      "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions — all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language. Set composition is built around your assortment — counts and heights are specified per piece, not fixed — and the velvet shade is matched to your counter palette through the four-step color control chain with sample approval before bulk. Runs start at 200 pieces per set with 15–20 day delivery, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) confirms shade and proportion with your actual jewelry before the production order. Stacks with the tray system for a full showcase build-out.",
+      "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions — all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language. Set composition is built around your assortment — counts and heights are specified per piece, not fixed — and the velvet shade is matched to your counter palette against an approved sample before bulk. Orders start at 200 pieces per set. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3–5 days) confirms shade and proportion with your actual jewelry before the production order. Stacks with the tray system for a full showcase build-out.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet over structured core",
     moq: "200 pcs",
@@ -893,7 +890,7 @@ export const products: Product[] = [
     shortDesc:
       "Pebbled faux-leather envelope pouch with gold foil logo, snap closure and soft suede-touch interior.",
     description:
-      "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries — jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand. Sizes are cut to your contents, from single-card minis to eyewear-length formats, and foil colour, thread and interior shade are specified together so the pouch reads as one palette — held through the four-step colour control chain with sample approval before bulk. Production runs from 200 pieces in 15–20 days, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles flap hand, foil density and interior fit with your actual product before the run.",
+      "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries — jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand. Sizes are cut to your contents, from single-card minis to eyewear-length formats, and foil colour, thread and interior shade are specified together so the pouch reads as one palette — held against an approved sample before bulk. Production runs from 200 pieces in 15–20 days, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles flap hand, foil density and interior fit with your actual product before the run.",
     image: "/images/carousel/image.png",
     materials: "Pebbled faux leather, suede-touch lining",
     moq: "200 pcs",
@@ -1025,7 +1022,7 @@ export const products: Product[] = [
     shortDesc:
       "Breathable unbleached muslin drawstring pouch — the natural-look carrier for jewelry, favors and small goods.",
     description:
-      "An unbleached muslin pouch with a visible, honest weave. Muslin is breathable, which makes it a natural fit for items that should not sit in sealed plastic — and its hand-made look suits artisan, bridal favor and natural-positioned brands. Cut, sewn and printed to order in your size, with a cotton drawstring and your logo in water-based ink. Runs start at 200 pieces with 15–20 day delivery, and print density on the open weave is confirmed on a custom sample (USD 25 plus USD 20 shipping, 3–5 days) before bulk — the weave reads differently at different ink weights, so the sample stage earns itself here. Weave weight and drawstring length are specified to your contents, from favor minis to bottle-length formats. Product photography is in progress; request a stock sample to see the weave.",
+      "An unbleached muslin pouch with a visible, honest weave. Muslin is breathable, which makes it a natural fit for items that should not sit in sealed plastic — and its hand-made look suits artisan, bridal favor and natural-positioned brands. Cut, sewn and printed to order in your size, with a cotton drawstring and your logo in water-based ink. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Print density on the open weave is confirmed on a custom sample (USD 25 plus USD 20 shipping, 3–5 days) before bulk — the weave reads differently at different ink weights, so the sample stage earns itself here. Weave weight and drawstring length are specified to your contents, from favor minis to bottle-length formats. Product photography is in progress; request a stock sample to see the weave.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Unbleached muslin, cotton cord",
     moq: "200 pcs",
