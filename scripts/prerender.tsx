@@ -79,7 +79,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/industries": "Industries We Serve — Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions — Custom, Materials & Sustainability | ELAPACK",
   "/news": "News & Insights | ELAPACK",
-  "/about": "About ELAPACK — From Workshop to Global Partner",
+  "/about": "About ELAPACK — Custom Packaging for Brands",
   "/contact": "Contact ELAPACK — Get a Custom Packaging Quote",
   "/video": "Inside ELAPACK — Factory & Craft Videos",
   ...Object.fromEntries(ARTICLES.map((a) => [`/news/${a.slug}`, `${a.title} | ELAPACK`])),

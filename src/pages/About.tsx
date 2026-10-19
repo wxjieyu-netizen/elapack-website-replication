@@ -88,7 +88,7 @@ export default function About() {
             <div className="about-story-text reveal reveal-delay-2">
               <p className="eyebrow">Our Story</p>
               <h2 className="section-title" style={{ marginTop: "1rem" }}>
-                From workshop to global partner.
+                Custom packaging, built around your brief.
               </h2>
               <p className="about-text">
                 ELAPACK approaches packaging as more than a container — it is
