@@ -31,7 +31,7 @@ export const products: Product[] = [
     shortDesc:
       "Faux leather rigid jewelry box with velvet interior, custom embossing and smart compartments.",
     description:
-      "The black leather jewelry box is more than just storage — it is a timeless statement of sophistication. Crafted from smooth grain faux leather in a deep, matte black tone, this box offers an elevated unboxing experience that reflects your brand commitment to quality. Its sleek, fingerprint-resistant exterior enhances visual appeal while staying pristine even with daily use. Inside, the velvet-lined smart compartments are laid out around your assortment — rings, chains, earrings or a mixed set — and embossed initials or a foil logo carry the brand quietly on the lid. A digital dieline preview is available without a separate drawing charge; confirm the drawing requirements with us. A new physical cutting die, when needed, is quoted separately at USD 50–100. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Colour is reviewed against the approved sample, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles grain, shade and emboss depth before bulk.",
+      "The black leather jewelry box is more than just storage — it is a timeless statement of sophistication. Crafted from smooth grain faux leather in a deep, matte black tone, this box offers an elevated unboxing experience that reflects your brand commitment to quality. Its sleek, fingerprint-resistant exterior enhances visual appeal while staying pristine even with daily use. Inside, the velvet-lined smart compartments are laid out around your assortment — rings, chains, earrings or a mixed set — and embossed initials or a foil logo carry the brand quietly on the lid. A free digital dieline preview is available to review the box structure and insert layout. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Colour is reviewed against the approved sample, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles grain, shade and emboss depth before bulk.",
     image: "/images/carousel/black-leather-box.png",
     materials: "Faux leather, velvet interior, cardboard core",
     moq: "200 pcs",
@@ -119,7 +119,7 @@ export const products: Product[] = [
     shortDesc:
       "Custom ring boxes for engagements, weddings and retail — single or double slots, velvet or foam cushions, your logo.",
     description:
-      "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour — MOQ starts at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. A digital dieline preview is available without a separate drawing charge; confirm the required box and cushion layout with us. A new physical cutting die, when needed, is quoted separately at USD 50–100. Colour is held to Pantone references against an approved sample before bulk. Approve a custom sample first (USD 25 plus USD 20 shipping, 3–5 days) to check cushion fit with your actual ring before committing to the run.",
+      "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour — MOQ starts at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. A free digital dieline preview is available to review the box and cushion layout. Colour is held to Pantone references against an approved sample before bulk. Approve a custom sample first (USD 25 plus USD 20 shipping, 3–5 days) to check cushion fit with your actual ring before committing to the run.",
     image: "/images/carousel/ring-box-black.png",
     materials: "Velvet exterior, foam insert with velvet covering",
     moq: "200 pcs",
@@ -162,7 +162,7 @@ export const products: Product[] = [
     shortDesc:
       "Rigid luxury gift box with satin ribbon tie closure — premium presentation for corporate gifting.",
     description:
-      "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held against an approved sample before bulk. Interior options secure the product for gifting and courier conditions alike. A digital dieline preview is available without a separate drawing charge. A new physical cutting die, when needed, is quoted separately at USD 50–100. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
+      "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held against an approved sample before bulk. Interior options secure the product for gifting and courier conditions alike. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
     moq: "200 pcs",
@@ -190,7 +190,7 @@ export const products: Product[] = [
       { label: "Dimensions (L × W × H)", value: '8" × 6" × 3" (customizable)' },
       { label: "Closure Type", value: "Ribbon tie" },
       { label: "Surface Finish", value: "Matte / foil stamping / spot UV" },
-      { label: "Dieline", value: "Free digital drawing at quotation" },
+      { label: "Dieline", value: "Free digital dieline preview" },
       { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
     ],
     customizationOptions: [
@@ -207,7 +207,7 @@ export const products: Product[] = [
     shortDesc:
       "Sleek flip-top gift box with hidden magnetic closure and custom interior inserts.",
     description:
-      "A sleek flip-top gift box with a hidden magnetic closure, built for jewelry, eyewear, cosmetics and small luxury programs. The concealed magnet pair keeps the lid shut in transit yet opens one-handed in a retail setting, and because the mechanism sits inside the wrap, the exterior stays clean for full-surface print or foil branding. Construction is 1200-1500gsm greyboard wrapped in your choice of art paper, with interior inserts cut to the product's exact footprint so contents ride immobile - EVA, velvet or molded pulp by product weight and fragility. Specify Pantone references for wrap and print; color is held against an approved sample before bulk. A digital dieline preview is available without a separate drawing charge. A new physical cutting die, when needed, is quoted separately at USD 50–100. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Approve a custom sample first (USD 25 plus USD 20 shipping, 3-5 days) to check closure feel and color before committing to bulk.",
+      "A sleek flip-top gift box with a hidden magnetic closure, built for jewelry, eyewear, cosmetics and small luxury programs. The concealed magnet pair keeps the lid shut in transit yet opens one-handed in a retail setting, and because the mechanism sits inside the wrap, the exterior stays clean for full-surface print or foil branding. Construction is 1200-1500gsm greyboard wrapped in your choice of art paper, with interior inserts cut to the product's exact footprint so contents ride immobile - EVA, velvet or molded pulp by product weight and fragility. Specify Pantone references for wrap and print; color is held against an approved sample before bulk. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval; shipping time is quoted separately. Approve a custom sample first (USD 25 plus USD 20 shipping, 3-5 days) to check closure feel and color before committing to bulk.",
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
     moq: "200 pcs",
@@ -235,7 +235,7 @@ export const products: Product[] = [
       { label: "Dimensions (L × W × H)", value: '6" × 4" × 2" (customizable)' },
       { label: "Closure Type", value: "Magnetic / flip-top" },
       { label: "Surface Finish", value: "Matte / glossy" },
-      { label: "Dieline", value: "Free digital drawing at quotation" },
+      { label: "Dieline", value: "Free digital dieline preview" },
       { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
     ],
     customizationOptions: [
@@ -787,7 +787,7 @@ export const products: Product[] = [
     specs: [
       { label: "Dimensions (L × W × H)", value: '10" × 8" × 12" (customizable)' },
       { label: "Handle Type", value: "Twisted paper / cotton cord" },
-      { label: "Dieline", value: "Free digital drawing at quotation" },
+      { label: "Dieline", value: "Free digital dieline preview" },
       { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
     ],
     customizationOptions: [
