@@ -60,14 +60,13 @@ export default function About() {
         <div className="container">
           <p className="eyebrow reveal">About Us</p>
           <h1 className="page-title reveal reveal-delay-1">
-            Packaging
+            Packaging{" "}
             <br />
             Aesthetics Builders
           </h1>
           <p className="page-subtitle reveal reveal-delay-2">
-            A trade-and-manufacturing integrated enterprise, deeply rooted in
-            the European and American markets — crafting packaging that
-            elevates brands.
+            Custom packaging for jewelry, eyewear, beauty, and gifting brands
+            — shaped around each buyer's product and brief.
           </p>
         </div>
       </section>
@@ -201,8 +200,8 @@ export default function About() {
                 and any supporting documents for that option.
               </p>
               <p className="about-text">
-                Because the world's finest brands demand materials that feel
-                as good as they look — and perform as well as they promise.
+                Choose material, finish, and structure based on the product
+                and its intended use.
               </p>
             </div>
             <div className="materials-image reveal reveal-delay-2">
