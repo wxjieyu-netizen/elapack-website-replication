@@ -628,7 +628,7 @@ export default function Article() {
           )}
           <div className="article-body">{renderBody(article.body, ANCHORS[article.slug])}</div>
           <div className="article-cta reveal">
-            <p className="article-cta-facts">MOQ 200 per design · free dieline at quotation · custom sample USD 25 + USD 20 shipping, 3-5 days</p>
+            <p className="article-cta-facts">MOQ 200 per design · free dieline preview for approval · custom sample USD 25 + USD 20 shipping, 3-5 days</p>
             <Link to="/contact/" className="btn-primary article-cta-btn">Request a quote</Link>
           </div>
           {related.length > 0 && (
