@@ -8,7 +8,6 @@ const trustBadges = [
   { icon: "M", label: "Custom Pantone Matching" },
   { icon: "C", label: "Custom Options" },
   { icon: "D", label: "Design & Samples" },
-  { icon: "M", label: "Low MOQ From 200 pcs" },
 ];
 
 const processSteps = [
@@ -122,7 +121,10 @@ export default function ProductDetail() {
               </div>
 
               <div className="product-trust-badges">
-                {trustBadges.map((badge) => (
+                {[
+                  ...trustBadges,
+                  { icon: "M", label: `Low MOQ From ${product.moq}` },
+                ].map((badge) => (
                   <div key={badge.label} className="product-trust-badge">
                     <span className="product-trust-icon">{badge.icon}</span>
                     <span className="product-trust-label">{badge.label}</span>

@@ -1195,7 +1195,7 @@ export const articles: Article[] = ([
   "title": "Custom Dust Bags for Handbags and Shoes: Fabrics, Sizes and Ordering Data",
   "category": "Sourcing Guide",
   "date": "October 2026",
-  "readTime": "10 min read",
+  "readTime": "21 min read",
   "image": "/images/covers/custom-dust-bags-guide.webp",
   "imageAlt": "Guide cover card: custom dust bags for handbags and shoes — sizing from the stored bag, the storage fabric spectrum and the ordering terms",
   "imageWidth": 2400,

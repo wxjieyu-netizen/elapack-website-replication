@@ -5484,7 +5484,7 @@ The sample is where the two failure modes are tested: does the necklace fold onc
     "title": "Custom Dust Bags for Handbags and Shoes: Fabrics, Sizes and Ordering Data",
     "category": "Sourcing Guide",
     "date": "October 2026",
-    "readTime": "10 min read",
+    "readTime": "21 min read",
     "image": "/images/covers/custom-dust-bags-guide.webp",
     "imageAlt": "Guide cover card: custom dust bags for handbags and shoes \u2014 sizing from the stored bag, the storage fabric spectrum and the ordering terms",
     "imageWidth": 2400,
@@ -5786,8 +5786,7 @@ var import_jsx_runtime7 = require("react/jsx-runtime");
 var trustBadges = [
   { icon: "M", label: "Custom Pantone Matching" },
   { icon: "C", label: "Custom Options" },
-  { icon: "D", label: "Design & Samples" },
-  { icon: "M", label: "Low MOQ From 200 pcs" }
+  { icon: "D", label: "Design & Samples" }
 ];
 var processSteps = [
   { step: "01", title: "Establish Contact" },
@@ -5864,7 +5863,10 @@ function ProductDetail() {
             /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-outline", children: "Contact Us" })
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-trust-badges", children: trustBadges.map((badge) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-trust-badge", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-trust-badges", children: [
+          ...trustBadges,
+          { icon: "M", label: `Low MOQ From ${product.moq}` }
+        ].map((badge) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-trust-badge", children: [
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-trust-icon", children: badge.icon }),
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-trust-label", children: badge.label })
         ] }, badge.label)) }),
