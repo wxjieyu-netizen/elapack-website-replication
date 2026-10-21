@@ -38,9 +38,9 @@ export default function Products() {
             Ecosystem
           </h1>
           <p className="page-subtitle reveal reveal-delay-2">
-            From single pieces to full brand systems — every product is
-            engineered for luxury, designed for consistency, and produced for
-            scale.
+            Browse individual packaging components, retail display props and
+            coordinated box-and-pouch programs. Send your product dimensions
+            and quantities to discuss a suitable specification.
           </p>
         </div>
       </section>
@@ -64,11 +64,14 @@ export default function Products() {
               </p>
             </Link>
             <Link to="/sets/" className="value-card reveal reveal-delay-3">
-              <h3 className="value-title">Packaging Sets</h3>
+              <h3 className="value-title">Box + Pouch Packaging Sets</h3>
               <p className="value-desc">
-                Pouch, box, insert and card designed together as one
-                colour-matched set.
+                Plan the box, pouch and any insert together. Each component starts at 200 pieces.
               </p>
+            </Link>
+            <Link to="/products/?category=Retail%20Display%20Props" className="value-card reveal reveal-delay-4">
+              <h3 className="value-title">Retail Display Props</h3>
+              <p className="value-desc">Browse jewelry stands and trays for a retail display brief, separate from box-and-pouch packaging sets.</p>
             </Link>
           </div>
         </div>
@@ -104,12 +107,13 @@ export default function Products() {
                 <div className="catalog-card-image">
                   <img
                     src={product.image}
-                    alt={product.name}
+                    alt={product.image.endsWith("product-coming-soon.svg") ? "" : product.name}
                     loading="lazy"
                     width={1254}
                     height={1254}
                   />
                   <span className="catalog-category">{product.category}</span>
+                  {product.image.endsWith("product-coming-soon.svg") && <span className="catalog-image-pending">Product photo pending</span>}
                 </div>
                 <div className="catalog-card-body">
                   <h3 className="catalog-name">{product.name}</h3>

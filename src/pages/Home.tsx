@@ -6,12 +6,12 @@ import { products as catalog, getProductBySlug } from "../data/products";
 const featuredSlugs = [
   { slug: "magnetic-closure-gift-box", tag: "Signature" },
   { slug: "black-leather-jewelry-box", tag: "Icon" },
-  { slug: "luxury-gift-box-ribbon", tag: "Premium" },
+  { slug: "custom-perfume-boxes", tag: "Fragrance" },
   { slug: "custom-velvet-pouches", tag: "Bestseller" },
   { slug: "custom-cotton-pouches", tag: "Eco" },
   { slug: "kraft-paper-shopping-bag", tag: "Retail" },
   { slug: "custom-ring-boxes", tag: "Wedding" },
-  { slug: "stackable-jewelry-tray", tag: "Display" },
+  { slug: "custom-eyelash-packaging-boxes", tag: "Beauty" },
 ];
 
 const products = featuredSlugs
@@ -31,26 +31,26 @@ const stats = [
 const popularSolutions = [
   {
     name: "Luxury Gift Boxes",
-    category: "Boxes",
+    href: "/boxes/",
     desc: "Custom rigid boxes, magnetic closures, drawer styles, and luxury gift-ready packaging for premium brands and wholesale buyers.",
     image: "/popular-gift-boxes.webp",
   },
   {
     name: "Shopping Bags & Pouches",
-    category: "Pouches & Bags",
+    href: "/pouches-bags/",
     desc: "Brand-supporting paper bags, hang tags, and cards that complete your packaging system and improve consistency.",
     image: "/popular-shopping-bags.webp",
   },
   {
-    name: "Custom Ribbons",
-    category: "Ribbons & Accessories",
-    desc: "Woven and printed ribbons in silk, satin, and grosgrain — branded to your exact color, width, and weave specifications.",
+    name: "Ribbons & Finishing Accessories",
+    href: "/ribbons-accessories/",
+    desc: "Explore ribbons and trims as finishing components for a box or pouch program.",
     image: "/popular-ribbons.webp",
   },
   {
     name: "Complete Packaging Sets",
-    category: "Sets & Complete Packaging",
-    desc: "Coordinated gift boxes, bags, ribbons, and tissue paper — designed as one cohesive brand system.",
+    href: "/sets/",
+    desc: "Plan the box, pouch and insert as separate components of one packaging brief.",
     image: "/popular-packaging-sets.webp",
   },
 ];
@@ -268,7 +268,7 @@ export default function Home() {
                   <span className="text-link-arrow">→</span>
                 </Link>
                 <Link to="/video/" className="text-link">
-                  Custom Solution
+                  See Process & Video
                   <span className="text-link-arrow">→</span>
                 </Link>
               </div>
@@ -333,7 +333,7 @@ export default function Home() {
           <div className="popular-grid">
             {popularSolutions.map((item, i) => (
               <Link
-                to={`/products/?category=${encodeURIComponent(item.category)}`}
+                to={item.href}
                 key={item.name}
                 className={`popular-card reveal reveal-delay-${(i % 4) + 1}`}
               >
@@ -361,6 +361,9 @@ export default function Home() {
               </Link>
               <Link to="/products/" className="btn-outline">
                 View Catalogue
+              </Link>
+              <Link to="/industries/" className="btn-outline">
+                Browse by Industry
               </Link>
             </div>
           </div>

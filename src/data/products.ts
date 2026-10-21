@@ -668,7 +668,7 @@ export const products: Product[] = [
   {
     slug: "velvet-necklace-display",
     name: "Velvet Necklace Display Stand",
-    category: "Sets & Complete Packaging",
+    category: "Retail Display Props",
     shortDesc:
       "Velvet-covered retail display stand that presents necklaces securely in showcases.",
     description:
@@ -711,7 +711,7 @@ export const products: Product[] = [
   {
     slug: "acrylic-earring-display",
     name: "Acrylic Earring Display Stand",
-    category: "Sets & Complete Packaging",
+    category: "Retail Display Props",
     shortDesc:
       "Crystal-clear acrylic earring display with multi-tier slots and weighted base.",
     description:
@@ -797,7 +797,7 @@ export const products: Product[] = [
   {
     slug: "stackable-jewelry-tray",
     name: "Stackable Jewelry Tray",
-    category: "Sets & Complete Packaging",
+    category: "Retail Display Props",
     shortDesc:
       "Stackable velvet-lined jewelry tray system with customizable compartments.",
     description:
@@ -840,7 +840,7 @@ export const products: Product[] = [
   {
     slug: "velvet-jewelry-display-set",
     name: "Velvet Jewelry Display Set",
-    category: "Sets & Complete Packaging",
+    category: "Retail Display Props",
     shortDesc:
       "Matched velvet display set — necklace busts, T-bar stand, ring cones, earring stands and cushions in one coordinated program.",
     description:
@@ -1154,12 +1154,12 @@ export const categories = [
   "All",
   "Boxes",
   "Pouches & Bags",
-  "Sets & Complete Packaging",
+  "Retail Display Props",
   "Sampling Cards",
 ];
 
 /** Derived: categories that actually have products, in display order. */
-export const activeCategories = ["Boxes", "Pouches & Bags", "Sets & Complete Packaging", "Sampling Cards"];
+export const activeCategories = ["Boxes", "Pouches & Bags", "Retail Display Props", "Sampling Cards"];
 
 export const industries = [
   "Jewelry",

@@ -124,8 +124,8 @@ const esc = (s: string) =>
 const ld = (obj: unknown) => JSON.stringify(obj).replace(/</g, "\\u003c");
 
 /**
- * og:image / Product image: SVG placeholders are not valid social-card or
- * rich-result images, so placeholder SKUs fall back to the site hero.
+ * Social sharing can use the site hero when a SKU has only an SVG placeholder.
+ * Product.image below must describe the actual product, so it stays absent.
  */
 const pageImage = (image: string) =>
   image.endsWith(".svg") ? `${SITE}/hero-packaging.webp` : `${SITE}${image}`;
@@ -280,7 +280,7 @@ for (const route of ROUTES) {
         "@id": `${canonical}#product`,
         name: product.name,
         description: product.shortDesc,
-        ...(specReview && product.image.endsWith(".svg") ? {} : { image: [ogImage] }),
+        ...(product.image.endsWith(".svg") ? {} : { image: [ogImage] }),
         sku: product.slug,
         category: product.category,
         ...(specReview ? {} : { material: product.materials }),

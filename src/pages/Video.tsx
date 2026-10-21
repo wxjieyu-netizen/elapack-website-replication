@@ -106,7 +106,7 @@ export default function Video() {
           <p className="page-subtitle reveal reveal-delay-2">
             Review the available packaging footage and the steps from your
             brief through sampling, production and delivery. Send us your
-            product details to discuss an order-specific plan.
+            product details to discuss an order-specific plan. Still comparing packaging types? Browse <Link to="/solutions/">structures, materials and finishes</Link> first.
           </p>
         </div>
       </section>

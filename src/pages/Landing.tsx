@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { getLandingBySlug } from "../data/landings";
 
 /**
@@ -31,6 +32,9 @@ export default function Landing({ slug }: { slug: string }) {
             <p className="about-text" style={{ maxWidth: "820px", margin: "0 auto" }}>
               {landing.intro}
             </p>
+            {slug === "sets" && <p className="about-text landing-related-links" style={{ maxWidth: "820px", margin: "1rem auto 0" }}>
+              Compare <Link to="/boxes/">box options</Link> and <Link to="/pouches-bags/">pouch options</Link>, or browse <Link to="/products/?category=Retail%20Display%20Props">retail display props</Link> for a separate display project.
+            </p>}
           </div>
           {landing.hero && (
             <figure className="landing-hero reveal" style={{ marginTop: "2.5rem" }}>

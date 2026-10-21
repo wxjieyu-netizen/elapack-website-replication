@@ -37,8 +37,9 @@ export default function Footer() {
             <ul>
               <li><Link to="/products/?category=Pouches%20%26%20Bags">Pouches & Bags</Link></li>
               <li><Link to="/products/?category=Boxes">Boxes</Link></li>
-              <li><Link to="/products/?category=Sets%20%26%20Complete%20Packaging">Sets & Complete Packaging</Link></li>
-              <li><Link to="/products/?category=Ribbons%20%26%20Accessories">Ribbons & Accessories</Link></li>
+              <li><Link to="/sets/">Complete Packaging Sets</Link></li>
+              <li><Link to="/products/?category=Retail%20Display%20Props">Retail Display Props</Link></li>
+              <li><Link to="/ribbons-accessories/">Ribbons & Accessories</Link></li>
             </ul>
           </div>
 

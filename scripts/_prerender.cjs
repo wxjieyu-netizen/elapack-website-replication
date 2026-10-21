@@ -29,7 +29,7 @@ var import_node_path = __toESM(require("node:path"), 1);
 var import_server2 = require("react-router-dom/server");
 
 // src/App.tsx
-var import_react_router_dom17 = require("react-router-dom");
+var import_react_router_dom18 = require("react-router-dom");
 
 // src/components/Layout.tsx
 var import_react4 = require("react");
@@ -673,7 +673,7 @@ var products = [
   {
     slug: "velvet-necklace-display",
     name: "Velvet Necklace Display Stand",
-    category: "Sets & Complete Packaging",
+    category: "Retail Display Props",
     shortDesc: "Velvet-covered retail display stand that presents necklaces securely in showcases.",
     description: "A velvet-covered necklace display stand for retail showcases. The plush surface holds chains and pendants in place without slipping, while the weighted base keeps the stand stable through high-traffic retail hours. Velvet colors are matched to your interior palette against an approved sample before bulk. Heights can be varied for different chain lengths, so one stand format can serve pendant, choker and lariat assortments. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles fabric shade and proportion before the production order. Pairs with the velvet jewelry display set and stackable trays to build a coordinated counter program.",
     image: "/images/placeholder/product-coming-soon.svg",
@@ -714,7 +714,7 @@ var products = [
   {
     slug: "acrylic-earring-display",
     name: "Acrylic Earring Display Stand",
-    category: "Sets & Complete Packaging",
+    category: "Retail Display Props",
     shortDesc: "Crystal-clear acrylic earring display with multi-tier slots and weighted base.",
     description: "A crystal-clear acrylic earring display with tiered slots and a weighted base, designed so the jewelry - not the stand - carries the visual. Optical-grade clarity suits contemporary retail settings; the multi-tier layout puts multiple pairs at eye level while the weighted base resists tipping in busy display environments. Slot count, tier count and height are engineered around your assortment, from stud-and-drop pairs to statement earrings, and bases take direct logo printing or frosted and colored acrylic variants for brand-matched counters. Production runs from 200 pieces in 15-20 days. Approve proportions with a custom sample first (USD 25 plus USD 20 shipping, 3-5 days), and specify slot layouts on the drawing so the finished stand fits your exact earring range without rework.",
     image: "/images/placeholder/product-coming-soon.svg",
@@ -796,7 +796,7 @@ var products = [
   {
     slug: "stackable-jewelry-tray",
     name: "Stackable Jewelry Tray",
-    category: "Sets & Complete Packaging",
+    category: "Retail Display Props",
     shortDesc: "Stackable velvet-lined jewelry tray system with customizable compartments.",
     description: "A stackable velvet-lined jewelry tray system for organized showcase display and drawer storage. Velvet-lined compartments protect pieces while the vertical stacking format lets one SKU build a full display wall - trays lock in stack so the tower stays stable and presentable through retail hours. The MDF core stays flat and strong under stacked loads, and compartment counts and sizes are laid out around your assortment, from rings and earrings to chains and watches. Velvet colors match your counter palette against an approved sample before bulk. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) confirms lining shade and compartment fit with your actual pieces before the production order. Combine with the velvet display set for a coordinated showcase program.",
     image: "/images/placeholder/product-coming-soon.svg",
@@ -837,7 +837,7 @@ var products = [
   {
     slug: "velvet-jewelry-display-set",
     name: "Velvet Jewelry Display Set",
-    category: "Sets & Complete Packaging",
+    category: "Retail Display Props",
     shortDesc: "Matched velvet display set \u2014 necklace busts, T-bar stand, ring cones, earring stands and cushions in one coordinated program.",
     description: "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions \u2014 all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language. Set composition is built around your assortment \u2014 counts and heights are specified per piece, not fixed \u2014 and the velvet shade is matched to your counter palette against an approved sample before bulk. Orders start at 200 pieces per set. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3\u20135 days) confirms shade and proportion with your actual jewelry before the production order. Stacks with the tray system for a full showcase build-out.",
     image: "/images/placeholder/product-coming-soon.svg",
@@ -1136,7 +1136,7 @@ var categories = [
   "All",
   "Boxes",
   "Pouches & Bags",
-  "Sets & Complete Packaging",
+  "Retail Display Props",
   "Sampling Cards"
 ];
 var industries = [
@@ -1570,8 +1570,9 @@ function Footer() {
         /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("ul", { children: [
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/products/?category=Pouches%20%26%20Bags", children: "Pouches & Bags" }) }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/products/?category=Boxes", children: "Boxes" }) }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/products/?category=Sets%20%26%20Complete%20Packaging", children: "Sets & Complete Packaging" }) }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/products/?category=Ribbons%20%26%20Accessories", children: "Ribbons & Accessories" }) })
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/sets/", children: "Complete Packaging Sets" }) }),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/products/?category=Retail%20Display%20Props", children: "Retail Display Props" }) }),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/ribbons-accessories/", children: "Ribbons & Accessories" }) })
         ] })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "footer-col", children: [
@@ -1679,12 +1680,12 @@ var import_jsx_runtime5 = require("react/jsx-runtime");
 var featuredSlugs = [
   { slug: "magnetic-closure-gift-box", tag: "Signature" },
   { slug: "black-leather-jewelry-box", tag: "Icon" },
-  { slug: "luxury-gift-box-ribbon", tag: "Premium" },
+  { slug: "custom-perfume-boxes", tag: "Fragrance" },
   { slug: "custom-velvet-pouches", tag: "Bestseller" },
   { slug: "custom-cotton-pouches", tag: "Eco" },
   { slug: "kraft-paper-shopping-bag", tag: "Retail" },
   { slug: "custom-ring-boxes", tag: "Wedding" },
-  { slug: "stackable-jewelry-tray", tag: "Display" }
+  { slug: "custom-eyelash-packaging-boxes", tag: "Beauty" }
 ];
 var products2 = featuredSlugs.map(({ slug, tag }) => {
   const p = getProductBySlug(slug);
@@ -1699,26 +1700,26 @@ var stats = [
 var popularSolutions = [
   {
     name: "Luxury Gift Boxes",
-    category: "Boxes",
+    href: "/boxes/",
     desc: "Custom rigid boxes, magnetic closures, drawer styles, and luxury gift-ready packaging for premium brands and wholesale buyers.",
     image: "/popular-gift-boxes.webp"
   },
   {
     name: "Shopping Bags & Pouches",
-    category: "Pouches & Bags",
+    href: "/pouches-bags/",
     desc: "Brand-supporting paper bags, hang tags, and cards that complete your packaging system and improve consistency.",
     image: "/popular-shopping-bags.webp"
   },
   {
-    name: "Custom Ribbons",
-    category: "Ribbons & Accessories",
-    desc: "Woven and printed ribbons in silk, satin, and grosgrain \u2014 branded to your exact color, width, and weave specifications.",
+    name: "Ribbons & Finishing Accessories",
+    href: "/ribbons-accessories/",
+    desc: "Explore ribbons and trims as finishing components for a box or pouch program.",
     image: "/popular-ribbons.webp"
   },
   {
     name: "Complete Packaging Sets",
-    category: "Sets & Complete Packaging",
-    desc: "Coordinated gift boxes, bags, ribbons, and tissue paper \u2014 designed as one cohesive brand system.",
+    href: "/sets/",
+    desc: "Plan the box, pouch and insert as separate components of one packaging brief.",
     image: "/popular-packaging-sets.webp"
   }
 ];
@@ -1904,7 +1905,7 @@ function Home() {
             /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/video/", className: "text-link", children: [
-            "Custom Solution",
+            "See Process & Video",
             /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
           ] })
         ] })
@@ -1953,7 +1954,7 @@ function Home() {
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "popular-grid", children: popularSolutions.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(
         import_react_router_dom6.Link,
         {
-          to: `/products/?category=${encodeURIComponent(item.category)}`,
+          to: item.href,
           className: `popular-card reveal reveal-delay-${i % 4 + 1}`,
           children: [
             /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "popular-card-image", children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { src: item.image, alt: item.name, loading: "lazy", width: 1254, height: 1254 }) }),
@@ -1973,7 +1974,8 @@ function Home() {
         /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "popular-cta-text", children: "Explore box, bag, pouch and packaging set options, then send us your dimensions, artwork and target quantity for a quote." }),
         /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "popular-cta-actions", children: [
           /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_router_dom6.Link, { to: "/contact/", className: "btn-primary", children: "Request a Quote" }),
-          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_router_dom6.Link, { to: "/products/", className: "btn-outline", children: "View Catalogue" })
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_router_dom6.Link, { to: "/products/", className: "btn-outline", children: "View Catalogue" }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_router_dom6.Link, { to: "/industries/", className: "btn-outline", children: "Browse by Industry" })
         ] })
       ] })
     ] }) }),
@@ -2163,7 +2165,7 @@ function Products() {
         /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("br", {}),
         "Ecosystem"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "From single pieces to full brand systems \u2014 every product is engineered for luxury, designed for consistency, and produced for scale." })
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Browse individual packaging components, retail display props and coordinated box-and-pouch programs. Send your product dimensions and quantities to discuss a suitable specification." })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("section", { className: "section", style: { paddingBottom: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "values-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(import_react_router_dom7.Link, { to: "/pouches-bags/", className: "value-card reveal", children: [
@@ -2175,8 +2177,12 @@ function Products() {
         /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "value-desc", children: "Rigid, folding and magnetic closure boxes with inserts and Pantone-matched finishes. MOQ from 200 pieces." })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(import_react_router_dom7.Link, { to: "/sets/", className: "value-card reveal reveal-delay-3", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h3", { className: "value-title", children: "Packaging Sets" }),
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "value-desc", children: "Pouch, box, insert and card designed together as one colour-matched set." })
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h3", { className: "value-title", children: "Box + Pouch Packaging Sets" }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "value-desc", children: "Plan the box, pouch and any insert together. Each component starts at 200 pieces." })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(import_react_router_dom7.Link, { to: "/products/?category=Retail%20Display%20Props", className: "value-card reveal reveal-delay-4", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h3", { className: "value-title", children: "Retail Display Props" }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "value-desc", children: "Browse jewelry stands and trays for a retail display brief, separate from box-and-pouch packaging sets." })
       ] })
     ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("section", { className: "filter-bar-wrapper", children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "filter-bar reveal", children: categories.map((cat) => /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
@@ -2200,13 +2206,14 @@ function Products() {
                 "img",
                 {
                   src: product.image,
-                  alt: product.name,
+                  alt: product.image.endsWith("product-coming-soon.svg") ? "" : product.name,
                   loading: "lazy",
                   width: 1254,
                   height: 1254
                 }
               ),
-              /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "catalog-category", children: product.category })
+              /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "catalog-category", children: product.category }),
+              product.image.endsWith("product-coming-soon.svg") && /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "catalog-image-pending", children: "Product photo pending" })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "catalog-card-body", children: [
               /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h3", { className: "catalog-name", children: product.name }),
@@ -6394,31 +6401,29 @@ var pouchesCopy = {
   ],
   customizeCta: "Customize Your Pouches"
 };
-var setsCopy = {
-  noun: "sets",
-  importanceTitle: "The Importance of Coordinated Packaging Sets in Your Brand Experience",
-  importanceIntro: "A collection of boxes, pouches and bags designed as one system tells customers the brand thinks in systems. Coordinated sets offer several key benefits:",
+var displayCopy = {
+  noun: "display prop",
+  importanceTitle: "Plan a Retail Display Around Your Products",
+  importanceIntro: "A display stand or tray needs to fit the products and the space where it will be used. Review these choices in the quotation and sample:",
   benefits: [
     {
-      title: "One Consistent Brand Voice",
-      desc: "Matching materials, colors and finishes across every touchpoint \u2014 from retail display to gift wrap \u2014 so the brand reads the same everywhere it is met."
+      title: "Product Fit",
+      desc: "Specify the items, their dimensions and how each will sit on the proposed stand or tray."
     },
     {
-      title: "Retail-Ready Presentation",
-      desc: "Display stands, boxes and pouches sized to work together present the collection as intended, in the showcase and in the unboxing alike."
+      title: "Display Space",
+      desc: "Check the proposed footprint, height and layout against your counter or showcase."
     },
     {
-      title: "One Supplier, One Standard",
-      desc: "Coordinating a set through one project contact can help align specifications and production planning across its components."
+      title: "Finish Review",
+      desc: "Confirm the surface, colour and branding method against an approved sample."
     }
   ],
-  customizeTitle: "Customize Your Packaging Set",
+  customizeTitle: "Specify Your Display Prop",
   customizeParas: [
-    "At ELAPACK, a set is designed as one project: box, pouch, bag and display elements share a material and color story specified around your brand.",
-    "You can discuss a coordinated collection \u2014 or start with one element and expand. We will review suitable structures and textiles against your products and budget.",
-    "Whether it is a specific Pantone tone carried from rigid box to velvet pouch, or a logo placed consistently across every piece, the set is crafted to reflect your brand at each touchpoint."
+    "Share the jewelry pieces or other items to display, available counter space, preferred finish and artwork. We can review the proposed dimensions, material and layout in a quotation and sample."
   ],
-  customizeCta: "Customize Your Set"
+  customizeCta: "Request a Display Quote"
 };
 var neutralCopy = {
   noun: "products",
@@ -6449,7 +6454,7 @@ var neutralCopy = {
 var categoryCopy = {
   Boxes: boxesCopy,
   "Pouches & Bags": pouchesCopy,
-  "Sets & Complete Packaging": setsCopy
+  "Retail Display Props": displayCopy
 };
 function faqsFor(product) {
   return [
@@ -7119,7 +7124,11 @@ function Solutions() {
         /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("br", {}),
         "Solutions"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "From custom packaging design to material choices \u2014 explore the services and capabilities that power your brand's packaging." })
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("p", { className: "page-subtitle reveal reveal-delay-2", children: [
+        "Compare structures, materials and finishes for your packaging brief. For sampling and production steps, see the ",
+        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(import_react_router_dom10.Link, { to: "/video/", children: "process and video page" }),
+        "."
+      ] })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("section", { className: "section solutions-section", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "solutions-grid", children: solutions.map((sol, i) => /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(
@@ -8478,7 +8487,11 @@ function Video() {
         /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("br", {}),
         "Process & Video"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Review the available packaging footage and the steps from your brief through sampling, production and delivery. Send us your product details to discuss an order-specific plan." })
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("p", { className: "page-subtitle reveal reveal-delay-2", children: [
+        "Review the available packaging footage and the steps from your brief through sampling, production and delivery. Send us your product details to discuss an order-specific plan. Still comparing packaging types? Browse ",
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/solutions/", children: "structures, materials and finishes" }),
+        " first."
+      ] })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: "3rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
@@ -8619,6 +8632,7 @@ function Video() {
 
 // src/pages/Landing.tsx
 var import_react13 = require("react");
+var import_react_router_dom16 = require("react-router-dom");
 
 // src/data/landings.ts
 var HOW_IT_WORKS_SHARED = [
@@ -8760,7 +8774,7 @@ var landings = [
     h1: "Custom Packaging Sets \u2014 Pouch, Box & More, Made to Work Together",
     subhead: "One spec. One supplier. Pouch, box and insert that match \u2014 piece to piece.",
     metaDescription: "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands \u2014 coordinate pouch, box and insert specifications. MOQ is 200 pieces for each component in the set.",
-    intro: "ELAPACK makes custom packaging sets for brands selling in the US and Europe. We coordinate custom pouch, box, and insert specifications together. Specify the pouch and box together so colour, material, and branding can be checked across each piece of the set.",
+    intro: "This page covers multi-component packaging supplied around one product: a box, pouch and optional insert or card. Specify each component and its quantity together so colour, material and branding can be checked across the set. Jewelry stands and trays are retail display props in the product catalogue, not box-and-pouch sets.",
     why: {
       heading: "What a set can include",
       items: [
@@ -8820,7 +8834,18 @@ function Landing({ slug }) {
       /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: landing.subhead })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: landing.intro }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: landing.intro }),
+        slug === "sets" && /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "about-text landing-related-links", style: { maxWidth: "820px", margin: "1rem auto 0" }, children: [
+          "Compare ",
+          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/boxes/", children: "box options" }),
+          " and ",
+          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/pouches-bags/", children: "pouch options" }),
+          ", or browse ",
+          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/products/?category=Retail%20Display%20Props", children: "retail display props" }),
+          " for a separate display project."
+        ] })
+      ] }),
       landing.hero && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("figure", { className: "landing-hero reveal", style: { marginTop: "2.5rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("img", { src: landing.hero.src, alt: landing.hero.alt, loading: "lazy", width: 1600, height: 1e3 }) })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
@@ -8884,7 +8909,7 @@ function Landing({ slug }) {
 
 // src/pages/Collection.tsx
 var import_react14 = require("react");
-var import_react_router_dom16 = require("react-router-dom");
+var import_react_router_dom17 = require("react-router-dom");
 
 // src/data/collections.ts
 var collections = [
@@ -9696,7 +9721,7 @@ function Collection({ slug }) {
     /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Explore the products" }) }),
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "catalog-grid", children: products3.map((product, i) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(
-        import_react_router_dom16.Link,
+        import_react_router_dom17.Link,
         {
           to: `/products/${product.slug}/`,
           className: `catalog-card reveal reveal-delay-${i % 4 + 1}`,
@@ -9721,7 +9746,7 @@ function Collection({ slug }) {
     guides.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Sourcing guides" }),
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "spec-list", children: guides.map((guide) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: `/news/${guide.slug}/`, className: "text-link", children: guide.title }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom17.Link, { to: `/news/${guide.slug}/`, className: "text-link", children: guide.title }),
         " \u2014 ",
         guide.excerpt
       ] }, guide.slug)) })
@@ -9762,32 +9787,32 @@ function Collection({ slug }) {
 // src/App.tsx
 var import_jsx_runtime17 = require("react/jsx-runtime");
 function AppRoutes() {
-  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(import_react_router_dom17.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Layout, {}), children: [
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Home, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "pouches-bags" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "sets" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-jewelry-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/eyewear-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "eyewear-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-jewelry-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-pouches" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-wig-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-wig-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-jewelry-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-gift-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-gift-boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-candle-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-candle-boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-cosmetic-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-drawstring-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-drawstring-bags" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/ribbons-accessories", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "ribbons-accessories" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/custom-cosmetic-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-pouches" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/subscription-box-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "subscription-box-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Products, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(ProductDetail, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Industries, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Solutions, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(About, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(News, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/news/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Article, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Contact, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Video, {}) })
+  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(import_react_router_dom18.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Layout, {}), children: [
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Home, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "pouches-bags" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "sets" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-jewelry-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/eyewear-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "eyewear-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-jewelry-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-pouches" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-wig-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-wig-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-jewelry-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-gift-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-gift-boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-candle-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-candle-boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-cosmetic-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-drawstring-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-drawstring-bags" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/ribbons-accessories", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "ribbons-accessories" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-cosmetic-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-pouches" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/subscription-box-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "subscription-box-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Products, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(ProductDetail, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Industries, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Solutions, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(About, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(News, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/news/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Article, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Contact, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Video, {}) })
   ] }) });
 }
 
@@ -10006,7 +10031,7 @@ for (const route of ROUTES) {
         "@id": `${canonical}#product`,
         name: product.name,
         description: product.shortDesc,
-        ...specReview && product.image.endsWith(".svg") ? {} : { image: [ogImage] },
+        ...product.image.endsWith(".svg") ? {} : { image: [ogImage] },
         sku: product.slug,
         category: product.category,
         ...specReview ? {} : { material: product.materials },

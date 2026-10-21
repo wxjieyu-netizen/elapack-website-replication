@@ -130,8 +130,7 @@ export default function Solutions() {
             Solutions
           </h1>
           <p className="page-subtitle reveal reveal-delay-2">
-            From custom packaging design to material choices — explore the
-            services and capabilities that power your brand's packaging.
+            Compare structures, materials and finishes for your packaging brief. For sampling and production steps, see the <Link to="/video/">process and video page</Link>.
           </p>
         </div>
       </section>

@@ -1718,6 +1718,22 @@
   border-radius: 2px;
 }
 
+.catalog-image-pending {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-text-soft);
+  font-size: 0.65rem;
+}
+
+.page-subtitle a,
+.landing-related-links a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 .catalog-card-body {
   padding: var(--space-4);
   display: flex;
@@ -3014,6 +3030,13 @@ a.contact-value:hover {
   flex-wrap: wrap;
 }
 
+.product-quote-actions .btn-primary,
+.cta-box .btn-primary {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+}
+
 .product-trust-badges {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -3241,9 +3264,19 @@ a.contact-value:hover {
 
 .product-customize-bags-grid {
   display: grid;
-  grid-template-columns: 1fr 1.3fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
   gap: var(--space-8);
   align-items: center;
+}
+
+.product-customize-bags-content {
+  min-width: 0;
+}
+
+.product-customize-bags-content .btn-primary {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
 }
 
 .product-customize-bags-image {
@@ -3612,7 +3645,7 @@ a.contact-value:hover {
   }
   .product-process-grid,
   .product-customize-bags-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .product-trust-badges {
     grid-template-columns: 1fr;

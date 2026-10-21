@@ -179,7 +179,7 @@ export const landings: Landing[] = [
     metaDescription:
       "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands — coordinate pouch, box and insert specifications. MOQ is 200 pieces for each component in the set.",
     intro:
-      "ELAPACK makes custom packaging sets for brands selling in the US and Europe. We coordinate custom pouch, box, and insert specifications together. Specify the pouch and box together so colour, material, and branding can be checked across each piece of the set.",
+      "This page covers multi-component packaging supplied around one product: a box, pouch and optional insert or card. Specify each component and its quantity together so colour, material and branding can be checked across the set. Jewelry stands and trays are retail display props in the product catalogue, not box-and-pouch sets.",
     why: {
       heading: "What a set can include",
       items: [

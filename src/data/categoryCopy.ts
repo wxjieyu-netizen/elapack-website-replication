@@ -70,33 +70,29 @@ const pouchesCopy: CategoryCopy = {
   customizeCta: "Customize Your Pouches",
 };
 
-const setsCopy: CategoryCopy = {
-  noun: "sets",
-  importanceTitle:
-    "The Importance of Coordinated Packaging Sets in Your Brand Experience",
-  importanceIntro:
-    "A collection of boxes, pouches and bags designed as one system tells customers the brand thinks in systems. Coordinated sets offer several key benefits:",
+const displayCopy: CategoryCopy = {
+  noun: "display prop",
+  importanceTitle: "Plan a Retail Display Around Your Products",
+  importanceIntro: "A display stand or tray needs to fit the products and the space where it will be used. Review these choices in the quotation and sample:",
   benefits: [
     {
-      title: "One Consistent Brand Voice",
-      desc: "Matching materials, colors and finishes across every touchpoint — from retail display to gift wrap — so the brand reads the same everywhere it is met.",
+      title: "Product Fit",
+      desc: "Specify the items, their dimensions and how each will sit on the proposed stand or tray.",
     },
     {
-      title: "Retail-Ready Presentation",
-      desc: "Display stands, boxes and pouches sized to work together present the collection as intended, in the showcase and in the unboxing alike.",
+      title: "Display Space",
+      desc: "Check the proposed footprint, height and layout against your counter or showcase.",
     },
     {
-      title: "One Supplier, One Standard",
-      desc: "Coordinating a set through one project contact can help align specifications and production planning across its components.",
+      title: "Finish Review",
+      desc: "Confirm the surface, colour and branding method against an approved sample.",
     },
   ],
-  customizeTitle: "Customize Your Packaging Set",
+  customizeTitle: "Specify Your Display Prop",
   customizeParas: [
-    "At ELAPACK, a set is designed as one project: box, pouch, bag and display elements share a material and color story specified around your brand.",
-    "You can discuss a coordinated collection — or start with one element and expand. We will review suitable structures and textiles against your products and budget.",
-    "Whether it is a specific Pantone tone carried from rigid box to velvet pouch, or a logo placed consistently across every piece, the set is crafted to reflect your brand at each touchpoint.",
+    "Share the jewelry pieces or other items to display, available counter space, preferred finish and artwork. We can review the proposed dimensions, material and layout in a quotation and sample.",
   ],
-  customizeCta: "Customize Your Set",
+  customizeCta: "Request a Display Quote",
 };
 
 export const neutralCopy: CategoryCopy = {
@@ -130,7 +126,7 @@ export const neutralCopy: CategoryCopy = {
 export const categoryCopy: Record<string, CategoryCopy> = {
   Boxes: boxesCopy,
   "Pouches & Bags": pouchesCopy,
-  "Sets & Complete Packaging": setsCopy,
+  "Retail Display Props": displayCopy,
 };
 
 export function faqsFor(product: { name: string; category: string; materials: string }): { q: string; a: string }[] {
