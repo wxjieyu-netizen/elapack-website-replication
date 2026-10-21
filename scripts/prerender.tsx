@@ -20,6 +20,7 @@ import { StaticRouter } from "react-router-dom/server";
 import { AppRoutes } from "../src/App";
 import { articles as ARTICLES } from "../src/data/articles";
 import { products as PRODUCTS } from "../src/data/products";
+import { productContentUpdates } from "../src/data/productContentUpdates";
 import { faqsFor } from "../src/data/categoryCopy";
 
 const dist = path.resolve(__dirname, "../dist");
@@ -142,16 +143,17 @@ for (const route of ROUTES) {
     const product = productMatch
       ? PRODUCTS.find((p) => p.slug === productMatch[1])
       : undefined;
+    const review = product ? productContentUpdates[product.slug] : undefined;
     const articleMatch = route.match(/^\/news\/([a-z0-9-]+)$/);
     const article = articleMatch
       ? ARTICLES.find((a) => a.slug === articleMatch[1])
       : undefined;
-    const pageTag = product
+    const pageTag = review ? review.title : product
       ? `${product.name} | ELAPACK`
       : STATIC_TITLES[route] || "ELAPACK";
 
     const pageDesc =
-      STATIC_DESCRIPTIONS[route] ||
+      review?.meta || STATIC_DESCRIPTIONS[route] ||
       (product
         ? `${product.shortDesc} ${product.name} by ELAPACK — materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.`
         : undefined);
@@ -272,7 +274,7 @@ for (const route of ROUTES) {
       });
     }
     if (product) {
-      graph.push({
+      graph.push(review ? { ...review.schema_product, mainEntityOfPage: { "@type": "WebPage", "@id": canonical } } : {
         "@type": "Product",
         "@id": `${canonical}#product`,
         name: product.name,
@@ -291,7 +293,7 @@ for (const route of ROUTES) {
       graph.push({
         "@type": "FAQPage",
         "@id": `${canonical}#faq`,
-        mainEntity: faqsFor(product).map((f) => ({
+        mainEntity: (review ? review.faqs.map((f: string[]) => ({q:f[0],a:f[1]})) : faqsFor(product)).map((f) => ({
           "@type": "Question",
           name: f.q,
           acceptedAnswer: { "@type": "Answer", text: f.a },
@@ -359,7 +361,7 @@ for (const route of ROUTES) {
           `$1${esc(pageDesc)}$2`
         );
     }
-    out = out.replace("\n  </head>", `\n    ${headExtras}\n  </head>`);
+    out = out.replace("</head>", `\n    ${headExtras}\n  </head>`);
 
     const dest =
       route === "/"

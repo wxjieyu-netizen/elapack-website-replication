@@ -2943,6 +2943,10 @@ a.contact-value:hover {
   align-items: start;
 }
 
+.product-detail-grid > * {
+  min-width: 0;
+}
+
 .product-detail-gallery {
   display: flex;
   flex-direction: column;
@@ -2965,7 +2969,7 @@ a.contact-value:hover {
 
 .product-gallery-thumbs {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0.75rem;
 }
 

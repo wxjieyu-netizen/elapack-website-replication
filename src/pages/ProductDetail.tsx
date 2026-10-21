@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { productContentUpdates } from "../data/productContentUpdates";
+import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getProductBySlug, products, productGuides } from "../data/products";
+import { getProductBySlug, products, productGuides, type Product } from "../data/products";
 import { getArticleBySlug } from "../data/articles";
-import { categoryCopy, neutralCopy, faqsFor } from "../data/categoryCopy";
+import { categoryCopy, neutralCopy, faqsFor, type CategoryCopy } from "../data/categoryCopy";
 
 const trustBadges = [
   { icon: "M", label: "Custom Pantone Matching" },
@@ -25,7 +26,10 @@ const processSteps = [
 
 export default function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
-  const product = slug ? getProductBySlug(slug) : undefined;
+  const originalProduct = slug ? getProductBySlug(slug) : undefined;
+  const review = slug ? productContentUpdates[slug] : undefined;
+  const product: Product | undefined = originalProduct && review ? { ...originalProduct, shortDesc: review.intro, description: review.body.map((b: string[]) => b[1]).join("\n\n"), materials: "Confirm in quotation and approved sample", leadTime: "15–20 days after sample approval and payment receipt", features: review.checks.map((b: string[]) => ({title:b[0],desc:b[1]})), specs: review.policies.map((b: string[]) => ({label:b[0],value:b[1]})), customizationOptions: [review.options] } : originalProduct;
+  useEffect(() => { if (review) { document.title = review.title; document.querySelector('meta[name="description"]')?.setAttribute('content', review.meta); } }, [review]);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [activeImg, setActiveImg] = useState(0);
   const galleryImgs = product?.gallery?.length ? product.gallery : product ? [product.image] : [];
@@ -53,15 +57,16 @@ export default function ProductDetail() {
   }
 
   const quoteUrl = `/contact/?product=${encodeURIComponent(product.slug)}`;
-  const related = products
+  const related = review ? products.filter((p) => review.links.some((l: string[])=>l[0] === `/products/${p.slug}/`)) : products
     .filter((p) => p.category === product.category && p.slug !== product.slug)
     .slice(0, 4);
 
-  const copy = categoryCopy[product.category] ?? neutralCopy;
-  const faqs = faqsFor(product);
-  const guides = (productGuides[product.slug] ?? [])
-    .map((s) => getArticleBySlug(s))
-    .filter((a): a is NonNullable<typeof a> => a !== undefined);
+  const originalCopy = categoryCopy[product.category] ?? neutralCopy;
+  const copy: CategoryCopy = review ? {...originalCopy, importanceTitle: "Review Before Production", importanceIntro: "Confirm the proposed specification against a sample before approving production.", benefits: review.checks.slice(0,3).map((b: string[])=>({title:b[0],desc:b[1]})), customizeTitle:"Prepare Your Customization Brief", customizeParas:[review.options], customizeCta:"Request a Packaging Quote"} : originalCopy;
+  const faqs: {q:string;a:string}[] = review ? review.faqs.map((b: string[])=>({q:b[0],a:b[1]})) : faqsFor(product);
+  const guides: NonNullable<ReturnType<typeof getArticleBySlug>>[] = (review ? review.guide_cards.map((g: any)=>g.url.split("/").filter(Boolean).pop()) : (productGuides[product.slug] ?? []))
+    .map((s: string) => getArticleBySlug(s))
+    .filter((a: ReturnType<typeof getArticleBySlug>): a is NonNullable<typeof a> => a !== undefined);
   return (
     <>
       {/* Breadcrumb */}
@@ -83,11 +88,12 @@ export default function ProductDetail() {
           <div className="product-detail-grid">
             <div className="product-detail-gallery reveal">
               <div className="product-gallery-main">
-                <img src={galleryImgs[activeImg] ?? product.image} alt={product.name} width={1254} height={1254} />
+                <img src={galleryImgs[activeImg] ?? product.image} alt={review?.gallery_review?.[activeImg]?.alt_proposal ?? product.name} width={1254} height={1254} />
                 <span className="product-detail-category">
                   {product.category}
                 </span>
               </div>
+              {review?.gallery_caption_proposal && <p>{review.gallery_caption_proposal}</p>}
               <div className="product-gallery-thumbs">
                 {galleryImgs
                   .map((img, i) => (
@@ -98,7 +104,7 @@ export default function ProductDetail() {
                       role="button"
                       aria-label={`View photo ${i + 1}`}
                     >
-                      <img src={img} alt={` view `} loading="lazy" width={1254} height={1254} />
+                      <img src={img} alt={review?.gallery_review?.[i]?.alt_proposal ?? `${product.name} packaging reference ${i + 1}`} loading="lazy" width={1254} height={1254} />
                     </div>
                   ))}
               </div>
@@ -106,13 +112,13 @@ export default function ProductDetail() {
 
             <div className="product-detail-info reveal reveal-delay-2">
               <h1 className="product-detail-title">{product.name}</h1>
-              <p className="product-detail-desc">{product.description}</p>
+              <p className="product-detail-desc">{review ? review.intro : product.description}</p>
 
               <div className="product-detail-quote">
                 <h3 className="product-quote-title">Get A Custom Quote:</h3>
                 <div className="product-quote-actions">
                   <Link to={quoteUrl} className="btn-primary">
-                    Request a Quote
+                    {review ? "Request a Packaging Quote" : "Request a Quote"}
                   </Link>
                   <Link to={quoteUrl} className="btn-outline">
                     Contact Us
@@ -169,12 +175,10 @@ export default function ProductDetail() {
             <div className="product-specs-intro reveal">
               <p className="eyebrow">Technical Details</p>
               <h2 className="section-title" style={{ marginTop: "1rem" }}>
-                Specifications
+                {review ? "Order Information" : "Specifications"}
               </h2>
               <p className="product-specs-text">
-                The options below show typical configurations. Share your dimensions,
-                material preferences, and finish requirements so we can confirm
-                what is feasible for this product.
+                {review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : "Share dimensions, material preferences and finish requirements to confirm feasibility."}
               </p>
               <Link to={quoteUrl} className="btn-primary">
                 Discuss Your Project
@@ -216,7 +220,7 @@ export default function ProductDetail() {
       </section>
 
       {/* Importance Section */}
-      <section className="section product-importance-section">
+      {!review && (<section className="section product-importance-section">
         <div className="container">
           <div className="section-header-center reveal">
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
@@ -241,7 +245,7 @@ export default function ProductDetail() {
             ))}
           </div>
         </div>
-      </section>
+      </section>)}
 
       {/* Customize Your Bags Section */}
       <section className="section product-customize-bags-section">
@@ -280,7 +284,7 @@ export default function ProductDetail() {
           <div className="section-header-center reveal">
             <p className="eyebrow">Key Features</p>
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-              Engineered for Excellence
+              {review ? "What to Include in Your Enquiry" : "Engineered for Excellence"}
             </h2>
           </div>
           <div className="product-features-grid">
@@ -328,7 +332,7 @@ export default function ProductDetail() {
       </section>
 
       {/* Customization Options */}
-      <section className="section product-custom-section">
+      {!review && (<section className="section product-custom-section">
         <div className="container">
           <div className="section-header-center reveal">
             <p className="eyebrow">Make It Yours</p>
@@ -348,7 +352,7 @@ export default function ProductDetail() {
             ))}
           </div>
         </div>
-      </section>
+      </section>)}
 
       {/* FAQ */}
       <section className="section product-faq-section">
@@ -384,6 +388,7 @@ export default function ProductDetail() {
         </div>
       </section>
 
+      {review && <section className="section"><div className="container"><h2>Related Packaging</h2>{review.links.map((l: string[]) => <p key={l[0]}><Link to={l[0]}>{l[1]}</Link></p>)}</div></section>}
       {/* Related Products */}
       {related.length > 0 && (
         <section className="section product-related-section">
@@ -439,7 +444,7 @@ export default function ProductDetail() {
                       {guide.title}
                     </Link>
                     {" — "}
-                    {guide.excerpt}
+                    {review?.guide_cards.find((g: any)=>g.url.endsWith(`/news/${guide.slug}/`))?.summary ?? guide.excerpt}
                   </p>
                 ))}
               </div>
