@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "What is the minimum order quantity (MOQ) for custom packaging?",
-    a: "Our starting MOQ is 200 pieces for individual packaging products. For multi-component packaging sets, tell us the quantity of each component so we can confirm how the order is counted and quoted.",
+    a: "Our starting MOQ is 200 pieces for individual packaging products. For a multi-component packaging set, the MOQ is 200 pieces for each component; list every component and quantity in your quote request.",
   },
   {
     q: "Where is ELAPACK based?",

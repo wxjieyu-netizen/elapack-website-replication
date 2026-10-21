@@ -8452,7 +8452,7 @@ var faqs = [
   },
   {
     q: "What is the minimum order quantity (MOQ) for custom packaging?",
-    a: "Our starting MOQ is 200 pieces for individual packaging products. For multi-component packaging sets, tell us the quantity of each component so we can confirm how the order is counted and quoted."
+    a: "Our starting MOQ is 200 pieces for individual packaging products. For a multi-component packaging set, the MOQ is 200 pieces for each component; list every component and quantity in your quote request."
   },
   {
     q: "Where is ELAPACK based?",
@@ -8754,7 +8754,7 @@ var landings = [
     eyebrow: "Sets & Bundles",
     h1: "Custom Packaging Sets \u2014 Pouch, Box & More, Made to Work Together",
     subhead: "One spec. One supplier. Pouch, box and insert that match \u2014 piece to piece.",
-    metaDescription: "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands \u2014 coordinate pouch, box and insert specifications, and request a quote for your set composition and quantity.",
+    metaDescription: "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands \u2014 coordinate pouch, box and insert specifications. MOQ is 200 pieces for each component in the set.",
     intro: "ELAPACK makes custom packaging sets for brands selling in the US and Europe. We coordinate custom pouch, box, and insert specifications together. Specify the pouch and box together so colour, material, and branding can be checked across each piece of the set.",
     why: {
       heading: "What a set can include",
@@ -8782,7 +8782,7 @@ var landings = [
       { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." }
     ],
     moq: [
-      { label: "MOQ", value: "From 200; confirm the set composition and counting unit in your quotation" },
+      { label: "MOQ", value: "200 pieces for each component in the set; list the components and quantities in your quotation request" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4\u20137 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "Typically 15\u201320 days after sample approval and payment receipt; shipping time is separate" },
