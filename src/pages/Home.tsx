@@ -22,9 +22,9 @@ const products = featuredSlugs
   .filter((p): p is NonNullable<typeof p> => p !== null);
 
 const stats = [
-  { value: "200", label: "MOQ (pieces)" },
+  { value: "200", label: "Individual product MOQ (pieces)" },
   { value: "3–5", label: "Custom sample days" },
-  { value: "15–20", label: "Typical production days" },
+  { value: "15–20", label: "Production days after sample approval + payment" },
   { value: "1", label: "Business day to reply" },
 ];
 
@@ -240,7 +240,7 @@ export default function Home() {
               </div>
               <div className="intro-image-badge">
                 <span className="intro-badge-num">200</span>
-                <span className="intro-badge-label">MOQ (pieces)</span>
+                <span className="intro-badge-label">Individual product MOQ (pieces)</span>
               </div>
             </div>
             <div className="intro-right reveal reveal-delay-2">

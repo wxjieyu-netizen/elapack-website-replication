@@ -36,7 +36,7 @@ export interface Landing {
 const HOW_IT_WORKS_SHARED = [
   { title: "Send your spec", desc: "Share size, material, structure, branding and quantity." },
   { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4–7 days; custom printed samples take 3–5 days to make (USD 25 + USD 20 shipping)." },
-  { title: "We make it", desc: "Your order, made to your spec, in 15–20 days production." },
+  { title: "We make it", desc: "Typical production takes 15–20 days after sample approval and payment receipt; confirm the schedule for your order." },
   { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen." },
 ];
 
@@ -97,7 +97,7 @@ export const landings: Landing[] = [
       { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "Typically 15–20 days after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -158,7 +158,7 @@ export const landings: Landing[] = [
       { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "Typically 15–20 days after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -177,7 +177,7 @@ export const landings: Landing[] = [
     h1: "Custom Packaging Sets — Pouch, Box & More, Made to Work Together",
     subhead: "One spec. One supplier. Pouch, box and insert that match — piece to piece.",
     metaDescription:
-      "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands — pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference. MOQ from 200 pieces.",
+      "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands — coordinate pouch, box and insert specifications, and request a quote for your set composition and quantity.",
     intro:
       "ELAPACK makes custom packaging sets for brands selling in the US and Europe. We coordinate custom pouch, box, and insert specifications together. Specify the pouch and box together so colour, material, and branding can be checked across each piece of the set.",
     why: {
@@ -202,14 +202,14 @@ export const landings: Landing[] = [
     howItWorks: [
       { title: "Send your spec", desc: "What goes in the set, per-piece size, material, branding, quantity." },
       { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4–7 days; custom printed samples take 3–5 days to make (USD 25 + USD 20 shipping)." },
-      { title: "We make it", desc: "Your order, made to your spec, in 15–20 days production." },
+      { title: "We make it", desc: "Typical production takes 15–20 days after sample approval and payment receipt; confirm the schedule for your order." },
       { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." },
     ],
     moq: [
-      { label: "MOQ", value: "200 pieces, whether the set includes a box or not" },
+      { label: "MOQ", value: "From 200; confirm the set composition and counting unit in your quotation" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "Typically 15–20 days after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],

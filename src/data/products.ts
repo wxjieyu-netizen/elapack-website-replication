@@ -35,7 +35,7 @@ export const products: Product[] = [
     image: "/images/carousel/black-leather-box.png",
     materials: "Faux leather, velvet interior, cardboard core",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
       {
@@ -79,7 +79,7 @@ export const products: Product[] = [
     image: "/images/carousel/pandora-box.png",
     materials: "Plastic exterior, velvet interior insert",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
       {
@@ -123,7 +123,7 @@ export const products: Product[] = [
     image: "/images/carousel/ring-box-black.png",
     materials: "Velvet exterior, foam insert with velvet covering",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift"],
     features: [
       {
@@ -166,7 +166,7 @@ export const products: Product[] = [
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Gift", "Beauty", "Fragrance"],
     features: [
       {
@@ -211,7 +211,7 @@ export const products: Product[] = [
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Beauty", "Gift", "Fashion"],
     features: [
       {
@@ -267,7 +267,7 @@ export const products: Product[] = [
     ],
     materials: "Rigid paperboard with custom printed wrap, fitted lash tray inserts",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Beauty", "Gift"],
     features: [
       {
@@ -322,7 +322,7 @@ export const products: Product[] = [
     ],
     materials: "Rigid paperboard with custom printed wrap, EVA / paper card / moulded pulp bottle inserts",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Fragrance", "Beauty", "Gift"],
     features: [
       {
@@ -367,7 +367,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Printed paper card with mounted sample holders",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Fragrance", "Beauty", "Gift"],
     features: [
       {
@@ -413,7 +413,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard with custom printed wrap, fitted tray inserts",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Beauty", "Gift"],
     features: [
       {
@@ -457,7 +457,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard with custom printed wrap, fitted bundle inserts",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Hair & Wig", "Beauty", "Gift"],
     features: [
       {
@@ -502,7 +502,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard or faux leather wrap, watch pillow inserts",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift"],
     features: [
       {
@@ -547,7 +547,7 @@ export const products: Product[] = [
     image: "/images/carousel/velvet-pouch.png",
     materials: "Velvet, cotton cord drawstring",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
       {
@@ -590,7 +590,7 @@ export const products: Product[] = [
     image: "/images/carousel/cotton-pouch.png",
     materials: "Natural cotton, cotton cord",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Beauty", "Gift"],
     features: [
       {
@@ -633,7 +633,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Natural cotton, snap or zipper closure",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Hair & Wig", "Beauty"],
     features: [
       {
@@ -678,7 +678,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet, wooden base",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fashion"],
     features: [
       {
@@ -721,7 +721,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Acrylic / PVC",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Beauty"],
     features: [
       {
@@ -764,7 +764,7 @@ export const products: Product[] = [
     image: "/images/carousel/kraft-bag.png",
     materials: "Kraft paper, twisted paper handles",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Fashion", "Beauty", "Gift"],
     features: [
       {
@@ -807,7 +807,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "MDF, velvet lining",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fashion"],
     features: [
       {
@@ -850,7 +850,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet over structured core",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
       {
@@ -894,7 +894,7 @@ export const products: Product[] = [
     image: "/images/carousel/image.png",
     materials: "Pebbled faux leather, suede-touch lining",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Fashion", "Gift"],
     features: [
       {
@@ -939,7 +939,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Satin, drawstring cord",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Hair & Wig", "Beauty", "Fashion"],
     features: [
       {
@@ -982,7 +982,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Satin, drawstring cord",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fragrance", "Beauty", "Gift"],
     features: [
       {
@@ -1026,7 +1026,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Unbleached muslin, cotton cord",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Beauty", "Gift"],
     features: [
       {
@@ -1070,7 +1070,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Microfiber, drawstring cord",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Eyewear & Sunglasses", "Jewelry", "Beauty"],
     features: [
       {
@@ -1115,7 +1115,7 @@ export const products: Product[] = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Clear PVC, zipper closure",
     moq: "200 pcs",
-    leadTime: "15–20 days",
+    leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Beauty", "Jewelry"],
     features: [
       {

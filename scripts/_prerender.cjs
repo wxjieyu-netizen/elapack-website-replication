@@ -65,7 +65,7 @@ var products = [
     image: "/images/carousel/black-leather-box.png",
     materials: "Faux leather, velvet interior, cardboard core",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
       {
@@ -107,7 +107,7 @@ var products = [
     image: "/images/carousel/pandora-box.png",
     materials: "Plastic exterior, velvet interior insert",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
       {
@@ -149,7 +149,7 @@ var products = [
     image: "/images/carousel/ring-box-black.png",
     materials: "Velvet exterior, foam insert with velvet covering",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift"],
     features: [
       {
@@ -190,7 +190,7 @@ var products = [
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Gift", "Beauty", "Fragrance"],
     features: [
       {
@@ -233,7 +233,7 @@ var products = [
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Beauty", "Gift", "Fashion"],
     features: [
       {
@@ -287,7 +287,7 @@ var products = [
     ],
     materials: "Rigid paperboard with custom printed wrap, fitted lash tray inserts",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Beauty", "Gift"],
     features: [
       {
@@ -340,7 +340,7 @@ var products = [
     ],
     materials: "Rigid paperboard with custom printed wrap, EVA / paper card / moulded pulp bottle inserts",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Fragrance", "Beauty", "Gift"],
     features: [
       {
@@ -383,7 +383,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Printed paper card with mounted sample holders",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Fragrance", "Beauty", "Gift"],
     features: [
       {
@@ -427,7 +427,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard with custom printed wrap, fitted tray inserts",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Beauty", "Gift"],
     features: [
       {
@@ -469,7 +469,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard with custom printed wrap, fitted bundle inserts",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Hair & Wig", "Beauty", "Gift"],
     features: [
       {
@@ -512,7 +512,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard or faux leather wrap, watch pillow inserts",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift"],
     features: [
       {
@@ -555,7 +555,7 @@ var products = [
     image: "/images/carousel/velvet-pouch.png",
     materials: "Velvet, cotton cord drawstring",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
       {
@@ -596,7 +596,7 @@ var products = [
     image: "/images/carousel/cotton-pouch.png",
     materials: "Natural cotton, cotton cord",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Beauty", "Gift"],
     features: [
       {
@@ -637,7 +637,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Natural cotton, snap or zipper closure",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Hair & Wig", "Beauty"],
     features: [
       {
@@ -680,7 +680,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet, wooden base",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fashion"],
     features: [
       {
@@ -721,7 +721,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Acrylic / PVC",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Beauty"],
     features: [
       {
@@ -762,7 +762,7 @@ var products = [
     image: "/images/carousel/kraft-bag.png",
     materials: "Kraft paper, twisted paper handles",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Fashion", "Beauty", "Gift"],
     features: [
       {
@@ -803,7 +803,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "MDF, velvet lining",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fashion"],
     features: [
       {
@@ -844,7 +844,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Velvet over structured core",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
       {
@@ -886,7 +886,7 @@ var products = [
     image: "/images/carousel/image.png",
     materials: "Pebbled faux leather, suede-touch lining",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Fashion", "Gift"],
     features: [
       {
@@ -929,7 +929,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Satin, drawstring cord",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Hair & Wig", "Beauty", "Fashion"],
     features: [
       {
@@ -970,7 +970,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Satin, drawstring cord",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fragrance", "Beauty", "Gift"],
     features: [
       {
@@ -1012,7 +1012,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Unbleached muslin, cotton cord",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Beauty", "Gift"],
     features: [
       {
@@ -1054,7 +1054,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Microfiber, drawstring cord",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Eyewear & Sunglasses", "Jewelry", "Beauty"],
     features: [
       {
@@ -1097,7 +1097,7 @@ var products = [
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Clear PVC, zipper closure",
     moq: "200 pcs",
-    leadTime: "15\u201320 days",
+    leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Beauty", "Jewelry"],
     features: [
       {
@@ -1550,7 +1550,6 @@ function Footer() {
         /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { className: "footer-desc", children: "Crafting premium packaging solutions for global luxury brands. From creative design to precision production \u2014 one partner, end to end." }),
         /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "footer-badges", children: [
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-badge", children: "Material Options" }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-badge", children: "ISO 9001 Certified" }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-badge", children: "Global Shipping" })
         ] })
       ] }),
@@ -1591,7 +1590,7 @@ function Footer() {
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 18626352096" })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("li", { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-label", children: "Factory" }),
+            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-label", children: "Location" }),
             "Wuxi, Jiangsu, China"
           ] })
         ] })
@@ -1692,9 +1691,9 @@ var products2 = featuredSlugs.map(({ slug, tag }) => {
   return p ? { name: p.name, slug: p.slug, desc: p.shortDesc, image: p.image, tag } : null;
 }).filter((p) => p !== null);
 var stats = [
-  { value: "200", label: "MOQ (pieces)" },
+  { value: "200", label: "Individual product MOQ (pieces)" },
   { value: "3\u20135", label: "Custom sample days" },
-  { value: "15\u201320", label: "Typical production days" },
+  { value: "15\u201320", label: "Production days after sample approval + payment" },
   { value: "1", label: "Business day to reply" }
 ];
 var popularSolutions = [
@@ -1891,7 +1890,7 @@ function Home() {
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "intro-image-badge", children: [
           /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "intro-badge-num", children: "200" }),
-          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "intro-badge-label", children: "MOQ (pieces)" })
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "intro-badge-label", children: "Individual product MOQ (pieces)" })
         ] })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "intro-right reveal reveal-delay-2", children: [
@@ -2234,6 +2233,438 @@ function Products() {
     ] }) })
   ] });
 }
+
+// src/data/productContentUpdates.ts
+var productContentUpdates = {
+  "custom-eyelash-packaging-boxes": {
+    "title": "Custom Eyelash Packaging Boxes with Logo | ELAPACK",
+    "meta": "Custom eyelash packaging boxes with your logo, MOQ 200. Share tray dimensions, pack quantity and artwork to review the box and insert specification.",
+    "intro": "Custom eyelash packaging boxes with your logo, from 200 pieces. Share your lash tray dimensions and the number of trays per box for a quotation.",
+    "body": [
+      [
+        "Build the brief around your lash tray",
+        "Send the tray length, width and height, the measurement units, and the number of trays each box will hold. Include a photo or drawing of the tray. If you already have box measurements, state whether they describe the internal space or the finished outside size."
+      ],
+      [
+        "Review the fit before approving production",
+        "Check the proposed tray placement, box opening and artwork on the sample. The tray should be assessed together with the box, rather than choosing an outside size from a photograph alone. Confirm the quoted insert and branding specification before production."
+      ]
+    ],
+    "checks": [
+      [
+        "Tray dimensions",
+        "Length, width and height, units, and trays per box."
+      ],
+      [
+        "Box layout",
+        "Required internal space, preferred opening and tray placement."
+      ],
+      [
+        "Artwork",
+        "Logo file, layout and appearance reference."
+      ],
+      [
+        "Order brief",
+        "Quantity from 200 pieces and delivery destination."
+      ]
+    ],
+    "options": "Share the proposed box layout, insert requirements and preferred appearance. Confirm the available materials and branding method in the quotation and approved sample.",
+    "policies": [
+      [
+        "Minimum order",
+        "200 pieces."
+      ],
+      [
+        "Stock samples",
+        "Stock samples are free. Shipping is USD 25; delivery typically takes 4\u20137 days."
+      ],
+      [
+        "Custom samples",
+        "USD 25 plus USD 20 shipping. Sample production takes 3\u20135 days; delivery time is separate."
+      ],
+      [
+        "Production",
+        "Typical production takes 15\u201320 days after sample approval and payment receipt. Shipping time is separate."
+      ],
+      [
+        "Payment",
+        "T/T (bank transfer) and PayPal."
+      ],
+      [
+        "Shipping origin",
+        "Shanghai or Shenzhen; confirm the route and delivery terms in the quotation."
+      ]
+    ],
+    "faqs": [
+      [
+        "What measurements should I send for custom lash boxes?",
+        "Send the tray length, width and height, measurement units, and trays per box. Label internal and external box dimensions separately if provided."
+      ],
+      [
+        "What is the minimum order quantity?",
+        "MOQ is 200 pieces. Include your required quantity and delivery destination when requesting a quote."
+      ],
+      [
+        "Can I review a sample before production?",
+        "Stock samples are free with USD 25 shipping and typically take 4\u20137 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3\u20135 days to make. Confirm the sample specification and delivery time before ordering."
+      ],
+      [
+        "How long does production take?",
+        "Typical production takes 15\u201320 days after sample approval and payment receipt. Shipping time is quoted separately."
+      ],
+      [
+        "What payment methods are available?",
+        "We accept T/T (bank transfer) and PayPal."
+      ]
+    ],
+    "links": [
+      [
+        "/products/",
+        "Explore packaging products",
+        "\u7EE7\u7EED\u9009\u62E9\u5305\u88C5\u7C7B\u578B\uFF1B\u4FDD\u7559\u4EA7\u54C1\u76EE\u5F55\u5165\u53E3"
+      ]
+    ],
+    "guide_cards": [
+      {
+        "url": "https://elapack.com/news/how-to-customize-eyelash-boxes/",
+        "title": "Plan your eyelash box",
+        "summary": "Work through tray format, box structure, insert requirements and artwork before requesting a quote."
+      },
+      {
+        "url": "https://elapack.com/news/packaging-inserts-guide/",
+        "title": "Prepare an insert brief",
+        "summary": "Compare insert approaches and specify the item fit, removal and handling requirements."
+      },
+      {
+        "url": "https://elapack.com/news/custom-rigid-boxes-guide/",
+        "title": "Understand rigid box construction",
+        "summary": "Review structure, wrap and ordering information for your packaging brief."
+      }
+    ],
+    "gallery_review": [
+      {
+        "suffix": "hero",
+        "alt_proposal": "Open purple eyelash packaging box with lash trays",
+        "note": "\u7D2B\u8272\u5F00\u76D6\u76D2\uFF0C\u4E3B\u56FE"
+      },
+      {
+        "suffix": "detail-01",
+        "alt_proposal": "Black drawer-style eyelash box with lash tray",
+        "note": "\u9ED1\u8272\u62BD\u5C49\u5F0F\u6B3E\u5F0F"
+      },
+      {
+        "suffix": "detail-02",
+        "alt_proposal": "Black windowed eyelash packaging boxes shown open and closed",
+        "note": "\u9ED1\u8272\u5F00\u7A97\u6B3E\uFF0C\u5E26\u7B2C\u4E09\u65B9\u54C1\u724C\u56FE\u6848"
+      },
+      {
+        "suffix": "detail-03",
+        "alt_proposal": "Open black eyelash box with pink interior",
+        "note": "\u9ED1\u8272\u7FFB\u76D6\u7C89\u8272\u5185\u90E8\u6B3E\uFF0C\u5E26\u7B2C\u4E09\u65B9\u54C1\u724C\u56FE\u6848"
+      },
+      {
+        "suffix": "detail-04",
+        "alt_proposal": "Purple drawer-style eyelash boxes with printed sleeves",
+        "note": "\u7D2B\u8272\u62BD\u5C49\u6B3E\uFF0C\u5E26\u4EBA\u7269\u53CA\u7B2C\u4E09\u65B9\u54C1\u724C\u56FE\u6848"
+      },
+      {
+        "suffix": "detail-05",
+        "alt_proposal": "Assorted eyelash boxes displayed with a gift box, pouch and shopping bag",
+        "note": "\u7EC4\u5408\u5C55\u793A\uFF1B\u4E0D\u8BC1\u660E\u8FD9\u4E9B\u914D\u4EF6\u6807\u51C6\u5305\u542B"
+      },
+      {
+        "suffix": "scene-01",
+        "alt_proposal": "Pink windowed eyelash boxes with lash trays",
+        "note": "\u7C89\u8272\u5F00\u7A97\u6B3E\u573A\u666F"
+      },
+      {
+        "suffix": "scene-02",
+        "alt_proposal": "Black drawer-style and pink windowed eyelash boxes on a dressing table",
+        "note": "\u591A\u6B3E\u573A\u666F\uFF0C\u4E0D\u79F0\u540C\u6B3E\u53E6\u4E00\u89C6\u89D2"
+      }
+    ],
+    "gallery_caption_proposal": "Style references for your packaging brief. Confirm the selected structure, tray fit and artwork in your quotation and approved sample.",
+    "schema_product": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": "https://elapack.com/products/custom-eyelash-packaging-boxes/#product",
+      "url": "https://elapack.com/products/custom-eyelash-packaging-boxes/",
+      "name": "Custom Eyelash Packaging Boxes with Logo",
+      "description": "Custom eyelash packaging boxes with your logo, from 200 pieces. Share your lash tray dimensions and the number of trays per box for a quotation.",
+      "brand": {
+        "@type": "Brand",
+        "name": "ELAPACK"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Minimum Order Quantity",
+          "value": "200 pieces"
+        }
+      ]
+    }
+  },
+  "magnetic-closure-gift-box": {
+    "title": "Custom Magnetic Closure Gift Boxes | ELAPACK",
+    "meta": "Custom magnetic closure gift boxes, MOQ 200. Share dimensions, product weight, artwork and insert requirements to review your packaging specification.",
+    "intro": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Share product dimensions, weight and insert requirements for a quotation.",
+    "body": [
+      [
+        "Define the space and opening you need",
+        "Start with the product dimensions, weight and number of items. Identify the required internal space separately from the preferred outside dimensions. Include a reference for how the items should be presented when the attached lid is opened."
+      ],
+      [
+        "Check the closure, insert and artwork together",
+        "Review the proposed board, wrap, magnetic closure and insert in the quotation and sample. Check the lid action with the contents in place, whether the item can be removed easily, and the artwork position. If transport testing is required, discuss the packed shipment and testing scope separately; a presentation sample alone does not establish transport performance."
+      ]
+    ],
+    "checks": [
+      [
+        "Product size and weight",
+        "State the item count and required internal clearance."
+      ],
+      [
+        "Closure",
+        "Review opening and closing with the intended contents inside."
+      ],
+      [
+        "Insert layout",
+        "Show item placement and access for removal."
+      ],
+      [
+        "Artwork and destination",
+        "Send logo artwork, quantity and delivery destination."
+      ]
+    ],
+    "options": "Request the size, presentation and insert arrangement your project needs. Confirm board, wrap and branding options in the quotation and sample. A free digital dieline preview is available; PDF, editable AI and PSD files can be provided.",
+    "policies": [
+      [
+        "Minimum order",
+        "200 pieces."
+      ],
+      [
+        "Stock samples",
+        "Stock samples are free. Shipping is USD 25; delivery typically takes 4\u20137 days."
+      ],
+      [
+        "Custom samples",
+        "USD 25 plus USD 20 shipping. Sample production takes 3\u20135 days; delivery time is separate."
+      ],
+      [
+        "Production",
+        "Typical production takes 15\u201320 days after sample approval and payment receipt. Shipping time is separate."
+      ],
+      [
+        "Payment",
+        "T/T (bank transfer) and PayPal."
+      ],
+      [
+        "Shipping origin",
+        "Shanghai or Shenzhen; confirm the route and delivery terms in the quotation."
+      ]
+    ],
+    "faqs": [
+      [
+        "Can I review a digital dieline?",
+        "Yes. Digital dieline previews are provided free of charge. PDF, editable AI and PSD files can be provided. Share the product dimensions and any existing artwork for the proposed layout."
+      ],
+      [
+        "What is the minimum order quantity?",
+        "MOQ is 200 pieces. Include your required quantity and delivery destination when requesting a quote."
+      ],
+      [
+        "Can I review a sample before production?",
+        "Stock samples are free with USD 25 shipping and typically take 4\u20137 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3\u20135 days to make. Confirm the sample specification and delivery time before ordering."
+      ],
+      [
+        "How long does production take?",
+        "Typical production takes 15\u201320 days after sample approval and payment receipt. Shipping time is quoted separately."
+      ],
+      [
+        "What payment methods are available?",
+        "We accept T/T (bank transfer) and PayPal."
+      ]
+    ],
+    "links": [
+      [
+        "/products/luxury-gift-box-ribbon/",
+        "Explore gift boxes with ribbon",
+        "\u6BD4\u8F83\u53E6\u4E00\u79CD\u95ED\u5408\u65B9\u5F0F\uFF1B\u4E0D\u662F\u672C\u6B3E\u53D8\u4F53"
+      ],
+      [
+        "/products/",
+        "Explore packaging products",
+        "\u4FDD\u7559\u4EA7\u54C1\u76EE\u5F55\u5165\u53E3"
+      ]
+    ],
+    "guide_cards": [
+      {
+        "url": "https://elapack.com/news/magnetic-gift-boxes-guide/",
+        "title": "Review magnetic box construction",
+        "summary": "Compare structural choices and the size, board and closure information needed for an enquiry."
+      },
+      {
+        "url": "https://elapack.com/news/magnetic-closure-vs-ribbon-tie-gift-boxes/",
+        "title": "Compare magnetic and ribbon closures",
+        "summary": "Review the actual construction, packing sequence and like-for-like quotation scope."
+      },
+      {
+        "url": "https://elapack.com/news/magnetic-gift-boxes-wholesale-guide/",
+        "title": "Prepare a bulk order enquiry",
+        "summary": "Request comparable quantity tiers and put the specification and order terms in writing."
+      }
+    ],
+    "schema_product": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": "https://elapack.com/products/magnetic-closure-gift-box/#product",
+      "url": "https://elapack.com/products/magnetic-closure-gift-box/",
+      "name": "Custom Magnetic Closure Gift Boxes",
+      "description": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Share product dimensions, weight and insert requirements for a quotation.",
+      "brand": {
+        "@type": "Brand",
+        "name": "ELAPACK"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Minimum Order Quantity",
+          "value": "200 pieces"
+        }
+      ]
+    }
+  },
+  "custom-microfiber-pouches": {
+    "title": "Custom Microfiber Pouches with Logo | ELAPACK",
+    "meta": "Custom microfiber packaging pouches with your logo, MOQ 200. Send item dimensions, closure requirements and artwork for a packaging quote.",
+    "intro": "Custom microfiber packaging pouches with your logo, from 200 pieces. Share item dimensions, opening requirements and artwork for a quotation.",
+    "body": [
+      [
+        "Size the pouch around the item",
+        "Send the item dimensions and the usable internal space you need. Include your preferred opening or closure, logo artwork and order quantity. For eyewear packaging, provide the folded frame dimensions so that the fit can be reviewed with the actual frame."
+      ],
+      [
+        "Review fabric, seams and branding on a sample",
+        "Check the proposed fabric specification, seam position, opening and artwork placement before approving the pouch. Packaging suitability and cleaning performance are separate requirements. If your project also needs cleaning performance or compatibility with a coated surface, discuss the required evidence or testing separately."
+      ]
+    ],
+    "checks": [
+      [
+        "Usable space",
+        "Check internal space and opening against the actual item."
+      ],
+      [
+        "Fabric and seams",
+        "Confirm the quoted specification and review a sample."
+      ],
+      [
+        "Opening or closure",
+        "State how the item needs to be inserted and removed."
+      ],
+      [
+        "Logo and quantity",
+        "Provide artwork, quantity from 200 pieces and destination."
+      ]
+    ],
+    "options": "Share pouch dimensions, opening or closure requirements, logo artwork and an appearance reference. Confirm the available fabric and branding method in the quotation and approved sample.",
+    "policies": [
+      [
+        "Minimum order",
+        "200 pieces."
+      ],
+      [
+        "Stock samples",
+        "Stock samples are free. Shipping is USD 25; delivery typically takes 4\u20137 days."
+      ],
+      [
+        "Custom samples",
+        "USD 25 plus USD 20 shipping. Sample production takes 3\u20135 days; delivery time is separate."
+      ],
+      [
+        "Production",
+        "Typical production takes 15\u201320 days after sample approval and payment receipt. Shipping time is separate."
+      ],
+      [
+        "Payment",
+        "T/T (bank transfer) and PayPal."
+      ],
+      [
+        "Shipping origin",
+        "Shanghai or Shenzhen; confirm the route and delivery terms in the quotation."
+      ]
+    ],
+    "faqs": [
+      [
+        "What information is needed for a pouch quote?",
+        "Send item dimensions, usable internal space, opening or closure requirements, logo artwork, quantity and destination. For eyewear, include the folded frame dimensions."
+      ],
+      [
+        "What is the minimum order quantity?",
+        "MOQ is 200 pieces. Include your required quantity and delivery destination when requesting a quote."
+      ],
+      [
+        "Can I review a sample before production?",
+        "Stock samples are free with USD 25 shipping and typically take 4\u20137 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3\u20135 days to make. Confirm the sample specification and delivery time before ordering."
+      ],
+      [
+        "How long does production take?",
+        "Typical production takes 15\u201320 days after sample approval and payment receipt. Shipping time is quoted separately."
+      ],
+      [
+        "What payment methods are available?",
+        "We accept T/T (bank transfer) and PayPal."
+      ]
+    ],
+    "links": [
+      [
+        "/eyewear-packaging/",
+        "Explore eyewear packaging",
+        "\u888B\u4E0E\u773C\u955C\u5305\u88C5\u7EC4\u5408\u7684\u4E0A\u4E0B\u6587\u627F\u63A5"
+      ],
+      [
+        "/products/",
+        "Explore packaging products",
+        "\u4FDD\u7559\u4EA7\u54C1\u76EE\u5F55\u5165\u53E3"
+      ]
+    ],
+    "guide_cards": [
+      {
+        "url": "https://elapack.com/news/custom-glasses-cases-pouches-guide/",
+        "title": "Choose an eyewear packaging format",
+        "summary": "Compare case and pouch formats, fit requirements and ordering information."
+      },
+      {
+        "url": "https://elapack.com/news/custom-logo-pouches-guide/",
+        "title": "Prepare your pouch artwork",
+        "summary": "Compare proposed branding results and approve artwork placement on the selected fabric."
+      },
+      {
+        "url": "https://elapack.com/news/how-to-choose-a-custom-jewelry-pouch/",
+        "title": "Prepare a jewelry pouch brief",
+        "summary": "Consider fabric, usable size, closure and branding together before reviewing a sample."
+      }
+    ],
+    "schema_product": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": "https://elapack.com/products/custom-microfiber-pouches/#product",
+      "url": "https://elapack.com/products/custom-microfiber-pouches/",
+      "name": "Custom Microfiber Pouches",
+      "description": "Custom microfiber packaging pouches with your logo, from 200 pieces. Share item dimensions, opening requirements and artwork for a quotation.",
+      "brand": {
+        "@type": "Brand",
+        "name": "ELAPACK"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Minimum Order Quantity",
+          "value": "200 pieces"
+        }
+      ]
+    }
+  }
+};
 
 // src/pages/ProductDetail.tsx
 var import_react7 = require("react");
@@ -3609,7 +4040,7 @@ Keep the note local, and send it to your supplier through your existing approved
     "imageHeight": 1350,
     "excerpt": "Buyers search 'packaging companies' 14,000 times a month and trust whichever factory answers first. This is the seven-check vetting framework the search results never give them.",
     "metaDescription": "How to vet a custom packaging manufacturer: a seven-check framework covering certificates, samples, QC, colour control and payment red flags \u2014 with the data to back it.",
-    "body": "*Industry frameworks are credited to their publishers; supplier terms other than ELAPACK's are quoted as published, for comparison only. Terms marked as ELAPACK figures are confirmed 2026 trade terms, used here as worked examples of what a good answer looks like \u2014 the framework works for vetting any factory, including this one.*\n\nThis guide is for the buyer who has shortlisted packaging manufacturers and needs to choose one before the first order.\n\n> **Quick answer:** vet a factory on seven checks in order: business basics, certificate scope (not certificate names), sample policy, QC process, colour control, engineering support, payment terms. Two live tests beat all desk research: order the paid custom sample, and ask one question you already know the answer to. A factory that passes both is safe for a first order at trial quantity.\n\n## Key facts at a glance\n\n| Item | Data |\n|---|---|\n| Framework sources | Specright (manufacturer vs supplier), industry vetting checklists |\n| Worked-example terms | ELAPACK confirmed 2026 terms (MOQ 200, 15\u201320 days, sample policy) |\n| The two live tests | paid custom sample; one known-answer question |\n| Excluded from this page | food-packaging supplier words (out of scope for this factory's lines) |\n\n## Directory words, local words, specification words\n\n![Supplier vetting as three gates: documents and certificates, a paid custom sample, and a controlled first order \u2014 the checks that turn a shortlist into a decision.](/charts/supplier-vetting-funnel.svg)\n\nBuyers looking for a manufacturer use three word families \u2014 directory words that return lists, local words that return maps, and specification words that return factories. This guide is for the third search: once a shortlist exists, the remaining work is verification, and it runs in three gates \u2014 documents, sample, first order.\n\n**The shortlist is the start of the work, not the end \u2014 verification runs through documents, sample and first order.**\n## Manufacturer, supplier or broker\n\nThe distinction Specright publishes is the one to memorise: a **manufacturer** makes your packaging on its own lines; a **supplier** may make some products and source the rest; a **broker** makes nothing and resales. None is disqualified \u2014 but each changes what you verify. For a manufacturer, verify the factory (certificates, QC, lines). For a supplier, verify which items are in-house and which are bought in, because the bought-in items carry the longer lead time and the weaker quality control. For a broker, verify the actual factory behind every item, or you are vetting a website. **Ask directly \u2014 will this item run on your own lines? \u2014 and note the answer for the audit trail.**\n\n## The seven checks\n\n### 1 \u2014 Business basics\nCompany age, export record, and who signs. A factory trading since well before the pandemic with a stable legal name has survived freight crises and material swings \u2014 that history is data. Red flags: a trading name with no legal entity behind it, and a quotation with no company chop or signature. **Check one: ask for the business licence and export record; a manufacturer answers in a day.**\n\n### 2 \u2014 Certificates: read the scope, not the logo\nAn ISO 9001 badge on a homepage is not enough to assess a supplier. Ask for the certificate, verify its holder, validity and scope, and check whether that scope covers the products you intend to buy. ELAPACK's certificate details have not been published here, so request the current document before relying on its badge. **Check two: verify the actual certificate rather than inferring coverage from a logo.**\n\n### 3 \u2014 Sample policy\nThe sample stage is the cheapest audit in sourcing. Terms that respect both sides: a free stock sample with shipping paid by the buyer, and a paid custom sample at a nominal fee. ELAPACK's published terms \u2014 stock sample free with USD 25 shipping (4\u20137 days), custom sample USD 25 + USD 20 shipping (3\u20135 days) \u2014 are a fair benchmark for factory-direct custom. A factory that refuses custom samples before payment, or quotes a custom sample at production-price levels, is telling you how the programme will run. **Check three: order the custom sample before the production order, every first time \u2014 the [packaging samples guide](https://elapack.com/news/custom-packaging-samples-guide/) lists what to verify when it arrives.**\n\n### 4 \u2014 QC process, in stations not adjectives\nEvery factory says it checks quality; buyers need to know what is inspected for their particular order and when. Ask for the agreed inspection points, acceptance criteria, sample reference and pre-shipment evidence in writing. ELAPACK's station count and any AQL method require project-specific confirmation; they are not established by the information on this page. **Check four: request the inspection plan for your product before placing the bulk order.**\n\n### 5 \u2014 Colour control\nBox wrap, pouch fabric and ribbon can look different even when a brief uses the same colour code. Agree on each component's reference, viewing conditions and approved physical sample; ask the supplier how it will compare the proposed materials for your order. The [colour review guide](https://elapack.com/news/packaging-colour-tolerance-explained/) shows what to record without assuming a universal tolerance or a particular press-side process. **Check five: get the colour references and approval conditions in writing before bulk production.**\n\n### 6 \u2014 Engineering support\nDoes the factory quote from your sketch, or from a dieline it drew for you? Engineering support at quotation \u2014 a free digital dieline preview and vector-file acceptance \u2014 helps buyers check structure before ordering a sample. ELAPACK provides a free digital dieline preview for structure confirmation; the [die cutting and dielines guide](https://elapack.com/news/die-cutting-and-dielines-guide/) explains what buyers should check on it. **Check six: ask for the dieline before you commit; a factory that cannot draw your box cannot be responsible for it.**\n\n### 7 \u2014 Payment and communication red flags\nFair terms for first orders balance both sides: a deposit with balance against inspection or documents, not 100% in advance from a new buyer. Communication red flags: quotes that arrive without an expiry, answers that change the specification instead of correcting it, and any pressure to skip the sample stage. **Check seven: put the payment schedule, the lead time and the sample terms in writing before the deposit \u2014 the [MOQ, samples and production guide](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/) shows what a published terms table looks like.**\n\n## The ten questions to send any factory\n\n| # | Question | Passing answer looks like |\n|---|---|---|\n| 1 | Will this item run on your own lines? | yes, or a named partner with the same checks |\n| 2 | May I see your ISO certificate scope? | scope names your product family |\n| 3 | What are your sample terms? | free stock + nominal custom fee |\n| 4 | What is inspected for this order, and when? | a written inspection plan and acceptance criteria |\n| 5 | How will you review colour across substrates? | references, viewing conditions and approved samples recorded |\n| 6 | Do you draw the dieline? | free preview for approval, tooling named separately |\n| 7 | Lead time at my quantity? | a band tied to quantity, in writing |\n| 8 | Payment schedule for a first order? | deposit + balance against documents |\n| 9 | What is your MOQ? | a number with a reason (see the [MOQ and OEM guide](https://elapack.com/news/custom-packaging-moq-oem-odm-logo-guide/)) |\n| 10 | What does a spec sheet from you include? | the lines in the [spec sheet guide](https://elapack.com/news/how-to-read-a-packaging-specification-sheet/) |\n\n**Score it: seven or more solid answers is a quotable factory; five or fewer is a website.**\n\n## First-order risk control\n\nStructure the first order as a trial: one product, the minimum quantity (200 pieces at ELAPACK), the paid sample approved first, and a written spec sheet holding every variable. If the trial ships clean, the second order is where the programme economics start \u2014 and the [rigid box](https://elapack.com/news/custom-rigid-boxes-guide/) and [jewelry packaging overview](https://elapack.com/news/custom-jewelry-packaging-guide/) guides cover how to structure the bigger programmes. **Never trial a factory on your peak-season order; trial on the order whose delay you can survive.**\n\n## Bottom line\n\nNo method in the results \u2014 so carry this one. Run the seven checks, send the ten questions, and trial at minimum quantity with an approved sample. ELAPACK publishes its own answers to all ten on the [MOQ, samples and production guide](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/) and the [about page](https://elapack.com/about/) \u2014 vet this factory with the same checklist, that is the point of writing it down. Ready to run the checks on a live quote? [Request one here](https://elapack.com/contact/)."
+    "body": "*Industry frameworks are credited to their publishers; supplier terms other than ELAPACK's are quoted as published, for comparison only. Terms marked as ELAPACK figures are confirmed 2026 trade terms, used here as worked examples of what a good answer looks like \u2014 the framework works for vetting any factory, including this one.*\n\nThis guide is for the buyer who has shortlisted packaging manufacturers and needs to choose one before the first order.\n\n> **Quick answer:** vet a factory on seven checks in order: business basics, certificate scope (not certificate names), sample policy, QC process, colour control, engineering support, payment terms. Two live tests beat all desk research: order the paid custom sample, and ask one question you already know the answer to. A factory that passes both is safe for a first order at trial quantity.\n\n## Key facts at a glance\n\n| Item | Data |\n|---|---|\n| Framework sources | Specright (manufacturer vs supplier), industry vetting checklists |\n| Worked-example terms | ELAPACK confirmed 2026 terms (MOQ 200, 15\u201320 days, sample policy) |\n| The two live tests | paid custom sample; one known-answer question |\n| Excluded from this page | food-packaging supplier words (out of scope for this factory's lines) |\n\n## Directory words, local words, specification words\n\n![Supplier vetting as three gates: documents and certificates, a paid custom sample, and a controlled first order \u2014 the checks that turn a shortlist into a decision.](/charts/supplier-vetting-funnel.svg)\n\nBuyers looking for a manufacturer use three word families \u2014 directory words that return lists, local words that return maps, and specification words that return factories. This guide is for the third search: once a shortlist exists, the remaining work is verification, and it runs in three gates \u2014 documents, sample, first order.\n\n**The shortlist is the start of the work, not the end \u2014 verification runs through documents, sample and first order.**\n## Manufacturer, supplier or broker\n\nThe distinction Specright publishes is the one to memorise: a **manufacturer** makes your packaging on its own lines; a **supplier** may make some products and source the rest; a **broker** makes nothing and resales. None is disqualified \u2014 but each changes what you verify. For a manufacturer, verify the factory (certificates, QC, lines). For a supplier, verify which items are in-house and which are bought in, because the bought-in items carry the longer lead time and the weaker quality control. For a broker, verify the actual factory behind every item, or you are vetting a website. **Ask directly \u2014 will this item run on your own lines? \u2014 and note the answer for the audit trail.**\n\n## The seven checks\n\n### 1 \u2014 Business basics\nCompany age, export record, and who signs. A factory trading since well before the pandemic with a stable legal name has survived freight crises and material swings \u2014 that history is data. Red flags: a trading name with no legal entity behind it, and a quotation with no company chop or signature. **Check one: ask for the business licence and export record; a manufacturer answers in a day.**\n\n### 2 \u2014 Certificates: read the scope, not the logo\nAn ISO 9001 badge on a homepage is not enough to assess a supplier. Ask for the certificate, verify its holder, validity and scope, and check whether that scope covers the products you intend to buy. ELAPACK's certificate details have not been published here, so request the current document before relying on any certification claim. **Check two: verify the actual certificate rather than inferring coverage from a logo.**\n\n### 3 \u2014 Sample policy\nThe sample stage is the cheapest audit in sourcing. Terms that respect both sides: a free stock sample with shipping paid by the buyer, and a paid custom sample at a nominal fee. ELAPACK's published terms \u2014 stock sample free with USD 25 shipping (4\u20137 days), custom sample USD 25 + USD 20 shipping (3\u20135 days) \u2014 are a fair benchmark for factory-direct custom. A factory that refuses custom samples before payment, or quotes a custom sample at production-price levels, is telling you how the programme will run. **Check three: order the custom sample before the production order, every first time \u2014 the [packaging samples guide](https://elapack.com/news/custom-packaging-samples-guide/) lists what to verify when it arrives.**\n\n### 4 \u2014 QC process, in stations not adjectives\nEvery factory says it checks quality; buyers need to know what is inspected for their particular order and when. Ask for the agreed inspection points, acceptance criteria, sample reference and pre-shipment evidence in writing. ELAPACK's station count and any AQL method require project-specific confirmation; they are not established by the information on this page. **Check four: request the inspection plan for your product before placing the bulk order.**\n\n### 5 \u2014 Colour control\nBox wrap, pouch fabric and ribbon can look different even when a brief uses the same colour code. Agree on each component's reference, viewing conditions and approved physical sample; ask the supplier how it will compare the proposed materials for your order. The [colour review guide](https://elapack.com/news/packaging-colour-tolerance-explained/) shows what to record without assuming a universal tolerance or a particular press-side process. **Check five: get the colour references and approval conditions in writing before bulk production.**\n\n### 6 \u2014 Engineering support\nDoes the factory quote from your sketch, or from a dieline it drew for you? Engineering support at quotation \u2014 a free digital dieline preview and vector-file acceptance \u2014 helps buyers check structure before ordering a sample. ELAPACK provides a free digital dieline preview for structure confirmation; the [die cutting and dielines guide](https://elapack.com/news/die-cutting-and-dielines-guide/) explains what buyers should check on it. **Check six: ask for the dieline before you commit; a factory that cannot draw your box cannot be responsible for it.**\n\n### 7 \u2014 Payment and communication red flags\nFair terms for first orders balance both sides: a deposit with balance against inspection or documents, not 100% in advance from a new buyer. Communication red flags: quotes that arrive without an expiry, answers that change the specification instead of correcting it, and any pressure to skip the sample stage. **Check seven: put the payment schedule, the lead time and the sample terms in writing before the deposit \u2014 the [MOQ, samples and production guide](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/) shows what a published terms table looks like.**\n\n## The ten questions to send any factory\n\n| # | Question | Passing answer looks like |\n|---|---|---|\n| 1 | Will this item run on your own lines? | yes, or a named partner with the same checks |\n| 2 | May I see your ISO certificate scope? | scope names your product family |\n| 3 | What are your sample terms? | free stock + nominal custom fee |\n| 4 | What is inspected for this order, and when? | a written inspection plan and acceptance criteria |\n| 5 | How will you review colour across substrates? | references, viewing conditions and approved samples recorded |\n| 6 | Do you draw the dieline? | free preview for approval, tooling named separately |\n| 7 | Lead time at my quantity? | a band tied to quantity, in writing |\n| 8 | Payment schedule for a first order? | deposit + balance against documents |\n| 9 | What is your MOQ? | a number with a reason (see the [MOQ and OEM guide](https://elapack.com/news/custom-packaging-moq-oem-odm-logo-guide/)) |\n| 10 | What does a spec sheet from you include? | the lines in the [spec sheet guide](https://elapack.com/news/how-to-read-a-packaging-specification-sheet/) |\n\n**Score it: seven or more solid answers is a quotable factory; five or fewer is a website.**\n\n## First-order risk control\n\nStructure the first order as a trial: one product, the minimum quantity (200 pieces at ELAPACK), the paid sample approved first, and a written spec sheet holding every variable. If the trial ships clean, the second order is where the programme economics start \u2014 and the [rigid box](https://elapack.com/news/custom-rigid-boxes-guide/) and [jewelry packaging overview](https://elapack.com/news/custom-jewelry-packaging-guide/) guides cover how to structure the bigger programmes. **Never trial a factory on your peak-season order; trial on the order whose delay you can survive.**\n\n## Bottom line\n\nNo method in the results \u2014 so carry this one. Run the seven checks, send the ten questions, and trial at minimum quantity with an approved sample. ELAPACK publishes its own answers to all ten on the [MOQ, samples and production guide](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/) and the [about page](https://elapack.com/about/) \u2014 vet this factory with the same checklist, that is the point of writing it down. Ready to run the checks on a live quote? [Request one here](https://elapack.com/contact/)."
   },
   {
     "slug": "custom-printed-boxes-guide",
@@ -6065,7 +6496,15 @@ var processSteps = [
 ];
 function ProductDetail() {
   const { slug } = (0, import_react_router_dom8.useParams)();
-  const product = slug ? getProductBySlug(slug) : void 0;
+  const originalProduct = slug ? getProductBySlug(slug) : void 0;
+  const review = slug ? productContentUpdates[slug] : void 0;
+  const product = originalProduct && review ? { ...originalProduct, shortDesc: review.intro, description: review.body.map((b) => b[1]).join("\n\n"), materials: "Confirm in quotation and approved sample", leadTime: "15\u201320 days after sample approval and payment receipt", features: review.checks.map((b) => ({ title: b[0], desc: b[1] })), specs: review.policies.map((b) => ({ label: b[0], value: b[1] })), customizationOptions: [review.options] } : originalProduct;
+  (0, import_react7.useEffect)(() => {
+    if (review) {
+      document.title = review.title;
+      document.querySelector('meta[name="description"]')?.setAttribute("content", review.meta);
+    }
+  }, [review]);
   const [openFaq, setOpenFaq] = (0, import_react7.useState)(0);
   const [activeImg, setActiveImg] = (0, import_react7.useState)(0);
   const galleryImgs = product?.gallery?.length ? product.gallery : product ? [product.image] : [];
@@ -6087,10 +6526,11 @@ function ProductDetail() {
     );
   }
   const quoteUrl = `/contact/?product=${encodeURIComponent(product.slug)}`;
-  const related = products.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4);
-  const copy = categoryCopy[product.category] ?? neutralCopy;
-  const faqs2 = faqsFor(product);
-  const guides = (productGuides[product.slug] ?? []).map((s) => getArticleBySlug(s)).filter((a) => a !== void 0);
+  const related = review ? products.filter((p) => review.links.some((l) => l[0] === `/products/${p.slug}/`)) : products.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4);
+  const originalCopy = categoryCopy[product.category] ?? neutralCopy;
+  const copy = review ? { ...originalCopy, importanceTitle: "Review Before Production", importanceIntro: "Confirm the proposed specification against a sample before approving production.", benefits: review.checks.slice(0, 3).map((b) => ({ title: b[0], desc: b[1] })), customizeTitle: "Prepare Your Customization Brief", customizeParas: [review.options], customizeCta: "Request a Packaging Quote" } : originalCopy;
+  const faqs2 = review ? review.faqs.map((b) => ({ q: b[0], a: b[1] })) : faqsFor(product);
+  const guides = (review ? review.guide_cards.map((g) => g.url.split("/").filter(Boolean).pop()) : productGuides[product.slug] ?? []).map((s) => getArticleBySlug(s)).filter((a) => a !== void 0);
   return /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(import_jsx_runtime7.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "breadcrumb-bar", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("nav", { className: "breadcrumb", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/", children: "Home" }),
@@ -6102,9 +6542,10 @@ function ProductDetail() {
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "product-detail-hero", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-gallery reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-gallery-main", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: galleryImgs[activeImg] ?? product.image, alt: product.name, width: 1254, height: 1254 }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: galleryImgs[activeImg] ?? product.image, alt: review?.gallery_review?.[activeImg]?.alt_proposal ?? product.name, width: 1254, height: 1254 }),
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-detail-category", children: product.category })
         ] }),
+        review?.gallery_caption_proposal && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { children: review.gallery_caption_proposal }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-gallery-thumbs", children: galleryImgs.map((img, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
           "div",
           {
@@ -6112,18 +6553,18 @@ function ProductDetail() {
             onClick: () => setActiveImg(i),
             role: "button",
             "aria-label": `View photo ${i + 1}`,
-            children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: img, alt: ` view `, loading: "lazy", width: 1254, height: 1254 })
+            children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: img, alt: review?.gallery_review?.[i]?.alt_proposal ?? `${product.name} packaging reference ${i + 1}`, loading: "lazy", width: 1254, height: 1254 })
           },
           i
         )) })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-info reveal reveal-delay-2", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h1", { className: "product-detail-title", children: product.name }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-detail-desc", children: product.description }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-detail-desc", children: review ? review.intro : product.description }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-quote", children: [
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h3", { className: "product-quote-title", children: "Get A Custom Quote:" }),
           /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-quote-actions", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-primary", children: "Request a Quote" }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-primary", children: review ? "Request a Packaging Quote" : "Request a Quote" }),
             /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-outline", children: "Contact Us" })
           ] })
         ] }),
@@ -6157,8 +6598,8 @@ function ProductDetail() {
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-specs-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-specs-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-specs-intro reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Technical Details" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "Specifications" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-specs-text", children: "The options below show typical configurations. Share your dimensions, material preferences, and finish requirements so we can confirm what is feasible for this product." }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: review ? "Order Information" : "Specifications" }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-specs-text", children: review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : "Share dimensions, material preferences and finish requirements to confirm feasibility." }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-primary", children: "Discuss Your Project" })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-specs-table reveal reveal-delay-2", children: product.specs.map((spec) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "spec-row", children: [
@@ -6182,7 +6623,7 @@ function ProductDetail() {
         }
       ) })
     ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-importance-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+    !review && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-importance-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: copy.importanceTitle }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", style: { maxWidth: "760px", margin: "1.5rem auto 0" }, children: copy.importanceIntro })
@@ -6221,7 +6662,7 @@ function ProductDetail() {
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-features-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Key Features" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Engineered for Excellence" })
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: review ? "What to Include in Your Enquiry" : "Engineered for Excellence" })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-features-grid", children: product.features.map((feature, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
         "div",
@@ -6254,7 +6695,7 @@ function ProductDetail() {
         step.step
       )) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-custom-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+    !review && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-custom-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Make It Yours" }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Customization Options" }),
@@ -6293,6 +6734,10 @@ function ProductDetail() {
         faq.q
       )) })
     ] }) }),
+    review && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { children: "Related Packaging" }),
+      review.links.map((l) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: l[0], children: l[1] }) }, l[0]))
+    ] }) }),
     related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-related-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { children: [
@@ -6330,7 +6775,7 @@ function ProductDetail() {
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "spec-list", children: guides.map((guide) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: `/news/${guide.slug}/`, className: "text-link", children: guide.title }),
         " \u2014 ",
-        guide.excerpt
+        review?.guide_cards.find((g) => g.url.endsWith(`/news/${guide.slug}/`))?.summary ?? guide.excerpt
       ] }, guide.slug)) })
     ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section cta-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "cta-box reveal", children: [
@@ -6796,7 +7241,7 @@ function About() {
         "img",
         {
           src: "/about-factory.webp",
-          alt: "ELAPACK production facility",
+          alt: "Packaging production scene",
           loading: "lazy",
           width: 1408,
           height: 768
@@ -6846,9 +7291,9 @@ function About() {
             /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("path", { d: "M32 26 L54 40 L32 54 Z", fill: "currentColor" })
           ] }) }),
           /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "about-video-caption", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", style: { color: "rgba(255,255,255,0.7)" }, children: "Inside Our Factory" }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", style: { color: "rgba(255,255,255,0.7)" }, children: "Packaging Process Video" }),
             /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "about-video-title", children: "See How Premium Packaging Is Made" }),
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-video-subtitle", children: "Take a virtual tour of our production facility \u2014 from material selection to precision assembly." })
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-video-subtitle", children: "View the available footage, then ask us which production arrangements apply to your packaging specification." })
           ] })
         ]
       }
@@ -6928,7 +7373,7 @@ var articles2 = [
   },
   {
     title: "Inside the Factory: How Your Custom Packaging Is Made",
-    excerpt: "From dieline to sewing floor to box assembly \u2014 a walk through our three production lines shows what actually happens between approving a sample and receiving your order.",
+    excerpt: "From approved dieline and sample to production checks and dispatch, review the steps to confirm for your custom packaging order.",
     image: "/images/factory/elapack-03.jpg",
     date: "September 2026",
     category: "Manufacturing",
@@ -7608,7 +8053,7 @@ function Article() {
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-body", children: renderBody(article.body, ANCHORS[article.slug]) }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-cta reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-cta-facts", children: "MOQ 200 per design \xB7 free dieline preview for approval \xB7 custom sample USD 25 + USD 20 shipping, 3-5 days" }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-cta-facts", children: "Individual packaging products from 200 pieces \xB7 free digital dieline preview \xB7 custom sample USD 25 + USD 20 shipping, usually 3\u20135 days to prepare" }),
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_react_router_dom13.Link, { to: "/contact/", className: "btn-primary article-cta-btn", children: "Request a quote" })
       ] }),
       related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-related reveal", children: [
@@ -7936,82 +8381,52 @@ var processSteps2 = [
   {
     phase: "Early",
     title: "Requirements & Design",
-    desc: "Detailed communication and free design \u2014 we listen to your brand, product, and goals, then translate them into structural and visual concepts.",
+    desc: "Share your brand, product and requirements so we can review structure, materials and artwork before sampling.",
     image: "/about-materials.webp",
     points: [
       "Brand & product consultation",
       "Structural design concepts",
       "Material & finish recommendations",
-      "Free design drafts"
+      "Design draft review"
     ]
   },
   {
     phase: "Middle",
     title: "Prototyping & Production",
-    desc: "Free samples and fast production \u2014 we create physical prototypes for your approval, then move to manufacturing with precision at every stage.",
+    desc: "Review an available stock sample or request a custom sample before production. Sample and shipping costs depend on the option you choose.",
     image: "/about-factory.webp",
     points: [
       "Physical sample production",
       "Sample approval & refinement",
       "Mass production setup",
-      "Rigorous QC protocols"
+      "Production specification review"
     ]
   },
   {
     phase: "Late",
     title: "Quality Testing & Delivery",
-    desc: "High-standard quality inspection and reliable global delivery \u2014 every piece is checked before shipping to Europe and North America.",
+    desc: "Confirm the approved sample, order specification, inspection points and shipping terms before dispatch.",
     image: "/about-craft.webp",
     points: [
-      "Multi-stage quality inspection",
+      "Agreed inspection points",
       "Packaging & logistics management",
-      "Reliable lead times",
+      "Order-specific lead-time review",
       "Worldwide delivery"
     ]
   }
 ];
-var successStories = [
-  {
-    client: "A UK High-Street Retailer",
-    category: "Retail Packaging",
-    solution: "Cost-Effective Luxury Packaging",
-    image: "/images/carousel/kraft-bag.png",
-    desc: "We designed a series of custom packaging for a UK high-street retailer, lowering packaging costs while enhancing shelf appeal."
-  },
-  {
-    client: "A New York Jewelry House",
-    category: "Jewelry Packaging",
-    solution: "Luxury Jewelry Box Design",
-    image: "/images/carousel/luxury-gift-box.png",
-    desc: "We designed bespoke custom packaging boxes for a New York jewelry house, enhancing the brand's luxury appeal at the moment of unboxing."
-  },
-  {
-    client: "A Heritage Pearl Maison",
-    category: "Heritage Packaging",
-    solution: "Timeless Jewelry Boxes",
-    image: "/images/carousel/black-leather-box.png",
-    desc: "Custom packaging for a heritage pearl maison reflects the brand's elegant temperament, combining timeless design with contemporary flair."
-  },
-  {
-    client: "A Global Fashion Group",
-    category: "Fashion Retail Packaging",
-    solution: "Retail Packaging Program",
-    image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
-    desc: "We developed tailor-made packaging for a global fashion group that complements their high-fashion products with consistent quality at volume."
-  }
-];
 var deliveryFeatures = [
   {
-    title: "Reliable On-Time Delivery",
-    desc: "Our global production capabilities and efficient logistics network ensure your custom packaging is delivered on time, every time."
+    title: "Order-Specific Delivery Planning",
+    desc: "Confirm the production schedule and shipping terms for your packaging specification and destination before placing an order."
   },
   {
-    title: "Own Factory, 3 Production Lines",
-    desc: "Our own facility runs three dedicated production lines for textile bags, rigid boxes, and gift sets \u2014 with direct air and sea freight to Europe and North America."
+    title: "Packaging Production Coordination",
+    desc: "Discuss the box, pouch and packaging-set requirements for your order, including materials, approved samples and production checks."
   },
   {
-    title: "Competitive Global Reach",
-    desc: "Our global reach enables us to offer competitive pricing and fast delivery, no matter where you are located."
+    title: "Export Quote Details",
+    desc: "Share your delivery destination and preferred trade terms so we can quote the appropriate shipping arrangement."
   }
 ];
 var faqs = [
@@ -8025,11 +8440,11 @@ var faqs = [
   },
   {
     q: "Do you provide eco-friendly packaging options?",
-    a: "We offer eco-friendly options including recycled kraft paper, natural cotton, and linen, plus recyclable structures where local facilities allow. Certification documents are available on request."
+    a: "Ask us about material options for your project. The applicable material specification and supporting documents should be confirmed for the selected product before ordering."
   },
   {
     q: "What is the process for getting started with a custom project?",
-    a: "It starts with a consultation to understand your brand and product. We then create design concepts, produce physical samples for approval, and move to production with QC at every stage."
+    a: "Share your product and packaging brief. We review the structure and artwork, discuss the appropriate sample, and confirm the production specification before an order proceeds."
   },
   {
     q: "How long does it take to complete a custom order?",
@@ -8037,15 +8452,15 @@ var faqs = [
   },
   {
     q: "What is the minimum order quantity (MOQ) for custom packaging?",
-    a: "MOQs vary by product \u2014 we support low-MOQ options for independent brands and scale up to high-volume production for global retail. Contact us for specifics on your project."
+    a: "Our starting MOQ is 200 pieces for individual packaging products. For multi-component packaging sets, tell us the quantity of each component so we can confirm how the order is counted and quoted."
   },
   {
-    q: "Where are your production facilities located?",
-    a: "Our production facility is located in Wuxi, Jiangsu, China, with global logistics support ensuring reliable delivery to Europe, North America, and worldwide."
+    q: "Where is ELAPACK based?",
+    a: "ELAPACK is operated by Wuxi Magic Packaging Co., Ltd., based in Wuxi, Jiangsu, China. Ask us to confirm the production arrangement for your specific order."
   },
   {
     q: "Can I see samples before placing a full order?",
-    a: "Yes. We produce physical samples for your approval before mass production. Sample costs may apply and are often credited toward your final order."
+    a: "Yes. Available stock samples are free, with USD 25 sample shipping. A custom sample is USD 25 plus USD 20 shipping; the usual custom-sample preparation time is 3\u20135 days. Confirm the sample type and destination in your quote."
   }
 ];
 function Video() {
@@ -8054,17 +8469,17 @@ function Video() {
     /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "page-header custom-solution-header", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow reveal", children: "Custom Solutions" }),
       /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
-        "Packaging Tailored",
+        "Custom Packaging",
         /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("br", {}),
-        "to Your Brand"
+        "Process & Video"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "From exquisite jewelry boxes to elegant gift packaging and sustainable paper cosmetics solutions \u2014 we offer comprehensive custom packaging services that bring your brand vision to life." })
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Review the available packaging footage and the steps from your brief through sampling, production and delivery. Send us your product details to discuss an order-specific plan." })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: "3rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "Factory Tour" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Inside Our Factory" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "section-subtitle", children: "Three production lines in Wuxi, Jiangsu \u2014 textile bags, rigid boxes and gift sets, made to your spec." })
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "Packaging Video" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Packaging Process Footage" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "section-subtitle", children: "See the available packaging footage, then confirm the materials, sample and production arrangements for your project." })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "about-video-wrapper reveal", style: { maxWidth: "900px", margin: "0 auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
         "video",
@@ -8085,7 +8500,7 @@ function Video() {
       /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: 0 }, children: "Our Custom Services" }),
         /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "custom-solution-text", children: "ELAPACK offers comprehensive custom packaging services tailored to your brand's needs. From exquisite jewelry boxes that showcase diamonds with museum-worthy presentations, to elegant gift boxes designed for luxury brand gifting, and sophisticated paper cosmetics packaging that balances sustainability with premium feel \u2014 we cover it all." }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "custom-solution-text", children: "Our design team leverages creativity, cutting-edge design tools, and industry-leading technology to craft custom packaging solutions that resonate with your brand's vision. Whether you need custom jewelry packaging boxes or unique personalized packaging, we have the expertise to bring your vision to life." }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "custom-solution-text", children: "We review structure, materials, artwork and sample needs against your product brief before confirming the production specification. Whether you need custom jewelry packaging boxes or unique personalized packaging, we have the expertise to bring your vision to life." }),
         /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "custom-solution-intro-actions", children: [
           /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/products/", className: "btn-primary", children: "Explore Products" }),
           /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/contact/", className: "btn-outline", children: "Request a Quote" })
@@ -8141,32 +8556,6 @@ function Video() {
         },
         step.title
       )) })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-stories-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "Our Success Stories" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Brands We've Transformed" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "section-subtitle", children: "Explore the success stories of brands we've helped transform through our custom packaging solutions. From high-end luxury packaging to innovative eco-friendly designs, see how we've partnered with leading brands to create packaging that truly stands out." })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "success-stories-grid", children: successStories.map((story, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
-        "div",
-        {
-          className: `success-story-card reveal reveal-delay-${i % 4 + 1}`,
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "success-story-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: story.image, alt: story.client, loading: "lazy", width: 1254, height: 1254 }),
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "success-story-category", children: story.category })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "success-story-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "success-story-client", children: story.client }),
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "success-story-title", children: story.solution }),
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "success-story-desc", children: story.desc })
-            ] })
-          ]
-        },
-        story.client
-      )) }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "success-stories-cta reveal", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/contact/", className: "btn-primary", children: "Start Your Project" }) })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-delivery-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
@@ -8230,7 +8619,7 @@ var import_react13 = require("react");
 var HOW_IT_WORKS_SHARED = [
   { title: "Send your spec", desc: "Share size, material, structure, branding and quantity." },
   { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4\u20137 days; custom printed samples take 3\u20135 days to make (USD 25 + USD 20 shipping)." },
-  { title: "We make it", desc: "Your order, made to your spec, in 15\u201320 days production." },
+  { title: "We make it", desc: "Typical production takes 15\u201320 days after sample approval and payment receipt; confirm the schedule for your order." },
   { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen." }
 ];
 var landings = [
@@ -8288,7 +8677,7 @@ var landings = [
       { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4\u20137 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
-      { label: "Production time", value: "15\u201320 days" },
+      { label: "Production time", value: "Typically 15\u201320 days after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T \xB7 PayPal" }
     ],
@@ -8347,7 +8736,7 @@ var landings = [
       { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4\u20137 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
-      { label: "Production time", value: "15\u201320 days" },
+      { label: "Production time", value: "Typically 15\u201320 days after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T \xB7 PayPal" }
     ],
@@ -8365,7 +8754,7 @@ var landings = [
     eyebrow: "Sets & Bundles",
     h1: "Custom Packaging Sets \u2014 Pouch, Box & More, Made to Work Together",
     subhead: "One spec. One supplier. Pouch, box and insert that match \u2014 piece to piece.",
-    metaDescription: "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands \u2014 pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference. MOQ from 200 pieces.",
+    metaDescription: "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands \u2014 coordinate pouch, box and insert specifications, and request a quote for your set composition and quantity.",
     intro: "ELAPACK makes custom packaging sets for brands selling in the US and Europe. We coordinate custom pouch, box, and insert specifications together. Specify the pouch and box together so colour, material, and branding can be checked across each piece of the set.",
     why: {
       heading: "What a set can include",
@@ -8389,14 +8778,14 @@ var landings = [
     howItWorks: [
       { title: "Send your spec", desc: "What goes in the set, per-piece size, material, branding, quantity." },
       { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4\u20137 days; custom printed samples take 3\u20135 days to make (USD 25 + USD 20 shipping)." },
-      { title: "We make it", desc: "Your order, made to your spec, in 15\u201320 days production." },
+      { title: "We make it", desc: "Typical production takes 15\u201320 days after sample approval and payment receipt; confirm the schedule for your order." },
       { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." }
     ],
     moq: [
-      { label: "MOQ", value: "200 pieces, whether the set includes a box or not" },
+      { label: "MOQ", value: "From 200; confirm the set composition and counting unit in your quotation" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4\u20137 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
-      { label: "Production time", value: "15\u201320 days" },
+      { label: "Production time", value: "Typically 15\u201320 days after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T \xB7 PayPal" }
     ],
@@ -9454,7 +9843,7 @@ var STATIC_TITLES = {
   "/news": "News & Insights | ELAPACK",
   "/about": "About ELAPACK \u2014 Custom Packaging for Brands",
   "/contact": "Contact ELAPACK \u2014 Get a Custom Packaging Quote",
-  "/video": "Inside ELAPACK \u2014 Factory & Craft Videos",
+  "/video": "Custom Packaging Process & Video | ELAPACK",
   ...Object.fromEntries(articles.map((a) => [`/news/${a.slug}`, `${a.title} | ELAPACK`]))
 };
 var STATIC_DESCRIPTIONS = {
@@ -9478,9 +9867,9 @@ var STATIC_DESCRIPTIONS = {
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands \u2014 engineered for Europe and North America.",
   "/solutions": "Custom packaging solutions from ELAPACK \u2014 bespoke structures, premium materials and finishes, clear process, sustainable options.",
   "/news": "Packaging insights, material trends and sustainability notes from the ELAPACK team.",
-  "/about": "ELAPACK began as a small workshop and grew into a full-service packaging partner for luxury brands across Europe and North America.",
+  "/about": "ELAPACK is operated by Wuxi Magic Packaging Co., Ltd. Learn about its packaging scope, material review and order process.",
   "/contact": "Talk to ELAPACK about your packaging project \u2014 quotes within one business day. Email, phone and WhatsApp available.",
-  "/video": "See ELAPACK's production floor, craft details and quality process in video.",
+  "/video": "View packaging process footage and review the design, sample, production and shipping questions to confirm for your order.",
   ...Object.fromEntries(articles.map((a) => [`/news/${a.slug}`, a.metaDescription]))
 };
 var SITE = "https://elapack.com";
@@ -9495,10 +9884,11 @@ for (const route of ROUTES) {
     );
     const productMatch = route.match(/^\/products\/([a-z0-9-]+)$/);
     const product = productMatch ? products.find((p) => p.slug === productMatch[1]) : void 0;
+    const review = product ? productContentUpdates[product.slug] : void 0;
     const articleMatch = route.match(/^\/news\/([a-z0-9-]+)$/);
     const article = articleMatch ? articles.find((a) => a.slug === articleMatch[1]) : void 0;
-    const pageTag = product ? `${product.name} | ELAPACK` : STATIC_TITLES[route] || "ELAPACK";
-    const pageDesc = STATIC_DESCRIPTIONS[route] || (product ? `${product.shortDesc} ${product.name} by ELAPACK \u2014 materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.` : void 0);
+    const pageTag = review ? review.title : product ? `${product.name} | ELAPACK` : STATIC_TITLES[route] || "ELAPACK";
+    const pageDesc = review?.meta || STATIC_DESCRIPTIONS[route] || (product ? `${product.shortDesc} ${product.name} by ELAPACK \u2014 materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.` : void 0);
     const canonical = `${SITE}${route === "/" ? "/" : route + "/"}`;
     const ogImage = article ? pageImage(article.image) : product ? pageImage(product.image) : `${SITE}/hero-packaging.webp`;
     const crumbs = [
@@ -9605,7 +9995,7 @@ for (const route of ROUTES) {
       });
     }
     if (product) {
-      graph.push({
+      graph.push(review ? { ...review.schema_product, mainEntityOfPage: { "@type": "WebPage", "@id": canonical } } : {
         "@type": "Product",
         "@id": `${canonical}#product`,
         name: product.name,
@@ -9624,7 +10014,7 @@ for (const route of ROUTES) {
       graph.push({
         "@type": "FAQPage",
         "@id": `${canonical}#faq`,
-        mainEntity: faqsFor(product).map((f) => ({
+        mainEntity: (review ? review.faqs.map((f) => ({ q: f[0], a: f[1] })) : faqsFor(product)).map((f) => ({
           "@type": "Question",
           name: f.q,
           acceptedAnswer: { "@type": "Answer", text: f.a }
@@ -9678,7 +10068,7 @@ for (const route of ROUTES) {
         `$1${esc(pageDesc)}$2`
       );
     }
-    out = out.replace("\n  </head>", `
+    out = out.replace("</head>", `
     ${headExtras}
   </head>`);
     const dest = route === "/" ? indexPath : import_node_path.default.join(dist, route.replace(/^\//, ""), "index.html");
