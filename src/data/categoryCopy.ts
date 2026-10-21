@@ -135,7 +135,10 @@ export const categoryCopy: Record<string, CategoryCopy> = {
 
 export function faqsFor(product: { name: string; category: string; materials: string }): { q: string; a: string }[] {
   return [
-    {
+    product.materials.includes("to confirm") ? {
+      q: `How are materials confirmed for ${product.name}?`,
+      a: "Share the item dimensions, intended use and material preference. The exact construction is specified in the quotation and checked in the approved sample before production.",
+    } : {
       q: `What materials are listed for ${product.name}?`,
       a: `The listed construction is ${product.materials}. Share your product dimensions and required finish so we can confirm the suitable specification in your quote.`,
     },

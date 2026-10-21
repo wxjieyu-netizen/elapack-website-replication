@@ -58,85 +58,84 @@ function Logo() {
 var products = [
   {
     slug: "black-leather-jewelry-box",
-    name: "Custom Black Leather Jewelry Boxes",
+    name: "Custom Black Jewelry Boxes",
     category: "Boxes",
-    shortDesc: "Faux leather rigid jewelry box with velvet interior, custom embossing and smart compartments.",
-    description: "The black leather jewelry box is more than just storage \u2014 it is a timeless statement of sophistication. Crafted from smooth grain faux leather in a deep, matte black tone, this box offers an elevated unboxing experience that reflects your brand commitment to quality. Its sleek, fingerprint-resistant exterior enhances visual appeal while staying pristine even with daily use. Inside, the velvet-lined smart compartments are laid out around your assortment \u2014 rings, chains, earrings or a mixed set \u2014 and embossed initials or a foil logo carry the brand quietly on the lid. A free digital dieline preview is available to review the box structure and insert layout. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. Colour is reviewed against the approved sample, and a custom sample (USD 25 plus USD 20 shipping, 3\u20135 days) settles grain, shade and emboss depth before bulk.",
+    shortDesc: "Black jewelry box packaging; confirm exterior, interior, insert and branding in the quotation and sample.",
+    description: "Plan a black jewelry box around the jewelry type, item dimensions and required presentation. Tell us whether you want a leather-look exterior, a particular lining or a fitted insert; these are specification choices, not confirmed materials for the pictured reference. Review the proposed structure and logo placement in a free digital dieline preview, then confirm the material, finish and fit in the quotation and approved sample. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate.",
     image: "/images/carousel/black-leather-box.png",
-    materials: "Faux leather, velvet interior, cardboard core",
+    materials: "Exterior, lining and core to confirm in quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Eyewear & Sunglasses", "Gift"],
     features: [
       {
-        title: "Premium Faux Leather Exterior",
-        desc: "Smooth grain faux leather with a matte finish that resists fingerprints and daily wear."
+        title: "Exterior Material",
+        desc: "Specify the black exterior appearance and material; confirm the construction in the approved sample."
       },
       {
-        title: "Plush Velvet Interior",
-        desc: "Soft velvet lining cushions delicate jewelry and keeps every piece scratch-free."
+        title: "Interior and Insert",
+        desc: "Share the jewelry dimensions and required placement so the lining and insert can be specified."
       },
       {
-        title: "Custom Logo Embossing",
-        desc: "Blind embossing, foil stamping and color detailing to carry your brand identity."
+        title: "Logo Placement",
+        desc: "Share artwork and preferred placement; confirm the suitable branding method in the quote."
       },
       {
-        title: "Smart Compartment Layout",
-        desc: "Compact structure with removable inserts tailored to your product assortment."
+        title: "Layout Review",
+        desc: "Review the box opening and item access with the intended contents in a sample."
       }
     ],
     specs: [
-      { label: "Exterior", value: "Velvet, leatherette, wood, satin, MDF, genuine leather" },
-      { label: "Interior", value: "Velvet, satin, suede, microfiber, flocked fabric" },
-      { label: "Insert", value: "Foam, EVA, molded plastic, recycled paper" },
-      { label: "Surface Finish", value: "Matte / glossy / debossed / foil stamping / spot UV" },
-      { label: "Closure Type", value: "Magnetic / snap / tuck flap / ribbon tie / drawer" }
+      { label: "Exterior", value: "Confirm requested material and finish in quote and sample" },
+      { label: "Interior / Insert", value: "Specify from jewelry dimensions and layout" },
+      { label: "Closure", value: "Confirm proposed structure in sample" },
+      { label: "MOQ", value: "200 pcs" }
     ],
     customizationOptions: [
-      "Custom exterior materials and colors",
-      "Logo embossing or foil stamping",
-      "Tailored interior inserts"
+      "Request black exterior and interior options",
+      "Provide logo artwork and placement reference",
+      "Specify jewelry dimensions and insert layout"
     ]
   },
   {
     slug: "custom-white-jewelry-box",
     name: "Custom White Jewelry Boxes",
     category: "Boxes",
-    shortDesc: "Compact white jewelry box with velvet cushion and custom logo printing \u2014 clean minimalist retail and gift packaging.",
-    description: "A compact white jewelry box with a glossy rigid shell and velvet-lined cushion, made for bracelets, small jewelry gifts and clean minimalist retail. The durable shell is built for retail handling and efficient shipping at a lightweight footprint; the velvet insert holds pieces securely, and the snap closure keeps the box shut on shelf and in transit. Branding goes directly on lid and base by silkscreen or hot stamp, with interior insert colors matched to your palette against an approved sample before bulk. Sizes are custom on request - from single-bracelet minis to multi-piece gift formats - and runs start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. Approve a custom sample first (USD 25 plus USD 20 shipping, 3-5 days) to check print density on the glossy shell and cushion fit with your actual piece before committing to bulk.",
+    shortDesc: "White jewelry box packaging; confirm shell, insert, closure and logo method against your approved sample.",
+    description: "For a white jewelry box, share the jewelry dimensions, item count, preferred opening and artwork. The pictured box is a style reference; its shell material, insert and closure are not a specification for your order. Confirm the proposed construction, finish and fit in the quotation and approved sample before bulk. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate.",
     image: "/images/carousel/pandora-box.png",
-    materials: "Plastic exterior, velvet interior insert",
+    materials: "Shell, lining and insert to confirm in quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift", "Fashion"],
     features: [
       {
-        title: "Durable White Shell",
-        desc: "Rigid plastic construction with a smooth glossy finish built for retail handling."
+        title: "White Exterior",
+        desc: "Specify the required surface appearance and confirm shell material in the approved sample."
       },
       {
-        title: "Soft Interior Cushion",
-        desc: "Velvet-lined insert holds bracelets and small pieces securely in place."
+        title: "Item Fit",
+        desc: "Provide jewelry dimensions and placement so the insert can be reviewed with the item."
       },
       {
-        title: "Retail-Ready Compact Size",
-        desc: "Lightweight footprint that displays cleanly on shelves and ships efficiently."
+        title: "Box Size",
+        desc: "Confirm internal clearance and finished outside size separately in the quotation."
       },
       {
-        title: "Custom Logo Printing",
-        desc: "Silkscreen or hot-stamp your logo directly onto the lid and base."
+        title: "Logo Review",
+        desc: "Send your artwork and preferred position; confirm the suitable print or finish method."
       }
     ],
     specs: [
-      { label: "Dimensions (L \xD7 W \xD7 H)", value: '1-3/4" \xD7 2" \xD7 1-1/2" (customizable)' },
-      { label: "Surface Finish", value: "Glossy white" },
-      { label: "Closure Type", value: "Snap closure" },
+      { label: "Dimensions", value: "Confirm from jewelry dimensions" },
+      { label: "Shell / Insert", value: "Confirm material and fit in quote and sample" },
+      { label: "Closure", value: "Confirm with the proposed structure" },
       { label: "Color Review", value: "Confirm against approved sample before bulk" },
       { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
     ],
     customizationOptions: [
       "Custom logo printing",
-      "Interior insert colors",
+      "Specify insert layout and color",
       "Custom sizing on request"
     ]
   },
@@ -324,8 +323,8 @@ var products = [
     slug: "custom-perfume-boxes",
     name: "Custom Perfume Packaging Boxes",
     category: "Boxes",
-    shortDesc: "Custom perfume boxes built around your bottle \u2014 two-piece, drawer and magnetic structures, from 200 pieces.",
-    description: "Custom perfume packaging boxes made around the bottle, not the other way round. Share your bottle dimensions and we build the structure to fit \u2014 two-piece lift-off lids for the flagship gifting moment, magnetic flip-tops for the retail counter, and drawer formats that layer bottle and story card. The wrap carries your full print, foil or emboss program, and fitted inserts \u2014 EVA foam, paper card or moulded pulp, cut to your bottle profile \u2014 hold glass steady from factory to vanity. MOQ from 200 pieces with your branding. Request a stock sample to judge the board and finish in hand.",
+    shortDesc: "Custom perfume box projects from 200 pieces; confirm the bottle fit, structure, insert and finish in a sample.",
+    description: "Start a perfume box brief with bottle dimensions, bottle weight, item count, preferred opening and artwork. The gallery shows style references, not a single standard configuration. Ask for the proposed box structure, insert material and branding method to be itemized in the quotation. Check the fit and opening with your bottle in an approved sample; presentation alone does not establish shipping protection. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate.",
     image: "/images/products/custom-perfume-boxes/custom-perfume-boxes-hero.jpg",
     gallery: [
       "/images/products/custom-perfume-boxes/custom-perfume-boxes-hero.jpg",
@@ -338,84 +337,84 @@ var products = [
       "/images/products/custom-perfume-boxes/custom-perfume-boxes-scene-01.jpg",
       "/images/products/custom-perfume-boxes/custom-perfume-boxes-scene-02.jpg"
     ],
-    materials: "Rigid paperboard with custom printed wrap, EVA / paper card / moulded pulp bottle inserts",
+    materials: "Board, wrap and insert to confirm in quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Fragrance", "Beauty", "Gift"],
     features: [
       {
         title: "Built Around Your Bottle",
-        desc: "Box and insert sized from your bottle dimensions \u2014 travel sprays to flagship formats and multi-bottle gift sets."
+        desc: "Send bottle dimensions, weight and item count to review required internal space and insert layout."
       },
       {
-        title: "Three Core Structures",
-        desc: "Two-piece lift-off, drawer and magnetic flip-top \u2014 the opening ritual that fits the line."
+        title: "Structure Selection",
+        desc: "Share the preferred opening; confirm the proposed construction in the quote and sample."
       },
       {
-        title: "Full-Print Branding",
-        desc: "Offset print, foil stamping, embossing and spot UV on the wrap \u2014 inside lid printing available."
+        title: "Artwork Review",
+        desc: "Provide logo and artwork files; confirm print area and finish for the selected structure."
       },
       {
-        title: "Secure Bottle Inserts",
-        desc: "EVA or molded inserts cut to the bottle profile, holding glass firmly through shipping and on shelf."
+        title: "Bottle Fit Check",
+        desc: "Test the actual bottle in the approved sample; assess transport requirements separately if needed."
       }
     ],
     specs: [
-      { label: "Structures", value: "Two-piece lift-off / drawer / magnetic flip-top" },
+      { label: "Structure", value: "Confirm proposed opening in quotation and sample" },
       { label: "Dimensions", value: "Made to your bottle" },
-      { label: "Insert", value: "EVA foam / paper card / moulded pulp, cut to bottle profile" },
-      { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
+      { label: "Insert", value: "Confirm material and bottle fit in sample" },
+      { label: "Surface Finish", value: "Confirm with approved artwork and sample" },
       { label: "MOQ", value: "200 pcs" }
     ],
     customizationOptions: [
-      "Sizing to any bottle format or gift set",
-      "Foil, emboss and full-colour print programs",
-      "Inserts cut to your bottle profile",
-      "Drawer and layered story-card layouts"
+      "Provide bottle dimensions, weight and count",
+      "Share preferred opening and branding reference",
+      "Specify bottle placement and insert requirements",
+      "Confirm materials and finishes in quotation"
     ]
   },
   {
     slug: "custom-perfume-sample-card-boxes",
-    name: "Custom Printed Perfume Sample Card Boxes",
-    category: "Boxes",
-    shortDesc: "Fully printed paper sample cards for perfume vials and sachets \u2014 your card layout, count and artwork.",
-    description: "Perfume sample packaging as a printed paper card: vials or sachets mount onto a full-colour card that carries the brand, the scent story and the try-me moment in one mail-flat piece. This is a different product from our rigid perfume gift boxes \u2014 sample cards are printed card construction, sized to your sample count and vial format, with your artwork edge to edge. Sampling programs, subscription inserts, boutique handouts and press mailers all run on the same card system. MOQ from 200 pieces with a 15\u201320 day lead time \u2014 send your sample count and card size for a quote. Product photography is in progress.",
+    name: "Custom Printed Perfume Sample Cards",
+    category: "Sampling Cards",
+    shortDesc: "Printed perfume sampling cards; share vial or sachet dimensions, attachment method and artwork for a quote.",
+    description: "This page covers printed perfume sample cards, not rigid perfume gift boxes. Send the vial or sachet dimensions, number of samples per card, proposed attachment method and artwork. Card stock, print method, attachment and finished size need confirmation in the quotation and approved sample. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate. Product photography is pending.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Printed paper card with mounted sample holders",
+    materials: "Card stock and sample attachment to confirm in quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Fragrance", "Beauty", "Gift"],
     features: [
       {
-        title: "Full-Colour Card Printing",
-        desc: "Your artwork edge to edge \u2014 brand face, scent story and instructions on one card."
+        title: "Artwork Brief",
+        desc: "Share print-ready artwork and required information; confirm print area and method in the quote."
       },
       {
         title: "Sized to Your Sample Count",
-        desc: "Card layouts for single vials through multi-scent discovery sets."
+        desc: "State vial or sachet count and dimensions to review a suitable layout."
       },
       {
-        title: "Mail-Flat Construction",
-        desc: "Slim paper-card build that posts at standard letter weights in sampling campaigns."
+        title: "Attachment Review",
+        desc: "Confirm how each sample attaches and whether the finished pack meets your mailing requirements."
       },
       {
         title: "Pairs with Gift Boxes",
-        desc: "Sample card for the try-me moment, rigid perfume box for the purchase \u2014 one matched program."
+        desc: "Discuss card and gift box requirements as separate components if both are needed."
       }
     ],
     specs: [
-      { label: "Format", value: "Printed paper card with sample mount" },
+      { label: "Format", value: "Printed sample card; attachment to confirm" },
       { label: "Sample count", value: "Custom \u2014 single to multi-scent layouts" },
       { label: "Card size", value: "Made to your spec" },
-      { label: "Print", value: "Full colour, custom artwork" },
+      { label: "Print", value: "Confirm artwork, stock and print method" },
       { label: "MOQ", value: "200 pcs" },
-      { label: "Lead time", value: "15\u201320 days" }
+      { label: "Production", value: "Typically 15\u201320 days after sample approval and payment receipt; shipping separate" }
     ],
     customizationOptions: [
       "Card sizes and sample-count layouts",
-      "Full-colour artwork printing",
-      "Formats for vials, sachets and sprays",
-      "Matched programs with rigid perfume boxes"
+      "Provide artwork and print requirements",
+      "Specify sample format and attachment method",
+      "Discuss matching gift boxes as a separate component"
     ]
   },
   {
@@ -1005,44 +1004,44 @@ var products = [
   },
   {
     slug: "custom-muslin-drawstring-pouch",
-    name: "Custom Muslin Pouches",
+    name: "Custom Natural-Fabric Drawstring Pouches",
     category: "Pouches & Bags",
-    shortDesc: "Breathable unbleached muslin drawstring pouch \u2014 the natural-look carrier for jewelry, favors and small goods.",
-    description: "An unbleached muslin pouch with a visible, honest weave. Muslin is breathable, which makes it a natural fit for items that should not sit in sealed plastic \u2014 and its hand-made look suits artisan, bridal favor and natural-positioned brands. Cut, sewn and printed to order in your size, with a cotton drawstring and your logo in water-based ink. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. Print density on the open weave is confirmed on a custom sample (USD 25 plus USD 20 shipping, 3\u20135 days) before bulk \u2014 the weave reads differently at different ink weights, so the sample stage earns itself here. Weave weight and drawstring length are specified to your contents, from favor minis to bottle-length formats. Product photography is in progress; request a stock sample to see the weave.",
+    shortDesc: "Natural-look drawstring pouch projects; confirm the fabric composition, weave and cord in a sample.",
+    description: "For a muslin-style drawstring pouch, send the item dimensions, quantity, preferred fabric appearance, cord and artwork. Request the exact fiber composition and fabric weight in the quotation, then check the proposed material and logo print in a sample. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate. Product photography is pending; request a sample to review the actual fabric and print.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Unbleached muslin, cotton cord",
+    materials: "Fabric composition, weave and cord to confirm in quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Beauty", "Gift"],
     features: [
       {
-        title: "Breathable Weave",
-        desc: "Air moves through the fabric \u2014 kind to items that should not sit sealed."
+        title: "Fabric Review",
+        desc: "Confirm composition, weave and weight on the proposed sample before approving the order."
       },
       {
-        title: "Natural, Unbleached Look",
-        desc: "A visible cotton weave that reads artisan and honest on shelf."
+        title: "Requested Appearance",
+        desc: "Share a natural-look reference and confirm color against the approved sample."
       },
       {
-        title: "Prints Beautifully",
-        desc: "Water-based inks on cotton give soft, matte logo prints."
+        title: "Logo Method",
+        desc: "Provide artwork and confirm the suitable print method on the selected fabric."
       },
       {
-        title: "Light to Ship",
-        desc: "Featherweight construction keeps freight costs down on volume programs."
+        title: "Usable Opening",
+        desc: "Check the drawstring opening with the intended item in the sample."
       }
     ],
     specs: [
       { label: "Dimensions", value: "Made to your size" },
-      { label: "Fabric", value: "Unbleached muslin cotton" },
-      { label: "Fabric weight", value: "To be confirmed" },
-      { label: "Closure Type", value: "Drawstring (cotton cord)" }
+      { label: "Fabric", value: "Confirm composition and weave in quote and sample" },
+      { label: "Fabric weight", value: "Confirm for selected fabric" },
+      { label: "Closure Type", value: "Drawstring; cord material to confirm" }
     ],
     customizationOptions: [
       "Custom sizes and shapes",
-      "Water-based ink logo printing",
-      "Bleached or colored muslin on request",
-      "Cord color matching"
+      "Provide logo artwork and preferred print appearance",
+      "Specify natural or colored fabric preference",
+      "Confirm cord material and color"
     ]
   },
   {
@@ -1090,36 +1089,36 @@ var products = [
   },
   {
     slug: "custom-pvc-bags",
-    name: "Custom Clear PVC Zip Bags with Logo",
+    name: "Custom Clear Packaging Bags with Logo",
     category: "Pouches & Bags",
-    shortDesc: "Clear PVC zip bags with your logo \u2014 transparent carriers for cosmetics, jewelry and press-on nails, from 200 pieces.",
-    description: "Custom clear PVC zip bags for programs where seeing the product is the point. Transparent zip bags are the everyday carrier for cosmetics and skincare, a retail-proven format for jewelry, and a practical home for press-on nail sets \u2014 the customer sees everything without opening the bag. Your logo prints on the clear face, and sizes run from small item bags to full toiletry formats. MOQ from 200 pieces \u2014 well below the typical 500\u20131000 on the same format elsewhere. Closure type, thickness and print method are quoted to your spec. Product photography is in progress; request a stock sample to check the material in hand.",
+    shortDesc: "Clear custom bags with logo from 200 pieces; confirm film and closure type in a sample.",
+    description: "For a clear packaging bag, provide the contents, required finished size, usable opening, preferred closure and logo artwork. Confirm the exact film composition, gauge, closure construction and print method in the quotation and approved sample. Orders start at 200 pieces. Product photography is pending; request a sample to check the actual film, opening and print.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Clear PVC, zipper closure",
+    materials: "Clear film and closure to confirm in quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Beauty", "Jewelry"],
     features: [
       {
-        title: "See-Through Convenience",
-        desc: "Customers and retail staff see the contents without opening \u2014 built for cosmetics, jewelry and press-on sets."
+        title: "Contents and Size",
+        desc: "Share the intended items and finished bag dimensions for a suitable layout."
       },
       {
-        title: "Zipper Closure",
-        desc: "Secure zip running the width of the bag \u2014 contents stay put in totes, drawers and travel."
+        title: "Closure Selection",
+        desc: "State the preferred opening and closure; confirm its action with the contents in a sample."
       },
       {
-        title: "Logo on the Clear Face",
-        desc: "Your logo printed on transparent PVC so the brand shows with the product."
+        title: "Logo Placement",
+        desc: "Provide artwork and confirm print method and position for the selected film."
       },
       {
-        title: "Low MOQ 200",
-        desc: "Launch transparent-packaging programs from 200 pieces \u2014 typically 500\u20131000 elsewhere."
+        title: "MOQ 200",
+        desc: "State your quantity from 200 pieces and delivery destination when requesting a quote."
       }
     ],
     specs: [
       { label: "Dimensions", value: "Made to your size" },
-      { label: "Material", value: "Clear PVC" },
+      { label: "Material", value: "Confirm clear film composition in quote and sample" },
       { label: "Closure type", value: "To be confirmed (quoted to your spec)" },
       { label: "Thickness / gauge", value: "To be confirmed" },
       { label: "Print method", value: "To be confirmed" },
@@ -1127,8 +1126,8 @@ var products = [
     ],
     customizationOptions: [
       "Custom sizes from small item bags to toiletry formats",
-      "Logo printing on the clear face",
-      "Zipper and closure options quoted to spec",
+      "Provide logo artwork and preferred position",
+      "Specify the required closure and usable opening",
       "Matched programs with fabric pouch lines"
     ]
   }
@@ -1137,7 +1136,8 @@ var categories = [
   "All",
   "Boxes",
   "Pouches & Bags",
-  "Sets & Complete Packaging"
+  "Sets & Complete Packaging",
+  "Sampling Cards"
 ];
 var industries = [
   "Jewelry",
@@ -6453,7 +6453,10 @@ var categoryCopy = {
 };
 function faqsFor(product) {
   return [
-    {
+    product.materials.includes("to confirm") ? {
+      q: `How are materials confirmed for ${product.name}?`,
+      a: "Share the item dimensions, intended use and material preference. The exact construction is specified in the quotation and checked in the approved sample before production."
+    } : {
       q: `What materials are listed for ${product.name}?`,
       a: `The listed construction is ${product.materials}. Share your product dimensions and required finish so we can confirm the suitable specification in your quote.`
     },
@@ -6498,6 +6501,8 @@ function ProductDetail() {
   const { slug } = (0, import_react_router_dom8.useParams)();
   const originalProduct = slug ? getProductBySlug(slug) : void 0;
   const review = slug ? productContentUpdates[slug] : void 0;
+  const isSampleCard = slug === "custom-perfume-sample-card-boxes";
+  const needsSpecReview = ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(slug ?? "");
   const product = originalProduct && review ? { ...originalProduct, shortDesc: review.intro, description: review.body.map((b) => b[1]).join("\n\n"), materials: "Confirm in quotation and approved sample", leadTime: "15\u201320 days after sample approval and payment receipt", features: review.checks.map((b) => ({ title: b[0], desc: b[1] })), specs: review.policies.map((b) => ({ label: b[0], value: b[1] })), customizationOptions: [review.options] } : originalProduct;
   (0, import_react7.useEffect)(() => {
     if (review) {
@@ -6528,7 +6533,7 @@ function ProductDetail() {
   const quoteUrl = `/contact/?product=${encodeURIComponent(product.slug)}`;
   const related = review ? products.filter((p) => review.links.some((l) => l[0] === `/products/${p.slug}/`)) : products.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4);
   const originalCopy = categoryCopy[product.category] ?? neutralCopy;
-  const copy = review ? { ...originalCopy, importanceTitle: "Review Before Production", importanceIntro: "Confirm the proposed specification against a sample before approving production.", benefits: review.checks.slice(0, 3).map((b) => ({ title: b[0], desc: b[1] })), customizeTitle: "Prepare Your Customization Brief", customizeParas: [review.options], customizeCta: "Request a Packaging Quote" } : originalCopy;
+  const copy = review ? { ...originalCopy, importanceTitle: "Review Before Production", importanceIntro: "Confirm the proposed specification against a sample before approving production.", benefits: review.checks.slice(0, 3).map((b) => ({ title: b[0], desc: b[1] })), customizeTitle: "Prepare Your Customization Brief", customizeParas: [review.options], customizeCta: "Request a Packaging Quote" } : needsSpecReview ? { ...originalCopy, noun: isSampleCard ? "sample card" : originalCopy.noun, customizeTitle: "Prepare Your Product Brief", customizeParas: ["Share the item dimensions, quantity, preferred structure or opening, and artwork. Confirm materials, finish and fit in the quotation and approved sample."], customizeCta: "Request a Packaging Quote" } : originalCopy;
   const faqs2 = review ? review.faqs.map((b) => ({ q: b[0], a: b[1] })) : faqsFor(product);
   const guides = (review ? review.guide_cards.map((g) => g.url.split("/").filter(Boolean).pop()) : productGuides[product.slug] ?? []).map((s) => getArticleBySlug(s)).filter((a) => a !== void 0);
   return /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(import_jsx_runtime7.Fragment, { children: [
@@ -6543,7 +6548,7 @@ function ProductDetail() {
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-detail-gallery reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-gallery-main", children: [
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("img", { src: galleryImgs[activeImg] ?? product.image, alt: review?.gallery_review?.[activeImg]?.alt_proposal ?? product.name, width: 1254, height: 1254 }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-detail-category", children: product.category })
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "product-detail-category", children: isSampleCard ? "Sampling Cards" : product.category })
         ] }),
         review?.gallery_caption_proposal && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { children: review.gallery_caption_proposal }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-gallery-thumbs", children: galleryImgs.map((img, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
@@ -6607,7 +6612,7 @@ function ProductDetail() {
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "spec-value", children: spec.value })
       ] }, spec.label)) })
     ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-description-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-description-grid", children: [
+    !needsSpecReview && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-description-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-description-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Product Description" }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", style: { marginTop: "1rem" }, children: product.description })
@@ -6623,7 +6628,7 @@ function ProductDetail() {
         }
       ) })
     ] }) }) }),
-    !review && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-importance-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
+    !review && !needsSpecReview && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-importance-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "section-header-center reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: copy.importanceTitle }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-description-text", style: { maxWidth: "760px", margin: "1.5rem auto 0" }, children: copy.importanceIntro })
@@ -6641,8 +6646,8 @@ function ProductDetail() {
         benefit.title
       )) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-customize-bags-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-customize-bags-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-customize-bags-image reveal", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-customize-bags-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-customize-bags-grid", style: needsSpecReview ? { gridTemplateColumns: "1fr" } : void 0, children: [
+      !needsSpecReview && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-customize-bags-image reveal", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
         "img",
         {
           src: "/custom-options.webp",
@@ -9885,10 +9890,11 @@ for (const route of ROUTES) {
     const productMatch = route.match(/^\/products\/([a-z0-9-]+)$/);
     const product = productMatch ? products.find((p) => p.slug === productMatch[1]) : void 0;
     const review = product ? productContentUpdates[product.slug] : void 0;
+    const specReview = product && ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(product.slug);
     const articleMatch = route.match(/^\/news\/([a-z0-9-]+)$/);
     const article = articleMatch ? articles.find((a) => a.slug === articleMatch[1]) : void 0;
     const pageTag = review ? review.title : product ? `${product.name} | ELAPACK` : STATIC_TITLES[route] || "ELAPACK";
-    const pageDesc = review?.meta || STATIC_DESCRIPTIONS[route] || (product ? `${product.shortDesc} ${product.name} by ELAPACK \u2014 materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.` : void 0);
+    const pageDesc = review?.meta || STATIC_DESCRIPTIONS[route] || (product ? specReview ? product.shortDesc : `${product.shortDesc} ${product.name} by ELAPACK \u2014 materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.` : void 0);
     const canonical = `${SITE}${route === "/" ? "/" : route + "/"}`;
     const ogImage = article ? pageImage(article.image) : product ? pageImage(product.image) : `${SITE}/hero-packaging.webp`;
     const crumbs = [
@@ -10000,10 +10006,10 @@ for (const route of ROUTES) {
         "@id": `${canonical}#product`,
         name: product.name,
         description: product.shortDesc,
-        image: [ogImage],
+        ...specReview && product.image.endsWith(".svg") ? {} : { image: [ogImage] },
         sku: product.slug,
         category: product.category,
-        material: product.materials,
+        ...specReview ? {} : { material: product.materials },
         brand: { "@type": "Brand", name: "ELAPACK" },
         additionalProperty: [
           { "@type": "PropertyValue", name: "Minimum Order Quantity", value: product.moq },

@@ -28,6 +28,8 @@ export default function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
   const originalProduct = slug ? getProductBySlug(slug) : undefined;
   const review = slug ? productContentUpdates[slug] : undefined;
+  const isSampleCard = slug === "custom-perfume-sample-card-boxes";
+  const needsSpecReview = ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(slug ?? "");
   const product: Product | undefined = originalProduct && review ? { ...originalProduct, shortDesc: review.intro, description: review.body.map((b: string[]) => b[1]).join("\n\n"), materials: "Confirm in quotation and approved sample", leadTime: "15–20 days after sample approval and payment receipt", features: review.checks.map((b: string[]) => ({title:b[0],desc:b[1]})), specs: review.policies.map((b: string[]) => ({label:b[0],value:b[1]})), customizationOptions: [review.options] } : originalProduct;
   useEffect(() => { if (review) { document.title = review.title; document.querySelector('meta[name="description"]')?.setAttribute('content', review.meta); } }, [review]);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
@@ -62,7 +64,7 @@ export default function ProductDetail() {
     .slice(0, 4);
 
   const originalCopy = categoryCopy[product.category] ?? neutralCopy;
-  const copy: CategoryCopy = review ? {...originalCopy, importanceTitle: "Review Before Production", importanceIntro: "Confirm the proposed specification against a sample before approving production.", benefits: review.checks.slice(0,3).map((b: string[])=>({title:b[0],desc:b[1]})), customizeTitle:"Prepare Your Customization Brief", customizeParas:[review.options], customizeCta:"Request a Packaging Quote"} : originalCopy;
+  const copy: CategoryCopy = review ? {...originalCopy, importanceTitle: "Review Before Production", importanceIntro: "Confirm the proposed specification against a sample before approving production.", benefits: review.checks.slice(0,3).map((b: string[])=>({title:b[0],desc:b[1]})), customizeTitle:"Prepare Your Customization Brief", customizeParas:[review.options], customizeCta:"Request a Packaging Quote"} : needsSpecReview ? {...originalCopy, noun: isSampleCard ? "sample card" : originalCopy.noun, customizeTitle: "Prepare Your Product Brief", customizeParas: ["Share the item dimensions, quantity, preferred structure or opening, and artwork. Confirm materials, finish and fit in the quotation and approved sample."], customizeCta: "Request a Packaging Quote"} : originalCopy;
   const faqs: {q:string;a:string}[] = review ? review.faqs.map((b: string[])=>({q:b[0],a:b[1]})) : faqsFor(product);
   const guides: NonNullable<ReturnType<typeof getArticleBySlug>>[] = (review ? review.guide_cards.map((g: any)=>g.url.split("/").filter(Boolean).pop()) : (productGuides[product.slug] ?? []))
     .map((s: string) => getArticleBySlug(s))
@@ -90,7 +92,7 @@ export default function ProductDetail() {
               <div className="product-gallery-main">
                 <img src={galleryImgs[activeImg] ?? product.image} alt={review?.gallery_review?.[activeImg]?.alt_proposal ?? product.name} width={1254} height={1254} />
                 <span className="product-detail-category">
-                  {product.category}
+                  {isSampleCard ? "Sampling Cards" : product.category}
                 </span>
               </div>
               {review?.gallery_caption_proposal && <p>{review.gallery_caption_proposal}</p>}
@@ -197,7 +199,7 @@ export default function ProductDetail() {
       </section>
 
       {/* Product Description Section */}
-      <section className="section product-description-section">
+      {!needsSpecReview && <section className="section product-description-section">
         <div className="container">
           <div className="product-description-grid">
             <div className="reveal">
@@ -217,10 +219,10 @@ export default function ProductDetail() {
             </div>
           </div>
         </div>
-      </section>
+      </section>}
 
       {/* Importance Section */}
-      {!review && (<section className="section product-importance-section">
+      {!review && !needsSpecReview && (<section className="section product-importance-section">
         <div className="container">
           <div className="section-header-center reveal">
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
@@ -250,8 +252,8 @@ export default function ProductDetail() {
       {/* Customize Your Bags Section */}
       <section className="section product-customize-bags-section">
         <div className="container">
-          <div className="product-customize-bags-grid">
-            <div className="product-customize-bags-image reveal">
+          <div className="product-customize-bags-grid" style={needsSpecReview ? { gridTemplateColumns: "1fr" } : undefined}>
+            {!needsSpecReview && <div className="product-customize-bags-image reveal">
               <img
                 src="/custom-options.webp"
                 alt={`Customize your ${copy.noun}`}
@@ -259,7 +261,7 @@ export default function ProductDetail() {
               width={1408}
               height={768}
               />
-            </div>
+            </div>}
             <div className="product-customize-bags-content reveal reveal-delay-2">
               <p className="eyebrow">Customization Options</p>
               <h2 className="section-title" style={{ marginTop: "0.75rem" }}>

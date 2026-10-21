@@ -144,6 +144,7 @@ for (const route of ROUTES) {
       ? PRODUCTS.find((p) => p.slug === productMatch[1])
       : undefined;
     const review = product ? productContentUpdates[product.slug] : undefined;
+    const specReview = product && ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(product.slug);
     const articleMatch = route.match(/^\/news\/([a-z0-9-]+)$/);
     const article = articleMatch
       ? ARTICLES.find((a) => a.slug === articleMatch[1])
@@ -155,7 +156,7 @@ for (const route of ROUTES) {
     const pageDesc =
       review?.meta || STATIC_DESCRIPTIONS[route] ||
       (product
-        ? `${product.shortDesc} ${product.name} by ELAPACK — materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.`
+        ? specReview ? product.shortDesc : `${product.shortDesc} ${product.name} by ELAPACK — materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.`
         : undefined);
 
     // GitHub Pages 301s bare inner paths to the trailing-slash URL, so that
@@ -279,10 +280,10 @@ for (const route of ROUTES) {
         "@id": `${canonical}#product`,
         name: product.name,
         description: product.shortDesc,
-        image: [ogImage],
+        ...(specReview && product.image.endsWith(".svg") ? {} : { image: [ogImage] }),
         sku: product.slug,
         category: product.category,
-        material: product.materials,
+        ...(specReview ? {} : { material: product.materials }),
         brand: { "@type": "Brand", name: "ELAPACK" },
         additionalProperty: [
           { "@type": "PropertyValue", name: "Minimum Order Quantity", value: product.moq },
