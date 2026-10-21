@@ -78,7 +78,7 @@ export default function About() {
             <div className="about-story-image reveal">
               <img
                 src="/about-factory.webp"
-                alt="ELAPACK production facility"
+                alt="Packaging production scene"
                 loading="lazy"
               width={1408}
               height={768}
@@ -147,14 +147,14 @@ export default function About() {
             </div>
             <div className="about-video-caption">
               <p className="eyebrow" style={{ color: "rgba(255,255,255,0.7)" }}>
-                Inside Our Factory
+                Packaging Process Video
               </p>
               <h2 className="about-video-title">
                 See How Premium Packaging Is Made
               </h2>
               <p className="about-video-subtitle">
-                Take a virtual tour of our production facility — from material
-                selection to precision assembly.
+                View the available footage, then ask us which production
+                arrangements apply to your packaging specification.
               </p>
             </div>
           </div>

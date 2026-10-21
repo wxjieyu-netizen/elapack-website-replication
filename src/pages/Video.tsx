@@ -5,84 +5,53 @@ const processSteps = [
   {
     phase: "Early",
     title: "Requirements & Design",
-    desc: "Detailed communication and free design — we listen to your brand, product, and goals, then translate them into structural and visual concepts.",
+    desc: "Share your brand, product and requirements so we can review structure, materials and artwork before sampling.",
   image: "/about-materials.webp",
   points: [
       "Brand & product consultation",
       "Structural design concepts",
       "Material & finish recommendations",
-      "Free design drafts",
+      "Design draft review",
     ],
   },
   {
     phase: "Middle",
     title: "Prototyping & Production",
-    desc: "Free samples and fast production — we create physical prototypes for your approval, then move to manufacturing with precision at every stage.",
+    desc: "Review an available stock sample or request a custom sample before production. Sample and shipping costs depend on the option you choose.",
     image: "/about-factory.webp",
     points: [
       "Physical sample production",
       "Sample approval & refinement",
       "Mass production setup",
-      "Rigorous QC protocols",
+      "Production specification review",
     ],
   },
   {
     phase: "Late",
     title: "Quality Testing & Delivery",
-    desc: "High-standard quality inspection and reliable global delivery — every piece is checked before shipping to Europe and North America.",
+    desc: "Confirm the approved sample, order specification, inspection points and shipping terms before dispatch.",
     image: "/about-craft.webp",
     points: [
-      "Multi-stage quality inspection",
+      "Agreed inspection points",
       "Packaging & logistics management",
-      "Reliable lead times",
+      "Order-specific lead-time review",
       "Worldwide delivery",
     ],
   },
 ];
 
-const successStories = [
-  {
-    client: "A UK High-Street Retailer",
-    category: "Retail Packaging",
-    solution: "Cost-Effective Luxury Packaging",
-    image: "/images/carousel/kraft-bag.png",
-    desc: "We designed a series of custom packaging for a UK high-street retailer, lowering packaging costs while enhancing shelf appeal.",
-  },
-  {
-    client: "A New York Jewelry House",
-    category: "Jewelry Packaging",
-    solution: "Luxury Jewelry Box Design",
-    image: "/images/carousel/luxury-gift-box.png",
-    desc: "We designed bespoke custom packaging boxes for a New York jewelry house, enhancing the brand's luxury appeal at the moment of unboxing.",
-  },
-  {
-    client: "A Heritage Pearl Maison",
-    category: "Heritage Packaging",
-    solution: "Timeless Jewelry Boxes",
-    image: "/images/carousel/black-leather-box.png",
-    desc: "Custom packaging for a heritage pearl maison reflects the brand's elegant temperament, combining timeless design with contemporary flair.",
-  },
-  {
-    client: "A Global Fashion Group",
-    category: "Fashion Retail Packaging",
-    solution: "Retail Packaging Program",
-    image: "/images/carousel/exec-d88bc44e-a36e-4f12-b991-f3f746e07e39.png",
-    desc: "We developed tailor-made packaging for a global fashion group that complements their high-fashion products with consistent quality at volume.",
-  },
-];
-
 const deliveryFeatures = [
   {
-    title: "Reliable On-Time Delivery",
-    desc: "Our global production capabilities and efficient logistics network ensure your custom packaging is delivered on time, every time.",
+    title: "Order-Specific Delivery Planning",
+    desc: "Confirm the production schedule and shipping terms for your packaging specification and destination before placing an order.",
   },
   {
-    title: "Own Factory, 3 Production Lines",
-    desc: "Our own facility runs three dedicated production lines for textile bags, rigid boxes, and gift sets — with direct air and sea freight to Europe and North America.",
+    title: "Packaging Production Coordination",
+    desc: "Discuss the box, pouch and packaging-set requirements for your order, including materials, approved samples and production checks.",
   },
   {
-    title: "Competitive Global Reach",
-    desc: "Our global reach enables us to offer competitive pricing and fast delivery, no matter where you are located.",
+    title: "Export Quote Details",
+    desc: "Share your delivery destination and preferred trade terms so we can quote the appropriate shipping arrangement.",
   },
 ];
 
@@ -97,11 +66,11 @@ const faqs = [
   },
   {
     q: "Do you provide eco-friendly packaging options?",
-    a: "We offer eco-friendly options including recycled kraft paper, natural cotton, and linen, plus recyclable structures where local facilities allow. Certification documents are available on request.",
+    a: "Ask us about material options for your project. The applicable material specification and supporting documents should be confirmed for the selected product before ordering.",
   },
   {
     q: "What is the process for getting started with a custom project?",
-    a: "It starts with a consultation to understand your brand and product. We then create design concepts, produce physical samples for approval, and move to production with QC at every stage.",
+    a: "Share your product and packaging brief. We review the structure and artwork, discuss the appropriate sample, and confirm the production specification before an order proceeds.",
   },
   {
     q: "How long does it take to complete a custom order?",
@@ -109,15 +78,15 @@ const faqs = [
   },
   {
     q: "What is the minimum order quantity (MOQ) for custom packaging?",
-    a: "MOQs vary by product — we support low-MOQ options for independent brands and scale up to high-volume production for global retail. Contact us for specifics on your project.",
+    a: "Our starting MOQ is 200 pieces for individual packaging products. For multi-component packaging sets, tell us the quantity of each component so we can confirm how the order is counted and quoted.",
   },
   {
-    q: "Where are your production facilities located?",
-    a: "Our production facility is located in Wuxi, Jiangsu, China, with global logistics support ensuring reliable delivery to Europe, North America, and worldwide.",
+    q: "Where is ELAPACK based?",
+    a: "ELAPACK is operated by Wuxi Magic Packaging Co., Ltd., based in Wuxi, Jiangsu, China. Ask us to confirm the production arrangement for your specific order.",
   },
   {
     q: "Can I see samples before placing a full order?",
-    a: "Yes. We produce physical samples for your approval before mass production. Sample costs may apply and are often credited toward your final order.",
+    a: "Yes. Available stock samples are free, with USD 25 sample shipping. A custom sample is USD 25 plus USD 20 shipping; the usual custom-sample preparation time is 3–5 days. Confirm the sample type and destination in your quote.",
   },
 ];
 
@@ -130,14 +99,14 @@ export default function Video() {
         <div className="container">
           <p className="eyebrow reveal">Custom Solutions</p>
           <h1 className="page-title reveal reveal-delay-1">
-            Packaging Tailored
+            Custom Packaging
             <br />
-            to Your Brand
+            Process & Video
           </h1>
           <p className="page-subtitle reveal reveal-delay-2">
-            From exquisite jewelry boxes to elegant gift packaging and
-            sustainable paper cosmetics solutions — we offer comprehensive
-            custom packaging services that bring your brand vision to life.
+            Review the available packaging footage and the steps from your
+            brief through sampling, production and delivery. Send us your
+            product details to discuss an order-specific plan.
           </p>
         </div>
       </section>
@@ -145,13 +114,13 @@ export default function Video() {
       <section className="section" style={{ paddingTop: "3rem" }}>
         <div className="container">
           <div className="section-header-center reveal">
-            <p className="eyebrow">Factory Tour</p>
+            <p className="eyebrow">Packaging Video</p>
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-              Inside Our Factory
+              Packaging Process Footage
             </h2>
             <p className="section-subtitle">
-              Three production lines in Wuxi, Jiangsu — textile bags, rigid
-              boxes and gift sets, made to your spec.
+              See the available packaging footage, then confirm the materials,
+              sample and production arrangements for your project.
             </p>
           </div>
           <div className="about-video-wrapper reveal" style={{ maxWidth: "900px", margin: "0 auto" }}>
@@ -185,9 +154,8 @@ export default function Video() {
                 sustainability with premium feel — we cover it all.
               </p>
               <p className="custom-solution-text">
-                Our design team leverages creativity, cutting-edge design
-                tools, and industry-leading technology to craft custom
-                packaging solutions that resonate with your brand's vision.
+                We review structure, materials, artwork and sample needs against
+                your product brief before confirming the production specification.
                 Whether you need custom jewelry packaging boxes or unique
                 personalized packaging, we have the expertise to bring your
                 vision to life.
@@ -259,53 +227,6 @@ export default function Video() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section custom-solution-stories-section">
-        <div className="container">
-          <div className="section-header-center reveal">
-            <p className="eyebrow">Our Success Stories</p>
-            <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-              Brands We've Transformed
-            </h2>
-            <p className="section-subtitle">
-              Explore the success stories of brands we've helped transform
-              through our custom packaging solutions. From high-end luxury
-              packaging to innovative eco-friendly designs, see how we've
-              partnered with leading brands to create packaging that truly
-              stands out.
-            </p>
-          </div>
-
-          <div className="success-stories-grid">
-            {successStories.map((story, i) => (
-              <div
-                key={story.client}
-                className={`success-story-card reveal reveal-delay-${(i % 4) + 1}`}
-              >
-                <div className="success-story-image">
-                  <img src={story.image} alt={story.client} loading="lazy" width={1254} height={1254} />
-                  <span className="success-story-category">
-                    {story.category}
-                  </span>
-                </div>
-                <div className="success-story-body">
-                  <span className="success-story-client">
-                    {story.client}
-                  </span>
-                  <h3 className="success-story-title">{story.solution}</h3>
-                  <p className="success-story-desc">{story.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="success-stories-cta reveal">
-            <Link to="/contact/" className="btn-primary">
-              Start Your Project
-            </Link>
           </div>
         </div>
       </section>

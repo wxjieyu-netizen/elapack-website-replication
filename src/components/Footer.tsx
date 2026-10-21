@@ -15,7 +15,6 @@ export default function Footer() {
             </p>
             <div className="footer-badges">
               <span className="footer-badge">Material Options</span>
-              <span className="footer-badge">ISO 9001 Certified</span>
               <span className="footer-badge">Global Shipping</span>
             </div>
           </div>
@@ -59,7 +58,7 @@ export default function Footer() {
                 <a href="https://wa.me/8618626352096">+86 18626352096</a>
               </li>
               <li>
-                <span className="footer-label">Factory</span>
+                <span className="footer-label">Location</span>
                 Wuxi, Jiangsu, China
               </li>
             </ul>

@@ -82,7 +82,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/news": "News & Insights | ELAPACK",
   "/about": "About ELAPACK — Custom Packaging for Brands",
   "/contact": "Contact ELAPACK — Get a Custom Packaging Quote",
-  "/video": "Inside ELAPACK — Factory & Craft Videos",
+  "/video": "Custom Packaging Process & Video | ELAPACK",
   ...Object.fromEntries(ARTICLES.map((a) => [`/news/${a.slug}`, `${a.title} | ELAPACK`])),
 };
 
@@ -108,9 +108,9 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands — engineered for Europe and North America.",
   "/solutions": "Custom packaging solutions from ELAPACK — bespoke structures, premium materials and finishes, clear process, sustainable options.",
   "/news": "Packaging insights, material trends and sustainability notes from the ELAPACK team.",
-  "/about": "ELAPACK began as a small workshop and grew into a full-service packaging partner for luxury brands across Europe and North America.",
+  "/about": "ELAPACK is operated by Wuxi Magic Packaging Co., Ltd. Learn about its packaging scope, material review and order process.",
   "/contact": "Talk to ELAPACK about your packaging project — quotes within one business day. Email, phone and WhatsApp available.",
-  "/video": "See ELAPACK's production floor, craft details and quality process in video.",
+  "/video": "View packaging process footage and review the design, sample, production and shipping questions to confirm for your order.",
   ...Object.fromEntries(ARTICLES.map((a) => [`/news/${a.slug}`, a.metaDescription])),
 };
 

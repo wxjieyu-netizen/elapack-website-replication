@@ -32,7 +32,7 @@ const articles = [
   {
     title: "Inside the Factory: How Your Custom Packaging Is Made",
     excerpt:
-      "From dieline to sewing floor to box assembly — a walk through our three production lines shows what actually happens between approving a sample and receiving your order.",
+      "From approved dieline and sample to production checks and dispatch, review the steps to confirm for your custom packaging order.",
     image: "/images/factory/elapack-03.jpg",
     date: "September 2026",
     category: "Manufacturing",
