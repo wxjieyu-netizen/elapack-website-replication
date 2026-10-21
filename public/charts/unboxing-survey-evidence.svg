@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Two panels from Ryder's 2025 E-commerce Consumer Study: what a premium unboxing experience changes about brand perception, and what shoppers name as the strongest reason to shop with a brand again">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+
+  <text x="48" y="52" font-family="Georgia,serif" font-size="27" font-weight="600" fill="#18120c">Perception rises, repeat intent falls</text>
+  <text x="48" y="80" font-family="Helvetica,Arial,sans-serif" font-size="13.5" fill="#6b6258">Ryder 2025 E-commerce Consumer Study · 1,376 US online shoppers surveyed March 2025 · figures are survey responses, not purchase outcomes</text>
+
+  <line x1="48" y1="98" x2="1152" y2="98" stroke="#b08d46" stroke-width="1.5"/>
+
+  <!-- Panel A -->
+  <text x="48" y="136" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#18120c">HOW A PREMIUM UNBOXING EXPERIENCE AFFECTS FEELINGS ABOUT A BRAND</text>
+  <text x="48" y="158" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">"A custom designed box, colourful tissue paper, ribbons, twine"</text>
+
+  <g font-family="Helvetica,Arial,sans-serif">
+    <!-- row 1 -->
+    <text x="48" y="196" font-size="13" fill="#18120c">It makes the brand seem upscale</text>
+    <rect x="330" y="180" width="364" height="22" rx="2" fill="#18120c"/>
+    <text x="706" y="196" font-size="13.5" font-weight="600" fill="#18120c">52%</text>
+    <text x="756" y="196" font-size="12" fill="#b08d46">+9 YOY</text>
+
+    <!-- row 2 -->
+    <text x="48" y="240" font-size="13" fill="#18120c">I'm more excited about opening the package</text>
+    <rect x="330" y="224" width="322" height="22" rx="2" fill="#8d857a"/>
+    <text x="706" y="240" font-size="13.5" font-weight="600" fill="#18120c">46%</text>
+    <text x="756" y="240" font-size="12" fill="#6b6258">−1 YOY</text>
+
+    <!-- row 3 -->
+    <text x="48" y="284" font-size="13" fill="#18120c">It makes me want to purchase again</text>
+    <rect x="330" y="268" width="217" height="22" rx="2" fill="#8d857a"/>
+    <text x="706" y="284" font-size="13.5" font-weight="600" fill="#18120c">31%</text>
+    <text x="756" y="284" font-size="12" font-weight="600" fill="#a03b2c">−10 YOY</text>
+
+    <!-- row 4 -->
+    <text x="48" y="328" font-size="13" fill="#18120c">More likely to share on social media</text>
+    <rect x="330" y="312" width="70" height="22" rx="2" fill="#8d857a"/>
+    <text x="706" y="328" font-size="13.5" font-weight="600" fill="#18120c">10%</text>
+    <text x="756" y="328" font-size="12" fill="#6b6258">−6 YOY</text>
+  </g>
+
+  <!-- Panel B -->
+  <line x1="888" y1="122" x2="888" y2="470" stroke="#d8d2c8" stroke-width="1"/>
+
+  <text x="918" y="136" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#18120c">WHAT MOST MAKES YOU</text>
+  <text x="918" y="154" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#18120c">SHOP THE SAME BRAND</text>
+  <text x="918" y="172" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#18120c">AGAIN</text>
+
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text x="918" y="206" font-size="12" fill="#18120c">Coupon, discount</text>
+    <text x="918" y="222" font-size="12" fill="#18120c">or credit</text>
+    <rect x="918" y="234" width="164" height="18" rx="2" fill="#18120c"/>
+    <text x="1092" y="249" font-size="16" font-weight="600" fill="#18120c">47%</text>
+
+    <text x="918" y="288" font-size="12" fill="#18120c">Free samples</text>
+    <rect x="918" y="298" width="84" height="18" rx="2" fill="#8d857a"/>
+    <text x="1012" y="313" font-size="16" font-weight="600" fill="#18120c">24%</text>
+
+    <text x="918" y="352" font-size="12" fill="#18120c">Sustainable</text>
+    <text x="918" y="368" font-size="12" fill="#18120c">packaging</text>
+    <rect x="918" y="380" width="56" height="18" rx="2" fill="#8d857a"/>
+    <text x="984" y="395" font-size="16" font-weight="600" fill="#18120c">16%</text>
+  </g>
+
+  <line x1="48" y1="378" x2="840" y2="378" stroke="#d8d2c8" stroke-width="1"/>
+
+  <text x="48" y="412" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#18120c">The reading</text>
+  <text x="48" y="436" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#3b332a">The layer that lifts perceived value is working harder than a year ago (+9 points).</text>
+  <text x="48" y="456" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#3b332a">The layer meant to convert that perception into a second order lost 10 points in the same period,</text>
+  <text x="48" y="476" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#3b332a">while an offer carries the repeat-purchase job at 47%.</text>
+
+  <text x="48" y="512" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#a03b2c">Funding the box buys the perception half. It does not buy the return trip.</text>
+
+  <!-- Footnote -->
+  <line x1="48" y1="556" x2="1152" y2="556" stroke="#d8d2c8" stroke-width="1"/>
+  <text x="48" y="580" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">Source: Ryder 2025 E-commerce Consumer Study, Packaging section, pages 41–43. Survey conducted March 2025 by a third-party research company; n=1,376 US online shoppers.</text>
+  <text x="48" y="600" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">Percentages may not total 100% due to rounding and multiple selections. Figures report stated preference, not measured repeat-purchase lift.</text>
+  <text x="48" y="634" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#b08d46">elapack.com · buyer guide</text>
+</svg>

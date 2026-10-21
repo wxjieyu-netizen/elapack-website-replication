@@ -281,6 +281,14 @@ const RELATED: Record<string, string[]> = {
     "custom-muslin-drawstring-pouch",
     "custom-velvet-pouches",
   ],
+  "unboxing-experience-guide": [
+    "magnetic-closure-gift-box",
+    "luxury-gift-box-ribbon",
+  ],
+  "drawer-box-packaging-guide": [
+    "custom-perfume-boxes",
+    "custom-watch-boxes",
+  ],
 };
 
 /**
@@ -387,6 +395,13 @@ const ANCHORS: Record<string, Record<string, string>> = {
     "beauty subscription box": "/subscription-box-packaging/",
     "velvet pouch": "custom-velvet-pouches",
     "clear PVC zip bag": "custom-pvc-bags",
+  },
+  "unboxing-experience-guide": {
+    "magnetic flip-top": "magnetic-closure-gift-box",
+    "ribbon-tie box": "luxury-gift-box-ribbon",
+  },
+  "drawer-box-packaging-guide": {
+    "magnetic flip-top": "magnetic-closure-gift-box",
   },
 };
 

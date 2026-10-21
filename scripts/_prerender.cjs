@@ -5640,6 +5640,273 @@ Wholesale supplier pages sell stock sizes and a fabric list; a made-to-size dust
 ## Bottom line
 
 Specify the dust bag by storage, not presentation: fabric by airflow and tier, size by the stored terms, branding by one mark that lasts, and every dimension settled on a loaded sample before bulk. [Start the quote](https://elapack.com/contact/) with the stored dimensions, the fabric direction and the target quantity; the sample follows in 3\u20135 days. First-order sequencing across the whole programme is in the [small business packaging guide](https://elapack.com/news/custom-packaging-small-business-guide/).`
+  },
+  {
+    "slug": "unboxing-experience-guide",
+    "datePublished": "2026-10-21",
+    "dateModified": "2026-10-21",
+    "title": "Unboxing Experience: Layers, Spend and What Two Surveys Actually Show",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "18 min read",
+    "image": "/images/covers/unboxing-experience-guide.webp",
+    "imageAlt": "Guide cover card: unboxing experience \u2014 the perception pair from two 2025 surveys, protection as the floor, and the order to spend in",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Two 2025 shopper surveys on unboxing: premium presentation lifts brand perception far more than repeat purchase, damage and sizing come first, and the spend order is protection, sequence, print.",
+    "metaDescription": "Unboxing experience planning from two 2025 shopper surveys: what premium presentation changes, what it does not change, and the order to spend in.",
+    "body": `*Survey figures in this guide come from two published studies, named and dated inline: Ryder's 2025 E-commerce Consumer Study, which surveyed 1,376 online shoppers in the United States in March 2025 through a third-party research company, and Macfarlane Packaging's tenth annual Unboxing Survey, published in 2025 with more than 1,000 respondents. Both report what shoppers say, not what they do at checkout \u2014 this guide marks where that difference changes the decision. Board grades, insert systems and order terms are ELAPACK's confirmed trade terms and published production references.*
+
+
+> **Quick answer:** spend on an unboxing experience in a fixed order \u2014 protection and right-sizing first, the opening sequence second, the printed layer third. Two 2025 surveys point the same way: premium presentation makes a brand read as upscale (52%, up 9 points year on year) far more reliably than it makes customers buy again (31%, down 10), and repeat purchase is led by an offer at 47%. Build the box for how it makes the brand look and feel, and put the repeat-purchase job on the offer.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order | 200 pieces per design | ELAPACK confirmed terms |
+| Production lead time | typically 15\u201320 days after sample approval and payment receipt; confirm by order | ELAPACK confirmed terms |
+| Stock sample | free, USD 25 shipping, 4\u20137 days | ELAPACK confirmed terms |
+| Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |
+| Digital dieline preview | free for structure approval | ELAPACK confirmed terms |
+| Greyboard grades | 1.5 / 2.0 / 2.5 / 3.0 mm tiers | ELAPACK published references |
+| Shoppers who say premium presentation makes a brand seem upscale | 52% (up 9 points year on year) | Ryder 2025, US, n=1,376 |
+| Shoppers who say it makes them want to buy again | 31% (down 10 points) | Ryder 2025, US, n=1,376 |
+| Shoppers naming a coupon or credit as the top reason to return to a brand | 47% (up 5 points) | Ryder 2025, US, n=1,376 |
+
+## What the phrase actually covers
+
+Unboxing experiences begin when the parcel reaches the customer and end when the product is out, understood and usable. That span holds four separable layers, and each one is a line item with its own supplier and its own failure mode: the shipping layer that decides whether the box arrives scuffed, the structure and closure that decide the opening resistance, the insert that decides where the product sits and how it lifts out, and the printed layer \u2014 wrap, cards, ribbon \u2014 that decides what the brand says while the customer is looking.
+
+Splitting the phrase this way is what makes it quotable. A buyer who asks five factories for "a premium unboxing experience" and gets five prices is not comparing like with like; a buyer who asks for a specific structure, a named insert system and a stated print programme is. Macfarlane's survey found the parcels shoppers rated most highly shared unglamorous traits: effective protection, right-sized packaging with no excess material, easy-open features, recyclable or reusable materials, and thoughtful presentation. None of those is the decorative layer doing the work alone \u2014 all four layers contribute to what the shopper describes as "a good unboxing".
+
+The two terms buyers use interchangeably are worth separating. *Unboxing experiences* in the shopper surveys above describes the felt event; *unboxed experiences* in supplier and retail copy usually describes the programme behind it \u2014 the box, insert, card and closure specified together. Same physical object, two audiences. A factory quote answers the second; only the customer can report the first.
+
+**Four layers, four suppliers, four failure modes \u2014 a brief that names the layer gets compared properly, and a brief that names the feeling does not.**
+
+## The number that changes the budget
+
+The most useful figure in the 2025 data is a pair, not a single number. Asked how a premium unboxing experience \u2014 a custom designed box, colourful tissue, ribbons \u2014 affects their feelings about a brand, US shoppers said: it makes the brand seem upscale, 52%, up 9 points year on year; it makes me want to open the package, 46%, down 1; it makes me want to purchase from the brand again, 31%, **down 10 points**.
+
+Read that spread as a budget instruction rather than a verdict on presentation. The layer that lifts perceived value is working, and it is working harder than it was a year ago. The layer that was supposed to convert that perception into a second order has lost ground in the same period, while the survey's separate question on what brings customers back put a coupon, discount or credit first at 47% (up 5), a free sample at 24% and sustainable packaging at 16%.
+
+The honest reading: the box is a perception asset, and perception is only half of a retention programme. A brand that funds a heavier board and a foil logo and then sends no reason to return has bought the first half and skipped the second. The fix is cheap \u2014 an insert card carrying an offer costs a fraction of the board upgrade it rides inside \u2014 but it has to be specified at the same time as the box, because the card slot and the card size are one decision, as the [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide/) sets out.
+
+**Perception is up 9 points and repeat intent is down 10 in the same survey \u2014 spend on the box for the brand it builds, and fund the return trip separately.**
+
+![Two panels from Ryder's 2025 survey: what premium presentation changes (upscale 52%, up 9 points; excited to open 46%, down 1; want to buy again 31%, down 10; likely to share 10%, down 6) and what brings shoppers back (coupon or credit 47%, up 5; free sample 24%; sustainable packaging 16%)](/charts/unboxing-survey-evidence.svg)
+
+## Protection comes first, and this data is unambiguous
+
+Two independent studies agree that the baseline is protection, and both put a number on what happens when it fails. Ryder's 2025 study reports that **25% of shoppers returned an online purchase because the item arrived damaged or defective**. Macfarlane's decade comparison shows the direction of travel: parcels arriving with damaged goods fell to 3% in 2025 from 10% in 2016, and shoppers reporting excess packaging fell to 11% from 41%. Almost 60% of the consumers who were unhappy with a parcel cited oversizing as the frustration.
+
+The two damage figures are not the same measurement, and the distance between them is a difference in what was asked rather than a disagreement about packaging. Macfarlane's 3% is the share of shoppers who reported parcels arriving damaged; Ryder's 25% is the share of shoppers who say they have returned an order because items arrived damaged or defective. One measures how often damage shows up, the other how many shoppers have acted on it \u2014 different questions, different samples, the same direction. Read as a pair they set the floor: damage is common enough to change return behaviour at scale, and rare enough that a well-fitted pack can bring it near zero.
+
+Those two failures pull in opposite directions, which is exactly why right-sizing is a specification rather than a preference. An oversized box adds void fill, dimensional weight and a perception of waste; an undersized one transmits impact straight to the product. Both are cheap to avoid at the drawing stage and expensive to fix after tooling, and both are decided by the same field: the product's measured dimensions plus a stated clearance, not the catalogue size nearest to it. The candle programme's sizing discipline in the [luxury candle boxes guide](https://elapack.com/news/luxury-candle-boxes-guide/) is the clearest worked example of that arithmetic, and the same logic holds for a jewellery or fragrance set.
+
+For the outer layer, custom corrugated cartons and printed corrugated mailers sit in the boxes range and are built for e-commerce and subscription shipping, which makes them the shipping box and the presented box in one object. A programme that keeps a separate presentation box instead runs it inside a plain transit carton \u2014 a different line item, and rarely a branded one \u2014 so the box that survives the parcel network and the box the customer sees are quoted as two products.
+
+**Protection and right-sizing are not the boring part of the brief; they are the part the 25% return figure is actually about.**
+
+Both studies treat protective packaging as the floor rather than a feature, and neither finds shoppers willing to trade it for presentation. That floor behaves like a veto rather than a weight: a parcel that arrives intact gets judged on the opening it delivers, while a parcel that arrives damaged gets judged on nothing else. No reveal survives a product that arrives broken, and no finish recovers a customer who has already decided to send the order back. Macfarlane's lists of what made a parcel rate highly start with protection and right-sizing before any mention of branding, and Ryder's box-versus-bag question returns the same answer from the other direction: shoppers who preferred a box gave better transit protection as their top reason at 36%, ahead of reuse at 29% and perceived environmental benefit at 14%. A programme that adds a printed wrap and a ribbon to an under-specified carton has bought the wrong layer first.
+
+## The opening sequence: closure, lift, reveal
+
+The middle two layers are where a brand's money buys the most reversal of expectation per unit spent, because the sequence is choreography rather than material. Four structures cover most programmes, and each sets a different resistance at the moment of opening: a magnetic flip-top closes flat and opens one-handed, a ribbon-tie box makes the customer untie before the lid moves, a lift-off lid comes away in two hands, and a drawer slides horizontally. Which one belongs to which product is a positioning question, not a cost question, and the [magnetic closure versus ribbon-tie comparison](https://elapack.com/news/magnetic-closure-vs-ribbon-tie-gift-boxes/) works through the two most confused options.
+
+The candle guide's framing is the one worth stealing: specify the sequence backwards from the reveal the brand hopes the customer photographs \u2014 the carton opens, the box lifts out whole, the closure gives way at a deliberate resistance, the product appears centred with the label facing the customer \u2014 and make each step a line on the drawing. Built forward from materials, a programme tends to optimise the step the designer was looking at and lose the one behind it.
+
+**Sequence is free to design and expensive to retrofit \u2014 specify it backwards from the reveal, then let the structure follow.**
+
+The unboxing moment itself \u2014 the three seconds when the lid gives \u2014 is the one thing a brand cannot buy later. A structure chosen for cost and decorated afterwards has already fixed the resistance the customer feels, and no amount of foil changes it.
+
+## The printed layer: what earns its cost
+
+The three surfaces a customer reads in the first minute are the printed wrap, the insert card and whatever closes the box. Of the three, the printed wrap does the most work per dollar because it is the only one seen before opening, and it is also where budgets run away: foil, emboss, spot UV and lamination each add cost and each add physical thickness to a panel, which is why the [surface finishes comparison](https://elapack.com/news/surface-finishes-compared-guide/) treats them as a set to be chosen against a stated brand reference rather than accumulated.
+
+The insert card is where the least money buys the most function. It carries the care instructions, the story and the offer, and it is the component that most often arrives specified after the box is tooled, at a size that no longer fits its slot. Specifying it with the cavity drawing costs nothing and removes a reprint.
+
+Ribbon is the most cosmetic of the three and the most quoted as an afterthought. For a programme where the ribbon reads as part of the brand \u2014 a satin tie that becomes the closure rather than a decoration \u2014 quote it with the box, which is how the [ribbons and accessories](https://elapack.com/ribbons-accessories/) range is set up.
+
+**The wrap earns its cost before opening and the insert card earns it after \u2014 but only if the card is specified with the cavity, not after it.**
+
+Worth saying plainly for anyone benchmarking: the best unboxing experiences in the survey data are not the most decorated ones. Macfarlane's respondents rated parcels on protection, sizing, ease of opening, material and presentation together, and named small functional details \u2014 tear strips, a tag line, printed paper, a box worth keeping \u2014 as the things they noticed. Decoration shows up in those answers as one contributor among five, never as the deciding one.
+
+## Sustainability is an instruction problem at this point
+
+Both surveys show sustainability has moved from differentiator to baseline expectation, and neither shows shoppers paying a premium for it. Macfarlane reports 70% of consumers now expect sustainable packaging by default, more than a fifth say they would not place a repeat order if packaging reads as non-sustainable, and 84% would return packaging for a retailer to reuse \u2014 against more than half who say their parcels carry no clear recycling labelling. Ryder's comparable figure is 61% naming eco-friendly packaging as the environmental factor most likely to make them shop with a brand, up from 54% in 2023.
+
+The actionable half of that is the labelling gap, not the material claim. A recyclable material with unclear disposal instructions delivers almost none of the preference the surveys measure \u2014 the sustainability label on the pack is doing the communicating, and if it is absent or vague the material choice goes unread. In practice that means the work at order stage is to name materials accurately and say what the customer should do with them, which sits with the printed layer and costs one artwork field.
+
+Be careful with the claim itself. "Recyclable", "recycled content", "reusable" and "lower impact" are four different properties, and a claim broader than the material evidence is a compliance question rather than a marketing one. Recent packaging regulation has tightened what can be said and how emptiness and recyclability are documented \u2014 the [PPWR regulation guide](https://elapack.com/news/ppwr-packaging-regulation-guide/) covers what buyers shipping into the EU now have to evidence.
+
+**Sustainability reads as a baseline and pays out through clear labels, not through adjectives \u2014 specify disposal wording with the artwork.**
+
+## Where the money goes
+
+The evidence supports a four-tier order rather than a percentage split, because the tiers are not interchangeable: money moved from protection to decoration cannot be moved back once the run ships.
+
+| Tier | What it buys | What the data says | When to skip |
+|---|---|---|---|
+| 1. Protection and right-sizing | Correct internal dimensions, board grade matched to weight, insert or void fill sized to the route | 25% of shoppers have returned a purchase over damage; damaged parcels down to 3% and overpacking to 11% since 2016 | Never |
+| 2. Structure and closure | The opening resistance and the reveal | Perception driver: makes the brand seem upscale (52%) and worth opening (46%) | When the product ships outside a presentation context |
+| 3. Printed layer | Wrap, insert card, ribbon | Carries the offer that the 47% coupon figure is about, and the disposal wording | When the box is a postal-only outer |
+| 4. Decorative incremental | Second and third finishes stacked on the wrap | No separate survey signal; cost and thickness add per finish | When tier 1 or 2 is unresolved |
+
+Multi-component sets are the case where the four tiers are quoted separately and then assembled, and the [gift set quote comparison](https://elapack.com/news/compare-multi-component-gift-set-packaging-quotes/) sets out the fields that keep those quotes comparable.
+
+**Fund the tiers in order and stop when the next tier has nothing measurable to do \u2014 the cheapest unboxing improvement is usually a better tier 1.**
+
+## How to measure whether it worked
+
+The report's own methodology section is the most useful line in it for anyone building a business case: it describes the survey field as behaviour, preferences, experiences and expectations, asked through a third-party research company in a single March 2025 wave. That is a description of what shoppers report, and it does not support a claim that a packaging change caused a repeat purchase. Stated intent and redeemed intent are different quantities, and a survey answer is not a cohort.
+
+So the measurement set that matches this spend has to come from the operation: damage and return rate by SKU and pack design, packaging cost per shipment including dimensional weight, support contacts about damaged or missing contents, repeat purchase by delivery cohort, and \u2014 for the sharing question \u2014 posted content measured against delivered packages as the denominator, not against followers. Test one change at a time where the risk allows it; a before-and-after across a holiday peak measures the season as much as the box.
+
+Two of those metrics are worth separating from the rest because they move in opposite directions and are often reported as one. A heavier board and a tighter cavity usually reduce damage and raise material and freight cost per shipment; a lighter build does the reverse. Reporting "packaging cost" alone therefore rewards the change that produces the most returns, and reporting damage alone rewards over-building. The pair has to be read together, per SKU, or the scorecard will recommend the wrong box.
+
+The sharing metric deserves its own caution because it is the easiest to inflate. Ryder's survey puts visually appealing or gift-like packaging first among what would encourage someone to post at 38%, which is a statement about intent; the same study records only 10% saying a premium experience makes them more likely to share, down 6 points year on year. A post count without the number of delivered packages behind it is not a rate, and a rate without attribution to a design change is not evidence. Set the denominator before the run ships, not after the screenshots arrive.
+
+**Survey data tells you what shoppers value; only your own shipment and cohort data tells you whether the spend returned it.**
+
+## The bottom line
+
+The order is protection, sequence, print, decoration \u2014 and the reason to hold that order is that two independent 2025 surveys agree premium presentation changes how a brand is perceived far more than whether it is bought again, while an offer changes the second. The box is worth doing well; it is not a retention programme on its own.
+
+Bring the product dimensions, the structure you want, the insert system and the print programme to the enquiry. [Contact ELAPACK](https://elapack.com/contact/) and the quotation will state board grade, structure, insert, finish and the terms that apply, from 200 pieces per design.`
+  },
+  {
+    "slug": "drawer-box-packaging-guide",
+    "datePublished": "2026-10-21",
+    "dateModified": "2026-10-21",
+    "title": "Drawer Box Packaging: Sleeve-to-Tray Fit and Tolerance",
+    "category": "Sourcing Guide",
+    "date": "October 2026",
+    "readTime": "16 min read",
+    "image": "/images/covers/drawer-box-packaging-guide.webp",
+    "imageAlt": "Guide cover card: drawer box packaging \u2014 the sleeve-to-tray gap, humidity allowance and 200-piece order terms",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Drawer box packaging is a fitting problem before a design problem: the sleeve-to-tray gap in millimetres, the humidity allowance, the pull, and what the enquiry has to state.",
+    "metaDescription": "Custom drawer box packaging: sleeve and inner tray fit, the millimetre gap that decides the slide, humidity allowance and 200-piece minimums.",
+    "body": `*Construction and tolerance figures in this guide are industry references as published by the packaging suppliers named inline, read 21 October 2026; the three sources are quoted separately because they measure different things and should not be averaged. Board tiers, insert systems and order terms are ELAPACK's confirmed trade terms and published production references. Where a supplier's own page gives inconsistent figures, only the consistent half is used and the conflict is noted.*
+
+
+> **Quick answer:** drawer box packaging is a two-part build \u2014 an outer sleeve and a sliding inner tray \u2014 where the product fit and the sleeve-to-tray fit are separate specifications, and only the second one determines whether the box feels expensive. Published factory figures put that sliding gap in the region of half a millimetre to a millimetre, against a general rigid-box tolerance of plus or minus one to three millimetres. Set it once on paper, allow for board movement in humid storage, and prove the slide on a loaded sample before tooling.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order | 200 pieces per design | ELAPACK confirmed terms |
+| Production lead time | typically 15\u201320 days after sample approval and payment receipt; confirm by order | ELAPACK confirmed terms |
+| Stock sample | free, USD 25 shipping, 4\u20137 days | ELAPACK confirmed terms |
+| Custom sample | USD 25 plus USD 20 shipping, 3\u20135 days | ELAPACK confirmed terms |
+| Digital dieline preview | free for structure approval | ELAPACK confirmed terms |
+| Greyboard for a sliding build | 1.5\u20133.0 mm solid greyboard, as published | Cubit Packaging, read 21 Oct 2026 |
+| Factory sliding-fit control | \xB10.5 mm, as published | Aopa Box, read 21 Oct 2026 |
+| Recommended tolerance gap for humidity | 0.5\u20131.0 mm, as published | The Boxology, read 21 Oct 2026 |
+| General rigid-box tolerance window | \xB11\u20133 mm, as published | Yuanpackaging, read 21 Oct 2026 |
+
+## What a drawer box is, and what it is not
+
+Drawer box packaging is a two-piece rigid assembly: an outer sleeve, wrapped and printed, and an inner tray that carries the product and slides out horizontally. Suppliers use several names for the same mechanism \u2014 sleeve and drawer, slide box, slider box, pull-out box, matchbox-style \u2014 and the naming is worth settling early, because a quote for "a drawer box" from one factory and "a sleeve box" from another may describe the same build or two different ones.
+
+The distinction that matters against neighbouring formats is the closure mechanism, not the shape. A lift-off lid sits on friction or a vacuum feel and comes away upward; a magnetic flip-top is hinged with concealed magnets; a drawer needs a deliberate horizontal pull, and until that pull happens the product sits inside a 360-degree sleeve. That difference is what makes the format interesting for security, and it is also what makes it unforgiving to build: a lid that is slightly tight still closes, whereas a tray that is slightly tight does not slide.
+
+**Two pieces, one mechanism, one number that governs the feel \u2014 the fit between sleeve and tray, not the shape of the box.**
+
+Buyers searching for luxury drawer box packaging usually arrive with the format already chosen and the fit unspecified, which is the wrong order: the format is the easy half. Custom drawer boxes packaging is quoted against dimensions in every case, and the dimensions are what the enquiry has to settle first.
+
+## Two fits, not one
+
+Most of the sizing discussion in packaging guides is about the first fit: the internal cavity against the product, plus clearance for the insert and the wrapping. That is a real specification and it is covered elsewhere \u2014 the [candle boxes guide](https://elapack.com/news/luxury-candle-boxes-guide/) sets out the working arithmetic. A drawer box needs that first fit and then a second one on top of it.
+
+The second fit is sleeve-to-tray. The tray's outer dimensions have to clear the sleeve's inner dimensions by enough to slide freely and by little enough that the tray does not shift or drop out under its own load. Published supplier figures for this clearance are not interchangeable and are worth reading as three different measurements rather than three opinions on one number:
+
+| Source (as published, read 21 Oct 2026) | Figure | What it is measuring |
+|---|---|---|
+| Aopa Box, Huzhou factory | \xB10.5 mm | Manufacturing control on drawer box tolerance \u2014 the window the factory holds during production |
+| The Boxology | 0.5\u20131.0 mm "tolerance gap" | A design allowance recommended to absorb board movement, not a production control |
+| Yuanpackaging | \xB11\u20133 mm general; \xB11\u20132 mm internal cavity | Rigid-box tolerance window overall, widening on large formats and thin features |
+
+Read together they describe a build rather than a contradiction: the sliding gap is a fraction of a millimetre in the drawing, the factory has to hold something close to that in production, and the general board tolerance of the whole box is a wider band. A buyer who writes "smooth sliding fit" on the brief has specified nothing; a buyer who writes the gap in millimetres and asks the factory to confirm the value it will hold has specified the one thing that decides whether the box reads as premium.
+
+What the three figures do not do is add up into a fourth. A plus-or-minus window describes how far a built part may sit from its nominal dimension; the gap is the nominal separation between two parts that have to pass each other, and it has to stay open after the build's own deviation and the board's damp-season movement are both taken out of it. The two numbers answer different questions, and neither substitutes for the other. Aopa's own reason for holding \xB10.5 mm makes the scale concrete: even 1 mm of misalignment, the factory says, makes the slide mechanism feel cheap (as published, 21 October 2026). A general window of \xB11\u20133 mm is therefore not a looser drawer standard but a different measurement \u2014 taken across panels and die-cut edges rather than across the travel between two parts.
+
+**Specify the sliding gap numerically and ask the factory for the figure it will hold \u2014 "smooth slide" is a hope, not a specification.**
+
+![Cross-section of a drawer box sleeve and tray showing three sliding-gap states: too tight with binding and torn wrap, correct with free travel and no rattle, too loose with tray movement and product scuffing](/charts/drawer-sleeve-tray-fit.svg)
+
+## Why the same box slides in one place and sticks in another
+
+Paperboard moves with moisture. Fibres take up water in humid air and the board grows slightly; the same sleeve that slid cleanly off a factory floor in a dry climate can bind in a humid retail unit, and the customer resolves it by pulling harder on the ribbon until the wrap tears. This is the failure mode that no dimensional drawing catches, because the drawing is dimensionally correct.
+
+The published mitigation is to build the allowance in deliberately rather than specify to a perfect fit. The Boxology recommends a tolerance gap of 0.5\u20131.0 mm specifically so the slide stays workable across weather, and describes the mechanism plainly: a sliding box that fits perfectly in a dry factory may become difficult to open in a humid retail shop. The same source notes the opposite risk on the loose side \u2014 a tray that travels too freely lets the contents rattle, and internal movement produces fine scuffs on plated or polished surfaces over a shipping cycle.
+
+Both directions are decided at the same moment and both cost the same to fix on paper. What the buyer can control is the destination: state the climate the stock will live in, and ask whether the quoted fit assumes a dry or a humid end of the range. For programmes shipping into tropical or coastal markets, or stored through a humid season, that single question is worth more than a specification upgrade.
+
+**Board grows with humidity, so a perfect fit is a seasonal fit \u2014 buy the allowance, and say which climate it was sized for.**
+
+## Board, wrap and what a slide needs
+
+A sliding build is structurally different from a lift-off box: the tray and sleeve overlap on two opposite sides, which produces a double-walled section along the travel and a stiffer box than the board grade alone would suggest. The Boxology describes that overlap as the reason slider formats hold up better than their board weight implies under vertical stacking, since the doubled wall resists buckling when pallets are stacked several layers high \u2014 the same effect a box compression test measures, arriving from structure rather than from board thickness. That is a supplier's technical position rather than a laboratory result, and it is consistent with what the format looks like in section.
+
+The published board range for these builds is 1.5 mm to 3.0 mm solid greyboard. The grade question is the same one covered in the [custom rigid boxes guide](https://elapack.com/news/custom-rigid-boxes-guide/), where the four ELAPACK tiers and their cost shares sit; what changes here is the consequence of choosing light. A 1.5 mm build slides beautifully and feels insubstantial; a 2.5\u20133.0 mm build gives the dense, deliberate travel that reads as quality but puts more mass behind the tray, so the ribbon or tab has to be specified to manage it.
+
+Wrap interacts with fit in a way that surprises first-time buyers: each finish adds physical thickness to the panel it covers. The [surface finishes comparison](https://elapack.com/news/surface-finishes-compared-guide/) covers the finish set; the drawer-specific consequence is that a deep emboss or a heavy laminate on the tray walls narrows the gap that was calculated before the finish was chosen. Finish and fit belong on the same drawing, not on two.
+
+**Choose the board for the feel and the finish for the brand, then re-check the sliding gap \u2014 finish thickness eats clearance that was already tight.**
+
+## The pull: ribbon, tab or notch
+
+A drawer needs a handle, and the handle is where the format shows its jewellery and fragrance pedigree. Cubit Packaging's published option list for these builds runs from woven ribbon and double-face satin loops through leather tabs with brass rivets and metal pull rings to a semi-circular thumb notch cut into the tray face (as published, 21 October 2026) \u2014 the general family is usually described as a pull tab, and which one belongs to a programme is a presentation decision with a fit consequence: a flat notch adds nothing to the panel; a knotted ribbon adds bulk at the tray face and can bind against the sleeve mouth.
+
+One packing consequence is worth settling at the same time: these builds arrive pre-assembled rather than flat, so the pull, the wrap and the tray travel as one unit. That is what makes the fit survive the freight, and it is also why the slimmer flat-pack designs common in folding cartons are not an option here.
+
+The ribbon route is the one most often quoted separately, and it should not be. A satin tie that doubles as the closure is part of the structure rather than a decoration, and specifying it with the box keeps colour, width and attachment point in one decision \u2014 the [ribbons and accessories](https://elapack.com/ribbons-accessories/) range quotes ties as part of a box programme.
+
+**The pull is the first thing a customer touches on a drawer box \u2014 decide it with the structure, not after the box is tooled.**
+
+## Drawer against magnetic, on the three axes that differ
+
+Drawer box packaging and a magnetic flip-top differ on three things that matter to a buyer, and only one of them is price.
+
+The first is how the closure holds. A magnet pair holds a lid shut by force, so the opening motion is vertical or hinged and the lid can be reseated any number of times; a drawer holds by a mechanical track, so opening it requires a horizontal pull that nothing else in the parcel produces.
+
+Where that mechanical difference pays is worth stating precisely, because it cuts both ways. The Boxology argues that a lift-off or hinged lid can be forced open by air pressure if a parcel is dropped, while a drawer requires a deliberate horizontal pull that a drop does not produce. That is a supplier's engineering argument, not a test result, but it explains a pattern buyers report: heavy items with a high centre of gravity tend to travel better in a sliding format. The same mechanism is also the drawer's bill \u2014 the sleeve is an extra panel, an extra wrap and an extra thing to fit.
+
+The second is how much fitting margin each forgives. A lid that sits slightly tight still closes and still reads as a lid; a tray that sits slightly tight does not slide at all, which is why the drawer carries the tighter specification and pays for that extra sleeve.
+
+The third is cost. Aopa reports that drawer boxes typically cost 15\u201325% less than magnetic boxes at the same size, because the magnet set is a material cost the drawer does not carry (as published, 21 October 2026) \u2014 a directional range from one factory, moving with size, wrap and insert. That gap also explains why the format turns up in programmes where the unit is small and the quantity large: a 200-piece quote for custom drawer box packaging is dominated by the board and the wrap rather than by hardware, because a drawer carries no magnets, no hinges and no metalwork unless the pull is specified as one.
+
+The [magnetic gift boxes guide](https://elapack.com/news/magnetic-gift-boxes-guide/) covers the magnet side in full, and the [custom watch boxes guide](https://elapack.com/news/custom-watch-boxes-guide/) shows how the choice is made inside a single product category, where all three structures are quoted against one strap-and-pillow specification.
+
+**The drawer buys security with a fit someone has to specify; the magnet buys a forgiving fit and a single-motion reveal. Neither is the better box \u2014 the product decides.**
+
+## Specifying it: what goes in the enquiry
+
+A drawer enquiry a factory can quote and tool first time carries seven fields, and the first two are the ones most often left out.
+
+| Field | What to state | Why it decides the run |
+|---|---|---|
+| Tray internal dimensions | measured product plus insert plus clearance, in millimetres | sets the cavity; a box sized to the catalogue nearest match will not hold the insert |
+| Sliding gap | the sleeve-to-tray clearance in millimetres, and the figure the factory will hold | the single specification that decides the feel |
+| End climate | where the stock will be stored and sold | sets whether the gap is sized to a dry or humid end of the range |
+| Board grade | 1.5 / 2.0 / 2.5 / 3.0 mm, or the product weight and let the factory propose | mass behind the tray and the resistance of the slide |
+| Wrap and finish | paper, textile or none, plus finish set and depth | finish thickness narrows the gap |
+| Pull type | ribbon, tab, notch or none, with attachment point | the first surface the customer touches |
+| Quantity and sample route | against the 200-piece minimum, with an approved physical sample | tooling is cut to the approved sample, not to the drawing |
+
+Two of those fields interact, which is why the [packaging specification sheet guide](https://elapack.com/news/how-to-read-a-packaging-specification-sheet/) is worth reading before writing the brief: a tolerance stated as "tight" or "standard" is not a tolerance. The [samples guide](https://elapack.com/news/custom-packaging-samples-guide/) covers what the physical approval should test \u2014 including the step most buyers skip, which is loading the tray as it will ship and sliding it twenty times.
+
+**Seven fields, two of them numeric \u2014 the sliding gap in millimetres and the climate it was sized for; everything else the factory can quote once those two exist.**
+
+## The bottom line
+
+Drawer box packaging is a fitting problem before it is a design problem. The product fit sets the cavity, the sleeve-to-tray gap sets the feel, and the climate the stock lives in sets how much allowance that gap needs. Get the three numbers onto one drawing, approve a loaded sample by sliding it, and the format's rewards \u2014 the deliberate reveal, the travel that reads as quality, the protection of a 360-degree sleeve \u2014 follow.
+
+Bring tray dimensions, the sliding gap you want, the end climate and the board grade to the enquiry. [Contact ELAPACK](https://elapack.com/contact/) and the quotation will state structure, board, wrap, pull and the terms that apply, from 200 pieces per design.`
   }
 ]);
 function getArticleBySlug(slug) {
@@ -7051,6 +7318,14 @@ var RELATED = {
     "custom-cotton-pouches",
     "custom-muslin-drawstring-pouch",
     "custom-velvet-pouches"
+  ],
+  "unboxing-experience-guide": [
+    "magnetic-closure-gift-box",
+    "luxury-gift-box-ribbon"
+  ],
+  "drawer-box-packaging-guide": [
+    "custom-perfume-boxes",
+    "custom-watch-boxes"
   ]
 };
 var ANCHORS = {
@@ -7151,6 +7426,13 @@ var ANCHORS = {
     "beauty subscription box": "/subscription-box-packaging/",
     "velvet pouch": "custom-velvet-pouches",
     "clear PVC zip bag": "custom-pvc-bags"
+  },
+  "unboxing-experience-guide": {
+    "magnetic flip-top": "magnetic-closure-gift-box",
+    "ribbon-tie box": "luxury-gift-box-ribbon"
+  },
+  "drawer-box-packaging-guide": {
+    "magnetic flip-top": "magnetic-closure-gift-box"
   }
 };
 function relatedProducts(slug) {
