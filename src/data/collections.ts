@@ -453,51 +453,51 @@ export const collections: Collection[] = [
     eyebrow: "Candle Packaging",
     h1: "Custom Candle Boxes — Rigid Formats and Inserts",
     subhead:
-      "Rigid lift-off, magnetic and sleeve boxes sized to candle jars and travel tins, with inserts that hold glass steady — your size, wrap and logo.",
+      "Review rigid, magnetic and sleeve box options for candle jars and travel tins; confirm vessel fit, insert and finish on a sample.",
     metaDescription:
-      "Custom candle boxes with logo — rigid, magnetic and sleeve formats sized to jars and tins, with steady-glass inserts. MOQ 200 pieces, free stock samples.",
+      "Custom candle box options for jars and tins. Review structure, insert fit and finish on a sample. General MOQ 200 pieces; confirm project scope in the quote.",
     intro:
-      "Custom candle boxes for candle and home-scent brands shipping to the US and Europe. ELAPACK makes the box side of the programme — rigid and magnetic structures built to your jar and tin dimensions, with inserts cut to hold glass steady in transit and on the shelf. We make the packaging, not the candles themselves: send your jar or tin measurements and the box is drawn around them, from single-jar retail formats to gift sets and monthly programmes. Photography of candle-specific runs is in progress; every fact on this page is our confirmed trade terms, and stock samples ship free so you can judge board and wrap in hand.",
+      "For a candle-box enquiry, send the jar or tin dimensions, packed weight, intended display and shipping route. ELAPACK can review a box and insert concept against that brief; confirm the proposed structure and fit on a loaded sample. Transit suitability depends on the complete shipping pack and route checks. Stock samples are free, with shipping charged separately; confirm the available structure and schedule in the quotation.",
     sections: [
       {
         heading: "Box structures",
         items: [
-          { title: "Rigid lift-off lid", desc: "Full-height lid over a rigid base — the premium single-jar and gift-set structure." },
-          { title: "Magnetic flip-top", desc: "Hidden magnets, clean exterior, a satisfying slow close for retail candle lines." },
-          { title: "Sleeve & drawer", desc: "Inner tray sliding into a printed sleeve — the standard for multi-wick and votive sets." },
-          { title: "Folding carton", desc: "Printed paperboard that ships and stores flat — practical for recurring runs." },
+          { title: "Rigid lift-off lid", desc: "Review a lid-and-base structure for the vessel and intended presentation." },
+          { title: "Magnetic flip-top", desc: "Review closure fit and opening access on a loaded sample." },
+          { title: "Sleeve & drawer", desc: "Ask whether a sliding tray suits the vessel, insert and packing process." },
+          { title: "Folding carton", desc: "Compare a flat-stored paperboard option where the project allows it." },
         ],
       },
       {
         heading: "Inserts for jars and tins",
         items: [
-          { title: "Contoured EVA", desc: "Cut to the jar shoulder so glass cannot shift in transit." },
-          { title: "Molded pulp", desc: "Economical structure with a natural look for eco-adjacent lines." },
-          { title: "Segmented board", desc: "Dividers for votive sets, tealight trays and two-packs." },
-          { title: "Sponge & velvet", desc: "Soft cushioning under a velvet-touch cover for premium gift formats." },
+          { title: "Contoured EVA", desc: "A candidate material; confirm cut geometry, availability and fit on the proposed sample." },
+          { title: "Molded pulp", desc: "A candidate formed-fibre option; confirm tooling, specification and availability." },
+          { title: "Segmented board", desc: "Discuss dividers against the actual contents and usable box interior." },
+          { title: "Sponge & velvet", desc: "Discuss contact surfaces and appearance against the actual vessel." },
         ],
       },
       {
         heading: "Finishes & branding",
         items: [
-          { title: "Matte & soft-touch wraps", desc: "The standard candle-box finish — quiet colour, fingerprint-resistant face." },
-          { title: "Foil & embossing", desc: "Metallic logos and blind relief marks for premium home-scent programmes." },
-          { title: "Full-print branding", desc: "Offset print, spot UV and lamination on every surface." },
-          { title: "Pantone-matched wrap", desc: "Box wrap and insert fabric aligned to your brand colour." },
+          { title: "Matte & soft-touch wraps", desc: "Review the proposed wrap and finish on a physical sample." },
+          { title: "Foil & embossing", desc: "Confirm availability and placement for the selected construction and artwork." },
+          { title: "Full-print branding", desc: "Confirm which print and finish methods suit the selected materials." },
+          { title: "Colour reference", desc: "Provide the brand reference and approve the proposed component samples." },
         ],
       },
       {
         heading: "Candle programmes",
         items: [
-          { title: "Single-jar retail", desc: "One box format sized to your hero jar, ordered in runs alongside production." },
-          { title: "Gift sets & two-packs", desc: "Larger footprints with segmented inserts that hold pairs and stacks." },
-          { title: "Travel tins", desc: "Compact formats with insert depth matched to tin height." },
-          { title: "Subscription monthly", desc: "Same structure, new printed theme each month — from 200 pieces per drop." },
+          { title: "Single-jar retail", desc: "Specify the vessel dimensions and review the proposed box and insert." },
+          { title: "Gift sets & two-packs", desc: "Specify every component and confirm fit and quantity per component." },
+          { title: "Travel tins", desc: "Confirm the tin dimensions and usable interior before artwork approval." },
+          { title: "Subscription monthly", desc: "Confirm each theme, component quantity and schedule in the project quotation." },
         ],
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "MOQ", value: "General minimum 200 pieces; confirm each component and variant in the quote" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -512,7 +512,7 @@ export const collections: Collection[] = [
     factBlock: {
       updated: "October 2026",
       paragraph:
-        "ELAPACK custom candle boxes — key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering rigid lift-off, magnetic flip-top, sleeve and folding-carton formats with fitted inserts, custom sizes included. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "General minimum order quantity is 200 pieces; for a complete set, each component has a 200-piece minimum. Confirm structure, insert, size and design or colour allocation in the project quotation. Typical production takes 15–20 days after sample approval and payment receipt; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping, with a stated delivery timeframe of 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork. Finished orders ship from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     guideSlugs: [
       "custom-candle-boxes-guide",
@@ -591,17 +591,17 @@ export const collections: Collection[] = [
     eyebrow: "Drawstring Bags",
     h1: "Custom Drawstring Bags & Pouches",
     subhead:
-      "Cotton, velvet, satin, muslin and linen drawstring bags — your fabric, size, cord and logo, from 200 pieces.",
+      "Review fabric, size, closure and logo options for drawstring bags; general MOQ starts at 200 pieces for applicable projects.",
     metaDescription:
-      "Custom drawstring bags with your logo — cotton, velvet, satin, muslin and linen pouches in any size, plus handbag and shoe dust bag formats. MOQ from 200 pieces, free stock samples.",
+      "Custom drawstring bag options for gifts and storage, including handbag and shoe dust bag briefs. General MOQ 200 pieces; confirm fabric, size and logo method in the quote.",
     intro:
-      "The drawstring closure is packaging's simplest ritual — one pull and the bag is closed. It is also our most-run pouch style, made in every fabric we carry: cotton first, the natural everyday carrier that prints beautifully, then velvet, satin, muslin and linen for gift and jewelry programs. Sizes run from 7×9 cm jewelry pouches to 30×40 cm wig bags and large dust bag formats, all made to your product and branded with print, label or embroidery. MOQ from 200 pieces, including custom sizes.",
+      "Drawstring bags can serve gift, jewellery and storage briefs. Compare cotton, velvet, satin, muslin or linen against the actual product and required opening. Send the item dimensions, target bag size, artwork and quantity; confirm the fabric, size and feasible logo method in the quotation and sample. General MOQ starts at 200 pieces for applicable projects; design and colour allocation are confirmed by order.",
     sections: [
       {
         heading: "Cotton drawstring bags",
         items: [
-          { title: "The everyday workhorse", desc: "Natural cotton pouches that print beautifully — favors, beauty, jewelry and retail programs alike." },
-          { title: "Any size, same MOQ", desc: "Small item pouches through large gift and dust bag formats, from 200 pieces." },
+          { title: "Cotton pouch option", desc: "Review cotton fabric, dimensions and the proposed logo method for gift, beauty, jewelry or retail use." },
+          { title: "Size and quantity", desc: "Specify the item and proposed bag dimensions; confirm availability and quantity allocation in the quote." },
         ],
       },
       {
@@ -615,20 +615,20 @@ export const collections: Collection[] = [
       {
         heading: "Dust bag applications",
         items: [
-          { title: "Handbag dust bags", desc: "Cotton, satin, velvet and muslin drawstring dust bags that protect leather goods in storage and after-sale." },
-          { title: "Shoe dust bags", desc: "Soft-fabric dust bags for footwear programs — branded and sized to the pair." },
+          { title: "Handbag dust bags", desc: "Discuss fabric, dimensions and contact requirements for the actual handbag; review fit on a sample." },
+          { title: "Shoe dust bags", desc: "Specify the pair dimensions, closure and logo placement; confirm the proposed fabric and fit." },
         ],
       },
       {
         heading: "Gift & specialty bags",
         items: [
-          { title: "Gift bag formats", desc: "Drawstring gift bags for weddings, events and product gifting — Pantone-matched to the program." },
-          { title: "Wig & hair bags", desc: "Large formats up to 30×40 cm with smooth interiors that keep fibers tangle-free." },
+          { title: "Gift bag formats", desc: "Provide artwork and a colour reference; approve the proposed decoration on a sample." },
+          { title: "Wig & hair bags", desc: "Review the packed item dimensions, interior contact and closure on a sample." },
         ],
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "MOQ", value: "General minimum 200 pieces; confirm fabric, size and variants in the quote" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -707,11 +707,11 @@ export const collections: Collection[] = [
     eyebrow: "Cosmetic Pouches",
     h1: "Custom Cosmetic Pouches & Makeup Bags",
     subhead:
-      "Drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas — plus clear PVC zip bags, from 200 pieces.",
+      "Compare fabric and clear PVC pouch options by closure, contents and branding; confirm the selected combination in the quote.",
     metaDescription:
-      "Custom cosmetic pouches and makeup bags with your logo — drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas, plus clear PVC zip bags. MOQ from 200 pieces, free stock samples.",
+      "Custom cosmetic pouch options with logo, including fabric and clear PVC formats. General MOQ 200 pieces; confirm style, material and branding in the quote.",
     intro:
-      "Cosmetic packaging works twice: the pouch carries the product at retail and keeps it organized after the sale. Four styles cover the uses — drawstring, flap, envelope and the zippered makeup bag that beauty brands run as their everyday carrier — each made in cotton, satin, velvet or canvas, in your size and Pantone colour. Clear PVC zip bags complete the matrix where seeing the product is the point. MOQ from 200 pieces across the matrix, including custom sizes.",
+      "Choose a cosmetic pouch around the items it must hold, the required closure and how it will be used. Drawstring, flap, envelope, zipper and clear PVC formats are options to compare; confirm the feasible style, material, dimensions and branding for the selected project. General MOQ starts at 200 pieces for applicable pouch orders; confirm design and colour allocation in the quotation.",
     sections: [
       {
         heading: "Styles",
@@ -733,19 +733,19 @@ export const collections: Collection[] = [
         heading: "Clear PVC zip bags",
         items: [
           { title: "See-through format", desc: "Cosmetics, skincare and travel sizes visible without opening the bag." },
-          { title: "Low MOQ differentiation", desc: "From 200 pieces — typically 500–1000 elsewhere on the same format." },
+          { title: "Order quantity", desc: "General MOQ starts at 200 pieces; confirm PVC style, dimensions and decoration in the quote." },
         ],
       },
       {
         heading: "Branding",
         items: [
-          { title: "Print & label", desc: "Silkscreen, heat transfer and woven labels on every fabric." },
-          { title: "Pantone matching", desc: "Fabric, cord and trim dyed to your brand colour." },
+          { title: "Print & label", desc: "Ask which logo method suits the chosen material and quantity; approve it on a sample." },
+          { title: "Colour reference", desc: "Provide the brand reference and review fabric, cord and trim samples together." },
         ],
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces across fabric styles and clear PVC, custom sizes included" },
+      { label: "MOQ", value: "General minimum 200 pieces; confirm style, material and variants in the quote" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },

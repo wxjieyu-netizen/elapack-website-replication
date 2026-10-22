@@ -931,9 +931,9 @@ export const products: Product[] = [
     name: "Custom Satin Wig Bags",
     category: "Pouches & Bags",
     shortDesc:
-      "Satin drawstring wig bag in the standard 30×40 cm format — smooth interior that keeps fibers from tangling, with your logo.",
+      "Satin drawstring wig bag; confirm dimensions, fabric contact and logo method on the proposed sample.",
     description:
-      "A satin drawstring bag sized for wigs and hair extensions. The smooth satin surface lets fibers slide instead of snagging, so wigs come out of the bag the way they went in, and the drawstring closes in one pull. The standard 30×40 cm format fits most wig and extension presentations, and every bag is made to order — your satin colour, cord and branding. Product photography is in progress; request a stock sample to see and feel the material before ordering.",
+      "A satin drawstring bag option for wigs and hair extensions. Confirm the packed item dimensions, fabric contact, closure and proposed logo method on a sample before ordering. Product photography is in progress; request a stock sample to see and feel the material before ordering.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Satin, drawstring cord",
     moq: "200 pcs",
