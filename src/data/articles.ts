@@ -604,7 +604,7 @@ export const articles: Article[] = ([
   {
     "slug": "candle-subscription-box-packaging",
     "datePublished": "2026-10-06",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-23",
     "title": "Candle Subscription Box Packaging: Boxes, Inserts, Themes",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -731,7 +731,7 @@ export const articles: Article[] = ([
   },
   {
     "slug": "candle-box-inserts-guide",
-    "dateModified": "2026-10-20",
+    "dateModified": "2026-10-23",
     "datePublished": "2026-10-11",
     "title": "Candle Box Inserts Compared: Corrugated, Foam, Pulp and Board",
     "category": "Sourcing Guide",
@@ -747,7 +747,7 @@ export const articles: Article[] = ([
   },
   {
     "slug": "candle-packaging-guide",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-23",
     "datePublished": "2026-10-11",
     "title": "Candle Packaging: Boxes, Inserts, Shipping and Ordering",
     "category": "Sourcing Guide",
@@ -908,7 +908,7 @@ export const articles: Article[] = ([
   {
     "slug": "custom-toiletry-bags-guide",
     "datePublished": "2026-10-14",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-23",
     "title": "Custom Toiletry Bags: Formats, Materials and Ordering Data",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -1191,7 +1191,7 @@ export const articles: Article[] = ([
   {
     "slug": "custom-dust-bags-guide",
     "datePublished": "2026-10-19",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-23",
     "title": "Custom Dust Bags for Handbags and Shoes: Fabrics, Sizes and Ordering Data",
     "category": "Sourcing Guide",
     "date": "October 2026",
