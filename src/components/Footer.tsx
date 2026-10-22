@@ -35,8 +35,8 @@ export default function Footer() {
           <div className="footer-col">
             <h4 className="footer-heading">Products</h4>
             <ul>
-              <li><Link to="/products/?category=Pouches%20%26%20Bags">Pouches & Bags</Link></li>
-              <li><Link to="/products/?category=Boxes">Boxes</Link></li>
+              <li><Link to="/pouches-bags/">Pouches & Bags</Link></li>
+              <li><Link to="/boxes/">Boxes</Link></li>
               <li><Link to="/sets/">Complete Packaging Sets</Link></li>
               <li><Link to="/products/?category=Retail%20Display%20Props">Retail Display Props</Link></li>
               <li><Link to="/ribbons-accessories/">Ribbons & Accessories</Link></li>

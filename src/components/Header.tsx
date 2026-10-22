@@ -5,6 +5,10 @@ import Logo from "./Logo";
 import { categories, industries, solutions } from "../data/products";
 
 const productCategories = categories.filter((c) => c !== "All");
+const categoryPath = (category: string) => ({
+  Boxes: "/boxes/",
+  "Pouches & Bags": "/pouches-bags/",
+}[category] ?? `/products/?category=${encodeURIComponent(category)}`);
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -72,12 +76,13 @@ export default function Header() {
                     {productCategories.map((cat) => (
                       <Link
                         key={cat}
-                        to={`/products/?category=${encodeURIComponent(cat)}`}
+                        to={categoryPath(cat)}
                         className="nav-dropdown-link"
                       >
                         {cat}
                       </Link>
                     ))}
+                    <Link to="/sets/" className="nav-dropdown-link">Complete Packaging Sets</Link>
                   </div>
                 </div>
               )}
@@ -193,12 +198,13 @@ export default function Header() {
             {productCategories.map((cat) => (
               <Link
                 key={cat}
-                to={`/products/?category=${encodeURIComponent(cat)}`}
+                to={categoryPath(cat)}
                 className="mobile-nav-link mobile-nav-sub"
               >
                 {cat}
               </Link>
             ))}
+            <Link to="/sets/" className="mobile-nav-link mobile-nav-sub">Complete Packaging Sets</Link>
           </div>
 
           {/* Industries section */}

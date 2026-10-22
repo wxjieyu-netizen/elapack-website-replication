@@ -1,6 +1,13 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getLandingBySlug } from "../data/landings";
+import { getProductBySlug } from "../data/products";
+
+const relatedProductSlugs: Record<string, string[]> = {
+  boxes: ["custom-ring-boxes", "magnetic-closure-gift-box", "custom-perfume-boxes"],
+  "pouches-bags": ["custom-velvet-pouches", "custom-cotton-pouches", "custom-satin-wig-bag"],
+  sets: ["custom-ring-boxes", "custom-velvet-pouches", "custom-perfume-boxes", "custom-satin-pouches"],
+};
 
 /**
  * Product-line landing page (pouches-bags / boxes / sets), rendered from the
@@ -113,6 +120,23 @@ export default function Landing({ slug }: { slug: string }) {
           </div>
         </section>
       ))}
+
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="container">
+          <div className="markets-box reveal">
+            <h2 className="section-title" style={{ marginTop: "0.75rem", fontSize: "1.75rem" }}>
+              {slug === "sets" ? "Explore components for your set" : "Explore specific products"}
+            </h2>
+            {slug === "sets" && <p className="markets-note">These are component examples, not fixed pre-packed sets. Request a quote with the box and pouch specifications and quantities for each component.</p>}
+            <ul className="spec-list">
+              {relatedProductSlugs[slug]?.map((productSlug) => {
+                const product = getProductBySlug(productSlug);
+                return product && <li key={productSlug}><Link to={`/products/${productSlug}/`}>{product.name}</Link></li>;
+              })}
+            </ul>
+          </div>
+        </div>
+      </section>
 
       {landing.gallery && landing.gallery.length > 0 && (
         <section className="section" style={{ paddingTop: 0 }}>
