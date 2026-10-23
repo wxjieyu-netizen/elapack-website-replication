@@ -496,7 +496,7 @@ export const products: Product[] = [
     shortDesc:
       "Custom watch boxes with fitted watch pillow inserts — single and multi-watch formats for retail and gifting.",
     description:
-      "Custom watch boxes for watch brands, strap makers and gifting programs. The structure is the same craft as our jewelry boxes: rigid board with your printed or wrapped finish, and a fitted watch pillow that holds the timepiece upright and still — single-watch presentation boxes through multi-watch cases with individually pillowed bays. Wraps range from matte art paper to faux leather, with foil stamping, embossing and spot UV branding. MOQ from 200 pieces — send your watch dimensions and piece count for a quote. Product photography is in progress; request a stock sample to judge the board and finish.",
+      "Custom watch boxes for watch brands, strap makers and gifting programs. Discuss a rigid box, wrap and watch pillow for single-watch or multi-watch presentation. Share the watch case dimensions, closed-strap size, accessories and number of watches per box so the proposed layout can be checked on a loaded sample. Confirm the wrap, decoration and any transit checks for the complete shipping pack before bulk production. MOQ from 200 pieces. Product photography is in progress; request a stock sample to judge the board and finish.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard or faux leather wrap, watch pillow inserts",
     moq: "200 pcs",
@@ -505,7 +505,7 @@ export const products: Product[] = [
     features: [
       {
         title: "Fitted Watch Pillows",
-        desc: "Velvet or satin-covered pillows hold each watch upright and still — the same insert craft as our ring boxes.",
+        desc: "Review the proposed pillow and covering with the actual watch; check contact, movement and removal on a loaded sample.",
       },
       {
         title: "Single to Multi-Watch",
@@ -513,11 +513,11 @@ export const products: Product[] = [
       },
       {
         title: "Premium Wrap Options",
-        desc: "Matte art paper, textured wraps or faux leather — foil and emboss branding on every version.",
+        desc: "Discuss matte art paper, textured wraps or faux leather, then confirm the suitable foil or emboss method for the selected wrap and artwork.",
       },
       {
         title: "Retail and Gift Ready",
-        desc: "Structures that present at the counter and protect through gifting and shipping.",
+        desc: "Specify the presentation box for retail or gifting, then assess the complete shipping pack for the intended route.",
       },
     ],
     specs: [
@@ -758,7 +758,7 @@ export const products: Product[] = [
     shortDesc:
       "Kraft shopping bag with twisted handles — custom logo printing.",
     description:
-      "A durable kraft paper shopping bag with twisted paper handles set into reinforced boards, built for retail carry-out, gift wrapping and market days. The natural kraft substrate takes flexo or offset logo printing in up to four colors, and its visible fiber texture gives printed marks a warm, honest backdrop. Sizes and paper weights are custom - from boutique counter bags to event carry-all formats - with handle options in twisted paper or cotton cord. Ask us to confirm the selected paper, handle and finish before assessing disposal options. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Colour is reviewed against the approved sample before bulk. Request a free digital dieline preview to review gusset depth and base format for your typical load, then approve a custom sample (USD 25 plus USD 20 shipping, 3-5 days) to test handle comfort and print density in hand before the bulk run.",
+      "A kraft paper shopping bag for retail carry-out, gift wrapping or events. Share the products to be carried, target loaded weight, desired width, height and gusset depth, handle preference, artwork and quantity for a project-specific quote. Confirm the proposed paper, handle attachment, print method and finish against the quotation and sample; test the assembled bag with the intended load before approving bulk production. Ask us to confirm the selected construction before assessing disposal options. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Colour is reviewed against the approved sample before bulk. Request a free digital dieline preview to review the proposed dimensions, then approve a custom sample (USD 25 plus USD 20 shipping, 3-5 days) to check handle comfort and print appearance in hand before the bulk run.",
     image: "/images/carousel/kraft-bag.png",
     materials: "Kraft paper, twisted paper handles",
     moq: "200 pcs",
@@ -767,15 +767,15 @@ export const products: Product[] = [
     features: [
       {
         title: "Kraft Paper",
-        desc: "Natural kraft substrate with visible fiber texture and eco story.",
+        desc: "Confirm the proposed paper grade, finish and appearance against the approved sample.",
       },
       {
         title: "Reinforced Handles",
-        desc: "Twisted paper handles set into reinforced boards for heavy loads.",
+        desc: "Review the proposed handle attachment and base with the intended loaded contents.",
       },
       {
         title: "Custom Printing",
-        desc: "Flexo or offset logo printing in up to 4 colors.",
+        desc: "Confirm the print method, artwork and colour requirements in the quotation and sample.",
       },
       {
         title: "Paper Construction",
@@ -783,14 +783,14 @@ export const products: Product[] = [
       },
     ],
     specs: [
-      { label: "Dimensions (L × W × H)", value: '10" × 8" × 12" (customizable)' },
+      { label: "Dimensions (W × H × G)", value: "Confirm width, height and gusset for the intended contents" },
       { label: "Handle Type", value: "Twisted paper / cotton cord" },
       { label: "Dieline", value: "Free digital dieline preview" },
       { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
     ],
     customizationOptions: [
       "Custom sizes and paper weights",
-      "Logo printing up to 4 colors",
+      "Artwork and print method confirmed per quotation",
       "Handle material options",
     ],
   },

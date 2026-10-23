@@ -25,7 +25,7 @@ const boxesCopy: CategoryCopy = {
     },
     {
       title: "Protection and Preservation",
-      desc: "Rigid board construction with tailored inserts keeps each piece stable in transit and in store — no shifting, no scratches, no damaged stock.",
+      desc: "Specify the insert around the product and review fit on a loaded sample. Agree any transit checks for the complete shipping pack before relying on a protection claim.",
     },
     {
       title: "Subtle Branding Opportunity",
@@ -50,11 +50,11 @@ const pouchesCopy: CategoryCopy = {
   benefits: [
     {
       title: "Elevating Customer Experience",
-      desc: "When customers receive their purchase in a plush, well-finished pouch, it enhances the overall experience and makes them feel they are acquiring something truly special.",
+      desc: "Choose the pouch or bag construction around the product, intended use and presentation. Review the material, size, closure or handle and branding on a sample.",
     },
     {
       title: "Protection and Preservation",
-      desc: "Soft textile and durable paper constructions shield delicate and valuable pieces from scratches, dust and damage, keeping the product pristine until it reaches the customer's hands.",
+      desc: "Check how the packed product fits and how the complete pack will be handled. Protective performance depends on the chosen construction and should be assessed on the sample.",
     },
     {
       title: "Subtle Branding Opportunity",
