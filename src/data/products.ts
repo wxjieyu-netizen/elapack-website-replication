@@ -158,7 +158,7 @@ export const products: Product[] = [
     name: "Luxury Gift Boxes with Ribbon",
     category: "Boxes",
     shortDesc:
-      "Rigid luxury gift box with satin ribbon tie closure — premium presentation for corporate gifting.",
+      "Rigid luxury gift box with satin ribbon tie closure — premium presentation for corporate gifting. MOQ 200 pcs, typical production 15–20 days.",
     description:
       "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held against an approved sample before bulk. Interior options secure the product for gifting and courier conditions alike. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
     image: "/images/carousel/luxury-gift-box.png",
