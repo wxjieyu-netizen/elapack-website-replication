@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Cross-section of a press-on nail box: the tray sets the footprint and the adhesive sets the depth tier">
+<rect width="1200" height="675" fill="#faf9f7"/>
+<g font-family="Helvetica,Arial,sans-serif">
+<text x="60" y="52" font-family="Georgia,serif" font-size="24" font-weight="600" fill="#18120c">A press-on nail box is specified from the tray outward</text>
+<text x="60" y="78" font-size="13" fill="#6b6258">Two published depth tiers, one cause — flat adhesive tabs stack at ~15 mm; a glue tube pushes the kit to ~25 mm</text>
+<line x1="110" y1="300" x2="92" y2="300" stroke="#6b6258" stroke-width="0.75"/>
+<line x1="110" y1="430" x2="92" y2="430" stroke="#6b6258" stroke-width="0.75"/>
+<line x1="92" y1="300" x2="92" y2="430" stroke="#b08d46" stroke-width="1.5"/>
+<path d="M92 300 l3.5 9 h-7 z" fill="#b08d46"/>
+<path d="M92 430 l3.5 -9 h-7 z" fill="#b08d46"/>
+<text transform="rotate(-90 76 365)" x="76" y="365" text-anchor="middle" font-size="12" font-weight="600" fill="#18120c">15 mm</text>
+<text x="110" y="290" font-size="11" fill="#6b6258">full-colour printed wrap</text>
+<rect x="110" y="300" width="340" height="130" rx="6" fill="none" stroke="#18120c" stroke-width="1.5"/>
+<text x="130" y="322" font-size="11" fill="#6b6258">fitted tray — 24 wells, grouped by size</text>
+<rect x="130" y="330" width="300" height="55" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+<rect x="142" y="338" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="190" y="338" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="238" y="338" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="286" y="338" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="334" y="338" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="382" y="338" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="142" y="358" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="190" y="358" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="238" y="358" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="286" y="358" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="334" y="358" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="382" y="358" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="130" y="398" width="300" height="14" fill="#b08d46" fill-opacity="0.25"/>
+<text x="130" y="424" font-size="11" fill="#6b6258">shade &amp; size card</text>
+<text x="280" y="470" text-anchor="middle" font-size="13" font-weight="600" fill="#18120c">Slim tier · ~15 mm internal</text>
+<text x="280" y="488" text-anchor="middle" font-size="11.5" fill="#6b6258">adhesive tabs stack flat</text>
+<rect x="580" y="240" width="12" height="14" rx="2" fill="#18120c"/>
+<rect x="573" y="254" width="26" height="116" rx="12" fill="#18120c"/>
+<line x1="602" y1="242" x2="716" y2="206" stroke="#b08d46" stroke-width="1.5"/>
+<path d="M716 206 L709 213.5 L706 204 Z" fill="#b08d46"/>
+<text x="656" y="200" text-anchor="middle" font-size="11" fill="#6b6258">+10 mm of depth</text>
+<text x="586" y="396" text-anchor="middle" font-size="13" font-weight="600" fill="#18120c">2 g glue tube</text>
+<text x="586" y="413" text-anchor="middle" font-size="11.5" fill="#6b6258">≈ 9 mm Ø × 67 mm · as published</text>
+<text x="730" y="170" font-size="11" fill="#6b6258">full-colour printed wrap</text>
+<rect x="730" y="180" width="340" height="250" rx="6" fill="none" stroke="#18120c" stroke-width="1.5"/>
+<rect x="750" y="196" width="300" height="46" rx="4" fill="none" stroke="#b08d46" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="900" y="216" text-anchor="middle" font-size="11" fill="#6b6258">optional window · film 25–40 µm</text>
+<text x="900" y="232" text-anchor="middle" font-size="11" fill="#6b6258">large windows 40–75 µm (as published)</text>
+<text x="750" y="254" font-size="11" fill="#6b6258">fitted tray — wells grouped by size</text>
+<rect x="750" y="262" width="300" height="55" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+<rect x="762" y="270" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="810" y="270" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="858" y="270" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="906" y="270" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="954" y="270" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="1002" y="270" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="762" y="290" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="810" y="290" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="858" y="290" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="906" y="290" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="954" y="290" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<rect x="1002" y="290" width="36" height="16" rx="3" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<circle cx="795" cy="352" r="16" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+<rect x="790" y="338" width="10" height="30" rx="5" fill="#18120c"/>
+<text x="820" y="356" font-size="11" fill="#6b6258">shaped tube well</text>
+<rect x="930" y="340" width="42" height="26" rx="4" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<text x="951" y="357" text-anchor="middle" font-size="10" fill="#6b6258">file</text>
+<rect x="982" y="340" width="42" height="26" rx="4" fill="none" stroke="#b08d46" stroke-width="0.75"/>
+<text x="1003" y="357" text-anchor="middle" font-size="10" fill="#6b6258">wipes</text>
+<rect x="750" y="392" width="300" height="14" fill="#b08d46" fill-opacity="0.25"/>
+<text x="750" y="420" font-size="11" fill="#6b6258">shade &amp; size card</text>
+<line x1="1070" y1="180" x2="1088" y2="180" stroke="#6b6258" stroke-width="0.75"/>
+<line x1="1070" y1="430" x2="1088" y2="430" stroke="#6b6258" stroke-width="0.75"/>
+<line x1="1088" y1="180" x2="1088" y2="430" stroke="#b08d46" stroke-width="1.5"/>
+<path d="M1088 180 l3.5 9 h-7 z" fill="#b08d46"/>
+<path d="M1088 430 l3.5 -9 h-7 z" fill="#b08d46"/>
+<text transform="rotate(-90 1102 305)" x="1102" y="305" text-anchor="middle" font-size="12" font-weight="600" fill="#18120c">~25 mm</text>
+<text x="900" y="470" text-anchor="middle" font-size="13" font-weight="600" fill="#18120c">Kit tier · ~25 mm internal</text>
+<text x="900" y="488" text-anchor="middle" font-size="11.5" fill="#6b6258">glue tube and tools ride along</text>
+<text x="60" y="640" font-size="11.5" fill="#6b6258">Illustrative proportions — depth tiers, tube dimensions and film gauges as published by the sources cited in the article; not ELAPACK specifications.</text>
+</g>
+</svg>

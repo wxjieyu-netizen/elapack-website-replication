@@ -293,6 +293,9 @@ const RELATED: Record<string, string[]> = {
     "magnetic-closure-gift-box",
     "luxury-gift-box-ribbon",
   ],
+  "custom-press-on-nail-boxes-guide": [
+    "custom-press-on-nail-boxes",
+  ],
 };
 
 /**
