@@ -51,26 +51,25 @@ var redirects = {
   // 2026-10-01 batch-3: linen SKU merged into the jewelry pouches collection
   // (linen stays there as a fabric option; no standalone SKU page)
   "/products/custom-linen-jewelry-pouch": "/custom-jewelry-pouches",
-  // series pages (15) → category-filtered products
-  "/pouches/jewelry-eyewear": "/products?category=Pouches%20%26%20Bags",
-  "/pouches/fragrance": "/products?category=Pouches%20%26%20Bags",
-  "/pouches/hair-beauty": "/products?category=Pouches%20%26%20Bags",
-  "/pouches/fashion": "/products?category=Pouches%20%26%20Bags",
-  "/pouches/gift": "/products?category=Pouches%20%26%20Bags",
-  "/boxes/jewelry-eyewear": "/products?category=Boxes",
-  "/boxes/fragrance": "/products?category=Boxes",
-  "/boxes/hair-beauty": "/products?category=Boxes",
-  "/boxes/fashion": "/products?category=Boxes",
-  "/boxes/gift": "/products?category=Boxes",
-  "/sets/jewelry-eyewear-set": "/products?category=Sets%20%26%20Complete%20Packaging",
-  "/sets/fragrance-set": "/products?category=Sets%20%26%20Complete%20Packaging",
-  "/sets/hair-beauty-set": "/products?category=Sets%20%26%20Complete%20Packaging",
-  "/sets/fashion-set": "/products?category=Sets%20%26%20Complete%20Packaging",
-  "/sets/gift-set": "/products?category=Sets%20%26%20Complete%20Packaging"
+  // Historical series paths → canonical product-line landing pages.
+  "/pouches/jewelry-eyewear": "/pouches-bags/",
+  "/pouches/fragrance": "/pouches-bags/",
+  "/pouches/hair-beauty": "/pouches-bags/",
+  "/pouches/fashion": "/pouches-bags/",
+  "/pouches/gift": "/pouches-bags/",
+  "/boxes/jewelry-eyewear": "/boxes/",
+  "/boxes/fragrance": "/boxes/",
+  "/boxes/hair-beauty": "/boxes/",
+  "/boxes/fashion": "/boxes/",
+  "/boxes/gift": "/boxes/",
+  "/sets/jewelry-eyewear-set": "/sets/",
+  "/sets/fragrance-set": "/sets/",
+  "/sets/hair-beauty-set": "/sets/",
+  "/sets/fashion-set": "/sets/",
+  "/sets/gift-set": "/sets/"
 };
 var oldProductSlugs = [
   "black-leather-jewelry-box",
-  "double-ring-storage-box",
   "luxury-gift-box-ribbon",
   "magnetic-closure-gift-box",
   "velvet-necklace-display",
@@ -79,6 +78,7 @@ var oldProductSlugs = [
   "stackable-jewelry-tray"
 ];
 for (const s of oldProductSlugs) redirects[`/product/${s}`] = `/products/${s}`;
+redirects["/product/double-ring-storage-box"] = "/products/custom-ring-boxes";
 redirects["/product/pandora-jewelry-box-white"] = "/products/custom-white-jewelry-box";
 redirects["/product/wooden-ring-box-wedding"] = "/products";
 redirects["/product/velvet-drawstring-pouch"] = "/products/custom-velvet-pouches";

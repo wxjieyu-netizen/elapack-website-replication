@@ -289,6 +289,10 @@ const RELATED: Record<string, string[]> = {
     "custom-perfume-boxes",
     "custom-watch-boxes",
   ],
+  "christmas-packaging-ordering-timeline": [
+    "magnetic-closure-gift-box",
+    "luxury-gift-box-ribbon",
+  ],
 };
 
 /**
