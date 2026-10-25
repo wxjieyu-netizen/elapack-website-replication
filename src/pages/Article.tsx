@@ -296,6 +296,10 @@ const RELATED: Record<string, string[]> = {
   "custom-press-on-nail-boxes-guide": [
     "custom-press-on-nail-boxes",
   ],
+  "white-jewelry-boxes-guide": [
+    "custom-white-jewelry-box",
+    "custom-ring-boxes",
+  ],
 };
 
 /**

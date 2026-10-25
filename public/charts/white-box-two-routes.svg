@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="White jewelry boxes: stock and custom routes separated by five decision questions">
+<rect width="1200" height="675" fill="#faf9f7"/>
+<g font-family="Helvetica,Arial,sans-serif">
+<text x="60" y="52" font-family="Georgia,serif" font-size="24" font-weight="600" fill="#18120c">White jewelry boxes: the two-route decision</text>
+<text x="60" y="78" font-size="13" fill="#6b6258">Five questions, one pass — each answer points to the route that carries it</text>
+<rect x="60" y="96" width="340" height="480" rx="6" fill="none" stroke="#18120c" stroke-width="1.5"/>
+<text x="230" y="126" text-anchor="middle" font-size="13" font-weight="600" fill="#18120c">Stock route</text>
+<text x="230" y="144" text-anchor="middle" font-size="11" fill="#6b6258">by the case, fast — sizes set by the supplier</text>
+<rect x="800" y="96" width="340" height="480" rx="6" fill="none" stroke="#18120c" stroke-width="1.5"/>
+<text x="970" y="126" text-anchor="middle" font-size="13" font-weight="600" fill="#18120c">Custom route</text>
+<text x="970" y="144" text-anchor="middle" font-size="11" fill="#6b6258">from MOQ 200 — sized to the jewelry</text>
+<rect x="462" y="164" width="276" height="48" rx="24" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+<text x="600" y="186" text-anchor="middle" font-size="12.5" font-weight="600" fill="#18120c">Size fit</text>
+<text x="600" y="204" text-anchor="middle" font-size="11" fill="#6b6258">Do standard sizes fit the pieces?</text>
+<line x1="462" y1="188" x2="400" y2="188" stroke="#b08d46" stroke-width="1.2"/>
+<line x1="738" y1="188" x2="800" y2="188" stroke="#b08d46" stroke-width="1.2"/>
+<text x="384" y="192" text-anchor="end" font-size="11.5" fill="#18120c">ring, stud and pendant standards</text>
+<text x="816" y="192" text-anchor="start" font-size="11.5" fill="#18120c">multi-piece sets, fitted cavities</text>
+<rect x="462" y="246" width="276" height="48" rx="24" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+<text x="600" y="268" text-anchor="middle" font-size="12.5" font-weight="600" fill="#18120c">Shade tolerance</text>
+<text x="600" y="286" text-anchor="middle" font-size="11" fill="#6b6258">How exact must the white be?</text>
+<line x1="462" y1="270" x2="400" y2="270" stroke="#b08d46" stroke-width="1.2"/>
+<line x1="738" y1="270" x2="800" y2="270" stroke="#b08d46" stroke-width="1.2"/>
+<text x="384" y="274" text-anchor="end" font-size="11.5" fill="#18120c">any near-white works</text>
+<text x="816" y="274" text-anchor="start" font-size="11.5" fill="#18120c">one specified shade, held on restock</text>
+<rect x="462" y="328" width="276" height="48" rx="24" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+<text x="600" y="350" text-anchor="middle" font-size="12.5" font-weight="600" fill="#18120c">Logo treatment</text>
+<text x="600" y="368" text-anchor="middle" font-size="11" fill="#6b6258">Is the logo the brand itself?</text>
+<line x1="462" y1="352" x2="400" y2="352" stroke="#b08d46" stroke-width="1.2"/>
+<line x1="738" y1="352" x2="800" y2="352" stroke="#b08d46" stroke-width="1.2"/>
+<text x="384" y="356" text-anchor="end" font-size="11.5" fill="#18120c">label, sleeve or ribbon</text>
+<text x="816" y="356" text-anchor="start" font-size="11.5" fill="#18120c">foil or emboss, in the wrap</text>
+<rect x="462" y="410" width="276" height="48" rx="24" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+<text x="600" y="432" text-anchor="middle" font-size="12.5" font-weight="600" fill="#18120c">Volume</text>
+<text x="600" y="450" text-anchor="middle" font-size="11" fill="#6b6258">How many pieces per size?</text>
+<line x1="462" y1="434" x2="400" y2="434" stroke="#b08d46" stroke-width="1.2"/>
+<line x1="738" y1="434" x2="800" y2="434" stroke="#b08d46" stroke-width="1.2"/>
+<text x="384" y="438" text-anchor="end" font-size="11.5" fill="#18120c">hundreds, mixed, uncertain</text>
+<text x="816" y="438" text-anchor="start" font-size="11.5" fill="#18120c">200+ per design, steady restocks</text>
+<rect x="462" y="492" width="276" height="48" rx="24" fill="none" stroke="#b08d46" stroke-width="1.5"/>
+<text x="600" y="514" text-anchor="middle" font-size="12.5" font-weight="600" fill="#18120c">The date</text>
+<text x="600" y="532" text-anchor="middle" font-size="11" fill="#6b6258">When is it needed?</text>
+<line x1="462" y1="516" x2="400" y2="516" stroke="#b08d46" stroke-width="1.2"/>
+<line x1="738" y1="516" x2="800" y2="516" stroke="#b08d46" stroke-width="1.2"/>
+<text x="384" y="520" text-anchor="end" font-size="11.5" fill="#18120c">needed now — ships from stock</text>
+<text x="816" y="520" text-anchor="start" font-size="11.5" fill="#18120c">3–5 day sample + 15–20 day production</text>
+<rect x="60" y="592" width="1080" height="40" rx="8" fill="#b08d46" fill-opacity="0.25"/>
+<text x="600" y="617" text-anchor="middle" font-size="12.5" font-weight="600" fill="#18120c">The two routes coexist — stock for the pieces that need speed, custom for the flagship line</text>
+<text x="60" y="640" font-size="11.5" fill="#6b6258">Decision aid — stock examples as published by the suppliers cited in the article; ELAPACK custom terms as stated (MOQ 200 · sample USD 25 + 20 · production 15–20 days).</text>
+</g>
+</svg>
