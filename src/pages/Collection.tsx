@@ -100,6 +100,21 @@ export default function Collection({ slug }: { slug: string }) {
         </div>
       </section>
 
+      {collection.relatedPages && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>Compare related packaging options</h2>
+              <ul className="spec-list">
+                {collection.relatedPages.map((page) => (
+                  <li key={page.path}><Link to={page.path}>{page.label}</Link></li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+      )}
+
       {guides.length > 0 && (
         <section className="section" style={{ paddingTop: 0 }}>
           <div className="container">
@@ -165,6 +180,7 @@ export default function Collection({ slug }: { slug: string }) {
               Message Tina on WhatsApp or phone:{" "}
               <a href="https://wa.me/8618626352096">+86 186 2635 2096</a>
               {" "}· Email: <a href="mailto:tina@elapack.com">tina@elapack.com</a>
+              {" "}· <Link to="/contact/">Send project details</Link>
             </p>
           </div>
         </div>

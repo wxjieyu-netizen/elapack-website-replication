@@ -42,6 +42,9 @@ export default function Landing({ slug }: { slug: string }) {
             {slug === "sets" && <p className="about-text landing-related-links" style={{ maxWidth: "820px", margin: "1rem auto 0" }}>
               Compare <Link to="/boxes/">box options</Link> and <Link to="/pouches-bags/">pouch options</Link>, or browse <Link to="/products/?category=Retail%20Display%20Props">retail display props</Link> for a separate display project.
             </p>}
+            {slug === "boxes" && <p className="about-text landing-related-links" style={{ maxWidth: "820px", margin: "1rem auto 0" }}>
+              Sourcing for jewelry? Compare <Link to="/custom-jewelry-boxes/">jewelry box structures and inserts</Link> or see the <Link to="/custom-jewelry-packaging/">full box-and-pouch program</Link>.
+            </p>}
           </div>
           {landing.hero && (
             <figure className="landing-hero reveal" style={{ marginTop: "2.5rem" }}>
@@ -215,6 +218,7 @@ export default function Landing({ slug }: { slug: string }) {
               Message Tina on WhatsApp or phone:{" "}
               <a href="https://wa.me/8618626352096">+86 186 2635 2096</a>
               {" "}· Email: <a href="mailto:tina@elapack.com">tina@elapack.com</a>
+              {" "}· <Link to="/contact/">Send project details</Link>
             </p>
           </div>
         </div>

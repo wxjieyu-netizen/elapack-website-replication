@@ -6996,6 +6996,17 @@ var landings = [
           ["Molded pulp", "Contoured insert option; confirm material specification"],
           ["Flocked", "Velvet-touch luxury finish"]
         ]
+      },
+      {
+        heading: "Choose a box structure for your product",
+        note: "These are selection questions, not a transit-performance guarantee. Approve the structure and insert on a sample with your actual product.",
+        columns: ["Structure", "Buyer use", "Check in the sample"],
+        rows: [
+          ["Rigid box", "Presentation for jewelry, gifts or fragrance", "Internal fit, insert and opening clearance"],
+          ["Folding carton", "Flat-packed retail packaging", "Board choice, closure and packed-product fit"],
+          ["Magnetic closure box", "Repeated opening and gift presentation", "Closure alignment, insert and product clearance"],
+          ["Corrugated mailer", "Shipping or subscription presentation", "Packed-product fit and route-specific protection testing"]
+        ]
       }
     ],
     lists: [
@@ -7003,6 +7014,15 @@ var landings = [
       {
         heading: "Finishes & branding",
         items: ["Matt lamination", "Glossy lamination", "Varnishing", "Stamping", "Embossing", "UV coating", "Gold foil \u2014 with Pantone colour matching", "Custom finishes on request"]
+      },
+      {
+        heading: "Send a comparable box RFQ",
+        items: [
+          "Product dimensions and weight, including any accessories that must fit inside",
+          "Preferred box structure, insert or lining, and whether the box will be shipped inside an outer carton",
+          "Logo artwork, colour reference, finish and quantity (minimum 200 pieces)",
+          "Delivery country, target date and the sample checks you need before bulk production"
+        ]
       }
     ],
     howItWorks: HOW_IT_WORKS_SHARED,
@@ -7104,6 +7124,13 @@ function Landing({ slug }) {
           ", or browse ",
           /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/products/?category=Retail%20Display%20Props", children: "retail display props" }),
           " for a separate display project."
+        ] }),
+        slug === "boxes" && /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "about-text landing-related-links", style: { maxWidth: "820px", margin: "1rem auto 0" }, children: [
+          "Sourcing for jewelry? Compare ",
+          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/custom-jewelry-boxes/", children: "jewelry box structures and inserts" }),
+          " or see the ",
+          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/custom-jewelry-packaging/", children: "full box-and-pouch program" }),
+          "."
         ] })
       ] }),
       landing.hero && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("figure", { className: "landing-hero reveal", style: { marginTop: "2.5rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("img", { src: landing.hero.src, alt: landing.hero.alt, loading: "lazy", width: 1600, height: 1e3 }) })
@@ -7169,7 +7196,10 @@ function Landing({ slug }) {
         /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" }),
         " ",
         "\xB7 Email: ",
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" })
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" }),
+        " ",
+        "\xB7 ",
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/contact/", children: "Send project details" })
       ] })
     ] }) }) })
   ] });
@@ -7224,6 +7254,14 @@ var collections = [
           { title: "Spot UV & lamination", desc: "Matte or gloss laminate with spot UV accents." },
           { title: "Pantone-matched wrap", desc: "Wrap colour matched to your Pantone reference, with interior lid printing." }
         ]
+      },
+      {
+        heading: "What to specify for a wholesale jewelry box quote",
+        items: [
+          { title: "The jewelry and its fit", desc: "Share the piece dimensions, weight and any certificate or card that must fit inside. Check the insert with the actual piece in a sample." },
+          { title: "Structure and insert", desc: "Choose lift-off, magnetic or ribbon closure, then specify the cavity, insert material and how the piece should be held." },
+          { title: "Branding and quantity", desc: "Send logo artwork, colour reference, finish, box quantity and destination so suppliers quote the same specification." }
+        ]
       }
     ],
     facts: [
@@ -7248,6 +7286,10 @@ var collections = [
       "necklace-bracelet-packaging-guide",
       "custom-packaging-samples-guide",
       "custom-packaging-moq-sample-lead-times-2026"
+    ],
+    relatedPages: [
+      { path: "/custom-jewelry-packaging/", label: "Complete jewelry packaging" },
+      { path: "/custom-jewelry-pouches/", label: "Jewelry pouches" }
     ]
   },
   {
@@ -7359,6 +7401,14 @@ var collections = [
           { title: "Travel jewelry pouches", desc: "Closable formats that keep rings, chains and small pieces secure in transit and in luggage \u2014 drawstring, flap or zip, sized to your jewelry set." },
           { title: "Any custom size", desc: "Made to your product dimensions, MOQ unchanged." }
         ]
+      },
+      {
+        heading: "Match the pouch to the jewelry",
+        items: [
+          { title: "Rings and earrings", desc: "Confirm whether each piece needs its own pouch or a card or insert inside; send the packed dimensions before choosing a pouch size." },
+          { title: "Chains and necklaces", desc: "Check how the chain is secured and whether the closure keeps it separate from other pieces during handling." },
+          { title: "Branding and sample", desc: "Specify fabric, closure, logo method, colour reference and quantity. Approve size, seam and logo on a sample before the order." }
+        ]
       }
     ],
     facts: [
@@ -7383,6 +7433,10 @@ var collections = [
     guideSlugs: [
       "how-to-choose-a-custom-jewelry-pouch",
       "packaging-colour-tolerance-explained"
+    ],
+    relatedPages: [
+      { path: "/custom-jewelry-packaging/", label: "Complete jewelry packaging" },
+      { path: "/custom-jewelry-boxes/", label: "Jewelry boxes" }
     ]
   },
   {
@@ -7450,7 +7504,7 @@ var collections = [
     metaDescription: "Custom jewelry packaging from one manufacturer \u2014 logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
     factBlock: {
       updated: "October 2026",
-      paragraph: "ELAPACK jewelry packaging \u2014 key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering jewelry boxes, fabric pouches, display sets and complete box-plus-pouch programs, custom sizes included. Typical production takes 15\u201320 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4\u20137 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3\u20135 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal."
+      paragraph: "ELAPACK jewelry packaging \u2014 key facts, current as of October 2026. Minimum order quantity is 200 pieces for each component of a box-plus-pouch set, including custom sizes; confirm quantities for every component in the quotation. Typical production takes 15\u201320 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4\u20137 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3\u20135 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal."
     },
     intro: "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display \u2014 and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets \u2014 colour-matched and branded as one system.",
     sections: [
@@ -7483,6 +7537,15 @@ var collections = [
           { title: "Box + pouch sets", desc: "Both pieces designed together \u2014 same colour, same branding, one PO." },
           { title: "Retail to unboxing", desc: "Display at the counter, box at purchase, pouch after \u2014 one visual language." }
         ]
+      },
+      {
+        heading: "Plan a jewelry packaging order",
+        items: [
+          { title: "Choose the components", desc: "List the box, pouch and any retail display separately. A box-plus-pouch set starts at 200 pieces of each component; confirm each quantity in the quotation." },
+          { title: "Check the fit", desc: "Send the jewelry dimensions and how each piece is held or displayed. Check box insert and pouch size with the actual jewelry at sampling." },
+          { title: "Align the branding", desc: "Share logo artwork and colour references for every component, then approve the assembled presentation before production." },
+          { title: "Request a comparable quote", desc: "Include component quantities, dimensions, materials, branding method, delivery country and target date." }
+        ]
       }
     ],
     facts: [
@@ -7507,6 +7570,11 @@ var collections = [
     guideSlugs: [
       "how-to-choose-custom-jewelry-boxes",
       "how-to-choose-a-custom-jewelry-pouch"
+    ],
+    relatedPages: [
+      { path: "/custom-jewelry-boxes/", label: "Compare jewelry boxes" },
+      { path: "/custom-jewelry-pouches/", label: "Compare jewelry pouches" },
+      { path: "/sets/", label: "Specify a complete packaging set" }
     ]
   },
   {
@@ -8011,6 +8079,10 @@ function Collection({ slug }) {
         product.slug
       )) })
     ] }) }),
+    collection.relatedPages && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Compare related packaging options" }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("ul", { className: "spec-list", children: collection.relatedPages.map((page) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom17.Link, { to: page.path, children: page.label }) }, page.path)) })
+    ] }) }) }),
     guides.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Sourcing guides" }),
       /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "spec-list", children: guides.map((guide) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
@@ -8046,7 +8118,10 @@ function Collection({ slug }) {
         /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" }),
         " ",
         "\xB7 Email: ",
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" })
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" }),
+        " ",
+        "\xB7 ",
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom17.Link, { to: "/contact/", children: "Send project details" })
       ] })
     ] }) }) })
   ] });

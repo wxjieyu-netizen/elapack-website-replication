@@ -145,12 +145,32 @@ export const landings: Landing[] = [
           ["Flocked", "Velvet-touch luxury finish"],
         ],
       },
+      {
+        heading: "Choose a box structure for your product",
+        note: "These are selection questions, not a transit-performance guarantee. Approve the structure and insert on a sample with your actual product.",
+        columns: ["Structure", "Buyer use", "Check in the sample"],
+        rows: [
+          ["Rigid box", "Presentation for jewelry, gifts or fragrance", "Internal fit, insert and opening clearance"],
+          ["Folding carton", "Flat-packed retail packaging", "Board choice, closure and packed-product fit"],
+          ["Magnetic closure box", "Repeated opening and gift presentation", "Closure alignment, insert and product clearance"],
+          ["Corrugated mailer", "Shipping or subscription presentation", "Packed-product fit and route-specific protection testing"],
+        ],
+      },
     ],
     lists: [
       { heading: "Sizes", items: ["Standard sizes: 8×8×3 cm · 10×10×3 cm", "Any custom size made to your spec"] },
       {
         heading: "Finishes & branding",
         items: ["Matt lamination", "Glossy lamination", "Varnishing", "Stamping", "Embossing", "UV coating", "Gold foil — with Pantone colour matching", "Custom finishes on request"],
+      },
+      {
+        heading: "Send a comparable box RFQ",
+        items: [
+          "Product dimensions and weight, including any accessories that must fit inside",
+          "Preferred box structure, insert or lining, and whether the box will be shipped inside an outer carton",
+          "Logo artwork, colour reference, finish and quantity (minimum 200 pieces)",
+          "Delivery country, target date and the sample checks you need before bulk production",
+        ],
       },
     ],
     howItWorks: HOW_IT_WORKS_SHARED,
