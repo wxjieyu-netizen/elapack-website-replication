@@ -5588,7 +5588,7 @@ function About() {
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Our Story" }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "Custom packaging, built around your brief." }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "ELAPACK approaches packaging as more than a container \u2014 it is a brand's first handshake. We work with buyers on packaging for jewelry, eyewear, beauty, and gifting." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We coordinate packaging design, production, and shipping around each order's specification. ELAPACK is operated by Wuxi Magic Packaging Co., Ltd., based in Wuxi, Jiangsu, China." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We coordinate packaging design, production, and shipping around each order's specification. ELAPACK is operated by Wuxi Magic Packaging Co., Ltd., based in Wuxi, Jiangsu, China. Production is housed in a 1,000-square-meter facility with three production lines." }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Share your product dimensions, material preferences, branding, and quantity so we can review the structure, sample, and production requirements with you." })
       ] })
     ] }) }) }),
@@ -8285,6 +8285,7 @@ for (const route of ROUTES) {
       "@id": `${SITE}/#organization`,
       name: "ELAPACK",
       legalName: "Wuxi Magic Packaging Co., Ltd",
+      description: "Custom packaging manufacturer operating a 1,000-square-meter factory with three production lines in Wuxi, Jiangsu, China.",
       url: `${SITE}/`,
       logo: `${SITE}/images/brand/elapack-logo.png`,
       address: {

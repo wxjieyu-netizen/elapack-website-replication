@@ -189,6 +189,8 @@ for (const route of ROUTES) {
       "@id": `${SITE}/#organization`,
       name: "ELAPACK",
       legalName: "Wuxi Magic Packaging Co., Ltd",
+      description:
+        "Custom packaging manufacturer operating a 1,000-square-meter factory with three production lines in Wuxi, Jiangsu, China.",
       url: `${SITE}/`,
       logo: `${SITE}/images/brand/elapack-logo.png`,
       address: {

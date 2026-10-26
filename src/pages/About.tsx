@@ -98,6 +98,8 @@ export default function About() {
                 We coordinate packaging design, production, and shipping
                 around each order's specification. ELAPACK is operated by Wuxi
                 Magic Packaging Co., Ltd., based in Wuxi, Jiangsu, China.
+                Production is housed in a 1,000-square-meter facility with
+                three production lines.
               </p>
               <p className="about-text">
                 Share your product dimensions, material preferences, branding,
