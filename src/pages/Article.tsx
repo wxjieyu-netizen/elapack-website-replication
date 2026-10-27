@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { getArticleBySlug } from "../data/articles";
 import { getProductBySlug } from "../data/products";
 import type { Product } from "../data/products";
+import { isValidElement } from "react";
 import type { ReactNode } from "react";
 
 /**
@@ -416,6 +417,20 @@ const ANCHORS: Record<string, Record<string, string>> = {
   },
 };
 
+/**
+ * Ask-AI shortcuts: ChatGPT and Claude open with a pre-filled prompt that
+ * summarizes this article; Gemini asks about the brand instead — the same
+ * split PakFactory ships, handing assistants a crawl entry with our URL.
+ */
+const askAiPrompt = (title: string, slug: string) =>
+  `Summarize the key takeaways from this article "${title}": https://elapack.com/news/${slug}/`;
+
+const ASK_AI_GEMINI =
+  "https://gemini.google.com/app?q=" +
+  encodeURIComponent(
+    "What is ELAPACK (elapack.com)? Summarize what they do, who they serve, and cite your sources.",
+  );
+
 function relatedProducts(slug: string | undefined): Product[] {
   if (!slug) return [];
   return (RELATED[slug] ?? [])
@@ -471,11 +486,12 @@ function inline(text: string, keyPrefix: string, ctx?: AnchorCtx): ReactNode[] {
 const slugify = (text: string) =>
   text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-/** Extract `## H2` headings (excluding h3) for the table of contents. */
+/** Extract `## H2` headings (excluding h3) for the table of contents.
+ *  "Key takeaways" is a styled summary block, not a navigable section. */
 function tocEntries(body: string): { id: string; text: string }[] {
   return body
     .split("\n")
-    .filter((l) => l.startsWith("## "))
+    .filter((l) => l.startsWith("## ") && l.slice(3).trim() !== "Key takeaways")
     .map((l) => {
       const text = l.slice(3).replace(/\*\*|\*/g, "");
       return { id: slugify(text), text };
@@ -600,6 +616,28 @@ function renderBody(body: string, anchors: Record<string, string> = {}): ReactNo
   if (tableRows.length) flushTable();
   flushQuote();
   flush();
+
+  // "## Key takeaways" renders as a styled summary block: wrap its content
+  // (up to the next H2) so CSS can apply the kicker and ghost numbering.
+  const tkIdx = out.findIndex(
+    (n) =>
+      isValidElement(n) &&
+      n.type === "h2" &&
+      (n.props as { id?: string }).id === "key-takeaways",
+  );
+  if (tkIdx >= 0) {
+    let end = out.findIndex(
+      (n, i) => i > tkIdx && isValidElement(n) && n.type === "h2",
+    );
+    if (end < 0) end = out.length;
+    out.splice(
+      tkIdx,
+      end - tkIdx,
+      <div className="article-takeaways" key={`tk${tkIdx}`}>
+        {out.slice(tkIdx, end)}
+      </div>,
+    );
+  }
   return out;
 }
 
@@ -623,6 +661,7 @@ export default function Article() {
 
   const fontClass = article.fontFamily === "Arial" ? " article-font-arial" : "";
   const toc = tocEntries(article.body);
+  const aiPrompt = askAiPrompt(article.title, article.slug);
 
   return (
     <>
@@ -676,6 +715,43 @@ export default function Article() {
               </ul>
             </div>
           )}
+          <div className="article-askai">
+            <p className="article-askai-title">Ask AI about this article</p>
+            <p className="article-askai-sub">
+              Get a summary or answers from your favorite assistant.
+            </p>
+            <div className="article-askai-links">
+              <a
+                href={`https://chatgpt.com/?q=${encodeURIComponent(aiPrompt)}`}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                ChatGPT
+              </a>
+              <a
+                href={`https://claude.ai/new?q=${encodeURIComponent(aiPrompt)}`}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                Claude
+              </a>
+              <a
+                href={ASK_AI_GEMINI}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                Gemini
+              </a>
+              <button
+                type="button"
+                onClick={() => {
+                  void navigator.clipboard?.writeText(aiPrompt);
+                }}
+              >
+                Copy prompt
+              </button>
+            </div>
+          </div>
           <p className="article-back">
             <Link to="/news/" className="text-link">Back to News &amp; Insights <span className="text-link-arrow">→</span></Link>
           </p>

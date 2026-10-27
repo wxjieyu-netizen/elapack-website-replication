@@ -124,6 +124,57 @@ const esc = (s: string) =>
 const ld = (obj: unknown) => JSON.stringify(obj).replace(/</g, "\\u003c");
 
 /**
+ * Pull Q&A pairs out of an article body's FAQ section. FAQ sections are the
+ * "Frequently asked questions" and "Questions buyers ask…" H2s; questions
+ * appear either as `**question** answer` paragraphs or as `### question`
+ * headings followed by answer paragraphs — both shapes occur under either
+ * heading. Sections with no parseable pair emit nothing.
+ */
+function articleFaqs(body: string): [string, string][] {
+  const out: [string, string][] = [];
+  let inFaq = false;
+  let q = "";
+  let ans: string[] = [];
+  const flush = () => {
+    if (q && ans.length) out.push([q, ans.join(" ")]);
+    q = "";
+    ans = [];
+  };
+  const plain = (s: string) =>
+    s.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").replace(/\*\*/g, "");
+  for (const raw of body.split("\n")) {
+    const line = raw.trim();
+    if (line.startsWith("## ")) {
+      flush();
+      const h = line.slice(3).trim();
+      inFaq =
+        h === "Frequently asked questions" || h.startsWith("Questions buyers ask");
+      continue;
+    }
+    if (!inFaq || line === "" || line.startsWith("!") || line.startsWith("|")) continue;
+    const bold = line.match(/^\*\*(.+?)\*\*\s+(.+)$/);
+    if (bold) {
+      flush();
+      q = plain(bold[1]);
+      ans = [plain(bold[2])];
+      continue;
+    }
+    if (line.startsWith("### ")) {
+      flush();
+      // Only question-shaped H3s count — sections can close with a CTA
+      // block whose `###` heading (e.g. "Stop guessing card fits…") is not
+      // a question.
+      const text = plain(line.slice(4));
+      q = text.endsWith("?") ? text : "";
+      continue;
+    }
+    ans.push(plain(line));
+  }
+  flush();
+  return out;
+}
+
+/**
  * Social sharing can use the site hero when a SKU has only an SVG placeholder.
  * Product.image below must describe the actual product, so it stays absent.
  */
@@ -245,6 +296,18 @@ for (const route of ROUTES) {
         },
         mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
       });
+      const faqs = articleFaqs(article.body);
+      if (faqs.length) {
+        graph.push({
+          "@type": "FAQPage",
+          "@id": `${canonical}#faq`,
+          mainEntity: faqs.map(([q, a]) => ({
+            "@type": "Question",
+            name: q,
+            acceptedAnswer: { "@type": "Answer", text: a },
+          })),
+        });
+      }
     }
     if (article?.slug === "top-china-jewelry-packaging-suppliers") {
       const list = [

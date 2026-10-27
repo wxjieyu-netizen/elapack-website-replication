@@ -111,6 +111,51 @@ export default function About() {
         </div>
       </section>
 
+      {/* Founder Intro */}
+      <section className="section about-founder">
+        <div className="container">
+          <div className="about-founder-text reveal">
+            <p className="eyebrow">About Tina</p>
+            <h2 className="section-title" style={{ marginTop: "1rem" }}>
+              Strategic, data-driven packaging solutions.
+            </h2>
+            <p className="about-text">
+              Over the last decade, I've specialized in the B2B market for
+              smart packaging solutions, helping companies scale their
+              operations and optimize their product presentation.
+            </p>
+            <p className="about-text">
+              In that time, I've worked with 500+ clients, including top
+              e-commerce platforms and consumer electronics brands, delivering
+              customized packaging solutions that protect products, enhance
+              brand value, and drive measurable results.
+            </p>
+            <p className="about-text">Here's what that has looked like in practice:</p>
+            <ul className="about-founder-stats">
+              <li>150% annual sales growth in a highly competitive market</li>
+              <li>20% reduction in logistics losses for clients</li>
+              <li>30% increase in product conversion rates through professional packaging design</li>
+              <li>95%+ customer satisfaction with long-term partnerships</li>
+            </ul>
+            <p className="about-text">
+              I do more than sell packaging — I provide strategic, data-driven
+              solutions that combine design, technology, and market insights,
+              helping brands succeed in the market.
+            </p>
+            <p className="about-text">
+              My mission is simple: to be the go-to expert for brands seeking
+              innovative, smart, and sustainable packaging solutions that
+              truly make a difference for their business.
+            </p>
+            <p className="about-text">
+              If you're looking to reduce losses, enhance your product display,
+              and maximize ROI, we should connect. I regularly share insights
+              on packaging trends, smart design, and market opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Factory Video Section */}
       <section className="section about-video-section">
         <div className="container">

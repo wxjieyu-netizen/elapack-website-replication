@@ -5587,6 +5587,22 @@ function About() {
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Share your product dimensions, material preferences, branding, and quantity so we can review the structure, sample, and production requirements with you." })
       ] })
     ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-founder", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "about-founder-text reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "About Tina" }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "Strategic, data-driven packaging solutions." }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Over the last decade, I've specialized in the B2B market for smart packaging solutions, helping companies scale their operations and optimize their product presentation." }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "In that time, I've worked with 500+ clients, including top e-commerce platforms and consumer electronics brands, delivering customized packaging solutions that protect products, enhance brand value, and drive measurable results." }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Here's what that has looked like in practice:" }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("ul", { className: "about-founder-stats", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("li", { children: "150% annual sales growth in a highly competitive market" }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("li", { children: "20% reduction in logistics losses for clients" }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("li", { children: "30% increase in product conversion rates through professional packaging design" }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("li", { children: "95%+ customer satisfaction with long-term partnerships" })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "I do more than sell packaging \u2014 I provide strategic, data-driven solutions that combine design, technology, and market insights, helping brands succeed in the market." }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "My mission is simple: to be the go-to expert for brands seeking innovative, smart, and sustainable packaging solutions that truly make a difference for their business." }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "If you're looking to reduce losses, enhance your product display, and maximize ROI, we should connect. I regularly share insights on packaging trends, smart design, and market opportunities." })
+    ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-video-section", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
       "div",
       {
@@ -5740,6 +5756,7 @@ function News() {
 
 // src/pages/Article.tsx
 var import_react_router_dom13 = require("react-router-dom");
+var import_react11 = require("react");
 var import_jsx_runtime12 = require("react/jsx-runtime");
 var RELATED = {
   "magnetic-gift-boxes-wholesale-guide": [
@@ -6141,6 +6158,10 @@ var ANCHORS = {
     "magnetic flip-top": "magnetic-closure-gift-box"
   }
 };
+var askAiPrompt = (title, slug) => `Summarize the key takeaways from this article "${title}": https://elapack.com/news/${slug}/`;
+var ASK_AI_GEMINI = "https://gemini.google.com/app?q=" + encodeURIComponent(
+  "What is ELAPACK (elapack.com)? Summarize what they do, who they serve, and cite your sources."
+);
 function relatedProducts(slug) {
   if (!slug) return [];
   return (RELATED[slug] ?? []).map((s) => getProductBySlug(s)).filter((p) => p !== void 0);
@@ -6180,7 +6201,7 @@ function inline(text, keyPrefix, ctx) {
 }
 var slugify = (text) => text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 function tocEntries(body) {
-  return body.split("\n").filter((l) => l.startsWith("## ")).map((l) => {
+  return body.split("\n").filter((l) => l.startsWith("## ") && l.slice(3).trim() !== "Key takeaways").map((l) => {
     const text = l.slice(3).replace(/\*\*|\*/g, "");
     return { id: slugify(text), text };
   });
@@ -6277,6 +6298,20 @@ function renderBody(body, anchors = {}) {
   if (tableRows.length) flushTable();
   flushQuote();
   flush();
+  const tkIdx = out.findIndex(
+    (n) => (0, import_react11.isValidElement)(n) && n.type === "h2" && n.props.id === "key-takeaways"
+  );
+  if (tkIdx >= 0) {
+    let end = out.findIndex(
+      (n, i) => i > tkIdx && (0, import_react11.isValidElement)(n) && n.type === "h2"
+    );
+    if (end < 0) end = out.length;
+    out.splice(
+      tkIdx,
+      end - tkIdx,
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-takeaways", children: out.slice(tkIdx, end) }, `tk${tkIdx}`)
+    );
+  }
   return out;
 }
 function Article() {
@@ -6294,6 +6329,7 @@ function Article() {
   }
   const fontClass = article.fontFamily === "Arial" ? " article-font-arial" : "";
   const toc = tocEntries(article.body);
+  const aiPrompt = askAiPrompt(article.title, article.slug);
   return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_jsx_runtime12.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: `page-header${fontClass}`, children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "eyebrow reveal", children: article.category }),
@@ -6328,6 +6364,49 @@ function Article() {
           /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
         ] }) }, p.slug)) })
       ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-askai", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-askai-title", children: "Ask AI about this article" }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-askai-sub", children: "Get a summary or answers from your favorite assistant." }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-askai-links", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+            "a",
+            {
+              href: `https://chatgpt.com/?q=${encodeURIComponent(aiPrompt)}`,
+              target: "_blank",
+              rel: "nofollow noopener noreferrer",
+              children: "ChatGPT"
+            }
+          ),
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+            "a",
+            {
+              href: `https://claude.ai/new?q=${encodeURIComponent(aiPrompt)}`,
+              target: "_blank",
+              rel: "nofollow noopener noreferrer",
+              children: "Claude"
+            }
+          ),
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+            "a",
+            {
+              href: ASK_AI_GEMINI,
+              target: "_blank",
+              rel: "nofollow noopener noreferrer",
+              children: "Gemini"
+            }
+          ),
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+            "button",
+            {
+              type: "button",
+              onClick: () => {
+                void navigator.clipboard?.writeText(aiPrompt);
+              },
+              children: "Copy prompt"
+            }
+          )
+        ] })
+      ] }),
       /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-back", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: "/news/", className: "text-link", children: [
         "Back to News & Insights ",
         /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
@@ -6337,7 +6416,7 @@ function Article() {
 }
 
 // src/pages/Contact.tsx
-var import_react11 = require("react");
+var import_react12 = require("react");
 var import_react_router_dom14 = require("react-router-dom");
 var import_jsx_runtime13 = require("react/jsx-runtime");
 var WEB3FORMS_KEY = "7532f731-6678-43dd-9553-7c18090e71d5";
@@ -6385,10 +6464,10 @@ var projectTypes = [
 function Contact() {
   const [searchParams] = (0, import_react_router_dom14.useSearchParams)();
   const selectedProduct = getProductBySlug(searchParams.get("product") ?? "");
-  const [submitted, setSubmitted] = (0, import_react11.useState)(false);
-  const [sending, setSending] = (0, import_react11.useState)(false);
-  const [failed, setFailed] = (0, import_react11.useState)(false);
-  const [selectedType, setSelectedType] = (0, import_react11.useState)("");
+  const [submitted, setSubmitted] = (0, import_react12.useState)(false);
+  const [sending, setSending] = (0, import_react12.useState)(false);
+  const [failed, setFailed] = (0, import_react12.useState)(false);
+  const [selectedType, setSelectedType] = (0, import_react12.useState)("");
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSending(true);
@@ -6639,7 +6718,7 @@ function Contact() {
 }
 
 // src/pages/Video.tsx
-var import_react12 = require("react");
+var import_react13 = require("react");
 var import_react_router_dom15 = require("react-router-dom");
 var import_jsx_runtime14 = require("react/jsx-runtime");
 var processSteps2 = [
@@ -6729,7 +6808,7 @@ var faqs = [
   }
 ];
 function Video() {
-  const [openFaq, setOpenFaq] = (0, import_react12.useState)(0);
+  const [openFaq, setOpenFaq] = (0, import_react13.useState)(0);
   return /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(import_jsx_runtime14.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "page-header custom-solution-header", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow reveal", children: "Custom Solutions" }),
@@ -6882,7 +6961,7 @@ function Video() {
 }
 
 // src/pages/Landing.tsx
-var import_react13 = require("react");
+var import_react14 = require("react");
 var import_react_router_dom16 = require("react-router-dom");
 
 // src/data/landings.ts
@@ -7099,7 +7178,7 @@ var relatedProductSlugs = {
 };
 function Landing({ slug }) {
   const landing = getLandingBySlug(slug);
-  (0, import_react13.useEffect)(() => {
+  (0, import_react14.useEffect)(() => {
     if (landing) document.title = `${landing.eyebrow} | ELAPACK`;
   }, [landing]);
   if (!landing) return null;
@@ -7202,7 +7281,7 @@ function Landing({ slug }) {
 }
 
 // src/pages/Collection.tsx
-var import_react14 = require("react");
+var import_react15 = require("react");
 var import_react_router_dom17 = require("react-router-dom");
 
 // src/data/collections.ts
@@ -8030,7 +8109,7 @@ function getCollectionBySlug(slug) {
 var import_jsx_runtime16 = require("react/jsx-runtime");
 function Collection({ slug }) {
   const collection = getCollectionBySlug(slug);
-  (0, import_react14.useEffect)(() => {
+  (0, import_react15.useEffect)(() => {
     if (collection) document.title = `${collection.eyebrow} | ELAPACK`;
   }, [collection]);
   if (!collection) return null;
@@ -8244,6 +8323,44 @@ var STATIC_DESCRIPTIONS = {
 var SITE = "https://elapack.com";
 var esc = (s) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 var ld = (obj) => JSON.stringify(obj).replace(/</g, "\\u003c");
+function articleFaqs(body) {
+  const out = [];
+  let inFaq = false;
+  let q = "";
+  let ans = [];
+  const flush = () => {
+    if (q && ans.length) out.push([q, ans.join(" ")]);
+    q = "";
+    ans = [];
+  };
+  const plain = (s) => s.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").replace(/\*\*/g, "");
+  for (const raw of body.split("\n")) {
+    const line = raw.trim();
+    if (line.startsWith("## ")) {
+      flush();
+      const h = line.slice(3).trim();
+      inFaq = h === "Frequently asked questions" || h.startsWith("Questions buyers ask");
+      continue;
+    }
+    if (!inFaq || line === "" || line.startsWith("!") || line.startsWith("|")) continue;
+    const bold = line.match(/^\*\*(.+?)\*\*\s+(.+)$/);
+    if (bold) {
+      flush();
+      q = plain(bold[1]);
+      ans = [plain(bold[2])];
+      continue;
+    }
+    if (line.startsWith("### ")) {
+      flush();
+      const text = plain(line.slice(4));
+      q = text.endsWith("?") ? text : "";
+      continue;
+    }
+    ans.push(plain(line));
+  }
+  flush();
+  return out;
+}
 var pageImage = (image) => image.endsWith(".svg") ? `${SITE}/hero-packaging.webp` : `${SITE}${image}`;
 var ok = 0;
 for (const route of ROUTES) {
@@ -8334,6 +8451,18 @@ for (const route of ROUTES) {
         },
         mainEntityOfPage: { "@type": "WebPage", "@id": canonical }
       });
+      const faqs2 = articleFaqs(article.body);
+      if (faqs2.length) {
+        graph.push({
+          "@type": "FAQPage",
+          "@id": `${canonical}#faq`,
+          mainEntity: faqs2.map(([q, a]) => ({
+            "@type": "Question",
+            name: q,
+            acceptedAnswer: { "@type": "Answer", text: a }
+          }))
+        });
+      }
     }
     if (article?.slug === "top-china-jewelry-packaging-suppliers") {
       const list = [

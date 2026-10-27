@@ -3982,3 +3982,93 @@ a.contact-value:hover {
   letter-spacing: 0.01em;
 }
 .article-cta-btn { display: inline-block; }
+
+/* Key takeaways block ("## Key takeaways" in article body) — citable summary
+   with ghost numbering, modelled on answer-engine-optimized competitor pages */
+.article-takeaways {
+  margin: 0 0 1.8rem;
+  padding: 1.2rem 0 0.4rem;
+  border-top: 1px solid rgba(24, 18, 12, 0.16);
+  border-bottom: 1px solid rgba(24, 18, 12, 0.16);
+}
+.article-takeaways > h2 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a6b32;
+  margin: 0 0 0.9rem;
+}
+.article-takeaways ol {
+  list-style: none;
+  counter-reset: tk;
+  padding-left: 0;
+  margin: 0 0 1.1rem;
+}
+.article-takeaways ol li {
+  counter-increment: tk;
+  position: relative;
+  padding-left: 3.2rem;
+  margin-bottom: 0.7rem;
+}
+.article-takeaways ol li::before {
+  content: "0" counter(tk);
+  position: absolute;
+  left: 0;
+  top: 0.05rem;
+  font-size: 1.45rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+  color: rgba(176, 141, 70, 0.45);
+}
+
+/* Ask-AI shortcuts under the article (ChatGPT / Claude / Gemini / copy) */
+.article-askai {
+  margin-top: 2.25rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(24, 18, 12, 0.12);
+}
+.article-askai-title { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.2rem; }
+.article-askai-sub { font-size: 0.85rem; color: #6b6258; margin: 0 0 0.8rem; }
+.article-askai-links { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+.article-askai-links a,
+.article-askai-links button {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(24, 18, 12, 0.22);
+  border-radius: 999px;
+  padding: 0.35rem 0.95rem;
+  font-size: 0.85rem;
+  font-family: inherit;
+  background: transparent;
+  color: #3a332b;
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.article-askai-links a:hover,
+.article-askai-links button:hover {
+  border-color: rgba(176, 141, 70, 0.85);
+  color: #8a6b32;
+}
+
+/* Founder intro on About */
+.about-founder-text { max-width: 760px; }
+.about-founder-stats {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1.3rem;
+}
+.about-founder-stats li {
+  position: relative;
+  padding-left: 1.7rem;
+  margin-bottom: 0.45rem;
+  line-height: 1.65;
+}
+.about-founder-stats li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: rgba(176, 141, 70, 0.9);
+}
