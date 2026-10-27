@@ -220,6 +220,11 @@ export default function Contact() {
                       Product: <strong>{selectedProduct.name}</strong>
                     </p>
                   )}
+                  {selectedProduct?.slug === "custom-ring-boxes" && (
+                    <p className="contact-form-intro">
+                      For ring boxes, include the band width, setting height, rings per box, preferred finish and logo artwork in Project Details.
+                    </p>
+                  )}
 
                   {/* Honeypot: humans never see it, bots fill it and get dropped. */}
                   <input

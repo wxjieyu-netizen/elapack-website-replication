@@ -29,7 +29,7 @@ export default function ProductDetail() {
   const originalProduct = slug ? getProductBySlug(slug) : undefined;
   const review = slug ? productContentUpdates[slug] : undefined;
   const isSampleCard = slug === "custom-perfume-sample-card-boxes";
-  const needsSpecReview = ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(slug ?? "");
+  const needsSpecReview = ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-ring-boxes", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(slug ?? "");
   const product: Product | undefined = originalProduct && review ? { ...originalProduct, shortDesc: review.intro, description: review.body.map((b: string[]) => b[1]).join("\n\n"), materials: "Confirm in quotation and approved sample", leadTime: "15–20 days after sample approval and payment receipt", features: review.checks.map((b: string[]) => ({title:b[0],desc:b[1]})), specs: review.policies.map((b: string[]) => ({label:b[0],value:b[1]})), customizationOptions: [review.options] } : originalProduct;
   useEffect(() => { if (review) { document.title = review.title; document.querySelector('meta[name="description"]')?.setAttribute('content', review.meta); } }, [review]);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
@@ -407,6 +407,11 @@ export default function ProductDetail() {
                 <span className="text-link-arrow">→</span>
               </Link>
             </div>
+            {slug === "custom-ring-boxes" && (
+              <p className="product-description-text">
+                Comparing ring boxes with other jewelry box formats? <Link to="/custom-jewelry-boxes/">Review custom jewelry boxes and inserts</Link> before finalizing the collection brief.
+              </p>
+            )}
             <div className="related-grid">
               {related.map((item, i) => (
                 <Link

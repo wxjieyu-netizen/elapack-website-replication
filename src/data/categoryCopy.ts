@@ -129,7 +129,14 @@ export const categoryCopy: Record<string, CategoryCopy> = {
   "Retail Display Props": displayCopy,
 };
 
-export function faqsFor(product: { name: string; category: string; materials: string }): { q: string; a: string }[] {
+export function faqsFor(product: { slug?: string; name: string; category: string; materials: string }): { q: string; a: string }[] {
+  if (product.slug === "custom-ring-boxes") return [
+    { q: "What should I send for a custom ring box quote?", a: "Send the ring's band width and setting height, rings per box, preferred appearance, logo artwork, quantity and delivery destination. We will confirm the proposed box and insert specification in the quotation." },
+    { q: "How do I check the ring insert before bulk production?", a: "Review the proposed slot layout and use your actual ring to check retention, appearance and removal in an approved physical sample. A visual effect preview does not replace this fit check." },
+    { q: "What is the minimum order?", a: "The minimum is 200 pieces. Confirm how sizes, colours and artwork are allocated in the quotation; the minimum does not imply that every variant can be split freely." },
+    { q: "Are samples and visual previews available?", a: "A visual preview of the proposed box structure is free. Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make; delivery time is separate." },
+    { q: "When does production begin?", a: "Typical production takes 15–20 days after sample approval and payment receipt. Shipping time and the final schedule are confirmed for the order." },
+  ];
   return [
     product.materials.includes("to confirm") ? {
       q: `How are materials confirmed for ${product.name}?`,

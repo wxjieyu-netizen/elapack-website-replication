@@ -144,7 +144,7 @@ for (const route of ROUTES) {
       ? PRODUCTS.find((p) => p.slug === productMatch[1])
       : undefined;
     const review = product ? productContentUpdates[product.slug] : undefined;
-    const specReview = product && ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(product.slug);
+    const specReview = product && ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-ring-boxes", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(product.slug);
     const articleMatch = route.match(/^\/news\/([a-z0-9-]+)$/);
     const article = articleMatch
       ? ARTICLES.find((a) => a.slug === articleMatch[1])
