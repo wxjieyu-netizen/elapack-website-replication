@@ -669,87 +669,51 @@ export const products: Product[] = [
     slug: "velvet-necklace-display",
     name: "Velvet Necklace Display Stand",
     category: "Retail Display Props",
-    shortDesc:
-      "Velvet-covered retail display stand that presents necklaces securely in showcases.",
-    description:
-      "A velvet-covered necklace display stand for retail showcases. The plush surface holds chains and pendants in place without slipping, while the weighted base keeps the stand stable through high-traffic retail hours. Velvet colors are matched to your interior palette against an approved sample before bulk. Heights can be varied for different chain lengths, so one stand format can serve pendant, choker and lariat assortments. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles fabric shade and proportion before the production order. Pairs with the velvet jewelry display set and stackable trays to build a coordinated counter program.",
+    shortDesc: "Necklace display stands for wholesale retail projects. Discuss height, presentation and branding for your assortment.",
+    description: "Planning wholesale necklace displays? Share the chain lengths, pendant dimensions, available counter space, preferred presentation and quantity. Confirm the proposed height, base footprint, covering and logo options in your quotation, then review the sample with your jewellery.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Velvet, wooden base",
+    materials: "Materials to confirm in the quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fashion"],
     features: [
-      {
-        title: "Velvet Presentation Surface",
-        desc: "Plush velvet holds necklaces in place without slipping.",
-      },
-      {
-        title: "Sturdy Weighted Base",
-        desc: "Wooden base keeps the stand stable in high-traffic retail.",
-      },
-      {
-        title: "Color Matching",
-        desc: "Velvet colors aligned to your retail interior palette.",
-      },
-      {
-        title: "Base Branding",
-        desc: "Foil or deboss your logo on the wooden base edge.",
-      },
+      { title: "Necklace Fit", desc: "Share chain length and pendant dimensions, then check their presentation on the proposed stand." },
+      { title: "Display Space", desc: "Measure the available counter or showcase height and footprint before selecting a stand." },
+      { title: "Covering and Base", desc: "Review the proposed covering and base footprint in the quotation and on a sample." },
+      { title: "Logo Placement", desc: "Send artwork and your preferred placement; confirm the proposed method before production." }
     ],
     specs: [
-      { label: "Dimensions (L × W × H)", value: '12" × 4" × 10"' },
-      { label: "Surface Finish", value: "Velvet covering" },
-      { label: "Color Review", value: "Confirm against approved sample before bulk" },
-      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
+      { label: "Necklace Fit", value: "Confirm for the proposed order" },
+      { label: "Display Space", value: "Confirm for the proposed order" },
+      { label: "Covering and Base", value: "Confirm for the proposed order" },
+      { label: "Logo Placement", value: "Confirm for the proposed order" }
     ],
-    customizationOptions: [
-      "Velvet color matching",
-      "Logo on wooden base",
-      "Custom heights for different chain lengths",
-    ],
+    customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"],
   },
   {
     slug: "acrylic-earring-display",
     name: "Acrylic Earring Display Stand",
     category: "Retail Display Props",
-    shortDesc:
-      "Crystal-clear acrylic earring display with multi-tier slots and weighted base.",
-    description:
-      "A crystal-clear acrylic earring display with tiered slots and a weighted base, designed so the jewelry - not the stand - carries the visual. Optical-grade clarity suits contemporary retail settings; the multi-tier layout puts multiple pairs at eye level while the weighted base resists tipping in busy display environments. Slot count, tier count and height are engineered around your assortment, from stud-and-drop pairs to statement earrings, and bases take direct logo printing or frosted and colored acrylic variants for brand-matched counters. Production runs from 200 pieces in 15-20 days. Approve proportions with a custom sample first (USD 25 plus USD 20 shipping, 3-5 days), and specify slot layouts on the drawing so the finished stand fits your exact earring range without rework.",
+    shortDesc: "Earring display stands for retail projects. Discuss the layout and material for your assortment.",
+    description: "For an earring display quote, list the earring styles, the number of pairs to present and any preferred layout. Check hole or slot placement, spacing, stand dimensions and the chosen material with a sample before approving production.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Acrylic / PVC",
+    materials: "Materials to confirm in the quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Beauty"],
     features: [
-      {
-        title: "Crystal Clear Acrylic",
-        desc: "Optical-grade clarity that keeps all attention on the jewelry.",
-      },
-      {
-        title: "Multi-Tier Slots",
-        desc: "Tiered layout displays multiple earring pairs at eye level.",
-      },
-      {
-        title: "Weighted Stability",
-        desc: "Weighted base prevents tipping in busy retail environments.",
-      },
-      {
-        title: "Custom Sizing",
-        desc: "Height and slot count tailored to your assortment.",
-      },
+      { title: "Earring Assortment", desc: "List the styles and number of pairs to be displayed, including dimensions of longer pieces." },
+      { title: "Hole or Slot Layout", desc: "Review spacing and placement with representative earrings so pairs can be displayed and removed." },
+      { title: "Stand and Material", desc: "Confirm the footprint, height and proposed material for the available display space." },
+      { title: "Artwork and Quantity", desc: "Provide branding artwork and order quantity; confirm the proposed application method." }
     ],
     specs: [
-      { label: "Dimensions (L × W × H)", value: '8" × 3" × 8"' },
-      { label: "Surface Finish", value: "Transparent glossy" },
-      { label: "MOQ / Lead Time", value: "200 pcs, 15-20 days" },
-      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
+      { label: "Earring Assortment", value: "Confirm for the proposed order" },
+      { label: "Hole or Slot Layout", value: "Confirm for the proposed order" },
+      { label: "Stand and Material", value: "Confirm for the proposed order" },
+      { label: "Artwork and Quantity", value: "Confirm for the proposed order" }
     ],
-    customizationOptions: [
-      "Custom tiers and slot layouts",
-      "Frosted or colored acrylic options",
-      "Base logo printing",
-    ],
+    customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"],
   },
   {
     slug: "kraft-paper-shopping-bag",
@@ -798,88 +762,51 @@ export const products: Product[] = [
     slug: "stackable-jewelry-tray",
     name: "Stackable Jewelry Tray",
     category: "Retail Display Props",
-    shortDesc:
-      "Stackable velvet-lined jewelry tray system with customizable compartments.",
-    description:
-      "A stackable velvet-lined jewelry tray system for organized showcase display and drawer storage. Velvet-lined compartments protect pieces while the vertical stacking format lets one SKU build a full display wall - trays lock in stack so the tower stays stable and presentable through retail hours. The MDF core stays flat and strong under stacked loads, and compartment counts and sizes are laid out around your assortment, from rings and earrings to chains and watches. Velvet colors match your counter palette against an approved sample before bulk. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) confirms lining shade and compartment fit with your actual pieces before the production order. Combine with the velvet display set for a coordinated showcase program.",
+    shortDesc: "Jewelry display trays for wholesale projects. Confirm the compartment layout, fixture fit and stacking interface.",
+    description: "For wholesale jewellery display trays, measure the inside of the showcase or drawer and list the jewellery dimensions and desired layout. Confirm external tray size, usable compartments, covering and any stacking interface on the proposed sample.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "MDF, velvet lining",
+    materials: "Materials to confirm in the quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fashion"],
     features: [
-      {
-        title: "Velvet-Lined Compartments",
-        desc: "Soft velvet bays protect pieces while keeping them organized.",
-      },
-      {
-        title: "Stackable System",
-        desc: "Trays lock vertically to build full showcases from one SKU.",
-      },
-      {
-        title: "Sturdy MDF Core",
-        desc: "MDF construction stays flat and strong under stacked loads.",
-      },
-      {
-        title: "Custom Layouts",
-        desc: "Compartment counts and sizes designed around your assortment.",
-      },
+      { title: "Fixture Fit", desc: "Measure the showcase or drawer interior and allow space to lift and remove the tray." },
+      { title: "Compartment Layout", desc: "Provide jewellery dimensions and a preferred arrangement; check access with the loaded sample." },
+      { title: "Contact Surface", desc: "Identify the proposed covering and check contact with the intended jewellery finish." },
+      { title: "Stacking Interface", desc: "Review the proposed tray edges and base together; matching footprints alone do not prove a secure stack." }
     ],
     specs: [
-      { label: "Dimensions (L × W × H)", value: '14" × 8" × 1-1/2"' },
-      { label: "Surface Finish", value: "Velvet covering" },
-      { label: "Color Review", value: "Confirm against approved sample before bulk" },
-      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" },
+      { label: "Fixture Fit", value: "Confirm for the proposed order" },
+      { label: "Compartment Layout", value: "Confirm for the proposed order" },
+      { label: "Contact Surface", value: "Confirm for the proposed order" },
+      { label: "Stacking Interface", value: "Confirm for the proposed order" }
     ],
-    customizationOptions: [
-      "Custom compartment layouts",
-      "Velvet color matching",
-      "Edge banding and branding",
-    ],
+    customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"],
   },
   {
     slug: "velvet-jewelry-display-set",
     name: "Velvet Jewelry Display Set",
     category: "Retail Display Props",
-    shortDesc:
-      "Matched velvet display set — necklace busts, T-bar stand, ring cones, earring stands and cushions in one coordinated program.",
-    description:
-      "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions — all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language. Set composition is built around your assortment — counts and heights are specified per piece, not fixed — and the velvet shade is matched to your counter palette against an approved sample before bulk. Orders start at 200 pieces per set. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3–5 days) confirms shade and proportion with your actual jewelry before the production order. Stacks with the tray system for a full showcase build-out.",
+    shortDesc: "Coordinated jewelry display components for retail counters. Specify the piece mix and quantity for each component.",
+    description: "For a coordinated jewellery display programme, list each component, its quantity and the available counter space. Confirm the proposed piece mix, covering and colours in the quotation. ELAPACK’s minimum is 200 pieces for each component; confirm allocation across variants when requesting a quote.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Velvet over structured core",
-    moq: "200 pcs",
+    materials: "Materials to confirm in the quotation and sample",
+    moq: "200 pcs per component",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
-    industries: ["Jewelry", "Gift", "Fashion"],
+    industries: ["Jewelry", "Gift"],
     features: [
-      {
-        title: "One Matched Program",
-        desc: "Busts, stands, cones and cushions share the same velvet and core, so nothing looks pieced together.",
-      },
-      {
-        title: "Modular Counter Layout",
-        desc: "Mix heights and piece types to fit any counter — from a single bust to a full runway of displays.",
-      },
-      {
-        title: "Structured, Not Floppy",
-        desc: "Rigid cores keep busts and stands standing straight through daily retail handling.",
-      },
-      {
-        title: "Brand-Color Velvet",
-        desc: "Velvet dyed to your brand palette, with optional label or embroidery placement.",
-      },
+      { title: "Component List", desc: "List the desired display pieces and quantity of each component for a comparable quote." },
+      { title: "Counter Arrangement", desc: "Share the available space and jewellery assortment so the proposed arrangement can be reviewed." },
+      { title: "Covering and Colour", desc: "Provide colour references and confirm the proposed covering against the approved sample." },
+      { title: "Artwork and Samples", desc: "Identify branding placement and confirm which components are included in the sample." }
     ],
     specs: [
-      { label: "Pieces", value: "Necklace busts (2 heights), T-bar stand, ring cones, earring stands, cushions" },
-      { label: "Covering", value: "Velvet in custom colors" },
-      { label: "Core", value: "Structured board for shape retention" },
-      { label: "MOQ", value: "200 pcs" },
+      { label: "Component List", value: "Confirm for the proposed order" },
+      { label: "Counter Arrangement", value: "Confirm for the proposed order" },
+      { label: "Covering and Colour", value: "Confirm for the proposed order" },
+      { label: "Artwork and Samples", value: "Confirm for the proposed order" }
     ],
-    customizationOptions: [
-      "Custom velvet colors across every piece",
-      "Piece mix tailored to your assortment",
-      "Logo label or embroidery on busts and cushions",
-      "Bundle with pouches or boxes as a full set",
-    ],
+    customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"],
   },
   {
     slug: "leather-envelope-pouch",

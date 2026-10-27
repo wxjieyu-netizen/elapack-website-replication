@@ -130,6 +130,19 @@ export const categoryCopy: Record<string, CategoryCopy> = {
 };
 
 export function faqsFor(product: { slug?: string; name: string; category: string; materials: string }): { q: string; a: string }[] {
+  const displayQuestions: Record<string, { q: string; a: string }> = {
+    "velvet-necklace-display": { q: "What should I provide for a necklace display quote?", a: "Share chain lengths, pendant dimensions, available space, desired presentation, artwork and quantity. Confirm proposed dimensions and covering in the quotation and sample." },
+    "acrylic-earring-display": { q: "How should I specify an earring display?", a: "List earring styles, number of pairs, desired layout and available display space. Review the proposed hole or slot positions and material with representative earrings." },
+    "stackable-jewelry-tray": { q: "How do I check whether a tray fits my showcase?", a: "Measure the fixture interior and lifting clearance, then check the proposed tray dimensions and layout. If stacking is required, review the actual edges and base together on a sample." },
+    "velvet-jewelry-display-set": { q: "How is the minimum order calculated for a display set?", a: "The minimum is 200 pieces for each component. List the required display components and quantities, and confirm any allocation across variants in the quotation." },
+  };
+  if (product.slug && displayQuestions[product.slug]) return [
+    displayQuestions[product.slug],
+    { q: "How are materials and dimensions confirmed?", a: "Share the display task, space and preferences. Confirm construction, dimensions and contact surface in the quotation and sample." },
+    { q: "Can I review the proposed design?", a: "Ask which design preview is available for your project and confirm its scope. Review the physical sample before approving production." },
+    { q: "Can I request a sample?", a: "Stock samples are free when available, with USD 25 shipping and typical delivery of 4–7 days. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm availability and sample scope for your project." },
+    { q: "What is the production lead time?", a: "Production typically takes 15–20 days after sample approval and payment receipt. Confirm the order schedule; shipping time is separate." },
+  ];
   if (product.slug === "custom-ring-boxes") return [
     { q: "What should I send for a custom ring box quote?", a: "Send the ring's band width and setting height, rings per box, preferred appearance, logo artwork, quantity and delivery destination. We will confirm the proposed box and insert specification in the quotation." },
     { q: "How do I check the ring insert before bulk production?", a: "Review the proposed slot layout and use your actual ring to check retention, appearance and removal in an approved physical sample. A visual effect preview does not replace this fit check." },

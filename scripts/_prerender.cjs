@@ -143,41 +143,41 @@ var products = [
     slug: "custom-ring-boxes",
     name: "Custom Ring & Engagement Ring Boxes",
     category: "Boxes",
-    shortDesc: "Custom ring boxes for engagements, weddings and retail \u2014 single or double slots, velvet or foam cushions, your logo.",
-    description: "Custom ring boxes made for the moment the box matters most. Single and double slot layouts hold rings securely for engagements and weddings, with plush velvet or foam cushions cut to your ring profile. The matte velvet exterior photographs beautifully in proposal scenes, and your logo is foil-stamped or printed on the lid. Made to your size and colour \u2014 MOQ starts at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. A free digital dieline preview is available to review the box and cushion layout. Colour is held to Pantone references against an approved sample before bulk. Approve a custom sample first (USD 25 plus USD 20 shipping, 3\u20135 days) to check cushion fit with your actual ring before committing to the run.",
+    shortDesc: "Custom ring boxes for jewelry brands, from 200 pieces. Plan the ring fit, insert, exterior and logo together before approving a sample.",
+    description: "Custom ring boxes for jewelry brands ordering from 200 pieces. For a comparable quote, send the ring's band width, setting height, the number of rings per box, preferred appearance, logo artwork, quantity and delivery destination. Review the proposed box and insert dimensions, slot layout, closure and finish together; check retention and removal with your actual ring in an approved sample. A free visual preview of the proposed box structure is available. Custom samples cost USD 25 plus USD 20 shipping and take 3\u20135 days to make. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate. Confirm how sizes, colours and artwork are allocated in the quotation.",
     image: "/images/carousel/ring-box-black.png",
-    materials: "Velvet exterior, foam insert with velvet covering",
+    materials: "Confirm the proposed exterior and insert materials in the quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift"],
     features: [
       {
-        title: "Single or Double Ring Slots",
-        desc: "One or two precision-cut velvet slots \u2014 solo rings or proposal sets side by side."
+        title: "Measure the Ring",
+        desc: "Share the band width, setting height and ring count so the insert can be planned around the actual pieces."
       },
       {
-        title: "Engagement-Ready Profile",
-        desc: "Slim enough to slip into a jacket pocket for the big moment."
+        title: "Check the Insert",
+        desc: "Compare single- and double-ring layouts, then check retention and removal on a loaded sample."
       },
       {
-        title: "Matte Velvet Exterior",
-        desc: "Deep matte velvet that photographs beautifully in proposal scenes."
+        title: "Specify the Finish",
+        desc: "Send an exterior and lining reference; confirm the offered material, colour and closure in the quotation."
       },
       {
-        title: "Your Logo on the Lid",
-        desc: "Foil stamping, blind emboss or silkscreen \u2014 inside lid message printing available."
+        title: "Approve the Branding",
+        desc: "Send logo artwork and preferred placement; review the proposed method and appearance in the sample."
       }
     ],
     specs: [
-      { label: "Dimensions (L \xD7 W \xD7 H)", value: '1-3/4" \xD7 2" \xD7 1-1/2" (customizable)' },
-      { label: "Closure Type", value: "Magnetic closure" },
-      { label: "Surface Finish", value: "Matte velvet" }
+      { label: "Ring brief", value: "Band width, setting height and number of rings per box" },
+      { label: "Box and insert", value: "Confirm dimensions, slot layout, materials and closure in the quote and sample" },
+      { label: "Branding", value: "Provide logo artwork, placement and appearance reference" }
     ],
     customizationOptions: [
-      "Single or double ring slot layouts",
-      "Velvet color matching",
-      "Interior message printing",
-      "Foil or embossed logo on the lid"
+      "Single- or double-ring layout for quotation",
+      "Proposed exterior and insert materials",
+      "Logo method and placement for approval",
+      "Size, colour and artwork allocation confirmed per order"
     ]
   },
   {
@@ -674,83 +674,51 @@ var products = [
     slug: "velvet-necklace-display",
     name: "Velvet Necklace Display Stand",
     category: "Retail Display Props",
-    shortDesc: "Velvet-covered retail display stand that presents necklaces securely in showcases.",
-    description: "A velvet-covered necklace display stand for retail showcases. The plush surface holds chains and pendants in place without slipping, while the weighted base keeps the stand stable through high-traffic retail hours. Velvet colors are matched to your interior palette against an approved sample before bulk. Heights can be varied for different chain lengths, so one stand format can serve pendant, choker and lariat assortments. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles fabric shade and proportion before the production order. Pairs with the velvet jewelry display set and stackable trays to build a coordinated counter program.",
+    shortDesc: "Necklace display stands for wholesale retail projects. Discuss height, presentation and branding for your assortment.",
+    description: "Planning wholesale necklace displays? Share the chain lengths, pendant dimensions, available counter space, preferred presentation and quantity. Confirm the proposed height, base footprint, covering and logo options in your quotation, then review the sample with your jewellery.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Velvet, wooden base",
+    materials: "Materials to confirm in the quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fashion"],
     features: [
-      {
-        title: "Velvet Presentation Surface",
-        desc: "Plush velvet holds necklaces in place without slipping."
-      },
-      {
-        title: "Sturdy Weighted Base",
-        desc: "Wooden base keeps the stand stable in high-traffic retail."
-      },
-      {
-        title: "Color Matching",
-        desc: "Velvet colors aligned to your retail interior palette."
-      },
-      {
-        title: "Base Branding",
-        desc: "Foil or deboss your logo on the wooden base edge."
-      }
+      { title: "Necklace Fit", desc: "Share chain length and pendant dimensions, then check their presentation on the proposed stand." },
+      { title: "Display Space", desc: "Measure the available counter or showcase height and footprint before selecting a stand." },
+      { title: "Covering and Base", desc: "Review the proposed covering and base footprint in the quotation and on a sample." },
+      { title: "Logo Placement", desc: "Send artwork and your preferred placement; confirm the proposed method before production." }
     ],
     specs: [
-      { label: "Dimensions (L \xD7 W \xD7 H)", value: '12" \xD7 4" \xD7 10"' },
-      { label: "Surface Finish", value: "Velvet covering" },
-      { label: "Color Review", value: "Confirm against approved sample before bulk" },
-      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
+      { label: "Necklace Fit", value: "Confirm for the proposed order" },
+      { label: "Display Space", value: "Confirm for the proposed order" },
+      { label: "Covering and Base", value: "Confirm for the proposed order" },
+      { label: "Logo Placement", value: "Confirm for the proposed order" }
     ],
-    customizationOptions: [
-      "Velvet color matching",
-      "Logo on wooden base",
-      "Custom heights for different chain lengths"
-    ]
+    customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"]
   },
   {
     slug: "acrylic-earring-display",
     name: "Acrylic Earring Display Stand",
     category: "Retail Display Props",
-    shortDesc: "Crystal-clear acrylic earring display with multi-tier slots and weighted base.",
-    description: "A crystal-clear acrylic earring display with tiered slots and a weighted base, designed so the jewelry - not the stand - carries the visual. Optical-grade clarity suits contemporary retail settings; the multi-tier layout puts multiple pairs at eye level while the weighted base resists tipping in busy display environments. Slot count, tier count and height are engineered around your assortment, from stud-and-drop pairs to statement earrings, and bases take direct logo printing or frosted and colored acrylic variants for brand-matched counters. Production runs from 200 pieces in 15-20 days. Approve proportions with a custom sample first (USD 25 plus USD 20 shipping, 3-5 days), and specify slot layouts on the drawing so the finished stand fits your exact earring range without rework.",
+    shortDesc: "Earring display stands for retail projects. Discuss the layout and material for your assortment.",
+    description: "For an earring display quote, list the earring styles, the number of pairs to present and any preferred layout. Check hole or slot placement, spacing, stand dimensions and the chosen material with a sample before approving production.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Acrylic / PVC",
+    materials: "Materials to confirm in the quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Beauty"],
     features: [
-      {
-        title: "Crystal Clear Acrylic",
-        desc: "Optical-grade clarity that keeps all attention on the jewelry."
-      },
-      {
-        title: "Multi-Tier Slots",
-        desc: "Tiered layout displays multiple earring pairs at eye level."
-      },
-      {
-        title: "Weighted Stability",
-        desc: "Weighted base prevents tipping in busy retail environments."
-      },
-      {
-        title: "Custom Sizing",
-        desc: "Height and slot count tailored to your assortment."
-      }
+      { title: "Earring Assortment", desc: "List the styles and number of pairs to be displayed, including dimensions of longer pieces." },
+      { title: "Hole or Slot Layout", desc: "Review spacing and placement with representative earrings so pairs can be displayed and removed." },
+      { title: "Stand and Material", desc: "Confirm the footprint, height and proposed material for the available display space." },
+      { title: "Artwork and Quantity", desc: "Provide branding artwork and order quantity; confirm the proposed application method." }
     ],
     specs: [
-      { label: "Dimensions (L \xD7 W \xD7 H)", value: '8" \xD7 3" \xD7 8"' },
-      { label: "Surface Finish", value: "Transparent glossy" },
-      { label: "MOQ / Lead Time", value: "200 pcs, 15-20 days" },
-      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
+      { label: "Earring Assortment", value: "Confirm for the proposed order" },
+      { label: "Hole or Slot Layout", value: "Confirm for the proposed order" },
+      { label: "Stand and Material", value: "Confirm for the proposed order" },
+      { label: "Artwork and Quantity", value: "Confirm for the proposed order" }
     ],
-    customizationOptions: [
-      "Custom tiers and slot layouts",
-      "Frosted or colored acrylic options",
-      "Base logo printing"
-    ]
+    customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"]
   },
   {
     slug: "kraft-paper-shopping-bag",
@@ -797,84 +765,51 @@ var products = [
     slug: "stackable-jewelry-tray",
     name: "Stackable Jewelry Tray",
     category: "Retail Display Props",
-    shortDesc: "Stackable velvet-lined jewelry tray system with customizable compartments.",
-    description: "A stackable velvet-lined jewelry tray system for organized showcase display and drawer storage. Velvet-lined compartments protect pieces while the vertical stacking format lets one SKU build a full display wall - trays lock in stack so the tower stays stable and presentable through retail hours. The MDF core stays flat and strong under stacked loads, and compartment counts and sizes are laid out around your assortment, from rings and earrings to chains and watches. Velvet colors match your counter palette against an approved sample before bulk. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) confirms lining shade and compartment fit with your actual pieces before the production order. Combine with the velvet display set for a coordinated showcase program.",
+    shortDesc: "Jewelry display trays for wholesale projects. Confirm the compartment layout, fixture fit and stacking interface.",
+    description: "For wholesale jewellery display trays, measure the inside of the showcase or drawer and list the jewellery dimensions and desired layout. Confirm external tray size, usable compartments, covering and any stacking interface on the proposed sample.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "MDF, velvet lining",
+    materials: "Materials to confirm in the quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fashion"],
     features: [
-      {
-        title: "Velvet-Lined Compartments",
-        desc: "Soft velvet bays protect pieces while keeping them organized."
-      },
-      {
-        title: "Stackable System",
-        desc: "Trays lock vertically to build full showcases from one SKU."
-      },
-      {
-        title: "Sturdy MDF Core",
-        desc: "MDF construction stays flat and strong under stacked loads."
-      },
-      {
-        title: "Custom Layouts",
-        desc: "Compartment counts and sizes designed around your assortment."
-      }
+      { title: "Fixture Fit", desc: "Measure the showcase or drawer interior and allow space to lift and remove the tray." },
+      { title: "Compartment Layout", desc: "Provide jewellery dimensions and a preferred arrangement; check access with the loaded sample." },
+      { title: "Contact Surface", desc: "Identify the proposed covering and check contact with the intended jewellery finish." },
+      { title: "Stacking Interface", desc: "Review the proposed tray edges and base together; matching footprints alone do not prove a secure stack." }
     ],
     specs: [
-      { label: "Dimensions (L \xD7 W \xD7 H)", value: '14" \xD7 8" \xD7 1-1/2"' },
-      { label: "Surface Finish", value: "Velvet covering" },
-      { label: "Color Review", value: "Confirm against approved sample before bulk" },
-      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
+      { label: "Fixture Fit", value: "Confirm for the proposed order" },
+      { label: "Compartment Layout", value: "Confirm for the proposed order" },
+      { label: "Contact Surface", value: "Confirm for the proposed order" },
+      { label: "Stacking Interface", value: "Confirm for the proposed order" }
     ],
-    customizationOptions: [
-      "Custom compartment layouts",
-      "Velvet color matching",
-      "Edge banding and branding"
-    ]
+    customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"]
   },
   {
     slug: "velvet-jewelry-display-set",
     name: "Velvet Jewelry Display Set",
     category: "Retail Display Props",
-    shortDesc: "Matched velvet display set \u2014 necklace busts, T-bar stand, ring cones, earring stands and cushions in one coordinated program.",
-    description: "A complete velvet display set that turns a counter into a coherent brand moment. The program pairs necklace busts in two heights with a two-tier T-bar bracelet stand, ring cones, earring stands and plush bracelet cushions \u2014 all cut from the same velvet over structured cores, so every touchpoint matches in color and texture. Designed for jewelry retailers and brands that want display, storage and gifting to speak one visual language. Set composition is built around your assortment \u2014 counts and heights are specified per piece, not fixed \u2014 and the velvet shade is matched to your counter palette against an approved sample before bulk. Orders start at 200 pieces per set. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3\u20135 days) confirms shade and proportion with your actual jewelry before the production order. Stacks with the tray system for a full showcase build-out.",
+    shortDesc: "Coordinated jewelry display components for retail counters. Specify the piece mix and quantity for each component.",
+    description: "For a coordinated jewellery display programme, list each component, its quantity and the available counter space. Confirm the proposed piece mix, covering and colours in the quotation. ELAPACK\u2019s minimum is 200 pieces for each component; confirm allocation across variants when requesting a quote.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Velvet over structured core",
-    moq: "200 pcs",
+    materials: "Materials to confirm in the quotation and sample",
+    moq: "200 pcs per component",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
-    industries: ["Jewelry", "Gift", "Fashion"],
+    industries: ["Jewelry", "Gift"],
     features: [
-      {
-        title: "One Matched Program",
-        desc: "Busts, stands, cones and cushions share the same velvet and core, so nothing looks pieced together."
-      },
-      {
-        title: "Modular Counter Layout",
-        desc: "Mix heights and piece types to fit any counter \u2014 from a single bust to a full runway of displays."
-      },
-      {
-        title: "Structured, Not Floppy",
-        desc: "Rigid cores keep busts and stands standing straight through daily retail handling."
-      },
-      {
-        title: "Brand-Color Velvet",
-        desc: "Velvet dyed to your brand palette, with optional label or embroidery placement."
-      }
+      { title: "Component List", desc: "List the desired display pieces and quantity of each component for a comparable quote." },
+      { title: "Counter Arrangement", desc: "Share the available space and jewellery assortment so the proposed arrangement can be reviewed." },
+      { title: "Covering and Colour", desc: "Provide colour references and confirm the proposed covering against the approved sample." },
+      { title: "Artwork and Samples", desc: "Identify branding placement and confirm which components are included in the sample." }
     ],
     specs: [
-      { label: "Pieces", value: "Necklace busts (2 heights), T-bar stand, ring cones, earring stands, cushions" },
-      { label: "Covering", value: "Velvet in custom colors" },
-      { label: "Core", value: "Structured board for shape retention" },
-      { label: "MOQ", value: "200 pcs" }
+      { label: "Component List", value: "Confirm for the proposed order" },
+      { label: "Counter Arrangement", value: "Confirm for the proposed order" },
+      { label: "Covering and Colour", value: "Confirm for the proposed order" },
+      { label: "Artwork and Samples", value: "Confirm for the proposed order" }
     ],
-    customizationOptions: [
-      "Custom velvet colors across every piece",
-      "Piece mix tailored to your assortment",
-      "Logo label or embroidery on busts and cushions",
-      "Bundle with pouches or boxes as a full set"
-    ]
+    customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"]
   },
   {
     slug: "leather-envelope-pouch",
@@ -2898,7 +2833,7 @@ Plan the product fit and component interfaces together, quote each component cle
   },
   {
     "slug": "velvet-satin-muslin-pouches-compared",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-27",
     "datePublished": "2026-10-09",
     "title": "Velvet vs Satin vs Muslin Pouches: Which Material Fits Your Jewellery Brand?",
     "category": "Sourcing Guide",
@@ -2910,7 +2845,7 @@ Plan the product fit and component interfaces together, quote each component cle
     "imageHeight": 1350,
     "excerpt": "Compare velvet, satin and muslin pouches by product fit, finish, logo method and the details needed for like-for-like quotes.",
     "metaDescription": "Compare velvet, satin and muslin jewelry pouches by feel, closure, branding and product fit. Prepare fabric and size details for a quote.",
-    "body": "*Material descriptions are industry references as published by packaging suppliers and textile encyclopaedias (sources named inline). Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample at USD 25 plus USD 20 shipping \u2014 are ELAPACK's confirmed trade terms. Fibre compositions, weights and finishing are supplier-specific; this page does not establish ELAPACK stock weight ranges. Confirm the selected fabric reference in the quotation and sample.*\n\n> **Quick answer:** compare the actual velvet, satin and muslin samples for surface feel, drape, product contact, closure and logo appearance. Request composition, construction and fabric weight where relevant. Compare quotations with the same dimensions, lining, decoration and quantity; the material name alone does not establish cost or protection.\n\n## Key facts at a glance\n\n| Item | Figure | Source |\n|---|---|---|\n| Minimum order | 200 pieces | ELAPACK confirmed terms |\n| Production lead time | typically 15\u201320 days after sample approval and payment receipt; confirm by order | ELAPACK confirmed terms |\n| Custom sample | USD 25 plus USD 20 shipping, built in 3\u20135 days | ELAPACK confirmed terms |\n\n## Compare fabrics for the actual product\n\n![Illustrative buyer checklist: compare pouch samples](/charts/pouch-material-handfeel-reviewed-20261022.svg)\n\nUse the comparison to shortlist samples for the actual product and handling routine. Record which differences matter: surface feel, drape, seams, closure, logo appearance and any required care procedure. Search wording alone does not establish which fabric is suitable.\n\n**Choose by the product's weight and the laundering it must survive \u2014 the material follows, not the other way round.**\n## What the three names actually specify \u2014 and what they don't\n\nA fabric name alone is not a complete specification. Request the actual fibre composition, construction, finish and fabric reference for each proposal. Compare those fields and the physical sample rather than assuming that the name establishes stock, care behaviour or a shared manufacturing process.\n\n**Treat velvet, satin and muslin as starting positions \u2014 approve the fabric reference, not the word.**\n\n## Velvet: pile, surface contact and logo review\n\n[CottonWorks describes velvet as a warp-pile fabric](https://cottonworks.com/encyclopedia-item/velvet/). That construction is useful context for reviewing surface feel, but it does not establish a finished pouch\u2019s cushioning, abrasion resistance or logo detail. Compare the selected fabric and backing with the actual product, then review the proposed print, label or other decoration on a sample. The [velvet pouch page](https://elapack.com/products/custom-velvet-pouches/) is a related catalogue route; confirm the selected construction and availability.\n\n**Review the pile, backing, seams and proposed decoration together; confirm product contact on a sample.**\n\n## Satin: sheen, construction and sample checks\n\nSatin offers a smooth, reflective face. [CottonWorks identifies satin as a weave structure](https://cottonworks.com/learning-hub/weaving/basic-woven-fabric-designs/), so the name alone does not establish fibre composition, weight or care instructions. Compare the actual fabric and seam construction, logo sample and quoted price rather than applying a fixed saving against velvet. ELAPACK's range includes a [satin pouch](https://elapack.com/products/custom-satin-pouches/).\n\n**Compare the selected satin fabric, seams and decoration under the intended handling conditions; quote its complete construction rather than assuming a saving against velvet.**\n\n## Muslin: the natural-cotton workhorse\n\nFor a muslin proposal, confirm fibre composition, weave, weight, finish and the proposed logo method. Review surface contact, seams, closure and the decorated sample with the actual product. Neither a lowest-cost position nor scratch or impact protection is established by the name alone. See the [muslin guide](https://elapack.com/news/custom-muslin-bags-guide/) for the related specification questions.\n\n**Confirm the selected muslin construction, logo sample and intended care routine before approval.**\n\n## The three-way comparison\n\n| Comparison field | Velvet proposal | Satin proposal | Muslin proposal |\n|---|---|---|---|\n| Construction | Identify pile, backing and lining | Identify weave, fibre and lining | Identify weave, fibre and finish |\n| Product contact | Check pile, seams and closure against the item | Check face, seams and closure against the item | Check surface, seams and closure against the item |\n| Logo | Review the proposed decorated sample | Review the proposed decorated sample | Review the proposed decorated sample |\n| Care | Obtain instructions for the finished pouch | Obtain instructions for the finished pouch | Obtain instructions for the finished pouch |\n| Cost | Compare on the same dimensions, decoration and quantity | Compare on the same dimensions, decoration and quantity | Compare on the same dimensions, decoration and quantity |\n\n*This table organises sample and quotation checks. It is not a ranking of protection, durability or price.*\n\n## Compare samples, not names\n\nReview the same jewellery, handling routine and artwork size across material samples. Record where cords, seams and closures contact the piece and check the loaded pouch with the intended box and insert. Approve a [complete set](https://elapack.com/products/?category=Sets%20%26%20Complete%20Packaging) as an assembly. The [cotton pouch](https://elapack.com/products/custom-cotton-pouches/) and [microfiber pouch](https://elapack.com/products/custom-microfiber-pouches/) are related product routes; confirm their actual construction separately.\n\n## What to put in your enquiry\n\nFor each material under consideration: the fabric reference and fibre composition; the weight or construction unit the supplier quotes (gsm for muslin and cotton, pile description for velvet, weave for satin); usable internal dimensions with the closure drawn \u2014 the sizing question is real \u2014 drawstring bag dimensions deserve their own line in the brief; the logo method and its artwork requirements; quantity against the 200-piece minimum; and the sample route (custom sample USD 25 plus USD 20 shipping, 3\u20135 days). Browse the full [pouches and bags collection](https://elapack.com/products/?category=Pouches%20%26%20Bags) or the [jewellery pouch line](https://elapack.com/custom-jewelry-pouches/) to anchor the styles before you brief.\n\n## The bottom line\n\nShortlist the fabric by the product, handling and presentation requirements, then compare the chosen samples and like-for-like quotations. [Contact ELAPACK](https://elapack.com/contact/) with the fabric references, dimensions, artwork and quantity to confirm the proposed construction for your [jewellery packaging](https://elapack.com/custom-jewelry-packaging/) programme."
+    "body": "*Material descriptions are industry references as published by packaging suppliers and textile encyclopaedias (sources named inline). Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample at USD 25 plus USD 20 shipping \u2014 are ELAPACK's confirmed trade terms. Fibre compositions, weights and finishing are supplier-specific; this page does not establish ELAPACK stock weight ranges. Confirm the selected fabric reference in the quotation and sample.*\n\n> **Quick answer:** compare the actual velvet, satin and muslin samples for surface feel, drape, product contact, closure and logo appearance. Request composition, construction and fabric weight where relevant. Compare quotations with the same dimensions, lining, decoration and quantity; the material name alone does not establish cost or protection.\n\n## Key facts at a glance\n\n| Item | Figure | Source |\n|---|---|---|\n| Minimum order | 200 pieces | ELAPACK confirmed terms |\n| Production lead time | typically 15\u201320 days after sample approval and payment receipt; confirm by order | ELAPACK confirmed terms |\n| Custom sample | USD 25 plus USD 20 shipping, built in 3\u20135 days | ELAPACK confirmed terms |\n\n## Compare fabrics for the actual product\n\n![Illustrative buyer checklist: compare pouch samples](/charts/pouch-material-handfeel-reviewed-20261022.svg)\n\nUse the comparison to shortlist samples for the actual product and handling routine. Record which differences matter: surface feel, drape, seams, closure, logo appearance and any required care procedure. Search wording alone does not establish which fabric is suitable.\n\n**Choose by the product's weight and the laundering it must survive \u2014 the material follows, not the other way round.**\n## What the three names actually specify \u2014 and what they don't\n\nA fabric name alone is not a complete specification. Request the actual fibre composition, construction, finish and fabric reference for each proposal. Compare those fields and the physical sample rather than assuming that the name establishes stock, care behaviour or a shared manufacturing process.\n\n**Treat velvet, satin and muslin as starting positions \u2014 approve the fabric reference, not the word.**\n\n## Velvet: pile, surface contact and logo review\n\n[CottonWorks describes velvet as a warp-pile fabric](https://cottonworks.com/encyclopedia-item/velvet/). That construction is useful context for reviewing surface feel, but it does not establish a finished pouch\u2019s cushioning, abrasion resistance or logo detail. Compare the selected fabric and backing with the actual product, then review the proposed print, label or other decoration on a sample. The [velvet pouch page](https://elapack.com/products/custom-velvet-pouches/) is a related catalogue route; confirm the selected construction and availability.\n\n**Review the pile, backing, seams and proposed decoration together; confirm product contact on a sample.**\n\n## Satin: sheen, construction and sample checks\n\nSatin offers a smooth, reflective face. [CottonWorks identifies satin as a weave structure](https://cottonworks.com/learning-hub/weaving/basic-woven-fabric-designs/), so the name alone does not establish fibre composition, weight or care instructions. Compare the actual fabric and seam construction, logo sample and quoted price rather than applying a fixed saving against velvet. ELAPACK's range includes a [satin pouch](https://elapack.com/products/custom-satin-pouches/).\n\n**Compare the selected satin fabric, seams and decoration under the intended handling conditions; quote its complete construction rather than assuming a saving against velvet.**\n\n## Muslin: the natural-cotton workhorse\n\nFor a muslin proposal, confirm fibre composition, weave, weight, finish and the proposed logo method. Review surface contact, seams, closure and the decorated sample with the actual product. Neither a lowest-cost position nor scratch or impact protection is established by the name alone. See the [muslin guide](https://elapack.com/news/custom-muslin-bags-guide/) for the related specification questions.\n\n**Confirm the selected muslin construction, logo sample and intended care routine before approval.**\n\n## The three-way comparison\n\n| Comparison field | Velvet proposal | Satin proposal | Muslin proposal |\n|---|---|---|---|\n| Construction | Identify pile, backing and lining | Identify weave, fibre and lining | Identify weave, fibre and finish |\n| Product contact | Check pile, seams and closure against the item | Check face, seams and closure against the item | Check surface, seams and closure against the item |\n| Logo | Review the proposed decorated sample | Review the proposed decorated sample | Review the proposed decorated sample |\n| Care | Obtain instructions for the finished pouch | Obtain instructions for the finished pouch | Obtain instructions for the finished pouch |\n| Cost | Compare on the same dimensions, decoration and quantity | Compare on the same dimensions, decoration and quantity | Compare on the same dimensions, decoration and quantity |\n\n*This table organises sample and quotation checks. It is not a ranking of protection, durability or price.*\n\n## Considering microfiber alongside velvet?\n\nIf your shortlist includes both microfiber and velvet, ask for identified fabric references rather than choosing from the names alone. The [custom microfiber pouch](https://elapack.com/products/custom-microfiber-pouches/) and [custom velvet pouch](https://elapack.com/products/custom-velvet-pouches/) pages are starting points for a proposal; the actual construction, finish and availability still need confirmation.\n\nUse the same jewelry item, artwork size and intended closure when reviewing both proposals. First check insertion and removal: note where seams, cords and the fabric surface contact the piece. Close the pouch with the item inside and check the opening and remaining usable space. Record observations against the fabric reference and sample version, so a later quotation refers to the option you actually reviewed.\n\nThen compare the proposed logo on the selected fabric. Ask to see the intended lettering size and position, and assess legibility and edge appearance on the decorated sample. A successful result on a different fabric or a larger logo is not approval for this version. If cleaning or repeated reuse is part of your project, request care instructions and agree an appropriate review procedure before making durability claims.\n\nKeep the quotation comparison aligned: finished dimensions, lining, closure, artwork, decoration and quantity should be explicit for each option. A difference in price is not evidence that the material alone caused it. Neither fabric name establishes anti-tarnish performance, scratch protection or shipping suitability; those requirements need evidence applicable to the proposed construction and use.\n\n[Ask ELAPACK to compare the proposed pouch options](https://elapack.com/contact/). Include the item dimensions, fabric references if available, logo artwork, quantity and destination. Orders start at MOQ 200 pieces; confirm any split across versions in the written quotation. If a matching box is required, identify it separately rather than assuming that a pouch quotation includes the complete set.\n\n## Compare samples, not names\n\nReview the same jewellery, handling routine and artwork size across material samples. Record where cords, seams and closures contact the piece and check the loaded pouch with the intended box and insert. Approve a [complete set](https://elapack.com/products/?category=Sets%20%26%20Complete%20Packaging) as an assembly. The [cotton pouch](https://elapack.com/products/custom-cotton-pouches/) and [microfiber pouch](https://elapack.com/products/custom-microfiber-pouches/) are related product routes; confirm their actual construction separately.\n\n## What to put in your enquiry\n\nFor each material under consideration: the fabric reference and fibre composition; the weight or construction unit the supplier quotes (gsm for muslin and cotton, pile description for velvet, weave for satin); usable internal dimensions with the closure drawn \u2014 the sizing question is real \u2014 drawstring bag dimensions deserve their own line in the brief; the logo method and its artwork requirements; quantity against the 200-piece minimum; and the sample route (custom sample USD 25 plus USD 20 shipping, 3\u20135 days). Browse the full [pouches and bags collection](https://elapack.com/products/?category=Pouches%20%26%20Bags) or the [jewellery pouch line](https://elapack.com/custom-jewelry-pouches/) to anchor the styles before you brief.\n\n## The bottom line\n\nShortlist the fabric by the product, handling and presentation requirements, then compare the chosen samples and like-for-like quotations. [Contact ELAPACK](https://elapack.com/contact/) with the fabric references, dimensions, artwork and quantity to confirm the proposed construction for your [jewellery packaging](https://elapack.com/custom-jewelry-packaging/) programme."
   },
   {
     "slug": "custom-candle-boxes-guide",
@@ -2942,7 +2877,7 @@ Plan the product fit and component interfaces together, quote each component cle
     "imageHeight": 1350,
     "excerpt": "Plan jewelry display trays by counter footprint, compartment layout and covering material; check size and contact requirements on a sample.",
     "metaDescription": "Plan jewellery display trays from fixture dimensions, compartment access and lining evidence. Confirm fit and treatment claims on the selected sample.",
-    "body": "*This guide covers fixture fit, layout and lining questions. Catalogue dimensions are not a universal standard; treatment claims require project evidence. ELAPACK order terms do not establish every material or performance claim.*\n\n> **Quick answer:** measure the destination fixture and jewellery, propose compartments and lifting access, then check the loaded sample. A tray catalogue dimension is not a universal trade standard or a guarantee of interchangeability. Any anti-tarnish claim needs material-specific evidence \u2014 the [jewelry box inserts guide](https://elapack.com/news/jewelry-box-inserts-guide/) covers linings and cavity layouts.\n\n## Key facts at a glance\n\n| Decision | What to establish |\n|---|---|\n| Footprint | Actual fixture interior, lifting clearance and tray dimensions |\n| Wall and compartment height | Visibility, piece dimensions and access |\n| Lining | Material identity, surface contact and evidence for any treatment |\n| Order scope | MOQ 200 pieces; confirm specification and allocation |\n| Production | Typically 15\u201320 days after sample approval and payment receipt; confirm by order |\n\n## What a display programme covers\n\n![Illustrative buyer checklist: plan a loaded tray](/charts/tray-layout-patterns-reviewed-20261022.svg)\n\nDisplay is a range decision, not a page decision: a counter programme mixes tray footprints, lining materials and piece-specific layouts \u2014 ring rows, bracelet channels, necklace pegs \u2014 and it is specified as a set so the counter reads as one system. The product side sits on the [display and storage range](https://elapack.com/custom-jewelry-packaging/).\n\n**Check each tray against its destination fixture and the intended layout; use shared dimensions or lining references only where the programme requires them.**\n\n## Fit the footprint to the fixture\n\nMeasure the destination drawer, case or counter and record any existing tray interface. Agree external footprint, usable compartments, wall height and lifting clearance. Matching nominal footprints does not establish stackability or interchangeability: check corners, bases and locating features on samples. Choose a layout that permits removal without disturbing neighbouring pieces.\n\n**Confirm the full interface on the sample; a matching nominal footprint is not proof of interchangeability.**\n\n## Compartment layouts by piece type\n\nPlan each compartment around the jewellery and handling task: paired positions for earrings, a proposed support for rings, and room to organise chains or bracelets. These are layouts to review, not a universal rule that small items need more structure or that fixed dividers suit every stable collection. The [jewellery packaging range](https://elapack.com/custom-jewelry-packaging/) provides catalogue context; confirm the selected display construction and fixture fit separately.\n\n| Piece type | Layout that works | Watch-out |\n|---|---|---|\n| Rings | Shallow slots or narrow channels | Depth vs glove-and-go access |\n| Earrings | Paired positions | Losing mates across compartments |\n| Bracelets | Anti-slide lengths | Pieces migrating into neighbours |\n| Necklaces | Open lengthwise channels | Chain\u2013clasp tangle at the ends |\n| Mixed stock | Removable inserts | Fixed dividers lock the layout early |\n\n## Linings and the anti-tarnish question\n\nA lining may be proposed for cushioning or presentation, but a fabric name alone does not establish scratch resistance or anti-tarnish performance. Ask for the actual material and any treatment, the metals or finishes covered, test conditions and duration. Review contact on the intended jewellery. An open display and an enclosed storage case have different exposure conditions; do not transfer a barrier or treatment claim between them without evidence.\n\n**Separate the lining\u2019s physical contact role from any claimed treatment; neither is established by a fabric name alone.**\n\n## Test the layout before you order 200\n\nA suggested handling check is to load the tray as intended, close the fixture and remove representative pieces. Record movement, access and contact; agree the acceptance limits for the project. Measure fixture clearance before ordering. Related storage options appear in the [jewellery boxes guide](https://elapack.com/news/how-to-choose-custom-jewelry-boxes/); complete presentations sit in the [sets collection](https://elapack.com/products/?category=Sets%20%26%20Complete%20Packaging).\n\n## The bottom line\n\nStandardise the footprint, assign compartments by handling pattern, and pin the lining claim to a stated chemistry. [Contact ELAPACK](https://elapack.com/contact/) with your fixture dimensions and piece mix, and the quotation will state tray footprint, layout and lining options that fit your counter and drawer system."
+    "body": "*This guide covers fixture fit, layout and lining questions. Catalogue dimensions are not a universal standard; treatment claims require project evidence. ELAPACK order terms do not establish every material or performance claim.*\n\n> **Quick answer:** measure the destination fixture and jewellery, propose compartments and lifting access, then check the loaded sample. A tray catalogue dimension is not a universal trade standard or a guarantee of interchangeability. Any anti-tarnish claim needs material-specific evidence \u2014 the [jewelry box inserts guide](https://elapack.com/news/jewelry-box-inserts-guide/) covers linings and cavity layouts.\n\n## Key facts at a glance\n\n| Decision | What to establish |\n|---|---|\n| Footprint | Actual fixture interior, lifting clearance and tray dimensions |\n| Wall and compartment height | Visibility, piece dimensions and access |\n| Lining | Material identity, surface contact and evidence for any treatment |\n| Order scope | MOQ 200 pieces; confirm specification and allocation |\n| Production | Typically 15\u201320 days after sample approval and payment receipt; confirm by order |\n\n## What a display programme covers\n\n![Illustrative buyer checklist: plan a loaded tray](/charts/tray-layout-patterns-reviewed-20261022.svg)\n\nDisplay is a range decision, not a page decision: a counter programme mixes tray footprints, lining materials and piece-specific layouts \u2014 ring rows, bracelet channels, necklace pegs \u2014 and it is specified as a set so the counter reads as one system. The product side sits on the [display and storage range](https://elapack.com/custom-jewelry-packaging/).\n\n**Check each tray against its destination fixture and the intended layout; use shared dimensions or lining references only where the programme requires them.**\n\n## Fit the footprint to the fixture\n\nMeasure the destination drawer, case or counter and record any existing tray interface. Agree external footprint, usable compartments, wall height and lifting clearance. Matching nominal footprints does not establish stackability or interchangeability: check corners, bases and locating features on samples. Choose a layout that permits removal without disturbing neighbouring pieces.\n\n**Confirm the full interface on the sample; a matching nominal footprint is not proof of interchangeability.**\n\n## Compartment layouts by piece type\n\nPlan each compartment around the jewellery and handling task: paired positions for earrings, a proposed support for rings, and room to organise chains or bracelets. These are layouts to review, not a universal rule that small items need more structure or that fixed dividers suit every stable collection. The [jewellery packaging range](https://elapack.com/custom-jewelry-packaging/) provides catalogue context; confirm the selected display construction and fixture fit separately.\n\n| Piece type | Layout that works | Watch-out |\n|---|---|---|\n| Rings | Shallow slots or narrow channels | Depth vs glove-and-go access |\n| Earrings | Paired positions | Losing mates across compartments |\n| Bracelets | Lengthwise spaces or supports to review | Check movement with the intended pieces |\n| Necklaces | Open lengthwise channels | Chain\u2013clasp tangle at the ends |\n| Mixed stock | Removable inserts | Fixed dividers lock the layout early |\n\n## Linings and the anti-tarnish question\n\nA lining may be proposed for cushioning or presentation, but a fabric name alone does not establish scratch resistance or anti-tarnish performance. Ask for the actual material and any treatment, the metals or finishes covered, test conditions and duration. Review contact on the intended jewellery. An open display and an enclosed storage case have different exposure conditions; do not transfer a barrier or treatment claim between them without evidence.\n\n**Separate the lining\u2019s physical contact role from any claimed treatment; neither is established by a fabric name alone.**\n\n## Test the layout before you order 200\n\nA suggested handling check is to load the tray as intended, close the fixture and remove representative pieces. Record movement, access and contact; agree the acceptance limits for the project. Measure fixture clearance before ordering. Related storage options appear in the [jewellery boxes guide](https://elapack.com/news/how-to-choose-custom-jewelry-boxes/); complete presentations sit in the [sets collection](https://elapack.com/products/?category=Sets%20%26%20Complete%20Packaging).\n\n## Wholesale display enquiry checklist\n\nBefore requesting wholesale pricing, provide the display location and usable dimensions, jewellery types and measurements, number of positions, preferred presentation, artwork and quantity for each component. Ask the supplier to confirm construction, covering, dimensions and sample scope in writing. Check the loaded sample for fit, access and surface contact. Explore [display trays](/products/stackable-jewelry-tray/), [necklace stands](/products/velvet-necklace-display/), [earring stands](/products/acrylic-earring-display/) and [display sets](/products/velvet-jewelry-display-set/). For a complete set, the MOQ is 200 pieces per component.\n\n## The bottom line\n\nMeasure the fixture, plan compartments around the jewellery and request evidence for any claimed lining treatment. [Contact ELAPACK](https://elapack.com/contact/) with fixture dimensions, jewellery measurements and the required quantities; confirm the proposed footprint, layout and materials in the quotation and on a sample."
   },
   {
     "slug": "custom-logo-pouches-guide",
@@ -3290,7 +3225,7 @@ Choose the lamination that sets the hand feel, put foil or a blind deboss where 
   },
   {
     "slug": "how-to-read-a-packaging-specification-sheet",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-27",
     "datePublished": "2026-09-27",
     "title": "How to Read a Custom Packaging Specification Sheet: The Specs That Decide Fit",
     "category": "Sourcing Guide",
@@ -3350,6 +3285,18 @@ Read the four groups together. A construction can pass on structure and board an
 - The sheet does not cover every production variable. Colour across a full run, the difference between a paper swatch and the produced material, and how the package survives transit can all drift from the page; each needs the supplier to confirm a condition, not a promise printed on the sheet.
 - A construction can also be a genuine mismatch for the launch. If a required specification column is missing and the supplier cannot confirm it, treat that option as not yet evaluated for your product, not as a workable choice.
 - Reading the sheet never replaces sampling. Material and colour approval and a pre-production sample still decide whether the construction holds the brand bar before the run \u2014 this page only narrows the field before those steps.
+
+## Separate product, internal, external and shipping dimensions
+
+Before comparing two box proposals, label what each dimension describes. Product dimensions describe the item in its intended packed orientation, including any accessories that will be packed with it. Usable internal dimensions describe the space available in the finished package. Finished external dimensions describe the outside of that package. Shipping-carton dimensions describe a separate packing level and should not be substituted for the presentation box measurements.
+
+Write the unit and the dimension order beside each set of values. Use a labeled sketch if two suppliers use different conventions for length, width, depth or height. Keep the product reference and drawing revision with the measurements; an accurate dimension from an earlier product version can still be the wrong input for the current order.
+
+Where an insert is proposed, ask the supplier to identify its dimensions and the usable cavity separately. Do not subtract an assumed board or lining thickness from the outside measurements and treat the result as approved internal space. The proposed structure and assembled sample need to establish whether the product, insert and closure work together.
+
+For a quotation, mark missing values as \u201Cto be confirmed\u201D and state whether each measurement is supplied by your team or proposed by the supplier. At sample review, check the loaded package in the intended orientation and close the lid. Record unresolved contact, removal or closure issues instead of approving fit from the empty exterior alone. This is a proposed review workflow, not a claim that a shipping or protection test has passed.
+
+Use the [rigid-box guide](https://elapack.com/news/custom-rigid-boxes-guide/) for the construction decision and the [jewelry insert guide](https://elapack.com/news/jewelry-box-inserts-guide/) for the insert task. When you are ready to discuss a proposal, [send ELAPACK the product measurements, labeled drawing and quantities](https://elapack.com/contact/). Identify any measurements that remain open so they can be addressed in the quotation and sample plan.
 
 ## A specification sheet template you can copy
 
@@ -4803,6 +4750,26 @@ var categoryCopy = {
   "Retail Display Props": displayCopy
 };
 function faqsFor(product) {
+  const displayQuestions = {
+    "velvet-necklace-display": { q: "What should I provide for a necklace display quote?", a: "Share chain lengths, pendant dimensions, available space, desired presentation, artwork and quantity. Confirm proposed dimensions and covering in the quotation and sample." },
+    "acrylic-earring-display": { q: "How should I specify an earring display?", a: "List earring styles, number of pairs, desired layout and available display space. Review the proposed hole or slot positions and material with representative earrings." },
+    "stackable-jewelry-tray": { q: "How do I check whether a tray fits my showcase?", a: "Measure the fixture interior and lifting clearance, then check the proposed tray dimensions and layout. If stacking is required, review the actual edges and base together on a sample." },
+    "velvet-jewelry-display-set": { q: "How is the minimum order calculated for a display set?", a: "The minimum is 200 pieces for each component. List the required display components and quantities, and confirm any allocation across variants in the quotation." }
+  };
+  if (product.slug && displayQuestions[product.slug]) return [
+    displayQuestions[product.slug],
+    { q: "How are materials and dimensions confirmed?", a: "Share the display task, space and preferences. Confirm construction, dimensions and contact surface in the quotation and sample." },
+    { q: "Can I review the proposed design?", a: "Ask which design preview is available for your project and confirm its scope. Review the physical sample before approving production." },
+    { q: "Can I request a sample?", a: "Stock samples are free when available, with USD 25 shipping and typical delivery of 4\u20137 days. Custom samples cost USD 25 plus USD 20 shipping and take 3\u20135 days to make. Confirm availability and sample scope for your project." },
+    { q: "What is the production lead time?", a: "Production typically takes 15\u201320 days after sample approval and payment receipt. Confirm the order schedule; shipping time is separate." }
+  ];
+  if (product.slug === "custom-ring-boxes") return [
+    { q: "What should I send for a custom ring box quote?", a: "Send the ring's band width and setting height, rings per box, preferred appearance, logo artwork, quantity and delivery destination. We will confirm the proposed box and insert specification in the quotation." },
+    { q: "How do I check the ring insert before bulk production?", a: "Review the proposed slot layout and use your actual ring to check retention, appearance and removal in an approved physical sample. A visual effect preview does not replace this fit check." },
+    { q: "What is the minimum order?", a: "The minimum is 200 pieces. Confirm how sizes, colours and artwork are allocated in the quotation; the minimum does not imply that every variant can be split freely." },
+    { q: "Are samples and visual previews available?", a: "A visual preview of the proposed box structure is free. Stock samples are free with USD 25 shipping and typically take 4\u20137 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3\u20135 days to make; delivery time is separate." },
+    { q: "When does production begin?", a: "Typical production takes 15\u201320 days after sample approval and payment receipt. Shipping time and the final schedule are confirmed for the order." }
+  ];
   return [
     product.materials.includes("to confirm") ? {
       q: `How are materials confirmed for ${product.name}?`,
@@ -4853,7 +4820,7 @@ function ProductDetail() {
   const originalProduct = slug ? getProductBySlug(slug) : void 0;
   const review = slug ? productContentUpdates[slug] : void 0;
   const isSampleCard = slug === "custom-perfume-sample-card-boxes";
-  const needsSpecReview = ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(slug ?? "");
+  const needsSpecReview = ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-ring-boxes", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(slug ?? "");
   const product = originalProduct && review ? { ...originalProduct, shortDesc: review.intro, description: review.body.map((b) => b[1]).join("\n\n"), materials: "Confirm in quotation and approved sample", leadTime: "15\u201320 days after sample approval and payment receipt", features: review.checks.map((b) => ({ title: b[0], desc: b[1] })), specs: review.policies.map((b) => ({ label: b[0], value: b[1] })), customizationOptions: [review.options] } : originalProduct;
   (0, import_react7.useEffect)(() => {
     if (review) {
@@ -5104,6 +5071,11 @@ function ProductDetail() {
           "View All",
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
         ] })
+      ] }),
+      slug === "custom-ring-boxes" && /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("p", { className: "product-description-text", children: [
+        "Comparing ring boxes with other jewelry box formats? ",
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/custom-jewelry-boxes/", children: "Review custom jewelry boxes and inserts" }),
+        " before finalizing the collection brief."
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "related-grid", children: related.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
         import_react_router_dom8.Link,
@@ -6527,6 +6499,7 @@ function Contact() {
           "Product: ",
           /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("strong", { children: selectedProduct.name })
         ] }),
+        selectedProduct?.slug === "custom-ring-boxes" && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-form-intro", children: "For ring boxes, include the band width, setting height, rings per box, preferred finish and logo artwork in Project Details." }),
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
           "input",
           {
@@ -8281,7 +8254,7 @@ for (const route of ROUTES) {
     const productMatch = route.match(/^\/products\/([a-z0-9-]+)$/);
     const product = productMatch ? products.find((p) => p.slug === productMatch[1]) : void 0;
     const review = product ? productContentUpdates[product.slug] : void 0;
-    const specReview = product && ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(product.slug);
+    const specReview = product && ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-ring-boxes", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(product.slug);
     const articleMatch = route.match(/^\/news\/([a-z0-9-]+)$/);
     const article = articleMatch ? articles.find((a) => a.slug === articleMatch[1]) : void 0;
     const pageTag = review ? review.title : product ? `${product.name} | ELAPACK` : STATIC_TITLES[route] || "ELAPACK";
