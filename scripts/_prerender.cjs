@@ -2978,9 +2978,9 @@ Plan the product fit and component interfaces together, quote each component cle
   },
   {
     "slug": "surface-finishes-compared-guide",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-27",
     "datePublished": "2026-10-07",
-    "title": "Surface Finishes for Custom Boxes Compared: Embossing, Foil, Lamination and Spot UV",
+    "title": "Surface Finishes for Custom Boxes Compared: Embossing, Foil Stamping, Lamination and Spot UV",
     "category": "Sourcing Guide",
     "date": "October 2026",
     "readTime": "11 min read",
@@ -2989,7 +2989,7 @@ Plan the product fit and component interfaces together, quote each component cle
     "imageWidth": 2400,
     "imageHeight": 1350,
     "excerpt": "Compare embossing, foil stamping, lamination and spot UV by artwork needs, tactile result, sample checks and quotation fields.",
-    "metaDescription": "Compare custom box finishes by appearance, artwork, substrate and sample approval. Ask suppliers to quote embossing, foil, lamination and spot UV on matching specs.",
+    "metaDescription": "Compare custom box finishes by appearance, artwork, substrate and sample approval. Ask suppliers to quote embossing, foil stamping, lamination and spot UV on matching specs.",
     "body": `*Selection guidance is not a product specification or performance guarantee. ELAPACK commercial terms below reflect owner-confirmed policies; project scope, design allocation and sample contents require order confirmation.*
 
 The finish is what the customer touches first: a logo pressed into the board, a foil that catches the light, a matte lamination that changes how the same Pantone reads. Embossing and debossing, foil stamping, lamination and spot UV are the four finishes a luxury-box buyer actually chooses between, with the tooling implications, the colour-control process behind them and the specification list that makes quotations comparable.
