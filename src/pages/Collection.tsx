@@ -13,7 +13,7 @@ export default function Collection({ slug }: { slug: string }) {
   const collection = getCollectionBySlug(slug);
 
   useEffect(() => {
-    if (collection) document.title = `${collection.eyebrow} | ELAPACK`;
+    if (collection) document.title = `${collection.slug === "custom-cosmetic-packaging" ? collection.h1 : collection.eyebrow} | ELAPACK`;
   }, [collection]);
 
   if (!collection) return null;
@@ -86,7 +86,7 @@ export default function Collection({ slug }: { slug: string }) {
                 </div>
                 <div className="catalog-card-body">
                   <h3 className="catalog-name">{product.name}</h3>
-                  <p className="catalog-desc">{product.shortDesc}</p>
+                  <p className="catalog-desc">{collection.slug === "custom-cosmetic-packaging" && product.slug === "custom-eyelash-packaging-boxes" ? "Custom eyelash boxes with your logo. Share tray dimensions and quantity to discuss fit and a quotation." : product.shortDesc}</p>
                   <div className="catalog-meta">
                     <div className="meta-item">
                       <span className="meta-label">MOQ</span>

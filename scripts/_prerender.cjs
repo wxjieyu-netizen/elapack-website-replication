@@ -7799,41 +7799,41 @@ var collections = [
     eyebrow: "Cosmetic & Beauty Packaging",
     h1: "Custom Cosmetic Packaging Boxes",
     subhead: "Boxes and pouches for beauty brands \u2014 eyelash packaging from 200 pieces, gift boxes and cosmetic pouches with your logo.",
-    metaDescription: "Custom cosmetic packaging \u2014 eyelash boxes from 200 pieces, magnetic and rigid gift boxes for beauty brands, plus fabric and clear PVC-zip cosmetic pouches with your logo. One manufacturer, matched branding. Free stock samples.",
-    intro: "Custom packaging for beauty and cosmetics brands selling into the US and Europe. ELAPACK makes both halves of the program in-house: printed boxes that present the product at retail \u2014 eyelash boxes from just 200 pieces \u2014 and the fabric and clear-zip pouches that carry cosmetics after the sale, matched in colour and branding. Every order is made to your specification, from structure and insert to print and finish.",
+    metaDescription: "Custom cosmetic packaging boxes and pouches for beauty brands. Discuss your dimensions, artwork and quantities. MOQ starts at 200 pieces.",
+    intro: "Explore custom boxes and pouches for beauty brands, including eyelash packaging, gift boxes and pouches. Share your product dimensions, quantity, branding and destination so we can review suitable options and prepare a quote.",
     sections: [
       {
         heading: "Eyelash packaging boxes",
         items: [
-          { title: "From 200 pieces", desc: "Launch and test lash lines well below the typical wholesale 500." },
-          { title: "Three stock formats", desc: "14\xD710\xD76, 15\xD715\xD75 and 20\xD718\xD78 cm \u2014 or fully custom sizes." },
-          { title: "Fitted tray inserts", desc: "Inserts cut to strip lash trays and extension programs." }
+          { title: "From 200 pieces", desc: "Eyelash packaging starts at 200 pieces. Confirm artwork and colour allocation in the quotation." },
+          { title: "Size and tray fit", desc: "Share the lash tray or product dimensions and desired presentation. Confirm box size and insert fit with the sample." },
+          { title: "Fitted tray inserts", desc: "Discuss tray dimensions and the required insert layout for your chosen product." }
         ]
       },
       {
         heading: "Beauty gift & retail boxes",
         items: [
           { title: "Magnetic & rigid gift boxes", desc: "Structures sized to cosmetic formats \u2014 from single items to curated sets." },
-          { title: "Full-print branding", desc: "Offset print, foil, embossing and spot UV on every surface." }
+          { title: "Branding and finish", desc: "Share your artwork and preferred finish. Confirm printing method, placement and finishing options in the quotation and sample." }
         ]
       },
       {
         heading: "Cosmetic pouches & bags",
         items: [
-          { title: "Fabric pouches", desc: "Cotton, satin and velvet pouches in drawstring, flap and zipper styles." },
-          { title: "Clear PVC zip bags", desc: "Transparent zip bags for cosmetics \u2014 MOQ from 200 pieces." }
+          { title: "Fabric pouches", desc: "Discuss fabric, closure, size and branding options for your project; confirm availability in the quotation." },
+          { title: "Clear PVC zip bags", desc: "Discuss the preferred clear pouch, closure and quantity; confirm the material and available options in the quotation." }
         ]
       },
       {
         heading: "Wig & hair extension packaging",
         items: [
-          { title: "Satin wig bags & boxes", desc: "The standard 30\xD740 cm satin carrier plus retail boxes for hair programs." },
+          { title: "Satin wig bags & boxes", desc: "Discuss bag and box dimensions for the hair product and intended presentation." },
           { title: "Matched programs", desc: "Bags, boxes and inserts branded as one system." }
         ]
       }
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces \u2014 boxes and pouches alike, custom sizes included" },
+      { label: "MOQ", value: "From 200 pieces; confirm design and colour allocation in the quotation. For sets, each component starts at 200 pieces." },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4\u20137 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
       { label: "Production time", value: "15\u201320 days" },
@@ -7846,7 +7846,7 @@ var collections = [
       "luxury-gift-box-ribbon",
       "custom-cotton-pouches"
     ],
-    ctaTitle: "Request a quote for your cosmetic packaging",
+    ctaTitle: "Request a quote: share your product dimensions, quantity, artwork and destination",
     guideSlugs: [
       "custom-cosmetic-bags-guide",
       "custom-cosmetic-packaging-guide",
@@ -8110,7 +8110,7 @@ var import_jsx_runtime16 = require("react/jsx-runtime");
 function Collection({ slug }) {
   const collection = getCollectionBySlug(slug);
   (0, import_react15.useEffect)(() => {
-    if (collection) document.title = `${collection.eyebrow} | ELAPACK`;
+    if (collection) document.title = `${collection.slug === "custom-cosmetic-packaging" ? collection.h1 : collection.eyebrow} | ELAPACK`;
   }, [collection]);
   if (!collection) return null;
   const products3 = collection.productSlugs.map((s) => getProductBySlug(s)).filter((p) => p !== void 0);
@@ -8143,7 +8143,7 @@ function Collection({ slug }) {
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "catalog-card-body", children: [
               /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h3", { className: "catalog-name", children: product.name }),
-              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "catalog-desc", children: product.shortDesc }),
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "catalog-desc", children: collection.slug === "custom-cosmetic-packaging" && product.slug === "custom-eyelash-packaging-boxes" ? "Custom eyelash boxes with your logo. Share tray dimensions and quantity to discuss fit and a quotation." : product.shortDesc }),
               /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "catalog-meta", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "meta-item", children: [
                 /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "meta-label", children: "MOQ" }),
                 /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "meta-value", children: product.moq })

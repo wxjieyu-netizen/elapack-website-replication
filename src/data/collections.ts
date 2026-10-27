@@ -568,42 +568,42 @@ export const collections: Collection[] = [
     subhead:
       "Boxes and pouches for beauty brands — eyelash packaging from 200 pieces, gift boxes and cosmetic pouches with your logo.",
     metaDescription:
-      "Custom cosmetic packaging — eyelash boxes from 200 pieces, magnetic and rigid gift boxes for beauty brands, plus fabric and clear PVC-zip cosmetic pouches with your logo. One manufacturer, matched branding. Free stock samples.",
+      "Custom cosmetic packaging boxes and pouches for beauty brands. Discuss your dimensions, artwork and quantities. MOQ starts at 200 pieces.",
     intro:
-      "Custom packaging for beauty and cosmetics brands selling into the US and Europe. ELAPACK makes both halves of the program in-house: printed boxes that present the product at retail — eyelash boxes from just 200 pieces — and the fabric and clear-zip pouches that carry cosmetics after the sale, matched in colour and branding. Every order is made to your specification, from structure and insert to print and finish.",
+      "Explore custom boxes and pouches for beauty brands, including eyelash packaging, gift boxes and pouches. Share your product dimensions, quantity, branding and destination so we can review suitable options and prepare a quote.",
     sections: [
       {
         heading: "Eyelash packaging boxes",
         items: [
-          { title: "From 200 pieces", desc: "Launch and test lash lines well below the typical wholesale 500." },
-          { title: "Three stock formats", desc: "14×10×6, 15×15×5 and 20×18×8 cm — or fully custom sizes." },
-          { title: "Fitted tray inserts", desc: "Inserts cut to strip lash trays and extension programs." },
+          { title: "From 200 pieces", desc: "Eyelash packaging starts at 200 pieces. Confirm artwork and colour allocation in the quotation." },
+          { title: "Size and tray fit", desc: "Share the lash tray or product dimensions and desired presentation. Confirm box size and insert fit with the sample." },
+          { title: "Fitted tray inserts", desc: "Discuss tray dimensions and the required insert layout for your chosen product." },
         ],
       },
       {
         heading: "Beauty gift & retail boxes",
         items: [
           { title: "Magnetic & rigid gift boxes", desc: "Structures sized to cosmetic formats — from single items to curated sets." },
-          { title: "Full-print branding", desc: "Offset print, foil, embossing and spot UV on every surface." },
+          { title: "Branding and finish", desc: "Share your artwork and preferred finish. Confirm printing method, placement and finishing options in the quotation and sample." },
         ],
       },
       {
         heading: "Cosmetic pouches & bags",
         items: [
-          { title: "Fabric pouches", desc: "Cotton, satin and velvet pouches in drawstring, flap and zipper styles." },
-          { title: "Clear PVC zip bags", desc: "Transparent zip bags for cosmetics — MOQ from 200 pieces." },
+          { title: "Fabric pouches", desc: "Discuss fabric, closure, size and branding options for your project; confirm availability in the quotation." },
+          { title: "Clear PVC zip bags", desc: "Discuss the preferred clear pouch, closure and quantity; confirm the material and available options in the quotation." },
         ],
       },
       {
         heading: "Wig & hair extension packaging",
         items: [
-          { title: "Satin wig bags & boxes", desc: "The standard 30×40 cm satin carrier plus retail boxes for hair programs." },
+          { title: "Satin wig bags & boxes", desc: "Discuss bag and box dimensions for the hair product and intended presentation." },
           { title: "Matched programs", desc: "Bags, boxes and inserts branded as one system." },
         ],
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces — boxes and pouches alike, custom sizes included" },
+      { label: "MOQ", value: "From 200 pieces; confirm design and colour allocation in the quotation. For sets, each component starts at 200 pieces." },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
@@ -616,7 +616,7 @@ export const collections: Collection[] = [
       "luxury-gift-box-ribbon",
       "custom-cotton-pouches",
     ],
-    ctaTitle: "Request a quote for your cosmetic packaging",
+    ctaTitle: "Request a quote: share your product dimensions, quantity, artwork and destination",
     guideSlugs: [
       "custom-cosmetic-bags-guide",
       "custom-cosmetic-packaging-guide",
