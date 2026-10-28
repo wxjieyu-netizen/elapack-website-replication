@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Two packed boxes of different sizes on a scale: the right-sized box billed at its actual weight, the oversized box billed at its dimensional weight">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+
+  <text x="48" y="52" font-family="Georgia,serif" font-size="27" font-weight="600" fill="#18120c">The same product, two different bills</text>
+  <text x="48" y="80" font-family="Helvetica,Arial,sans-serif" font-size="13.5" fill="#6b6258">Carriers charge the greater of actual and dimensional weight — recalculated on every parcel</text>
+  <line x1="48" y1="98" x2="1152" y2="98" stroke="#b08d46" stroke-width="1.5"/>
+  <line x1="580" y1="130" x2="580" y2="540" stroke="#d9d2c4" stroke-width="1"/>
+
+  <!-- ===== panel A: right-sized ===== -->
+  <text x="48" y="132" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#18120c">RIGHT-SIZED BOX</text>
+  <text x="48" y="152" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">cavity engineered to the product</text>
+
+  <polygon points="150,240 190,216 370,216 330,240" fill="#efe9dd" stroke="#18120c" stroke-width="4"/>
+  <polygon points="330,240 370,216 370,356 330,380" fill="#d8cebd" stroke="#18120c" stroke-width="4"/>
+  <rect x="150" y="240" width="180" height="140" fill="#e8e2d6" stroke="#18120c" stroke-width="4"/>
+  <circle cx="260" cy="228" r="9" fill="#b08d46" stroke="#18120c" stroke-width="2"/>
+
+  <line x1="120" y1="420" x2="440" y2="420" stroke="#18120c" stroke-width="6"/>
+  <polygon points="150,420 390,420 360,452 180,452" fill="#e8e2d6" stroke="#18120c" stroke-width="3"/>
+  <rect x="235" y="426" width="90" height="22" fill="#18120c"/>
+  <text x="280" y="441" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#faf9f7">3 lb</text>
+
+  <text x="280" y="490" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#18120c">billed at actual weight · 3 lb</text>
+  <text x="280" y="512" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">dimensional weight below the actual weight</text>
+
+  <!-- ===== panel B: oversized ===== -->
+  <text x="600" y="132" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#a03b2c">OVERSIZED CAVITY</text>
+  <text x="600" y="152" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">same product, air around it</text>
+
+  <polygon points="680,190 726,164 1006,164 960,190" fill="#efe9dd" stroke="#18120c" stroke-width="4"/>
+  <polygon points="960,190 1006,164 1006,374 960,400" fill="#d8cebd" stroke="#18120c" stroke-width="4"/>
+  <rect x="680" y="190" width="280" height="210" fill="#e8e2d6" stroke="#18120c" stroke-width="4"/>
+
+  <rect x="700" y="230" width="240" height="150" fill="none" stroke="#a03b2c" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="820" y="310" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#a03b2c">dead air</text>
+
+  <circle cx="820" cy="177" r="9" fill="#b08d46" stroke="#18120c" stroke-width="2"/>
+  <line x1="792" y1="170" x2="800" y2="170" stroke="#a03b2c" stroke-width="2"/>
+  <line x1="790" y1="177" x2="798" y2="177" stroke="#a03b2c" stroke-width="2"/>
+  <line x1="792" y1="184" x2="800" y2="184" stroke="#a03b2c" stroke-width="2"/>
+  <line x1="842" y1="170" x2="850" y2="170" stroke="#a03b2c" stroke-width="2"/>
+  <line x1="844" y1="177" x2="852" y2="177" stroke="#a03b2c" stroke-width="2"/>
+  <line x1="842" y1="184" x2="850" y2="184" stroke="#a03b2c" stroke-width="2"/>
+
+  <line x1="640" y1="440" x2="1010" y2="440" stroke="#18120c" stroke-width="6"/>
+  <polygon points="680,440 970,440 940,472 710,472" fill="#e8e2d6" stroke="#18120c" stroke-width="3"/>
+  <rect x="790" y="446" width="90" height="22" fill="#18120c"/>
+  <text x="835" y="461" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#faf9f7">3 lb</text>
+
+  <text x="835" y="510" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#a03b2c">billed at dimensional weight · 5 lb</text>
+  <text x="835" y="532" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">actual 3 lb · DIM 4.27 lb → billed 5 lb</text>
+
+  <!-- ===== formula strip ===== -->
+  <rect x="48" y="556" width="1104" height="64" fill="#18120c"/>
+  <text x="600" y="582" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#faf9f7">DIM weight (lb) = L × W × H (in) ÷ 139 — each dimension rounded UP to the next whole inch first</text>
+  <text x="600" y="604" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#d9d2c4">worked: 10.25 × 8.25 × 5.25 in → 11 × 9 × 6 = 594 cu in ÷ 139 = 4.27 lb → billed 5 lb</text>
+
+  <text x="600" y="648" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">USPS applies DIM only above 1,728 cu in and rounds each dimension to the nearest inch</text>
+</svg>

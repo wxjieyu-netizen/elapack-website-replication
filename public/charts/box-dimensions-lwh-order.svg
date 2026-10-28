@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Open box drawn in perspective with the opening edges labelled Length on the longest side, Width on the shorter side, and a vertical arrow marked Height">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+
+  <text x="48" y="52" font-family="Georgia,serif" font-size="27" font-weight="600" fill="#18120c">Which number is which</text>
+  <text x="48" y="80" font-family="Helvetica,Arial,sans-serif" font-size="13.5" fill="#6b6258">L × W × H labels come from the box itself · one box read three ways</text>
+  <line x1="48" y1="98" x2="1152" y2="98" stroke="#b08d46" stroke-width="1.5"/>
+
+  <!-- ===== open box in perspective ===== -->
+  <!-- front wall -->
+  <polygon points="150,470 540,470 540,330 150,330" fill="#e8e2d6" stroke="#18120c" stroke-width="4"/>
+  <!-- right wall (short side) -->
+  <polygon points="540,470 602,434 602,294 540,330" fill="#d8cebd" stroke="#18120c" stroke-width="4"/>
+  <!-- opening rim -->
+  <polygon points="150,330 540,330 602,294 212,294" fill="#efe9dd" stroke="#18120c" stroke-width="4"/>
+  <!-- hidden edges -->
+  <line x1="150" y1="470" x2="212" y2="434" stroke="#8d857a" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="212" y1="434" x2="602" y2="434" stroke="#8d857a" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- length: below the front-bottom edge -->
+  <line x1="150" y1="470" x2="150" y2="514" stroke="#8d857a" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="540" y1="470" x2="540" y2="514" stroke="#8d857a" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="158" y1="520" x2="532" y2="520" stroke="#b08d46" stroke-width="3"/>
+  <polygon points="150,520 164,513 164,527" fill="#b08d46"/>
+  <polygon points="540,520 526,513 526,527" fill="#b08d46"/>
+  <text x="345" y="547" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#18120c">Length — longest side of the opening</text>
+  <text x="345" y="568" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6b6258">30 cm · on a carton this is the side with the flap</text>
+
+  <!-- width: projected above the top-right rim edge -->
+  <line x1="540" y1="330" x2="540" y2="242" stroke="#8d857a" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="602" y1="294" x2="602" y2="242" stroke="#8d857a" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="548" y1="250" x2="594" y2="250" stroke="#b08d46" stroke-width="3"/>
+  <polygon points="540,250 554,243 554,257" fill="#b08d46"/>
+  <polygon points="602,250 588,243 588,257" fill="#b08d46"/>
+  <text x="571" y="214" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6b6258">20 cm</text>
+  <text x="571" y="234" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#18120c">Width — shorter opening side</text>
+
+  <!-- height: right of the front-right vertical edge -->
+  <line x1="548" y1="470" x2="652" y2="470" stroke="#8d857a" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="548" y1="330" x2="652" y2="330" stroke="#8d857a" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="660" y1="338" x2="660" y2="462" stroke="#b08d46" stroke-width="3"/>
+  <polygon points="660,330 653,344 667,344" fill="#b08d46"/>
+  <polygon points="660,470 653,456 667,456" fill="#b08d46"/>
+  <text x="668" y="380" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#18120c">Height</text>
+  <text x="668" y="400" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6b6258">10 cm</text>
+
+  <!-- ===== right card ===== -->
+  <rect x="720" y="130" width="432" height="470" fill="#f4f0e8" stroke="#d9d2c4" stroke-width="1"/>
+  <text x="744" y="170" font-family="Georgia,serif" font-size="20" font-weight="600" fill="#18120c">One box, three labels</text>
+
+  <circle cx="758" cy="212" r="14" fill="#b08d46"/>
+  <text x="758" y="217" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#faf9f7">L</text>
+  <text x="786" y="210" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#18120c">Length · the longest side of the opening</text>
+  <text x="786" y="228" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">30 cm — on a carton, the longest side with a flap</text>
+
+  <circle cx="758" cy="272" r="14" fill="#b08d46"/>
+  <text x="758" y="277" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#faf9f7">W</text>
+  <text x="786" y="270" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#18120c">Width · the shorter side of the opening</text>
+  <text x="786" y="288" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">20 cm — the other flap side</text>
+
+  <circle cx="758" cy="332" r="14" fill="#b08d46"/>
+  <text x="758" y="337" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#faf9f7">H</text>
+  <text x="786" y="330" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#18120c">Height · the remaining dimension, top to bottom</text>
+  <text x="786" y="348" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">10 cm — the only dimension without a flap</text>
+
+  <line x1="744" y1="382" x2="1128" y2="382" stroke="#d9d2c4" stroke-width="1"/>
+
+  <text x="744" y="414" font-family="Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#18120c">Written 30 × 20 × 10 cm</text>
+  <text x="744" y="436" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">L × W × D names the same box — depth instead of height.</text>
+  <text x="744" y="454" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">A bare number sequence is not a specification.</text>
+
+  <rect x="744" y="474" width="384" height="98" fill="#f7e9e5" stroke="#a03b2c" stroke-width="1"/>
+  <text x="764" y="502" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#a03b2c">Confirm before comparing quotes</text>
+  <text x="764" y="524" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">Some suppliers put height first or reverse the order —</text>
+  <text x="764" y="540" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">send a labelled sketch or a marked photo,</text>
+  <text x="764" y="556" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">and state the unit with every number.</text>
+
+  <text x="48" y="640" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">The convention comes from the box itself — not from a style choice.</text>
+</svg>

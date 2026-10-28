@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Ring drawn inside a box cavity above an insert layer, with arrows marking the product dimensions, the cavity walls and the board thickness">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+
+  <text x="48" y="52" font-family="Georgia,serif" font-size="27" font-weight="600" fill="#18120c">Start from the product</text>
+  <text x="48" y="80" font-family="Helvetica,Arial,sans-serif" font-size="13.5" fill="#6b6258">Send net dimensions at the widest points — the cavity is engineered to the insert, not padded by the buyer</text>
+  <line x1="48" y1="98" x2="1152" y2="98" stroke="#b08d46" stroke-width="1.5"/>
+
+  <!-- ===== cross-section: box walls, insert, slot, ring ===== -->
+  <rect x="120" y="200" width="470" height="300" fill="#e8e2d6" stroke="#18120c" stroke-width="6"/>
+  <rect x="148" y="228" width="414" height="244" fill="#faf9f7" stroke="#8d857a" stroke-width="2"/>
+
+  <!-- insert slab with cut slot -->
+  <rect x="148" y="392" width="414" height="80" fill="#d8cebd" stroke="#8d857a" stroke-width="1.5"/>
+  <circle cx="355" cy="432" r="38" fill="#faf9f7" stroke="#8d857a" stroke-width="1.5"/>
+
+  <!-- ring above the insert, seated in the slot -->
+  <circle cx="355" cy="420" r="28" fill="#b08d46" stroke="#18120c" stroke-width="3"/>
+  <circle cx="355" cy="420" r="13" fill="#faf9f7" stroke="#18120c" stroke-width="2"/>
+
+  <!-- product dimensions -->
+  <line x1="327" y1="372" x2="383" y2="372" stroke="#b08d46" stroke-width="3"/>
+  <polygon points="327,372 341,365 341,379" fill="#b08d46"/>
+  <polygon points="383,372 369,365 369,379" fill="#b08d46"/>
+  <text x="398" y="368" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#18120c">product — net, at the widest points</text>
+  <text x="398" y="384" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">include anything that sticks out</text>
+
+  <!-- cavity -->
+  <line x1="156" y1="262" x2="554" y2="262" stroke="#b08d46" stroke-width="3"/>
+  <polygon points="148,262 162,255 162,269" fill="#b08d46"/>
+  <polygon points="562,262 548,255 548,269" fill="#b08d46"/>
+  <text x="355" y="246" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#18120c">cavity — engineered to the insert type</text>
+
+  <!-- board wall -->
+  <line x1="564" y1="330" x2="588" y2="330" stroke="#b08d46" stroke-width="3"/>
+  <polygon points="562,330 576,323 576,337" fill="#b08d46"/>
+  <polygon points="590,330 576,323 576,337" fill="#b08d46"/>
+  <text x="606" y="318" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#18120c">board wall</text>
+  <text x="606" y="334" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">1.5–2.5 mm</text>
+  <text x="606" y="350" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">rigid greyboard</text>
+
+  <!-- insert caption -->
+  <line x1="250" y1="452" x2="210" y2="516" stroke="#8d857a" stroke-width="1"/>
+  <text x="120" y="534" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">insert cut to the piece — slot, platform or foam cavity</text>
+
+  <!-- ===== right card: the double-allowance trap ===== -->
+  <rect x="740" y="130" width="412" height="470" fill="#f4f0e8" stroke="#d9d2c4" stroke-width="1"/>
+  <text x="764" y="170" font-family="Georgia,serif" font-size="20" font-weight="600" fill="#18120c">The double-allowance trap</text>
+  <text x="764" y="192" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">buyer pads the figure, the engineer adds tolerance — twice</text>
+
+  <text x="764" y="228" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#18120c">product · 50 mm</text>
+  <rect x="764" y="236" width="125" height="10" fill="#b08d46"/>
+
+  <text x="764" y="272" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#a03b2c">+ 5 mm buyer safety buffer</text>
+  <rect x="764" y="280" width="12.5" height="10" fill="#a03b2c"/>
+
+  <text x="764" y="316" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#a03b2c">+ 3 mm factory insert allowance</text>
+  <rect x="764" y="324" width="7.5" height="10" fill="#a03b2c"/>
+
+  <line x1="764" y1="352" x2="1128" y2="352" stroke="#d9d2c4" stroke-width="1"/>
+
+  <text x="764" y="386" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#a03b2c">cavity · 58 mm</text>
+  <rect x="764" y="394" width="125" height="12" fill="#b08d46"/>
+  <rect x="889" y="394" width="20" height="12" fill="#f7e9e5" stroke="#a03b2c" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="925" y="404" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#a03b2c">8 mm of air — the product rattles,</text>
+  <text x="764" y="428" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">jewelry chains emerge tangled.</text>
+
+  <text x="764" y="466" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#18120c">What the engineer actually adds:</text>
+  <text x="764" y="488" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">EVA foam −0.5 to 0 mm · die-cut card +1.5 to +2.0 mm</text>
+  <text x="764" y="506" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">velvet platform +3.0 mm</text>
+
+  <rect x="764" y="536" width="364" height="42" fill="#ffffff" stroke="#d9d2c4" stroke-width="1"/>
+  <text x="946" y="554" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#18120c">send net figures + fit preference:</text>
+  <text x="946" y="570" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">loose drop-in or friction grip</text>
+
+  <text x="48" y="640" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">A drawing shows the layout — a filled sample proves the fit.</text>
+</svg>
