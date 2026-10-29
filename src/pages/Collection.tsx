@@ -13,7 +13,7 @@ export default function Collection({ slug }: { slug: string }) {
   const collection = getCollectionBySlug(slug);
 
   useEffect(() => {
-    if (collection) document.title = `${collection.slug === "custom-cosmetic-packaging" ? collection.h1 : collection.eyebrow} | ELAPACK`;
+    if (collection) document.title = collection.browserTitle ?? `${collection.slug === "custom-cosmetic-packaging" ? collection.h1 : collection.eyebrow} | ELAPACK`;
   }, [collection]);
 
   if (!collection) return null;

@@ -7253,8 +7253,15 @@ var getLandingBySlug = (slug) => landings.find((l) => l.slug === slug);
 // src/pages/Landing.tsx
 var import_jsx_runtime15 = require("react/jsx-runtime");
 var relatedProductSlugs = {
-  boxes: ["custom-ring-boxes", "magnetic-closure-gift-box", "custom-perfume-boxes"],
-  "pouches-bags": ["custom-velvet-pouches", "custom-cotton-pouches", "custom-satin-wig-bag"],
+  boxes: ["custom-ring-boxes", "magnetic-closure-gift-box", "luxury-gift-box-ribbon", "custom-perfume-boxes"],
+  "pouches-bags": [
+    "custom-velvet-pouches",
+    "custom-cotton-pouches",
+    "custom-satin-pouches",
+    "custom-muslin-drawstring-pouch",
+    "custom-microfiber-pouches",
+    "custom-satin-wig-bag"
+  ],
   sets: ["custom-ring-boxes", "custom-velvet-pouches", "custom-perfume-boxes", "custom-satin-pouches"]
 };
 function Landing({ slug }) {
@@ -7450,6 +7457,7 @@ var collections = [
   },
   {
     slug: "eyewear-packaging",
+    browserTitle: "Custom Eyewear Packaging \u2014 Glasses Boxes & Pouches | ELAPACK",
     eyebrow: "Eyewear Packaging",
     h1: "Custom Eyewear Packaging \u2014 Boxes & Pouches for Eyewear Brands",
     subhead: "Glasses boxes and fabric pouches that protect frames and carry your logo, made to your spec.",
@@ -7482,6 +7490,22 @@ var collections = [
           { title: "Logo print & foil", desc: "Silkscreen, hot stamp or foil on box and pouch." },
           { title: "Woven labels & embroidery", desc: "Quiet brand marks stitched into fabric." },
           { title: "Pantone matching", desc: "Box wrap and pouch fabric aligned to your brand colour." }
+        ]
+      },
+      {
+        heading: "Choose the format by buyer task",
+        items: [
+          { title: "Presentation box", desc: "Use a rigid or magnetic format when retail presentation and a fitted insert are the primary jobs. Confirm the folded-frame dimensions, insert contact and opening clearance in a sample." },
+          { title: "Everyday pouch", desc: "Use velvet, cotton or microfiber when the packaging should travel with the eyewear. Compare closure, usable opening and contact surface with the actual frames." },
+          { title: "Box + pouch program", desc: "Specify the box and pouch as separate components when the retail and after-sale jobs both matter. Confirm the quantity and sample check for each component." }
+        ]
+      },
+      {
+        heading: "Send a comparable eyewear packaging RFQ",
+        items: [
+          { title: "Packed product", desc: "Provide folded-frame dimensions, weight and any cloth, card or accessory that must fit inside." },
+          { title: "Format and fit", desc: "State box, pouch or both; preferred opening; insert or lining; and how the packed product will be shipped." },
+          { title: "Artwork and order", desc: "Send logo artwork, colour reference, quantity for each component, destination and target date." }
         ]
       }
     ],
@@ -7597,18 +7621,19 @@ var collections = [
   },
   {
     slug: "custom-wig-packaging",
+    browserTitle: "Custom Wig Packaging \u2014 Bags & Boxes | ELAPACK",
     eyebrow: "Wig & Hair Packaging",
-    h1: "Custom Wig Packaging \u2014 Satin Wig Bags & Boxes",
-    subhead: "Satin wig bags in the standard 30\xD740 cm format, plus boxes and sets for wig and hair extension brands \u2014 your size, colour and logo.",
-    metaDescription: "Custom wig packaging with your logo \u2014 satin drawstring wig bags in the standard 30\xD740 cm format, plus rigid and magnetic boxes for wigs and hair extensions. Bags from 200 pieces. Free stock samples.",
-    intro: "Custom packaging for wig and hair extension brands selling in the US and Europe. We make the satin bags that carry and protect the hair \u2014 smooth interiors that keep fibers from tangling \u2014 and the boxes that present the program at retail, matched in colour and branding. Photography of our wig packaging is in progress; every fact on this page is our confirmed trade terms, and stock samples are free, with USD 25 shipping and 4\u20137 day delivery, so you can judge materials in hand.",
+    h1: "Custom Wig Packaging \u2014 Bags & Boxes Built Around Your Hair Product",
+    subhead: "Compare satin bags, presentation boxes and matched sets by actual packed dimensions, intended use and sample fit.",
+    metaDescription: "Custom wig packaging with logo \u2014 compare satin bags, rigid boxes and matched sets by packed dimensions, intended use and sample fit. MOQ from 200 pieces.",
+    intro: "Custom packaging for wig and hair extension brands selling in the US and Europe. Start with the actual hair product, how it is packed and where the customer first meets it. Then compare a fabric bag for carrying or storage, a box for presentation, or both as separate components. Photography of our wig packaging is in progress; request a sample and check the interior contact, usable opening, closure and packed fit with your product before production.",
     sections: [
       {
         heading: "Wig bags",
         items: [
-          { title: "Satin drawstring bag", desc: "The standard 30\xD740 cm carrier \u2014 smooth satin lets fibers slide instead of snagging." },
+          { title: "Satin drawstring bag", desc: "Provide the packed hair dimensions and intended use, then confirm the satin, usable opening, closure and interior contact on a sample." },
           { title: "Cotton envelope pouches", desc: "Structured cotton carriers in flap-snap, flat-pocket and zip-envelope styles \u2014 from 200 pieces." },
-          { title: "Sized to your format", desc: "Any wig or extension length made to your dimensions, MOQ unchanged." },
+          { title: "Sized to your format", desc: "Quote the finished size from the actual folded or arranged product rather than assuming one size is universal." },
           { title: "Travel & storage bags", desc: "Larger formats with cord or zipper closures for storage and travel programs." }
         ]
       },
@@ -7879,9 +7904,9 @@ var collections = [
     slug: "custom-cosmetic-packaging",
     eyebrow: "Cosmetic & Beauty Packaging",
     h1: "Custom Cosmetic Packaging Boxes",
-    subhead: "Boxes and pouches for beauty brands \u2014 eyelash packaging from 200 pieces, gift boxes and cosmetic pouches with your logo.",
-    metaDescription: "Custom cosmetic packaging boxes and pouches for beauty brands. Discuss your dimensions, artwork and quantities. MOQ starts at 200 pieces.",
-    intro: "Explore custom boxes and pouches for beauty brands, including eyelash packaging, gift boxes and pouches. Share your product dimensions, quantity, branding and destination so we can review suitable options and prepare a quote.",
+    subhead: "Boxes and pouches for beauty brands \u2014 eyelash and press-on nail packaging, gift boxes and cosmetic pouches with your logo.",
+    metaDescription: "Custom cosmetic packaging boxes and pouches for beauty brands, including eyelash and press-on nail packaging. MOQ starts at 200 pieces.",
+    intro: "Explore custom boxes and pouches for beauty brands, including eyelash packaging, press-on nail packaging, gift boxes and pouches. Share your product dimensions, quantity, branding and destination so we can review suitable options and prepare a quote.",
     sections: [
       {
         heading: "Eyelash packaging boxes",
@@ -7889,6 +7914,14 @@ var collections = [
           { title: "From 200 pieces", desc: "Eyelash packaging starts at 200 pieces. Confirm artwork and colour allocation in the quotation." },
           { title: "Size and tray fit", desc: "Share the lash tray or product dimensions and desired presentation. Confirm box size and insert fit with the sample." },
           { title: "Fitted tray inserts", desc: "Discuss tray dimensions and the required insert layout for your chosen product." }
+        ]
+      },
+      {
+        heading: "Press-on nail packaging boxes",
+        items: [
+          { title: "Set and tray dimensions", desc: "Share the number of nail sets, tray dimensions and any accessories that must fit inside." },
+          { title: "Shade and size identification", desc: "Provide the artwork and information hierarchy buyers need to identify the set without opening the box." },
+          { title: "Sample fit check", desc: "Confirm tray retention, opening sequence and printed information with the actual nail set in a sample." }
         ]
       },
       {
@@ -7923,6 +7956,7 @@ var collections = [
     ],
     productSlugs: [
       "custom-eyelash-packaging-boxes",
+      "custom-press-on-nail-boxes",
       "magnetic-closure-gift-box",
       "luxury-gift-box-ribbon",
       "custom-cotton-pouches"
@@ -8191,7 +8225,7 @@ var import_jsx_runtime16 = require("react/jsx-runtime");
 function Collection({ slug }) {
   const collection = getCollectionBySlug(slug);
   (0, import_react15.useEffect)(() => {
-    if (collection) document.title = `${collection.slug === "custom-cosmetic-packaging" ? collection.h1 : collection.eyebrow} | ELAPACK`;
+    if (collection) document.title = collection.browserTitle ?? `${collection.slug === "custom-cosmetic-packaging" ? collection.h1 : collection.eyebrow} | ELAPACK`;
   }, [collection]);
   if (!collection) return null;
   const products3 = collection.productSlugs.map((s) => getProductBySlug(s)).filter((p) => p !== void 0);
@@ -8357,7 +8391,7 @@ var STATIC_TITLES = {
   "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 200 pcs | ELAPACK",
   "/eyewear-packaging": "Custom Eyewear Packaging \u2014 Glasses Boxes & Pouches | ELAPACK",
   "/custom-jewelry-pouches": "Custom Jewelry Pouches with Logo, from 200 pcs | ELAPACK",
-  "/custom-wig-packaging": "Custom Wig Packaging \u2014 Satin Wig Bags & Boxes | ELAPACK",
+  "/custom-wig-packaging": "Custom Wig Packaging \u2014 Bags & Boxes | ELAPACK",
   "/custom-jewelry-packaging": "Custom Jewelry Packaging \u2014 Boxes, Pouches & Display | ELAPACK",
   "/custom-gift-boxes": "Custom Gift Boxes with Logo, from 200 pcs | ELAPACK",
   "/custom-candle-boxes": "Custom Candle Boxes with Logo, from 200 pcs | ELAPACK",
@@ -8383,11 +8417,11 @@ var STATIC_DESCRIPTIONS = {
   "/custom-jewelry-boxes": "Custom jewelry boxes with your logo \u2014 rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
   "/eyewear-packaging": "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
   "/custom-jewelry-pouches": "Custom jewelry pouches with logo \u2014 velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",
-  "/custom-wig-packaging": "Custom wig packaging with your logo \u2014 satin drawstring wig bags in the standard 30\xD740 cm format, plus rigid and magnetic boxes for wigs and hair extensions. Bags from 200 pieces. Free stock samples.",
+  "/custom-wig-packaging": "Custom wig packaging with logo \u2014 compare satin bags, rigid boxes and matched sets by packed dimensions, intended use and sample fit. MOQ from 200 pieces.",
   "/custom-jewelry-packaging": "Custom jewelry packaging from one manufacturer \u2014 logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
   "/custom-gift-boxes": "Custom gift boxes with your logo \u2014 magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 200 pieces, free stock samples.",
   "/custom-candle-boxes": "Custom candle boxes with logo \u2014 rigid, magnetic and sleeve formats sized to jars and tins, with steady-glass inserts. MOQ 200 pieces, free stock samples.",
-  "/custom-cosmetic-packaging": "Custom cosmetic packaging \u2014 eyelash boxes from 200 pieces, magnetic and rigid gift boxes for beauty brands, plus fabric and clear PVC-zip cosmetic pouches with your logo. One manufacturer, matched branding. Free stock samples.",
+  "/custom-cosmetic-packaging": "Custom cosmetic packaging for beauty brands, including eyelash and press-on nail boxes, gift boxes and pouches. MOQ from 200 pieces.",
   "/custom-drawstring-bags": "Custom drawstring bags with your logo \u2014 cotton, velvet, satin, muslin and linen pouches in any size, plus handbag and shoe dust bag formats. MOQ from 200 pieces, free stock samples.",
   "/ribbons-accessories": "Custom printed ribbons and packaging accessories \u2014 satin ribbon closures, logo-printed ribbon programs, cotton cords and drawstrings matched to your box and pouch programs.",
   "/custom-cosmetic-pouches": "Custom cosmetic pouches and makeup bags with your logo \u2014 drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas, plus clear PVC zip bags. MOQ from 200 pieces, free stock samples.",

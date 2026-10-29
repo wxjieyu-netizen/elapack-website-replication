@@ -4,8 +4,15 @@ import { getLandingBySlug } from "../data/landings";
 import { getProductBySlug } from "../data/products";
 
 const relatedProductSlugs: Record<string, string[]> = {
-  boxes: ["custom-ring-boxes", "magnetic-closure-gift-box", "custom-perfume-boxes"],
-  "pouches-bags": ["custom-velvet-pouches", "custom-cotton-pouches", "custom-satin-wig-bag"],
+  boxes: ["custom-ring-boxes", "magnetic-closure-gift-box", "luxury-gift-box-ribbon", "custom-perfume-boxes"],
+  "pouches-bags": [
+    "custom-velvet-pouches",
+    "custom-cotton-pouches",
+    "custom-satin-pouches",
+    "custom-muslin-drawstring-pouch",
+    "custom-microfiber-pouches",
+    "custom-satin-wig-bag",
+  ],
   sets: ["custom-ring-boxes", "custom-velvet-pouches", "custom-perfume-boxes", "custom-satin-pouches"],
 };
 
