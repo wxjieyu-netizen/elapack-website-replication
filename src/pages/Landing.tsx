@@ -18,7 +18,7 @@ export default function Landing({ slug }: { slug: string }) {
   const landing = getLandingBySlug(slug);
 
   useEffect(() => {
-    if (landing) document.title = `${landing.eyebrow} | ELAPACK`;
+    if (landing) document.title = `${landing.titleTag ?? `${landing.eyebrow} | ELAPACK`}`;
   }, [landing]);
 
   if (!landing) return null;

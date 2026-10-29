@@ -62,7 +62,7 @@ const ROUTES = [
 const STATIC_TITLES: Record<string, string> = {
   "/": "ELAPACK — Custom Luxury Packaging for Global Brands",
   "/pouches-bags": "Custom Fabric Pouches & Bags from 200 pcs | ELAPACK",
-  "/boxes": "Custom Rigid, Folding & Magnetic Boxes from 200 pcs | ELAPACK",
+  "/boxes": "Custom Rigid Boxes & Magnetic Gift Boxes from 200 Pieces | ELAPACK",
   "/sets": "Custom Packaging Sets — Pouch, Box & More | ELAPACK",
   "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 200 pcs | ELAPACK",
   "/eyewear-packaging": "Custom Eyewear Packaging — Glasses Boxes & Pouches | ELAPACK",
@@ -90,7 +90,7 @@ const STATIC_TITLES: Record<string, string> = {
 const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets — one-stop custom packaging.",
   "/pouches-bags": "Custom textile pouches and bags — velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
-  "/boxes": "Custom rigid, folding carton and magnetic closure boxes with EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 200 pieces.",
+  "/boxes": "Custom rigid boxes in your size, finish and branding — lift-off lid, magnetic flap and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ from 200 pieces.",
   "/sets": "Custom packaging sets — pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference.",
   "/custom-jewelry-boxes": "Custom jewelry boxes with your logo — rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
   "/eyewear-packaging": "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",

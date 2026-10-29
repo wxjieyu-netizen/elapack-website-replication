@@ -20,6 +20,7 @@ export interface Landing {
   hero?: LandingImage;
   gallery?: LandingImage[];
   eyebrow: string;
+  titleTag?: string;
   h1: string;
   subhead: string;
   metaDescription: string;
@@ -117,12 +118,13 @@ export const landings: Landing[] = [
       { src: "/images/factory/elapack-06.jpg", alt: "Automated box-making machine in ELAPACK's paper packaging workshop" },
     ],
     eyebrow: "Boxes",
-    h1: "Custom Rigid, Folding & Magnetic Boxes — Made to Your Spec, from 200 Pieces",
+    titleTag: "Custom Rigid Boxes & Magnetic Gift Boxes from 200 Pieces | ELAPACK",
+    h1: "Custom Rigid Boxes, Folding Cartons & Magnetic Closures — Made to Your Spec, from 200 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
     metaDescription:
-      "Custom packaging boxes — rigid, folding carton and magnetic closure boxes with optional EVA, sponge, pulp or flocked inserts, in your size, finish and branding. MOQ from 200 pieces.",
+      "Custom rigid boxes in your size, finish and branding — lift-off lid, magnetic flap and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ from 200 pieces.",
     intro:
-      "ELAPACK makes custom boxes for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification — not from stock — so the box fits your product and carries your brand, not the other way round.",
+      "ELAPACK makes custom rigid boxes, folding cartons and magnetic closure boxes for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification — not from stock — so the box fits your product and carries your brand, not the other way round.",
     why: {
       heading: "Box styles",
       items: [
