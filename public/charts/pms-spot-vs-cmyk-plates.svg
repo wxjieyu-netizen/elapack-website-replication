@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Spot color versus CMYK plate structure: one to two plates per PMS spot color versus four CMYK plates, with suffix meaning C coated M matte U uncoated">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text x="60" y="64" font-family="Georgia,serif" font-size="26" font-weight="600" fill="#18120c">Two ways to put color on a box</text>
+    <text x="60" y="90" font-size="14" fill="#6b6258">A PMS spot color needs only 1 to 2 plates per color; CMYK builds every color from four — the plate count is the cost structure</text>
+
+    <!-- left: spot -->
+    <g transform="translate(60 130)">
+      <text x="0" y="16" font-size="14" font-weight="600" fill="#18120c">PMS spot color — pre-mixed ink</text>
+      <g transform="translate(0 40)">
+        <rect x="0" y="0" width="150" height="200" rx="6" fill="#241c12"/>
+        <text x="75" y="115" text-anchor="middle" font-size="30" fill="#b08d46" font-family="Georgia,serif">PMS</text>
+        <text x="75" y="225" text-anchor="middle" font-size="12" fill="#6b6258">plate 1 — the brand color, mixed before printing</text>
+      </g>
+      <g transform="translate(190 40)">
+        <rect x="0" y="0" width="150" height="200" rx="6" fill="#3d3227"/>
+        <text x="75" y="115" text-anchor="middle" font-size="30" fill="#d8cba9" font-family="Georgia,serif">PMS</text>
+        <text x="75" y="225" text-anchor="middle" font-size="12" fill="#6b6258">plate 2 (optional second brand color)</text>
+      </g>
+      <g transform="translate(0 300)" font-size="12.5" fill="#6b6258">
+        <text x="0" y="0">The code prescribes an ink, not an appearance — the same</text>
+        <text x="0" y="20">code lands the same physical color across presses and factories.</text>
+        <text x="0" y="52">Sharper and often cheaper for one- and two-color designs —</text>
+        <text x="0" y="72">why simple luxury packaging skews toward spot color.</text>
+      </g>
+    </g>
+
+    <!-- right: CMYK -->
+    <g transform="translate(640 130)">
+      <text x="0" y="16" font-size="14" font-weight="600" fill="#18120c">CMYK process — four transparent inks</text>
+      <g transform="translate(0 40)" text-anchor="middle">
+        <rect x="0" y="0" width="100" height="200" rx="6" fill="#00a3e0"/>
+        <text x="50" y="115" font-size="26" fill="#ffffff" font-family="Georgia,serif">C</text>
+        <text x="50" y="225" font-size="12" fill="#6b6258">cyan</text>
+        <rect x="120" y="0" width="100" height="200" rx="6" fill="#e5007d"/>
+        <text x="170" y="115" font-size="26" fill="#ffffff" font-family="Georgia,serif">M</text>
+        <text x="170" y="225" font-size="12" fill="#6b6258">magenta</text>
+        <rect x="240" y="0" width="100" height="200" rx="6" fill="#ffd700"/>
+        <text x="290" y="115" font-size="26" fill="#18120c" font-family="Georgia,serif">Y</text>
+        <text x="290" y="225" font-size="12" fill="#6b6258">yellow</text>
+        <rect x="360" y="0" width="100" height="200" rx="6" fill="#18120c"/>
+        <text x="410" y="115" font-size="26" fill="#ffffff" font-family="Georgia,serif">K</text>
+        <text x="410" y="225" font-size="12" fill="#6b6258">black</text>
+      </g>
+      <g transform="translate(0 300)" font-size="12.5" fill="#6b6258">
+        <text x="0" y="0">Economical default for photographic and full-coverage art —</text>
+        <text x="0" y="20">every color built from the same four plates.</text>
+        <text x="0" y="52">Rule of thumb: full-color panels print CMYK; brand-critical fields —</text>
+        <text x="0" y="72">logo, brand-color band, signature accent — print as spot color.</text>
+      </g>
+    </g>
+
+    <!-- suffix strip -->
+    <g transform="translate(60 600)">
+      <text x="0" y="0" font-size="12.5" fill="#18120c" font-weight="600">The suffix names the paper it was matched on:</text>
+      <text x="180" y="0" font-size="12.5" fill="#6b6258">C = coated · M = matte · U = uncoated — the same code reads slightly different on each; pick the suffix that matches your production material.</text>
+    </g>
+  </g>
+</svg>

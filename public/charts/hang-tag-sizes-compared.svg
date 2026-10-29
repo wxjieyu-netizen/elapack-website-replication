@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Hang tag sizes compared to scale: 1.5 inch jewelry tags, 2x2, 2x3 and 2x3.5 apparel standards, 2x8 long formats and 8.5x11 sheets, with use notes">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text x="60" y="64" font-family="Georgia,serif" font-size="26" font-weight="600" fill="#18120c">Tag sizes, drawn to scale</text>
+    <text x="60" y="90" font-size="14" fill="#6b6258">The market converges on a narrow band — match the tag to what must sit on it, not to a catalogue default</text>
+
+    <!-- scale: 1 inch = 16px. heights: 1.5->24, 2->32, 3->48, 3.5->56, 8->128, 11->176 -->
+    <g transform="translate(60 150)" text-anchor="middle">
+      <g transform="translate(0 0)">
+        <rect x="0" y="152" width="24" height="24" fill="#b08d46"/>
+        <text x="12" y="200" font-size="12.5" font-weight="600" fill="#18120c">1.5″</text>
+        <text x="12" y="218" font-size="11" fill="#6b6258">jewelry price</text>
+        <text x="12" y="234" font-size="11" fill="#6b6258">+ logo</text>
+      </g>
+      <g transform="translate(120 0)">
+        <rect x="0" y="144" width="32" height="32" fill="none" stroke="#8a7d6d" stroke-width="2"/>
+        <text x="16" y="200" font-size="12.5" font-weight="600" fill="#18120c">2×2</text>
+        <text x="16" y="218" font-size="11" fill="#6b6258">small goods</text>
+      </g>
+      <g transform="translate(240 0)">
+        <rect x="0" y="128" width="32" height="48" fill="#241c12"/>
+        <circle cx="16" cy="136" r="2.5" fill="#faf9f7"/>
+        <text x="16" y="200" font-size="12.5" font-weight="600" fill="#18120c">2×3</text>
+        <text x="16" y="218" font-size="11" fill="#b08d46">apparel standard</text>
+      </g>
+      <g transform="translate(360 0)">
+        <rect x="0" y="120" width="32" height="56" fill="#241c12"/>
+        <circle cx="16" cy="128" r="2.5" fill="#faf9f7"/>
+        <text x="16" y="200" font-size="12.5" font-weight="600" fill="#18120c">2×3.5</text>
+        <text x="16" y="218" font-size="11" fill="#b08d46">apparel standard</text>
+        <text x="16" y="234" font-size="11" fill="#6b6258">+ story panel</text>
+      </g>
+      <g transform="translate(480 0)">
+        <rect x="0" y="48" width="32" height="128" fill="none" stroke="#8a7d6d" stroke-width="2"/>
+        <circle cx="16" cy="56" r="2.5" fill="#6b6258"/>
+        <text x="16" y="200" font-size="12.5" font-weight="600" fill="#18120c">2×8</text>
+        <text x="16" y="218" font-size="11" fill="#6b6258">long formats:</text>
+        <text x="16" y="234" font-size="11" fill="#6b6258">size charts,</text>
+        <text x="16" y="250" font-size="11" fill="#6b6258">multi-language</text>
+      </g>
+      <g transform="translate(620 0)">
+        <rect x="0" y="0" width="136" height="176" fill="none" stroke="#8a7d6d" stroke-width="2"/>
+        <circle cx="68" cy="8" r="2.5" fill="#6b6258"/>
+        <text x="68" y="200" font-size="12.5" font-weight="600" fill="#18120c">8.5×11</text>
+        <text x="68" y="218" font-size="11" fill="#6b6258">full sheet —</text>
+        <text x="68" y="234" font-size="11" fill="#6b6258">UPrinting ceiling</text>
+      </g>
+      <!-- scale bar -->
+      <g transform="translate(620 250)">
+        <line x1="0" y1="0" x2="32" y2="0" stroke="#18120c" stroke-width="2"/>
+        <line x1="0" y1="-5" x2="0" y2="5" stroke="#18120c" stroke-width="2"/>
+        <line x1="32" y1="-5" x2="32" y2="5" stroke="#18120c" stroke-width="2"/>
+        <text x="16" y="20" font-size="11" fill="#6b6258">2 inches</text>
+      </g>
+    </g>
+
+    <!-- right rail -->
+    <g transform="translate(880 150)" font-size="12.5">
+      <text x="0" y="10" font-weight="600" fill="#18120c" font-size="14">Reading the band</text>
+      <g fill="#6b6258">
+        <text x="0" y="44">Vistaprint: eight sizes, 2×2 to 2×8;</text>
+        <text x="0" y="64">2×3 and 2×3.5 are the “standard yet</text>
+        <text x="0" y="84">versatile” apparel sizes.</text>
+        <text x="0" y="118">UPrinting: custom sizes 2×2 to 8.5×11</text>
+        <text x="0" y="138">plus shaped options — 2.5″ circles,</text>
+        <text x="0" y="158">leaf and half-circle at 2×3.5.</text>
+        <text x="0" y="192">The tag should sit on the product</text>
+        <text x="0" y="212">without drooping over its edge — on</text>
+        <text x="0" y="232">small goods the tag is often the largest</text>
+        <text x="0" y="252">printed element in the room: an argument</text>
+        <text x="0" y="272">for restraint, not for size.</text>
+      </g>
+    </g>
+
+    <text x="60" y="560" font-size="12.5" fill="#6b6258">Shaped formats — circles, leaf, half-circle — sit alongside the rectangles in the same configurators; jewelry tags often use a reinforced sombrero hole.</text>
+    <text x="60" y="582" font-size="12.5" fill="#6b6258">Stocks cluster at 14–18 pt across the market; the standard hole is about 0.15″ (4 mm), centered near the top edge.</text>
+  </g>
+</svg>

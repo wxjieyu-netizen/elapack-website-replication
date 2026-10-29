@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Hang tag specification is five lines: size, stock, print, hole and cord — with the cord as the line most buyers forget">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text x="60" y="64" font-family="Georgia,serif" font-size="26" font-weight="600" fill="#18120c">The specification that travels well is five lines</text>
+    <text x="60" y="90" font-size="14" fill="#6b6258">Size, stock, print, hole — and cord. The cord is the line most buyers forget to ask about</text>
+
+    <!-- spec card -->
+    <g transform="translate(60 140)">
+      <rect x="0" y="0" width="520" height="400" rx="8" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <g font-size="13.5">
+        <text x="28" y="46" font-weight="600" fill="#18120c">SIZE</text>
+        <text x="130" y="46" fill="#6b6258">2×3 or 2×3.5 apparel standard · 1.5–2″ jewelry · long formats for charts</text>
+        <line x1="28" y1="66" x2="492" y2="66" stroke="#e5dfd4"/>
+
+        <text x="28" y="106" font-weight="600" fill="#18120c">STOCK</text>
+        <text x="130" y="106" fill="#6b6258">14–16 pt covers most brand tags · 18 pt kraft heavy natural</text>
+        <line x1="28" y1="126" x2="492" y2="126" stroke="#e5dfd4"/>
+
+        <text x="28" y="166" font-weight="600" fill="#18120c">PRINT</text>
+        <text x="130" y="166" fill="#6b6258">digital full colour · silkscreen solids · foil metallic · one or both sides</text>
+        <line x1="28" y1="186" x2="492" y2="186" stroke="#e5dfd4"/>
+
+        <text x="28" y="226" font-weight="600" fill="#18120c">HOLE</text>
+        <text x="130" y="226" fill="#6b6258">≈0.15″ (4 mm), centered near top · 5 positions on request</text>
+        <line x1="28" y1="246" x2="492" y2="246" stroke="#e5dfd4"/>
+
+        <text x="28" y="286" font-weight="600" fill="#b08d46">CORD</text>
+        <text x="130" y="286" fill="#18120c" font-weight="600">material · thickness · attachment — its own line, never an assumption</text>
+        <line x1="28" y1="306" x2="492" y2="306" stroke="#e5dfd4"/>
+        <text x="130" y="336" fill="#6b6258">cotton and jute for natural/kraft · finer cords for jewelry ·</text>
+        <text x="130" y="356" fill="#6b6258">elastic loops for tags pulled on and off repeatedly</text>
+      </g>
+      <!-- hole marker -->
+      <circle cx="446" cy="215" r="5" fill="none" stroke="#b08d46" stroke-width="2"/>
+      <line x1="446" y1="222" x2="446" y2="224" stroke="#b08d46" stroke-width="1.5"/>
+    </g>
+
+    <!-- right rail: string facts -->
+    <g transform="translate(660 140)" font-size="12.5">
+      <text x="0" y="10" font-weight="600" fill="#18120c" font-size="14">Where string assumptions die</text>
+      <g fill="#6b6258">
+        <text x="0" y="44">“Strings are not included with standard orders” (UPrinting);</text>
+        <text x="0" y="64">Vistaprint sells cord separately — a 23-ft cotton or jute rope,</text>
+        <text x="0" y="84">2 mm thick, cutting for about 50 tags.</text>
+        <text x="0" y="120" fill="#18120c" font-weight="600">A stringing lane exists as a service:</text>
+        <text x="0" y="148">· poly/cotton, elastic or natural cords</text>
+        <text x="0" y="168">· knotted — arrives retail-ready, pre-tied at the ends</text>
+        <text x="0" y="188">· looped — the end user ties; labor stays with your team</text>
+        <text x="0" y="208">· strings shipped loose with the order as a third option</text>
+        <text x="0" y="244">Cotton and elastic strings run “in lengths from 2 to 10 inches</text>
+        <text x="0" y="264">from hole to knot”; tags can arrive “drilled and pre-strung”.</text>
+        <text x="0" y="300">Non-standard cord colors carry “higher minimum orders and</text>
+        <text x="0" y="320">extended lead times”; per-piece attaching labor is quoted with</text>
+        <text x="0" y="340">the service, not published — budget it as a finishing line.</text>
+      </g>
+    </g>
+
+    <text x="60" y="600" font-size="12.5" fill="#6b6258">Cord supply and options are confirmed in the quotation rather than assumed from a catalog — the five-line spec keeps every party quoting the same tag.</text>
+  </g>
+</svg>

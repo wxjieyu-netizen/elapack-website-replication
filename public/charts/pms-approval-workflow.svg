@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="PMS color approval workflow: supply codes from the brand guideline, check layout only on the digital proof, approve a physical proof on the real substrate, then the approved sample governs the production run">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text x="60" y="64" font-family="Georgia,serif" font-size="26" font-weight="600" fill="#18120c">From color choice to production standard</text>
+    <text x="60" y="90" font-size="14" fill="#6b6258">The proof-and-approval workflow that makes brand color repeatable across runs — four moves, each with its own job</text>
+
+    <!-- four-step flow -->
+    <g transform="translate(60 150)" font-size="13">
+      <g transform="translate(0 0)">
+        <rect x="0" y="0" width="240" height="270" rx="6" fill="none" stroke="#b08d46"/>
+        <rect x="16" y="16" width="42" height="28" fill="#241c12"/>
+        <text x="37" y="35" text-anchor="middle" font-size="14" fill="#b08d46" font-weight="600">1</text>
+        <text x="16" y="72" font-weight="600" fill="#18120c">Supply codes from the brand guideline</text>
+        <g font-size="12" fill="#6b6258">
+          <text x="16" y="100">Pantone codes for each brand color,</text>
+          <text x="16" y="118">ideally from an existing guideline.</text>
+          <text x="16" y="152">No guideline? A physical sample or</text>
+          <text x="16" y="170">high-resolution file, matched against</text>
+          <text x="16" y="188">a Pantone fan deck — slower, and</text>
+          <text x="16" y="206">committed to that matcher's deck.</text>
+        </g>
+      </g>
+      <g transform="translate(290 0)">
+        <rect x="0" y="0" width="240" height="270" rx="6" fill="none" stroke="#b08d46"/>
+        <rect x="16" y="16" width="42" height="28" fill="#3d3227"/>
+        <text x="37" y="35" text-anchor="middle" font-size="14" fill="#d8cba9" font-weight="600">2</text>
+        <text x="16" y="72" font-weight="600" fill="#18120c">Digital proof — layout only</text>
+        <g font-size="12" fill="#6b6258">
+          <text x="16" y="100">Useful for checking layout and text,</text>
+          <text x="16" y="118">but “not reliable for judging actual</text>
+          <text x="16" y="136">color accuracy” — screens display</text>
+          <text x="16" y="154">color differently from print.</text>
+          <text x="16" y="188">Approving color from a digital proof</text>
+          <text x="16" y="206">alone is the most common mistake.</text>
+        </g>
+      </g>
+      <g transform="translate(580 0)">
+        <rect x="0" y="0" width="240" height="270" rx="6" fill="none" stroke="#b08d46"/>
+        <rect x="16" y="16" width="42" height="28" fill="#b08d46"/>
+        <text x="37" y="35" text-anchor="middle" font-size="14" fill="#faf9f7" font-weight="600">3</text>
+        <text x="16" y="72" font-weight="600" fill="#18120c">Physical proof on the real substrate</text>
+        <g font-size="12" fill="#6b6258">
+          <text x="16" y="100">Printed on the actual material — the</text>
+          <text x="16" y="118">same paper, board or fabric as the</text>
+          <text x="16" y="136">final product — with the specified</text>
+          <text x="16" y="154">Pantone inks, shipped for approval.</text>
+          <text x="16" y="188">Our version: the custom sample —</text>
+          <text x="16" y="206">USD 25 + USD 20, made in 3–5 days.</text>
+        </g>
+      </g>
+      <g transform="translate(870 0)">
+        <rect x="0" y="0" width="240" height="270" rx="6" fill="#241c12"/>
+        <rect x="16" y="16" width="42" height="28" fill="#b08d46"/>
+        <text x="37" y="35" text-anchor="middle" font-size="14" fill="#18120c" font-weight="600">4</text>
+        <text x="16" y="72" font-weight="600" fill="#faf9f7">The approved sample governs the run</text>
+        <g font-size="12" fill="#d8cba9">
+          <text x="16" y="100">It becomes the reference standard</text>
+          <text x="16" y="118">for the full production run; any</text>
+          <text x="16" y="136">deviation from it during mass</text>
+          <text x="16" y="154">production is treated as a quality</text>
+          <text x="16" y="172">issue, not a preference.</text>
+          <text x="16" y="206">Reorders repeat against the same</text>
+          <text x="16" y="224">approved reference.</text>
+        </g>
+      </g>
+      <!-- arrows -->
+      <g stroke="#b08d46" stroke-width="2">
+        <line x1="246" y1="135" x2="284" y2="135"/>
+        <line x1="536" y1="135" x2="574" y2="135"/>
+        <line x1="826" y1="135" x2="864" y2="135"/>
+      </g>
+    </g>
+
+    <text x="60" y="500" font-size="12.5" fill="#18120c" font-weight="600">The supplier test: a good manufacturer provides Pantone-matched physical proofs “as a standard step before mass production, not an optional add-on.”</text>
+    <text x="60" y="526" font-size="12.5" fill="#6b6258">One code, three materials (box, pouch, band) = three closely-related but not identical landings — managed by approving each material's proof, not by demanding the impossible from a single swatch.</text>
+    <text x="60" y="552" font-size="12.5" fill="#6b6258">Lamination moves color too: matte desaturates slightly and can tint; gloss enhances saturation — name the production material and finish in the specification, then approve color on it.</text>
+  </g>
+</svg>

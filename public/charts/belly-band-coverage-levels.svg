@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Belly band versus sleeve versus full printed box: three escalation levels of branding a plain box, band covering 20 to 30 percent, sleeve covering most, full print covering everything">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text x="60" y="64" font-family="Georgia,serif" font-size="26" font-weight="600" fill="#18120c">Three escalation levels for branding a plain box</text>
+    <text x="60" y="90" font-size="14" fill="#6b6258">The economics follow the material — a strip, a panel, or a whole sheet wrapped on board</text>
+
+    <!-- level 1: band -->
+    <g transform="translate(80 150)">
+      <rect x="0" y="0" width="280" height="200" fill="none" stroke="#8a7d6d" stroke-width="2.5"/>
+      <rect x="0" y="70" width="280" height="60" fill="#b08d46"/>
+      <text x="140" y="106" text-anchor="middle" font-size="13" fill="#faf9f7">band — thin paper strip</text>
+      <text x="140" y="240" text-anchor="middle" font-size="14" font-weight="600" fill="#18120c">BAND</text>
+      <text x="140" y="262" text-anchor="middle" font-size="12" fill="#6b6258">covers about 20–30% of the face</text>
+      <text x="140" y="282" text-anchor="middle" font-size="12" fill="#6b6258">one strip around the middle — least</text>
+      <text x="140" y="300" text-anchor="middle" font-size="12" fill="#6b6258">material, message swappable per run</text>
+    </g>
+
+    <!-- level 2: sleeve -->
+    <g transform="translate(460 150)">
+      <rect x="0" y="0" width="280" height="200" fill="none" stroke="#8a7d6d" stroke-width="2.5"/>
+      <rect x="10" y="10" width="260" height="180" fill="#3d3227"/>
+      <rect x="40" y="55" width="200" height="90" fill="#faf9f7" opacity="0.25"/>
+      <text x="140" y="106" text-anchor="middle" font-size="13" fill="#d8cba9">sleeve — thicker board panel</text>
+      <text x="140" y="240" text-anchor="middle" font-size="14" font-weight="600" fill="#18120c">SLEEVE</text>
+      <text x="140" y="262" text-anchor="middle" font-size="12" fill="#6b6258">wraps more of the box — often a full</text>
+      <text x="140" y="282" text-anchor="middle" font-size="12" fill="#6b6258">perimeter or large slide-on panel,</text>
+      <text x="140" y="300" text-anchor="middle" font-size="12" fill="#6b6258">on thicker board than a band</text>
+    </g>
+
+    <!-- level 3: full print -->
+    <g transform="translate(840 150)">
+      <rect x="0" y="0" width="280" height="200" fill="#241c12"/>
+      <text x="140" y="106" text-anchor="middle" font-size="13" fill="#b08d46">every surface printed</text>
+      <text x="140" y="240" text-anchor="middle" font-size="14" font-weight="600" fill="#18120c">FULL PRINTED BOX</text>
+      <text x="140" y="262" text-anchor="middle" font-size="12" fill="#6b6258">maximum brand surface, maximum print</text>
+      <text x="140" y="282" text-anchor="middle" font-size="12" fill="#6b6258">cost — and the design is committed:</text>
+      <text x="140" y="300" text-anchor="middle" font-size="12" fill="#6b6258">change the message, reprint the box</text>
+    </g>
+
+    <text x="60" y="540" font-size="12.5" fill="#6b6258">The ceiling test: past about a third of the face, a sleeve or a printed box is usually the better product.</text>
+    <text x="60" y="562" font-size="12.5" fill="#6b6258">The strategic use is versioning — one plain box stock, many bands: seasonal messages, limited runs, channel copy, base box unchanged.</text>
+    <text x="60" y="584" font-size="12.5" fill="#6b6258">Bands also do physical jobs: bundling multi-piece mailings into one neat bundle, and keeping packages from opening in transit or on display.</text>
+  </g>
+</svg>

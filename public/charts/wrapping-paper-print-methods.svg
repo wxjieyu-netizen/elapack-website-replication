@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Wrapping paper print methods compared: digital CMYK for full colour, silkscreen for spot colour solids, foil stamping for true metallic, with recycling trade-off">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text x="60" y="64" font-family="Georgia,serif" font-size="26" font-weight="600" fill="#18120c">Three print methods, three jobs</text>
+    <text x="60" y="90" font-size="14" fill="#6b6258">The choice follows the artwork — full-colour art, solid brand colour, or true metallic each have their own process</text>
+
+    <!-- three columns -->
+    <g transform="translate(60 130)" font-size="14">
+      <g transform="translate(0 0)">
+        <rect x="0" y="0" width="340" height="360" rx="6" fill="none" stroke="#b08d46"/>
+        <rect x="20" y="20" width="300" height="70" fill="#3d3227"/>
+        <text x="170" y="60" text-anchor="middle" font-size="13" fill="#d8cba9">full-coverage CMYK art</text>
+        <text x="20" y="124" font-weight="600" fill="#18120c">Digital CMYK</text>
+        <g font-size="12.5" fill="#6b6258">
+          <text x="20" y="152">Photographic patterns, gradients,</text>
+          <text x="20" y="170">multi-colour illustration.</text>
+          <text x="20" y="204">No plates — prices short runs well;</text>
+          <text x="20" y="222">the US print-on-demand default.</text>
+          <text x="20" y="256">Limit: no solid metallics; some deep</text>
+          <text x="20" y="274">solids print better in other processes.</text>
+          <text x="20" y="316" fill="#18120c">Everyday pattern — the volume base.</text>
+        </g>
+      </g>
+      <g transform="translate(370 0)">
+        <rect x="0" y="0" width="340" height="360" rx="6" fill="none" stroke="#b08d46"/>
+        <rect x="20" y="20" width="300" height="70" fill="#241c12"/>
+        <text x="170" y="50" text-anchor="middle" font-size="13" fill="#faf9f7">one · two · three</text>
+        <text x="170" y="70" text-anchor="middle" font-size="13" fill="#b08d46">spot colour solids</text>
+        <text x="20" y="124" font-weight="600" fill="#18120c">Silkscreen</text>
+        <g font-size="12.5" fill="#6b6258">
+          <text x="20" y="152">Logo grids and repeating patterns</text>
+          <text x="20" y="170">printed as solid spot colours.</text>
+          <text x="20" y="204">Lays down more ink than digital —</text>
+          <text x="20" y="222">solid brand colour stays crisp on kraft</text>
+          <text x="20" y="240">and uncoated stocks.</text>
+          <text x="20" y="274">Screens rather than plates; prices</text>
+          <text x="20" y="292">well as runs grow.</text>
+          <text x="20" y="316" fill="#18120c">Everyday pattern — the crisp option.</text>
+        </g>
+      </g>
+      <g transform="translate(740 0)">
+        <rect x="0" y="0" width="340" height="360" rx="6" fill="none" stroke="#b08d46"/>
+        <rect x="20" y="20" width="300" height="70" fill="#b08d46"/>
+        <text x="170" y="60" text-anchor="middle" font-size="13" fill="#faf9f7">a metal layer, not metallic ink</text>
+        <text x="20" y="124" font-weight="600" fill="#18120c">Foil stamping</text>
+        <g font-size="12.5" fill="#6b6258">
+          <text x="20" y="152">Metal die presses foil onto the sheet —</text>
+          <text x="20" y="170">reflectivity ink cannot reach (PMS 872</text>
+          <text x="20" y="188">metallic ink simulates; foil is real).</text>
+          <text x="20" y="222">Costs a die and a pass.</text>
+          <text x="20" y="256">Recycling trade-off: “a single foil accent</text>
+          <text x="20" y="274">is enough to send the whole sheet to</text>
+          <text x="20" y="292">the trash” — standard-ink sheets recycle.</text>
+          <text x="20" y="316" fill="#18120c">Seasonal and gift-tier editions.</text>
+        </g>
+      </g>
+    </g>
+
+    <text x="60" y="560" font-size="12.5" fill="#6b6258">A practical split: silkscreen or digital for the everyday pattern, foil reserved for the edition where the metallic carries its cost in perceived value.</text>
+    <text x="60" y="582" font-size="12.5" fill="#6b6258">All three run on one sheet programme at the factory — a combination to confirm in the quotation, not assume from a catalogue.</text>
+  </g>
+</svg>

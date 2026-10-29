@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Jewelry outer shipping box rules: right-size to inner box plus dunnage, under 1 lb and under 10 inches is the cheapest carrier tier">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text x="60" y="64" font-family="Georgia,serif" font-size="26" font-weight="600" fill="#18120c">Right-sizing the outer box</text>
+    <text x="60" y="90" font-size="14" fill="#6b6258">Most jewelry ships well under 1 lb and under 10 inches per side — the cheapest rate tier at every major carrier</text>
+
+    <!-- diagram: inner box inside outer with 1" dunnage -->
+    <g transform="translate(60 130)">
+      <rect x="0" y="0" width="480" height="360" rx="8" fill="none" stroke="#8a7d6d" stroke-width="2.5"/>
+      <text x="240" y="30" text-anchor="middle" font-size="13" fill="#6b6258">outer box — one size up from the inner box</text>
+      <rect x="70" y="70" width="340" height="220" rx="4" fill="#241c12"/>
+      <text x="240" y="185" text-anchor="middle" font-size="13" fill="#d8cba9">inner fitted box</text>
+      <!-- dimension callouts -->
+      <g stroke="#b08d46" stroke-width="1.5">
+        <line x1="35" y1="70" x2="35" y2="290"/>
+        <line x1="445" y1="70" x2="445" y2="290"/>
+      </g>
+      <text x="56" y="180" font-size="12" fill="#b08d46">≈1″ dunnage</text>
+      <text x="384" y="180" font-size="12" fill="#b08d46">≈1″ dunnage</text>
+      <text x="240" y="330" text-anchor="middle" font-size="12" fill="#6b6258">plain brown box — no jewelry brand name on the label</text>
+    </g>
+
+    <!-- right rail -->
+    <g transform="translate(600 130)" font-size="14">
+      <rect x="0" y="0" width="540" height="104" rx="6" fill="none" stroke="#b08d46"/>
+      <text x="20" y="32" font-weight="600" fill="#18120c">The cheap tier is structural, not lucky</text>
+      <text x="20" y="58" font-size="12.5" fill="#6b6258">A ring or necklace box “ships in a box well under 1 lb and under</text>
+      <text x="20" y="76" font-size="12.5" fill="#6b6258">10 inches on any side” — savings come from right-sizing the outer</text>
+      <text x="20" y="94" font-size="12.5" fill="#6b6258">box, not from downgrading the protective layers.</text>
+
+      <rect x="0" y="126" width="540" height="104" rx="6" fill="none" stroke="#b08d46"/>
+      <text x="20" y="158" font-weight="600" fill="#18120c">Carrier rules rule out padded envelopes</text>
+      <text x="20" y="184" font-size="12.5" fill="#6b6258">FedEx explicitly requires corrugated packaging for jewelry shipments</text>
+      <text x="20" y="202" font-size="12.5" fill="#6b6258">and prohibits padded mailers for declared values over $500 —</text>
+      <text x="20" y="220" font-size="12.5" fill="#6b6258">mailers offer no compression protection at all.</text>
+
+      <rect x="0" y="252" width="540" height="104" rx="6" fill="none" stroke="#b08d46"/>
+      <text x="20" y="284" font-weight="600" fill="#18120c">Insurance and signature tiers (USPS, published)</text>
+      <text x="20" y="310" font-size="12.5" fill="#6b6258">$100 included with Priority / Ground Advantage · standard coverage</text>
+      <text x="20" y="328" font-size="12.5" fill="#6b6258">to about $5,000 · Registered Mail to $50,000 from around $19.70 ·</text>
+      <text x="20" y="346" font-size="12.5" fill="#6b6258">signature confirmation $3.95 online, adult signature $9.70.</text>
+    </g>
+
+    <text x="60" y="560" font-size="12.5" fill="#6b6258">A box labeled “Fine Jewelry Co.” is a higher-theft target than a plain brown box — the plain outer is a security decision, not a cost one.</text>
+    <text x="60" y="582" font-size="12.5" fill="#6b6258">Rates are published carrier guidance and re-check annually; the three-layer architecture does not change with rate updates.</text>
+  </g>
+</svg>
