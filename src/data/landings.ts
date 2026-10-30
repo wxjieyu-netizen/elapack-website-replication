@@ -203,17 +203,32 @@ export const landings: Landing[] = [
     metaDescription:
       "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands — coordinate pouch, box and insert specifications. MOQ is 200 pieces for each component in the set.",
     intro:
-      "This page covers multi-component packaging supplied around one product: a box, pouch and optional insert or card. Specify each component and its quantity together so colour, material and branding can be checked across the set. Jewelry stands and trays are retail display props in the product catalogue, not box-and-pouch sets.",
+      "This page covers multi-component packaging supplied around one product, for any product — not jewelry only. Start with unboxing experience, product value and protection, then choose the set: a box, pouch and optional insert, card, ribbon or microfiber cleaning cloth. Specify each component and its quantity together so colour, material and branding can be checked across the set. Jewelry stands and trays are retail display props in the product catalogue, not box-and-pouch sets.",
     why: {
       heading: "What a set can include",
       items: [
         { title: "Pouch + box", desc: "The classic pairing." },
         { title: "Box + insert + pouch", desc: "Retail-ready, piece to piece." },
         { title: "With a card", desc: "A thank-you card, company profile, slogan, design or product-showcase card, customised to match the set." },
+        { title: "With a ribbon", desc: "A satin or printed ribbon closure or trim, matched to the box and pouch colour." },
+        { title: "With a microfiber cleaning cloth", desc: "Add a microfiber cleaning cloth (100% polyester or 80% polyester / 20% polyamide, 180–230g) for jewelry, eyewear, screens and lenses — tick it in the inquiry form." },
         { title: "Custom combinations", desc: "Built around your product on request." },
       ],
     },
-    tables: [],
+    tables: [
+      {
+        heading: "Choose a set combination",
+        note: "MOQ is 200 pieces per component. Final specification is confirmed in the quotation and approved sample.",
+        columns: ["Set combination", "Includes", "Best for"],
+        rows: [
+          ["Beauty & Fragrance set", "Box + pouch + sample / showcase card", "Perfume, beauty and fragrance brands"],
+          ["Storage set", "Drawstring bag + pouch + card", "Various-purpose storage bags"],
+          ["Gift set", "Box + pouch + ribbon + card", "Gift boxes and seasonal gifting"],
+          ["Eyewear set", "Pouch + microfiber cleaning cloth + box / case", "Eyewear and sunglasses brands"],
+          ["Jewelry set", "Box + pouch + optional cleaning cloth", "Jewelry brands; anti-tarnish lining is an option for silver / plated items only"],
+        ],
+      },
+    ],
     lists: [
       {
         heading: "How sets come together",
@@ -226,22 +241,23 @@ export const landings: Landing[] = [
     howItWorks: [
       { title: "Send your spec", desc: "What goes in the set, per-piece size, material, branding, quantity." },
       { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4–7 days; custom printed samples take 3–5 days to make (USD 25 + USD 20 shipping)." },
-      { title: "We make it", desc: "Typical production takes 15–20 days after sample approval and payment receipt; confirm the schedule for your order." },
+      { title: "We make it", desc: "Production takes 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment receipt; confirm the schedule for your order." },
       { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." },
     ],
     moq: [
       { label: "MOQ", value: "200 pieces for each component in the set; list the components and quantities in your quotation request" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "Typically 15–20 days after sample approval and payment receipt; shipping time is separate" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
     audience: [
-      { title: "Jewellery & eyewear", desc: "Pouch + box sets with fitted inserts." },
-      { title: "Fragrance & gift", desc: "Candle and gift sets: box, pouch, and insert as one." },
-      { title: "Hair & beauty", desc: "Wig and bundle sets for retail-ready presentation." },
-      { title: "Fashion", desc: "Accessory and garment packaging sets." },
+      { title: "Beauty & Fragrance", desc: "Box + pouch + card sets for perfume and beauty brands." },
+      { title: "Storage bags", desc: "Drawstring bag + pouch sets for various-purpose storage." },
+      { title: "Gift boxes", desc: "Box + pouch + ribbon + card sets for gifting." },
+      { title: "Jewellery & eyewear", desc: "Pouch + box sets with fitted inserts, plus an optional microfiber cleaning cloth." },
+      { title: "Hair & fashion", desc: "Wig, bundle, accessory and garment packaging sets." },
     ],
     ctaTitle: "Request a quote for your custom packaging set",
   },
