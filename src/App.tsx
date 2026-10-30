@@ -42,6 +42,8 @@ export function AppRoutes() {
         <Route path="/ribbons-accessories" element={<Collection slug="ribbons-accessories" />} />
         <Route path="/custom-cosmetic-pouches" element={<Collection slug="custom-cosmetic-pouches" />} />
         <Route path="/subscription-box-packaging" element={<Collection slug="subscription-box-packaging" />} />
+        <Route path="/fsc-certified-packaging" element={<Collection slug="fsc-certified-packaging" />} />
+        <Route path="/lightweight-luxury-packaging" element={<Collection slug="lightweight-luxury-packaging" />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:slug" element={<ProductDetail />} />
         <Route path="/industries" element={<Industries />} />
