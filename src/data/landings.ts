@@ -123,7 +123,7 @@ export const landings: Landing[] = [
     h1: "Custom Rigid Boxes, Folding Cartons & Magnetic Closures — Made to Your Spec, from 200 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
     metaDescription:
-      "Custom rigid boxes in your size, finish and branding — lift-off lid, magnetic flap and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ from 200 pieces.",
+      "Custom rigid boxes in your size, finish and branding — two-piece lift-off lid, magnetic flap, drawer and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ 200 pieces, production in 15–20 working days.",
     intro:
       "ELAPACK makes custom rigid boxes, folding cartons and magnetic closure boxes for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification — not from stock — so the box fits your product and carries your brand, not the other way round.",
     why: {
@@ -156,6 +156,7 @@ export const landings: Landing[] = [
           ["Rigid box", "Presentation for jewelry, gifts or fragrance", "Internal fit, insert and opening clearance"],
           ["Folding carton", "Flat-packed retail packaging", "Board choice, closure and packed-product fit"],
           ["Magnetic closure box", "Repeated opening and gift presentation", "Closure alignment, insert and product clearance"],
+          ["Drawer box", "Layered or multi-item presentation", "Slide action, ribbon pull and internal fit"],
           ["Corrugated mailer", "Shipping or subscription presentation", "Packed-product fit and route-specific protection testing"],
         ],
       },

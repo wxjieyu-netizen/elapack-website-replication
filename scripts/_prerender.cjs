@@ -7210,7 +7210,7 @@ var landings = [
     titleTag: "Custom Rigid Boxes & Magnetic Gift Boxes from 200 Pieces | ELAPACK",
     h1: "Custom Rigid Boxes, Folding Cartons & Magnetic Closures \u2014 Made to Your Spec, from 200 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
-    metaDescription: "Custom rigid boxes in your size, finish and branding \u2014 lift-off lid, magnetic flap and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ from 200 pieces.",
+    metaDescription: "Custom rigid boxes in your size, finish and branding \u2014 two-piece lift-off lid, magnetic flap, drawer and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ 200 pieces, production in 15\u201320 working days.",
     intro: "ELAPACK makes custom rigid boxes, folding cartons and magnetic closure boxes for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification \u2014 not from stock \u2014 so the box fits your product and carries your brand, not the other way round.",
     why: {
       heading: "Box styles",
@@ -7242,6 +7242,7 @@ var landings = [
           ["Rigid box", "Presentation for jewelry, gifts or fragrance", "Internal fit, insert and opening clearance"],
           ["Folding carton", "Flat-packed retail packaging", "Board choice, closure and packed-product fit"],
           ["Magnetic closure box", "Repeated opening and gift presentation", "Closure alignment, insert and product clearance"],
+          ["Drawer box", "Layered or multi-item presentation", "Slide action, ribbon pull and internal fit"],
           ["Corrugated mailer", "Shipping or subscription presentation", "Packed-product fit and route-specific protection testing"]
         ]
       }
@@ -8493,7 +8494,7 @@ var STATIC_TITLES = {
 var STATIC_DESCRIPTIONS = {
   "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets \u2014 one-stop custom packaging.",
   "/pouches-bags": "Custom textile pouches and bags \u2014 velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
-  "/boxes": "Custom rigid boxes in your size, finish and branding \u2014 lift-off lid, magnetic flap and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ from 200 pieces.",
+  "/boxes": "Custom rigid boxes in your size, finish and branding \u2014 two-piece lift-off lid, magnetic flap, drawer and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ 200 pieces, production in 15\u201320 working days.",
   "/sets": "Custom packaging sets \u2014 pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference.",
   "/custom-jewelry-boxes": "Custom jewelry boxes with your logo \u2014 rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
   "/eyewear-packaging": "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",

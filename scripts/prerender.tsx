@@ -90,7 +90,7 @@ const STATIC_TITLES: Record<string, string> = {
 const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets — one-stop custom packaging.",
   "/pouches-bags": "Custom textile pouches and bags — velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
-  "/boxes": "Custom rigid boxes in your size, finish and branding — lift-off lid, magnetic flap and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ from 200 pieces.",
+  "/boxes": "Custom rigid boxes in your size, finish and branding — two-piece lift-off lid, magnetic flap, drawer and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ 200 pieces, production in 15–20 working days.",
   "/sets": "Custom packaging sets — pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference.",
   "/custom-jewelry-boxes": "Custom jewelry boxes with your logo — rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
   "/eyewear-packaging": "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
