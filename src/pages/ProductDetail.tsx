@@ -180,7 +180,7 @@ export default function ProductDetail() {
                 {review ? "Order Information" : "Specifications"}
               </h2>
               <p className="product-specs-text">
-                {review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : "Share dimensions, material preferences and finish requirements to confirm feasibility."}
+                {review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : "Choose from the options below; the final specification is confirmed in the quotation and approved sample. Unboxing experience, product value and protection come first — anti-tarnish lining is an option for silver / plated items only."}
               </p>
               <Link to={quoteUrl} className="btn-primary">
                 Discuss Your Project
