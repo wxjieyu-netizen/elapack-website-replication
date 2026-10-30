@@ -213,7 +213,7 @@ export default function Contact() {
                   <h2 className="contact-heading">Request a Quote</h2>
                   <p className="contact-form-intro">
                     Share your project details and we'll prepare a tailored
-                    proposal for you.
+                    proposal for you. MOQ 200 per product / per component of a set. Production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment.
                   </p>
                   {selectedProduct && (
                     <p className="contact-form-intro">
@@ -301,6 +301,82 @@ export default function Contact() {
                         </button>
                       ))}
                     </div>
+                  </div>
+
+                  <div className="form-row">
+                    <div className="form-group">
+                      <label htmlFor="industry">Industry</label>
+                      <select id="industry" name="industry">
+                        <option value="">Select industry</option>
+                        <option>Beauty &amp; Fragrance</option>
+                        <option>Storage Bags</option>
+                        <option>Gift Boxes</option>
+                        <option>Jewelry</option>
+                        <option>Eyewear</option>
+                        <option>Hair &amp; Wig</option>
+                        <option>Fashion</option>
+                        <option>Other</option>
+                      </select>
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="packaging_form">Packaging Form</label>
+                      <select id="packaging_form" name="packaging_form">
+                        <option value="">Select form</option>
+                        <option>Box</option>
+                        <option>Pouch / Bag</option>
+                        <option>Set (box + pouch + card / cloth / ribbon)</option>
+                        <option>Other</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div className="form-row">
+                    <div className="form-group">
+                      <label htmlFor="dimensions">Product / Pack Dimensions</label>
+                      <input id="dimensions" name="dimensions" type="text" placeholder="e.g. 90 x 90 x 40 mm, for a 50 ml bottle" />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="material">Material</label>
+                      <input id="material" name="material" type="text" placeholder="e.g. rigid board, velvet, cotton, microfiber" />
+                    </div>
+                  </div>
+
+                  <div className="form-row">
+                    <div className="form-group">
+                      <label htmlFor="finish_insert">Finish / Insert</label>
+                      <input id="finish_insert" name="finish_insert" type="text" placeholder="e.g. foil, emboss, EVA / velvet insert" />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="logo_method">Logo Method</label>
+                      <input id="logo_method" name="logo_method" type="text" placeholder="e.g. hot stamp, silkscreen, woven label" />
+                    </div>
+                  </div>
+
+                  <div className="form-row">
+                    <div className="form-group">
+                      <label htmlFor="target_date">Target Delivery Date</label>
+                      <input id="target_date" name="target_date" type="text" placeholder="e.g. before 20 Dec" />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="sample_needed">Sample Needed</label>
+                      <select id="sample_needed" name="sample_needed">
+                        <option value="">Select sample</option>
+                        <option>Stock sample (free + USD 25 shipping)</option>
+                        <option>Custom sample (USD 25 + USD 20 shipping, 3–5 days)</option>
+                        <option>No sample yet</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label htmlFor="reference_link">Reference Link (artwork / example)</label>
+                    <input id="reference_link" name="reference_link" type="text" placeholder="Paste a link to artwork or a reference product" />
+                  </div>
+
+                  <div className="form-group">
+                    <label>
+                      <input type="checkbox" name="add_cleaning_cloth" value="Yes" /> Add microfiber cleaning cloth to the set (100% polyester or 80% polyester / 20% polyamide, 180–230g; for jewelry, eyewear, screens and lenses)
+                    </label>
                   </div>
 
                   <div className="form-group">
