@@ -202,6 +202,18 @@ export const productContentUpdates: Record<string, any> = {
     "options": "Request the size, presentation and insert arrangement your project needs. Confirm board, wrap and branding options in the quotation and sample. A free digital dieline preview is available; PDF, editable AI and PSD files can be provided.",
     "policies": [
       [
+        "Closure / Structure options",
+        "Magnetic flip-top, lift-off lid or drawer — confirm with the proposed structure and sample."
+      ],
+      [
+        "Insert options",
+        "EVA foam, velvet, satin or molded pulp insert, fitted to your product dimensions."
+      ],
+      [
+        "Finish / Logo options",
+        "Foil stamping, embossing, debossing, spot UV; Pantone-matched colours on request."
+      ],
+      [
         "Minimum order",
         "200 pieces."
       ],
@@ -331,6 +343,18 @@ export const productContentUpdates: Record<string, any> = {
     ],
     "options": "Share pouch dimensions, opening or closure requirements, logo artwork and an appearance reference. Confirm the available fabric and branding method in the quotation and approved sample.",
     "policies": [
+      [
+        "Fabric options",
+        "Microfiber pouch fabric — confirm the quoted specification and review a sample; cleaning performance is a separate requirement from packaging."
+      ],
+      [
+        "Closure options",
+        "Drawstring, flap, envelope or zipper — confirm in quotation."
+      ],
+      [
+        "Logo options",
+        "Silkscreen, hot stamp or woven label; Pantone matching on request."
+      ],
       [
         "Minimum order",
         "200 pieces."
