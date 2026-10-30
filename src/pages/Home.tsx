@@ -22,10 +22,10 @@ const products = featuredSlugs
   .filter((p): p is NonNullable<typeof p> => p !== null);
 
 const stats = [
-  { value: "200", label: "Individual product MOQ (pieces)" },
-  { value: "3–5", label: "Custom sample days" },
-  { value: "15–20", label: "Production days after sample approval + payment" },
-  { value: "1", label: "Business day to reply" },
+  { value: "200", label: "Individual product MOQ (pieces) — 200 per component of a set" },
+  { value: "3–5", label: "Custom sample days — USD 25 + USD 20 shipping" },
+  { value: "15–20", label: "Production days after sample approval + payment — 15–20 for 200–20,000 pcs; 20–25 for 20,000–50,000 pcs" },
+  { value: "1", label: "Business day to reply — stock samples free + USD 25 shipping" },
 ];
 
 const popularSolutions = [
@@ -61,6 +61,8 @@ const brandLogos = [
   { name: "Retail", type: "text" as const },
   { name: "Gifting", type: "text" as const },
   { name: "Fashion", type: "text" as const },
+  { name: "Fragrance", type: "text" as const },
+  { name: "Eyewear", type: "text" as const },
 ];
 
 const whyCards = [
@@ -180,6 +182,52 @@ export default function Home() {
                 <span className="stat-label">{stat.label}</span>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ===== Start by form, industry or scenario (P0-1) ===== */}
+      <section className="section">
+        <div className="container">
+          <div className="section-header-center reveal">
+            <p className="eyebrow">Start Here</p>
+            <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+              Packaging for Any Product — Start by Form, Industry or Scenario
+            </h2>
+            <p className="section-subtitle">
+              Unboxing experience, product value and protection come first.
+              Choose a form, an industry or a scenario — every route leads to
+              the same spec inquiry, box + pouch + card / cloth / ribbon sets,
+              MOQ 200 per component.
+            </p>
+          </div>
+          <div>
+            <p>
+              <strong>By form: </strong>
+              <Link to="/boxes/" className="text-link">Boxes <span className="text-link-arrow">→</span></Link>
+              {" · "}
+              <Link to="/pouches-bags/" className="text-link">Pouches &amp; Bags <span className="text-link-arrow">→</span></Link>
+              {" · "}
+              <Link to="/sets/" className="text-link">Complete Sets <span className="text-link-arrow">→</span></Link>
+            </p>
+            <p>
+              <strong>By industry — top inquiries: </strong>
+              <Link to="/custom-cosmetic-packaging/" className="text-link">Beauty &amp; Fragrance <span className="text-link-arrow">→</span></Link>
+              {" · "}
+              <Link to="/custom-drawstring-bags/" className="text-link">Storage Bags <span className="text-link-arrow">→</span></Link>
+              {" · "}
+              <Link to="/custom-gift-boxes/" className="text-link">Gift Boxes <span className="text-link-arrow">→</span></Link>
+              {" · "}
+              <Link to="/industries/" className="text-link">All Industries <span className="text-link-arrow">→</span></Link>
+            </p>
+            <p>
+              <strong>By scenario: </strong>
+              <Link to="/custom-gift-boxes/" className="text-link">Gifting <span className="text-link-arrow">→</span></Link>
+              {" · "}
+              <Link to="/subscription-box-packaging/" className="text-link">Subscription Boxes <span className="text-link-arrow">→</span></Link>
+              {" · "}
+              <Link to="/contact/" className="text-link">Send Your Spec <span className="text-link-arrow">→</span></Link>
+            </p>
           </div>
         </div>
       </section>
