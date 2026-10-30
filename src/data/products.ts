@@ -1130,6 +1130,98 @@ export const products: Product[] = [
       "Matched programs with fabric pouch lines",
     ],
   },
+  {
+    slug: "custom-microfiber-cleaning-cloth-jewelry",
+    name: "Custom Microfiber Cleaning Cloth for Jewelry",
+    category: "Pouches & Bags",
+    shortDesc:
+      "Microfiber cleaning cloth for jewelry, from 200 pieces; confirm size, edge, print and cleaning scope in a sample.",
+    description:
+      "A microfiber cleaning cloth to add to a jewelry box + pouch set, so the customer can keep the piece looking like new on every opening. Material: 100% polyester or 80% polyester / 20% polyamide microfiber, conventional weight 180–230g. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. Scope: jewelry, eyewear, electronic screens and lenses. For jewelry, this cloth is for light cleaning and maintenance; it is not a claim to repair heavy tarnish or corrosion — confirm the intended cleaning scope in the quotation and approved sample. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Microfiber: 100% polyester or 80% polyester / 20% polyamide, 180–230g",
+    moq: "200 pcs",
+    leadTime: "15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time separate",
+    industries: ["Jewelry", "Gift"],
+    features: [
+      {
+        title: "Microfiber Material",
+        desc: "100% polyester or 80% polyester / 20% polyamide, conventional weight 180–230g.",
+      },
+      {
+        title: "Print & Edge",
+        desc: "Silkscreen, embossing, digital printing or hot stamping; confirm edge finish in the quotation.",
+      },
+      {
+        title: "Set Add-On",
+        desc: "Add to a box + pouch set, or order on its own from 200 pieces.",
+      },
+      {
+        title: "Scope Note",
+        desc: "For light cleaning and maintenance only; confirm heavy-tarnish scope separately, do not assume repair.",
+      },
+    ],
+    specs: [
+      { label: "Material", value: "Microfiber: 100% polyester or 80% polyester / 20% polyamide" },
+      { label: "Weight", value: "Conventional 180–230g" },
+      { label: "Print / Process options", value: "Silkscreen, embossing, digital printing, hot stamping, etc. — confirm in quotation" },
+      { label: "Scope", value: "Jewelry, eyewear, electronic screens and lenses" },
+      { label: "Set option", value: "Add to a box + pouch set, MOQ 200 per component" },
+      { label: "MOQ", value: "200 pcs" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+    ],
+    customizationOptions: [
+      "Choose 100% polyester or 80% polyester / 20% polyamide",
+      "Provide size, edge finish and logo artwork",
+      "Add to a jewelry box + pouch set",
+    ],
+  },
+  {
+    slug: "custom-microfiber-cleaning-cloth-eyewear",
+    name: "Custom Microfiber Cleaning Cloth for Eyewear & Screens",
+    category: "Pouches & Bags",
+    shortDesc:
+      "Microfiber cleaning cloth for eyewear, screens and lenses, from 200 pieces; confirm size, edge, print and coated-surface scope in a sample.",
+    description:
+      "A microfiber cleaning cloth to add to an eyewear pouch + box set, for glasses, screens and lenses. Material: 100% polyester or 80% polyester / 20% polyamide microfiber, conventional weight 180–230g. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. If the cloth will be used on a coated lens or screen surface, discuss the required evidence or testing separately — packaging suitability and cleaning performance are separate requirements. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Microfiber: 100% polyester or 80% polyester / 20% polyamide, 180–230g",
+    moq: "200 pcs",
+    leadTime: "15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time separate",
+    industries: ["Eyewear & Sunglasses", "Beauty", "Gift"],
+    features: [
+      {
+        title: "Microfiber Material",
+        desc: "100% polyester or 80% polyester / 20% polyamide, conventional weight 180–230g.",
+      },
+      {
+        title: "Print & Edge",
+        desc: "Silkscreen, embossing, digital printing or hot stamping; confirm edge finish in the quotation.",
+      },
+      {
+        title: "Set Add-On",
+        desc: "Add to an eyewear pouch + box set, or order on its own from 200 pieces.",
+      },
+      {
+        title: "Coated Surfaces",
+        desc: "For coated lenses or screens, discuss evidence or testing separately before approving production.",
+      },
+    ],
+    specs: [
+      { label: "Material", value: "Microfiber: 100% polyester or 80% polyester / 20% polyamide" },
+      { label: "Weight", value: "Conventional 180–230g" },
+      { label: "Print / Process options", value: "Silkscreen, embossing, digital printing, hot stamping, etc. — confirm in quotation" },
+      { label: "Scope", value: "Eyewear, electronic screens and lenses, plus jewelry" },
+      { label: "Set option", value: "Add to an eyewear pouch + box set, MOQ 200 per component" },
+      { label: "MOQ", value: "200 pcs" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+    ],
+    customizationOptions: [
+      "Choose 100% polyester or 80% polyester / 20% polyamide",
+      "Provide size, edge finish and logo artwork",
+      "Add to an eyewear pouch + box set",
+    ],
+  },
 ];
 
 export const categories = [
@@ -1336,5 +1428,14 @@ export const productGuides: Record<string, string[]> = {
     "custom-logo-pouches-guide",
       "custom-toiletry-bags-guide",
   ],
+  "custom-microfiber-cleaning-cloth-jewelry": [
+    "custom-glasses-cases-pouches-guide",
+    "how-to-choose-a-custom-jewelry-pouch",
+  ],
+  "custom-microfiber-cleaning-cloth-eyewear": [
+    "custom-glasses-cases-pouches-guide",
+    "how-to-choose-a-custom-jewelry-pouch",
+  ],
+
 };
 
