@@ -661,7 +661,7 @@ export const products: Product[] = [
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
-    ],,
+    ],
     customizationOptions: [
       "Water-based ink printing",
       "Natural, bleached or dyed cotton",
@@ -803,7 +803,7 @@ export const products: Product[] = [
       { label: "Set option", value: "Add a matching box, pouch or ribbon to make a retail set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
-    ],,
+    ],
     customizationOptions: [
       "Custom sizes and paper weights",
       "Artwork and print method confirmed per quotation",
@@ -1076,7 +1076,7 @@ export const products: Product[] = [
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
-    ],,
+    ],
     customizationOptions: [
       "Custom sizes for eyewear, jewelry or devices",
       "Logo printing in one or multiple colors",
