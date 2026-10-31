@@ -213,7 +213,7 @@ export default function Contact() {
                   <h2 className="contact-heading">Request a Quote</h2>
                   <p className="contact-form-intro">
                     Share your project details and we'll prepare a tailored
-                    proposal for you. MOQ 200 per product / per component of a set. Production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment.
+                    proposal for you. MOQ 200 per product / per component of a set. Production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment.
                   </p>
                   {selectedProduct && (
                     <p className="contact-form-intro">

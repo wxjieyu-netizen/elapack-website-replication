@@ -241,14 +241,14 @@ export const landings: Landing[] = [
     howItWorks: [
       { title: "Send your spec", desc: "What goes in the set, per-piece size, material, branding, quantity." },
       { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4–7 days; custom printed samples take 3–5 days to make (USD 25 + USD 20 shipping)." },
-      { title: "We make it", desc: "Production takes 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment receipt; confirm the schedule for your order." },
+      { title: "We make it", desc: "Production takes 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; confirm the schedule for your order." },
       { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." },
     ],
     moq: [
       { label: "MOQ", value: "200 pieces for each component in the set; list the components and quantities in your quotation request" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time is separate" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],

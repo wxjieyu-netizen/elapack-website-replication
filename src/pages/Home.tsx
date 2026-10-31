@@ -24,7 +24,7 @@ const products = featuredSlugs
 const stats = [
   { value: "200", label: "Individual product MOQ (pieces) — 200 per component of a set" },
   { value: "3–5", label: "Custom sample days — USD 25 + USD 20 shipping" },
-  { value: "15–20", label: "Production days after sample approval + payment — 15–20 for 200–20,000 pcs; 20–25 for 20,000–50,000 pcs" },
+  { value: "15–20", label: "Production days after sample approval + payment — 15–20 for 200–20,000 pcs; 30–35 for 20,000–50,000 pcs" },
   { value: "1", label: "Business day to reply — stock samples free + USD 25 shipping" },
 ];
 
@@ -211,7 +211,7 @@ export default function Home() {
               <Link to="/sets/" className="text-link">Complete Sets <span className="text-link-arrow">→</span></Link>
             </p>
             <p>
-              <strong>By industry — top inquiries: </strong>
+              <strong>By industry — common set programs: </strong>
               <Link to="/custom-cosmetic-packaging/" className="text-link">Beauty &amp; Fragrance <span className="text-link-arrow">→</span></Link>
               {" · "}
               <Link to="/custom-drawstring-bags/" className="text-link">Storage Bags <span className="text-link-arrow">→</span></Link>

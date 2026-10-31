@@ -912,65 +912,6 @@ export const collections: Collection[] = [
     ],
   },
   {
-    slug: "fsc-certified-packaging",
-    browserTitle: "FSC-Certified Packaging — Paper and Board, Confirmed by Sample | ELAPACK",
-    eyebrow: "Certification & Materials",
-    h1: "FSC-Certified Packaging — Paper and Board, Confirmed by Sample",
-    subhead:
-      "FSC is about paper and board sourcing, not a claim that every part of a box is certified. Confirm scope, label type and documents in your quotation and approved sample.",
-    metaDescription:
-      "FSC-certified packaging from ELAPACK — paper and board options for boxes and bags, MOQ 200. Scope, label type and certification documents are confirmed in the quotation and approved sample, not assumed from a guide.",
-    intro:
-      "Use this page to decide whether FSC paper or board fits your box or bag, and what to confirm before you order. FSC certification covers forest and chain-of-custody sourcing for paper and board. It does not automatically mean a whole box, pouch, insert or ribbon is certified, and it is not the same as recyclable, recycled or compostable. If only the board is certified, only that component can carry the relevant claim. Certification documents are available on request; the exact scope, label type (FSC 100%, FSC Mix or FSC Recycled, as applicable) and component coverage must be confirmed in your quotation and approved sample.",
-    sections: [
-      {
-        heading: "What FSC covers",
-        items: [
-          { title: "Paper and board", desc: "FSC sourcing applies to paper and board components, subject to the confirmed scope." },
-          { title: "Chain of custody", desc: "The chain from forest to mill to converter to manufacturer must be unbroken for a logo claim; confirm it for your order." },
-          { title: "Documents on request", desc: "Ask for the certification documents that match your specific product and components." },
-        ],
-      },
-      {
-        heading: "What FSC does not automatically cover",
-        items: [
-          { title: "Whole-box claims", desc: "A pouch, insert, ribbon or finish is not certified just because the board is." },
-          { title: "Recyclable / recycled / compostable", desc: "Those are separate claims with separate evidence; do not use them interchangeably with FSC." },
-          { title: "Guide claims", desc: "Industry guides on this site are references, not a product specification for your order." },
-        ],
-      },
-      {
-        heading: "How to order with FSC",
-        items: [
-          { title: "Name the component", desc: "State which component should be FSC paper or board — box board, bag paper, card or sleeve." },
-          { title: "Confirm label type", desc: "Confirm FSC 100%, FSC Mix or FSC Recycled, as applicable, in the quotation." },
-          { title: "Check the sample", desc: "Check the proposed board, print and logo use on the approved sample before production." },
-        ],
-      },
-    ],
-    facts: [
-      { label: "MOQ", value: "200 pieces per product / per component of a set" },
-      { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
-      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
-      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
-      { label: "Payment", value: "T/T · PayPal" },
-    ],
-    productSlugs: [
-      "black-leather-jewelry-box",
-      "custom-white-jewelry-box",
-      "magnetic-closure-gift-box",
-      "custom-perfume-boxes",
-      "kraft-paper-shopping-bag",
-    ],
-    ctaTitle: "Request a quote for FSC-certified packaging",
-    factBlock: {
-      updated: "October 2026",
-      paragraph:
-        "ELAPACK FSC-certified packaging — key facts, current as of October 2026. FSC certification is available for paper and board components, subject to scope confirmed in the quotation and approved sample; it does not automatically certify a whole box, pouch, insert or ribbon, and it is not the same as recyclable, recycled or compostable. Minimum order quantity is 200 pieces per product / per component of a set. Production takes 15–20 days for 200–20,000 pieces and 20–25 days for 20,000–50,000 pieces after sample approval and payment. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork.",
-    },
-  },
-  {
     slug: "lightweight-luxury-packaging",
     browserTitle: "Lightweight Luxury Packaging — Less Weight, Same Unboxing Value, Confirmed by Sample | ELAPACK",
     eyebrow: "Structure & Materials",
@@ -1012,7 +953,7 @@ export const collections: Collection[] = [
       { label: "MOQ", value: "200 pieces per product / per component of a set" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -1027,7 +968,7 @@ export const collections: Collection[] = [
     factBlock: {
       updated: "October 2026",
       paragraph:
-        "ELAPACK lightweight luxury packaging — key facts, current as of October 2026. Lightweight structures are available; weight, volume and freight comparison must be confirmed by sample for your specific box, and no generic saving is claimed on this page. Minimum order quantity is 200 pieces per product / per component of a set. Production takes 15–20 days for 200–20,000 pieces and 20–25 days for 20,000–50,000 pieces after sample approval and payment. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork.",
+        "ELAPACK lightweight luxury packaging — key facts, current as of October 2026. Lightweight structures are available; weight, volume and freight comparison must be confirmed by sample for your specific box, and no generic saving is claimed on this page. Minimum order quantity is 200 pieces per product / per component of a set. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork.",
     },
   },
 ];

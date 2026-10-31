@@ -64,7 +64,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Request black exterior and interior options",
@@ -113,7 +113,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Custom logo printing",
@@ -161,8 +161,9 @@ export const products: Product[] = [
       { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
+      { label: "Ring brief", value: "Band width, setting height and number of rings per box" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Single- or double-ring layout for quotation",
@@ -212,7 +213,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Pantone color matching",
@@ -262,7 +263,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Custom inserts and compartments",
@@ -320,10 +321,10 @@ export const products: Product[] = [
       { label: "Closure options", value: "Lift-off lid, magnetic flip-top, ribbon tie or drawer — confirm with the proposed structure" },
       { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
       { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
-      { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
+      { label: "Dimensions (L × W × H)", value: "14×10×6 / 15×15×5 / 20×18×8 cm, or custom" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Custom sizes beyond the three stock formats",
@@ -384,7 +385,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Provide bottle dimensions, weight and count",
@@ -612,7 +613,7 @@ export const products: Product[] = [
       { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection; anti-tarnish treatment is an option for silver / plated items only, confirmed by sample" },
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Pantone velvet color matching",
@@ -660,7 +661,7 @@ export const products: Product[] = [
       { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection; anti-tarnish treatment is an option for silver / plated items only, confirmed by sample" },
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Water-based ink printing",
@@ -802,7 +803,7 @@ export const products: Product[] = [
       { label: "Logo method", value: "Print, foil stamping or embossing; Pantone matching on request" },
       { label: "Set option", value: "Add a matching box, pouch or ribbon to make a retail set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Custom sizes and paper weights",
@@ -1075,7 +1076,7 @@ export const products: Product[] = [
       { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection; anti-tarnish treatment is an option for silver / plated items only, confirmed by sample" },
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Custom sizes for eyewear, jewelry or devices",
@@ -1135,18 +1136,18 @@ export const products: Product[] = [
     name: "Custom Microfiber Cleaning Cloth for Jewelry",
     category: "Pouches & Bags",
     shortDesc:
-      "Microfiber cleaning cloth for jewelry, from 200 pieces; confirm size, edge, print and cleaning scope in a sample.",
+      "Microfiber polishing cloth for jewelry, from 200 pieces; confirm size, edge, print and polishing scope in a sample.",
     description:
-      "A microfiber cleaning cloth to add to a jewelry box + pouch set, so the customer can keep the piece looking like new on every opening. Material: 100% polyester or 80% polyester / 20% polyamide microfiber, conventional weight 180–230g. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. Scope: jewelry, eyewear, electronic screens and lenses. For jewelry, this cloth is for light cleaning and maintenance; it is not a claim to repair heavy tarnish or corrosion — confirm the intended cleaning scope in the quotation and approved sample. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
+      "A microfiber cloth to add to a jewelry box + pouch set, so the customer can keep the piece looking like new on every opening. Material: microfiber — in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180–230g; other weights can be made to request. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. This jewelry version carries a polishing effect and is used to polish oxidized metal jewellery; the eyewear version is plain microfiber with no polishing additive. Confirm the polishing scope you need in the quotation and approved sample. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Microfiber: 100% polyester or 80% polyester / 20% polyamide, 180–230g",
+    materials: "Microfiber: 100% polyester or 80% polyester / 20% polyamide; conventional weight 180–230g, other weights on request",
     moq: "200 pcs",
-    leadTime: "15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time separate",
+    leadTime: "15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift"],
     features: [
       {
         title: "Microfiber Material",
-        desc: "100% polyester or 80% polyester / 20% polyamide, conventional weight 180–230g.",
+        desc: "Microfiber — in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180–230g; other weights can be made to request.",
       },
       {
         title: "Print & Edge",
@@ -1157,18 +1158,18 @@ export const products: Product[] = [
         desc: "Add to a box + pouch set, or order on its own from 200 pieces.",
       },
       {
-        title: "Scope Note",
-        desc: "For light cleaning and maintenance only; confirm heavy-tarnish scope separately, do not assume repair.",
+        title: "Polishing Scope",
+        desc: "The jewelry version polishes oxidized metal jewellery; confirm the polishing scope you need in the quotation and approved sample.",
       },
     ],
     specs: [
       { label: "Material", value: "Microfiber: 100% polyester or 80% polyester / 20% polyamide" },
-      { label: "Weight", value: "Conventional 180–230g" },
+      { label: "Weight", value: "Conventional 180–230g; other weights available on request" },
       { label: "Print / Process options", value: "Silkscreen, embossing, digital printing, hot stamping, etc. — confirm in quotation" },
       { label: "Scope", value: "Jewelry, eyewear, electronic screens and lenses" },
       { label: "Set option", value: "Add to a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Choose 100% polyester or 80% polyester / 20% polyamide",
@@ -1183,16 +1184,16 @@ export const products: Product[] = [
     shortDesc:
       "Microfiber cleaning cloth for eyewear, screens and lenses, from 200 pieces; confirm size, edge, print and coated-surface scope in a sample.",
     description:
-      "A microfiber cleaning cloth to add to an eyewear pouch + box set, for glasses, screens and lenses. Material: 100% polyester or 80% polyester / 20% polyamide microfiber, conventional weight 180–230g. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. If the cloth will be used on a coated lens or screen surface, discuss the required evidence or testing separately — packaging suitability and cleaning performance are separate requirements. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
+      "A microfiber cleaning cloth to add to an eyewear pouch + box set, for glasses, screens and lenses. This eyewear version is the plain microfiber cloth — fabric only, no polishing additive; for polishing oxidized metal jewellery, use the jewelry version. Material: microfiber — in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180–230g; other weights can be made to request. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. If the cloth will be used on a coated lens or screen surface, discuss the required evidence or testing separately — packaging suitability and cleaning performance are separate requirements. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Microfiber: 100% polyester or 80% polyester / 20% polyamide, 180–230g",
+    materials: "Microfiber: 100% polyester or 80% polyester / 20% polyamide; conventional weight 180–230g, other weights on request",
     moq: "200 pcs",
-    leadTime: "15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time separate",
+    leadTime: "15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time separate",
     industries: ["Eyewear & Sunglasses", "Beauty", "Gift"],
     features: [
       {
         title: "Microfiber Material",
-        desc: "100% polyester or 80% polyester / 20% polyamide, conventional weight 180–230g.",
+        desc: "Microfiber — in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180–230g; other weights can be made to request.",
       },
       {
         title: "Print & Edge",
@@ -1209,12 +1210,12 @@ export const products: Product[] = [
     ],
     specs: [
       { label: "Material", value: "Microfiber: 100% polyester or 80% polyester / 20% polyamide" },
-      { label: "Weight", value: "Conventional 180–230g" },
+      { label: "Weight", value: "Conventional 180–230g; other weights available on request" },
       { label: "Print / Process options", value: "Silkscreen, embossing, digital printing, hot stamping, etc. — confirm in quotation" },
       { label: "Scope", value: "Eyewear, electronic screens and lenses, plus jewelry" },
       { label: "Set option", value: "Add to an eyewear pouch + box set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 20–25 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Choose 100% polyester or 80% polyester / 20% polyamide",

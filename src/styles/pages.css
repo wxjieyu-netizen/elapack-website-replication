@@ -2830,6 +2830,7 @@ a.contact-value:hover {
 }
 
 .form-group input,
+.form-group select,
 .form-group textarea {
   width: 100%;
   font-family: var(--font-sans);

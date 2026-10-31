@@ -86,10 +86,16 @@ var products = [
       }
     ],
     specs: [
-      { label: "Exterior", value: "Confirm requested material and finish in quote and sample" },
-      { label: "Interior / Insert", value: "Specify from jewelry dimensions and layout" },
-      { label: "Closure", value: "Confirm proposed structure in sample" },
-      { label: "MOQ", value: "200 pcs" }
+      { label: "Exterior options", value: "Rigid board with paper wrap, leather-look wrap, textured paper or kraft \u2014 choose from the quotation; final material confirmed in approved sample" },
+      { label: "Board / Core", value: "Rigid board; thickness and construction confirmed in quotation and approved sample" },
+      { label: "Interior / Insert options", value: "EVA foam, velvet, satin or molded pulp insert, fitted to your product dimensions" },
+      { label: "Closure options", value: "Lift-off lid, magnetic flip-top, ribbon tie or drawer \u2014 confirm with the proposed structure" },
+      { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
+      { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
+      { label: "Dimensions", value: "Made to your product dimensions \u2014 confirm internal clearance and finished outside size separately in the quotation" },
+      { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Request black exterior and interior options",
@@ -127,11 +133,16 @@ var products = [
       }
     ],
     specs: [
-      { label: "Dimensions", value: "Confirm from jewelry dimensions" },
-      { label: "Shell / Insert", value: "Confirm material and fit in quote and sample" },
-      { label: "Closure", value: "Confirm with the proposed structure" },
-      { label: "Color Review", value: "Confirm against approved sample before bulk" },
-      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
+      { label: "Exterior options", value: "Rigid board with paper wrap, leather-look wrap, textured paper or kraft \u2014 choose from the quotation; final material confirmed in approved sample" },
+      { label: "Board / Core", value: "Rigid board; thickness and construction confirmed in quotation and approved sample" },
+      { label: "Interior / Insert options", value: "EVA foam, velvet, satin or molded pulp insert, fitted to your product dimensions" },
+      { label: "Closure options", value: "Lift-off lid, magnetic flip-top, ribbon tie or drawer \u2014 confirm with the proposed structure" },
+      { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
+      { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
+      { label: "Dimensions", value: "Made to your product dimensions \u2014 confirm internal clearance and finished outside size separately in the quotation" },
+      { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Custom logo printing",
@@ -169,9 +180,17 @@ var products = [
       }
     ],
     specs: [
+      { label: "Exterior options", value: "Rigid board with paper wrap, leather-look wrap, textured paper or kraft \u2014 choose from the quotation; final material confirmed in approved sample" },
+      { label: "Board / Core", value: "Rigid board; thickness and construction confirmed in quotation and approved sample" },
+      { label: "Interior / Insert options", value: "EVA foam, velvet, satin or molded pulp insert, fitted to your product dimensions" },
+      { label: "Closure options", value: "Lift-off lid, magnetic flip-top, ribbon tie or drawer \u2014 confirm with the proposed structure" },
+      { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
+      { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
+      { label: "Dimensions", value: "Made to your product dimensions \u2014 confirm internal clearance and finished outside size separately in the quotation" },
+      { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "Ring brief", value: "Band width, setting height and number of rings per box" },
-      { label: "Box and insert", value: "Confirm dimensions, slot layout, materials and closure in the quote and sample" },
-      { label: "Branding", value: "Provide logo artwork, placement and appearance reference" }
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Single- or double-ring layout for quotation",
@@ -210,11 +229,16 @@ var products = [
       }
     ],
     specs: [
-      { label: "Dimensions (L \xD7 W \xD7 H)", value: '8" \xD7 6" \xD7 3" (customizable)' },
-      { label: "Closure Type", value: "Ribbon tie" },
-      { label: "Surface Finish", value: "Matte / foil stamping / spot UV" },
-      { label: "Dieline", value: "Free digital dieline preview" },
-      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
+      { label: "Exterior options", value: "Rigid board with paper wrap, leather-look wrap, textured paper or kraft \u2014 choose from the quotation; final material confirmed in approved sample" },
+      { label: "Board / Core", value: "Rigid board; thickness and construction confirmed in quotation and approved sample" },
+      { label: "Interior / Insert options", value: "EVA foam, velvet, satin or molded pulp insert, fitted to your product dimensions" },
+      { label: "Closure options", value: "Lift-off lid, magnetic flip-top, ribbon tie or drawer \u2014 confirm with the proposed structure" },
+      { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
+      { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
+      { label: "Dimensions", value: "Made to your product dimensions \u2014 confirm internal clearance and finished outside size separately in the quotation" },
+      { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Pantone color matching",
@@ -253,11 +277,16 @@ var products = [
       }
     ],
     specs: [
-      { label: "Dimensions (L \xD7 W \xD7 H)", value: '6" \xD7 4" \xD7 2" (customizable)' },
-      { label: "Closure Type", value: "Magnetic / flip-top" },
-      { label: "Surface Finish", value: "Matte / glossy" },
-      { label: "Dieline", value: "Free digital dieline preview" },
-      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
+      { label: "Exterior options", value: "Rigid board with paper wrap, leather-look wrap, textured paper or kraft \u2014 choose from the quotation; final material confirmed in approved sample" },
+      { label: "Board / Core", value: "Rigid board; thickness and construction confirmed in quotation and approved sample" },
+      { label: "Interior / Insert options", value: "EVA foam, velvet, satin or molded pulp insert, fitted to your product dimensions" },
+      { label: "Closure options", value: "Lift-off lid, magnetic flip-top, ribbon tie or drawer \u2014 confirm with the proposed structure" },
+      { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
+      { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
+      { label: "Dimensions", value: "Made to your product dimensions \u2014 confirm internal clearance and finished outside size separately in the quotation" },
+      { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Custom inserts and compartments",
@@ -307,10 +336,16 @@ var products = [
       }
     ],
     specs: [
+      { label: "Exterior options", value: "Rigid board with paper wrap, leather-look wrap, textured paper or kraft \u2014 choose from the quotation; final material confirmed in approved sample" },
+      { label: "Board / Core", value: "Rigid board; thickness and construction confirmed in quotation and approved sample" },
+      { label: "Interior / Insert options", value: "EVA foam, velvet, satin or molded pulp insert, fitted to your product dimensions" },
+      { label: "Closure options", value: "Lift-off lid, magnetic flip-top, ribbon tie or drawer \u2014 confirm with the proposed structure" },
+      { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
+      { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
       { label: "Dimensions (L \xD7 W \xD7 H)", value: "14\xD710\xD76 / 15\xD715\xD75 / 20\xD718\xD78 cm, or custom" },
-      { label: "Insert", value: "Fitted lash tray inserts, custom layouts" },
-      { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
-      { label: "MOQ", value: "200 pcs" }
+      { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Custom sizes beyond the three stock formats",
@@ -360,11 +395,16 @@ var products = [
       }
     ],
     specs: [
-      { label: "Structure", value: "Confirm proposed opening in quotation and sample" },
-      { label: "Dimensions", value: "Made to your bottle" },
-      { label: "Insert", value: "Confirm material and bottle fit in sample" },
-      { label: "Surface Finish", value: "Confirm with approved artwork and sample" },
-      { label: "MOQ", value: "200 pcs" }
+      { label: "Exterior options", value: "Rigid board with paper wrap, leather-look wrap, textured paper or kraft \u2014 choose from the quotation; final material confirmed in approved sample" },
+      { label: "Board / Core", value: "Rigid board; thickness and construction confirmed in quotation and approved sample" },
+      { label: "Interior / Insert options", value: "EVA foam, velvet, satin or molded pulp insert, fitted to your product dimensions" },
+      { label: "Closure options", value: "Lift-off lid, magnetic flip-top, ribbon tie or drawer \u2014 confirm with the proposed structure" },
+      { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
+      { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
+      { label: "Dimensions", value: "Made to your product dimensions \u2014 confirm internal clearance and finished outside size separately in the quotation" },
+      { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Provide bottle dimensions, weight and count",
@@ -575,9 +615,14 @@ var products = [
       }
     ],
     specs: [
-      { label: "Dimensions", value: "Made to your size" },
-      { label: "Closure Type", value: "Drawstring / flap / envelope / zipper" },
-      { label: "String Type", value: "Cotton cord / satin ribbon / polyester cord" }
+      { label: "Fabric options", value: "Velvet, cotton, muslin, satin, microfiber, suede or linen \u2014 choose from the quotation; final fabric confirmed in approved sample" },
+      { label: "Closure options", value: "Drawstring, flap, envelope or zipper; string types confirmed in quotation" },
+      { label: "Size", value: "Made to your product dimensions \u2014 confirm finished size in the quotation" },
+      { label: "Logo method", value: "Silkscreen, hot stamp or woven label; Pantone matching on request" },
+      { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection; anti-tarnish treatment is an option for silver / plated items only, confirmed by sample" },
+      { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Pantone velvet color matching",
@@ -616,9 +661,14 @@ var products = [
       }
     ],
     specs: [
-      { label: "Dimensions", value: "Made to your size" },
-      { label: "String Type", value: "Cotton cord" },
-      { label: "Closure Type", value: "Drawstring / flap / envelope / zipper" }
+      { label: "Fabric options", value: "Velvet, cotton, muslin, satin, microfiber, suede or linen \u2014 choose from the quotation; final fabric confirmed in approved sample" },
+      { label: "Closure options", value: "Drawstring, flap, envelope or zipper; string types confirmed in quotation" },
+      { label: "Size", value: "Made to your product dimensions \u2014 confirm finished size in the quotation" },
+      { label: "Logo method", value: "Silkscreen, hot stamp or woven label; Pantone matching on request" },
+      { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection; anti-tarnish treatment is an option for silver / plated items only, confirmed by sample" },
+      { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Water-based ink printing",
@@ -750,10 +800,13 @@ var products = [
       }
     ],
     specs: [
-      { label: "Dimensions (W \xD7 H \xD7 G)", value: "Confirm width, height and gusset for the intended contents" },
-      { label: "Handle Type", value: "Twisted paper / cotton cord" },
-      { label: "Dieline", value: "Free digital dieline preview" },
-      { label: "Custom Sample", value: "USD 25 + USD 20 shipping, 3-5 days" }
+      { label: "Material options", value: "Kraft paper, art paper or textured paper \u2014 choose from the quotation; final material confirmed in approved sample" },
+      { label: "Handle options", value: "Rope, ribbon, cotton or paper handles \u2014 confirm in quotation" },
+      { label: "Size", value: "Made to your product dimensions \u2014 confirm finished size in the quotation" },
+      { label: "Logo method", value: "Print, foil stamping or embossing; Pantone matching on request" },
+      { label: "Set option", value: "Add a matching box, pouch or ribbon to make a retail set, MOQ 200 per component" },
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Custom sizes and paper weights",
@@ -1009,11 +1062,14 @@ var products = [
       }
     ],
     specs: [
-      { label: "Dimensions", value: "Made to your size" },
-      { label: "Fabric", value: "Microfiber" },
-      { label: "Fabric weight", value: "To be confirmed" },
-      { label: "Closure Type", value: "Drawstring / flap" },
-      { label: "Cloth + pouch set MOQ", value: "200 pcs" }
+      { label: "Fabric options", value: "Velvet, cotton, muslin, satin, microfiber, suede or linen \u2014 choose from the quotation; final fabric confirmed in approved sample" },
+      { label: "Closure options", value: "Drawstring, flap, envelope or zipper; string types confirmed in quotation" },
+      { label: "Size", value: "Made to your product dimensions \u2014 confirm finished size in the quotation" },
+      { label: "Logo method", value: "Silkscreen, hot stamp or woven label; Pantone matching on request" },
+      { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection; anti-tarnish treatment is an option for silver / plated items only, confirmed by sample" },
+      { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
+      { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
     customizationOptions: [
       "Custom sizes for eyewear, jewelry or devices",
@@ -1064,6 +1120,94 @@ var products = [
       "Provide logo artwork and preferred position",
       "Specify the required closure and usable opening",
       "Matched programs with fabric pouch lines"
+    ]
+  },
+  {
+    slug: "custom-microfiber-cleaning-cloth-jewelry",
+    name: "Custom Microfiber Cleaning Cloth for Jewelry",
+    category: "Pouches & Bags",
+    shortDesc: "Microfiber polishing cloth for jewelry, from 200 pieces; confirm size, edge, print and polishing scope in a sample.",
+    description: "A microfiber cloth to add to a jewelry box + pouch set, so the customer can keep the piece looking like new on every opening. Material: microfiber \u2014 in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180\u2013230g; other weights can be made to request. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. This jewelry version carries a polishing effect and is used to polish oxidized metal jewellery; the eyewear version is plain microfiber with no polishing additive. Confirm the polishing scope you need in the quotation and approved sample. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Microfiber: 100% polyester or 80% polyester / 20% polyamide; conventional weight 180\u2013230g, other weights on request",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment receipt; shipping time separate",
+    industries: ["Jewelry", "Gift"],
+    features: [
+      {
+        title: "Microfiber Material",
+        desc: "Microfiber \u2014 in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180\u2013230g; other weights can be made to request."
+      },
+      {
+        title: "Print & Edge",
+        desc: "Silkscreen, embossing, digital printing or hot stamping; confirm edge finish in the quotation."
+      },
+      {
+        title: "Set Add-On",
+        desc: "Add to a box + pouch set, or order on its own from 200 pieces."
+      },
+      {
+        title: "Polishing Scope",
+        desc: "The jewelry version polishes oxidized metal jewellery; confirm the polishing scope you need in the quotation and approved sample."
+      }
+    ],
+    specs: [
+      { label: "Material", value: "Microfiber: 100% polyester or 80% polyester / 20% polyamide" },
+      { label: "Weight", value: "Conventional 180\u2013230g; other weights available on request" },
+      { label: "Print / Process options", value: "Silkscreen, embossing, digital printing, hot stamping, etc. \u2014 confirm in quotation" },
+      { label: "Scope", value: "Jewelry, eyewear, electronic screens and lenses" },
+      { label: "Set option", value: "Add to a box + pouch set, MOQ 200 per component" },
+      { label: "MOQ", value: "200 pcs" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
+    ],
+    customizationOptions: [
+      "Choose 100% polyester or 80% polyester / 20% polyamide",
+      "Provide size, edge finish and logo artwork",
+      "Add to a jewelry box + pouch set"
+    ]
+  },
+  {
+    slug: "custom-microfiber-cleaning-cloth-eyewear",
+    name: "Custom Microfiber Cleaning Cloth for Eyewear & Screens",
+    category: "Pouches & Bags",
+    shortDesc: "Microfiber cleaning cloth for eyewear, screens and lenses, from 200 pieces; confirm size, edge, print and coated-surface scope in a sample.",
+    description: "A microfiber cleaning cloth to add to an eyewear pouch + box set, for glasses, screens and lenses. This eyewear version is the plain microfiber cloth \u2014 fabric only, no polishing additive; for polishing oxidized metal jewellery, use the jewelry version. Material: microfiber \u2014 in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180\u2013230g; other weights can be made to request. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. If the cloth will be used on a coated lens or screen surface, discuss the required evidence or testing separately \u2014 packaging suitability and cleaning performance are separate requirements. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Microfiber: 100% polyester or 80% polyester / 20% polyamide; conventional weight 180\u2013230g, other weights on request",
+    moq: "200 pcs",
+    leadTime: "15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment receipt; shipping time separate",
+    industries: ["Eyewear & Sunglasses", "Beauty", "Gift"],
+    features: [
+      {
+        title: "Microfiber Material",
+        desc: "Microfiber \u2014 in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180\u2013230g; other weights can be made to request."
+      },
+      {
+        title: "Print & Edge",
+        desc: "Silkscreen, embossing, digital printing or hot stamping; confirm edge finish in the quotation."
+      },
+      {
+        title: "Set Add-On",
+        desc: "Add to an eyewear pouch + box set, or order on its own from 200 pieces."
+      },
+      {
+        title: "Coated Surfaces",
+        desc: "For coated lenses or screens, discuss evidence or testing separately before approving production."
+      }
+    ],
+    specs: [
+      { label: "Material", value: "Microfiber: 100% polyester or 80% polyester / 20% polyamide" },
+      { label: "Weight", value: "Conventional 180\u2013230g; other weights available on request" },
+      { label: "Print / Process options", value: "Silkscreen, embossing, digital printing, hot stamping, etc. \u2014 confirm in quotation" },
+      { label: "Scope", value: "Eyewear, electronic screens and lenses, plus jewelry" },
+      { label: "Set option", value: "Add to an eyewear pouch + box set, MOQ 200 per component" },
+      { label: "MOQ", value: "200 pcs" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 25 + USD 20 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
+    ],
+    customizationOptions: [
+      "Choose 100% polyester or 80% polyester / 20% polyamide",
+      "Provide size, edge finish and logo artwork",
+      "Add to an eyewear pouch + box set"
     ]
   }
 ];
@@ -1262,6 +1406,14 @@ var productGuides = {
     "custom-cosmetic-packaging-guide",
     "custom-logo-pouches-guide",
     "custom-toiletry-bags-guide"
+  ],
+  "custom-microfiber-cleaning-cloth-jewelry": [
+    "custom-glasses-cases-pouches-guide",
+    "how-to-choose-a-custom-jewelry-pouch"
+  ],
+  "custom-microfiber-cleaning-cloth-eyewear": [
+    "custom-glasses-cases-pouches-guide",
+    "how-to-choose-a-custom-jewelry-pouch"
   ]
 };
 
@@ -1635,10 +1787,10 @@ var products2 = featuredSlugs.map(({ slug, tag }) => {
   return p ? { name: p.name, slug: p.slug, desc: p.shortDesc, image: p.image, tag } : null;
 }).filter((p) => p !== null);
 var stats = [
-  { value: "200", label: "Individual product MOQ (pieces)" },
-  { value: "3\u20135", label: "Custom sample days" },
-  { value: "15\u201320", label: "Production days after sample approval + payment" },
-  { value: "1", label: "Business day to reply" }
+  { value: "200", label: "Individual product MOQ (pieces) \u2014 200 per component of a set" },
+  { value: "3\u20135", label: "Custom sample days \u2014 USD 25 + USD 20 shipping" },
+  { value: "15\u201320", label: "Production days after sample approval + payment \u2014 15\u201320 for 200\u201320,000 pcs; 30\u201335 for 20,000\u201350,000 pcs" },
+  { value: "1", label: "Business day to reply \u2014 stock samples free + USD 25 shipping" }
 ];
 var popularSolutions = [
   {
@@ -1671,7 +1823,9 @@ var brandLogos = [
   { name: "Beauty", type: "text" },
   { name: "Retail", type: "text" },
   { name: "Gifting", type: "text" },
-  { name: "Fashion", type: "text" }
+  { name: "Fashion", type: "text" },
+  { name: "Fragrance", type: "text" },
+  { name: "Eyewear", type: "text" }
 ];
 var whyCards = [
   {
@@ -1771,6 +1925,71 @@ function Home() {
       },
       stat.label
     )) }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "eyebrow", children: "Start Here" }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Packaging for Any Product \u2014 Start by Form, Industry or Scenario" }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "section-subtitle", children: "Unboxing experience, product value and protection come first. Choose a form, an industry or a scenario \u2014 every route leads to the same spec inquiry, box + pouch + card / cloth / ribbon sets, MOQ 200 per component." })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("p", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("strong", { children: "By form: " }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/boxes/", className: "text-link", children: [
+            "Boxes ",
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          ] }),
+          " \xB7 ",
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/pouches-bags/", className: "text-link", children: [
+            "Pouches & Bags ",
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          ] }),
+          " \xB7 ",
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/sets/", className: "text-link", children: [
+            "Complete Sets ",
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("p", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("strong", { children: "By industry \u2014 common set programs: " }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/custom-cosmetic-packaging/", className: "text-link", children: [
+            "Beauty & Fragrance ",
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          ] }),
+          " \xB7 ",
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/custom-drawstring-bags/", className: "text-link", children: [
+            "Storage Bags ",
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          ] }),
+          " \xB7 ",
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/custom-gift-boxes/", className: "text-link", children: [
+            "Gift Boxes ",
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          ] }),
+          " \xB7 ",
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/industries/", className: "text-link", children: [
+            "All Industries ",
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("p", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("strong", { children: "By scenario: " }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/custom-gift-boxes/", className: "text-link", children: [
+            "Gifting ",
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          ] }),
+          " \xB7 ",
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/subscription-box-packaging/", className: "text-link", children: [
+            "Subscription Boxes ",
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          ] }),
+          " \xB7 ",
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_router_dom6.Link, { to: "/contact/", className: "text-link", children: [
+            "Send Your Spec ",
+            /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          ] })
+        ] })
+      ] })
+    ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("section", { className: "section intro-section", children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "intro-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "intro-image-wrap reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "intro-image-main", children: [
@@ -2389,6 +2608,18 @@ var productContentUpdates = {
     "options": "Request the size, presentation and insert arrangement your project needs. Confirm board, wrap and branding options in the quotation and sample. A free digital dieline preview is available; PDF, editable AI and PSD files can be provided.",
     "policies": [
       [
+        "Closure / Structure options",
+        "Magnetic flip-top, lift-off lid or drawer \u2014 confirm with the proposed structure and sample."
+      ],
+      [
+        "Insert options",
+        "EVA foam, velvet, satin or molded pulp insert, fitted to your product dimensions."
+      ],
+      [
+        "Finish / Logo options",
+        "Foil stamping, embossing, debossing, spot UV; Pantone-matched colours on request."
+      ],
+      [
         "Minimum order",
         "200 pieces."
       ],
@@ -2518,6 +2749,18 @@ var productContentUpdates = {
     ],
     "options": "Share pouch dimensions, opening or closure requirements, logo artwork and an appearance reference. Confirm the available fabric and branding method in the quotation and approved sample.",
     "policies": [
+      [
+        "Fabric options",
+        "Microfiber pouch fabric \u2014 confirm the quoted specification and review a sample; cleaning performance is a separate requirement from packaging."
+      ],
+      [
+        "Closure options",
+        "Drawstring, flap, envelope or zipper \u2014 confirm in quotation."
+      ],
+      [
+        "Logo options",
+        "Silkscreen, hot stamp or woven label; Pantone matching on request."
+      ],
       [
         "Minimum order",
         "200 pieces."
@@ -5082,7 +5325,7 @@ function ProductDetail() {
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-specs-intro reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Technical Details" }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: review ? "Order Information" : "Specifications" }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-specs-text", children: review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : "Share dimensions, material preferences and finish requirements to confirm feasibility." }),
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "product-specs-text", children: review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : "Choose from the options below; the final specification is confirmed in the quotation and approved sample. Unboxing experience, product value and protection come first \u2014 anti-tarnish lining is an option for silver / plated items only." }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-primary", children: "Discuss Your Project" })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "product-specs-table reveal reveal-delay-2", children: product.specs.map((spec) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "spec-row", children: [
@@ -6733,7 +6976,7 @@ function Contact() {
         )
       ] }) : /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("form", { className: "contact-form", onSubmit: handleSubmit, children: [
         /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "contact-heading", children: "Request a Quote" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-form-intro", children: "Share your project details and we'll prepare a tailored proposal for you." }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-form-intro", children: "Share your project details and we'll prepare a tailored proposal for you. MOQ 200 per product / per component of a set. Production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment." }),
         selectedProduct && /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("p", { className: "contact-form-intro", children: [
           "Product: ",
           /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("strong", { children: selectedProduct.name })
@@ -6825,6 +7068,75 @@ function Contact() {
             type
           )) })
         ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "industry", children: "Industry" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("select", { id: "industry", name: "industry", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { value: "", children: "Select industry" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Beauty & Fragrance" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Storage Bags" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Gift Boxes" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Jewelry" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Eyewear" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Hair & Wig" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Fashion" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Other" })
+            ] })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "packaging_form", children: "Packaging Form" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("select", { id: "packaging_form", name: "packaging_form", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { value: "", children: "Select form" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Box" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Pouch / Bag" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Set (box + pouch + card / cloth / ribbon)" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Other" })
+            ] })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "dimensions", children: "Product / Pack Dimensions" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "dimensions", name: "dimensions", type: "text", placeholder: "e.g. 90 x 90 x 40 mm, for a 50 ml bottle" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "material", children: "Material" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "material", name: "material", type: "text", placeholder: "e.g. rigid board, velvet, cotton, microfiber" })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "finish_insert", children: "Finish / Insert" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "finish_insert", name: "finish_insert", type: "text", placeholder: "e.g. foil, emboss, EVA / velvet insert" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "logo_method", children: "Logo Method" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "logo_method", name: "logo_method", type: "text", placeholder: "e.g. hot stamp, silkscreen, woven label" })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "target_date", children: "Target Delivery Date" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "target_date", name: "target_date", type: "text", placeholder: "e.g. before 20 Dec" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "sample_needed", children: "Sample Needed" }),
+            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("select", { id: "sample_needed", name: "sample_needed", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { value: "", children: "Select sample" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Stock sample (free + USD 25 shipping)" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Custom sample (USD 25 + USD 20 shipping, 3\u20135 days)" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "No sample yet" })
+            ] })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "reference_link", children: "Reference Link (artwork / example)" }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "reference_link", name: "reference_link", type: "text", placeholder: "Paste a link to artwork or a reference product" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "form-group", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("label", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { type: "checkbox", name: "add_cleaning_cloth", value: "Yes" }),
+          " Add microfiber cleaning cloth to the set (100% polyester or 80% polyester / 20% polyamide, 180\u2013230g; for jewelry, eyewear, screens and lenses)"
+        ] }) }),
         /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
           /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "quantity", children: "Estimated Quantity" }),
           /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
@@ -7287,17 +7599,32 @@ var landings = [
     h1: "Custom Packaging Sets \u2014 Pouch, Box & More, Made to Work Together",
     subhead: "One spec. One supplier. Pouch, box and insert that match \u2014 piece to piece.",
     metaDescription: "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands \u2014 coordinate pouch, box and insert specifications. MOQ is 200 pieces for each component in the set.",
-    intro: "This page covers multi-component packaging supplied around one product: a box, pouch and optional insert or card. Specify each component and its quantity together so colour, material and branding can be checked across the set. Jewelry stands and trays are retail display props in the product catalogue, not box-and-pouch sets.",
+    intro: "This page covers multi-component packaging supplied around one product, for any product \u2014 not jewelry only. Start with unboxing experience, product value and protection, then choose the set: a box, pouch and optional insert, card, ribbon or microfiber cleaning cloth. Specify each component and its quantity together so colour, material and branding can be checked across the set. Jewelry stands and trays are retail display props in the product catalogue, not box-and-pouch sets.",
     why: {
       heading: "What a set can include",
       items: [
         { title: "Pouch + box", desc: "The classic pairing." },
         { title: "Box + insert + pouch", desc: "Retail-ready, piece to piece." },
         { title: "With a card", desc: "A thank-you card, company profile, slogan, design or product-showcase card, customised to match the set." },
+        { title: "With a ribbon", desc: "A satin or printed ribbon closure or trim, matched to the box and pouch colour." },
+        { title: "With a microfiber cleaning cloth", desc: "Add a microfiber cleaning cloth (100% polyester or 80% polyester / 20% polyamide, 180\u2013230g) for jewelry, eyewear, screens and lenses \u2014 tick it in the inquiry form." },
         { title: "Custom combinations", desc: "Built around your product on request." }
       ]
     },
-    tables: [],
+    tables: [
+      {
+        heading: "Choose a set combination",
+        note: "MOQ is 200 pieces per component. Final specification is confirmed in the quotation and approved sample.",
+        columns: ["Set combination", "Includes", "Best for"],
+        rows: [
+          ["Beauty & Fragrance set", "Box + pouch + sample / showcase card", "Perfume, beauty and fragrance brands"],
+          ["Storage set", "Drawstring bag + pouch + card", "Various-purpose storage bags"],
+          ["Gift set", "Box + pouch + ribbon + card", "Gift boxes and seasonal gifting"],
+          ["Eyewear set", "Pouch + microfiber cleaning cloth + box / case", "Eyewear and sunglasses brands"],
+          ["Jewelry set", "Box + pouch + optional cleaning cloth", "Jewelry brands; anti-tarnish lining is an option for silver / plated items only"]
+        ]
+      }
+    ],
     lists: [
       {
         heading: "How sets come together",
@@ -7310,22 +7637,23 @@ var landings = [
     howItWorks: [
       { title: "Send your spec", desc: "What goes in the set, per-piece size, material, branding, quantity." },
       { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4\u20137 days; custom printed samples take 3\u20135 days to make (USD 25 + USD 20 shipping)." },
-      { title: "We make it", desc: "Typical production takes 15\u201320 days after sample approval and payment receipt; confirm the schedule for your order." },
+      { title: "We make it", desc: "Production takes 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment receipt; confirm the schedule for your order." },
       { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." }
     ],
     moq: [
       { label: "MOQ", value: "200 pieces for each component in the set; list the components and quantities in your quotation request" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4\u20137 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
-      { label: "Production time", value: "Typically 15\u201320 days after sample approval and payment receipt; shipping time is separate" },
+      { label: "Production time", value: "15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T \xB7 PayPal" }
     ],
     audience: [
-      { title: "Jewellery & eyewear", desc: "Pouch + box sets with fitted inserts." },
-      { title: "Fragrance & gift", desc: "Candle and gift sets: box, pouch, and insert as one." },
-      { title: "Hair & beauty", desc: "Wig and bundle sets for retail-ready presentation." },
-      { title: "Fashion", desc: "Accessory and garment packaging sets." }
+      { title: "Beauty & Fragrance", desc: "Box + pouch + card sets for perfume and beauty brands." },
+      { title: "Storage bags", desc: "Drawstring bag + pouch sets for various-purpose storage." },
+      { title: "Gift boxes", desc: "Box + pouch + ribbon + card sets for gifting." },
+      { title: "Jewellery & eyewear", desc: "Pouch + box sets with fitted inserts, plus an optional microfiber cleaning cloth." },
+      { title: "Hair & fashion", desc: "Wig, bundle, accessory and garment packaging sets." }
     ],
     ctaTitle: "Request a quote for your custom packaging set"
   }
@@ -8296,6 +8624,62 @@ var collections = [
       "valentines-day-packaging-timeline",
       "custom-packaging-moq-sample-lead-times-2026"
     ]
+  },
+  {
+    slug: "lightweight-luxury-packaging",
+    browserTitle: "Lightweight Luxury Packaging \u2014 Less Weight, Same Unboxing Value, Confirmed by Sample | ELAPACK",
+    eyebrow: "Structure & Materials",
+    h1: "Lightweight Luxury Packaging \u2014 Less Weight, Same Unboxing Value, Confirmed by Sample",
+    subhead: "Lightweight does not mean thin and cheap. Keep the unboxing value in texture, precision and finish, and confirm weight, volume and freight for your specific box on a sample \u2014 no generic saving is claimed here.",
+    metaDescription: "Lightweight luxury packaging from ELAPACK \u2014 right-sized boxes, board inserts and mono-material options, MOQ 200. Weight, volume and freight comparison are confirmed by sample for your specific box, not assumed from a guide.",
+    intro: "Use this page to decide whether a lighter structure fits your product, without losing the unboxing experience, product value or protection that the packaging must deliver. Lightweight luxury shifts the value cue from mass to texture, precision, finish and fit: right-sized boxes, a lighter tray with a kept lid feel, board or molded inserts instead of heavy foam or metal, and nesting or collapsible formats where they fit the product. A before-and-after weight, volume and freight-per-1,000 comparison must be made for your specific box on a sample \u2014 this page does not claim a generic percentage saving, because board, size, insert and finish change the result.",
+    sections: [
+      {
+        heading: "Where weight can be saved",
+        items: [
+          { title: "Right-sizing", desc: "Size the box to the product, not to a stock size, to cut empty space and material." },
+          { title: "Lighter tray, kept lid feel", desc: "Lighten the tray or insert where it is safe, while keeping the lid and opening feel premium." },
+          { title: "Board inserts", desc: "Board or molded-pulp inserts can replace heavy foam or metal where fit and protection allow." },
+          { title: "Nesting / collapsible formats", desc: "Where the product allows, nesting or flat-packed formats cut storage and freight volume." }
+        ]
+      },
+      {
+        heading: "Where weight should not be cut",
+        items: [
+          { title: "Protection", desc: "Do not thin the structure that protects a glass bottle, a fragile item or a fitted insert." },
+          { title: "Opening feel", desc: "A magnetic or drawer box that feels loose has lost its value, even if it is lighter." },
+          { title: "Transit", desc: "Confirm drop, compression and transit checks for the complete shipping pack on a sample, not on a presentation sample alone." }
+        ]
+      },
+      {
+        heading: "How to order lightweight",
+        items: [
+          { title: "Share weight and size", desc: "Send product dimensions, weight and the current box, if you have one." },
+          { title: "Ask for a sample comparison", desc: "Ask for the proposed lightweight structure, its weight and volume, and the freight comparison for your quantity, in the quotation." },
+          { title: "Check the sample loaded", desc: "Check the sample with the actual product inside, including opening, fit and protection." }
+        ]
+      }
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces per product / per component of a set" },
+      { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4\u20137 days" },
+      { label: "Custom sample", value: "USD 25 + USD 20 shipping \u2014 made in 3\u20135 days" },
+      { label: "Production time", value: "15\u201320 days for 200\u201320,000 pcs; 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T \xB7 PayPal" }
+    ],
+    productSlugs: [
+      "black-leather-jewelry-box",
+      "custom-white-jewelry-box",
+      "magnetic-closure-gift-box",
+      "custom-perfume-boxes",
+      "kraft-paper-shopping-bag"
+    ],
+    ctaTitle: "Request a quote for lightweight luxury packaging",
+    factBlock: {
+      updated: "October 2026",
+      paragraph: "ELAPACK lightweight luxury packaging \u2014 key facts, current as of October 2026. Lightweight structures are available; weight, volume and freight comparison must be confirmed by sample for your specific box, and no generic saving is claimed on this page. Minimum order quantity is 200 pieces per product / per component of a set. Production takes 15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces after sample approval and payment. A free stock sample carries USD 25 shipping and typically arrives in 4\u20137 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3\u20135 days from confirmed artwork."
+    }
   }
 ];
 function getCollectionBySlug(slug) {
@@ -8419,6 +8803,7 @@ function AppRoutes() {
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/ribbons-accessories", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "ribbons-accessories" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-cosmetic-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-pouches" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/subscription-box-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "subscription-box-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/lightweight-luxury-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "lightweight-luxury-packaging" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Products, {}) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(ProductDetail, {}) }),
     /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Industries, {}) }),
@@ -8453,6 +8838,7 @@ var ROUTES = [
   "/ribbons-accessories",
   "/custom-cosmetic-pouches",
   "/subscription-box-packaging",
+  "/lightweight-luxury-packaging",
   "/products",
   "/industries",
   "/solutions",
@@ -8482,6 +8868,7 @@ var STATIC_TITLES = {
   "/ribbons-accessories": "Custom Printed Ribbons & Packaging Accessories | ELAPACK",
   "/custom-cosmetic-pouches": "Custom Cosmetic Pouches & Makeup Bags with Logo | ELAPACK",
   "/subscription-box-packaging": "Subscription Box Packaging: Boxes, Pouches, Insert Cards from 200 pcs | ELAPACK",
+  "/lightweight-luxury-packaging": "Lightweight Luxury Packaging \u2014 Less Weight, Same Unboxing Value, Confirmed by Sample | ELAPACK",
   "/products": "Products \u2014 Boxes, Pouches & Gift Packaging | ELAPACK",
   "/industries": "Industries We Serve \u2014 Jewelry, Beauty & Luxury Retail | ELAPACK",
   "/solutions": "Packaging Solutions \u2014 Custom, Materials & Sustainability | ELAPACK",
@@ -8508,6 +8895,7 @@ var STATIC_DESCRIPTIONS = {
   "/ribbons-accessories": "Custom printed ribbons and packaging accessories \u2014 satin ribbon closures, logo-printed ribbon programs, cotton cords and drawstrings matched to your box and pouch programs.",
   "/custom-cosmetic-pouches": "Custom cosmetic pouches and makeup bags with your logo \u2014 drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas, plus clear PVC zip bags. MOQ from 200 pieces, free stock samples.",
   "/subscription-box-packaging": "Custom subscription box packaging from one manufacturer \u2014 printed boxes, fabric pouches and insert cards for monthly themed programs. Pantone-matched, MOQ from 200 pieces, free stock samples.",
+  "/lightweight-luxury-packaging": "Lightweight luxury packaging \u2014 right-sized boxes and board inserts, MOQ 200. Weight, volume and freight comparison confirmed by sample for your specific box.",
   "/products": "Browse ELAPACK's custom packaging catalog \u2014 rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands \u2014 engineered for Europe and North America.",
   "/solutions": "Custom packaging solutions from ELAPACK \u2014 bespoke structures, premium materials and finishes, clear process, sustainable options.",
