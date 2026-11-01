@@ -117,41 +117,91 @@ export default function About() {
           <div className="about-founder-text reveal">
             <p className="eyebrow">About Tina</p>
             <h2 className="section-title" style={{ marginTop: "1rem" }}>
-              Strategic, data-driven packaging solutions.
+              Tina Lee — Founder, ELAPACK
             </h2>
             <p className="about-text">
-              Over the last decade, I've specialized in the B2B market for
-              smart packaging solutions, helping companies scale their
-              operations and optimize their product presentation.
+              I have worked in custom packaging since 2018.
             </p>
             <p className="about-text">
-              In that time, I've worked with 500+ clients, including top
-              e-commerce platforms and consumer electronics brands, delivering
-              customized packaging solutions that protect products, enhance
-              brand value, and drive measurable results.
+              I lead ELAPACK, the custom packaging brand of Wuxi Magic
+              Packaging Co., Ltd. in Wuxi, Jiangsu — a company founded in
+              2018, working from a 1,000-square-metre facility with three
+              production lines.
             </p>
-            <p className="about-text">Here's what that has looked like in practice:</p>
+            <p className="about-text">
+              My work is the part of a packaging order that happens before
+              production: reading a brief, settling the structure and dieline,
+              choosing materials that suit the product, and coordinating
+              samples until the box, bag, or set is right. ELAPACK makes
+              custom boxes, pouches and bags, and complete packaging sets to
+              order — not from stock — for jewelry, eyewear, beauty,
+              fragrance, gift, and fashion brands in Europe and North America.
+            </p>
+            <p className="about-text">
+              I write ELAPACK's buyer guides myself, on the questions buyers
+              ask before they order: how to choose materials, how to size a
+              box or pouch and read a dieline, and how minimum order
+              quantities, sampling, and lead times really work. The aim
+              throughout is packaging that protects the product, presents it
+              at its value, and gives the customer a considered unboxing
+              moment.
+            </p>
+            <p className="about-text">
+              If you are planning packaging for a product, write to me at
+              tina@elapack.com. I reply within one business day.
+            </p>
+            <h3
+              className="section-title"
+              style={{ marginTop: "2rem", fontSize: "1.35rem" }}
+            >
+              Guides by Tina
+            </h3>
             <ul className="about-founder-stats">
-              <li>150% annual sales growth in a highly competitive market</li>
-              <li>20% reduction in logistics losses for clients</li>
-              <li>30% increase in product conversion rates through professional packaging design</li>
-              <li>95%+ customer satisfaction with long-term partnerships</li>
+              <li>
+                <Link to="/news/box-dimensions-guide/" className="text-link">
+                  Box Dimensions: Length, Width, Height and How to Measure Them
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/news/die-cutting-and-dielines-guide/"
+                  className="text-link"
+                >
+                  Die Cutting and Dielines for Custom Boxes: A Buyer's Guide
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/news/how-to-read-a-packaging-specification-sheet/"
+                  className="text-link"
+                >
+                  How to Read a Custom Packaging Specification Sheet: The Specs
+                  That Decide Fit
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/news/custom-packaging-moq-sample-lead-times-2026/"
+                  className="text-link"
+                >
+                  Custom Packaging MOQ, Sample Costs and Production Times
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/news/custom-packaging-samples-guide/"
+                  className="text-link"
+                >
+                  Custom Packaging Samples: What to Expect, What They Cost, How
+                  Long They Take
+                </Link>
+              </li>
+              <li>
+                <Link to="/news/" className="text-link">
+                  All guides
+                </Link>
+              </li>
             </ul>
-            <p className="about-text">
-              I do more than sell packaging — I provide strategic, data-driven
-              solutions that combine design, technology, and market insights,
-              helping brands succeed in the market.
-            </p>
-            <p className="about-text">
-              My mission is simple: to be the go-to expert for brands seeking
-              innovative, smart, and sustainable packaging solutions that
-              truly make a difference for their business.
-            </p>
-            <p className="about-text">
-              If you're looking to reduce losses, enhance your product display,
-              and maximize ROI, we should connect. I regularly share insights
-              on packaging trends, smart design, and market opportunities.
-            </p>
           </div>
         </div>
       </section>
