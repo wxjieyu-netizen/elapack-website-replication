@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1350" viewBox="0 0 2400 1350"><rect width="2400" height="1350" fill="#faf8f4"/><g font-family="Arial, sans-serif" fill="#28251f"><text x="120" y="130" font-size="34" letter-spacing="5">ELAPACK · SPECIFICATION</text><text x="120" y="270" font-size="66">Greyboard weight and approximate thickness</text><text x="120" y="350" font-size="36" fill="#6b6455">gsm measures board weight, caliper measures wall thickness — specify both; one does not convert the other</text><line x1="120" y1="430" x2="2280" y2="430" stroke="#ddd5c5"/>
+
+<text x="120" y="510" font-size="38" font-weight="bold">Published pairings (one supplier, illustrative)</text>
+<text x="120" y="558" font-size="30" fill="#6b6455">Yucai Printing, greyboard gift box construction guide · bar height tracks approximate caliper</text>
+
+<!-- ELAPACK baseline band 1200-1500 gsm: gsm axis 1000-1700 on x 120-1200 -->
+<rect x="274" y="600" width="463" height="70" fill="#aa8438" opacity="0.14"/>
+<text x="505" y="645" font-size="32" font-weight="bold" fill="#aa8438" text-anchor="middle">ELAPACK baseline: 1200–1500 gsm</text>
+
+<!-- bars from baseline y=1100, 1mm = 130px -->
+<line x1="120" y1="1100" x2="1200" y2="1100" stroke="#28251f" stroke-width="3"/>
+<!-- 1200gsm ≈2mm: x=274 h=260 -->
+<rect x="252" y="840" width="44" height="260" fill="#c9b98a"/>
+<text x="274" y="760" font-size="32" font-weight="bold" text-anchor="middle">1200 gsm</text>
+<text x="274" y="1160" font-size="32" text-anchor="middle">≈2 mm</text>
+<text x="274" y="1200" font-size="28" fill="#6b6455" text-anchor="middle">regular boxes</text>
+<!-- 1400gsm ≈3mm: x=583 h=390 -->
+<rect x="561" y="710" width="44" height="390" fill="#c9b98a"/>
+<text x="583" y="760" font-size="32" font-weight="bold" text-anchor="middle">1400 gsm</text>
+<text x="583" y="1160" font-size="32" text-anchor="middle">≈3 mm</text>
+<text x="583" y="1200" font-size="28" fill="#6b6455" text-anchor="middle">boxes over 30 cm</text>
+<!-- 1600gsm: x=891 -->
+<rect x="869" y="800" width="44" height="300" fill="#e3d9bf"/>
+<text x="891" y="760" font-size="32" font-weight="bold" text-anchor="middle">1600 gsm</text>
+<text x="891" y="1160" font-size="32" text-anchor="middle">extra-thick</text>
+<text x="891" y="1200" font-size="28" fill="#6b6455" text-anchor="middle">no fixed pairing</text>
+
+<!-- right column -->
+<rect x="1350" y="600" width="930" height="540" fill="none" stroke="#aa8438" stroke-width="4"/>
+<text x="1410" y="680" font-size="38" font-weight="bold">What the wall decides</text>
+<text x="1410" y="745" font-size="33">· Hinge area — thicker board resists flex where</text>
+<text x="1450" y="790" font-size="33">the flip-top hinge works the wall</text>
+<text x="1410" y="855" font-size="33">· Magnet retention — wall stiffness keeps the</text>
+<text x="1450" y="900" font-size="33">closing force consistent</text>
+<text x="1410" y="965" font-size="33">· Box span — larger lids need caliper, not just gsm</text>
+<text x="1410" y="1030" font-size="33">· Insert fit — cavities are cut to the wall as built</text>
+<text x="1410" y="1095" font-size="31" fill="#6b6455">Confirm gsm and caliper together in the quote.</text>
+
+<text x="120" y="1265" font-size="30" font-weight="bold">Pairings are one supplier's published figures, not a universal conversion.</text>
+<line x1="120" y1="1300" x2="2280" y2="1300" stroke="#aa8438"/>
+<text x="120" y="1330" font-size="27">Sources: elapack.com product page · yucai-printing.com greyboard guide · Editorial diagram, not a product photograph</text></g></svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1350" viewBox="0 0 2400 1350"><rect width="2400" height="1350" fill="#faf8f4"/><g font-family="Arial, sans-serif" fill="#28251f"><text x="120" y="130" font-size="34" letter-spacing="5">ELAPACK · SPECIFICATION</text><text x="120" y="270" font-size="66">Bag material weight bands, paper vs fabric</text><text x="120" y="350" font-size="36" fill="#6b6455">Both scales are in gsm (grams per square metre) — paper and fabric share the unit at very different magnitudes</text><line x1="120" y1="430" x2="2280" y2="430" stroke="#ddd5c5"/>
+
+<!-- PAPER SCALE -->
+<text x="120" y="510" font-size="38" font-weight="bold">Kraft paper shopping bags · 100–200 gsm</text>
+<text x="120" y="555" font-size="28" fill="#6b6455">Source: Gentle Packaging, paper bag GSM selection guide</text>
+<!-- axis 100-210 gsm -> x 120-2280 (20.5 px/gsm) -->
+<rect x="120" y="590" width="410" height="90" fill="#e3d9bf"/>
+<rect x="530" y="590" width="820" height="90" fill="#c9b98a"/>
+<rect x="1350" y="590" width="820" height="90" fill="#aa8438" opacity="0.75"/>
+<text x="325" y="645" font-size="30" font-weight="bold" text-anchor="middle">100–120</text>
+<text x="940" y="645" font-size="30" font-weight="bold" text-anchor="middle">120–160</text>
+<text x="1760" y="645" font-size="30" font-weight="bold" text-anchor="middle" fill="#faf8f4">160–200</text>
+<text x="325" y="735" font-size="28" fill="#6b6455" text-anchor="middle">promotional,</text>
+<text x="325" y="772" font-size="28" fill="#6b6455" text-anchor="middle">small retail</text>
+<text x="940" y="735" font-size="28" fill="#6b6455" text-anchor="middle">everyday retail</text>
+<text x="940" y="772" font-size="28" fill="#6b6455" text-anchor="middle">and shopping bags</text>
+<text x="1760" y="735" font-size="28" fill="#6b6455" text-anchor="middle">larger bags,</text>
+<text x="1760" y="772" font-size="28" fill="#6b6455" text-anchor="middle">premium structure</text>
+<text x="2280" y="735" font-size="28" fill="#6b6455" text-anchor="end">gsm</text>
+
+<!-- FABRIC SCALE -->
+<text x="120" y="880" font-size="38" font-weight="bold">Cotton canvas totes · 135–475 gsm (4–14 oz)</text>
+<text x="120" y="925" font-size="28" fill="#6b6455">Source: CanvasETC, canvas material for tote bags · 1 oz/yd² ≈ 34 gsm</text>
+<!-- axis 135-475 -> x 120-2270 -->
+<rect x="120" y="960" width="411" height="90" fill="#e3d9bf"/>
+<rect x="531" y="960" width="443" height="90" fill="#e3d9bf"/>
+<rect x="974" y="960" width="442" height="90" fill="#c9b98a"/>
+<rect x="1416" y="960" width="854" height="90" fill="#aa8438" opacity="0.75"/>
+<text x="325" y="1015" font-size="29" font-weight="bold" text-anchor="middle">4–6 oz</text>
+<text x="752" y="1015" font-size="29" font-weight="bold" text-anchor="middle">8 oz</text>
+<text x="1195" y="1015" font-size="29" font-weight="bold" text-anchor="middle">10 oz</text>
+<text x="1843" y="1015" font-size="29" font-weight="bold" text-anchor="middle" fill="#faf8f4">12–14 oz · 400–475 gsm</text>
+<text x="325" y="1105" font-size="28" fill="#6b6455" text-anchor="middle">event bags, liners</text>
+<text x="752" y="1105" font-size="28" fill="#6b6455" text-anchor="middle">daily carry</text>
+<text x="1195" y="1105" font-size="28" fill="#6b6455" text-anchor="middle">branded merch</text>
+<text x="1843" y="1105" font-size="28" fill="#6b6455" text-anchor="middle">heavy hauls · 16+ oz (540+) for tools</text>
+<text x="2280" y="1105" font-size="28" fill="#6b6455" text-anchor="end">gsm</text>
+
+<!-- buyer note -->
+<rect x="120" y="1150" width="2160" height="110" fill="none" stroke="#aa8438" stroke-width="4"/>
+<text x="160" y="1197" font-size="31" font-weight="bold">Buyer check:</text>
+<text x="410" y="1197" font-size="31">weight band sets structure and print surface — judge the loaded carry on the actual sample, not gsm alone.</text>
+<text x="410" y="1240" font-size="31">A fabric shopping-bag line requires a separate feasibility confirmation.</text>
+
+<line x1="120" y1="1300" x2="2280" y2="1300" stroke="#aa8438"/>
+<text x="120" y="1330" font-size="27">Sources: gentlepk.com GSM guide · canvasetc.com tote canvas guide · Editorial diagram, not a product photograph</text></g></svg>
