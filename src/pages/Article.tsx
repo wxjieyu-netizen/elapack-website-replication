@@ -697,6 +697,20 @@ export default function Article() {
             </nav>
           )}
           <div className="article-body">{renderBody(article.body, ANCHORS[article.slug])}</div>
+          <div className="article-related reveal">
+            <h2>
+              <Link to="/about/" className="text-link">Tina Lee — Founder, ELAPACK</Link>
+            </h2>
+            <p>
+              Tina Lee leads ELAPACK, the custom packaging brand of Wuxi Magic
+              Packaging Co., Ltd. in Wuxi, China. She works with jewelry,
+              eyewear, beauty, fragrance, gift, and fashion brands in Europe
+              and North America on custom boxes, pouches, bags, and complete
+              packaging sets. She writes ELAPACK's buyer guides on materials,
+              sizing and dielines, sampling, minimum order quantities, and
+              lead times.
+            </p>
+          </div>
           <div className="article-cta reveal">
             <p className="article-cta-facts">Individual packaging products from 200 pieces · free digital dieline preview · custom sample USD 25 + USD 20 shipping, usually 3–5 days to prepare</p>
             <Link to="/contact/" className="btn-primary article-cta-btn">Request a quote</Link>
