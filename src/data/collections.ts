@@ -125,7 +125,7 @@ export const collections: Collection[] = [
     factBlock: {
       updated: "October 2026",
       paragraph:
-        "ELAPACK eyewear packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering printed glasses boxes, fabric pouches and fitted inserts, custom sizes included. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK eyewear packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per product or component, covering printed glasses boxes, fabric pouches and fitted inserts, custom sizes included. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     intro:
       "Custom packaging for eyewear and sunglasses brands selling in the US and Europe. We make both sides of the program — printed boxes that present and protect the frames, and fabric pouches that keep them safe after the sale — matched in colour and branding. Folded glasses set the footprint: share your frame dimensions and we build the box and insert around them.",
@@ -441,7 +441,7 @@ export const collections: Collection[] = [
     factBlock: {
       updated: "October 2026",
       paragraph:
-        "ELAPACK custom gift boxes — key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, covering magnetic flip-top, satin ribbon-tie, two-piece rigid and candle-format boxes, custom sizes included. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK custom gift boxes — key facts, current as of October 2026. Minimum order quantity is 200 pieces per product or component, covering magnetic flip-top, satin ribbon-tie, two-piece rigid and candle-format boxes, custom sizes included. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     intro:
       "Custom gift boxes for the occasions where the box is part of the gift. Corporate programs, candles, weddings, retail gifting and seasonal campaigns all start from the same place: a rigid structure that protects, a wrap that carries your brand, and a closure that makes opening feel like an event. Magnetic flip-tops, satin ribbon ties and two-piece rigid formats are all made to your size, Pantone colour and logo — MOQ from 200 pieces.",
@@ -900,7 +900,7 @@ export const collections: Collection[] = [
     factBlock: {
       updated: "October 2026",
       paragraph:
-        "ELAPACK subscription box packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per design, custom sizes included, across printed boxes, fabric pouches and insert cards. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK subscription box packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per product or component, custom sizes included, across printed boxes, fabric pouches and insert cards. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     guideSlugs: [
       "subscription-box-packaging-buyers-guide",
