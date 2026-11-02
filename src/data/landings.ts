@@ -64,7 +64,7 @@ export const landings: Landing[] = [
       items: [
         { title: "Your size, not a stock size", desc: "Standard bands run from 7×9 cm jewellery pouches up to 30×40 cm wig bags, and any custom size in between." },
         { title: "Your fabric", desc: "Velvet, suede, cotton, muslin, satin, linen, microfiber or non-woven — plus custom developments on request." },
-        { title: "Your closure and your branding", desc: "Drawstring, zipper, flap, tuck or button; screen print, foil, deboss, woven label, embroidery or transfer, with Pantone colour matching." },
+        { title: "Your closure and your branding", desc: "Drawstring, zipper, flap, tuck, button, ribbon tie or envelope snap; screen print, foil, deboss, woven label, embroidery or transfer, with Pantone colour matching." },
         { title: "A low barrier to start", desc: "MOQ from 200 pieces, including custom sizes." },
       ],
     },
@@ -85,7 +85,7 @@ export const landings: Landing[] = [
         columns: ["Material", "Best for", "What it protects against", "Custom options"],
         rows: [
           ["Velvet / suede", "Gift and jewellery presentation", "Dust and light abrasion; plush interior contact", "Silkscreen, foil, deboss; custom sizes; drawstring or zipper"],
-          ["Satin", "Dressy retail and fragrance gifts", "Dust and light abrasion; smooth interior", "Silkscreen, foil, woven label; ribbon-finish drawstrings"],
+          ["Satin", "Dressy retail and fragrance gifts", "Dust and light abrasion; smooth interior", "Silkscreen, foil, woven label; drawstring, ribbon tie or envelope snap closure"],
           ["Cotton / muslin / linen", "Everyday retail and natural positioning", "Dust and light abrasion", "Silkscreen, digital print, embroidery; natural drawcord"],
           ["Microfiber", "Eyewear, jewellery and screen care", "Lint-free contact for polishing and cleaning", "100% polyester or 80/20 polyamide; 180–230g conventional, other weights on request; silkscreen, embossing, digital print, hot stamping"],
           ["Non-woven", "Economical giveaway and transit pouches", "Dust; light contact", "Silkscreen; custom sizes"],
@@ -94,7 +94,7 @@ export const landings: Landing[] = [
       },
     ],
     lists: [
-      { heading: "Closures", items: ["Drawstring (cord or ribbon finish)", "Zipper", "Flap", "Tuck", "Button", "Custom"] },
+      { heading: "Closures", items: ["Drawstring (cord or ribbon finish)", "Zipper", "Flap", "Tuck", "Button", "Ribbon tie", "Envelope snap", "Custom"] },
       { heading: "Branding", items: ["Screen print", "Foil", "Deboss", "Woven label", "Embroidery", "Transfer — with Pantone colour matching"] },
     ],
     howItWorks: HOW_IT_WORKS_SHARED,
