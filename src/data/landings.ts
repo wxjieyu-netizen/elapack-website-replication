@@ -31,13 +31,14 @@ export interface Landing {
   howItWorks: { title: string; desc: string }[];
   moq: { label: string; value: string }[];
   audience: { title: string; desc: string }[];
+  faq?: { q: string; a: string }[];
   ctaTitle: string;
 }
 
 const HOW_IT_WORKS_SHARED = [
   { title: "Send your spec", desc: "Share size, material, structure, branding and quantity." },
   { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4–7 days; custom printed samples take 3–5 days to make (USD 25 + USD 20 shipping)." },
-  { title: "We make it", desc: "Typical production takes 15–20 days after sample approval and payment receipt; confirm the schedule for your order." },
+  { title: "We make it", desc: "Production takes 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; confirm the schedule for your order." },
   { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen." },
 ];
 
@@ -79,14 +80,16 @@ export const landings: Landing[] = [
         ],
       },
       {
-        heading: "Fabrics",
-        note: "Custom developments on request.",
-        columns: ["Fabric", "Reads as"],
+        heading: "Choose a fabric by what the pouch carries",
+        note: "Custom developments on request. Confirm protection needs and the full specification on the sample.",
+        columns: ["Material", "Best for", "What it protects against", "Custom options"],
         rows: [
-          ["Velvet / suede", "Plush, premium, gift-like"],
-          ["Cotton / muslin / linen", "Natural, understated, prints crisply"],
-          ["Satin", "Smooth, dressy"],
-          ["Microfiber / non-woven", "Practical, economical"],
+          ["Velvet / suede", "Gift and jewellery presentation", "Dust and light abrasion; plush interior contact", "Silkscreen, foil, deboss; custom sizes; drawstring or zipper"],
+          ["Satin", "Dressy retail and fragrance gifts", "Dust and light abrasion; smooth interior", "Silkscreen, foil, woven label; ribbon-finish drawstrings"],
+          ["Cotton / muslin / linen", "Everyday retail and natural positioning", "Dust and light abrasion", "Silkscreen, digital print, embroidery; natural drawcord"],
+          ["Microfiber", "Eyewear, jewellery and screen care", "Lint-free contact for polishing and cleaning", "100% polyester or 80/20 polyamide; 180–230g conventional, other weights on request; silkscreen, embossing, digital print, hot stamping"],
+          ["Non-woven", "Economical giveaway and transit pouches", "Dust; light contact", "Silkscreen; custom sizes"],
+          ["Kraft paper bags", "Retail carry-out and events", "Light goods in handling", "Printed logo; handle and size options — see the kraft shopping bag product page"],
         ],
       },
     ],
@@ -99,7 +102,7 @@ export const landings: Landing[] = [
       { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "Typically 15–20 days after sample approval and payment receipt; shipping time is separate" },
+      { label: "Production time", value: "Typically 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -109,6 +112,13 @@ export const landings: Landing[] = [
       { title: "Hair & beauty", desc: "Large bags for wigs, bundles and sets." },
       { title: "Fashion", desc: "Pouches and bags for accessories and garments." },
       { title: "Gift", desc: "Gift-ready pouches and bag-in-box combinations." },
+    ],
+    faq: [
+      { q: "Do you keep pouches in stock?", a: "No — every pouch is made to your specification: size, fabric, closure and branding. Stock samples of the fabrics are available to check material before ordering." },
+      { q: "Can pouches be ordered as a set with boxes?", a: "Yes. A pouch, box, insert, card, ribbon or microfiber cloth can be supplied as one coordinated set, colour-matched to your Pantone reference, with an MOQ of 200 pieces per component." },
+      { q: "What is the minimum order?", a: "200 pieces, custom sizes included. How the quantity splits across designs, colours or sizes is confirmed in the written quotation." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom printed sample costs USD 25 plus USD 20 shipping and is made in 3–5 days." },
+      { q: "Are there lower-impact material options?", a: "Reusable sewn pouches in natural fabrics — cotton, muslin and linen — are the standard choice for brands positioning away from single-use packaging. Material selection is confirmed per project on the approved sample." },
     ],
     ctaTitle: "Request a quote for your custom pouch or bag",
   },
@@ -182,7 +192,7 @@ export const landings: Landing[] = [
       { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "Typically 15–20 days after sample approval and payment receipt; shipping time is separate" },
+      { label: "Production time", value: "Typically 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],

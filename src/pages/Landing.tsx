@@ -52,6 +52,9 @@ export default function Landing({ slug }: { slug: string }) {
             {slug === "boxes" && <p className="about-text landing-related-links" style={{ maxWidth: "820px", margin: "1rem auto 0" }}>
               Sourcing for jewelry? Compare <Link to="/custom-jewelry-boxes/">jewelry box structures and inserts</Link> or see the <Link to="/custom-jewelry-packaging/">full box-and-pouch program</Link>.
             </p>}
+            {slug === "pouches-bags" && <p className="about-text landing-related-links" style={{ maxWidth: "820px", margin: "1rem auto 0" }}>
+              Choose the fabric by what the pouch carries and protects, and coordinate it with a box in one order — see <Link to="/sets/">complete packaging sets</Link>. Material-specific quotations: <Link to="/contact/?product=custom-velvet-pouches">velvet</Link> · <Link to="/contact/?product=custom-satin-pouches">satin</Link> · <Link to="/contact/?product=custom-cotton-pouches">cotton</Link> · <Link to="/contact/?product=custom-microfiber-pouches">microfiber</Link>.
+            </p>}
           </div>
           {landing.hero && (
             <figure className="landing-hero reveal" style={{ marginTop: "2.5rem" }}>
@@ -215,6 +218,23 @@ export default function Landing({ slug }: { slug: string }) {
         </div>
       </section>
 
+      {landing.faq && landing.faq.length > 0 && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal" style={{ textAlign: "left" }}>
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+                Frequently asked questions
+              </h2>
+              {landing.faq.map((row) => (
+                <p key={row.q} className="markets-note" style={{ marginBottom: "0.75rem" }}>
+                  <strong>{row.q}</strong> {row.a}
+                </p>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
           <div className="markets-box reveal" style={{ textAlign: "center" }}>
@@ -225,7 +245,7 @@ export default function Landing({ slug }: { slug: string }) {
               Message Tina on WhatsApp or phone:{" "}
               <a href="https://wa.me/8618626352096">+86 186 2635 2096</a>
               {" "}· Email: <a href="mailto:tina@elapack.com">tina@elapack.com</a>
-              {" "}· <Link to="/contact/">Send project details</Link>
+              {" "}· <Link to={slug === "pouches-bags" ? "/contact/?product=custom-velvet-pouches" : slug === "boxes" ? "/contact/?product=magnetic-closure-gift-box" : "/contact/"}>Send project details</Link>
             </p>
           </div>
         </div>
