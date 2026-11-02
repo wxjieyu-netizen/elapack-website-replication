@@ -278,9 +278,9 @@ export const products: Product[] = [
     name: "Custom Eyelash Packaging Boxes with Logo",
     category: "Boxes",
     shortDesc:
-      "Custom eyelash packaging boxes with your logo — three stock formats or fully custom sizes, from 200 pieces.",
+      "Custom eyelash packaging boxes with your logo — three standard formats or fully custom sizes, from 200 pieces.",
     description:
-      "Custom eyelash packaging boxes for false eyelash brands, salons and wholesalers — from single-pair retail boxes to empty wholesale packaging for full lash lines. Built around your lash trays — strip lashes, volume trays or extension programs — with fitted inserts that hold each tray in place for storage, transit and shelf, and a printed wrap that carries your brand at retail and in unboxing. Three stock formats cover the common tray sizes: 14×10×6, 15×15×5 and 20×18×8 cm, and any dimension can be made to spec. MOQ from 200 pieces with your logo printed, foil-stamped or embossed. Request a stock sample to judge the board and print quality in hand.",
+      "Custom eyelash packaging boxes for false eyelash brands, salons and wholesalers — from single-pair retail boxes to empty wholesale packaging for full lash lines. Built around your lash trays — strip lashes, volume trays or extension programs — with fitted inserts that hold each tray in place for storage, transit and shelf, and a printed wrap that carries your brand at retail and in unboxing. Three standard formats cover the common tray sizes: 14×10×6, 15×15×5 and 20×18×8 cm, and any dimension can be made to spec. MOQ from 200 pieces with your logo printed, foil-stamped or embossed. Request a stock sample to judge the board and print quality in hand.",
     image: "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-hero.jpg",
     gallery: [
       "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-hero.jpg",
@@ -298,7 +298,7 @@ export const products: Product[] = [
     industries: ["Beauty", "Gift"],
     features: [
       {
-        title: "Three Stock Formats",
+        title: "Three Standard Formats",
         desc: "14×10×6, 15×15×5 and 20×18×8 cm cover the common lash tray sizes — or made fully to your spec.",
       },
       {
@@ -327,7 +327,7 @@ export const products: Product[] = [
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
-      "Custom sizes beyond the three stock formats",
+      "Custom sizes beyond the three standard formats",
       "Full-color print, foil or embossed logo",
       "Insert layout tailored to your lash trays",
       "Boxes for single pairs up to multi-tray wholesale packs",
