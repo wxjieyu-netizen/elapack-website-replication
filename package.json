@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build && node scripts/run-prerender.mjs",
+    "build": "node scripts/assert-article-constraints.mjs && tsc --noEmit && vite build && node scripts/run-prerender.mjs",
     "build:client": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" font-family="Arial, Helvetica, sans-serif">
+  <rect width="2400" height="1350" fill="#faf8f4"/>
+  <text x="100" y="110" font-size="52" font-weight="bold" fill="#28251f">A booklet box: three printable zones and the hinge line</text>
+  <text x="100" y="165" font-size="30" fill="#6b6357">One continuous wrapper — the front cover rotates around a spine; nothing detaches.</text>
+
+  <!-- opened booklet box, laid flat: back panel | spine | front cover -->
+  <!-- back panel -->
+  <rect x="220" y="300" width="620" height="700" fill="#ffffff" stroke="#28251f" stroke-width="5"/>
+  <!-- spine -->
+  <rect x="840" y="300" width="160" height="700" fill="#f0e6d6" stroke="#28251f" stroke-width="5"/>
+  <!-- front cover -->
+  <rect x="1000" y="300" width="620" height="700" fill="#ffffff" stroke="#28251f" stroke-width="5"/>
+  <!-- hinge creases -->
+  <line x1="840" y1="300" x2="840" y2="1000" stroke="#aa8438" stroke-width="7" stroke-dasharray="18 12"/>
+  <line x1="1000" y1="300" x2="1000" y2="1000" stroke="#aa8438" stroke-width="7" stroke-dasharray="18 12"/>
+  <!-- cover art hints -->
+  <rect x="1150" y="450" width="320" height="90" fill="#e7dccb"/>
+  <rect x="1150" y="580" width="200" height="26" fill="#e7dccb"/>
+  <rect x="380" y="450" width="260" height="26" fill="#e7dccb"/>
+  <rect x="380" y="520" width="340" height="26" fill="#e7dccb"/>
+
+  <!-- zone labels -->
+  <text x="530" y="1050" font-size="34" font-weight="bold" fill="#28251f" text-anchor="middle">BACK PANEL</text>
+  <text x="920" y="1050" font-size="34" font-weight="bold" fill="#aa8438" text-anchor="middle">SPINE</text>
+  <text x="1310" y="1050" font-size="34" font-weight="bold" fill="#28251f" text-anchor="middle">FRONT COVER</text>
+
+  <!-- callouts right column -->
+  <line x1="1620" y1="380" x2="1760" y2="380" stroke="#aa8438" stroke-width="4"/>
+  <text x="1780" y="372" font-size="30" fill="#28251f">Front cover — the largest printable zone;</text>
+  <text x="1780" y="410" font-size="30" fill="#28251f">artwork, brand mark and launch line live here.</text>
+
+  <line x1="1000" y1="300" x2="1760" y2="500" stroke="#aa8438" stroke-width="4"/>
+  <text x="1780" y="492" font-size="30" fill="#28251f">Spine — the narrowest zone: large, high-</text>
+  <text x="1780" y="530" font-size="30" fill="#28251f">contrast elements only; fine detail closes up.</text>
+
+  <line x1="1000" y1="620" x2="1760" y2="640" stroke="#aa8438" stroke-width="4"/>
+  <text x="1780" y="632" font-size="30" fill="#28251f">Hinge line — wrapped paper or cloth-</text>
+  <text x="1780" y="670" font-size="30" fill="#28251f">reinforced; cycle life confirmed on the sample.</text>
+
+  <line x1="1620" y1="930" x2="1760" y2="790" stroke="#aa8438" stroke-width="4"/>
+  <text x="1780" y="782" font-size="30" fill="#28251f">Bleed on every folding edge — confirm the</text>
+  <text x="1780" y="820" font-size="30" fill="#28251f">allowance with the factory; it follows board.</text>
+
+  <!-- interior insert hint bottom-left -->
+  <rect x="220" y="1130" width="16" height="16" fill="#aa8438"/>
+  <text x="260" y="1146" font-size="28" fill="#6b6357">Interior fitment (recessed cavity or page sleeve) sits in the base — sized from the contents, not the cover.</text>
+
+  <line x1="100" y1="1240" x2="2300" y2="1240" stroke="#d8cfc0" stroke-width="3"/>
+  <text x="100" y="1295" font-size="26" fill="#6b6357">Sources: Custom Packly format definition; ELAPACK custom booklet box terms. Illustrative diagram — not to scale.</text>
+</svg>

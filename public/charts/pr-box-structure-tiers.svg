@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" font-family="Arial, Helvetica, sans-serif">
+  <rect width="2400" height="1350" fill="#faf8f4"/>
+  <text x="100" y="110" font-size="52" font-weight="bold" fill="#28251f">PR box structures: three tiers, one decision rule</text>
+  <text x="100" y="165" font-size="30" fill="#6b6357">Match the structure to the mailing list — not to the occasion.</text>
+
+  <!-- TIER 1: rigid box with fitted insert, lid open -->
+  <text x="150" y="280" font-size="34" font-weight="bold" fill="#28251f">TIER 1 · RIGID + FITTED INSERT</text>
+  <!-- lid tilted -->
+  <polygon points="150,360 470,320 470,430 150,470" fill="#f0e6d6" stroke="#28251f" stroke-width="5"/>
+  <!-- base -->
+  <rect x="150" y="470" width="320" height="330" fill="#ffffff" stroke="#28251f" stroke-width="5"/>
+  <!-- insert cavities -->
+  <rect x="180" y="510" width="120" height="120" fill="#e7dccb" stroke="#aa8438" stroke-width="3"/>
+  <rect x="320" y="510" width="120" height="120" fill="#e7dccb" stroke="#aa8438" stroke-width="3"/>
+  <rect x="180" y="650" width="260" height="120" fill="#e7dccb" stroke="#aa8438" stroke-width="3"/>
+  <text x="310" y="880" font-size="28" fill="#28251f" text-anchor="middle">Default for launch mailers:</text>
+  <text x="310" y="916" font-size="28" fill="#28251f" text-anchor="middle">short lists, impression first.</text>
+  <text x="310" y="952" font-size="28" fill="#6b6357" text-anchor="middle">Cavity shaped to the product.</text>
+
+  <!-- TIER 2: fold-up rigid -->
+  <text x="880" y="280" font-size="34" font-weight="bold" fill="#28251f">TIER 2 · FOLD-UP RIGID</text>
+  <!-- flat blank -->
+  <rect x="880" y="380" width="480" height="60" fill="#ffffff" stroke="#28251f" stroke-width="5"/>
+  <rect x="880" y="440" width="480" height="170" fill="#f0e6d6" stroke="#28251f" stroke-width="5"/>
+  <rect x="880" y="610" width="480" height="60" fill="#ffffff" stroke="#28251f" stroke-width="5"/>
+  <!-- arrow -->
+  <path d="M 1140 720 L 1140 800" stroke="#aa8438" stroke-width="8"/>
+  <polygon points="1140,840 1116,796 1164,796" fill="#aa8438"/>
+  <!-- assembled -->
+  <rect x="990" y="860" width="260" height="160" fill="#ffffff" stroke="#28251f" stroke-width="5"/>
+  <text x="1120" y="1090" font-size="28" fill="#28251f" text-anchor="middle">Ships flat, assembles at the</text>
+  <text x="1120" y="1126" font-size="28" fill="#28251f" text-anchor="middle">packing station — longer lists,</text>
+  <text x="1120" y="1162" font-size="28" fill="#6b6357" text-anchor="middle">warehouse packing.</text>
+
+  <!-- TIER 3: printed carton -->
+  <text x="1700" y="280" font-size="34" font-weight="bold" fill="#28251f">TIER 3 · PRINTED CARTON</text>
+  <rect x="1700" y="470" width="320" height="330" fill="#ffffff" stroke="#28251f" stroke-width="5"/>
+  <rect x="1760" y="560" width="200" height="60" fill="#e7dccb"/>
+  <rect x="1790" y="660" width="140" height="22" fill="#e7dccb"/>
+  <text x="1860" y="880" font-size="28" fill="#28251f" text-anchor="middle">Economical tier for high-count</text>
+  <text x="1860" y="916" font-size="28" fill="#28251f" text-anchor="middle">mailings — the card and the</text>
+  <text x="1860" y="952" font-size="28" fill="#6b6357" text-anchor="middle">product carry the impression.</text>
+
+  <!-- decision band -->
+  <rect x="100" y="1020" width="760" height="170" fill="#f0e6d6" stroke="#aa8438" stroke-width="3"/>
+  <text x="150" y="1090" font-size="30" font-weight="bold" fill="#28251f">The honest sizing rule</text>
+  <text x="150" y="1136" font-size="30" fill="#28251f">A rigid box to several hundred recipients is a</text>
+  <text x="150" y="1172" font-size="30" fill="#28251f">production programme — cost it like one.</text>
+
+  <line x1="100" y1="1240" x2="2300" y2="1240" stroke="#d8cfc0" stroke-width="3"/>
+  <text x="100" y="1295" font-size="26" fill="#6b6357">Sources: GPL Pak and Swanky PR-box guides; ELAPACK terms (MOQ 200, sample USD 25 + USD 20, 3–5 days). Illustrative diagram — not to scale.</text>
+</svg>
