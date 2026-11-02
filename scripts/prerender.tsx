@@ -19,6 +19,7 @@ import path from "node:path";
 import { StaticRouter } from "react-router-dom/server";
 import { AppRoutes } from "../src/App";
 import { articles as ARTICLES } from "../src/data/articles";
+import { landings as LANDINGS } from "../src/data/landings";
 import { products as PRODUCTS } from "../src/data/products";
 import { productContentUpdates } from "../src/data/productContentUpdates";
 import { faqsFor } from "../src/data/categoryCopy";
@@ -203,6 +204,7 @@ for (const route of ROUTES) {
     const article = articleMatch
       ? ARTICLES.find((a) => a.slug === articleMatch[1])
       : undefined;
+    const landing = LANDINGS.find((l) => `/${l.slug}` === route);
     const pageTag = review ? review.title : product
       ? `${product.name} | ELAPACK`
       : STATIC_TITLES[route] || "ELAPACK";
@@ -269,6 +271,17 @@ for (const route of ROUTES) {
           position: i + 1,
           name: c.name,
           ...(c.item ? { item: c.item } : {}),
+        })),
+      });
+    }
+    if (landing?.faq?.length) {
+      graph.push({
+        "@type": "FAQPage",
+        "@id": `${canonical}#faq`,
+        mainEntity: landing.faq.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
         })),
       });
     }
