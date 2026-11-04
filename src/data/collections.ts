@@ -639,22 +639,6 @@ export const collections: Collection[] = [
       "Explore custom boxes and pouches for beauty brands, including eyelash packaging, press-on nail packaging, gift boxes and pouches. Share your product dimensions, quantity, branding and destination so we can review suitable options and prepare a quote.",
     sections: [
       {
-        heading: "Eyelash packaging boxes",
-        items: [
-          { title: "From 200 pieces", desc: "Eyelash packaging starts at 200 pieces. Confirm artwork and colour allocation in the quotation." },
-          { title: "Size and tray fit", desc: "Share the lash tray or product dimensions and desired presentation. Confirm box size and insert fit with the sample." },
-          { title: "Fitted tray inserts", desc: "Discuss tray dimensions and the required insert layout for your chosen product." },
-        ],
-      },
-      {
-        heading: "Press-on nail packaging boxes",
-        items: [
-          { title: "Set and tray dimensions", desc: "Share the number of nail sets, tray dimensions and any accessories that must fit inside." },
-          { title: "Shade and size identification", desc: "Provide the artwork and information hierarchy buyers need to identify the set without opening the box." },
-          { title: "Sample fit check", desc: "Confirm tray retention, opening sequence and printed information with the actual nail set in a sample." },
-        ],
-      },
-      {
         heading: "Beauty gift & retail boxes",
         items: [
           { title: "Magnetic & rigid gift boxes", desc: "Structures sized to cosmetic formats — from single items to curated sets." },
@@ -662,25 +646,32 @@ export const collections: Collection[] = [
         ],
       },
       {
-        heading: "Cosmetic pouches & bags",
+        heading: "Eyelash packaging",
         items: [
-          { title: "Fabric pouches", desc: "Discuss fabric, closure, size and branding options for your project; confirm availability in the quotation." },
-          { title: "Clear PVC zip bags", desc: "Discuss the preferred clear pouch, closure and quantity; confirm the material and available options in the quotation." },
+          { title: "From 200 pieces", desc: "Eyelash packaging starts at 200 pieces per product or component. Confirm artwork and colour allocation in the quotation." },
+          { title: "Tray fit first", desc: "Share the lash tray or product dimensions and confirm box size and fitted tray insert with the sample. The eyelash box product page and guide linked below carry the full specification." },
         ],
       },
       {
-        heading: "Wig & hair extension packaging",
+        heading: "Press-on nail packaging",
         items: [
-          { title: "Satin wig bags & boxes", desc: "Discuss bag and box dimensions for the hair product and intended presentation." },
-          { title: "Matched programs", desc: "Bags, boxes and inserts branded as one system." },
+          { title: "Set and tray dimensions", desc: "Share the number of nail sets, tray dimensions and any accessories that must fit inside, and confirm tray retention and the opening sequence with the actual nail set in a sample." },
+          { title: "Shade identification", desc: "Provide the artwork and information hierarchy buyers need to identify the set without opening the box. The press-on nail box product page and guides linked below carry the full detail." },
+        ],
+      },
+      {
+        heading: "Matched pouches & bags",
+        items: [
+          { title: "Fabric pouches", desc: "Fabric pouches matched to the box program in colour and branding; discuss fabric, closure and size for your project. The cosmetic pouches page linked below carries the full style and fabric comparison." },
+          { title: "Clear PVC zip bags", desc: "Clear zip pouches as part of the same matched program; confirm the material, closure and quantity in the quotation." },
         ],
       },
     ],
     facts: [
-      { label: "MOQ", value: "From 200 pieces; confirm design and colour allocation in the quotation. For sets, each component starts at 200 pieces." },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -690,6 +681,27 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
       "luxury-gift-box-ribbon",
       "custom-cotton-pouches",
+    ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom cosmetic packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering magnetic and rigid cosmetic boxes, with eyelash and press-on nail boxes as beauty sub-lines, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    faq: [
+      { q: "What does this page cover?", a: "Custom boxes for beauty brands — magnetic and rigid gift boxes sized to cosmetic formats, from single items to curated sets — with eyelash and press-on nail boxes as beauty sub-lines and pouches matched to the same program." },
+      { q: "Do you make eyelash and press-on nail boxes?", a: "Yes. Both are beauty sub-lines, made to order from 200 pieces per product or component. Share the tray dimensions and check the fit with the actual product in a sample; their product pages and guides are linked on this page." },
+      { q: "Can boxes and pouches be ordered as one matched program?", a: "Yes. Box, pouch and card components are specified together and colour-matched to one reference, and the 200-piece minimum applies to each component. Fabric and clear PVC pouch options sit on the cosmetic pouches page." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your product dimensions, quantity, artwork and destination to", anchor: "request a cosmetic packaging quotation", product: "magnetic-closure-gift-box" },
+    relatedPages: [
+      { path: "/products/custom-eyelash-packaging-boxes/", label: "Eyelash packaging boxes — product page" },
+      { path: "/news/how-to-customize-eyelash-boxes/", label: "How to customize eyelash boxes — guide" },
+      { path: "/products/custom-press-on-nail-boxes/", label: "Press-on nail boxes — product page" },
+      { path: "/news/press-on-nail-packaging-guide/", label: "Press-on nail packaging — guide" },
+      { path: "/custom-cosmetic-pouches/", label: "Cosmetic pouches & makeup bags" },
+      { path: "/custom-wig-packaging/", label: "Wig packaging — bags & boxes" },
     ],
     ctaTitle: "Request a quote: share your product dimensions, quantity, artwork and destination",
     guideSlugs: [
