@@ -25,6 +25,7 @@ export interface Landing {
   subhead: string;
   metaDescription: string;
   intro: string;
+  lead?: string;
   why: LandingSection;
   tables: LandingTable[];
   lists: { heading: string; items: string[] }[];
@@ -59,6 +60,8 @@ export const landings: Landing[] = [
       "Custom textile pouches and bags for jewellery, fragrance, beauty, hair and fashion brands — velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in the size, closure and branding you specify. MOQ from 200 pieces.",
     intro:
       "ELAPACK makes custom fabric pouches and bags for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification — not from stock — so the pouch matches your product and your brand, not the other way round.",
+    lead:
+      "ELAPACK makes custom packaging bags to order — not stock bags. Choose the material by what the bag has to protect and how it will be used, then specify size, closure and logo. Every bag type below is made to your specification, from 200 pieces per product or component, and can be paired with a matching box as a set.",
     why: {
       heading: "Why ELAPACK",
       items: [
