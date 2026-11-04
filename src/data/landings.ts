@@ -205,6 +205,13 @@ export const landings: Landing[] = [
       { title: "Hair & beauty", desc: "Boxes for wig and bundle packaging sets." },
       { title: "Fashion", desc: "Folding cartons and rigid boxes for accessories and garments." },
     ],
+    faq: [
+      { q: "Which box structures do you make?", a: "Rigid boxes, folding cartons, magnetic closure boxes, drawer boxes and corrugated mailer boxes — built around your product, in your size, finish and branding." },
+      { q: "What inserts can a box include?", a: "EVA for a contoured, precise fit; sponge for soft cushioning; molded pulp as a contoured insert option; and flocked, velvet-touch finishes. Approve the structure and insert on a sample with your actual product." },
+      { q: "What sizes are available?", a: "Standard sizes include 8×8×3 cm and 10×10×3 cm, and any custom size is made to your specification." },
+      { q: "What should I send for a comparable quote?", a: "Product dimensions and weight, including any accessories that must fit inside; the preferred structure, insert or lining, and whether the box will be shipped inside an outer carton; logo artwork, colour reference and finish; the quantity (minimum 200 pieces); and the delivery country and target date." },
+      { q: "Can I sample before ordering, and how long does production take?", a: "Yes — a free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment." },
+    ],
     ctaTitle: "Request a quote for your custom box",
   },
   {
@@ -271,6 +278,13 @@ export const landings: Landing[] = [
       { title: "Gift boxes", desc: "Box + pouch + ribbon + card sets for gifting." },
       { title: "Jewellery & eyewear", desc: "Pouch + box sets with fitted inserts, plus an optional microfiber cleaning cloth." },
       { title: "Hair & fashion", desc: "Wig, bundle, accessory and garment packaging sets." },
+    ],
+    faq: [
+      { q: "What can a packaging set include?", a: "A pouch and box; a box with insert and pouch; and optional cards, ribbon or a microfiber cleaning cloth — or a custom combination built around your product, for any product category." },
+      { q: "Are sets fixed, pre-packed combinations?", a: "No. The combinations shown are component examples, not fixed pre-packed sets: every component is designed around your product, and each matching bag, ribbon, card and cloth can be customised independently." },
+      { q: "How does the minimum order work for a set?", a: "200 pieces for each component in the set. List the components and their quantities in your quotation request so colour, material and branding can be checked across the set." },
+      { q: "Will the components match in colour?", a: "Yes — every piece is designed as one, colour-matched to your Pantone reference, and you choose how it ships: packed and delivered as one set, or packed per piece." },
+      { q: "Can I sample a set before ordering, and how long does production take?", a: "Yes — a free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment." },
     ],
     ctaTitle: "Request a quote for your custom packaging set",
   },
