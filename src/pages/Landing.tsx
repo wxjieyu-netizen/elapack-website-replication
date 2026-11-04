@@ -241,6 +241,17 @@ export default function Landing({ slug }: { slug: string }) {
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
               {landing.ctaTitle}
             </h2>
+            {slug === "pouches-bags" && (
+              <p className="markets-note" style={{ marginTop: "0.75rem" }}>
+                Send your size, fabric, closure and quantity to{" "}
+                <Link to="/contact/?product=custom-velvet-pouches">request a custom bag quotation</Link>
+                {" "}— or start from the fabric:{" "}
+                <Link to="/contact/?product=custom-velvet-pouches">velvet</Link> ·{" "}
+                <Link to="/contact/?product=custom-satin-pouches">satin</Link> ·{" "}
+                <Link to="/contact/?product=custom-cotton-pouches">cotton</Link> ·{" "}
+                <Link to="/contact/?product=custom-microfiber-pouches">microfiber</Link>.
+              </p>
+            )}
             <p className="markets-note">
               Message Tina on WhatsApp or phone:{" "}
               <a href="https://wa.me/8618626352096">+86 186 2635 2096</a>
