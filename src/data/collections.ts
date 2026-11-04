@@ -153,9 +153,9 @@ export const collections: Collection[] = [
     metaDescription:
       "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
     factBlock: {
-      updated: "October 2026",
+      updated: "November 2026",
       paragraph:
-        "ELAPACK eyewear packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per product or component, covering printed glasses boxes, fabric pouches and fitted inserts, custom sizes included. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK eyewear packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering printed glasses boxes, fabric pouches and fitted inserts, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     intro:
       "Custom packaging for eyewear and sunglasses brands selling in the US and Europe. We make both sides of the program — printed boxes that present and protect the frames, and fabric pouches that keep them safe after the sale — matched in colour and branding. Folded glasses set the footprint: share your frame dimensions and we build the box and insert around them.",
@@ -202,10 +202,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces — boxes and pouches alike, custom sizes included" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -216,6 +216,14 @@ export const collections: Collection[] = [
       "custom-microfiber-pouches",
       "leather-envelope-pouch",
     ],
+    faq: [
+      { q: "Should I order a box, a pouch, or both?", a: "They do different jobs: a rigid or magnetic box presents the frames and holds a fitted insert, while a velvet, cotton or microfiber pouch travels with the eyewear after the sale. Box and pouch are specified and quoted as separate components, each from 200 pieces." },
+      { q: "How is the box sized to my frames?", a: "Folded glasses set the footprint. Share your frame dimensions — and any cloth, card or accessory that must fit inside — and the box and insert are built around them; confirm insert contact and opening clearance in a sample." },
+      { q: "What branding is available?", a: "Silkscreen, hot stamp or foil on box and pouch, woven labels and embroidery on fabric, and Pantone matching so box wrap and pouch fabric align to your brand colour." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your frame dimensions, format and quantity to", anchor: "request an eyewear packaging quotation", product: "custom-microfiber-pouches" },
     ctaTitle: "Request a quote for your eyewear packaging",
     guideSlugs: [
       "custom-glasses-cases-pouches-guide",
@@ -520,9 +528,9 @@ export const collections: Collection[] = [
     metaDescription:
       "Custom gift boxes with your logo — magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 200 pieces, free stock samples.",
     factBlock: {
-      updated: "October 2026",
+      updated: "November 2026",
       paragraph:
-        "ELAPACK custom gift boxes — key facts, current as of October 2026. Minimum order quantity is 200 pieces per product or component, covering magnetic flip-top, satin ribbon-tie, two-piece rigid and candle-format boxes, custom sizes included. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK custom gift boxes — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering magnetic flip-top, satin ribbon-tie, two-piece rigid and candle-format boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     intro:
       "Custom gift boxes for the occasions where the box is part of the gift. Corporate programs, candles, weddings, retail gifting and seasonal campaigns all start from the same place: a rigid structure that protects, a wrap that carries your brand, and a closure that makes opening feel like an event. Magnetic flip-tops, satin ribbon ties and two-piece rigid formats are all made to your size, Pantone colour and logo — MOQ from 200 pieces.",
@@ -565,10 +573,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -578,6 +586,14 @@ export const collections: Collection[] = [
       "custom-white-jewelry-box",
       "black-leather-jewelry-box",
     ],
+    faq: [
+      { q: "Which gift box structures do you make?", a: "Magnetic flip-top, satin ribbon-tie and two-piece rigid boxes in any size and finish, with drawer and book-style structures made on request." },
+      { q: "Can a gift box be sized to my candle jar or tin?", a: "Yes — jar and tin formats are part of the range, with inserts that hold glass steady. Share the vessel dimensions and confirm the fit on a sample." },
+      { q: "Which occasions do the boxes serve?", a: "Corporate gifting programs, weddings and events, and retail and shoe gifting — inserts, lids and ribbons carry your logo quietly across every size band." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your product size, structure, finish and quantity to", anchor: "request a gift box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your custom gift boxes",
     guideSlugs: [
       "magnetic-gift-boxes-wholesale-guide",
@@ -636,10 +652,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "General minimum 200 pieces; confirm each component and variant in the quote" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -647,11 +663,19 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
       "luxury-gift-box-ribbon",
     ],
+    faq: [
+      { q: "What should I send for a candle box quote?", a: "The jar or tin dimensions, packed weight, intended display and shipping route. The box and insert concept is reviewed against that brief, and the structure and fit are confirmed on a loaded sample." },
+      { q: "Which structures and inserts can be reviewed?", a: "Rigid lift-off lid, magnetic flip-top, sleeve and drawer, and folding carton structures. Contoured EVA, molded pulp, segmented board, and sponge or velvet inserts are candidate options — confirm cut geometry, availability and fit on the proposed sample." },
+      { q: "What is the minimum order?", a: "200 pieces per product or component. For a gift set or two-pack, every component and variant is confirmed in the project quotation." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your jar or tin dimensions, packed weight and quantity to", anchor: "request a candle box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your custom candle boxes",
     factBlock: {
-      updated: "October 2026",
+      updated: "November 2026",
       paragraph:
-        "General minimum order quantity is 200 pieces; for a complete set, each component has a 200-piece minimum. Confirm structure, insert, size and design or colour allocation in the project quotation. Typical production takes 15–20 days after sample approval and payment receipt; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping, with a stated delivery timeframe of 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork. Finished orders ship from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "Minimum order quantity is 200 pieces per product or component; for a complete set, each component has a 200-piece minimum. Confirm structure, insert, size and design or colour allocation in the project quotation. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping, with a stated delivery timeframe of 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork. Finished orders ship from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     guideSlugs: [
       "custom-candle-boxes-guide",
@@ -1024,10 +1048,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -1038,11 +1062,19 @@ export const collections: Collection[] = [
       "custom-muslin-drawstring-pouch",
       "luxury-gift-box-ribbon",
     ],
+    faq: [
+      { q: "What can one subscription program include?", a: "The printed box, fabric pouches for small items, insert cards printed to the monthly theme, and ribbon and trim — made in one place, so colours and branding match across every drop." },
+      { q: "Can the artwork change each month on the same box?", a: "Yes. Keep one confirmed dieline and change only the printed theme each month; box wrap, pouch fabric and card colour are Pantone-matched to one reference, and editions can be planned by season on one production calendar." },
+      { q: "What is the minimum order for a themed run?", a: "200 pieces per product or component — small enough to test a theme, sized to scale a winner." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your component list, theme and quantity to", anchor: "request a subscription box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your subscription box program",
     factBlock: {
-      updated: "October 2026",
+      updated: "November 2026",
       paragraph:
-        "ELAPACK subscription box packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per product or component, custom sizes included, across printed boxes, fabric pouches and insert cards. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK subscription box packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, custom sizes included, across printed boxes, fabric pouches and insert cards. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     guideSlugs: [
       "subscription-box-packaging-buyers-guide",
