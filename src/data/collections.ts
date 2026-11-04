@@ -1138,6 +1138,18 @@ export const collections: Collection[] = [
       "custom-perfume-boxes",
       "kraft-paper-shopping-bag",
     ],
+    guideSlugs: [
+      "custom-rigid-boxes-guide",
+      "packaging-inserts-guide",
+      "custom-packaging-moq-sample-lead-times-2026",
+    ],
+    faq: [
+      { q: "Does lightweight mean thinner and cheaper?", a: "No. Lightweight luxury shifts the value cue from mass to texture, precision, finish and fit — and the structure that protects the product, and the opening feel of the box, are not cut." },
+      { q: "How much weight will I save?", a: "No generic percentage is claimed. A before-and-after weight, volume and freight-per-1,000 comparison is made for your specific box on a sample, because board, size, insert and finish change the result." },
+      { q: "Where can weight be saved?", a: "Right-sizing the box to the product, a lighter tray with a kept lid feel, board or molded inserts instead of heavy foam or metal where fit and protection allow, and nesting or collapsible formats where they fit the product." },
+      { q: "How do I order a lightweight version of my box?", a: "Send the product dimensions and weight, and the current box if you have one. Ask for the proposed lightweight structure, its weight and volume, and the freight comparison for your quantity in the quotation — then check the sample loaded, with the actual product inside." },
+      { q: "What are the minimum order and lead times?", a: "The minimum order is 200 pieces per product or component. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; a free stock sample carries USD 25 shipping and arrives in 4–7 days, and a custom sample costs USD 25 plus USD 20 shipping, built in 3–5 days." },
+    ],
     ctaTitle: "Request a quote for lightweight luxury packaging",
     factBlock: {
       updated: "October 2026",
