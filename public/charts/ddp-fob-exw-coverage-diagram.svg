@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" width="2400" height="1350" role="img" aria-label="Five legs of an import journey — factory, origin port, ocean freight, destination port, your door — with bars showing which legs the seller carries under EXW, FOB and DDP">
+<rect width="2400" height="1350" fill="#faf8f4"/>
+<text x="100" y="110" font-size="52" font-weight="700" fill="#28251f" font-family="Arial">The same five legs, split three ways</text>
+<text x="100" y="168" font-size="30" fill="#6f675a" font-family="Arial">EXW, FOB and DDP price different amounts of one journey — the term decides who arranges and pays for each leg</text>
+<line x1="100" y1="200" x2="2300" y2="200" stroke="#d8d2c6" stroke-width="3"/>
+
+<!-- ===== the five legs ===== -->
+<rect x="100" y="290" width="404" height="180" rx="12" fill="#f1ece2" stroke="#28251f" stroke-width="5"/>
+<text x="302" y="354" font-size="32" font-weight="700" fill="#28251f" font-family="Arial" text-anchor="middle">Factory</text>
+<text x="302" y="400" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">goods made, packed</text>
+<text x="302" y="440" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">and ready</text>
+<line x1="512" y1="380" x2="533" y2="380" stroke="#aa8438" stroke-width="4"/>
+<polygon points="543,380 526,370 526,390" fill="#aa8438"/>
+
+<rect x="549" y="290" width="404" height="180" rx="12" fill="#f1ece2" stroke="#28251f" stroke-width="5"/>
+<text x="751" y="354" font-size="32" font-weight="700" fill="#28251f" font-family="Arial" text-anchor="middle">Origin port</text>
+<text x="751" y="400" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">Shanghai or Shenzhen</text>
+<text x="751" y="440" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">export clearance, loading</text>
+<line x1="961" y1="380" x2="982" y2="380" stroke="#aa8438" stroke-width="4"/>
+<polygon points="992,380 975,370 975,390" fill="#aa8438"/>
+
+<rect x="998" y="290" width="404" height="180" rx="12" fill="#f1ece2" stroke="#28251f" stroke-width="5"/>
+<text x="1200" y="354" font-size="32" font-weight="700" fill="#28251f" font-family="Arial" text-anchor="middle">Ocean freight</text>
+<text x="1200" y="400" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">international transport</text>
+<text x="1200" y="440" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">to your country</text>
+<line x1="1410" y1="380" x2="1431" y2="380" stroke="#aa8438" stroke-width="4"/>
+<polygon points="1441,380 1424,370 1424,390" fill="#aa8438"/>
+
+<rect x="1447" y="290" width="404" height="180" rx="12" fill="#f1ece2" stroke="#28251f" stroke-width="5"/>
+<text x="1649" y="354" font-size="32" font-weight="700" fill="#28251f" font-family="Arial" text-anchor="middle">Destination port</text>
+<text x="1649" y="400" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">import clearance and</text>
+<text x="1649" y="440" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">destination taxes &amp; duties</text>
+<line x1="1859" y1="380" x2="1880" y2="380" stroke="#aa8438" stroke-width="4"/>
+<polygon points="1890,380 1873,370 1873,390" fill="#aa8438"/>
+
+<rect x="1896" y="290" width="404" height="180" rx="12" fill="#f1ece2" stroke="#28251f" stroke-width="5"/>
+<text x="2098" y="354" font-size="32" font-weight="700" fill="#28251f" font-family="Arial" text-anchor="middle">Your door</text>
+<text x="2098" y="400" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">final delivery</text>
+<text x="2098" y="440" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">to your address</text>
+
+<!-- ===== legend ===== -->
+<text x="100" y="552" font-size="32" font-weight="700" fill="#28251f" font-family="Arial">Who carries each leg</text>
+<rect x="1470" y="520" width="34" height="34" fill="#28251f"/>
+<text x="1518" y="552" font-size="26" fill="#28251f" font-family="Arial">seller arranges and pays</text>
+<rect x="1906" y="520" width="34" height="34" fill="#f1ece2" stroke="#d8d2c6" stroke-width="2"/>
+<text x="1954" y="552" font-size="26" fill="#28251f" font-family="Arial">buyer arranges</text>
+
+<!-- ===== EXW ===== -->
+<text x="100" y="636" font-size="30" font-weight="700" fill="#28251f" font-family="Arial">EXW — the price ends at the factory gate</text>
+<rect x="100" y="656" width="404" height="84" rx="10" fill="#28251f"/>
+<text x="302" y="709" font-size="26" font-weight="600" fill="#faf8f4" font-family="Arial" text-anchor="middle">seller</text>
+<rect x="549" y="656" width="404" height="84" rx="10" fill="#f1ece2" stroke="#d8d2c6" stroke-width="2"/>
+<text x="751" y="709" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">buyer</text>
+<rect x="998" y="656" width="404" height="84" rx="10" fill="#f1ece2" stroke="#d8d2c6" stroke-width="2"/>
+<text x="1200" y="709" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">buyer</text>
+<rect x="1447" y="656" width="404" height="84" rx="10" fill="#f1ece2" stroke="#d8d2c6" stroke-width="2"/>
+<text x="1649" y="709" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">buyer</text>
+<rect x="1896" y="656" width="404" height="84" rx="10" fill="#f1ece2" stroke="#d8d2c6" stroke-width="2"/>
+<text x="2098" y="709" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">buyer</text>
+
+<!-- ===== FOB ===== -->
+<text x="100" y="806" font-size="30" font-weight="700" fill="#28251f" font-family="Arial">FOB — the seller's legs end once the goods are loaded at the origin port</text>
+<rect x="100" y="826" width="404" height="84" rx="10" fill="#28251f"/>
+<text x="302" y="879" font-size="26" font-weight="600" fill="#faf8f4" font-family="Arial" text-anchor="middle">seller</text>
+<rect x="549" y="826" width="404" height="84" rx="10" fill="#28251f"/>
+<text x="751" y="879" font-size="26" font-weight="600" fill="#faf8f4" font-family="Arial" text-anchor="middle">seller</text>
+<rect x="998" y="826" width="404" height="84" rx="10" fill="#f1ece2" stroke="#d8d2c6" stroke-width="2"/>
+<text x="1200" y="879" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">buyer</text>
+<rect x="1447" y="826" width="404" height="84" rx="10" fill="#f1ece2" stroke="#d8d2c6" stroke-width="2"/>
+<text x="1649" y="879" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">buyer</text>
+<rect x="1896" y="826" width="404" height="84" rx="10" fill="#f1ece2" stroke="#d8d2c6" stroke-width="2"/>
+<text x="2098" y="879" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">buyer</text>
+
+<!-- ===== DDP ===== -->
+<text x="100" y="976" font-size="30" font-weight="700" fill="#28251f" font-family="Arial">DDP — the seller carries every leg to your door, import clearance and destination taxes &amp; duties included</text>
+<rect x="100" y="996" width="404" height="84" rx="10" fill="#28251f"/>
+<text x="302" y="1049" font-size="26" font-weight="600" fill="#faf8f4" font-family="Arial" text-anchor="middle">seller</text>
+<rect x="549" y="996" width="404" height="84" rx="10" fill="#28251f"/>
+<text x="751" y="1049" font-size="26" font-weight="600" fill="#faf8f4" font-family="Arial" text-anchor="middle">seller</text>
+<rect x="998" y="996" width="404" height="84" rx="10" fill="#28251f"/>
+<text x="1200" y="1049" font-size="26" font-weight="600" fill="#faf8f4" font-family="Arial" text-anchor="middle">seller</text>
+<rect x="1447" y="996" width="404" height="84" rx="10" fill="#28251f"/>
+<text x="1649" y="1049" font-size="26" font-weight="600" fill="#faf8f4" font-family="Arial" text-anchor="middle">seller</text>
+<rect x="1896" y="996" width="404" height="84" rx="10" fill="#28251f"/>
+<text x="2098" y="1049" font-size="26" font-weight="600" fill="#faf8f4" font-family="Arial" text-anchor="middle">seller</text>
+
+<line x1="100" y1="1215" x2="2300" y2="1215" stroke="#d8d2c6" stroke-width="3"/>
+<text x="100" y="1265" font-size="24" fill="#6f675a" font-family="Arial">Sources: ELAPACK delivery-terms guide, 2026 · Illustrative diagram — have the term and its scope stated in writing on the quotation.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" width="2400" height="1350" role="img" aria-label="Front and side elevations of a lid-and-base rigid box with arrows marking the internal length, width and height, measured inner face to inner face">
+<defs>
+<marker id="ah" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#aa8438"/></marker>
+<marker id="ahs" markerWidth="12" markerHeight="12" refX="1" refY="5" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#aa8438"/></marker>
+</defs>
+<rect width="2400" height="1350" fill="#faf8f4"/>
+<text x="100" y="110" font-size="52" font-weight="700" fill="#28251f" font-family="Arial">Measuring the sample box: length × width × height, read inside</text>
+<text x="100" y="168" font-size="30" fill="#6f675a" font-family="Arial">The specification is read on the internal dimensions — measure inner face to inner face</text>
+<line x1="100" y1="200" x2="2300" y2="200" stroke="#d8d2c6" stroke-width="3"/>
+
+<!-- ===== front view ===== -->
+<line x1="262" y1="470" x2="212" y2="408" stroke="#8d857a" stroke-width="2"/>
+<text x="100" y="400" font-size="26" fill="#6f675a" font-family="Arial">board + wrap</text>
+<rect x="240" y="420" width="760" height="480" fill="#f1ece2" stroke="#28251f" stroke-width="5"/>
+<line x1="240" y1="495" x2="1000" y2="495" stroke="#28251f" stroke-width="3"/>
+<rect x="270" y="450" width="700" height="420" fill="none" stroke="#8d857a" stroke-width="2.5" stroke-dasharray="10 8"/>
+<line x1="985" y1="462" x2="1036" y2="428" stroke="#8d857a" stroke-width="2"/>
+<text x="1042" y="436" font-size="26" fill="#6f675a" font-family="Arial">lid</text>
+<!-- internal height -->
+<line x1="345" y1="458" x2="345" y2="862" stroke="#aa8438" stroke-width="3" marker-start="url(#ahs)" marker-end="url(#ah)"/>
+<text transform="rotate(-90 310 660)" x="310" y="660" font-size="30" font-weight="700" fill="#aa8438" font-family="Arial" text-anchor="middle">INTERNAL HEIGHT</text>
+<!-- internal length -->
+<line x1="280" y1="822" x2="960" y2="822" stroke="#aa8438" stroke-width="3" marker-start="url(#ahs)" marker-end="url(#ah)"/>
+<text x="620" y="792" font-size="30" font-weight="700" fill="#aa8438" font-family="Arial" text-anchor="middle">INTERNAL LENGTH</text>
+<text x="620" y="952" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">FRONT VIEW</text>
+
+<!-- ===== side view ===== -->
+<rect x="1120" y="420" width="400" height="480" fill="#f1ece2" stroke="#28251f" stroke-width="5"/>
+<line x1="1120" y1="495" x2="1520" y2="495" stroke="#28251f" stroke-width="3"/>
+<rect x="1150" y="450" width="340" height="420" fill="none" stroke="#8d857a" stroke-width="2.5" stroke-dasharray="10 8"/>
+<!-- internal width -->
+<line x1="1160" y1="822" x2="1480" y2="822" stroke="#aa8438" stroke-width="3" marker-start="url(#ahs)" marker-end="url(#ah)"/>
+<text x="1320" y="792" font-size="30" font-weight="700" fill="#aa8438" font-family="Arial" text-anchor="middle">INTERNAL WIDTH</text>
+<text x="1320" y="952" font-size="26" fill="#6f675a" font-family="Arial" text-anchor="middle">SIDE VIEW</text>
+
+<!-- ===== callout cards ===== -->
+<rect x="1620" y="420" width="680" height="320" rx="14" fill="#f1ece2" stroke="#aa8438" stroke-width="2"/>
+<text x="1648" y="472" font-size="32" font-weight="700" fill="#aa8438" font-family="Arial">Read the spec inside</text>
+<text x="1648" y="520" font-size="28" fill="#28251f" font-family="Arial">The written specification is read on</text>
+<text x="1648" y="564" font-size="28" fill="#28251f" font-family="Arial">the internal dimensions — inner face</text>
+<text x="1648" y="608" font-size="28" fill="#28251f" font-family="Arial">to inner face. They decide whether</text>
+<text x="1648" y="652" font-size="28" fill="#28251f" font-family="Arial">the product fits, so measure the</text>
+<text x="1648" y="696" font-size="28" fill="#28251f" font-family="Arial">sample against them first.</text>
+
+<rect x="1620" y="780" width="680" height="320" rx="14" fill="#f1ece2" stroke="#aa8438" stroke-width="2"/>
+<text x="1648" y="832" font-size="32" font-weight="700" fill="#aa8438" font-family="Arial">Measure the outside too</text>
+<text x="1648" y="880" font-size="28" fill="#28251f" font-family="Arial">External dimensions — measured over</text>
+<text x="1648" y="924" font-size="28" fill="#28251f" font-family="Arial">the board and wrap — set shelf space</text>
+<text x="1648" y="968" font-size="28" fill="#28251f" font-family="Arial">and carton packing. Record both sets</text>
+<text x="1648" y="1012" font-size="28" fill="#28251f" font-family="Arial">of figures, and approve the sample</text>
+<text x="1648" y="1056" font-size="28" fill="#28251f" font-family="Arial">against the internal ones.</text>
+
+<line x1="100" y1="1215" x2="2300" y2="1215" stroke="#d8d2c6" stroke-width="3"/>
+<text x="100" y="1265" font-size="24" fill="#6f675a" font-family="Arial">Sources: ELAPACK sample approval guide, 2026 · Illustrative diagram — confirm specifications on a physical sample before production.</text>
+</svg>
