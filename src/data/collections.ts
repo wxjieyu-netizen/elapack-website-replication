@@ -745,12 +745,12 @@ export const collections: Collection[] = [
         heading: "As part of your program",
         items: [
           { title: "One supplier", desc: "Ribbon, cord, box and pouch quoted and made together — one brand system, not matched after the fact." },
-          { title: "Standalone accessory orders", desc: "Ribbons and cords quoted by spec — MOQ to be confirmed per program." },
+          { title: "Standalone accessory orders", desc: "Ribbons and cords quoted by spec — MOQ 500 m for standalone ribbon orders (ribbon is sold by length)." },
         ],
       },
     ],
     facts: [
-      { label: "MOQ", value: "Quoted as part of your box or pouch program — standalone accessory MOQ to be confirmed" },
+      { label: "MOQ", value: "500 m for standalone ribbon orders (ribbon is sold by length); ribbon supplied with a box or pouch program is quoted as part of that program" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days" },
