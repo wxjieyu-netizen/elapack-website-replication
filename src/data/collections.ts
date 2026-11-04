@@ -894,7 +894,7 @@ export const collections: Collection[] = [
       { label: "MOQ", value: "500 m for standalone ribbon orders (ribbon is sold by length); ribbon supplied with a box or pouch program is quoted as part of that program" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -903,6 +903,18 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
       "custom-velvet-pouches",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK ribbons & accessories — key facts, current as of November 2026. Ribbons, cords and finishing accessories are supplied as part of box and pouch programs, colour-matched to the packaging they finish; standalone ribbon orders start at an MOQ of 500 m, because ribbon is sold by length. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    faq: [
+      { q: "Can I order ribbon on its own, without boxes or pouches?", a: "Yes. Standalone ribbon orders start at an MOQ of 500 m, because ribbon is sold by length. Ribbon supplied with a box or pouch program is quoted as part of that program instead." },
+      { q: "What ribbon and cord options are there?", a: "Double-face satin ribbon ties for rigid and gift boxes, custom printed ribbon quoted to your width, artwork and run length, and colour matching to your box wrap and Pantone reference. For pouches, cotton cords are the standard drawcord for cotton, muslin and linen, with satin ribbon and polyester cord as alternatives." },
+      { q: "Why order accessories with the box and pouch program?", a: "Ribbon, cord, box and pouch are quoted and made together — one brand system, colour-matched to the packaging they finish, not matched after the fact." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork. We reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your ribbon width, artwork, colour reference and quantity to", anchor: "request a ribbon & accessories quotation", product: "luxury-gift-box-ribbon" },
     ctaTitle: "Request a quote for ribbons & accessories",
     guideSlugs: [
       "custom-printed-ribbon-guide",
