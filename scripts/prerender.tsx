@@ -20,6 +20,7 @@ import { StaticRouter } from "react-router-dom/server";
 import { AppRoutes } from "../src/App";
 import { articles as ARTICLES } from "../src/data/articles";
 import { landings as LANDINGS } from "../src/data/landings";
+import { collections as COLLECTIONS } from "../src/data/collections";
 import { products as PRODUCTS } from "../src/data/products";
 import { productContentUpdates } from "../src/data/productContentUpdates";
 import { faqsFor } from "../src/data/categoryCopy";
@@ -279,6 +280,18 @@ for (const route of ROUTES) {
         "@type": "FAQPage",
         "@id": `${canonical}#faq`,
         mainEntity: landing.faq.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      });
+    }
+    const collection = COLLECTIONS.find((c) => `/${c.slug}` === route);
+    if (collection?.faq?.length) {
+      graph.push({
+        "@type": "FAQPage",
+        "@id": `${canonical}#faq`,
+        mainEntity: collection.faq.map((f) => ({
           "@type": "Question",
           name: f.q,
           acceptedAnswer: { "@type": "Answer", text: f.a },

@@ -25,6 +25,12 @@ export type Collection = {
    * trade-terms whitelist (MOQ / lead times / sample terms).
    */
   factBlock?: { updated: string; paragraph: string };
+  /** Selection decision table (mirrors the landing tables): type | best for | what to confirm on the sample. */
+  table?: { heading: string; columns: string[]; rows: string[][]; note?: string };
+  /** Closing FAQ group; also emitted as FAQPage JSON-LD by the prerender, same mechanism as the landings. */
+  faq?: { q: string; a: string }[];
+  /** Prefilled closing CTA sentence linking to the contact form with a product context (pouches-bags pattern). */
+  ctaLink?: { lead: string; anchor: string; product: string };
   ctaTitle: string;
 };
 
@@ -86,10 +92,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -100,6 +106,30 @@ export const collections: Collection[] = [
       "luxury-gift-box-ribbon",
       "magnetic-closure-gift-box",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom jewelry boxes — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering rigid lift-off, magnetic flip-top, ribbon-tie and faux leather boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    table: {
+      heading: "Choose a jewelry box structure",
+      columns: ["Structure", "Best for", "What to confirm on the sample"],
+      rows: [
+        ["Rigid lift-off lid", "The premium, gift-ready structure for rings, earrings, necklaces and bracelets", "Insert fit for the piece, and lid fit and clearance"],
+        ["Magnetic flip-top", "A clean exterior with a satisfying slow close", "Magnet alignment and opening clearance"],
+        ["Ribbon tie", "A closure that becomes part of the unboxing ritual", "Ribbon colour match to your reference, and insert fit"],
+        ["Faux leather wrap", "Textured wrap with embossed branding for jewelry and gift programs", "Wrap texture and the embossed logo on the sample"],
+      ],
+      note: "Pair the structure with an insert — EVA for a contoured, precise fit, sponge under velvet or satin covering, molded pulp, or a flocked velvet finish — and check the insert with the actual piece in a sample.",
+    },
+    faq: [
+      { q: "Which box structures can I choose?", a: "Rigid lift-off lid, magnetic flip-top, ribbon-tie and faux leather wrapped boxes. Choose the structure against the jewelry type — rings, earrings and pendants, bracelets, or a complete set — and confirm it on a sample." },
+      { q: "Which inserts are available?", a: "EVA for a contoured, precise fit; sponge under velvet or satin covering; molded pulp; and flocked or velvet finishes for premium lines. Check the insert with the actual piece in a sample." },
+      { q: "What do I send for an accurate quote?", a: "The jewelry dimensions and weight, any certificate or card that must fit inside, the structure and insert, logo artwork and colour reference, the finish, the box quantity and the destination — so the quotation prices one clear specification." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your piece dimensions, structure, insert and quantity to", anchor: "request a jewelry box quotation", product: "custom-ring-boxes" },
     ctaTitle: "Request a quote for your custom jewelry box",
     guideSlugs: [
       "how-to-choose-custom-jewelry-boxes",
@@ -123,9 +153,9 @@ export const collections: Collection[] = [
     metaDescription:
       "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
     factBlock: {
-      updated: "October 2026",
+      updated: "November 2026",
       paragraph:
-        "ELAPACK eyewear packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per product or component, covering printed glasses boxes, fabric pouches and fitted inserts, custom sizes included. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK eyewear packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering printed glasses boxes, fabric pouches and fitted inserts, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     intro:
       "Custom packaging for eyewear and sunglasses brands selling in the US and Europe. We make both sides of the program — printed boxes that present and protect the frames, and fabric pouches that keep them safe after the sale — matched in colour and branding. Folded glasses set the footprint: share your frame dimensions and we build the box and insert around them.",
@@ -172,10 +202,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces — boxes and pouches alike, custom sizes included" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -186,6 +216,14 @@ export const collections: Collection[] = [
       "custom-microfiber-pouches",
       "leather-envelope-pouch",
     ],
+    faq: [
+      { q: "Should I order a box, a pouch, or both?", a: "They do different jobs: a rigid or magnetic box presents the frames and holds a fitted insert, while a velvet, cotton or microfiber pouch travels with the eyewear after the sale. Box and pouch are specified and quoted as separate components, each from 200 pieces." },
+      { q: "How is the box sized to my frames?", a: "Folded glasses set the footprint. Share your frame dimensions — and any cloth, card or accessory that must fit inside — and the box and insert are built around them; confirm insert contact and opening clearance in a sample." },
+      { q: "What branding is available?", a: "Silkscreen, hot stamp or foil on box and pouch, woven labels and embroidery on fabric, and Pantone matching so box wrap and pouch fabric align to your brand colour." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your frame dimensions, format and quantity to", anchor: "request an eyewear packaging quotation", product: "custom-microfiber-pouches" },
     ctaTitle: "Request a quote for your eyewear packaging",
     guideSlugs: [
       "custom-glasses-cases-pouches-guide",
@@ -257,10 +295,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -274,10 +312,26 @@ export const collections: Collection[] = [
       "leather-envelope-pouch",
       "custom-pvc-bags",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom jewelry pouches — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering drawstring, flap and zip pouches in velvet, cotton, satin, linen and microfiber, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    faq: [
+      { q: "Which fabrics can a jewelry pouch be made in?", a: "Velvet, suede, cotton, muslin, satin, linen, microfiber, non-woven and organza, plus clear PVC zip pouches. Choose the fabric against the piece it carries, and confirm it on a sample." },
+      { q: "What sizes are available?", a: "The standard band runs from 7×9 cm jewelry pouches up to 30×40 cm gift and wig bags, and any custom size is made to your product dimensions at the same 200-piece minimum." },
+      { q: "Which closures can I choose?", a: "Drawstring with a cotton, satin or polyester cord, flap with snap or tuck closure, and zipper or button options for heavier or multi-piece sets." },
+      { q: "Can a pouch be matched with a jewelry box as a set?", a: "Yes. Pouch and box are designed together — same colour, same branding — and quoted as separate components, each at the 200-piece minimum." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your fabric, closure, size and quantity to", anchor: "request a jewelry pouch quotation", product: "custom-velvet-pouches" },
     ctaTitle: "Request a quote for your custom jewelry pouches",
     guideSlugs: [
       "how-to-choose-a-custom-jewelry-pouch",
+      "custom-logo-pouches-guide",
       "packaging-colour-tolerance-explained",
+      "custom-packaging-moq-sample-lead-times-2026",
     ],
     relatedPages: [
       { path: "/custom-jewelry-packaging/", label: "Complete jewelry packaging" },
@@ -324,10 +378,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces — bags, wig boxes and extension boxes alike" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -338,6 +392,31 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
       "luxury-gift-box-ribbon",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom wig packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering satin drawstring bags, cotton envelope pouches, rigid wig boxes and hair extension boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    table: {
+      heading: "Choose a wig packaging format",
+      columns: ["Format", "Best for", "What to confirm on the sample"],
+      rows: [
+        ["Satin drawstring bag", "Carrying and storage", "Packed hair dimensions, usable opening, closure and interior contact"],
+        ["Cotton envelope pouch", "Structured carry — flap-snap, flat-pocket and zip-envelope styles", "Style and fit with the hair product inside"],
+        ["Rigid wig box", "Presenting wigs and extensions upright at retail", "Presentation fit, and insert or sleeve hold"],
+        ["Magnetic flip-top box", "Premium hair programs", "Closure alignment and the open-close feel"],
+        ["Bag + box as a set", "Retail presentation plus after-sale carry", "Each component's fit and quantity, quoted separately"],
+      ],
+      note: "Quote the finished size from the actual folded or arranged product rather than assuming one size is universal.",
+    },
+    faq: [
+      { q: "Should I choose a bag, a box, or both?", a: "Start with the actual hair product, how it is packed and where the customer first meets it: a fabric bag serves carrying and storage, a box serves presentation, and the two can be ordered as separate components of one program. Confirm interior contact, usable opening, closure and packed fit with your product on a sample." },
+      { q: "Is wig packaging made to order?", a: "Yes — sizes are quoted from the actual folded or arranged product, not from a universal size. The minimum order is 200 pieces per product or component." },
+      { q: "Can the bag and box carry the same branding?", a: "Yes. Silkscreen, heat transfer or woven label on bag and box, with satin and box wrap Pantone-matched to your brand colour; hang tags and care cards can be bundled with the bag." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days. Use the sample to check interior contact, usable opening, closure and packed fit with your product." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your packed hair dimensions, format and quantity to", anchor: "request a wig packaging quotation", product: "custom-satin-wig-bag" },
     ctaTitle: "Request a quote for your custom wig packaging",
     guideSlugs: [
       "custom-wig-packaging-guide",
@@ -354,9 +433,9 @@ export const collections: Collection[] = [
     metaDescription:
       "Custom jewelry packaging from one manufacturer — logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
     factBlock: {
-      updated: "October 2026",
+      updated: "November 2026",
       paragraph:
-        "ELAPACK jewelry packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces for each component of a box-plus-pouch set, including custom sizes; confirm quantities for every component in the quotation. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK jewelry packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component — for a box-plus-pouch set, each component is counted at its own quantity, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     intro:
       "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display — and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets — colour-matched and branded as one system.",
@@ -402,10 +481,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces — boxes, pouches and display alike" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -419,10 +498,20 @@ export const collections: Collection[] = [
       "custom-cotton-pouches",
       "leather-envelope-pouch",
     ],
+    faq: [
+      { q: "Can I order the box and pouch from one supplier as one program?", a: "Yes. ELAPACK makes the boxes, pouches and display in-house, designed together — same colour, same branding, one order. Each component is quoted at its own quantity, from 200 pieces per product or component." },
+      { q: "What can a jewelry packaging program include?", a: "Rigid and magnetic logo boxes, fabric pouches in velvet, satin, cotton, muslin, linen and microfiber, and velvet display sets for the counter — matched as one system from retail display to unboxing." },
+      { q: "How is the fit checked?", a: "Send the jewelry dimensions and how each piece is held or displayed, then check the box insert and pouch size with the actual jewelry at sampling, before production." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your component list, dimensions and quantities to", anchor: "request a jewelry packaging quotation", product: "custom-ring-boxes" },
     ctaTitle: "Request a quote for your jewelry packaging program",
     guideSlugs: [
       "how-to-choose-custom-jewelry-boxes",
       "how-to-choose-a-custom-jewelry-pouch",
+      "custom-packaging-samples-guide",
+      "custom-packaging-moq-sample-lead-times-2026",
     ],
     relatedPages: [
       { path: "/custom-jewelry-boxes/", label: "Compare jewelry boxes" },
@@ -439,9 +528,9 @@ export const collections: Collection[] = [
     metaDescription:
       "Custom gift boxes with your logo — magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 200 pieces, free stock samples.",
     factBlock: {
-      updated: "October 2026",
+      updated: "November 2026",
       paragraph:
-        "ELAPACK custom gift boxes — key facts, current as of October 2026. Minimum order quantity is 200 pieces per product or component, covering magnetic flip-top, satin ribbon-tie, two-piece rigid and candle-format boxes, custom sizes included. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK custom gift boxes — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering magnetic flip-top, satin ribbon-tie, two-piece rigid and candle-format boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     intro:
       "Custom gift boxes for the occasions where the box is part of the gift. Corporate programs, candles, weddings, retail gifting and seasonal campaigns all start from the same place: a rigid structure that protects, a wrap that carries your brand, and a closure that makes opening feel like an event. Magnetic flip-tops, satin ribbon ties and two-piece rigid formats are all made to your size, Pantone colour and logo — MOQ from 200 pieces.",
@@ -484,10 +573,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -497,6 +586,14 @@ export const collections: Collection[] = [
       "custom-white-jewelry-box",
       "black-leather-jewelry-box",
     ],
+    faq: [
+      { q: "Which gift box structures do you make?", a: "Magnetic flip-top, satin ribbon-tie and two-piece rigid boxes in any size and finish, with drawer and book-style structures made on request." },
+      { q: "Can a gift box be sized to my candle jar or tin?", a: "Yes — jar and tin formats are part of the range, with inserts that hold glass steady. Share the vessel dimensions and confirm the fit on a sample." },
+      { q: "Which occasions do the boxes serve?", a: "Corporate gifting programs, weddings and events, and retail and shoe gifting — inserts, lids and ribbons carry your logo quietly across every size band." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your product size, structure, finish and quantity to", anchor: "request a gift box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your custom gift boxes",
     guideSlugs: [
       "magnetic-gift-boxes-wholesale-guide",
@@ -555,10 +652,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "General minimum 200 pieces; confirm each component and variant in the quote" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -566,11 +663,19 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
       "luxury-gift-box-ribbon",
     ],
+    faq: [
+      { q: "What should I send for a candle box quote?", a: "The jar or tin dimensions, packed weight, intended display and shipping route. The box and insert concept is reviewed against that brief, and the structure and fit are confirmed on a loaded sample." },
+      { q: "Which structures and inserts can be reviewed?", a: "Rigid lift-off lid, magnetic flip-top, sleeve and drawer, and folding carton structures. Contoured EVA, molded pulp, segmented board, and sponge or velvet inserts are candidate options — confirm cut geometry, availability and fit on the proposed sample." },
+      { q: "What is the minimum order?", a: "200 pieces per product or component. For a gift set or two-pack, every component and variant is confirmed in the project quotation." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your jar or tin dimensions, packed weight and quantity to", anchor: "request a candle box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your custom candle boxes",
     factBlock: {
-      updated: "October 2026",
+      updated: "November 2026",
       paragraph:
-        "General minimum order quantity is 200 pieces; for a complete set, each component has a 200-piece minimum. Confirm structure, insert, size and design or colour allocation in the project quotation. Typical production takes 15–20 days after sample approval and payment receipt; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping, with a stated delivery timeframe of 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork. Finished orders ship from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "Minimum order quantity is 200 pieces per product or component; for a complete set, each component has a 200-piece minimum. Confirm structure, insert, size and design or colour allocation in the project quotation. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping, with a stated delivery timeframe of 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork. Finished orders ship from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     guideSlugs: [
       "custom-candle-boxes-guide",
@@ -592,22 +697,6 @@ export const collections: Collection[] = [
       "Explore custom boxes and pouches for beauty brands, including eyelash packaging, press-on nail packaging, gift boxes and pouches. Share your product dimensions, quantity, branding and destination so we can review suitable options and prepare a quote.",
     sections: [
       {
-        heading: "Eyelash packaging boxes",
-        items: [
-          { title: "From 200 pieces", desc: "Eyelash packaging starts at 200 pieces. Confirm artwork and colour allocation in the quotation." },
-          { title: "Size and tray fit", desc: "Share the lash tray or product dimensions and desired presentation. Confirm box size and insert fit with the sample." },
-          { title: "Fitted tray inserts", desc: "Discuss tray dimensions and the required insert layout for your chosen product." },
-        ],
-      },
-      {
-        heading: "Press-on nail packaging boxes",
-        items: [
-          { title: "Set and tray dimensions", desc: "Share the number of nail sets, tray dimensions and any accessories that must fit inside." },
-          { title: "Shade and size identification", desc: "Provide the artwork and information hierarchy buyers need to identify the set without opening the box." },
-          { title: "Sample fit check", desc: "Confirm tray retention, opening sequence and printed information with the actual nail set in a sample." },
-        ],
-      },
-      {
         heading: "Beauty gift & retail boxes",
         items: [
           { title: "Magnetic & rigid gift boxes", desc: "Structures sized to cosmetic formats — from single items to curated sets." },
@@ -615,25 +704,32 @@ export const collections: Collection[] = [
         ],
       },
       {
-        heading: "Cosmetic pouches & bags",
+        heading: "Eyelash packaging",
         items: [
-          { title: "Fabric pouches", desc: "Discuss fabric, closure, size and branding options for your project; confirm availability in the quotation." },
-          { title: "Clear PVC zip bags", desc: "Discuss the preferred clear pouch, closure and quantity; confirm the material and available options in the quotation." },
+          { title: "From 200 pieces", desc: "Eyelash packaging starts at 200 pieces per product or component. Confirm artwork and colour allocation in the quotation." },
+          { title: "Tray fit first", desc: "Share the lash tray or product dimensions and confirm box size and fitted tray insert with the sample. The eyelash box product page and guide linked below carry the full specification." },
         ],
       },
       {
-        heading: "Wig & hair extension packaging",
+        heading: "Press-on nail packaging",
         items: [
-          { title: "Satin wig bags & boxes", desc: "Discuss bag and box dimensions for the hair product and intended presentation." },
-          { title: "Matched programs", desc: "Bags, boxes and inserts branded as one system." },
+          { title: "Set and tray dimensions", desc: "Share the number of nail sets, tray dimensions and any accessories that must fit inside, and confirm tray retention and the opening sequence with the actual nail set in a sample." },
+          { title: "Shade identification", desc: "Provide the artwork and information hierarchy buyers need to identify the set without opening the box. The press-on nail box product page and guides linked below carry the full detail." },
+        ],
+      },
+      {
+        heading: "Matched pouches & bags",
+        items: [
+          { title: "Fabric pouches", desc: "Fabric pouches matched to the box program in colour and branding; discuss fabric, closure and size for your project. The cosmetic pouches page linked below carries the full style and fabric comparison." },
+          { title: "Clear PVC zip bags", desc: "Clear zip pouches as part of the same matched program; confirm the material, closure and quantity in the quotation." },
         ],
       },
     ],
     facts: [
-      { label: "MOQ", value: "From 200 pieces; confirm design and colour allocation in the quotation. For sets, each component starts at 200 pieces." },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -643,6 +739,27 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
       "luxury-gift-box-ribbon",
       "custom-cotton-pouches",
+    ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom cosmetic packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering magnetic and rigid cosmetic boxes, with eyelash and press-on nail boxes as beauty sub-lines, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    faq: [
+      { q: "What does this page cover?", a: "Custom boxes for beauty brands — magnetic and rigid gift boxes sized to cosmetic formats, from single items to curated sets — with eyelash and press-on nail boxes as beauty sub-lines and pouches matched to the same program." },
+      { q: "Do you make eyelash and press-on nail boxes?", a: "Yes. Both are beauty sub-lines, made to order from 200 pieces per product or component. Share the tray dimensions and check the fit with the actual product in a sample; their product pages and guides are linked on this page." },
+      { q: "Can boxes and pouches be ordered as one matched program?", a: "Yes. Box, pouch and card components are specified together and colour-matched to one reference, and the 200-piece minimum applies to each component. Fabric and clear PVC pouch options sit on the cosmetic pouches page." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your product dimensions, quantity, artwork and destination to", anchor: "request a cosmetic packaging quotation", product: "magnetic-closure-gift-box" },
+    relatedPages: [
+      { path: "/products/custom-eyelash-packaging-boxes/", label: "Eyelash packaging boxes — product page" },
+      { path: "/news/how-to-customize-eyelash-boxes/", label: "How to customize eyelash boxes — guide" },
+      { path: "/products/custom-press-on-nail-boxes/", label: "Press-on nail boxes — product page" },
+      { path: "/news/press-on-nail-packaging-guide/", label: "Press-on nail packaging — guide" },
+      { path: "/custom-cosmetic-pouches/", label: "Cosmetic pouches & makeup bags" },
+      { path: "/custom-wig-packaging/", label: "Wig packaging — bags & boxes" },
     ],
     ctaTitle: "Request a quote: share your product dimensions, quantity, artwork and destination",
     guideSlugs: [
@@ -695,10 +812,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "General minimum 200 pieces; confirm fabric, size and variants in the quote" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -709,6 +826,30 @@ export const collections: Collection[] = [
       "custom-muslin-drawstring-pouch",
       "custom-satin-wig-bag",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom drawstring bags — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering cotton, muslin, velvet, satin and linen drawstring bags, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    table: {
+      heading: "Choose a fabric for your drawstring bag",
+      columns: ["Fabric", "Best for", "What to confirm on the sample"],
+      rows: [
+        ["Cotton & muslin", "Gift, beauty, jewelry and retail programs — a natural, printable face", "Fabric, finished size and the proposed logo method"],
+        ["Velvet & satin", "Gifting, jewelry and fragrance programs", "Interior contact with the product, usable opening and cord finish"],
+        ["Linen & blends", "Artisan and premium natural lines", "Texture, finished size and logo method on the sample"],
+      ],
+      note: "Sizes are quoted from the item dimensions — confirm the usable opening with the actual product in the bag before production.",
+    },
+    faq: [
+      { q: "Are your drawstring bags stocked or made to order?", a: "Made to order. Every bag is made to your specification — fabric, size, cord and logo — and nothing is a stock style. The minimum order is 200 pieces per product or component." },
+      { q: "Which fabric should I choose?", a: "Cotton and muslin are the natural, printable volume formats; velvet and satin suit gifting, jewelry and fragrance programs; linen and blends give a textured, matte natural face. Confirm the fabric, size and feasible logo method in the quotation and on the sample." },
+      { q: "Can drawstring bags work as dust bags for handbags and shoes?", a: "Yes. Share the handbag or shoe pair dimensions, closure and logo placement, and review the proposed fabric and fit on a sample with the actual item inside." },
+      { q: "Can a drawstring bag be paired with a box as a set?", a: "Yes. The bag and box are specified as separate components of one program, colour-matched to your reference; the 200-piece minimum applies to each component." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your item dimensions, fabric, target size and quantity to", anchor: "request a drawstring bag quotation", product: "custom-cotton-pouches" },
     ctaTitle: "Request a quote for your custom drawstring bags",
     guideSlugs: [
       "how-to-choose-custom-drawstring-bags",
@@ -745,15 +886,15 @@ export const collections: Collection[] = [
         heading: "As part of your program",
         items: [
           { title: "One supplier", desc: "Ribbon, cord, box and pouch quoted and made together — one brand system, not matched after the fact." },
-          { title: "Standalone accessory orders", desc: "Ribbons and cords quoted by spec — MOQ to be confirmed per program." },
+          { title: "Standalone accessory orders", desc: "Ribbons and cords quoted by spec — MOQ 500 m for standalone ribbon orders (ribbon is sold by length)." },
         ],
       },
     ],
     facts: [
-      { label: "MOQ", value: "Quoted as part of your box or pouch program — standalone accessory MOQ to be confirmed" },
+      { label: "MOQ", value: "500 m for standalone ribbon orders (ribbon is sold by length); ribbon supplied with a box or pouch program is quoted as part of that program" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -762,6 +903,18 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
       "custom-velvet-pouches",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK ribbons & accessories — key facts, current as of November 2026. Ribbons, cords and finishing accessories are supplied as part of box and pouch programs, colour-matched to the packaging they finish; standalone ribbon orders start at an MOQ of 500 m, because ribbon is sold by length. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    faq: [
+      { q: "Can I order ribbon on its own, without boxes or pouches?", a: "Yes. Standalone ribbon orders start at an MOQ of 500 m, because ribbon is sold by length. Ribbon supplied with a box or pouch program is quoted as part of that program instead." },
+      { q: "What ribbon and cord options are there?", a: "Double-face satin ribbon ties for rigid and gift boxes, custom printed ribbon quoted to your width, artwork and run length, and colour matching to your box wrap and Pantone reference. For pouches, cotton cords are the standard drawcord for cotton, muslin and linen, with satin ribbon and polyester cord as alternatives." },
+      { q: "Why order accessories with the box and pouch program?", a: "Ribbon, cord, box and pouch are quoted and made together — one brand system, colour-matched to the packaging they finish, not matched after the fact." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork. We reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your ribbon width, artwork, colour reference and quantity to", anchor: "request a ribbon & accessories quotation", product: "luxury-gift-box-ribbon" },
     ctaTitle: "Request a quote for ribbons & accessories",
     guideSlugs: [
       "custom-printed-ribbon-guide",
@@ -812,10 +965,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "General minimum 200 pieces; confirm style, material and variants in the quote" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -826,6 +979,31 @@ export const collections: Collection[] = [
       "custom-velvet-pouches",
       "custom-pvc-bags",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom cosmetic pouches — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering drawstring, flap, envelope and zipper pouches in fabric and clear PVC, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    table: {
+      heading: "Choose a cosmetic pouch style",
+      columns: ["Style", "Best for", "What to confirm on the sample"],
+      rows: [
+        ["Zipper makeup bag", "The secure everyday carrier, in fabric or clear PVC", "Zipper run and interior size with your contents inside"],
+        ["Drawstring pouch", "Favors, sets and retail counters", "Usable opening, cord finish and size against your contents"],
+        ["Envelope & flap", "Structured styles that gift beautifully", "Snap or flap closure and fit"],
+        ["Clear PVC zip bag", "Cosmetics, skincare and travel sizes shown without opening", "PVC style, dimensions and decoration in the quotation"],
+      ],
+      note: "Choose the style around the items it must hold and the closure you need; confirm the feasible style, material, dimensions and branding for the selected project in the quotation.",
+    },
+    faq: [
+      { q: "Are cosmetic pouches made to order?", a: "Yes — every pouch is made to your specification: style, material, dimensions and branding. There are no stock styles; the minimum order is 200 pieces per product or component." },
+      { q: "Fabric or clear PVC — which suits my product?", a: "Fabric pouches in cotton, canvas, satin or velvet carry everyday and gift programs; clear PVC zip bags show cosmetics, skincare and travel sizes without opening the bag. Confirm the style, material and dimensions for your project in the quotation." },
+      { q: "How will my logo be applied?", a: "The logo method depends on the chosen material and quantity — ask which method suits your combination and approve it on a sample before production." },
+      { q: "Can pouches be matched with cosmetic boxes in one program?", a: "Yes. Pouches and boxes can be specified together and colour-matched to one reference; the 200-piece minimum applies to each component." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your contents list, style, material and quantity to", anchor: "request a cosmetic pouch quotation", product: "custom-cotton-pouches" },
     ctaTitle: "Request a quote for your cosmetic pouches",
     guideSlugs: [
       "custom-cosmetic-bags-guide",
@@ -882,10 +1060,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -896,11 +1074,19 @@ export const collections: Collection[] = [
       "custom-muslin-drawstring-pouch",
       "luxury-gift-box-ribbon",
     ],
+    faq: [
+      { q: "What can one subscription program include?", a: "The printed box, fabric pouches for small items, insert cards printed to the monthly theme, and ribbon and trim — made in one place, so colours and branding match across every drop." },
+      { q: "Can the artwork change each month on the same box?", a: "Yes. Keep one confirmed dieline and change only the printed theme each month; box wrap, pouch fabric and card colour are Pantone-matched to one reference, and editions can be planned by season on one production calendar." },
+      { q: "What is the minimum order for a themed run?", a: "200 pieces per product or component — small enough to test a theme, sized to scale a winner." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your component list, theme and quantity to", anchor: "request a subscription box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your subscription box program",
     factBlock: {
-      updated: "October 2026",
+      updated: "November 2026",
       paragraph:
-        "ELAPACK subscription box packaging — key facts, current as of October 2026. Minimum order quantity is 200 pieces per product or component, custom sizes included, across printed boxes, fabric pouches and insert cards. Typical production takes 15–20 days after sample approval; confirm the schedule for your order, with shipping time quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK subscription box packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, custom sizes included, across printed boxes, fabric pouches and insert cards. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     guideSlugs: [
       "subscription-box-packaging-buyers-guide",
@@ -963,6 +1149,18 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
       "custom-perfume-boxes",
       "kraft-paper-shopping-bag",
+    ],
+    guideSlugs: [
+      "custom-rigid-boxes-guide",
+      "packaging-inserts-guide",
+      "custom-packaging-moq-sample-lead-times-2026",
+    ],
+    faq: [
+      { q: "Does lightweight mean thinner and cheaper?", a: "No. Lightweight luxury shifts the value cue from mass to texture, precision, finish and fit — and the structure that protects the product, and the opening feel of the box, are not cut." },
+      { q: "How much weight will I save?", a: "No generic percentage is claimed. A before-and-after weight, volume and freight-per-1,000 comparison is made for your specific box on a sample, because board, size, insert and finish change the result." },
+      { q: "Where can weight be saved?", a: "Right-sizing the box to the product, a lighter tray with a kept lid feel, board or molded inserts instead of heavy foam or metal where fit and protection allow, and nesting or collapsible formats where they fit the product." },
+      { q: "How do I order a lightweight version of my box?", a: "Send the product dimensions and weight, and the current box if you have one. Ask for the proposed lightweight structure, its weight and volume, and the freight comparison for your quantity in the quotation — then check the sample loaded, with the actual product inside." },
+      { q: "What are the minimum order and lead times?", a: "The minimum order is 200 pieces per product or component. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; a free stock sample carries USD 25 shipping and arrives in 4–7 days, and a custom sample costs USD 25 plus USD 20 shipping, built in 3–5 days." },
     ],
     ctaTitle: "Request a quote for lightweight luxury packaging",
     factBlock: {
