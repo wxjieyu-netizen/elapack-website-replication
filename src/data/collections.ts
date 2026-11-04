@@ -263,10 +263,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces, custom sizes included" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -280,10 +280,26 @@ export const collections: Collection[] = [
       "leather-envelope-pouch",
       "custom-pvc-bags",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom jewelry pouches — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering drawstring, flap and zip pouches in velvet, cotton, satin, linen and microfiber, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    faq: [
+      { q: "Which fabrics can a jewelry pouch be made in?", a: "Velvet, suede, cotton, muslin, satin, linen, microfiber, non-woven and organza, plus clear PVC zip pouches. Choose the fabric against the piece it carries, and confirm it on a sample." },
+      { q: "What sizes are available?", a: "The standard band runs from 7×9 cm jewelry pouches up to 30×40 cm gift and wig bags, and any custom size is made to your product dimensions at the same 200-piece minimum." },
+      { q: "Which closures can I choose?", a: "Drawstring with a cotton, satin or polyester cord, flap with snap or tuck closure, and zipper or button options for heavier or multi-piece sets." },
+      { q: "Can a pouch be matched with a jewelry box as a set?", a: "Yes. Pouch and box are designed together — same colour, same branding — and quoted as separate components, each at the 200-piece minimum." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your fabric, closure, size and quantity to", anchor: "request a jewelry pouch quotation", product: "custom-velvet-pouches" },
     ctaTitle: "Request a quote for your custom jewelry pouches",
     guideSlugs: [
       "how-to-choose-a-custom-jewelry-pouch",
+      "custom-logo-pouches-guide",
       "packaging-colour-tolerance-explained",
+      "custom-packaging-moq-sample-lead-times-2026",
     ],
     relatedPages: [
       { path: "/custom-jewelry-packaging/", label: "Complete jewelry packaging" },
