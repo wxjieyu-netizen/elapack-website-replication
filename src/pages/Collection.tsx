@@ -66,6 +66,41 @@ export default function Collection({ slug }: { slug: string }) {
         </section>
       ))}
 
+      {collection.table && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem", fontSize: "1.75rem" }}>
+                {collection.table.heading}
+              </h2>
+              <div style={{ overflowX: "auto" }}>
+                <table className="spec-table">
+                  <thead>
+                    <tr>
+                      {collection.table.columns.map((col) => (
+                        <th key={col}>{col}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {collection.table.rows.map((row) => (
+                      <tr key={row[0]}>
+                        {row.map((cell, ci) => (
+                          <td key={ci}>{cell}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              {collection.table.note && (
+                <p className="markets-note" style={{ marginTop: "1rem" }}>{collection.table.note}</p>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
           <div className="section-header-center reveal">
@@ -170,17 +205,40 @@ export default function Collection({ slug }: { slug: string }) {
         </div>
       </section>
 
+      {collection.faq && collection.faq.length > 0 && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal" style={{ textAlign: "left" }}>
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+                Frequently asked questions
+              </h2>
+              {collection.faq.map((row) => (
+                <p key={row.q} className="markets-note" style={{ marginBottom: "0.75rem" }}>
+                  <strong>{row.q}</strong> {row.a}
+                </p>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
           <div className="markets-box reveal" style={{ textAlign: "center" }}>
             <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
               {collection.ctaTitle}
             </h2>
+            {collection.ctaLink && (
+              <p className="markets-note" style={{ marginTop: "0.75rem" }}>
+                {collection.ctaLink.lead}{" "}
+                <Link to={`/contact/?product=${collection.ctaLink.product}`}>{collection.ctaLink.anchor}</Link>.
+              </p>
+            )}
             <p className="markets-note">
               Message Tina on WhatsApp or phone:{" "}
               <a href="https://wa.me/8618626352096">+86 186 2635 2096</a>
               {" "}· Email: <a href="mailto:tina@elapack.com">tina@elapack.com</a>
-              {" "}· <Link to="/contact/">Send project details</Link>
+              {" "}· <Link to={collection.ctaLink ? `/contact/?product=${collection.ctaLink.product}` : "/contact/"}>Send project details</Link>
             </p>
           </div>
         </div>

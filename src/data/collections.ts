@@ -25,6 +25,12 @@ export type Collection = {
    * trade-terms whitelist (MOQ / lead times / sample terms).
    */
   factBlock?: { updated: string; paragraph: string };
+  /** Selection decision table (mirrors the landing tables): type | best for | what to confirm on the sample. */
+  table?: { heading: string; columns: string[]; rows: string[][]; note?: string };
+  /** Closing FAQ group; also emitted as FAQPage JSON-LD by the prerender, same mechanism as the landings. */
+  faq?: { q: string; a: string }[];
+  /** Prefilled closing CTA sentence linking to the contact form with a product context (pouches-bags pattern). */
+  ctaLink?: { lead: string; anchor: string; product: string };
   ctaTitle: string;
 };
 
@@ -324,10 +330,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "200 pieces — bags, wig boxes and extension boxes alike" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -338,6 +344,31 @@ export const collections: Collection[] = [
       "magnetic-closure-gift-box",
       "luxury-gift-box-ribbon",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom wig packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering satin drawstring bags, cotton envelope pouches, rigid wig boxes and hair extension boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    table: {
+      heading: "Choose a wig packaging format",
+      columns: ["Format", "Best for", "What to confirm on the sample"],
+      rows: [
+        ["Satin drawstring bag", "Carrying and storage", "Packed hair dimensions, usable opening, closure and interior contact"],
+        ["Cotton envelope pouch", "Structured carry — flap-snap, flat-pocket and zip-envelope styles", "Style and fit with the hair product inside"],
+        ["Rigid wig box", "Presenting wigs and extensions upright at retail", "Presentation fit, and insert or sleeve hold"],
+        ["Magnetic flip-top box", "Premium hair programs", "Closure alignment and the open-close feel"],
+        ["Bag + box as a set", "Retail presentation plus after-sale carry", "Each component's fit and quantity, quoted separately"],
+      ],
+      note: "Quote the finished size from the actual folded or arranged product rather than assuming one size is universal.",
+    },
+    faq: [
+      { q: "Should I choose a bag, a box, or both?", a: "Start with the actual hair product, how it is packed and where the customer first meets it: a fabric bag serves carrying and storage, a box serves presentation, and the two can be ordered as separate components of one program. Confirm interior contact, usable opening, closure and packed fit with your product on a sample." },
+      { q: "Is wig packaging made to order?", a: "Yes — sizes are quoted from the actual folded or arranged product, not from a universal size. The minimum order is 200 pieces per product or component." },
+      { q: "Can the bag and box carry the same branding?", a: "Yes. Silkscreen, heat transfer or woven label on bag and box, with satin and box wrap Pantone-matched to your brand colour; hang tags and care cards can be bundled with the bag." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days. Use the sample to check interior contact, usable opening, closure and packed fit with your product." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your packed hair dimensions, format and quantity to", anchor: "request a wig packaging quotation", product: "custom-satin-wig-bag" },
     ctaTitle: "Request a quote for your custom wig packaging",
     guideSlugs: [
       "custom-wig-packaging-guide",
@@ -695,10 +726,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "General minimum 200 pieces; confirm fabric, size and variants in the quote" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -709,6 +740,30 @@ export const collections: Collection[] = [
       "custom-muslin-drawstring-pouch",
       "custom-satin-wig-bag",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom drawstring bags — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering cotton, muslin, velvet, satin and linen drawstring bags, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    table: {
+      heading: "Choose a fabric for your drawstring bag",
+      columns: ["Fabric", "Best for", "What to confirm on the sample"],
+      rows: [
+        ["Cotton & muslin", "Gift, beauty, jewelry and retail programs — a natural, printable face", "Fabric, finished size and the proposed logo method"],
+        ["Velvet & satin", "Gifting, jewelry and fragrance programs", "Interior contact with the product, usable opening and cord finish"],
+        ["Linen & blends", "Artisan and premium natural lines", "Texture, finished size and logo method on the sample"],
+      ],
+      note: "Sizes are quoted from the item dimensions — confirm the usable opening with the actual product in the bag before production.",
+    },
+    faq: [
+      { q: "Are your drawstring bags stocked or made to order?", a: "Made to order. Every bag is made to your specification — fabric, size, cord and logo — and nothing is a stock style. The minimum order is 200 pieces per product or component." },
+      { q: "Which fabric should I choose?", a: "Cotton and muslin are the natural, printable volume formats; velvet and satin suit gifting, jewelry and fragrance programs; linen and blends give a textured, matte natural face. Confirm the fabric, size and feasible logo method in the quotation and on the sample." },
+      { q: "Can drawstring bags work as dust bags for handbags and shoes?", a: "Yes. Share the handbag or shoe pair dimensions, closure and logo placement, and review the proposed fabric and fit on a sample with the actual item inside." },
+      { q: "Can a drawstring bag be paired with a box as a set?", a: "Yes. The bag and box are specified as separate components of one program, colour-matched to your reference; the 200-piece minimum applies to each component." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your item dimensions, fabric, target size and quantity to", anchor: "request a drawstring bag quotation", product: "custom-cotton-pouches" },
     ctaTitle: "Request a quote for your custom drawstring bags",
     guideSlugs: [
       "how-to-choose-custom-drawstring-bags",
@@ -812,10 +867,10 @@ export const collections: Collection[] = [
       },
     ],
     facts: [
-      { label: "MOQ", value: "General minimum 200 pieces; confirm style, material and variants in the quote" },
+      { label: "MOQ", value: "200 pieces per product or component" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
       { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
-      { label: "Production time", value: "15–20 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
@@ -826,6 +881,31 @@ export const collections: Collection[] = [
       "custom-velvet-pouches",
       "custom-pvc-bags",
     ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom cosmetic pouches — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering drawstring, flap, envelope and zipper pouches in fabric and clear PVC, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+    },
+    table: {
+      heading: "Choose a cosmetic pouch style",
+      columns: ["Style", "Best for", "What to confirm on the sample"],
+      rows: [
+        ["Zipper makeup bag", "The secure everyday carrier, in fabric or clear PVC", "Zipper run and interior size with your contents inside"],
+        ["Drawstring pouch", "Favors, sets and retail counters", "Usable opening, cord finish and size against your contents"],
+        ["Envelope & flap", "Structured styles that gift beautifully", "Snap or flap closure and fit"],
+        ["Clear PVC zip bag", "Cosmetics, skincare and travel sizes shown without opening", "PVC style, dimensions and decoration in the quotation"],
+      ],
+      note: "Choose the style around the items it must hold and the closure you need; confirm the feasible style, material, dimensions and branding for the selected project in the quotation.",
+    },
+    faq: [
+      { q: "Are cosmetic pouches made to order?", a: "Yes — every pouch is made to your specification: style, material, dimensions and branding. There are no stock styles; the minimum order is 200 pieces per product or component." },
+      { q: "Fabric or clear PVC — which suits my product?", a: "Fabric pouches in cotton, canvas, satin or velvet carry everyday and gift programs; clear PVC zip bags show cosmetics, skincare and travel sizes without opening the bag. Confirm the style, material and dimensions for your project in the quotation." },
+      { q: "How will my logo be applied?", a: "The logo method depends on the chosen material and quantity — ask which method suits your combination and approve it on a sample before production." },
+      { q: "Can pouches be matched with cosmetic boxes in one program?", a: "Yes. Pouches and boxes can be specified together and colour-matched to one reference; the 200-piece minimum applies to each component." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days from confirmed artwork." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+    ],
+    ctaLink: { lead: "Send your contents list, style, material and quantity to", anchor: "request a cosmetic pouch quotation", product: "custom-cotton-pouches" },
     ctaTitle: "Request a quote for your cosmetic pouches",
     guideSlugs: [
       "custom-cosmetic-bags-guide",
