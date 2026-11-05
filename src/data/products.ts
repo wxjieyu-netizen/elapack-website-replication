@@ -731,6 +731,8 @@ export const products: Product[] = [
       "Natural cotton pouches and bags — printable, gently protective, made to your size and logo.",
     description:
       "Custom cotton pouches and bags for brands that want a natural, honest carrier. Unbleached cotton has a soft hand feel that suits artisan, beauty, jewelry and favor programs alike, and the fabric takes water-based ink prints beautifully. Choose your style — drawstring, flap, envelope or zipper — in sizes reviewed against your product, from small jewelry and cosmetics pouches to larger gift bags, with your logo printed or woven in. Made to order, with materials, dimensions and finishes confirmed in your quote.",
+    intro:
+      "Custom cotton pouches and bags in unbleached cotton with a soft, natural hand feel. Choose drawstring, flap, envelope or zipper styles in sizes reviewed against your product — from small jewelry and cosmetics pouches to larger gift bags — with your logo printed in water-based inks.",
     image: "/images/carousel/cotton-pouch.png",
     materials: "Natural cotton, cotton cord",
     moq: "200 pcs",
@@ -763,6 +765,28 @@ export const products: Product[] = [
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+    ],
+    faqs: [
+      {
+        q: "What should I send for a cotton pouch quote?",
+        a: "Send your product dimensions, preferred style — drawstring, flap, envelope or zipper — fabric choice, logo artwork and quantity. The finished size, string type and logo method (silkscreen, hot stamp or woven label) are confirmed in the quotation.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Water-based ink printing",
@@ -808,6 +832,28 @@ export const products: Product[] = [
       { label: "Fabric", value: "Natural, bleached or dyed cotton" },
       { label: "Closure", value: "Snap / open pocket / zipper" },
       { label: "MOQ", value: "200 pcs" },
+    ],
+    faqs: [
+      {
+        q: "Which cotton envelope pouch styles are available?",
+        a: "Three style families: the envelope flap with snap closure, the flat open pocket for inserts and slip cases, and the zip envelope for travel and storage. All are made to your size in natural, bleached or dyed cotton.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Flap, flat-pocket and zip-envelope styles",
@@ -930,6 +976,28 @@ export const products: Product[] = [
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
+    faqs: [
+      {
+        q: "What should I send for a kraft paper shopping bag quote?",
+        a: "Share the products to be carried, the target loaded weight, desired width, height and gusset depth, handle preference, artwork and quantity. Confirm the proposed paper, handle attachment and print method against the quotation and sample, and test the assembled bag with the intended load before approving bulk production.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
+    ],
     customizationOptions: [
       "Custom sizes and paper weights",
       "Artwork and print method confirmed per quotation",
@@ -994,6 +1062,8 @@ export const products: Product[] = [
       "Pebbled faux-leather envelope pouch with gold foil logo, snap closure and soft suede-touch interior.",
     description:
       "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries — jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand. Sizes are cut to your contents, from single-card minis to eyewear-length formats, and foil colour, thread and interior shade are specified together so the pouch reads as one palette — held against an approved sample before bulk. Production runs from 200 pieces in 15–20 days, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles flap hand, foil density and interior fit with your actual product before the run.",
+    intro:
+      "An envelope pouch in pebbled faux leather with a structured snap-closure flap and a suede-touch interior that cushions jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries your logo quietly; custom colours available, from 200 pieces.",
     image: "/images/carousel/image.png",
     materials: "Pebbled faux leather, suede-touch lining",
     moq: "200 pcs",
@@ -1023,6 +1093,28 @@ export const products: Product[] = [
       { label: "Closure", value: "Snap button" },
       { label: "Branding", value: "Gold foil stamping / blind emboss / heat transfer" },
       { label: "MOQ", value: "200 pcs" },
+    ],
+    faqs: [
+      {
+        q: "What should I send for a leather envelope pouch quote?",
+        a: "Send the items it will carry and their dimensions, your colour choice, branding method — gold foil stamping, blind emboss or heat transfer — artwork and quantity. The slim profile mails flat; confirm the exact build in the quotation and sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Custom leather colors and grain textures",
@@ -1068,6 +1160,28 @@ export const products: Product[] = [
       { label: "Fabric weight", value: "Confirm for selected fabric" },
       { label: "Closure Type", value: "Drawstring" },
     ],
+    faqs: [
+      {
+        q: "What size is a satin wig bag?",
+        a: "The standard size is 30 × 40 cm, which fits most wig and extension programs; custom sizes are available on request. Confirm the packed item dimensions, fabric contact and closure on a sample before ordering.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
+    ],
     customizationOptions: [
       "Pantone satin color matching",
       "Logo silkscreen, woven label or heat transfer",
@@ -1082,6 +1196,8 @@ export const products: Product[] = [
       "Lustrous satin pouches with drawstring or flap closure — your colour, size and logo.",
     description:
       "Custom satin pouches for programs that want a gift feel at first touch. The lustrous face catches light in retail displays and unboxing photos, while the soft drape protects finishes and platings — a natural fit for jewelry, bridal, beauty and gifting lines, and a classic choice for perfume bottle gift bags. Made to order in your satin colour and size, with drawstring or flap closure and your logo silkscreened or hot-stamped. Product photography is in progress; request a stock sample to feel the material.",
+    intro:
+      "Custom satin pouches with a lustrous face that catches light in retail displays and unboxing photos, and a soft drape that protects finishes and platings. Made to order in your satin colour and size, with drawstring or flap closure and your logo applied to the satin face.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Satin, drawstring cord",
     moq: "200 pcs",
@@ -1111,6 +1227,28 @@ export const products: Product[] = [
       { label: "Fabric weight", value: "Confirm for selected fabric" },
       { label: "Closure Type", value: "Drawstring / flap / envelope" },
     ],
+    faqs: [
+      {
+        q: "What should I send for a satin pouch quote?",
+        a: "Send your product dimensions, satin colour (Pantone matching is available), closure preference — drawstring, flap or envelope — logo artwork and quantity. Fabric weight is confirmed for the selected fabric in the quotation.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
+    ],
     customizationOptions: [
       "Pantone satin color matching",
       "Silkscreen printing or hot-stamped logo",
@@ -1126,6 +1264,8 @@ export const products: Product[] = [
       "Natural-look drawstring pouch projects; confirm the fabric composition, weave and cord in a sample.",
     description:
       "For a muslin-style drawstring pouch, send the item dimensions, quantity, preferred fabric appearance, cord and artwork. Request the exact fiber composition and fabric weight in the quotation, then check the proposed material and logo print in a sample. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate. Product photography is pending; request a sample to review the actual fabric and print.",
+    intro:
+      "Muslin-style drawstring pouches made to your size. Send the item dimensions, quantity, preferred fabric appearance, cord and artwork; the exact fiber composition and fabric weight are confirmed in the quotation and checked on a sample. Orders start at 200 pieces.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Fabric composition, weave and cord to confirm in quotation and sample",
     moq: "200 pcs",
@@ -1154,6 +1294,28 @@ export const products: Product[] = [
       { label: "Fabric", value: "Confirm composition and weave in quote and sample" },
       { label: "Fabric weight", value: "Confirm for selected fabric" },
       { label: "Closure Type", value: "Drawstring; cord material to confirm" },
+    ],
+    faqs: [
+      {
+        q: "What should I send for a muslin drawstring pouch quote?",
+        a: "Send the item dimensions, quantity, preferred fabric appearance, cord choice and artwork. Request the exact fiber composition and fabric weight in the quotation, then check the proposed material and logo print in a sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Custom sizes and shapes",
@@ -1248,6 +1410,28 @@ export const products: Product[] = [
       { label: "Thickness / gauge", value: "Confirm film thickness / gauge in the quotation and approved sample" },
       { label: "Print method", value: "Confirm print method for the selected film in the quotation and approved sample" },
       { label: "MOQ", value: "200 pcs" },
+    ],
+    faqs: [
+      {
+        q: "What should I send for a clear PVC bag quote?",
+        a: "Provide the contents, required finished size, usable opening, preferred closure and logo artwork. The exact film composition, gauge, closure construction and print method are confirmed in the quotation and approved sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Custom sizes from small item bags to toiletry formats",
