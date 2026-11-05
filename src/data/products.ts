@@ -90,7 +90,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
@@ -457,7 +457,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
@@ -709,7 +709,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
@@ -781,7 +781,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
@@ -848,7 +848,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
@@ -991,7 +991,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
@@ -1109,7 +1109,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
@@ -1175,7 +1175,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
@@ -1242,7 +1242,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
@@ -1310,7 +1310,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
@@ -1426,7 +1426,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
         q: "What payment methods do you accept?",
