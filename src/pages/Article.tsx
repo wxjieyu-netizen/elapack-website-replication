@@ -712,7 +712,7 @@ export default function Article() {
             </p>
           </div>
           <div className="article-cta reveal">
-            <p className="article-cta-facts">Individual packaging products from 200 pieces · free digital dieline preview · custom sample USD 25 + USD 20 shipping, usually 3–5 days to prepare</p>
+            <p className="article-cta-facts">Individual packaging products from 200 pieces · free digital dieline preview · custom sample USD 30 + USD 25 shipping, usually 3–5 days to prepare</p>
             <Link to="/contact/" className="btn-primary article-cta-btn">Request a quote</Link>
           </div>
           {related.length > 0 && (

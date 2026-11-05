@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     q: "Can I see samples before placing a full order?",
-    a: "Yes. Available stock samples are free, with USD 25 sample shipping. A custom sample is USD 25 plus USD 20 shipping; the usual custom-sample preparation time is 3–5 days. Confirm the sample type and destination in your quote.",
+    a: "Yes. Available stock samples are free, with USD 25 sample shipping. A custom sample is USD 30 plus USD 25 shipping; the usual custom-sample preparation time is 3–5 days. Confirm the sample type and destination in your quote.",
   },
 ];
 

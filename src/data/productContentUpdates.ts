@@ -43,7 +43,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Custom samples",
-        "USD 25 plus USD 20 shipping. Sample production takes 3–5 days; delivery time is separate."
+        "USD 30 plus USD 25 shipping. Sample production takes 3–5 days; delivery time is separate."
       ],
       [
         "Production",
@@ -69,7 +69,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Can I review a sample before production?",
-        "Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification and delivery time before ordering."
+        "Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification and delivery time before ordering."
       ],
       [
         "How long does production take?",
@@ -223,7 +223,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Custom samples",
-        "USD 25 plus USD 20 shipping. Sample production takes 3–5 days; delivery time is separate."
+        "USD 30 plus USD 25 shipping. Sample production takes 3–5 days; delivery time is separate."
       ],
       [
         "Production",
@@ -249,7 +249,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Can I review a sample before production?",
-        "Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification and delivery time before ordering."
+        "Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification and delivery time before ordering."
       ],
       [
         "How long does production take?",
@@ -379,7 +379,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Custom samples",
-        "USD 25 plus USD 20 shipping. Sample production takes 3–5 days; delivery time is separate."
+        "USD 30 plus USD 25 shipping. Sample production takes 3–5 days; delivery time is separate."
       ],
       [
         "Production",
@@ -405,7 +405,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Can I review a sample before production?",
-        "Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification and delivery time before ordering."
+        "Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification and delivery time before ordering."
       ],
       [
         "How long does production take?",
