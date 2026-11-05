@@ -92,6 +92,8 @@ const STATIC_TITLES: Record<string, string> = {
 
 /** Route-level meta descriptions for SEO. */
 const STATIC_DESCRIPTIONS: Record<string, string> = {
+  "/products/custom-tissue-paper":
+    "Custom printed tissue paper, 17–30 gsm in 50 × 70 cm and 100 × 100 cm sheets or custom sizes. Single to full-coverage print, from 500 sheets per design.",
   "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets — one-stop custom packaging.",
   "/pouches-bags": "Custom textile pouches and bags — velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
   "/boxes": "Custom rigid boxes in your size, finish and branding — two-piece lift-off lid, magnetic flap, drawer and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ 200 pieces, production in 15–20 working days.",

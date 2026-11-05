@@ -1796,6 +1796,84 @@ export const products: Product[] = [
       "Add to an eyewear pouch + box set",
     ],
   },
+  {
+    slug: "custom-tissue-paper",
+    name: "Custom Tissue Paper",
+    category: "Packaging Paper",
+    shortDesc:
+      "Custom printed tissue paper — 17–30 gsm sheets, from 500 sheets per design.",
+    intro:
+      "Custom printed tissue paper for brand packaging, from 500 sheets per design. Tissue in 17–30 gsm, in standard 50 × 70 cm and 100 × 100 cm sheets or cut to your size, with single-colour, multi-colour or full-coverage printing on white or dyed paper.",
+    description:
+      "Custom tissue paper specified around the job it does in your packaging: a presentation wrap inside a rigid box, a liner under the product, or part of a complete box + pouch set. State the purpose, the product-contact surfaces and the box dimensions with your artwork, and the proposed paper, print and fold are confirmed in the quotation and on a physical sample. GSM measures weight per area only — it does not by itself determine print quality, protection or price — so the paper is chosen against the actual contents and folding sequence, and the folded sheet is checked inside the complete presentation before approval. Tissue can be ordered on its own or supplied as a component of a packaging set.",
+    image: "/images/placeholder/product-coming-soon.svg",
+    materials: "Tissue paper, 17–30 gsm",
+    moq: "500 sheets per design",
+    leadTime: "10–15 days after sample approval and payment receipt; shipping time separate",
+    industries: ["Jewelry", "Beauty", "Fashion", "Gift"],
+    features: [
+      {
+        title: "Specified by the Job",
+        desc: "Wrap, liner or set component: each job is checked differently for translucency, fold appearance, contact behaviour and logo legibility.",
+      },
+      {
+        title: "Print Confirmed on Paper",
+        desc: "Processes and colour counts are confirmed with your actual artwork, and print and contact behaviour are reviewed on a physical sample, not a screen image.",
+      },
+      {
+        title: "Standard or Custom Sheets",
+        desc: "Standard 50 × 70 cm and 100 × 100 cm sheets, or cut to your size and checked against the box interior and folding sequence.",
+      },
+      {
+        title: "Fitted to the Set",
+        desc: "The folded sheet is checked against the product, insert and box interior so the pack closes cleanly without excess bulk.",
+      },
+    ],
+    specs: [
+      { label: "Paper Weight", value: "17–30 gsm" },
+      { label: "Sheet Size", value: "50 × 70 cm / 100 × 100 cm standard; custom sizes on request" },
+      { label: "Printing", value: "Single colour, multi-colour or full-coverage print" },
+      { label: "Paper Colour", value: "White, or dyed paper colours" },
+      { label: "MOQ", value: "500 sheets per design" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 10–15 days after sample approval and payment receipt" },
+    ],
+    faqs: [
+      {
+        q: "What should I send for a tissue paper quote?",
+        a: "Send the purpose (wrap, liner or set component), product-contact surfaces, box dimensions, proposed fold, artwork, sheet quantity and delivery destination. The proposed paper, print specification and sample scope are confirmed in the quotation.",
+      },
+      {
+        q: "Can I print my logo on tissue paper?",
+        a: "Yes. Printing runs from a single-colour logo to multi-colour and full-coverage designs, on white paper or on dyed paper colours. Send the artwork and colour reference; the print is confirmed on a physical sample before production.",
+      },
+      {
+        q: "How do I choose the paper weight?",
+        a: "GSM is weight per area; two papers at the same weight can differ in finish and printing behaviour. Choose against the job — presentation, contact or protection checks — and review actual paper references and a sample before approving.",
+      },
+      {
+        q: "Can I order a custom sheet size?",
+        a: "Yes. Standard sheets are 50 × 70 cm and 100 × 100 cm, and sheets can be cut to your size on request. Confirm the finished size against your box interior and folding sequence in the quotation.",
+      },
+      {
+        q: "What is the minimum order?",
+        a: "500 sheets per design. Tissue can also be supplied as part of a box + pouch set; confirm the sheet quantity for your set configuration in the quotation.",
+      },
+      {
+        q: "How long does production take?",
+        a: "Production takes 10–15 days after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+    ],
+    customizationOptions: [
+      "Paper weight and sheet size",
+      "Print colours and coverage",
+      "White or dyed paper",
+      "Fold and packing format",
+    ],
+  },
 ];
 
 export const categories = [
@@ -1804,10 +1882,11 @@ export const categories = [
   "Pouches & Bags",
   "Retail Display Props",
   "Sampling Cards",
+  "Packaging Paper",
 ];
 
 /** Derived: categories that actually have products, in display order. */
-export const activeCategories = ["Boxes", "Pouches & Bags", "Retail Display Props", "Sampling Cards"];
+export const activeCategories = ["Boxes", "Pouches & Bags", "Retail Display Props", "Sampling Cards", "Packaging Paper"];
 
 export const industries = [
   "Jewelry",
@@ -1950,6 +2029,10 @@ export const productGuides: Record<string, string[]> = {
     "jewelry-display-trays-guide",
     "custom-jewelry-packaging-guide",
     "how-to-choose-custom-jewelry-boxes",
+  ],
+  "custom-tissue-paper": [
+    "custom-tissue-paper-guide",
+    "custom-packaging-samples-guide",
   ],
   "kraft-paper-shopping-bag": [
     "custom-gift-packaging-guide",
