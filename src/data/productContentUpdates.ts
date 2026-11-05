@@ -47,7 +47,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Production",
-        "Typical production takes 15–20 days after sample approval and payment receipt. Shipping time is separate."
+        "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping time is separate."
       ],
       [
         "Payment",
@@ -73,7 +73,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "How long does production take?",
-        "Typical production takes 15–20 days after sample approval and payment receipt. Shipping time is quoted separately."
+        "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping time is quoted separately."
       ],
       [
         "What payment methods are available?",
@@ -227,7 +227,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Production",
-        "Typical production takes 15–20 days after sample approval and payment receipt. Shipping time is separate."
+        "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping time is separate."
       ],
       [
         "Payment",
@@ -253,7 +253,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "How long does production take?",
-        "Typical production takes 15–20 days after sample approval and payment receipt. Shipping time is quoted separately."
+        "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping time is quoted separately."
       ],
       [
         "What payment methods are available?",
@@ -383,7 +383,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Production",
-        "Typical production takes 15–20 days after sample approval and payment receipt. Shipping time is separate."
+        "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping time is separate."
       ],
       [
         "Payment",
@@ -409,7 +409,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "How long does production take?",
-        "Typical production takes 15–20 days after sample approval and payment receipt. Shipping time is quoted separately."
+        "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping time is quoted separately."
       ],
       [
         "What payment methods are available?",

@@ -196,6 +196,28 @@ export const products: Product[] = [
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
+    faqs: [
+      {
+        q: "What should I send for a custom ring box quote?",
+        a: "Send the ring's band width and setting height, rings per box, preferred appearance, logo artwork, quantity and delivery destination. We will confirm the proposed box and insert specification in the quotation.",
+      },
+      {
+        q: "How do I check the ring insert before bulk production?",
+        a: "Review the proposed slot layout and use your actual ring to check retention, appearance and removal in an approved physical sample. A visual effect preview does not replace this fit check.",
+      },
+      {
+        q: "What is the minimum order?",
+        a: "The minimum is 200 pieces. Confirm how sizes, colours and artwork are allocated in the quotation; the minimum does not imply that every variant can be split freely.",
+      },
+      {
+        q: "Are samples and visual previews available?",
+        a: "A visual preview of the proposed box structure is free. Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make; delivery time is separate.",
+      },
+      {
+        q: "When does production begin?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping time and the final schedule are confirmed for the order.",
+      },
+    ],
     customizationOptions: [
       "Single- or double-ring layout for quotation",
       "Proposed exterior and insert materials",
@@ -372,6 +394,8 @@ export const products: Product[] = [
       "Custom perfume box projects from 200 pieces; confirm the bottle fit, structure, insert and finish in a sample.",
     description:
       "Start a perfume box brief with bottle dimensions, bottle weight, item count, preferred opening and artwork. The gallery shows style references, not a single standard configuration. Ask for the proposed box structure, insert material and branding method to be itemized in the quotation. Check the fit and opening with your bottle in an approved sample; presentation alone does not establish shipping protection. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate.",
+    intro:
+      "Start a perfume box brief with bottle dimensions, bottle weight, item count, preferred opening and artwork. The gallery shows style references, not a single standard configuration — the proposed box structure, insert material and branding method are itemized in the quotation and checked with your bottle in an approved sample. Orders start at 200 pieces.",
     image: "/images/products/custom-perfume-boxes/custom-perfume-boxes-hero.jpg",
     gallery: [
       "/images/products/custom-perfume-boxes/custom-perfume-boxes-hero.jpg",
@@ -417,6 +441,28 @@ export const products: Product[] = [
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+    ],
+    faqs: [
+      {
+        q: "What should I send for a custom perfume box quote?",
+        a: "Send bottle dimensions, bottle weight, item count, preferred opening and artwork. Ask for the proposed box structure, insert material and branding method to be itemized in the quotation, and check the fit and opening with your bottle in an approved sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Provide bottle dimensions, weight and count",
@@ -801,6 +847,8 @@ export const products: Product[] = [
     category: "Retail Display Props",
     shortDesc: "Earring display stands for retail projects. Discuss the layout and material for your assortment.",
     description: "For an earring display quote, list the earring styles, the number of pairs to present and any preferred layout. Check hole or slot placement, spacing, stand dimensions and the chosen material with a sample before approving production.",
+    intro:
+      "Custom earring displays built around your earring styles and pair count. Share the styles, number of pairs and preferred layout; hole or slot placement, spacing, stand dimensions and material are confirmed with a sample before production.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Materials to confirm in the quotation and sample",
     moq: "200 pcs",
@@ -817,6 +865,28 @@ export const products: Product[] = [
       { label: "Hole or Slot Layout", value: "Confirm for the proposed order" },
       { label: "Stand and Material", value: "Confirm for the proposed order" },
       { label: "Artwork and Quantity", value: "Confirm for the proposed order" }
+    ],
+    faqs: [
+      {
+        q: "How should I specify an earring display?",
+        a: "List earring styles, number of pairs, desired layout and available display space. Review the proposed hole or slot positions and material with representative earrings.",
+      },
+      {
+        q: "How are materials and dimensions confirmed?",
+        a: "Share the display task, space and preferences. Confirm construction, dimensions and contact surface in the quotation and sample.",
+      },
+      {
+        q: "Can I review the proposed design?",
+        a: "Ask which design preview is available for your project and confirm its scope. Review the physical sample before approving production.",
+      },
+      {
+        q: "Can I request a sample?",
+        a: "Stock samples are free when available, with USD 25 shipping and typical delivery of 4–7 days. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm availability and sample scope for your project.",
+      },
+      {
+        q: "What is the production lead time?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Confirm the order schedule; shipping time is separate.",
+      },
     ],
     customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"],
   },
