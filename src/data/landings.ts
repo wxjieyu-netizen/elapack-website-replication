@@ -236,6 +236,7 @@ export const landings: Landing[] = [
         { title: "With a card", desc: "A thank-you card, company profile, slogan, design or product-showcase card, customised to match the set." },
         { title: "With a ribbon", desc: "A satin or printed ribbon closure or trim, matched to the box and pouch colour." },
         { title: "With a microfiber cleaning cloth", desc: "Add a microfiber cleaning cloth (100% polyester or 80% polyester / 20% polyamide, 180–230g) for jewelry, eyewear, screens and lenses — tick it in the inquiry form." },
+        { title: "With tissue paper", desc: "Printed tissue as a wrap or liner inside the box — white or dyed paper, single-colour to full-coverage print, sheet size matched to the box interior." },
         { title: "Custom combinations", desc: "Built around your product on request." },
       ],
     },
