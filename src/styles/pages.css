@@ -3417,6 +3417,15 @@ a.contact-value:hover {
   flex-direction: column;
 }
 
+.product-specs-subhead {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  padding: var(--space-3) 0 var(--space-1);
+}
+
 .spec-row {
   display: grid;
   grid-template-columns: 200px 1fr;

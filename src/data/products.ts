@@ -3,6 +3,10 @@ export type Product = {
   name: string;
   category: string;
   shortDesc: string;
+  /** Optional hero intro, shown instead of `description` at the top of the
+   *  product page so the hero and the Product Description section no longer
+   *  repeat the same text. Falls back to `description` when absent. */
+  intro?: string;
   description: string;
   image: string;
   /** Optional extra gallery photos after the hero; falls back to [image]. */
@@ -13,6 +17,9 @@ export type Product = {
   industries: string[];
   features: { title: string; desc: string }[];
   specs: { label: string; value: string }[];
+  /** Optional product-level FAQ set. When present it replaces the generic
+   *  category FAQ set in both the page and the FAQPage structured data. */
+  faqs?: { q: string; a: string }[];
   customizationOptions: string[];
 };
 
@@ -31,6 +38,8 @@ export const products: Product[] = [
       "Black jewelry box packaging; confirm exterior, interior, insert and branding in the quotation and sample.",
     description:
       "Plan a black jewelry box around the jewelry type, item dimensions and required presentation. Tell us whether you want a leather-look exterior, a particular lining or a fitted insert; these are specification choices, not confirmed materials for the pictured reference. Review the proposed structure and logo placement in a free digital dieline preview, then confirm the material, finish and fit in the quotation and approved sample. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate.",
+    intro:
+      "Plan a black jewelry box around your jewelry type, item dimensions and required presentation. Exterior, lining and fitted insert are specification choices: review the proposed structure and logo placement in a free digital dieline preview, then confirm the material, finish and fit in the quotation and approved sample. Orders start at 200 pieces.",
     image: "/images/carousel/black-leather-box.png",
     materials: "Exterior, lining and core to confirm in quotation and sample",
     moq: "200 pcs",
@@ -65,6 +74,28 @@ export const products: Product[] = [
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+    ],
+    faqs: [
+      {
+        q: "How are the exterior, lining and insert specified for a black jewelry box?",
+        a: "Share the jewelry type, item dimensions and required presentation. Exterior options include rigid board with paper wrap, leather-look wrap, textured paper or kraft; inserts can be EVA foam, velvet, satin or molded pulp, fitted to your product dimensions. The final construction is confirmed in the quotation and approved sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Request black exterior and interior options",
@@ -582,6 +613,8 @@ export const products: Product[] = [
       "Soft velvet pouches in drawstring, flap, envelope and zipper styles — your colour, size and logo.",
     description:
       "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure — drawstring, flap, envelope or zipper — your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Custom sizing is reviewed against the product and construction, from small gift pouches to larger presentation bags. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Velvet colour is reviewed against the approved sample before bulk. A custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles pile direction, shade and logo hand before the production order — the cheapest way to see the exact fabric your program will carry.",
+    intro:
+      "Custom velvet pouches with a plush, gift-ready feel at first touch — the dense velvet pile cushions jewelry, eyewear and small luxury goods through retail, gifting and unboxing moments. Choose drawstring, flap, envelope or zipper closure, a Pantone-matched velvet colour, and silkscreen, hot-stamp or woven-label branding. Orders start at 200 pieces; custom sizing is reviewed against your product and construction.",
     image: "/images/carousel/velvet-pouch.png",
     materials: "Velvet, cotton cord drawstring",
     moq: "200 pcs",
@@ -614,6 +647,28 @@ export const products: Product[] = [
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+    ],
+    faqs: [
+      {
+        q: "Which fabric, closure and logo options can I choose for velvet pouches?",
+        a: "Velvet fabric with drawstring, flap, envelope or zipper closure. Logo options are silkscreen, hot stamp or a woven label, with Pantone matching on request. Confirm the final fabric, pile direction and shade in the quotation and approved sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Pantone velvet color matching",
@@ -940,7 +995,7 @@ export const products: Product[] = [
     specs: [
       { label: "Dimensions", value: "30 × 40 cm standard · custom sizes on request" },
       { label: "Fabric", value: "Satin · other fabrics on request" },
-      { label: "Fabric weight", value: "To be confirmed" },
+      { label: "Fabric weight", value: "Confirm for selected fabric" },
       { label: "Closure Type", value: "Drawstring" },
     ],
     customizationOptions: [
@@ -983,7 +1038,7 @@ export const products: Product[] = [
     specs: [
       { label: "Dimensions", value: "Made to your size" },
       { label: "Fabric", value: "Satin, Pantone-matched" },
-      { label: "Fabric weight", value: "To be confirmed" },
+      { label: "Fabric weight", value: "Confirm for selected fabric" },
       { label: "Closure Type", value: "Drawstring / flap / envelope" },
     ],
     customizationOptions: [
@@ -1119,9 +1174,9 @@ export const products: Product[] = [
     specs: [
       { label: "Dimensions", value: "Made to your size" },
       { label: "Material", value: "Confirm clear film composition in quote and sample" },
-      { label: "Closure type", value: "To be confirmed (quoted to your spec)" },
-      { label: "Thickness / gauge", value: "To be confirmed" },
-      { label: "Print method", value: "To be confirmed" },
+      { label: "Closure type", value: "Confirm closure type for your specification in the quotation and approved sample" },
+      { label: "Thickness / gauge", value: "Confirm film thickness / gauge in the quotation and approved sample" },
+      { label: "Print method", value: "Confirm print method for the selected film in the quotation and approved sample" },
       { label: "MOQ", value: "200 pcs" },
     ],
     customizationOptions: [

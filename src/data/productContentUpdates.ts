@@ -342,19 +342,33 @@ export const productContentUpdates: Record<string, any> = {
       ]
     ],
     "options": "Share pouch dimensions, opening or closure requirements, logo artwork and an appearance reference. Confirm the available fabric and branding method in the quotation and approved sample.",
-    "policies": [
+    "specs": [
       [
-        "Fabric options",
-        "Microfiber pouch fabric — confirm the quoted specification and review a sample; cleaning performance is a separate requirement from packaging."
+        "Material",
+        "Microfiber: 100% polyester or 80% polyester / 20% polyamide"
+      ],
+      [
+        "Weight",
+        "Conventional 180–230g; other weights available on request"
+      ],
+      [
+        "Print / Process options",
+        "Silkscreen, embossing, digital printing, hot stamping, etc. — confirm in quotation"
       ],
       [
         "Closure options",
-        "Drawstring, flap, envelope or zipper — confirm in quotation."
+        "Drawstring, flap, envelope or zipper — confirm in quotation"
       ],
       [
-        "Logo options",
-        "Silkscreen, hot stamp or woven label; Pantone matching on request."
+        "Size",
+        "Made to your product dimensions — confirm finished size in the quotation"
       ],
+      [
+        "Set option",
+        "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component"
+      ]
+    ],
+    "policies": [
       [
         "Minimum order",
         "200 pieces."
