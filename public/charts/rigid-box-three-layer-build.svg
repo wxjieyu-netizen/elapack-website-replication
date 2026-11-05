@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" font-family="Arial, Helvetica, sans-serif">
+  <rect width="2400" height="1350" fill="#faf8f4"/>
+  <rect x="0" y="0" width="2400" height="270" fill="#28251f"/>
+  <text x="140" y="118" font-size="62" font-weight="bold" fill="#faf8f4">The rigid box build: three layers</text>
+  <text x="140" y="196" font-size="38" fill="#c9c2b2">An illustrative wrapped-board construction — confirm the actual build for your product</text>
+
+  <g font-size="40">
+    <circle cx="205" cy="430" r="42" fill="#28251f"/><text x="205" y="445" text-anchor="middle" font-weight="bold" fill="#faf8f4">1</text>
+    <text x="290" y="418" font-weight="bold" fill="#28251f">Structural core</text>
+    <text x="290" y="476" font-size="35" fill="#6b675c">Greyboard — pick the grade and thickness for the product's weight</text>
+    <line x1="140" y1="546" x2="2260" y2="546" stroke="#ddd6c9" stroke-width="2"/>
+
+    <circle cx="205" cy="686" r="42" fill="#28251f"/><text x="205" y="701" text-anchor="middle" font-weight="bold" fill="#faf8f4">2</text>
+    <text x="290" y="674" font-weight="bold" fill="#28251f">External wrap</text>
+    <text x="290" y="732" font-size="35" fill="#6b675c">Art paper, specialty paper or textile — the finish set (lamination, foil, emboss) sits on it</text>
+    <line x1="140" y1="802" x2="2260" y2="802" stroke="#ddd6c9" stroke-width="2"/>
+
+    <circle cx="205" cy="942" r="42" fill="#28251f"/><text x="205" y="957" text-anchor="middle" font-weight="bold" fill="#faf8f4">3</text>
+    <text x="290" y="930" font-weight="bold" fill="#28251f">Internal lining</text>
+    <text x="290" y="988" font-size="35" fill="#6b675c">Specified together with the insert and the product fit</text>
+  </g>
+
+  <text x="140" y="1312" font-size="30" fill="#6b675c">Confirm material, thickness, wrap and lining on the quotation and the assembled sample  ·  elapack.com</text>
+</svg>
