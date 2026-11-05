@@ -1012,6 +1012,8 @@ export const products: Product[] = [
     category: "Retail Display Props",
     shortDesc: "Necklace display stands for wholesale retail projects. Discuss height, presentation and branding for your assortment.",
     description: "Planning wholesale necklace displays? Share the chain lengths, pendant dimensions, available counter space, preferred presentation and quantity. Confirm the proposed height, base footprint, covering and logo options in your quotation, then review the sample with your jewellery.",
+    intro:
+      "Wholesale necklace display stands planned around your jewellery. Share the chain lengths, pendant dimensions, available counter space, preferred presentation and quantity; the proposed height, base footprint, covering and logo options are confirmed in the quotation and reviewed on a sample with your jewellery.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Materials to confirm in the quotation and sample",
     moq: "200 pcs",
@@ -1028,6 +1030,28 @@ export const products: Product[] = [
       { label: "Display Space", value: "Confirm for the proposed order" },
       { label: "Covering and Base", value: "Confirm for the proposed order" },
       { label: "Logo Placement", value: "Confirm for the proposed order" }
+    ],
+    faqs: [
+      {
+        q: "What should I confirm before approving a necklace display stand?",
+        a: "Confirm the usable presentation area and fit with chain lengths and pendant dimensions. Agree covering, base stability and any logo with representative jewellery in place.",
+      },
+      {
+        q: "How are materials and dimensions confirmed?",
+        a: "Share the display task, space and preferences. Confirm construction, dimensions and contact surface in the quotation and sample.",
+      },
+      {
+        q: "Can I review the proposed design?",
+        a: "Ask which design preview is available for your project and confirm its scope. Review the physical sample before approving production.",
+      },
+      {
+        q: "Can I request a sample?",
+        a: "Stock samples are free when available, with USD 25 shipping and typical delivery of 4–7 days. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm availability and sample scope for your project.",
+      },
+      {
+        q: "What is the production lead time?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Confirm the order schedule; shipping time is separate.",
+      },
     ],
     customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"],
   },
@@ -1154,6 +1178,8 @@ export const products: Product[] = [
     category: "Retail Display Props",
     shortDesc: "Jewelry display trays for wholesale projects. Confirm the compartment layout, fixture fit and stacking interface.",
     description: "For wholesale jewellery display trays, measure the inside of the showcase or drawer and list the jewellery dimensions and desired layout. Confirm external tray size, usable compartments, covering and any stacking interface on the proposed sample.",
+    intro:
+      "Wholesale jewellery display trays specified for your showcase or drawer. Measure the inside of the case and list the jewellery dimensions and desired layout; external tray size, usable compartments, covering and any stacking interface are confirmed on the proposed sample.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Materials to confirm in the quotation and sample",
     moq: "200 pcs",
@@ -1171,6 +1197,28 @@ export const products: Product[] = [
       { label: "Contact Surface", value: "Confirm for the proposed order" },
       { label: "Stacking Interface", value: "Confirm for the proposed order" }
     ],
+    faqs: [
+      {
+        q: "What information determines a usable tray layout?",
+        a: "Measure the display area and list the pieces to be held. Tray dimensions, compartment layout, stacking and covering need confirmation against the intended furniture and jewellery.",
+      },
+      {
+        q: "How are materials and dimensions confirmed?",
+        a: "Share the display task, space and preferences. Confirm construction, dimensions and contact surface in the quotation and sample.",
+      },
+      {
+        q: "Can I review the proposed design?",
+        a: "Ask which design preview is available for your project and confirm its scope. Review the physical sample before approving production.",
+      },
+      {
+        q: "Can I request a sample?",
+        a: "Stock samples are free when available, with USD 25 shipping and typical delivery of 4–7 days. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm availability and sample scope for your project.",
+      },
+      {
+        q: "What is the production lead time?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Confirm the order schedule; shipping time is separate.",
+      },
+    ],
     customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"],
   },
   {
@@ -1179,6 +1227,8 @@ export const products: Product[] = [
     category: "Retail Display Props",
     shortDesc: "Coordinated jewelry display components for retail counters. Specify the piece mix and quantity for each component.",
     description: "For a coordinated jewellery display programme, list each component, its quantity and the available counter space. Confirm the proposed piece mix, covering and colours in the quotation. ELAPACK’s minimum is 200 pieces for each component; confirm allocation across variants when requesting a quote.",
+    intro:
+      "A coordinated jewellery display programme specified as one set. List each component, its quantity and the available counter space; the proposed piece mix, covering and colours are confirmed in the quotation. Minimum order is 200 pieces for each component.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Materials to confirm in the quotation and sample",
     moq: "200 pcs per component",
@@ -1195,6 +1245,28 @@ export const products: Product[] = [
       { label: "Counter Arrangement", value: "Confirm for the proposed order" },
       { label: "Covering and Colour", value: "Confirm for the proposed order" },
       { label: "Artwork and Samples", value: "Confirm for the proposed order" }
+    ],
+    faqs: [
+      {
+        q: "How should I brief a coordinated display set?",
+        a: "List each component and quantity, counter dimensions, covering and colour preferences. Agree the component mix and confirm a representative component before production.",
+      },
+      {
+        q: "How are materials and dimensions confirmed?",
+        a: "Share the display task, space and preferences. Confirm construction, dimensions and contact surface in the quotation and sample.",
+      },
+      {
+        q: "Can I review the proposed design?",
+        a: "Ask which design preview is available for your project and confirm its scope. Review the physical sample before approving production.",
+      },
+      {
+        q: "Can I request a sample?",
+        a: "Stock samples are free when available, with USD 25 shipping and typical delivery of 4–7 days. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm availability and sample scope for your project.",
+      },
+      {
+        q: "What is the production lead time?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Confirm the order schedule; shipping time is separate.",
+      },
     ],
     customizationOptions: ["Confirm the proposed design, finish and branding in the quotation"],
   },
@@ -1592,6 +1664,8 @@ export const products: Product[] = [
       "Microfiber polishing cloth for jewelry, from 200 pieces; confirm size, edge, print and polishing scope in a sample.",
     description:
       "A microfiber cloth to add to a jewelry box + pouch set, so the customer can keep the piece looking like new on every opening. Material: microfiber — in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180–230g; other weights can be made to request. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. This jewelry version carries a polishing effect and is used to polish oxidized metal jewellery; the eyewear version is plain microfiber with no polishing additive. Confirm the polishing scope you need in the quotation and approved sample. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
+    intro:
+      "A microfiber polishing cloth to add to a jewelry box + pouch set, so the piece looks like new at every opening. Microfiber in 100% polyester or 80% polyester / 20% polyamide, conventional weight 180–230g, with silkscreen, embossing, digital printing or hot stamping confirmed in the quotation.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Microfiber: 100% polyester or 80% polyester / 20% polyamide; conventional weight 180–230g, other weights on request",
     moq: "200 pcs",
@@ -1624,6 +1698,28 @@ export const products: Product[] = [
       { label: "MOQ", value: "200 pcs" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
+    faqs: [
+      {
+        q: "Is this cloth meant for direct sale or as a packaging insert?",
+        a: "Either. State the intended use, size, printing and packaging format when requesting a quote. Confirm the intended use because size, packaging format and print placement can differ.",
+      },
+      {
+        q: "Can the cloth be printed or branded?",
+        a: "Yes. Common print and branding methods include silkscreen, embossing, digital printing and hot stamping. Confirm the artwork, cloth size and finish on an approved sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+    ],
     customizationOptions: [
       "Choose 100% polyester or 80% polyester / 20% polyamide",
       "Provide size, edge finish and logo artwork",
@@ -1638,6 +1734,8 @@ export const products: Product[] = [
       "Microfiber cleaning cloth for eyewear, screens and lenses, from 200 pieces; confirm size, edge, print and coated-surface scope in a sample.",
     description:
       "A microfiber cleaning cloth to add to an eyewear pouch + box set, for glasses, screens and lenses. This eyewear version is the plain microfiber cloth — fabric only, no polishing additive; for polishing oxidized metal jewellery, use the jewelry version. Material: microfiber — in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180–230g; other weights can be made to request. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. If the cloth will be used on a coated lens or screen surface, discuss the required evidence or testing separately — packaging suitability and cleaning performance are separate requirements. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
+    intro:
+      "A plain microfiber cleaning cloth to add to an eyewear pouch + box set, for glasses, screens and lenses — fabric only, no polishing additive; for polishing oxidized metal jewellery, use the jewelry version. Microfiber in 100% polyester or 80% polyester / 20% polyamide, conventional weight 180–230g, with branding confirmed in the quotation.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Microfiber: 100% polyester or 80% polyester / 20% polyamide; conventional weight 180–230g, other weights on request",
     moq: "200 pcs",
@@ -1669,6 +1767,28 @@ export const products: Product[] = [
       { label: "Set option", value: "Add to an eyewear pouch + box set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+    ],
+    faqs: [
+      {
+        q: "How is an eyewear cloth specification confirmed?",
+        a: "Send the intended glasses, case or pouch dimensions and state whether the cloth is an insert or a retail item. Confirm the finished cloth size, material, edge finish and print method in the quotation and an approved sample.",
+      },
+      {
+        q: "Can the cloth be supplied as part of a case or pouch set?",
+        a: "Yes. It can be supplied as a packaging component and packaged flat or folded into the proposed eyewear pouch or box. Confirm the packing method and component quantities in the quotation.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
     ],
     customizationOptions: [
       "Choose 100% polyester or 80% polyester / 20% polyamide",

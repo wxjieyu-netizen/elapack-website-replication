@@ -177,10 +177,10 @@ export default function ProductDetail() {
             <div className="product-specs-intro reveal">
               <p className="eyebrow">Technical Details</p>
               <h2 className="section-title" style={{ marginTop: "1rem" }}>
-                {review?.specs ? "Specifications" : review ? "Order Information" : "Specifications"}
+                {review?.specs ? "Specifications" : review ? "Order Information" : product.category === "Retail Display Props" ? "Confirm Before Ordering" : "Specifications"}
               </h2>
               <p className="product-specs-text">
-                {review?.specs ? "Product specifications are listed first, followed by the confirmed ordering conditions. Confirm the final specification in the quotation and approved sample." : review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : "Choose from the options below; the final specification is confirmed in the quotation and approved sample. Unboxing experience, product value and protection come first — anti-tarnish lining is an option for silver / plated items only."}
+                {review?.specs ? "Product specifications are listed first, followed by the confirmed ordering conditions. Confirm the final specification in the quotation and approved sample." : review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : product.category === "Retail Display Props" ? "Display props are specified for each project, so there are no standard specifications to list. Use this checklist to confirm each item in the quotation and on the proposed sample before production." : "Choose from the options below; the final specification is confirmed in the quotation and approved sample. Unboxing experience, product value and protection come first — anti-tarnish lining is an option for silver / plated items only."}
               </p>
               <Link to={quoteUrl} className="btn-primary">
                 Discuss Your Project
