@@ -73,7 +73,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     faqs: [
       {
@@ -144,7 +144,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Custom logo printing",
@@ -159,7 +159,7 @@ export const products: Product[] = [
     shortDesc:
       "Custom ring boxes for jewelry brands, from 200 pieces. Plan the ring fit, insert, exterior and logo together before approving a sample.",
     description:
-      "Custom ring boxes for jewelry brands ordering from 200 pieces. For a comparable quote, send the ring's band width, setting height, the number of rings per box, preferred appearance, logo artwork, quantity and delivery destination. Review the proposed box and insert dimensions, slot layout, closure and finish together; check retention and removal with your actual ring in an approved sample. A free visual preview of the proposed box structure is available. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate. Confirm how sizes, colours and artwork are allocated in the quotation.",
+      "Custom ring boxes for jewelry brands ordering from 200 pieces. For a comparable quote, send the ring's band width, setting height, the number of rings per box, preferred appearance, logo artwork, quantity and delivery destination. Review the proposed box and insert dimensions, slot layout, closure and finish together; check retention and removal with your actual ring in an approved sample. A free visual preview of the proposed box structure is available. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate. Confirm how sizes, colours and artwork are allocated in the quotation.",
     image: "/images/carousel/ring-box-black.png",
     materials: "Confirm the proposed exterior and insert materials in the quotation and sample",
     moq: "200 pcs",
@@ -194,7 +194,7 @@ export const products: Product[] = [
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "Ring brief", value: "Band width, setting height and number of rings per box" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     faqs: [
       {
@@ -211,7 +211,7 @@ export const products: Product[] = [
       },
       {
         q: "Are samples and visual previews available?",
-        a: "A visual preview of the proposed box structure is free. Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make; delivery time is separate.",
+        a: "A visual preview of the proposed box structure is free. Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make; delivery time is separate.",
       },
       {
         q: "When does production begin?",
@@ -232,7 +232,7 @@ export const products: Product[] = [
     shortDesc:
       "Rigid luxury gift box with satin ribbon tie closure — premium presentation for corporate gifting. MOQ 200 pcs, typical production 15–20 days.",
     description:
-      "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held against an approved sample before bulk. Interior options secure the product for gifting and courier conditions alike. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 25 plus USD 20 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
+      "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held against an approved sample before bulk. Interior options secure the product for gifting and courier conditions alike. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 30 plus USD 25 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
     moq: "200 pcs",
@@ -266,7 +266,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Pantone color matching",
@@ -282,7 +282,7 @@ export const products: Product[] = [
     shortDesc:
       "Sleek flip-top gift box with hidden magnetic closure and custom interior inserts.",
     description:
-      "A sleek flip-top gift box with a hidden magnetic closure, built for jewelry, eyewear, cosmetics and small luxury programs. The concealed magnet pair keeps the lid shut in transit yet opens one-handed in a retail setting, and because the mechanism sits inside the wrap, the exterior stays clean for full-surface print or foil branding. Construction is 1200-1500gsm greyboard wrapped in your choice of art paper, with interior inserts cut to the product's exact footprint so contents ride immobile - EVA, velvet or molded pulp by product weight and fragility. Specify Pantone references for wrap and print; color is held against an approved sample before bulk. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Approve a custom sample first (USD 25 plus USD 20 shipping, 3-5 days) to check closure feel and color before committing to bulk.",
+      "A sleek flip-top gift box with a hidden magnetic closure, built for jewelry, eyewear, cosmetics and small luxury programs. The concealed magnet pair keeps the lid shut in transit yet opens one-handed in a retail setting, and because the mechanism sits inside the wrap, the exterior stays clean for full-surface print or foil branding. Construction is 1200-1500gsm greyboard wrapped in your choice of art paper, with interior inserts cut to the product's exact footprint so contents ride immobile - EVA, velvet or molded pulp by product weight and fragility. Specify Pantone references for wrap and print; color is held against an approved sample before bulk. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Approve a custom sample first (USD 30 plus USD 25 shipping, 3-5 days) to check closure feel and color before committing to bulk.",
     image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
     materials: "Rigid cardboard, magnetic closure",
     moq: "200 pcs",
@@ -316,7 +316,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Custom inserts and compartments",
@@ -377,7 +377,7 @@ export const products: Product[] = [
       { label: "Dimensions (L × W × H)", value: "14×10×6 / 15×15×5 / 20×18×8 cm, or custom" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Custom sizes beyond the three standard formats",
@@ -440,7 +440,7 @@ export const products: Product[] = [
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     faqs: [
       {
@@ -658,7 +658,7 @@ export const products: Product[] = [
     shortDesc:
       "Soft velvet pouches in drawstring, flap, envelope and zipper styles — your colour, size and logo.",
     description:
-      "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure — drawstring, flap, envelope or zipper — your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Custom sizing is reviewed against the product and construction, from small gift pouches to larger presentation bags. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Velvet colour is reviewed against the approved sample before bulk. A custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles pile direction, shade and logo hand before the production order — the cheapest way to see the exact fabric your program will carry.",
+      "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure — drawstring, flap, envelope or zipper — your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Custom sizing is reviewed against the product and construction, from small gift pouches to larger presentation bags. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Velvet colour is reviewed against the approved sample before bulk. A custom sample (USD 30 plus USD 25 shipping, 3–5 days) settles pile direction, shade and logo hand before the production order — the cheapest way to see the exact fabric your program will carry.",
     intro:
       "Custom velvet pouches with a plush, gift-ready feel at first touch — the dense velvet pile cushions jewelry, eyewear and small luxury goods through retail, gifting and unboxing moments. Choose drawstring, flap, envelope or zipper closure, a Pantone-matched velvet colour, and silkscreen, hot-stamp or woven-label branding. Orders start at 200 pieces; custom sizing is reviewed against your product and construction.",
     image: "/images/carousel/velvet-pouch.png",
@@ -692,7 +692,7 @@ export const products: Product[] = [
       { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection; anti-tarnish treatment is an option for silver / plated items only, confirmed by sample" },
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     faqs: [
       {
@@ -764,7 +764,7 @@ export const products: Product[] = [
       { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection; anti-tarnish treatment is an option for silver / plated items only, confirmed by sample" },
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     faqs: [
       {
@@ -927,7 +927,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I request a sample?",
-        a: "Stock samples are free when available, with USD 25 shipping and typical delivery of 4–7 days. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm availability and sample scope for your project.",
+        a: "Stock samples are free when available, with USD 25 shipping and typical delivery of 4–7 days. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm availability and sample scope for your project.",
       },
       {
         q: "What is the production lead time?",
@@ -943,7 +943,7 @@ export const products: Product[] = [
     shortDesc:
       "Kraft shopping bag with twisted handles — custom logo printing.",
     description:
-      "A kraft paper shopping bag for retail carry-out, gift wrapping or events. Share the products to be carried, target loaded weight, desired width, height and gusset depth, handle preference, artwork and quantity for a project-specific quote. Confirm the proposed paper, handle attachment, print method and finish against the quotation and sample; test the assembled bag with the intended load before approving bulk production. Ask us to confirm the selected construction before assessing disposal options. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Colour is reviewed against the approved sample before bulk. Request a free digital dieline preview to review the proposed dimensions, then approve a custom sample (USD 25 plus USD 20 shipping, 3-5 days) to check handle comfort and print appearance in hand before the bulk run.",
+      "A kraft paper shopping bag for retail carry-out, gift wrapping or events. Share the products to be carried, target loaded weight, desired width, height and gusset depth, handle preference, artwork and quantity for a project-specific quote. Confirm the proposed paper, handle attachment, print method and finish against the quotation and sample; test the assembled bag with the intended load before approving bulk production. Ask us to confirm the selected construction before assessing disposal options. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Colour is reviewed against the approved sample before bulk. Request a free digital dieline preview to review the proposed dimensions, then approve a custom sample (USD 30 plus USD 25 shipping, 3-5 days) to check handle comfort and print appearance in hand before the bulk run.",
     image: "/images/carousel/kraft-bag.png",
     materials: "Kraft paper, twisted paper handles",
     moq: "200 pcs",
@@ -974,7 +974,7 @@ export const products: Product[] = [
       { label: "Logo method", value: "Print, foil stamping or embossing; Pantone matching on request" },
       { label: "Set option", value: "Add a matching box, pouch or ribbon to make a retail set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     faqs: [
       {
@@ -1061,7 +1061,7 @@ export const products: Product[] = [
     shortDesc:
       "Pebbled faux-leather envelope pouch with gold foil logo, snap closure and soft suede-touch interior.",
     description:
-      "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries — jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand. Sizes are cut to your contents, from single-card minis to eyewear-length formats, and foil colour, thread and interior shade are specified together so the pouch reads as one palette — held against an approved sample before bulk. Production runs from 200 pieces in 15–20 days, and a custom sample (USD 25 plus USD 20 shipping, 3–5 days) settles flap hand, foil density and interior fit with your actual product before the run.",
+      "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries — jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand. Sizes are cut to your contents, from single-card minis to eyewear-length formats, and foil colour, thread and interior shade are specified together so the pouch reads as one palette — held against an approved sample before bulk. Production runs from 200 pieces in 15–20 days, and a custom sample (USD 30 plus USD 25 shipping, 3–5 days) settles flap hand, foil density and interior fit with your actual product before the run.",
     intro:
       "An envelope pouch in pebbled faux leather with a structured snap-closure flap and a suede-touch interior that cushions jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries your logo quietly; custom colours available, from 200 pieces.",
     image: "/images/carousel/image.png",
@@ -1363,7 +1363,7 @@ export const products: Product[] = [
       { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection; anti-tarnish treatment is an option for silver / plated items only, confirmed by sample" },
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Custom sizes for eyewear, jewelry or devices",
@@ -1478,7 +1478,7 @@ export const products: Product[] = [
       { label: "Scope", value: "Jewelry, eyewear, electronic screens and lenses" },
       { label: "Set option", value: "Add to a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Choose 100% polyester or 80% polyester / 20% polyamide",
@@ -1524,7 +1524,7 @@ export const products: Product[] = [
       { label: "Scope", value: "Eyewear, electronic screens and lenses, plus jewelry" },
       { label: "Set option", value: "Add to an eyewear pouch + box set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 25 + USD 20 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     customizationOptions: [
       "Choose 100% polyester or 80% polyester / 20% polyamide",
