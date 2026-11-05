@@ -65,7 +65,7 @@ export default function ProductDetail() {
 
   const originalCopy = categoryCopy[product.category] ?? neutralCopy;
   const copy: CategoryCopy = review ? {...originalCopy, importanceTitle: "Review Before Production", importanceIntro: "Confirm the proposed specification against a sample before approving production.", benefits: review.checks.slice(0,3).map((b: string[])=>({title:b[0],desc:b[1]})), customizeTitle:"Prepare Your Customization Brief", customizeParas:[review.options], customizeCta:"Request a Packaging Quote"} : needsSpecReview ? {...originalCopy, noun: isSampleCard ? "sample card" : originalCopy.noun, customizeTitle: "Prepare Your Product Brief", customizeParas: ["Share the item dimensions, quantity, preferred structure or opening, and artwork. Confirm materials, finish and fit in the quotation and approved sample."], customizeCta: "Request a Packaging Quote"} : originalCopy;
-  const faqs: {q:string;a:string}[] = review ? review.faqs.map((b: string[])=>({q:b[0],a:b[1]})) : faqsFor(product);
+  const faqs: {q:string;a:string}[] = review ? review.faqs.map((b: string[])=>({q:b[0],a:b[1]})) : (product.faqs ?? faqsFor(product));
   const guides: NonNullable<ReturnType<typeof getArticleBySlug>>[] = (review ? review.guide_cards.map((g: any)=>g.url.split("/").filter(Boolean).pop()) : (productGuides[product.slug] ?? []))
     .map((s: string) => getArticleBySlug(s))
     .filter((a: ReturnType<typeof getArticleBySlug>): a is NonNullable<typeof a> => a !== undefined);
@@ -114,7 +114,7 @@ export default function ProductDetail() {
 
             <div className="product-detail-info reveal reveal-delay-2">
               <h1 className="product-detail-title">{product.name}</h1>
-              <p className="product-detail-desc">{review ? review.intro : product.description}</p>
+              <p className="product-detail-desc">{review ? review.intro : (product.intro ?? product.description)}</p>
 
               <div className="product-detail-quote">
                 <h3 className="product-quote-title">Get A Custom Quote:</h3>
@@ -177,22 +177,43 @@ export default function ProductDetail() {
             <div className="product-specs-intro reveal">
               <p className="eyebrow">Technical Details</p>
               <h2 className="section-title" style={{ marginTop: "1rem" }}>
-                {review ? "Order Information" : "Specifications"}
+                {review?.specs ? "Specifications" : review ? "Order Information" : "Specifications"}
               </h2>
               <p className="product-specs-text">
-                {review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : "Choose from the options below; the final specification is confirmed in the quotation and approved sample. Unboxing experience, product value and protection come first — anti-tarnish lining is an option for silver / plated items only."}
+                {review?.specs ? "Product specifications are listed first, followed by the confirmed ordering conditions. Confirm the final specification in the quotation and approved sample." : review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : "Choose from the options below; the final specification is confirmed in the quotation and approved sample. Unboxing experience, product value and protection come first — anti-tarnish lining is an option for silver / plated items only."}
               </p>
               <Link to={quoteUrl} className="btn-primary">
                 Discuss Your Project
               </Link>
             </div>
             <div className="product-specs-table reveal reveal-delay-2">
-              {product.specs.map((spec) => (
-                <div key={spec.label} className="spec-row">
-                  <span className="spec-label">{spec.label}</span>
-                  <span className="spec-value">{spec.value}</span>
-                </div>
-              ))}
+              {review?.specs ? (
+                <>
+                  <h3 className="product-specs-subhead">Product Specifications</h3>
+                  {review.specs.map((spec: string[]) => (
+                    <div key={spec[0]} className="spec-row">
+                      <span className="spec-label">{spec[0]}</span>
+                      <span className="spec-value">{spec[1]}</span>
+                    </div>
+                  ))}
+                  <h3 className="product-specs-subhead" style={{ marginTop: "2rem" }}>
+                    Order Information
+                  </h3>
+                  {product.specs.map((spec) => (
+                    <div key={spec.label} className="spec-row">
+                      <span className="spec-label">{spec.label}</span>
+                      <span className="spec-value">{spec.value}</span>
+                    </div>
+                  ))}
+                </>
+              ) : (
+                product.specs.map((spec) => (
+                  <div key={spec.label} className="spec-row">
+                    <span className="spec-label">{spec.label}</span>
+                    <span className="spec-value">{spec.value}</span>
+                  </div>
+                ))
+              )}
             </div>
           </div>
         </div>
