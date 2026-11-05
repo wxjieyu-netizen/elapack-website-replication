@@ -111,6 +111,8 @@ export const products: Product[] = [
       "White jewelry box packaging; confirm shell, insert, closure and logo method against your approved sample.",
     description:
       "For a white jewelry box, share the jewelry dimensions, item count, preferred opening and artwork. The pictured box is a style reference; its shell material, insert and closure are not a specification for your order. Confirm the proposed construction, finish and fit in the quotation and approved sample before bulk. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate.",
+    intro:
+      "Custom white jewelry boxes built to your specification — the pictured box is a style reference, not a standard configuration. Share the jewelry dimensions, item count, preferred opening and artwork; the proposed construction, finish and fit are confirmed in the quotation and approved sample before bulk production.",
     image: "/images/carousel/pandora-box.png",
     materials: "Shell, lining and insert to confirm in quotation and sample",
     moq: "200 pcs",
@@ -145,6 +147,28 @@ export const products: Product[] = [
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+    ],
+    faqs: [
+      {
+        q: "What should I send for a white jewelry box quote?",
+        a: "Share the jewelry dimensions, item count, preferred opening — lift-off lid, magnetic flip-top, ribbon tie or drawer — and artwork. Choose the exterior (paper wrap, leather-look wrap, textured paper or kraft), insert and finish from the quotation; board thickness and construction are confirmed in the quotation and approved sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Custom logo printing",
@@ -233,6 +257,8 @@ export const products: Product[] = [
       "Rigid luxury gift box with satin ribbon tie closure — premium presentation for corporate gifting. MOQ 200 pcs, typical production 15–20 days.",
     description:
       "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held against an approved sample before bulk. Interior options secure the product for gifting and courier conditions alike. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 30 plus USD 25 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
+    intro:
+      "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard wrapped in premium matte art paper gives the box its substantial feel, and the double-face satin ribbon makes the opening itself part of the ceremony.",
     image: "/images/carousel/luxury-gift-box.png",
     materials: "Rigid cardboard, satin ribbon",
     moq: "200 pcs",
@@ -267,6 +293,28 @@ export const products: Product[] = [
       { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+    ],
+    faqs: [
+      {
+        q: "What should I send for a ribbon-tie gift box quote?",
+        a: "Send the product dimensions and item count, box size, ribbon colour, finish — foil stamping, embossing or spot UV — artwork and quantity. Board construction, wrap, insert and closure are confirmed in the quotation and approved sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Pantone color matching",
@@ -479,6 +527,8 @@ export const products: Product[] = [
       "Printed perfume sampling cards; share vial or sachet dimensions, attachment method and artwork for a quote.",
     description:
       "This page covers printed perfume sample cards, not rigid perfume gift boxes. Send the vial or sachet dimensions, number of samples per card, proposed attachment method and artwork. Card stock, print method, attachment and finished size need confirmation in the quotation and approved sample. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate. Product photography is pending.",
+    intro:
+      "Printed perfume sample cards — not rigid perfume gift boxes. Send the vial or sachet dimensions, the number of samples per card, your proposed attachment method and artwork; card stock, print method, attachment and finished size are confirmed in the quotation and approved sample. Orders start at 200 pieces.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Card stock and sample attachment to confirm in quotation and sample",
     moq: "200 pcs",
@@ -508,7 +558,29 @@ export const products: Product[] = [
       { label: "Card size", value: "Made to your spec" },
       { label: "Print", value: "Confirm artwork, stock and print method" },
       { label: "MOQ", value: "200 pcs" },
-      { label: "Production", value: "Typically 15–20 days after sample approval and payment receipt; shipping separate" },
+      { label: "Production", value: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt; shipping separate" },
+    ],
+    faqs: [
+      {
+        q: "What should I send for a perfume sample card quote?",
+        a: "Send the vial or sachet dimensions, the number of samples per card (single to multi-scent layouts), your proposed attachment method and artwork. Card stock, print method, attachment and finished size are confirmed in the quotation and approved sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Card sizes and sample-count layouts",
@@ -525,6 +597,8 @@ export const products: Product[] = [
       "Custom press-on nail packaging boxes — sized to your nail sets and trays, with your logo from the first run.",
     description:
       "Custom press-on nail packaging for nail brands selling direct and at retail. Press-on sets live or die on presentation — the box holds the nail trays or tips securely, shows the shade and size system, and carries your brand at first sight. Boxes are made to your set format: single-set sleeves, multi-size kits or wholesale display packs, with fitted inserts that keep every tray in place. Your logo is printed, foil-stamped or embossed on the wrap. MOQ from 200 pieces — send your tray dimensions and set count for a quote. Product photography is in progress; request a stock sample to judge the board quality.",
+    intro:
+      "Custom press-on nail boxes for nail brands selling direct and at retail. The box holds nail trays or tips securely, shows the shade and size system, and carries your brand at first sight — single-set sleeves and multi-size kits made to your set format.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard with custom printed wrap, fitted tray inserts",
     moq: "200 pcs",
@@ -554,6 +628,28 @@ export const products: Product[] = [
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
       { label: "MOQ", value: "200 pcs" },
     ],
+    faqs: [
+      {
+        q: "What should I send for a press-on nail box quote?",
+        a: "Send your nail set format and tray dimensions, the number of sets per box, preferred format — single-set sleeve or multi-size kit — insert layout needs, finish and artwork. Dimensions and the fitted tray insert are confirmed in the quotation and sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
+    ],
     customizationOptions: [
       "Custom sizes for any set or kit format",
       "Full-colour print, foil or embossed logo",
@@ -569,6 +665,8 @@ export const products: Product[] = [
       "Custom hair extension packaging boxes — sleeve, drawer and magnetic formats that present bundles and wefts at retail.",
     description:
       "Custom hair extension boxes for extension brands and salons. The box does two jobs: it keeps bundles and wefts orderly and protected, and it presents the length-shade system the way a premium hair program deserves. Sleeve boxes for single bundles, drawer boxes for multi-bundle sets and magnetic flip-tops for flagship programs — each made to your bundle dimensions, with inserts that hold hair in place without crushing it. Your logo prints, foils or embosses on the wrap. MOQ from 200 pieces — send your bundle dimensions for a quote. Product photography is in progress.",
+    intro:
+      "Custom hair extension boxes for extension brands and salons. Sleeve boxes for single bundles, drawer boxes for multi-bundle sets and magnetic flip-tops for flagship programs — the box keeps bundles and wefts orderly and protected, and presents your length and shade system the way a premium hair program deserves.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard with custom printed wrap, fitted bundle inserts",
     moq: "200 pcs",
@@ -599,6 +697,28 @@ export const products: Product[] = [
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
       { label: "MOQ", value: "200 pcs" },
     ],
+    faqs: [
+      {
+        q: "What should I send for a hair extension box quote?",
+        a: "Send your bundle format and dimensions, the number of bundles per box, preferred structure — sleeve, drawer or magnetic flip-top — insert needs, finish (matte, glossy, foil stamping or spot UV), artwork and quantity. Dimensions and the fitted insert are confirmed in the quotation and sample.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
+    ],
     customizationOptions: [
       "Custom sizes for any bundle count",
       "Full-colour print, foil or embossed logo",
@@ -614,6 +734,8 @@ export const products: Product[] = [
       "Custom watch boxes with fitted watch pillow inserts — single and multi-watch formats for retail and gifting.",
     description:
       "Custom watch boxes for watch brands, strap makers and gifting programs. Discuss a rigid box, wrap and watch pillow for single-watch or multi-watch presentation. Share the watch case dimensions, closed-strap size, accessories and number of watches per box so the proposed layout can be checked on a loaded sample. Confirm the wrap, decoration and any transit checks for the complete shipping pack before bulk production. MOQ from 200 pieces. Product photography is in progress; request a stock sample to judge the board and finish.",
+    intro:
+      "Custom watch boxes for watch brands, strap makers and gifting programs. Rigid two-piece, drawer or magnetic flip-top structures with fitted watch pillows — share the watch case dimensions, closed-strap size, accessories and number of watches per box so the layout can be checked on a loaded sample.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Rigid paperboard or faux leather wrap, watch pillow inserts",
     moq: "200 pcs",
@@ -643,6 +765,28 @@ export const products: Product[] = [
       { label: "Wrap", value: "Art paper / textured wrap / faux leather" },
       { label: "Surface Finish", value: "Matte / glossy / foil stamping / embossing" },
       { label: "MOQ", value: "200 pcs" },
+    ],
+    faqs: [
+      {
+        q: "What should I send for a watch box quote?",
+        a: "Share the watch case dimensions, closed-strap size, any accessories and the number of watches per box. Choose the structure — two-piece lift-off, drawer or magnetic flip-top — wrap and finish; the proposed layout is checked on a loaded sample before production.",
+      },
+      {
+        q: "Can I review a dieline preview?",
+        a: "Yes. Share your product dimensions and any existing artwork or dieline so we can prepare a free digital dieline preview for reviewing the proposed structure. Confirm the final specification with us before production.",
+      },
+      {
+        q: "How long does the production process take?",
+        a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
+      },
+      {
+        q: "Can I see a sample before placing a full order?",
+        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "We accept T/T (bank transfer) and PayPal.",
+      },
     ],
     customizationOptions: [
       "Single- and multi-watch layouts",
