@@ -38,7 +38,7 @@ export interface Landing {
 
 const HOW_IT_WORKS_SHARED = [
   { title: "Send your spec", desc: "Share size, material, structure, branding and quantity." },
-  { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4–7 days; custom printed samples take 3–5 days to make (USD 25 + USD 20 shipping)." },
+  { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4–7 days; custom printed samples take 3–5 days to make (USD 30 + USD 25 shipping)." },
   { title: "We make it", desc: "Production takes 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; confirm the schedule for your order." },
   { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen." },
 ];
@@ -104,7 +104,7 @@ export const landings: Landing[] = [
     moq: [
       { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
-      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Custom sample", value: "USD 30 + USD 25 shipping — made in 3–5 days" },
       { label: "Production time", value: "Typically 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
@@ -120,7 +120,7 @@ export const landings: Landing[] = [
       { q: "Do you keep pouches in stock?", a: "No — every pouch is made to your specification: size, fabric, closure and branding. Stock samples of the fabrics are available to check material before ordering." },
       { q: "Can pouches be ordered as a set with boxes?", a: "Yes. A pouch, box, insert, card, ribbon or microfiber cloth can be supplied as one coordinated set, colour-matched to your Pantone reference, with an MOQ of 200 pieces per component." },
       { q: "What is the minimum order?", a: "200 pieces, custom sizes included. How the quantity splits across designs, colours or sizes is confirmed in the written quotation." },
-      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom printed sample costs USD 25 plus USD 20 shipping and is made in 3–5 days." },
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom printed sample costs USD 30 plus USD 25 shipping and is made in 3–5 days." },
       { q: "Are there lower-impact material options?", a: "Reusable sewn pouches in natural fabrics — cotton, muslin and linen — are the standard choice for brands positioning away from single-use packaging. Material selection is confirmed per project on the approved sample." },
     ],
     ctaTitle: "Request a quote for your custom pouch or bag",
@@ -194,7 +194,7 @@ export const landings: Landing[] = [
     moq: [
       { label: "MOQ", value: "200 pieces, custom sizes included" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
-      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Custom sample", value: "USD 30 + USD 25 shipping — made in 3–5 days" },
       { label: "Production time", value: "Typically 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
@@ -210,7 +210,7 @@ export const landings: Landing[] = [
       { q: "What inserts can a box include?", a: "EVA for a contoured, precise fit; sponge for soft cushioning; molded pulp as a contoured insert option; and flocked, velvet-touch finishes. Approve the structure and insert on a sample with your actual product." },
       { q: "What sizes are available?", a: "Standard sizes include 8×8×3 cm and 10×10×3 cm, and any custom size is made to your specification." },
       { q: "What should I send for a comparable quote?", a: "Product dimensions and weight, including any accessories that must fit inside; the preferred structure, insert or lining, and whether the box will be shipped inside an outer carton; logo artwork, colour reference and finish; the quantity (minimum 200 pieces); and the delivery country and target date." },
-      { q: "Can I sample before ordering, and how long does production take?", a: "Yes — a free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment." },
+      { q: "Can I sample before ordering, and how long does production take?", a: "Yes — a free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment." },
     ],
     ctaTitle: "Request a quote for your custom box",
   },
@@ -264,14 +264,14 @@ export const landings: Landing[] = [
     ],
     howItWorks: [
       { title: "Send your spec", desc: "What goes in the set, per-piece size, material, branding, quantity." },
-      { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4–7 days; custom printed samples take 3–5 days to make (USD 25 + USD 20 shipping)." },
+      { title: "Confirm", desc: "We confirm materials and Pantone match. Free stock samples carry USD 25 shipping and arrive in 4–7 days; custom printed samples take 3–5 days to make (USD 30 + USD 25 shipping)." },
       { title: "We make it", desc: "Production takes 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; confirm the schedule for your order." },
       { title: "We ship it", desc: "By air or by sea from Shanghai or Shenzhen, packed as one set or per piece." },
     ],
     moq: [
       { label: "MOQ", value: "200 pieces for each component in the set; list the components and quantities in your quotation request" },
       { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
-      { label: "Custom sample", value: "USD 25 + USD 20 shipping — made in 3–5 days" },
+      { label: "Custom sample", value: "USD 30 + USD 25 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment receipt; shipping time is separate" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
@@ -288,7 +288,7 @@ export const landings: Landing[] = [
       { q: "Are sets fixed, pre-packed combinations?", a: "No. The combinations shown are component examples, not fixed pre-packed sets: every component is designed around your product, and each matching bag, ribbon, card and cloth can be customised independently." },
       { q: "How does the minimum order work for a set?", a: "200 pieces for each component in the set. List the components and their quantities in your quotation request so colour, material and branding can be checked across the set." },
       { q: "Will the components match in colour?", a: "Yes — every piece is designed as one, colour-matched to your Pantone reference, and you choose how it ships: packed and delivered as one set, or packed per piece." },
-      { q: "Can I sample a set before ordering, and how long does production take?", a: "Yes — a free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 25 plus USD 20 shipping and is made in 3–5 days. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment." },
+      { q: "Can I sample a set before ordering, and how long does production take?", a: "Yes — a free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment." },
     ],
     ctaTitle: "Request a quote for your custom packaging set",
   },

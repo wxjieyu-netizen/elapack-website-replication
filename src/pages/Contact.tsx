@@ -362,7 +362,7 @@ export default function Contact() {
                       <select id="sample_needed" name="sample_needed">
                         <option value="">Select sample</option>
                         <option>Stock sample (free + USD 25 shipping)</option>
-                        <option>Custom sample (USD 25 + USD 20 shipping, 3–5 days)</option>
+                        <option>Custom sample (USD 30 + USD 25 shipping, 3–5 days)</option>
                         <option>No sample yet</option>
                       </select>
                     </div>

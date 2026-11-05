@@ -140,14 +140,14 @@ export function faqsFor(product: { slug?: string; name: string; category: string
     displayQuestions[product.slug],
     { q: "How are materials and dimensions confirmed?", a: "Share the display task, space and preferences. Confirm construction, dimensions and contact surface in the quotation and sample." },
     { q: "Can I review the proposed design?", a: "Ask which design preview is available for your project and confirm its scope. Review the physical sample before approving production." },
-    { q: "Can I request a sample?", a: "Stock samples are free when available, with USD 25 shipping and typical delivery of 4–7 days. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm availability and sample scope for your project." },
+    { q: "Can I request a sample?", a: "Stock samples are free when available, with USD 25 shipping and typical delivery of 4–7 days. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm availability and sample scope for your project." },
     { q: "What is the production lead time?", a: "Production typically takes 15–20 days after sample approval and payment receipt. Confirm the order schedule; shipping time is separate." },
   ];
   if (product.slug === "custom-ring-boxes") return [
     { q: "What should I send for a custom ring box quote?", a: "Send the ring's band width and setting height, rings per box, preferred appearance, logo artwork, quantity and delivery destination. We will confirm the proposed box and insert specification in the quotation." },
     { q: "How do I check the ring insert before bulk production?", a: "Review the proposed slot layout and use your actual ring to check retention, appearance and removal in an approved physical sample. A visual effect preview does not replace this fit check." },
     { q: "What is the minimum order?", a: "The minimum is 200 pieces. Confirm how sizes, colours and artwork are allocated in the quotation; the minimum does not imply that every variant can be split freely." },
-    { q: "Are samples and visual previews available?", a: "A visual preview of the proposed box structure is free. Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 25 plus USD 20 shipping and take 3–5 days to make; delivery time is separate." },
+    { q: "Are samples and visual previews available?", a: "A visual preview of the proposed box structure is free. Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make; delivery time is separate." },
     { q: "When does production begin?", a: "Typical production takes 15–20 days after sample approval and payment receipt. Shipping time and the final schedule are confirmed for the order." },
   ];
   return [
@@ -168,7 +168,7 @@ export function faqsFor(product: { slug?: string; name: string; category: string
     },
     {
       q: "Can I see a sample before placing a full order?",
-      a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 25 plus USD 20 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
     },
     {
       q: "What payment methods do you accept?",

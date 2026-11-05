@@ -23,7 +23,7 @@ const products = featuredSlugs
 
 const stats = [
   { value: "200", label: "Individual product MOQ (pieces) — 200 per component of a set" },
-  { value: "3–5", label: "Custom sample days — USD 25 + USD 20 shipping" },
+  { value: "3–5", label: "Custom sample days — USD 30 + USD 25 shipping" },
   { value: "15–20", label: "Production days after sample approval + payment — 15–20 for 200–20,000 pcs; 30–35 for 20,000–50,000 pcs" },
   { value: "1", label: "Business day to reply — stock samples free + USD 25 shipping" },
 ];
