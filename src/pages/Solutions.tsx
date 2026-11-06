@@ -1,11 +1,23 @@
-import { useEffect, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { solutions } from "../data/products";
 
+const topicAnchors: Record<string, string> = {
+  "Custom Packaging": "custom-packaging",
+  "Materials & Finishes": "materials-and-finishes",
+  "How It Works": "how-it-works",
+  Sustainability: "sustainability",
+};
+
 const solutionContent: Record<
   string,
-  { title: string; desc: string; image: string; points: { title: string; desc: string }[] }
+  {
+    title: string;
+    desc: string;
+    image: string;
+    points: { title: string; desc: string }[];
+    links?: { label: string; href: string }[];
+  }
 > = {
   "Custom Packaging": {
     title: "Custom Packaging",
@@ -21,13 +33,18 @@ const solutionContent: Record<
         desc: "EVA foam, velvet, satin, molded pulp, and custom-fit inserts designed to protect and present your product.",
       },
       {
-        title: "Logo & Finish",
-        desc: "Hot foil stamping, embossing, debossing, spot UV, screen printing, and metallic finishes for premium brand expression.",
+        title: "Logo, Colour & Finish",
+        desc: "Hot foil stamping, embossing, debossing, spot UV and screen printing, with Pantone-matched colours on request — so the box, bag and card read as one brand.",
       },
       {
-        title: "Color Systems",
-        desc: "Pantone-matched colors, custom gradients, monochrome palettes, and brand-specific color systems across all components.",
+        title: "Configured Sets",
+        desc: "A set is configured per project on top of the box: the matching pouch or bag, ribbon, card and cloth are each specified and quoted as their own component, from 200 pieces per component.",
       },
+    ],
+    links: [
+      { label: "Boxes", href: "/boxes/" },
+      { label: "Pouches & Bags", href: "/pouches-bags/" },
+      { label: "Complete Packaging Sets", href: "/sets/" },
     ],
   },
   "Materials & Finishes": {
@@ -36,20 +53,26 @@ const solutionContent: Record<
     image: "/about-materials.webp",
     points: [
       {
-        title: "Premium Papers & Board",
-        desc: "Rigid board, art paper, textured paper, and kraft materials. Certification documents available on request.",
+        title: "Papers & Board",
+        desc: "Rigid board wrapped in art paper, textured paper or kraft — the structure behind most boxes we make.",
       },
       {
-        title: "Luxury Textiles",
-        desc: "Leatherette, velvet, suede, linen, and genuine leather options for interior and exterior wrapping, subject to the selected specification.",
+        title: "Textiles & Wraps",
+        desc: "Velvet, satin, cotton and microfiber fabrics for pouches and linings, and leather-look wraps for boxes; each fabric is specified per project.",
       },
       {
         title: "Surface Finishes",
-        desc: "Matte/gloss lamination, soft-touch, spot UV, textured coatings, and specialty finishes for tactile distinction.",
+        desc: "Matte or gloss lamination, soft-touch film, spot UV and textured coatings for tactile distinction.",
       },
       {
         title: "Branding Techniques",
-        desc: "Hot foil stamping, embossing, debossing, screen printing, digital printing, and metallic foil applications.",
+        desc: "Hot foil stamping, embossing, debossing, screen printing and digital printing, matched to the material underneath.",
+      },
+    ],
+    links: [
+      {
+        label: "Surface finishes compared",
+        href: "/news/surface-finishes-compared-guide/",
       },
     ],
   },
@@ -59,21 +82,25 @@ const solutionContent: Record<
     image: "/about-factory.webp",
     points: [
       {
-        title: "1. Consultation",
-        desc: "Share your brand, product, and packaging goals. We assess needs, timeline, and budget parameters.",
+        title: "1. Brief & Quotation",
+        desc: "Send the product, dimensions, materials and quantity. Every component is quoted separately, and we reply within one business day.",
       },
       {
-        title: "2. Design & Sampling",
-        desc: "Our design studio creates structural and visual concepts. We produce physical samples for your approval.",
+        title: "2. Custom Sample",
+        desc: "A sample made to your specification costs USD 30 plus USD 25 shipping and takes 3–5 days; photos or video of the finished sample are available before dispatch on request, and the sample fee is deductible against your confirmed first order.",
       },
       {
-        title: "3. Production",
-        desc: "Once samples are approved, we move to mass production with rigorous QC protocols at every stage.",
+        title: "3. Approval & Production",
+        desc: "Bulk production starts only after you confirm the sample by email: 15–20 days for 200–20,000 pieces, 30–35 days for 20,000–50,000 pieces.",
       },
       {
         title: "4. Delivery",
-        desc: "Quality-checked products are packed and shipped with reliable lead times to Europe and North America.",
+        desc: "Quoted EXW, FOB or DDP as you require — DDP includes destination taxes and duties with door delivery — shipped from Shanghai or Shenzhen.",
       },
+    ],
+    links: [
+      { label: "Process and video page", href: "/video/" },
+      { label: "Sample guide", href: "/news/custom-packaging-samples-guide/" },
     ],
   },
   Sustainability: {
@@ -101,24 +128,46 @@ const solutionContent: Record<
   },
 };
 
+const industryRoutes: { name: string; desc: string; href: string; label: string }[] = [
+  {
+    name: "Jewellery",
+    desc: "Pieces that must arrive protected and ready to gift: a rigid box for the piece, a soft pouch for travel and storage, a polishing cloth as the finishing add-on.",
+    href: "/industries/?sector=Jewelry",
+    label: "Jewellery packaging",
+  },
+  {
+    name: "Eyewear",
+    desc: "Frames and lenses that scratch before they are ever worn: a fitted case or box for structure, a microfiber pouch and cleaning cloth for daily protection.",
+    href: "/industries/?sector=Eyewear%20%26%20Sunglasses",
+    label: "Eyewear packaging",
+  },
+  {
+    name: "Beauty",
+    desc: "Jars and bottles that need shelf presence without excess material: a printed box, tissue wrap and a ribbon or card to complete the unboxing.",
+    href: "/industries/?sector=Beauty",
+    label: "Beauty packaging",
+  },
+  {
+    name: "Fragrance",
+    desc: "Retail boxes and sampling that carry the scent's price point: rigid or folding boxes, sample cards and tissue, matched across the range.",
+    href: "/industries/?sector=Fragrance",
+    label: "Fragrance packaging",
+  },
+  {
+    name: "Fashion",
+    desc: "Garments presented, not just shipped: muslin and fabric pouches, tissue paper and printed shopping bags in one consistent system.",
+    href: "/industries/?sector=Fashion",
+    label: "Fashion packaging",
+  },
+  {
+    name: "Gifts",
+    desc: "Seasonal and corporate gifts assembled as one set: a box, a bag and the ribbon, card or cloth configured together, not sourced separately.",
+    href: "/industries/?sector=Gift",
+    label: "Gift packaging",
+  },
+];
+
 export default function Solutions() {
-  const [searchParams, setSearchParams] = useSearchParams();
-  const activeTopic = searchParams.get("topic") || null;
-  const [selected, setSelected] = useState<string | null>(activeTopic);
-
-  useEffect(() => {
-    setSelected(activeTopic);
-  }, [activeTopic]);
-
-  const handleSelect = (sol: string | null) => {
-    setSelected(sol);
-    if (sol) {
-      setSearchParams({ topic: sol });
-    } else {
-      setSearchParams({});
-    }
-  };
-
   return (
     <>
       <section className="page-header">
@@ -135,18 +184,35 @@ export default function Solutions() {
         </div>
       </section>
 
+      <section className="section">
+        <div className="container">
+          <p className="eyebrow reveal">Industries</p>
+          <h2 className="section-title reveal reveal-delay-1" style={{ marginTop: "0.75rem" }}>
+            Start with your product
+          </h2>
+          <div className="solution-points-grid">
+            {industryRoutes.map((route) => (
+              <div key={route.name} className="solution-point-card">
+                <h3 className="solution-point-title">{route.name}</h3>
+                <p className="solution-point-desc">{route.desc}</p>
+                <Link to={route.href} className="solution-link">
+                  {route.label}
+                  <span className="product-link-arrow">→</span>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section solutions-section">
         <div className="container">
           <div className="solutions-grid">
             {solutions.map((sol, i) => (
-              <button
+              <a
                 key={sol}
-                className={`solution-card reveal reveal-delay-${(i % 4) + 1} ${
-                  selected === sol ? "is-active" : ""
-                }`}
-                onClick={() =>
-                  handleSelect(selected === sol ? null : sol)
-                }
+                href={`#${topicAnchors[sol]}`}
+                className={`solution-card reveal reveal-delay-${(i % 4) + 1}`}
               >
                 <div className="solution-card-image">
                   <img
@@ -161,57 +227,72 @@ export default function Solutions() {
                   <h3 className="solution-name">{sol}</h3>
                   <p className="solution-desc">{solutionContent[sol].desc}</p>
                   <span className="solution-link">
-                    {selected === sol ? "Show All" : "Learn More"}
+                    Learn More
                     <span className="product-link-arrow">→</span>
                   </span>
                 </div>
-              </button>
+              </a>
             ))}
           </div>
+        </div>
+      </section>
 
-          {selected && (
-            <div className="solution-detail reveal">
-              <div className="solution-detail-header">
-                <div>
-                  <p className="eyebrow">{selected}</p>
-                  <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-                    {solutionContent[selected].title}
-                  </h2>
-                </div>
-                <button
-                  className="btn-outline"
-                  onClick={() => handleSelect(null)}
-                >
-                  Show All Solutions
-                </button>
-              </div>
+      {solutions.map((sol) => (
+        <section key={sol} className="section" id={topicAnchors[sol]}>
+          <div className="container">
+            <p className="eyebrow">{sol}</p>
+            <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+              {solutionContent[sol].title}
+            </h2>
+            <p>{solutionContent[sol].desc}</p>
 
-              <div className="solution-detail-image">
-                <img
-                  src={solutionContent[selected].image}
-                  alt={selected}
-                  loading="lazy"
-                  width={1408}
-                  height={768}
-                />
-              </div>
-
-              <div className="solution-points-grid">
-                {solutionContent[selected].points.map((point) => (
-                  <div key={point.title} className="solution-point-card">
-                    <h4 className="solution-point-title">{point.title}</h4>
-                    <p className="solution-point-desc">{point.desc}</p>
-                  </div>
-                ))}
-              </div>
-
-              <div className="solution-cta">
-                <Link to="/contact/" className="btn-primary">
-                  Get Started
-                </Link>
-              </div>
+            <div className="solution-detail-image">
+              <img
+                src={solutionContent[sol].image}
+                alt={sol}
+                loading="lazy"
+                width={1408}
+                height={768}
+              />
             </div>
-          )}
+
+            <div className="solution-points-grid">
+              {solutionContent[sol].points.map((point) => (
+                <div key={point.title} className="solution-point-card">
+                  <h3 className="solution-point-title">{point.title}</h3>
+                  <p className="solution-point-desc">{point.desc}</p>
+                </div>
+              ))}
+            </div>
+
+            {solutionContent[sol].links && (
+              <p>
+                {solutionContent[sol].links!.map((link, i) => (
+                  <span key={link.href}>
+                    {i > 0 && " · "}
+                    <Link to={link.href}>{link.label}</Link>
+                  </span>
+                ))}
+              </p>
+            )}
+          </div>
+        </section>
+      ))}
+
+      <section className="section">
+        <div className="container">
+          <p className="eyebrow">Next step</p>
+          <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+            How to start
+          </h2>
+          <p>
+            Most projects start with one component — a box or a pouch — at 200 pieces. Send the product it has to hold and the quantity you are planning; the sample shows you the finished construction before any production commitment.
+          </p>
+          <div className="solution-cta">
+            <Link to="/contact/" className="btn-primary">
+              Get a Quote
+            </Link>
+          </div>
         </div>
       </section>
     </>

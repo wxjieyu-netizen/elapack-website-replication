@@ -113,7 +113,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/lightweight-luxury-packaging": "Lightweight luxury packaging — right-sized boxes and board inserts, MOQ 200. Weight, volume and freight comparison confirmed by sample for your specific box.",
   "/products": "Browse ELAPACK's custom packaging catalog — rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands — engineered for Europe and North America.",
-  "/solutions": "Custom packaging solutions from ELAPACK — bespoke structures, premium materials and finishes, clear process, sustainable options.",
+  "/solutions": "Custom packaging solutions from ELAPACK: structures, materials and finishes for boxes, pouches and configured sets — custom samples in 3–5 days, production from 200 pieces per component.",
   "/news": "Packaging insights, material trends and sustainability notes from the ELAPACK team.",
   "/about": "ELAPACK is operated by Wuxi Magic Packaging Co., Ltd. Learn about its packaging scope, material review and order process.",
   "/contact": "Talk to ELAPACK about your packaging project — quotes within one business day. Email, phone and WhatsApp available.",
