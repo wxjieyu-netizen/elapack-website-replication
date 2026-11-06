@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" width="2400" height="1350" role="img" aria-labelledby="t d">
+  <title id="t">PPWR empty-space ratio — a worked calculation</title>
+  <desc id="d">The same assumed occupied volume of 7,200 cubic centimetres in two box sizes: a 40 × 30 × 15 cm box with 18,000 cubic centimetres internal volume has a 60.0% unused share, and a 33 × 25 × 12 cm box with 9,900 cubic centimetres internal volume has a 27.3% unused share, shown against the PPWR 50% maximum empty-space ratio.</desc>
+  <rect x="0" y="0" width="2400" height="1350" fill="#faf8f4"/>
+  <rect x="0" y="0" width="2400" height="180" fill="#28251f"/>
+  <text x="120" y="92" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="bold" fill="#faf8f4">How the PPWR empty-space ratio is calculated</text>
+  <text x="120" y="148" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#ddd6c9">One worked example — the same contents in two box sizes (illustrative)</text>
+
+  <!-- Legend -->
+  <rect x="120" y="228" width="34" height="34" fill="#28251f"/>
+  <text x="170" y="256" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#28251f">Contents (occupied volume)</text>
+  <rect x="760" y="228" width="34" height="34" fill="#ddd6c9" stroke="#6b675c" stroke-width="1.5"/>
+  <text x="810" y="256" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#28251f">Empty space (filler counts as empty space)</text>
+
+  <!-- Cap label -->
+  <text x="990" y="322" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#28251f" text-anchor="middle">PPWR maximum: 50% empty space</text>
+
+  <!-- Box A -->
+  <text x="240" y="392" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="bold" fill="#28251f">Box A · 40 × 30 × 15 cm — internal volume 18,000 cm³</text>
+  <rect x="240" y="420" width="600" height="140" fill="#28251f"/>
+  <rect x="840" y="420" width="900" height="140" fill="#ddd6c9"/>
+  <text x="540" y="505" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#faf8f4" text-anchor="middle">Contents 7,200 cm³</text>
+  <text x="1290" y="505" font-family="Arial, Helvetica, sans-serif" font-size="40" fill="#28251f" text-anchor="middle">Empty space 10,800 cm³ — 60.0%</text>
+  <text x="240" y="612" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#6b675c">Ratio: (18,000 − 7,200) ÷ 18,000 = 60.0%</text>
+
+  <!-- Box B -->
+  <text x="240" y="712" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="bold" fill="#28251f">Box B · 33 × 25 × 12 cm — internal volume 9,900 cm³</text>
+  <rect x="240" y="740" width="1091" height="140" fill="#28251f"/>
+  <rect x="1331" y="740" width="409" height="140" fill="#ddd6c9"/>
+  <text x="785" y="825" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#faf8f4" text-anchor="middle">Contents 7,200 cm³</text>
+  <text x="1790" y="825" font-family="Arial, Helvetica, sans-serif" font-size="40" fill="#28251f">Empty space 2,700 cm³ — 27.3%</text>
+  <text x="240" y="932" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#6b675c">Ratio: (9,900 − 7,200) ÷ 9,900 = 27.3%</text>
+
+  <!-- Cap line (drawn over both bars; light core over dark underlay so it reads on both fills) -->
+  <line x1="990" y1="338" x2="990" y2="880" stroke="#28251f" stroke-width="8" stroke-dasharray="16 12"/>
+  <line x1="990" y1="338" x2="990" y2="880" stroke="#faf8f4" stroke-width="3.5" stroke-dasharray="16 12"/>
+
+  <!-- Formula band -->
+  <rect x="0" y="990" width="2400" height="150" fill="#28251f"/>
+  <text x="1200" y="1058" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="bold" fill="#faf8f4" text-anchor="middle">Empty-space ratio = (internal volume − occupied volume) ÷ internal volume</text>
+  <text x="1200" y="1112" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#ddd6c9" text-anchor="middle">Space taken up by filling materials counts as empty space (Article 24)</text>
+
+  <!-- Footer -->
+  <text x="120" y="1210" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#6b675c">Illustrative example from the guide: both boxes hold the same assumed occupied volume of 7,200 cm³.</text>
+  <text x="120" y="1258" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#6b675c">A worked example is not a compliance result — the applicable category, calculation method, functional</text>
+  <text x="120" y="1306" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#6b675c">requirements and exemptions still need checking.</text>
+</svg>
