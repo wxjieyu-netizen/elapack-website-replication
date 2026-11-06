@@ -128,6 +128,11 @@ export const collections: Collection[] = [
       { q: "What do I send for an accurate quote?", a: "The jewelry dimensions and weight, any certificate or card that must fit inside, the structure and insert, logo artwork and colour reference, the finish, the box quantity and the destination — so the quotation prices one clear specification." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
       { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+      {
+        q: "Where can I buy custom jewelry boxes?",
+        a: "Directly from ELAPACK — jewelry boxes are made to order from 200 pieces, not stocked. Send the box structure you have in mind, your product dimensions, quantity and logo artwork for a quotation, and approve a custom sample (USD 30 plus USD 25 shipping, made in 3–5 days) before production.",
+      },
+    
     ],
     ctaLink: { lead: "Send your piece dimensions, structure, insert and quantity to", anchor: "request a jewelry box quotation", product: "custom-ring-boxes" },
     ctaTitle: "Request a quote for your custom jewelry box",
@@ -592,6 +597,11 @@ export const collections: Collection[] = [
       { q: "Which occasions do the boxes serve?", a: "Corporate gifting programs, weddings and events, and retail and shoe gifting — inserts, lids and ribbons carry your logo quietly across every size band." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
       { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+      {
+        q: "Where can I buy custom gift boxes?",
+        a: "Directly from ELAPACK — gift boxes are made to order from 200 pieces, not stocked. Choose the structure, send your product dimensions, quantity and logo artwork for a quotation, and approve a custom sample (USD 30 plus USD 25 shipping, made in 3–5 days) before production.",
+      },
+    
     ],
     ctaLink: { lead: "Send your product size, structure, finish and quantity to", anchor: "request a gift box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your custom gift boxes",
@@ -848,6 +858,11 @@ export const collections: Collection[] = [
       { q: "Can a drawstring bag be paired with a box as a set?", a: "Yes. The bag and box are specified as separate components of one program, colour-matched to your reference; the 200-piece minimum applies to each component." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
       { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+      {
+        q: "Where can I buy custom drawstring bags?",
+        a: "Directly from ELAPACK — the bags are made to order from 200 pieces, in your fabric, size and logo. Send the fabric, dimensions, quantity and artwork for a quotation, and approve a custom sample (USD 30 plus USD 25 shipping, made in 3–5 days) before production.",
+      },
+    
     ],
     ctaLink: { lead: "Send your item dimensions, fabric, target size and quantity to", anchor: "request a drawstring bag quotation", product: "custom-cotton-pouches" },
     ctaTitle: "Request a quote for your custom drawstring bags",
