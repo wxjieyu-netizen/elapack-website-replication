@@ -241,6 +241,11 @@ export const products: Product[] = [
         q: "When does production begin?",
         a: "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping time and the final schedule are confirmed for the order.",
       },
+      {
+        q: "Where can I buy custom ring boxes?",
+        a: "Directly from ELAPACK — every ring box is made to order, not stocked. Send the ring's band width and setting height, the number of rings per box, your quantity and logo artwork, and the quotation will confirm the proposed box and insert specification. A custom sample (USD 30 plus USD 25 shipping, made in 3–5 days) is approved before production begins.",
+      },
+    
     ],
     customizationOptions: [
       "Single- or double-ring layout for quotation",
