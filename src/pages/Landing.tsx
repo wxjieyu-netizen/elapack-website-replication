@@ -63,7 +63,7 @@ export default function Landing({ slug }: { slug: string }) {
           </div>
           {landing.hero && (
             <figure className="landing-hero reveal" style={{ marginTop: "2.5rem" }}>
-              <img src={landing.hero.src} alt={landing.hero.alt} loading="lazy" width={1600} height={1000} />
+              <img src={landing.hero.src} alt={landing.hero.alt} width={1600} height={1000} />
             </figure>
           )}
         </div>
