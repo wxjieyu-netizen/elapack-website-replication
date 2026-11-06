@@ -2038,6 +2038,7 @@ export const productGuides: Record<string, string[]> = {
   "custom-tissue-paper": [
     "custom-tissue-paper-guide",
     "custom-packaging-samples-guide",
+    "custom-clothing-apparel-packaging-guide",
   ],
   "kraft-paper-shopping-bag": [
     "custom-gift-packaging-guide",
@@ -2076,6 +2077,7 @@ export const productGuides: Record<string, string[]> = {
     "custom-muslin-bags-guide",
     "how-to-choose-custom-drawstring-bags",
     "velvet-satin-muslin-pouches-compared",
+    "custom-clothing-apparel-packaging-guide",
   ],
   "custom-microfiber-pouches": [
     "custom-glasses-cases-pouches-guide",
