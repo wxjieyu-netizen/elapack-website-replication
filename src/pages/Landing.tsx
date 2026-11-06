@@ -249,7 +249,7 @@ export default function Landing({ slug }: { slug: string }) {
             {slug === "pouches-bags" && (
               <p className="markets-note" style={{ marginTop: "0.75rem" }}>
                 Send your size, fabric, closure and quantity to{" "}
-                <Link to="/contact/?product=custom-velvet-pouches">request a custom bag quotation</Link>
+                <Link to="/contact/">request a custom bag quotation</Link>
                 {" "}— or start from the fabric:{" "}
                 <Link to="/contact/?product=custom-velvet-pouches">velvet</Link> ·{" "}
                 <Link to="/contact/?product=custom-satin-pouches">satin</Link> ·{" "}
@@ -261,7 +261,7 @@ export default function Landing({ slug }: { slug: string }) {
               Message Tina on WhatsApp or phone:{" "}
               <a href="https://wa.me/8618626352096">+86 186 2635 2096</a>
               {" "}· Email: <a href="mailto:tina@elapack.com">tina@elapack.com</a>
-              {" "}· <Link to={slug === "pouches-bags" ? "/contact/?product=custom-velvet-pouches" : slug === "boxes" ? "/contact/?product=magnetic-closure-gift-box" : "/contact/"}>Send project details</Link>
+              {" "}· <Link to={slug === "boxes" ? "/contact/?product=magnetic-closure-gift-box" : "/contact/"}>Send project details</Link>
             </p>
           </div>
         </div>
