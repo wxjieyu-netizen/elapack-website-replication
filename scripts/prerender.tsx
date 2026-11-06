@@ -398,8 +398,18 @@ for (const route of ROUTES) {
       });
     }
 
+    const heroImage = product
+      ? product.gallery?.length
+        ? product.gallery[0]
+        : product.image
+      : landing?.hero?.src;
     const headExtras = [
       `<link rel="canonical" href="${canonical}" />`,
+      ...(heroImage && !heroImage.endsWith(".svg")
+        ? [
+            `<link rel="preload" as="image" href="${heroImage}" fetchpriority="high" />`,
+          ]
+        : []),
       ...(graph.length
         ? [
             `<script type="application/ld+json">${ld({
