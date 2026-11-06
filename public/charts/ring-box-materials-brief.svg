@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" width="2400" height="1350" role="img" aria-labelledby="t d">
+  <title id="t">Ring box materials at a glance</title>
+  <desc id="d">Four exterior wraps for a custom ring box — paper wrap, leather-look wrap, textured paper and kraft — with the print and logo methods each carries, and four inserts — velvet, satin, EVA foam and molded pulp — with the presentation each suits. All options as specified on the ELAPACK custom ring boxes product page.</desc>
+  <rect x="0" y="0" width="2400" height="1350" fill="#faf8f4"/>
+  <rect x="0" y="0" width="2400" height="180" fill="#28251f"/>
+  <text x="120" y="92" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="bold" fill="#faf8f4">Ring box materials at a glance</text>
+  <text x="120" y="148" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#ddd6c9">Four exterior wraps and four inserts — the options on the ELAPACK ring box specification</text>
+
+  <!-- Column headers -->
+  <text x="120" y="272" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#28251f">EXTERIOR WRAPS</text>
+  <text x="1260" y="272" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#28251f">INSERTS</text>
+  <line x1="120" y1="296" x2="1140" y2="296" stroke="#ddd6c9" stroke-width="3"/>
+  <line x1="1260" y1="296" x2="2280" y2="296" stroke="#ddd6c9" stroke-width="3"/>
+  <line x1="1200" y1="240" x2="1200" y2="1020" stroke="#ddd6c9" stroke-width="2"/>
+
+  <!-- Row 1 -->
+  <text x="120" y="356" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#28251f">Paper wrap</text>
+  <text x="120" y="410" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#28251f">Printed paper over the board — the only full-artwork exterior</text>
+  <text x="120" y="458" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">Logo by print or hot foil; spot UV and lamination apply here</text>
+  <text x="1260" y="356" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#28251f">Velvet</text>
+  <text x="1260" y="410" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#28251f">Plush pile surface, as a slotted pad or cushion</text>
+  <text x="1260" y="458" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">The traditional presentation for engagement and fine rings</text>
+  <line x1="120" y1="492" x2="1140" y2="492" stroke="#ddd6c9" stroke-width="1.5"/>
+  <line x1="1260" y1="492" x2="2280" y2="492" stroke="#ddd6c9" stroke-width="1.5"/>
+
+  <!-- Row 2 -->
+  <text x="120" y="546" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#28251f">Leather-look wrap</text>
+  <text x="120" y="600" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#28251f">Leather-grain surface in a uniform colour; not printed</text>
+  <text x="120" y="648" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">Logo by hot foil or emboss/deboss; the material carries it</text>
+  <text x="1260" y="546" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#28251f">Satin</text>
+  <text x="1260" y="600" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#28251f">Smooth woven surface with a light sheen</text>
+  <text x="1260" y="648" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">A cleaner, less plush look for pads and lining</text>
+  <line x1="120" y1="682" x2="1140" y2="682" stroke="#ddd6c9" stroke-width="1.5"/>
+  <line x1="1260" y1="682" x2="2280" y2="682" stroke="#ddd6c9" stroke-width="1.5"/>
+
+  <!-- Row 3 -->
+  <text x="120" y="736" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#28251f">Textured paper</text>
+  <text x="120" y="790" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#28251f">Linen, laid or fine-grain texture is part of the design</text>
+  <text x="120" y="838" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">Plain or light print; foil shows the texture through it</text>
+  <text x="1260" y="736" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#28251f">EVA foam</text>
+  <text x="1260" y="790" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#28251f">Firm foam; the slot is cut precisely to the band</text>
+  <text x="1260" y="838" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">Firmest mechanical hold — fixes the ring against shock</text>
+  <line x1="120" y1="872" x2="1140" y2="872" stroke="#ddd6c9" stroke-width="1.5"/>
+  <line x1="1260" y1="872" x2="2280" y2="872" stroke="#ddd6c9" stroke-width="1.5"/>
+
+  <!-- Row 4 -->
+  <text x="120" y="926" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#28251f">Kraft</text>
+  <text x="120" y="980" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#28251f">Unbleached brown paper with a natural look</text>
+  <text x="120" y="1028" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">Ink prints muted on the brown base — suits one-colour artwork</text>
+  <text x="1260" y="926" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#28251f">Molded pulp</text>
+  <text x="1260" y="980" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#28251f">Molded from paper pulp; matte, natural surface</text>
+  <text x="1260" y="1028" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">A paper-based insert for a simple, modern presentation</text>
+
+  <!-- Approval band -->
+  <rect x="0" y="1075" width="2400" height="140" fill="#28251f"/>
+  <text x="1200" y="1133" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#faf8f4" text-anchor="middle">Every combination is specified in the quotation and approved on a physical sample</text>
+  <text x="1200" y="1187" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#ddd6c9" text-anchor="middle">Custom sample USD 30 plus USD 25 shipping, made in 3–5 days · Minimum order 200 pieces per product or component</text>
+
+  <!-- Footer -->
+  <text x="120" y="1272" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#6b675c">Exterior, insert, finish and logo options as specified on the ELAPACK custom ring boxes product page.</text>
+  <text x="120" y="1318" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#6b675c">Closures — lift-off lid, magnetic flip-top, ribbon tie, drawer — are chosen with the structure.</text>
+</svg>
