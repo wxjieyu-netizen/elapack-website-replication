@@ -11,6 +11,10 @@ export type Product = {
   image: string;
   /** Optional extra gallery photos after the hero; falls back to [image]. */
   gallery?: string[];
+  /** Optional product-specific image for the Product Description section. */
+  descriptionImage?: string;
+  /** Optional product-specific image for the Customization Options section. */
+  customizeImage?: string;
   materials: string;
   moq: string;
   leadTime: string;
@@ -726,7 +730,19 @@ export const products: Product[] = [
       "Custom watch boxes for watch brands, strap makers and gifting programs. Discuss a rigid box, wrap and watch pillow for single-watch or multi-watch presentation. Share the watch case dimensions, closed-strap size, accessories and number of watches per box so the proposed layout can be checked on a loaded sample. Confirm the wrap, decoration and any transit checks for the complete shipping pack before bulk production. MOQ from 200 pieces. Product photography is in progress; request a stock sample to judge the board and finish.",
     intro:
       "Custom watch boxes for watch brands, strap makers and gifting programs. Rigid two-piece, drawer or magnetic flip-top structures with fitted watch pillows — share the watch case dimensions, closed-strap size, accessories and number of watches per box so the layout can be checked on a loaded sample.",
-    image: "/images/placeholder/product-coming-soon.svg",
+    image: "/images/products/custom-watch-boxes/custom-watch-boxes-hero.webp",
+    gallery: [
+      "/images/products/custom-watch-boxes/custom-watch-boxes-hero.webp",
+      "/images/products/custom-watch-boxes/custom-watch-boxes-detail-01.webp",
+      "/images/products/custom-watch-boxes/custom-watch-boxes-detail-02.webp",
+      "/images/products/custom-watch-boxes/custom-watch-boxes-detail-03.webp",
+      "/images/products/custom-watch-boxes/custom-watch-boxes-detail-04.webp",
+      "/images/products/custom-watch-boxes/custom-watch-boxes-detail-05.webp",
+    ],
+    descriptionImage:
+      "/images/products/custom-watch-boxes/custom-watch-boxes-structure.webp",
+    customizeImage:
+      "/images/products/custom-watch-boxes/custom-watch-boxes-quality.webp",
     materials: "Rigid paperboard or faux leather wrap, watch pillow inserts",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",

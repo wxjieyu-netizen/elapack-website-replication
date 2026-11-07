@@ -234,7 +234,7 @@ export default function ProductDetail() {
             </div>
             <div className="product-description-image reveal reveal-delay-2">
               <img
-                src="/product-collection.webp"
+                src={product.descriptionImage ?? "/product-collection.webp"}
                 alt={`${product.name} showcase`}
                 loading="lazy"
               width={1408}
@@ -279,7 +279,7 @@ export default function ProductDetail() {
           <div className="product-customize-bags-grid" style={needsSpecReview ? { gridTemplateColumns: "1fr" } : undefined}>
             {!needsSpecReview && <div className="product-customize-bags-image reveal">
               <img
-                src="/custom-options.webp"
+                src={product.customizeImage ?? "/custom-options.webp"}
                 alt={`Customize your ${copy.noun}`}
                 loading="lazy"
               width={1408}
