@@ -502,6 +502,10 @@ export const collections: Collection[] = [
       "custom-velvet-pouches",
       "custom-cotton-pouches",
       "leather-envelope-pouch",
+      "velvet-necklace-display",
+      "acrylic-earring-display",
+      "stackable-jewelry-tray",
+      "velvet-jewelry-display-set",
     ],
     faq: [
       { q: "Can I order the box and pouch from one supplier as one program?", a: "Yes. ELAPACK makes the boxes, pouches and display in-house, designed together — same colour, same branding, one order. Each component is quoted at its own quantity, from 200 pieces per product or component." },
