@@ -666,41 +666,26 @@ export const products: Product[] = [
     slug: "custom-hair-extension-boxes",
     name: "Custom Hair Extension Boxes",
     category: "Boxes",
-    shortDesc:
-      "Custom hair extension packaging boxes — sleeve, drawer and magnetic formats that present bundles and wefts at retail.",
-    description:
-      "Custom hair extension boxes for extension brands and salons. The box does two jobs: it keeps bundles and wefts orderly and protected, and it presents the length-shade system the way a premium hair program deserves. Sleeve boxes for single bundles, drawer boxes for multi-bundle sets and magnetic flip-tops for flagship programs — each made to your bundle dimensions, with the proposed insert layout checked for placement, removal and compression on a loaded sample. Your logo prints, foils or embosses on the wrap. MOQ from 200 pieces — send your bundle dimensions for a quote. Product photography is in progress.",
-    intro:
-      "Custom hair extension boxes for extension brands and salons. Sleeve boxes for single bundles, drawer boxes for multi-bundle sets and magnetic flip-tops for flagship programs — review the bundle arrangement, length and shade identification, and proposed insert on a loaded sample before production.",
+    shortDesc: "Custom hair extension boxes for hair brands and salons, from 200 pieces. Share packed bundle dimensions, item count, identification labels and artwork to review the proposed box and insert.",
+    description: "Start with the hair products as packed, including ties, cards and accessories. State item count, orientation and packed dimensions. Request a sleeve, drawer or magnetic opening for feasibility review. Confirm usable internal space, insert contact, closure and removal on a loaded sample. Provide length and shade identification separately from logo artwork, with quantities for each version confirmed in the written quotation.",
+    intro: "Custom hair extension boxes for hair brands and salons, from 200 pieces. Share packed bundle dimensions, item count, identification labels and artwork to review the proposed box and insert.",
     image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Rigid paperboard with custom printed wrap, fitted bundle inserts",
+    materials: "Board, wrap and insert to confirm in the quotation and approved sample",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Hair & Wig", "Beauty", "Gift"],
     features: [
-      {
-        title: "Sleeve, Drawer & Magnetic",
-        desc: "Three structures matched to the program — single bundles, multi-bundle sets and flagship lines.",
-      },
-      {
-        title: "Bundle-Holding Inserts",
-        desc: "Review bundle placement, removal and any compression with the actual hair products on a loaded sample.",
-      },
-      {
-        title: "Length-Shade Presentation",
-        desc: "Print programs that show the length and shade system clearly at retail.",
-      },
-      {
-        title: "Matched Bag Programs",
-        desc: "Pairs with satin wig bags and cotton envelope pouches as one branded system.",
-      },
+      { title: "Packed bundle arrangement", desc: "Identify item count, accessories, orientation and measured packed dimensions." },
+      { title: "Insert contact and removal", desc: "Review support, contact and removal on a loaded sample." },
+      { title: "Length and shade identification", desc: "Supply the identification layout and label visibility requirements." },
+      { title: "Artwork and quantities", desc: "Provide logo files and quantities by version for the written quotation." },
     ],
     specs: [
-      { label: "Structures", value: "Sleeve / drawer / magnetic flip-top" },
-      { label: "Dimensions", value: "Made to your bundle format" },
-      { label: "Insert", value: "Fitted inserts for bundles and wefts" },
-      { label: "Surface Finish", value: "Matte / glossy / foil stamping / spot UV" },
-      { label: "MOQ", value: "200 pcs" },
+      { label: "Packed contents", value: "Product type, count and accessories to confirm" },
+      { label: "Dimensions", value: "Packed dimensions and proposed usable internal space to confirm" },
+      { label: "Opening and insert", value: "Requested format and retention to confirm on sample" },
+      { label: "Materials and branding", value: "Board, wrap, insert and artwork to confirm" },
+      { label: "MOQ", value: "200 pieces; version allocation confirmed in writing" },
     ],
     faqs: [
       {

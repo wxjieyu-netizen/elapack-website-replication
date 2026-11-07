@@ -28,9 +28,10 @@ export default function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
   const originalProduct = slug ? getProductBySlug(slug) : undefined;
   const review = slug ? productContentUpdates[slug] : undefined;
+  const isHairExtension = slug === "custom-hair-extension-boxes";
   const isSampleCard = slug === "custom-perfume-sample-card-boxes";
   const needsSpecReview = ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-ring-boxes", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(slug ?? "");
-  const product: Product | undefined = originalProduct && review ? { ...originalProduct, shortDesc: review.intro, description: review.body.map((b: string[]) => b[1]).join("\n\n"), materials: "Confirm in quotation and approved sample", leadTime: "15–20 days after sample approval and payment receipt", features: review.checks.map((b: string[]) => ({title:b[0],desc:b[1]})), specs: review.policies.map((b: string[]) => ({label:b[0],value:b[1]})), customizationOptions: [review.options] } : originalProduct;
+  const product: Product | undefined = originalProduct && review ? { ...originalProduct, shortDesc: review.intro, description: review.body.map((b: string[]) => b[1]).join("\n\n"), materials: review.materials ?? "Confirm in quotation and approved sample", leadTime: review.leadTime ?? "15–20 days after sample approval and payment receipt", features: review.checks.map((b: string[]) => ({title:b[0],desc:b[1]})), specs: review.policies.map((b: string[]) => ({label:b[0],value:b[1]})), customizationOptions: [review.options] } : originalProduct;
   useEffect(() => { if (review) { document.title = review.title; document.querySelector('meta[name="description"]')?.setAttribute('content', review.meta); } }, [review]);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [activeImg, setActiveImg] = useState(0);
@@ -177,10 +178,10 @@ export default function ProductDetail() {
             <div className="product-specs-intro reveal">
               <p className="eyebrow">Technical Details</p>
               <h2 className="section-title" style={{ marginTop: "1rem" }}>
-                {review?.specs ? "Specifications" : review ? "Order Information" : product.category === "Retail Display Props" ? "Confirm Before Ordering" : "Specifications"}
+                {isHairExtension ? "Specification Brief" : review?.specs ? "Specifications" : review ? "Order Information" : product.category === "Retail Display Props" ? "Confirm Before Ordering" : "Specifications"}
               </h2>
               <p className="product-specs-text">
-                {review?.specs ? "Product specifications are listed first, followed by the confirmed ordering conditions. Confirm the final specification in the quotation and approved sample." : review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : product.category === "Retail Display Props" ? "Display props are specified for each project, so there are no standard specifications to list. Use this checklist to confirm each item in the quotation and on the proposed sample before production." : "Use the fields below to specify your product. Confirm materials, dimensions, construction and artwork in the quotation, then review the agreed details on the sample before production."}
+                {isHairExtension ? "Send these product and order details for review. Confirm materials, dimensions and fit in the quotation and approved sample." : review?.specs ? "Product specifications are listed first, followed by the confirmed ordering conditions. Confirm the final specification in the quotation and approved sample." : review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : product.category === "Retail Display Props" ? "Display props are specified for each project, so there are no standard specifications to list. Use this checklist to confirm each item in the quotation and on the proposed sample before production." : "Use the fields below to specify your product. Confirm materials, dimensions, construction and artwork in the quotation, then review the agreed details on the sample before production."}
               </p>
               <Link to={quoteUrl} className="btn-primary">
                 Discuss Your Project
@@ -225,9 +226,11 @@ export default function ProductDetail() {
           <div className="product-description-grid">
             <div className="reveal">
               <p className="eyebrow">Product Description</p>
-              <p className="product-description-text" style={{ marginTop: "1rem" }}>
+              {isHairExtension && review ? review.body.map((block: string[]) => (
+                <p key={block[0]} className="product-description-text" style={{ marginTop: "1rem" }}>{block[1]}</p>
+              )) : <p className="product-description-text" style={{ marginTop: "1rem" }}>
                 {product.description}
-              </p>
+              </p>}
             </div>
             <div className="product-description-image reveal reveal-delay-2">
               <img

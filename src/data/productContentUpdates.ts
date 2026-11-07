@@ -1,4 +1,149 @@
 export const productContentUpdates: Record<string, any> = {
+  "custom-hair-extension-boxes": {
+  "title": "Custom Hair Extension Boxes | ELAPACK",
+  "meta": "Request custom hair extension boxes from 200 pieces. Share packed bundle dimensions, item count, length-and-shade labels and artwork for a quote.",
+  "intro": "Custom hair extension boxes for hair brands and salons, from 200 pieces. Share the packed bundle dimensions, item count, identification labels and artwork so the proposed box and insert can be reviewed together.",
+  "body": [
+    [
+      "1",
+      "Start with the hair products as they will be packed, including ties, cards and any accessories. State whether one box holds a single bundle, several bundles or another arrangement. Record the packed dimensions and orientation rather than using the hair length alone as the box measurement."
+    ],
+    [
+      "2",
+      "If you are considering a sleeve, drawer or magnetic opening, identify it as a requested option. Confirm the available construction, usable internal space, insert and closure in the quotation and sample. Check the loaded sample for contact, unwanted compression, access and removal; the name of a box format does not establish protection or transport performance."
+    ],
+    [
+      "3",
+      "Keep length, shade and product identification separate from the decorative artwork brief. Indicate where each label should be visible and provide the artwork or variable-information plan. Review the selected configuration and quantity allocation before approving production."
+    ]
+  ],
+  "materials": "Board, wrap and insert to confirm in the quotation and approved sample.",
+  "leadTime": "Typically 15–20 days after sample approval and payment receipt; shipping time is separate.",
+  "checks": [
+    [
+      "Packed bundle arrangement",
+      "Identify the item count, accessories, orientation and measured packed dimensions."
+    ],
+    [
+      "Insert contact and removal",
+      "Show where the contents may be supported and what needs checking on the loaded sample."
+    ],
+    [
+      "Length and shade identification",
+      "Supply the identification layout and state where labels should remain visible."
+    ],
+    [
+      "Artwork and quantity allocation",
+      "Provide the logo files, quantities by version and delivery destination for the written quotation."
+    ]
+  ],
+  "options": "Send the packed bundle dimensions, quantity per box, artwork status, requested opening and delivery destination. Tell us which dimensions are measured and which still need to be proposed. Free digital dieline previews are available in PDF, editable AI and PSD; confirm the selected construction and fit in a physical sample before bulk production.",
+  "policies": [
+    [
+      "Packed contents",
+      "Product type, count and included accessories"
+    ],
+    [
+      "Dimensions",
+      "Packed product dimensions and proposed usable internal space; state the unit"
+    ],
+    [
+      "Opening and insert",
+      "Requested format, retention and removal requirements; confirm availability"
+    ],
+    [
+      "Materials and branding",
+      "Proposed board, wrap, insert and artwork in the quotation and sample"
+    ],
+    [
+      "Version allocation",
+      "Quantity required for each length, shade or artwork version"
+    ],
+    [
+      "Minimum order",
+      "200 pieces; allocation across versions confirmed in writing"
+    ]
+  ],
+  "faqs": [
+    [
+      "What measurements should I send?",
+      "Send dimensions of the contents in their intended packed arrangement, including ties, cards and accessories. State the unit, item count and orientation. The proposed usable internal dimensions must be confirmed for the selected construction."
+    ],
+    [
+      "Which box structures can I request?",
+      "Describe your preferred opening, such as a sleeve, drawer or magnetic format. These are proposal options; confirm current availability, insert layout and closure on the quotation and approved sample."
+    ],
+    [
+      "Can one order include several lengths or shades?",
+      "List the quantity and artwork requirements for each version. MOQ is 200 pieces, but do not assume different versions can be pooled; quantity allocation must be confirmed in the written quotation."
+    ],
+    [
+      "Can a box be ordered with a bag?",
+      "Identify each required component and its quantity. A coordinated box-and-bag proposal is quoted by component; the confirmed baseline is 200 pieces per component. Do not assume a box price includes the bag."
+    ],
+    [
+      "Can I review samples before production?",
+      "Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make; delivery time is separate. Confirm sample availability and scope for your project."
+    ],
+    [
+      "What are the production and payment terms?",
+      "Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate. T/T (bank transfer) and PayPal are available. Confirm the order schedule and delivery terms in the written quotation."
+    ]
+  ],
+  "links": [
+    [
+      "/products/custom-satin-wig-bag/",
+      "Custom satin wig bags"
+    ],
+    [
+      "/products/custom-cotton-envelope-pouches/",
+      "Custom cotton envelope pouches"
+    ],
+    [
+      "/products/magnetic-closure-gift-box/",
+      "Magnetic closure gift boxes"
+    ]
+  ],
+  "guide_cards": [
+  {
+    "url": "https://elapack.com/news/custom-hair-extension-boxes-guide/"
+  },
+  {
+    "url": "https://elapack.com/news/custom-hair-extension-packaging-guide/"
+  },
+  {
+    "url": "https://elapack.com/news/hair-extension-packaging-ideas/"
+  },
+  {
+    "url": "https://elapack.com/news/custom-rigid-boxes-guide/"
+  },
+  {
+    "url": "https://elapack.com/news/ppwr-packaging-regulation-guide/"
+  },
+  {
+    "url": "https://elapack.com/news/ppwr-recyclability-grades-guide/"
+  }
+],
+  "schema_product": {
+    "@type": "Product",
+    "@id": "https://elapack.com/products/custom-hair-extension-boxes/#product",
+    "name": "Custom Hair Extension Boxes",
+    "description": "Custom hair extension boxes for hair brands and salons, from 200 pieces. Share the packed bundle dimensions, item count, identification labels and artwork so the proposed box and insert can be reviewed together.",
+    "sku": "custom-hair-extension-boxes",
+    "category": "Boxes",
+    "brand": {
+      "@type": "Brand",
+      "name": "ELAPACK"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Minimum Order Quantity",
+        "value": "200 pieces; allocation across versions confirmed in writing"
+      }
+    ]
+  }
+},
   "custom-eyelash-packaging-boxes": {
     "title": "Custom Eyelash Packaging Boxes with Logo | ELAPACK",
     "meta": "Custom eyelash packaging boxes with your logo, MOQ 200. Share tray dimensions, pack quantity and artwork to review the box and insert specification.",
