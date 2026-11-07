@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getLandingBySlug } from "../data/landings";
-import { getProductBySlug } from "../data/products";
+import { getProductBySlug, products } from "../data/products";
 
 const relatedProductSlugs: Record<string, string[]> = {
   boxes: ["custom-ring-boxes", "magnetic-closure-gift-box", "luxury-gift-box-ribbon", "custom-perfume-boxes"],
@@ -14,6 +14,13 @@ const relatedProductSlugs: Record<string, string[]> = {
     "custom-satin-wig-bag",
   ],
   sets: ["custom-ring-boxes", "custom-velvet-pouches", "custom-perfume-boxes", "custom-satin-pouches"],
+};
+
+// Category landings show their full product range as catalog cards, fed
+// directly from the product catalog so the grid can never go stale.
+const catalogCategoryBySlug: Record<string, string> = {
+  boxes: "Boxes",
+  "pouches-bags": "Pouches & Bags",
 };
 
 /**
@@ -29,6 +36,11 @@ export default function Landing({ slug }: { slug: string }) {
   }, [landing]);
 
   if (!landing) return null;
+
+  const catalogCategory = catalogCategoryBySlug[slug];
+  const catalogProducts = catalogCategory
+    ? products.filter((p) => p.category === catalogCategory)
+    : [];
 
   return (
     <>
@@ -87,6 +99,55 @@ export default function Landing({ slug }: { slug: string }) {
         </div>
       </section>
 
+      {catalogProducts.length > 0 && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="section-header-center reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+                Explore specific products
+              </h2>
+            </div>
+            <div className="catalog-grid">
+              {catalogProducts.map((product, i) => (
+                <Link
+                  to={`/products/${product.slug}/`}
+                  key={product.slug}
+                  className={`catalog-card reveal reveal-delay-${(i % 4) + 1}`}
+                >
+                  <div className="catalog-card-image">
+                    <img
+                      src={product.image}
+                      alt={product.image.endsWith("product-coming-soon.svg") ? "" : product.name}
+                      loading="lazy"
+                      width={1254}
+                      height={1254}
+                    />
+                    <span className="catalog-category">{product.category}</span>
+                    {product.image.endsWith("product-coming-soon.svg") && (
+                      <span className="catalog-image-pending">Product photo pending</span>
+                    )}
+                  </div>
+                  <div className="catalog-card-body">
+                    <h3 className="catalog-name">{product.name}</h3>
+                    <p className="catalog-desc">{product.shortDesc}</p>
+                    <div className="catalog-meta">
+                      <div className="meta-item">
+                        <span className="meta-label">Materials</span>
+                        <span className="meta-value">{product.materials}</span>
+                      </div>
+                      <div className="meta-item">
+                        <span className="meta-label">MOQ</span>
+                        <span className="meta-value">{product.moq}</span>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {landing.tables.map((table) => (
         <section key={table.heading} className="section" style={{ paddingTop: 0 }}>
           <div className="container">
@@ -139,22 +200,24 @@ export default function Landing({ slug }: { slug: string }) {
         </section>
       ))}
 
-      <section className="section" style={{ paddingTop: 0 }}>
-        <div className="container">
-          <div className="markets-box reveal">
-            <h2 className="section-title" style={{ marginTop: "0.75rem", fontSize: "1.75rem" }}>
-              {slug === "sets" ? "Explore components for your set" : "Explore specific products"}
-            </h2>
-            {slug === "sets" && <p className="markets-note">These are component examples, not fixed pre-packed sets. Request a quote with the box and pouch specifications and quantities for each component.</p>}
-            <ul className="spec-list">
-              {relatedProductSlugs[slug]?.map((productSlug) => {
-                const product = getProductBySlug(productSlug);
-                return product && <li key={productSlug}><Link to={`/products/${productSlug}/`}>{product.name}</Link></li>;
-              })}
-            </ul>
+      {slug === "sets" && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem", fontSize: "1.75rem" }}>
+                Explore components for your set
+              </h2>
+              <p className="markets-note">These are component examples, not fixed pre-packed sets. Request a quote with the box and pouch specifications and quantities for each component.</p>
+              <ul className="spec-list">
+                {relatedProductSlugs[slug]?.map((productSlug) => {
+                  const product = getProductBySlug(productSlug);
+                  return product && <li key={productSlug}><Link to={`/products/${productSlug}/`}>{product.name}</Link></li>;
+                })}
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {landing.gallery && landing.gallery.length > 0 && (
         <section className="section" style={{ paddingTop: 0 }}>
