@@ -846,8 +846,12 @@ export const products: Product[] = [
         a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
-        q: "What payment methods do you accept?",
-        a: "We accept T/T (bank transfer) and PayPal.",
+        q: "Will a velvet pouch protect jewellery from scratches?",
+        a: "The velvet surface is soft and non-abrasive, so it protects against contact scratches, dust and rubbing in storage and transit. It is a surface-protection fabric, not a rigid one — for impact protection the pouch is paired with a box or a fitted insert. If you need an anti-tarnish function for silver or plated items, that is a separate lining option, confirmed in the quotation and by sample.",
+      },
+      {
+        q: "Can I put more than one piece of jewellery in one pouch?",
+        a: "You can, but pieces stored together can rub and chains can tangle. For multi-piece storage, ask for internal dividers or a larger format in the enquiry, or order one pouch per piece — most jewellery brands do the latter so each item is presented and stored separately. The arrangement is checked on the sample with your actual pieces.",
       },
     ],
     customizationOptions: [
@@ -918,8 +922,12 @@ export const products: Product[] = [
         a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
-        q: "What payment methods do you accept?",
-        a: "We accept T/T (bank transfer) and PayPal.",
+        q: "Are cotton pouches suitable for printed logos?",
+        a: "Yes. Cotton's smooth surface prints crisply, and embroidery is also available for a textured mark. Send a vector artwork file (AI, EPS or PDF) with the logo size and position you want; the print is approved on the physical sample before production.",
+      },
+      {
+        q: "Drawstring or zip — which closure should I choose?",
+        a: "Drawstring is fastest to open and close, forgiving on size, and the standard for storage and gift pouches. A zip gives a flatter, fully enclosed pack, better for travel formats and items that must stay grouped. Choose by how the pouch will be used daily: frequent opening favours drawstring, tidy flat storage favours zip. Both are sampled before production.",
       },
     ],
     customizationOptions: [
@@ -983,10 +991,6 @@ export const products: Product[] = [
       {
         q: "Can I see a sample before placing a full order?",
         a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
-      },
-      {
-        q: "What payment methods do you accept?",
-        a: "We accept T/T (bank transfer) and PayPal.",
       },
     ],
     customizationOptions: [
@@ -1151,10 +1155,6 @@ export const products: Product[] = [
         q: "Can I see a sample before placing a full order?",
         a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
-      {
-        q: "What payment methods do you accept?",
-        a: "We accept T/T (bank transfer) and PayPal.",
-      },
     ],
     customizationOptions: [
       "Custom sizes and paper weights",
@@ -1317,10 +1317,6 @@ export const products: Product[] = [
         q: "Can I see a sample before placing a full order?",
         a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
-      {
-        q: "What payment methods do you accept?",
-        a: "We accept T/T (bank transfer) and PayPal.",
-      },
     ],
     customizationOptions: [
       "Custom leather colors and grain textures",
@@ -1384,8 +1380,8 @@ export const products: Product[] = [
         a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
-        q: "What payment methods do you accept?",
-        a: "We accept T/T (bank transfer) and PayPal.",
+        q: "How should a wig bag be sized and stored?",
+        a: "The bag is sized to the wig's length and volume as it will be stored — a 30 × 40 cm option is listed on this page, and other sizes are made to order. Store the wig settled, not compressed: the satin surface reduces friction against the hair, and the fit is checked on the sample with the actual wig inside.",
       },
     ],
     customizationOptions: [
@@ -1451,8 +1447,12 @@ export const products: Product[] = [
         a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
-        q: "What payment methods do you accept?",
-        a: "We accept T/T (bank transfer) and PayPal.",
+        q: "Does printing show well on satin?",
+        a: "Yes — satin's smooth surface takes print cleanly, and its sheen is part of the presentation, so logos and patterns read sharply. Very fine reversed-out detail is checked on the sample because the fabric's shine can soften it under some light. Foil and embroidery are also possible on satin; the method is confirmed against your artwork in the quotation.",
+      },
+      {
+        q: "Velvet or satin — which should I choose?",
+        a: "Velvet reads soft and matte with a plush hand-feel; satin reads smooth and glossy with a lighter drape. Both are presentation fabrics at similar order terms, so the decision is about brand feel and how the pouch is used — satin slides more easily into boxes and sleeves, velvet gives more grip and cushion in the hand. Sampling both with your product inside is the fastest way to decide.",
       },
     ],
     customizationOptions: [
@@ -1519,8 +1519,12 @@ export const products: Product[] = [
         a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
-        q: "What payment methods do you accept?",
-        a: "We accept T/T (bank transfer) and PayPal.",
+        q: "Are muslin pouches suitable for printed logos?",
+        a: "Yes. Muslin prints with a soft, textured read that suits natural-look brands, and embroidery is also available. Send a vector artwork file (AI, EPS or PDF) with the logo size and position you want; the print is approved on the physical sample before production.",
+      },
+      {
+        q: "Drawstring or zip — which closure should I choose?",
+        a: "Drawstring is fastest to open and close, forgiving on size, and the standard for storage and gift pouches. A zip gives a flatter, fully enclosed pack, better for travel formats and items that must stay grouped. Choose by how the pouch will be used daily: frequent opening favours drawstring, tidy flat storage favours zip. Both are sampled before production.",
       },
     ],
     customizationOptions: [
@@ -1635,8 +1639,8 @@ export const products: Product[] = [
         a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
       },
       {
-        q: "What payment methods do you accept?",
-        a: "We accept T/T (bank transfer) and PayPal.",
+        q: "Can clear PVC bags be printed with our logo?",
+        a: "Yes — logos are printed on the PVC surface, and the print position and coverage are confirmed against your artwork in the quotation. Because the bag is transparent, the product inside remains part of the presentation, so consider how the printed mark sits over the product. The result is approved on a physical sample before production.",
       },
     ],
     customizationOptions: [

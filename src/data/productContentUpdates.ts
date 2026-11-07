@@ -541,24 +541,24 @@ export const productContentUpdates: Record<string, any> = {
     ],
     "faqs": [
       [
-        "What information is needed for a pouch quote?",
-        "Send item dimensions, usable internal space, opening or closure requirements, logo artwork, quantity and destination. For eyewear, include the folded frame dimensions."
+        "What are microfiber pouches used for?",
+        "Microfiber pouches store and protect items whose surfaces mark easily — eyewear, jewellery, watches, screens and lenses. The soft, fine surface cushions the item and can wipe away fingerprints and dust, so the pouch works as both storage and a light cleaning cloth. They are commonly ordered by eyewear and jewellery brands as the pouch supplied with the product."
       ],
       [
-        "What is the minimum order quantity?",
-        "MOQ is 200 pieces. Include your required quantity and delivery destination when requesting a quote."
+        "Can microfiber pouches help protect silver jewellery from tarnish?",
+        "An anti-tarnish lining is an option for silver and plated items only, and it is confirmed by sample — it is not a property of every microfiber pouch. If tarnish protection matters for your product, say so in the enquiry: the lining option is specified in the quotation and checked on the sample with your item stored inside. Standard microfiber protects against scratches, dust and contact marks."
       ],
       [
-        "Can I review a sample before production?",
-        "Stock samples are free with USD 25 shipping and typically take 4–7 days for delivery. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification and delivery time before ordering."
+        "What sizes can microfiber pouches be made in?",
+        "Sizes are made to the item — small pouches for jewellery and eyewear up to larger formats for accessories. State the item's dimensions in the enquiry and allow clearance for the closure; the usable internal size is confirmed in the quotation and checked on the sample with your product inside. There is no fixed size list to pick from."
       ],
       [
-        "How long does production take?",
-        "Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt. Shipping time is quoted separately."
+        "Can I print my logo on a microfiber pouch?",
+        "Yes — logo printing in one or multiple colours is the standard branding route for microfiber pouches, matched to your artwork. Other branding methods can be reviewed in the quotation if your design needs them. Send a vector file with the size and position you want — the result is approved on the physical sample before production."
       ],
       [
-        "What payment methods are available?",
-        "We accept T/T (bank transfer) and PayPal."
+        "What is the minimum order and sample process for microfiber pouches?",
+        "The minimum is 200 pieces per product or component. A custom sample costs USD 30 plus USD 25 shipping, is made in 3–5 days, and the fee is deductible against the confirmed first order; stock samples are free plus USD 25 shipping. Production takes 15–20 days for 200–20,000 pieces after sample approval and payment, and quotations are replied to within 1 business day."
       ]
     ],
     "links": [
