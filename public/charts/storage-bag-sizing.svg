@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" width="2400" height="1350" role="img" aria-label="Schematic diagram: a drawstring pouch drawn closed with external dimension arrows — pouch width and height against product width and height">
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#28251f"/></marker>
+</defs>
+<rect width="2400" height="1350" fill="#faf8f4"/>
+<rect width="2400" height="190" fill="#28251f"/>
+<text x="130" y="112" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="700" fill="#ffffff">Drawstring pouch sizing</text>
+<text x="130" y="162" font-family="Arial,Helvetica,sans-serif" font-size="33" fill="#cfc9bd">Shown closed and measured flat — the gathered channel is not usable storage space</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<path d="M565,350 q15,-26 30,0 q15,-26 30,0 q15,-26 30,0 q15,-26 30,0 q15,-26 30,0 C790,425 852,480 855,610 L850,1010 Q850,1050 810,1050 L470,1050 Q430,1050 430,1010 L425,610 C428,480 490,425 565,350 Z" fill="#f1ead9" stroke="#28251f" stroke-width="3"/>
+<line x1="448" y1="470" x2="832" y2="470" stroke="#28251f" stroke-width="2" stroke-dasharray="10 8"/>
+<path d="M565,368 C478,448 452,600 468,762" fill="none" stroke="#b08d46" stroke-width="12"/>
+<path d="M715,368 C802,448 828,600 812,762" fill="none" stroke="#b08d46" stroke-width="12"/>
+<circle cx="562" cy="366" r="9" fill="#b08d46"/>
+<circle cx="718" cy="366" r="9" fill="#b08d46"/>
+<rect x="505" y="620" width="270" height="330" fill="#ffffff" stroke="#b08d46" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="640" y="772" font-size="34" font-weight="700" fill="#28251f" text-anchor="middle">Your product,</text>
+<text x="640" y="816" font-size="34" font-weight="700" fill="#28251f" text-anchor="middle">stored as it will sit</text>
+<line x1="505" y1="1050" x2="505" y2="1215" stroke="#b08d46" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="775" y1="1050" x2="775" y2="1215" stroke="#b08d46" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="432" y1="1140" x2="848" y2="1140" stroke="#28251f" stroke-width="3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="640" y="1198" font-size="33" fill="#28251f" text-anchor="middle">Pouch width = product width + 2–3 cm</text>
+<line x1="512" y1="1245" x2="768" y2="1245" stroke="#28251f" stroke-width="3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="640" y="1302" font-size="33" fill="#28251f" text-anchor="middle">Product width</text>
+<line x1="855" y1="620" x2="1005" y2="620" stroke="#b08d46" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="855" y1="950" x2="1005" y2="950" stroke="#b08d46" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="1020" y1="627" x2="1020" y2="943" stroke="#28251f" stroke-width="3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text transform="translate(985,785) rotate(-90)" font-size="33" fill="#28251f" text-anchor="middle">Product height</text>
+<line x1="1120" y1="357" x2="1120" y2="1043" stroke="#28251f" stroke-width="3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text transform="translate(1168,700) rotate(-90)" font-size="33" fill="#28251f" text-anchor="middle">Pouch height = product height + 4–5 cm</text>
+<text x="1420" y="470" font-size="44" font-weight="700" fill="#28251f">Width: add 2–3 cm</text>
+<text x="1420" y="528" font-size="36" fill="#4a463e">Room to load and unload without</text>
+<text x="1420" y="574" font-size="36" fill="#4a463e">straining seams or pressing</text>
+<text x="1420" y="620" font-size="36" fill="#4a463e">hardware through the fabric</text>
+<line x1="1420" y1="680" x2="2270" y2="680" stroke="#ddd6c9" stroke-width="2"/>
+<text x="1420" y="760" font-size="44" font-weight="700" fill="#28251f">Height: add 4–5 cm</text>
+<text x="1420" y="818" font-size="36" fill="#4a463e">The extra height is largely the</text>
+<text x="1420" y="864" font-size="36" fill="#4a463e">drawstring channel and its</text>
+<text x="1420" y="910" font-size="36" fill="#4a463e">gathered fabric</text>
+<line x1="1420" y1="970" x2="2270" y2="970" stroke="#ddd6c9" stroke-width="2"/>
+<text x="1420" y="1050" font-size="44" font-weight="700" fill="#28251f">Check the fit on the sample</text>
+<text x="1420" y="1108" font-size="36" fill="#4a463e">Fit is confirmed with the real</text>
+<text x="1420" y="1154" font-size="36" fill="#4a463e">product inside, before bulk</text>
+<text x="1420" y="1200" font-size="36" fill="#4a463e">production starts</text>
+</g></svg>
