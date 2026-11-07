@@ -1344,12 +1344,12 @@ export const products: Product[] = [
     industries: ["Hair & Wig", "Beauty", "Fashion"],
     features: [
       {
-        title: "Smooth Satin Interior",
-        desc: "Fibers glide instead of snagging — wigs and extensions stay tangle-free in storage and transit.",
+        title: "Check Fabric Contact",
+        desc: "Review the interior, seams and closure against your actual hair on a loaded sample.",
       },
       {
-        title: "Standard Wig Format",
-        desc: "30×40 cm fits most wig and extension programs; other sizes made to your spec.",
+        title: "Size From Packed Wig",
+        desc: "A 30 × 40 cm option is available; confirm usable space against each packed wig and request another size if needed.",
       },
       {
         title: "Drawstring Closure",
@@ -1361,7 +1361,7 @@ export const products: Product[] = [
       },
     ],
     specs: [
-      { label: "Dimensions", value: "30 × 40 cm standard · custom sizes on request" },
+      { label: "Dimensions", value: "30 × 40 cm option · final size confirmed from packed item" },
       { label: "Fabric", value: "Satin · other fabrics on request" },
       { label: "Fabric weight", value: "Confirm for selected fabric" },
       { label: "Closure Type", value: "Drawstring" },
@@ -1369,7 +1369,7 @@ export const products: Product[] = [
     faqs: [
       {
         q: "What size is a satin wig bag?",
-        a: "The standard size is 30 × 40 cm, which fits most wig and extension programs; custom sizes are available on request. Confirm the packed item dimensions, fabric contact and closure on a sample before ordering.",
+        a: "A 30 × 40 cm option is listed, but fit depends on the packed wig. Share the packed dimensions, cap and accessories; confirm usable space, fabric contact and closure on a loaded sample before ordering.",
       },
       {
         q: "Can I review a dieline preview?",

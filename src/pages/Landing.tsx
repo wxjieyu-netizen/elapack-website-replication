@@ -58,7 +58,7 @@ export default function Landing({ slug }: { slug: string }) {
               Sourcing for jewelry? Compare <Link to="/custom-jewelry-boxes/">jewelry box structures and inserts</Link> or see the <Link to="/custom-jewelry-packaging/">full box-and-pouch program</Link>.
             </p>}
             {slug === "pouches-bags" && <p className="about-text landing-related-links" style={{ maxWidth: "820px", margin: "1rem auto 0" }}>
-              Choose the fabric by what the pouch carries and protects, and coordinate it with a box in one order — see <Link to="/sets/">complete packaging sets</Link>. Material-specific quotations: <Link to="/contact/?product=custom-velvet-pouches">velvet</Link> · <Link to="/contact/?product=custom-satin-pouches">satin</Link> · <Link to="/contact/?product=custom-cotton-pouches">cotton</Link> · <Link to="/contact/?product=custom-microfiber-pouches">microfiber</Link>.
+              Choose the fabric by what the pouch carries and protects, and coordinate it with a box in one order — see <Link to="/sets/">complete packaging sets</Link>. For cord closure and usable opening, review <Link to="/custom-drawstring-bags/">custom drawstring bags</Link>. Material-specific quotations: <Link to="/contact/?product=custom-velvet-pouches">velvet</Link> · <Link to="/contact/?product=custom-satin-pouches">satin</Link> · <Link to="/contact/?product=custom-cotton-pouches">cotton</Link> · <Link to="/contact/?product=custom-microfiber-pouches">microfiber</Link>.
             </p>}
           </div>
           {landing.hero && (

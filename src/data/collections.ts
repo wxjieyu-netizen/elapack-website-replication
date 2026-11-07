@@ -870,6 +870,7 @@ export const collections: Collection[] = [
       "how-to-choose-custom-drawstring-bags",
       "custom-clothing-apparel-packaging-guide",
     ],
+    relatedPages: [{ path: "/pouches-bags/", label: "Compare all custom fabric pouches and bags" }],
   },
   {
     slug: "ribbons-accessories",
