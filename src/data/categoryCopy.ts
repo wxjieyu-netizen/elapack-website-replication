@@ -134,7 +134,7 @@ export function faqsFor(product: { slug?: string; name: string; category: string
     "velvet-necklace-display": { q: "What should I provide for a necklace display quote?", a: "Share chain lengths, pendant dimensions, available space, desired presentation, artwork and quantity. Confirm proposed dimensions and covering in the quotation and sample." },
     "acrylic-earring-display": { q: "How should I specify an earring display?", a: "List earring styles, number of pairs, desired layout and available display space. Review the proposed hole or slot positions and material with representative earrings." },
     "stackable-jewelry-tray": { q: "How do I check whether a tray fits my showcase?", a: "Measure the fixture interior and lifting clearance, then check the proposed tray dimensions and layout. If stacking is required, review the actual edges and base together on a sample." },
-    "velvet-jewelry-display-set": { q: "How is the minimum order calculated for a display set?", a: "The minimum is 200 pieces for each component. List the required display components and quantities, and confirm any allocation across variants in the quotation." },
+    "velvet-jewelry-display-set": { q: "How is the minimum order calculated for a display set?", a: "Display sets start at 10 sets. List the required display components and the quantity of each per set, and confirm any allocation across variants in the quotation." },
   };
   if (product.slug && displayQuestions[product.slug]) return [
     displayQuestions[product.slug],

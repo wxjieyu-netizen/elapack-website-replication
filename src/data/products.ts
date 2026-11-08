@@ -1026,7 +1026,7 @@ export const products: Product[] = [
       "Wholesale necklace display stands planned around your jewellery. Share the chain lengths, pendant dimensions, available counter space, preferred presentation and quantity; the proposed height, base footprint, covering and logo options are confirmed in the quotation and reviewed on a sample with your jewellery.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Materials to confirm in the quotation and sample",
-    moq: "200 pcs",
+    moq: "50 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fashion"],
     features: [
@@ -1075,7 +1075,7 @@ export const products: Product[] = [
       "Custom earring displays built around your earring styles and pair count. Share the styles, number of pairs and preferred layout; hole or slot placement, spacing, stand dimensions and material are confirmed with a sample before production.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Materials to confirm in the quotation and sample",
-    moq: "200 pcs",
+    moq: "100 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Beauty"],
     features: [
@@ -1188,7 +1188,7 @@ export const products: Product[] = [
       "Wholesale jewellery display trays specified for your showcase or drawer. Measure the inside of the case and list the jewellery dimensions and desired layout; external tray size, usable compartments, covering and any stacking interface are confirmed on the proposed sample.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Materials to confirm in the quotation and sample",
-    moq: "200 pcs",
+    moq: "100 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Fashion"],
     features: [
@@ -1232,12 +1232,12 @@ export const products: Product[] = [
     name: "Velvet Jewelry Display Set",
     category: "Retail Display Props",
     shortDesc: "Coordinated jewelry display components for retail counters. Specify the piece mix and quantity for each component.",
-    description: "For a coordinated jewellery display programme, list each component, its quantity and the available counter space. Confirm the proposed piece mix, covering and colours in the quotation. ELAPACK’s minimum is 200 pieces for each component; confirm allocation across variants when requesting a quote.",
+    description: "For a coordinated jewellery display programme, list each component, its quantity and the available counter space. Confirm the proposed piece mix, covering and colours in the quotation. Display sets start at 10 sets; confirm allocation across variants when requesting a quote.",
     intro:
-      "A coordinated jewellery display programme specified as one set. List each component, its quantity and the available counter space; the proposed piece mix, covering and colours are confirmed in the quotation. Minimum order is 200 pieces for each component.",
+      "A coordinated jewellery display programme specified as one set. List each component, its quantity and the available counter space; the proposed piece mix, covering and colours are confirmed in the quotation. Minimum order is 10 sets.",
     image: "/images/placeholder/product-coming-soon.svg",
     materials: "Materials to confirm in the quotation and sample",
-    moq: "200 pcs per component",
+    moq: "10 sets",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Jewelry", "Gift"],
     features: [
