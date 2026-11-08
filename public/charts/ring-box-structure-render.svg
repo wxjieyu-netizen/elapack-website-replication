@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" width="2400" height="1350" role="img" aria-labelledby="t d">
+  <title id="t">Ring box structure — the three layers</title>
+  <desc id="d">Exploded illustration of a custom ring box: a deep-colour lid shell labelled exterior wrap, a grey structural shell labelled rigid board, and a base tray with a slotted pad and ring labelled insert.</desc>
+
+<rect x="0" y="0" width="2400" height="1350" fill="#faf8f4"/><rect x="0" y="0" width="2400" height="180" fill="#28251f"/><text x="120" y="92" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="bold" fill="#faf8f4">Ring box structure — the three layers</text><text x="120" y="148" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#ddd6c9">Exploded view of a custom ring box: exterior wrap, rigid board and insert</text>
+<line x1="788" y1="262" x2="788" y2="1096" stroke="#cfc8b8" stroke-width="3" stroke-dasharray="10 14"/>
+<polygon points="420,400 980,400 1157,298 597,298" fill="#3a5c4d"/><polygon points="420,400 980,400 980,480 420,480" fill="#2e4b3f"/><polygon points="980,400 1157,298 1157,378 980,480" fill="#223a30"/><polygon points="464,394 957,394 1113,304 620,304" fill="none" stroke="#223a30" stroke-width="3"/>
+<ellipse cx="788" cy="349" rx="40" ry="23" fill="none" stroke="#c9a86a" stroke-width="6"/>
+<circle cx="788" cy="349" r="6" fill="#c9a86a"/>
+<polygon points="420,680 980,680 980,790 420,790" fill="#a29883"/><polygon points="980,680 1157,578 1157,688 980,790" fill="#8f8672"/><polygon points="420,680 980,680 1157,578 597,578" fill="#b7ae9c"/><polygon points="472,673 953,673 1105,585 624,585" fill="#7d7462"/>
+<polygon points="472,673 953,673 1105,585 624,585" fill="#7d7462"/>
+<polygon points="420,960 980,960 980,1050 420,1050" fill="#2e4b3f"/><polygon points="980,960 1157,858 1157,948 980,1050" fill="#223a30"/><polygon points="420,960 980,960 1157,858 597,858" fill="#3a5c4d"/><polygon points="472,953 953,953 1105,865 624,865" fill="#1f332a"/><polygon points="508,948 934,948 1068,870 643,870" fill="#efe6d4"/><polygon points="565,915 990,915 1012,903 586,903" fill="#8a7f6a"/>
+<circle cx="788" cy="883" r="38" fill="none" stroke="#c9a86a" stroke-width="11"/><polygon points="788,819 803,837 788,855 773,837" fill="#ffffff" stroke="#a89f8d" stroke-width="3"/>
+<line x1="1171" y1="390" x2="1400" y2="390" stroke="#ddd6c9" stroke-width="2"/>
+<circle cx="1171" cy="390" r="6" fill="#28251f"/>
+<text x="1420" y="398" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="bold" fill="#28251f">Exterior wrap</text>
+<text x="1420" y="452" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">The decorative surface — colour, texture and logo</text>
+<line x1="1171" y1="688" x2="1400" y2="688" stroke="#ddd6c9" stroke-width="2"/>
+<circle cx="1171" cy="688" r="6" fill="#28251f"/>
+<text x="1420" y="696" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="bold" fill="#28251f">Rigid board</text>
+<text x="1420" y="750" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">The structural shell that holds the shape</text>
+<line x1="1171" y1="952" x2="1400" y2="952" stroke="#ddd6c9" stroke-width="2"/>
+<circle cx="1171" cy="952" r="6" fill="#28251f"/>
+<text x="1420" y="960" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="bold" fill="#28251f">Insert</text>
+<text x="1420" y="1014" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#6b675c">The slotted pad that holds the ring</text>
+<text x="120" y="1272" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#6b675c">Structure illustration — the layers are shown separated; the finished box is one assembled piece.</text>
+<text x="120" y="1318" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#6b675c">Exterior, insert, finish and logo options are specified on the ELAPACK custom ring boxes product page.</text>
+</svg>
