@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" width="2400" height="1350" role="img" aria-labelledby="t d">
+  <title id="t">Ring box closure styles</title>
+  <desc id="d">Illustration of one ring box in four closure styles: lift-off lid, magnetic flip-top, ribbon tie and drawer.</desc>
+
+<rect x="0" y="0" width="2400" height="1350" fill="#faf8f4"/><rect x="0" y="0" width="2400" height="180" fill="#28251f"/><text x="120" y="92" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="bold" fill="#faf8f4">Ring box closure styles</text><text x="120" y="148" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#ddd6c9">One box, four closures — lift-off lid, magnetic flip-top, ribbon tie and drawer</text>
+<line x1="645" y1="280" x2="645" y2="1000" stroke="#ddd6c9" stroke-width="2"/>
+<line x1="1195" y1="280" x2="1195" y2="1000" stroke="#ddd6c9" stroke-width="2"/>
+<line x1="1745" y1="280" x2="1745" y2="1000" stroke="#ddd6c9" stroke-width="2"/>
+<line x1="140" y1="1006" x2="610" y2="1006" stroke="#ddd6c9" stroke-width="2"/>
+<line x1="690" y1="1006" x2="1160" y2="1006" stroke="#ddd6c9" stroke-width="2"/>
+<line x1="1240" y1="1006" x2="1710" y2="1006" stroke="#ddd6c9" stroke-width="2"/>
+<line x1="1790" y1="1006" x2="2260" y2="1006" stroke="#ddd6c9" stroke-width="2"/>
+<polygon points="178,855 478,855 478,950 178,950" fill="#2e4b3f"/><polygon points="478,855 572,801 572,896 478,950" fill="#223a30"/><polygon points="178,855 478,855 572,801 272,801" fill="#3a5c4d"/><polygon points="206,851 464,851 544,805 286,805" fill="#1f332a"/><polygon points="225,849 453,849 524,807 296,807" fill="#efe6d4"/><polygon points="255,831 483,831 494,825 266,825" fill="#8a7f6a"/>
+<line x1="200" y1="758" x2="200" y2="848" stroke="#cfc8b8" stroke-width="3" stroke-dasharray="6 9"/>
+<line x1="456" y1="758" x2="456" y2="848" stroke="#cfc8b8" stroke-width="3" stroke-dasharray="6 9"/>
+<polygon points="178,695 478,695 572,641 272,641" fill="#3a5c4d"/><polygon points="178,695 478,695 478,750 178,750" fill="#2e4b3f"/><polygon points="478,695 572,641 572,696 478,750" fill="#223a30"/><polygon points="202,692 466,692 548,644 284,644" fill="none" stroke="#223a30" stroke-width="3"/>
+<ellipse cx="375" cy="668" rx="30" ry="17" fill="none" stroke="#c9a86a" stroke-width="5"/>
+<polygon points="728,855 1028,855 1028,950 728,950" fill="#2e4b3f"/><polygon points="1028,855 1122,801 1122,896 1028,950" fill="#223a30"/><polygon points="728,855 1028,855 1122,801 822,801" fill="#3a5c4d"/><polygon points="756,851 1014,851 1094,805 836,805" fill="#1f332a"/><polygon points="775,849 1003,849 1074,807 846,807" fill="#efe6d4"/><polygon points="805,831 1033,831 1044,825 816,825" fill="#8a7f6a"/>
+<polygon points="822,801 1122,801 1098,633 798,633" fill="#2e4b3f"/>
+<polygon points="844,788 1096,788 1076,646 824,646" fill="#e7dcc4"/>
+<polygon points="844,788 1096,788 1076,646 824,646" fill="none" stroke="#a8834f" stroke-width="2"/>
+<polygon points="1278,855 1578,855 1578,950 1278,950" fill="#2e4b3f"/>
+<polygon points="1578,855 1672,801 1672,896 1578,950" fill="#223a30"/>
+<polygon points="1278,800 1578,800 1672,746 1372,746" fill="#3a5c4d"/><polygon points="1278,800 1578,800 1578,855 1278,855" fill="#2e4b3f"/><polygon points="1578,800 1672,746 1672,801 1578,855" fill="#223a30"/><polygon points="1302,797 1566,797 1648,749 1384,749" fill="none" stroke="#223a30" stroke-width="3"/>
+<polygon points="1404,800 1452,800 1546,746 1498,746" fill="#c9a86a"/>
+<rect x="1404" y="800" width="48" height="150" fill="#c9a86a"/>
+<ellipse cx="1445" cy="767" rx="36" ry="16" fill="#c9a86a" stroke="#a8834f" stroke-width="3" transform="rotate(-24 1445 767)"/>
+<ellipse cx="1505" cy="767" rx="36" ry="16" fill="#c9a86a" stroke="#a8834f" stroke-width="3" transform="rotate(24 1505 767)"/>
+<circle cx="1475" cy="767" r="11" fill="#a8834f"/>
+<polygon points="1828,855 2128,855 2222,801 1922,801" fill="#3a5c4d"/>
+<polygon points="2128,855 2222,801 2222,896 2128,950" fill="#223a30"/>
+<path d="M 1828 855 H 2128 V 950 H 1828 Z M 1858 884 H 2098 V 950 H 1858 Z" fill="#2e4b3f" fill-rule="evenodd"/>
+<polygon points="1764,942 2032,942 2032,988 1764,988" fill="#3a5c4d"/>
+<polygon points="2032,942 2110,897 2110,943 2032,988" fill="#223a30"/>
+<polygon points="1764,942 2032,942 2110,897 1842,897" fill="#2e4b3f"/>
+<polygon points="1799,938 2013,938 2075,902 1861,902" fill="#efe6d4"/>
+<polygon points="1825,922 2039,922 2049,917 1835,917" fill="#8a7f6a"/>
+<text x="375" y="1092" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="bold" fill="#28251f" text-anchor="middle">Lift-off lid</text>
+<text x="375" y="1144" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#6b675c" text-anchor="middle">Lid lifts clear of the base</text>
+<text x="925" y="1092" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="bold" fill="#28251f" text-anchor="middle">Magnetic flip-top</text>
+<text x="925" y="1144" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#6b675c" text-anchor="middle">Hinged at the back</text>
+<text x="1475" y="1092" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="bold" fill="#28251f" text-anchor="middle">Ribbon tie</text>
+<text x="1475" y="1144" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#6b675c" text-anchor="middle">Tied ribbon closure</text>
+<text x="2025" y="1092" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="bold" fill="#28251f" text-anchor="middle">Drawer</text>
+<text x="2025" y="1144" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#6b675c" text-anchor="middle">Slides out of the sleeve</text>
+<text x="120" y="1272" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#6b675c">Closure styles — illustration.</text>
+<text x="120" y="1318" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#6b675c">The closure is chosen with the structure — and it interacts with the material.</text>
+</svg>
