@@ -1,57 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" width="2400" height="1350" role="img" aria-label="Chart: the fields of a complete RFQ for custom packaging, in three groups">
-<rect width="2400" height="1350" fill="#faf8f4"/>
-<rect width="2400" height="190" fill="#28251f"/>
-<text x="130" y="112" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="700" fill="#ffffff">The complete RFQ at a glance</text>
-<text x="130" y="162" font-family="Arial,Helvetica,sans-serif" font-size="33" fill="#cfc9bd">Three groups of fields — what an accurate, comparable quote is built on</text>
-<g font-family="Arial,Helvetica,sans-serif" fill="#28251f">
-<text x="130" y="290" font-size="30" font-weight="700" letter-spacing="6" fill="#b08d46">GROUP 1</text>
-<text x="130" y="348" font-size="44" font-weight="700">Format &amp; volume</text>
-<line x1="130" y1="372" x2="770" y2="372" stroke="#b08d46" stroke-width="4"/>
-<text x="880" y="290" font-size="30" font-weight="700" letter-spacing="6" fill="#b08d46">GROUP 2</text>
-<text x="880" y="348" font-size="44" font-weight="700">Materials &amp; branding</text>
-<line x1="880" y1="372" x2="1520" y2="372" stroke="#b08d46" stroke-width="4"/>
-<text x="1630" y="290" font-size="30" font-weight="700" letter-spacing="6" fill="#b08d46">GROUP 3</text>
-<text x="1630" y="348" font-size="44" font-weight="700">Logistics &amp; timeline</text>
-<line x1="1630" y1="372" x2="2270" y2="372" stroke="#b08d46" stroke-width="4"/>
-<text x="130" y="455" font-size="42" font-weight="700">Product type</text>
-<text x="130" y="505" font-size="36" fill="#4a463e">Sets the production route</text>
-<text x="130" y="547" font-size="36" fill="#4a463e">and the costing basis</text>
-<line x1="130" y1="583" x2="770" y2="583" stroke="#ddd6c9" stroke-width="2"/>
-<text x="130" y="640" font-size="42" font-weight="700">Internal dimensions</text>
-<text x="130" y="690" font-size="36" fill="#4a463e">Drives material use,</text>
-<text x="130" y="732" font-size="36" fill="#4a463e">tooling and fit</text>
-<line x1="130" y1="768" x2="770" y2="768" stroke="#ddd6c9" stroke-width="2"/>
-<text x="130" y="825" font-size="42" font-weight="700">Quantity per component</text>
-<text x="130" y="875" font-size="36" fill="#4a463e">Each component is produced</text>
-<text x="130" y="917" font-size="36" fill="#4a463e">and costed separately</text>
-<text x="880" y="455" font-size="42" font-weight="700">Materials</text>
-<text x="880" y="505" font-size="36" fill="#4a463e">Main driver of unit cost</text>
-<text x="880" y="547" font-size="36" fill="#4a463e">and appearance</text>
-<line x1="880" y1="583" x2="1520" y2="583" stroke="#ddd6c9" stroke-width="2"/>
-<text x="880" y="640" font-size="42" font-weight="700">Structure &amp; opening</text>
-<text x="880" y="690" font-size="36" fill="#4a463e">Changes board, tooling</text>
-<text x="880" y="732" font-size="36" fill="#4a463e">and assembly work</text>
-<line x1="880" y1="768" x2="1520" y2="768" stroke="#ddd6c9" stroke-width="2"/>
-<text x="880" y="825" font-size="42" font-weight="700">Insert</text>
-<text x="880" y="875" font-size="36" fill="#4a463e">How the product is held</text>
-<text x="880" y="917" font-size="36" fill="#4a463e">and protected</text>
-<line x1="880" y1="953" x2="1520" y2="953" stroke="#ddd6c9" stroke-width="2"/>
-<text x="880" y="1010" font-size="42" font-weight="700">Logo artwork</text>
-<text x="880" y="1060" font-size="36" fill="#4a463e">Defines process, size</text>
-<text x="880" y="1102" font-size="36" fill="#4a463e">and placement</text>
-<line x1="880" y1="1138" x2="1520" y2="1138" stroke="#ddd6c9" stroke-width="2"/>
-<text x="880" y="1195" font-size="42" font-weight="700">Finish</text>
-<text x="880" y="1245" font-size="36" fill="#4a463e">Each process — foil, embossing,</text>
-<text x="880" y="1287" font-size="36" fill="#4a463e">spot UV — is costed separately</text>
-<text x="1630" y="455" font-size="42" font-weight="700">Destination</text>
-<text x="1630" y="505" font-size="36" fill="#4a463e">City and country — freight</text>
-<text x="1630" y="547" font-size="36" fill="#4a463e">cannot be quoted without it</text>
-<line x1="1630" y1="583" x2="2270" y2="583" stroke="#ddd6c9" stroke-width="2"/>
-<text x="1630" y="640" font-size="42" font-weight="700">Trade terms</text>
-<text x="1630" y="690" font-size="36" fill="#4a463e">EXW, FOB or DDP — DDP is</text>
-<text x="1630" y="732" font-size="36" fill="#4a463e">priced on the actual address</text>
-<line x1="1630" y1="768" x2="2270" y2="768" stroke="#ddd6c9" stroke-width="2"/>
-<text x="1630" y="825" font-size="42" font-weight="700">Target timeline</text>
-<text x="1630" y="875" font-size="36" fill="#4a463e">A target date lets the supplier</text>
-<text x="1630" y="917" font-size="36" fill="#4a463e">recommend air or sea freight</text>
-</g></svg>
+<rect width="2400" height="1350" fill="#faf9f7"/>
+<text x="140" y="118" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" letter-spacing="8" fill="#b08d46">ELAPACK · BUYER GUIDE</text>
+<text x="140" y="222" font-family="Arial,Helvetica,sans-serif" font-size="94" font-weight="300" fill="#18120c">The complete RFQ at a glance</text>
+<text x="140" y="284" font-family="Arial,Helvetica,sans-serif" font-size="36" fill="#6b675c">Three groups of fields — what an accurate, comparable quote is built on</text>
+<line x1="140" y1="318" x2="2260" y2="318" stroke="#b08d46" stroke-width="3"/>
+<rect x="140" y="352" width="686" height="906" rx="16" fill="#ffffff" stroke="#e6dfd0" stroke-width="2"/>
+<rect x="140" y="352" width="686" height="10" rx="5" fill="#b08d46"/>
+<text x="186" y="430" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" letter-spacing="6" fill="#b08d46">GROUP 1</text>
+<text x="186" y="492" font-family="Arial,Helvetica,sans-serif" font-size="47" font-weight="700" fill="#18120c">Format &amp; volume</text>
+<line x1="186" y1="518" x2="780" y2="518" stroke="#b08d46" stroke-width="3"/>
+<text x="186" y="595" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Product type</text>
+<text x="186" y="639" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">Sets the production route</text>
+<text x="186" y="675" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">and the costing basis</text>
+<line x1="186" y1="756" x2="780" y2="756" stroke="#ece5d4" stroke-width="2"/>
+<text x="186" y="866" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Internal dimensions</text>
+<text x="186" y="910" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">Drives material use,</text>
+<text x="186" y="946" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">tooling and fit</text>
+<line x1="186" y1="1026" x2="780" y2="1026" stroke="#ece5d4" stroke-width="2"/>
+<text x="186" y="1136" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Quantity per component</text>
+<text x="186" y="1180" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">Each component is produced</text>
+<text x="186" y="1216" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">and costed separately</text>
+<rect x="857" y="352" width="686" height="906" rx="16" fill="#ffffff" stroke="#e6dfd0" stroke-width="2"/>
+<rect x="857" y="352" width="686" height="10" rx="5" fill="#b08d46"/>
+<text x="903" y="430" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" letter-spacing="6" fill="#b08d46">GROUP 2</text>
+<text x="903" y="492" font-family="Arial,Helvetica,sans-serif" font-size="47" font-weight="700" fill="#18120c">Materials &amp; branding</text>
+<line x1="903" y1="518" x2="1497" y2="518" stroke="#b08d46" stroke-width="3"/>
+<text x="903" y="595" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Materials</text>
+<text x="903" y="639" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">Main driver of unit cost</text>
+<text x="903" y="675" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">and appearance</text>
+<line x1="903" y1="688" x2="1497" y2="688" stroke="#ece5d4" stroke-width="2"/>
+<text x="903" y="730" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Structure &amp; opening</text>
+<text x="903" y="774" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">Changes board, tooling</text>
+<text x="903" y="810" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">and assembly work</text>
+<line x1="903" y1="823" x2="1497" y2="823" stroke="#ece5d4" stroke-width="2"/>
+<text x="903" y="866" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Insert</text>
+<text x="903" y="910" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">How the product is held</text>
+<text x="903" y="946" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">and protected</text>
+<line x1="903" y1="959" x2="1497" y2="959" stroke="#ece5d4" stroke-width="2"/>
+<text x="903" y="1001" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Logo artwork</text>
+<text x="903" y="1045" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">Defines process, size</text>
+<text x="903" y="1081" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">and placement</text>
+<line x1="903" y1="1094" x2="1497" y2="1094" stroke="#ece5d4" stroke-width="2"/>
+<text x="903" y="1136" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Finish</text>
+<text x="903" y="1180" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">Each process — foil, embossing,</text>
+<text x="903" y="1216" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">spot UV — is costed separately</text>
+<rect x="1574" y="352" width="686" height="906" rx="16" fill="#ffffff" stroke="#e6dfd0" stroke-width="2"/>
+<rect x="1574" y="352" width="686" height="10" rx="5" fill="#b08d46"/>
+<text x="1620" y="430" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" letter-spacing="6" fill="#b08d46">GROUP 3</text>
+<text x="1620" y="492" font-family="Arial,Helvetica,sans-serif" font-size="47" font-weight="700" fill="#18120c">Logistics &amp; timeline</text>
+<line x1="1620" y1="518" x2="2214" y2="518" stroke="#b08d46" stroke-width="3"/>
+<text x="1620" y="595" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Destination</text>
+<text x="1620" y="639" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">City and country — freight</text>
+<text x="1620" y="675" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">cannot be quoted without it</text>
+<line x1="1620" y1="756" x2="2214" y2="756" stroke="#ece5d4" stroke-width="2"/>
+<text x="1620" y="866" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Trade terms</text>
+<text x="1620" y="910" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">EXW, FOB or DDP — DDP is</text>
+<text x="1620" y="946" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">priced on the actual address</text>
+<line x1="1620" y1="1026" x2="2214" y2="1026" stroke="#ece5d4" stroke-width="2"/>
+<text x="1620" y="1136" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" fill="#28251f">Target timeline</text>
+<text x="1620" y="1180" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">A target date lets the supplier</text>
+<text x="1620" y="1216" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#6b675c">recommend air or sea freight</text>
+<line x1="140" y1="1292" x2="2260" y2="1292" stroke="#b08d46" stroke-width="2"/>
+<text x="2260" y="1332" font-family="Arial,Helvetica,sans-serif" font-size="27" letter-spacing="3" fill="#6b675c" text-anchor="end">elapack.com</text>
+</svg>
