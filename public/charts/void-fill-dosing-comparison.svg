@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" width="2400" height="1350" role="img" aria-label="Chart: the same box underfilled, correctly filled and overfilled, compared">
+<rect width="2400" height="1350" fill="#faf8f4"/>
+<rect width="2400" height="190" fill="#28251f"/>
+<text x="130" y="112" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="700" fill="#ffffff">Void fill dosing: underfilled, correct, overfilled</text>
+<text x="130" y="162" font-family="Arial,Helvetica,sans-serif" font-size="33" fill="#cfc9bd">The same box at three fill levels — what each one does to the product inside</text>
+<g font-family="Arial,Helvetica,sans-serif" fill="#28251f">
+
+<!-- Panel 1: Underfilled -->
+<text x="130" y="290" font-size="30" font-weight="700" letter-spacing="6" fill="#b08d46">TOO LITTLE</text>
+<text x="130" y="348" font-size="44" font-weight="700">Underfilled</text>
+<line x1="130" y1="372" x2="810" y2="372" stroke="#b08d46" stroke-width="4"/>
+<g fill="#ddd3bf">
+<ellipse cx="330" cy="930" rx="46" ry="20"/>
+<ellipse cx="470" cy="945" rx="52" ry="22"/>
+<ellipse cx="620" cy="928" rx="44" ry="19"/>
+<ellipse cx="540" cy="895" rx="40" ry="17"/>
+</g>
+<g transform="rotate(-16 400 955)">
+<rect x="340" y="695" width="120" height="260" rx="26" fill="#3a362e"/>
+<rect x="378" y="638" width="44" height="66" fill="#3a362e"/>
+<rect x="370" y="612" width="60" height="30" rx="6" fill="#b08d46"/>
+</g>
+<path d="M200 560 L200 980 L740 980 L740 560" fill="none" stroke="#28251f" stroke-width="16"/>
+<text x="130" y="1090" font-size="34" fill="#a4442e" font-weight="700">Product shifts, knocks and marks</text>
+
+<!-- Panel 2: Correctly filled -->
+<text x="860" y="290" font-size="30" font-weight="700" letter-spacing="6" fill="#b08d46">THE STANDARD</text>
+<text x="860" y="348" font-size="44" font-weight="700">Correctly filled</text>
+<line x1="860" y1="372" x2="1540" y2="372" stroke="#b08d46" stroke-width="4"/>
+<g fill="#ddd3bf">
+<ellipse cx="1010" cy="800" rx="52" ry="22"/><ellipse cx="1130" cy="770" rx="48" ry="20"/>
+<ellipse cx="1330" cy="775" rx="50" ry="21"/><ellipse cx="1450" cy="805" rx="52" ry="22"/>
+<ellipse cx="990" cy="880" rx="54" ry="23"/><ellipse cx="1100" cy="920" rx="52" ry="22"/>
+<ellipse cx="1350" cy="915" rx="54" ry="23"/><ellipse cx="1470" cy="885" rx="50" ry="21"/>
+<ellipse cx="1020" cy="945" rx="50" ry="20"/><ellipse cx="1250" cy="950" rx="56" ry="22"/>
+<ellipse cx="1460" cy="945" rx="48" ry="20"/><ellipse cx="1240" cy="845" rx="46" ry="19"/>
+</g>
+<rect x="1140" y="695" width="120" height="260" rx="26" fill="#3a362e"/>
+<rect x="1178" y="638" width="44" height="66" fill="#3a362e"/>
+<rect x="1170" y="612" width="60" height="30" rx="6" fill="#b08d46"/>
+<path d="M930 560 L930 980 L1470 980 L1470 560" fill="none" stroke="#28251f" stroke-width="16"/>
+<rect x="910" y="532" width="580" height="28" fill="#28251f"/>
+<text x="860" y="1090" font-size="34" fill="#b08d46" font-weight="700">Lid seats flat; product held and framed</text>
+
+<!-- Panel 3: Overfilled -->
+<text x="1590" y="290" font-size="30" font-weight="700" letter-spacing="6" fill="#b08d46">TOO MUCH</text>
+<text x="1590" y="348" font-size="44" font-weight="700">Overfilled</text>
+<line x1="1590" y1="372" x2="2270" y2="372" stroke="#b08d46" stroke-width="4"/>
+<g fill="#ddd3bf">
+<ellipse cx="1760" cy="520" rx="54" ry="22"/><ellipse cx="1900" cy="495" rx="58" ry="24"/>
+<ellipse cx="2050" cy="520" rx="54" ry="22"/><ellipse cx="1830" cy="560" rx="50" ry="20"/>
+<ellipse cx="1980" cy="565" rx="52" ry="21"/><ellipse cx="1740" cy="640" rx="52" ry="22"/>
+<ellipse cx="2100" cy="645" rx="52" ry="22"/><ellipse cx="1760" cy="760" rx="54" ry="23"/>
+<ellipse cx="2080" cy="765" rx="54" ry="23"/><ellipse cx="1800" cy="870" rx="54" ry="23"/>
+<ellipse cx="2050" cy="875" rx="54" ry="23"/><ellipse cx="1880" cy="945" rx="56" ry="22"/>
+<ellipse cx="2000" cy="945" rx="52" ry="21"/><ellipse cx="1720" cy="945" rx="46" ry="19"/>
+<ellipse cx="2140" cy="945" rx="44" ry="19"/>
+</g>
+<rect x="1870" y="695" width="120" height="260" rx="26" fill="#3a362e"/>
+<rect x="1908" y="638" width="44" height="66" fill="#3a362e"/>
+<rect x="1900" y="612" width="60" height="30" rx="6" fill="#b08d46"/>
+<path d="M1660 560 L1660 980 L2200 980 L2200 560" fill="none" stroke="#28251f" stroke-width="16"/>
+<path d="M1640 528 Q1930 428 2220 528" fill="none" stroke="#28251f" stroke-width="16"/>
+<text x="1590" y="1090" font-size="34" fill="#a4442e" font-weight="700">Lid bows; fill presses on the product</text>
+
+<line x1="130" y1="1180" x2="2270" y2="1180" stroke="#ddd6c9" stroke-width="2"/>
+<text x="130" y="1248" font-size="36" fill="#6b675c">Set the level once on a packed sample, weigh the fill used, and record the weight as the packing standard.</text>
+</g></svg>
