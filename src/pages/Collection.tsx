@@ -36,6 +36,41 @@ export default function Collection({ slug }: { slug: string }) {
         </div>
       </section>
 
+      <section className="section products-section">
+        <div className="container">
+          <div className="section-header-center reveal">
+            <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+              Explore the products
+            </h2>
+          </div>
+          <div className="catalog-grid">
+            {products.map((product, i) => (
+              <Link
+                to={`/products/${product.slug}/`}
+                key={product.slug}
+                className={`catalog-card reveal reveal-delay-${(i % 4) + 1}`}
+              >
+                <div className="catalog-card-image">
+                  <img src={product.image} alt={product.image.endsWith("product-coming-soon.svg") ? "" : product.name} loading="lazy" width={1254} height={1254} />
+                  <span className="catalog-category">{product.category}</span>
+                  {product.image.endsWith("product-coming-soon.svg") && <span className="catalog-image-pending">Product photo pending</span>}
+                </div>
+                <div className="catalog-card-body">
+                  <h3 className="catalog-name">{product.name}</h3>
+                  <p className="catalog-desc">{collection.slug === "custom-cosmetic-packaging" && product.slug === "custom-eyelash-packaging-boxes" ? "Custom eyelash boxes with your logo. Share tray dimensions and quantity to discuss fit and a quotation." : product.shortDesc}</p>
+                  <div className="catalog-meta">
+                    <div className="meta-item">
+                      <span className="meta-label">MOQ</span>
+                      <span className="meta-value">{product.moq}</span>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section">
         <div className="container">
           <div className="section-header-center reveal">
@@ -100,40 +135,6 @@ export default function Collection({ slug }: { slug: string }) {
           </div>
         </section>
       )}
-
-      <section className="section" style={{ paddingTop: 0 }}>
-        <div className="container">
-          <div className="section-header-center reveal">
-            <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-              Explore the products
-            </h2>
-          </div>
-          <div className="catalog-grid">
-            {products.map((product, i) => (
-              <Link
-                to={`/products/${product.slug}/`}
-                key={product.slug}
-                className={`catalog-card reveal reveal-delay-${(i % 4) + 1}`}
-              >
-                <div className="catalog-card-image">
-                  <img src={product.image} alt={product.name} loading="lazy" width={1254} height={1254} />
-                  <span className="catalog-category">{product.category}</span>
-                </div>
-                <div className="catalog-card-body">
-                  <h3 className="catalog-name">{product.name}</h3>
-                  <p className="catalog-desc">{collection.slug === "custom-cosmetic-packaging" && product.slug === "custom-eyelash-packaging-boxes" ? "Custom eyelash boxes with your logo. Share tray dimensions and quantity to discuss fit and a quotation." : product.shortDesc}</p>
-                  <div className="catalog-meta">
-                    <div className="meta-item">
-                      <span className="meta-label">MOQ</span>
-                      <span className="meta-value">{product.moq}</span>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {collection.relatedPages && (
         <section className="section" style={{ paddingTop: 0 }}>
