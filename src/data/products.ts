@@ -196,7 +196,15 @@ export const products: Product[] = [
       "Custom ring boxes for jewelry brands, from 200 pieces. Plan the ring fit, insert, exterior and logo together before approving a sample.",
     description:
       "Custom ring boxes for jewelry brands ordering from 200 pieces. For a comparable quote, send the ring's band width, setting height, the number of rings per box, preferred appearance, logo artwork, quantity and delivery destination. Review the proposed box and insert dimensions, slot layout, closure and finish together; check retention and removal with your actual ring in an approved sample. A free visual preview of the proposed box structure is available. Custom samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate. Confirm how sizes, colours and artwork are allocated in the quotation.",
-    image: "/images/placeholder/product-coming-soon.svg",
+    image: "/images/products/custom-ring-boxes/custom-ring-boxes-hero.webp",
+    gallery: [
+      "/images/products/custom-ring-boxes/custom-ring-boxes-hero.webp",
+      "/images/products/custom-ring-boxes/custom-ring-boxes-detail-01.webp",
+      "/images/products/custom-ring-boxes/custom-ring-boxes-detail-02.webp",
+      "/images/products/custom-ring-boxes/custom-ring-boxes-detail-03.webp",
+      "/images/products/custom-ring-boxes/custom-ring-boxes-detail-04.webp",
+      "/images/products/custom-ring-boxes/custom-ring-boxes-detail-05.webp",
+    ],
     materials: "Confirm the proposed exterior and insert materials in the quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
