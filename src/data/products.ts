@@ -205,6 +205,8 @@ export const products: Product[] = [
       "/images/products/custom-ring-boxes/custom-ring-boxes-detail-04.webp",
       "/images/products/custom-ring-boxes/custom-ring-boxes-detail-05.webp",
     ],
+    descriptionImage: "/images/products/custom-ring-boxes/custom-ring-boxes-description.webp",
+    customizeImage: "/images/products/custom-ring-boxes/custom-ring-boxes-customize.webp",
     materials: "Confirm the proposed exterior and insert materials in the quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",

@@ -221,7 +221,7 @@ export default function ProductDetail() {
       </section>
 
       {/* Product Description Section */}
-      {!needsSpecReview && <section className="section product-description-section">
+      {(!needsSpecReview || product.descriptionImage) && <section className="section product-description-section">
         <div className="container">
           <div className="product-description-grid">
             <div className="reveal">
@@ -276,8 +276,8 @@ export default function ProductDetail() {
       {/* Customize Your Bags Section */}
       <section className="section product-customize-bags-section">
         <div className="container">
-          <div className="product-customize-bags-grid" style={needsSpecReview ? { gridTemplateColumns: "1fr" } : undefined}>
-            {!needsSpecReview && <div className="product-customize-bags-image reveal">
+          <div className="product-customize-bags-grid" style={needsSpecReview && !product.customizeImage ? { gridTemplateColumns: "1fr" } : undefined}>
+            {(!needsSpecReview || product.customizeImage) && <div className="product-customize-bags-image reveal">
               <img
                 src={product.customizeImage ?? "/custom-options.webp"}
                 alt={`Customize your ${copy.noun}`}
