@@ -114,10 +114,18 @@ export const products: Product[] = [
     shortDesc:
       "White jewelry box packaging; confirm shell, insert, closure and logo method against your approved sample.",
     description:
-      "For a white jewelry box, share the jewelry dimensions, item count, preferred opening and artwork. Product photography is in progress; confirm the shell material, insert and closure for your order. Confirm the proposed construction, finish and fit in the quotation and approved sample before bulk. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate.",
+      "For a white jewelry box, share the jewelry dimensions, item count, preferred opening and artwork. Confirm the shell material, insert and closure for your order. Confirm the proposed construction, finish and fit in the quotation and approved sample before bulk. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate.",
     intro:
-      "Custom white jewelry boxes built to your specification. Product photography is in progress. Share the jewelry dimensions, item count, preferred opening and artwork; the proposed construction, finish and fit are confirmed in the quotation and approved sample before bulk production.",
-    image: "/images/placeholder/product-coming-soon.svg",
+      "Custom white jewelry boxes built to your specification. Share the jewelry dimensions, item count, preferred opening and artwork; the proposed construction, finish and fit are confirmed in the quotation and approved sample before bulk production.",
+    image: "/images/products/custom-white-jewelry-box/custom-white-jewelry-box-hero.webp",
+    gallery: [
+      "/images/products/custom-white-jewelry-box/custom-white-jewelry-box-hero.webp",
+      "/images/products/custom-white-jewelry-box/custom-white-jewelry-box-detail-01.webp",
+      "/images/products/custom-white-jewelry-box/custom-white-jewelry-box-detail-02.webp",
+      "/images/products/custom-white-jewelry-box/custom-white-jewelry-box-detail-03.webp",
+      "/images/products/custom-white-jewelry-box/custom-white-jewelry-box-detail-04.webp",
+      "/images/products/custom-white-jewelry-box/custom-white-jewelry-box-detail-05.webp",
+    ],
     materials: "Shell, lining and insert to confirm in quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
