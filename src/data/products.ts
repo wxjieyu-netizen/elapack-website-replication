@@ -623,10 +623,20 @@ export const products: Product[] = [
     shortDesc:
       "Custom press-on nail packaging boxes — sized to your nail sets and trays, with your logo from the first run.",
     description:
-      "Custom press-on nail packaging for nail brands selling direct and at retail. Press-on sets live or die on presentation — the box holds the nail trays or tips securely, shows the shade and size system, and carries your brand at first sight. Boxes are made to your set format: single-set sleeves, multi-size kits or wholesale display packs, with fitted inserts that keep every tray in place. Your logo is printed, foil-stamped or embossed on the wrap. MOQ from 200 pieces — send your tray dimensions and set count for a quote. Product photography is in progress; request a stock sample to judge the board quality.",
+      "Custom press-on nail packaging for nail brands selling direct and at retail. Press-on sets live or die on presentation — the box holds the nail trays or tips securely, shows the shade and size system, and carries your brand at first sight. Boxes are made to your set format: single-set sleeves, multi-size kits or wholesale display packs, with fitted inserts that keep every tray in place. Your logo is printed, foil-stamped or embossed on the wrap. MOQ from 200 pieces — send your tray dimensions and set count for a quote. Request a stock sample to judge the board quality.",
     intro:
       "Custom press-on nail boxes for nail brands selling direct and at retail. The box holds nail trays or tips securely, shows the shade and size system, and carries your brand at first sight — single-set sleeves and multi-size kits made to your set format.",
-    image: "/images/placeholder/product-coming-soon.svg",
+    image: "/images/products/custom-press-on-nail-boxes/custom-press-on-nail-boxes-hero.webp",
+    gallery: [
+      "/images/products/custom-press-on-nail-boxes/custom-press-on-nail-boxes-hero.webp",
+      "/images/products/custom-press-on-nail-boxes/custom-press-on-nail-boxes-detail-01.webp",
+      "/images/products/custom-press-on-nail-boxes/custom-press-on-nail-boxes-detail-02.webp",
+      "/images/products/custom-press-on-nail-boxes/custom-press-on-nail-boxes-detail-03.webp",
+      "/images/products/custom-press-on-nail-boxes/custom-press-on-nail-boxes-detail-04.webp",
+      "/images/products/custom-press-on-nail-boxes/custom-press-on-nail-boxes-detail-05.webp",
+    ],
+    descriptionImage: "/images/products/custom-press-on-nail-boxes/custom-press-on-nail-boxes-description.webp",
+    customizeImage: "/images/products/custom-press-on-nail-boxes/custom-press-on-nail-boxes-customize.webp",
     materials: "Rigid paperboard with custom printed wrap, fitted tray inserts",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
