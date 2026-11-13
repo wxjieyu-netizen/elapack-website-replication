@@ -15,9 +15,9 @@ export type Product = {
   descriptionImage?: string;
   /** Optional product-specific image for the Customization Options section. */
   customizeImage?: string;
-  /** Render a wide-slot image in a 1:1 frame instead of the default 4:3 (for square infographics). */
-  descriptionImageSquare?: boolean;
-  customizeImageSquare?: boolean;
+  /** Override the wide-slot frame with a CSS aspect-ratio value, e.g. "1 / 1" or "3 / 2". */
+  descriptionImageRatio?: string;
+  customizeImageRatio?: string;
   materials: string;
   moq: string;
   leadTime: string;
@@ -47,7 +47,20 @@ export const products: Product[] = [
       "Plan a black jewelry box around the jewelry type, item dimensions and required presentation. Tell us whether you want a leather-look exterior, a particular lining or a fitted insert; these are specification choices, not confirmed materials for the pictured reference. Review the proposed structure and logo placement in a free digital dieline preview, then confirm the material, finish and fit in the quotation and approved sample. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate.",
     intro:
       "Plan a black jewelry box around your jewelry type, item dimensions and required presentation. Exterior, lining and fitted insert are specification choices: review the proposed structure and logo placement in a free digital dieline preview, then confirm the material, finish and fit in the quotation and approved sample. Orders start at 200 pieces.",
-    image: "/images/carousel/black-leather-box.png",
+    image: "/images/products/black-leather-jewelry-box/black-leather-jewelry-box-hero.webp",
+    gallery: [
+      "/images/products/black-leather-jewelry-box/black-leather-jewelry-box-hero.webp",
+      "/images/products/black-leather-jewelry-box/black-leather-jewelry-box-detail-01.webp",
+      "/images/products/black-leather-jewelry-box/black-leather-jewelry-box-detail-02.webp",
+      "/images/products/black-leather-jewelry-box/black-leather-jewelry-box-detail-03.webp",
+      "/images/products/black-leather-jewelry-box/black-leather-jewelry-box-detail-04.webp",
+    ],
+    descriptionImage:
+      "/images/products/black-leather-jewelry-box/black-leather-jewelry-box-description.webp",
+    customizeImage:
+      "/images/products/black-leather-jewelry-box/black-leather-jewelry-box-customize.webp",
+    descriptionImageRatio: "3 / 2",
+    customizeImageRatio: "1.907 / 1",
     materials: "Exterior, lining and core to confirm in quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
@@ -373,7 +386,7 @@ export const products: Product[] = [
       "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-description.webp",
     customizeImage:
       "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-customize.webp",
-    customizeImageSquare: true,
+    customizeImageRatio: "1 / 1",
     materials: "Rigid cardboard, magnetic closure",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",

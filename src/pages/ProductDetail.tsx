@@ -232,7 +232,7 @@ export default function ProductDetail() {
                 {product.description}
               </p>}
             </div>
-            <div className={`product-description-image reveal reveal-delay-2${product.descriptionImageSquare ? " is-square" : ""}`}>
+            <div className="product-description-image reveal reveal-delay-2" style={product.descriptionImageRatio ? { aspectRatio: product.descriptionImageRatio } : undefined}>
               <img
                 src={product.descriptionImage ?? "/product-collection.webp"}
                 alt={`${product.name} showcase`}
@@ -277,7 +277,7 @@ export default function ProductDetail() {
       <section className="section product-customize-bags-section">
         <div className="container">
           <div className="product-customize-bags-grid" style={needsSpecReview && !product.customizeImage ? { gridTemplateColumns: "1fr" } : undefined}>
-            {(!needsSpecReview || product.customizeImage) && <div className={`product-customize-bags-image reveal${product.customizeImageSquare ? " is-square" : ""}`}>
+            {(!needsSpecReview || product.customizeImage) && <div className="product-customize-bags-image reveal" style={product.customizeImageRatio ? { aspectRatio: product.customizeImageRatio } : undefined}>
               <img
                 src={product.customizeImage ?? "/custom-options.webp"}
                 alt={`Customize your ${copy.noun}`}

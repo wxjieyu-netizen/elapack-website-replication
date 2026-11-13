@@ -3203,10 +3203,7 @@ a.contact-value:hover {
   border-radius: 6px;
 }
 
-.product-description-image.is-square,
-.product-customize-bags-image.is-square {
-  aspect-ratio: 1 / 1;
-}
+
 
 .product-description-image img {
   width: 100%;
