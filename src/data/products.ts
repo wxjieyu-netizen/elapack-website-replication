@@ -15,6 +15,9 @@ export type Product = {
   descriptionImage?: string;
   /** Optional product-specific image for the Customization Options section. */
   customizeImage?: string;
+  /** Render a wide-slot image in a 1:1 frame instead of the default 4:3 (for square infographics). */
+  descriptionImageSquare?: boolean;
+  customizeImageSquare?: boolean;
   materials: string;
   moq: string;
   leadTime: string;
@@ -358,7 +361,19 @@ export const products: Product[] = [
       "Sleek flip-top gift box with hidden magnetic closure and custom interior inserts.",
     description:
       "A sleek flip-top gift box with a hidden magnetic closure, built for jewelry, eyewear, cosmetics and small luxury programs. The concealed magnet pair keeps the lid shut in transit yet opens one-handed in a retail setting, and because the mechanism sits inside the wrap, the exterior stays clean for full-surface print or foil branding. Construction is 1200-1500gsm greyboard wrapped in your choice of art paper, with interior inserts cut to the product's exact footprint so contents ride immobile - EVA, velvet or molded pulp by product weight and fragility. Specify Pantone references for wrap and print; color is held against an approved sample before bulk. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Approve a custom sample first (USD 30 plus USD 25 shipping, 3-5 days) to check closure feel and color before committing to bulk.",
-    image: "/images/carousel/exec-7a71ba08-13fa-44b6-ae79-75adb3655b9e.png",
+    image: "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-hero.webp",
+    gallery: [
+      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-hero.webp",
+      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-01.webp",
+      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-02.webp",
+      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-03.webp",
+      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-04.webp",
+    ],
+    descriptionImage:
+      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-description.webp",
+    customizeImage:
+      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-customize.webp",
+    customizeImageSquare: true,
     materials: "Rigid cardboard, magnetic closure",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
