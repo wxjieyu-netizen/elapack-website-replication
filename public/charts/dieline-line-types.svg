@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="A flat box dieline annotated with the four line types: a solid outline for cut lines, dashed internal lines for crease and fold lines, a red dashed frame for bleed, and a green dashed inset for the safe area">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <text x="60" y="64" font-family="Georgia, serif" font-size="28" fill="#18120c">Reading a dieline: four line types</text>
+
+  <!-- bleed frame (guide) -->
+  <rect x="132" y="172" width="496" height="426" fill="none" stroke="#b5443a" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="150" y="163" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b5443a" text-anchor="start" font-weight="bold">bleed</text>
+
+  <!-- safe area inset (guide) -->
+  <rect x="276" y="316" width="168" height="138" fill="none" stroke="#3a7d5a" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="280" y="334" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#3a7d5a" text-anchor="start" font-weight="bold">safe area</text>
+
+  <!-- the flat box net: solid outline = cut lines -->
+  <path d="M 260 190 L 460 190 L 460 300 L 570 300 L 610 300 L 610 470 L 570 470 L 460 470 L 460 580 L 260 580 L 260 470 L 150 470 L 150 300 L 260 300 Z"
+        fill="#fdfcf9" stroke="#18120c" stroke-width="3" stroke-linejoin="miter"/>
+
+  <!-- crease / fold lines = dashed -->
+  <g stroke="#18120c" stroke-width="2" stroke-dasharray="9 7">
+    <line x1="260" y1="300" x2="460" y2="300"/>
+    <line x1="260" y1="470" x2="460" y2="470"/>
+    <line x1="260" y1="300" x2="260" y2="470"/>
+    <line x1="460" y1="300" x2="460" y2="470"/>
+    <line x1="570" y1="300" x2="570" y2="470"/>
+  </g>
+
+  <!-- legend -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <line x1="660" y1="150" x2="716" y2="150" stroke="#18120c" stroke-width="3"/>
+    <text x="740" y="156" font-size="16" fill="#18120c" font-weight="bold">Cut line</text>
+    <text x="740" y="175" font-size="13" fill="#6b6258">Steel rule separates the sheet — silhouette and window cuts</text>
+
+    <line x1="660" y1="215" x2="716" y2="215" stroke="#18120c" stroke-width="2" stroke-dasharray="9 7"/>
+    <text x="740" y="221" font-size="16" fill="#18120c" font-weight="bold">Crease (fold) line</text>
+    <text x="740" y="240" font-size="13" fill="#6b6258">Blunt rule prepares the fold without cutting through</text>
+
+    <line x1="660" y1="280" x2="716" y2="280" stroke="#b5443a" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="740" y="286" font-size="16" fill="#b5443a" font-weight="bold">Bleed</text>
+    <text x="740" y="305" font-size="13" fill="#6b6258">Artwork extends past the trim edge for print tolerance</text>
+
+    <line x1="660" y1="345" x2="716" y2="345" stroke="#3a7d5a" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="740" y="351" font-size="16" fill="#3a7d5a" font-weight="bold">Safe area</text>
+    <text x="740" y="370" font-size="13" fill="#6b6258">Keeps text and logos clear of trims and folds</text>
+  </g>
+
+  <text x="600" y="640" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b6258" text-anchor="middle">Solid lines are cuts, dashed lines are creases — the red frame is the bleed allowance, the green inset is the safe area.</text>
+</svg>
