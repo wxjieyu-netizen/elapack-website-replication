@@ -317,7 +317,7 @@ export const products: Product[] = [
       "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-description.webp",
     customizeImage:
       "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-customize.webp",
-    descriptionImageRatio: "1182 / 1330",
+    descriptionImageRatio: "1 / 1",
     customizeImageRatio: "1 / 1",
     materials: "Rigid cardboard, satin ribbon",
     moq: "200 pcs",
