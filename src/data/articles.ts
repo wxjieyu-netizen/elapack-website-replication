@@ -391,7 +391,7 @@ export const articles: Article[] = ([
     "title": "Dieline Explained: How to Read and Prepare a Packaging Dieline",
     "category": "Sourcing Guide",
     "date": "October 2026",
-    "readTime": "7 min read",
+    "readTime": "10 min read",
     "image": "/images/covers/die-cutting-and-dielines-guide-20261019.svg",
     "imageAlt": "Guide cover: free digital dieline preview and the structure checks before ordering a custom box",
     "imageWidth": 2400,
