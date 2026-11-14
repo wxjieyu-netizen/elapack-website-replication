@@ -444,10 +444,14 @@ export const products: Product[] = [
       "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-02.jpg",
       "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-03.jpg",
       "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-04.jpg",
-      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-detail-05.jpg",
       "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-scene-01.jpg",
-      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-scene-02.jpg",
     ],
+    descriptionImage:
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-description.webp",
+    customizeImage:
+      "/images/products/custom-eyelash-packaging-boxes/custom-eyelash-packaging-boxes-customize.webp",
+    descriptionImageRatio: "1 / 1",
+    customizeImageRatio: "1 / 1",
     materials: "Rigid paperboard with custom printed wrap, fitted lash tray inserts",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
