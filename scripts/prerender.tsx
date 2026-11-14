@@ -248,6 +248,8 @@ for (const route of ROUTES) {
       "@id": `${SITE}/#organization`,
       name: "ELAPACK",
       legalName: "Wuxi Magic Packaging Co., Ltd",
+      foundingDate: "2018",
+      alternateName: ["ELAPACK Custom Luxury Packaging", "Wuxi Magic Packaging"],
       description:
         "Custom packaging manufacturer operating a 1,000-square-meter factory with three production lines in Wuxi, Jiangsu, China.",
       url: `${SITE}/`,
@@ -371,7 +373,20 @@ for (const route of ROUTES) {
       });
     }
     if (product) {
-      graph.push(review ? { ...review.schema_product, mainEntityOfPage: { "@type": "WebPage", "@id": canonical } } : {
+      const moqMatch = /^(\d+)\s+(.*)$/.exec(product.moq);
+      const offers = {
+        "@type": "AggregateOffer",
+        ...(moqMatch
+          ? {
+              eligibleQuantity: {
+                "@type": "QuantitativeValue",
+                minValue: Number(moqMatch[1]),
+                unitText: moqMatch[2],
+              },
+            }
+          : {}),
+      };
+      graph.push(review ? { ...review.schema_product, mainEntityOfPage: { "@type": "WebPage", "@id": canonical }, offers } : {
         "@type": "Product",
         "@id": `${canonical}#product`,
         name: product.name,
@@ -385,6 +400,7 @@ for (const route of ROUTES) {
           { "@type": "PropertyValue", name: "Minimum Order Quantity", value: product.moq },
           { "@type": "PropertyValue", name: "Lead Time", value: product.leadTime },
         ],
+        offers,
         mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
       });
       graph.push({
