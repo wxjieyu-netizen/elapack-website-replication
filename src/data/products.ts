@@ -749,7 +749,21 @@ export const products: Product[] = [
     shortDesc: "Custom hair extension boxes for hair brands and salons, from 200 pieces. Share packed bundle dimensions, item count, identification labels and artwork to review the proposed box and insert.",
     description: "Start with the hair products as packed, including ties, cards and accessories. State item count, orientation and packed dimensions. Request a sleeve, drawer or magnetic opening for feasibility review. Confirm usable internal space, insert contact, closure and removal on a loaded sample. Provide length and shade identification separately from logo artwork, with quantities for each version confirmed in the written quotation.",
     intro: "Custom hair extension boxes for hair brands and salons, from 200 pieces. Share packed bundle dimensions, item count, identification labels and artwork to review the proposed box and insert.",
-    image: "/images/placeholder/product-coming-soon.svg",
+    image:
+      "/images/products/custom-hair-extension-boxes/custom-hair-extension-boxes-hero.webp",
+    gallery: [
+      "/images/products/custom-hair-extension-boxes/custom-hair-extension-boxes-hero.webp",
+      "/images/products/custom-hair-extension-boxes/custom-hair-extension-boxes-detail-01.webp",
+      "/images/products/custom-hair-extension-boxes/custom-hair-extension-boxes-detail-03.webp",
+      "/images/products/custom-hair-extension-boxes/custom-hair-extension-boxes-detail-02.webp",
+      "/images/products/custom-hair-extension-boxes/custom-hair-extension-boxes-detail-04.webp",
+    ],
+    descriptionImage:
+      "/images/products/custom-hair-extension-boxes/custom-hair-extension-boxes-description.webp",
+    customizeImage:
+      "/images/products/custom-hair-extension-boxes/custom-hair-extension-boxes-customize.webp",
+    descriptionImageRatio: "1 / 1",
+    customizeImageRatio: "1 / 1",
     materials: "Board, wrap and insert to confirm in the quotation and approved sample",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
