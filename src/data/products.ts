@@ -532,6 +532,14 @@ export const products: Product[] = [
         title: "Bottle Fit Check",
         desc: "Test the actual bottle in the approved sample; assess transport requirements separately if needed.",
       },
+      {
+        title: "Custom Cologne Bottle Packaging",
+        desc: "Boxes sized from your bottle — lift-off lid, drawer or magnetic flip-top — or bottle gift bags in satin and other textile fabrics. Order the box, the bag, or the coordinated set.",
+      },
+      {
+        title: "Custom Reed Diffuser Packaging",
+        desc: "A rigid box with a fitted insert for the glass vessel and a compartment for the reeds, or kraft and textile bags for diffuser sets. Bag, box, or set — vessel fit is confirmed on a sample.",
+      },
     ],
     specs: [
       { label: "Exterior options", value: "Rigid board with paper wrap, leather-look wrap, textured paper or kraft — choose from the quotation; final material confirmed in approved sample" },
@@ -561,6 +569,14 @@ export const products: Product[] = [
       {
         q: "Can I see a sample before placing a full order?",
         a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
+      },
+      {
+        q: "Do you also make cologne packaging?",
+        a: "Yes. Cologne bottles are packed in the same rigid structures as perfume — lift-off lid, drawer or magnetic flip-top — built around your bottle dimensions, or in textile gift bags sized to the bottle. Order the box, the bag, or the coordinated set; terms are the same either way, a 200-piece minimum per component and 15–20 day production after sample approval and payment receipt.",
+      },
+      {
+        q: "Can you package reed diffusers?",
+        a: "Yes. A reed diffuser set can ship in a rigid box with a fitted insert for the glass vessel and a compartment for the reeds, in kraft or textile bags, or as part of a coordinated set. The vessel-fit checks are the same as for candle boxes; share the packed dimensions and vessel weight in your enquiry.",
       },
       {
         q: "What payment methods do you accept?",
