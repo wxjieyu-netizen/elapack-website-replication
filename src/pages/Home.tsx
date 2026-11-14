@@ -100,7 +100,8 @@ const caseStudies = [
     client: "Jewelry Gift Box",
     category: "Jewelry Packaging",
     solution: "Gift Box Options",
-    image: "/images/carousel/luxury-gift-box.png",
+    image:
+      "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-hero.webp",
     points: ["Choose a box style and insert layout", "Confirm product dimensions and materials", "Review sampling needs before production"],
   },
   {

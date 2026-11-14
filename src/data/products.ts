@@ -18,6 +18,8 @@ export type Product = {
   /** Override the wide-slot frame with a CSS aspect-ratio value, e.g. "1 / 1" or "3 / 2". */
   descriptionImageRatio?: string;
   customizeImageRatio?: string;
+  /** Override the main gallery frame (default 4 / 3) when the photos are square. */
+  galleryRatio?: string;
   materials: string;
   moq: string;
   leadTime: string;
@@ -302,7 +304,21 @@ export const products: Product[] = [
       "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held against an approved sample before bulk. Interior options secure the product for gifting and courier conditions alike. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 30 plus USD 25 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
     intro:
       "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard wrapped in premium matte art paper gives the box its substantial feel, and the double-face satin ribbon makes the opening itself part of the ceremony.",
-    image: "/images/carousel/luxury-gift-box.png",
+    image: "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-hero.webp",
+    gallery: [
+      "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-hero.webp",
+      "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-detail-01.webp",
+      "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-detail-02.webp",
+      "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-detail-03.webp",
+      "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-detail-04.webp",
+    ],
+    galleryRatio: "1 / 1",
+    descriptionImage:
+      "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-description.webp",
+    customizeImage:
+      "/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-customize.webp",
+    descriptionImageRatio: "1182 / 1330",
+    customizeImageRatio: "1 / 1",
     materials: "Rigid cardboard, satin ribbon",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",

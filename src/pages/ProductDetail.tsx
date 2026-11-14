@@ -90,7 +90,10 @@ export default function ProductDetail() {
         <div className="container">
           <div className="product-detail-grid">
             <div className="product-detail-gallery reveal">
-              <div className="product-gallery-main">
+              <div
+                className="product-gallery-main"
+                style={product.galleryRatio ? { aspectRatio: product.galleryRatio } : undefined}
+              >
                 <img src={galleryImgs[activeImg] ?? product.image} alt={review?.gallery_review?.[activeImg]?.alt_proposal ?? product.name} width={1254} height={1254} />
                 <span className="product-detail-category">
                   {isSampleCard ? "Sampling Cards" : product.category}
