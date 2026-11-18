@@ -917,7 +917,22 @@ export const products: Product[] = [
       "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure — drawstring, flap, envelope or zipper — your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Custom sizing is reviewed against the product and construction, from small gift pouches to larger presentation bags. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Velvet colour is reviewed against the approved sample before bulk. A custom sample (USD 30 plus USD 25 shipping, 3–5 days) settles pile direction, shade and logo hand before the production order — the cheapest way to see the exact fabric your program will carry.",
     intro:
       "Custom velvet pouches with a plush, gift-ready feel at first touch — the dense velvet pile cushions jewelry, eyewear and small luxury goods through retail, gifting and unboxing moments. Choose drawstring, flap, envelope or zipper closure, a Pantone-matched velvet colour, and silkscreen, hot-stamp or woven-label branding. Orders start at 200 pieces; custom sizing is reviewed against your product and construction.",
-    image: "/images/carousel/velvet-pouch.png",
+    image:
+      "/images/products/custom-velvet-pouches/custom-velvet-pouches-hero.webp",
+    gallery: [
+      "/images/products/custom-velvet-pouches/custom-velvet-pouches-hero.webp",
+      "/images/products/custom-velvet-pouches/custom-velvet-pouches-detail-01.webp",
+      "/images/products/custom-velvet-pouches/custom-velvet-pouches-detail-02.webp",
+      "/images/products/custom-velvet-pouches/custom-velvet-pouches-detail-03.webp",
+      "/images/products/custom-velvet-pouches/custom-velvet-pouches-detail-04.webp",
+    ],
+    galleryRatio: "1 / 1",
+    descriptionImage:
+      "/images/products/custom-velvet-pouches/custom-velvet-pouches-description.webp",
+    customizeImage:
+      "/images/products/custom-velvet-pouches/custom-velvet-pouches-customize.webp",
+    descriptionImageRatio: "1 / 1",
+    customizeImageRatio: "1 / 1",
     materials: "Velvet, cotton cord drawstring",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
