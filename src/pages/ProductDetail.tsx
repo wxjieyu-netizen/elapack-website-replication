@@ -30,7 +30,14 @@ export default function ProductDetail() {
   const review = slug ? productContentUpdates[slug] : undefined;
   const isHairExtension = slug === "custom-hair-extension-boxes";
   const isSampleCard = slug === "custom-perfume-sample-card-boxes";
-  const needsSpecReview = ["black-leather-jewelry-box", "custom-white-jewelry-box", "custom-ring-boxes", "custom-perfume-boxes", "custom-perfume-sample-card-boxes", "custom-muslin-drawstring-pouch", "custom-pvc-bags"].includes(slug ?? "");
+  const needsSpecReview = [
+    "black-leather-jewelry-box",
+    "custom-white-jewelry-box",
+    "custom-ring-boxes",
+    "custom-perfume-sample-card-boxes",
+    "custom-muslin-drawstring-pouch",
+    "custom-pvc-bags",
+  ].includes(slug ?? "");
   const product: Product | undefined = originalProduct && review ? { ...originalProduct, shortDesc: review.intro, description: review.body.map((b: string[]) => b[1]).join("\n\n"), materials: review.materials ?? "Confirm in quotation and approved sample", leadTime: review.leadTime ?? "15–20 days after sample approval and payment receipt", features: review.checks.map((b: string[]) => ({title:b[0],desc:b[1]})), specs: review.policies.map((b: string[]) => ({label:b[0],value:b[1]})), customizationOptions: [review.options] } : originalProduct;
   useEffect(() => { if (review) { document.title = review.title; document.querySelector('meta[name="description"]')?.setAttribute('content', review.meta); } }, [review]);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
