@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Component-level description of one rigid gift box: board and wrap, coatings and decoration, adhesives and attachments, inserts and accessories, and the evidence reference">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <text x="60" y="54" font-family="Georgia,serif" font-size="24" font-weight="600" fill="#18120c">A grade attaches to the complete packaging unit</text>
+  <text x="60" y="80" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#6b6258">Request a component-level description — each layer is assessed, not one material label for the whole set</text>
+
+  <!-- exploded component stack -->
+  <g font-family="Helvetica,Arial,sans-serif">
+    <!-- layer 1: wrap sheet -->
+    <rect x="80" y="150" width="360" height="16" fill="#d8c9a8" stroke="#18120c" stroke-width="1.5"/>
+    <!-- layer 2: coatings and decoration -->
+    <rect x="80" y="182" width="360" height="10" fill="#b08d46" opacity="0.45" stroke="#8a7a5e" stroke-width="1"/>
+    <path d="M 420 187 l 10 6 l -10 6 l -10 -6 z" fill="#b08d46"/>
+    <!-- layer 3: lid with magnet and ribbon -->
+    <rect x="100" y="216" width="320" height="48" rx="4" fill="#efe6d8" stroke="#18120c" stroke-width="2"/>
+    <circle cx="150" cy="240" r="5" fill="#18120c"/>
+    <circle cx="370" cy="240" r="5" fill="#18120c"/>
+    <path d="M 100 240 q 80 -18 160 0 q 80 18 160 0" fill="none" stroke="#b08d46" stroke-width="2"/>
+    <!-- layer 4: base with insert -->
+    <rect x="100" y="280" width="320" height="98" rx="4" fill="#efe6d8" stroke="#18120c" stroke-width="2"/>
+    <rect x="120" y="296" width="280" height="52" fill="#ffffff" stroke="#8a7a5e" stroke-width="1.5"/>
+    <ellipse cx="190" cy="322" rx="42" ry="16" fill="none" stroke="#8a7a5e" stroke-width="1.5"/>
+    <ellipse cx="330" cy="322" rx="42" ry="16" fill="none" stroke="#8a7a5e" stroke-width="1.5"/>
+    <!-- layer 5: evidence document -->
+    <rect x="100" y="406" width="190" height="64" fill="#ffffff" stroke="#ddd5c5" stroke-width="1.5"/>
+    <path d="M 290 406 h -14 v 14 z" fill="#efe6d8" stroke="#ddd5c5" stroke-width="1"/>
+    <line x1="114" y1="424" x2="262" y2="424" stroke="#8a7a5e" stroke-width="2"/>
+    <line x1="114" y1="438" x2="240" y2="438" stroke="#c9c1b2" stroke-width="2"/>
+    <line x1="114" y1="452" x2="252" y2="452" stroke="#c9c1b2" stroke-width="2"/>
+
+    <!-- callout lines and labels -->
+    <line x1="440" y1="158" x2="466" y2="158" stroke="#8a7a5e" stroke-width="1"/>
+    <text x="472" y="152" font-size="13" font-weight="600" fill="#18120c">Board and wrap</text>
+    <text x="472" y="168" font-size="11.5" fill="#6b6258">material identification and</text>
+    <text x="472" y="182" font-size="11.5" fill="#6b6258">available composition information</text>
+
+    <line x1="440" y1="188" x2="466" y2="188" stroke="#8a7a5e" stroke-width="1"/>
+    <text x="472" y="208" font-size="13" font-weight="600" fill="#18120c">Coatings and decoration</text>
+    <text x="472" y="224" font-size="11.5" fill="#6b6258">lamination, coatings, foil and</text>
+    <text x="472" y="238" font-size="11.5" fill="#6b6258">other applied layers</text>
+
+    <line x1="440" y1="240" x2="466" y2="258" stroke="#8a7a5e" stroke-width="1"/>
+    <text x="472" y="278" font-size="13" font-weight="600" fill="#18120c">Adhesives and attachments</text>
+    <text x="472" y="294" font-size="11.5" fill="#6b6258">adhesive systems, magnets, ribbons,</text>
+    <text x="472" y="308" font-size="11.5" fill="#6b6258">windows — what stays attached</text>
+    <text x="472" y="322" font-size="11.5" fill="#6b6258">and what can be separated</text>
+
+    <line x1="440" y1="329" x2="466" y2="352" stroke="#8a7a5e" stroke-width="1"/>
+    <text x="472" y="372" font-size="13" font-weight="600" fill="#18120c">Inserts and accessories</text>
+    <text x="472" y="388" font-size="11.5" fill="#6b6258">a separate description for</text>
+    <text x="472" y="402" font-size="11.5" fill="#6b6258">each insert or accessory</text>
+
+    <line x1="290" y1="438" x2="466" y2="446" stroke="#8a7a5e" stroke-width="1"/>
+    <text x="472" y="466" font-size="13" font-weight="600" fill="#18120c">Evidence reference</text>
+    <text x="472" y="482" font-size="11.5" fill="#6b6258">issuer, date, construction</text>
+    <text x="472" y="496" font-size="11.5" fill="#6b6258">reference and limitations</text>
+  </g>
+
+  <!-- assessment scope card -->
+  <g font-family="Helvetica,Arial,sans-serif">
+    <rect x="820" y="140" width="320" height="252" rx="8" fill="#ffffff" stroke="#ddd5c5"/>
+    <text x="840" y="170" font-size="13" font-weight="600" fill="#18120c">Assessment scope — Article 6(9)</text>
+    <text x="840" y="200" font-size="12" font-weight="600" fill="#b08d46">Integrated components</text>
+    <text x="840" y="218" font-size="11.5" fill="#6b6258">attached to the unit: wrap,</text>
+    <text x="840" y="234" font-size="11.5" fill="#6b6258">coatings, closures, ribbons</text>
+    <text x="840" y="266" font-size="12" font-weight="600" fill="#b08d46">Separate components</text>
+    <text x="840" y="284" font-size="11.5" fill="#6b6258">own description: inserts,</text>
+    <text x="840" y="300" font-size="11.5" fill="#6b6258">accessories, spare lids</text>
+    <line x1="840" y1="322" x2="1120" y2="322" stroke="#ddd5c5"/>
+    <text x="840" y="348" font-size="11.5" fill="#6b6258">The whole relevant packaging unit</text>
+    <text x="840" y="364" font-size="11.5" fill="#6b6258">is addressed, component by</text>
+    <text x="840" y="380" font-size="11.5" fill="#6b6258">component — not by one label.</text>
+  </g>
+
+  <text x="60" y="620" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">elapack.com · Illustrative construction — request the component description and evidence for your specific package</text>
+</svg>
