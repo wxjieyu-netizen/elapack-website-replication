@@ -198,6 +198,7 @@ export const articles: Article[] = ([
   {
     "slug": "custom-tissue-paper-guide",
     "datePublished": "2026-10-10",
+    "dateModified": "2026-11-05",
     "title": "Custom Tissue Paper: Weights, Printing and Specification Data",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -341,6 +342,7 @@ export const articles: Article[] = ([
   {
     "slug": "custom-printed-ribbon-guide",
     "datePublished": "2026-10-07",
+    "dateModified": "2026-10-16",
     "title": "Custom Printed Ribbon: Artwork, Repeat Spacing and Box Assembly",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -372,6 +374,7 @@ export const articles: Article[] = ([
   {
     "slug": "custom-ring-boxes-guide",
     "datePublished": "2026-10-07",
+    "dateModified": "2026-10-13",
     "title": "Custom Ring Boxes: How to Match the Insert to Your Collection",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -563,6 +566,7 @@ export const articles: Article[] = ([
   {
     "slug": "hair-extension-packaging-ideas",
     "datePublished": "2026-10-01",
+    "dateModified": "2026-10-22",
     "title": "Hair Extension Packaging Ideas: Formats and Materials for Bundles, Wefts and Wigs",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -1393,6 +1397,7 @@ export const articles: Article[] = ([
   {
   "slug": "christmas-packaging-ordering-timeline",
   "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
   "title": "Christmas Packaging Ordering Timeline: When to Order Custom Gift Boxes",
   "category": "Sourcing Guide",
   "date": "October 2026",
@@ -1424,6 +1429,7 @@ export const articles: Article[] = ([
   {
   "slug": "white-jewelry-boxes-guide",
   "datePublished": "2026-10-26",
+  "dateModified": "2026-10-26",
   "title": "White Jewelry Boxes: Stock Cases vs Custom Runs",
   "category": "Sourcing Guide",
   "date": "October 2026",
