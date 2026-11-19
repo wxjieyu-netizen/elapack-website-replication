@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Cross-section of a drawer box in three sleeve-to-tray fit states — too tight with binding and wrap damage, correct with free travel and a held product, and too loose with tray movement and scuffing — beside a finished-sample checklist">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+
+  <text x="48" y="52" font-family="Georgia,serif" font-size="25" font-weight="600" fill="#18120c">Name the fit state before approving the sample</text>
+  <text x="48" y="80" font-family="Helvetica,Arial,sans-serif" font-size="13.5" fill="#6b6258">Sleeve-to-tray clearance in section · three states a buyer should be able to name — none of them is a tolerance</text>
+  <line x1="48" y1="98" x2="1152" y2="98" stroke="#b08d46" stroke-width="1.5"/>
+
+  <!-- ===== State 1: too tight ===== -->
+  <text x="48" y="142" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#a03b2c">1 · TOO TIGHT</text>
+  <text x="48" y="160" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">binding · wrap tears at the mouth</text>
+  <g transform="translate(48 176)">
+    <rect x="0" y="0" width="330" height="96" fill="none" stroke="#18120c" stroke-width="6"/>
+    <rect x="6" y="6" width="318" height="84" fill="#e8e2d6" stroke="#8d857a" stroke-width="2"/>
+    <rect x="34" y="34" width="90" height="28" fill="#b08d46"/>
+    <line x1="6" y1="0" x2="6" y2="96" stroke="#a03b2c" stroke-width="3" stroke-dasharray="5 4"/>
+    <line x1="324" y1="0" x2="324" y2="96" stroke="#a03b2c" stroke-width="3" stroke-dasharray="5 4"/>
+    <line x1="330" y1="48" x2="382" y2="48" stroke="#a03b2c" stroke-width="3"/>
+    <polygon points="382,48 370,42 370,54" fill="#a03b2c"/>
+    <text x="392" y="45" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#a03b2c">binds</text>
+    <text x="392" y="61" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">customer pulls harder,</text>
+    <text x="392" y="75" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">wrap splits</text>
+  </g>
+
+  <!-- ===== State 2: correct ===== -->
+  <text x="48" y="326" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#18120c">2 · CORRECT</text>
+  <text x="48" y="344" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">free travel · product held · no rattle</text>
+  <g transform="translate(48 360)">
+    <rect x="0" y="0" width="330" height="96" fill="none" stroke="#18120c" stroke-width="6"/>
+    <rect x="18" y="18" width="294" height="60" fill="#e8e2d6" stroke="#8d857a" stroke-width="2"/>
+    <line x1="7" y1="26" x2="7" y2="78" stroke="#b08d46" stroke-width="2"/>
+    <text x="165" y="46" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#8d857a">inner tray</text>
+    <rect x="42" y="34" width="90" height="28" fill="#b08d46"/>
+    <text x="165" y="86" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#6b6258">outer sleeve</text>
+    <line x1="330" y1="48" x2="382" y2="48" stroke="#18120c" stroke-width="3"/>
+    <polygon points="382,48 370,42 370,54" fill="#18120c"/>
+    <text x="392" y="45" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#18120c">glides</text>
+    <text x="392" y="61" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">deliberate resistance,</text>
+    <text x="392" y="75" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">no rattle in the pack</text>
+  </g>
+  <text x="48" y="470" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#b08d46">the gold line marks the intended sleeve-to-tray clearance</text>
+
+  <!-- ===== State 3: too loose ===== -->
+  <text x="48" y="510" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#8a6a1f">3 · TOO LOOSE</text>
+  <text x="48" y="528" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">tray shifts · product scuffs in transit</text>
+  <g transform="translate(48 544)">
+    <rect x="0" y="0" width="330" height="96" fill="none" stroke="#18120c" stroke-width="6"/>
+    <rect x="30" y="28" width="270" height="40" fill="#e8e2d6" stroke="#8d857a" stroke-width="2"/>
+    <line x1="20" y1="48" x2="8" y2="48" stroke="#8a6a1f" stroke-width="2"/>
+    <polygon points="8,48 16,43 16,53" fill="#8a6a1f"/>
+    <line x1="310" y1="48" x2="322" y2="48" stroke="#8a6a1f" stroke-width="2"/>
+    <polygon points="322,48 314,43 314,53" fill="#8a6a1f"/>
+    <g transform="rotate(-6 130 48)">
+      <rect x="85" y="34" width="90" height="28" fill="#b08d46"/>
+    </g>
+    <text x="392" y="45" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#8a6a1f">shifts</text>
+    <text x="392" y="61" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">fine scuffs on</text>
+    <text x="392" y="75" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6258">plated surfaces</text>
+  </g>
+
+  <!-- ===== right card: finished-sample checklist ===== -->
+  <rect x="580" y="130" width="572" height="490" rx="8" fill="#ffffff" stroke="#ddd5c5"/>
+  <text x="604" y="164" font-family="Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#18120c">What to check on the finished sample</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6b6258">
+    <rect x="604" y="188" width="6" height="6" fill="#b08d46"/>
+    <text x="620" y="196">The tray opens without damaging the wrap</text>
+    <rect x="604" y="218" width="6" height="6" fill="#b08d46"/>
+    <text x="620" y="226">The pull stays attached under repeat opening</text>
+    <rect x="604" y="248" width="6" height="6" fill="#b08d46"/>
+    <text x="620" y="256">Unwanted movement is controlled in the loaded pack</text>
+    <rect x="604" y="278" width="6" height="6" fill="#b08d46"/>
+    <text x="620" y="286">Recheck after wrapping, folds and finishing</text>
+  </g>
+  <line x1="604" y1="312" x2="1128" y2="312" stroke="#ddd5c5"/>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">
+    <text x="604" y="340">A named state is not a tolerance. Agree the clearance, the production</text>
+    <text x="604" y="358">tolerance and the measurement points on the approved drawing.</text>
+  </g>
+  <line x1="604" y1="384" x2="1128" y2="384" stroke="#ddd5c5"/>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">
+    <text x="604" y="412">Fit does not prove transit protection — agree the transport outer</text>
+    <text x="604" y="430">and route-appropriate checks separately.</text>
+  </g>
+  <line x1="604" y1="456" x2="1128" y2="456" stroke="#ddd5c5"/>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#6b6258">
+    <text x="604" y="484">Paperboard fit can change with moisture — review the sample under</text>
+    <text x="604" y="502">the intended storage and handling conditions.</text>
+  </g>
+
+  <line x1="48" y1="646" x2="1152" y2="646" stroke="#d8d2c8" stroke-width="1"/>
+  <text x="48" y="664" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6258">elapack.com · Illustrative construction — agree the clearance, tolerance and sample checks for your specific drawer box</text>
+</svg>
