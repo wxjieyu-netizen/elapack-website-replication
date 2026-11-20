@@ -16,6 +16,7 @@ export default function Footer() {
             <div className="footer-badges">
               <span className="footer-badge">Material Options</span>
               <span className="footer-badge">Global Shipping</span>
+              <span className="footer-badge">ISO 9001 certified</span>
             </div>
           </div>
 

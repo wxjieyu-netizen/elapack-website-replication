@@ -67,23 +67,23 @@ const brandLogos = [
 
 const whyCards = [
   {
-    title: "Custom Supply",
-    desc: "Flexible sourcing and formulation cooperation for specific product requirements.",
+    title: "Custom Manufacturing",
+    desc: "Boxes, bags, pouches and ribbons made to your dimensions, materials and artwork by our own factory in Wuxi — no middlemen between your spec and production.",
     image: "/why-custom-supply.webp",
   },
   {
-    title: "R&D Support",
-    desc: "Technical review and product development support for target applications.",
+    title: "Structure & Sampling",
+    desc: "We check structure, size and insert fit against your actual product, then prove it on a physical sample — custom samples in 3–5 days before any production commitment.",
     image: "/why-rd-support.webp",
   },
   {
-    title: "Supply Chain",
-    desc: "Packaging, warehousing, and export coordination for stable delivery.",
+    title: "Export & Delivery",
+    desc: "Production in 15–20 days for 200–20,000 pieces, shipped from Shanghai or Shenzhen by sea or air; DDP quoted on request.",
     image: "/why-supply-chain.webp",
   },
   {
-    title: "Technical Service",
-    desc: "Clear documents, responsive communication, and consistent order follow-up.",
+    title: "Clear Specs, Written Quotes",
+    desc: "A written quotation within 1 business day, with dimensions, materials, inserts and logo method confirmed in writing — then verified again on your approved sample.",
     image: "/why-technical-service.webp",
   },
 ];
@@ -162,7 +162,7 @@ export default function Home() {
           Get a Quote
         </Link>
         <h1 className="visually-hidden">
-          OEM &amp; ODM Custom Packaging Solutions
+          Custom Luxury Packaging for Jewelry, Beauty, Fragrance &amp; Gift Brands
         </h1>
         <div className="hero-scroll">
           <span>Scroll</span>

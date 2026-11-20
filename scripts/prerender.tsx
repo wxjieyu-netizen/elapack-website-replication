@@ -64,7 +64,7 @@ const ROUTES = [
 
 /** Static title per route (product pages compose their own from the slug). */
 const STATIC_TITLES: Record<string, string> = {
-  "/": "ELAPACK — Custom Luxury Packaging for Global Brands",
+  "/": "Custom Luxury Packaging with Logo — Rigid Boxes, Pouches & Sets from 200 Pcs | ELAPACK",
   "/products/custom-velvet-pouches": "Custom Velvet Pouches with Logo — From 200 Pcs | ELAPACK",
   "/products/custom-press-on-nail-boxes": "Custom Press-on Nail Boxes with Logo — From 200 Pcs | ELAPACK",
   "/pouches-bags": "Custom Fabric Pouches & Bags with Logo — From 200 Pcs | ELAPACK",
@@ -102,7 +102,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
     "Custom press-on nail boxes with your logo, from 200 pieces — sized to your nail sets and trays, with shade and size systems shown on pack.",
   "/products/custom-tissue-paper":
     "Custom printed tissue paper, 17–30 gsm in 50 × 70 cm and 100 × 100 cm sheets or custom sizes. Single to full-coverage print, from 500 sheets per design.",
-  "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets — one-stop custom packaging.",
+  "/": "ELAPACK makes custom luxury packaging for jewelry, beauty, fragrance and gift brands — rigid boxes, velvet pouches, shopping bags and coordinated sets with your logo, from 200 pieces.",
   "/pouches-bags": "Custom fabric pouches and bags with your logo in velvet, cotton, satin, muslin and microfiber, from 200 pieces — colour-matched with our rigid boxes.",
   "/boxes": "Custom rigid boxes in two-piece, magnetic flap, drawer and folding structures, with EVA, sponge, pulp or flocked inserts. MOQ 200 pcs; samples in 3–5 days.",
   "/sets": "Custom packaging sets with your logo — box, pouch and insert as one set, Pantone colour-matched. Each component from 200 pieces, made in one factory.",
