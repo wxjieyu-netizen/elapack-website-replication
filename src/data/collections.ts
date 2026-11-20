@@ -24,7 +24,7 @@ export type Collection = {
    * One self-contained paragraph; every figure must come from the confirmed
    * trade-terms whitelist (MOQ / lead times / sample terms).
    */
-  factBlock?: { updated: string; paragraph: string };
+  factBlock?: { updated: string; paragraph: string; top?: boolean };
   /** Selection decision table (mirrors the landing tables): type | best for | what to confirm on the sample. */
   table?: { heading: string; columns: string[]; rows: string[][]; note?: string };
   /** Closing FAQ group; also emitted as FAQPage JSON-LD by the prerender, same mechanism as the landings. */
@@ -108,8 +108,9 @@ export const collections: Collection[] = [
     ],
     factBlock: {
       updated: "November 2026",
+      top: true,
       paragraph:
-        "ELAPACK custom jewelry boxes — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering rigid lift-off, magnetic flip-top, ribbon-tie and faux leather boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK custom jewelry boxes — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering rigid lift-off, magnetic flip-top, ribbon-tie and faux leather boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order), is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal. Quotations: a written quotation within 1 business day of your enquiry.",
     },
     table: {
       heading: "Choose a jewelry box structure",
@@ -439,8 +440,9 @@ export const collections: Collection[] = [
       "Custom jewelry packaging from one manufacturer — logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
     factBlock: {
       updated: "November 2026",
+      top: true,
       paragraph:
-        "ELAPACK jewelry packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component — for a box-plus-pouch set, each component is counted at its own quantity, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK jewelry packaging — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component — for a box-plus-pouch set, each component is counted at its own quantity, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order), is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal. Quotations: a written quotation within 1 business day of your enquiry.",
     },
     intro:
       "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display — and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets — colour-matched and branded as one system.",
