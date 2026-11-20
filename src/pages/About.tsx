@@ -148,7 +148,7 @@ export default function About() {
             </p>
             <p className="about-text">
               If you are planning packaging for a product, write to me at
-              tina@elapack.com. I reply within one business day.
+              tina@elapack.com. I reply within one business day (Mon–Fri, China time).
             </p>
             <h3
               className="section-title"

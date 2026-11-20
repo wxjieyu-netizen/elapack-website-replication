@@ -83,7 +83,7 @@ const solutionContent: Record<
     points: [
       {
         title: "1. Brief & Quotation",
-        desc: "Send the product, dimensions, materials and quantity. Every component is quoted separately, and we reply within one business day.",
+        desc: "Send the product, dimensions, materials and quantity. Every component is quoted separately, and we reply within one business day (Mon–Fri, China time).",
       },
       {
         title: "2. Custom Sample",

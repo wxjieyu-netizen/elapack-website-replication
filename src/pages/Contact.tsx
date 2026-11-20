@@ -95,7 +95,7 @@ export default function Contact() {
           </h1>
           <p className="page-subtitle reveal reveal-delay-2">
             Tell us about your brand and your packaging vision. We'll respond
-            within one business day with next steps.
+            within one business day (Mon–Fri, China time) with next steps.
           </p>
         </div>
       </section>
@@ -155,7 +155,7 @@ export default function Contact() {
                   <h3 className="success-title">Thank you.</h3>
                   <p className="success-text">
                     Your message has been received. A member of our team will
-                    reach out within one business day.
+                    reach out within one business day (Mon–Fri, China time).
                   </p>
                   <p className="success-text">
                     While you wait, here are a few ways to move faster:

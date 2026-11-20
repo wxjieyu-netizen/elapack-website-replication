@@ -522,7 +522,7 @@ export default function ProductDetail() {
             </h2>
             <p className="cta-text">
               Share your specifications and we'll respond with next steps
-              within one business day.
+              within one business day (Mon–Fri, China time).
             </p>
             <Link to={quoteUrl} className="btn-primary">
               Start Your Project

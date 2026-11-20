@@ -48,7 +48,7 @@ export default function Footer() {
             <ul className="footer-contact">
               <li>
                 <span className="footer-label">Phone</span>
-                <a href="tel:+8618626352096">+86 18626352096</a>
+                <a href="tel:+8618626352096">+86 186 2635 2096</a>
               </li>
               <li>
                 <span className="footer-label">Email</span>
@@ -56,7 +56,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className="footer-label">WhatsApp</span>
-                <a href="https://wa.me/8618626352096">+86 18626352096</a>
+                <a href="https://wa.me/8618626352096">+86 186 2635 2096</a>
               </li>
               <li>
                 <span className="footer-label">Location</span>
