@@ -463,6 +463,31 @@ export default function ProductDetail() {
                 Comparing ring boxes with other jewelry box formats? <Link to="/custom-jewelry-boxes/">Review custom jewelry boxes and inserts</Link> before finalizing the collection brief.
               </p>
             )}
+            {slug === "custom-microfiber-cleaning-cloth-eyewear" && (
+              <p className="product-description-text">
+                Specifying this cloth as part of a matched eyewear set? See <Link to="/eyewear-packaging/">glasses boxes and pouches to match</Link> before finalizing the brief.
+              </p>
+            )}
+            {slug === "custom-perfume-boxes" && (
+              <p className="product-description-text">
+                Building a wider beauty program around the fragrance line? Compare <Link to="/custom-cosmetic-packaging/">cosmetic boxes and sets</Link> made by the same factory.
+              </p>
+            )}
+            {slug === "custom-pvc-bags" && (
+              <p className="product-description-text">
+                Comparing clear bags with fabric formats? Browse <Link to="/custom-cosmetic-pouches/">clear and fabric cosmetic pouches</Link> to settle the format first.
+              </p>
+            )}
+            {slug === "custom-satin-wig-bag" && (
+              <p className="product-description-text">
+                Planning this bag as part of a complete hair program? See <Link to="/custom-wig-packaging/">custom wig packaging</Link> for the matching boxes and sets.
+              </p>
+            )}
+            {slug === "custom-velvet-pouches" && (
+              <p className="product-description-text">
+                Choosing pouches for a jewelry line? Compare <Link to="/custom-jewelry-pouches/">jewelry pouches with logo</Link> across fabrics and closures.
+              </p>
+            )}
             <div className="related-grid">
               {related.map((item, i) => (
                 <Link

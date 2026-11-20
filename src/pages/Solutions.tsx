@@ -125,6 +125,9 @@ const solutionContent: Record<
         desc: "Request documentation for the exact material quoted; we confirm which documents are available before making a claim.",
       },
     ],
+    links: [
+      { label: "packaging that ships lighter", href: "/lightweight-luxury-packaging/" },
+    ],
   },
 };
 

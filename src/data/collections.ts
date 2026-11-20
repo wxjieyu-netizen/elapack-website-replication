@@ -609,6 +609,7 @@ export const collections: Collection[] = [
       },
     
     ],
+    relatedPages: [{ path: "/custom-candle-boxes/", label: "rigid candle boxes" }],
     ctaLink: { lead: "Send your product size, structure, finish and quantity to", anchor: "request a gift box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your custom gift boxes",
     guideSlugs: [
@@ -1103,6 +1104,7 @@ export const collections: Collection[] = [
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
       { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon–Fri, China time)." },
     ],
+    relatedPages: [{ path: "/lightweight-luxury-packaging/", label: "lightweight box and pouch combinations" }],
     ctaLink: { lead: "Send your component list, theme and quantity to", anchor: "request a subscription box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your subscription box program",
     factBlock: {

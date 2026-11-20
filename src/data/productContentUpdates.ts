@@ -92,6 +92,10 @@ export const productContentUpdates: Record<string, any> = {
   ],
   "links": [
     [
+      "/custom-wig-packaging/",
+      "wig bags and boxes"
+    ],
+    [
       "/products/custom-satin-wig-bag/",
       "Custom satin wig bags"
     ],
@@ -406,6 +410,11 @@ export const productContentUpdates: Record<string, any> = {
       ]
     ],
     "links": [
+      [
+        "/lightweight-luxury-packaging/",
+        "lighter, ships-flat box options",
+        "折叠平寄的轻量结构对照；本款为磁吸硬盒，轻量是另一结构路线"
+      ],
       [
         "/products/luxury-gift-box-ribbon/",
         "Explore gift boxes with ribbon",

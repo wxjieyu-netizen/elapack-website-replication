@@ -172,6 +172,12 @@ export default function Industries() {
             ))}
           </div>
 
+          <p className="markets-note" style={{ marginTop: "1.5rem" }}>
+            Beauty brands can go straight to{" "}
+            <Link to="/custom-cosmetic-packaging/">packaging for beauty brands</Link>{" "}
+            — boxes, pouches and sets specified as one program.
+          </p>
+
           {selected && (
             <div className="industry-detail reveal">
               <div className="industry-detail-header">

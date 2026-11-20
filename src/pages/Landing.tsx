@@ -133,13 +133,13 @@ export default function Landing({ slug }: { slug: string }) {
               </p>
             )}
             {slug === "sets" && <p className="about-text landing-related-links" style={{ maxWidth: "820px", margin: "1rem auto 0" }}>
-              Compare <Link to="/boxes/">box options</Link> and <Link to="/pouches-bags/">pouch options</Link>, or browse <Link to="/products/?category=Retail%20Display%20Props">retail display props</Link> for a separate display project.
+              Compare <Link to="/boxes/">box options</Link> and <Link to="/pouches-bags/">pouch options</Link>, or browse <Link to="/products/?category=Retail%20Display%20Props">retail display props</Link> for a separate display project. For beauty programs, the combinations above start from <Link to="/custom-cosmetic-packaging/">beauty packaging sets</Link>.
             </p>}
             {slug === "boxes" && <p className="about-text landing-related-links" style={{ maxWidth: "820px", margin: "1rem auto 0" }}>
-              Sourcing for jewelry? Compare <Link to="/custom-jewelry-boxes/">jewelry box structures and inserts</Link> or see the <Link to="/custom-jewelry-packaging/">full box-and-pouch program</Link>.
+              Sourcing for jewelry? Compare <Link to="/custom-jewelry-boxes/">jewelry box structures and inserts</Link> or see the <Link to="/custom-jewelry-packaging/">full box-and-pouch program</Link>. For jar and vessel programs, see <Link to="/custom-candle-boxes/">custom candle boxes</Link>. Where freight weight drives the brief, compare <Link to="/lightweight-luxury-packaging/">lightweight luxury packaging</Link> structures that ship flat or nested.
             </p>}
             {slug === "pouches-bags" && <p className="about-text landing-related-links" style={{ maxWidth: "820px", margin: "1rem auto 0" }}>
-              Choose the fabric by what the pouch carries and protects, and coordinate it with a box in one order — see <Link to="/sets/">complete packaging sets</Link>. For cord closure and usable opening, review <Link to="/custom-drawstring-bags/">custom drawstring bags</Link>. Material-specific quotations: <Link to="/contact/?product=custom-velvet-pouches">velvet</Link> · <Link to="/contact/?product=custom-satin-pouches">satin</Link> · <Link to="/contact/?product=custom-cotton-pouches">cotton</Link> · <Link to="/contact/?product=custom-microfiber-pouches">microfiber</Link>.
+              Choose the fabric by what the pouch carries and protects, and coordinate it with a box in one order — see <Link to="/sets/">complete packaging sets</Link>. For cord closure and usable opening, review <Link to="/custom-drawstring-bags/">custom drawstring bags</Link>. For frames and lenses, see <Link to="/eyewear-packaging/">branded eyewear cases and pouches</Link>; makeup and beauty formats sit under <Link to="/custom-cosmetic-pouches/">custom cosmetic pouches</Link>; hair brands can start from <Link to="/custom-wig-packaging/">packaging for wig and hair brands</Link>. Material-specific quotations: <Link to="/contact/?product=custom-velvet-pouches">velvet</Link> · <Link to="/contact/?product=custom-satin-pouches">satin</Link> · <Link to="/contact/?product=custom-cotton-pouches">cotton</Link> · <Link to="/contact/?product=custom-microfiber-pouches">microfiber</Link>.
             </p>}
           </div>
           {landing.hero && (
