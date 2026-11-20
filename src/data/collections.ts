@@ -348,7 +348,7 @@ export const collections: Collection[] = [
     slug: "custom-wig-packaging",
     browserTitle: "Custom Wig Packaging with Logo — Bags & Boxes | ELAPACK",
     eyebrow: "Wig & Hair Packaging",
-    h1: "Custom Wig Packaging — Bags & Boxes Built Around Your Hair Product",
+    h1: "Custom Wig Packaging — Bags & Boxes",
     subhead:
       "Compare satin bags, presentation boxes and matched sets by actual packed dimensions, intended use and sample fit.",
     metaDescription:
@@ -947,7 +947,7 @@ export const collections: Collection[] = [
   {
     slug: "custom-cosmetic-pouches",
     eyebrow: "Cosmetic Pouches",
-    h1: "Custom Cosmetic Pouches & Makeup Bags",
+    h1: "Custom Makeup Bags & Cosmetic Pouches",
     subhead:
       "Compare fabric and clear PVC pouch options by closure, contents and branding; confirm the selected combination in the quote.",
     metaDescription:
@@ -1036,7 +1036,7 @@ export const collections: Collection[] = [
   {
     slug: "subscription-box-packaging",
     eyebrow: "Subscription Box Packaging",
-    h1: "Custom Subscription Box Packaging: Boxes, Pouches & Insert Cards",
+    h1: "Custom Subscription Box Packaging — Boxes, Pouches & Inserts",
     subhead:
       "Monthly themed boxes, fabric pouches and insert cards for subscription programs — one manufacturer, matched branding, from 200 pieces.",
     metaDescription:
@@ -1123,7 +1123,7 @@ export const collections: Collection[] = [
     slug: "lightweight-luxury-packaging",
     browserTitle: "Lightweight Luxury Packaging for Jewelry & Beauty Brands | ELAPACK",
     eyebrow: "Structure & Materials",
-    h1: "Lightweight Luxury Packaging — Less Weight, Same Unboxing Value, Confirmed by Sample",
+    h1: "Lightweight Luxury Packaging for Jewelry & Beauty Brands",
     subhead:
       "Lightweight does not mean thin and cheap. Keep the unboxing value in texture, precision and finish, and confirm weight, volume and freight for your specific box on a sample — no generic saving is claimed here.",
     metaDescription:

@@ -45,7 +45,7 @@ export type Product = {
 export const products: Product[] = [
   {
     slug: "black-leather-jewelry-box",
-    name: "Custom Black Jewelry Boxes",
+    name: "Custom Jewelry Boxes — Black",
     category: "Boxes",
     shortDesc:
       "Black jewelry box packaging; confirm exterior, interior, insert and branding in the quotation and sample.",
@@ -131,7 +131,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-white-jewelry-box",
-    name: "Custom White Jewelry Boxes",
+    name: "Custom Jewelry Boxes — White",
     category: "Boxes",
     shortDesc:
       "White jewelry box packaging; confirm shell, insert, closure and logo method against your approved sample.",
@@ -212,7 +212,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-ring-boxes",
-    name: "Custom Ring & Engagement Ring Boxes",
+    name: "Custom Ring Boxes & Engagement Ring Boxes",
     category: "Boxes",
     shortDesc:
       "Custom ring boxes for jewelry brands, from 200 pieces. Plan the ring fit, insert, exterior and logo together before approving a sample.",
@@ -300,7 +300,7 @@ export const products: Product[] = [
   },
   {
     slug: "luxury-gift-box-ribbon",
-    name: "Luxury Gift Boxes with Ribbon",
+    name: "Custom Ribbon-Tie Gift Boxes",
     category: "Boxes",
     shortDesc:
       "Rigid luxury gift box with satin ribbon tie closure — premium presentation for corporate gifting. MOQ 200 pcs, typical production 15–20 days.",
@@ -523,7 +523,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-perfume-boxes",
-    name: "Custom Perfume Packaging Boxes",
+    name: "Custom Perfume Boxes",
     category: "Boxes",
     shortDesc:
       "Custom perfume box projects from 200 pieces; confirm the bottle fit, structure, insert and finish in a sample.",
@@ -632,7 +632,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-perfume-sample-card-boxes",
-    name: "Custom Printed Perfume Sample Cards",
+    name: "Custom Perfume Sample Cards",
     category: "Sampling Cards",
     shortDesc:
       "Printed perfume sampling cards; share vial or sachet dimensions, attachment method and artwork for a quote.",
@@ -1190,7 +1190,7 @@ export const products: Product[] = [
   },
   {
     slug: "velvet-necklace-display",
-    name: "Velvet Necklace Display Stand",
+    name: "Velvet Necklace Display Stands",
     category: "Retail Display Props",
     shortDesc: "Necklace display stands for wholesale retail projects. Discuss height, presentation and branding for your assortment.",
     description: "Planning wholesale necklace displays? Share the chain lengths, pendant dimensions, available counter space, preferred presentation and quantity. Confirm the proposed height, base footprint, covering and logo options in your quotation, then review the sample with your jewellery.",
@@ -1239,7 +1239,7 @@ export const products: Product[] = [
   },
   {
     slug: "acrylic-earring-display",
-    name: "Acrylic Earring Display Stand",
+    name: "Acrylic Earring Display Stands for Jewelry Retail",
     category: "Retail Display Props",
     shortDesc: "Earring display stands for retail projects. Discuss the layout and material for your assortment.",
     description: "For an earring display quote, list the earring styles, the number of pairs to present and any preferred layout. Check hole or slot placement, spacing, stand dimensions and the chosen material with a sample before approving production.",
@@ -1288,7 +1288,7 @@ export const products: Product[] = [
   },
   {
     slug: "kraft-paper-shopping-bag",
-    name: "Kraft Paper Shopping Bag",
+    name: "Custom Kraft Paper Shopping Bags",
     category: "Pouches & Bags",
     shortDesc:
       "Kraft shopping bag with twisted handles — custom logo printing.",
@@ -1352,7 +1352,7 @@ export const products: Product[] = [
   },
   {
     slug: "stackable-jewelry-tray",
-    name: "Stackable Jewelry Tray",
+    name: "Stackable Jewelry Trays for Retail Display",
     category: "Retail Display Props",
     shortDesc: "Jewelry display trays for wholesale projects. Confirm the compartment layout, fixture fit and stacking interface.",
     description: "For wholesale jewellery display trays, measure the inside of the showcase or drawer and list the jewellery dimensions and desired layout. Confirm external tray size, usable compartments, covering and any stacking interface on the proposed sample.",
@@ -1401,7 +1401,7 @@ export const products: Product[] = [
   },
   {
     slug: "velvet-jewelry-display-set",
-    name: "Velvet Jewelry Display Set",
+    name: "Velvet Jewelry Display Sets for Retail",
     category: "Retail Display Props",
     shortDesc: "Coordinated jewelry display components for retail counters. Specify the piece mix and quantity for each component.",
     description: "For a coordinated jewellery display programme, list each component, its quantity and the available counter space. Confirm the proposed piece mix, covering and colours in the quotation. Display sets start at 10 sets; confirm allocation across variants when requesting a quote.",
@@ -1450,7 +1450,7 @@ export const products: Product[] = [
   },
   {
     slug: "leather-envelope-pouch",
-    name: "Leather Envelope Pouch",
+    name: "Custom Leather Envelope Pouches",
     category: "Pouches & Bags",
     shortDesc:
       "Pebbled faux-leather envelope pouch with gold foil logo, snap closure and soft suede-touch interior.",
@@ -1652,7 +1652,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-muslin-drawstring-pouch",
-    name: "Custom Natural-Fabric Drawstring Pouches",
+    name: "Custom Muslin Drawstring Pouches",
     category: "Pouches & Bags",
     shortDesc:
       "Natural-look drawstring pouch projects; confirm the fabric composition, weave and cord in a sample.",
@@ -1772,7 +1772,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-pvc-bags",
-    name: "Custom Clear Packaging Bags with Logo",
+    name: "Custom Clear PVC Bags",
     category: "Pouches & Bags",
     shortDesc:
       "Clear custom bags with logo from 200 pieces; confirm film and closure type in a sample.",
@@ -1840,7 +1840,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-microfiber-cleaning-cloth-jewelry",
-    name: "Custom Microfiber Cleaning Cloth for Jewelry",
+    name: "Custom Microfiber Polishing Cloths for Jewelry",
     category: "Pouches & Bags",
     shortDesc:
       "Microfiber polishing cloth for jewelry, from 200 pieces; confirm size, edge, print and polishing scope in a sample.",

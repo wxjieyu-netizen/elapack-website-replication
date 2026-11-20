@@ -58,7 +58,7 @@ export const landings: Landing[] = [
     ],
     eyebrow: "Pouches & Bags",
     titleTag: "Custom Fabric Pouches & Bags with Logo | ELAPACK",
-    h1: "Custom Fabric Pouches & Bags — Made to Your Spec, from 200 Pieces",
+    h1: "Custom Fabric Pouches & Bags",
     subhead: "Your size. Your fabric. Your closure. Your logo. Cut, sewn and finished together.",
     metaDescription:
       "Custom fabric pouches and bags with your logo in velvet, cotton, satin, muslin and microfiber, from 200 pieces — colour-matched with our rigid boxes.",
@@ -241,7 +241,7 @@ export const landings: Landing[] = [
     ],
     eyebrow: "Sets & Bundles",
     titleTag: "Custom Packaging Sets with Logo — Box, Pouch & Insert | ELAPACK",
-    h1: "Custom Packaging Sets — Pouch, Box & More, Made to Work Together",
+    h1: "Custom Packaging Sets — Boxes, Pouches & Bags",
     subhead: "One spec. One supplier. Pouch, box and insert that match — piece to piece.",
     metaDescription:
       "Custom packaging sets with your logo — box, pouch and insert as one set, Pantone colour-matched. Each component from 200 pieces, made in one factory.",
