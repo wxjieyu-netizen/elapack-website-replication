@@ -79,7 +79,7 @@ export default function Privacy() {
           <h1 className="page-title reveal reveal-delay-1">Privacy Policy</h1>
           <p className="page-subtitle reveal reveal-delay-2">
             {/* Publication date is filled in at release time. */}
-            Last updated: [publication date — to be filled in at release]
+            Last updated: November 2026
           </p>
         </div>
       </section>
