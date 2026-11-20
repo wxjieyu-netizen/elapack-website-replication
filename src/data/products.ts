@@ -948,7 +948,7 @@ export const products: Product[] = [
     description:
       "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure — drawstring, flap, envelope or zipper — your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Custom sizing is reviewed against the product and construction, from small gift pouches to larger presentation bags. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is quoted separately. Velvet colour is reviewed against the approved sample before bulk. A custom sample (USD 30 plus USD 25 shipping, 3–5 days) settles pile direction, shade and logo hand before the production order — the cheapest way to see the exact fabric your program will carry.",
     intro:
-      "Custom velvet pouches with a plush, gift-ready feel at first touch — the dense velvet pile cushions jewelry, eyewear and small luxury goods through retail, gifting and unboxing moments. Choose drawstring, flap, envelope or zipper closure, a Pantone-matched velvet colour, and silkscreen, hot-stamp or woven-label branding. Orders start at 200 pieces; custom sizing is reviewed against your product and construction.",
+      "Custom velvet pouches for jewelry, eyewear and small gifts. Choose a drawstring, flap, envelope or zipper closure, match the velvet to your Pantone colour, and add your logo by silkscreen, hot stamp or woven label. MOQ 200 pcs. Custom samples ship in 3–5 days.",
     image:
       "/images/products/custom-velvet-pouches/custom-velvet-pouches-hero.webp",
     gallery: [
@@ -972,7 +972,7 @@ export const products: Product[] = [
     features: [
       {
         title: "Plush Velvet Protection",
-        desc: "Dense velvet pile cushions jewelry, frames and finished goods against scratches.",
+        desc: "Dense velvet pile cushions jewelry, eyewear and small luxury goods against scratches.",
       },
       {
         title: "Four Closure Styles",
@@ -988,14 +988,17 @@ export const products: Product[] = [
       },
     ],
     specs: [
-      { label: "Fabric options", value: "Velvet: confirm fibre composition, pile direction, colour and weight or construction in the quotation and approved sample" },
-      { label: "Closure options", value: "Drawstring, flap, envelope or zipper; string types confirmed in quotation" },
-      { label: "Size", value: "Made to your product dimensions — confirm finished size in the quotation" },
-      { label: "Logo method", value: "Silkscreen, hot stamp or woven label; Pantone matching on request" },
+      { label: "MOQ", value: "200 pcs per product" },
+      { label: "Closures", value: "Drawstring, flap, envelope, zipper" },
+      { label: "Logo", value: "Silkscreen, hot stamp, woven label" },
+      { label: "Artwork files", value: "AI, PDF or PNG, with Pantone colour references" },
+      { label: "Colour", value: "Pantone matching on request" },
+      { label: "Size", value: "Standard sizes 8 × 10 cm, 10 × 12 cm and 12 × 15 cm. Custom sizes are made to your product dimensions" },
+      { label: "Fabric weight", value: "Standard velvet runs 200–250 gsm — the weight most pouch programs use. For a thicker, more substantially cushioned hand, a heavier 280–300 gsm velvet is available. Confirm the weight in the quotation and on the approved sample" },
+      { label: "Samples", value: "Stock sample free + USD 25 shipping (4–7 days). Custom sample USD 30 + USD 25 shipping (3–5 days)" },
+      { label: "Production", value: "15–20 days (200–20,000 pcs); 30–35 days (20,000–50,000 pcs), after sample approval and payment" },
       { label: "Protection", value: "Check the loaded fit, seams, closure and material contact on a sample. Request material-specific evidence for any claimed protective treatment" },
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
-      { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     faqs: [
       {
@@ -1016,11 +1019,27 @@ export const products: Product[] = [
       },
       {
         q: "Will a velvet pouch protect jewellery from scratches?",
-        a: "The velvet surface is soft and non-abrasive, so it protects against contact scratches, dust and rubbing in storage and transit. It is a surface-protection fabric, not a rigid one — for impact protection the pouch is paired with a box or a fitted insert. If you need an anti-tarnish function for silver or plated items, that is a separate lining option, confirmed in the quotation and by sample.",
+        a: "The velvet surface is soft and non-abrasive, so it protects against contact scratches, dust and rubbing in storage and transit. It is a surface-protection fabric, not a rigid one — for impact protection the pouch is paired with a box or a fitted insert.",
       },
       {
         q: "Can I put more than one piece of jewellery in one pouch?",
         a: "You can, but pieces stored together can rub and chains can tangle. For multi-piece storage, ask for internal dividers or a larger format in the enquiry, or order one pouch per piece — most jewellery brands do the latter so each item is presented and stored separately. The arrangement is checked on the sample with your actual pieces.",
+      },
+      {
+        q: "What are the standard sizes?",
+        a: "Standard sizes are 8 × 10 cm, 10 × 12 cm and 12 × 15 cm. Custom sizes are made to your product dimensions, and MOQ stays 200.",
+      },
+      {
+        q: "What artwork file do you need?",
+        a: "AI, PDF or PNG. Send your logo file with your Pantone colour references in the enquiry, so the logo method — silkscreen, hot stamp or woven label — is quoted against the actual artwork.",
+      },
+      {
+        q: "How do you control colour difference?",
+        a: "Colour is reviewed against the approved sample before bulk. The standard acceptance for bulk production is a colour difference of ΔE ≤ 1.5 against the confirmed sample, grey scale grade 4.",
+      },
+      {
+        q: "What affects the price?",
+        a: "Size, velvet, closure, logo method and quantity.",
       },
     ],
     customizationOptions: [
