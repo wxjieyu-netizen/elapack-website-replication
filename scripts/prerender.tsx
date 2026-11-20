@@ -228,11 +228,19 @@ for (const route of ROUTES) {
     // GitHub Pages 301s bare inner paths to the trailing-slash URL, so that
     // form is the canonical one everywhere (head link, og:url, JSON-LD ids).
     const canonical = `${SITE}${route === "/" ? "/" : route + "/"}`;
-    const ogImage = article
-      ? pageImage(article.image)
-      : product
-        ? pageImage(product.image)
-        : `${SITE}/hero-packaging.webp`;
+    // Pages whose social image uses an existing real product photo instead
+    // of the shared site hero (micro-fix batch, item 6).
+    const OG_IMAGE_OVERRIDES: Record<string, string> = {
+      "/sets": `${SITE}/images/sets/magic-pack-navy-set.webp`,
+      "/custom-jewelry-boxes": `${SITE}/images/products/custom-ring-boxes/custom-ring-boxes-hero.webp`,
+    };
+    const ogImage =
+      OG_IMAGE_OVERRIDES[route] ??
+      (article
+        ? pageImage(article.image)
+        : product
+          ? pageImage(product.image)
+          : `${SITE}/hero-packaging.webp`);
 
     const crumbs: { name: string; item?: string }[] = [
       { name: "Home", item: `${SITE}/` },
