@@ -33,9 +33,9 @@ export default function Products() {
         <div className="container">
           <p className="eyebrow reveal">Our Products</p>
           <h1 className="page-title reveal reveal-delay-1">
-            A Complete Packaging
+            Custom Packaging Products —
             <br />
-            Ecosystem
+            Boxes, Pouches, Bags & Sets
           </h1>
           <p className="page-subtitle reveal reveal-delay-2">
             Browse individual packaging components, retail display props and

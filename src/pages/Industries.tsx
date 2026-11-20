@@ -114,9 +114,9 @@ export default function Industries() {
         <div className="container">
           <p className="eyebrow reveal">Industries</p>
           <h1 className="page-title reveal reveal-delay-1">
-            Packaging for
+            Custom Packaging
             <br />
-            Every Industry
+            by Industry
           </h1>
           <p className="page-subtitle reveal reveal-delay-2">
             We serve brands across jewelry, beauty, fragrance, fashion, and

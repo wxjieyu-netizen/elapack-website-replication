@@ -174,9 +174,9 @@ export default function Solutions() {
         <div className="container">
           <p className="eyebrow reveal">Solutions</p>
           <h1 className="page-title reveal reveal-delay-1">
-            Packaging
+            Packaging Solutions —
             <br />
-            Solutions
+            Materials, Structures & Sustainability
           </h1>
           <p className="page-subtitle reveal reveal-delay-2">
             Compare structures, materials and finishes for your packaging brief. For sampling and production steps, see the <Link to="/video/">process and video page</Link>.
