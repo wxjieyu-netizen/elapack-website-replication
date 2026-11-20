@@ -135,7 +135,7 @@ export const collections: Collection[] = [
       },
     
     ],
-    ctaLink: { lead: "Send your piece dimensions, structure, insert and quantity to", anchor: "request a jewelry box quotation", product: "custom-ring-boxes" },
+    ctaLink: { lead: "Send your piece dimensions, structure, insert and quantity to", anchor: "request a jewelry box quotation", product: "custom-jewelry-boxes" },
     ctaTitle: "Request a quote for your custom jewelry box",
     guideSlugs: [
       "how-to-choose-custom-jewelry-boxes",

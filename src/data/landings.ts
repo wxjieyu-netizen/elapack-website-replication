@@ -250,7 +250,7 @@ export const landings: Landing[] = [
       "Each component (box, pouch, insert) counts at its own 200-piece minimum; colours are matched across components to your Pantone reference.",
     ],
     intro:
-      "This page covers multi-component packaging supplied around one product, for any product — not jewelry only. Start with unboxing experience, product value and protection, then choose the set: a box, pouch and optional insert, card, ribbon or microfiber cleaning cloth. Specify each component and its quantity together so colour, material and branding can be checked across the set. Jewelry stands and trays are retail display props in the product catalogue, not box-and-pouch sets.",
+      "This page covers multi-component packaging supplied around one product, for any product — not jewelry only. Start with unboxing experience, product value and protection, then choose the set: a box, pouch and optional insert, card, ribbon or microfiber cleaning cloth. Specify each component and its quantity together so colour, material and branding can be checked across the set.",
     why: {
       heading: "What a set can include",
       items: [

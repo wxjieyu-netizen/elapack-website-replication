@@ -325,7 +325,7 @@ export default function Landing({ slug }: { slug: string }) {
               Message Tina on WhatsApp or phone:{" "}
               <a href="https://wa.me/8618626352096">+86 186 2635 2096</a>
               {" "}· Email: <a href="mailto:tina@elapack.com">tina@elapack.com</a>
-              {" "}· <Link to={slug === "boxes" ? "/contact/?product=magnetic-closure-gift-box" : "/contact/"}>Send project details</Link>
+              {" "}· <Link to={slug === "boxes" ? "/contact/?product=magnetic-closure-gift-box" : slug === "sets" ? "/contact/?product=custom-packaging-sets" : "/contact/"}>Send project details</Link>
             </p>
           </div>
         </div>
