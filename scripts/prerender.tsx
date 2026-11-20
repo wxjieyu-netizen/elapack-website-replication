@@ -373,20 +373,7 @@ for (const route of ROUTES) {
       });
     }
     if (product) {
-      const moqMatch = /^(\d+)\s+(.*)$/.exec(product.moq);
-      const offers = {
-        "@type": "AggregateOffer",
-        ...(moqMatch
-          ? {
-              eligibleQuantity: {
-                "@type": "QuantitativeValue",
-                minValue: Number(moqMatch[1]),
-                unitText: moqMatch[2],
-              },
-            }
-          : {}),
-      };
-      graph.push(review ? { ...review.schema_product, mainEntityOfPage: { "@type": "WebPage", "@id": canonical }, offers } : {
+      graph.push(review ? { ...review.schema_product, mainEntityOfPage: { "@type": "WebPage", "@id": canonical } } : {
         "@type": "Product",
         "@id": `${canonical}#product`,
         name: product.name,
@@ -400,7 +387,6 @@ for (const route of ROUTES) {
           { "@type": "PropertyValue", name: "Minimum Order Quantity", value: product.moq },
           { "@type": "PropertyValue", name: "Lead Time", value: product.leadTime },
         ],
-        offers,
         mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
       });
       graph.push({
