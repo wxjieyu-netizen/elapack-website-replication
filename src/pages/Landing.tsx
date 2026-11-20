@@ -54,6 +54,23 @@ export default function Landing({ slug }: { slug: string }) {
         </div>
       </section>
 
+      {landing.keyFacts && (
+        <section className="section" style={{ paddingBottom: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+                Key facts (November 2026)
+              </h2>
+              <ul className="spec-list">
+                {landing.keyFacts.map((line) => (
+                  <li key={line}>{line}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+      )}
+
       {catalogProducts.length > 0 && (
         <section className="section products-section">
           <div className="container">

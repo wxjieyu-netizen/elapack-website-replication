@@ -64,9 +64,9 @@ const ROUTES = [
 /** Static title per route (product pages compose their own from the slug). */
 const STATIC_TITLES: Record<string, string> = {
   "/": "ELAPACK — Custom Luxury Packaging for Global Brands",
-  "/pouches-bags": "Custom Fabric Pouches & Bags from 200 pcs | ELAPACK",
+  "/pouches-bags": "Custom Fabric Pouches & Bags with Logo — From 200 Pcs | ELAPACK",
   "/boxes": "Custom Rigid Boxes & Magnetic Gift Boxes from 200 Pieces | ELAPACK",
-  "/sets": "Custom Packaging Sets — Pouch, Box & More | ELAPACK",
+  "/sets": "Custom Packaging Sets with Logo — Box, Pouch & Insert | ELAPACK",
   "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 200 pcs | ELAPACK",
   "/eyewear-packaging": "Custom Eyewear Packaging — Glasses Boxes & Pouches | ELAPACK",
   "/custom-jewelry-pouches": "Custom Jewelry Pouches with Logo, from 200 pcs | ELAPACK",
@@ -95,9 +95,9 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/products/custom-tissue-paper":
     "Custom printed tissue paper, 17–30 gsm in 50 × 70 cm and 100 × 100 cm sheets or custom sizes. Single to full-coverage print, from 500 sheets per design.",
   "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets — one-stop custom packaging.",
-  "/pouches-bags": "Custom textile pouches and bags — velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
-  "/boxes": "Custom rigid boxes in your size, finish and branding — two-piece lift-off lid, magnetic flap, drawer and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ 200 pieces, production in 15–20 working days.",
-  "/sets": "Custom packaging sets — pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference.",
+  "/pouches-bags": "Custom fabric pouches and bags with your logo in velvet, cotton, satin, muslin and microfiber, from 200 pieces — colour-matched with our rigid boxes.",
+  "/boxes": "Custom rigid boxes in two-piece, magnetic flap, drawer and folding structures, with EVA, sponge, pulp or flocked inserts. MOQ 200 pcs; samples in 3–5 days.",
+  "/sets": "Custom packaging sets with your logo — box, pouch and insert as one set, Pantone colour-matched. Each component from 200 pieces, made in one factory.",
   "/custom-jewelry-boxes": "Custom jewelry boxes with your logo — rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
   "/eyewear-packaging": "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
   "/custom-jewelry-pouches": "Custom jewelry pouches with logo — velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",

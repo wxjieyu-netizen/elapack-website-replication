@@ -1,3 +1,5 @@
+import { KEY_FACTS_LINES } from "./keyFacts";
+
 export interface LandingTable {
   heading: string;
   note?: string;
@@ -34,6 +36,8 @@ export interface Landing {
   audience: { title: string; desc: string }[];
   faq?: { q: string; a: string }[];
   ctaTitle: string;
+  /** P0 Key Facts block lines (shared lines + one page-specific line). */
+  keyFacts?: string[];
 }
 
 const HOW_IT_WORKS_SHARED = [
@@ -53,11 +57,15 @@ export const landings: Landing[] = [
       { src: "/images/factory/elapack-03.jpg", alt: "Sewing floor producing custom fabric pouches" },
     ],
     eyebrow: "Pouches & Bags",
-    titleTag: "Custom Fabric Pouches & Bags from 200 pcs | ELAPACK",
+    titleTag: "Custom Fabric Pouches & Bags with Logo — From 200 Pcs | ELAPACK",
     h1: "Custom Fabric Pouches & Bags — Made to Your Spec, from 200 Pieces",
     subhead: "Your size. Your fabric. Your closure. Your logo. Cut, sewn and finished together.",
     metaDescription:
-      "Custom textile pouches and bags for jewellery, fragrance, beauty, hair and fashion brands — velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in the size, closure and branding you specify. MOQ from 200 pieces.",
+      "Custom fabric pouches and bags with your logo in velvet, cotton, satin, muslin and microfiber, from 200 pieces — colour-matched with our rigid boxes.",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Fabrics: velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven; drawstring, flap, envelope and zipper closures.",
+    ],
     intro:
       "ELAPACK makes custom fabric pouches and bags for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification — not from stock — so the pouch matches your product and your brand, not the other way round.",
     lead:
@@ -139,10 +147,14 @@ export const landings: Landing[] = [
     ],
     eyebrow: "Boxes",
     titleTag: "Custom Rigid Boxes & Magnetic Gift Boxes from 200 Pieces | ELAPACK",
-    h1: "Custom Rigid Boxes, Folding Cartons & Magnetic Closures — Made to Your Spec, from 200 Pieces",
+    h1: "Custom Rigid Boxes & Magnetic Gift Boxes — Made to Your Spec, from 200 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
     metaDescription:
-      "Custom rigid boxes in your size, finish and branding — two-piece lift-off lid, magnetic flap, drawer and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ 200 pieces, production in 15–20 working days.",
+      "Custom rigid boxes in two-piece, magnetic flap, drawer and folding structures, with EVA, sponge, pulp or flocked inserts. MOQ 200 pcs; samples in 3–5 days.",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Structures: two-piece lift-off lid, magnetic flap, drawer and folding carton; inserts in EVA, sponge, pulp or flocked board.",
+    ],
     intro:
       "ELAPACK makes custom rigid boxes, folding cartons and magnetic closure boxes for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification — not from stock — so the box fits your product and carries your brand, not the other way round.",
     why: {
@@ -228,10 +240,15 @@ export const landings: Landing[] = [
       { src: "/images/factory/elapack-02.jpg", alt: "ELAPACK design team preparing pouch and box dielines for a custom packaging set" },
     ],
     eyebrow: "Sets & Bundles",
+    titleTag: "Custom Packaging Sets with Logo — Box, Pouch & Insert | ELAPACK",
     h1: "Custom Packaging Sets — Pouch, Box & More, Made to Work Together",
     subhead: "One spec. One supplier. Pouch, box and insert that match — piece to piece.",
     metaDescription:
-      "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands — coordinate pouch, box and insert specifications. MOQ is 200 pieces for each component in the set.",
+      "Custom packaging sets with your logo — box, pouch and insert as one set, Pantone colour-matched. Each component from 200 pieces, made in one factory.",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Each component (box, pouch, insert) counts at its own 200-piece minimum; colours are matched across components to your Pantone reference.",
+    ],
     intro:
       "This page covers multi-component packaging supplied around one product, for any product — not jewelry only. Start with unboxing experience, product value and protection, then choose the set: a box, pouch and optional insert, card, ribbon or microfiber cleaning cloth. Specify each component and its quantity together so colour, material and branding can be checked across the set. Jewelry stands and trays are retail display props in the product catalogue, not box-and-pouch sets.",
     why: {
