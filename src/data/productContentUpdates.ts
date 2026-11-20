@@ -546,7 +546,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Can microfiber pouches help protect silver jewellery from tarnish?",
-        "An anti-tarnish lining is an option for silver and plated items only, and it is confirmed by sample — it is not a property of every microfiber pouch. If tarnish protection matters for your product, say so in the enquiry: the lining option is specified in the quotation and checked on the sample with your item stored inside. Standard microfiber protects against scratches, dust and contact marks."
+        "No — standard microfiber protects against scratches, dust and contact marks, but it does not prevent tarnish. If tarnish protection matters for your product, our jewellery polishing cloth has an anti-tarnish treatment and can be added to the set — ask in the enquiry."
       ],
       [
         "What sizes can microfiber pouches be made in?",

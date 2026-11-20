@@ -273,7 +273,7 @@ export const landings: Landing[] = [
           ["Storage set", "Drawstring bag + pouch + card", "Various-purpose storage bags"],
           ["Gift set", "Box + pouch + ribbon + card", "Gift boxes and seasonal gifting"],
           ["Eyewear set", "Pouch + microfiber cleaning cloth + box / case", "Eyewear and sunglasses brands"],
-          ["Jewelry set", "Box + pouch + optional cleaning cloth", "Jewelry brands; anti-tarnish lining is an option for silver / plated items only"],
+          ["Jewelry set", "Box + pouch + optional cleaning cloth", "Jewelry brands"],
         ],
       },
     ],
