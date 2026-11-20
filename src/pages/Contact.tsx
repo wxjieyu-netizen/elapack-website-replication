@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { getProductBySlug } from "../data/products";
 import { track } from "../lib/track";
 
@@ -418,6 +418,13 @@ export default function Contact() {
                   >
                     {sending ? "Sending…" : "Submit Request"}
                   </button>
+                  <p
+                    style={{ fontSize: "0.85rem", opacity: 0.75, margin: "1rem 0 0" }}
+                  >
+                    By submitting this form, you agree that we may contact you
+                    about your inquiry. See our{" "}
+                    <Link to="/privacy/">Privacy Policy</Link>.
+                  </p>
                 </form>
               )}
             </div>

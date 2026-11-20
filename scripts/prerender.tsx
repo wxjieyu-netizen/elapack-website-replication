@@ -53,6 +53,7 @@ const ROUTES = [
   "/solutions",
   "/news",
   "/about",
+  "/privacy",
   "/contact",
   "/video",
   ...JSON.parse(
@@ -87,6 +88,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/solutions": "Packaging Solutions — Custom, Materials & Sustainability | ELAPACK",
   "/news": "News & Insights | ELAPACK",
   "/about": "About ELAPACK — Custom Packaging for Brands",
+  "/privacy": "Privacy Policy | ELAPACK",
   "/contact": "Contact ELAPACK — Get a Custom Packaging Quote",
   "/video": "Custom Packaging Process & Video | ELAPACK",
   ...Object.fromEntries(ARTICLES.map((a) => [`/news/${a.slug}`, `${a.title} | ELAPACK`])),
@@ -122,6 +124,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/solutions": "Custom packaging solutions from ELAPACK: structures, materials and finishes for boxes, pouches and configured sets — custom samples in 3–5 days, production from 200 pieces per component.",
   "/news": "Packaging insights, material trends and sustainability notes from the ELAPACK team.",
   "/about": "ELAPACK is operated by Wuxi Magic Packaging Co., Ltd. Learn about its packaging scope, material review and order process.",
+  "/privacy": "How ELAPACK (Wuxi Magic Packaging Co., Ltd.) collects, uses and protects the information you share when you request a packaging quotation.",
   "/contact": "Talk to ELAPACK about your packaging project — quotes within one business day. Email, phone and WhatsApp available.",
   "/video": "View packaging process footage and review the design, sample, production and shipping questions to confirm for your order.",
   ...Object.fromEntries(ARTICLES.map((a) => [`/news/${a.slug}`, a.metaDescription])),

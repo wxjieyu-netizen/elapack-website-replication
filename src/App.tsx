@@ -7,6 +7,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Industries from "./pages/Industries";
 import Solutions from "./pages/Solutions";
 import About from "./pages/About";
+import Privacy from "./pages/Privacy";
 import News from "./pages/News";
 import Article from "./pages/Article";
 import Contact from "./pages/Contact";
@@ -48,6 +49,7 @@ export function AppRoutes() {
         <Route path="/industries" element={<Industries />} />
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/about" element={<About />} />
+        <Route path="/privacy" element={<Privacy />} />
         <Route path="/news" element={<News />} />
         <Route path="/news/:slug" element={<Article />} />
         <Route path="/contact" element={<Contact />} />
