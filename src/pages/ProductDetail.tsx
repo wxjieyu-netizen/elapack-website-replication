@@ -181,6 +181,23 @@ export default function ProductDetail() {
         </div>
       </section>
 
+      {product.keyFacts && (
+        <section className="section" style={{ paddingBottom: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+                Key facts (November 2026)
+              </h2>
+              <ul className="spec-list">
+                {product.keyFacts.map((line) => (
+                  <li key={line}>{line}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Specs */}
       <section className="section product-specs-section">
         <div className="container">

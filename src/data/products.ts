@@ -1,3 +1,5 @@
+import { KEY_FACTS_LINES } from "./keyFacts";
+
 export type Product = {
   slug: string;
   name: string;
@@ -30,6 +32,8 @@ export type Product = {
    *  category FAQ set in both the page and the FAQPage structured data. */
   faqs?: { q: string; a: string }[];
   customizationOptions: string[];
+  /** P0 Key Facts block lines (shared lines + one page-specific line). */
+  keyFacts?: string[];
 };
 
 /**
@@ -385,6 +389,10 @@ export const products: Product[] = [
   {
     slug: "magnetic-closure-gift-box",
     name: "Custom Magnetic Closure Gift Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Structure: rigid magnetic flap closure; inserts in EVA, sponge, pulp or flocked board, sized to your product.",
+    ],
     category: "Boxes",
     shortDesc:
       "Sleek flip-top gift box with hidden magnetic closure and custom interior inserts.",
@@ -448,6 +456,10 @@ export const products: Product[] = [
   {
     slug: "custom-eyelash-packaging-boxes",
     name: "Custom Eyelash Packaging Boxes with Logo",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Sized to your tray dimensions and pack quantity; structure, tray fit and artwork are confirmed in the quotation and approved sample.",
+    ],
     category: "Boxes",
     shortDesc:
       "Custom eyelash packaging boxes with your logo — three standard formats or fully custom sizes, from 200 pieces.",
@@ -691,6 +703,10 @@ export const products: Product[] = [
   {
     slug: "custom-press-on-nail-boxes",
     name: "Custom Press-on Nail Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Sized to your nail sets and trays; the box holds trays or tips securely for direct and retail sales.",
+    ],
     category: "Boxes",
     shortDesc:
       "Custom press-on nail packaging boxes — sized to your nail sets and trays, with your logo from the first run.",
@@ -769,6 +785,10 @@ export const products: Product[] = [
   {
     slug: "custom-hair-extension-boxes",
     name: "Custom Hair Extension Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Built around your packed bundle dimensions and item count; identification labels for length and shade are part of the specification.",
+    ],
     category: "Boxes",
     shortDesc: "Custom hair extension boxes for hair brands and salons, from 200 pieces. Share packed bundle dimensions, item count, identification labels and artwork to review the proposed box and insert.",
     description: "Start with the hair products as packed, including ties, cards and accessories. State item count, orientation and packed dimensions. Request a sleeve, drawer or magnetic opening for feasibility review. Confirm usable internal space, insert contact, closure and removal on a loaded sample. Provide length and shade identification separately from logo artwork, with quantities for each version confirmed in the written quotation.",
@@ -918,6 +938,10 @@ export const products: Product[] = [
   {
     slug: "custom-velvet-pouches",
     name: "Custom Velvet Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Styles: drawstring, flap, envelope and zipper; made to your colour, size and logo. Can be colour-matched with ELAPACK rigid boxes for a box-plus-pouch set.",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Soft velvet pouches in drawstring, flap, envelope and zipper styles — your colour, size and logo.",

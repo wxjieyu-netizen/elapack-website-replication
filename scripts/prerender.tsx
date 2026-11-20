@@ -64,6 +64,8 @@ const ROUTES = [
 /** Static title per route (product pages compose their own from the slug). */
 const STATIC_TITLES: Record<string, string> = {
   "/": "ELAPACK — Custom Luxury Packaging for Global Brands",
+  "/products/custom-velvet-pouches": "Custom Velvet Pouches with Logo — From 200 Pcs | ELAPACK",
+  "/products/custom-press-on-nail-boxes": "Custom Press-on Nail Boxes with Logo — From 200 Pcs | ELAPACK",
   "/pouches-bags": "Custom Fabric Pouches & Bags with Logo — From 200 Pcs | ELAPACK",
   "/boxes": "Custom Rigid Boxes & Magnetic Gift Boxes from 200 Pieces | ELAPACK",
   "/sets": "Custom Packaging Sets with Logo — Box, Pouch & Insert | ELAPACK",
@@ -92,6 +94,10 @@ const STATIC_TITLES: Record<string, string> = {
 
 /** Route-level meta descriptions for SEO. */
 const STATIC_DESCRIPTIONS: Record<string, string> = {
+  "/products/custom-velvet-pouches":
+    "Custom velvet pouches with your logo in drawstring, flap, envelope or zipper styles. MOQ 200 pcs, custom samples in 3–5 days. Request a quote.",
+  "/products/custom-press-on-nail-boxes":
+    "Custom press-on nail boxes with your logo, from 200 pieces — sized to your nail sets and trays, with shade and size systems shown on pack.",
   "/products/custom-tissue-paper":
     "Custom printed tissue paper, 17–30 gsm in 50 × 70 cm and 100 × 100 cm sheets or custom sizes. Single to full-coverage print, from 500 sheets per design.",
   "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets — one-stop custom packaging.",
@@ -208,9 +214,10 @@ for (const route of ROUTES) {
       ? ARTICLES.find((a) => a.slug === articleMatch[1])
       : undefined;
     const landing = LANDINGS.find((l) => `/${l.slug}` === route);
-    const pageTag = review ? review.title : product
-      ? `${product.name} | ELAPACK`
-      : STATIC_TITLES[route] || "ELAPACK";
+    const pageTag = review
+      ? review.title
+      : STATIC_TITLES[route] ||
+        (product ? `${product.name} | ELAPACK` : "ELAPACK");
 
     const pageDesc =
       review?.meta || STATIC_DESCRIPTIONS[route] ||

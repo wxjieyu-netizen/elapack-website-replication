@@ -1,7 +1,7 @@
 export const productContentUpdates: Record<string, any> = {
   "custom-hair-extension-boxes": {
-  "title": "Custom Hair Extension Boxes | ELAPACK",
-  "meta": "Request custom hair extension boxes from 200 pieces. Share packed bundle dimensions, item count, length-and-shade labels and artwork for a quote.",
+  "title": "Custom Hair Extension Boxes with Logo — From 200 Pcs | ELAPACK",
+  "meta": "Custom hair extension boxes with your logo, from 200 pieces — built around your bundle dimensions, item count and length-and-shade labels.",
   "intro": "Custom hair extension boxes for hair brands and salons, from 200 pieces. Share the packed bundle dimensions, item count, identification labels and artwork so the proposed box and insert can be reviewed together.",
   "body": [
     [
@@ -145,8 +145,8 @@ export const productContentUpdates: Record<string, any> = {
   }
 },
   "custom-eyelash-packaging-boxes": {
-    "title": "Custom Eyelash Packaging Boxes with Logo | ELAPACK",
-    "meta": "Custom eyelash packaging boxes with your logo, MOQ 200. Share tray dimensions, pack quantity and artwork to review the box and insert specification.",
+    "title": "Custom Eyelash Boxes with Logo — From 200 Pcs | ELAPACK",
+    "meta": "Custom eyelash packaging boxes with your logo, from 200 pieces — sized to your trays and pack quantity, box and insert specified together.",
     "intro": "Custom eyelash packaging boxes with your logo, from 200 pieces. Share your lash tray dimensions and the number of trays per box for a quotation.",
     "body": [
       [
@@ -313,8 +313,8 @@ export const productContentUpdates: Record<string, any> = {
     }
   },
   "magnetic-closure-gift-box": {
-    "title": "Custom Magnetic Closure Gift Boxes | ELAPACK",
-    "meta": "Custom magnetic closure gift boxes, MOQ 200. Share dimensions, product weight, artwork and insert requirements to review your packaging specification.",
+    "title": "Custom Magnetic Gift Boxes with Logo — From 200 Pcs | ELAPACK",
+    "meta": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Rigid board with EVA, sponge or flocked inserts; custom samples in 3–5 days.",
     "intro": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Share product dimensions, weight and insert requirements for a quotation.",
     "body": [
       [
