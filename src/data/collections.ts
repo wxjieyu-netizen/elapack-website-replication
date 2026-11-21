@@ -947,6 +947,9 @@ export const collections: Collection[] = [
       { label: "Payment", value: "T/T · PayPal" },
     ],
     productSlugs: [
+      "custom-tissue-paper",
+      "custom-hang-tags",
+      "custom-foam-inserts",
       "luxury-gift-box-ribbon",
       "magnetic-closure-gift-box",
       "custom-velvet-pouches",

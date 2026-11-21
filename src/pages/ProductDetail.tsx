@@ -507,6 +507,21 @@ export default function ProductDetail() {
                 Planning this bag as part of a complete hair program? See <Link to="/custom-wig-packaging/">custom wig packaging</Link> for the matching boxes and sets.
               </p>
             )}
+            {slug === "custom-tissue-paper" && (
+              <p className="product-description-text">
+                Ordering tissue as part of a complete set? See how components come together on our <Link to="/sets/">packaging sets</Link> page — and if your product needs to be held firmly in place, see <Link to="/products/custom-foam-inserts/">custom foam inserts</Link>.
+              </p>
+            )}
+            {slug === "custom-hang-tags" && (
+              <p className="product-description-text">
+                Adding tags to a box or pouch program? See <Link to="/sets/">packaging sets</Link> for how tags, boxes and bags come together in a single run.
+              </p>
+            )}
+            {slug === "custom-foam-inserts" && (
+              <p className="product-description-text">
+                Specifying the box this insert ships in? Browse our <Link to="/boxes/">custom packaging boxes</Link> — the insert is engineered together with the box from day one.
+              </p>
+            )}
             {slug === "custom-velvet-pouches" && (
               <p className="product-description-text">
                 Choosing pouches for a jewelry line? Compare <Link to="/custom-jewelry-pouches/">jewelry pouches with logo</Link> across fabrics and closures.

@@ -69,6 +69,8 @@ const STATIC_TITLES: Record<string, string> = {
   "/products/custom-press-on-nail-boxes": "Custom Press-on Nail Boxes with Logo — From 200 Pcs | ELAPACK",
   "/products/custom-ring-boxes": "Custom Ring Boxes with Logo | ELAPACK",
   "/products/custom-tissue-paper": "Custom Tissue Paper with Logo | ELAPACK",
+  "/products/custom-hang-tags": "Custom Hang Tags with Logo | ELAPACK",
+  "/products/custom-foam-inserts": "Custom Foam Inserts for Packaging Boxes | ELAPACK",
   "/products/kraft-paper-shopping-bag": "Custom Kraft Paper Shopping Bags with Logo | ELAPACK",
   "/products/black-leather-jewelry-box": "Custom Jewelry Boxes with Logo — Black | ELAPACK",
   "/products/custom-white-jewelry-box": "Custom Jewelry Boxes with Logo — White | ELAPACK",
@@ -123,7 +125,11 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/products/custom-press-on-nail-boxes":
     "Custom press-on nail boxes with your logo, from 200 pieces — sized to your nail sets and trays, with shade and size systems shown on pack.",
   "/products/custom-tissue-paper":
-    "Custom printed tissue paper, 17–30 gsm in 50 × 70 cm and 100 × 100 cm sheets or custom sizes. Single to full-coverage print, from 500 sheets per design.",
+    "Custom tissue paper with your logo — custom print from 500 sheets, stock designs with no minimum order. Colour-matched to your boxes and pouches in one set order. Custom samples in 3–5 days.",
+  "/products/custom-hang-tags":
+    "Custom hang tags from 500 pieces — cardstocks, hot foil and print colour-matched to your boxes and bags, with optional cotton or jute cords. Custom samples in 3–5 days.",
+  "/products/custom-foam-inserts":
+    "Custom foam inserts cut to your product and your box — EVA, sponge, pearl cotton or card fitments, with flocked surfaces. Supplied with your ELAPACK boxes as one set, from 200 sets. Samples in 3–5 days.",
   "/": "ELAPACK makes custom luxury packaging for jewelry, beauty, fragrance and gift brands — rigid boxes, velvet pouches, shopping bags and coordinated sets with your logo, from 200 pieces.",
   "/pouches-bags": "Custom fabric pouches and bags with your logo in velvet, cotton, satin, muslin and microfiber, from 200 pieces — colour-matched with our rigid boxes.",
   "/boxes": "Custom rigid boxes in two-piece, magnetic flap, drawer and folding structures, with EVA, sponge, pulp or flocked inserts. MOQ 200 pcs; samples in 3–5 days.",

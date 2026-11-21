@@ -2007,84 +2007,257 @@ export const products: Product[] = [
       "Add to an eyewear pouch + box set",
     ],
   },
-  {
-    slug: "custom-tissue-paper",
-    name: "Custom Tissue Paper",
-    category: "Packaging Paper",
-    shortDesc:
-      "Custom printed tissue paper — 17–30 gsm sheets, from 500 sheets per design.",
-    intro:
-      "Custom printed tissue paper for brand packaging, from 500 sheets per design. Tissue in 17–30 gsm, in standard 50 × 70 cm and 100 × 100 cm sheets or cut to your size, with single-colour, multi-colour or full-coverage printing on white or dyed paper.",
-    description:
-      "Custom tissue paper specified around the job it does in your packaging: a presentation wrap inside a rigid box, a liner under the product, or part of a complete box + pouch set. State the purpose, the product-contact surfaces and the box dimensions with your artwork, and the proposed paper, print and fold are confirmed in the quotation and on a physical sample. GSM measures weight per area only — it does not by itself determine print quality, protection or price — so the paper is chosen against the actual contents and folding sequence, and the folded sheet is checked inside the complete presentation before approval. Tissue can be ordered on its own or supplied as a component of a packaging set.",
-    image: "/images/placeholder/product-coming-soon.svg",
-    materials: "Tissue paper, 17–30 gsm",
-    moq: "500 sheets per design",
-    leadTime: "10–15 days after sample approval and payment receipt; shipping time separate",
-    industries: ["Jewelry", "Beauty", "Fashion", "Gift"],
-    features: [
-      {
-        title: "Specified by the Job",
-        desc: "Wrap, liner or set component: each job is checked differently for translucency, fold appearance, contact behaviour and logo legibility.",
-      },
-      {
-        title: "Print Confirmed on Paper",
-        desc: "Processes and colour counts are confirmed with your actual artwork, and print and contact behaviour are reviewed on a physical sample, not a screen image.",
-      },
-      {
-        title: "Standard or Custom Sheets",
-        desc: "Standard 50 × 70 cm and 100 × 100 cm sheets, or cut to your size and checked against the box interior and folding sequence.",
-      },
-      {
-        title: "Fitted to the Set",
-        desc: "The folded sheet is checked against the product, insert and box interior so the pack closes cleanly without excess bulk.",
-      },
-    ],
-    specs: [
-      { label: "Paper Weight", value: "17–30 gsm" },
-      { label: "Sheet Size", value: "50 × 70 cm / 100 × 100 cm standard; custom sizes on request" },
-      { label: "Printing", value: "Single colour, multi-colour or full-coverage print" },
-      { label: "Paper Colour", value: "White, or dyed paper colours" },
-      { label: "MOQ", value: "500 sheets per design" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 10–15 days after sample approval and payment receipt" },
-    ],
-    faqs: [
-      {
-        q: "What should I send for a tissue paper quote?",
-        a: "Send the purpose (wrap, liner or set component), product-contact surfaces, box dimensions, proposed fold, artwork, sheet quantity and delivery destination. The proposed paper, print specification and sample scope are confirmed in the quotation.",
-      },
-      {
-        q: "Can I print my logo on tissue paper?",
-        a: "Yes. Printing runs from a single-colour logo to multi-colour and full-coverage designs, on white paper or on dyed paper colours. Send the artwork and colour reference; the print is confirmed on a physical sample before production.",
-      },
-      {
-        q: "How do I choose the paper weight?",
-        a: "GSM is weight per area; two papers at the same weight can differ in finish and printing behaviour. Choose against the job — presentation, contact or protection checks — and review actual paper references and a sample before approving.",
-      },
-      {
-        q: "Can I order a custom sheet size?",
-        a: "Yes. Standard sheets are 50 × 70 cm and 100 × 100 cm, and sheets can be cut to your size on request. Confirm the finished size against your box interior and folding sequence in the quotation.",
-      },
-      {
-        q: "What is the minimum order?",
-        a: "500 sheets per design. Tissue can also be supplied as part of a box + pouch set; confirm the sheet quantity for your set configuration in the quotation.",
-      },
-      {
-        q: "How long does production take?",
-        a: "Production takes 10–15 days after sample approval and payment receipt. Shipping is by air or by sea from Shanghai or Shenzhen.",
-      },
-      {
-        q: "Can I see a sample before placing a full order?",
-        a: "Yes. Stock samples are free, with USD 25 shipping and 4–7 days for delivery. Custom printed samples cost USD 30 plus USD 25 shipping and take 3–5 days to make. Confirm the sample specification before ordering.",
-      },
-    ],
-    customizationOptions: [
-      "Paper weight and sheet size",
-      "Print colours and coverage",
-      "White or dyed paper",
-      "Fold and packing format",
-    ],
-  },
+    {
+      slug: "custom-tissue-paper",
+      name: "Custom Tissue Paper",
+      category: "Packaging Paper",
+      shortDesc: "Custom tissue paper with your logo — custom print from 500 sheets, stock designs with no minimum order.",
+      intro: "Tissue paper is the layer your customer touches first — the wrap inside the box, printed with your logo in repeat, folded over the product before the lid closes. ELAPACK prints custom tissue to sit inside our rigid boxes, pouches and shopping bags, colour-matched to the rest of your packaging and produced in the same order, so the wrap never arrives as an afterthought from a different supplier.",
+      description: "Custom print — your artwork or logo repeat printed on the sheet, from 500 sheets. Send your artwork (AI, PDF or PNG) and colour reference; the paper stock, sheet size and colour count are specified with you and confirmed on a physical sample before bulk production. Stock designs — ready-made sheets from our stock range, with no minimum order. Add them directly to any box or pouch order, or order them on their own — the fastest way to upgrade an unboxing experience without a custom print setup.\n\nTissue does three distinct jobs — presentation wrap, box liner, and inner packing layer — and each is specified differently. Paper weight (GSM) measures weight per area only: it does not by itself decide print sharpness or surface protection, so we confirm the proposed paper against your actual artwork and product on a sample. Sheet size is tailored to your box interior and folding sequence, so the wrap closes cleanly without bulky corners. If the tissue touches the product surface directly, we check ink transfer and abrasion against the real materials before the bulk run. Our tissue paper specification guide walks through each check in detail.\n\nWhen ordered alongside your boxes or pouches, tissue shares the exact same colour reference and proofing cycle as the rest of your packaging — the inner wrap, the outer box paper and the pouch fabric are checked side by side, not approved in isolation.\n\nHow ordering works: send your box dimensions (or the box format you are ordering), the tissue's role, and your artwork or stock-design choice. We quote the paper stock, sheet size, print specification and sampling scope in writing within 1 business day. Approve the physical sample — print registration, hand-feel and folding behaviour are verified on the actual sheet. Production runs after sample approval and payment; tissue is packed flat or pre-cut as its own component in your shipment.",
+      image: "/images/products/custom-tissue-paper/custom-tissue-paper-hero.webp",
+      gallery: [
+        "/images/products/custom-tissue-paper/custom-tissue-paper-hero.webp",
+        "/images/products/custom-tissue-paper/custom-tissue-paper-detail-01.webp",
+        "/images/products/custom-tissue-paper/custom-tissue-paper-detail-02.webp",
+        "/images/products/custom-tissue-paper/custom-tissue-paper-detail-03.webp",
+      ],
+      galleryRatio: "16 / 9",
+      descriptionImage: "/images/products/custom-tissue-paper/custom-tissue-paper-detail-02.webp",
+      descriptionImageRatio: "3 / 2",
+      infoImage: "/charts/tissue-paper-size-weight.svg",
+      infoImageRatio: "16 / 9",
+      materials: "Tissue paper — weight (GSM) specified for your project",
+      moq: "500 sheets per design",
+      leadTime: "10–15 days after sample approval and payment receipt; shipping time separate",
+      industries: ["Jewelry", "Beauty", "Fashion", "Gift"],
+      features: [
+        {
+          title: "Two Ways to Order",
+          desc: "Custom print from 500 sheets per design, or stock designs with no minimum order, added directly to any box or pouch order.",
+        },
+        {
+          title: "Specified Like a Component",
+          desc: "Paper weight, sheet size and print are confirmed against your actual artwork and product on a physical sample — not picked from a fixed menu.",
+        },
+        {
+          title: "One Colour Reference",
+          desc: "Inner wrap, outer box paper and pouch fabric are proofed side by side in the same order, never approved in isolation.",
+        },
+        {
+          title: "Checked Against Your Product",
+          desc: "When tissue touches the product surface directly, ink transfer and abrasion are checked against the real materials before the bulk run.",
+        },
+      ],
+      specs: [
+        { label: "Paper Weight", value: "Specified for your project (GSM) and confirmed on a physical sample" },
+        { label: "Sheet Size", value: "Tailored to your box interior and folding sequence" },
+        { label: "Printing", value: "Single-colour logo repeats and multi-colour designs; process and colour count confirmed in the quotation and on a physical sample" },
+        { label: "Stock Designs", value: "Ready-made sheets from the stock range — no minimum order" },
+        { label: "MOQ", value: "500 sheets per custom-printed design; stock designs have no minimum order" },
+        { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production typically 10–15 days after sample approval and payment" },
+      ],
+      faqs: [
+        {
+          q: "What is the minimum order for custom tissue paper?",
+          a: "500 sheets for a custom-printed design. Stock designs have no minimum order.",
+        },
+        {
+          q: "Can you print my logo in full colour?",
+          a: "Send us the artwork — single-colour logo repeats and multi-colour designs are both regular enquiry types here. Because ink coverage and registration depend on the thin paper stock and your specific file, we confirm the exact print process and colour count in the quotation and prove it on a physical sample rather than promising a colour count in the abstract. Bulk colour is accepted against the confirmed sample at ΔE ≤ 1.5, grey scale grade 4.",
+        },
+        {
+          q: "Does tissue paper protect the product in transit?",
+          a: "No — tissue is a presentation and surface-wrapping layer. Impact protection and product retention come from a fitted insert; see our custom foam inserts if your product needs to be held firmly in place.",
+        },
+        {
+          q: "Can I order tissue paper on its own?",
+          a: "Yes. Custom-printed tissue (from 500 sheets) is quoted and supplied as its own component, with or without boxes and pouches in the same order. Stock designs with no minimum are easiest to add to a box or pouch shipment, or can be quoted standalone.",
+        },
+      ],
+      customizationOptions: [
+        "Custom print or stock designs",
+        "Sheet size tailored to your box interior",
+        "Artwork in AI, PDF or PNG",
+        "Packed flat or pre-cut",
+      ],
+      keyFacts: [
+        "Minimum order: 500 sheets for custom-printed designs; stock designs have no minimum order",
+        "Custom samples: made in 3–5 days — USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples — USD 25 shipping only, delivered in 4–7 days",
+        "Production: typically 10–15 days after sample approval and payment; confirmed by order",
+        "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+        "Payment: T/T or PayPal",
+        "Paper weight (GSM), sheet size and print colours are specified for your project and confirmed on a physical sample",
+      ],
+    },
+    {
+      slug: "custom-hang-tags",
+      name: "Custom Hang Tags",
+      category: "Packaging Paper",
+      shortDesc: "Custom hang tags from 500 pieces — cardstock, hot foil and print colour-matched to your boxes and bags.",
+      intro: "A hang tag is the most compact printed surface your brand puts in a customer's hand — carrying price, size, care notes and a concise brand story, suspended from the product on a cord. ELAPACK produces custom hang tags under the same roof as our boxes and bags, so the tag cardstock can be matched directly to your box wrap and the metallic foil on the tag is stamped from the same foil as your lid — one unified material system, not a tag from an online configurator and a box from a factory that never see each other's colours.",
+      description: "Every custom tag is defined across five lines — size, stock, print, hole, and cord. Leave one out and the gap surfaces later: a tag too narrow for its barcode, a slick laminated stock that rejects pen ink where a handwritten note was planned, or a shipment that arrives without strings because nobody specified the cord.\n\nSize — 2 x 3 and 2 x 3.5 in (50 x 75 and 50 x 90 mm) are the everyday apparel standards; small goods such as jewelry and accessories typically carry 1.5–2 in tags; elongated formats hold sizing charts and multi-language care copy. Custom die-cut shapes are cut on request. Stock — uncoated, textured or coated cardstock confirmed for your project in the quotation, and matched to your box wrap paper wherever the tag belongs to a wider packaging set. Print — brand face on the front and product data on the reverse is the standard layout: logo and finish on side one; SKU, barcode, care or sizing copy on side two. Hole — approx. 4 mm diameter, centred near the top edge as standard; alternative positions and reinforced options on request. Cord — cotton, jute and finer cords suited to jewelry; specified as its own line item from 500 pieces (see Key Facts), never left to guesswork.\n\nHang tags run through the same three decoration processes as our rigid boxes — digital printing for multi-colour graphics, silkscreen for crisp spot colours on dark card, and hot-foil stamping for true metallic logos. Matching the exact foil shade and paper grain across tag, box lid and pouch is what makes a multi-piece order read as one cohesive brand. Our hang tag specification guide compares market sizes, card weights and stringing options in full.\n\nHow ordering works: send your tag dimensions (or the copy that must fit on it), quantity, artwork files (AI, PDF or PNG) and how the tag will be attached. We quote the complete five-line specification in writing — including the string as its own clear line item. Approve the physical sample for cardstock weight, colour match (bulk accepted at ΔE ≤ 1.5 against the confirmed sample, grey scale grade 4) and foil or print sharpness. Production runs after sample approval and payment; tags ship together with your boxes or bags when ordered as part of a set.",
+      image: "/images/products/custom-hang-tags/custom-hang-tags-hero.webp",
+      gallery: [
+        "/images/products/custom-hang-tags/custom-hang-tags-hero.webp",
+        "/images/products/custom-hang-tags/custom-hang-tags-detail-01.webp",
+        "/images/products/custom-hang-tags/custom-hang-tags-detail-02.webp",
+        "/images/products/custom-hang-tags/custom-hang-tags-detail-03.webp",
+        "/images/products/custom-hang-tags/custom-hang-tags-detail-04.webp",
+      ],
+      galleryRatio: "16 / 9",
+      descriptionImage: "/images/products/custom-hang-tags/custom-hang-tags-detail-04.webp",
+      descriptionImageRatio: "16 / 9",
+      customizeImage: "/images/products/custom-hang-tags/custom-hang-tags-detail-02.webp",
+      customizeImageRatio: "16 / 9",
+      materials: "Cardstock — uncoated, textured or coated, matched to your box wrap",
+      moq: "500 tags per design",
+      leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time is separate",
+      industries: ["Fashion", "Jewelry", "Beauty", "Gift"],
+      features: [
+        {
+          title: "The Five-Line Specification",
+          desc: "Size, stock, print, hole and cord — leave one out and the gap surfaces later; all five are stated and quoted line by line.",
+        },
+        {
+          title: "Same Foil as Your Lid",
+          desc: "Hot-foil stamping from the same foil as your box lid, so tag and box read as one unified material system.",
+        },
+        {
+          title: "Matched to Your Box Wrap",
+          desc: "Tag cardstock matched directly to your box wrap paper and checked against the same colour standard in the same facility.",
+        },
+        {
+          title: "Strings as Their Own Line",
+          desc: "Cotton, jute and finer cords are quoted as a separate line item from 500 pieces — never left to guesswork.",
+        },
+      ],
+      specs: [
+        { label: "Size", value: "2 x 3 and 2 x 3.5 in (50 x 75 and 50 x 90 mm) apparel standards; 1.5–2 in small sizes; custom die-cut shapes" },
+        { label: "Stock", value: "Uncoated, textured or coated cardstock, matched to your box wrap" },
+        { label: "Print", value: "Digital, silkscreen and hot-foil decoration; front branding, reverse product data" },
+        { label: "Hole", value: "Approx. 4 mm, centred near the top edge as standard; custom positions on request" },
+        { label: "Cord", value: "Cotton, jute and finer cords; own line item from 500 pieces" },
+        { label: "MOQ", value: "500 tags per design; strings and cords from 500 pieces" },
+        { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production typically 15–20 days after sample approval and payment receipt" },
+      ],
+      faqs: [
+        {
+          q: "Do the hang tags come with strings included?",
+          a: "Strings are quoted as a separate line item, starting from 500 pieces — the standard practice in custom manufacturing, as attachment methods vary widely between garments, handbags and jewelry. Specify your preferred cord material in your enquiry so the initial quotation covers both tag and cord.",
+        },
+        {
+          q: "What is the minimum order quantity?",
+          a: "500 tags per design, and 500 pieces for strings or cords. When your tags are ordered alongside custom boxes or pouches, they are produced on the same schedule and consolidated into the same shipment.",
+        },
+        {
+          q: "Can tags be printed on both sides?",
+          a: "Yes — front for branding and back for product information, barcodes or care instructions is the standard layout. Both sides are checked on your pre-production proof and physical sample.",
+        },
+        {
+          q: "Can the tag cardstock match my custom boxes?",
+          a: "Yes. Because tags and boxes are produced in the same facility, the tag board can be matched to your box wrap paper and checked against the same colour standard — the primary advantage of ordering tags with your packaging rather than from a standalone print shop.",
+        },
+      ],
+      customizationOptions: [
+        "Size and custom die-cut shapes",
+        "Cardstock matched to your box wrap",
+        "Digital, silkscreen or hot-foil decoration",
+        "Hole position",
+        "Cotton, jute or fine cords",
+      ],
+      keyFacts: [
+        "Minimum order: 500 tags; strings and cords from 500 pieces, quoted as a separate line",
+        "Custom samples: made in 3–5 days — USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples — USD 25 shipping only, delivered in 4–7 days",
+        "Production: typically 15–20 days after sample approval and payment; confirmed by order",
+        "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+        "Payment: T/T or PayPal",
+        "Formats: standard apparel sizes (2 x 3 and 2 x 3.5 in / 50 x 75 and 50 x 90 mm), small jewelry sizes (1.5–2 in), plus custom die-cut shapes; hole approx. 4 mm or custom positioned; digital, silkscreen and hot-foil decoration",
+      ],
+    },
+    {
+      slug: "custom-foam-inserts",
+      name: "Custom Foam Inserts for Packaging Boxes",
+      category: "Boxes",
+      shortDesc: "Custom foam inserts cut to your product and your box — EVA, sponge, pearl cotton or card fitments, with flocked surfaces. From 200 sets with your box order.",
+      intro: "The insert is what holds your product still in transit, presents it at the right angle when the lid opens, and lets the customer lift it out cleanly without tugging. ELAPACK die-cuts custom inserts for the custom packaging boxes we manufacture — across jewelry, fragrance, skincare and gift sets — specified together with the outer box from day one, so the cavity, the box interior and the product are engineered as a single fitment rather than separate orders hoped into alignment. This page covers custom inserts supplied for presentation and retail packaging boxes.",
+      description: "EVA foam — dense, firm and clean-edged; holds intricate multi-cavity layouts and heavier items such as glass perfume bottles and cosmetic jars without deforming. Sponge — soft, high-recovery cushioning suited to lightweight or delicate pieces where gentle compression matters. Pearl cotton (EPE) — lightweight, closed-cell shock absorption where the insert serves primarily as a transit-protection layer. Paper-card fitments — the printable alternative or companion: standalone folded card platforms and dividers, or printed card fitments paired with a foam base so care notes and branding sit beside the product.\n\nFoam surfaces can be finished with custom flocking — the soft, velvety surface standard in fine jewelry and watch boxes — in shades matched to your brand palette. Foam density and wall thickness are never picked blind from a chart: they follow your product's weight, fragility and centre of gravity, and are proven on a loaded sample. If you are still weighing foam against other insert systems, our packaging inserts guide covers the full material comparison; this page is where your chosen box insert gets specified and ordered.\n\nSend us your product drawing, dieline or a physical unit alongside the box format you have in mind. We engineer the cavity layout — recess depth, perimeter wall allowance, and finger notches for effortless lifting — and cut a physical prototype. We test the sample loaded with your actual product inside to check retention, presentation height and surface clearance. Mass production follows that approved loaded sample, not an untested drawing.\n\nBecause your insert is engineered alongside the box, the flocking shade is matched to the inner lid lining, any companion card fitment is printed on the same press run as the outer wrap, and the complete assembly ships together — so the insert ships fitted with its box, not as a separate follow-up.\n\nHow ordering works: send your product dimensions (or mail a physical unit), weight and fragility notes, and the target box style. We recommend the insert material and cavity layout, and quote the insert together with your box within 1 business day. Approve the loaded physical sample tested with your product in place. Bulk production runs after sample sign-off and payment; inserts ship pre-fitted inside their boxes or packed together as matched sets.",
+      image: "/images/products/custom-foam-inserts/custom-foam-inserts-hero.webp",
+      gallery: [
+        "/images/products/custom-foam-inserts/custom-foam-inserts-hero.webp",
+        "/images/products/custom-foam-inserts/custom-foam-inserts-detail-01.webp",
+        "/images/products/custom-foam-inserts/custom-foam-inserts-detail-02.webp",
+        "/images/products/custom-foam-inserts/custom-foam-inserts-detail-03.webp",
+      ],
+      galleryRatio: "16 / 9",
+      descriptionImage: "/images/products/custom-foam-inserts/custom-foam-inserts-detail-03.webp",
+      descriptionImageRatio: "16 / 9",
+      infoImage: "/charts/foam-insert-cross-section.svg",
+      infoImageRatio: "16 / 9",
+      materials: "EVA foam, sponge, pearl cotton (EPE) or paper-card fitments",
+      moq: "200 sets (as part of a box order)",
+      leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time is separate",
+      industries: ["Jewelry", "Fragrance", "Beauty", "Gift"],
+      features: [
+        {
+          title: "Die-Cut to Your Product",
+          desc: "Cavity layout — recess depth, wall allowance and finger notches — engineered from your product and tested loaded with the actual product inside.",
+        },
+        {
+          title: "Four Materials, One Method",
+          desc: "EVA, sponge, pearl cotton (EPE) or paper-card fitments, chosen by weight, fragility and centre of gravity — never picked blind from a chart.",
+        },
+        {
+          title: "Flocked to Match Your Lining",
+          desc: "Velvet-like flocked surfaces in shades matched to your brand palette and checked against your box wrap and inner lining during sampling.",
+        },
+        {
+          title: "One Set, One Factory",
+          desc: "Insert, box and companion card are engineered, sampled and shipped together — the insert arrives fitted with its box.",
+        },
+      ],
+      specs: [
+        { label: "Materials", value: "EVA foam, sponge, pearl cotton (EPE) and paper-card fitments" },
+        { label: "Surface", value: "Velvet-like flocked surface available on foam, matched to your box lining" },
+        { label: "Cavity", value: "Die-cut to your product's exact geometry; verified on a loaded physical sample" },
+        { label: "Branding", value: "No direct ink print on foam — interior branding sits on the box lining or a paired paper-card fitment" },
+        { label: "MOQ", value: "From 200 sets, supplied as part of an ELAPACK box order" },
+        { label: "Sample & Production", value: "Custom sample USD 30 + USD 25 shipping, made in 3–5 days (sample fee deductible against your confirmed first order); production typically 15–20 days after sample approval and payment" },
+      ],
+      faqs: [
+        {
+          q: "Can our logo be printed directly on the foam?",
+          a: "No — raw and flocked foam surfaces do not hold ink or foil cleanly. Interior branding belongs on the inner box lid or on a printed paper-card fitment paired with the foam. Tell us if you want in-box copy or a logo beside the product, and we will design a foam-and-card fitment in your quotation.",
+        },
+        {
+          q: "What is the minimum order quantity?",
+          a: "Custom foam inserts are supplied as part of an ELAPACK box order starting from 200 sets. The box, the foam insert and any companion card are engineered, sampled and quoted together on one order.",
+        },
+        {
+          q: "Which foam material is best for a fragile glass bottle?",
+          a: "The right choice depends on the bottle's filled weight, neck geometry, and whether the box ships inside an outer mailer carton. For heavy glass bottles, higher-density EVA with a recessed neck cradle is common, whereas lighter dropper bottles often pair sponge or EPE with a card fitment — which is why we quote comparable options and verify protection on a loaded sample.",
+        },
+        {
+          q: "Can the foam insert be flocked to match our box lining?",
+          a: "Yes — velvet-like flocked surfaces can be applied to foam inserts, and the colour is checked directly against your box wrap and inner lining during sampling.",
+        },
+      ],
+      customizationOptions: [
+        "EVA, sponge, EPE or paper-card fitment",
+        "Flocked surface colour",
+        "Cavity layout and finger notches",
+        "Paired printed card fitment",
+      ],
+      keyFacts: [
+        "Supplied as part of a box order: from 200 sets, engineered and fitted to the ELAPACK box they ship in",
+        "Four material options: EVA foam, sponge, pearl cotton (EPE) and paper-card fitments; velvet-like flocked surface available on foam",
+        "Cavities are die-cut to your product's exact geometry and verified on a loaded physical sample",
+        "Foam carries no direct ink print — interior branding sits on the box lining or a paired paper-card fitment",
+        "Custom samples: made in 3–5 days — USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order)",
+        "Production: typically 15–20 days after sample approval and payment; confirmed by order",
+        "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+        "Payment: T/T or PayPal",
+      ],
+    },
 ];
 
 export const categories = [
@@ -2245,6 +2418,14 @@ export const productGuides: Record<string, string[]> = {
     "custom-tissue-paper-guide",
     "custom-packaging-samples-guide",
     "custom-clothing-apparel-packaging-guide",
+  ],
+  "custom-hang-tags": [
+    "custom-hang-tags-guide",
+    "custom-packaging-samples-guide",
+  ],
+  "custom-foam-inserts": [
+    "packaging-inserts-guide",
+    "custom-jewelry-packaging-guide",
   ],
   "kraft-paper-shopping-bag": [
     "custom-gift-packaging-guide",
