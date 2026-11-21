@@ -861,7 +861,7 @@ export const products: Product[] = [
     shortDesc:
       "Custom watch boxes with fitted watch pillow inserts — single and multi-watch formats for retail and gifting.",
     description:
-      "Custom watch boxes for watch brands, strap makers and gifting programs. Discuss a rigid box, wrap and watch pillow for single-watch or multi-watch presentation. Share the watch case dimensions, closed-strap size, accessories and number of watches per box so the proposed layout can be checked on a loaded sample. Confirm the wrap, decoration and any transit checks for the complete shipping pack before bulk production. MOQ from 200 pieces. Product photography is in progress; request a stock sample to judge the board and finish.",
+      "Custom watch boxes for watch brands, strap makers and gifting programs. Discuss a rigid box, wrap and watch pillow for single-watch or multi-watch presentation. Share the watch case dimensions, closed-strap size, accessories and number of watches per box so the proposed layout can be checked on a loaded sample. Confirm the wrap, decoration and any transit checks for the complete shipping pack before bulk production. MOQ from 200 pieces. Request a stock sample to judge the board and finish.",
     intro:
       "Custom watch boxes for watch brands, strap makers and gifting programs. Rigid two-piece, drawer or magnetic flip-top structures with fitted watch pillows — share the watch case dimensions, closed-strap size, accessories and number of watches per box so the layout can be checked on a loaded sample.",
     image: "/images/products/custom-watch-boxes/custom-watch-boxes-hero.webp",
