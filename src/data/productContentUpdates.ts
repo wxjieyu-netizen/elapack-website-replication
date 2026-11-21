@@ -318,7 +318,7 @@ export const productContentUpdates: Record<string, any> = {
   },
   "magnetic-closure-gift-box": {
     "title": "Custom Magnetic Gift Boxes with Logo — From 200 Pcs | ELAPACK",
-    "meta": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Rigid board with EVA, sponge or flocked inserts; custom samples in 3–5 days.",
+    "meta": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Rigid board with EVA foam, velvet, satin or molded pulp inserts; custom samples in 3–5 days.",
     "intro": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Share product dimensions, weight and insert requirements for a quotation.",
     "body": [
       [
@@ -328,6 +328,10 @@ export const productContentUpdates: Record<string, any> = {
       [
         "Check the closure, insert and artwork together",
         "Review the proposed board, wrap, magnetic closure and insert in the quotation and sample. Check the lid action with the contents in place, whether the item can be removed easily, and the artwork position. If transport testing is required, discuss the packed shipment and testing scope separately; a presentation sample alone does not establish transport performance."
+      ],
+      [
+        "Luxury presentation, with your logo on every surface",
+        "What separates luxury magnetic closure boxes with logo from standard ones is the finish, not the structure. On this box the magnets sit hidden inside the wrap, so the lid and sides stay completely clean for branding: foil stamping, embossing, debossing or print across the outside surfaces. Choose a matte, textured or leather-look wrap over the rigid board, with a fitted EVA foam, velvet, satin or molded pulp insert inside to hold the piece steady. Send your artwork in AI, PDF or PNG; colours are matched to your Pantone references, and bulk production is checked against the approved sample to ΔE ≤ 1.5 and grey scale grade 4."
       ]
     ],
     "checks": [
@@ -407,6 +411,10 @@ export const productContentUpdates: Record<string, any> = {
       [
         "What payment methods are available?",
         "We accept T/T (bank transfer) and PayPal."
+      ],
+      [
+        "Where can my logo appear on a magnetic closure box?",
+        "On the lid and sides of the wrap — foil-stamped, embossed, debossed or printed. Send artwork in AI, PDF or PNG with your Pantone references; placement is confirmed in the free digital dieline preview and on the custom sample before production."
       ]
     ],
     "links": [
