@@ -20,6 +20,9 @@ export type Product = {
   /** Override the wide-slot frame with a CSS aspect-ratio value, e.g. "1 / 1" or "3 / 2". */
   descriptionImageRatio?: string;
   customizeImageRatio?: string;
+  /** Optional third specific image for an additional info section. */
+  infoImage?: string;
+  infoImageRatio?: string;
   /** Override the main gallery frame (default 4 / 3) when the photos are square. */
   galleryRatio?: string;
   materials: string;
@@ -540,8 +543,6 @@ export const products: Product[] = [
       "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-03.webp",
       "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-04.webp",
       "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-05.webp",
-      "/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-06-insert.webp",
-      "/images/products/custom-perfume-boxes/custom-perfume-boxes-scene-01.webp",
       "/images/products/custom-perfume-boxes/custom-perfume-boxes-scene-02.webp",
     ],
     galleryRatio: "1 / 1",
@@ -1059,7 +1060,16 @@ export const products: Product[] = [
       "Custom cotton pouches and bags for brands that want a natural, honest carrier. Unbleached cotton has a soft hand feel that suits artisan, beauty, jewelry and favor programs alike, and the fabric takes water-based ink prints beautifully. Choose your style — drawstring, flap, envelope or zipper — in sizes reviewed against your product, from small jewelry and cosmetics pouches to larger gift bags, with your logo printed or woven in. Made to order, with materials, dimensions and finishes confirmed in your quote.",
     intro:
       "Custom cotton pouches and bags in unbleached cotton with a soft, natural hand feel. Choose drawstring, flap, envelope or zipper styles in sizes reviewed against your product — from small jewelry and cosmetics pouches to larger gift bags — with your logo printed in water-based inks.",
-    image: "/images/carousel/cotton-pouch.png",
+    image: "/images/products/custom-cotton-pouches/custom-cotton-pouches-hero.webp",
+    gallery: [
+      "/images/products/custom-cotton-pouches/custom-cotton-pouches-hero.webp",
+      "/images/products/custom-cotton-pouches/custom-cotton-pouches-detail-01.webp",
+      "/images/products/custom-cotton-pouches/custom-cotton-pouches-detail-02.webp",
+      "/images/products/custom-cotton-pouches/custom-cotton-pouches-detail-03.webp",
+      "/images/products/custom-cotton-pouches/custom-cotton-pouches-detail-04.webp",
+      "/images/products/custom-cotton-pouches/custom-cotton-pouches-detail-05.webp",
+    ],
+    galleryRatio: "1 / 1",
     materials: "Natural cotton, cotton cord",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
@@ -1132,8 +1142,27 @@ export const products: Product[] = [
     shortDesc:
       "Cotton envelope pouches with flap-snap, flat-pocket and zip-envelope styles — a workhorse carrier for jewelry, wigs and beauty.",
     description:
-      "The cotton envelope pouch is one of our most-run pouch programs: a structured cotton carrier with an envelope flap, made in many styles and custom sizes for jewelry, wigs and hair, and beauty lines. Three style families cover the uses — the flap-and-snap envelope that closes with one hand and gifts beautifully, the flat open pocket for inserts and slip cases, and the zip envelope that secures contents for travel and retail. Natural unbleached cotton takes water-based ink prints and woven labels well, and every size is made to your product. MOQ from 200 pieces. Product photography is in progress; request a stock sample to feel the weave.",
-    image: "/images/placeholder/product-coming-soon.svg",
+      "The cotton envelope pouch is one of our most-run pouch programs: a structured cotton carrier with an envelope flap, made in many styles and custom sizes for jewelry, wigs and hair, and beauty lines. Three style families cover the uses — the flap-and-snap envelope that closes with one hand and gifts beautifully, the flat open pocket for inserts and slip cases, and the zip envelope that secures contents for travel and retail. Natural unbleached cotton takes water-based ink prints and woven labels well, and every size is made to your product. MOQ from 200 pieces; request a stock sample to feel the weave.",
+    image:
+      "/images/products/custom-cotton-envelope-pouches/custom-cotton-envelope-pouches-detail-06.webp",
+    gallery: [
+      "/images/products/custom-cotton-envelope-pouches/custom-cotton-envelope-pouches-detail-06.webp",
+      "/images/products/custom-cotton-envelope-pouches/custom-cotton-envelope-pouches-detail-01.webp",
+      "/images/products/custom-cotton-envelope-pouches/custom-cotton-envelope-pouches-hero.webp",
+      "/images/products/custom-cotton-envelope-pouches/custom-cotton-envelope-pouches-detail-03.webp",
+      "/images/products/custom-cotton-envelope-pouches/custom-cotton-envelope-pouches-detail-04.webp",
+      "/images/products/custom-cotton-envelope-pouches/custom-cotton-envelope-pouches-detail-05.webp",
+    ],
+    galleryRatio: "1 / 1",
+    descriptionImage:
+      "/images/products/custom-cotton-envelope-pouches/custom-cotton-envelope-pouches-description.webp",
+    customizeImage:
+      "/images/products/custom-cotton-envelope-pouches/custom-cotton-envelope-pouches-customize.webp",
+    infoImage:
+      "/images/products/custom-cotton-envelope-pouches/custom-cotton-envelope-pouches-info.webp",
+    descriptionImageRatio: "1 / 1",
+    customizeImageRatio: "1 / 1",
+    infoImageRatio: "1 / 1",
     materials: "Natural cotton, snap or zipper closure",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",

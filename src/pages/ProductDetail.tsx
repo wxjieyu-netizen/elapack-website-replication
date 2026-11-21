@@ -357,6 +357,30 @@ export default function ProductDetail() {
         </div>
       </section>
 
+      {product.infoImage && (
+        <section className="section product-info-image-section">
+          <div className="container">
+            <div
+              className="reveal"
+              style={{
+                maxWidth: "1200px",
+                margin: "0 auto",
+                borderRadius: "1rem",
+                overflow: "hidden",
+                ...(product.infoImageRatio ? { aspectRatio: product.infoImageRatio } : {}),
+              }}
+            >
+              <img
+                src={product.infoImage}
+                alt={`${product.name} additional details`}
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Customization Process */}
       <section className="section product-process-section">
         <div className="container">
