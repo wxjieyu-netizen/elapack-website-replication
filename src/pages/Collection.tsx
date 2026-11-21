@@ -151,6 +151,44 @@ export default function Collection({ slug }: { slug: string }) {
         </section>
       )}
 
+      {collection.table2 && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem", fontSize: "1.75rem" }}>
+                {collection.table2.heading}
+              </h2>
+              {collection.table2.intro?.map((para) => (
+                <p key={para.slice(0, 32)} className="about-text" style={{ marginTop: "1rem" }}>{para}</p>
+              ))}
+              <div style={{ overflowX: "auto", marginTop: "1rem" }}>
+                <table className="spec-table">
+                  <thead>
+                    <tr>
+                      {collection.table2.columns.map((col) => (
+                        <th key={col}>{col}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {collection.table2.rows.map((row) => (
+                      <tr key={row[0]}>
+                        {row.map((cell, ci) => (
+                          <td key={ci}>{cell}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              {collection.table2.note && (
+                <p className="markets-note" style={{ marginTop: "1rem" }}>{collection.table2.note}</p>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
       {collection.relatedPages && (
         <section className="section" style={{ paddingTop: 0 }}>
           <div className="container">

@@ -27,6 +27,8 @@ export type Collection = {
   factBlock?: { updated: string; paragraph: string; top?: boolean };
   /** Selection decision table (mirrors the landing tables): type | best for | what to confirm on the sample. */
   table?: { heading: string; columns: string[]; rows: string[][]; note?: string };
+  /** Optional second table, rendered after the first; intro paragraphs print above the table. */
+  table2?: { heading: string; intro?: string[]; columns: string[]; rows: string[][]; note?: string };
   /** Closing FAQ group; also emitted as FAQPage JSON-LD by the prerender, same mechanism as the landings. */
   faq?: { q: string; a: string }[];
   /** Prefilled closing CTA sentence linking to the contact form with a product context (pouches-bags pattern). */
@@ -860,6 +862,22 @@ export const collections: Collection[] = [
       ],
       note: "Sizes are quoted from the item dimensions — confirm the usable opening with the actual product in the bag before production.",
     },
+    table2: {
+      heading: "What size drawstring bag do you need?",
+      intro: [
+        "Start from the product, not from a stock bag. Measure the item as it will actually be packed — width, height and depth at the widest points, including caps, handles, straps and any inner box, insert or tissue. A flat pouch has to cover half the item's perimeter, so as a starting estimate, bag width is the item width plus its depth, plus about 2–3 cm of ease for seams and easy insertion. For a round item such as a perfume bottle, use about 1.6 times the diameter instead of width plus depth. Bag height is the item height plus about 3–5 cm on small pouches, or about 5–8 cm on large dust bags, to leave room for the drawstring channel and the gathered opening.",
+        "These figures are starting points for a quotation, not production sizes. The final size is set from the pattern for your fabric and closure, and confirmed on a sample with the actual item inside. Worked example — a perfume bottle of 4.5 cm diameter and 11 cm tall: width 4.5 × 1.6 ≈ 7.2 cm, plus 2.5 cm of ease gives about 10 cm; height 11 cm plus 4 cm for the closure gives 15 cm — start from a 10 × 15 cm pouch.",
+      ],
+      columns: ["Packed item", "Common bag sizes, width × height (cm)", "Notes"],
+      rows: [
+        ["Jewelry", "5 × 7 · 7 × 9 · 8 × 10 · 9 × 12 · 10 × 12 · 10 × 15 · 12 × 15 · 13 × 18 · 15 × 20", "ELAPACK's regular velvet pouch sizes are 8 × 10, 10 × 12 and 12 × 15 cm; every size is made to order"],
+        ["Eyewear", "9 × 18 for standard frames and sunglasses · 10 × 19 for oversized frames", "Size from the folded frame, including its case if the case is packed inside"],
+        ["Fragrance & cosmetics", "Samples 8 × 10 · 9 × 12; smaller bottles 12 × 16 · 13 × 18; 100 ml bottles 15 × 20 · 15 × 23", "Bottle shapes vary more than volumes — size from the bottle, not the ml; tall bottles often need a 3–5 cm bottom gusset to stand"],
+        ["Shoes", "Single shoe 21 × 36 · 25 × 42; one bag per pair 30 × 40 · 35 × 45; ankle boots 30 × 48 · 42 × 48; tall boots 45 × 60", "One bag per pair is the economical default; one per shoe keeps the pair separated. Measure boot height before choosing"],
+        ["Handbags & bags", "Small 25 × 25 · 25 × 30; medium 30 × 35 · 35 × 40 · 40 × 40 · 40 × 50; large 50 × 55 · 55 × 60 · 50 × 65; extra large 70 × 60", "Allow for depth, straps, chains and hardware as packed, not as displayed"],
+      ],
+      note: "Reference sizes from standard supplier ranges — a starting point for your enquiry, not a stock list; every ELAPACK bag is made to your dimensions. For handbag and shoe dust bags used for long-term storage, fabric contact and storage checks matter as much as size; the related guides below include our custom dust bags guide. Whichever size you start from, approve it on a sample with the actual item inside before production.",
+    },
     faq: [
       { q: "Are your drawstring bags stocked or made to order?", a: "Made to order. Every bag is made to your specification — fabric, size, cord and logo — and nothing is a stock style. The minimum order is 200 pieces per product or component." },
       { q: "Which fabric should I choose?", a: "Cotton and muslin are the natural, printable volume formats; velvet and satin suit gifting, jewelry and fragrance programs; linen and blends give a textured, matte natural face. Confirm the fabric, size and feasible logo method in the quotation and on the sample." },
@@ -867,6 +885,10 @@ export const collections: Collection[] = [
       { q: "Can a drawstring bag be paired with a box as a set?", a: "Yes. The bag and box are specified as separate components of one program, colour-matched to your reference; the 200-piece minimum applies to each component." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
       { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon–Fri, China time)." },
+      {
+        q: "What size drawstring bag do I need for my product?",
+        a: "Measure the product as packed — width, height and depth — then start from a bag width of item width plus depth plus about 2–3 cm of ease, and an item height plus 3–5 cm on small pouches or 5–8 cm on large dust bags for the drawstring channel. The size table above gives common starting sizes by product type. Send us the dimensions with your enquiry and we will confirm the size on a sample with the actual item inside before production.",
+      },
       {
         q: "Where can I buy custom drawstring bags?",
         a: "Directly from ELAPACK — the bags are made to order from 200 pieces, in your fabric, size and logo. Send the fabric, dimensions, quantity and artwork for a quotation, and approve a custom sample (USD 30 plus USD 25 shipping, made in 3–5 days) before production.",
@@ -876,6 +898,7 @@ export const collections: Collection[] = [
     ctaLink: { lead: "Send your item dimensions, fabric, target size and quantity to", anchor: "request a drawstring bag quotation", product: "custom-cotton-pouches" },
     ctaTitle: "Request a quote for your custom drawstring bags",
     guideSlugs: [
+      "custom-dust-bags-guide",
       "how-to-choose-custom-drawstring-bags",
       "custom-clothing-apparel-packaging-guide",
     ],
