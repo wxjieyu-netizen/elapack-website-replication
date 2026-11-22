@@ -641,7 +641,15 @@ export const products: Product[] = [
       "This page covers printed perfume sample cards, not rigid perfume gift boxes. Send the vial or sachet dimensions, number of samples per card, proposed attachment method and artwork. Card stock, print method, attachment and finished size need confirmation in the quotation and approved sample. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate. Product photography is pending.",
     intro:
       "Printed perfume sample cards — not rigid perfume gift boxes. Send the vial or sachet dimensions, the number of samples per card, your proposed attachment method and artwork; card stock, print method, attachment and finished size are confirmed in the quotation and approved sample. Orders start at 200 pieces.",
-    image: "/images/placeholder/product-coming-soon.svg",
+    image: "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-hero.webp",
+    gallery: [
+      "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-hero.webp",
+      "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-detail-01.webp",
+      "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-detail-02.webp",
+      "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-detail-03.webp",
+      "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-detail-04.webp",
+    ],
+    galleryRatio: "1 / 1",
     materials: "Card stock and sample attachment to confirm in quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",

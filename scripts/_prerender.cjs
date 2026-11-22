@@ -54,11 +54,21 @@ function Logo() {
   );
 }
 
+// src/data/keyFacts.ts
+var KEY_FACTS_LINES = [
+  "Minimum order: 200 pieces per product (each component of a set counts at its own 200-piece minimum)",
+  "Custom samples: made in 3\u20135 days \u2014 USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples \u2014 USD 25 shipping only, delivered in 4\u20137 days",
+  "Quotations: a written quotation within 1 business day of your enquiry",
+  "Production: 15\u201320 days for 200\u201320,000 pieces; 30\u201335 days for 20,000\u201350,000 pieces, counted from sample approval and payment",
+  "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+  "Payment: T/T or PayPal"
+];
+
 // src/data/products.ts
 var products = [
   {
     slug: "black-leather-jewelry-box",
-    name: "Custom Black Jewelry Boxes",
+    name: "Custom Jewelry Boxes \u2014 Black",
     category: "Boxes",
     shortDesc: "Black jewelry box packaging; confirm exterior, interior, insert and branding in the quotation and sample.",
     description: "Plan a black jewelry box around the jewelry type, item dimensions and required presentation. Tell us whether you want a leather-look exterior, a particular lining or a fitted insert; these are specification choices, not confirmed materials for the pictured reference. Review the proposed structure and logo placement in a free digital dieline preview, then confirm the material, finish and fit in the quotation and approved sample. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate.",
@@ -139,7 +149,7 @@ var products = [
   },
   {
     slug: "custom-white-jewelry-box",
-    name: "Custom White Jewelry Boxes",
+    name: "Custom Jewelry Boxes \u2014 White",
     category: "Boxes",
     shortDesc: "White jewelry box packaging; confirm shell, insert, closure and logo method against your approved sample.",
     description: "For a white jewelry box, share the jewelry dimensions, item count, preferred opening and artwork. Confirm the shell material, insert and closure for your order. Confirm the proposed construction, finish and fit in the quotation and approved sample before bulk. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate.",
@@ -217,7 +227,7 @@ var products = [
   },
   {
     slug: "custom-ring-boxes",
-    name: "Custom Ring & Engagement Ring Boxes",
+    name: "Custom Ring Boxes & Engagement Ring Boxes",
     category: "Boxes",
     shortDesc: "Custom ring boxes for jewelry brands, from 200 pieces. Plan the ring fit, insert, exterior and logo together before approving a sample.",
     description: "Custom ring boxes for jewelry brands ordering from 200 pieces. For a comparable quote, send the ring's band width, setting height, the number of rings per box, preferred appearance, logo artwork, quantity and delivery destination. Review the proposed box and insert dimensions, slot layout, closure and finish together; check retention and removal with your actual ring in an approved sample. A free visual preview of the proposed box structure is available. Custom samples cost USD 30 plus USD 25 shipping and take 3\u20135 days to make. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate. Confirm how sizes, colours and artwork are allocated in the quotation.",
@@ -302,7 +312,7 @@ var products = [
   },
   {
     slug: "luxury-gift-box-ribbon",
-    name: "Luxury Gift Boxes with Ribbon",
+    name: "Custom Ribbon-Tie Gift Boxes",
     category: "Boxes",
     shortDesc: "Rigid luxury gift box with satin ribbon tie closure \u2014 premium presentation for corporate gifting. MOQ 200 pcs, typical production 15\u201320 days.",
     description: "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held against an approved sample before bulk. Interior options secure the product for gifting and courier conditions alike. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 30 plus USD 25 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
@@ -386,6 +396,10 @@ var products = [
   {
     slug: "magnetic-closure-gift-box",
     name: "Custom Magnetic Closure Gift Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Structure: rigid magnetic flap closure; inserts in EVA, sponge, pulp or flocked board, sized to your product."
+    ],
     category: "Boxes",
     shortDesc: "Sleek flip-top gift box with hidden magnetic closure and custom interior inserts.",
     description: "A sleek flip-top gift box with a hidden magnetic closure, built for jewelry, eyewear, cosmetics and small luxury programs. The concealed magnet pair keeps the lid shut in transit yet opens one-handed in a retail setting, and because the mechanism sits inside the wrap, the exterior stays clean for full-surface print or foil branding. Construction is 1200-1500gsm greyboard wrapped in your choice of art paper, with interior inserts cut to the product's exact footprint so contents ride immobile - EVA, velvet or molded pulp by product weight and fragility. Specify Pantone references for wrap and print; color is held against an approved sample before bulk. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. Approve a custom sample first (USD 30 plus USD 25 shipping, 3-5 days) to check closure feel and color before committing to bulk.",
@@ -430,7 +444,7 @@ var products = [
       { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
       { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
       { label: "Dimensions", value: "Made to your product dimensions \u2014 confirm internal clearance and finished outside size separately in the quotation" },
-      { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
+      { label: "Protection options", value: "Fitted insert for fixation and shock protection" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 30 + USD 25 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
@@ -445,6 +459,10 @@ var products = [
   {
     slug: "custom-eyelash-packaging-boxes",
     name: "Custom Eyelash Packaging Boxes with Logo",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Sized to your tray dimensions and pack quantity; structure, tray fit and artwork are confirmed in the quotation and approved sample."
+    ],
     category: "Boxes",
     shortDesc: "Custom eyelash packaging boxes with your logo \u2014 three standard formats or fully custom sizes, from 200 pieces.",
     description: "Custom eyelash packaging boxes for false eyelash brands, salons and wholesalers \u2014 from single-pair retail boxes to empty wholesale packaging for full lash lines. Built around your lash trays \u2014 strip lashes, volume trays or extension programs \u2014 with fitted inserts that hold each tray in place for storage, transit and shelf, and a printed wrap that carries your brand at retail and in unboxing. Three standard formats cover the common tray sizes: 14\xD710\xD76, 15\xD715\xD75 and 20\xD718\xD78 cm, and any dimension can be made to spec. MOQ from 200 pieces with your logo printed, foil-stamped or embossed. Request a stock sample to judge the board and print quality in hand.",
@@ -491,7 +509,7 @@ var products = [
       { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
       { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
       { label: "Dimensions (L \xD7 W \xD7 H)", value: "14\xD710\xD76 / 15\xD715\xD75 / 20\xD718\xD78 cm, or custom" },
-      { label: "Protection options", value: "Fitted insert for fixation and shock protection; anti-tarnish lining is an option for silver / plated items only, confirmed by sample" },
+      { label: "Protection options", value: "Fitted insert for fixation and shock protection" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 30 + USD 25 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
     ],
@@ -504,7 +522,7 @@ var products = [
   },
   {
     slug: "custom-perfume-boxes",
-    name: "Custom Perfume Packaging Boxes",
+    name: "Custom Perfume Boxes",
     category: "Boxes",
     shortDesc: "Custom perfume box projects from 200 pieces; confirm the bottle fit, structure, insert and finish in a sample.",
     description: "Start a perfume box brief with bottle dimensions, bottle weight, item count, preferred opening and artwork. The gallery shows style references, not a single standard configuration. Ask for the proposed box structure, insert material and branding method to be itemized in the quotation. Check the fit and opening with your bottle in an approved sample; presentation alone does not establish shipping protection. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate.",
@@ -605,12 +623,20 @@ var products = [
   },
   {
     slug: "custom-perfume-sample-card-boxes",
-    name: "Custom Printed Perfume Sample Cards",
+    name: "Custom Perfume Sample Cards",
     category: "Sampling Cards",
     shortDesc: "Printed perfume sampling cards; share vial or sachet dimensions, attachment method and artwork for a quote.",
     description: "This page covers printed perfume sample cards, not rigid perfume gift boxes. Send the vial or sachet dimensions, number of samples per card, proposed attachment method and artwork. Card stock, print method, attachment and finished size need confirmation in the quotation and approved sample. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate. Product photography is pending.",
     intro: "Printed perfume sample cards \u2014 not rigid perfume gift boxes. Send the vial or sachet dimensions, the number of samples per card, your proposed attachment method and artwork; card stock, print method, attachment and finished size are confirmed in the quotation and approved sample. Orders start at 200 pieces.",
-    image: "/images/placeholder/product-coming-soon.svg",
+    image: "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-hero.webp",
+    gallery: [
+      "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-hero.webp",
+      "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-detail-01.webp",
+      "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-detail-02.webp",
+      "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-detail-03.webp",
+      "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-detail-04.webp"
+    ],
+    galleryRatio: "1 / 1",
     materials: "Card stock and sample attachment to confirm in quotation and sample",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
@@ -673,6 +699,10 @@ var products = [
   {
     slug: "custom-press-on-nail-boxes",
     name: "Custom Press-on Nail Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Sized to your nail sets and trays; the box holds trays or tips securely for direct and retail sales."
+    ],
     category: "Boxes",
     shortDesc: "Custom press-on nail packaging boxes \u2014 sized to your nail sets and trays, with your logo from the first run.",
     description: "Custom press-on nail packaging for nail brands selling direct and at retail. Press-on sets live or die on presentation \u2014 the box holds the nail trays or tips securely, shows the shade and size system, and carries your brand at first sight. Boxes are made to your set format: single-set sleeves, multi-size kits or wholesale display packs, with fitted inserts that keep every tray in place. Your logo is printed, foil-stamped or embossed on the wrap. MOQ from 200 pieces \u2014 send your tray dimensions and set count for a quote. Request a stock sample to judge the board quality.",
@@ -748,6 +778,10 @@ var products = [
   {
     slug: "custom-hair-extension-boxes",
     name: "Custom Hair Extension Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Built around your packed bundle dimensions and item count; identification labels for length and shade are part of the specification."
+    ],
     category: "Boxes",
     shortDesc: "Custom hair extension boxes for hair brands and salons, from 200 pieces. Share packed bundle dimensions, item count, identification labels and artwork to review the proposed box and insert.",
     description: "Start with the hair products as packed, including ties, cards and accessories. State item count, orientation and packed dimensions. Request a sleeve, drawer or magnetic opening for feasibility review. Confirm usable internal space, insert contact, closure and removal on a loaded sample. Provide length and shade identification separately from logo artwork, with quantities for each version confirmed in the written quotation.",
@@ -815,7 +849,7 @@ var products = [
     name: "Custom Watch Boxes",
     category: "Boxes",
     shortDesc: "Custom watch boxes with fitted watch pillow inserts \u2014 single and multi-watch formats for retail and gifting.",
-    description: "Custom watch boxes for watch brands, strap makers and gifting programs. Discuss a rigid box, wrap and watch pillow for single-watch or multi-watch presentation. Share the watch case dimensions, closed-strap size, accessories and number of watches per box so the proposed layout can be checked on a loaded sample. Confirm the wrap, decoration and any transit checks for the complete shipping pack before bulk production. MOQ from 200 pieces. Product photography is in progress; request a stock sample to judge the board and finish.",
+    description: "Custom watch boxes for watch brands, strap makers and gifting programs. Discuss a rigid box, wrap and watch pillow for single-watch or multi-watch presentation. Share the watch case dimensions, closed-strap size, accessories and number of watches per box so the proposed layout can be checked on a loaded sample. Confirm the wrap, decoration and any transit checks for the complete shipping pack before bulk production. MOQ from 200 pieces. Request a stock sample to judge the board and finish.",
     intro: "Custom watch boxes for watch brands, strap makers and gifting programs. Rigid two-piece, drawer or magnetic flip-top structures with fitted watch pillows \u2014 share the watch case dimensions, closed-strap size, accessories and number of watches per box so the layout can be checked on a loaded sample.",
     image: "/images/products/custom-watch-boxes/custom-watch-boxes-hero.webp",
     gallery: [
@@ -889,10 +923,14 @@ var products = [
   {
     slug: "custom-velvet-pouches",
     name: "Custom Velvet Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Styles: drawstring, flap, envelope and zipper; made to your colour, size and logo. Can be colour-matched with ELAPACK rigid boxes for a box-plus-pouch set."
+    ],
     category: "Pouches & Bags",
     shortDesc: "Soft velvet pouches in drawstring, flap, envelope and zipper styles \u2014 your colour, size and logo.",
     description: "Custom velvet pouches for programs that want a plush, gift-ready feel at first touch. The dense velvet pile cushions jewelry, eyewear and small luxury goods, and the same pouch carries brands through retail, gifting and unboxing moments. Choose your closure \u2014 drawstring, flap, envelope or zipper \u2014 your Pantone-matched velvet colour, and your logo silkscreened, hot-stamped or woven into a label. Custom sizing is reviewed against the product and construction, from small gift pouches to larger presentation bags. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. Velvet colour is reviewed against the approved sample before bulk. A custom sample (USD 30 plus USD 25 shipping, 3\u20135 days) settles pile direction, shade and logo hand before the production order \u2014 the cheapest way to see the exact fabric your program will carry.",
-    intro: "Custom velvet pouches with a plush, gift-ready feel at first touch \u2014 the dense velvet pile cushions jewelry, eyewear and small luxury goods through retail, gifting and unboxing moments. Choose drawstring, flap, envelope or zipper closure, a Pantone-matched velvet colour, and silkscreen, hot-stamp or woven-label branding. Orders start at 200 pieces; custom sizing is reviewed against your product and construction.",
+    intro: "Custom velvet pouches for jewelry, eyewear and small gifts. Choose a drawstring, flap, envelope or zipper closure, match the velvet to your Pantone colour, and add your logo by silkscreen, hot stamp or woven label. MOQ 200 pcs. Custom samples ship in 3\u20135 days.",
     image: "/images/products/custom-velvet-pouches/custom-velvet-pouches-hero.webp",
     gallery: [
       "/images/products/custom-velvet-pouches/custom-velvet-pouches-hero.webp",
@@ -913,7 +951,7 @@ var products = [
     features: [
       {
         title: "Plush Velvet Protection",
-        desc: "Dense velvet pile cushions jewelry, frames and finished goods against scratches."
+        desc: "Dense velvet pile cushions jewelry, eyewear and small luxury goods against scratches."
       },
       {
         title: "Four Closure Styles",
@@ -929,14 +967,17 @@ var products = [
       }
     ],
     specs: [
-      { label: "Fabric options", value: "Velvet: confirm fibre composition, pile direction, colour and weight or construction in the quotation and approved sample" },
-      { label: "Closure options", value: "Drawstring, flap, envelope or zipper; string types confirmed in quotation" },
-      { label: "Size", value: "Made to your product dimensions \u2014 confirm finished size in the quotation" },
-      { label: "Logo method", value: "Silkscreen, hot stamp or woven label; Pantone matching on request" },
+      { label: "MOQ", value: "200 pcs per product" },
+      { label: "Closures", value: "Drawstring, flap, envelope, zipper" },
+      { label: "Logo", value: "Silkscreen, hot stamp, woven label" },
+      { label: "Artwork files", value: "AI, PDF or PNG, with Pantone colour references" },
+      { label: "Colour", value: "Pantone matching on request" },
+      { label: "Size", value: "Standard sizes 8 \xD7 10 cm, 10 \xD7 12 cm and 12 \xD7 15 cm. Custom sizes are made to your product dimensions" },
+      { label: "Fabric weight", value: "Standard velvet runs 200\u2013250 gsm \u2014 the weight most pouch programs use. For a thicker, more substantially cushioned hand, a heavier 280\u2013300 gsm velvet is available. Confirm the weight in the quotation and on the approved sample" },
+      { label: "Samples", value: "Stock sample free + USD 25 shipping (4\u20137 days). Custom sample USD 30 + USD 25 shipping (3\u20135 days)" },
+      { label: "Production", value: "15\u201320 days (200\u201320,000 pcs); 30\u201335 days (20,000\u201350,000 pcs), after sample approval and payment" },
       { label: "Protection", value: "Check the loaded fit, seams, closure and material contact on a sample. Request material-specific evidence for any claimed protective treatment" },
-      { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
-      { label: "MOQ", value: "200 pcs per product / per component of a set" },
-      { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 30 + USD 25 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
+      { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" }
     ],
     faqs: [
       {
@@ -957,11 +998,27 @@ var products = [
       },
       {
         q: "Will a velvet pouch protect jewellery from scratches?",
-        a: "The velvet surface is soft and non-abrasive, so it protects against contact scratches, dust and rubbing in storage and transit. It is a surface-protection fabric, not a rigid one \u2014 for impact protection the pouch is paired with a box or a fitted insert. If you need an anti-tarnish function for silver or plated items, that is a separate lining option, confirmed in the quotation and by sample."
+        a: "The velvet surface is soft and non-abrasive, so it protects against contact scratches, dust and rubbing in storage and transit. It is a surface-protection fabric, not a rigid one \u2014 for impact protection the pouch is paired with a box or a fitted insert."
       },
       {
         q: "Can I put more than one piece of jewellery in one pouch?",
         a: "You can, but pieces stored together can rub and chains can tangle. For multi-piece storage, ask for internal dividers or a larger format in the enquiry, or order one pouch per piece \u2014 most jewellery brands do the latter so each item is presented and stored separately. The arrangement is checked on the sample with your actual pieces."
+      },
+      {
+        q: "What are the standard sizes?",
+        a: "Standard sizes are 8 \xD7 10 cm, 10 \xD7 12 cm and 12 \xD7 15 cm. Custom sizes are made to your product dimensions, and MOQ stays 200."
+      },
+      {
+        q: "What artwork file do you need?",
+        a: "AI, PDF or PNG. Send your logo file with your Pantone colour references in the enquiry, so the logo method \u2014 silkscreen, hot stamp or woven label \u2014 is quoted against the actual artwork."
+      },
+      {
+        q: "How do you control colour difference?",
+        a: "Colour is reviewed against the approved sample before bulk. The standard acceptance for bulk production is a colour difference of \u0394E \u2264 1.5 against the confirmed sample, grey scale grade 4."
+      },
+      {
+        q: "What affects the price?",
+        a: "Size, velvet, closure, logo method and quantity."
       }
     ],
     customizationOptions: [
@@ -1131,7 +1188,7 @@ var products = [
   },
   {
     slug: "velvet-necklace-display",
-    name: "Velvet Necklace Display Stand",
+    name: "Velvet Necklace Display Stands",
     category: "Retail Display Props",
     shortDesc: "Necklace display stands for wholesale retail projects. Discuss height, presentation and branding for your assortment.",
     description: "Planning wholesale necklace displays? Share the chain lengths, pendant dimensions, available counter space, preferred presentation and quantity. Confirm the proposed height, base footprint, covering and logo options in your quotation, then review the sample with your jewellery.",
@@ -1179,7 +1236,7 @@ var products = [
   },
   {
     slug: "acrylic-earring-display",
-    name: "Acrylic Earring Display Stand",
+    name: "Acrylic Earring Display Stands for Jewelry Retail",
     category: "Retail Display Props",
     shortDesc: "Earring display stands for retail projects. Discuss the layout and material for your assortment.",
     description: "For an earring display quote, list the earring styles, the number of pairs to present and any preferred layout. Check hole or slot placement, spacing, stand dimensions and the chosen material with a sample before approving production.",
@@ -1227,7 +1284,7 @@ var products = [
   },
   {
     slug: "kraft-paper-shopping-bag",
-    name: "Kraft Paper Shopping Bag",
+    name: "Custom Kraft Paper Shopping Bags",
     category: "Pouches & Bags",
     shortDesc: "Kraft shopping bag with twisted handles \u2014 custom logo printing.",
     description: "A kraft paper shopping bag for retail carry-out, gift wrapping or events. Share the products to be carried, target loaded weight, desired width, height and gusset depth, handle preference, artwork and quantity for a project-specific quote. Confirm the proposed paper, handle attachment, print method and finish against the quotation and sample; test the assembled bag with the intended load before approving bulk production. Ask us to confirm the selected construction before assessing disposal options. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. Colour is reviewed against the approved sample before bulk. Request a free digital dieline preview to review the proposed dimensions, then approve a custom sample (USD 30 plus USD 25 shipping, 3-5 days) to check handle comfort and print appearance in hand before the bulk run.",
@@ -1289,7 +1346,7 @@ var products = [
   },
   {
     slug: "stackable-jewelry-tray",
-    name: "Stackable Jewelry Tray",
+    name: "Stackable Jewelry Trays for Retail Display",
     category: "Retail Display Props",
     shortDesc: "Jewelry display trays for wholesale projects. Confirm the compartment layout, fixture fit and stacking interface.",
     description: "For wholesale jewellery display trays, measure the inside of the showcase or drawer and list the jewellery dimensions and desired layout. Confirm external tray size, usable compartments, covering and any stacking interface on the proposed sample.",
@@ -1337,7 +1394,7 @@ var products = [
   },
   {
     slug: "velvet-jewelry-display-set",
-    name: "Velvet Jewelry Display Set",
+    name: "Velvet Jewelry Display Sets for Retail",
     category: "Retail Display Props",
     shortDesc: "Coordinated jewelry display components for retail counters. Specify the piece mix and quantity for each component.",
     description: "For a coordinated jewellery display programme, list each component, its quantity and the available counter space. Confirm the proposed piece mix, covering and colours in the quotation. Display sets start at 10 sets; confirm allocation across variants when requesting a quote.",
@@ -1385,7 +1442,7 @@ var products = [
   },
   {
     slug: "leather-envelope-pouch",
-    name: "Leather Envelope Pouch",
+    name: "Custom Leather Envelope Pouches",
     category: "Pouches & Bags",
     shortDesc: "Pebbled faux-leather envelope pouch with gold foil logo, snap closure and soft suede-touch interior.",
     description: "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries \u2014 jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand. Sizes are cut to your contents, from single-card minis to eyewear-length formats, and foil colour, thread and interior shade are specified together so the pouch reads as one palette \u2014 held against an approved sample before bulk. Production runs from 200 pieces in 15\u201320 days, and a custom sample (USD 30 plus USD 25 shipping, 3\u20135 days) settles flap hand, foil density and interior fit with your actual product before the run.",
@@ -1579,7 +1636,7 @@ var products = [
   },
   {
     slug: "custom-muslin-drawstring-pouch",
-    name: "Custom Natural-Fabric Drawstring Pouches",
+    name: "Custom Muslin Drawstring Pouches",
     category: "Pouches & Bags",
     shortDesc: "Natural-look drawstring pouch projects; confirm the fabric composition, weave and cord in a sample.",
     description: "For a muslin-style drawstring pouch, send the item dimensions, quantity, preferred fabric appearance, cord and artwork. Request the exact fiber composition and fabric weight in the quotation, then check the proposed material and logo print in a sample. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate. Product photography is pending; request a sample to review the actual fabric and print.",
@@ -1680,7 +1737,7 @@ var products = [
       { label: "Closure options", value: "Drawstring, flap, envelope or zipper; string types confirmed in quotation" },
       { label: "Size", value: "Made to your product dimensions \u2014 confirm finished size in the quotation" },
       { label: "Logo method", value: "Silkscreen, hot stamp or woven label; Pantone matching on request" },
-      { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection; anti-tarnish treatment is an option for silver / plated items only, confirmed by sample" },
+      { label: "Protection", value: "Soft lining for anti-scratch and anti-tangle protection" },
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4\u20137 days); custom sample USD 30 + USD 25 shipping, 3\u20135 days; production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment" }
@@ -1694,7 +1751,7 @@ var products = [
   },
   {
     slug: "custom-pvc-bags",
-    name: "Custom Clear Packaging Bags with Logo",
+    name: "Custom Clear PVC Bags",
     category: "Pouches & Bags",
     shortDesc: "Clear custom bags with logo from 200 pieces; confirm film and closure type in a sample.",
     description: "For a clear packaging bag, provide the contents, required finished size, usable opening, preferred closure and logo artwork. Confirm the exact film composition, gauge, closure construction and print method in the quotation and approved sample. Orders start at 200 pieces. Product photography is pending; request a sample to check the actual film, opening and print.",
@@ -1760,7 +1817,7 @@ var products = [
   },
   {
     slug: "custom-microfiber-cleaning-cloth-jewelry",
-    name: "Custom Microfiber Cleaning Cloth for Jewelry",
+    name: "Custom Microfiber Polishing Cloths for Jewelry",
     category: "Pouches & Bags",
     shortDesc: "Microfiber polishing cloth for jewelry, from 200 pieces; confirm size, edge, print and polishing scope in a sample.",
     description: "A microfiber cloth to add to a jewelry box + pouch set, so the customer can keep the piece looking like new on every opening. Material: microfiber \u2014 in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180\u2013230g; other weights can be made to request. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. This jewelry version carries a polishing effect and is used to polish oxidized metal jewellery; the eyewear version is plain microfiber with no polishing additive. Confirm the polishing scope you need in the quotation and approved sample. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
@@ -2409,7 +2466,8 @@ function Footer() {
         /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { className: "footer-desc", children: "Crafting premium packaging solutions for global luxury brands. From creative design to precision production \u2014 one partner, end to end." }),
         /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "footer-badges", children: [
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-badge", children: "Material Options" }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-badge", children: "Global Shipping" })
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-badge", children: "Global Shipping" }),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-badge", children: "ISO 9001 certified" })
         ] })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "footer-col", children: [
@@ -2421,7 +2479,8 @@ function Footer() {
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/solutions/", children: "Solutions" }) }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/about/", children: "About Us" }) }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/news/", children: "News" }) }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/contact/", children: "Contact" }) })
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/contact/", children: "Contact" }) }),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_react_router_dom2.Link, { to: "/privacy/", children: "Privacy Policy" }) })
         ] })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "footer-col", children: [
@@ -2439,7 +2498,7 @@ function Footer() {
         /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("ul", { className: "footer-contact", children: [
           /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("li", { children: [
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-label", children: "Phone" }),
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "tel:+8618626352096", children: "+86 18626352096" })
+            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "tel:+8618626352096", children: "+86 186 2635 2096" })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("li", { children: [
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-label", children: "Email" }),
@@ -2447,7 +2506,7 @@ function Footer() {
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("li", { children: [
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-label", children: "WhatsApp" }),
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 18626352096" })
+            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("li", { children: [
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "footer-label", children: "Location" }),
@@ -2593,23 +2652,23 @@ var brandLogos = [
 ];
 var whyCards = [
   {
-    title: "Custom Supply",
-    desc: "Flexible sourcing and formulation cooperation for specific product requirements.",
+    title: "Custom Manufacturing",
+    desc: "Boxes, bags, pouches and ribbons made to your dimensions, materials and artwork by our own factory in Wuxi \u2014 no middlemen between your spec and production.",
     image: "/why-custom-supply.webp"
   },
   {
-    title: "R&D Support",
-    desc: "Technical review and product development support for target applications.",
+    title: "Structure & Sampling",
+    desc: "We check structure, size and insert fit against your actual product, then prove it on a physical sample \u2014 custom samples in 3\u20135 days before any production commitment.",
     image: "/why-rd-support.webp"
   },
   {
-    title: "Supply Chain",
-    desc: "Packaging, warehousing, and export coordination for stable delivery.",
+    title: "Export & Delivery",
+    desc: "Production in 15\u201320 days for 200\u201320,000 pieces, shipped from Shanghai or Shenzhen by sea or air; DDP quoted on request.",
     image: "/why-supply-chain.webp"
   },
   {
-    title: "Technical Service",
-    desc: "Clear documents, responsive communication, and consistent order follow-up.",
+    title: "Clear Specs, Written Quotes",
+    desc: "A written quotation within 1 business day, with dimensions, materials, inserts and logo method confirmed in writing \u2014 then verified again on your approved sample.",
     image: "/why-technical-service.webp"
   }
 ];
@@ -2672,7 +2731,7 @@ function Home() {
         }
       ) }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_router_dom6.Link, { to: "/contact/", className: "hero-cta", children: "Get a Quote" }),
-      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("h1", { className: "visually-hidden", children: "OEM & ODM Custom Packaging Solutions" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("h1", { className: "visually-hidden", children: "Custom Luxury Packaging for Jewelry, Beauty, Fragrance & Gift Brands" }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "hero-scroll", children: [
         /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { children: "Scroll" }),
         /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "scroll-line" })
@@ -3087,9 +3146,9 @@ function Products() {
     /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "eyebrow reveal", children: "Our Products" }),
       /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
-        "A Complete Packaging",
+        "Custom Packaging Products \u2014",
         /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("br", {}),
-        "Ecosystem"
+        "Boxes, Pouches, Bags & Sets"
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Browse individual packaging components, retail display props and coordinated box-and-pouch programs. Send your product dimensions and quantities to discuss a suitable specification." })
     ] }) }),
@@ -3170,8 +3229,8 @@ function Products() {
 // src/data/productContentUpdates.ts
 var productContentUpdates = {
   "custom-hair-extension-boxes": {
-    "title": "Custom Hair Extension Boxes | ELAPACK",
-    "meta": "Request custom hair extension boxes from 200 pieces. Share packed bundle dimensions, item count, length-and-shade labels and artwork for a quote.",
+    "title": "Custom Hair Extension Boxes with Logo \u2014 From 200 Pcs | ELAPACK",
+    "meta": "Custom hair extension boxes with your logo, from 200 pieces \u2014 built around your bundle dimensions, item count and length-and-shade labels.",
     "intro": "Custom hair extension boxes for hair brands and salons, from 200 pieces. Share the packed bundle dimensions, item count, identification labels and artwork so the proposed box and insert can be reviewed together.",
     "body": [
       [
@@ -3262,6 +3321,10 @@ var productContentUpdates = {
     ],
     "links": [
       [
+        "/custom-wig-packaging/",
+        "wig bags and boxes"
+      ],
+      [
         "/products/custom-satin-wig-bag/",
         "Custom satin wig bags"
       ],
@@ -3315,8 +3378,8 @@ var productContentUpdates = {
     }
   },
   "custom-eyelash-packaging-boxes": {
-    "title": "Custom Eyelash Packaging Boxes with Logo | ELAPACK",
-    "meta": "Custom eyelash packaging boxes with your logo, MOQ 200. Share tray dimensions, pack quantity and artwork to review the box and insert specification.",
+    "title": "Custom Eyelash Boxes with Logo \u2014 From 200 Pcs | ELAPACK",
+    "meta": "Custom eyelash packaging boxes with your logo, from 200 pieces \u2014 sized to your trays and pack quantity, box and insert specified together.",
     "intro": "Custom eyelash packaging boxes with your logo, from 200 pieces. Share your lash tray dimensions and the number of trays per box for a quotation.",
     "body": [
       [
@@ -3483,8 +3546,8 @@ var productContentUpdates = {
     }
   },
   "magnetic-closure-gift-box": {
-    "title": "Custom Magnetic Closure Gift Boxes | ELAPACK",
-    "meta": "Custom magnetic closure gift boxes, MOQ 200. Share dimensions, product weight, artwork and insert requirements to review your packaging specification.",
+    "title": "Custom Magnetic Gift Boxes with Logo \u2014 From 200 Pcs | ELAPACK",
+    "meta": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Rigid board with EVA foam, velvet, satin or molded pulp inserts; custom samples in 3\u20135 days.",
     "intro": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Share product dimensions, weight and insert requirements for a quotation.",
     "body": [
       [
@@ -3494,6 +3557,10 @@ var productContentUpdates = {
       [
         "Check the closure, insert and artwork together",
         "Review the proposed board, wrap, magnetic closure and insert in the quotation and sample. Check the lid action with the contents in place, whether the item can be removed easily, and the artwork position. If transport testing is required, discuss the packed shipment and testing scope separately; a presentation sample alone does not establish transport performance."
+      ],
+      [
+        "Luxury presentation, with your logo on every surface",
+        "What separates luxury magnetic closure boxes with logo from standard ones is the finish, not the structure. On this box the magnets sit hidden inside the wrap, so the lid and sides stay completely clean for branding: foil stamping, embossing, debossing or print across the outside surfaces. Choose a matte, textured or leather-look wrap over the rigid board, with a fitted EVA foam, velvet, satin or molded pulp insert inside to hold the piece steady. Send your artwork in AI, PDF or PNG; colours are matched to your Pantone references, and bulk production is checked against the approved sample to \u0394E \u2264 1.5 and grey scale grade 4."
       ]
     ],
     "checks": [
@@ -3573,9 +3640,18 @@ var productContentUpdates = {
       [
         "What payment methods are available?",
         "We accept T/T (bank transfer) and PayPal."
+      ],
+      [
+        "Where can my logo appear on a magnetic closure box?",
+        "On the lid and sides of the wrap \u2014 foil-stamped, embossed, debossed or printed. Send artwork in AI, PDF or PNG with your Pantone references; placement is confirmed in the free digital dieline preview and on the custom sample before production."
       ]
     ],
     "links": [
+      [
+        "/lightweight-luxury-packaging/",
+        "lighter, ships-flat box options",
+        "\u6298\u53E0\u5E73\u5BC4\u7684\u8F7B\u91CF\u7ED3\u6784\u5BF9\u7167\uFF1B\u672C\u6B3E\u4E3A\u78C1\u5438\u786C\u76D2\uFF0C\u8F7B\u91CF\u662F\u53E6\u4E00\u7ED3\u6784\u8DEF\u7EBF"
+      ],
       [
         "/products/luxury-gift-box-ribbon/",
         "Explore gift boxes with ribbon",
@@ -3716,7 +3792,7 @@ var productContentUpdates = {
       ],
       [
         "Can microfiber pouches help protect silver jewellery from tarnish?",
-        "An anti-tarnish lining is an option for silver and plated items only, and it is confirmed by sample \u2014 it is not a property of every microfiber pouch. If tarnish protection matters for your product, say so in the enquiry: the lining option is specified in the quotation and checked on the sample with your item stored inside. Standard microfiber protects against scratches, dust and contact marks."
+        "No \u2014 standard microfiber protects against scratches, dust and contact marks, but it does not prevent tarnish. If tarnish protection matters for your product, our jewellery polishing cloth has an anti-tarnish treatment and can be added to the set \u2014 ask in the enquiry."
       ],
       [
         "What sizes can microfiber pouches be made in?",
@@ -3789,6 +3865,271 @@ var import_react_router_dom8 = require("react-router-dom");
 // src/data/articles.ts
 var articles = [
   {
+    "slug": "packaging-sustainability-terms-explained",
+    "dateModified": "2026-11-21",
+    "datePublished": "2026-11-21",
+    "title": "Recycled, Recyclable, Compostable & FSC: Packaging Sustainability Terms Explained",
+    "category": "Sourcing Guide",
+    "date": "November 2026",
+    "readTime": "10 min read",
+    "image": "/images/covers/packaging-sustainability-terms-explained.webp",
+    "imageAlt": "ELAPACK buyer guide cover card: 'Every claim needs its evidence' \u2014 the six packaging sustainability terms, what each commits a supplier to, and how to check them",
+    "imageWidth": 2400,
+    "imageHeight": 1350,
+    "excerpt": "Recycled, recyclable, compostable, biodegradable, bio-based and FSC \u2014 what each packaging term actually commits a supplier to, the evidence to ask for behind it, and how to check an FSC claim yourself in FSC Search.",
+    "metaDescription": "Recycled, recyclable, compostable, biodegradable, bio-based and FSC \u2014 what each packaging term actually commits a supplier to, and the evidence to verify first.",
+    "body": `*Editorial note: Definitions and evidence standards in this guide were checked on 20 November 2026 against the US Federal Trade Commission's Green Guides summary, the European Commission's policy framework on bio-based, biodegradable and compostable plastics, and FSC's official certification guidance. This article explains the terms and verification steps; it does not certify any specific package, material or supplier \u2014 including ELAPACK.*
+
+## Key takeaways
+
+Each sustainability term answers a different question. **"Recycled"** describes where material came from, **"recyclable"** describes where it can go next, **"compostable"** and **"biodegradable"** describe how it breaks down under stated conditions, **"bio-based"** describes raw-material origin, and **"FSC"** is a forest chain-of-custody certification system \u2014 not a material property. **A term on a supplier's page is only a claim; verify the conditions and documents behind it before printing it on your packaging.**
+
+## The terms at a glance
+
+| Term | What it actually means | Evidence to ask the supplier for |
+|---|---|---|
+| **Recycled content** | Part or all of the material was recovered or diverted from the waste stream during manufacturing (pre-consumer) or after consumer use (post-consumer) | The exact percentage, split between pre- and post-consumer content, and supporting documentation |
+| **Recyclable** | The finished item can be collected, separated or recovered through an established recycling programme in the markets where it is sold | A component-by-component breakdown, target recycling stream, and facility availability in your sales market |
+| **Compostable** | All materials in the item break down safely into usable compost within the same timeframe as the materials composted with them | Test evidence for the complete item, home vs. industrial composting scope, and local facility access |
+| **Biodegradable** | The material breaks down under specific conditions of environment and time, which must be explicitly stated | The stated environment, timeframe, and independent test evidence behind both |
+| **Bio-based** | Made wholly or partly from biological resources (such as plants or forestry by-products) rather than fossil feedstocks \u2014 does not mean biodegradable | Bio-based content percentage and test standard (such as radiocarbon analysis), separate from end-of-life claims |
+| **FSC-certified** | Forest-based material comes from FSC-certified forests, reclaimed/recycled sources, or controlled sources tracked through a certified chain of custody | The supplier's licence or certificate code (verified by you in FSC Search) and the claim category (\`FSC 100%\`, \`FSC Mix\` or \`FSC Recycled\`) on sales documents |
+
+## Why are "recycled" and "recyclable" not the same thing?
+
+These two words point in opposite directions. **Recycled content looks backwards**: it describes material already recovered from the waste stream, either during manufacturing or after consumer use. **Recyclable looks forwards**: it describes whether the finished item can be recovered through a recycling programme after use. A box made from recycled board can still become difficult to recycle once a plastic laminate, heavy coating or foil finish is applied \u2014 and a box made from virgin fibre can be straightforward to recycle. One word says nothing reliable about the other.
+
+Two conditions decide whether each word is being used honestly:
+
+* **For recycled content**, the FTC's Green Guides state that claims should cover only material recovered or diverted from the waste stream, and **a partly recycled item must be qualified by percentage** \u2014 "made from 30% recycled material", rather than a bare "recycled". If a supplier cannot confirm the percentage and pre-/post-consumer split, the claim is not specific enough to print.
+* **For recyclable**, the FTC advises marketers to **qualify the claim when recycling facilities are not available to at least 60 percent of the consumers or communities where the product is sold** \u2014 with stronger qualification required as access drops. "Recyclable" therefore depends on your destination market's infrastructure, not solely on the material itself.
+
+The practical rule for a packaging order: request the claim **per component**, not for the box as a whole. Board, outer wrap, coating, insert and ribbon each behave differently, and the finished assembly \u2014 not the cleanest single component \u2014 is what your customer disposes of.
+
+## How do compostable, biodegradable and bio-based differ?
+
+**Compostable** is the narrower end-of-life term. The European Commission describes compostable plastics as **a subset of biodegradable ones**: they are engineered to break down under controlled composting conditions \u2014 typically in industrial composting facilities \u2014 and must first be collected and delivered there. From the US side, the FTC requires competent and reliable scientific evidence that **all** materials in the item break down safely into usable compost in about the same time as the materials composted with them, and requires qualification if the item cannot be composted at home or if composting facilities are unavailable to a substantial majority of local consumers.
+
+**Biodegradable** is broader and far easier to misuse. Under FTC guidance, an unqualified degradable claim is supportable only if the **entire product completely breaks down and returns to nature within one year after customary disposal** \u2014 which rules out most items sent to landfill, incineration or standard recycling. The European Commission warns from the angle of consumer behaviour: unqualified "biodegradable" claims can lead buyers to assume an item will rapidly disappear anywhere in nature, increasing littering risks. A biodegradable claim without **a stated environment, timeframe and test basis** describes an intention rather than a verified property.
+
+**Bio-based** addresses origin, not disposal. The European Commission notes explicitly that biodegradable and compostable plastics may be made from biological resources **or** fossil raw materials \u2014 and conversely, bio-based materials are not automatically biodegradable or compostable. If a supplier uses "bio-based", "biodegradable" and "compostable" interchangeably in one quote, slow down and request separate documentation for each claim.
+
+For how these definitions interact with binding EU packaging rules rather than voluntary marketing claims, see our guides to the [PPWR regulation](/news/ppwr-packaging-regulation-guide/), its [recyclability grades](/news/ppwr-recyclability-grades-guide/) and the [empty-space rules](/news/ppwr-empty-space-rules-guide/). This guide covers the vocabulary; those guides cover the regulatory obligations.
+
+## Why is FSC a certification system, not a material?
+
+FSC (the Forest Stewardship Council) is an international non-profit that sets standards for responsible forest management and supply-chain traceability. It answers **"where did this forest material come from, and can it be traced?"** rather than "what is it made of?" or "how does it break down?". FSC itself does not issue certificates \u2014 independent, third-party certification bodies audit and certify organisations under two linked systems:
+
+* **Forest Management certification** audits the forest source against FSC's environmental and social standards.
+* **Chain of Custody certification** tracks certified material across every organisation that takes ownership between the forest and the finished package. Each certificate holder must keep certified stock separated or controlled so it is not mixed with uncertified material, verified through annual third-party audits. Only certified entities may apply the FSC label or make FSC product claims.
+
+An FSC product label also specifies a claim category, and the categories are not interchangeable: **FSC 100%** means all forest-based material comes from FSC-certified forests; **FSC Recycled** means all forest material is reclaimed or recycled (pre- or post-consumer); **FSC Mix** means the product combines material from FSC-certified forests, controlled sources and/or recycled sources. Calling a box "FSC" without stating the category leaves the claim incomplete.
+
+### How to check an FSC claim yourself
+
+FSC is the only term in this guide backed by a public global registry, making independent verification straightforward:
+
+1. Ask the supplier for its **FSC licence code or certificate code**, along with the exact claim category that will appear on your sales documents.
+2. Enter the code into **FSC Search** (\`search.fsc.org\`), FSC's public database of certificate and licence holders.
+3. Verify that the record belongs to the exact legal entity you are purchasing from, that the certificate status is valid, and that its scope covers the product group and activity you are ordering \u2014 a certificate held by an upstream paper mill does not automatically allow an uncertified converter to issue an FSC claim on your invoice.
+4. Re-check the record at order placement, and ensure the invoice wording matches the certified scope.
+
+If a supplier displays the FSC name or logo without providing a valid code in FSC Search, treat the claim as unverified. This same discipline \u2014 name the claim, then verify the document behind it \u2014 forms the core of our guide on [how to vet a packaging manufacturer](/news/how-to-vet-a-packaging-manufacturer/).
+
+## What should you ask when you see a sustainability term?
+
+Whatever the term and whoever the supplier, use these four questions to separate documented claims from decorative copy:
+
+1. **Which component does this claim cover?** A statement about the greyboard does not cover the outer wrap, lamination, insert or ribbon. Ask for answers component by component.
+2. **What document supports it, and who issued it?** Distinguish between a supplier's internal spec sheet and a test report or certificate issued by an accredited independent body.
+3. **Can I verify it independently today?** For FSC, check the licence code in FSC Search; for biodegradability or compostability, review the actual test report and confirm it tested the exact construction you are buying.
+4. **Under what conditions does the claim hold in my sales market?** Check local recycling or composting infrastructure thresholds, disposal pathways and certificate expiry dates. **If you cannot state the conditions clearly, do not print the claim on your packaging.**
+
+![Before you print a sustainability claim: name the component it covers, ask for the document behind it, verify the document independently, and confirm the conditions in your sales market](/charts/sustainability-claim-check.jpg)
+
+## Frequently asked questions
+
+### Is FSC the same as recycled?
+
+No. FSC is a supply-chain traceability system for forest-based materials, whereas "recycled" describes recovered waste content. They overlap only under the **FSC Recycled** category; **FSC 100%** uses certified virgin fibre, and **FSC Mix** combines certified, controlled and/or recycled inputs. Always confirm the category and verify the supplier's code in FSC Search.
+
+### If a box is described as "recyclable", can I print that claim in any market?
+
+Not automatically. Whether a "recyclable" claim holds depends on both your finished construction (coatings, laminates, magnets or mixed inserts can disrupt paper recovery) and local infrastructure \u2014 such as the FTC's 60 percent facility-access benchmark for unqualified claims in the US. Verify each component against the collection rules of the country where your product is sold.
+
+### Can I print "biodegradable" if the material will break down eventually?
+
+Printing an unqualified "biodegradable" claim carries high greenwashing risk. Regulators such as the FTC require proof of complete breakdown within one year after customary disposal, while the European Commission warns against claims that imply rapid breakdown in open nature without specifying the exact environment, timeframe and test basis. Without verified test conditions, omit the claim from your artwork.
+
+## Bring these terms into your packaging brief as questions
+
+When briefing a packaging project, treat sustainability terms as verification questions rather than text copied from another supplier's catalogue. If you are planning an order with ELAPACK, include four quick details in your enquiry so we can check which material options and supporting documents fit your market:
+
+* **Target sales market:** The country or region where your product will be sold and disposed of.
+* **Component list:** The boxes, cards, inserts or [custom tissue paper](/products/custom-tissue-paper/) in your set.
+* **Claims under review:** Which terms (such as recycled percentage or FSC category) you want to evaluate.
+* **Compliance requirements:** Any internal brand guidelines, retail partner rules or documentation your review team requires.
+
+We will discuss which material constructions can be documented for your specific order \u2014 and tell you plainly where supporting evidence is not available rather than repeat an unsupported term. Terms like these appear most often on paper components \u2014 boxes, cards and tissue paper \u2014 which is exactly where a component-by-component check is cheapest to run before artwork is approved. You can review our current practices on our [sustainability page](/solutions/?topic=Sustainability), or send your market requirements directly through our [contact page](/contact/).
+
+## Sources
+
+* US Federal Trade Commission \u2014 *Environmental Claims: Summary of the Green Guides* (recyclable and the 60 percent availability threshold; recycled content and percentage qualification; compostable evidence standard; degradable and the one-year condition; general benefit claims). https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides
+* European Commission (Environment) \u2014 *Bio-based, biodegradable and compostable plastics* (compostable as a subset of biodegradable, typically industrial composting after collection; biodegradable only under certain conditions; bio-based not necessarily biodegradable; misleading-claims risk). https://environment.ec.europa.eu/topics/plastics/bio-based-biodegradable-and-compostable-plastics_en
+* Forest Stewardship Council \u2014 *Claims Check* (the three label sources and categories: FSC 100%, FSC Mix, FSC Recycled; FSC Search as the public database of certificate and licence holders; Chain of Custody and independent third-party evaluation). https://fsc.org/en/claims-check
+* Forest Stewardship Council \u2014 *How the FSC System Works* (Forest Management and Chain of Custody as the two linked certification types; certification performed by independent third-party certification bodies, not by FSC itself; only certified entities may use the FSC label and make FSC claims). https://fsc.org/en/how-the-fsc-system-works`
+  },
+  {
+    "slug": "how-to-package-perfume-for-shipping",
+    "dateModified": "2026-11-21",
+    "datePublished": "2026-11-21",
+    "title": "How to Package Perfume for Shipping: Bottle Protection, Inserts and Outer Packaging",
+    "category": "Sourcing Guide",
+    "date": "November 2026",
+    "readTime": "13 min read",
+    "image": "/images/products/custom-perfume-boxes/custom-perfume-boxes-hero.webp",
+    "imageAlt": "Magnetic rigid perfume box open, its bottle seated in a deep purple fitted insert",
+    "imageWidth": 1254,
+    "imageHeight": 1254,
+    "excerpt": "How to package perfume for shipping in three layers \u2014 a fitted insert cavity that stops the bottle moving, cushioning and leak control around it, and the right outer box \u2014 plus five sample-stage tests and the questions only your carrier can answer.",
+    "metaDescription": "How to package perfume for shipping: a three-layer method \u2014 a fitted insert cavity, cushioning and leak control, and the right outer box \u2014 plus what to check with your carrier first.",
+    "body": "A perfume bottle fails in transit in predictable ways: it rattles until the neck or spray pump gives, the cap works loose and the contents weep into the box, or the retail box arrives crushed even though the bottle inside survived. Each failure has a different cause, so each one is answered by a different layer of packaging.\n\nThis guide walks the three layers in the order a packing table uses them \u2014 the fitted insert that holds the bottle still, the cushioning and leak control around it, and the outer box that takes the knocks \u2014 and marks where our own product line fits, and where the honest answer sits with your carrier rather than your packaging supplier. For the product formats themselves \u2014 gift boxes, sample cards and pouches \u2014 see our [custom perfume packaging guide](/news/custom-perfume-packaging-guide/); this page is about getting those formats to the customer intact.\n\n## Key takeaways\n\n**Package perfume in three layers: a fitted insert cavity that stops the bottle moving, a cushioning and leak-control layer around it, and a plain outer shipping box \u2014 movement inside the box is the root cause of most breakage and leakage.**\n\n1. A bottle that can shift even a few millimetres will keep striking the cavity wall for the whole journey; the insert cavity is cut to the bottle, not picked from a standard size list.\n\n2. Cushioning and leak control are separate jobs: the insert material absorbs impact, while cap security, bottle orientation and an absorbent barrier decide whether a loose cap becomes a ruined shipment.\n\n3. The retail gift box is presentation, not protection \u2014 it travels inside an outer shipping carton, never as the shipping box itself.\n\n4. Whether a perfume shipment can fly, and under what conditions, is a carrier classification question. **Confirm it with the carrier before booking, not after packing.**\n\n5. ELAPACK manufactures the two inner layers \u2014 the perfume box and its fitted insert \u2014 from 200 pieces; the outer shipping carton is a standard shipping-supplies purchase.\n\n![The three layers of perfume shipping packaging: a fitted insert cavity holding the bottle still, cushioning and leak control around it, and a plain outer shipping box](/charts/perfume-shipping-three-layers.jpg)\n\n## Layer one: how do you stop the bottle moving inside its box?\n\nThe first layer is fixation. Glass fails under repeated small impacts far more readily than under one large one, and a loose bottle in a long transit lane delivers thousands of small impacts to itself. **If the bottle can move, it will eventually hit something** \u2014 the cavity wall, the cap against the lid, or the pump against the box shoulder. The insert's job is to remove that movement before the journey starts.\n\nIn practice, this means the cavity is specified from the bottle, not from a catalogue. When we build a [custom perfume box](/products/custom-perfume-boxes/), we ask for the bottle's height, its widest diameter or footprint, the shoulder and neck profile, and whether the cap ships fitted or separately \u2014 then the cavity dimensions, the insert material and the lid clearance are confirmed on the quotation before production. Three fit points matter most:\n\n* **Base grip.** The cavity should hold the bottle at its widest, most stable point \u2014 usually the base or the lower body \u2014 so the bottle cannot rock. A cavity that grips only at the shoulder leaves the base free to swing.\n\n* **Neck and pump clearance.** The spray pump and cap are the most fragile parts of the assembly and the most expensive to replace. The cavity and the lid need clearance above and around them, so that external pressure on the closed box lands on the box structure, not on the pump.\n\n* **Cap security.** A cap that can rotate or lift in transit is a leak waiting for a warm cargo hold. Where the bottle design allows it, the insert can be shaped to hold the cap in place; where it cannot, that risk moves to layer two and has to be answered there.\n\n![Perfume boxes open to show their fitted inserts \u2014 a bottle resting in its flocked cavity, and drawer-box inserts with the cavity cut to the bottle's shape](/images/products/custom-perfume-boxes/custom-perfume-boxes-scene-01.webp)\n\nThis is the same fixation logic we describe for jewelry in [how to package jewelry for shipping](/news/how-to-package-jewelry-for-shipping/) \u2014 a fitted holder beats loose fill in both cases \u2014 with one difference: a perfume bottle is heavier, taller and top-heavy, so the cost of a loose fit arrives faster.\n\n## Layer two: which insert material cushions the bottle and contains a leak?\n\nFixation stops the bottle moving; cushioning decides how much of an impact reaches the glass when the whole box is dropped or compressed, and leak control decides what happens if a cap fails anyway. The four insert materials we work with answer these jobs differently:\n\n* **EVA foam** is the firm, precise option. It die-cuts into clean cavities with crisp edges, holds its shape over a long production run, and suits heavier bottles that need a cavity which will not soften or slump. It is the usual choice when the same insert has to present the bottle on a retail shelf and protect it in transit.\n\n* **Sponge** is softer and more forgiving of small dimensional variation \u2014 useful when a range of bottle shapes shares one box programme, or when the bottle surface is delicate and a gentler contact matters more than a rigid grip.\n\n* **Pearl cotton (EPE)** is the lightweight cushioning option. It gives more impact absorption per gram than the firmer foams and is often used where the insert is primarily a transit component rather than a presentation piece \u2014 discovery sets and replenishment shipments, for example.\n\n* **Cardboard inserts** are folded or die-cut board structures. They cushion least of the four, but they present cleanly, print well, and suit lighter bottles and sample formats where the protection demand is lower and the unboxing is mostly visual.\n\nAny of the foam inserts can be finished with a flocked surface, which softens the contact point against glass and gives the cavity a velvet-like presentation face. Note that foam materials do not take direct ink printing \u2014 branding sits on the box face and on a printed paper card placed in or over the insert, which is also where care instructions and scent notes usually go. For a wider comparison of insert materials beyond perfume, see our [packaging inserts guide](/news/packaging-inserts-guide/).\n\nLeak control is the second half of this layer, and it starts with treating the cap and collar as the weak point. A bottle that leaves the factory sealed can still weep if the cap loosens under vibration or temperature shifts and liquid reaches a seam. Practical defences depend on the bottle closure and carton layout: verify cap tightness during sampling, keep bottles upright in the cavity so a weeping cap does not drain directly against a paperboard wall, and \u2014 where a leak could damage adjacent stock \u2014 add an individual sealed poly sleeve or absorbent barrier layer between units. None of this makes a shipment leak-proof; **it reduces the risk and limits the damage if a single bottle fails**.\n\n## Layer three: how should the finished box travel?\n\nThe retail gift box \u2014 even a rigid one \u2014 is built to be opened, photographed and kept, not to survive a sortation belt. **The gift box travels inside an outer shipping box, with the gap between the two filled so the inner box cannot shift.**\n\n![The retail side of the set \u2014 a gift box with two bottles in a fitted insert, and its matching shopping bag; both travel inside a plain outer shipping carton](/images/products/custom-perfume-boxes/custom-perfume-boxes-scene-02.webp) An inner box sliding inside an outer box rebuilds exactly the movement problem layer one removed, one size up. The outer box is plain corrugated board, sized to the gift box plus cushioning room on all sides; for multi-bottle cartons, the same rule applies per bottle cavity, and dividers keep glass off glass.\n\nTwo situations change the outer-layer decision:\n\n* **Sets and mixed formats.** A launch set that combines a full-size bottle with sample vials or a sample card box is really two protection problems in one carton: the heavy bottle needs its fitted cavity, and the lighter pieces need to be held where the bottle cannot reach them. We build this as separate cavities or a separate compartment in one insert programme \u2014 the sample format itself is covered by our [perfume sample card boxes](/products/custom-perfume-sample-card-boxes/).\n\n* **Split shipments.** When a launch ships in stages \u2014 part air, part sea, or stock split across warehouses \u2014 the packaging specification has to be confirmed once and held identical across every batch, or the insert that fits batch one's bottle arrives with batch two's slightly different box. We walk through the sequencing in [planning split packaging shipments](/news/plan-split-packaging-shipments/).\n\n![A mixed-format set in one insert programme \u2014 a full-size bottle and a sample vial held in separate fitted cavities, so the heavier bottle cannot reach the lighter piece](/images/products/custom-perfume-boxes/custom-perfume-boxes-detail-03.webp)\n\nOne honesty note from our side of the table: like the jewelry guide, the outer corrugated carton is a shipping-supplies purchase, not part of our custom line. What we manufacture is the perfume box and the fitted insert inside it, from 200 pieces.\n\n## How do you test the packaging before committing to a full run?\n\nBreakage problems are cheap at sample stage and expensive at production quantity, so the checks belong in sampling, while the insert can still be re-cut. None of these require a laboratory; they require a finished sample, the real bottle filled with water or the actual product, and thirty honest minutes:\n\n1. **The shake check.** Close the box and shake it firmly in every orientation. Any audible or felt movement means the cavity is loose \u2014 note where the movement is (base, shoulder, cap) because each points to a different fix.\n\n2. **The cap check.** After shaking, open the box and check whether the cap has rotated, lifted or loosened at all. **If the cap moves in a hand test, it will move in a cargo hold.**\n\n3. **The drop check.** Drop the packed box, inside its outer carton with the intended cushioning, onto a hard floor from waist height \u2014 flat, on an edge, and on a corner. Then inspect the bottle, the pump action and the box corners.\n\n4. **The stack check.** Put the weight of a full shelf or pallet layer on top of one packed carton and leave it. This is the slow failure: inserts that compress permanently stop holding the bottle by the end of a long sea shipment.\n\n5. **The leak rehearsal.** Place the packed box on an absorbent pad or tray to protect your work surface, loosen the cap slightly on one test bottle, close the box, and leave it on its side overnight. Separate short-haul courier transit from long-haul sea stacking when judging the result \u2014 you are testing where escaping liquid travels, and whether it reaches anything it can ruin.\n\nRecord what fails and feed it back into the insert specification before approving the sample. **A failed sample test is the system working** \u2014 it is far cheaper than the same discovery made by a customer's unboxing video.\n\n## Which shipping questions must go to your carrier, not your packaging supplier?\n\nPackaging decides how a bottle is protected. It does not decide how a shipment is classified, and perfume sits in a category where classification genuinely matters: it is an alcohol-based liquid, and carriers and airlines treat alcohol-based liquids as a regulated category rather than ordinary goods. We do not publish carrier rules in this guide, because they differ by carrier, by route and by destination, and they change. What we can give you is the list of situations where **the answer has to come from your carrier or freight forwarder before you book**:\n\n* **Any air shipment.** Whether your perfume can fly at all, and under what packing and declaration conditions, is the carrier's call. Ask before the packaging is finalised, because the answer can affect carton sizes and how bottles are grouped.\n\n* **A new destination country.** A route you already ship by sea may have different requirements by air or into a different market. Treat every new country as a new question, even for a product you already ship elsewhere.\n\n* **Larger or concentrated formats.** Refills, bulk bottles and high-alcohol formats can be classified differently from a standard retail bottle. Do not assume the retail answer carries over.\n\n* **Marketplace and fulfilment programmes.** Warehouse networks apply their own acceptance rules on top of carrier rules. A shipment a carrier accepts may still be refused by the fulfilment programme receiving it.\n\n* **Returns.** A customer returning an opened bottle is a different shipment from your outbound one, and the rules for it are the carrier's to state.\n\nThe working rule: packaging specification from your packaging supplier, classification from your carrier \u2014 and get the carrier's answer in writing before the production run is packed, not after it reaches the depot.\n\n## Frequently asked questions\n\n### Can perfume be shipped by air?\n\nSometimes \u2014 it depends on how the carrier classifies the specific product and route, not on the packaging alone. Perfume is an alcohol-based liquid, and airlines and couriers apply their own acceptance conditions to that category, which vary by destination. **Confirm with your carrier or freight forwarder before booking an air shipment**, and before finalising carton configurations, because their answer can change how bottles must be grouped and packed. What packaging controls is the bottle's protection inside the box; classification is the carrier's decision.\n\n### Can sample cards and full-size bottles ship in the same box?\n\nYes, and for launch sets it is often the point \u2014 but treat them as two protection problems sharing one carton. The full-size bottle sits in its own fitted cavity, and the sample cards or vials are held in a separate cavity or compartment where the heavier bottle cannot shift into them. **Glass-to-glass or bottle-to-card contact inside a closed box is what the insert exists to prevent.** Send us both formats' dimensions and we will lay out the combined cavity in the insert proposal.\n\n### Can our logo be printed on the foam insert itself?\n\nNo \u2014 EVA, sponge and pearl cotton do not hold ink cleanly, which is a material limit rather than a production preference. Instead, branding sits on the box face and on a printed paper card placed over or beside the insert (ideal for scent notes and care instructions), while the foam itself can be colour-matched and flocked for a cohesive look.\n\n## Send us the bottle \u2014 we start with the cavity, not the quote\n\nEvery recommendation in this guide depends on one input we cannot guess: your bottle. When you reach out, include four quick details so we can map the right cavity right away:\n\n* **Bottle dimensions:** Total height, widest diameter or base footprint, and neck/pump height.\n\n* **Cap assembly:** Whether the cap ships fitted on the bottle or in a separate recess.\n\n* **Order volume & box format:** Estimated quantity (custom boxes and inserts start from 200 pieces) and preferred box style.\n\n* **Destination & timeline:** Target delivery country and schedule (production runs 15\u201320 days after sample approval and payment).\n\nWe will come back with an insert cavity proposal first \u2014 covering material, cavity layout, and cap/pump retention \u2014 followed by a written quotation within 1 business day. Custom samples are made in 3\u20135 days at USD 30 plus USD 25 shipping, and the sample fee can be deducted from the confirmed first order. Because production follows your approved physical sample, the sample-stage checks above are the last low-cost chance to refine the cavity.\n\n[Contact ELAPACK for an insert proposal](/contact/)\n\n## Sources\n\n- ELAPACK confirmed trade terms \u2014 the 200-piece minimum for custom perfume boxes and inserts, production of 15\u201320 days after sample approval and payment, the custom sample terms (USD 30 plus USD 25 shipping, made in 3\u20135 days, fee deductible against the confirmed first order) and the written quotation within 1 business day stated in this guide.\n- ELAPACK, [packaging inserts guide](/news/packaging-inserts-guide/) \u2014 the insert material comparison behind Layer two (EVA, sponge, pearl cotton and cardboard; flocked finishes; foam does not take direct printing).\n- ELAPACK, [custom perfume packaging guide](/news/custom-perfume-packaging-guide/) \u2014 the product formats (gift boxes, sample cards and pouches) this guide protects in transit.\n- Carrier classification is deliberately not sourced to published rules in this guide: acceptance of alcohol-based liquids varies by carrier, route and destination, so the carrier section lists the questions to confirm with your carrier or freight forwarder instead."
+  },
+  {
+    "slug": "jewelry-packaging-ideas",
+    "dateModified": "2026-11-21",
+    "datePublished": "2026-11-21",
+    "title": "Jewelry Packaging Ideas: 5 Coordinated Set Looks for Brands",
+    "category": "Sourcing Guide",
+    "date": "November 2026",
+    "readTime": "9 min read",
+    "image": "/images/covers/jewelry-packaging-ideas.jpg",
+    "imageAlt": "Coordinated jewelry packaging set in ivory: rigid box, velvet pouch, paper shopping bag and cards, all carrying the same foil logo",
+    "imageWidth": 1254,
+    "imageHeight": 1254,
+    "excerpt": "Five complete jewelry packaging looks built as coordinated sets \u2014 box, pouch, tissue, ribbon and cards planned together \u2014 and the three steps that turn one look into a sampled, quotable order.",
+    "metaDescription": "Jewelry packaging ideas built as coordinated sets \u2014 five complete looks pairing boxes, pouches, tissue, ribbon and cards, plus how to turn one look into an order.",
+    "body": `## Where should you start: the look or the specification?
+
+This guide is for jewelry brand owners and packaging buyers who are still deciding what their packaging should look like \u2014 the stage before sizes, structures and quotations. It collects five complete looks, each built as a coordinated set rather than a single hero box, and ends with the steps that turn one look into a sampled, quotable order.
+
+If your question is already about specifications, dimensions or ordering data, this is not that page: the [custom jewelry packaging guide](/news/custom-jewelry-packaging-guide/) owns the component-by-component specification decisions. **This page answers a narrower question: what should the set look like, and which components have to be planned together so it arrives looking that way?** Read the five looks against your own line, shortlist one, and use the final section to brief it.
+
+## Key takeaways
+
+A coordinated set is not five matching purchases. It is one colour decision, one material story and one logo treatment, applied across every component.
+
+- **Same colour family across every component.** The box, pouch, tissue and card are approved against the same colour reference, not matched from screen images or memory.
+- **Materials that echo each other.** A soft pouch inside a structured box, a matte wrap against a fine ribbon \u2014 each material should have a reason to sit next to the others.
+- **One logo treatment, repeated.** The same logo method and placement logic on the box lid, the pouch and the card, so the customer reads one brand three times.
+
+Everything below is an application of those three principles. A look that breaks one of them may still photograph well, but it will read as separate purchases rather than one brand.
+
+## Look 1: The Minimal White Box Set
+
+**Best for:** fine jewelry brands built on a clean, gallery-style identity \u2014 bridal lines, minimalist everyday pieces, and brands whose product photography already uses white space.
+
+![The Minimal White Box Set \u2014 white rigid box with tissue, a fine ribbon and a plain card in the same board tone](/images/products/custom-white-jewelry-box/custom-white-jewelry-box-hero.webp)
+
+The components:
+
+- A white rigid box as the hero piece, kept plain on the outside \u2014 often with a subtle blind deboss or tone-on-tone foil \u2014 so the piece carries the presentation when the lid opens.
+- [Custom tissue paper](/products/custom-tissue-paper/) in the same white or a single soft tone, used as the wrap layer inside the box and inside the shopping bag.
+- A fine ribbon in one restrained colour, tied the same way on every box so the gesture becomes part of the brand.
+- A plain card in the same board tone, carrying care wording or a short brand line with a matching understated mark.
+
+Why it works: restraint is the design. With colour removed, the coordination comes from consistency \u2014 the same white across board, tissue and card, approved on physical samples, because whites can drift apart across materials under different light. Confirm the white reference on each material before production; a box and a tissue that match in a photo may separate on the counter.
+
+## Look 2: The Velvet Gift Set
+
+**Best for:** gift-led jewelry brands, anniversary and occasion lines, and any brand whose customer usually hands the piece to someone else.
+
+![The Velvet Gift Set \u2014 rigid box open with a velvet pouch resting on tissue inside, hang tag at the side](/images/news/jewelry-packaging-ideas-look2-velvet-set.jpg)
+
+The components:
+
+- A structured rigid box as the outer presentation, finished with a clean metallic foil logo.
+- A [velvet pouch](/products/custom-velvet-pouches/) inside it \u2014 the layer the recipient keeps after the box is put away, echoing the lid branding with matching foil or fine embroidery.
+- A [hang tag](/news/custom-hang-tags-guide/) carrying the brand name and the occasion message, so the gifting intent is visible before the box opens.
+- Tissue as the wrap layer, in the pouch colour or one shade lighter.
+
+Why it works: the pouch does the long-term work. Velvet pouch fabric is specified by weight \u2014 a standard hand at 200\u2013250 g/\u33A1, or a plusher grade at 280\u2013300 g/\u33A1 when the pouch needs to read as a keepsake in its own right. Standard pouch sizes run 8\xD710, 10\xD712 and 12\xD715 cm, with custom sizes available when the piece or the box cavity requires them. **Choose the pouch size against the box cavity, not the jewelry alone** \u2014 a pouch that has to be forced into the box will crease, and the crease is what the recipient sees first.
+
+## Look 3: The Wedding and Proposal Set
+
+**Best for:** engagement and wedding jewelry brands, proposal-focused ring lines, and bridal party gifting programmes.
+
+![The Wedding and Proposal Set \u2014 the ring box as centrepiece, with a message card and matching paper shopping bag](/images/news/jewelry-packaging-ideas-look3-proposal-set.jpg)
+
+The components:
+
+- A [ring box](/products/custom-ring-boxes/) proportioned for a single ring, treated as the centrepiece of the set.
+- A thank-you or message card, sized to sit with the box rather than loose in the bag.
+- A paper shopping bag in the same colour family and logo finish, so the set leaves the store already coordinated.
+- Tissue as the wrap layer inside the bag.
+
+Why it works: a proposal set is photographed, kept and shown to other people, so the components outside the box matter almost as much as the box itself. The card is the piece most often specified late; plan its size and wording with the box, because a card added afterwards rarely matches the board tone or the colour reference of the rest of the set. If the same programme covers both engagement rings and wedding bands, keep one look across both and let the box size carry the difference.
+
+## Look 4: The Everyday Retail Set
+
+**Best for:** high-turnover fashion jewelry, earring and stud lines, and brands selling through counters or marketplaces where speed at the till matters.
+
+![The Everyday Retail Set \u2014 drawstring pouch, earring card holding a pair of studs, and a paper shopping bag](/images/news/jewelry-packaging-ideas-look4-retail-set.jpg)
+
+The components:
+
+- A drawstring pouch as the everyday carrier \u2014 fast to pack, easy for the customer to reuse, carrying a clean screen-printed or stamped logo.
+- An earring card that holds the pair in position and carries matching branding at the point of sale; sizing and slot decisions are covered in the [earring cards guide](/news/custom-earring-cards-guide/).
+- A paper shopping bag for the retail handover, planned with the [shopping bags guide](/news/custom-shopping-bags-guide/) if the format is still open.
+- Tissue only where the price point supports it \u2014 as the wrap for gift purchases rather than on every order.
+
+Why it works: this look is built for repetition. The card does the displaying, the pouch does the travelling, and the bag does the branding on the street. Because the components are handled hundreds of times, confirm the pouch closure and the card slot fit on samples with the actual jewelry; a slot that grips a post correctly in a drawing may still mark or release it in daily use.
+
+## Look 5: The Seasonal Limited Set
+
+**Best for:** brands that run holiday, Valentine's or collection-launch editions and want the packaging to signal the season without a full redesign or new structural tooling.
+
+![The Seasonal Limited Set \u2014 the standard box with one seasonal layer swapped: a limited-colour ribbon](/images/products/luxury-gift-box-ribbon/luxury-gift-box-ribbon-hero.webp)
+
+The components:
+
+- The same box and pouch structures as your everyday programme \u2014 keeping existing dimensions, inserts and die-cut tooling unchanged.
+- One or two components swapped for the season: a limited colour in the tissue, ribbon or pouch, or a foil-stamped seasonal greeting card.
+- The standard shopping bag, updated with the seasonal ribbon or tissue rather than a full bag reprint.
+- Optional seasonal belly band or hang tag to tie the limited edition together without altering the base box.
+
+Why it works: **change the colour, keep the structure.** Structures carry the tooling cost, the fit engineering and the sampling history; colour and trim are the layers a customer immediately reads as "new". A seasonal edition that updates only one or two components avoids re-testing box cavities from scratch, can be sampled quickly against your existing set, and lets you judge colour approval right next to the standard components it will ship with. When the season ends, the programme returns to your core look with zero leftover custom structures.
+
+## How do you turn one look into an order?
+
+A look becomes an order in three steps, in this order.
+
+### 1. Write the component list
+
+List every component in the look \u2014 box, pouch, tissue, ribbon, tag, card, bag \u2014 and mark which are new and which already exist in your programme. **Each component in a set carries its own minimum of 200 pieces**, so a five-component set is planned as five lines of 200, not one line of 200 split five ways. The coordinated sets themselves are collected on the [packaging sets page](/sets/), and the full component range sits under [jewelry packaging](/custom-jewelry-packaging/).
+
+### 2. Specify each component on one sheet
+
+For each line, record the size, material, colour reference and logo treatment before asking for a quotation \u2014 the quotation can only be as coordinated as the brief. Artwork is accepted in AI, PDF or PNG. Colour is approved against a shared standard: **production is checked against the confirmed sample to \u0394E \u2264 1.5 and grey scale grade 4**, which is what keeps a board, a fabric and a printed card reading as one colour family in the same box.
+
+### 3. Approve the complete set as one sample
+
+Custom samples are made in 3\u20135 days at USD 30 plus USD 25 shipping, and the sample fee can be deducted from the confirmed first order. Order the sample as the full set, not as separate pieces weeks apart: colour and fit are judged across materials, side by side, under the same light. A pouch approved alone may still be the wrong size for the box cavity, and a card approved alone may still be the wrong white. Once the set sample is approved as a whole, the production specification is frozen with it.
+
+![A complete set sample, approved as one set \u2014 each component from 200 pieces, custom sample in 3\u20135 days, production 15\u201320 days, written quotation within 1 business day](/charts/jewelry-packaging-ideas-set-sample.jpg)
+
+## Which look fits your brand?
+
+Pick the look closest to your brand \u2014 1 to 5 \u2014 and send us the number through our [contact page](/contact/) along with your jewelry type, estimated quantities and the components you already have. We will reply with a written quotation broken down by component **within 1 business day**, so you can see what each part of the set involves before committing to the full programme. If none of the five looks fits, describe the combination you have in mind; a look is a starting point for the brief, not a fixed catalogue.
+
+## Sources
+
+- ELAPACK confirmed trade terms \u2014 the per-component minimum of 200 pieces, the custom sample terms (USD 30 plus USD 25 shipping, made in 3\u20135 days, sample fee deductible against the confirmed first order) and the written quotation within 1 business day stated in the ordering section.
+- ELAPACK, [custom jewelry packaging guide](/news/custom-jewelry-packaging-guide/) \u2014 the component-by-component specification decisions this guide points to.
+- ELAPACK, [custom velvet pouches](/products/custom-velvet-pouches/) \u2014 the pouch fabric weights (200\u2013250 g/\u33A1 standard, 280\u2013300 g/\u33A1 plusher grade) and standard sizes (8\xD710, 10\xD712 and 12\xD715 cm) stated in Look 2.
+- ELAPACK confirmed colour standard \u2014 production checked against the confirmed sample to \u0394E \u2264 1.5 and grey scale grade 4, as stated in the ordering section.`
+  },
+  {
     "slug": "jewelry-display-props-guide",
     "dateModified": "2026-11-08",
     "datePublished": "2026-11-08",
@@ -3802,7 +4143,7 @@ var articles = [
     "imageHeight": 1350,
     "excerpt": "Display props hold each piece at the angle a customer looks from and present a collection as one brand. This guide walks through the prop families by jewelry type, countertop and window layouts, brand matching, and how a props order runs as a project \u2014 including the display props' own minimum order quantities.",
     "metaDescription": "How to buy custom jewelry display props: busts, stands, cones, trays and risers by jewelry type, countertop and window layouts, brand matching, and the props' own minimums \u2014 sets from 10 sets.",
-    "body": "Good display props do quiet work: they hold each piece at the angle a customer naturally looks from, keep the counter readable at a glance, and present a collection as one brand rather than a row of unrelated items. For brands buying props as part of a packaging programme, the task differs from picking stock displays off a shelf \u2014 every item is specified for the collection it will hold. This guide walks through the prop families by jewelry type, how to plan countertop and window layouts, how props are matched to brand presentation, and how a props order runs as a project.\n\n## Key takeaways\n\n- Buy props by jewelry type first: necklaces, earrings, rings and bracelets each need a different form of support, and one generic stand rarely serves two types well.\n- Trays are the base layer of the counter, not the whole display \u2014 busts, stands and holders sit on them to create height.\n- Display props at ELAPACK are specified per project: base materials, cover materials and sizes are confirmed in the quotation and on the proposed sample, not picked from a fixed standard list.\n- Display props carry their own minimums, separate from the packaging minimum: coordinated sets from 10 sets, large pieces from 50 pieces, trays from 100 pieces \u2014 the full tiers are set out in the ordering section below.\n- Cover material and colour are the main branding levers on a prop; logo application \u2014 printing, foil or a metal plate \u2014 is confirmed per project.\n- Props, boxes and pouches planned together give a coordinated counter and a consistent unboxing story.\n\n## Which props does each type of jewelry need?\n\nStart from the piece, not the prop catalogue. Each jewelry type has a natural viewing angle and a way it wants to rest, and the prop's job is to hold it there without competing for attention.\n\n### Necklace busts and stands\n\nNecklaces need a bust or stand that follows the line the chain takes on the neck, so the pendant sits where it would sit when worn. A bust presents a single hero piece or a small coordinated group; flatter stands and easels suit layered chains and price-tagged counter lines where several necklaces share one zone. The [velvet necklace display](/products/velvet-necklace-display/) is the classic form: a covered bust that gives fine chains contrast and keeps pendants from sliding. Choose bust height against the chain lengths you actually sell \u2014 long pendants on a short bust bunch at the base and lose the line you are trying to show.\n\n### Earring stands and cards in store\n\nEarrings are small, paired and easy to lose visually, so their props work in multiples: stands that hold pairs upright at reading distance, and cards that carry studs and hooks in a tidy grid. In-store cards do double duty \u2014 they present the pair and give you a surface for branding at the exact point of choice. An [acrylic earring display](/products/acrylic-earring-display/) gives a clean, modern frame where the metal and stones should carry the colour; covered stands in fabric give a softer read for warmer brand worlds. Whichever form you choose, plan how pairs are loaded and replaced \u2014 staff handle these props more than any others.\n\n### Ring holders and cones\n\nRings are usually the highest-value small items on the counter and are shown one or two at a time. Cones, slots and single-ring holders lift the stone or band toward the light and let a customer pick up and replace a ring without disturbing its neighbours. Because rings are tried on, the prop must be stable and easy to clean around: on a try-on counter, weight low in the holder matters more than height \u2014 a cone that tips as a ring is lifted undoes the presentation it was bought for. Ring props also scale down well into appointment settings, where one holder on a tray presents a shortlist rather than a stock range.\n\n### Bracelet ramps and rolls\n\nBracelets and bangles need a curve to rest on: ramps and rolls hold the circle open so the piece reads as a bracelet rather than a flat loop. Rolls suit bangles and cuffs that can be slid on and off; ramps and bars suit chain bracelets and watches-adjacent lines where the clasp and drape matter. Group bracelet props at the end of a counter run, where customers linger, rather than between necklace busts, where the heights fight.\n\n### Risers and blocks\n\nRisers \u2014 the blocks and platforms that lift one piece above its neighbours \u2014 are the height layer inside a zone. A ring or pendant on a low block reads as the hero of its tray without a taller stand, and a short run of stepped blocks at the back of a tray gives a window grouping its levels. Risers are planned as components of a counter or a coordinated set rather than as a standalone line: heights, footprint and covering are specified per project against the pieces they will lift, and confirmed in the quotation and on the proposed sample.\n\n### Trays: the base layer\n\nTrays are the flat foundation everything else stands on \u2014 they define zones on the counter, carry loose pieces for appointments, and stack for storage and transport. Because trays deserve their own treatment, this guide keeps them to this one subsection: for insert layouts, stacking and materials in depth, see the dedicated [jewelry display trays guide](/news/jewelry-display-trays-guide/). In layout terms, think of the tray as the floor plan and the busts, stands, holders and risers as the furniture.\n\n| Jewelry type | Prop options | Where it works best |\n|---|---|---|\n| Necklaces | Busts, easel stands, flat necklace boards | Hero pieces and pendant lines at eye level |\n| Earrings | Pair stands, in-store display cards, acrylic frames | Multi-pair zones, studs and hooks at reading distance |\n| Rings | Cones, slot holders, single-ring stands | High-value singles, try-on counters, appointment shortlists |\n| Bracelets | Ramps, rolls, bars | Bangles, cuffs and chain bracelets at counter ends |\n| Mixed collections | Trays with busts, holders and risers placed on top | Zoned counters, window compositions, appointment trays |\n\n![A coordinated jewelry display set, illustration: necklace busts, a necklace board, bracelet rolls, ring holders, hexagonal risers and slot trays sharing one deep-green cover](/charts/display-props-set-lineup.jpg)\n\n## Countertop or window: how should you plan height, sight-lines and density?\n\nA countertop display is read from above and at arm's length; a window display is read from standing height, through glass, and often in motion. The same props rarely optimise both. For counters, keep sight-lines low and layered: trays at the front, mid-height stands behind them, the tallest busts at the back, so a customer leaning in sees every zone without props shadowing each other. For windows, build fewer, larger groupings with more height contrast, because detail disappears with distance and glass reflection \u2014 one strong bust with a ring cone beside it reads better than twelve small holders.\n\n![Counter layering, illustration: a low ring tray in front, mid-height stands and a bracelet ramp behind it, and the tallest bust and a raised earring board at the back](/charts/display-counter-layering.jpg)\n\nDensity is the most common mistake. A counter filled edge to edge signals a market stall, not a considered brand; empty space around hero pieces is what makes them look valuable. A practical rule is to display fewer pieces than the props can hold and rotate stock through the same layout, so the presentation stays constant while the assortment changes. Lighting follows the same logic: pale covers read well in ambient light, while dark covers ask for focused light on the piece, not the prop.\n\n## How do you match props to your brand presentation?\n\nTwo levers do most of the work: cover material and logo. The cover is the largest visible surface on most props, so its material and colour set the temperature of the whole counter \u2014 velvet reads soft and traditional, smooth leather-look covers read tailored and modern, linen and textured papers read light and natural, and clear acrylic removes the prop from the picture almost entirely. A [velvet jewelry display set](/products/velvet-jewelry-display-set/) shows the coordinated end of the spectrum, where busts, stands and trays share one cover so the collection reads as a single installation.\n\nBase materials, cover materials and sizes are not a fixed menu: for project orders they are confirmed in the quotation and on the proposed sample, against the pieces the props will hold and the counters they will sit on. Logo treatment follows the same pattern \u2014 printing, foil or a small metal plate are the usual options in general terms, placed where it will be seen without sitting under the jewelry itself, and the method and position are confirmed per project. If your brand already has packaging in production, match the prop covers to the box and pouch palette rather than introducing a third colour family; the counter and the unboxing should feel like one system, a point the [custom jewelry packaging guide](/news/custom-jewelry-packaging-guide/) covers from the packaging side.\n\nOne specification is worth settling at the same stage if the props will hold sterling silver every day: the covering fabric. Sulfur-bearing fabrics and acidic materials can speed tarnishing on silver kept in an enclosed case, so for silver lines the safer specification is a sulfur-free, acid-neutral covering \u2014 raise it when the sample is specified, and check the sample against a silver piece, rather than discovering it on the counter.\n\n## How do props combine with boxes and pouches on one counter?\n\nThe strongest counters are planned as one set of components: the box the piece is sold in, the pouch it is stored in, and the prop it is displayed on, all sharing cover materials and colour. A customer then sees the same world three times \u2014 on display, in the gift box, and in the pouch inside it \u2014 which is what makes a small brand look established. In practice this means briefing props in the same conversation as packaging, not as an afterthought once boxes are already in production. Display sets ordered alongside packaging can be sampled in the same round, so colours are approved against each other under the same light rather than matched from memory months apart.\n\n![One colour from counter to unboxing, illustration: a deep-green velvet necklace bust, a matching presentation box and a velvet drawstring pouch](/charts/display-box-pouch-trio.jpg)\n\n## How does ordering props as a project work?\n\nProps are ordered as a project, item by item: you share the jewelry types and quantities each prop must hold, the counters or windows they are for, and your brand references; each item's base material, cover material, size and logo treatment is then specified and confirmed in the quotation and on the proposed sample before production. Display props carry their own minimums, separate from the packaging minimum: a coordinated display set starts at 10 sets; large pieces such as necklace busts and standing displays at 50 pieces; trays at 100 pieces; small holders \u2014 ring cones and holders, earring stands, bracelet ramps and rolls \u2014 at 50 pieces; and custom acrylic pieces at 100 pieces. Boxes and pouches ordered in the same programme keep the usual packaging minimum of 200 pieces per product or component. A custom sample costs USD 30 plus USD 25 shipping, is made in 3\u20135 days, and the sample fee is deductible against the confirmed first order. Expect a reply within 1 business day when you send the brief through the [contact page](/contact/).\n\n## Questions buyers ask\n\n### Are display props made to standard sizes?\n\nNo. Sizes are specified per project against the jewelry the props will hold and the counters they will sit on, and confirmed in the quotation and on the proposed sample. Share the piece dimensions and counter measurements you have, and the proposed sizes are worked out from there.\n\n### Can props carry our logo?\n\nYes \u2014 in general terms the options are printing, foil or a metal plate, with the method, size and position confirmed per project on the sample. Logo placement is planned so it is visible on the counter but never sits underneath the jewelry itself.\n\n### Can the props match our existing boxes and pouches?\n\nYes, and that is the recommended way to order them. Cover materials and colours are specified to sit with your packaging palette, and props and packaging can be sampled in the same round so the match is approved side by side.\n\n### What is the minimum order for display props?\n\nDisplay props have their own minimums, separate from packaging. Coordinated display sets start at 10 sets; large pieces such as necklace busts and standing displays at 50 pieces; trays at 100 pieces; small holders such as ring cones, earring stands and bracelet ramps at 50 pieces; and custom acrylic pieces at 100 pieces. A custom sample costs USD 30 plus USD 25 shipping, is made in 3\u20135 days, and the fee is deductible against the confirmed first order.\n\n## Sources\n\n- ELAPACK product pages: velvet necklace display, acrylic earring display, velvet jewelry display set and stackable jewelry tray\n- ELAPACK jewelry display trays guide\n- ELAPACK custom jewelry packaging guide\n- ELAPACK confirmed ordering terms for project-specified display props, including the display-prop minimums (coordinated sets and per-type tiers)"
+    "body": "Good display props do quiet work: they hold each piece at the angle a customer naturally looks from, keep the counter readable at a glance, and present a collection as one brand rather than a row of unrelated items. For brands buying props as part of a packaging programme, the task differs from picking stock displays off a shelf \u2014 every item is specified for the collection it will hold. This guide walks through the prop families by jewelry type, how to plan countertop and window layouts, how props are matched to brand presentation, and how a props order runs as a project.\n\n## Key takeaways\n\n- Buy props by jewelry type first: necklaces, earrings, rings and bracelets each need a different form of support, and one generic stand rarely serves two types well.\n- Trays are the base layer of the counter, not the whole display \u2014 busts, stands and holders sit on them to create height.\n- Display props at ELAPACK are specified per project: base materials, cover materials and sizes are confirmed in the quotation and on the proposed sample, not picked from a fixed standard list.\n- Display props carry their own minimums, separate from the packaging minimum: coordinated sets from 10 sets, large pieces from 50 pieces, trays from 100 pieces \u2014 the full tiers are set out in the ordering section below.\n- Cover material and colour are the main branding levers on a prop; logo application \u2014 printing, foil or a metal plate \u2014 is confirmed per project.\n- Props, boxes and pouches planned together give a coordinated counter and a consistent unboxing story.\n\n## Which props does each type of jewelry need?\n\nStart from the piece, not the prop catalogue. Each jewelry type has a natural viewing angle and a way it wants to rest, and the prop's job is to hold it there without competing for attention.\n\n### Necklace busts and stands\n\nNecklaces need a bust or stand that follows the line the chain takes on the neck, so the pendant sits where it would sit when worn. A bust presents a single hero piece or a small coordinated group; flatter stands and easels suit layered chains and price-tagged counter lines where several necklaces share one zone. The [velvet necklace display](/products/velvet-necklace-display/) is the classic form: a covered bust that gives fine chains contrast and keeps pendants from sliding. Choose bust height against the chain lengths you actually sell \u2014 long pendants on a short bust bunch at the base and lose the line you are trying to show.\n\n### Earring stands and cards in store\n\nEarrings are small, paired and easy to lose visually, so their props work in multiples: stands that hold pairs upright at reading distance, and cards that carry studs and hooks in a tidy grid. In-store cards do double duty \u2014 they present the pair and give you a surface for branding at the exact point of choice. An [acrylic earring display](/products/acrylic-earring-display/) gives a clean, modern frame where the metal and stones should carry the colour; covered stands in fabric give a softer read for warmer brand worlds. Whichever form you choose, plan how pairs are loaded and replaced \u2014 staff handle these props more than any others.\n\n### Ring holders and cones\n\nRings are usually the highest-value small items on the counter and are shown one or two at a time. Cones, slots and single-ring holders lift the stone or band toward the light and let a customer pick up and replace a ring without disturbing its neighbours. Because rings are tried on, the prop must be stable and easy to clean around: on a try-on counter, weight low in the holder matters more than height \u2014 a cone that tips as a ring is lifted undoes the presentation it was bought for. Ring props also scale down well into appointment settings, where one holder on a tray presents a shortlist rather than a stock range.\n\n### Bracelet ramps and rolls\n\nBracelets and bangles need a curve to rest on: ramps and rolls hold the circle open so the piece reads as a bracelet rather than a flat loop. Rolls suit bangles and cuffs that can be slid on and off; ramps and bars suit chain bracelets and watches-adjacent lines where the clasp and drape matter. Group bracelet props at the end of a counter run, where customers linger, rather than between necklace busts, where the heights fight.\n\n### Risers and blocks\n\nRisers \u2014 the blocks and platforms that lift one piece above its neighbours \u2014 are the height layer inside a zone. A ring or pendant on a low block reads as the hero of its tray without a taller stand, and a short run of stepped blocks at the back of a tray gives a window grouping its levels. Risers are planned as components of a counter or a coordinated set rather than as a standalone line: heights, footprint and covering are specified per project against the pieces they will lift, and confirmed in the quotation and on the proposed sample.\n\n### Trays: the base layer\n\nTrays are the flat foundation everything else stands on \u2014 they define zones on the counter, carry loose pieces for appointments, and stack for storage and transport. Because trays deserve their own treatment, this guide keeps them to this one subsection: for insert layouts, stacking and materials in depth, see the dedicated [jewelry display trays guide](/news/jewelry-display-trays-guide/). In layout terms, think of the tray as the floor plan and the busts, stands, holders and risers as the furniture.\n\n| Jewelry type | Prop options | Where it works best |\n|---|---|---|\n| Necklaces | Busts, easel stands, flat necklace boards | Hero pieces and pendant lines at eye level |\n| Earrings | Pair stands, in-store display cards, acrylic frames | Multi-pair zones, studs and hooks at reading distance |\n| Rings | Cones, slot holders, single-ring stands | High-value singles, try-on counters, appointment shortlists |\n| Bracelets | Ramps, rolls, bars | Bangles, cuffs and chain bracelets at counter ends |\n| Mixed collections | Trays with busts, holders and risers placed on top | Zoned counters, window compositions, appointment trays |\n\n![A coordinated jewelry display set, illustration: necklace busts, a necklace board, bracelet rolls, ring holders, hexagonal risers and slot trays sharing one deep-green cover](/charts/display-props-set-lineup.jpg)\n\n## Countertop or window: how should you plan height, sight-lines and density?\n\nA countertop display is read from above and at arm's length; a window display is read from standing height, through glass, and often in motion. The same props rarely optimise both. For counters, keep sight-lines low and layered: trays at the front, mid-height stands behind them, the tallest busts at the back, so a customer leaning in sees every zone without props shadowing each other. For windows, build fewer, larger groupings with more height contrast, because detail disappears with distance and glass reflection \u2014 one strong bust with a ring cone beside it reads better than twelve small holders.\n\n![Counter layering, illustration: a low ring tray in front, mid-height stands and a bracelet ramp behind it, and the tallest bust and a raised earring board at the back](/charts/display-counter-layering.jpg)\n\nDensity is the most common mistake. A counter filled edge to edge signals a market stall, not a considered brand; empty space around hero pieces is what makes them look valuable. A practical rule is to display fewer pieces than the props can hold and rotate stock through the same layout, so the presentation stays constant while the assortment changes. Lighting follows the same logic: pale covers read well in ambient light, while dark covers ask for focused light on the piece, not the prop.\n\n## How do you match props to your brand presentation?\n\nTwo levers do most of the work: cover material and logo. The cover is the largest visible surface on most props, so its material and colour set the temperature of the whole counter \u2014 velvet reads soft and traditional, smooth leather-look covers read tailored and modern, linen and textured papers read light and natural, and clear acrylic removes the prop from the picture almost entirely. A [velvet jewelry display set](/products/velvet-jewelry-display-set/) shows the coordinated end of the spectrum, where busts, stands and trays share one cover so the collection reads as a single installation.\n\nBase materials, cover materials and sizes are not a fixed menu: for project orders they are confirmed in the quotation and on the proposed sample, against the pieces the props will hold and the counters they will sit on. Logo treatment follows the same pattern \u2014 printing, foil or a small metal plate are the usual options in general terms, placed where it will be seen without sitting under the jewelry itself, and the method and position are confirmed per project. If your brand already has packaging in production, match the prop covers to the box and pouch palette rather than introducing a third colour family; the counter and the unboxing should feel like one system, a point the [custom jewelry packaging guide](/news/custom-jewelry-packaging-guide/) covers from the packaging side.\n\nOne specification is worth settling at the same stage if the props will hold sterling silver every day: the covering fabric. Sulfur-bearing fabrics and acidic materials can speed tarnishing on silver kept in an enclosed case, so for silver lines the safer specification is a sulfur-free, acid-neutral covering \u2014 raise it when the sample is specified, and check the sample against a silver piece, rather than discovering it on the counter.\n\n## How do props combine with boxes and pouches on one counter?\n\nThe strongest counters are planned as one set of components: the box the piece is sold in, the pouch it is stored in, and the prop it is displayed on, all sharing cover materials and colour. A customer then sees the same world three times \u2014 on display, in the gift box, and in the pouch inside it \u2014 which is what makes a small brand look established. In practice this means briefing props in the same conversation as packaging, not as an afterthought once boxes are already in production. Display sets ordered alongside packaging can be sampled in the same round, so colours are approved against each other under the same light rather than matched from memory months apart. The same one-set logic applied to the packaging itself is set out in the [jewelry packaging ideas guide](/news/jewelry-packaging-ideas/).\n\n![One colour from counter to unboxing, illustration: a deep-green velvet necklace bust, a matching presentation box and a velvet drawstring pouch](/charts/display-box-pouch-trio.jpg)\n\n## How does ordering props as a project work?\n\nProps are ordered as a project, item by item: you share the jewelry types and quantities each prop must hold, the counters or windows they are for, and your brand references; each item's base material, cover material, size and logo treatment is then specified and confirmed in the quotation and on the proposed sample before production. Display props carry their own minimums, separate from the packaging minimum: a coordinated display set starts at 10 sets; large pieces such as necklace busts and standing displays at 50 pieces; trays at 100 pieces; small holders \u2014 ring cones and holders, earring stands, bracelet ramps and rolls \u2014 at 50 pieces; and custom acrylic pieces at 100 pieces. Boxes and pouches ordered in the same programme keep the usual packaging minimum of 200 pieces per product or component. A custom sample costs USD 30 plus USD 25 shipping, is made in 3\u20135 days, and the sample fee is deductible against the confirmed first order. Expect a reply within 1 business day when you send the brief through the [contact page](/contact/).\n\n## Questions buyers ask\n\n### Are display props made to standard sizes?\n\nNo. Sizes are specified per project against the jewelry the props will hold and the counters they will sit on, and confirmed in the quotation and on the proposed sample. Share the piece dimensions and counter measurements you have, and the proposed sizes are worked out from there.\n\n### Can props carry our logo?\n\nYes \u2014 in general terms the options are printing, foil or a metal plate, with the method, size and position confirmed per project on the sample. Logo placement is planned so it is visible on the counter but never sits underneath the jewelry itself.\n\n### Can the props match our existing boxes and pouches?\n\nYes, and that is the recommended way to order them. Cover materials and colours are specified to sit with your packaging palette, and props and packaging can be sampled in the same round so the match is approved side by side.\n\n### What is the minimum order for display props?\n\nDisplay props have their own minimums, separate from packaging. Coordinated display sets start at 10 sets; large pieces such as necklace busts and standing displays at 50 pieces; trays at 100 pieces; small holders such as ring cones, earring stands and bracelet ramps at 50 pieces; and custom acrylic pieces at 100 pieces. A custom sample costs USD 30 plus USD 25 shipping, is made in 3\u20135 days, and the fee is deductible against the confirmed first order.\n\n## Sources\n\n- ELAPACK product pages: velvet necklace display, acrylic earring display, velvet jewelry display set and stackable jewelry tray\n- ELAPACK jewelry display trays guide\n- ELAPACK custom jewelry packaging guide\n- ELAPACK confirmed ordering terms for project-specified display props, including the display-prop minimums (coordinated sets and per-type tiers)"
   },
   {
     "slug": "offset-vs-flexo-vs-digital-printing-packaging",
@@ -3898,7 +4239,7 @@ Yes. Once you share your artwork, material and quantity, the quotation matches t
 
 ### Can I check the printed colour before production starts?
 
-Yes \u2014 colour is approved on a physical sample, not on screen. Custom samples cost USD 30 plus USD 25 shipping, are made in 3\u20135 days, and the fee is deductible against your confirmed first order. The sample is checked against the approved reference with a colour tolerance of \u0394E \u2264 2.0; that figure is the acceptance tolerance for the order, and any piece outside it is not accepted.
+Yes \u2014 colour is approved on a physical sample, not on screen. Custom samples cost USD 30 plus USD 25 shipping, are made in 3\u20135 days, and the fee is deductible against your confirmed first order. The sample is checked against the approved reference with a colour tolerance of \u0394E \u2264 1.5; that figure is the acceptance tolerance for the order, and any piece outside it is not accepted.
 
 ### Does the printing method change the minimum order quantity?
 
@@ -4225,7 +4566,7 @@ Send your RFQ \u2014 or copy the template above \u2014 with your artwork files t
 - Some colours have no CMYK equivalent \u2014 saturated oranges and blues lose vibrancy, and metallic and fluorescent colours cannot be built from process inks at all.
 - The same CMYK values print differently on coated and uncoated papers, on textured wraps and under matte or gloss lamination; approve colour on the final construction, not on a screen or a plain paper proof.
 - Keep photographs and multi-colour artwork in CMYK; move a small number of brand-critical colours to Pantone spot colour and specify them with the full code, including the C or U suffix.
-- Colour acceptance at ELAPACK is checked against the approved sample with a tolerance of \u0394E \u2264 2.0; bulk production starts only after the sample is confirmed by email.
+- Colour acceptance at ELAPACK is checked against the approved sample with a tolerance of \u0394E \u2264 1.5; bulk production starts only after the sample is confirmed by email.
 
 ## What does CMYK mean in packaging printing?
 
@@ -4272,7 +4613,7 @@ Stay with CMYK when the artwork is photographic or multi-colour, when gradients 
 
 ## What should buyers check on the printed sample?
 
-The sample is where CMYK decisions become visible. Check the brand colours against your reference under consistent light, check gradients for banding, check small text for sharpness, and check the colour on the finished construction \u2014 wrapped, laminated and assembled \u2014 not on a flat sheet. At ELAPACK, colour is accepted against the approved reference within \u0394E \u2264 2.0, and bulk production proceeds only after you confirm the sample by email; finished-sample photos or video can be sent before dispatch on request. A custom sample costs USD 30 plus USD 25 shipping and takes 3\u20135 days to make; the fee is deductible against the confirmed first order. The [sample guide](https://elapack.com/news/custom-packaging-samples-guide/) walks through the full approval sequence.
+The sample is where CMYK decisions become visible. Check the brand colours against your reference under consistent light, check gradients for banding, check small text for sharpness, and check the colour on the finished construction \u2014 wrapped, laminated and assembled \u2014 not on a flat sheet. At ELAPACK, colour is accepted against the approved reference within \u0394E \u2264 1.5, and bulk production proceeds only after you confirm the sample by email; finished-sample photos or video can be sent before dispatch on request. A custom sample costs USD 30 plus USD 25 shipping and takes 3\u20135 days to make; the fee is deductible against the confirmed first order. The [sample guide](https://elapack.com/news/custom-packaging-samples-guide/) walks through the full approval sequence.
 
 If a colour misses on the sample, name the component and the reference it should match \u2014 "the lid blue against Pantone 286 C" is actionable, while "the colour looks off" is not. A second sample round on one corrected variable is cheaper than a production run approved on a hope.
 
@@ -4297,7 +4638,7 @@ No. The minimum is 200 pieces per product or component whichever system the artw
 ## Sources
 
 - [Pantone \u2014 Spot vs. Process Color](https://www.pantone.jp/color-intelligence/articles/technical/spot-vs-process-color) \u2014 Pantone's technical reference on spot and process colour, CMYK separation, coated and uncoated references, and the Color Bridge simulation guides.
-- ELAPACK confirmed terms \u2014 \u0394E \u2264 2.0 colour tolerance against the approved sample, sample fees and approval-by-email workflow as stated in this guide.`
+- ELAPACK confirmed terms \u2014 \u0394E \u2264 1.5 colour tolerance against the approved sample, sample fees and approval-by-email workflow as stated in this guide.`
   },
   {
     "slug": "ring-box-materials-guide",
@@ -4313,7 +4654,7 @@ No. The minimum is 200 pieces per product or component whichever system the artw
     "imageHeight": 1350,
     "excerpt": "A ring box is three material decisions, not one \u2014 the exterior wrap, the interior surface and the insert. How the four exterior wraps and four inserts compare, what each does to print and finishes, and how the final combination is approved on a sample.",
     "metaDescription": "Ring box materials compared for buyers: paper, leather-look, textured and kraft exteriors; velvet, satin, EVA and molded pulp inserts; and how to approve the material on a sample.",
-    "body": "*A custom ring box is a rigid board core wrapped in a material you choose \u2014 and the insert is chosen separately. This guide compares the exterior and insert options ELAPACK offers, what each one does to print, finishes and presentation, and how the final material is approved on a sample.*\n\n> **Quick answer:** Choose the exterior by the artwork and hand feel the box must carry \u2014 printed paper wrap for full artwork, leather-look wrap for a uniform tactile surface, textured paper when the surface itself is the design, kraft for a natural unprinted look. Choose the insert by how the ring is presented and held \u2014 velvet or satin for a soft presentation surface, EVA foam when the slot must be cut precisely to the band, molded pulp for a matte paper-based insert. Every combination is confirmed in the quotation and approved on a physical sample before production.\n\n## Key takeaways\n\n- A ring box has three material decisions, not one: the exterior wrap, the interior surface and the insert. Each is specified separately in the quotation.\n- Printed artwork needs paper wrap; leather-look and textured wraps carry logos mainly through foil or embossing, and kraft prints muted because the ink sits on a brown base.\n- The insert is a fit decision as much as a look: EVA foam is cut to the ring's dimensions, while velvet and satin present the ring on a soft slotted surface. Fit itself is checked with your actual ring \u2014 see the sizing guide linked below.\n- Finishes are not interchangeable across materials: spot UV belongs on printed paper wrap, embossing needs a wrap with enough body, and foil reads differently on smooth and textured surfaces.\n- Materials are approved on a physical custom sample (USD 30 plus USD 25 shipping, made in 3\u20135 days). The material named in the quotation and confirmed on that sample is the material production follows.\n\n## What materials can a custom ring box be made from?\n\nEvery custom ring box starts from the same structure: a rigid board core that gives the box its shape and strength, wrapped outside and lined inside. The board itself is not the visible decision \u2014 its thickness and construction are confirmed in the quotation \u2014 so buyers are really choosing three things.\n\n![Ring box structure, illustration: the exterior wrap, rigid board core and insert shown as separate layers](/charts/ring-box-structure-render.svg)\n\n**The exterior wrap** is what the customer sees and touches:\n\n- **Paper wrap** \u2014 a printed paper over the board. This is the only exterior that carries full artwork: photographs, gradients, patterns and printed brand colours, in CMYK or spot colour.\n- **Leather-look wrap** \u2014 a leather-grain surface in a uniform colour. Nothing is printed on it in the usual case; the branding is applied by foil or embossing, and the material itself supplies the premium feel.\n- **Textured paper** \u2014 paper whose surface texture (linen, laid, fine grain) is part of the design. Colours stay plain or lightly printed, and the texture does the visual work.\n- **Kraft** \u2014 unbleached brown paper for a natural look. Ink prints muted on the brown base, so kraft suits simple one-colour artwork rather than colour-critical designs.\n\n**The insert** is what holds the ring: EVA foam, velvet, satin or molded pulp, fitted to your product dimensions. Section three compares them.\n\n**The closure** \u2014 lift-off lid, magnetic flip-top, ribbon tie or drawer \u2014 is chosen with the structure, and it interacts with the material: a ribbon tie, for example, is usually paired with a plain wrap whose surface the ribbon decorates.\n\n![Four ring box closure styles, illustration: lift-off lid, magnetic flip-top, ribbon tie and drawer](/charts/ring-box-closures-render.svg)\n\n![Custom ring box at a glance, illustration: one ring box shown in layers with its exterior wraps, inserts, closure styles, finishes and matching set pieces](/images/news/ring-box-composition.jpg)\n\n## Which exterior suits an engagement ring box?\n\nStart from what the box has to do at the moment it is opened, not from a material catalogue.\n\nFor a **single engagement ring**, the box is opened once, close up, and photographed. A leather-look or textured wrap in a deep, plain colour with a foil logo keeps the attention on the ring; a velvet insert in a contrasting or matching tone is the classic presentation. Nothing about the exterior needs to carry information \u2014 there is no artwork to print \u2014 so the tactile materials earn their place.\n\nFor a **retail ring line**, the box repeats across many SKUs and often sits next to other packaging. Paper wrap becomes the practical choice: the range's colours and patterns print consistently from box to box, and printed interiors or message cards can be added in the same system.\n\nFor a **ring box inside a set**, the wrap is chosen against the other components \u2014 bag, pouch, card \u2014 so the set reads as one design. Colour matching is then done against the approved sample (printed colour is accepted within \u0394E \u2264 2.0 of the reference), and the same wrap family is usually carried across the set's boxes.\n\nIf the design brief includes photographic or patterned artwork, the decision is already made: only the paper wrap carries it. If the brief is a plain colour and a metallic logo, all four exteriors remain open and the choice is about hand feel.\n\n## Velvet, satin, EVA or molded pulp \u2014 which insert should you choose?\n\nThe insert holds the ring in place and forms the surface it is presented on. The four options differ in how they hold and how they read:\n\n- **Velvet** \u2014 a plush pile surface, usually as a slotted pad or cushion. The ring sits in the slot and the pile frames it. This is the traditional presentation for engagement and fine jewelry rings.\n- **Satin** \u2014 a smooth woven surface with a light sheen, used for pads and lining where a cleaner, less plush look is wanted.\n- **EVA foam** \u2014 a firm foam that is cut precisely, so the slot can be shaped to the band width and setting height of a specific ring. Choose it when the fit must be mechanical and exact rather than soft \u2014 for heavier settings, or rings that travel inside the box. A fitted insert is also the protection option: it is what fixes the ring against movement and shock in transit.\n- **Molded pulp** \u2014 an insert molded from paper pulp, with a matte, natural surface. It suits brands whose packaging is paper-based throughout, and it takes a simple, modern presentation rather than a plush one.\n\n| Insert | Surface | Suits |\n|---|---|---|\n| Velvet | A plush pile surface, usually as a slotted pad or cushion; the ring sits in the slot and the pile frames it | The traditional presentation for engagement and fine jewelry rings |\n| Satin | A smooth woven surface with a light sheen, used for pads and lining | A cleaner, less plush look |\n| EVA foam | Firm foam, cut precisely so the slot can be shaped to the band width and setting height of a specific ring | When the fit must be mechanical and exact rather than soft \u2014 heavier settings, or rings that travel inside the box; also the protection option, fixing the ring against movement and shock in transit |\n| Molded pulp | Molded from paper pulp, with a matte, natural surface | Brands whose packaging is paper-based throughout; a simple, modern presentation rather than a plush one |\n\nMaterial choice and dimensions are one decision, not two: the slot that holds the ring is sized from the band width and setting height you supply, and retention and removal are checked with your actual ring in the approved sample. Our [ring box sizing guide](https://elapack.com/news/custom-ring-boxes-guide/) covers that matched specification in full \u2014 read the two guides together before sending an enquiry.\n\n![Ring box materials at a glance: four exterior wraps with the print and logo methods each carries, and four inserts with the presentation each suits](/charts/ring-box-materials-brief.svg)\n\n## How do finishes change each material?\n\nA finish that works on one wrap can fail on another, because finishes interact with the surface:\n\n- **Foil stamping** reads crisp and metallic on smooth paper wrap and on leather-look wrap \u2014 it is the standard logo method for both. On textured paper the texture shows through the foil, which can be a deliberate effect but is not the clean metallic most buyers picture; check it on the sample.\n- **Embossing and debossing** need a wrap with enough body to hold the impression. A blind debossed logo on leather-look wrap is a recognised premium treatment precisely because it uses no ink at all \u2014 the material carries the mark.\n- **Spot UV** is a print finish: it is applied over printed areas, so it belongs to paper wrap. It cannot be specified on an unprinted leather-look or kraft surface.\n- **Matte or gloss lamination** applies to paper wraps and changes both colour and feel \u2014 matte softens contrast, gloss raises saturation \u2014 which is why printed colour is approved on the finished, laminated construction rather than on a flat proof.\n\nThe logo methods confirmed for ring boxes are hot foil, emboss/deboss, and screen or digital print, with Pantone-matched colours on request for printed wraps. For the full comparison of finishes across packaging, see our [surface finishes guide](https://elapack.com/news/surface-finishes-compared-guide/).\n\n## How do you approve the material before production?\n\nA material name in a quotation is a proposal. The approved sample is the reference production follows, and for materials this matters more than for dimensions: a photograph cannot carry the pile of a velvet, the grain of a leather-look wrap or the depth of a deboss. Those are judged in hand.\n\nOrder the custom sample in the exact combination you intend to run \u2014 wrap, insert, closure and logo method together. On the sample, check the wrap's colour against your reference, the texture and hand feel, the logo in its chosen method, and the ring's retention and removal in the insert. Finished-sample photos or video can also be sent before dispatch on request, but for material approval they support the physical check rather than replace it.\n\n| Stage | Terms |\n|---|---|\n| Custom sample | USD 30 plus USD 25 shipping, and 3\u20135 days to make; any first-order fee credit depends on the product and order and must be confirmed in the quotation |\n| Sample confirmation | Confirm the sample by email; bulk production starts only after that confirmation and payment |\n| Bulk production | 15\u201320 days for 200 to 20,000 pieces; 30\u201335 days for 20,000 to 50,000 pieces |\n\nThe minimum order is 200 pieces per product, or per component when the ring box is part of a set; how sizes, colours and artwork are allocated across the run is confirmed in the quotation. How a ring box is specified as part of a wider jewelry packaging set is covered in our [custom jewelry packaging guide](https://elapack.com/news/custom-jewelry-packaging-guide/). The [ring box product page](https://elapack.com/products/custom-ring-boxes/) sets out the full specification to send with an enquiry.\n\n## Questions buyers ask\n\n### Can a ring box be made in real leather or wood?\n\nThe standard exterior options are paper wrap, leather-look wrap, textured paper and kraft over a rigid board core. If a project needs a material outside this list, name it in the enquiry \u2014 it will be confirmed or declined in the quotation rather than assumed, and it is only ever scheduled once a physical sample of that material has been approved.\n\n### Which insert holds a ring most securely?\n\nBy mechanism rather than by test data: an EVA insert cut to the band gives the firmest mechanical hold, while velvet and satin hold the ring by its slot in a soft surface. Which is secure enough depends on the ring and how the box travels \u2014 the deciding check is retention and removal with your actual ring, done on the approved sample before production.\n\n### Can the box, lining and insert be different colours?\n\nYes. The exterior wrap, the interior surface and the insert are specified separately in the quotation, so a navy wrap with an ivory insert is a normal brief. Approve the combination on the sample, because colours read differently against each other than they do alone.\n\n### Does the material change the price of a ring box?\n\nMaterial and finish are real cost drivers, and they are priced in the quotation for the specified combination \u2014 there is no published price per material. To compare quotations from different suppliers fairly, hold the specification constant: same wrap, same insert, same logo method. A cheaper quote on a different material is not a cheaper quote for the same box.\n\n## Sources\n\n- [ELAPACK \u2014 Custom Ring & Engagement Ring Boxes](https://elapack.com/products/custom-ring-boxes/) \u2014 the exterior, insert, closure, finish and logo options compared in this guide, as specified on the product page.\n- ELAPACK confirmed terms \u2014 MOQ 200 pieces per product or component; custom sample USD 30 plus USD 25 shipping in 3\u20135 days, with any first-order fee credit subject to the product and order quotation; colour accepted within \u0394E \u2264 2.0 of the approved sample; production 15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces after sample approval by email and payment."
+    "body": "*A custom ring box is a rigid board core wrapped in a material you choose \u2014 and the insert is chosen separately. This guide compares the exterior and insert options ELAPACK offers, what each one does to print, finishes and presentation, and how the final material is approved on a sample.*\n\n> **Quick answer:** Choose the exterior by the artwork and hand feel the box must carry \u2014 printed paper wrap for full artwork, leather-look wrap for a uniform tactile surface, textured paper when the surface itself is the design, kraft for a natural unprinted look. Choose the insert by how the ring is presented and held \u2014 velvet or satin for a soft presentation surface, EVA foam when the slot must be cut precisely to the band, molded pulp for a matte paper-based insert. Every combination is confirmed in the quotation and approved on a physical sample before production.\n\n## Key takeaways\n\n- A ring box has three material decisions, not one: the exterior wrap, the interior surface and the insert. Each is specified separately in the quotation.\n- Printed artwork needs paper wrap; leather-look and textured wraps carry logos mainly through foil or embossing, and kraft prints muted because the ink sits on a brown base.\n- The insert is a fit decision as much as a look: EVA foam is cut to the ring's dimensions, while velvet and satin present the ring on a soft slotted surface. Fit itself is checked with your actual ring \u2014 see the sizing guide linked below.\n- Finishes are not interchangeable across materials: spot UV belongs on printed paper wrap, embossing needs a wrap with enough body, and foil reads differently on smooth and textured surfaces.\n- Materials are approved on a physical custom sample (USD 30 plus USD 25 shipping, made in 3\u20135 days). The material named in the quotation and confirmed on that sample is the material production follows.\n\n## What materials can a custom ring box be made from?\n\nEvery custom ring box starts from the same structure: a rigid board core that gives the box its shape and strength, wrapped outside and lined inside. The board itself is not the visible decision \u2014 its thickness and construction are confirmed in the quotation \u2014 so buyers are really choosing three things.\n\n![Ring box structure, illustration: the exterior wrap, rigid board core and insert shown as separate layers](/charts/ring-box-structure-render.svg)\n\n**The exterior wrap** is what the customer sees and touches:\n\n- **Paper wrap** \u2014 a printed paper over the board. This is the only exterior that carries full artwork: photographs, gradients, patterns and printed brand colours, in CMYK or spot colour.\n- **Leather-look wrap** \u2014 a leather-grain surface in a uniform colour. Nothing is printed on it in the usual case; the branding is applied by foil or embossing, and the material itself supplies the premium feel.\n- **Textured paper** \u2014 paper whose surface texture (linen, laid, fine grain) is part of the design. Colours stay plain or lightly printed, and the texture does the visual work.\n- **Kraft** \u2014 unbleached brown paper for a natural look. Ink prints muted on the brown base, so kraft suits simple one-colour artwork rather than colour-critical designs.\n\n**The insert** is what holds the ring: EVA foam, velvet, satin or molded pulp, fitted to your product dimensions. Section three compares them.\n\n**The closure** \u2014 lift-off lid, magnetic flip-top, ribbon tie or drawer \u2014 is chosen with the structure, and it interacts with the material: a ribbon tie, for example, is usually paired with a plain wrap whose surface the ribbon decorates.\n\n![Four ring box closure styles, illustration: lift-off lid, magnetic flip-top, ribbon tie and drawer](/charts/ring-box-closures-render.svg)\n\n![Custom ring box at a glance, illustration: one ring box shown in layers with its exterior wraps, inserts, closure styles, finishes and matching set pieces](/images/news/ring-box-composition.jpg)\n\n## Which exterior suits an engagement ring box?\n\nStart from what the box has to do at the moment it is opened, not from a material catalogue.\n\nFor a **single engagement ring**, the box is opened once, close up, and photographed. A leather-look or textured wrap in a deep, plain colour with a foil logo keeps the attention on the ring; a velvet insert in a contrasting or matching tone is the classic presentation. Nothing about the exterior needs to carry information \u2014 there is no artwork to print \u2014 so the tactile materials earn their place.\n\nFor a **retail ring line**, the box repeats across many SKUs and often sits next to other packaging. Paper wrap becomes the practical choice: the range's colours and patterns print consistently from box to box, and printed interiors or message cards can be added in the same system.\n\nFor a **ring box inside a set**, the wrap is chosen against the other components \u2014 bag, pouch, card \u2014 so the set reads as one design. Colour matching is then done against the approved sample (printed colour is accepted within \u0394E \u2264 1.5 of the reference), and the same wrap family is usually carried across the set's boxes.\n\nIf the design brief includes photographic or patterned artwork, the decision is already made: only the paper wrap carries it. If the brief is a plain colour and a metallic logo, all four exteriors remain open and the choice is about hand feel.\n\n## Velvet, satin, EVA or molded pulp \u2014 which insert should you choose?\n\nThe insert holds the ring in place and forms the surface it is presented on. The four options differ in how they hold and how they read:\n\n- **Velvet** \u2014 a plush pile surface, usually as a slotted pad or cushion. The ring sits in the slot and the pile frames it. This is the traditional presentation for engagement and fine jewelry rings.\n- **Satin** \u2014 a smooth woven surface with a light sheen, used for pads and lining where a cleaner, less plush look is wanted.\n- **EVA foam** \u2014 a firm foam that is cut precisely, so the slot can be shaped to the band width and setting height of a specific ring. Choose it when the fit must be mechanical and exact rather than soft \u2014 for heavier settings, or rings that travel inside the box. A fitted insert is also the protection option: it is what fixes the ring against movement and shock in transit.\n- **Molded pulp** \u2014 an insert molded from paper pulp, with a matte, natural surface. It suits brands whose packaging is paper-based throughout, and it takes a simple, modern presentation rather than a plush one.\n\n| Insert | Surface | Suits |\n|---|---|---|\n| Velvet | A plush pile surface, usually as a slotted pad or cushion; the ring sits in the slot and the pile frames it | The traditional presentation for engagement and fine jewelry rings |\n| Satin | A smooth woven surface with a light sheen, used for pads and lining | A cleaner, less plush look |\n| EVA foam | Firm foam, cut precisely so the slot can be shaped to the band width and setting height of a specific ring | When the fit must be mechanical and exact rather than soft \u2014 heavier settings, or rings that travel inside the box; also the protection option, fixing the ring against movement and shock in transit |\n| Molded pulp | Molded from paper pulp, with a matte, natural surface | Brands whose packaging is paper-based throughout; a simple, modern presentation rather than a plush one |\n\nMaterial choice and dimensions are one decision, not two: the slot that holds the ring is sized from the band width and setting height you supply, and retention and removal are checked with your actual ring in the approved sample. Our [ring box sizing guide](https://elapack.com/news/custom-ring-boxes-guide/) covers that matched specification in full \u2014 read the two guides together before sending an enquiry.\n\n![Ring box materials at a glance: four exterior wraps with the print and logo methods each carries, and four inserts with the presentation each suits](/charts/ring-box-materials-brief.svg)\n\n## How do finishes change each material?\n\nA finish that works on one wrap can fail on another, because finishes interact with the surface:\n\n- **Foil stamping** reads crisp and metallic on smooth paper wrap and on leather-look wrap \u2014 it is the standard logo method for both. On textured paper the texture shows through the foil, which can be a deliberate effect but is not the clean metallic most buyers picture; check it on the sample.\n- **Embossing and debossing** need a wrap with enough body to hold the impression. A blind debossed logo on leather-look wrap is a recognised premium treatment precisely because it uses no ink at all \u2014 the material carries the mark.\n- **Spot UV** is a print finish: it is applied over printed areas, so it belongs to paper wrap. It cannot be specified on an unprinted leather-look or kraft surface.\n- **Matte or gloss lamination** applies to paper wraps and changes both colour and feel \u2014 matte softens contrast, gloss raises saturation \u2014 which is why printed colour is approved on the finished, laminated construction rather than on a flat proof.\n\nThe logo methods confirmed for ring boxes are hot foil, emboss/deboss, and screen or digital print, with Pantone-matched colours on request for printed wraps. For the full comparison of finishes across packaging, see our [surface finishes guide](https://elapack.com/news/surface-finishes-compared-guide/).\n\n## How do you approve the material before production?\n\nA material name in a quotation is a proposal. The approved sample is the reference production follows, and for materials this matters more than for dimensions: a photograph cannot carry the pile of a velvet, the grain of a leather-look wrap or the depth of a deboss. Those are judged in hand.\n\nOrder the custom sample in the exact combination you intend to run \u2014 wrap, insert, closure and logo method together. On the sample, check the wrap's colour against your reference, the texture and hand feel, the logo in its chosen method, and the ring's retention and removal in the insert. Finished-sample photos or video can also be sent before dispatch on request, but for material approval they support the physical check rather than replace it.\n\n| Stage | Terms |\n|---|---|\n| Custom sample | USD 30 plus USD 25 shipping, and 3\u20135 days to make; any first-order fee credit depends on the product and order and must be confirmed in the quotation |\n| Sample confirmation | Confirm the sample by email; bulk production starts only after that confirmation and payment |\n| Bulk production | 15\u201320 days for 200 to 20,000 pieces; 30\u201335 days for 20,000 to 50,000 pieces |\n\nThe minimum order is 200 pieces per product, or per component when the ring box is part of a set; how sizes, colours and artwork are allocated across the run is confirmed in the quotation. How a ring box is specified as part of a wider jewelry packaging set is covered in our [custom jewelry packaging guide](https://elapack.com/news/custom-jewelry-packaging-guide/). The [ring box product page](https://elapack.com/products/custom-ring-boxes/) sets out the full specification to send with an enquiry.\n\n## Questions buyers ask\n\n### Can a ring box be made in real leather or wood?\n\nThe standard exterior options are paper wrap, leather-look wrap, textured paper and kraft over a rigid board core. If a project needs a material outside this list, name it in the enquiry \u2014 it will be confirmed or declined in the quotation rather than assumed, and it is only ever scheduled once a physical sample of that material has been approved.\n\n### Which insert holds a ring most securely?\n\nBy mechanism rather than by test data: an EVA insert cut to the band gives the firmest mechanical hold, while velvet and satin hold the ring by its slot in a soft surface. Which is secure enough depends on the ring and how the box travels \u2014 the deciding check is retention and removal with your actual ring, done on the approved sample before production.\n\n### Can the box, lining and insert be different colours?\n\nYes. The exterior wrap, the interior surface and the insert are specified separately in the quotation, so a navy wrap with an ivory insert is a normal brief. Approve the combination on the sample, because colours read differently against each other than they do alone.\n\n### Does the material change the price of a ring box?\n\nMaterial and finish are real cost drivers, and they are priced in the quotation for the specified combination \u2014 there is no published price per material. To compare quotations from different suppliers fairly, hold the specification constant: same wrap, same insert, same logo method. A cheaper quote on a different material is not a cheaper quote for the same box.\n\n## Sources\n\n- [ELAPACK \u2014 Custom Ring & Engagement Ring Boxes](https://elapack.com/products/custom-ring-boxes/) \u2014 the exterior, insert, closure, finish and logo options compared in this guide, as specified on the product page.\n- ELAPACK confirmed terms \u2014 MOQ 200 pieces per product or component; custom sample USD 30 plus USD 25 shipping in 3\u20135 days, with any first-order fee credit subject to the product and order quotation; colour accepted within \u0394E \u2264 1.5 of the approved sample; production 15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces after sample approval by email and payment."
   },
   {
     "slug": "approving-a-custom-packaging-sample",
@@ -4338,7 +4679,7 @@ Approving a custom packaging sample is a physical inspection, not a glance. Work
 **Approve the sample against the written specification and the agreed reference, record the result, and keep the approved sample as the benchmark for production.**
 
 1. Measure internal dimensions first: ELAPACK's working tolerance is a finished size within 0.5 cm of the approved specification.
-2. Judge colour against the agreed physical reference in the agreed light; ELAPACK's colour tolerance is \u0394E \u2264 2.0 against that reference.
+2. Judge colour against the agreed physical reference in the agreed light; ELAPACK's colour tolerance is \u0394E \u2264 1.5 against that reference.
 3. Cycle every closure a dozen or more times, stress seams and glue on a spare sample only, and test the pack loaded with the real product.
 4. Confirm in writing before production \u2014 at ELAPACK an email confirmation is enough \u2014 and record any exception you accept as-is.
 
@@ -4374,7 +4715,7 @@ Measure the inside first: the internal length, width and height decide whether t
 
 Judge colour under the light you agreed, with the sample and the physical reference side by side. Two different findings hide inside "the colour looks off": the appearance changed because the light changed, or the sample genuinely differs from the reference. Only the second is a sample fault, and the method for separating the two belongs to the [colour tolerance guide](https://elapack.com/news/packaging-colour-tolerance-explained/) \u2014 this page only insists that the judging happens against a named reference, in the agreed conditions, before approval.
 
-ELAPACK states its colour tolerance in the professional form: \u0394E \u2264 2.0 against the approved reference. If several components \u2014 a box, a pouch, a ribbon \u2014 must read as one colour in the customer's hand, judge them together as a set as well as one by one; components that each pass alone can still quarrel together.
+ELAPACK states its colour tolerance in the professional form: \u0394E \u2264 1.5 against the approved reference. If several components \u2014 a box, a pouch, a ribbon \u2014 must read as one colour in the customer's hand, judge them together as a set as well as one by one; components that each pass alone can still quarrel together.
 
 ## Work every closure and moving part
 
@@ -4426,7 +4767,7 @@ Approving the sample proves the design, the construction and the fit for that de
 
 ## Sources
 
-1. ELAPACK confirmed trade terms and working standards \u2014 sample charges and build times, production windows, size tolerance within 0.5 cm and colour tolerance \u0394E \u2264 2.0 \u2014 elapack.com
+1. ELAPACK confirmed trade terms and working standards \u2014 sample charges and build times, production windows, size tolerance within 0.5 cm and colour tolerance \u0394E \u2264 1.5 \u2014 elapack.com
 2. ELAPACK buyer guides for the stages around this one \u2014 custom packaging samples, specification sheets, colour tolerance and delivery inspection \u2014 linked inline above.
 
 ## Questions buyers ask about approving a sample
@@ -4441,7 +4782,7 @@ Production runs 15\u201320 days for orders of 200\u201320,000 pieces and 30\u201
 
 ### Will the production run match my approved sample exactly?
 
-Production is run against the approved sample as the benchmark. ELAPACK's working standards are a finished size within 0.5 cm of the approved specification and a colour tolerance of \u0394E \u2264 2.0 against the approved reference \u2014 which is why the written approval record matters: it fixes what "matching" means for your order before the run starts.
+Production is run against the approved sample as the benchmark. ELAPACK's working standards are a finished size within 0.5 cm of the approved specification and a colour tolerance of \u0394E \u2264 1.5 against the approved reference \u2014 which is why the written approval record matters: it fixes what "matching" means for your order before the run starts.
 
 ### What can a single sample not tell me?
 
@@ -4624,7 +4965,7 @@ Once the term is fixed, whether the order travels in one delivery or several is 
     "imageHeight": 1350,
     "excerpt": "Compare rigid box construction, board specifications, opening structures and the information needed for a comparable quote.",
     "metaDescription": "Specify custom rigid boxes by product dimensions, weight, structure, board, wrap and insert. Review samples and compare like-for-like quotations.",
-    "body": "*Construction descriptions are industry references as published by packaging suppliers (sources named inline); board specifications, costs and available structures must be confirmed in the quotation for the chosen product. Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample USD 30 plus USD 25 shipping, free digital dieline previews \u2014 are ELAPACK's confirmed trade terms.*\n\n> **Quick answer:** specify a rigid box by its product dimensions, weight, opening structure, board, wrap and lining. Ask for the proposed board specification in the quote and review the assembled sample before approving production.\n\n## Key takeaways\n\n- Specify a rigid box by construction, not occasion: product dimensions and weight, opening structure, board, wrap and lining.\n- The build is three layers \u2014 a greyboard core, an external wrap and an internal lining; confirm the proposed board specification in the quotation.\n- A presentation box is not automatically a shipping outer; approve the complete shipping pack against the intended parcel route.\n- Cost sits above the board \u2014 wrap, finish set and lining \u2014 so compare quotations like-for-like: same dimensions, structure, finishes and quantity.\n- MOQ is 200 pieces; a custom sample is USD 30 plus USD 25 shipping in 3\u20135 days, and a digital dieline preview is free for structure approval.\n\n## Key facts at a glance\n\n| Item | Figure | Source |\n|---|---|---|\n| Minimum order | 200 pieces | ELAPACK confirmed terms |\n| Production lead time | typically 15\u201320 days after sample approval and payment receipt; confirm by order | ELAPACK confirmed terms |\n| Custom sample | USD 30 plus USD 25 shipping, 3\u20135 days | ELAPACK confirmed terms |\n| Digital dieline preview | Free for structure approval | ELAPACK confirmed terms |\n| Board specification | Confirm material, thickness and construction for the selected design | Order quotation and approved sample |\n| Cost comparison | Compare the same dimensions, quantity, structure and finishes | Like-for-like quotations |\n\n## How should buyers name a rigid box?\n\nA rigid-box enquiry should name the proposed construction, opening style and product dimensions. A search term such as \u201Crigid mailer\u201D does not establish its material or shipping suitability. The cross-section is an illustrative wrapped-board construction; confirm the actual build on the quotation and sample. Compare decoration separately in the [surface finishes guide](https://elapack.com/news/surface-finishes-compared-guide/).\n\n**Rigid boxes are ordered by construction, not by occasion \u2014 name the build in the enquiry, not the gift.**\n\n## The three-layer build\n\n![The rigid box build in three layers: a greyboard structural core, an external wrap and an internal lining](/charts/rigid-box-three-layer-build.svg)\n\nFor a wrapped-board construction, identify the structural core, external wrap and any internal lining. [Zenpack\u2019s guide](https://www.zenpack.us/blog/custom-rigid-box-packaging/) describes a greyboard core and wrap paper; this is a supplier construction example, not proof that every rigid box has identical layers or recycled content. Confirm material identification, thickness, wrap, lining and the assembled design for your product.\n\n**Choose the board with the structure and product; confirm the specification before artwork approval.**\n\n## Structure shortlist and product examples\n\nA shortlist can include a [magnetic flip-top](https://elapack.com/products/magnetic-closure-gift-box/), a [ribbon-tie box](https://elapack.com/products/luxury-gift-box-ribbon/) or a lid-and-base structure. Magnetic closure is a closure choice within a box construction, rather than a material category. Confirm availability, assembly and fit for the selected design.\n\n## Rigid mailers\n\nA presentation box is not automatically suitable as a shipping outer. Assess the loaded product, insert, closure, outer carton and intended parcel route together. Agree on sample transport checks and acceptance criteria before approving bulk production. The [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide/) covers product restraint.\n\n**Approve the complete shipping pack against the intended route before relying on its protective performance.**\n\n## What drives the cost of a rigid box?\n\nThree cost levers sit above the board: the wrap (art paper, specialty paper, textile), the finish set on it (lamination, foil, emboss \u2014 compared in the finishes guide), and the lining. Ask for comparable quotations with the same board, wrap, finish, insert and quantity. For assembly, agree on the dimensions, closure fit and inspection records required for your order. Structures and stock formats across the range sit on the [boxes collection](https://elapack.com/products/?category=Boxes) and the [custom gift boxes](https://elapack.com/custom-gift-boxes/) page.\n\n## What should a rigid box enquiry include?\n\nA rigid enquiry a factory can quote first time carries: the proposed structure or a drawing; the greyboard grade \u2014 or the product and weight and let the factory propose; wrap and finish choices; internal layout, cross-referenced to the insert specification; quantity against the 200-piece minimum; vector artwork; and the sample route. A digital dieline preview is provided free for approval against confirmed product dimensions, covered in the [die cutting and dielines guide](https://elapack.com/news/die-cutting-and-dielines-guide/).\n\n## The bottom line\n\nPick the grade for the weight, the structure for the opening, and let wrap and finish carry the brand. [Contact ELAPACK](https://elapack.com/contact/) with the product, structure and quantity, and the quotation will state board grade, wrap, tooling and terms that apply.\n\n## Sources\n\n- Zenpack, [Custom Rigid Box Packaging](https://www.zenpack.us/blog/custom-rigid-box-packaging/) \u2014 the greyboard-core and wrap-paper construction example cited in the three-layer section.\n- ELAPACK confirmed trade terms \u2014 the MOQ, production, sample and dieline-preview terms stated in the key-facts table."
+    "body": "*Construction descriptions are industry references as published by packaging suppliers (sources named inline); board specifications, costs and available structures must be confirmed in the quotation for the chosen product. Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample USD 30 plus USD 25 shipping, free digital dieline previews \u2014 are ELAPACK's confirmed trade terms.*\n\n> **Quick answer:** specify a rigid box by its product dimensions, weight, opening structure, board, wrap and lining. Ask for the proposed board specification in the quote and review the assembled sample before approving production.\n\n## Key takeaways\n\n- Specify a rigid box by construction, not occasion: product dimensions and weight, opening structure, board, wrap and lining.\n- The build is three layers \u2014 a greyboard core, an external wrap and an internal lining; confirm the proposed board specification in the quotation.\n- A presentation box is not automatically a shipping outer; approve the complete shipping pack against the intended parcel route.\n- Cost sits above the board \u2014 wrap, finish set and lining \u2014 so compare quotations like-for-like: same dimensions, structure, finishes and quantity.\n- MOQ is 200 pieces; a custom sample is USD 30 plus USD 25 shipping in 3\u20135 days, and a digital dieline preview is free for structure approval.\n\n## Key facts at a glance\n\n| Item | Figure | Source |\n|---|---|---|\n| Minimum order | 200 pieces | ELAPACK confirmed terms |\n| Production lead time | typically 15\u201320 days after sample approval and payment receipt; confirm by order | ELAPACK confirmed terms |\n| Custom sample | USD 30 plus USD 25 shipping, 3\u20135 days | ELAPACK confirmed terms |\n| Digital dieline preview | Free for structure approval | ELAPACK confirmed terms |\n| Board specification | Confirm material, thickness and construction for the selected design | Order quotation and approved sample |\n| Cost comparison | Compare the same dimensions, quantity, structure and finishes | Like-for-like quotations |\n\n## How should buyers name a rigid box?\n\nA rigid-box enquiry should name the proposed construction, opening style and product dimensions. A search term such as \u201Crigid mailer\u201D does not establish its material or shipping suitability. The cross-section is an illustrative wrapped-board construction; confirm the actual build on the quotation and sample. Compare decoration separately in the [surface finishes guide](https://elapack.com/news/surface-finishes-compared-guide/).\n\n**Rigid boxes are ordered by construction, not by occasion \u2014 name the build in the enquiry, not the gift.**\n\n## The three-layer build\n\n![The rigid box build in three layers: a greyboard structural core, an external wrap and an internal lining](/charts/rigid-box-three-layer-build.svg)\n\nFor a wrapped-board construction, identify the structural core, external wrap and any internal lining. [Zenpack\u2019s guide](https://www.zenpack.us/blog/custom-rigid-box-packaging/) describes a greyboard core and wrap paper; this is a supplier construction example, not proof that every rigid box has identical layers or recycled content. Confirm material identification, thickness, wrap, lining and the assembled design for your product.\n\n**Choose the board with the structure and product; confirm the specification before artwork approval.**\n\n## Structure shortlist and product examples\n\nA shortlist can include a [magnetic flip-top](https://elapack.com/products/magnetic-closure-gift-box/), a [ribbon-tie box](https://elapack.com/products/luxury-gift-box-ribbon/) or a lid-and-base structure. Magnetic closure is a closure choice within a box construction, rather than a material category. For complete looks that pair a rigid box with a pouch, tissue, ribbon and cards as one coordinated set, see the [jewelry packaging ideas guide](https://elapack.com/news/jewelry-packaging-ideas/). Confirm availability, assembly and fit for the selected design.\n\n## Rigid mailers\n\nA presentation box is not automatically suitable as a shipping outer. Assess the loaded product, insert, closure, outer carton and intended parcel route together. Agree on sample transport checks and acceptance criteria before approving bulk production. The [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide/) covers product restraint.\n\n**Approve the complete shipping pack against the intended route before relying on its protective performance.**\n\n## What drives the cost of a rigid box?\n\nThree cost levers sit above the board: the wrap (art paper, specialty paper, textile), the finish set on it (lamination, foil, emboss \u2014 compared in the finishes guide), and the lining. Ask for comparable quotations with the same board, wrap, finish, insert and quantity. For assembly, agree on the dimensions, closure fit and inspection records required for your order. Structures and stock formats across the range sit on the [boxes collection](https://elapack.com/products/?category=Boxes) and the [custom gift boxes](https://elapack.com/custom-gift-boxes/) page.\n\n## What should a rigid box enquiry include?\n\nA rigid enquiry a factory can quote first time carries: the proposed structure or a drawing; the greyboard grade \u2014 or the product and weight and let the factory propose; wrap and finish choices; internal layout, cross-referenced to the insert specification; quantity against the 200-piece minimum; vector artwork; and the sample route. A digital dieline preview is provided free for approval against confirmed product dimensions, covered in the [die cutting and dielines guide](https://elapack.com/news/die-cutting-and-dielines-guide/).\n\n## The bottom line\n\nPick the grade for the weight, the structure for the opening, and let wrap and finish carry the brand. [Contact ELAPACK](https://elapack.com/contact/) with the product, structure and quantity, and the quotation will state board grade, wrap, tooling and terms that apply.\n\n## Sources\n\n- Zenpack, [Custom Rigid Box Packaging](https://www.zenpack.us/blog/custom-rigid-box-packaging/) \u2014 the greyboard-core and wrap-paper construction example cited in the three-layer section.\n- ELAPACK confirmed trade terms \u2014 the MOQ, production, sample and dieline-preview terms stated in the key-facts table."
   },
   {
     "slug": "packaging-inserts-guide",
@@ -4644,6 +4985,14 @@ Once the term is fixed, whether the order travels in one delivery or several is 
 
 > **Quick answer:** compare insert designs against product dimensions, weight, fragility and removal. Ask suppliers to specify the material and cavity construction, quote comparable alternatives and provide a loaded sample. Space, cost and protection depend on the complete design; no fixed saving applies across orders.
 
+## Key takeaways
+
+- Separate the structural fitment from any printed insert card: they may share the box interior, but they are specified, drawn and quoted as two line items.
+- Shortlist insert materials by the product \u2014 dimensions, weight, fragility, surface sensitivity and how the piece is lifted out \u2014 not by material name alone.
+- Judge every proposal on a loaded sample of the actual product; a material name does not establish load capacity, cost or transit protection.
+- Specify any insert card with the fitment, sized to slot into the final cavity, not after it.
+- ELAPACK terms for the order itself: MOQ 200 pieces, production typically 15\u201320 days after sample approval and payment; confirm the proposed material, grade and cavity design in the quotation.
+
 ## Key facts at a glance
 
 | Item | Figure | Source |
@@ -4659,9 +5008,11 @@ Separate structural fitments that support the product from printed cards that ca
 
 **Coordinate the fitment, any card and the usable box interior; record separate component references where needed.**
 
-## The material systems side by side
+## Which insert material systems should a buyer compare?
 
 [Wynalda\u2019s insert guide](https://www.wynalda.com/2026/02/17/custom-packaging-inserts-types-and-examples/) describes paperboard, corrugated, moulded-pulp, thermoformed and foam examples. [Custom Box Makers](https://www.customboxmakers.com/custom-box-inserts/) also lists paperboard, corrugated, EVA and PU foam among its options. These are supplier-published examples, not an exhaustive standard or ELAPACK production list. Confirm the actual material, grade and construction proposed for your order.
+
+![Four insert systems compared against one cavity drawing, chosen by product weight, fragility and how the piece is lifted out](/charts/insert-systems-compared.svg)
 
 | Candidate system | Construction to identify | Sample or quote question |
 |---|---|---|
@@ -4676,43 +5027,49 @@ Separate structural fitments that support the product from printed cards that ca
 
 **Shortlist by the product and packing requirements, then review the proposed sample.**
 
-## The rule that decides: weight, fragility, lift
+## What decides the insert: weight, fragility or lift?
 
-Choose an insert using product dimensions, weight, fragility, surface sensitivity and how the item is removed. Material names alone do not establish load capacity, cost or transit protection. Compare proposed designs using the same product and review a loaded sample through the [sample process](https://elapack.com/news/custom-packaging-samples-guide/). A pillow for a watch, platform for lashes or layered-board cavity are possible design briefs, not verified specifications of the linked catalogue products. Confirm the actual insert separately for a [watch box](https://elapack.com/products/custom-watch-boxes/), [eyelash box](https://elapack.com/products/custom-eyelash-packaging-boxes/) or [magnetic box](https://elapack.com/products/magnetic-closure-gift-box/). The [custom watch boxes guide](https://elapack.com/news/custom-watch-boxes-guide/) covers structures and personalisation in detail.
+Choose an insert using product dimensions, weight, fragility, surface sensitivity and how the item is removed. Material names alone do not establish load capacity, cost or transit protection. For a worked case where weight and fragility drive the choice \u2014 glass perfume bottles in transit \u2014 see [how to package perfume for shipping](https://elapack.com/news/how-to-package-perfume-for-shipping/). Compare proposed designs using the same product and review a loaded sample through the [sample process](https://elapack.com/news/custom-packaging-samples-guide/). A pillow for a watch, platform for lashes or layered-board cavity are possible design briefs, not verified specifications of the linked catalogue products. Confirm the actual insert separately for a [watch box](https://elapack.com/products/custom-watch-boxes/), [eyelash box](https://elapack.com/products/custom-eyelash-packaging-boxes/) or [magnetic box](https://elapack.com/products/magnetic-closure-gift-box/). The [custom watch boxes guide](https://elapack.com/news/custom-watch-boxes-guide/) covers structures and personalisation in detail.
 
 **Review dimensions, weight, surface sensitivity, movement and removal together on the loaded sample.**
 
-## Insert cards: the quiet second intent
+## Why do insert cards need their own specification?
 
 "Packaging insert cards" names its own line item: care cards, warranty cards, gift messages. They are specified like any printed component \u2014 board weight, size against the fitment's slot, artwork, Pantones \u2014 and they fail in one predictable way: ordered at a size that does not slot into the final fitment. Specify the card with the fitment, not after it. For colour approvals across card and fitment, record each component's reference, viewing conditions and approved sample as described in the [colour review guide](https://elapack.com/news/packaging-colour-tolerance-explained/).
 
 ## Worked examples in the range
 
-The [candle boxes guide](https://elapack.com/news/custom-candle-boxes-guide/) covers vessel fit and insert questions. Related multi-component presentations sit in the [sets collection](https://elapack.com/products/?category=Sets%20%26%20Complete%20Packaging); the [tissue guide](https://elapack.com/news/custom-tissue-paper-guide/) covers the separate wrapping component. Confirm availability and fit for the selected project.
+The [candle boxes guide](https://elapack.com/news/custom-candle-boxes-guide/) covers vessel fit and insert questions. To order the finished format, see [candle boxes with inserts](https://elapack.com/custom-candle-boxes/). Related multi-component presentations sit in the [sets collection](https://elapack.com/products/?category=Sets%20%26%20Complete%20Packaging); the [tissue guide](https://elapack.com/news/custom-tissue-paper-guide/) covers the separate wrapping component. For complete coordinated looks that pair these components into one set, see the [jewelry packaging ideas guide](https://elapack.com/news/jewelry-packaging-ideas/). Confirm availability and fit for the selected project.
 
-## What to put in your enquiry
+## What should an insert enquiry include?
 
 An insert enquiry a factory can quote first time carries: the product's dimensions and weight; fragility notes (glass, plating, scratch-sensitive faces); the box it goes into; the lift requirement \u2014 how the piece is removed and by whom; the material system or a request for proposals across two; card slot requirements if insert cards ride along; and quantity against the 200-piece minimum. Sculpted foam cavities are cut to the confirmed product drawing, so product drawings come before insert quotations.
 
 ## The bottom line
 
-Compare the proposed paper, foam or layered-board construction on the same product and requirements, and specify any card with the cavity. [Contact ELAPACK](https://elapack.com/contact/) with the product drawing, weight and box format, and the quotation will state the insert system, cavity layout and terms that apply.`
+Compare the proposed paper, foam or layered-board construction on the same product and requirements, and specify any card with the cavity. [Contact ELAPACK](https://elapack.com/contact/) with the product drawing, weight and box format, and the quotation will state the insert system, cavity layout and terms that apply.
+
+## Sources
+
+- Wynalda, [Custom Packaging Inserts: Types and Examples](https://www.wynalda.com/2026/02/17/custom-packaging-inserts-types-and-examples/) \u2014 the paperboard, corrugated, moulded-pulp, thermoformed and foam examples cited in the material systems section.
+- Custom Box Makers, [Custom Box Inserts](https://www.customboxmakers.com/custom-box-inserts/) \u2014 the paperboard, corrugated, EVA and PU foam options cited alongside.
+- ELAPACK confirmed trade terms \u2014 the MOQ and production terms stated in the key facts table.`
   },
   {
     "slug": "custom-tissue-paper-guide",
     "datePublished": "2026-10-10",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-21",
     "title": "Custom Tissue Paper: Weights, Printing and Specification Data",
     "category": "Sourcing Guide",
     "date": "October 2026",
     "readTime": "4 min read",
-    "image": "/images/covers/custom-tissue-paper-guide-reviewed.png",
-    "imageAlt": "Illustrative buyer checklist: Specify the paper and print. Confirm project specifications; not a product photograph.",
-    "imageWidth": 2400,
-    "imageHeight": 1350,
+    "image": "/images/covers/custom-tissue-paper-guide-v2.jpg",
+    "imageAlt": "Printed blush damask tissue paper folded inside an open white rigid box and sealed with a blank round sticker, with a flat printed sheet beside it on a stone surface \u2014 presentation image, not a product photograph",
+    "imageWidth": 1920,
+    "imageHeight": 1280,
     "excerpt": "Specify tissue purpose, paper, sheet fit and artwork together; distinguish external catalogue examples from the project specification.",
     "metaDescription": "Plan custom tissue paper by purpose, proposed GSM, print process, sheet fit and product contact. Compare the actual paper sample and quotation.",
-    "body": "*This guide separates paper selection, printing and component fit. External catalogue examples are attributed to their supplier; they are not ELAPACK stock specifications or printing guarantees.*\n\n> **Quick answer:** specify the tissue's purpose, sheet size, proposed paper and artwork together. GSM measures weight per area; it does not by itself determine print capability, protection, colourfastness or price.\n\n## Key takeaways\n\n- Specify the tissue's job first \u2014 presentation wrap, liner or inner packing \u2014 because each job needs different checks.\n- GSM is weight per area only; it does not by itself determine print capability, protection, colourfastness or price.\n- Confirm printing with the actual artwork and a physical sample; a digital image cannot establish ink transfer or paper feel.\n- Fit the folded sheet to the complete presentation \u2014 product, insert and box interior together \u2014 before approving.\n- Tissue is a separate set component: each component has a 200-piece minimum, and production runs 15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces after sample approval and payment.\n\n## Define the job before selecting paper\n\nTissue may be proposed as a presentation wrap, a liner or part of an inner packing arrangement. Those jobs need different checks. For presentation, review translucency, fold appearance and logo legibility. For contact with the product, review transfer, abrasion and compatibility on the actual materials. If protection is needed, test the complete pack rather than assuming tissue is a protective insert.\n\nThe [rigid boxes guide](https://elapack.com/news/custom-rigid-boxes-guide/) covers the outer construction; the [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide/) covers retention. Tissue should complement those components rather than substitute for them.\n\n## What does tissue paper weight (GSM) actually tell you?\n\nAn external example is [TissueMotif](https://tissuemotif.com/), whose catalogue lists 17 GSM and 28 GSM tissue. Its current homepage presents single-logo-colour options for both weights. These are that supplier's offerings, not an industry rule that one weight permits one colour and another automatically permits full colour.\n\n| Decision | What to request | Sample check |\n|---|---|---|\n| Paper | Proposed GSM, finish, colour and composition | Feel, translucency and fold appearance |\n| Print | Available process, colour count and repeat layout | Fine detail, contrast and placement |\n| Contact | Product surfaces and intended storage | Transfer and visible marking |\n| Sheet fit | Product, box interior and folding sequence | Coverage without unwanted bulk |\n| Packing | Sheet count and packing sequence | Repeatable assembly with the other components |\n\nDo not infer a fixed application or quality tier from GSM alone. Two papers with the same GSM can differ in composition, finish and printing behaviour. Ask for actual paper references and a proposed alternative if the first sample does not meet the brief.\n\n![Tissue paper specification checklist: paper, print, contact, sheet fit and packing fields to confirm in the quotation and on the sample](/charts/tissue-paper-specification-checklist.svg)\n\n## How should printing be confirmed with the actual artwork?\n\nProvide the logo, colour reference, repeat spacing and areas that must remain unprinted. Ask which processes and colour counts are available on the proposed paper. Review a proof for layout and an appropriate physical sample for print and contact behaviour. A digital image cannot establish ink transfer resistance or paper feel.\n\nPrinting cost should be quoted for the same paper, sheet size, artwork and quantity. Neither full colour nor one colour has a universal cost relationship independent of the production method and setup.\n\n## Fit the sheet to the complete presentation\n\nMeasure the intended box interior and the product with its insert. Fold a sample sheet around the actual contents and check opening access, logo position, closure and packing time. Avoid excess material that makes the box difficult to close. Tissue quantity is a separate component field in a set quotation.\n\nFor a [magnetic gift box](https://elapack.com/products/magnetic-closure-gift-box/) or [ring box](https://elapack.com/products/custom-ring-boxes/), confirm the whole packing sequence rather than assuming one sheet size works across both. The [sets collection](https://elapack.com/products/?category=Sets%20%26%20Complete%20Packaging) provides the related multi-component context; confirm tissue availability and specification for the selected project.\n\n## What should a tissue paper enquiry include?\n\nSend the purpose, product-contact surfaces, box dimensions, proposed fold, artwork, sheet quantity and delivery destination. Request the proposed paper and print specification, sample scope, component price and acceptance checks in writing.\n\nELAPACK's MOQ is 200 pieces. Confirm size, colour and artwork allocation in the quotation; this does not mean every variant can be split freely. For a complete set, each component has a 200-piece minimum. Custom samples are USD 30 plus USD 25 shipping, with a 3\u20135 day sample-making timeframe. Stock samples are free with USD 25 shipping and a stated delivery timeframe of 4\u20137 days. Production is typically 15\u201320 days after sample approval and payment receipt; confirm by order.\n\n[Contact ELAPACK](https://elapack.com/contact/) with the box and tissue brief. Tissue can be ordered on its own or as part of a set \u2014 see [custom tissue paper](https://elapack.com/products/custom-tissue-paper/) for paper weights, sheet sizes, printing options and ordering terms.\n\n## Sources\n\n- [TissueMotif](https://tissuemotif.com/) \u2014 catalogue examples of 17 GSM and 28 GSM tissue and single-logo-colour options, as published by that supplier.\n- ELAPACK confirmed trade terms \u2014 the MOQ, sample and production terms stated in this guide."
+    "body": "*This guide separates paper selection, printing and component fit. External catalogue examples are attributed to their supplier; they are not ELAPACK stock specifications or printing guarantees.*\n\n> **Quick answer:** specify the tissue's purpose, sheet size, proposed paper and artwork together. GSM measures weight per area; it does not by itself determine print capability, protection, colourfastness or price.\n\n## Key takeaways\n\n- Specify the tissue's job first \u2014 presentation wrap, liner or inner packing \u2014 because each job needs different checks.\n- GSM is weight per area only; it does not by itself determine print capability, protection, colourfastness or price.\n- Confirm printing with the actual artwork and a physical sample; a digital image cannot establish ink transfer or paper feel.\n- Fit the folded sheet to the complete presentation \u2014 product, insert and box interior together \u2014 before approving.\n- Tissue is a separate set component: in a complete set, each component has a 200-piece minimum. Ordered on its own, custom-printed tissue starts at 500 sheets (stock patterns carry no minimum), and tissue production runs 10\u201315 days after sample approval and payment.\n\n## Define the job before selecting paper\n\nTissue may be proposed as a presentation wrap, a liner or part of an inner packing arrangement. Those jobs need different checks. For presentation, review translucency, fold appearance and logo legibility. For contact with the product, review transfer, abrasion and compatibility on the actual materials. If protection is needed, test the complete pack rather than assuming tissue is a protective insert.\n\nThe [rigid boxes guide](https://elapack.com/news/custom-rigid-boxes-guide/) covers the outer construction; the [packaging inserts guide](https://elapack.com/news/packaging-inserts-guide/) covers retention. Tissue should complement those components rather than substitute for them.\n\n![Printed blush damask tissue paper wrapped around a small item and tied with a champagne satin ribbon, with a flat printed sheet beside it \u2014 presentation image, not a product photograph](/images/news/tissue-guide-presentation-wrap.jpg)\n\n## What does tissue paper weight (GSM) actually tell you?\n\nAn external example is [TissueMotif](https://tissuemotif.com/), whose catalogue lists 17 GSM and 28 GSM tissue. Its current homepage presents single-logo-colour options for both weights. These are that supplier's offerings, not an industry rule that one weight permits one colour and another automatically permits full colour.\n\n| Decision | What to request | Sample check |\n|---|---|---|\n| Paper | Proposed GSM, finish, colour and composition | Feel, translucency and fold appearance |\n| Print | Available process, colour count and repeat layout | Fine detail, contrast and placement |\n| Contact | Product surfaces and intended storage | Transfer and visible marking |\n| Sheet fit | Product, box interior and folding sequence | Coverage without unwanted bulk |\n| Packing | Sheet count and packing sequence | Repeatable assembly with the other components |\n\nDo not infer a fixed application or quality tier from GSM alone. Two papers with the same GSM can differ in composition, finish and printing behaviour. Ask for actual paper references and a proposed alternative if the first sample does not meet the brief.\n\n![Two stacks of the same printed tissue paper side by side \u2014 a thinner, more translucent stack with one corner lifted and a thicker, crisper stack \u2014 presentation image, not a product photograph](/images/news/tissue-guide-gsm-stacks.jpg)\n\n![Tissue paper specification checklist: paper, print, contact, sheet fit and packing fields to confirm in the quotation and on the sample](/charts/tissue-paper-specification-checklist.svg)\n\n## How should printing be confirmed with the actual artwork?\n\nProvide the logo, colour reference, repeat spacing and areas that must remain unprinted. Ask which processes and colour counts are available on the proposed paper. Review a proof for layout and an appropriate physical sample for print and contact behaviour. A digital image cannot establish ink transfer resistance or paper feel.\n\nPrinting cost should be quoted for the same paper, sheet size, artwork and quantity. Neither full colour nor one colour has a universal cost relationship independent of the production method and setup.\n\n![Macro view of printed tissue paper showing damask pattern detail, with the pattern showing through where the sheet overlaps \u2014 presentation image, not a product photograph](/images/news/tissue-guide-print-macro.jpg)\n\n## Fit the sheet to the complete presentation\n\nMeasure the intended box interior and the product with its insert. Fold a sample sheet around the actual contents and check opening access, logo position, closure and packing time. Avoid excess material that makes the box difficult to close. Tissue quantity is a separate component field in a set quotation.\n\n![Printed tissue paper being folded as a liner inside an open white rigid box, with a small pink velvet ring box resting on the folded sheet \u2014 presentation image, not a product photograph](/images/news/tissue-guide-sheet-fit.jpg)\n\nFor a [magnetic gift box](https://elapack.com/products/magnetic-closure-gift-box/) or [ring box](https://elapack.com/products/custom-ring-boxes/), confirm the whole packing sequence rather than assuming one sheet size works across both. The [sets collection](https://elapack.com/products/?category=Sets%20%26%20Complete%20Packaging) provides the related multi-component context; confirm tissue availability and specification for the selected project.\n\n## What should a tissue paper enquiry include?\n\nSend the purpose, product-contact surfaces, box dimensions, proposed fold, artwork, sheet quantity and delivery destination. Request the proposed paper and print specification, sample scope, component price and acceptance checks in writing.\n\nFor custom-printed tissue ordered on its own, the MOQ is 500 sheets; stock patterns carry no minimum. Confirm size, colour and artwork allocation in the quotation; this does not mean every variant can be split freely. When tissue is part of a complete set, it follows the set rule \u2014 each component has a 200-piece minimum. Custom samples are USD 30 plus USD 25 shipping, with a 3\u20135 day sample-making timeframe. Stock samples are free with USD 25 shipping and a stated delivery timeframe of 4\u20137 days. Tissue production is typically 10\u201315 days after sample approval and payment receipt; confirm by order.\n\n[Contact ELAPACK](https://elapack.com/contact/) with the box and tissue brief. Tissue can be ordered on its own or as part of a set \u2014 see [custom tissue paper](https://elapack.com/products/custom-tissue-paper/) for paper weights, sheet sizes, printing options and ordering terms.\n\n## Sources\n\n- [TissueMotif](https://tissuemotif.com/) \u2014 catalogue examples of 17 GSM and 28 GSM tissue and single-logo-colour options, as published by that supplier.\n- ELAPACK confirmed trade terms \u2014 the MOQ, sample and production terms stated in this guide."
   },
   {
     "slug": "custom-jewelry-packaging-guide",
@@ -4785,7 +5142,7 @@ Check restraint, surface contact and removal with the actual jewellery in the pr
 
 ### 3. The pouch
 
-The soft layer that travels with the piece: velvet, satin, muslin, cotton, microfiber \u2014 compared in the [jewellery pouch guide](https://elapack.com/news/how-to-choose-a-custom-jewelry-pouch/) and the [material comparison](https://elapack.com/news/velvet-satin-muslin-pouches-compared/). The logo method on it has its own guide in [logo on custom pouches](https://elapack.com/news/custom-logo-pouches-guide/).
+The soft layer that travels with the piece: velvet, satin, muslin, cotton, microfiber \u2014 compared in the [jewellery pouch guide](https://elapack.com/news/how-to-choose-a-custom-jewelry-pouch/) and the [material comparison](https://elapack.com/news/velvet-satin-muslin-pouches-compared/). The orderable pouch range is collected under [velvet and satin jewelry pouches](https://elapack.com/custom-jewelry-pouches/). The logo method on it has its own guide in [logo on custom pouches](https://elapack.com/news/custom-logo-pouches-guide/).
 
 If the pouch is intended for repeated use, agree checks for seams, closure, surface contact and logo appearance. Compare fabric and branding options with the same size, quantity and requirements; no fabric is assumed to be the cheapest upgrade or to last a stated number of uses.
 
@@ -4836,19 +5193,151 @@ Plan the product fit and component interfaces together, quote each component cle
   },
   {
     "slug": "velvet-satin-muslin-pouches-compared",
-    "dateModified": "2026-10-27",
+    "dateModified": "2026-11-21",
     "datePublished": "2026-10-09",
-    "title": "Velvet vs Satin vs Muslin Pouches: Which Material Fits Your Jewellery Brand?",
+    "title": "Velvet vs Microfiber vs Cotton vs Satin Pouches: Which Fabric Fits Your Brand?",
     "category": "Sourcing Guide",
     "date": "October 2026",
     "readTime": "6 min read",
-    "image": "/images/covers/velvet-satin-muslin-pouches-compared-reviewed.png",
-    "imageAlt": "Illustrative buyer checklist: compare pouch samples \u2014 not a product photograph.",
+    "image": "/images/covers/velvet-satin-muslin-pouches-compared-v2.jpg",
+    "imageAlt": "Four drawstring pouches in burgundy velvet, champagne satin, charcoal microfiber and natural cotton grouped with a round gift box on a linen-covered table \u2014 presentation image, not a product photograph.",
     "imageWidth": 2400,
     "imageHeight": 1350,
-    "excerpt": "Compare velvet, satin and muslin pouches by product fit, finish, logo method and the details needed for like-for-like quotes.",
-    "metaDescription": "Compare velvet, satin and muslin jewelry pouches by feel, closure, branding and product fit. Prepare fabric and size details for a quote.",
-    "body": "*Material descriptions are industry references as published by packaging suppliers and textile encyclopaedias (sources named inline). Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample at USD 30 plus USD 25 shipping \u2014 are ELAPACK's confirmed trade terms. Fibre compositions, weights and finishing are supplier-specific; this page does not establish ELAPACK stock weight ranges. Confirm the selected fabric reference in the quotation and sample.*\n\n> **Quick answer:** compare the actual velvet, satin and muslin samples for surface feel, drape, product contact, closure and logo appearance. Request composition, construction and fabric weight where relevant. Compare quotations with the same dimensions, lining, decoration and quantity; the material name alone does not establish cost or protection.\n\n## Key facts at a glance\n\n| Item | Figure | Source |\n|---|---|---|\n| Minimum order | 200 pieces | ELAPACK confirmed terms |\n| Production lead time | typically 15\u201320 days after sample approval and payment receipt; confirm by order | ELAPACK confirmed terms |\n| Custom sample | USD 30 plus USD 25 shipping, built in 3\u20135 days | ELAPACK confirmed terms |\n\n## Compare fabrics for the actual product\n\n![Illustrative buyer checklist: compare pouch samples](/charts/pouch-material-handfeel-reviewed-20261022.svg)\n\nUse the comparison to shortlist samples for the actual product and handling routine. Record which differences matter: surface feel, drape, seams, closure, logo appearance and any required care procedure. Search wording alone does not establish which fabric is suitable.\n\n**Choose by the product's weight and the laundering it must survive \u2014 the material follows, not the other way round.**\n## What the three names actually specify \u2014 and what they don't\n\nA fabric name alone is not a complete specification. Request the actual fibre composition, construction, finish and fabric reference for each proposal. Compare those fields and the physical sample rather than assuming that the name establishes stock, care behaviour or a shared manufacturing process.\n\n**Treat velvet, satin and muslin as starting positions \u2014 approve the fabric reference, not the word.**\n\n## Velvet: pile, surface contact and logo review\n\n[CottonWorks describes velvet as a warp-pile fabric](https://cottonworks.com/encyclopedia-item/velvet/). That construction is useful context for reviewing surface feel, but it does not establish a finished pouch\u2019s cushioning, abrasion resistance or logo detail. Compare the selected fabric and backing with the actual product, then review the proposed print, label or other decoration on a sample. The [velvet pouch page](https://elapack.com/products/custom-velvet-pouches/) is a related catalogue route; confirm the selected construction and availability.\n\n**Review the pile, backing, seams and proposed decoration together; confirm product contact on a sample.**\n\n## Satin: sheen, construction and sample checks\n\nSatin offers a smooth, reflective face. [CottonWorks identifies satin as a weave structure](https://cottonworks.com/learning-hub/weaving/basic-woven-fabric-designs/), so the name alone does not establish fibre composition, weight or care instructions. Compare the actual fabric and seam construction, logo sample and quoted price rather than applying a fixed saving against velvet. ELAPACK's range includes a [satin pouch](https://elapack.com/products/custom-satin-pouches/).\n\n**Compare the selected satin fabric, seams and decoration under the intended handling conditions; quote its complete construction rather than assuming a saving against velvet.**\n\n## Muslin: the natural-cotton workhorse\n\nFor a muslin proposal, confirm fibre composition, weave, weight, finish and the proposed logo method. Review surface contact, seams, closure and the decorated sample with the actual product. Neither a lowest-cost position nor scratch or impact protection is established by the name alone. See the [muslin guide](https://elapack.com/news/custom-muslin-bags-guide/) for the related specification questions.\n\n**Confirm the selected muslin construction, logo sample and intended care routine before approval.**\n\n## The three-way comparison\n\n| Comparison field | Velvet proposal | Satin proposal | Muslin proposal |\n|---|---|---|---|\n| Construction | Identify pile, backing and lining | Identify weave, fibre and lining | Identify weave, fibre and finish |\n| Product contact | Check pile, seams and closure against the item | Check face, seams and closure against the item | Check surface, seams and closure against the item |\n| Logo | Review the proposed decorated sample | Review the proposed decorated sample | Review the proposed decorated sample |\n| Care | Obtain instructions for the finished pouch | Obtain instructions for the finished pouch | Obtain instructions for the finished pouch |\n| Cost | Compare on the same dimensions, decoration and quantity | Compare on the same dimensions, decoration and quantity | Compare on the same dimensions, decoration and quantity |\n\n*This table organises sample and quotation checks. It is not a ranking of protection, durability or price.*\n\n## Considering microfiber alongside velvet?\n\nIf your shortlist includes both microfiber and velvet, ask for identified fabric references rather than choosing from the names alone. The [custom microfiber pouch](https://elapack.com/products/custom-microfiber-pouches/) and [custom velvet pouch](https://elapack.com/products/custom-velvet-pouches/) pages are starting points for a proposal; the actual construction, finish and availability still need confirmation.\n\nUse the same jewelry item, artwork size and intended closure when reviewing both proposals. First check insertion and removal: note where seams, cords and the fabric surface contact the piece. Close the pouch with the item inside and check the opening and remaining usable space. Record observations against the fabric reference and sample version, so a later quotation refers to the option you actually reviewed.\n\nThen compare the proposed logo on the selected fabric. Ask to see the intended lettering size and position, and assess legibility and edge appearance on the decorated sample. A successful result on a different fabric or a larger logo is not approval for this version. If cleaning or repeated reuse is part of your project, request care instructions and agree an appropriate review procedure before making durability claims.\n\nKeep the quotation comparison aligned: finished dimensions, lining, closure, artwork, decoration and quantity should be explicit for each option. A difference in price is not evidence that the material alone caused it. Neither fabric name establishes anti-tarnish performance, scratch protection or shipping suitability; those requirements need evidence applicable to the proposed construction and use.\n\n[Ask ELAPACK to compare the proposed pouch options](https://elapack.com/contact/). Include the item dimensions, fabric references if available, logo artwork, quantity and destination. Orders start at MOQ 200 pieces; confirm any split across versions in the written quotation. If a matching box is required, identify it separately rather than assuming that a pouch quotation includes the complete set.\n\n## Compare samples, not names\n\nReview the same jewellery, handling routine and artwork size across material samples. Record where cords, seams and closures contact the piece and check the loaded pouch with the intended box and insert. Approve a [complete set](https://elapack.com/products/?category=Sets%20%26%20Complete%20Packaging) as an assembly. The [cotton pouch](https://elapack.com/products/custom-cotton-pouches/) and [microfiber pouch](https://elapack.com/products/custom-microfiber-pouches/) are related product routes; confirm their actual construction separately.\n\n## What to put in your enquiry\n\nFor each material under consideration: the fabric reference and fibre composition; the weight or construction unit the supplier quotes (gsm for muslin and cotton, pile description for velvet, weave for satin); usable internal dimensions with the closure drawn \u2014 the sizing question is real \u2014 drawstring bag dimensions deserve their own line in the brief; the logo method and its artwork requirements; quantity against the 200-piece minimum; and the sample route (custom sample USD 30 plus USD 25 shipping, 3\u20135 days). Browse the full [pouches and bags collection](https://elapack.com/products/?category=Pouches%20%26%20Bags) or the [jewellery pouch line](https://elapack.com/custom-jewelry-pouches/) to anchor the styles before you brief.\n\n## The bottom line\n\nShortlist the fabric by the product, handling and presentation requirements, then compare the chosen samples and like-for-like quotations. [Contact ELAPACK](https://elapack.com/contact/) with the fabric references, dimensions, artwork and quantity to confirm the proposed construction for your [jewellery packaging](https://elapack.com/custom-jewelry-packaging/) programme."
+    "excerpt": "Compare velvet, microfiber, cotton and satin pouches by construction, product fit and logo checks \u2014 and prepare the details a like-for-like quote needs.",
+    "metaDescription": "Compare velvet, microfiber, cotton and satin pouches by construction, product contact, logo and colour checks. Shortlist samples for a like-for-like quote.",
+    "body": `*Material descriptions are industry references as published by packaging suppliers and textile encyclopaedias (sources named inline). Order terms \u2014 MOQ 200 pieces, 15\u201320 day production, custom sample at USD 30 plus USD 25 shipping \u2014 are ELAPACK's confirmed trade terms. Fibre compositions, weights and finishing are supplier-specific; this page does not establish ELAPACK stock weight ranges. Confirm the selected fabric reference in the quotation and sample.*
+
+> **Quick answer:** compare the actual velvet, microfiber, cotton and satin samples for surface feel, drape, product contact, closure and logo appearance. Request composition, construction and fabric weight where relevant. Compare quotations with the same dimensions, lining, decoration and quantity; the material name alone does not establish cost or protection.
+
+## Key takeaways
+
+- A fabric name is a starting position, not a specification. Approve the fabric reference \u2014 composition, construction, weight and finish \u2014 on a physical sample.
+- Velvet, microfiber, cotton (including muslin) and satin are built differently, and none of the four names by itself establishes price, protection or durability.
+- Shortlist by the product and its handling routine, then compare quotations on identical dimensions, lining, decoration and quantity.
+- At ELAPACK, pouches and fabric bags start at MOQ 200 pieces; a custom sample is USD 30 plus USD 25 shipping, built in 3\u20135 days, and production runs 15\u201320 days after sample approval and payment.
+
+## Key facts at a glance
+
+| Item | Figure | Source |
+|---|---|---|
+| Minimum order | 200 pieces | ELAPACK confirmed terms |
+| Production lead time | 15\u201320 days after sample approval and payment receipt; confirm by order | ELAPACK confirmed terms |
+| Custom sample | USD 30 plus USD 25 shipping, built in 3\u20135 days | ELAPACK confirmed terms |
+| Digital dieline preview | Free for structure approval | ELAPACK confirmed terms |
+| Artwork files | AI, PDF or PNG | ELAPACK confirmed terms |
+| Colour approval | \u0394E \u2264 1.5 against the approved sample; grey scale grade 4 | ELAPACK confirmed terms |
+
+## Compare fabrics for the actual product
+
+![Illustrative buyer checklist: compare pouch samples](/charts/pouch-material-handfeel-reviewed-20261022.svg)
+
+Use the comparison to shortlist samples for the actual product and handling routine. Record which differences matter: surface feel, drape, seams, closure, logo appearance and any required care procedure. Search wording alone does not establish which fabric is suitable.
+
+**Choose by the product's weight and the laundering it must survive \u2014 the material follows, not the other way round.**
+
+## What the four names actually specify \u2014 and what they don't
+
+A fabric name alone is not a complete specification. Velvet names a pile construction, satin names a weave, microfiber names a fibre diameter and cotton names a fibre \u2014 four different kinds of word, none of which fixes composition, weight, finish or care behaviour. Request the actual fibre composition, construction, finish and fabric reference for each proposal. Compare those fields and the physical sample rather than assuming that the name establishes stock, care behaviour or a shared manufacturing process.
+
+**Treat velvet, microfiber, cotton and satin as starting positions \u2014 approve the fabric reference, not the word.**
+
+## Velvet: pile, surface contact and logo review
+
+![Burgundy velvet drawstring pouch with champagne ribbon ties beside a round gift box lid on travertine \u2014 presentation image, not a product photograph.](/images/news/fabric-comparison-velvet.jpg)
+
+[CottonWorks describes velvet as a warp-pile fabric](https://cottonworks.com/encyclopedia-item/velvet/). That construction is useful context for reviewing surface feel, but it does not establish a finished pouch's cushioning, abrasion resistance or logo detail. Compare the selected fabric and backing with the actual product, then review the proposed print, label or other decoration on a sample. Very fine artwork can be hard to judge on a pile surface, so review the intended lettering size and position on the decorated sample before approving. The [velvet pouch page](https://elapack.com/products/custom-velvet-pouches/) is a related catalogue route; confirm the selected construction and availability.
+
+**Review the pile, backing, seams and proposed decoration together; confirm product contact on a sample.**
+
+## Microfiber: fibre, surface contact and logo review
+
+![Microfiber suede drawstring pouches in caramel and blush with ELAPACK print, styled in a jewellery display tray with gold hoop earrings](/images/news/fabric-comparison-microfiber.jpg)
+
+Microfiber names fibres produced or split at a very fine diameter, woven or knitted into a soft-faced fabric. The name covers a wide range of weights, backings and finishes, so it does not by itself establish how the surface behaves against lenses, screens or polished items. Request the fabric reference and weight, then check insertion, removal and surface contact with the actual product on a sample. Review the proposed print or other decoration on the selected fabric: a result achieved on a different microfiber is not approval for this one. The [custom microfiber pouch](https://elapack.com/products/custom-microfiber-pouches/) page is the catalogue route; for eyewear formats, closures and print choices, see the [sunglasses pouches guide](https://elapack.com/news/custom-sunglasses-pouches-guide/).
+
+**Approve the microfiber by reference and sample \u2014 check surface contact and the decorated logo, not the name.**
+
+## Cotton and muslin: weave, weight and finish checks
+
+![Two natural cotton drawstring pouches with ELAPACK print on a round display board against marble with eucalyptus](/images/news/fabric-comparison-cotton.jpg)
+
+Cotton names a fibre, not a finished fabric. Muslin is a lightweight plain-weave cotton and the most common starting point for cotton pouches; heavier cotton weaves, up to canvas weights, sit in the same family with different drape, surface and quotation basis. For any cotton proposal, confirm fibre composition, weave, weight in gsm, finish and the proposed logo method, and review surface contact, seams and closure with the actual product. Natural-fibre fabrics can vary in colour and texture between batches, so approve the colour on a sample of the selected fabric and agree the tolerance in the quotation. For handbags and shoes, where the storage routine drives the brief, the [dust bags guide](https://elapack.com/news/custom-dust-bags-guide/) covers fabrics, sizes and ordering data. The [cotton pouch page](https://elapack.com/products/custom-cotton-pouches/) is the catalogue route, and the [muslin guide](https://elapack.com/news/custom-muslin-bags-guide/) covers muslin weights, sizes and sourcing data in depth.
+
+**Specify the cotton by weave and weight \u2014 "cotton" alone covers muslin through canvas.**
+
+## Satin: sheen, construction and sample checks
+
+![Six satin drawstring dust bags in purple, mauve, blush, grey and white with ELAPACK print on a warm beige backdrop](/images/news/fabric-comparison-satin.jpg)
+
+Satin offers a smooth, reflective face. [CottonWorks identifies satin as a weave structure](https://cottonworks.com/learning-hub/weaving/basic-woven-fabric-designs/), so the name alone does not establish fibre composition, weight or care instructions. Compare the actual fabric and seam construction, logo sample and quoted price rather than applying a fixed saving against velvet. Because the face is smooth, request a test print on the selected fabric before approving the decoration. ELAPACK's range includes a [satin pouch](https://elapack.com/products/custom-satin-pouches/).
+
+**Compare the selected satin fabric, seams and decoration under the intended handling conditions; quote its complete construction rather than assuming a saving against velvet.**
+
+## How do the four fabrics compare side by side?
+
+![Macro textures of the four pouch fabrics: velvet pile, microfiber, cotton plain weave and satin \u2014 presentation image, not a product photograph.](/images/news/fabric-comparison-texture-grid.jpg)
+
+| Comparison field | Velvet proposal | Microfiber proposal | Cotton proposal (incl. muslin) | Satin proposal |
+|---|---|---|---|---|
+| Construction | Identify pile, backing and lining | Identify fibre, weave or knit, weight and backing | Identify weave (muslin to canvas), weight in gsm and finish | Identify weave, fibre and lining |
+| Product contact | Check pile, seams and closure against the item | Check face, seams and closure against the item | Check surface, seams and closure against the item | Check face, seams and closure against the item |
+| Logo | Review the proposed decorated sample | Review the proposed decorated sample | Review the proposed decorated sample | Review the proposed decorated sample |
+| Colour | Approve on the selected pile and backing | Approve on the selected fabric reference | Expect batch variation; agree the tolerance in the quotation | Approve on the selected weave; request a test print |
+| Care | Obtain instructions for the finished pouch | Obtain instructions for the finished pouch | Obtain instructions for the finished pouch | Obtain instructions for the finished pouch |
+| Cost | Compare on the same dimensions, decoration and quantity | Compare on the same dimensions, decoration and quantity | Compare on the same dimensions, decoration and quantity | Compare on the same dimensions, decoration and quantity |
+
+*This table organises sample and quotation checks. It is not a ranking of protection, durability or price.*
+
+## Which fabric fits which product?
+
+**Jewellery.** Velvet and microfiber are the common shortlist, with satin used where a lighter gift presentation is wanted. Compare the loaded samples with the actual piece inside: check where seams, cords and the fabric surface contact it, and review the decorated logo at its intended size.
+
+**Eyewear.** Microfiber is the usual starting point where the fabric contacts lenses. Check the selected fabric's surface against your own lenses on a sample, and use the [sunglasses pouches guide](https://elapack.com/news/custom-sunglasses-pouches-guide/) for formats, closures and print choices.
+
+**Fragrance and cosmetics sets.** Velvet and satin are commonly shortlisted for gift sets. Check surface contact with bottles, caps and any finish on the loaded sample, and confirm the pouch size against the complete set, not the bottle alone.
+
+**Handbags and shoes.** The cotton family \u2014 muslin through heavier weaves \u2014 is the traditional shortlist where the storage routine drives the brief. Confirm weave and weight for the item's size and weight, and see the [dust bags guide](https://elapack.com/news/custom-dust-bags-guide/) for sizes and ordering data.
+
+**Hair and wigs.** Satin is commonly shortlisted for its smooth face. Check the seam finish and surface against the hair product on a sample, and confirm the usable length with the closure drawn.
+
+## How do you choose by brand position?
+
+**Presentation-led and gifting.** Start with velvet, and make the decision on the pile, backing and decorated sample rather than the name.
+
+**Modern and minimal.** Microfiber in a single brand colour is the usual starting point. Approve the colour on the selected fabric reference and check the logo edges on the sample.
+
+**Natural-material positioning.** Buyers usually shortlist cotton or muslin. If your brand intends to print organic or recycled content claims on the product or listing, request the supplier's certificate documents for the selected fabric first, and print only what those documents support.
+
+**Colour-led and light luxury.** Start with satin. Confirm the colour on the selected weave under your retail lighting, and run a test print before approval.
+
+**Cost control.** No fabric name guarantees a lower unit cost. Compare like-for-like quotations across your shortlist \u2014 same dimensions, lining, decoration and quantity \u2014 and treat any difference as a difference in the complete construction, not in the material word.
+
+## Compare samples, not names
+
+Review the same product, handling routine and artwork size across material samples. Record where cords, seams and closures contact the piece and check the loaded pouch with the intended box and insert. Approve a [complete set](https://elapack.com/products/?category=Sets%20%26%20Complete%20Packaging) as an assembly. The [cotton pouch](https://elapack.com/products/custom-cotton-pouches/) and [microfiber pouch](https://elapack.com/products/custom-microfiber-pouches/) are related product routes; confirm their actual construction separately.
+
+## What should you ask before ordering?
+
+1. What is the minimum order for this fabric and size? At ELAPACK, pouches and fabric bags start at 200 pieces.
+2. Which fabric reference are you quoting \u2014 its composition, construction and weight?
+3. Can I approve a physical sample first, and how long does sampling take? A custom sample is USD 30 plus USD 25 shipping, built in 3\u20135 days.
+4. How is colour matched, and what tolerance applies? ELAPACK approves colour against the confirmed sample at \u0394E \u2264 1.5, grey scale grade 4.
+5. Which logo method do you propose for this fabric, and what artwork files do you need? ELAPACK accepts AI, PDF or PNG.
+6. What are the usable internal dimensions with the closure drawn?
+7. What is the production lead time after sample approval and payment? At ELAPACK it is 15\u201320 days, confirmed by order.
+8. If my brand needs material certification documents, can you supply them for the selected fabric?
+
+[Ask ELAPACK to compare the proposed pouch options](https://elapack.com/contact/). Include the item dimensions, fabric references if available, logo artwork in AI, PDF or PNG, quantity and destination. Orders start at MOQ 200 pieces; confirm any split across versions in the written quotation. If a matching box is required, identify it separately rather than assuming that a pouch quotation includes the complete set. Browse the full [pouches and bags collection](https://elapack.com/products/?category=Pouches%20%26%20Bags) or the [jewellery pouch line](https://elapack.com/custom-jewelry-pouches/) to anchor the styles before you brief.
+
+## The bottom line
+
+Shortlist the fabric by the product, handling and presentation requirements, then compare the chosen samples and like-for-like quotations. [Contact ELAPACK](https://elapack.com/contact/) with the fabric references, dimensions, artwork and quantity to confirm the proposed construction for your [jewellery packaging](https://elapack.com/custom-jewelry-packaging/) programme.
+
+## Sources
+
+- CottonWorks, "Velvet" (encyclopedia entry): velvet described as a warp-pile fabric. https://cottonworks.com/encyclopedia-item/velvet/
+- CottonWorks, "Basic Woven Fabric Designs" (learning hub): satin identified as a weave structure. https://cottonworks.com/learning-hub/weaving/basic-woven-fabric-designs/
+- ELAPACK confirmed trade terms \u2014 minimum order, sampling, production lead time, dieline preview, artwork formats and colour approval standard \u2014 as published on elapack.com product pages.`
   },
   {
     "slug": "custom-candle-boxes-guide",
@@ -4884,19 +5373,172 @@ Plan the product fit and component interfaces together, quote each component cle
   },
   {
     "slug": "custom-logo-pouches-guide",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-11-21",
     "datePublished": "2026-10-09",
-    "title": "Logo on Custom Pouches: Compare Print, Transfer and Sewn Labels",
+    "title": "Logo on Custom Pouches and Dust Bags: Screen Print, Foil, Heat Transfer or Embroidery?",
     "category": "Sourcing Guide",
     "date": "October 2026",
-    "readTime": "4 min read",
-    "image": "/images/covers/custom-logo-pouches-guide.webp",
-    "imageAlt": "Guide cover card: logo methods on custom pouches \u2014 screen print, heat transfer and woven labels compared on durability, fabric fit and cost structure",
-    "imageWidth": 2400,
-    "imageHeight": 1350,
-    "excerpt": "Compare logo methods for custom pouches. Review the actual fabric, print or label construction, sample evidence and artwork before approving your order.",
-    "metaDescription": "Compare logo methods for custom pouches. Review the actual fabric, print or label construction, sample evidence and artwork before approving your order.",
-    "body": "Choose the logo method after deciding which pouch fabric and construction you want to approve. A clean logo on one substrate does not establish the result on another. This guide compares the questions worth asking about direct printing, heat-applied graphics and sewn labels, without treating any method as permanently damage-proof.\n\n\n## Compare the proposed result, not a universal winner\n\nAvery Dennison presents woven labels, printed fabric labels and heat-transfer branding as different options. Its range is a useful reminder that \u201Cfabric label\u201D is not one construction and that a logo can be produced and attached in several ways. It does not establish that any option is suitable for every pouch. [Avery Dennison branding options](https://www.averydennison.com/na/en/industries/apparel/products/branding-packaging/permanent-branding)\n\nUse this table to structure sample enquiries. These are purchasing checks, not measured performance rankings.\n\n|Proposed method|Question to resolve|Sample detail worth recording|\n|---|---|---|\n|Direct screen print|Can the artwork reproduce on this fabric and color?|Small lettering, edges and appearance on the folded pouch|\n|Heat-applied graphic|Is this transfer system appropriate for the actual substrate?|Surface change, adhesion and color behavior|\n|Woven label|Does the woven interpretation preserve the necessary detail?|Legibility, label dimensions and placement|\n|Printed fabric label|Does the proposed label and attachment suit the design?|Print clarity, edge treatment and stitching position|\n\nThe cheapest option cannot be identified from this list alone. For a useful comparison, hold the pouch specification and order scope constant, then ask what changes with each logo route. A price for one logo size and one fabric should not be compared as though it covers every alternative.\n\nBrowse [custom jewelry pouches](https://elapack.com/custom-jewelry-pouches/) alongside [drawstring bags](https://elapack.com/custom-drawstring-bags/) before fixing the logo placement. If the intended product is a [cotton pouch](https://elapack.com/products/custom-cotton-pouches/), request a sample on the proposed cotton specification, not simply a sample bearing the right logo on a different material. Our recommendation is to make substrate, artwork and method one approval decision. For adjacent formats, the [custom cosmetic bags guide](https://elapack.com/news/custom-cosmetic-bags-guide/) and the [glasses cases and pouches guide](https://elapack.com/news/custom-glasses-cases-pouches-guide/) apply the same logo questions to bag-style and eyewear products.\n\n## Ask what can change on the selected fabric\n\nSTAHLS' dye-migration handbook describes a problem in decorated polyester garments: color from the fabric can migrate into the applied graphic, and the result may not be immediately apparent. The source concerns garment decoration. It is relevant as a risk to discuss for a polyester pouch, not evidence that all pouches suffer the problem or that a particular transfer system has passed testing. [STAHLS dye-migration handbook](https://assets.stahls.com/stahls/content/pdf/ebooks/Stahls-Dye-Migration-Handbook.pdf)\n\nIf a heat-applied method is proposed, ask the supplier to assess the actual substrate and color. A sample on a different fabric may help discuss the design, but it leaves material-specific questions open. We do not prescribe a temperature, dwell time or wash test here because no exact transfer system and pouch fabric have been specified.\n\nFor a sewn label, inspect the label and its attachment as separate details. Check how the label sits when the pouch is filled or closed, where the stitching appears and whether the placement matches the approved drawing. A woven logo should not be described as impossible to damage merely because its design is woven rather than printed.\n\nKeep comparisons relevant to the intended use. If the pouch will be washed, request an appropriate care specification and evidence for the proposed construction. If washing is not part of its intended use, do not invent a wash-resistance selling point. The same discipline applies to terms such as \u201Cpermanent\u201D and \u201Cfade-proof\u201D: ask what conditions and evidence support them before using them in product copy.\n\n## Approve the complete logo specification\n\n![Logo pouch approval sequence: fix fabric and construction, then match the logo method, then approve the full specification](/charts/logo-pouch-approval-sequence.svg)\n\nFor the artwork brief, identify the logo version, intended finished size and position on the pouch. Supply the editable artwork you have and ask which file format the proposed method requires. Do not assume every process has identical artwork rules, or that a small raster preview is enough to approve production detail.\n\nOur recommended approval record includes the fabric specification and color, pouch dimensions and construction, logo method, artwork revision, label or print position, and the sample reference. Record any substitute material used in an early sample so that a partial design check is not mistaken for complete approval.\n\nFor quotations, list quantities by version and identify changes in fabric, logo or dimensions. Ask how those changes affect the proposal rather than assuming that one total quantity makes all versions identical in production. If you are ordering a coordinated [jewelry packaging set](https://elapack.com/custom-jewelry-packaging/), include the other components as separate lines and clarify any assembly requested.\n\nThe final decision should be based on the sample and the agreed specification, not on a claim that one method is always the cheapest or most durable. Standard orders start at 200 pieces with a 15\u201320 day production window after sample approval and payment receipt. [Send ELAPACK your pouch reference and logo artwork](https://elapack.com/contact/) to request the applicable options and sample terms. Where evidence is still missing, leave the claim out of the product description until it has been resolved; a restrained, accurate description is more useful than a promise the order cannot substantiate.\n\nThe same file-flow baseline \u2014 vector artwork on the factory\u2019s dieline \u2014 applies to printed boxes: [what a factory actually needs](https://elapack.com/news/custom-printed-boxes-guide/)."
+    "readTime": "12 min read",
+    "image": "/images/covers/custom-logo-pouches-guide-v2.jpg",
+    "imageAlt": "Four ELAPACK drawstring pouches in cotton, microfiber suede and navy velvet with printed and gold foil logos \u2014 presentation image, not a product photograph",
+    "imageWidth": 1536,
+    "imageHeight": 1024,
+    "excerpt": "Four ways to put a logo on a fabric pouch, compared by fabric fit, detail, cost drivers and durability \u2014 plus the sample checks that decide whether the method you picked actually works on your fabric.",
+    "metaDescription": "Compare screen printing, foil stamping, heat transfer and embroidery for pouch logos on velvet, microfiber, cotton and satin \u2014 by fabric fit, cost and detail.",
+    "body": `Choose the logo method after deciding which pouch fabric and construction you want to approve. A clean logo on one substrate does not establish the result on another. This guide compares the four main ways to brand a fabric pouch or dust bag \u2014 screen printing, hot stamping with foil, heat transfer and embroidery \u2014 plus sewn labels, and sets out the sample checks that decide whether a method works on your fabric, without treating any method as permanently damage-proof.
+
+## Key takeaways
+
+- There is no universal winner: the right method follows the fabric, the artwork and the finish your brand needs, in that order.
+- Screen printing is the economical default for simple one-colour logos on cotton and microfiber; hot stamping gives velvet and satin their metallic luxury finish; heat transfer carries detailed, multi-colour artwork; embroidery is the most tactile and durable, at the highest unit cost.
+- Fine lines and small text are the first casualties of foil stamping and embroidery \u2014 simplify the artwork before blaming the method.
+- A sample on a different fabric proves the design, not the production result. Approve the complete logo specification \u2014 fabric, method, artwork revision, size, position and sample reference \u2014 as one decision.
+- ELAPACK pouch orders start at 200 pieces; a custom sample costs USD 30 plus USD 25 shipping, and the sample fee is credited against your confirmed first order.
+
+## The four methods at a glance
+
+|  | Screen printing | Hot stamping (foil) | Heat transfer | Embroidery |
+| --- | --- | --- | --- | --- |
+| Look and feel | Flat, clean, matte ink | Metallic foil, slightly pressed in | Smooth printed film on the surface | Raised, textured stitches |
+| Best for | Simple logos, one to few colours | Premium and luxury branding | Full-colour, gradients, fine detail | Premium, durable, tactile branding |
+| Best fabrics | Cotton, microfiber | Velvet, satin | Microfiber, smooth satin | Velvet, cotton, microfiber |
+| Detail level | Medium | Low to medium | High | Low to medium |
+| Setup | One screen per colour | Metal die per design | Transfer film per design | Digitised stitch file |
+| Main cost drivers | Colour count, logo size, positions | Die, foil type, logo size | Film size, colour complexity | Stitch count, logo size, thread colours |
+| Durability | Good in normal use | Good; foil can wear under heavy friction | Good when the system matches the fabric | Excellent; thread does not crack or peel |
+
+## Which logo methods can go on a fabric pouch?
+
+### Screen printing
+
+Ink is pushed through a mesh screen onto the fabric, one screen per colour, which is why one-colour logos are the most economical version of this method. It is the classic pairing for cotton, prints cleanly on the smooth, tight surface of microfiber, and can print light logos on dark fabric with opaque ink. On satin the slippery surface can let ink spread, so keep artwork bold and test first; on velvet the pile can swallow fine detail. It does not reproduce photographic images or smooth gradients, and very fine lines may fill in.
+
+![Natural cotton drawstring pouch with a one-colour screen-printed ELAPACK logo \u2014 presentation image, not a product photograph](/images/news/logo-methods-screen-print.jpg)
+
+### Hot stamping (foil)
+
+A heated metal die presses a thin layer of metallic foil onto the fabric, transferring only where the die touches. Gold or silver foil on velvet is the combination most buyers picture for premium jewellery pouches, and smooth satin gives a clean, mirror-like finish; on cotton and microfiber it depends on the weave, so request a test sample. Each design needs its own die, usually one foil colour per pass, and fine details or thin lines may not transfer cleanly. Foil can wear under heavy friction over time, especially on rough surfaces \u2014 treat it as a luxury finish to be sampled, not a lifetime guarantee.
+
+![Navy velvet drawstring pouch with a hot-stamped gold foil ELAPACK logo \u2014 presentation image, not a product photograph](/images/news/logo-methods-foil-stamping.jpg)
+
+### Heat transfer
+
+The design is printed on a transfer film, then pressed onto the fabric with heat. Because the artwork is printed before it is applied, heat transfer handles full-colour designs, fine detail and gradients that would need many screens \u2014 it is a popular route for detailed logos on microfiber pouches. The film sits on the surface, so on cotton it can feel like a patch compared with ink, and on velvet the pile makes it generally unsuitable. Results depend on matching the transfer system to the actual substrate and colour; the approval checks below cover what to ask.
+
+![Beige microfiber suede drawstring pouch with a multi-colour heat-transfer ELAPACK logo \u2014 presentation image, not a product photograph](/images/news/logo-methods-heat-transfer.jpg)
+
+### Embroidery
+
+A machine stitches the logo into the fabric with thread, after the artwork is converted into a stitch file (digitising, a one-time step). It gives a premium, tactile finish on velvet \u2014 tone-on-tone or contrast thread \u2014 holds well on cotton, and works on medium-weight microfiber; on thin, slippery satin it can pucker, so ask how the backing is handled. Thread will not crack, peel or fade the way ink can, which makes embroidery the durability leader. The trade-offs are price \u2014 unit cost rises with logo size and stitch count \u2014 and detail: small text and fine lines are hard to stitch cleanly, and the inside of the pouch will show stitching or backing, so agree how the inside is finished.
+
+![Embroidered ELAPACK logo on navy velvet \u2014 front and reverse side, showing the stitching and backing \u2014 presentation image, not a product photograph](/images/news/logo-methods-embroidery.jpg)
+
+### Woven and printed labels
+
+A logo does not have to sit on the fabric surface at all. Woven or printed labels, sewn into a seam or onto the front, are a subtle, low-risk route on fabrics that print poorly, and they combine well with a surface method \u2014 a foil logo on the front and a woven label inside, for example. Judge a label on its own construction: how the woven interpretation holds your detail, the label dimensions, and where the stitching lands when the pouch is filled or closed.
+
+## Which method suits which fabric?
+
+| Fabric | Screen print | Hot stamping | Heat transfer | Embroidery |
+| --- | --- | --- | --- | --- |
+| Velvet | Use caution \u2014 pile hides fine detail | Excellent | Not recommended | Excellent |
+| Microfiber | Excellent | Test on a sample | Excellent | Good |
+| Cotton | Excellent | Test on a sample | Good \u2014 film can feel firmer than ink | Excellent |
+| Satin | Good \u2014 test for ink spread | Excellent | Good on smooth satin | Use caution \u2014 check for puckering |
+
+![Fabric and logo method matrix: which branding method suits velvet, microfiber, cotton and satin pouches](/charts/logo-method-fabric-matrix.svg)
+
+These ratings are starting points for a sample enquiry, not measured performance rankings. If you have not fixed the fabric yet, the comparison in [velvet vs microfiber vs cotton vs satin pouches](https://elapack.com/news/velvet-satin-muslin-pouches-compared/) works through the fabric decision first.
+
+## What changes when the same logo moves to another fabric?
+
+Avery Dennison presents woven labels, printed fabric labels and heat-transfer branding as different options. Its range is a useful reminder that "fabric label" is not one construction and that a logo can be produced and attached in several ways. It does not establish that any option is suitable for every pouch.
+
+STAHLS' dye-migration handbook describes a problem in decorated polyester garments: colour from the fabric can migrate into the applied graphic, and the result may not be immediately apparent. The source concerns garment decoration. It is relevant as a risk to discuss for a polyester pouch, not evidence that all pouches suffer the problem or that a particular transfer system has passed testing.
+
+So if a heat-applied method is proposed, ask the supplier to assess the actual substrate and colour. A sample on a different fabric may help discuss the design, but it leaves material-specific questions open. We do not prescribe a temperature, dwell time or wash test here because no exact transfer system and pouch fabric have been specified. For a sewn label, inspect the label and its attachment as separate details: how the label sits when the pouch is filled or closed, where the stitching appears, and whether the placement matches the approved drawing. A woven logo should not be described as impossible to damage merely because its design is woven rather than printed.
+
+Keep comparisons relevant to the intended use. If the pouch will be washed, request an appropriate care specification and evidence for the proposed construction. If washing is not part of its intended use, do not invent a wash-resistance selling point. The same discipline applies to terms such as "permanent" and "fade-proof": ask what conditions and evidence support them before using them in product copy.
+
+## How do you compare methods fairly before you order?
+
+Hold the pouch specification and order scope constant, then ask what changes with each logo route. A price for one logo size and one fabric should not be compared as though it covers every alternative, and the cheapest option cannot be identified from a method list alone. Use this table to structure sample enquiries:
+
+| Proposed method | Question to resolve | Sample detail worth recording |
+| --- | --- | --- |
+| Screen print | Can the artwork reproduce on this fabric and colour? | Small lettering, edges and appearance on the folded pouch |
+| Hot stamping | Does the foil transfer cleanly at this logo size? | Edge sharpness, foil coverage on the actual weave or pile |
+| Heat transfer | Is this transfer system appropriate for the actual substrate? | Surface change, adhesion and colour behaviour |
+| Embroidery | Does the stitched interpretation preserve the necessary detail? | Legibility, stitch density and the finish on the inside |
+| Woven or printed label | Does the proposed label and attachment suit the design? | Print clarity, edge treatment and stitching position |
+
+Browse [custom velvet pouches](https://elapack.com/products/custom-velvet-pouches/), [custom satin pouches](https://elapack.com/products/custom-satin-pouches/), [custom cotton pouches](https://elapack.com/products/custom-cotton-pouches/) and [custom microfiber pouches](https://elapack.com/products/custom-microfiber-pouches/) alongside the [drawstring bags](https://elapack.com/custom-drawstring-bags/) range before fixing the logo placement. If the intended product is a cotton pouch, request a sample on the proposed cotton specification \u2014 not simply a sample bearing the right logo on a different material. Substrate, artwork and method are one approval decision.
+
+## What does a complete logo approval include?
+
+![Logo pouch approval sequence: fix fabric and construction, then match the logo method, then approve the full specification](/charts/logo-pouch-approval-sequence.svg)
+
+For the artwork brief, identify the logo version, intended finished size and position on the pouch. Our recommended approval record includes the fabric specification and colour, pouch dimensions and construction, logo method, artwork revision, label or print position, and the sample reference. Record any substitute material used in an early sample so that a partial design check is not mistaken for complete approval.
+
+For quotations, list quantities by version and identify changes in fabric, logo or dimensions. Ask how those changes affect the proposal rather than assuming that one total quantity makes all versions identical in production. If you are ordering a coordinated [jewellery packaging set](https://elapack.com/custom-jewelry-packaging/), include the other components as separate lines and clarify any assembly requested.
+
+The final decision should rest on the sample and the agreed specification, not on a claim that one method is always the cheapest or most durable. Where evidence is still missing, leave the claim out of the product description until it has been resolved; a restrained, accurate description is more useful than a promise the order cannot substantiate.
+
+## What artwork should you send, and how is colour approved?
+
+ELAPACK accepts artwork in AI, PDF and PNG formats; a clean PNG file is usable for production, and vector files remain the easiest to resize without loss. Whichever format you send:
+
+1. Convert fonts to outlines, so the lettering does not change when the file is opened on another computer.
+2. Provide Pantone colour codes where you have them, for ink, foil or thread matching.
+3. Supply a one-colour version of your logo \u2014 hot stamping and embroidery often need a simplified mark.
+4. Avoid hairlines and very small text: they are the first details lost in foil and stitch, whatever the format.
+5. Specify the logo size and its position with measurements from the edges and seams, and keep it clear of the drawstring channel so it does not distort when the bag is closed. A common starting point is a logo around one-third to one-half the width of the bag, centred on the front.
+
+The same colour can look different on different surfaces \u2014 ink on dark fabric may need an opaque base to stay bright, foil reads differently on velvet than on smooth satin, and thread is matched from a thread palette, so expect the closest match rather than a perfect one. Approve colour on a physical sample under natural light, not from a screen proof: ELAPACK checks production colour against the approved sample to a tolerance of \u0394E \u2264 1.5, grey scale grade 4.
+
+## What drives the cost of a logo on a pouch?
+
+- **Screen printing:** one screen per colour \u2014 colour count is the lever, then logo size and the number of print positions.
+- **Hot stamping:** the metal die is a one-time cost per design, spread across the run; foil type and logo size follow.
+- **Heat transfer:** film size and colour complexity; efficient when a design would otherwise need many screens.
+- **Embroidery:** stitch count, which grows with logo size and thread colours, plus the one-time digitising step.
+
+Two habits keep logo costs under control: use as few colours as your brand allows, and keep the logo to one position unless a second one truly earns its place. Standard pouch orders start at 200 pieces. A custom sample takes 3\u20135 days and costs USD 30 plus USD 25 shipping, with the sample fee credited against your confirmed first order; production runs 15\u201320 days for 200\u201320,000 pieces after sample approval and payment. Send your artwork, fabric choice and quantity, and ELAPACK will recommend a method and return a written quote within one business day \u2014 if you are torn between two methods, ask for both in the same quote so the cost, setup and timeline sit side by side. The full ordering picture is in the guide to [custom packaging MOQ, sample costs and production times](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/), and [how custom packaging samples work](https://elapack.com/news/custom-packaging-samples-guide/) explains what to check when yours arrives.
+
+## Frequently asked questions
+
+### Which logo method is cheapest for custom pouches?
+
+A one-colour screen print is usually the most economical, especially on cotton and microfiber. Cost rises with each added colour or position, so the cheapest method for your logo depends on the artwork as much as the method.
+
+### Which method looks the most premium?
+
+Hot stamping on velvet or satin, and embroidery on velvet or cotton, are the most commonly chosen premium finishes. Which one fits depends on whether your brand reads better in metallic shine or in stitched texture.
+
+### Can I print a full-colour logo on a pouch?
+
+Yes. Heat transfer is the usual route for full-colour artwork, gradients and fine detail, especially on microfiber. Send the artwork and we will confirm what the design needs on your fabric.
+
+### Can you hot stamp gold foil on a velvet pouch?
+
+Yes \u2014 it is one of the most popular luxury combinations. Simple, bold logos give the cleanest transfer; fine lines are where foil struggles, so expect a sample check at your logo size.
+
+### What file format do you need for my logo?
+
+AI, PDF and PNG are all accepted, and PNG is usable for production. Add Pantone codes if you have them, and a one-colour version of the mark if one exists.
+
+### Can I put a logo on both sides of the bag?
+
+Yes. Each additional position adds setup and unit cost, so add a second side when it adds value \u2014 a woven label inside is often the more useful second branding point.
+
+## Sources
+
+- Avery Dennison, permanent branding options for apparel (woven labels, printed fabric labels, heat-transfer branding): https://www.averydennison.com/na/en/industries/apparel/products/branding-packaging/permanent-branding
+- STAHLS' Dye Migration Handbook (garment decoration context, cited for the migration risk only): https://assets.stahls.com/stahls/content/pdf/ebooks/Stahls-Dye-Migration-Handbook.pdf
+- ELAPACK product specifications for [velvet pouches](https://elapack.com/products/custom-velvet-pouches/), [satin pouches](https://elapack.com/products/custom-satin-pouches/), [cotton pouches](https://elapack.com/products/custom-cotton-pouches/) and [microfiber pouches](https://elapack.com/products/custom-microfiber-pouches/) \u2014 fabric, logo options and ordering terms as published.
+- ELAPACK, [Velvet vs Microfiber vs Cotton vs Satin Pouches](https://elapack.com/news/velvet-satin-muslin-pouches-compared/) \u2014 the fabric comparison this guide builds on.
+
+[Send ELAPACK your pouch reference and logo artwork](https://elapack.com/contact/) to request the applicable options and sample terms.`
   },
   {
     "slug": "custom-gift-card-boxes-guide",
@@ -5430,7 +6072,7 @@ Your next step, once the reading is done, is the comparison task: putting two co
     "imageHeight": 1350,
     "excerpt": "Cosmetic packaging fails when the pack is chosen before the product. Map box, pouch and set to the line before you compare quotes.",
     "metaDescription": "How to plan custom cosmetic packaging \u2014 rigid boxes for lash, nail and fragrance lines, fabric and PVC pouches, and the spec list to send for a quote.",
-    "body": "*Format, structure and print guidance in this guide is generic industry knowledge, except where ELAPACK's own confirmed trade terms are stated as such. Confirm material and production specifics with the supplier you are evaluating.*\n\nThis guide is for beauty brand owners, salon line builders and wholesalers who are packaging color cosmetics and beauty tools \u2014 [lash lines](https://elapack.com/products/custom-eyelash-packaging-boxes/), [press-on nails](https://elapack.com/news/press-on-nail-packaging-guide/), fragrance and the sets around them \u2014 and need to plan the packaging before they request samples or quotes. It covers the four decisions that define a cosmetic packaging program: what the pack holds, whether those contents call for a box or a pouch, the structure and size, and the branding across both materials. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **Cosmetic packaging goes wrong when the pack is chosen before the product; the format has to follow the contents.** Work through the four decisions below and you will finish with a spec list ready to send for a quote.\n\n## Why pack-first planning fails\n\nA cosmetic pack does two jobs: it protects the product through shipping and the shelf, and it teaches the customer the brand at first sight. When the format is picked from a competitor's photo instead of the contents, one of those jobs fails.\n\n1. A beauty brand picks a box format because a competitor's looked premium, before mapping what the line actually contains.\n2. The packaging arrives and the lash trays press against the lid, the nail set rattles, or the pouch fabric pills against the tools it holds.\n3. **Without mapping the contents to the format, the program is guesswork and quotes are not comparable.**\n4. The wrong format means re-sampling, split orders across two suppliers, or a launch where the box and the pouch do not match.\n5. The rework delays the launch and thins the margin the line was built on.\n6. The task on this page is to map the line to box, pouch and set, and prepare the specs for a quote.\n\nThe fix is not a better reference photo. It is a program that starts from the contents and works outward.\n\n## Start from the product\n\n![Cosmetic packaging decided from the product outward: product constants, box pouch or set, one spec baseline](/charts/cosmetic-packaging-decision-path.svg)\n\nThe product names the format. Lash lines run on tray formats \u2014 as a working reference, stock lash trays commonly land near 14\xD710\xD76 cm for single-tray retail boxes, 15\xD715\xD75 cm for square multi-pair formats and 20\xD718\xD78 cm for wholesale display packs, with glue and tweezers needing their own wells. Press-on nail sets pack as organized rows that must not shift. Fragrance packs around the bottle \u2014 the structure follows the bottle's height and base, not a standard footprint. Tools and applicators run in soft goods. The question your line has to answer: what exactly ships in the pack, in what quantity, and what must not move?\n\n## Box, pouch or set\n\nMost cosmetic lines need both formats, and they are different trades. The box side is rigid work: lift-off lid boxes for gift-ready presentation, [drawer boxes](https://elapack.com/news/drawer-box-packaging-guide/) for layered reveals, magnetic flip-tops for a clean exterior and a slow close. The pouch side is sewn work: drawstring, flap, envelope and zipper styles in cotton, satin, velvet or canvas \u2014 for retail attach, travel and refill programs \u2014 plus [clear PVC zip bags](https://elapack.com/products/custom-pvc-bags/) where the product should stay visible \u2014 formats and materials are detailed in the [clear cosmetic bags guide](https://elapack.com/news/clear-cosmetic-bags-guide/). A set program designs the two together: box, pouch and insert as one system, matched in colour and closure. The question: where does each product meet the customer \u2014 shelf, unboxing, travel \u2014 and which format carries that moment?\n\n## Structure and size that survive shipping and the shelf\n\nRigid structures protect; internal wells organize. Size follows the contents with a little room, settled before pricing because size moves both cost and minimums. Confirm the finished internal dimensions in centimetres in the spec \u2014 a pack that is tight presses the product, one that is loose lets it shift and look untidy at unboxing. For anything that ships to a retail counter, the structure also has to arrive true: corners square, lid seated, print undamaged.\n\n## Branding across two materials\n\nBoard and fabric do not take branding the same way, and a program that ignores this splits in the customer's hand. On boxes: foil stamping, emboss and deboss, spot UV and lamination, with wrap colour matched to a Pantone reference. On pouches: a woven label sewn in, a printed logo, embroidery, or a deboss on velvet. The same Pantone reference can read differently on coated board than on cotton or satin, so confirm the colour on the actual material of each format before the run \u2014 this is the first place to check when a box-and-pouch program stops matching.\n\n## Quantities, samples and one spec baseline\n\nAs a working reference, ELAPACK's own confirmed terms: a 200-piece minimum across custom boxes and pouches with custom sizes included, 15\u201320 day production, a free stock sample plus USD 25 shipping, and a USD 30 custom sample plus USD 25 shipping. Typical wholesale programs elsewhere start at 500\u20131,000 pieces, so a 200-piece entry changes which lines can launch at all. One further practical point: a factory that makes both the box and the sewn pouch gives the program one spec baseline \u2014 one sample round, one colour reference, one production calendar \u2014 where most carton printers stop at the box and leave the pouch to a second supplier.\n\n## Prepare the cosmetic packaging spec list for your quote\n\nNothing on this page collects your data or sends anything. **Fill the spec list from the line, the brand and the quantity.** Copy the lines below into your own note:\n\n1. The contents: each product in the line, its size and weight, and what must not move in transit.\n2. The format split: which products run in rigid boxes (lift-off lid, drawer, magnetic flip-top), which in pouches (drawstring, flap, envelope, zipper \u2014 cotton, satin, velvet, canvas, or clear PVC zip), and which ship as a designed set.\n3. The size: finished internal dimensions in centimetres per format, with clearance for the contents.\n4. The branding: the finish set per format, with the Pantone reference and where each mark sits.\n5. The quantity: launch quantity per format, and whether samples should be stock or custom.\n\nKeep the note local, and send these specs to your supplier through your existing approved contact process. With the list filled, the quotes compare like with like \u2014 and the box and the pouch arrive as one program instead of two orders."
+    "body": "*Format, structure and print guidance in this guide is generic industry knowledge, except where ELAPACK's own confirmed trade terms are stated as such. Confirm material and production specifics with the supplier you are evaluating.*\n\nThis guide is for beauty brand owners, salon line builders and wholesalers who are packaging color cosmetics and beauty tools \u2014 [lash lines](https://elapack.com/products/custom-eyelash-packaging-boxes/), [press-on nails](https://elapack.com/news/press-on-nail-packaging-guide/), fragrance and the sets around them \u2014 and need to plan the packaging before they request samples or quotes. It covers the four decisions that define a cosmetic packaging program: what the pack holds, whether those contents call for a box or a pouch, the structure and size, and the branding across both materials. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **Cosmetic packaging goes wrong when the pack is chosen before the product; the format has to follow the contents.** Work through the four decisions below and you will finish with a spec list ready to send for a quote.\n\n## Key takeaways\n\n- Start from the contents: what ships in the pack, in what quantity, and what must not move decides the format \u2014 box, pouch or designed set.\n- Boxes and pouches are different trades; a set program designs them together against one spec baseline and one colour reference.\n- Confirm the finished internal dimensions in centimetres before pricing, because size moves both cost and minimums.\n- The same Pantone reference can read differently on coated board than on cotton or satin, so approve the colour on the actual material of each format.\n- ELAPACK confirmed terms: a 200-piece minimum across custom boxes and pouches, custom sizes included; a custom sample is USD 30 plus USD 25 shipping, built in 3\u20135 days, with the fee credited against a confirmed first order; a stock sample is free plus USD 25 shipping; production is 15\u201320 days after sample approval and payment.\n\n## Why does pack-first planning fail?\n\nA cosmetic pack does two jobs: it protects the product through shipping and the shelf, and it teaches the customer the brand at first sight. When the format is picked from a competitor's photo instead of the contents, one of those jobs fails.\n\n1. A beauty brand picks a box format because a competitor's looked premium, before mapping what the line actually contains.\n2. The packaging arrives and the lash trays press against the lid, the nail set rattles, or the pouch fabric pills against the tools it holds.\n3. **Without mapping the contents to the format, the program is guesswork and quotes are not comparable.**\n4. The wrong format means re-sampling, split orders across two suppliers, or a launch where the box and the pouch do not match.\n5. The rework delays the launch and thins the margin the line was built on.\n6. The task on this page is to map the line to box, pouch and set, and prepare the specs for a quote.\n\nThe fix is not a better reference photo. It is a program that starts from the contents and works outward.\n\n## What exactly will the pack hold?\n\n![Cosmetic packaging decided from the product outward: product constants, box pouch or set, one spec baseline](/charts/cosmetic-packaging-decision-path.svg)\n\nThe product names the format. Lash lines run on tray formats \u2014 as a working reference, stock lash trays commonly land near 14\xD710\xD76 cm for single-tray retail boxes, 15\xD715\xD75 cm for square multi-pair formats and 20\xD718\xD78 cm for wholesale display packs, with glue and tweezers needing their own wells. Press-on nail sets pack as organized rows that must not shift. Fragrance packs around the bottle \u2014 the structure follows the bottle's height and base, not a standard footprint. Tools and applicators run in soft goods. The question your line has to answer: what exactly ships in the pack, in what quantity, and what must not move?\n\n## Should the line use a box, a pouch or a set?\n\nMost cosmetic lines need both formats, and they are different trades. The box side is rigid work: lift-off lid boxes for gift-ready presentation, [drawer boxes](https://elapack.com/news/drawer-box-packaging-guide/) for layered reveals, magnetic flip-tops for a clean exterior and a slow close. The pouch side is sewn work: drawstring, flap, envelope and zipper styles in cotton, satin, velvet or canvas \u2014 for retail attach, travel and refill programs \u2014 plus [clear PVC zip bags](https://elapack.com/products/custom-pvc-bags/) where the product should stay visible \u2014 formats and materials are detailed in the [clear cosmetic bags guide](https://elapack.com/news/clear-cosmetic-bags-guide/). A set program designs the two together: box, pouch and insert as one system, matched in colour and closure. The question: where does each product meet the customer \u2014 shelf, unboxing, travel \u2014 and which format carries that moment?\n\n## Structure and size that survive shipping and the shelf\n\nRigid structures protect; internal wells organize. Size follows the contents with a little room, settled before pricing because size moves both cost and minimums. Confirm the finished internal dimensions in centimetres in the spec \u2014 a pack that is tight presses the product, one that is loose lets it shift and look untidy at unboxing. For anything that ships to a retail counter, the structure also has to arrive true: corners square, lid seated, print undamaged.\n\n## Branding across two materials\n\nBoard and fabric do not take branding the same way, and a program that ignores this splits in the customer's hand. On boxes: foil stamping, emboss and deboss, spot UV and lamination, with wrap colour matched to a Pantone reference. On pouches: a woven label sewn in, a printed logo, embroidery, or a deboss on velvet. The same Pantone reference can read differently on coated board than on cotton or satin, so confirm the colour on the actual material of each format before the run \u2014 this is the first place to check when a box-and-pouch program stops matching.\n\n## Quantities, samples and one spec baseline\n\nAs a working reference, ELAPACK's own confirmed terms: a 200-piece minimum across custom boxes and pouches with custom sizes included, 15\u201320 day production, a free stock sample plus USD 25 shipping, and a USD 30 custom sample plus USD 25 shipping. Typical wholesale programs elsewhere start at 500\u20131,000 pieces, so a 200-piece entry changes which lines can launch at all. One further practical point: a factory that makes both the box and the sewn pouch gives the program one spec baseline \u2014 one sample round, one colour reference, one production calendar \u2014 where most carton printers stop at the box and leave the pouch to a second supplier.\n\n## Prepare the cosmetic packaging spec list for your quote\n\nNothing on this page collects your data or sends anything. **Fill the spec list from the line, the brand and the quantity.** Copy the lines below into your own note:\n\n1. The contents: each product in the line, its size and weight, and what must not move in transit.\n2. The format split: which products run in rigid boxes (lift-off lid, drawer, magnetic flip-top), which in pouches (drawstring, flap, envelope, zipper \u2014 cotton, satin, velvet, canvas, or clear PVC zip), and which ship as a designed set.\n3. The size: finished internal dimensions in centimetres per format, with clearance for the contents.\n4. The branding: the finish set per format, with the Pantone reference and where each mark sits.\n5. The quantity: launch quantity per format, and whether samples should be stock or custom.\n\nKeep the note local, and send these specs to your supplier through your existing approved contact process. With the list filled, the quotes compare like with like \u2014 and the box and the pouch arrive as one program instead of two orders.\n\nTo specify the rigid formats themselves, see [custom cosmetic packaging boxes](https://elapack.com/custom-cosmetic-packaging/) \u2014 the box structures, inserts and finishes available alongside the bags covered in this guide.\n\n## Sources\n\n- ELAPACK confirmed trade terms \u2014 the 200-piece minimum, sample charges and production window stated in this guide.\n- ELAPACK buyer guides linked inline \u2014 the [clear cosmetic bags guide](https://elapack.com/news/clear-cosmetic-bags-guide/), the [press-on nail packaging guide](https://elapack.com/news/press-on-nail-packaging-guide/) and the [drawer box packaging guide](https://elapack.com/news/drawer-box-packaging-guide/), for the format detail behind the decisions above."
   },
   {
     "slug": "custom-perfume-packaging-guide",
@@ -5446,7 +6088,7 @@ Your next step, once the reading is done, is the comparison task: putting two co
     "imageHeight": 1350,
     "excerpt": "A perfume box ordered from a template is a guess. Build from the bottle: structure, insert, and the box\u2013card\u2013pouch split.",
     "metaDescription": "How to plan custom perfume packaging \u2014 rigid gift boxes built from the bottle, printed sample cards and satin pouches, with the spec list to send for a quote.",
-    "body": "*Structure, insert and format guidance in this guide is generic industry knowledge, except where ELAPACK's own confirmed trade terms are stated as such. Confirm material and production specifics with the supplier you are evaluating.*\n\nThis guide is for fragrance brand owners, boutique line builders and wholesalers who are planning custom perfume packaging \u2014 a flagship gift box, a discovery sampling program, or both \u2014 and need to brief a factory without wasting sampling rounds. It covers the five decisions that define a perfume packaging program: the bottle, the structure, the insert, the format split between box, sample card and pouch, and the branding and quantity plan. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **Perfume packaging is built around the bottle, not bought off a template; the structure follows the glass.** Work through the five decisions below and you will finish with a spec list ready to send for a quote.\n\n## Key takeaways\n\n- Start the box brief with the actual filled bottle, cap, weight and item count.\n- Quote boxes, printed sample cards and pouches as distinct components.\n- Check a mounted sample card with its contents and route before making any mailing claim.\n\n## Why can a template box fail a fragrance project?\n\nA [perfume box](https://elapack.com/products/custom-perfume-boxes/) does three jobs: it holds a glass bottle still, it survives the post and the retail counter, and it sets the tone of the scent before the cap comes off. When the box is ordered from a catalogue template instead of built from the bottle, one of those jobs fails.\n\n1. A fragrance brand orders a stock-size box because the template looked right, without sending the bottle dimensions.\n2. The boxes arrive and the bottle rattles in the insert, the lid presses on the cap, or the flacon sits off-centre under the window.\n3. **Without the bottle's dimensions in the brief, the structure is guesswork and quotes are not comparable.**\n4. A wrong box means re-cutting inserts, re-running wraps, or glass that arrives chipped and a launch that slips.\n5. Freight on re-sampling a fragrance program costs more than the sampling itself, because the first round set no dimensions.\n6. The task on this page is to map your bottle and your program to structure, insert and format, and prepare the spec list for a quote.\n\nThe fix is not a better template. It is a brief that starts from the bottle and works outward.\n\n## What decisions build a perfume packaging program?\n\n![Perfume box formats: folding carton, rigid shoulder box and two-piece set box chosen around the bottle](/charts/perfume-box-formats.svg)\n\n**Start from the bottle \u2014 structure, insert, format, branding, quantity \u2014 before you compare quotes.** Each decision ends with the question your line has to answer.\n\n### Start from the bottle\n\nMeasure the bottle, not the old box: length, width and height with the cap on, and the weight full. A travel spray, a flagship flacon and a multi-bottle gift set are three different briefs \u2014 a box that suits one will strangle or swamp another. The question: which bottles ship in this program, and how many per box?\n\n### Choose the structure\n\nThree core structures cover fragrance. A two-piece lift-off lid \u2014 a full-height lid over a rigid base \u2014 is the gift moment for a flagship. A drawer format layers the bottle and the story card into a reveal that suits discovery sets. A magnetic flip-top gives a clean exterior and a slow, deliberate close for the retail counter. The question: what should the opening ritual feel like, and where does it happen \u2014 gifting, counter or unboxing?\n\n### Specify the insert\n\nGlass decides the insert. EVA or molded inserts cut to the bottle profile hold the flacon firmly from the factory to the vanity; a generic cavity lets the glass shift, and glass that shifts arrives chipped. The question: how far does this box travel, and what happens if the bottle moves inside it?\n\n### Split the program: box, sample card, pouch\n\nFragrance rarely sells in one format, and the three formats do different work. The rigid box carries the purchase. The sample card carries the try-me moment: a [fully printed paper card](https://elapack.com/products/custom-perfume-sample-card-boxes/) with vials or sachets mounted on it, sized to your sample count from a single vial through multi-scent discovery sets, with the packed format and mailing eligibility checked for each campaign \u2014 a card option for sampling campaigns, subscription inserts, boutique handouts and press mailers. A [satin pouch](https://elapack.com/products/custom-satin-pouches/) carries the gift-wrap and refill moment around the bottle itself. Run as one matched program, the three reinforce each other; ordered separately, they drift apart in colour and finish. The question: which moments does your line actually sell \u2014 discovery, purchase or gifting \u2014 and does each have its format?\n\n### Set the branding and the quantity\n\nThe wrap carries the brand: offset print with foil stamping, embossing and spot UV, and inside-lid printing for the line the customer reads at the opening. As a working reference, ELAPACK's own confirmed terms: a 200-piece minimum across rigid perfume boxes and printed sample cards with custom sizes included, 15\u201320 day production, a free stock sample plus USD 25 shipping, and a USD 30 custom sample plus USD 25 shipping. Typical wholesale box programs elsewhere start at 500\u20131,000 pieces, so a 200-piece entry lets a fragrance line launch before it commits depth. The question: how many pieces does the launch need per format, and what should the sample round prove before you commit the run?\n\n## When can a box that looks right still be wrong?\n\n**A rendering cannot show glass fit, board grade or insert tolerances.** Three boundaries keep this page honest:\n\n- A rendering does not show whether the bottle actually seats. Ask for a physical sample built with your bottle dimensions applied.\n- Print on a textured or curved wrap reads differently than on a flat proof. Approve finishes on the actual wrap material, not on screen.\n- A flat carrier does not establish mailing eligibility. Check the complete packed sample, contents, route and applicable carrier rules before dispatch.\n\n## What should your perfume packaging quote brief include?\n\nNothing on this page collects your data or sends anything. **Fill the spec list from the bottle, the program and the quantity.** Copy the lines below into your own note:\n\n1. The bottle: dimensions with the cap on (L\xD7W\xD7H in cm), weight full, and count per box.\n2. The structure: two-piece lift-off lid, drawer, or magnetic flip-top.\n3. The insert: EVA or molded, cut to the bottle profile.\n4. The format split: rigid gift boxes, printed sample cards (sample count and vial format), satin pouches \u2014 and which formats the launch actually needs.\n5. The branding: print program with Pantone reference, foil or emboss, spot UV, inside-lid printing.\n6. The quantity: launch quantity per format, and whether samples should be stock or custom.\n\nKeep the note local, and send these specs to your supplier through your existing approved contact process. With the bottle dimensions in the brief, the quotes you collect compare like with like \u2014 and the first sample round proves the program instead of starting it over.\n\n## Sources\n\n- [ELAPACK perfume box product](https://elapack.com/products/custom-perfume-boxes/) \u2014 current box quotation inputs and sample-fit checks.\n- [ELAPACK printed sample card product](https://elapack.com/products/custom-perfume-sample-card-boxes/) \u2014 card-specific quotation inputs; no default postal eligibility.\n- [ELAPACK perfume sample card guide](https://elapack.com/news/perfume-sample-cards-guide/) \u2014 separate carrier, fragrance and shipping checks."
+    "body": "*Structure, insert and format guidance in this guide is generic industry knowledge, except where ELAPACK's own confirmed trade terms are stated as such. Confirm material and production specifics with the supplier you are evaluating.*\n\nThis guide is for fragrance brand owners, boutique line builders and wholesalers who are planning custom perfume packaging \u2014 a flagship gift box, a discovery sampling program, or both \u2014 and need to brief a factory without wasting sampling rounds. It covers the five decisions that define a perfume packaging program: the bottle, the structure, the insert, the format split between box, sample card and pouch, and the branding and quantity plan. If your question is which supplier to choose, what a quote costs, or how fast a factory ships, stop here: this page does not select a supplier, price a quote, or approve a production run. **Perfume packaging is built around the bottle, not bought off a template; the structure follows the glass.** Work through the five decisions below and you will finish with a spec list ready to send for a quote.\n\n## Key takeaways\n\n- Start the box brief with the actual filled bottle, cap, weight and item count.\n- Quote boxes, printed sample cards and pouches as distinct components.\n- Check a mounted sample card with its contents and route before making any mailing claim.\n\n## Why can a template box fail a fragrance project?\n\nA [perfume box](https://elapack.com/products/custom-perfume-boxes/) does three jobs: it holds a glass bottle still, it survives the post and the retail counter, and it sets the tone of the scent before the cap comes off. When the box is ordered from a catalogue template instead of built from the bottle, one of those jobs fails.\n\n1. A fragrance brand orders a stock-size box because the template looked right, without sending the bottle dimensions.\n2. The boxes arrive and the bottle rattles in the insert, the lid presses on the cap, or the flacon sits off-centre under the window.\n3. **Without the bottle's dimensions in the brief, the structure is guesswork and quotes are not comparable.**\n4. A wrong box means re-cutting inserts, re-running wraps, or glass that arrives chipped and a launch that slips.\n5. Freight on re-sampling a fragrance program costs more than the sampling itself, because the first round set no dimensions.\n6. The task on this page is to map your bottle and your program to structure, insert and format, and prepare the spec list for a quote.\n\nThe fix is not a better template. It is a brief that starts from the bottle and works outward.\n\n## What decisions build a perfume packaging program?\n\n![Perfume box formats: folding carton, rigid shoulder box and two-piece set box chosen around the bottle](/charts/perfume-box-formats.svg)\n\n**Start from the bottle \u2014 structure, insert, format, branding, quantity \u2014 before you compare quotes.** Each decision ends with the question your line has to answer.\n\n### Start from the bottle\n\nMeasure the bottle, not the old box: length, width and height with the cap on, and the weight full. A travel spray, a flagship flacon and a multi-bottle gift set are three different briefs \u2014 a box that suits one will strangle or swamp another. The question: which bottles ship in this program, and how many per box?\n\n### Choose the structure\n\nThree core structures cover fragrance. A two-piece lift-off lid \u2014 a full-height lid over a rigid base \u2014 is the gift moment for a flagship. A drawer format layers the bottle and the story card into a reveal that suits discovery sets. A magnetic flip-top gives a clean exterior and a slow, deliberate close for the retail counter. The question: what should the opening ritual feel like, and where does it happen \u2014 gifting, counter or unboxing?\n\n### Specify the insert\n\nGlass decides the insert. EVA or molded inserts cut to the bottle profile hold the flacon firmly from the factory to the vanity; a generic cavity lets the glass shift, and glass that shifts arrives chipped. The question: how far does this box travel, and what happens if the bottle moves inside it?\n\n### Split the program: box, sample card, pouch\n\nFragrance rarely sells in one format, and the three formats do different work. The rigid box carries the purchase. The sample card carries the try-me moment: a [fully printed paper card](https://elapack.com/products/custom-perfume-sample-card-boxes/) with vials or sachets mounted on it, sized to your sample count from a single vial through multi-scent discovery sets, with the packed format and mailing eligibility checked for each campaign \u2014 a card option for sampling campaigns, subscription inserts, boutique handouts and press mailers. A [satin pouch](https://elapack.com/products/custom-satin-pouches/) carries the gift-wrap and refill moment around the bottle itself. Run as one matched program, the three reinforce each other; ordered separately, they drift apart in colour and finish. The question: which moments does your line actually sell \u2014 discovery, purchase or gifting \u2014 and does each have its format?\n\n### Set the branding and the quantity\n\nThe wrap carries the brand: offset print with foil stamping, embossing and spot UV, and inside-lid printing for the line the customer reads at the opening. As a working reference, ELAPACK's own confirmed terms: a 200-piece minimum across rigid perfume boxes and printed sample cards with custom sizes included, 15\u201320 day production, a free stock sample plus USD 25 shipping, and a USD 30 custom sample plus USD 25 shipping. Typical wholesale box programs elsewhere start at 500\u20131,000 pieces, so a 200-piece entry lets a fragrance line launch before it commits depth. The question: how many pieces does the launch need per format, and what should the sample round prove before you commit the run?\n\n## When can a box that looks right still be wrong?\n\n**A rendering cannot show glass fit, board grade or insert tolerances.** Three boundaries keep this page honest:\n\n- A rendering does not show whether the bottle actually seats. Ask for a physical sample built with your bottle dimensions applied.\n- Print on a textured or curved wrap reads differently than on a flat proof. Approve finishes on the actual wrap material, not on screen.\n- A flat carrier does not establish mailing eligibility. Check the complete packed sample, contents, route and applicable carrier rules before dispatch.\n\n## What should your perfume packaging quote brief include?\n\nNothing on this page collects your data or sends anything. **Fill the spec list from the bottle, the program and the quantity.** Copy the lines below into your own note:\n\n1. The bottle: dimensions with the cap on (L\xD7W\xD7H in cm), weight full, and count per box.\n2. The structure: two-piece lift-off lid, drawer, or magnetic flip-top.\n3. The insert: EVA or molded, cut to the bottle profile.\n4. The format split: rigid gift boxes, printed sample cards (sample count and vial format), satin pouches \u2014 and which formats the launch actually needs.\n5. The branding: print program with Pantone reference, foil or emboss, spot UV, inside-lid printing.\n6. The quantity: launch quantity per format, and whether samples should be stock or custom.\n\nKeep the note local, and send these specs to your supplier through your existing approved contact process. With the bottle dimensions in the brief, the quotes you collect compare like with like \u2014 and the first sample round proves the program instead of starting it over. Once the programme is specified, the transit side \u2014 the fitted cavity, leak control and the outer carton \u2014 is covered in [how to package perfume for shipping](https://elapack.com/news/how-to-package-perfume-for-shipping/).\n\n## Sources\n\n- [ELAPACK perfume box product](https://elapack.com/products/custom-perfume-boxes/) \u2014 current box quotation inputs and sample-fit checks.\n- [ELAPACK printed sample card product](https://elapack.com/products/custom-perfume-sample-card-boxes/) \u2014 card-specific quotation inputs; no default postal eligibility.\n- [ELAPACK perfume sample card guide](https://elapack.com/news/perfume-sample-cards-guide/) \u2014 separate carrier, fragrance and shipping checks."
   },
   {
     "slug": "press-on-nail-packaging-guide",
@@ -5920,7 +6562,7 @@ Keep the note local, and send it to your supplier through your existing approved
   {
     "slug": "how-to-vet-a-packaging-manufacturer",
     "datePublished": "2026-10-11",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-11-21",
     "title": "How to Vet a Custom Packaging Manufacturer: A Data-Backed Checklist",
     "category": "Sourcing Guide",
     "date": "October 2026",
@@ -5931,7 +6573,7 @@ Keep the note local, and send it to your supplier through your existing approved
     "imageHeight": 1350,
     "excerpt": "Most buyers shortlist packaging factories from search results and trust whichever answers first. This guide gives them the seven-check vetting framework \u2014 and the ten questions \u2014 to run before the first order.",
     "metaDescription": "How to vet a custom packaging manufacturer: a seven-check framework covering certificates, samples, QC, colour control and payment red flags \u2014 with the data to back it.",
-    "body": "*Industry frameworks are credited to their publishers; supplier terms other than ELAPACK's are quoted as published, for comparison only. Terms marked as ELAPACK figures are confirmed 2026 trade terms, used here as worked examples of what a good answer looks like \u2014 the framework works for vetting any factory, including this one.*\n\nThis guide is for the buyer who has shortlisted packaging manufacturers and needs to choose one before the first order.\n\n> **Quick answer:** vet a factory on seven checks in order: business basics, certificate scope (not certificate names), sample policy, QC process, colour control, engineering support, payment terms. Two live tests beat all desk research: order the paid custom sample, and ask one question you already know the answer to. A factory that passes both is safe for a first order at trial quantity.\n\n## Key takeaways\n\n- Vet in order: business basics, certificate scope, sample policy, QC process, colour control, engineering support, payment terms \u2014 seven checks, run before the first order.\n- Two live tests beat desk research: order the paid custom sample, and ask one question you already know the answer to.\n- Manufacturer, supplier and broker are different sellers; which one you face changes what you verify.\n- Read certificate scope, not logos \u2014 verify the holder, the validity and whether the scope covers your products.\n- Score the ten questions: seven or more solid answers is a quotable factory; five or fewer is a website.\n- Trial at minimum quantity with an approved sample; never trial a factory on a peak-season order.\n\n## Key facts at a glance\n\n| Item | Data |\n|---|---|\n| Framework sources | Specright (manufacturer vs supplier), industry vetting checklists |\n| Worked-example terms | ELAPACK confirmed 2026 terms (MOQ 200, 15\u201320 days, sample policy) |\n| The two live tests | paid custom sample; one known-answer question |\n| Excluded from this page | food-packaging supplier words (out of scope for this factory's lines) |\n\n## Directory words, local words, specification words\n\n![Supplier vetting as three gates: documents and certificates, a paid custom sample, and a controlled first order \u2014 the checks that turn a shortlist into a decision.](/charts/supplier-vetting-funnel.svg)\n\nBuyers looking for a manufacturer use three word families \u2014 directory words that return lists, local words that return maps, and specification words that return factories. This guide is for the third search: once a shortlist exists (a [checked China jewelry shortlist](https://elapack.com/news/top-china-jewelry-packaging-suppliers/) is one input), the remaining work is verification, and it runs in three gates \u2014 documents, sample, first order.\n\n**The shortlist is the start of the work, not the end \u2014 verification runs through documents, sample and first order.**\n## Is the seller a manufacturer, supplier or broker?\n\nThe distinction Specright publishes is the one to memorise: a **manufacturer** makes your packaging on its own lines; a **supplier** may make some products and source the rest; a **broker** makes nothing and resales. None is disqualified \u2014 but each changes what you verify. For a manufacturer, verify the factory (certificates, QC, lines). For a supplier, verify which items are in-house and which are bought in, because the bought-in items carry the longer lead time and the weaker quality control. For a broker, verify the actual factory behind every item, or you are vetting a website. **Ask directly \u2014 will this item run on your own lines? \u2014 and note the answer for the audit trail.**\n\n## The seven checks\n\n### 1 \u2014 Business basics\nCompany age, export record, and who signs. A factory trading since well before the pandemic with a stable legal name has survived freight crises and material swings \u2014 that history is data. Red flags: a trading name with no legal entity behind it, and a quotation with no company chop or signature. **Check one: ask for the business licence and export record; a manufacturer answers in a day.**\n\n### 2 \u2014 Certificates: read the scope, not the logo\nAn ISO 9001 badge on a homepage is not enough to assess a supplier. Ask for the certificate, verify its holder, validity and scope, and check whether that scope covers the products you intend to buy. ELAPACK's certificate details have not been published here, so request the current document before relying on any certification claim. **Check two: verify the actual certificate rather than inferring coverage from a logo.**\n\n### 3 \u2014 Sample policy\nThe sample stage is the cheapest audit in sourcing. Terms that respect both sides: a free stock sample with shipping paid by the buyer, and a paid custom sample at a nominal fee. ELAPACK's published terms \u2014 stock sample free with USD 25 shipping (4\u20137 days), custom sample USD 30 + USD 25 shipping (3\u20135 days) \u2014 are a fair benchmark for factory-direct custom. A factory that refuses custom samples before payment, or quotes a custom sample at production-price levels, is telling you how the programme will run. **Check three: order the custom sample before the production order, every first time \u2014 the [packaging samples guide](https://elapack.com/news/custom-packaging-samples-guide/) lists what to verify when it arrives.**\n\n### 4 \u2014 QC process, in stations not adjectives\nEvery factory says it checks quality; buyers need to know what is inspected for their particular order and when. Ask for the agreed inspection points, acceptance criteria, sample reference and pre-shipment evidence in writing \u2014 the [delivery inspection walkthrough](https://elapack.com/news/inspect-custom-packaging-delivery/) runs the checks against the approved sample. ELAPACK's station count and any AQL method require project-specific confirmation; they are not established by the information on this page. **Check four: request the inspection plan for your product before placing the bulk order.**\n\n### 5 \u2014 Colour control\nBox wrap, pouch fabric and ribbon can look different even when a brief uses the same colour code. Agree on each component's reference, viewing conditions and approved physical sample; ask the supplier how it will compare the proposed materials for your order. The [colour review guide](https://elapack.com/news/packaging-colour-tolerance-explained/) shows what to record without assuming a universal tolerance or a particular press-side process. **Check five: get the colour references and approval conditions in writing before bulk production.**\n\n### 6 \u2014 Engineering support\nDoes the factory quote from your sketch, or from a dieline it drew for you? Engineering support at quotation \u2014 a free digital dieline preview and vector-file acceptance \u2014 helps buyers check structure before ordering a sample. ELAPACK provides a free digital dieline preview for structure confirmation; the [die cutting and dielines guide](https://elapack.com/news/die-cutting-and-dielines-guide/) explains what buyers should check on it. **Check six: ask for the dieline before you commit; a factory that cannot draw your box cannot be responsible for it.**\n\n### 7 \u2014 Payment and communication red flags\nFair terms for first orders balance both sides: a deposit with balance against inspection or documents, not 100% in advance from a new buyer. Communication red flags: quotes that arrive without an expiry, answers that change the specification instead of correcting it, and any pressure to skip the sample stage. **Check seven: put the payment schedule, the lead time and the sample terms in writing before the deposit \u2014 the [MOQ, samples and production guide](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/) shows what a published terms table looks like.**\n\n## What ten questions should you send any factory?\n\n| # | Question | Passing answer looks like |\n|---|---|---|\n| 1 | Will this item run on your own lines? | yes, or a named partner with the same checks |\n| 2 | May I see your ISO certificate scope? | scope names your product family |\n| 3 | What are your sample terms? | free stock + nominal custom fee |\n| 4 | What is inspected for this order, and when? | a written inspection plan and acceptance criteria |\n| 5 | How will you review colour across substrates? | references, viewing conditions and approved samples recorded |\n| 6 | Do you draw the dieline? | free preview for approval, tooling named separately |\n| 7 | Lead time at my quantity? | a band tied to quantity, in writing |\n| 8 | Payment schedule for a first order? | deposit + balance against documents |\n| 9 | What is your MOQ? | a number with a reason (see the [MOQ and OEM guide](https://elapack.com/news/custom-packaging-moq-oem-odm-logo-guide/)) |\n| 10 | What does a spec sheet from you include? | the lines in the [spec sheet guide](https://elapack.com/news/how-to-read-a-packaging-specification-sheet/) |\n\n**Score it: seven or more solid answers is a quotable factory; five or fewer is a website.**\n\n## How do you control risk on the first order?\n\nStructure the first order as a trial: one product, the minimum quantity (200 pieces at ELAPACK), the paid sample approved first, and a written spec sheet holding every variable. If the trial ships clean, the second order is where the programme economics start \u2014 and the [rigid box](https://elapack.com/news/custom-rigid-boxes-guide/) and [jewelry packaging overview](https://elapack.com/news/custom-jewelry-packaging-guide/) guides cover how to structure the bigger programmes. **Never trial a factory on your peak-season order; trial on the order whose delay you can survive.**\n\n## Bottom line\n\nNo method in the results \u2014 so carry this one. Run the seven checks, send the ten questions, and trial at minimum quantity with an approved sample. ELAPACK publishes its own answers to all ten on the [MOQ, samples and production guide](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/) and the [about page](https://elapack.com/about/) \u2014 vet this factory with the same checklist, that is the point of writing it down. Ready to run the checks on a live quote? [Request one here](https://elapack.com/contact/).\n\n## Sources\n\n- Specright \u2014 the manufacturer, supplier and broker distinction this framework follows, as published by Specright.\n- ELAPACK confirmed trade terms \u2014 the MOQ, sample and production terms used as worked examples in this guide."
+    "body": "*Industry frameworks are credited to their publishers; supplier terms other than ELAPACK's are quoted as published, for comparison only. Terms marked as ELAPACK figures are confirmed 2026 trade terms, used here as worked examples of what a good answer looks like \u2014 the framework works for vetting any factory, including this one.*\n\nThis guide is for the buyer who has shortlisted packaging manufacturers and needs to choose one before the first order.\n\n> **Quick answer:** vet a factory on seven checks in order: business basics, certificate scope (not certificate names), sample policy, QC process, colour control, engineering support, payment terms. Two live tests beat all desk research: order the paid custom sample, and ask one question you already know the answer to. A factory that passes both is safe for a first order at trial quantity.\n\n## Key takeaways\n\n- Vet in order: business basics, certificate scope, sample policy, QC process, colour control, engineering support, payment terms \u2014 seven checks, run before the first order.\n- Two live tests beat desk research: order the paid custom sample, and ask one question you already know the answer to.\n- Manufacturer, supplier and broker are different sellers; which one you face changes what you verify.\n- Read certificate scope, not logos \u2014 verify the holder, the validity and whether the scope covers your products.\n- Score the ten questions: seven or more solid answers is a quotable factory; five or fewer is a website.\n- Trial at minimum quantity with an approved sample; never trial a factory on a peak-season order.\n\n## Key facts at a glance\n\n| Item | Data |\n|---|---|\n| Framework sources | Specright (manufacturer vs supplier), industry vetting checklists |\n| Worked-example terms | ELAPACK confirmed 2026 terms (MOQ 200, 15\u201320 days, sample policy) |\n| The two live tests | paid custom sample; one known-answer question |\n| Excluded from this page | food-packaging supplier words (out of scope for this factory's lines) |\n\n## Directory words, local words, specification words\n\n![Supplier vetting as three gates: documents and certificates, a paid custom sample, and a controlled first order \u2014 the checks that turn a shortlist into a decision.](/charts/supplier-vetting-funnel.svg)\n\nBuyers looking for a manufacturer use three word families \u2014 directory words that return lists, local words that return maps, and specification words that return factories. This guide is for the third search: once a shortlist exists (a [checked China jewelry shortlist](https://elapack.com/news/top-china-jewelry-packaging-suppliers/) is one input), the remaining work is verification, and it runs in three gates \u2014 documents, sample, first order.\n\n**The shortlist is the start of the work, not the end \u2014 verification runs through documents, sample and first order.**\n## Is the seller a manufacturer, supplier or broker?\n\nThe distinction Specright publishes is the one to memorise: a **manufacturer** makes your packaging on its own lines; a **supplier** may make some products and source the rest; a **broker** makes nothing and resales. None is disqualified \u2014 but each changes what you verify. For a manufacturer, verify the factory (certificates, QC, lines). For a supplier, verify which items are in-house and which are bought in, because the bought-in items carry the longer lead time and the weaker quality control. For a broker, verify the actual factory behind every item, or you are vetting a website. **Ask directly \u2014 will this item run on your own lines? \u2014 and note the answer for the audit trail.**\n\n## The seven checks\n\n### 1 \u2014 Business basics\nCompany age, export record, and who signs. A factory trading since well before the pandemic with a stable legal name has survived freight crises and material swings \u2014 that history is data. Red flags: a trading name with no legal entity behind it, and a quotation with no company chop or signature. **Check one: ask for the business licence and export record; a manufacturer answers in a day.**\n\n### 2 \u2014 Certificates: read the scope, not the logo\nAn ISO 9001 badge on a homepage is not enough to assess a supplier. Ask for the certificate, verify its holder, validity and scope, and check whether that scope covers the products you intend to buy. ELAPACK's certificate details have not been published here, so request the current document before relying on any certification claim. **Check two: verify the actual certificate rather than inferring coverage from a logo.** For environmental claims in particular \u2014 FSC, recycled content, compostable \u2014 our guide to [packaging sustainability terms](/news/packaging-sustainability-terms-explained/) lists the exact document to request behind each term and how to verify it.\n\n### 3 \u2014 Sample policy\nThe sample stage is the cheapest audit in sourcing. Terms that respect both sides: a free stock sample with shipping paid by the buyer, and a paid custom sample at a nominal fee. ELAPACK's published terms \u2014 stock sample free with USD 25 shipping (4\u20137 days), custom sample USD 30 + USD 25 shipping (3\u20135 days) \u2014 are a fair benchmark for factory-direct custom. A factory that refuses custom samples before payment, or quotes a custom sample at production-price levels, is telling you how the programme will run. **Check three: order the custom sample before the production order, every first time \u2014 the [packaging samples guide](https://elapack.com/news/custom-packaging-samples-guide/) lists what to verify when it arrives.**\n\n### 4 \u2014 QC process, in stations not adjectives\nEvery factory says it checks quality; buyers need to know what is inspected for their particular order and when. Ask for the agreed inspection points, acceptance criteria, sample reference and pre-shipment evidence in writing \u2014 the [delivery inspection walkthrough](https://elapack.com/news/inspect-custom-packaging-delivery/) runs the checks against the approved sample. ELAPACK's station count and any AQL method require project-specific confirmation; they are not established by the information on this page. **Check four: request the inspection plan for your product before placing the bulk order.**\n\n### 5 \u2014 Colour control\nBox wrap, pouch fabric and ribbon can look different even when a brief uses the same colour code. Agree on each component's reference, viewing conditions and approved physical sample; ask the supplier how it will compare the proposed materials for your order. The [colour review guide](https://elapack.com/news/packaging-colour-tolerance-explained/) shows what to record without assuming a universal tolerance or a particular press-side process. **Check five: get the colour references and approval conditions in writing before bulk production.**\n\n### 6 \u2014 Engineering support\nDoes the factory quote from your sketch, or from a dieline it drew for you? Engineering support at quotation \u2014 a free digital dieline preview and vector-file acceptance \u2014 helps buyers check structure before ordering a sample. ELAPACK provides a free digital dieline preview for structure confirmation; the [die cutting and dielines guide](https://elapack.com/news/die-cutting-and-dielines-guide/) explains what buyers should check on it. **Check six: ask for the dieline before you commit; a factory that cannot draw your box cannot be responsible for it.**\n\n### 7 \u2014 Payment and communication red flags\nFair terms for first orders balance both sides: a deposit with balance against inspection or documents, not 100% in advance from a new buyer. Communication red flags: quotes that arrive without an expiry, answers that change the specification instead of correcting it, and any pressure to skip the sample stage. **Check seven: put the payment schedule, the lead time and the sample terms in writing before the deposit \u2014 the [MOQ, samples and production guide](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/) shows what a published terms table looks like.**\n\n## What ten questions should you send any factory?\n\n| # | Question | Passing answer looks like |\n|---|---|---|\n| 1 | Will this item run on your own lines? | yes, or a named partner with the same checks |\n| 2 | May I see your ISO certificate scope? | scope names your product family |\n| 3 | What are your sample terms? | free stock + nominal custom fee |\n| 4 | What is inspected for this order, and when? | a written inspection plan and acceptance criteria |\n| 5 | How will you review colour across substrates? | references, viewing conditions and approved samples recorded |\n| 6 | Do you draw the dieline? | free preview for approval, tooling named separately |\n| 7 | Lead time at my quantity? | a band tied to quantity, in writing |\n| 8 | Payment schedule for a first order? | deposit + balance against documents |\n| 9 | What is your MOQ? | a number with a reason (see the [MOQ and OEM guide](https://elapack.com/news/custom-packaging-moq-oem-odm-logo-guide/)) |\n| 10 | What does a spec sheet from you include? | the lines in the [spec sheet guide](https://elapack.com/news/how-to-read-a-packaging-specification-sheet/) |\n\n**Score it: seven or more solid answers is a quotable factory; five or fewer is a website.**\n\n## How do you control risk on the first order?\n\nStructure the first order as a trial: one product, the minimum quantity (200 pieces at ELAPACK), the paid sample approved first, and a written spec sheet holding every variable. If the trial ships clean, the second order is where the programme economics start \u2014 and the [rigid box](https://elapack.com/news/custom-rigid-boxes-guide/) and [jewelry packaging overview](https://elapack.com/news/custom-jewelry-packaging-guide/) guides cover how to structure the bigger programmes. **Never trial a factory on your peak-season order; trial on the order whose delay you can survive.**\n\n## Bottom line\n\nNo method in the results \u2014 so carry this one. Run the seven checks, send the ten questions, and trial at minimum quantity with an approved sample. ELAPACK publishes its own answers to all ten on the [MOQ, samples and production guide](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/) and the [about page](https://elapack.com/about/) \u2014 vet this factory with the same checklist, that is the point of writing it down. Ready to run the checks on a live quote? [Request one here](https://elapack.com/contact/).\n\n## Sources\n\n- Specright \u2014 the manufacturer, supplier and broker distinction this framework follows, as published by Specright.\n- ELAPACK confirmed trade terms \u2014 the MOQ, sample and production terms used as worked examples in this guide."
   },
   {
     "slug": "custom-printed-boxes-guide",
@@ -6014,7 +6656,7 @@ Keep the note local, and send it to your supplier through your existing approved
     "body": "*Editorial review against the official text of Regulation (EU) 2025/40, including Articles 6, 10, 24 and 71, on 22 October 2026. This purchasing guide does not certify a specific package or replace an order-specific legal assessment. Later acts and their current status require a separate check.*\n\n> **Quick answer:** identify the packaging's function, the economic operator responsible and the applicable requirement before changing a specification. PPWR has a general application date and several separate deadlines; some depend on later delegated or implementing acts.\n\n## Dates to put in your packaging review\n\n| Requirement | Timing and condition | Primary source |\n|---|---|---|\n| General application | 12 August 2026; individual provisions can have separate dates | Article 71 |\n| Sales-packaging empty-space minimisation | By 12 February 2028, reduce empty space to the minimum needed for functionality, including protection | Article 24(4) |\n| Design-for-recycling grades | 1 January 2030 or 24 months after the relevant delegated acts enter into force, whichever is later; applicable exemptions must also be checked | Article 6(2)\u2013(3) |\n| Maximum 50% empty space | For filled grouped, transport and e-commerce packaging: 1 January 2030 or three years after the relevant implementing acts enter into force, whichever is later | Article 24(1) |\n| Recycled-at-scale requirement | 1 January 2035 or five years after the relevant implementing acts enter into force, whichever is later | Article 6(2) |\n| Grade A or B market requirement | From 1 January 2038, subject to the Article 6 framework and applicable exemptions | Article 6(3) |\n\nRead these dates against the [official regulation](https://eur-lex.europa.eu/eli/reg/2025/40/oj?locale=en) and [Commission guidance](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026XC03084). The table records the legislative conditions; it does not assert that all later assessment methods are already available.\n\n## Separate the gift box from the shipping layer\n\nA retail gift box and its outer shipper can have different functions. Record each component's use before applying an empty-space rule. Sales packaging has minimisation requirements, but the Article 24 numerical cap is not a universal test for every retail box. The [empty-space guide](https://elapack.com/news/ppwr-empty-space-rules-guide/) explains the distinction and a quotation workflow.\n\nA close fit alone does not prove compliance or adequate protection. Review the product, insert, closure, outer packaging and distribution conditions together. Use the [packaging specification guide](https://elapack.com/news/how-to-read-a-packaging-specification-sheet/) to keep dimensions and component references consistent.\n\n## Material choices need a package-specific assessment\n\nRequest a component breakdown covering board, wrap, coatings, adhesives, inserts and attachments. Do not assign a recyclability grade from the words \u201Cpaper\u201D, \u201Crecyclable\u201D or \u201Ceco-friendly\u201D. The [recyclability guide](https://elapack.com/news/ppwr-recyclability-grades-guide/) separates composition information from an assessment under the applicable rules.\n\nFor design comparisons, ask what changes between the proposed options and what evidence supports the conclusion. A material substitution can affect presentation, fit, protection and the documentation needed; it is not automatically a compliance improvement.\n\n## Build a document request around the actual order\n\n| RFQ field | Buyer action |\n|---|---|\n| Destination and intended use | State where the packaged goods will be placed on the market and how each packaging layer is used |\n| Responsible operator | Establish who supplies, fills, imports and places the package on the market; confirm duties with the responsible compliance adviser |\n| Component specification | Request available composition information and identify missing details |\n| Evidence | Ask which documents apply to the specific construction, what they demonstrate and who issues them |\n| Approved version | Link the drawing, sample, component list and later changes to the same reference |\n\nAgree document availability before placing the order. Do not assume that a catalogue description or a test for another construction covers your package. Documentation, labelling, producer-responsibility and other requirements need their own applicability review.\n\n## Prepare a packaging enquiry\n\nBring the product dimensions, packaging layers, target quantities and the documents your compliance team requires. ELAPACK provides free digital dieline previews; these help review structure and do not certify compliance. [Contact ELAPACK](https://elapack.com/contact/) to discuss the proposed packaging and confirm which information can be supplied for that order.\n\n## Check scope and exemptions before applying a grade\n\nArticle 6(1) states the general recyclability requirement; the later design-for-recycling grades and recycled-at-scale rules have their own dates and conditions. Do not describe the later grade deadline as a blanket absence of earlier obligations.\n\nArticle 6(11) excludes specified packaging categories from that Article. These include sales packaging made from textile, lightweight wood, cork, rubber, ceramic, porcelain or wax, while paragraph 8 still applies as specified. This is not a general exemption from PPWR. A textile pouch must first be classified by its actual function and construction; do not assume that every fabric component or mixed-material set qualifies. Other listed exemptions and the innovative-packaging derogation also need an applicability review.\n\nFor in-scope packaging, Article 6(9) distinguishes integrated components from separate components when assessing the packaging unit. Request the actual component and separation information rather than applying one material label to the whole set.\n\n\n## Check the empty-space exceptions separately\n\nArticle 24(5) exempts operators using sales packaging as e-commerce packaging, or reusable packaging within a system of re-use, from the paragraph 1 numerical cap. The provision nevertheless requires such sales packaging to meet Article 10. This does not remove all packaging-minimisation duties. Article 10(1) sets a separate 1 January 2030 design requirement for minimum necessary packaging weight and volume, taking account of functionality, shape and material.\n\nFor the Article 24(3) calculation, the regulation defines empty space by reference to the grouped, transport or e-commerce packaging and the sales packaging contained in it. That is different from simply measuring the bare product. Confirm the applicable category and implementing methodology before using a worked example as a compliance calculation.\n"
   },
   {
-    "dateModified": "2026-11-18",
+    "dateModified": "2026-11-21",
     "slug": "ppwr-recyclability-grades-guide",
     "datePublished": "2026-10-11",
     "title": "PPWR Recyclability Grades A, B and C: What Custom Box Buyers Do",
@@ -6027,7 +6669,7 @@ Keep the note local, and send it to your supplier through your existing approved
     "imageHeight": 1024,
     "excerpt": "Understand the PPWR grade framework and conditional deadlines. Build a component evidence request without assigning a grade from material names alone.",
     "metaDescription": "Review PPWR recyclability grades, conditional dates and component evidence. Learn what to request before assessing a custom packaging construction.",
-    "body": "*Editorial review against the official text of Regulation (EU) 2025/40, including Articles 6, 10, 24 and 71, on 22 October 2026. This purchasing guide does not certify a specific package or replace an order-specific legal assessment. Later acts and their current status require a separate check.*\n\n> **Quick answer:** collect the composition and construction information for the complete package, then establish how it will be assessed under the applicable rules. A material name, supplier slogan or simple paper-content calculation is not a product-level grade.\n\n## Key takeaways\n\n- Article 6 of Regulation (EU) 2025/40 sets grades A, B and C: design-for-recycling applies from 1 January 2030, the recycled-at-scale requirement from 2035, and from 1 January 2038 the framework provides for grades A or B, subject to exemptions.\n- A grade attaches to the complete packaging unit: request a component-level description \u2014 board and wrap, coatings, adhesives and attachments, inserts and accessories \u2014 rather than one material label for the whole set.\n- A composition statement or paper-content calculation is useful input, but it is not a product-level grade; record unknowns instead of turning them into claimed grades.\n- Compare designs without pre-assigning a grade: removing a finish does not guarantee a higher one, and a magnetic closure does not automatically mean a lower one.\n- Textile, lightweight wood, cork, rubber, ceramic, porcelain and wax sales packaging is excluded under Article 6(11), and every listed exemption still needs its own applicability review.\n\n## What do grades A, B and C mean for a buyer?\n\nArticle 6 establishes recyclability performance grades A, B and C. The design-for-recycling market requirement applies from 1 January 2030 or 24 months after the relevant delegated acts enter into force, whichever is later. The recycled-at-scale requirement applies from 1 January 2035 or five years after the relevant implementing acts enter into force, whichever is later. From 1 January 2038, Article 6 provides for grades A or B, subject to its framework and applicable exemptions.\n\nUse the [official regulation](https://eur-lex.europa.eu/eli/reg/2025/40/oj?locale=en), including Article 6 and Annex II, rather than treating a date or threshold taken out of context as an approval test. The [Commission guidance](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026XC03084) is a companion explanation. Our [PPWR overview](https://elapack.com/news/ppwr-packaging-regulation-guide/) maps this requirement alongside other procurement dates.\n\n## How do you request a component-level description?\n\nAsk the supplier to describe each component of the packaging unit separately \u2014 the five groups below show what to request and the question each one resolves.\n\n| Component | Information to request | Question it helps resolve |\n|---|---|---|\n| Board and wrap | Material identification and available composition information | What is the principal construction? |\n| Coatings and decoration | Lamination, coatings, foil and other applied layers | What has been added to the substrate? |\n| Adhesives and attachments | Available information on adhesive systems, magnets, ribbons and windows | What remains attached and what can be separated? |\n| Inserts and accessories | Separate descriptions for each insert or accessory | Is the assessment addressing the whole relevant packaging unit? |\n| Evidence reference | Document issuer, date, construction reference and limitations | Does the evidence match the quoted version? |\n\n![Component-level description of one rigid gift box: board and wrap, coatings and decoration, adhesives and attachments with magnets and ribbon, inserts and accessories, and the evidence reference, with integrated versus separate components marked](/charts/ppwr-component-breakdown.svg)\n\nA supplier may need to obtain information from upstream material suppliers. Record unknowns instead of turning them into a claimed grade. A composition statement is useful input, but it is not interchangeable with an assessment or a conformity document.\n\n## Compare designs without pre-assigning a grade\n\nAsk the supplier to describe the proposed construction and one feasible alternative. Compare component changes, separation steps, fit and presentation. Do not assume that removing a finish guarantees a particular grade, or that a magnetic closure necessarily falls into a lower grade.\n\nThe [surface-finishes guide](https://elapack.com/news/surface-finishes-compared-guide/) and [insert guide](https://elapack.com/news/packaging-inserts-guide/) can help organise design questions. Their material options do not establish a PPWR result. Check the specific package against the applicable methodology and its assessment scope.\n\n## Keep sample and document versions together\n\nBefore approving production, link the component description to the drawing and sample. If a wrap, adhesive, insert or attachment changes, ask whether the evidence remains applicable. Keep the response with the revised specification rather than relying on an earlier catalogue entry.\n\nFor a purchasing review, separate three outcomes: information received, information still missing, and a conclusion confirmed by the responsible assessor. This keeps an unfinished material enquiry from being presented as a compliant product.\n\n## What to send with your enquiry\n\nState the packaging format, contents, target market, quantity and documentation questions. [Contact ELAPACK](https://elapack.com/contact/) to discuss the design and confirm the available order-specific information. A quotation or digital dieline preview is not a recyclability certification.\n\n## Which packaging is exempt from the grade requirement?\n\nTextile, lightweight wood, cork, rubber, ceramic, porcelain and wax sales packaging is excluded under Article 6(11) \u2014 not from PPWR as a whole, and each listed exemption and the innovative-packaging derogation still needs its own applicability review.\n\nArticle 6(1) states the general recyclability requirement; the later design-for-recycling grades and recycled-at-scale rules have their own dates and conditions. Do not describe the later grade deadline as a blanket absence of earlier obligations.\n\nArticle 6(11) excludes specified packaging categories from that Article. These include sales packaging made from textile, lightweight wood, cork, rubber, ceramic, porcelain or wax, while paragraph 8 still applies as specified. This is not a general exemption from PPWR. A textile pouch must first be classified by its actual function and construction; do not assume that every fabric component or mixed-material set qualifies. Other listed exemptions and the innovative-packaging derogation also need an applicability review.\n\nFor in-scope packaging, Article 6(9) distinguishes integrated components from separate components when assessing the packaging unit. Request the actual component and separation information rather than applying one material label to the whole set.\n\n\n## Sources\n\n- [Regulation (EU) 2025/40 \u2014 Packaging and Packaging Waste Regulation (EUR-Lex)](https://eur-lex.europa.eu/eli/reg/2025/40/oj?locale=en) \u2014 the official text, including the Article 6 grade framework and the Article 6(11) exclusions.\n- [European Commission guidance on the PPWR (EUR-Lex)](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026XC03084) \u2014 Commission explanation accompanying the regulation, read during the 22 October 2026 editorial review of this guide."
+    "body": '*Editorial review against the official text of Regulation (EU) 2025/40, including Articles 6, 10, 24 and 71, on 22 October 2026. This purchasing guide does not certify a specific package or replace an order-specific legal assessment. Later acts and their current status require a separate check.*\n\n> **Quick answer:** collect the composition and construction information for the complete package, then establish how it will be assessed under the applicable rules. A material name, supplier slogan or simple paper-content calculation is not a product-level grade.\n\n## Key takeaways\n\n- Article 6 of Regulation (EU) 2025/40 sets grades A, B and C: design-for-recycling applies from 1 January 2030, the recycled-at-scale requirement from 2035, and from 1 January 2038 the framework provides for grades A or B, subject to exemptions.\n- A grade attaches to the complete packaging unit: request a component-level description \u2014 board and wrap, coatings, adhesives and attachments, inserts and accessories \u2014 rather than one material label for the whole set.\n- A composition statement or paper-content calculation is useful input, but it is not a product-level grade; record unknowns instead of turning them into claimed grades.\n- Compare designs without pre-assigning a grade: removing a finish does not guarantee a higher one, and a magnetic closure does not automatically mean a lower one.\n- Textile, lightweight wood, cork, rubber, ceramic, porcelain and wax sales packaging is excluded under Article 6(11), and every listed exemption still needs its own applicability review.\n\n## What do grades A, B and C mean for a buyer?\n\nArticle 6 establishes recyclability performance grades A, B and C. The design-for-recycling market requirement applies from 1 January 2030 or 24 months after the relevant delegated acts enter into force, whichever is later. The recycled-at-scale requirement applies from 1 January 2035 or five years after the relevant implementing acts enter into force, whichever is later. From 1 January 2038, Article 6 provides for grades A or B, subject to its framework and applicable exemptions.\n\nUse the [official regulation](https://eur-lex.europa.eu/eli/reg/2025/40/oj?locale=en), including Article 6 and Annex II, rather than treating a date or threshold taken out of context as an approval test. The [Commission guidance](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026XC03084) is a companion explanation. Our [PPWR overview](https://elapack.com/news/ppwr-packaging-regulation-guide/) maps this requirement alongside other procurement dates. Because a grade is only as sound as the claims underneath it, our guide to [packaging sustainability terms](/news/packaging-sustainability-terms-explained/) sets out what "recyclable", "recycled content" and FSC actually commit a supplier to \u2014 and the document to ask for behind each one.\n\n## How do you request a component-level description?\n\nAsk the supplier to describe each component of the packaging unit separately \u2014 the five groups below show what to request and the question each one resolves.\n\n| Component | Information to request | Question it helps resolve |\n|---|---|---|\n| Board and wrap | Material identification and available composition information | What is the principal construction? |\n| Coatings and decoration | Lamination, coatings, foil and other applied layers | What has been added to the substrate? |\n| Adhesives and attachments | Available information on adhesive systems, magnets, ribbons and windows | What remains attached and what can be separated? |\n| Inserts and accessories | Separate descriptions for each insert or accessory | Is the assessment addressing the whole relevant packaging unit? |\n| Evidence reference | Document issuer, date, construction reference and limitations | Does the evidence match the quoted version? |\n\n![Component-level description of one rigid gift box: board and wrap, coatings and decoration, adhesives and attachments with magnets and ribbon, inserts and accessories, and the evidence reference, with integrated versus separate components marked](/charts/ppwr-component-breakdown.svg)\n\nA supplier may need to obtain information from upstream material suppliers. Record unknowns instead of turning them into a claimed grade. A composition statement is useful input, but it is not interchangeable with an assessment or a conformity document.\n\n## Compare designs without pre-assigning a grade\n\nAsk the supplier to describe the proposed construction and one feasible alternative. Compare component changes, separation steps, fit and presentation. Do not assume that removing a finish guarantees a particular grade, or that a magnetic closure necessarily falls into a lower grade.\n\nThe [surface-finishes guide](https://elapack.com/news/surface-finishes-compared-guide/) and [insert guide](https://elapack.com/news/packaging-inserts-guide/) can help organise design questions. Their material options do not establish a PPWR result. Check the specific package against the applicable methodology and its assessment scope.\n\n## Keep sample and document versions together\n\nBefore approving production, link the component description to the drawing and sample. If a wrap, adhesive, insert or attachment changes, ask whether the evidence remains applicable. Keep the response with the revised specification rather than relying on an earlier catalogue entry.\n\nFor a purchasing review, separate three outcomes: information received, information still missing, and a conclusion confirmed by the responsible assessor. This keeps an unfinished material enquiry from being presented as a compliant product.\n\n## What to send with your enquiry\n\nState the packaging format, contents, target market, quantity and documentation questions. [Contact ELAPACK](https://elapack.com/contact/) to discuss the design and confirm the available order-specific information. A quotation or digital dieline preview is not a recyclability certification.\n\n## Which packaging is exempt from the grade requirement?\n\nTextile, lightweight wood, cork, rubber, ceramic, porcelain and wax sales packaging is excluded under Article 6(11) \u2014 not from PPWR as a whole, and each listed exemption and the innovative-packaging derogation still needs its own applicability review.\n\nArticle 6(1) states the general recyclability requirement; the later design-for-recycling grades and recycled-at-scale rules have their own dates and conditions. Do not describe the later grade deadline as a blanket absence of earlier obligations.\n\nArticle 6(11) excludes specified packaging categories from that Article. These include sales packaging made from textile, lightweight wood, cork, rubber, ceramic, porcelain or wax, while paragraph 8 still applies as specified. This is not a general exemption from PPWR. A textile pouch must first be classified by its actual function and construction; do not assume that every fabric component or mixed-material set qualifies. Other listed exemptions and the innovative-packaging derogation also need an applicability review.\n\nFor in-scope packaging, Article 6(9) distinguishes integrated components from separate components when assessing the packaging unit. Request the actual component and separation information rather than applying one material label to the whole set.\n\n\n## Sources\n\n- [Regulation (EU) 2025/40 \u2014 Packaging and Packaging Waste Regulation (EUR-Lex)](https://eur-lex.europa.eu/eli/reg/2025/40/oj?locale=en) \u2014 the official text, including the Article 6 grade framework and the Article 6(11) exclusions.\n- [European Commission guidance on the PPWR (EUR-Lex)](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026XC03084) \u2014 Commission explanation accompanying the regulation, read during the 22 October 2026 editorial review of this guide.'
   },
   {
     "slug": "magnetic-gift-boxes-wholesale-guide",
@@ -6127,7 +6769,7 @@ Keep the note local, and send it to your supplier through your existing approved
   },
   {
     "slug": "ppwr-empty-space-rules-guide",
-    "dateModified": "2026-11-18",
+    "dateModified": "2026-11-21",
     "datePublished": "2026-10-14",
     "title": "PPWR Packaging Minimisation and Empty Space Rules: The 50% Cap Explained",
     "category": "Sourcing Guide",
@@ -6139,7 +6781,97 @@ Keep the note local, and send it to your supplier through your existing approved
     "imageHeight": 1024,
     "excerpt": "Separate the conditional 50% rule for grouped, transport and e-commerce packaging from sales-packaging minimisation, with an illustrative size comparison.",
     "metaDescription": "How to check your packaging against the PPWR 50% empty-space cap: which layers it covers, how to calculate the ratio, and what to change in your box sizes.",
-    "body": "*Editorial review against the official text of Regulation (EU) 2025/40, including Articles 6, 10, 24 and 71, on 22 October 2026. This purchasing guide does not certify a specific package or replace an order-specific legal assessment. Later acts and their current status require a separate check.*\n\n> **Quick answer:** the maximum 50% empty-space requirement concerns grouped, transport and e-commerce packaging filled by the relevant economic operator. It applies by 1 January 2030 or three years after the relevant implementing acts enter into force, whichever is later. Sales packaging has a separate minimisation requirement; do not apply 50% automatically to every gift box.\n\n## Key takeaways\n\n- The PPWR maximum empty-space ratio is 50%, and it concerns grouped, transport and e-commerce packaging \u2014 sales packaging has a separate minimisation requirement, so do not apply 50% automatically to every gift box.\n- The cap is conditional: it applies by 1 January 2030 or three years after the relevant implementing acts enter into force, whichever is later.\n- Filler counts as empty space: Article 24 treats space occupied by filling materials as empty space, so adding cushioning does not by itself reduce the regulatory ratio.\n- Measure against the contained sales packaging, not the bare product \u2014 and treat a simplified volume calculation as an illustration only, because the applicable methodology is set by implementing acts.\n- Right-size from the sample brief: record product dimensions, weight, orientation and unit count, and compare drawings and loaded samples using the actual contents; there is no universal clearance figure that proves compliance.\n\n## Which packaging layer should you identify first?\n\nIdentify the function of each layer before calculating anything \u2014 the 50% cap in Article 24(1) covers grouped, transport and e-commerce packaging, while sales packaging carries its own minimise-to-necessary duty from 12 February 2028 under Article 24(4).\n\n| Packaging situation | What to check |\n|---|---|\n| Grouped, transport or e-commerce packaging | Article 24(1), the applicable calculation method and any relevant exemption |\n| Sales packaging | By 12 February 2028, minimise empty space to what is necessary for functionality, including protection, under Article 24(4) |\n| A retail box inside a shipper | Identify the function of each layer before assessing it; do not treat both layers as the same package |\n\nThe [Commission guidance](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026XC03084) explains that sales-packaging empty-space minimisation is not linked to a predefined numerical threshold. Review the [official regulation](https://eur-lex.europa.eu/eli/reg/2025/40/oj?locale=en) for the full rules. General PPWR application and this specific deadline are separate: see the [PPWR overview](https://elapack.com/news/ppwr-packaging-regulation-guide/).\n\n## Does filler reduce the empty-space ratio?\n\nArticle 24 treats space occupied by filling materials as empty space. Adding cushioning therefore does not, by itself, reduce the regulatory ratio. Protection is still necessary: agree how the packaging will protect the product, then review avoidable voids rather than removing cushioning simply to reduce a number.\n\nThe regulation provides for an implementing methodology. A simplified volume calculation should not be presented as evidence that a commercial pack complies with that methodology.\n\n## How do you calculate the empty-space ratio for a real order?\n\nAssume two rectangular containers have the following internal dimensions and both hold an illustrative occupied volume of 7,200 cm\xB3. This example uses those stated assumptions only; it does not define the statutory measurement basis.\n\n| Example | Assumed internal volume | Illustrative unused-volume share |\n|---|---|---|\n| 40 \xD7 30 \xD7 15 cm | 18,000 cm\xB3 | 60.0% |\n| 33 \xD7 25 \xD7 12 cm | 9,900 cm\xB3 | 27.3% |\n\nCalculation: (assumed internal volume \u2212 assumed occupied volume) \xF7 assumed internal volume. The smaller example has less unused volume under these assumptions. Neither result is labelled compliant or non-compliant: the applicable category, method, functional requirements and exemptions still need checking.\n\n![Worked empty-space calculation: the same 7,200 cm\xB3 of occupied volume in a 40 \xD7 30 \xD7 15 cm box (18,000 cm\xB3 internal) gives a 60.0% unused share, and in a 33 \xD7 25 \xD7 12 cm box (9,900 cm\xB3 internal) a 27.3% unused share, against the PPWR 50% maximum](/charts/ppwr-empty-space-calculation.svg)\n\n## Turn the sizing discussion into a sample brief\n\n| Brief field | What to record |\n|---|---|\n| Contents | Product dimensions, weight, orientation and number of units |\n| Packaging layers | Retail pack, insert, cushioning and outer shipper, each identified |\n| Functional space | Why clearance or cushioning is needed and how it will be checked |\n| Distribution | Destination, handling and proposed transport conditions |\n| Evidence and revision | Drawing version, loaded sample and agreed assessment or test requirements |\n\nThere is no universal clearance figure that proves compliance or transport protection. Compare drawings and loaded samples using the actual contents. The [specification-sheet guide](https://elapack.com/news/how-to-read-a-packaging-specification-sheet/) helps keep dimensional references consistent; the [samples guide](https://elapack.com/news/custom-packaging-samples-guide/) supports sample planning.\n\n## Review dimensions and materials together\n\nA smaller box may change insert geometry, opening access or component requirements. Record those changes and revisit the [recyclability questions](https://elapack.com/news/ppwr-recyclability-grades-guide/) where relevant. Do not assume right-sizing alone settles all PPWR duties or guarantees lower delivered cost.\n\nELAPACK provides free digital dieline previews for structure review. [Send your dimensions and quantities](https://elapack.com/contact/), identify the packaging layers and list any required documents so their availability can be confirmed for the proposed order. The drawing is a design aid, not a compliance certificate.\n\n## Check the empty-space exceptions separately\n\nArticle 24(5) exempts operators using sales packaging as e-commerce packaging, or reusable packaging within a system of re-use, from the paragraph 1 numerical cap. The provision nevertheless requires such sales packaging to meet Article 10. This does not remove all packaging-minimisation duties. Article 10(1) sets a separate 1 January 2030 design requirement for minimum necessary packaging weight and volume, taking account of functionality, shape and material.\n\nFor the Article 24(3) calculation, the regulation defines empty space by reference to the grouped, transport or e-commerce packaging and the sales packaging contained in it. That is different from simply measuring the bare product. Confirm the applicable category and implementing methodology before using a worked example as a compliance calculation.\n\n## Questions buyers ask\n\n### Which packaging layers does the 50% empty-space cap cover?\n\nThe maximum 50% empty-space requirement concerns grouped, transport and e-commerce packaging filled by the relevant economic operator. Sales packaging is handled separately: by 12 February 2028, its empty space must be minimised to what is necessary for functionality, including protection, under Article 24(4), and the Commission guidance explains that this minimisation is not linked to a predefined numerical threshold. Where a retail box sits inside a shipper, identify the function of each layer before assessing it \u2014 do not treat both layers as the same package.\n\n### Does filler count toward empty space?\n\nYes. Article 24 treats space occupied by filling materials as empty space, so adding cushioning does not, by itself, reduce the regulatory ratio. Protection is still necessary: agree how the packaging will protect the product, then review avoidable voids rather than removing cushioning simply to reduce a number.\n\n### How is the empty-space ratio calculated, and when does the cap apply?\n\nFor the Article 24(3) calculation, the regulation defines empty space by reference to the grouped, transport or e-commerce packaging and the sales packaging contained in it \u2014 that is different from simply measuring the bare product. This guide's worked example uses (assumed internal volume \u2212 assumed occupied volume) \xF7 assumed internal volume as a simplified illustration; the regulation provides for an implementing methodology, so a simplified volume calculation should not be presented as evidence that a commercial pack complies with that methodology. The cap applies by 1 January 2030 or three years after the relevant implementing acts enter into force, whichever is later.\n\n### What should I change in my box sizing now?\n\nStart with the brief: record the contents \u2014 product dimensions, weight, orientation and number of units \u2014 and identify each packaging layer (retail pack, insert, cushioning and outer shipper), then compare drawings and loaded samples using the actual contents, because there is no universal clearance figure that proves compliance or transport protection. Record the knock-on effects as well: a smaller box may change insert geometry, opening access or component requirements, and right-sizing alone does not settle all PPWR duties or guarantee lower delivered cost.\n\n## Sources\n\n- Regulation (EU) 2025/40 of the European Parliament and of the Council of 19 December 2024 on packaging and packaging waste (the PPWR), EUR-Lex \u2014 [official text](https://eur-lex.europa.eu/eli/reg/2025/40/oj/eng).\n- European Commission guidance on sales-packaging empty-space minimisation, EUR-Lex \u2014 [guidance notice](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026XC03084), also linked from the layer section above.\n- Editorial basis: this guide was reviewed against the official text of Regulation (EU) 2025/40, including Articles 6, 10, 24 and 71, on 22 October 2026. It does not certify a specific package or replace an order-specific legal assessment.\n"
+    "body": `*Editorial review against the official text of Regulation (EU) 2025/40, including Articles 6, 10, 24 and 71, on 22 October 2026. This purchasing guide does not certify a specific package or replace an order-specific legal assessment. Later acts and their current status require a separate check.*
+
+> **Quick answer:** the maximum 50% empty-space requirement concerns grouped, transport and e-commerce packaging filled by the relevant economic operator. It applies by 1 January 2030 or three years after the relevant implementing acts enter into force, whichever is later. Sales packaging has a separate minimisation requirement; do not apply 50% automatically to every gift box.
+
+## Key takeaways
+
+- The PPWR maximum empty-space ratio is 50%, and it concerns grouped, transport and e-commerce packaging \u2014 sales packaging has a separate minimisation requirement, so do not apply 50% automatically to every gift box.
+- The cap is conditional: it applies by 1 January 2030 or three years after the relevant implementing acts enter into force, whichever is later.
+- Filler counts as empty space: Article 24 treats space occupied by filling materials as empty space, so adding cushioning does not by itself reduce the regulatory ratio.
+- Measure against the contained sales packaging, not the bare product \u2014 and treat a simplified volume calculation as an illustration only, because the applicable methodology is set by implementing acts.
+- Right-size from the sample brief: record product dimensions, weight, orientation and unit count, and compare drawings and loaded samples using the actual contents; there is no universal clearance figure that proves compliance.
+
+## Which packaging layer should you identify first?
+
+Identify the function of each layer before calculating anything \u2014 the 50% cap in Article 24(1) covers grouped, transport and e-commerce packaging, while sales packaging carries its own minimise-to-necessary duty from 12 February 2028 under Article 24(4).
+
+| Packaging situation | What to check |
+|---|---|
+| Grouped, transport or e-commerce packaging | Article 24(1), the applicable calculation method and any relevant exemption |
+| Sales packaging | By 12 February 2028, minimise empty space to what is necessary for functionality, including protection, under Article 24(4) |
+| A retail box inside a shipper | Identify the function of each layer before assessing it; do not treat both layers as the same package |
+
+The [Commission guidance](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026XC03084) explains that sales-packaging empty-space minimisation is not linked to a predefined numerical threshold. Review the [official regulation](https://eur-lex.europa.eu/eli/reg/2025/40/oj?locale=en) for the full rules. General PPWR application and this specific deadline are separate: see the [PPWR overview](https://elapack.com/news/ppwr-packaging-regulation-guide/).
+
+## Does filler reduce the empty-space ratio?
+
+Article 24 treats space occupied by filling materials as empty space. Adding cushioning therefore does not, by itself, reduce the regulatory ratio. Protection is still necessary: agree how the packaging will protect the product, then review avoidable voids rather than removing cushioning simply to reduce a number.
+
+The regulation provides for an implementing methodology. A simplified volume calculation should not be presented as evidence that a commercial pack complies with that methodology.
+
+## How do you calculate the empty-space ratio for a real order?
+
+Assume two rectangular containers have the following internal dimensions and both hold an illustrative occupied volume of 7,200 cm\xB3. This example uses those stated assumptions only; it does not define the statutory measurement basis.
+
+| Example | Assumed internal volume | Illustrative unused-volume share |
+|---|---|---|
+| 40 \xD7 30 \xD7 15 cm | 18,000 cm\xB3 | 60.0% |
+| 33 \xD7 25 \xD7 12 cm | 9,900 cm\xB3 | 27.3% |
+
+Calculation: (assumed internal volume \u2212 assumed occupied volume) \xF7 assumed internal volume. The smaller example has less unused volume under these assumptions. Neither result is labelled compliant or non-compliant: the applicable category, method, functional requirements and exemptions still need checking.
+
+![Worked empty-space calculation: the same 7,200 cm\xB3 of occupied volume in a 40 \xD7 30 \xD7 15 cm box (18,000 cm\xB3 internal) gives a 60.0% unused share, and in a 33 \xD7 25 \xD7 12 cm box (9,900 cm\xB3 internal) a 27.3% unused share, against the PPWR 50% maximum](/charts/ppwr-empty-space-calculation.svg)
+
+## Turn the sizing discussion into a sample brief
+
+| Brief field | What to record |
+|---|---|
+| Contents | Product dimensions, weight, orientation and number of units |
+| Packaging layers | Retail pack, insert, cushioning and outer shipper, each identified |
+| Functional space | Why clearance or cushioning is needed and how it will be checked |
+| Distribution | Destination, handling and proposed transport conditions |
+| Evidence and revision | Drawing version, loaded sample and agreed assessment or test requirements |
+
+There is no universal clearance figure that proves compliance or transport protection. Compare drawings and loaded samples using the actual contents. The [specification-sheet guide](https://elapack.com/news/how-to-read-a-packaging-specification-sheet/) helps keep dimensional references consistent; the [samples guide](https://elapack.com/news/custom-packaging-samples-guide/) supports sample planning.
+
+## Review dimensions and materials together
+
+A smaller box may change insert geometry, opening access or component requirements. Record those changes and revisit the [recyclability questions](https://elapack.com/news/ppwr-recyclability-grades-guide/) where relevant. The words printed on the box carry duties of their own: our guide to [packaging sustainability terms](/news/packaging-sustainability-terms-explained/) explains what "recyclable" and "recycled content" commit you to before they go on artwork. Do not assume right-sizing alone settles all PPWR duties or guarantees lower delivered cost.
+
+ELAPACK provides free digital dieline previews for structure review. [Send your dimensions and quantities](https://elapack.com/contact/), identify the packaging layers and list any required documents so their availability can be confirmed for the proposed order. The drawing is a design aid, not a compliance certificate.
+
+## Check the empty-space exceptions separately
+
+Article 24(5) exempts operators using sales packaging as e-commerce packaging, or reusable packaging within a system of re-use, from the paragraph 1 numerical cap. The provision nevertheless requires such sales packaging to meet Article 10. This does not remove all packaging-minimisation duties. Article 10(1) sets a separate 1 January 2030 design requirement for minimum necessary packaging weight and volume, taking account of functionality, shape and material.
+
+For the Article 24(3) calculation, the regulation defines empty space by reference to the grouped, transport or e-commerce packaging and the sales packaging contained in it. That is different from simply measuring the bare product. Confirm the applicable category and implementing methodology before using a worked example as a compliance calculation.
+
+## Questions buyers ask
+
+### Which packaging layers does the 50% empty-space cap cover?
+
+The maximum 50% empty-space requirement concerns grouped, transport and e-commerce packaging filled by the relevant economic operator. Sales packaging is handled separately: by 12 February 2028, its empty space must be minimised to what is necessary for functionality, including protection, under Article 24(4), and the Commission guidance explains that this minimisation is not linked to a predefined numerical threshold. Where a retail box sits inside a shipper, identify the function of each layer before assessing it \u2014 do not treat both layers as the same package.
+
+### Does filler count toward empty space?
+
+Yes. Article 24 treats space occupied by filling materials as empty space, so adding cushioning does not, by itself, reduce the regulatory ratio. Protection is still necessary: agree how the packaging will protect the product, then review avoidable voids rather than removing cushioning simply to reduce a number.
+
+### How is the empty-space ratio calculated, and when does the cap apply?
+
+For the Article 24(3) calculation, the regulation defines empty space by reference to the grouped, transport or e-commerce packaging and the sales packaging contained in it \u2014 that is different from simply measuring the bare product. This guide's worked example uses (assumed internal volume \u2212 assumed occupied volume) \xF7 assumed internal volume as a simplified illustration; the regulation provides for an implementing methodology, so a simplified volume calculation should not be presented as evidence that a commercial pack complies with that methodology. The cap applies by 1 January 2030 or three years after the relevant implementing acts enter into force, whichever is later.
+
+### What should I change in my box sizing now?
+
+Start with the brief: record the contents \u2014 product dimensions, weight, orientation and number of units \u2014 and identify each packaging layer (retail pack, insert, cushioning and outer shipper), then compare drawings and loaded samples using the actual contents, because there is no universal clearance figure that proves compliance or transport protection. Record the knock-on effects as well: a smaller box may change insert geometry, opening access or component requirements, and right-sizing alone does not settle all PPWR duties or guarantee lower delivered cost.
+
+## Sources
+
+- Regulation (EU) 2025/40 of the European Parliament and of the Council of 19 December 2024 on packaging and packaging waste (the PPWR), EUR-Lex \u2014 [official text](https://eur-lex.europa.eu/eli/reg/2025/40/oj/eng).
+- European Commission guidance on sales-packaging empty-space minimisation, EUR-Lex \u2014 [guidance notice](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026XC03084), also linked from the layer section above.
+- Editorial basis: this guide was reviewed against the official text of Regulation (EU) 2025/40, including Articles 6, 10, 24 and 71, on 22 October 2026. It does not certify a specific package or replace an order-specific legal assessment.
+`
   },
   {
     "slug": "custom-toiletry-bags-guide",
@@ -6219,7 +6951,7 @@ Keep the note local, and send it to your supplier through your existing approved
     "imageHeight": 1350,
     "excerpt": "Specify clear cosmetic bags from the actual contents, material, closure and artwork. Confirm travel rules separately and review the loaded sample.",
     "metaDescription": "Plan clear cosmetic bags by contents, material, usable dimensions, closure and logo. Confirm project specifications and any applicable travel requirements.",
-    "body": "*This guide covers transparent cosmetic-packaging selection. Material availability, thickness, welding or sewing method, carrying load and print performance require a project-specific specification; no universal film band or airport-approval guarantee is claimed.*\n\n> **Quick answer:** start with the actual contents and use, then confirm dimensions, material, closure and artwork. A clear appearance or a stated film thickness does not establish carrying strength, print adhesion or airport compliance.\n\n## Key takeaways\n\n**Separate the use, fix construction and specification, then compare clear-bag quotations on identical terms \u2014 transparency alone establishes neither carrying strength, print adhesion nor airport compliance.**\n\n1. Separate retail, kit and travel uses first, then compare constructions \u2014 flat zip, gusseted, carry or divided \u2014 as sample-confirmed concepts.\n2. Agree material identity, thickness, surface finish and construction in a written specification; an old website thickness range is not proof of current stock.\n3. Size from the tallest and widest packed items and any partitions; usable internal space and the opening differ from external dimensions.\n4. ELAPACK terms: MOQ 200 pieces per product or component; custom samples USD 30 plus USD 25 shipping, made in 3\u20135 days.\n5. Stock samples are free with USD 25 shipping (4\u20137 days); production typically runs 15\u201320 days after sample approval and payment receipt.\n\nLast updated November 2026.\n\n## How do retail, kit and travel uses differ?\n\nA retail pouch may need product visibility; a working kit may need repeated opening and separation of tools; a travel pouch must also be checked against the applicable security rules. These tasks should not be treated as one standard size.\n\nFor the United States, consult the [TSA liquids rule](https://www.tsa.gov/travel/security-screening/liquids-rule) for the current permitted containers, bag requirement and exceptions. This guide does not certify a product as TSA approved, and a US rule should not be applied to every airport or country.\n\n## Compare proposed constructions\n\n![Four clear cosmetic bag constructions compared \u2014 flat zip pouch, gusseted pouch, carry format and divided kit \u2014 each with its buyer task and what to confirm on the sample](/charts/clear-cosmetic-bag-constructions.svg)\n\n| Candidate | Buyer task | Confirm on the sample |\n|---|---|---|\n| Flat zip pouch | Small item presentation or an inner layer | Usable opening, closed height and edge quality |\n| Gusseted pouch | Contents needing a wider base | Loaded stability and closure clearance |\n| Carry format | Retail kit with handles | Handle attachment and intended loaded weight |\n| Divided kit | Tools or items needing separation | Compartment access and surface contact |\n\nThese are design concepts to discuss, not a statement that every construction is in stock. Confirm whether the proposed pattern, material and production method are available before approving artwork.\n\n## Material and thickness need an agreed specification\n\nThe [clear PVC bag product page](https://elapack.com/products/custom-pvc-bags/) is the related product route. Ask for the material identity, proposed thickness, surface finish and suitable construction for your brief. Do not use an old website thickness range as proof of current factory stock or assume that a thicker film eliminates handle distortion.\n\nIf comparing another transparent material, request the actual grade and relevant project evidence. Material names alone do not establish cold flexibility, environmental benefit or regulatory suitability. Any required chemical or environmental documentation should match the supplied material and destination requirements.\n\n## How do you size the bag from the complete contents?\n\nSupply the tallest and widest items, their combined arrangement and any partitions. Distinguish external dimensions from usable internal space and the opening. Load the sample, close it without forcing the zip, and check access when the contents are removed and replaced. Do not infer bag fit from the nominal volume printed on a bottle.\n\n## Review artwork and closure\n\nProvide artwork at its intended size and indicate whether the logo needs an opaque background. Ask for a feasible print process and colour count; single colour is an option, not a universal technical limit on clear film.\n\nReview contrast, alignment, surface marking, zip operation and seam or attachment details. Agree adhesion and durability checks for the intended handling. A visual sample review alone is not a durability test.\n\n## Why compare quotations on equal terms?\n\nKeep dimensions, material grade, closure, artwork, quantity, packing and destination consistent. Separate sample, freight and assembly charges. A catalogue pouch with decoration and a newly developed shape may meet different briefs; neither is automatically cheaper or faster.\n\nELAPACK's MOQ is 200 pieces. Confirm size, colour and artwork allocation in the quotation; this does not mean every variant can be split freely. For a complete set, each component has a 200-piece minimum. Custom samples are USD 30 plus USD 25 shipping, with a 3\u20135 day sample-making timeframe. Stock samples are free with USD 25 shipping and a stated delivery timeframe of 4\u20137 days. Production is typically 15\u201320 days after sample approval and payment receipt; confirm by order.\n\n[Send ELAPACK the item list](https://elapack.com/contact/) and the intended use. The broader [cosmetic bags guide](https://elapack.com/news/custom-cosmetic-bags-guide/) covers related fabric formats.\n\n## Sources\n\n1. ELAPACK \u2014 confirmed trade terms (MOQ 200 pieces per product or component; complete sets require 200 pieces of each component; custom samples USD 30 plus USD 25 shipping, sample making 3\u20135 days; stock samples free with USD 25 shipping, 4\u20137 days; production typically 15\u201320 days after sample approval and payment receipt) \u2014 https://elapack.com/\n\nThis page contains no third-party data. The TSA liquids-rule link is official traveller guidance named for the buyer's own check, not product evidence; material, thickness and compliance questions remain project-specific, as stated in the guide."
+    "body": "*This guide covers transparent cosmetic-packaging selection. Material availability, thickness, welding or sewing method, carrying load and print performance require a project-specific specification; no universal film band or airport-approval guarantee is claimed.*\n\n> **Quick answer:** start with the actual contents and use, then confirm dimensions, material, closure and artwork. A clear appearance or a stated film thickness does not establish carrying strength, print adhesion or airport compliance.\n\n## Key takeaways\n\n**Separate the use, fix construction and specification, then compare clear-bag quotations on identical terms \u2014 transparency alone establishes neither carrying strength, print adhesion nor airport compliance.**\n\n1. Separate retail, kit and travel uses first, then compare constructions \u2014 flat zip, gusseted, carry or divided \u2014 as sample-confirmed concepts.\n2. Agree material identity, thickness, surface finish and construction in a written specification; an old website thickness range is not proof of current stock.\n3. Size from the tallest and widest packed items and any partitions; usable internal space and the opening differ from external dimensions.\n4. ELAPACK terms: MOQ 200 pieces per product or component; custom samples USD 30 plus USD 25 shipping, made in 3\u20135 days.\n5. Stock samples are free with USD 25 shipping (4\u20137 days); production typically runs 15\u201320 days after sample approval and payment receipt.\n\nLast updated November 2026.\n\n## How do retail, kit and travel uses differ?\n\nA retail pouch may need product visibility; a working kit may need repeated opening and separation of tools; a travel pouch must also be checked against the applicable security rules. These tasks should not be treated as one standard size.\n\nFor the United States, consult the [TSA liquids rule](https://www.tsa.gov/travel/security-screening/liquids-rule) for the current permitted containers, bag requirement and exceptions. This guide does not certify a product as TSA approved, and a US rule should not be applied to every airport or country.\n\n## Compare proposed constructions\n\n![Four clear cosmetic bag constructions compared \u2014 flat zip pouch, gusseted pouch, carry format and divided kit \u2014 each with its buyer task and what to confirm on the sample](/charts/clear-cosmetic-bag-constructions.svg)\n\n| Candidate | Buyer task | Confirm on the sample |\n|---|---|---|\n| Flat zip pouch | Small item presentation or an inner layer | Usable opening, closed height and edge quality |\n| Gusseted pouch | Contents needing a wider base | Loaded stability and closure clearance |\n| Carry format | Retail kit with handles | Handle attachment and intended loaded weight |\n| Divided kit | Tools or items needing separation | Compartment access and surface contact |\n\nThese are design concepts to discuss, not a statement that every construction is in stock. Confirm whether the proposed pattern, material and production method are available before approving artwork.\n\n## Material and thickness need an agreed specification\n\nThe [clear PVC bag product page](https://elapack.com/products/custom-pvc-bags/) is the related product route. Ask for the material identity, proposed thickness, surface finish and suitable construction for your brief. Do not use an old website thickness range as proof of current factory stock or assume that a thicker film eliminates handle distortion.\n\nIf comparing another transparent material, request the actual grade and relevant project evidence. Material names alone do not establish cold flexibility, environmental benefit or regulatory suitability. Any required chemical or environmental documentation should match the supplied material and destination requirements.\n\n## How do you size the bag from the complete contents?\n\nSupply the tallest and widest items, their combined arrangement and any partitions. Distinguish external dimensions from usable internal space and the opening. Load the sample, close it without forcing the zip, and check access when the contents are removed and replaced. Do not infer bag fit from the nominal volume printed on a bottle.\n\n## Review artwork and closure\n\nProvide artwork at its intended size and indicate whether the logo needs an opaque background. Ask for a feasible print process and colour count; single colour is an option, not a universal technical limit on clear film.\n\nReview contrast, alignment, surface marking, zip operation and seam or attachment details. Agree adhesion and durability checks for the intended handling. A visual sample review alone is not a durability test.\n\n## Why compare quotations on equal terms?\n\nKeep dimensions, material grade, closure, artwork, quantity, packing and destination consistent. Separate sample, freight and assembly charges. A catalogue pouch with decoration and a newly developed shape may meet different briefs; neither is automatically cheaper or faster.\n\nELAPACK's MOQ is 200 pieces. Confirm size, colour and artwork allocation in the quotation; this does not mean every variant can be split freely. For a complete set, each component has a 200-piece minimum. Custom samples are USD 30 plus USD 25 shipping, with a 3\u20135 day sample-making timeframe. Stock samples are free with USD 25 shipping and a stated delivery timeframe of 4\u20137 days. Production is typically 15\u201320 days after sample approval and payment receipt; confirm by order.\n\n[Send ELAPACK the item list](https://elapack.com/contact/) and the intended use. The broader [cosmetic bags guide](https://elapack.com/news/custom-cosmetic-bags-guide/) covers related fabric formats. To order the finished formats, browse [cosmetic pouches and makeup bags](https://elapack.com/custom-cosmetic-pouches/) and specify clear or fabric construction per format.\n\n## Sources\n\n1. ELAPACK \u2014 confirmed trade terms (MOQ 200 pieces per product or component; complete sets require 200 pieces of each component; custom samples USD 30 plus USD 25 shipping, sample making 3\u20135 days; stock samples free with USD 25 shipping, 4\u20137 days; production typically 15\u201320 days after sample approval and payment receipt) \u2014 https://elapack.com/\n\nThis page contains no third-party data. The TSA liquids-rule link is official traveller guidance named for the buyer's own check, not product evidence; material, thickness and compliance questions remain project-specific, as stated in the guide."
   },
   {
     "slug": "custom-leather-cosmetic-bags-guide",
@@ -6235,7 +6967,7 @@ Keep the note local, and send it to your supplier through your existing approved
     "imageHeight": 1350,
     "excerpt": "Specify leather-look cosmetic bags by actual face material, backing, lining, construction and branding, with sample checks for the intended contents.",
     "metaDescription": "Compare leather-look cosmetic bag proposals by material, backing, lining, closure and branding. Confirm availability and sample scope. MOQ 200.",
-    "body": "*Material and construction choices below are buyer questions. They do not establish ELAPACK stock, material composition, service life or availability of every proposed format.*\n\nA leather-look cosmetic-bag enquiry should define the material before comparing appearance or price. A product name does not tell the buyer whether the proposed material is animal leather, a coated fabric or another synthetic construction. Ask for the actual material reference and confirm current availability. This page focuses on that specification task; the [cosmetic bag guide](https://elapack.com/news/custom-cosmetic-bags-guide/) covers the wider format choice.\n\n## Record the face and backing separately\n\n| Field | What to request | Why it belongs in the approval record |\n|---|---|---|\n| Surface material | Declared coating or leather type and material reference | Avoids comparing unlike proposals under one name |\n| Backing | Actual fibre and construction where applicable | Identifies the material supporting the face |\n| Thickness and lining | Declared measurement, lining and any interlining | Helps explain the assembled feel and usable space |\n| Closure and edges | Proposed zipper, snap, seam or edge construction | Defines handling and finishing requirements |\n| Care | Supplier instructions for the selected material and decoration | Avoids assuming a universal cleaning method |\n\nDo not assume that all PU materials use microfiber backing or that the backing alone establishes hydrolysis resistance, tear strength or service life. Kuraray describes its own [CLARINO material construction](https://www.kuraray.com/global-en/company/history/clarino/); that named manufacturer example is not an ELAPACK material specification or evidence of a supplier relationship. Ask for evidence tied to the material proposed for the order.\n\n## Compare construction by the actual contents\n\nA flat pouch, gusseted bag, flap format and rigid presentation component perform different tasks. Request a drawing or current product reference for the proposed structure rather than treating them as interchangeable items at one price.\n\nMeasure the actual cosmetic containers, caps and any accessories. Review the usable opening, internal seams and how the contents sit when closed. Where a rigid tray or box is proposed, quote and sample it as its own construction. The [rigid box guide](https://elapack.com/news/custom-rigid-boxes-guide/) provides related structural questions; it does not establish availability of a particular leather-look build.\n\n![Illustrative buyer checklist: confirm the leather-look material](/charts/leather-cosmetic-bag-builds-reviewed-20261022.svg)\n\n## Approve branding on the selected material\n\nSupply the intended artwork, mark size and placement. Ask which process is proposed and whether the chosen surface can accept it. Texture, coatings and the decoration process must be reviewed together; do not assume one smooth surface always gives the best foil result or that a particular method is always cheapest.\n\nCheck the sample for appearance, legibility, placement and the handling relevant to the intended use. Confirm sample contents if a finish or material will be substituted. The [logo guide](https://elapack.com/news/custom-logo-pouches-guide/) provides preparation questions, while the order quotation must identify the actual process.\n\n## Treat durability as an evidence question\n\nDo not buy from a generic promise that synthetic material lasts a fixed number of years or that animal leather always outlasts it. Record the expected use, contact with cosmetics, storage conditions and cleaning routine. Ask what evidence supports any proposed resistance claim and whether it applies to the actual face, backing, seam and print system.\n\nWithout relevant evidence, keep longevity and cleaning performance unconfirmed. A visually acceptable sample does not establish multi-year durability, resistance to leakage or compatibility with every cosmetic formulation.\n\n## Confirm commercial scope\n\nELAPACK MOQ is 200 pieces; confirm design allocation and current project availability. Complete packaging sets require 200 pieces for each component. Stock samples are free with USD 25 shipping and typical delivery of 4\u20137 days. Custom samples cost USD 30 plus USD 25 shipping, with sample making in 3\u20135 days. Confirm that the proposed sample represents the requested material and decoration.\n\nTypical production is 15\u201320 days after sample approval and payment receipt, subject to the confirmed order. [Contact ELAPACK](https://elapack.com/contact/) with the contents, dimensions, material reference, artwork, quantity and destination to agree the actual construction and quotation scope."
+    "body": "*Material and construction choices below are buyer questions. They do not establish ELAPACK stock, material composition, service life or availability of every proposed format.*\n\nA leather-look cosmetic-bag enquiry should define the material before comparing appearance or price. A product name does not tell the buyer whether the proposed material is animal leather, a coated fabric or another synthetic construction. Ask for the actual material reference and confirm current availability. This page focuses on that specification task; the [cosmetic bag guide](https://elapack.com/news/custom-cosmetic-bags-guide/) covers the wider format choice.\n\n## Key takeaways\n\n- A product name does not identify the material: record the declared surface, backing, thickness and lining as separate fields before comparing appearance or price.\n- Compare constructions \u2014 flat pouch, gusseted bag, flap format \u2014 against the actual contents and the usable opening, each quoted and sampled as its own build.\n- Approve branding on the selected material itself; texture, coatings and the decoration process are reviewed together on the sample.\n- Treat durability and cleaning claims as evidence questions tied to the actual face, backing, seam and print system, not as generic promises.\n- ELAPACK commercial terms: MOQ 200 pieces, with complete packaging sets at 200 pieces for each component; stock samples are free with USD 25 shipping and typical delivery of 4\u20137 days; custom samples cost USD 30 plus USD 25 shipping, are made in 3\u20135 days, and the fee is credited against a confirmed first order; production is typically 15\u201320 days after sample approval and payment.\n\n## Why should the face and backing be recorded separately?\n\n| Field | What to request | Why it belongs in the approval record |\n|---|---|---|\n| Surface material | Declared coating or leather type and material reference | Avoids comparing unlike proposals under one name |\n| Backing | Actual fibre and construction where applicable | Identifies the material supporting the face |\n| Thickness and lining | Declared measurement, lining and any interlining | Helps explain the assembled feel and usable space |\n| Closure and edges | Proposed zipper, snap, seam or edge construction | Defines handling and finishing requirements |\n| Care | Supplier instructions for the selected material and decoration | Avoids assuming a universal cleaning method |\n\nDo not assume that all PU materials use microfiber backing or that the backing alone establishes hydrolysis resistance, tear strength or service life. Kuraray describes its own [CLARINO material construction](https://www.kuraray.com/global-en/company/history/clarino/); that named manufacturer example is not an ELAPACK material specification or evidence of a supplier relationship. Ask for evidence tied to the material proposed for the order.\n\n## How should construction be compared against the contents?\n\nA flat pouch, gusseted bag, flap format and rigid presentation component perform different tasks. Request a drawing or current product reference for the proposed structure rather than treating them as interchangeable items at one price.\n\nMeasure the actual cosmetic containers, caps and any accessories. Review the usable opening, internal seams and how the contents sit when closed. Where a rigid tray or box is proposed, quote and sample it as its own construction. The [rigid box guide](https://elapack.com/news/custom-rigid-boxes-guide/) provides related structural questions; it does not establish availability of a particular leather-look build.\n\n![Illustrative buyer checklist: confirm the leather-look material](/charts/leather-cosmetic-bag-builds-reviewed-20261022.svg)\n\n## How is branding approved on the selected material?\n\nSupply the intended artwork, mark size and placement. Ask which process is proposed and whether the chosen surface can accept it. Texture, coatings and the decoration process must be reviewed together; do not assume one smooth surface always gives the best foil result or that a particular method is always cheapest.\n\nCheck the sample for appearance, legibility, placement and the handling relevant to the intended use. Confirm sample contents if a finish or material will be substituted. The [logo guide](https://elapack.com/news/custom-logo-pouches-guide/) provides preparation questions, while the order quotation must identify the actual process.\n\n## What evidence should support a durability claim?\n\nDo not buy from a generic promise that synthetic material lasts a fixed number of years or that animal leather always outlasts it. Record the expected use, contact with cosmetics, storage conditions and cleaning routine. Ask what evidence supports any proposed resistance claim and whether it applies to the actual face, backing, seam and print system.\n\nWithout relevant evidence, keep longevity and cleaning performance unconfirmed. A visually acceptable sample does not establish multi-year durability, resistance to leakage or compatibility with every cosmetic formulation.\n\n## Confirm commercial scope\n\nELAPACK MOQ is 200 pieces; confirm design allocation and current project availability. Complete packaging sets require 200 pieces for each component. Stock samples are free with USD 25 shipping and typical delivery of 4\u20137 days. Custom samples cost USD 30 plus USD 25 shipping, with sample making in 3\u20135 days. Confirm that the proposed sample represents the requested material and decoration.\n\nTypical production is 15\u201320 days after sample approval and payment receipt, subject to the confirmed order. [Contact ELAPACK](https://elapack.com/contact/) with the contents, dimensions, material reference, artwork, quantity and destination to agree the actual construction and quotation scope.\n\nFor the full orderable range of [makeup bags with your logo](https://elapack.com/custom-cosmetic-pouches/) \u2014 leather-look cases alongside fabric pouches \u2014 see the cosmetic pouches collection.\n\n## Sources\n\n- Kuraray, [CLARINO material construction](https://www.kuraray.com/global-en/company/history/clarino/) \u2014 the named manufacturer example cited in the face-and-backing section; it is not an ELAPACK material specification or evidence of a supplier relationship.\n- ELAPACK confirmed trade terms \u2014 the MOQ, sample and production terms stated in the commercial scope section."
   },
   {
     "slug": "custom-sunglasses-pouches-guide",
@@ -6251,7 +6983,7 @@ Keep the note local, and send it to your supplier through your existing approved
     "imageHeight": 1350,
     "excerpt": "Specify eyewear pouches from actual folded frames, fabric contact and closure. Confirm cleaning suitability separately and approve a loaded sample.",
     "metaDescription": "Plan custom sunglasses pouches by frame fit, fabric, contact surfaces, closure and artwork. Check the loaded sample; cleaning suitability needs evidence.",
-    "body": "*This guide covers eyewear-pouch specification. No stock fibre blend, GSM band, cleaning test, scratch-resistance result or lowest-cost closure is implied. Confirm the selected material and construction with the supplier and the eyewear owner.*\n\n> **Quick answer:** measure the actual folded frames, choose a proposed material and closure for the use, and test the loaded sample. A soft pouch does not establish crush protection, and a microfiber label alone does not make a pouch suitable for cleaning coated lenses.\n\n## Key takeaways\n\n- State the pouch's job first \u2014 presentation, separation or light storage; cleaning is a separate requirement with its own test.\n- Specify the material by fabric reference, composition and construction, not by a marketing name or tier.\n- Choose the closure for the use \u2014 drawstring, zip or flap \u2014 and check hardware and seam contact on a loaded sample.\n- Size from the actual folded frames, including anything packed with them; approve the usable internal dimensions on the sample.\n- A soft pouch is not crush protection, and a microfiber label alone does not make a pouch suitable for cleaning coated lenses.\n\n## Separate storage, presentation and cleaning\n\nA pouch can be intended for presentation, separation from other items or light storage. State which role matters. If cleaning is also required, obtain guidance for the lens coatings and test an appropriate clean sample; do not assume any pouch can be used as a cleaning cloth.\n\nThe [microfiber cloth guide](https://elapack.com/news/custom-microfiber-cloths-guide/) covers that separate product. Confirm its material, finish and availability independently: a cloth and pouch do not automatically share a production line or freight price.\n\n## Specify the material rather than its marketing tier\n\n| Field | Why it belongs in the brief |\n|---|---|\n| Fabric reference and fibre composition | Identifies the proposed material rather than a generic fabric name |\n| Weight or construction | Provides a measurable basis for the sample and quotation |\n| Contact surface | Identifies seams, print, pile or trim that may touch the frames or lenses |\n| Colour and finish | Allows transfer and appearance to be checked |\n| Care and intended use | Defines the checks needed before a repeated-use claim |\n\n![The five fields of a sunglasses pouch material brief: fabric reference and composition, weight or construction, contact surface, colour and finish, care and intended use](/charts/sunglasses-pouch-material-brief.svg)\n\nMicrofiber, velvet, cotton or another fabric may be candidates to discuss. This is not confirmation that every material, blend or finish is stocked. Request the actual fabric reference and confirm availability in the quotation.\n\n## How do you choose the closure?\n\nA drawstring can provide a gathered opening; a zip provides a different access path; a flap can suit another presentation. Confirm feasibility and check the actual construction. None is assumed to be cheapest to sew, lightest to ship or universally best for premium products.\n\nOn a loaded sample, check whether cords, zip components, seams or hardware contact the eyewear. Review whether the item can enter and leave without strain and whether the closure retains it in the intended handling conditions. A closure does not make the pouch a rigid protective case.\n\n## Why size from the actual folded frames?\n\nProvide folded length, width, depth and the maximum protrusions, plus any cloth or card packed with the glasses. Ask the supplier to propose usable internal dimensions, opening and allowance. Approve those on the sample rather than applying a universal frame size or millimetre clearance.\n\nRecord the agreed drawing and the frame model used for approval. Recheck fit for materially different frames or additional contents.\n\n## How are artwork and approval handled?\n\nSend the logo, colour count, position and intended size. Ask which printing or other branding processes are feasible on the selected fabric. Compare setup and unit prices using the same quantity and specification; do not infer a fixed price or MOQ hierarchy across processes.\n\nReview the mark together with the contact surface and closure. Agree any transfer, handling or repeated-use checks needed for the intended application. The sample defines what was reviewed; it does not establish every future care or cleaning claim.\n\nELAPACK's MOQ is 200 pieces. Confirm size, colour and artwork allocation in the quotation; this does not mean every variant can be split freely. For a complete set, each component has a 200-piece minimum. Custom samples are USD 30 plus USD 25 shipping, with a 3\u20135 day sample-making timeframe. Stock samples are free with USD 25 shipping and a stated delivery timeframe of 4\u20137 days. Production is typically 15\u201320 days after sample approval and payment receipt; confirm by order.\n\nThe [eyewear packaging guide](https://elapack.com/news/custom-glasses-cases-pouches-guide/) covers the wider box, insert and pouch programme. [Contact ELAPACK](https://elapack.com/contact/) with the frame dimensions, use, artwork and quantity for a project-specific proposal.\n\n## Sources\n\n- ELAPACK confirmed trade terms \u2014 the MOQ, sample and production terms stated in this guide.\n- This guide quotes no external test data; material, cleaning and protection claims are left to project-specific confirmation, as stated in the guide."
+    "body": "*This guide covers eyewear-pouch specification. No stock fibre blend, GSM band, cleaning test, scratch-resistance result or lowest-cost closure is implied. Confirm the selected material and construction with the supplier and the eyewear owner.*\n\n> **Quick answer:** measure the actual folded frames, choose a proposed material and closure for the use, and test the loaded sample. A soft pouch does not establish crush protection, and a microfiber label alone does not make a pouch suitable for cleaning coated lenses.\n\n## Key takeaways\n\n- State the pouch's job first \u2014 presentation, separation or light storage; cleaning is a separate requirement with its own test.\n- Specify the material by fabric reference, composition and construction, not by a marketing name or tier.\n- Choose the closure for the use \u2014 drawstring, zip or flap \u2014 and check hardware and seam contact on a loaded sample.\n- Size from the actual folded frames, including anything packed with them; approve the usable internal dimensions on the sample.\n- A soft pouch is not crush protection, and a microfiber label alone does not make a pouch suitable for cleaning coated lenses.\n\n## Separate storage, presentation and cleaning\n\nA pouch can be intended for presentation, separation from other items or light storage. State which role matters. If cleaning is also required, obtain guidance for the lens coatings and test an appropriate clean sample; do not assume any pouch can be used as a cleaning cloth.\n\nThe [microfiber cloth guide](https://elapack.com/news/custom-microfiber-cloths-guide/) covers that separate product. Confirm its material, finish and availability independently: a cloth and pouch do not automatically share a production line or freight price.\n\n## Specify the material rather than its marketing tier\n\n| Field | Why it belongs in the brief |\n|---|---|\n| Fabric reference and fibre composition | Identifies the proposed material rather than a generic fabric name |\n| Weight or construction | Provides a measurable basis for the sample and quotation |\n| Contact surface | Identifies seams, print, pile or trim that may touch the frames or lenses |\n| Colour and finish | Allows transfer and appearance to be checked |\n| Care and intended use | Defines the checks needed before a repeated-use claim |\n\n![The five fields of a sunglasses pouch material brief: fabric reference and composition, weight or construction, contact surface, colour and finish, care and intended use](/charts/sunglasses-pouch-material-brief.svg)\n\nMicrofiber, velvet, cotton or another fabric may be candidates to discuss. This is not confirmation that every material, blend or finish is stocked. Request the actual fabric reference and confirm availability in the quotation.\n\n## How do you choose the closure?\n\nA drawstring can provide a gathered opening; a zip provides a different access path; a flap can suit another presentation. Confirm feasibility and check the actual construction. None is assumed to be cheapest to sew, lightest to ship or universally best for premium products.\n\nOn a loaded sample, check whether cords, zip components, seams or hardware contact the eyewear. Review whether the item can enter and leave without strain and whether the closure retains it in the intended handling conditions. A closure does not make the pouch a rigid protective case.\n\n## Why size from the actual folded frames?\n\nProvide folded length, width, depth and the maximum protrusions, plus any cloth or card packed with the glasses. Ask the supplier to propose usable internal dimensions, opening and allowance. Approve those on the sample rather than applying a universal frame size or millimetre clearance.\n\nRecord the agreed drawing and the frame model used for approval. Recheck fit for materially different frames or additional contents.\n\n## How are artwork and approval handled?\n\nSend the logo, colour count, position and intended size. Ask which printing or other branding processes are feasible on the selected fabric. Compare setup and unit prices using the same quantity and specification; do not infer a fixed price or MOQ hierarchy across processes.\n\nReview the mark together with the contact surface and closure. Agree any transfer, handling or repeated-use checks needed for the intended application. The sample defines what was reviewed; it does not establish every future care or cleaning claim.\n\nELAPACK's MOQ is 200 pieces. Confirm size, colour and artwork allocation in the quotation; this does not mean every variant can be split freely. For a complete set, each component has a 200-piece minimum. Custom samples are USD 30 plus USD 25 shipping, with a 3\u20135 day sample-making timeframe. Stock samples are free with USD 25 shipping and a stated delivery timeframe of 4\u20137 days. Production is typically 15\u201320 days after sample approval and payment receipt; confirm by order.\n\nThe [eyewear packaging guide](https://elapack.com/news/custom-glasses-cases-pouches-guide/) covers the wider box, insert and pouch programme. For the orderable programme \u2014 cases, boxes and pouches specified together \u2014 see [custom eyewear packaging](https://elapack.com/eyewear-packaging/). [Contact ELAPACK](https://elapack.com/contact/) with the frame dimensions, use, artwork and quantity for a project-specific proposal.\n\n## Sources\n\n- ELAPACK confirmed trade terms \u2014 the MOQ, sample and production terms stated in this guide.\n- This guide quotes no external test data; material, cleaning and protection claims are left to project-specific confirmation, as stated in the guide."
   },
   {
     "slug": "custom-microfiber-cloths-guide",
@@ -6267,7 +6999,7 @@ Keep the note local, and send it to your supplier through your existing approved
     "imageHeight": 1350,
     "excerpt": "Specify a proposed branded cleaning cloth by intended surface, composition, GSM, size, edge finish and artwork. Confirm availability and agree cleaning and care checks.",
     "metaDescription": "Plan a branded microfiber cloth specification: intended surface, fabric, GSM, size, edges and logo. Confirm availability, sample scope and cleaning checks.",
-    "body": "*This is a buyer specification checklist. Cloth availability, composition, size, branding and cleaning performance require confirmation for the proposed order; no stock range or wash-life test is established here.*\n\n> **Quick answer:** define the surface to clean, open and folded size, fabric composition, GSM, edge finish and artwork. Request a representative sample and agree cleaning and care checks before approving a branded cloth. A pouch listing alone does not verify a matching cleaning-cloth specification.\n\n## Key takeaways\n\n**A branded cleaning cloth is specified by the surface it cleans and the checks it must pass \u2014 fabric name, blend ratio or a higher GSM do not establish cleaning performance on their own.**\n\n1. Name the intended lens or device surface and any manufacturer restriction before choosing the fabric.\n2. Ask for the actual fibre composition, construction, GSM and tolerance in writing, on the quotation or specification sheet.\n3. Give open and folded dimensions, and inspect the proposed edge finish for roughness, loose fibres and appearance after the agreed care procedure.\n4. ELAPACK's terms are MOQ 200 pieces per product or component, a custom sample at USD 30 plus USD 25 shipping made in 3\u20135 days, and production typically 15\u201320 days after approval and payment receipt.\n5. Agree the care procedure, the number of cycles and the cleaning checks before approving the cloth; no wash life is claimed here.\n\nLast updated November 2026.\n\n## What composition and weight should you request?\n\nAsk for the actual fibre composition and construction on the quotation or specification sheet. Record GSM, thickness and tolerance for the proposed material. Do not use an assumed blend ratio or a higher GSM as proof of softness, cleaning performance or suitability for a coated lens.\n\n![Six fields that specify a cleaning cloth: surface, fibre and GSM, size and edge, artwork, quantity and terms, acceptance](/charts/microfiber-cloth-specification-fields.svg)\n\nThe six fields a cloth quotation has to answer, in the order they change the specification \u2014 surface first, acceptance criteria last.\n\n## What size and edge finish should you specify?\n\nProvide the available space inside the intended case and the desired open dimensions. Check the folded sample in the actual case. Request the proposed edge finish and inspect it for roughness, loose fibres and appearance after the agreed care procedure.\n\n## Which branding methods and cleaning checks apply?\n\nAsk which branding methods are feasible on the selected fabric and review the actual decorated sample. Agree logo placement and coverage. Evaluate cleaning, lint, marking and print transfer on a suitable test surface under the lens or device manufacturer's guidance. No method is assumed to leave cleaning performance unchanged.\n\n## Care and repeat-use acceptance\n\nRequest care instructions for the final fabric and decoration together. If repeated washing matters, agree the washing procedure, number of cycles and acceptance criteria with the supplier. Review cleaning performance, colour transfer, edge condition and logo appearance after that procedure. This guide does not claim a verified 50-wash life or a universal washing method.\n\n## Information for a quotation\n\n| Field | What to provide or confirm |\n|---|---|\n| Intended use | Lens/device surface and any manufacturer restrictions |\n| Fabric | Confirm composition, GSM, construction and availability |\n| Dimensions | Open size, folded size, edge finish and tolerance |\n| Artwork | Logo file, placement, colours and coverage |\n| Quantity | MOQ 200 pieces; confirm the proposed cloth specification and variant split |\n| Sample | Confirm availability; custom sample terms USD 30 plus USD 25 shipping, 3\u20135 days |\n| Production | Typically 15\u201320 days after approval and payment; confirm the order schedule |\n| Acceptance | Agreed cleaning, care and decoration checks |\n\nFor a coordinated [eyewear pouch](https://elapack.com/news/custom-sunglasses-pouches-guide/), quote the cloth and pouch as separate components. Confirm availability, packing and freight together; no shared production line or freight saving is assumed.\n\n## Sources\n\n1. ELAPACK \u2014 confirmed trade terms (MOQ 200 pieces per product or component, custom sample USD 30 plus USD 25 shipping with 3\u20135 day sample making, production typically 15\u201320 days after approval and payment receipt) \u2014 https://elapack.com/\n\nThis page contains no third-party data. The specification fields and acceptance questions are buyer guidance; every figure stated comes from ELAPACK's confirmed terms above. No cleaning performance, wash life or standard-compliance claim is made.\n\n[Send ELAPACK your intended use, dimensions and artwork](https://elapack.com/contact/) to confirm feasibility and sample scope before placing a bulk order."
+    "body": "*This is a buyer specification checklist. Cloth availability, composition, size, branding and cleaning performance require confirmation for the proposed order; no stock range or wash-life test is established here.*\n\n> **Quick answer:** define the surface to clean, open and folded size, fabric composition, GSM, edge finish and artwork. Request a representative sample and agree cleaning and care checks before approving a branded cloth. A pouch listing alone does not verify a matching cleaning-cloth specification.\n\n## Key takeaways\n\n**A branded cleaning cloth is specified by the surface it cleans and the checks it must pass \u2014 fabric name, blend ratio or a higher GSM do not establish cleaning performance on their own.**\n\n1. Name the intended lens or device surface and any manufacturer restriction before choosing the fabric.\n2. Ask for the actual fibre composition, construction, GSM and tolerance in writing, on the quotation or specification sheet.\n3. Give open and folded dimensions, and inspect the proposed edge finish for roughness, loose fibres and appearance after the agreed care procedure.\n4. ELAPACK's terms are MOQ 200 pieces per product or component, a custom sample at USD 30 plus USD 25 shipping made in 3\u20135 days, and production typically 15\u201320 days after approval and payment receipt.\n5. Agree the care procedure, the number of cycles and the cleaning checks before approving the cloth; no wash life is claimed here.\n\nLast updated November 2026.\n\n## What composition and weight should you request?\n\nAsk for the actual fibre composition and construction on the quotation or specification sheet. Record GSM, thickness and tolerance for the proposed material. Do not use an assumed blend ratio or a higher GSM as proof of softness, cleaning performance or suitability for a coated lens.\n\n![Six fields that specify a cleaning cloth: surface, fibre and GSM, size and edge, artwork, quantity and terms, acceptance](/charts/microfiber-cloth-specification-fields.svg)\n\nThe six fields a cloth quotation has to answer, in the order they change the specification \u2014 surface first, acceptance criteria last.\n\n## What size and edge finish should you specify?\n\nProvide the available space inside the intended case and the desired open dimensions. Check the folded sample in the actual case. Request the proposed edge finish and inspect it for roughness, loose fibres and appearance after the agreed care procedure.\n\n## Which branding methods and cleaning checks apply?\n\nAsk which branding methods are feasible on the selected fabric and review the actual decorated sample. Agree logo placement and coverage. Evaluate cleaning, lint, marking and print transfer on a suitable test surface under the lens or device manufacturer's guidance. No method is assumed to leave cleaning performance unchanged.\n\n## Care and repeat-use acceptance\n\nRequest care instructions for the final fabric and decoration together. If repeated washing matters, agree the washing procedure, number of cycles and acceptance criteria with the supplier. Review cleaning performance, colour transfer, edge condition and logo appearance after that procedure. This guide does not claim a verified 50-wash life or a universal washing method.\n\n## Information for a quotation\n\n| Field | What to provide or confirm |\n|---|---|\n| Intended use | Lens/device surface and any manufacturer restrictions |\n| Fabric | Confirm composition, GSM, construction and availability |\n| Dimensions | Open size, folded size, edge finish and tolerance |\n| Artwork | Logo file, placement, colours and coverage |\n| Quantity | MOQ 200 pieces; confirm the proposed cloth specification and variant split |\n| Sample | Confirm availability; custom sample terms USD 30 plus USD 25 shipping, 3\u20135 days |\n| Production | Typically 15\u201320 days after approval and payment; confirm the order schedule |\n| Acceptance | Agreed cleaning, care and decoration checks |\n\nFor a coordinated [eyewear pouch](https://elapack.com/news/custom-sunglasses-pouches-guide/), quote the cloth and pouch as separate components. Confirm availability, packing and freight together; no shared production line or freight saving is assumed. The coordinated programme itself \u2014 cloth, pouch and case specified as one set \u2014 is set out under [eyewear packaging for optical brands](https://elapack.com/eyewear-packaging/).\n\n## Sources\n\n1. ELAPACK \u2014 confirmed trade terms (MOQ 200 pieces per product or component, custom sample USD 30 plus USD 25 shipping with 3\u20135 day sample making, production typically 15\u201320 days after approval and payment receipt) \u2014 https://elapack.com/\n\nThis page contains no third-party data. The specification fields and acceptance questions are buyer guidance; every figure stated comes from ELAPACK's confirmed terms above. No cleaning performance, wash life or standard-compliance claim is made.\n\n[Send ELAPACK your intended use, dimensions and artwork](https://elapack.com/contact/) to confirm feasibility and sample scope before placing a bulk order."
   },
   {
     "slug": "top-china-jewelry-packaging-suppliers",
@@ -6485,7 +7217,7 @@ The sample is where the two failure modes are tested: does the necklace fold onc
     "imageHeight": 1350,
     "excerpt": "Compare drawstring and zipper pouches by usable opening, loading routine and product contact before ordering custom jewelry packaging.",
     "metaDescription": "Compare drawstring and zipper pouches by usable opening, loading routine and product contact before ordering custom jewelry packaging.",
-    "body": "Both closures can hold a small product, but they change how a packer loads it and how a customer removes it. The visible pouch size is only part of the specification: the usable opening, pull action and internal contact points may decide whether the pouch works. This article narrows the closure decision within the broader [custom jewelry pouch guide](https://elapack.com/news/how-to-choose-a-custom-jewelry-pouch/).\n\n## Key takeaways\n\n**Compare the two closures on usable opening, packing routine and catch points, then confirm the choice on a physical sample with the real product.**\n\n1. A gathered drawstring mouth and a zipper's stops can each shrink the usable opening below the flat width; test the widest packed item through it.\n\n2. Neither closure automatically prevents tangling, scratching or tarnish; outcomes depend on product, fabric, separator and use, plus zipper teeth and slider contact points.\n\n3. Run a packing trial with the full component count, then hand the closed sample to someone unfamiliar with it to test the customer's opening action.\n\n4. Ask what the sample must validate \u2014 appearance, opening fit or both \u2014 and do not assume one sample covers every SKU sharing the pouch size.\n\n5. State finished size, usable opening, product dimensions, fabric, lining, closure colour, logo method and units per artwork version in the RFQ.\n\nLast updated November 2026.\n\n## What limits the usable opening on each closure?\n\nA drawstring pouch gathers fabric around the mouth. That can make the opening smaller than the flat pouch width. A zipper pouch has a defined zipper length and stops at both ends; the usable opening may also be shorter than the outer width. Measure the widest part of the item or the card it will be packed on, then try moving that item through the actual opening without bending it.\n\nFor a necklace, include the card, chain arrangement and any protective sleeve in the test. For a ring or small accessory, consider how the customer will find and lift the piece without digging into a deep pouch. A visual mock-up cannot settle this question. Ask for a physical sample of the chosen [custom pouch style](https://elapack.com/pouches-bags/) with the product inserted, removed and reinserted several times.\n\nNeither closure automatically prevents tangling, scratching or tarnish. Those outcomes depend on the product, fabric, internal separator and use conditions. A zipper can also create a contact point at the teeth or slider. YKK's [zipper handling guidance](https://lyncs.ykkfastening.com/shop/pages/about_products_08.aspx) describes how fabric can become caught near a slider. For jewelry, test the chosen construction with the actual item and any lining; YKK's guidance is not evidence about a specific ELAPACK product.\n\nThe drawstring decision also involves the gathered opening after closure. Check whether a small loose component could move through the remaining gap, and whether the cord stays in the intended position during ordinary handling. For a zipper style, inspect the inner edge, slider and any protective flap with the product in place. These checks reveal possible contact points; they do not establish that one closure is tamper-proof or universally better in transit.\n\n## How do you test the packing routine and customer action?\n\nHave a packer assemble a small trial with the same number of components that will ship. Record whether cords must be tied, whether a zipper pull snags a ribbon or tag, and whether a card corners the opening. Then give the closed sample to someone who has not seen the assembly. If they struggle to find the opening, the issue may be the design rather than the material.\n\n| Buyer question | Drawstring sample | Zipper sample |\n|---|---|---|\n| Can the full item pass through? | Test gathered mouth at intended cord tension | Test opening between zipper stops |\n| Can it be opened one-handed? | Try cord pull and knot | Try slider pull and edge grip |\n| Where can the item catch? | Cord channel and gathered seam | Teeth, slider and lining |\n| How will it be stored? | Observe loose cord and pouch shape | Observe zipper profile and pull tab |\n\n![Drawstring and zipper pouch openings compared \u2014 gathered mouth with cord pull versus fixed opening with slider pull, with the four sample checks for each closure](/charts/drawstring-vs-zipper-openings.svg)\n\nThe table is a sample-test plan, not a ranking of protection or durability. If a pouch is offered in several fabrics, repeat the test on the intended fabric because stiffness changes handling. ELAPACK's [muslin drawstring pouch](https://elapack.com/products/custom-muslin-drawstring-pouch/) and [leather envelope pouch](https://elapack.com/products/leather-envelope-pouch/) illustrate different closure approaches, but a project quote must specify the actual material and construction.\n\n## Which closure details belong in the RFQ?\n\nState finished pouch size, usable opening required, product dimensions, fabric, lining, cord or zipper colour, logo method, and units per artwork version. Ask what the sample will validate: appearance, opening fit, or both. If different products share one pouch size, give the supplier each item envelope and request a fit recommendation instead of assuming one sample covers every SKU.\n\nUse the [jewelry box category](https://elapack.com/custom-jewelry-boxes/) to check whether the pouch must fit inside a box, and use the [pouch category](https://elapack.com/pouches-bags/) for available styles. [Send the product dimensions and closure preference for a conditional quote](https://elapack.com/contact/). A no-cost sample request can be made, but confirm the exact sample scope, timing and shipping terms for the project.\n\n## Sources\n\n1. ELAPACK \u2014 pouches and bags category, referenced for available closure styles and construction approaches \u2014 https://elapack.com/pouches-bags/\n\n2. YKK Fastening \u2014 zipper handling guidance on fabric catching near a slider, named for the buyer's own check \u2014 https://lyncs.ykkfastening.com/shop/pages/about_products_08.aspx\n\nThis page contains no third-party data. The YKK link is general manufacturer handling guidance, not evidence about any specific ELAPACK product; closure fit and contact points remain project-specific, as stated in the guide."
+    "body": "Both closures can hold a small product, but they change how a packer loads it and how a customer removes it. The visible pouch size is only part of the specification: the usable opening, pull action and internal contact points may decide whether the pouch works. This article narrows the closure decision within the broader [custom jewelry pouch guide](https://elapack.com/news/how-to-choose-a-custom-jewelry-pouch/).\n\n## Key takeaways\n\n**Compare the two closures on usable opening, packing routine and catch points, then confirm the choice on a physical sample with the real product.**\n\n1. A gathered drawstring mouth and a zipper's stops can each shrink the usable opening below the flat width; test the widest packed item through it.\n\n2. Neither closure automatically prevents tangling, scratching or tarnish; outcomes depend on product, fabric, separator and use, plus zipper teeth and slider contact points.\n\n3. Run a packing trial with the full component count, then hand the closed sample to someone unfamiliar with it to test the customer's opening action.\n\n4. Ask what the sample must validate \u2014 appearance, opening fit or both \u2014 and do not assume one sample covers every SKU sharing the pouch size.\n\n5. State finished size, usable opening, product dimensions, fabric, lining, closure colour, logo method and units per artwork version in the RFQ.\n\nLast updated November 2026.\n\n## What limits the usable opening on each closure?\n\nA drawstring pouch gathers fabric around the mouth. That can make the opening smaller than the flat pouch width. A zipper pouch has a defined zipper length and stops at both ends; the usable opening may also be shorter than the outer width. Measure the widest part of the item or the card it will be packed on, then try moving that item through the actual opening without bending it.\n\nFor a necklace, include the card, chain arrangement and any protective sleeve in the test. For a ring or small accessory, consider how the customer will find and lift the piece without digging into a deep pouch. A visual mock-up cannot settle this question. Ask for a physical sample of the chosen [custom pouch style](https://elapack.com/pouches-bags/) with the product inserted, removed and reinserted several times.\n\nNeither closure automatically prevents tangling, scratching or tarnish. Those outcomes depend on the product, fabric, internal separator and use conditions. A zipper can also create a contact point at the teeth or slider. YKK's [zipper handling guidance](https://lyncs.ykkfastening.com/shop/pages/about_products_08.aspx) describes how fabric can become caught near a slider. For jewelry, test the chosen construction with the actual item and any lining; YKK's guidance is not evidence about a specific ELAPACK product.\n\nThe drawstring decision also involves the gathered opening after closure. Check whether a small loose component could move through the remaining gap, and whether the cord stays in the intended position during ordinary handling. For a zipper style, inspect the inner edge, slider and any protective flap with the product in place. These checks reveal possible contact points; they do not establish that one closure is tamper-proof or universally better in transit.\n\n## How do you test the packing routine and customer action?\n\nHave a packer assemble a small trial with the same number of components that will ship. Record whether cords must be tied, whether a zipper pull snags a ribbon or tag, and whether a card corners the opening. Then give the closed sample to someone who has not seen the assembly. If they struggle to find the opening, the issue may be the design rather than the material.\n\n| Buyer question | Drawstring sample | Zipper sample |\n|---|---|---|\n| Can the full item pass through? | Test gathered mouth at intended cord tension | Test opening between zipper stops |\n| Can it be opened one-handed? | Try cord pull and knot | Try slider pull and edge grip |\n| Where can the item catch? | Cord channel and gathered seam | Teeth, slider and lining |\n| How will it be stored? | Observe loose cord and pouch shape | Observe zipper profile and pull tab |\n\n![Drawstring and zipper pouch openings compared \u2014 gathered mouth with cord pull versus fixed opening with slider pull, with the four sample checks for each closure](/charts/drawstring-vs-zipper-openings.svg)\n\nThe table is a sample-test plan, not a ranking of protection or durability. If a pouch is offered in several fabrics, repeat the test on the intended fabric because stiffness changes handling. ELAPACK's [muslin drawstring pouch](https://elapack.com/products/custom-muslin-drawstring-pouch/) and [leather envelope pouch](https://elapack.com/products/leather-envelope-pouch/) illustrate different closure approaches, but a project quote must specify the actual material and construction.\n\n## Which closure details belong in the RFQ?\n\nState finished pouch size, usable opening required, product dimensions, fabric, lining, cord or zipper colour, logo method, and units per artwork version. Ask what the sample will validate: appearance, opening fit, or both. If different products share one pouch size, give the supplier each item envelope and request a fit recommendation instead of assuming one sample covers every SKU.\n\nUse the [jewelry box category](https://elapack.com/custom-jewelry-boxes/) to check whether the pouch must fit inside a box, and use the [pouch category](https://elapack.com/pouches-bags/) for available styles. [Send the product dimensions and closure preference for a conditional quote](https://elapack.com/contact/). A no-cost sample request can be made, but confirm the exact sample scope, timing and shipping terms for the project. Both closures are offered across the full range of [custom jewelry pouches](https://elapack.com/custom-jewelry-pouches/).\n\n## Sources\n\n1. ELAPACK \u2014 pouches and bags category, referenced for available closure styles and construction approaches \u2014 https://elapack.com/pouches-bags/\n\n2. YKK Fastening \u2014 zipper handling guidance on fabric catching near a slider, named for the buyer's own check \u2014 https://lyncs.ykkfastening.com/shop/pages/about_products_08.aspx\n\nThis page contains no third-party data. The YKK link is general manufacturer handling guidance, not evidence about any specific ELAPACK product; closure fit and contact points remain project-specific, as stated in the guide."
   },
   {
     "slug": "paper-shopping-bag-handle-specification",
@@ -6533,7 +7265,7 @@ The sample is where the two failure modes are tested: does the necklace fold onc
     "imageHeight": 1350,
     "excerpt": "Specify quantities, delivery points and acceptance rules when one custom packaging order may need more than one shipment.",
     "metaDescription": "Specify quantities, delivery points and acceptance rules when one custom packaging order may need more than one shipment.",
-    "body": "A launch may need a small first delivery for photography, retail setup or initial sales, followed by the balance later. That is a logistics request with cost and quality implications, not simply a note to \u201Csend some early.\u201D The buyer should define the split in the RFQ and ask the supplier whether it is feasible for the chosen packaging.\n\n## Separate production quantity from delivery quantity\n\nWrite one line for the total order and a separate line for each proposed delivery: units by SKU or artwork, destination, required date, transport mode and who receives it. If a gift set includes a box, pouch and card, say whether each partial shipment must contain complete sets or whether components may travel separately. The [multi-component gift set quote guide](https://elapack.com/news/compare-multi-component-gift-set-packaging-quotes/) provides the bill-of-materials starting point.\n\nSome packaging providers advertise split deliveries. PackMojo's [platform description](https://packmojo.com/platform/) mentions multiple destinations and different shipping methods as examples of its own service. That shows the question is commercially relevant; it does not prove ELAPACK offers the same arrangement, routes or pricing. Ask for an explicit written response for the actual project.\n\nIf the first delivery is needed for retail photography, ensure it uses the production-approved artwork and material. A prototype or pre-production sample may be useful for preparation, but it is not automatically equivalent to sellable bulk stock. Identify which item you need and which acceptance rules apply. If the initial shipment precedes the balance, ask whether it is drawn from the same production lot and how the remaining goods are stored.\n\n## Work the calendar backwards from the launch date\n\nA split plan is built backwards, not forwards. Start from the date stock must be sellable, then work back through the steps that cannot overlap or slip \u2014 that dependency chain is the critical path. For a split packaging delivery it runs: launch date, receiving and launch checks, transit, production window, sample approval, locked specification.\n\nTransit is the widest variable, and the transport mode sets the band. Forwarder-published rules of thumb for China to the US: around three days for express courier, 8\u201310 days for standard air freight, and 30\u201340 days door-to-door for ocean. To Europe, sea runs 30\u201345 or more days, rail 14\u201325, air 4\u20137, and LCL sea adds a week or two over a full container. The split exists precisely because these bands differ: the first delivery rides the fast band, the balance rides the cheap one.\n\nTransit bands are not just about time; they dictate packaging margin. A rigid setup box travels primarily as trapped air. While LCL ocean bills by the cubic metre, air express bills by [volumetric weight](https://www.dhl.com/discover/en-gb/ship-with-dhl/products-and-services/weight-and-dimensions) \u2014 a carton's length \xD7 width \xD7 height in centimetres divided by 5,000. Shipping 100% of a rigid box order via air express can cost more than the manufacturing run itself. The split schedule is an operational lever to rescue your unit economics: commit only the emergency volume to the air tier, while the ocean container absorbs the bulk volume at fractional freight costs.\n\nBetween transit and production sit gates, not guessed weeks: specification locked, golden sample locked, [the production window after sample approval and payment](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/), freight booked, receiving appointment made. Most launch delays cluster in four places \u2014 scattered approvals, ambiguous specs, a QC plan defined too late, and freight realities ignored until goods are ready. Buffers belong where reality breaks projects: keep the spare days in front of the launch date for receiving checks and last-mile issues, not spread evenly across the plan.\n\nReceiving is part of the calendar, not an afterthought \u2014 allow time to [inspect the first delivery against the approved sample](https://elapack.com/news/inspect-custom-packaging-delivery/) before photography or retail setup consumes it.\n\n## Make the quote show the cost of each route\n\nCompare a single-shipment quote with a split-shipment quote using the same packaging specification and total quantity. Ask the supplier to show separate carton counts, packing, freight, handling and any destination-specific requirements. A faster first portion may cost more even when the box unit cost is unchanged. Do not assume a universal premium or savings rate; routes, volume and terms determine the result.\n\nSize the first release from actual launch demand: photography or seeding units, initial retail allocation, expected sales until replenishment, and a buffer chosen by the buyer. Subtract usable stock already on hand before asking how many finished sets must travel early. The resulting share may be quite different from a generic 10%/90% split. Confirm when goods are ready to leave the factory and obtain route-specific transit estimates; neither an air label nor a sea label by itself guarantees the arrival date.\n\n| RFQ field | First delivery | Balance delivery |\n|---|---|---|\n| SKU and quantity | State exact mix | State remaining mix |\n| Destination | Address and receiver | Address and receiver |\n| Date | Required arrival date | Required arrival date |\n| Evidence | Sample/inspection documents | Lot and carton records |\n| Cost | Freight and handling line | Freight and handling line |\n\nThis chart is a planning template, not a promise about transit time or delivery terms. If the two deliveries go to different countries, ask who handles labelling, customs paperwork and local receiving requirements. The final Incoterm and responsibilities should be explicit in the written quote.\n\n## Size the first delivery by the horizon, not a percentage\n\nThe first batch has one job: cover demand until the balance clears receiving. If the balance travels by sea, that horizon is a 30\u201340 day door-to-door window plus your launch buffer. Sell-through across that window, plus the buffer, minus usable stock on hand \u2014 that is the first delivery, and it may be far from a round percentage of the order.\n\n### A practical sizing scenario\n\nIf your target market consumes 500 boxes weekly, and ocean transit to your US 3PL runs 35 days (5 weeks) plus a 1-week receiving buffer:\n\n- **Required horizon cover:** 6 weeks \xD7 500 units = 3,000 units\n- **Usable on-hand inventory:** 500 units\n- **First delivery minimum:** 2,500 units, shipped via express or air\n\nCutting the first delivery to an arbitrary 10% of a 10,000-unit PO (1,000 units) leaves fulfilment lines idle from week three until the balance clears receiving \u2014 three empty weeks that end in an emergency mid-launch air top-up at premium per-kilo spot rates.\n\nGuess wrong in either direction and the error has a price:\n\n- **Too small**, and the top-up that saves the launch rides express air \u2014 the top freight tier, per kilo the most expensive way a box ever flies.\n- **Too large**, and version-one stock is still on the shelf when the first replenishment lands \u2014 stock a later revision can strand.\n\nPut the sizing arithmetic next to the split table in the RFQ: expected sales until the balance arrives, buffer, stock on hand. The supplier's feasibility answer then covers both quantities with dates attached.\n\n## The change gate between first release and balance\n\nBetween the first release and the balance, three states exist, and each changes what a change request means:\n\n1. **Balance not yet produced.** A revision is possible but it is a re-approval: new sample or photos, possibly new tooling or setup, and the production clock effectively restarts for the affected quantity.\n2. **Balance in production.** The request becomes a stop-or-hold decision with scrap and rework on one side of the ledger. Late changes after production begins are a named cause of packaging launch failure.\n3. **Balance produced and stored.** The question turns commercial: ship as version one, rework or repack, or treat the change as the first reorder \u2014 a decision the [reorder version checklist](https://elapack.com/news/reorder-custom-packaging-version-checklist/) exists to structure.\n\nWhatever the state, the gate itself is one discipline: request in writing, affected quantity identified, cost and date impact answered, one named approver. The record it leaves is what the version rules below build on.\n\nProducing the full quantity in one pass and staging only the dispatch protects the volume price tier: a second production run re-pays setup and resets the unit price. At ELAPACK, the balance of a completed run can be held at the factory free of charge for three months and dispatched in phases against vessel sailings. With any supplier, get the holding conditions in writing: duration, storage fees beyond the free window, insurance, and who re-inspects before each dispatch.\n\n## Decide what can change between deliveries\n\nVersion drift is easy when a later delivery is held or produced separately. Record the approved artwork revision, colour reference, material and closure on both release instructions. If a change is requested after the first release, ask whether the balance can change and how the affected quantity will be identified. A revised version should never be silently mixed into cartons marked with the original specification.\n\nUse the [gift box category](https://elapack.com/custom-jewelry-boxes/) and [pouches and bags category](https://elapack.com/pouches-bags/) to define which components need to travel together; the [magnetic closure gift box](https://elapack.com/products/magnetic-closure-gift-box/) is a product-page reference for a box line. Send the target in-store date, product dimensions and destination alongside the split table, and the feasibility response comes back mapped as a reverse critical path \u2014 specification freeze dates, air and sea volume splits, and the cost of each leg. [Send the split-delivery table with the product specification for a conditional feasibility and cost response](https://elapack.com/contact/).\n\n## Questions buyers ask about split deliveries\n\n### How big should the first delivery be?\n\nAs big as the horizon demands: sell-through until the balance clears receiving, plus your buffer, minus stock on hand. If the balance moves by sea towards the US, plan around a 30\u201340 day door-to-door window \u2014 the first batch covers demand across that whole gap, not a fixed share of the order.\n\n### Can the artwork change for the balance after the first release?\n\nIt depends on where the balance stands: unproduced means re-approval and a restarted production clock; in production means a stop-or-hold decision; already made means a commercial choice between shipping as version one and reworking. A revised version is never mixed silently into cartons marked with the original specification."
+    "body": "A launch may need a small first delivery for photography, retail setup or initial sales, followed by the balance later. That is a logistics request with cost and quality implications, not simply a note to \u201Csend some early.\u201D The buyer should define the split in the RFQ and ask the supplier whether it is feasible for the chosen packaging.\n\n## Key takeaways\n\n- Write the total order quantity and each proposed delivery as separate lines in the RFQ \u2014 units by SKU or artwork, destination, required date, transport mode and receiver \u2014 and state whether each partial shipment must contain complete sets.\n- Build the split plan backwards from the launch date: receiving and launch checks, transit, the production window, sample approval and the locked specification form the critical path.\n- Size the first delivery by the horizon it must cover \u2014 sell-through until the balance clears receiving, plus a buffer, minus usable stock on hand \u2014 not by a round percentage of the order.\n- Compare single-shipment and split-shipment quotes on the same specification and total quantity, with carton counts, packing, freight and handling shown separately for each leg.\n- Record the approved artwork revision, colour reference, material and closure on both release instructions, and get any factory holding conditions in writing.\n\n## Why separate production quantity from delivery quantity?\n\nWrite one line for the total order and a separate line for each proposed delivery: units by SKU or artwork, destination, required date, transport mode and who receives it. If a gift set includes a box, pouch and card, say whether each partial shipment must contain complete sets or whether components may travel separately. The [multi-component gift set quote guide](https://elapack.com/news/compare-multi-component-gift-set-packaging-quotes/) provides the bill-of-materials starting point.\n\n![Quote a gift set as a counted list: every component named, counted and owned \u2014 build the bill of materials, count what goes into each version, name the assembly responsibilities](/charts/gift-set-bill-of-materials.svg)\n\nSome packaging providers advertise split deliveries. PackMojo's [platform description](https://packmojo.com/platform/) mentions multiple destinations and different shipping methods as examples of its own service. That shows the question is commercially relevant; it does not prove ELAPACK offers the same arrangement, routes or pricing. Ask for an explicit written response for the actual project.\n\nIf the first delivery is needed for retail photography, ensure it uses the production-approved artwork and material. A prototype or pre-production sample may be useful for preparation, but it is not automatically equivalent to sellable bulk stock. Identify which item you need and which acceptance rules apply. If the initial shipment precedes the balance, ask whether it is drawn from the same production lot and how the remaining goods are stored.\n\n## How should the calendar be worked backwards from the launch date?\n\nA split plan is built backwards, not forwards. Start from the date stock must be sellable, then work back through the steps that cannot overlap or slip \u2014 that dependency chain is the critical path. For a split packaging delivery it runs: launch date, receiving and launch checks, transit, production window, sample approval, locked specification.\n\nTransit is the widest variable, and the transport mode sets the band. Forwarder-published rules of thumb for China to the US: around three days for express courier, 8\u201310 days for standard air freight, and 30\u201340 days door-to-door for ocean. To Europe, sea runs 30\u201345 or more days, rail 14\u201325, air 4\u20137, and LCL sea adds a week or two over a full container. The split exists precisely because these bands differ: the first delivery rides the fast band, the balance rides the cheap one.\n\nTransit bands are not just about time; they dictate packaging margin. A rigid setup box travels primarily as trapped air. While LCL ocean bills by the cubic metre, air express bills by [volumetric weight](https://www.dhl.com/discover/en-gb/ship-with-dhl/products-and-services/weight-and-dimensions) \u2014 a carton's length \xD7 width \xD7 height in centimetres divided by 5,000. Shipping 100% of a rigid box order via air express can cost more than the manufacturing run itself. The split schedule is an operational lever to rescue your unit economics: commit only the emergency volume to the air tier, while the ocean container absorbs the bulk volume at fractional freight costs.\n\nBetween transit and production sit gates, not guessed weeks: specification locked, golden sample locked, [the production window after sample approval and payment](https://elapack.com/news/custom-packaging-moq-sample-lead-times-2026/), freight booked, receiving appointment made. Most launch delays cluster in four places \u2014 scattered approvals, ambiguous specs, a QC plan defined too late, and freight realities ignored until goods are ready. Buffers belong where reality breaks projects: keep the spare days in front of the launch date for receiving checks and last-mile issues, not spread evenly across the plan.\n\nReceiving is part of the calendar, not an afterthought \u2014 allow time to [inspect the first delivery against the approved sample](https://elapack.com/news/inspect-custom-packaging-delivery/) before photography or retail setup consumes it.\n\n## What should the quote show for each route?\n\nCompare a single-shipment quote with a split-shipment quote using the same packaging specification and total quantity. Ask the supplier to show separate carton counts, packing, freight, handling and any destination-specific requirements. A faster first portion may cost more even when the box unit cost is unchanged. Do not assume a universal premium or savings rate; routes, volume and terms determine the result.\n\nSize the first release from actual launch demand: photography or seeding units, initial retail allocation, expected sales until replenishment, and a buffer chosen by the buyer. Subtract usable stock already on hand before asking how many finished sets must travel early. The resulting share may be quite different from a generic 10%/90% split. Confirm when goods are ready to leave the factory and obtain route-specific transit estimates; neither an air label nor a sea label by itself guarantees the arrival date.\n\n| RFQ field | First delivery | Balance delivery |\n|---|---|---|\n| SKU and quantity | State exact mix | State remaining mix |\n| Destination | Address and receiver | Address and receiver |\n| Date | Required arrival date | Required arrival date |\n| Evidence | Sample/inspection documents | Lot and carton records |\n| Cost | Freight and handling line | Freight and handling line |\n\nThis chart is a planning template, not a promise about transit time or delivery terms. If the two deliveries go to different countries, ask who handles labelling, customs paperwork and local receiving requirements. The final Incoterm and responsibilities should be explicit in the written quote.\n\n## How should the first delivery be sized?\n\nThe first batch has one job: cover demand until the balance clears receiving. If the balance travels by sea, that horizon is a 30\u201340 day door-to-door window plus your launch buffer. Sell-through across that window, plus the buffer, minus usable stock on hand \u2014 that is the first delivery, and it may be far from a round percentage of the order.\n\n### A practical sizing scenario\n\nIf your target market consumes 500 boxes weekly, and ocean transit to your US 3PL runs 35 days (5 weeks) plus a 1-week receiving buffer:\n\n- **Required horizon cover:** 6 weeks \xD7 500 units = 3,000 units\n- **Usable on-hand inventory:** 500 units\n- **First delivery minimum:** 2,500 units, shipped via express or air\n\nCutting the first delivery to an arbitrary 10% of a 10,000-unit PO (1,000 units) leaves fulfilment lines idle from week three until the balance clears receiving \u2014 three empty weeks that end in an emergency mid-launch air top-up at premium per-kilo spot rates.\n\nGuess wrong in either direction and the error has a price:\n\n- **Too small**, and the top-up that saves the launch rides express air \u2014 the top freight tier, per kilo the most expensive way a box ever flies.\n- **Too large**, and version-one stock is still on the shelf when the first replenishment lands \u2014 stock a later revision can strand.\n\nPut the sizing arithmetic next to the split table in the RFQ: expected sales until the balance arrives, buffer, stock on hand. The supplier's feasibility answer then covers both quantities with dates attached.\n\n## The change gate between first release and balance\n\nBetween the first release and the balance, three states exist, and each changes what a change request means:\n\n1. **Balance not yet produced.** A revision is possible but it is a re-approval: new sample or photos, possibly new tooling or setup, and the production clock effectively restarts for the affected quantity.\n2. **Balance in production.** The request becomes a stop-or-hold decision with scrap and rework on one side of the ledger. Late changes after production begins are a named cause of packaging launch failure.\n3. **Balance produced and stored.** The question turns commercial: ship as version one, rework or repack, or treat the change as the first reorder \u2014 a decision the [reorder version checklist](https://elapack.com/news/reorder-custom-packaging-version-checklist/) exists to structure.\n\nWhatever the state, the gate itself is one discipline: request in writing, affected quantity identified, cost and date impact answered, one named approver. The record it leaves is what the version rules below build on.\n\nProducing the full quantity in one pass and staging only the dispatch protects the volume price tier: a second production run re-pays setup and resets the unit price. At ELAPACK, the balance of a completed run can be held at the factory free of charge for three months and dispatched in phases against vessel sailings. With any supplier, get the holding conditions in writing: duration, storage fees beyond the free window, insurance, and who re-inspects before each dispatch.\n\n## What can change between deliveries?\n\nVersion drift is easy when a later delivery is held or produced separately. Record the approved artwork revision, colour reference, material and closure on both release instructions. If a change is requested after the first release, ask whether the balance can change and how the affected quantity will be identified. A revised version should never be silently mixed into cartons marked with the original specification.\n\nUse the [gift box category](https://elapack.com/custom-jewelry-boxes/) and [pouches and bags category](https://elapack.com/pouches-bags/) to define which components need to travel together; the [magnetic closure gift box](https://elapack.com/products/magnetic-closure-gift-box/) is a product-page reference for a box line. Send the target in-store date, product dimensions and destination alongside the split table, and the feasibility response comes back mapped as a reverse critical path \u2014 specification freeze dates, air and sea volume splits, and the cost of each leg. [Send the split-delivery table with the product specification for a conditional feasibility and cost response](https://elapack.com/contact/).\n\n## Questions buyers ask about split deliveries\n\n### How big should the first delivery be?\n\nAs big as the horizon demands: sell-through until the balance clears receiving, plus your buffer, minus stock on hand. If the balance moves by sea towards the US, plan around a 30\u201340 day door-to-door window \u2014 the first batch covers demand across that whole gap, not a fixed share of the order.\n\n### Can the artwork change for the balance after the first release?\n\nIt depends on where the balance stands: unproduced means re-approval and a restarted production clock; in production means a stop-or-hold decision; already made means a commercial choice between shipping as version one and reworking. A revised version is never mixed silently into cartons marked with the original specification.\n\nBefore the first batch ships, check whether the packaging itself can [reduce pack weight before split shipping](https://elapack.com/lightweight-luxury-packaging/): lighter structures lower the freight cost of every batch in the split, not just the first.\n\n## Sources\n\n- PackMojo, [Platform](https://packmojo.com/platform/) \u2014 the split-delivery and multi-destination description cited in the first section; an example of one supplier's own service terms, not ELAPACK's.\n- DHL, [Weight and dimensions](https://www.dhl.com/discover/en-gb/ship-with-dhl/products-and-services/weight-and-dimensions) \u2014 the volumetric weight calculation (length \xD7 width \xD7 height in centimetres divided by 5,000) cited in the calendar section.\n- ELAPACK buyer guides linked inline \u2014 the multi-component gift set quote guide, the production window after sample approval and payment, the delivery inspection guide and the reorder version checklist."
   },
   {
     "slug": "reorder-custom-packaging-version-checklist",
@@ -6990,7 +7722,7 @@ Yes, and multi-item boxes are common for curated introductions. Use an insert wi
     "imageHeight": 1350,
     "excerpt": "How to package jewelry for shipping: the three-layer method, carrier rules that rule out padded mailers, insurance tiers, and what to specify versus buy.",
     "metaDescription": "How to package jewelry for shipping: the three-layer method, carrier rules for padded mailers, insurance tiers, and what to buy versus specify.",
-    "body": "# How to Package Jewelry for Shipping: The Three-Layer Method Brands Use\n\nJewelry survives shipping in layers, not in luck: something soft against the metal, something rigid around that, something corrugated around everything. This guide walks the three layers in the order a packing table actually uses them \u2014 and marks where our own product line fits, and where the honest answer is a shipping-supply purchase we do not sell.\n\n## Key takeaways\n\n**Package jewelry in three layers: a soft inner wrap, a rigid fitted box, a corrugated outer box \u2014 each layer answers a different failure mode.**\n\n1. Carriers treat jewelry as a special class: FedEx requires corrugated packaging and bans padded mailers for declared values over $500.\n2. Molded foam and fitted inserts protect jewelry better than loose fill; a rattling inner box is a broken item in transit.\n3. Most jewelry ships under 1 lb and under 10 inches per side \u2014 the cheapest rate tier at every major carrier.\n4. Our factory makes the two inner layers \u2014 pouches, fitted boxes and inserts \u2014 from 200 pieces; the outer shipping box is a carrier-supplies purchase.\n\nLast updated October 2026.\n\n## The three layers that protect jewelry in transit\n\nShipping guides for jewelers converge on the same architecture, and it is worth treating as a specification rather than a suggestion. Shippo\u2019s e-commerce guide states the sequence plainly: \u201Cwrap chains and delicate items in anti-tarnish tissue or soft jewelry pouches\u201D, then secure each piece in \u201Ca small jewelry box, molded foam insert, or ring/earring holder\u201D, then pack that inner box inside corrugated outer packaging with dunnage on all four sides so nothing shifts. Paper Mart\u2019s version adds a practical first step for small pieces: a small plastic bag \u201Chelps keep items such as earrings together during shipment\u201D before the decorative pouch or box goes on.\n\nEach layer answers one failure mode. The inner wrap prevents scratching and tangling \u2014 chains knot around each other in transit, and earrings arrive as singles without something holding the pair. The rigid box prevents crushing: \u201Citems rattling loose inside a shipping box are items waiting to arrive broken\u201D, in Shippo\u2019s words. The outer box prevents the blunt trauma of the sortation belt. Skip a layer and you have not saved packaging; you have moved the cost into refunds.\n\n![Illustrative diagram: the three protective layers nested \u2014 pouch, fitted box, corrugated outer](/charts/jewelry-shipping-three-layers.svg)\n\n## What should jewelry be wrapped in before it goes in the box?\n\nThe layer touching the metal is a pouch or a tissue wrap. This is where material choice actually matters for the jewelry itself: silver and plated pieces tarnish in transit \u2014 weeks in a sealed box with the wrong air can dull a chain \u2014 which is why published guides recommend anti-tarnish tissue or soft pouches directly against the piece. The specification behind that advice is chemical, and it is worth asking suppliers for by name: ordinary tissue carries sulfur compounds and residual acids, and \u2014 as packaging suppliers state it plainly \u2014 \u201Csulfur compounds tarnish metals \u2014 a sulfur-free sheet is anti-tarnish, which matters for jewellery and silverware\u201D. Specialist anti-tarnish tissue is sold as \u201Cvirtually sulfur-free (less than 0.0008%)\u201D and moisture-controlled; the acid-free grades are pH-neutral and lignin-free, because \u201Cacids migrate \u2014 they transfer from an acidic wrapper into the item it touches, so the packaging itself becomes the source of damage\u201D. The buyer\u2019s move when a supplier quotes pouches or boxes for silver: ask whether the tissue and the board are sulfur-free and acid-free, and treat the answer as a line in the specification. Anti-tarnish treatment is a specialist supply; what we manufacture is the pouch layer around it, in velvet, satin, muslin and cotton, sized to the piece.\n\nA practical order for a packing table: pair the jewelry (bag or tissue first for small pieces), pouch it, then box it. The pouch is also the customer-facing layer \u2014 the thing the recipient touches first \u2014 so brands tend to specify it in their fabric and color while the tissue does the protection. Our pouches run from 200 pieces with the same spec-confirmation step as every other product: dimensions and closure confirmed on the quotation before production.\n\n## Which box should hold the jewelry?\n\nThe middle layer is a rigid box fitted to the piece, and \u201Cfitted\u201D is the operative word. A ring box is specified around the ring itself \u2014 for our ring boxes we ask for the band width, the setting height and the number of rings per box, then confirm dimensions, slot layout, materials and closure on the quotation. The same logic scales to pendants (chain channel or loop to stop the chain migrating) and earrings (slot pairs, card or foam). A generic gift box with a loose cotton pad is the cheap version of this layer; a slot-lined box is what photographs well and arrives intact.\n\nInside the box, molded or cut inserts beat loose fill for jewelry specifically \u2014 Shippo\u2019s guide is blunt that foam inserts and molded infill \u201Cprotect better than loose fill (packing peanuts, air pillows) for jewelry specifically\u201D. This is also the layer where presentation and protection converge: a velvet or satin lined insert holds the piece still for the courier\u2019s whole journey and frames it for the unboxing photograph at the end.\n\n## Can you ship jewelry in a padded envelope?\n\nNo \u2014 and the reason is carrier rules, not preference. Shippo\u2019s carrier guidance records that FedEx \u201Cexplicitly requires corrugated packaging for jewelry shipments\u201D and \u201Cprohibits padded mailers for jewelry with a declared value over $500\u201D; mailers and Tyvek offer no compression protection, which is the exact failure mode jewelry needs defense against. The outer box is corrugated, plain, and one size up from the inner box with dunnage on all four sides.\n\nOne honesty note from our side of the table: corrugated shipping boxes are a shipping-supplies purchase, not part of our custom line \u2014 our products are the pouch, the fitted box and the insert inside it. Buy the outer box by inner-box dimensions plus an inch of dunnage room, and if the shipment is valuable, keep the outer plain: a box labeled with a jewelry brand name is, as Shippo puts it, \u201Ca higher-theft target than a plain brown box\u201D. For brands that want the outer-box choice validated rather than guessed, ISTA Procedure 3A is the published benchmark \u2014 \u201Ca general simulation test for individual packaged products shipped through a parcel delivery system\u201D, up to 150 lb, covering the \u201Cvibration, shock and stresses encountered during handling\u201D. Asking the shipping-supply vendor whether their mailer has been tested to it is a one-line qualification question that costs nothing to ask.\n\n![Illustrative diagram: right-sizing the outer box, the under-1-lb carrier tier and insurance tiers](/charts/jewelry-shipping-outer-box-rules.svg)\n\n## Insurance, signatures and the cheap tier\n\nThe shipping decisions around the package matter as much as the packaging. A ring or necklace \u201Cships in a box well under 1 lb and under 10 inches on any side\u201D \u2014 the cheapest dimensional tier at every carrier, which is why jewelry shipping costs surprise new sellers on the low side, not the high side. On insurance: USPS Priority Mail and Ground Advantage include $100 of coverage in the base price, standard coverage extends to about $5,000, and Registered Mail \u2014 sealed, locked and stored separately through the network \u2014 covers up to $50,000 from around $19.70. Signature confirmation runs $3.95 added online (against $4.95 at the counter), with adult signature at $9.70 for high-value orders.\n\nFor handmade sellers packaging their own orders, the same three layers scale down without changing shape: tissue or small bag, fitted box (a two-piece cotton-filled chipboard box is the entry version of the rigid layer), padded dunnage inside a plain corrugated outer. The mistake specific to handmade volume is skipping the rigid layer on bracelet and chain orders because the pouch \u201Cfeels protected\u201D \u2014 a padded envelope around a pouch is still a pouch taking the full weight of the sortation belt.\n\n## Sources\n\n1. Shippo \u2014 How to Ship Jewelry: Packaging, Insurance & Carrier Tips \u2014 https://goshippo.com/blog/how-to-ship-jewelry-for-your-e-commerce-store-tips-examples-for-shipping-jewelry\n2. Paper Mart \u2014 How to Package and Ship Jewelry \u2014 https://blog.papermart.com/small-business/how-to-package-and-ship-jewelry\n3. Jewelers Toy Store \u2014 Anti-Tarnish Paper Roll \u2014 https://www.jewelerstoystore.com/Anti-Tarnish-Paper-Roll-p/p10.htm\n4. Custom Printed Papers \u2014 Acid-Free Tissue Paper: Why It Matters for Packaging \u2014 https://customprintedpapers.com/acid-free-tissue-paper-why-it-matters-for-packaging\n5. ProPack Test Lab \u2014 ISTA Series 3A Test Information \u2014 https://propacktestlab.com/package-testing-forms-and-resources/ista-series-3a-test-request-form/ista-series-3-test-information\n\n## Frequently asked questions\n\n### How should I package jewelry for shipping?\n\nThree layers: a soft inner wrap (anti-tarnish tissue or a fabric pouch) against the piece, a rigid box fitted to the item with an insert holding it still, and a plain corrugated outer box with dunnage on all four sides. Each layer answers a different failure mode \u2014 scratching, crushing, and transit shock respectively.\n\n### How do you package handmade jewelry for an order?\n\nThe same three layers, scaled down: pair the piece (small plastic bag or tissue keeps earring pairs together), pouch it in the brand fabric, box it in a fitted small box, and cushion it inside a plain outer box. For handmade volume, the rigid middle layer is the one sellers skip most and regret most.\n\n### What should jewelry be wrapped in to prevent tarnish?\n\nPublished shipping guides recommend anti-tarnish tissue or a soft pouch directly against the metal, particularly for silver and plated chains. Anti-tarnish treatment is a specialist supply; we manufacture the pouch layer in velvet, satin, muslin and cotton from 200 pieces.\n\n### Can I ship jewelry in a padded envelope?\n\nNot safely, and not for meaningful values: FedEx requires corrugated packaging for jewelry shipments and prohibits padded mailers for declared values over $500, and mailers provide no compression protection in any case. Padded envelopes suit the non-jewelry items in the order, not the jewelry itself.\n\n### Does USPS insure jewelry shipments?\n\nYes, with tiers: Priority Mail and Ground Advantage include $100 of coverage in the base price, standard declared-value coverage extends to about $5,000, and Registered Mail covers up to $50,000 \u2014 at a premium starting around $19.70, with the package sealed and stored separately through the network.\n\n### What is the cheapest way to ship a ring?\n\nA ring box plus small corrugated outer ships well under 1 lb and under 10 inches per side \u2014 the cheapest tier at every major carrier. The savings come from right-sizing the outer box to the inner one, not from downgrading the protective layers.\n\n---\n\n*ELAPACK manufactures the two inner layers of jewelry shipping \u2014 fitted boxes, inserts and fabric pouches from 200 pieces, 15\u201320 days, custom samples in 3\u20135 days. [Send your piece dimensions for a quotation](https://elapack.com/contact/).*"
+    "body": "# How to Package Jewelry for Shipping: The Three-Layer Method Brands Use\n\nJewelry survives shipping in layers, not in luck: something soft against the metal, something rigid around that, something corrugated around everything. This guide walks the three layers in the order a packing table actually uses them \u2014 and marks where our own product line fits, and where the honest answer is a shipping-supply purchase we do not sell.\n\n## Key takeaways\n\n**Package jewelry in three layers: a soft inner wrap, a rigid fitted box, a corrugated outer box \u2014 each layer answers a different failure mode.**\n\n1. Carriers treat jewelry as a special class: FedEx requires corrugated packaging and bans padded mailers for declared values over $500.\n2. Molded foam and fitted inserts protect jewelry better than loose fill; a rattling inner box is a broken item in transit.\n3. Most jewelry ships under 1 lb and under 10 inches per side \u2014 the cheapest rate tier at every major carrier.\n4. Our factory makes the two inner layers \u2014 pouches, fitted boxes and inserts \u2014 from 200 pieces; the outer shipping box is a carrier-supplies purchase.\n\nLast updated October 2026.\n\n## The three layers that protect jewelry in transit\n\nShipping guides for jewelers converge on the same architecture, and it is worth treating as a specification rather than a suggestion. Shippo\u2019s e-commerce guide states the sequence plainly: \u201Cwrap chains and delicate items in anti-tarnish tissue or soft jewelry pouches\u201D, then secure each piece in \u201Ca small jewelry box, molded foam insert, or ring/earring holder\u201D, then pack that inner box inside corrugated outer packaging with dunnage on all four sides so nothing shifts. Paper Mart\u2019s version adds a practical first step for small pieces: a small plastic bag \u201Chelps keep items such as earrings together during shipment\u201D before the decorative pouch or box goes on. The same three-layer architecture applied to glass perfume bottles \u2014 heavier, top-heavy and leak-prone \u2014 is worked through in [how to package perfume for shipping](/news/how-to-package-perfume-for-shipping/).\n\nEach layer answers one failure mode. The inner wrap prevents scratching and tangling \u2014 chains knot around each other in transit, and earrings arrive as singles without something holding the pair. The rigid box prevents crushing: \u201Citems rattling loose inside a shipping box are items waiting to arrive broken\u201D, in Shippo\u2019s words. The outer box prevents the blunt trauma of the sortation belt. Skip a layer and you have not saved packaging; you have moved the cost into refunds.\n\n![Illustrative diagram: the three protective layers nested \u2014 pouch, fitted box, corrugated outer](/charts/jewelry-shipping-three-layers.svg)\n\n## What should jewelry be wrapped in before it goes in the box?\n\nThe layer touching the metal is a pouch or a tissue wrap. This is where material choice actually matters for the jewelry itself: silver and plated pieces tarnish in transit \u2014 weeks in a sealed box with the wrong air can dull a chain \u2014 which is why published guides recommend anti-tarnish tissue or soft pouches directly against the piece. The specification behind that advice is chemical, and it is worth asking suppliers for by name: ordinary tissue carries sulfur compounds and residual acids, and \u2014 as packaging suppliers state it plainly \u2014 \u201Csulfur compounds tarnish metals \u2014 a sulfur-free sheet is anti-tarnish, which matters for jewellery and silverware\u201D. Specialist anti-tarnish tissue is sold as \u201Cvirtually sulfur-free (less than 0.0008%)\u201D and moisture-controlled; the acid-free grades are pH-neutral and lignin-free, because \u201Cacids migrate \u2014 they transfer from an acidic wrapper into the item it touches, so the packaging itself becomes the source of damage\u201D. The buyer\u2019s move when a supplier quotes pouches or boxes for silver: ask whether the tissue and the board are sulfur-free and acid-free, and treat the answer as a line in the specification. Anti-tarnish treatment is a specialist supply; what we manufacture is the pouch layer around it, in velvet, satin, muslin and cotton, sized to the piece.\n\nA practical order for a packing table: pair the jewelry (bag or tissue first for small pieces), pouch it, then box it. The pouch is also the customer-facing layer \u2014 the thing the recipient touches first \u2014 so brands tend to specify it in their fabric and color while the tissue does the protection. Our pouches run from 200 pieces with the same spec-confirmation step as every other product: dimensions and closure confirmed on the quotation before production.\n\n## Which box should hold the jewelry?\n\nThe middle layer is a rigid box fitted to the piece, and \u201Cfitted\u201D is the operative word. A ring box is specified around the ring itself \u2014 for our ring boxes we ask for the band width, the setting height and the number of rings per box, then confirm dimensions, slot layout, materials and closure on the quotation. The same logic scales to pendants (chain channel or loop to stop the chain migrating) and earrings (slot pairs, card or foam). A generic gift box with a loose cotton pad is the cheap version of this layer; a slot-lined box is what photographs well and arrives intact.\n\nInside the box, molded or cut inserts beat loose fill for jewelry specifically \u2014 Shippo\u2019s guide is blunt that foam inserts and molded infill \u201Cprotect better than loose fill (packing peanuts, air pillows) for jewelry specifically\u201D. This is also the layer where presentation and protection converge: a velvet or satin lined insert holds the piece still for the courier\u2019s whole journey and frames it for the unboxing photograph at the end.\n\n## Can you ship jewelry in a padded envelope?\n\nNo \u2014 and the reason is carrier rules, not preference. Shippo\u2019s carrier guidance records that FedEx \u201Cexplicitly requires corrugated packaging for jewelry shipments\u201D and \u201Cprohibits padded mailers for jewelry with a declared value over $500\u201D; mailers and Tyvek offer no compression protection, which is the exact failure mode jewelry needs defense against. The outer box is corrugated, plain, and one size up from the inner box with dunnage on all four sides.\n\nOne honesty note from our side of the table: corrugated shipping boxes are a shipping-supplies purchase, not part of our custom line \u2014 our products are the pouch, the fitted box and the insert inside it. Buy the outer box by inner-box dimensions plus an inch of dunnage room, and if the shipment is valuable, keep the outer plain: a box labeled with a jewelry brand name is, as Shippo puts it, \u201Ca higher-theft target than a plain brown box\u201D. For brands that want the outer-box choice validated rather than guessed, ISTA Procedure 3A is the published benchmark \u2014 \u201Ca general simulation test for individual packaged products shipped through a parcel delivery system\u201D, up to 150 lb, covering the \u201Cvibration, shock and stresses encountered during handling\u201D. Asking the shipping-supply vendor whether their mailer has been tested to it is a one-line qualification question that costs nothing to ask.\n\n![Illustrative diagram: right-sizing the outer box, the under-1-lb carrier tier and insurance tiers](/charts/jewelry-shipping-outer-box-rules.svg)\n\n## Insurance, signatures and the cheap tier\n\nThe shipping decisions around the package matter as much as the packaging. A ring or necklace \u201Cships in a box well under 1 lb and under 10 inches on any side\u201D \u2014 the cheapest dimensional tier at every carrier, which is why jewelry shipping costs surprise new sellers on the low side, not the high side. On insurance: USPS Priority Mail and Ground Advantage include $100 of coverage in the base price, standard coverage extends to about $5,000, and Registered Mail \u2014 sealed, locked and stored separately through the network \u2014 covers up to $50,000 from around $19.70. Signature confirmation runs $3.95 added online (against $4.95 at the counter), with adult signature at $9.70 for high-value orders.\n\nFor handmade sellers packaging their own orders, the same three layers scale down without changing shape: tissue or small bag, fitted box (a two-piece cotton-filled chipboard box is the entry version of the rigid layer), padded dunnage inside a plain corrugated outer. The mistake specific to handmade volume is skipping the rigid layer on bracelet and chain orders because the pouch \u201Cfeels protected\u201D \u2014 a padded envelope around a pouch is still a pouch taking the full weight of the sortation belt.\n\n## Sources\n\n1. Shippo \u2014 How to Ship Jewelry: Packaging, Insurance & Carrier Tips \u2014 https://goshippo.com/blog/how-to-ship-jewelry-for-your-e-commerce-store-tips-examples-for-shipping-jewelry\n2. Paper Mart \u2014 How to Package and Ship Jewelry \u2014 https://blog.papermart.com/small-business/how-to-package-and-ship-jewelry\n3. Jewelers Toy Store \u2014 Anti-Tarnish Paper Roll \u2014 https://www.jewelerstoystore.com/Anti-Tarnish-Paper-Roll-p/p10.htm\n4. Custom Printed Papers \u2014 Acid-Free Tissue Paper: Why It Matters for Packaging \u2014 https://customprintedpapers.com/acid-free-tissue-paper-why-it-matters-for-packaging\n5. ProPack Test Lab \u2014 ISTA Series 3A Test Information \u2014 https://propacktestlab.com/package-testing-forms-and-resources/ista-series-3a-test-request-form/ista-series-3-test-information\n\n## Frequently asked questions\n\n### How should I package jewelry for shipping?\n\nThree layers: a soft inner wrap (anti-tarnish tissue or a fabric pouch) against the piece, a rigid box fitted to the item with an insert holding it still, and a plain corrugated outer box with dunnage on all four sides. Each layer answers a different failure mode \u2014 scratching, crushing, and transit shock respectively.\n\n### How do you package handmade jewelry for an order?\n\nThe same three layers, scaled down: pair the piece (small plastic bag or tissue keeps earring pairs together), pouch it in the brand fabric, box it in a fitted small box, and cushion it inside a plain outer box. For handmade volume, the rigid middle layer is the one sellers skip most and regret most.\n\n### What should jewelry be wrapped in to prevent tarnish?\n\nPublished shipping guides recommend anti-tarnish tissue or a soft pouch directly against the metal, particularly for silver and plated chains. Anti-tarnish treatment is a specialist supply; we manufacture the pouch layer in velvet, satin, muslin and cotton from 200 pieces.\n\n### Can I ship jewelry in a padded envelope?\n\nNot safely, and not for meaningful values: FedEx requires corrugated packaging for jewelry shipments and prohibits padded mailers for declared values over $500, and mailers provide no compression protection in any case. Padded envelopes suit the non-jewelry items in the order, not the jewelry itself.\n\n### Does USPS insure jewelry shipments?\n\nYes, with tiers: Priority Mail and Ground Advantage include $100 of coverage in the base price, standard declared-value coverage extends to about $5,000, and Registered Mail covers up to $50,000 \u2014 at a premium starting around $19.70, with the package sealed and stored separately through the network.\n\n### What is the cheapest way to ship a ring?\n\nA ring box plus small corrugated outer ships well under 1 lb and under 10 inches per side \u2014 the cheapest tier at every major carrier. The savings come from right-sizing the outer box to the inner one, not from downgrading the protective layers.\n\n---\n\n*ELAPACK manufactures the two inner layers of jewelry shipping \u2014 fitted boxes, inserts and fabric pouches from 200 pieces, 15\u201320 days, custom samples in 3\u20135 days. [Send your piece dimensions for a quotation](https://elapack.com/contact/).*"
   },
   {
     "slug": "custom-wrapping-paper-guide",
@@ -7353,6 +8085,10 @@ function ProductDetail() {
         ] })
       ] })
     ] }) }) }),
+    product.keyFacts && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section", style: { paddingBottom: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Key facts (November 2026)" }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("ul", { className: "spec-list", children: product.keyFacts.map((line) => /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("li", { children: line }, line)) })
+    ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("section", { className: "section product-specs-section", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-specs-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "product-specs-intro reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "eyebrow", children: "Technical Details" }),
@@ -7545,6 +8281,31 @@ function ProductDetail() {
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/custom-jewelry-boxes/", children: "Review custom jewelry boxes and inserts" }),
         " before finalizing the collection brief."
       ] }),
+      slug === "custom-microfiber-cleaning-cloth-eyewear" && /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("p", { className: "product-description-text", children: [
+        "Specifying this cloth as part of a matched eyewear set? See ",
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/eyewear-packaging/", children: "glasses boxes and pouches to match" }),
+        " before finalizing the brief."
+      ] }),
+      slug === "custom-perfume-boxes" && /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("p", { className: "product-description-text", children: [
+        "Building a wider beauty program around the fragrance line? Compare ",
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/custom-cosmetic-packaging/", children: "cosmetic boxes and sets" }),
+        " made by the same factory."
+      ] }),
+      slug === "custom-pvc-bags" && /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("p", { className: "product-description-text", children: [
+        "Comparing clear bags with fabric formats? Browse ",
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/custom-cosmetic-pouches/", children: "clear and fabric cosmetic pouches" }),
+        " to settle the format first."
+      ] }),
+      slug === "custom-satin-wig-bag" && /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("p", { className: "product-description-text", children: [
+        "Planning this bag as part of a complete hair program? See ",
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/custom-wig-packaging/", children: "custom wig packaging" }),
+        " for the matching boxes and sets."
+      ] }),
+      slug === "custom-velvet-pouches" && /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("p", { className: "product-description-text", children: [
+        "Choosing pouches for a jewelry line? Compare ",
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: "/custom-jewelry-pouches/", children: "jewelry pouches with logo" }),
+        " across fabrics and closures."
+      ] }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "related-grid", children: related.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(
         import_react_router_dom8.Link,
         {
@@ -7580,7 +8341,7 @@ function ProductDetail() {
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("br", {}),
         "this for your brand?"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "cta-text", children: "Share your specifications and we'll respond with next steps within one business day." }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("p", { className: "cta-text", children: "Share your specifications and we'll respond with next steps within one business day (Mon\u2013Fri, China time)." }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(import_react_router_dom8.Link, { to: quoteUrl, className: "btn-primary", children: "Start Your Project" })
     ] }) }) })
   ] });
@@ -7686,9 +8447,9 @@ function Industries() {
     /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("p", { className: "eyebrow reveal", children: "Industries" }),
       /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
-        "Packaging for",
+        "Custom Packaging",
         /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("br", {}),
-        "Every Industry"
+        "by Industry"
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "We serve brands across jewelry, beauty, fragrance, fashion, and more \u2014 with packaging tailored to each industry's unique demands." })
     ] }) }),
@@ -7727,6 +8488,13 @@ function Industries() {
         },
         ind
       )) }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("p", { className: "markets-note", style: { marginTop: "1.5rem" }, children: [
+        "Beauty brands can go straight to",
+        " ",
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(import_react_router_dom9.Link, { to: "/custom-cosmetic-packaging/", children: "packaging for beauty brands" }),
+        " ",
+        "\u2014 boxes, pouches and sets specified as one program."
+      ] }),
       selected && /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-detail reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "industry-detail-header", children: [
           /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { children: [
@@ -7863,7 +8631,7 @@ var solutionContent = {
     points: [
       {
         title: "1. Brief & Quotation",
-        desc: "Send the product, dimensions, materials and quantity. Every component is quoted separately, and we reply within one business day."
+        desc: "Send the product, dimensions, materials and quantity. Every component is quoted separately, and we reply within one business day (Mon\u2013Fri, China time)."
       },
       {
         title: "2. Custom Sample",
@@ -7904,6 +8672,9 @@ var solutionContent = {
         title: "Material Documents",
         desc: "Request documentation for the exact material quoted; we confirm which documents are available before making a claim."
       }
+    ],
+    links: [
+      { label: "packaging that ships lighter", href: "/lightweight-luxury-packaging/" }
     ]
   }
 };
@@ -7950,9 +8721,9 @@ function Solutions() {
     /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "container", children: [
       /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", { className: "eyebrow reveal", children: "Solutions" }),
       /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
-        "Packaging",
+        "Packaging Solutions \u2014",
         /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("br", {}),
-        "Solutions"
+        "Materials, Structures & Sustainability"
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("p", { className: "page-subtitle reveal reveal-delay-2", children: [
         "Compare structures, materials and finishes for your packaging brief. For sampling and production steps, see the ",
@@ -8103,7 +8874,7 @@ function About() {
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "eyebrow", children: "Our Story" }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("h2", { className: "section-title", style: { marginTop: "1rem" }, children: "Custom packaging, built around your brief." }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "ELAPACK approaches packaging as more than a container \u2014 it is a brand's first handshake. We work with buyers on packaging for jewelry, eyewear, beauty, and gifting." }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We coordinate packaging design, production, and shipping around each order's specification. ELAPACK is operated by Wuxi Magic Packaging Co., Ltd., based in Wuxi, Jiangsu, China. Production is housed in a 1,000-square-meter facility with three production lines." }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "We coordinate packaging design, production, and shipping around each order's specification. ELAPACK is operated by Wuxi Magic Packaging Co., Ltd., based in Wuxi, Jiangsu, China. Production is housed in a 1,000-square-meter facility with three production lines. The company is ISO 9001 certified." }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "Share your product dimensions, material preferences, branding, and quantity so we can review the structure, sample, and production requirements with you." })
       ] })
     ] }) }) }),
@@ -8114,7 +8885,7 @@ function About() {
       /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "I lead ELAPACK, the custom packaging brand of Wuxi Magic Packaging Co., Ltd. in Wuxi, Jiangsu \u2014 a company founded in 2018, working from a 1,000-square-metre facility with three production lines." }),
       /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "My work is the part of a packaging order that happens before production: reading a brief, settling the structure and dieline, choosing materials that suit the product, and coordinating samples until the box, bag, or set is right. ELAPACK makes custom boxes, pouches and bags, and complete packaging sets to order \u2014 not from stock \u2014 for jewelry, eyewear, beauty, fragrance, gift, and fashion brands in Europe and North America." }),
       /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "I write ELAPACK's buyer guides myself, on the questions buyers ask before they order: how to choose materials, how to size a box or pouch and read a dieline, and how minimum order quantities, sampling, and lead times really work. The aim throughout is packaging that protects the product, presents it at its value, and gives the customer a considered unboxing moment." }),
-      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "If you are planning packaging for a product, write to me at tina@elapack.com. I reply within one business day." }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { className: "about-text", children: "If you are planning packaging for a product, write to me at tina@elapack.com. I reply within one business day (Mon\u2013Fri, China time)." }),
       /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
         "h3",
         {
@@ -8248,59 +9019,161 @@ function About() {
   ] });
 }
 
+// src/pages/Privacy.tsx
+var import_react10 = require("react");
+var import_jsx_runtime11 = require("react/jsx-runtime");
+var sections = [
+  {
+    heading: "1. Information you share with us",
+    paragraphs: [
+      "When you send an inquiry through our contact form, or write to us by email or WhatsApp, we receive the information you provide \u2014 typically your name, email address, and, if you choose to share them, your phone or WhatsApp number, company or brand name, and the details of your packaging request (product type, quantity, dimensions, materials, logo artwork and destination). The form's required fields are your name, email address and message; all other fields are optional."
+    ]
+  },
+  {
+    heading: "2. Information collected automatically",
+    paragraphs: [
+      "We use Google Analytics 4 to understand how visitors use this website \u2014 for example, which pages are visited and how visitors reach them. In our GA4 settings, event data and user data are each retained for 14 months."
+    ]
+  },
+  {
+    heading: "3. How we use your information",
+    paragraphs: ["We use the information you share only to:"],
+    bullets: [
+      "reply to your inquiry and prepare a written quotation (within one business day, Monday\u2013Friday, China time);",
+      "discuss structure, materials, samples and production for your specification;",
+      "arrange samples and delivery for your order."
+    ]
+  },
+  {
+    heading: "4. Who we share it with",
+    paragraphs: [
+      "We share your information only where needed to answer your inquiry or fulfil your order \u2014 for example, with Web3Forms, the form service that delivers this website's contact-form submissions to our email inbox, and with the analytics provider named in section 2."
+    ]
+  },
+  {
+    heading: "5. International transfers",
+    paragraphs: [
+      "ELAPACK operates from China. If you contact us from Europe or the United Kingdom, the information you send us will be processed in China so that we can reply to your inquiry."
+    ]
+  },
+  {
+    heading: "6. How long we keep it",
+    paragraphs: [
+      "We keep inquiry records for up to 24 months. If an inquiry does not lead to an order, we delete the record once 24 months have passed. If you place an order, the records relating to that order are kept with our order files for as long as needed for fulfilment, after-sales service and our legal obligations."
+    ]
+  },
+  {
+    heading: "7. Your rights",
+    paragraphs: [
+      "If you are in Europe or the United Kingdom, you may ask us to provide a copy of the personal information we hold about you, correct it, delete it, restrict how we use it, or object to our use of it. To make a request, write to tina@elapack.com. You also have the right to complain to your local data protection authority."
+    ]
+  },
+  {
+    heading: "8. Children",
+    paragraphs: [
+      "This website is for business buyers. We do not knowingly collect information from anyone under 18."
+    ]
+  },
+  {
+    heading: "9. Changes to this policy",
+    paragraphs: [
+      "We will update this page when how we handle information changes, and change the \u201CLast updated\u201D date above."
+    ]
+  },
+  {
+    heading: "10. Contact us",
+    paragraphs: [
+      "For any question about this policy or your information, contact: ELAPACK \u2014 Wuxi Magic Packaging Co., Ltd., Wuxi, Jiangsu, China \xB7 Email: tina@elapack.com \xB7 Phone / WhatsApp: +86 186 2635 2096"
+    ]
+  }
+];
+function Privacy() {
+  (0, import_react10.useEffect)(() => {
+    document.title = "Privacy Policy | ELAPACK";
+  }, []);
+  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(import_jsx_runtime11.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("section", { className: "page-header page-header-alt", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "eyebrow reveal", children: "Legal" }),
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: "Privacy Policy" }),
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Last updated: November 2026" })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "container", style: { maxWidth: "820px" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("p", { className: "about-text reveal", children: [
+        "ELAPACK is the custom packaging brand of",
+        " ",
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("strong", { children: "Wuxi Magic Packaging Co., Ltd." }),
+        ", based in Wuxi, Jiangsu, China. This policy explains what information we collect when you use elapack.com, how we use it, and the choices you have. It applies to this website only."
+      ] }),
+      sections.map((section) => /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+          "h2",
+          {
+            className: "section-title",
+            style: { marginTop: "2rem", fontSize: "1.35rem" },
+            children: section.heading
+          }
+        ),
+        section.paragraphs.map((p) => /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "about-text", children: p }, p.slice(0, 32))),
+        section.bullets && /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("ul", { className: "about-text", style: { paddingLeft: "1.25rem" }, children: section.bullets.map((b) => /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("li", { children: b }, b.slice(0, 32))) }),
+        section.heading === "3. How we use your information" && /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "about-text", children: "We do not sell your personal information, and we do not publish inquiry details." })
+      ] }, section.heading))
+    ] }) })
+  ] });
+}
+
 // src/pages/News.tsx
 var import_react_router_dom12 = require("react-router-dom");
-var import_jsx_runtime11 = require("react/jsx-runtime");
+var import_jsx_runtime12 = require("react/jsx-runtime");
 var [featured, ...remainingGuides] = articles;
 function News() {
-  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(import_jsx_runtime11.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "eyebrow reveal", children: "Buyer Guides" }),
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_jsx_runtime12.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "eyebrow reveal", children: "Buyer Guides" }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
         "Custom Packaging",
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("br", {}),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("br", {}),
         "Buyer Guides"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Compare packaging structures, materials and order requirements before requesting a quote." })
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Compare packaging structures, materials and order requirements before requesting a quote." })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("section", { className: "section news-section", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("article", { className: "news-featured reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "news-featured-image", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: featured.image, alt: featured.imageAlt, width: featured.imageWidth ?? 1600, height: featured.imageHeight ?? 1e3 }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-featured-body", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-category", children: featured.category }),
-          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h2", { className: "news-featured-title", children: featured.title }),
-          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "news-featured-excerpt", children: featured.excerpt }),
-          /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-meta", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: featured.date }),
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-meta-dot" }),
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: featured.readTime })
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "section news-section", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("article", { className: "news-featured reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "news-featured-image", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: featured.image, alt: featured.imageAlt, width: featured.imageWidth ?? 1600, height: featured.imageHeight ?? 1e3 }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "news-featured-body", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "news-category", children: featured.category }),
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { className: "news-featured-title", children: featured.title }),
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "news-featured-excerpt", children: featured.excerpt }),
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "news-meta", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: featured.date }),
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "news-meta-dot" }),
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: featured.readTime })
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(import_react_router_dom12.Link, { to: `/news/${featured.slug}/`, className: "text-link", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom12.Link, { to: `/news/${featured.slug}/`, className: "text-link", children: [
             "Read Guide",
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
           ] })
         ] })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-guides-head reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h2", { className: "section-title", children: "More Buyer Guides" }),
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "page-subtitle", children: "Practical questions and specifications to prepare before you request a quote." })
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "news-guides-head reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { className: "section-title", children: "More Buyer Guides" }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "page-subtitle", children: "Practical questions and specifications to prepare before you request a quote." })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "news-grid", children: remainingGuides.map((article, i) => /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "news-grid", children: remainingGuides.map((article, i) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
         "article",
         {
           className: `news-card reveal reveal-delay-${i % 3 + 1}`,
-          children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(import_react_router_dom12.Link, { to: `/news/${article.slug}/`, className: "news-card-link", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-card-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("img", { src: article.image, alt: article.imageAlt, loading: "lazy", width: 1600, height: 1e3 }),
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-category", children: article.category })
+          children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom12.Link, { to: `/news/${article.slug}/`, className: "news-card-link", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "news-card-image", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: article.image, alt: article.imageAlt, loading: "lazy", width: 1600, height: 1e3 }),
+              /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "news-category", children: article.category })
             ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-card-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h3", { className: "news-card-title", children: article.title }),
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", { className: "news-card-excerpt", children: article.excerpt }),
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "news-meta", children: [
-                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: article.date }),
-                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "news-meta-dot" }),
-                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: article.readTime })
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "news-card-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h3", { className: "news-card-title", children: article.title }),
+              /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "news-card-excerpt", children: article.excerpt }),
+              /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "news-meta", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: article.date }),
+                /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "news-meta-dot" }),
+                /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: article.readTime })
               ] })
             ] })
           ] })
@@ -8313,8 +9186,8 @@ function News() {
 
 // src/pages/Article.tsx
 var import_react_router_dom13 = require("react-router-dom");
-var import_react10 = require("react");
-var import_jsx_runtime12 = require("react/jsx-runtime");
+var import_react11 = require("react");
+var import_jsx_runtime13 = require("react/jsx-runtime");
 var RELATED = {
   "magnetic-gift-boxes-wholesale-guide": [
     "magnetic-closure-gift-box"
@@ -8731,7 +9604,7 @@ function linkify(text, keyPrefix, ctx) {
   ctx.used.add(phrase);
   return [
     ...at > 0 ? [text.slice(0, at)] : [],
-    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_react_router_dom13.Link, { to: slug.startsWith("/") ? slug : `/products/${slug}/`, className: "text-link", children: phrase }, `${keyPrefix}-a`),
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_react_router_dom13.Link, { to: slug.startsWith("/") ? slug : `/products/${slug}/`, className: "text-link", children: phrase }, `${keyPrefix}-a`),
     ...linkify(text.slice(at + phrase.length), `${keyPrefix}-r`, ctx)
   ];
 }
@@ -8747,9 +9620,9 @@ function inline(text, keyPrefix, ctx) {
   let i = 0;
   while (m = re.exec(text)) {
     if (m.index > last) push(text.slice(last, m.index), `${keyPrefix}-t${i}`);
-    if (m[1] !== void 0) nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("a", { href: m[2], className: "text-link", children: m[1] }, `${keyPrefix}-a${i}`));
-    else if (m[3] !== void 0) nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("strong", { children: m[3] }, `${keyPrefix}-b${i}`));
-    else nodes.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("em", { children: m[4] }, `${keyPrefix}-i${i}`));
+    if (m[1] !== void 0) nodes.push(/* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", { href: m[2], className: "text-link", children: m[1] }, `${keyPrefix}-a${i}`));
+    else if (m[3] !== void 0) nodes.push(/* @__PURE__ */ (0, import_jsx_runtime13.jsx)("strong", { children: m[3] }, `${keyPrefix}-b${i}`));
+    else nodes.push(/* @__PURE__ */ (0, import_jsx_runtime13.jsx)("em", { children: m[4] }, `${keyPrefix}-i${i}`));
     last = m.index + m[0].length;
     i++;
   }
@@ -8775,7 +9648,7 @@ function renderBody(body, anchors = {}) {
     if (!list) return;
     const Tag = list.ordered ? "ol" : "ul";
     out.push(
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(Tag, { children: list.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("li", { children: inline(item, `li${out.length}-${i}`) }, i)) }, `l${out.length}`)
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(Tag, { children: list.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("li", { children: inline(item, `li${out.length}-${i}`) }, i)) }, `l${out.length}`)
     );
     list = null;
   };
@@ -8783,9 +9656,9 @@ function renderBody(body, anchors = {}) {
     const rows = tableRows.map(splitRow);
     tableRows = [];
     out.push(
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-table-wrap", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("table", { className: "article-table", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("tr", { children: rows[0].map((h, i) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("th", { children: inline(h, `th${out.length}-${i}`) }, i)) }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("tbody", { children: rows.slice(1).map((r, ri) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("tr", { children: r.map((c, ci) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("td", { children: inline(c, `td${out.length}-${ri}-${ci}`) }, ci)) }, ri)) })
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "article-table-wrap", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("table", { className: "article-table", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("tr", { children: rows[0].map((h, i) => /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("th", { children: inline(h, `th${out.length}-${i}`) }, i)) }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("tbody", { children: rows.slice(1).map((r, ri) => /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("tr", { children: r.map((c, ci) => /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("td", { children: inline(c, `td${out.length}-${ri}-${ci}`) }, ci)) }, ri)) })
       ] }) }, `tw${out.length}`)
     );
   };
@@ -8794,7 +9667,7 @@ function renderBody(body, anchors = {}) {
   const flushQuote = () => {
     if (!quote) return;
     out.push(
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("blockquote", { className: "article-quote", children: quote.map((q, i) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { children: inline(q, `q${out.length}-${i}`) }, i)) }, `q${out.length}`)
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("blockquote", { className: "article-quote", children: quote.map((q, i) => /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { children: inline(q, `q${out.length}-${i}`) }, i)) }, `q${out.length}`)
     );
     quote = null;
   };
@@ -8843,30 +9716,30 @@ function renderBody(body, anchors = {}) {
     const figure = line.match(/^!\[([^\]]*)\]\((\/[^)\s]+)\)$/);
     if (figure) {
       out.push(
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("figure", { className: "article-figure", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: figure[2], alt: figure[1], width: 1200, height: 675, loading: "lazy" }),
-          figure[1] ? /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("figcaption", { children: figure[1] }) : null
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("figure", { className: "article-figure", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("img", { src: figure[2], alt: figure[1], width: 1200, height: 675, loading: "lazy" }),
+          figure[1] ? /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("figcaption", { children: figure[1] }) : null
         ] }, `fig${out.length}`)
       );
-    } else if (line.startsWith("### ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h3", { id: slugify(line.slice(4).replace(/\*\*|\*/g, "")), children: inline(line.slice(4), `h3${out.length}`) }, out.length));
-    else if (line.startsWith("## ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { id: slugify(line.slice(3).replace(/\*\*|\*/g, "")), children: inline(line.slice(3), `h2${out.length}`) }, out.length));
-    else out.push(/* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { children: inline(line, `p${out.length}`, ctx) }, out.length));
+    } else if (line.startsWith("### ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h3", { id: slugify(line.slice(4).replace(/\*\*|\*/g, "")), children: inline(line.slice(4), `h3${out.length}`) }, out.length));
+    else if (line.startsWith("## ")) out.push(/* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { id: slugify(line.slice(3).replace(/\*\*|\*/g, "")), children: inline(line.slice(3), `h2${out.length}`) }, out.length));
+    else out.push(/* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { children: inline(line, `p${out.length}`, ctx) }, out.length));
   });
   if (tableRows.length) flushTable();
   flushQuote();
   flush();
   const tkIdx = out.findIndex(
-    (n) => (0, import_react10.isValidElement)(n) && n.type === "h2" && n.props.id === "key-takeaways"
+    (n) => (0, import_react11.isValidElement)(n) && n.type === "h2" && n.props.id === "key-takeaways"
   );
   if (tkIdx >= 0) {
     let end = out.findIndex(
-      (n, i) => i > tkIdx && (0, import_react10.isValidElement)(n) && n.type === "h2"
+      (n, i) => i > tkIdx && (0, import_react11.isValidElement)(n) && n.type === "h2"
     );
     if (end < 0) end = out.length;
     out.splice(
       tkIdx,
       end - tkIdx,
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-takeaways", children: out.slice(tkIdx, end) }, `tk${tkIdx}`)
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "article-takeaways", children: out.slice(tkIdx, end) }, `tk${tkIdx}`)
     );
   }
   return out;
@@ -8876,60 +9749,60 @@ function Article() {
   const article = slug ? getArticleBySlug(slug) : void 0;
   const related = relatedProducts(slug);
   if (!article) {
-    return /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h1", { className: "section-title", children: "Article not found" }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { style: { textAlign: "center" }, children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: "/news/", className: "text-link", children: [
+    return /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h1", { className: "section-title", children: "Article not found" }),
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { style: { textAlign: "center" }, children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(import_react_router_dom13.Link, { to: "/news/", className: "text-link", children: [
         "Back to News & Insights ",
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
       ] }) })
     ] }) });
   }
   const fontClass = article.fontFamily === "Arial" ? " article-font-arial" : "";
   const toc = tocEntries(article.body);
   const aiPrompt = askAiPrompt(article.title, article.slug);
-  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_jsx_runtime12.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: `page-header${fontClass}`, children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "eyebrow reveal", children: article.category }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: article.title }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "news-meta reveal reveal-delay-2", style: { justifyContent: "center" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("span", { children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(import_jsx_runtime13.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: `page-header${fontClass}`, children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "eyebrow reveal", children: article.category }),
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: article.title }),
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "news-meta reveal reveal-delay-2", style: { justifyContent: "center" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("span", { children: [
           "By ",
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_react_router_dom13.Link, { to: "/about/", className: "text-link", children: "Tina" })
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_react_router_dom13.Link, { to: "/about/", className: "text-link", children: "Tina" })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "news-meta-dot" }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: article.date }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "news-meta-dot" }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: article.readTime })
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "news-meta-dot" }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { children: article.date }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "news-meta-dot" }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { children: article.readTime })
       ] })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("section", { className: `section article-section${fontClass}`, children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "container article-container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("figure", { className: "landing-hero", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("img", { src: article.image, alt: article.imageAlt, width: article.imageWidth ?? 1600, height: article.imageHeight ?? 1e3 }) }),
-      toc.length >= 3 && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("nav", { className: "article-toc", "aria-label": "Table of contents", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-toc-title", children: "In this guide" }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("ol", { children: toc.map((t) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("a", { href: `#${t.id}`, className: "text-link", children: t.text }) }, t.id)) })
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: `section article-section${fontClass}`, children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container article-container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("figure", { className: "landing-hero", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("img", { src: article.image, alt: article.imageAlt, width: article.imageWidth ?? 1600, height: article.imageHeight ?? 1e3 }) }),
+      toc.length >= 3 && /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("nav", { className: "article-toc", "aria-label": "Table of contents", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "article-toc-title", children: "In this guide" }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("ol", { children: toc.map((t) => /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", { href: `#${t.id}`, className: "text-link", children: t.text }) }, t.id)) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "article-body", children: renderBody(article.body, ANCHORS[article.slug]) }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-related reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_react_router_dom13.Link, { to: "/about/", className: "text-link", children: "Tina Lee \u2014 Founder, ELAPACK" }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { children: "Tina Lee leads ELAPACK, the custom packaging brand of Wuxi Magic Packaging Co., Ltd. in Wuxi, China. She works with jewelry, eyewear, beauty, fragrance, gift, and fashion brands in Europe and North America on custom boxes, pouches, bags, and complete packaging sets. She writes ELAPACK's buyer guides on materials, sizing and dielines, sampling, minimum order quantities, and lead times." })
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "article-body", children: renderBody(article.body, ANCHORS[article.slug]) }),
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "article-related reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_react_router_dom13.Link, { to: "/about/", className: "text-link", children: "Tina Lee \u2014 Founder, ELAPACK" }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { children: "Tina Lee leads ELAPACK, the custom packaging brand of Wuxi Magic Packaging Co., Ltd. in Wuxi, China. She works with jewelry, eyewear, beauty, fragrance, gift, and fashion brands in Europe and North America on custom boxes, pouches, bags, and complete packaging sets. She writes ELAPACK's buyer guides on materials, sizing and dielines, sampling, minimum order quantities, and lead times." })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-cta reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-cta-facts", children: "Individual packaging products from 200 pieces \xB7 free digital dieline preview \xB7 custom sample USD 30 + USD 25 shipping, usually 3\u20135 days to prepare" }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_react_router_dom13.Link, { to: "/contact/", className: "btn-primary article-cta-btn", children: "Request a quote" })
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "article-cta reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "article-cta-facts", children: "Individual packaging products from 200 pieces \xB7 free digital dieline preview \xB7 custom sample USD 30 + USD 25 shipping, usually 3\u20135 days to prepare" }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_react_router_dom13.Link, { to: "/contact/", className: "btn-primary article-cta-btn", children: "Request a quote" })
       ] }),
-      related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-related reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { children: "Related products" }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("ul", { className: "spec-list", children: related.map((p) => /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: `/products/${p.slug}/`, className: "text-link", children: [
+      related.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "article-related reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { children: "Related products" }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("ul", { className: "spec-list", children: related.map((p) => /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(import_react_router_dom13.Link, { to: `/products/${p.slug}/`, className: "text-link", children: [
           p.name,
           " ",
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
         ] }) }, p.slug)) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-askai", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-askai-title", children: "Ask AI about this article" }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-askai-sub", children: "Get a summary or answers from your favorite assistant." }),
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "article-askai-links", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "article-askai", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "article-askai-title", children: "Ask AI about this article" }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "article-askai-sub", children: "Get a summary or answers from your favorite assistant." }),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "article-askai-links", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
             "a",
             {
               href: `https://chatgpt.com/?q=${encodeURIComponent(aiPrompt)}`,
@@ -8938,7 +9811,7 @@ function Article() {
               children: "ChatGPT"
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
             "a",
             {
               href: `https://claude.ai/new?q=${encodeURIComponent(aiPrompt)}`,
@@ -8947,7 +9820,7 @@ function Article() {
               children: "Claude"
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
             "a",
             {
               href: ASK_AI_GEMINI,
@@ -8956,7 +9829,7 @@ function Article() {
               children: "Gemini"
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
             "button",
             {
               type: "button",
@@ -8968,18 +9841,18 @@ function Article() {
           )
         ] })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", { className: "article-back", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_react_router_dom13.Link, { to: "/news/", className: "text-link", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "article-back", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(import_react_router_dom13.Link, { to: "/news/", className: "text-link", children: [
         "Back to News & Insights ",
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "text-link-arrow", children: "\u2192" })
       ] }) })
     ] }) })
   ] });
 }
 
 // src/pages/Contact.tsx
-var import_react11 = require("react");
+var import_react12 = require("react");
 var import_react_router_dom14 = require("react-router-dom");
-var import_jsx_runtime13 = require("react/jsx-runtime");
+var import_jsx_runtime14 = require("react/jsx-runtime");
 var WEB3FORMS_KEY = "7532f731-6678-43dd-9553-7c18090e71d5";
 var WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 var contactInfo = [
@@ -9025,10 +9898,10 @@ var projectTypes = [
 function Contact() {
   const [searchParams] = (0, import_react_router_dom14.useSearchParams)();
   const selectedProduct = getProductBySlug(searchParams.get("product") ?? "");
-  const [submitted, setSubmitted] = (0, import_react11.useState)(false);
-  const [sending, setSending] = (0, import_react11.useState)(false);
-  const [failed, setFailed] = (0, import_react11.useState)(false);
-  const [selectedType, setSelectedType] = (0, import_react11.useState)("");
+  const [submitted, setSubmitted] = (0, import_react12.useState)(false);
+  const [sending, setSending] = (0, import_react12.useState)(false);
+  const [failed, setFailed] = (0, import_react12.useState)(false);
+  const [selectedType, setSelectedType] = (0, import_react12.useState)("");
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSending(true);
@@ -9049,50 +9922,50 @@ function Contact() {
       setSending(false);
     }
   };
-  return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(import_jsx_runtime13.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "eyebrow reveal", children: "Contact Us" }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(import_jsx_runtime14.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow reveal", children: "Contact Us" }),
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
         "Let's Begin a",
         " ",
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("br", {}),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("br", {}),
         "Conversation"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Tell us about your brand and your packaging vision. We'll respond within one business day with next steps." })
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: "Tell us about your brand and your packaging vision. We'll respond within one business day (Mon\u2013Fri, China time) with next steps." })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("section", { className: "section contact-section", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-info reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "contact-heading", children: "Get in Touch" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-intro", children: "Whether you're an established luxury house or a growing brand, we'd love to hear from you. Reach us through any of the channels below." }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "contact-list", children: contactInfo.map((item) => /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-icon", children: item.icon }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item-body", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-label", children: item.label }),
-            item.href ? /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", { href: item.href, className: "contact-value", children: item.value }) : /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-value contact-value-text", children: item.value })
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section contact-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-info reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "contact-heading", children: "Get in Touch" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "contact-intro", children: "Whether you're an established luxury house or a growing brand, we'd love to hear from you. Reach us through any of the channels below." }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "contact-list", children: contactInfo.map((item) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-item", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "contact-icon", children: item.icon }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-item-body", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "contact-label", children: item.label }),
+            item.href ? /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("a", { href: item.href, className: "contact-value", children: item.value }) : /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "contact-value contact-value-text", children: item.value })
           ] })
         ] }, item.label)) }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-market", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h3", { className: "contact-market-title", children: "Target Markets" }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "market-tags-small", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { children: "Europe" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { children: "North America" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { children: "United Kingdom" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { children: "Scandinavia" })
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-market", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "contact-market-title", children: "Target Markets" }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "market-tags-small", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { children: "Europe" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { children: "North America" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { children: "United Kingdom" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { children: "Scandinavia" })
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-market-note", children: "Primary language: English. We serve mid-to-high-end brands and enterprise clients who value brand image, packaging quality, and supply chain stability." })
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "contact-market-note", children: "Primary language: English. We serve mid-to-high-end brands and enterprise clients who value brand image, packaging quality, and supply chain stability." })
         ] })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "contact-form-wrap reveal reveal-delay-2", children: submitted ? /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-success", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "success-icon", children: "\u2713" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h3", { className: "success-title", children: "Thank you." }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "success-text", children: "Your message has been received. A member of our team will reach out within one business day." }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "success-text", children: "While you wait, here are a few ways to move faster:" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-list", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-icon", children: "\u{1F4AC}" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-label", children: "Need an answer today?" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "contact-form-wrap reveal reveal-delay-2", children: submitted ? /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-success", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "success-icon", children: "\u2713" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "success-title", children: "Thank you." }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "success-text", children: "Your message has been received. A member of our team will reach out within one business day (Mon\u2013Fri, China time)." }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "success-text", children: "While you wait, here are a few ways to move faster:" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-list", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-item", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "contact-icon", children: "\u{1F4AC}" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-item-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "contact-label", children: "Need an answer today?" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
                 "a",
                 {
                   href: "https://wa.me/8618626352096",
@@ -9102,18 +9975,18 @@ function Contact() {
               )
             ] })
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-icon", children: "\u25C8" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-label", children: "Preparing your brief?" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", { href: "/products/", className: "contact-value", children: "Browse all products & materials" })
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-item", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "contact-icon", children: "\u25C8" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-item-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "contact-label", children: "Preparing your brief?" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("a", { href: "/products/", className: "contact-value", children: "Browse all products & materials" })
             ] })
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-icon", children: "\u2709" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "contact-item-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", { className: "contact-label", children: "Have files to share?" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-item", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "contact-icon", children: "\u2709" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "contact-item-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "contact-label", children: "Have files to share?" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
                 "a",
                 {
                   href: "mailto:tina@elapack.com",
@@ -9124,7 +9997,7 @@ function Contact() {
             ] })
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
           "button",
           {
             className: "btn-outline",
@@ -9132,15 +10005,15 @@ function Contact() {
             children: "Send Another Message"
           }
         )
-      ] }) : /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("form", { className: "contact-form", onSubmit: handleSubmit, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", { className: "contact-heading", children: "Request a Quote" }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-form-intro", children: "Share your project details and we'll prepare a tailored proposal for you. MOQ 200 per product / per component of a set. Production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment." }),
-        selectedProduct && /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("p", { className: "contact-form-intro", children: [
+      ] }) : /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("form", { className: "contact-form", onSubmit: handleSubmit, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "contact-heading", children: "Request a Quote" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "contact-form-intro", children: "Share your project details and we'll prepare a tailored proposal for you. MOQ 200 per product / per component of a set. Production 15\u201320 days for 200\u201320,000 pcs and 30\u201335 days for 20,000\u201350,000 pcs after sample approval and payment." }),
+        selectedProduct && /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("p", { className: "contact-form-intro", children: [
           "Product: ",
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("strong", { children: selectedProduct.name })
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("strong", { children: selectedProduct.name })
         ] }),
-        selectedProduct?.slug === "custom-ring-boxes" && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "contact-form-intro", children: "For ring boxes, include the band width, setting height, rings per box, preferred finish and logo artwork in Project Details." }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+        selectedProduct?.slug === "custom-ring-boxes" && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "contact-form-intro", children: "For ring boxes, include the band width, setting height, rings per box, preferred finish and logo artwork in Project Details." }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
           "input",
           {
             type: "checkbox",
@@ -9150,8 +10023,8 @@ function Contact() {
             style: { display: "none" }
           }
         ),
-        selectedProduct && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { type: "hidden", name: "product", value: selectedProduct.name }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+        selectedProduct && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("input", { type: "hidden", name: "product", value: selectedProduct.name }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
           "input",
           {
             type: "hidden",
@@ -9159,10 +10032,10 @@ function Contact() {
             value: selectedType || "Not specified"
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "name", children: "Full Name *" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "name", children: "Full Name *" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
               "input",
               {
                 id: "name",
@@ -9173,9 +10046,9 @@ function Contact() {
               }
             )
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "company", children: "Company / Brand" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "company", children: "Company / Brand" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
               "input",
               {
                 id: "company",
@@ -9186,10 +10059,10 @@ function Contact() {
             )
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "email", children: "Email *" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "email", children: "Email *" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
               "input",
               {
                 id: "email",
@@ -9200,9 +10073,9 @@ function Contact() {
               }
             )
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "phone", children: "Phone / WhatsApp" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "phone", children: "Phone / WhatsApp" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
               "input",
               {
                 id: "phone",
@@ -9213,9 +10086,9 @@ function Contact() {
             )
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { children: "Project Type" }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "chip-group", children: projectTypes.map((type) => /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { children: "Project Type" }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "chip-group", children: projectTypes.map((type) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
             "button",
             {
               type: "button",
@@ -9226,78 +10099,78 @@ function Contact() {
             type
           )) })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "industry", children: "Industry" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("select", { id: "industry", name: "industry", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { value: "", children: "Select industry" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Beauty & Fragrance" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Storage Bags" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Gift Boxes" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Jewelry" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Eyewear" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Hair & Wig" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Fashion" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Other" })
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "industry", children: "Industry" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("select", { id: "industry", name: "industry", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { value: "", children: "Select industry" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Beauty & Fragrance" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Storage Bags" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Gift Boxes" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Jewelry" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Eyewear" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Hair & Wig" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Fashion" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Other" })
             ] })
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "packaging_form", children: "Packaging Form" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("select", { id: "packaging_form", name: "packaging_form", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { value: "", children: "Select form" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Box" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Pouch / Bag" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Set (box + pouch + card / cloth / ribbon)" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Other" })
-            ] })
-          ] })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "dimensions", children: "Product / Pack Dimensions" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "dimensions", name: "dimensions", type: "text", placeholder: "e.g. 90 x 90 x 40 mm, for a 50 ml bottle" })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "material", children: "Material" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "material", name: "material", type: "text", placeholder: "e.g. rigid board, velvet, cotton, microfiber" })
-          ] })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "finish_insert", children: "Finish / Insert" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "finish_insert", name: "finish_insert", type: "text", placeholder: "e.g. foil, emboss, EVA / velvet insert" })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "logo_method", children: "Logo Method" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "logo_method", name: "logo_method", type: "text", placeholder: "e.g. hot stamp, silkscreen, woven label" })
-          ] })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-row", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "target_date", children: "Target Delivery Date" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "target_date", name: "target_date", type: "text", placeholder: "e.g. before 20 Dec" })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "sample_needed", children: "Sample Needed" }),
-            /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("select", { id: "sample_needed", name: "sample_needed", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { value: "", children: "Select sample" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Stock sample (free + USD 25 shipping)" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "Custom sample (USD 30 + USD 25 shipping, 3\u20135 days)" }),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("option", { children: "No sample yet" })
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "packaging_form", children: "Packaging Form" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("select", { id: "packaging_form", name: "packaging_form", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { value: "", children: "Select form" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Box" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Pouch / Bag" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Set (box + pouch + card / cloth / ribbon)" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Other" })
             ] })
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "reference_link", children: "Reference Link (artwork / example)" }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { id: "reference_link", name: "reference_link", type: "text", placeholder: "Paste a link to artwork or a reference product" })
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "dimensions", children: "Product / Pack Dimensions" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("input", { id: "dimensions", name: "dimensions", type: "text", placeholder: "e.g. 90 x 90 x 40 mm, for a 50 ml bottle" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "material", children: "Material" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("input", { id: "material", name: "material", type: "text", placeholder: "e.g. rigid board, velvet, cotton, microfiber" })
+          ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "form-group", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("label", { children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("input", { type: "checkbox", name: "add_cleaning_cloth", value: "Yes" }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "finish_insert", children: "Finish / Insert" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("input", { id: "finish_insert", name: "finish_insert", type: "text", placeholder: "e.g. foil, emboss, EVA / velvet insert" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "logo_method", children: "Logo Method" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("input", { id: "logo_method", name: "logo_method", type: "text", placeholder: "e.g. hot stamp, silkscreen, woven label" })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-row", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "target_date", children: "Target Delivery Date" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("input", { id: "target_date", name: "target_date", type: "text", placeholder: "e.g. before 20 Dec" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "sample_needed", children: "Sample Needed" }),
+            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("select", { id: "sample_needed", name: "sample_needed", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { value: "", children: "Select sample" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Stock sample (free + USD 25 shipping)" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "Custom sample (USD 30 + USD 25 shipping, 3\u20135 days)" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("option", { children: "No sample yet" })
+            ] })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "reference_link", children: "Reference Link (artwork / example)" }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("input", { id: "reference_link", name: "reference_link", type: "text", placeholder: "Paste a link to artwork or a reference product" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "form-group", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("label", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("input", { type: "checkbox", name: "add_cleaning_cloth", value: "Yes" }),
           " Add microfiber cleaning cloth to the set (100% polyester or 80% polyester / 20% polyamide, 180\u2013230g; for jewelry, eyewear, screens and lenses)"
         ] }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "quantity", children: "Estimated Quantity" }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "quantity", children: "Estimated Quantity" }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
             "input",
             {
               id: "quantity",
@@ -9307,9 +10180,9 @@ function Contact() {
             }
           )
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "form-group", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("label", { htmlFor: "message", children: "Project Details *" }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "form-group", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("label", { htmlFor: "message", children: "Project Details *" }),
+          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
             "textarea",
             {
               id: "message",
@@ -9320,7 +10193,7 @@ function Contact() {
             }
           )
         ] }),
-        failed && /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(
+        failed && /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
           "p",
           {
             className: "contact-form-error",
@@ -9328,18 +10201,30 @@ function Contact() {
             children: [
               "Something went wrong sending your message. Please email us directly at",
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" }),
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" }),
               "."
             ]
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
           "button",
           {
             type: "submit",
             className: "btn-primary btn-full",
             disabled: sending,
             children: sending ? "Sending\u2026" : "Submit Request"
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
+          "p",
+          {
+            style: { fontSize: "0.85rem", opacity: 0.75, margin: "1rem 0 0" },
+            children: [
+              "By submitting this form, you agree that we may contact you about your inquiry. See our",
+              " ",
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom14.Link, { to: "/privacy/", children: "Privacy Policy" }),
+              "."
+            ]
           }
         )
       ] }) })
@@ -9348,9 +10233,9 @@ function Contact() {
 }
 
 // src/pages/Video.tsx
-var import_react12 = require("react");
+var import_react13 = require("react");
 var import_react_router_dom15 = require("react-router-dom");
-var import_jsx_runtime14 = require("react/jsx-runtime");
+var import_jsx_runtime15 = require("react/jsx-runtime");
 var processSteps2 = [
   {
     phase: "Early",
@@ -9438,28 +10323,28 @@ var faqs = [
   }
 ];
 function Video() {
-  const [openFaq, setOpenFaq] = (0, import_react12.useState)(0);
-  return /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(import_jsx_runtime14.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "page-header custom-solution-header", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow reveal", children: "Custom Solutions" }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
+  const [openFaq, setOpenFaq] = (0, import_react13.useState)(0);
+  return /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(import_jsx_runtime15.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "page-header custom-solution-header", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "eyebrow reveal", children: "Custom Solutions" }),
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("h1", { className: "page-title reveal reveal-delay-1", children: [
         "Custom Packaging",
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("br", {}),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("br", {}),
         "Process & Video"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("p", { className: "page-subtitle reveal reveal-delay-2", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "page-subtitle reveal reveal-delay-2", children: [
         "Review the available packaging footage and the steps from your brief through sampling, production and delivery. Send us your product details to discuss an order-specific plan. Still comparing packaging types? Browse ",
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/solutions/", children: "structures, materials and finishes" }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom15.Link, { to: "/solutions/", children: "structures, materials and finishes" }),
         " first."
       ] })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section", style: { paddingTop: "3rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "Packaging Video" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Packaging Process Footage" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "section-subtitle", children: "See the available packaging footage, then confirm the materials, sample and production arrangements for your project." })
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: "3rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "eyebrow", children: "Packaging Video" }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Packaging Process Footage" }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "section-subtitle", children: "See the available packaging footage, then confirm the materials, sample and production arrangements for your project." })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "about-video-wrapper reveal", style: { maxWidth: "900px", margin: "0 auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "about-video-wrapper reveal", style: { maxWidth: "900px", margin: "0 auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(
         "video",
         {
           className: "about-video-poster",
@@ -9468,24 +10353,24 @@ function Video() {
           controls: true,
           playsInline: true,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("source", { src: "/videos/factory-tour.mp4", type: "video/mp4" }),
+            /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("source", { src: "/videos/factory-tour.mp4", type: "video/mp4" }),
             "Your browser does not support the video tag."
           ]
         }
       ) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-intro-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "custom-solution-intro-grid", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: 0 }, children: "Our Custom Services" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "custom-solution-text", children: "ELAPACK offers comprehensive custom packaging services tailored to your brand's needs. From exquisite jewelry boxes that showcase diamonds with museum-worthy presentations, to elegant gift boxes designed for luxury brand gifting, and sophisticated paper cosmetics packaging that balances sustainability with premium feel \u2014 we cover it all." }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "custom-solution-text", children: "We review structure, materials, artwork and sample needs against your product brief before confirming the production specification. Whether you need custom jewelry packaging boxes or unique personalized packaging, we have the expertise to bring your vision to life." }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "custom-solution-intro-actions", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/products/", className: "btn-primary", children: "Explore Products" }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/contact/", className: "btn-outline", children: "Request a Quote" })
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section custom-solution-intro-section", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "custom-solution-intro-grid", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: 0 }, children: "Our Custom Services" }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "custom-solution-text", children: "ELAPACK offers comprehensive custom packaging services tailored to your brand's needs. From exquisite jewelry boxes that showcase diamonds with museum-worthy presentations, to elegant gift boxes designed for luxury brand gifting, and sophisticated paper cosmetics packaging that balances sustainability with premium feel \u2014 we cover it all." }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "custom-solution-text", children: "We review structure, materials, artwork and sample needs against your product brief before confirming the production specification. Whether you need custom jewelry packaging boxes or unique personalized packaging, we have the expertise to bring your vision to life." }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "custom-solution-intro-actions", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom15.Link, { to: "/products/", className: "btn-primary", children: "Explore Products" }),
+          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom15.Link, { to: "/contact/", className: "btn-outline", children: "Request a Quote" })
         ] })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "custom-solution-intro-images reveal reveal-delay-2", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "custom-solution-intro-images reveal reveal-delay-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
           "img",
           {
             src: "/product-giftbox.webp",
@@ -9495,7 +10380,7 @@ function Video() {
             height: 768
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
           "img",
           {
             src: "/product-collection.webp",
@@ -9507,26 +10392,26 @@ function Video() {
         )
       ] })
     ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-process-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "How We Work" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Customization Process" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "section-subtitle", children: "Our custom packaging process is seamless and collaborative. From initial concept to prototype creation, we work closely with you to ensure every detail enhances your brand's value." })
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section custom-solution-process-section", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "eyebrow", children: "How We Work" }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Customization Process" }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "section-subtitle", children: "Our custom packaging process is seamless and collaborative. From initial concept to prototype creation, we work closely with you to ensure every detail enhances your brand's value." })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "process-steps-grid", children: processSteps2.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "process-steps-grid", children: processSteps2.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(
         "div",
         {
           className: `process-step-card reveal reveal-delay-${i + 1}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "process-step-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("img", { src: step.image, alt: step.title, loading: "lazy", width: 1408, height: 768 }),
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "process-step-phase", children: step.phase })
+            /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "process-step-image", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("img", { src: step.image, alt: step.title, loading: "lazy", width: 1408, height: 768 }),
+              /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("span", { className: "process-step-phase", children: step.phase })
             ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "process-step-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "process-step-title", children: step.title }),
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "process-step-desc", children: step.desc }),
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("ul", { className: "process-step-points", children: step.points.map((p) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("li", { className: "process-step-point", children: [
-                /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "case-point-dot" }),
+            /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "process-step-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h3", { className: "process-step-title", children: step.title }),
+              /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "process-step-desc", children: step.desc }),
+              /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("ul", { className: "process-step-points", children: step.points.map((p) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("li", { className: "process-step-point", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("span", { className: "case-point-dot" }),
                 p
               ] }, p)) })
             ] })
@@ -9535,63 +10420,63 @@ function Video() {
         step.title
       )) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-delivery-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "Global Reach" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Global Production & Delivery" })
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section custom-solution-delivery-section", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "eyebrow", children: "Global Reach" }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Global Production & Delivery" })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "delivery-features-grid", children: deliveryFeatures.map((feat, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "delivery-features-grid", children: deliveryFeatures.map((feat, i) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(
         "div",
         {
           className: `delivery-feature-card reveal reveal-delay-${i + 1}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h3", { className: "delivery-feature-title", children: feat.title }),
-            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "delivery-feature-desc", children: feat.desc })
+            /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h3", { className: "delivery-feature-title", children: feat.title }),
+            /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "delivery-feature-desc", children: feat.desc })
           ]
         },
         feat.title
       )) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("section", { className: "section custom-solution-faq-section", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "eyebrow", children: "Questions & Answers" }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently Asked Questions" })
+    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section custom-solution-faq-section", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "eyebrow", children: "Questions & Answers" }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently Asked Questions" })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "faq-list reveal reveal-delay-1", children: faqs.map((faq, i) => /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "faq-list reveal reveal-delay-1", children: faqs.map((faq, i) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(
         "div",
         {
           className: `faq-item ${openFaq === i ? "is-open" : ""}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
+            /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(
               "button",
               {
                 className: "faq-question",
                 onClick: () => setOpenFaq(openFaq === i ? null : i),
                 "aria-expanded": openFaq === i,
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("span", { children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("span", { children: [
                     "Q: ",
                     faq.q
                   ] }),
-                  /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "faq-toggle", "aria-hidden": "true", children: openFaq === i ? "\u2212" : "+" })
+                  /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("span", { className: "faq-toggle", "aria-hidden": "true", children: openFaq === i ? "\u2212" : "+" })
                 ]
               }
             ),
-            /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "faq-answer", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { children: faq.a }) })
+            /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "faq-answer", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { children: faq.a }) })
           ]
         },
         faq.q
       )) }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "faq-cta reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { children: "Still have questions? We're here to help." }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_react_router_dom15.Link, { to: "/contact/", className: "btn-outline", children: "Contact Us" })
+      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "faq-cta reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { children: "Still have questions? We're here to help." }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom15.Link, { to: "/contact/", className: "btn-outline", children: "Contact Us" })
       ] })
     ] }) })
   ] });
 }
 
 // src/pages/Landing.tsx
-var import_react13 = require("react");
+var import_react14 = require("react");
 var import_react_router_dom16 = require("react-router-dom");
 
 // src/data/landings.ts
@@ -9611,10 +10496,14 @@ var landings = [
       { src: "/images/factory/elapack-03.jpg", alt: "Sewing floor producing custom fabric pouches" }
     ],
     eyebrow: "Pouches & Bags",
-    titleTag: "Custom Fabric Pouches & Bags from 200 pcs | ELAPACK",
-    h1: "Custom Fabric Pouches & Bags \u2014 Made to Your Spec, from 200 Pieces",
+    titleTag: "Custom Fabric Pouches & Bags with Logo | ELAPACK",
+    h1: "Custom Fabric Pouches & Bags",
     subhead: "Your size. Your fabric. Your closure. Your logo. Cut, sewn and finished together.",
-    metaDescription: "Custom textile pouches and bags for jewellery, fragrance, beauty, hair and fashion brands \u2014 velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in the size, closure and branding you specify. MOQ from 200 pieces.",
+    metaDescription: "Custom fabric pouches and bags with your logo in velvet, cotton, satin, muslin and microfiber, from 200 pieces \u2014 colour-matched with our rigid boxes.",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Fabrics: velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven; drawstring, flap, envelope and zipper closures."
+    ],
     intro: "ELAPACK makes custom fabric pouches and bags for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification \u2014 not from stock \u2014 so the pouch matches your product and your brand, not the other way round.",
     lead: "ELAPACK makes custom packaging bags to order \u2014 not stock bags. Choose the material by what the bag has to protect and how it will be used, then specify size, closure and logo. Every bag type below is made to your specification, from 200 pieces per product or component, and can be paired with a matching box as a set.",
     why: {
@@ -9681,7 +10570,7 @@ var landings = [
       { q: "Which fabric should I choose \u2014 velvet, satin, cotton, muslin or microfiber?", a: "Choose by the job the pouch does. Velvet and satin are presentation fabrics, chosen for hand-feel and appearance with jewellery, gifts and beauty products. Cotton and muslin are lighter everyday fabrics for apparel, accessories and natural-look brands. Microfiber suits eyewear, screens and lenses, where the surface itself does the cleaning. If you are between two fabrics, sample both: the same product reads very differently in each, and the choice is easier with the product inside." },
       { q: "Which logo methods work on fabric pouches, and what artwork should I send?", a: "Printing, embroidery, foil and woven labels are the usual logo routes on fabric pouches; which suits yours depends on the fabric and the mark \u2014 fine lines and small text favour print, a raised textured mark favours embroidery, and foil is checked fabric by fabric. Send a vector artwork file (AI, EPS or PDF) with the logo size and position you want. The method, size and position are confirmed in the quotation and approved on the sample." },
       { q: "Can I mix sizes, fabrics or colours in one order?", a: "Yes \u2014 each size, fabric or colour version is a separate component, produced and costed in its own run. The minimum is 200 pieces per product or component, so a mixed order is quoted component by component: for example 200 velvet pouches in one size and 200 cotton pouches in another. List every version in the enquiry so the quotation breaks the order down the same way production will run it." },
-      { q: "Can pouch colours match my brand colours?", a: "Yes, within the route you choose: dyed fabrics are matched to your reference, and printed logos are matched to your Pantone reference where the design uses one. Colour is approved on the physical sample, not on screen \u2014 production is checked against the approved sample with a colour tolerance of \u0394E \u2264 2.0. Send your colour reference (Pantone code, swatch or an existing item) with the enquiry." },
+      { q: "Can pouch colours match my brand colours?", a: "Yes, within the route you choose: dyed fabrics are matched to your reference, and printed logos are matched to your Pantone reference where the design uses one. Colour is approved on the physical sample, not on screen \u2014 production is checked against the approved sample with a colour tolerance of \u0394E \u2264 1.5. Send your colour reference (Pantone code, swatch or an existing item) with the enquiry." },
       { q: "Can I reorder the same pouches later and get the same result?", a: "Yes. Keep the approved sample and the confirmed specification \u2014 fabric, size, closure, logo method and artwork version \u2014 and the reorder is produced against them. If anything changes between orders (a new fabric batch is not a change; a new size, fabric or artwork is), flag it in the reorder enquiry so the changed item is re-sampled rather than assumed." }
     ],
     ctaTitle: "Request a quote for your custom pouch or bag"
@@ -9694,9 +10583,13 @@ var landings = [
     ],
     eyebrow: "Boxes",
     titleTag: "Custom Rigid Boxes & Magnetic Gift Boxes from 200 Pieces | ELAPACK",
-    h1: "Custom Rigid Boxes, Folding Cartons & Magnetic Closures \u2014 Made to Your Spec, from 200 Pieces",
+    h1: "Custom Rigid Boxes & Magnetic Gift Boxes \u2014 Made to Your Spec, from 200 Pieces",
     subhead: "Your size. Your structure. Your finish. Your logo. Built around your product.",
-    metaDescription: "Custom rigid boxes in your size, finish and branding \u2014 two-piece lift-off lid, magnetic flap, drawer and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ 200 pieces, production in 15\u201320 working days.",
+    metaDescription: "Custom rigid boxes in two-piece, magnetic flap, drawer and folding structures, with EVA, sponge, pulp or flocked inserts. MOQ 200 pcs; samples in 3\u20135 days.",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Structures: two-piece lift-off lid, magnetic flap, drawer and folding carton; inserts in EVA, sponge, pulp or flocked board."
+    ],
     intro: "ELAPACK makes custom rigid boxes, folding cartons and magnetic closure boxes for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification \u2014 not from stock \u2014 so the box fits your product and carries your brand, not the other way round.",
     why: {
       heading: "Box styles",
@@ -9781,10 +10674,15 @@ var landings = [
       { src: "/images/factory/elapack-02.jpg", alt: "ELAPACK design team preparing pouch and box dielines for a custom packaging set" }
     ],
     eyebrow: "Sets & Bundles",
-    h1: "Custom Packaging Sets \u2014 Pouch, Box & More, Made to Work Together",
+    titleTag: "Custom Packaging Sets with Logo \u2014 Box, Pouch & Insert | ELAPACK",
+    h1: "Custom Packaging Sets \u2014 Boxes, Pouches & Bags",
     subhead: "One spec. One supplier. Pouch, box and insert that match \u2014 piece to piece.",
-    metaDescription: "Custom packaging sets for jewellery, fragrance, beauty, hair and fashion brands \u2014 coordinate pouch, box and insert specifications. MOQ is 200 pieces for each component in the set.",
-    intro: "This page covers multi-component packaging supplied around one product, for any product \u2014 not jewelry only. Start with unboxing experience, product value and protection, then choose the set: a box, pouch and optional insert, card, ribbon or microfiber cleaning cloth. Specify each component and its quantity together so colour, material and branding can be checked across the set. Jewelry stands and trays are retail display props in the product catalogue, not box-and-pouch sets.",
+    metaDescription: "Custom packaging sets with your logo \u2014 box, pouch and insert as one set, Pantone colour-matched. Each component from 200 pieces, made in one factory.",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Each component (box, pouch, insert) counts at its own 200-piece minimum; colours are matched across components to your Pantone reference."
+    ],
+    intro: "This page covers multi-component packaging supplied around one product, for any product \u2014 not jewelry only. Start with unboxing experience, product value and protection, then choose the set: a box, pouch and optional insert, card, ribbon or microfiber cleaning cloth. Specify each component and its quantity together so colour, material and branding can be checked across the set.",
     why: {
       heading: "What a set can include",
       items: [
@@ -9807,7 +10705,7 @@ var landings = [
           ["Storage set", "Drawstring bag + pouch + card", "Various-purpose storage bags"],
           ["Gift set", "Box + pouch + ribbon + card", "Gift boxes and seasonal gifting"],
           ["Eyewear set", "Pouch + microfiber cleaning cloth + box / case", "Eyewear and sunglasses brands"],
-          ["Jewelry set", "Box + pouch + optional cleaning cloth", "Jewelry brands; anti-tarnish lining is an option for silver / plated items only"]
+          ["Jewelry set", "Box + pouch + optional cleaning cloth", "Jewelry brands"]
         ]
       }
     ],
@@ -9854,7 +10752,7 @@ var landings = [
 var getLandingBySlug = (slug) => landings.find((l) => l.slug === slug);
 
 // src/pages/Landing.tsx
-var import_jsx_runtime15 = require("react/jsx-runtime");
+var import_jsx_runtime16 = require("react/jsx-runtime");
 var relatedProductSlugs = {
   boxes: ["custom-ring-boxes", "magnetic-closure-gift-box", "luxury-gift-box-ribbon", "custom-perfume-boxes"],
   "pouches-bags": [
@@ -9873,31 +10771,35 @@ var catalogCategoryBySlug = {
 };
 function Landing({ slug }) {
   const landing = getLandingBySlug(slug);
-  (0, import_react13.useEffect)(() => {
+  (0, import_react14.useEffect)(() => {
     if (landing) document.title = `${landing.titleTag ?? `${landing.eyebrow} | ELAPACK`}`;
   }, [landing]);
   if (!landing) return null;
   const catalogCategory = catalogCategoryBySlug[slug];
   const catalogProducts = catalogCategory ? products.filter((p) => p.category === catalogCategory) : slug === "sets" ? relatedProductSlugs.sets.map(getProductBySlug).filter((p) => p !== void 0) : [];
-  return /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(import_jsx_runtime15.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "eyebrow reveal", children: landing.eyebrow }),
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: landing.h1 }),
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: landing.subhead })
+  return /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(import_jsx_runtime16.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "eyebrow reveal", children: landing.eyebrow }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: landing.h1 }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: landing.subhead })
     ] }) }),
-    catalogProducts.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section products-section", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: slug === "sets" ? "Explore components for your set" : "Explore specific products" }),
-        slug === "sets" && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "markets-note", children: "These are component examples, not fixed pre-packed sets. Request a quote with the box and pouch specifications and quantities for each component." })
+    landing.keyFacts && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingBottom: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Key facts (November 2026)" }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("ul", { className: "spec-list", children: landing.keyFacts.map((line) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("li", { children: line }, line)) })
+    ] }) }) }),
+    catalogProducts.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section products-section", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: slug === "sets" ? "Explore components for your set" : "Explore specific products" }),
+        slug === "sets" && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "markets-note", children: "These are component examples, not fixed pre-packed sets. Request a quote with the box and pouch specifications and quantities for each component." })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "catalog-grid", children: catalogProducts.map((product, i) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "catalog-grid", children: catalogProducts.map((product, i) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(
         import_react_router_dom16.Link,
         {
           to: `/products/${product.slug}/`,
           className: `catalog-card reveal reveal-delay-${i % 4 + 1}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "catalog-card-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
+            /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "catalog-card-image", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
                 "img",
                 {
                   src: product.image,
@@ -9907,20 +10809,20 @@ function Landing({ slug }) {
                   height: 1254
                 }
               ),
-              /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("span", { className: "catalog-category", children: product.category }),
-              product.image.endsWith("product-coming-soon.svg") && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("span", { className: "catalog-image-pending", children: "Product photo pending" })
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "catalog-category", children: product.category }),
+              product.image.endsWith("product-coming-soon.svg") && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "catalog-image-pending", children: "Product photo pending" })
             ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "catalog-card-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h3", { className: "catalog-name", children: product.name }),
-              /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "catalog-desc", children: product.shortDesc }),
-              /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "catalog-meta", children: [
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "meta-item", children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("span", { className: "meta-label", children: "Materials" }),
-                  /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("span", { className: "meta-value", children: product.materials })
+            /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "catalog-card-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h3", { className: "catalog-name", children: product.name }),
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "catalog-desc", children: product.shortDesc }),
+              /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "catalog-meta", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "meta-item", children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "meta-label", children: "Materials" }),
+                  /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "meta-value", children: product.materials })
                 ] }),
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "meta-item", children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("span", { className: "meta-label", children: "MOQ" }),
-                  /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("span", { className: "meta-value", children: product.moq })
+                /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "meta-item", children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "meta-label", children: "MOQ" }),
+                  /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "meta-value", children: product.moq })
                 ] })
               ] })
             ] })
@@ -9929,75 +10831,87 @@ function Landing({ slug }) {
         product.slug
       )) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "section-header-center reveal", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: landing.intro }),
-        landing.lead && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "1rem auto 0" }, children: landing.lead }),
-        slug === "sets" && /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "about-text landing-related-links", style: { maxWidth: "820px", margin: "1rem auto 0" }, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "section-header-center reveal", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: landing.intro }),
+        landing.lead && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "1rem auto 0" }, children: landing.lead }),
+        slug === "sets" && /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "about-text landing-related-links", style: { maxWidth: "820px", margin: "1rem auto 0" }, children: [
           "Compare ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/boxes/", children: "box options" }),
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/boxes/", children: "box options" }),
           " and ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/pouches-bags/", children: "pouch options" }),
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/pouches-bags/", children: "pouch options" }),
           ", or browse ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/products/?category=Retail%20Display%20Props", children: "retail display props" }),
-          " for a separate display project."
-        ] }),
-        slug === "boxes" && /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "about-text landing-related-links", style: { maxWidth: "820px", margin: "1rem auto 0" }, children: [
-          "Sourcing for jewelry? Compare ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/custom-jewelry-boxes/", children: "jewelry box structures and inserts" }),
-          " or see the ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/custom-jewelry-packaging/", children: "full box-and-pouch program" }),
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/products/?category=Retail%20Display%20Props", children: "retail display props" }),
+          " for a separate display project. For beauty programs, the combinations above start from ",
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/custom-cosmetic-packaging/", children: "beauty packaging sets" }),
           "."
         ] }),
-        slug === "pouches-bags" && /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "about-text landing-related-links", style: { maxWidth: "820px", margin: "1rem auto 0" }, children: [
+        slug === "boxes" && /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "about-text landing-related-links", style: { maxWidth: "820px", margin: "1rem auto 0" }, children: [
+          "Sourcing for jewelry? Compare ",
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/custom-jewelry-boxes/", children: "jewelry box structures and inserts" }),
+          " or see the ",
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/custom-jewelry-packaging/", children: "full box-and-pouch program" }),
+          ". For jar and vessel programs, see ",
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/custom-candle-boxes/", children: "custom candle boxes" }),
+          ". Where freight weight drives the brief, compare ",
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/lightweight-luxury-packaging/", children: "lightweight luxury packaging" }),
+          " structures that ship flat or nested."
+        ] }),
+        slug === "pouches-bags" && /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "about-text landing-related-links", style: { maxWidth: "820px", margin: "1rem auto 0" }, children: [
           "Choose the fabric by what the pouch carries and protects, and coordinate it with a box in one order \u2014 see ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/sets/", children: "complete packaging sets" }),
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/sets/", children: "complete packaging sets" }),
           ". For cord closure and usable opening, review ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/custom-drawstring-bags/", children: "custom drawstring bags" }),
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/custom-drawstring-bags/", children: "custom drawstring bags" }),
+          ". For frames and lenses, see ",
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/eyewear-packaging/", children: "branded eyewear cases and pouches" }),
+          "; makeup and beauty formats sit under ",
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/custom-cosmetic-pouches/", children: "custom cosmetic pouches" }),
+          "; hair brands can start from ",
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/custom-wig-packaging/", children: "packaging for wig and hair brands" }),
           ". Material-specific quotations: ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-velvet-pouches", children: "velvet" }),
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-velvet-pouches", children: "velvet" }),
           " \xB7 ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-satin-pouches", children: "satin" }),
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-satin-pouches", children: "satin" }),
           " \xB7 ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-cotton-pouches", children: "cotton" }),
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-cotton-pouches", children: "cotton" }),
           " \xB7 ",
-          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-microfiber-pouches", children: "microfiber" }),
+          /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-microfiber-pouches", children: "microfiber" }),
           "."
         ] })
       ] }),
-      landing.hero && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("figure", { className: "landing-hero reveal", style: { marginTop: "2.5rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("img", { src: landing.hero.src, alt: landing.hero.alt, width: 1600, height: 1e3 }) })
+      landing.hero && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("figure", { className: "landing-hero reveal", style: { marginTop: "2.5rem" }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("img", { src: landing.hero.src, alt: landing.hero.alt, width: 1600, height: 1e3 }) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.why.heading }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "values-grid", children: landing.why.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h3", { className: "value-title", children: item.title }),
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "value-desc", children: item.desc })
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.why.heading }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "values-grid", children: landing.why.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h3", { className: "value-title", children: item.title }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "value-desc", children: item.desc })
       ] }, item.title)) })
     ] }) }),
-    landing.tables.map((table) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: table.heading }),
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { style: { overflowX: "auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("table", { className: "spec-table", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("tr", { children: table.columns.map((col) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("th", { children: col }, col)) }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("tbody", { children: table.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("tr", { children: row.map((cell, ci) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("td", { children: cell }, ci)) }, row[0])) })
+    landing.tables.map((table) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: table.heading }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { style: { overflowX: "auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("table", { className: "spec-table", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("tr", { children: table.columns.map((col) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("th", { children: col }, col)) }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("tbody", { children: table.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("tr", { children: row.map((cell, ci) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("td", { children: cell }, ci)) }, row[0])) })
       ] }) }),
-      table.note && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "markets-note", style: { marginTop: "1rem" }, children: table.note })
+      table.note && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "markets-note", style: { marginTop: "1rem" }, children: table.note })
     ] }) }) }, table.heading)),
-    landing.lists.map((list) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: list.heading }),
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("ul", { className: "spec-list", children: list.items.map((item) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("li", { children: item }, item)) })
+    landing.lists.map((list) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: list.heading }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("ul", { className: "spec-list", children: list.items.map((item) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("li", { children: item }, item)) })
     ] }) }) }, list.heading)),
-    landing.gallery && landing.gallery.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "landing-gallery", children: landing.gallery.map((img) => /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("figure", { className: "landing-gallery-item reveal", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("img", { src: img.src, alt: img.alt, loading: "lazy", width: 1600, height: 1e3 }) }, img.src)) }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "How it works" }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "values-grid", children: landing.howItWorks.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h3", { className: "value-title", children: `${String(i + 1).padStart(2, "0")} \xB7 ${step.title}` }),
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "value-desc", children: step.desc })
+    landing.gallery && landing.gallery.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "landing-gallery", children: landing.gallery.map((img) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("figure", { className: "landing-gallery-item reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("img", { src: img.src, alt: img.alt, loading: "lazy", width: 1600, height: 1e3 }) }, img.src)) }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "How it works" }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "values-grid", children: landing.howItWorks.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h3", { className: "value-title", children: `${String(i + 1).padStart(2, "0")} \xB7 ${step.title}` }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "value-desc", children: step.desc })
       ] }, step.title)) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "MOQ & lead time" }),
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "spec-list", children: landing.moq.map((row) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("strong", { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "MOQ & lead time" }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "spec-list", children: landing.moq.map((row) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("strong", { children: [
           row.label,
           ":"
         ] }),
@@ -10005,59 +10919,59 @@ function Landing({ slug }) {
         row.value
       ] }, row.label)) })
     ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Who it's for" }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "values-grid", children: landing.audience.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h3", { className: "value-title", children: a.title }),
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "value-desc", children: a.desc })
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Who it's for" }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "values-grid", children: landing.audience.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h3", { className: "value-title", children: a.title }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "value-desc", children: a.desc })
       ] }, a.title)) })
     ] }) }),
-    landing.faq && landing.faq.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "left" }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently asked questions" }),
-      landing.faq.map((row) => /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.75rem" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("strong", { children: row.q }),
+    landing.faq && landing.faq.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "left" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently asked questions" }),
+      landing.faq.map((row) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.75rem" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("strong", { children: row.q }),
         " ",
         row.a
       ] }, row.q))
     ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "center" }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.ctaTitle }),
-      slug === "pouches-bags" && /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "markets-note", style: { marginTop: "0.75rem" }, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "center" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: landing.ctaTitle }),
+      slug === "pouches-bags" && /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginTop: "0.75rem" }, children: [
         "Send your size, fabric, closure and quantity to",
         " ",
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/contact/", children: "request a custom bag quotation" }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/contact/", children: "request a custom bag quotation" }),
         " ",
         "\u2014 or start from the fabric:",
         " ",
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-velvet-pouches", children: "velvet" }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-velvet-pouches", children: "velvet" }),
         " \xB7",
         " ",
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-satin-pouches", children: "satin" }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-satin-pouches", children: "satin" }),
         " \xB7",
         " ",
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-cotton-pouches", children: "cotton" }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-cotton-pouches", children: "cotton" }),
         " \xB7",
         " ",
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-microfiber-pouches", children: "microfiber" }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: "/contact/?product=custom-microfiber-pouches", children: "microfiber" }),
         "."
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", { className: "markets-note", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", children: [
         "Message Tina on WhatsApp or phone:",
         " ",
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" }),
         " ",
         "\xB7 Email: ",
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" }),
         " ",
         "\xB7 ",
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_react_router_dom16.Link, { to: slug === "boxes" ? "/contact/?product=magnetic-closure-gift-box" : "/contact/", children: "Send project details" })
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom16.Link, { to: slug === "boxes" ? "/contact/?product=magnetic-closure-gift-box" : slug === "sets" ? "/contact/?product=custom-packaging-sets" : "/contact/", children: "Send project details" })
       ] })
     ] }) }) })
   ] });
 }
 
 // src/pages/Collection.tsx
-var import_react14 = require("react");
+var import_react15 = require("react");
 var import_react_router_dom17 = require("react-router-dom");
 
 // src/data/collections.ts
@@ -10132,7 +11046,8 @@ var collections = [
     ],
     factBlock: {
       updated: "November 2026",
-      paragraph: "ELAPACK custom jewelry boxes \u2014 key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering rigid lift-off, magnetic flip-top, ribbon-tie and faux leather boxes, custom sizes included. Production takes 15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping, is built in 3\u20135 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal."
+      top: true,
+      paragraph: "ELAPACK custom jewelry boxes \u2014 key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering rigid lift-off, magnetic flip-top, ribbon-tie and faux leather boxes, custom sizes included. Production takes 15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order), is built in 3\u20135 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal. Quotations: a written quotation within 1 business day of your enquiry."
     },
     table: {
       heading: "Choose a jewelry box structure",
@@ -10150,13 +11065,13 @@ var collections = [
       { q: "Which inserts are available?", a: "EVA for a contoured, precise fit; sponge under velvet or satin covering; molded pulp; and flocked or velvet finishes for premium lines. Check the insert with the actual piece in a sample." },
       { q: "What do I send for an accurate quote?", a: "The jewelry dimensions and weight, any certificate or card that must fit inside, the structure and insert, logo artwork and colour reference, the finish, the box quantity and the destination \u2014 so the quotation prices one clear specification." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." },
       {
         q: "Where can I buy custom jewelry boxes?",
         a: "Directly from ELAPACK \u2014 jewelry boxes are made to order from 200 pieces, not stocked. Send the box structure you have in mind, your product dimensions, quantity and logo artwork for a quotation, and approve a custom sample (USD 30 plus USD 25 shipping, made in 3\u20135 days) before production."
       }
     ],
-    ctaLink: { lead: "Send your piece dimensions, structure, insert and quantity to", anchor: "request a jewelry box quotation", product: "custom-ring-boxes" },
+    ctaLink: { lead: "Send your piece dimensions, structure, insert and quantity to", anchor: "request a jewelry box quotation", product: "custom-jewelry-boxes" },
     ctaTitle: "Request a quote for your custom jewelry box",
     guideSlugs: [
       "how-to-choose-custom-jewelry-boxes",
@@ -10244,7 +11159,7 @@ var collections = [
       { q: "How is the box sized to my frames?", a: "Folded glasses set the footprint. Share your frame dimensions \u2014 and any cloth, card or accessory that must fit inside \u2014 and the box and insert are built around them; confirm insert contact and opening clearance in a sample." },
       { q: "What branding is available?", a: "Silkscreen, hot stamp or foil on box and pouch, woven labels and embroidery on fabric, and Pantone matching so box wrap and pouch fabric align to your brand colour." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." }
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." }
     ],
     ctaLink: { lead: "Send your frame dimensions, format and quantity to", anchor: "request an eyewear packaging quotation", product: "custom-microfiber-pouches" },
     ctaTitle: "Request a quote for your eyewear packaging",
@@ -10342,7 +11257,7 @@ var collections = [
       { q: "Which closures can I choose?", a: "Drawstring with a cotton, satin or polyester cord, flap with snap or tuck closure, and zipper or button options for heavier or multi-piece sets." },
       { q: "Can a pouch be matched with a jewelry box as a set?", a: "Yes. Pouch and box are designed together \u2014 same colour, same branding \u2014 and quoted as separate components, each at the 200-piece minimum." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." }
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." }
     ],
     ctaLink: { lead: "Send your fabric, closure, size and quantity to", anchor: "request a jewelry pouch quotation", product: "custom-velvet-pouches" },
     ctaTitle: "Request a quote for your custom jewelry pouches",
@@ -10359,9 +11274,9 @@ var collections = [
   },
   {
     slug: "custom-wig-packaging",
-    browserTitle: "Custom Wig Packaging \u2014 Bags & Boxes | ELAPACK",
+    browserTitle: "Custom Wig Packaging with Logo \u2014 Bags & Boxes | ELAPACK",
     eyebrow: "Wig & Hair Packaging",
-    h1: "Custom Wig Packaging \u2014 Bags & Boxes Built Around Your Hair Product",
+    h1: "Custom Wig Packaging \u2014 Bags & Boxes",
     subhead: "Compare satin bags, presentation boxes and matched sets by actual packed dimensions, intended use and sample fit.",
     metaDescription: "Custom wig packaging with logo \u2014 compare satin bags, rigid boxes and matched sets by packed dimensions, intended use and sample fit. MOQ from 200 pieces.",
     intro: "Custom packaging for wig and hair extension brands selling in the US and Europe. Start with the actual hair product, how it is packed and where the customer first meets it. Then compare a fabric bag for carrying or storage, a box for presentation, or both as separate components. Photography of our wig packaging is in progress; request a sample and check the interior contact, usable opening, closure and packed fit with your product before production.",
@@ -10429,7 +11344,7 @@ var collections = [
       { q: "Is wig packaging made to order?", a: "Yes \u2014 sizes are quoted from the actual folded or arranged product, not from a universal size. The minimum order is 200 pieces per product or component." },
       { q: "Can the bag and box carry the same branding?", a: "Yes. Silkscreen, heat transfer or woven label on bag and box, with satin and box wrap Pantone-matched to your brand colour; hang tags and care cards can be bundled with the bag." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days. Use the sample to check interior contact, usable opening, closure and packed fit with your product." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." }
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." }
     ],
     ctaLink: { lead: "Send your packed hair dimensions, format and quantity to", anchor: "request a wig packaging quotation", product: "custom-satin-wig-bag" },
     ctaTitle: "Request a quote for your custom wig packaging",
@@ -10447,7 +11362,8 @@ var collections = [
     metaDescription: "Custom jewelry packaging from one manufacturer \u2014 logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
     factBlock: {
       updated: "November 2026",
-      paragraph: "ELAPACK jewelry packaging \u2014 key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component \u2014 for a box-plus-pouch set, each component is counted at its own quantity, custom sizes included. Production takes 15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping, is built in 3\u20135 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal."
+      top: true,
+      paragraph: "ELAPACK jewelry packaging \u2014 key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component \u2014 for a box-plus-pouch set, each component is counted at its own quantity, custom sizes included. Production takes 15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order), is built in 3\u20135 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal. Quotations: a written quotation within 1 business day of your enquiry."
     },
     intro: "Jewelry brands rarely need just a box. The retail moment needs a fitted box, the after-sale needs a pouch, the counter needs display \u2014 and they all read better when they match. ELAPACK makes all sides of the jewelry program in-house: rigid and magnetic boxes with your logo, fabric pouches in seven materials, and velvet display sets \u2014 colour-matched and branded as one system.",
     sections: [
@@ -10487,6 +11403,7 @@ var collections = [
           { title: "Choose the components", desc: "List the box, pouch and any retail display separately. A box-plus-pouch set starts at 200 pieces of each component; confirm each quantity in the quotation." },
           { title: "Check the fit", desc: "Send the jewelry dimensions and how each piece is held or displayed. Check box insert and pouch size with the actual jewelry at sampling." },
           { title: "Align the branding", desc: "Share logo artwork and colour references for every component, then approve the assembled presentation before production." },
+          { title: "Send artwork in AI, PDF or PNG", desc: "One artwork set covers every component of the program. Colour is approved on physical samples against one shared reference, and bulk output is checked against the approved sample to \u0394E \u2264 1.5 and grey scale grade 4, so box, pouch and display match as one set." },
           { title: "Request a comparable quote", desc: "Include component quantities, dimensions, materials, branding method, delivery country and target date." }
         ]
       }
@@ -10518,9 +11435,10 @@ var collections = [
       { q: "What can a jewelry packaging program include?", a: "Rigid and magnetic logo boxes, fabric pouches in velvet, satin, cotton, muslin, linen and microfiber, and velvet display sets for the counter \u2014 matched as one system from retail display to unboxing." },
       { q: "How is the fit checked?", a: "Send the jewelry dimensions and how each piece is held or displayed, then check the box insert and pouch size with the actual jewelry at sampling, before production." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." }
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." },
+      { q: "What artwork should I send for custom jewelry packaging, and how is colour approved?", a: "Send logo artwork in AI, PDF or PNG, with a Pantone or physical colour reference for each component. A program mixes board, fabric and velvet, and every piece of custom packaging for jewelry in the set \u2014 box, pouch and display \u2014 is approved against the same reference on physical samples before production. Bulk output is then checked against the approved sample to \u0394E \u2264 1.5 and grey scale grade 4." }
     ],
-    ctaLink: { lead: "Send your component list, dimensions and quantities to", anchor: "request a jewelry packaging quotation", product: "custom-ring-boxes" },
+    ctaLink: { lead: "Send your component list, dimensions and quantities to", anchor: "request a jewelry packaging quotation", product: "custom-jewelry-packaging" },
     ctaTitle: "Request a quote for your jewelry packaging program",
     guideSlugs: [
       "how-to-choose-custom-jewelry-boxes",
@@ -10602,12 +11520,13 @@ var collections = [
       { q: "Can a gift box be sized to my candle jar or tin?", a: "Yes \u2014 jar and tin formats are part of the range, with inserts that hold glass steady. Share the vessel dimensions and confirm the fit on a sample." },
       { q: "Which occasions do the boxes serve?", a: "Corporate gifting programs, weddings and events, and retail and shoe gifting \u2014 inserts, lids and ribbons carry your logo quietly across every size band." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." },
       {
         q: "Where can I buy custom gift boxes?",
         a: "Directly from ELAPACK \u2014 gift boxes are made to order from 200 pieces, not stocked. Choose the structure, send your product dimensions, quantity and logo artwork for a quotation, and approve a custom sample (USD 30 plus USD 25 shipping, made in 3\u20135 days) before production."
       }
     ],
+    relatedPages: [{ path: "/custom-candle-boxes/", label: "rigid candle boxes" }],
     ctaLink: { lead: "Send your product size, structure, finish and quantity to", anchor: "request a gift box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your custom gift boxes",
     guideSlugs: [
@@ -10680,7 +11599,7 @@ var collections = [
       { q: "Which structures and inserts can be reviewed?", a: "Rigid lift-off lid, magnetic flip-top, sleeve and drawer, and folding carton structures. Contoured EVA, molded pulp, segmented board, and sponge or velvet inserts are candidate options \u2014 confirm cut geometry, availability and fit on the proposed sample." },
       { q: "What is the minimum order?", a: "200 pieces per product or component. For a gift set or two-pack, every component and variant is confirmed in the project quotation." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." }
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." }
     ],
     ctaLink: { lead: "Send your jar or tin dimensions, packed weight and quantity to", anchor: "request a candle box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your custom candle boxes",
@@ -10757,7 +11676,7 @@ var collections = [
       { q: "Do you make eyelash and press-on nail boxes?", a: "Yes. Both are beauty sub-lines, made to order from 200 pieces per product or component. Share the tray dimensions and check the fit with the actual product in a sample; their product pages and guides are linked on this page." },
       { q: "Can boxes and pouches be ordered as one matched program?", a: "Yes. Box, pouch and card components are specified together and colour-matched to one reference, and the 200-piece minimum applies to each component. Fabric and clear PVC pouch options sit on the cosmetic pouches page." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." }
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." }
     ],
     ctaLink: { lead: "Send your product dimensions, quantity, artwork and destination to", anchor: "request a cosmetic packaging quotation", product: "magnetic-closure-gift-box" },
     relatedPages: [
@@ -10850,7 +11769,7 @@ var collections = [
       { q: "Can drawstring bags work as dust bags for handbags and shoes?", a: "Yes. Share the handbag or shoe pair dimensions, closure and logo placement, and review the proposed fabric and fit on a sample with the actual item inside." },
       { q: "Can a drawstring bag be paired with a box as a set?", a: "Yes. The bag and box are specified as separate components of one program, colour-matched to your reference; the 200-piece minimum applies to each component." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." },
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." },
       {
         q: "Where can I buy custom drawstring bags?",
         a: "Directly from ELAPACK \u2014 the bags are made to order from 200 pieces, in your fabric, size and logo. Send the fabric, dimensions, quantity and artwork for a quotation, and approve a custom sample (USD 30 plus USD 25 shipping, made in 3\u20135 days) before production."
@@ -10916,7 +11835,7 @@ var collections = [
       { q: "Can I order ribbon on its own, without boxes or pouches?", a: "Yes. Standalone ribbon orders start at an MOQ of 500 m, because ribbon is sold by length. Ribbon supplied with a box or pouch program is quoted as part of that program instead." },
       { q: "What ribbon and cord options are there?", a: "Double-face satin ribbon ties for rigid and gift boxes, custom printed ribbon quoted to your width, artwork and run length, and colour matching to your box wrap and Pantone reference. For pouches, cotton cords are the standard drawcord for cotton, muslin and linen, with satin ribbon and polyester cord as alternatives." },
       { q: "Why order accessories with the box and pouch program?", a: "Ribbon, cord, box and pouch are quoted and made together \u2014 one brand system, colour-matched to the packaging they finish, not matched after the fact." },
-      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork. We reply to enquiries within one business day." }
+      { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork. We reply to enquiries within one business day (Mon\u2013Fri, China time)." }
     ],
     ctaLink: { lead: "Send your ribbon width, artwork, colour reference and quantity to", anchor: "request a ribbon & accessories quotation", product: "luxury-gift-box-ribbon" },
     ctaTitle: "Request a quote for ribbons & accessories",
@@ -10929,7 +11848,7 @@ var collections = [
   {
     slug: "custom-cosmetic-pouches",
     eyebrow: "Cosmetic Pouches",
-    h1: "Custom Cosmetic Pouches & Makeup Bags",
+    h1: "Custom Makeup Bags & Cosmetic Pouches",
     subhead: "Compare fabric and clear PVC pouch options by closure, contents and branding; confirm the selected combination in the quote.",
     metaDescription: "Custom cosmetic pouch options with logo, including fabric and clear PVC formats. General MOQ 200 pieces; confirm style, material and branding in the quote.",
     intro: "Choose a cosmetic pouch around the items it must hold, the required closure and how it will be used. Drawstring, flap, envelope, zipper and clear PVC formats are options to compare; confirm the feasible style, material, dimensions and branding for the selected project. General MOQ starts at 200 pieces for applicable pouch orders; confirm design and colour allocation in the quotation.",
@@ -11001,7 +11920,7 @@ var collections = [
       { q: "How will my logo be applied?", a: "The logo method depends on the chosen material and quantity \u2014 ask which method suits your combination and approve it on a sample before production." },
       { q: "Can pouches be matched with cosmetic boxes in one program?", a: "Yes. Pouches and boxes can be specified together and colour-matched to one reference; the 200-piece minimum applies to each component." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." }
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." }
     ],
     ctaLink: { lead: "Send your contents list, style, material and quantity to", anchor: "request a cosmetic pouch quotation", product: "custom-cotton-pouches" },
     ctaTitle: "Request a quote for your cosmetic pouches",
@@ -11014,7 +11933,7 @@ var collections = [
   {
     slug: "subscription-box-packaging",
     eyebrow: "Subscription Box Packaging",
-    h1: "Custom Subscription Box Packaging: Boxes, Pouches & Insert Cards",
+    h1: "Custom Subscription Box Packaging \u2014 Boxes, Pouches & Inserts",
     subhead: "Monthly themed boxes, fabric pouches and insert cards for subscription programs \u2014 one manufacturer, matched branding, from 200 pieces.",
     metaDescription: "Custom subscription box packaging from one manufacturer \u2014 printed boxes, fabric pouches and insert cards for monthly themed programs. Pantone-matched, MOQ from 200 pieces, free stock samples.",
     intro: "ELAPACK makes subscription box packaging for box programs shipping to the US and Europe. We make the three pieces of a monthly box in one place \u2014 the printed box, the fabric pouches that hold small items, and the insert cards that carry your theme \u2014 so colours and branding match across every drop.",
@@ -11076,8 +11995,9 @@ var collections = [
       { q: "Can the artwork change each month on the same box?", a: "Yes. Keep one confirmed dieline and change only the printed theme each month; box wrap, pouch fabric and card colour are Pantone-matched to one reference, and editions can be planned by season on one production calendar." },
       { q: "What is the minimum order for a themed run?", a: "200 pieces per product or component \u2014 small enough to test a theme, sized to scale a winner." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4\u20137 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3\u20135 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day." }
+      { q: "How long does production take?", a: "15\u201320 days for 200\u201320,000 pieces and 30\u201335 days for 20,000\u201350,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon\u2013Fri, China time)." }
     ],
+    relatedPages: [{ path: "/lightweight-luxury-packaging/", label: "lightweight box and pouch combinations" }],
     ctaLink: { lead: "Send your component list, theme and quantity to", anchor: "request a subscription box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your subscription box program",
     factBlock: {
@@ -11095,9 +12015,9 @@ var collections = [
   },
   {
     slug: "lightweight-luxury-packaging",
-    browserTitle: "Lightweight Luxury Packaging \u2014 Less Weight, Same Unboxing Value, Confirmed by Sample | ELAPACK",
+    browserTitle: "Lightweight Luxury Packaging for Jewelry & Beauty Brands | ELAPACK",
     eyebrow: "Structure & Materials",
-    h1: "Lightweight Luxury Packaging \u2014 Less Weight, Same Unboxing Value, Confirmed by Sample",
+    h1: "Lightweight Luxury Packaging for Jewelry & Beauty Brands",
     subhead: "Lightweight does not mean thin and cheap. Keep the unboxing value in texture, precision and finish, and confirm weight, volume and freight for your specific box on a sample \u2014 no generic saving is claimed here.",
     metaDescription: "Lightweight luxury packaging from ELAPACK \u2014 right-sized boxes, board inserts and mono-material options, MOQ 200. Weight, volume and freight comparison are confirmed by sample for your specific box, not assumed from a guide.",
     intro: "Use this page to decide whether a lighter structure fits your product, without losing the unboxing experience, product value or protection that the packaging must deliver. Lightweight luxury shifts the value cue from mass to texture, precision, finish and fit: right-sized boxes, a lighter tray with a kept lid feel, board or molded inserts instead of heavy foam or metal, and nesting or collapsible formats where they fit the product. A before-and-after weight, volume and freight-per-1,000 comparison must be made for your specific box on a sample \u2014 this page does not claim a generic percentage saving, because board, size, insert and finish change the result.",
@@ -11167,40 +12087,48 @@ function getCollectionBySlug(slug) {
 }
 
 // src/pages/Collection.tsx
-var import_jsx_runtime16 = require("react/jsx-runtime");
+var import_jsx_runtime17 = require("react/jsx-runtime");
 function Collection({ slug }) {
   const collection = getCollectionBySlug(slug);
-  (0, import_react14.useEffect)(() => {
+  (0, import_react15.useEffect)(() => {
     if (collection) document.title = collection.browserTitle ?? `${collection.slug === "custom-cosmetic-packaging" ? collection.h1 : collection.eyebrow} | ELAPACK`;
   }, [collection]);
   if (!collection) return null;
   const products3 = collection.productSlugs.map((s) => getProductBySlug(s)).filter((p) => p !== void 0);
   const guides = (collection.guideSlugs ?? []).map((s) => getArticleBySlug(s)).filter((a) => a !== void 0);
-  return /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(import_jsx_runtime16.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "eyebrow reveal", children: collection.eyebrow }),
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: collection.h1 }),
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: collection.subhead })
+  return /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(import_jsx_runtime17.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "page-header", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("p", { className: "eyebrow reveal", children: collection.eyebrow }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h1", { className: "page-title reveal reveal-delay-1", children: collection.h1 }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("p", { className: "page-subtitle reveal reveal-delay-2", children: collection.subhead })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section products-section", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Explore the products" }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "catalog-grid", children: products3.map((product, i) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)(
+    collection.factBlock?.top && /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section", style: { paddingBottom: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: [
+        "Key facts (",
+        collection.factBlock.updated,
+        ")"
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("p", { className: "markets-note", style: { maxWidth: "820px" }, children: collection.factBlock.paragraph })
+    ] }) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section products-section", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Explore the products" }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "catalog-grid", children: products3.map((product, i) => /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(
         import_react_router_dom17.Link,
         {
           to: `/products/${product.slug}/`,
           className: `catalog-card reveal reveal-delay-${i % 4 + 1}`,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "catalog-card-image", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("img", { src: product.image, alt: product.image.endsWith("product-coming-soon.svg") ? "" : product.name, loading: "lazy", width: 1254, height: 1254 }),
-              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "catalog-category", children: product.category }),
-              product.image.endsWith("product-coming-soon.svg") && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "catalog-image-pending", children: "Product photo pending" })
+            /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "catalog-card-image", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("img", { src: product.image, alt: product.image.endsWith("product-coming-soon.svg") ? "" : product.name, loading: "lazy", width: 1254, height: 1254 }),
+              /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "catalog-category", children: product.category }),
+              product.image.endsWith("product-coming-soon.svg") && /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "catalog-image-pending", children: "Product photo pending" })
             ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "catalog-card-body", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h3", { className: "catalog-name", children: product.name }),
-              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "catalog-desc", children: collection.slug === "custom-cosmetic-packaging" && product.slug === "custom-eyelash-packaging-boxes" ? "Custom eyelash boxes with your logo. Share tray dimensions and quantity to discuss fit and a quotation." : product.shortDesc }),
-              /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "catalog-meta", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "meta-item", children: [
-                /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "meta-label", children: "MOQ" }),
-                /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("span", { className: "meta-value", children: product.moq })
+            /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "catalog-card-body", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h3", { className: "catalog-name", children: product.name }),
+              /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("p", { className: "catalog-desc", children: collection.slug === "custom-cosmetic-packaging" && product.slug === "custom-eyelash-packaging-boxes" ? "Custom eyelash boxes with your logo. Share tray dimensions and quantity to discuss fit and a quotation." : product.shortDesc }),
+              /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "catalog-meta", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "meta-item", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "meta-label", children: "MOQ" }),
+                /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "meta-value", children: product.moq })
               ] }) })
             ] })
           ]
@@ -11208,46 +12136,46 @@ function Collection({ slug }) {
         product.slug
       )) })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: collection.intro }) }) }) }),
-    collection.sections.map((section) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "container", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: section.heading }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "values-grid", children: section.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h3", { className: "value-title", children: item.title }),
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "value-desc", children: item.desc })
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("p", { className: "about-text", style: { maxWidth: "820px", margin: "0 auto" }, children: collection.intro }) }) }) }),
+    collection.sections.map((section) => /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "container", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "section-header-center reveal", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: section.heading }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "values-grid", children: section.items.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: `value-card reveal reveal-delay-${i % 4 + 1}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h3", { className: "value-title", children: item.title }),
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("p", { className: "value-desc", children: item.desc })
       ] }, item.title)) })
     ] }) }, section.heading)),
-    collection.table && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: collection.table.heading }),
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { style: { overflowX: "auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("table", { className: "spec-table", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("tr", { children: collection.table.columns.map((col) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("th", { children: col }, col)) }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("tbody", { children: collection.table.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("tr", { children: row.map((cell, ci) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("td", { children: cell }, ci)) }, row[0])) })
+    collection.table && /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem", fontSize: "1.75rem" }, children: collection.table.heading }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { style: { overflowX: "auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("table", { className: "spec-table", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("tr", { children: collection.table.columns.map((col) => /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("th", { children: col }, col)) }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("tbody", { children: collection.table.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("tr", { children: row.map((cell, ci) => /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("td", { children: cell }, ci)) }, row[0])) })
       ] }) }),
-      collection.table.note && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "markets-note", style: { marginTop: "1rem" }, children: collection.table.note })
+      collection.table.note && /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("p", { className: "markets-note", style: { marginTop: "1rem" }, children: collection.table.note })
     ] }) }) }),
-    collection.relatedPages && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Compare related packaging options" }),
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("ul", { className: "spec-list", children: collection.relatedPages.map((page) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom17.Link, { to: page.path, children: page.label }) }, page.path)) })
+    collection.relatedPages && /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Compare related packaging options" }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("ul", { className: "spec-list", children: collection.relatedPages.map((page) => /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Link, { to: page.path, children: page.label }) }, page.path)) })
     ] }) }) }),
-    guides.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Sourcing guides" }),
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "spec-list", children: guides.map((guide) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom17.Link, { to: `/news/${guide.slug}/`, className: "text-link", children: guide.title }),
+    guides.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Sourcing guides" }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "spec-list", children: guides.map((guide) => /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Link, { to: `/news/${guide.slug}/`, className: "text-link", children: guide.title }),
         " \u2014 ",
         guide.excerpt
       ] }, guide.slug)) })
     ] }) }) }),
-    collection.factBlock && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: [
+    collection.factBlock && !collection.factBlock.top && /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: [
         "Key facts (",
         collection.factBlock.updated,
         ")"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "markets-note", style: { maxWidth: "820px" }, children: collection.factBlock.paragraph })
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("p", { className: "markets-note", style: { maxWidth: "820px" }, children: collection.factBlock.paragraph })
     ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "MOQ & lead time" }),
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "spec-list", children: collection.facts.map((row) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("strong", { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "markets-box reveal", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "MOQ & lead time" }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "spec-list", children: collection.facts.map((row) => /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.5rem" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("strong", { children: [
           row.label,
           ":"
         ] }),
@@ -11255,72 +12183,73 @@ function Collection({ slug }) {
         row.value
       ] }, row.label)) })
     ] }) }) }),
-    collection.faq && collection.faq.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "left" }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently asked questions" }),
-      collection.faq.map((row) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.75rem" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("strong", { children: row.q }),
+    collection.faq && collection.faq.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "left" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: "Frequently asked questions" }),
+      collection.faq.map((row) => /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("p", { className: "markets-note", style: { marginBottom: "0.75rem" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("strong", { children: row.q }),
         " ",
         row.a
       ] }, row.q))
     ] }) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "center" }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: collection.ctaTitle }),
-      collection.ctaLink && /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", style: { marginTop: "0.75rem" }, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("section", { className: "section", style: { paddingTop: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "markets-box reveal", style: { textAlign: "center" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("h2", { className: "section-title", style: { marginTop: "0.75rem" }, children: collection.ctaTitle }),
+      collection.ctaLink && /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("p", { className: "markets-note", style: { marginTop: "0.75rem" }, children: [
         collection.ctaLink.lead,
         " ",
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom17.Link, { to: `/contact/?product=${collection.ctaLink.product}`, children: collection.ctaLink.anchor }),
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Link, { to: `/contact/?product=${collection.ctaLink.product}`, children: collection.ctaLink.anchor }),
         "."
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "markets-note", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("p", { className: "markets-note", children: [
         "Message Tina on WhatsApp or phone:",
         " ",
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" }),
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("a", { href: "https://wa.me/8618626352096", children: "+86 186 2635 2096" }),
         " ",
         "\xB7 Email: ",
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" }),
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("a", { href: "mailto:tina@elapack.com", children: "tina@elapack.com" }),
         " ",
         "\xB7 ",
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_react_router_dom17.Link, { to: collection.ctaLink ? `/contact/?product=${collection.ctaLink.product}` : "/contact/", children: "Send project details" })
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom17.Link, { to: collection.ctaLink ? `/contact/?product=${collection.ctaLink.product}` : "/contact/", children: "Send project details" })
       ] })
     ] }) }) })
   ] });
 }
 
 // src/App.tsx
-var import_jsx_runtime17 = require("react/jsx-runtime");
+var import_jsx_runtime18 = require("react/jsx-runtime");
 function AppRoutes() {
-  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(import_react_router_dom18.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Layout, {}), children: [
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Home, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "pouches-bags" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Landing, { slug: "sets" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-jewelry-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/eyewear-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "eyewear-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-jewelry-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-pouches" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-wig-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-wig-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-jewelry-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-jewelry-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-gift-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-gift-boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-candle-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-candle-boxes" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-cosmetic-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-drawstring-bags", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-drawstring-bags" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/ribbons-accessories", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "ribbons-accessories" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/custom-cosmetic-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "custom-cosmetic-pouches" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/subscription-box-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "subscription-box-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/lightweight-luxury-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Collection, { slug: "lightweight-luxury-packaging" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Products, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(ProductDetail, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Industries, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Solutions, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(About, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(News, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/news/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Article, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Contact, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_react_router_dom18.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Video, {}) })
+  return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Routes, { children: /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(import_react_router_dom18.Route, { element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Layout, {}), children: [
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Home, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/pouches-bags", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Landing, { slug: "pouches-bags" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/boxes", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Landing, { slug: "boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/sets", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Landing, { slug: "sets" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/custom-jewelry-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "custom-jewelry-boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/eyewear-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "eyewear-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/custom-jewelry-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "custom-jewelry-pouches" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/custom-wig-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "custom-wig-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/custom-jewelry-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "custom-jewelry-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/custom-gift-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "custom-gift-boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/custom-candle-boxes", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "custom-candle-boxes" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/custom-cosmetic-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "custom-cosmetic-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/custom-drawstring-bags", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "custom-drawstring-bags" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/ribbons-accessories", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "ribbons-accessories" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/custom-cosmetic-pouches", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "custom-cosmetic-pouches" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/subscription-box-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "subscription-box-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/lightweight-luxury-packaging", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Collection, { slug: "lightweight-luxury-packaging" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/products", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Products, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/products/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(ProductDetail, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/industries", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Industries, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/solutions", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Solutions, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/about", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(About, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/privacy", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Privacy, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/news", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(News, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/news/:slug", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Article, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/contact", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Contact, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_react_router_dom18.Route, { path: "/video", element: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Video, {}) })
   ] }) });
 }
 
 // scripts/prerender.tsx
-var import_jsx_runtime18 = require("react/jsx-runtime");
+var import_jsx_runtime19 = require("react/jsx-runtime");
 var dist = import_node_path.default.resolve(__dirname, "../dist");
 var indexPath = import_node_path.default.join(dist, "index.html");
 var shell = import_node_fs.default.readFileSync(indexPath, "utf-8");
@@ -11347,6 +12276,7 @@ var ROUTES = [
   "/solutions",
   "/news",
   "/about",
+  "/privacy",
   "/contact",
   "/video",
   ...JSON.parse(
@@ -11355,38 +12285,65 @@ var ROUTES = [
   ...articles.map((a) => `/news/${a.slug}`)
 ];
 var STATIC_TITLES = {
-  "/": "ELAPACK \u2014 Custom Luxury Packaging for Global Brands",
-  "/pouches-bags": "Custom Fabric Pouches & Bags from 200 pcs | ELAPACK",
+  "/": "Custom Luxury Packaging with Logo \u2014 Rigid Boxes, Pouches & Sets from 200 Pcs | ELAPACK",
+  "/products/custom-velvet-pouches": "Custom Velvet Pouches with Logo \u2014 From 200 Pcs | ELAPACK",
+  "/products/custom-press-on-nail-boxes": "Custom Press-on Nail Boxes with Logo \u2014 From 200 Pcs | ELAPACK",
+  "/products/custom-ring-boxes": "Custom Ring Boxes with Logo | ELAPACK",
+  "/products/custom-tissue-paper": "Custom Tissue Paper with Logo | ELAPACK",
+  "/products/kraft-paper-shopping-bag": "Custom Kraft Paper Shopping Bags with Logo | ELAPACK",
+  "/products/black-leather-jewelry-box": "Custom Jewelry Boxes with Logo \u2014 Black | ELAPACK",
+  "/products/custom-white-jewelry-box": "Custom Jewelry Boxes with Logo \u2014 White | ELAPACK",
+  "/products/custom-perfume-boxes": "Custom Perfume Boxes with Logo | ELAPACK",
+  "/products/custom-perfume-sample-card-boxes": "Custom Perfume Sample Cards with Logo | ELAPACK",
+  "/products/custom-watch-boxes": "Custom Watch Boxes with Logo | ELAPACK",
+  "/products/custom-cotton-pouches": "Custom Cotton Pouches & Bags with Logo | ELAPACK",
+  "/products/custom-cotton-envelope-pouches": "Custom Cotton Envelope Pouches with Logo | ELAPACK",
+  "/products/leather-envelope-pouch": "Custom Leather Envelope Pouches with Logo | ELAPACK",
+  "/products/custom-muslin-drawstring-pouch": "Custom Muslin Drawstring Pouches with Logo | ELAPACK",
+  "/products/custom-satin-pouches": "Custom Satin Pouches with Logo | ELAPACK",
+  "/products/custom-satin-wig-bag": "Custom Satin Wig Bags with Logo | ELAPACK",
+  "/products/custom-pvc-bags": "Custom Clear PVC Bags with Logo | ELAPACK",
+  "/products/custom-microfiber-cleaning-cloth-eyewear": "Custom Microfiber Cleaning Cloths for Eyewear with Logo | ELAPACK",
+  "/products/custom-microfiber-cleaning-cloth-jewelry": "Custom Microfiber Cleaning Cloths for Jewelry with Logo | ELAPACK",
+  "/products/luxury-gift-box-ribbon": "Custom Ribbon-Tie Gift Boxes with Logo | ELAPACK",
+  "/products/acrylic-earring-display": "Acrylic Earring Display Stands for Jewelry Retail | ELAPACK",
+  "/products/stackable-jewelry-tray": "Stackable Jewelry Trays for Retail Display | ELAPACK",
+  "/products/velvet-jewelry-display-set": "Velvet Jewelry Display Sets for Retail | ELAPACK",
+  "/products/velvet-necklace-display": "Velvet Necklace Display Stands | ELAPACK",
+  "/pouches-bags": "Custom Fabric Pouches & Bags with Logo | ELAPACK",
   "/boxes": "Custom Rigid Boxes & Magnetic Gift Boxes from 200 Pieces | ELAPACK",
-  "/sets": "Custom Packaging Sets \u2014 Pouch, Box & More | ELAPACK",
+  "/sets": "Custom Packaging Sets with Logo \u2014 Box, Pouch & Insert | ELAPACK",
   "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 200 pcs | ELAPACK",
   "/eyewear-packaging": "Custom Eyewear Packaging \u2014 Glasses Boxes & Pouches | ELAPACK",
   "/custom-jewelry-pouches": "Custom Jewelry Pouches with Logo, from 200 pcs | ELAPACK",
-  "/custom-wig-packaging": "Custom Wig Packaging \u2014 Bags & Boxes | ELAPACK",
+  "/custom-wig-packaging": "Custom Wig Packaging with Logo \u2014 Bags & Boxes | ELAPACK",
   "/custom-jewelry-packaging": "Custom Jewelry Packaging \u2014 Boxes, Pouches & Display | ELAPACK",
   "/custom-gift-boxes": "Custom Gift Boxes with Logo, from 200 pcs | ELAPACK",
   "/custom-candle-boxes": "Custom Candle Boxes with Logo, from 200 pcs | ELAPACK",
-  "/custom-cosmetic-packaging": "Custom Cosmetic Packaging Boxes | ELAPACK",
-  "/custom-drawstring-bags": "Custom Drawstring Bags & Pouches, from 200 pcs | ELAPACK",
-  "/ribbons-accessories": "Custom Printed Ribbons & Packaging Accessories | ELAPACK",
-  "/custom-cosmetic-pouches": "Custom Cosmetic Pouches & Makeup Bags with Logo | ELAPACK",
-  "/subscription-box-packaging": "Subscription Box Packaging: Boxes, Pouches, Insert Cards from 200 pcs | ELAPACK",
-  "/lightweight-luxury-packaging": "Lightweight Luxury Packaging \u2014 Less Weight, Same Unboxing Value, Confirmed by Sample | ELAPACK",
-  "/products": "Products \u2014 Boxes, Pouches & Gift Packaging | ELAPACK",
-  "/industries": "Industries We Serve \u2014 Jewelry, Beauty & Luxury Retail | ELAPACK",
-  "/solutions": "Packaging Solutions \u2014 Custom, Materials & Sustainability | ELAPACK",
+  "/custom-cosmetic-packaging": "Custom Cosmetic Packaging Boxes with Logo | ELAPACK",
+  "/custom-drawstring-bags": "Custom Drawstring Bags & Pouches with Logo | ELAPACK",
+  "/ribbons-accessories": "Custom Printed Ribbons & Accessories with Logo | ELAPACK",
+  "/custom-cosmetic-pouches": "Custom Makeup Bags & Cosmetic Pouches with Logo | ELAPACK",
+  "/subscription-box-packaging": "Custom Subscription Box Packaging with Logo | ELAPACK",
+  "/lightweight-luxury-packaging": "Lightweight Luxury Packaging for Jewelry & Beauty Brands | ELAPACK",
+  "/products": "Custom Packaging Products \u2014 Boxes, Pouches, Bags & Sets | ELAPACK",
+  "/industries": "Custom Packaging by Industry \u2014 Jewelry, Beauty, Fragrance & Gifts | ELAPACK",
+  "/solutions": "Packaging Solutions \u2014 Materials, Structures & Sustainability | ELAPACK",
   "/news": "News & Insights | ELAPACK",
   "/about": "About ELAPACK \u2014 Custom Packaging for Brands",
+  "/privacy": "Privacy Policy | ELAPACK",
   "/contact": "Contact ELAPACK \u2014 Get a Custom Packaging Quote",
   "/video": "Custom Packaging Process & Video | ELAPACK",
   ...Object.fromEntries(articles.map((a) => [`/news/${a.slug}`, `${a.title} | ELAPACK`]))
 };
 var STATIC_DESCRIPTIONS = {
+  "/products/custom-velvet-pouches": "Custom velvet pouches with your logo in drawstring, flap, envelope or zipper styles. MOQ 200 pcs, custom samples in 3\u20135 days. Request a quote.",
+  "/products/custom-press-on-nail-boxes": "Custom press-on nail boxes with your logo, from 200 pieces \u2014 sized to your nail sets and trays, with shade and size systems shown on pack.",
   "/products/custom-tissue-paper": "Custom printed tissue paper, 17\u201330 gsm in 50 \xD7 70 cm and 100 \xD7 100 cm sheets or custom sizes. Single to full-coverage print, from 500 sheets per design.",
-  "/": "ELAPACK crafts premium packaging for luxury brands worldwide. Jewelry boxes, velvet pouches, retail bags and complete gift sets \u2014 one-stop custom packaging.",
-  "/pouches-bags": "Custom textile pouches and bags \u2014 velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven, in your size, closure and branding. MOQ from 200 pieces.",
-  "/boxes": "Custom rigid boxes in your size, finish and branding \u2014 two-piece lift-off lid, magnetic flap, drawer and folding carton structures with EVA, sponge, pulp or flocked inserts. MOQ 200 pieces, production in 15\u201320 working days.",
-  "/sets": "Custom packaging sets \u2014 pouches, boxes and inserts designed together as one coordinated set, colour-matched to your Pantone reference.",
+  "/": "ELAPACK makes custom luxury packaging for jewelry, beauty, fragrance and gift brands \u2014 rigid boxes, velvet pouches, shopping bags and coordinated sets with your logo, from 200 pieces.",
+  "/pouches-bags": "Custom fabric pouches and bags with your logo in velvet, cotton, satin, muslin and microfiber, from 200 pieces \u2014 colour-matched with our rigid boxes.",
+  "/boxes": "Custom rigid boxes in two-piece, magnetic flap, drawer and folding structures, with EVA, sponge, pulp or flocked inserts. MOQ 200 pcs; samples in 3\u20135 days.",
+  "/sets": "Custom packaging sets with your logo \u2014 box, pouch and insert as one set, Pantone colour-matched. Each component from 200 pieces, made in one factory.",
   "/custom-jewelry-boxes": "Custom jewelry boxes with your logo \u2014 rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
   "/eyewear-packaging": "Custom eyewear packaging \u2014 rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
   "/custom-jewelry-pouches": "Custom jewelry pouches with logo \u2014 velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",
@@ -11405,6 +12362,7 @@ var STATIC_DESCRIPTIONS = {
   "/solutions": "Custom packaging solutions from ELAPACK: structures, materials and finishes for boxes, pouches and configured sets \u2014 custom samples in 3\u20135 days, production from 200 pieces per component.",
   "/news": "Packaging insights, material trends and sustainability notes from the ELAPACK team.",
   "/about": "ELAPACK is operated by Wuxi Magic Packaging Co., Ltd. Learn about its packaging scope, material review and order process.",
+  "/privacy": "How ELAPACK (Wuxi Magic Packaging Co., Ltd.) collects, uses and protects the information you share when you request a packaging quotation.",
   "/contact": "Talk to ELAPACK about your packaging project \u2014 quotes within one business day. Email, phone and WhatsApp available.",
   "/video": "View packaging process footage and review the design, sample, production and shipping questions to confirm for your order.",
   ...Object.fromEntries(articles.map((a) => [`/news/${a.slug}`, a.metaDescription]))
@@ -11455,7 +12413,7 @@ var ok = 0;
 for (const route of ROUTES) {
   try {
     const html = (0, import_server.renderToString)(
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_server2.StaticRouter, { location: route, children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(AppRoutes, {}) })
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(import_server2.StaticRouter, { location: route, children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(AppRoutes, {}) })
     );
     const productMatch = route.match(/^\/products\/([a-z0-9-]+)$/);
     const product = productMatch ? products.find((p) => p.slug === productMatch[1]) : void 0;
@@ -11464,10 +12422,14 @@ for (const route of ROUTES) {
     const articleMatch = route.match(/^\/news\/([a-z0-9-]+)$/);
     const article = articleMatch ? articles.find((a) => a.slug === articleMatch[1]) : void 0;
     const landing = landings.find((l) => `/${l.slug}` === route);
-    const pageTag = review ? review.title : product ? `${product.name} | ELAPACK` : STATIC_TITLES[route] || "ELAPACK";
+    const pageTag = review ? review.title : STATIC_TITLES[route] || (product ? `${product.name} | ELAPACK` : "ELAPACK");
     const pageDesc = review?.meta || STATIC_DESCRIPTIONS[route] || (product ? specReview ? product.shortDesc : `${product.shortDesc} ${product.name} by ELAPACK \u2014 materials, MOQ ${product.moq}, lead time ${product.leadTime}. Request a quote.` : void 0);
     const canonical = `${SITE}${route === "/" ? "/" : route + "/"}`;
-    const ogImage = article ? pageImage(article.image) : product ? pageImage(product.image) : `${SITE}/hero-packaging.webp`;
+    const OG_IMAGE_OVERRIDES = {
+      "/sets": `${SITE}/images/sets/magic-pack-navy-set.webp`,
+      "/custom-jewelry-boxes": `${SITE}/images/products/custom-ring-boxes/custom-ring-boxes-hero.webp`
+    };
+    const ogImage = OG_IMAGE_OVERRIDES[route] ?? (article ? pageImage(article.image) : product ? pageImage(product.image) : `${SITE}/hero-packaging.webp`);
     const crumbs = [
       { name: "Home", item: `${SITE}/` }
     ];
@@ -11610,18 +12572,7 @@ for (const route of ROUTES) {
       });
     }
     if (product) {
-      const moqMatch = /^(\d+)\s+(.*)$/.exec(product.moq);
-      const offers = {
-        "@type": "AggregateOffer",
-        ...moqMatch ? {
-          eligibleQuantity: {
-            "@type": "QuantitativeValue",
-            minValue: Number(moqMatch[1]),
-            unitText: moqMatch[2]
-          }
-        } : {}
-      };
-      graph.push(review ? { ...review.schema_product, mainEntityOfPage: { "@type": "WebPage", "@id": canonical }, offers } : {
+      graph.push(review ? { ...review.schema_product, mainEntityOfPage: { "@type": "WebPage", "@id": canonical } } : {
         "@type": "Product",
         "@id": `${canonical}#product`,
         name: product.name,
@@ -11635,7 +12586,6 @@ for (const route of ROUTES) {
           { "@type": "PropertyValue", name: "Minimum Order Quantity", value: product.moq },
           { "@type": "PropertyValue", name: "Lead Time", value: product.leadTime }
         ],
-        offers,
         mainEntityOfPage: { "@type": "WebPage", "@id": canonical }
       });
       graph.push({
