@@ -654,13 +654,21 @@ export const products: Product[] = [
   {
     slug: "custom-perfume-sample-card-boxes",
     name: "Custom Perfume Sample Cards",
+    keyFacts: [
+      "Minimum order: 500 pieces",
+      "Custom samples: made in 3–5 days — USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples — USD 25 shipping only, delivered in 4–7 days",
+      "Production: typically 15–20 days after sample approval and payment; confirmed by order",
+      "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+      "Payment: T/T or PayPal",
+      "Card and box formats are specified to your sample vials and confirmed on a physical sample",
+    ],
     category: "Sampling Cards",
     shortDesc:
       "Printed perfume sampling cards; share vial or sachet dimensions, attachment method and artwork for a quote.",
     description:
-      "This page covers printed perfume sample cards, not rigid perfume gift boxes. Send the vial or sachet dimensions, number of samples per card, proposed attachment method and artwork. Card stock, print method, attachment and finished size need confirmation in the quotation and approved sample. Orders start at 200 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate. Product photography is pending.",
+      "This page covers printed perfume sample cards, not rigid perfume gift boxes. Send the vial or sachet dimensions, number of samples per card, proposed attachment method and artwork. Card stock, print method, attachment and finished size need confirmation in the quotation and approved sample. Orders start at 500 pieces. Typical production takes 15–20 days after sample approval and payment receipt; shipping time is separate. Product photography is pending.",
     intro:
-      "Printed perfume sample cards — not rigid perfume gift boxes. Send the vial or sachet dimensions, the number of samples per card, your proposed attachment method and artwork; card stock, print method, attachment and finished size are confirmed in the quotation and approved sample. Orders start at 200 pieces.",
+      "Printed perfume sample cards — not rigid perfume gift boxes. Send the vial or sachet dimensions, the number of samples per card, your proposed attachment method and artwork; card stock, print method, attachment and finished size are confirmed in the quotation and approved sample. Orders start at 500 pieces.",
     image: "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-hero.webp",
     gallery: [
       "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-hero.webp",
@@ -676,7 +684,7 @@ export const products: Product[] = [
     customizeImage: "/images/products/custom-perfume-sample-card-boxes/custom-perfume-sample-card-boxes-customize.webp",
     customizeImageRatio: "1 / 1",
     materials: "Card stock and sample attachment to confirm in quotation and sample",
-    moq: "200 pcs",
+    moq: "500 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
     industries: ["Fragrance", "Beauty", "Gift"],
     features: [
@@ -702,7 +710,7 @@ export const products: Product[] = [
       { label: "Sample count", value: "Custom — single to multi-scent layouts" },
       { label: "Card size", value: "Made to your spec" },
       { label: "Print", value: "Confirm artwork, stock and print method" },
-      { label: "MOQ", value: "200 pcs" },
+      { label: "MOQ", value: "500 pcs" },
       { label: "Production", value: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment receipt; shipping separate" },
     ],
     faqs: [

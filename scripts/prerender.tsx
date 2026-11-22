@@ -379,7 +379,7 @@ for (const route of ROUTES) {
               dateModified: article.dateModified ?? article.datePublished,
             }
           : {}),
-        author: { "@type": "Person", name: "Tina", url: `${SITE}/about`, worksFor: { "@type": "Organization", name: "ELAPACK", url: `${SITE}/` } },
+        author: { "@type": "Person", name: "Tina Lee", jobTitle: "Founder", url: `${SITE}/about`, worksFor: { "@type": "Organization", name: "ELAPACK", url: `${SITE}/` } },
         publisher: {
           "@type": "Organization",
           name: "ELAPACK",
