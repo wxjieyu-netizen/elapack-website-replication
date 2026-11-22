@@ -2409,6 +2409,7 @@ export const productGuides: Record<string, string[]> = {
     "velvet-satin-muslin-pouches-compared",
     "custom-logo-pouches-guide",
       "custom-toiletry-bags-guide",
+    "custom-clothing-apparel-packaging-guide",
   ],
   "custom-cotton-envelope-pouches": [
     "how-to-choose-a-custom-jewelry-pouch",
