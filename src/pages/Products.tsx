@@ -111,6 +111,42 @@ export default function Products() {
               Request Custom Quote
             </Link>
           </div>
+
+          <div
+            className="products-cta reveal"
+            style={{ textAlign: "left" }}
+          >
+            <h3 className="value-title">Sampling at a glance</h3>
+            <ul
+              style={{
+                maxWidth: 560,
+                margin: "0 auto 1.5rem",
+                lineHeight: 1.7,
+              }}
+            >
+              <li>
+                <strong>Custom sample:</strong> USD 30 + USD 25 shipping,
+                ready in 3–5 days. The sample fee is deductible against your
+                confirmed first order.
+              </li>
+              <li>
+                <strong>Stock sample:</strong> free — you pay USD 25
+                shipping only, delivered in 4–7 days.
+              </li>
+              <li>
+                <strong>Written quotation within 1 working day</strong> of
+                your enquiry.
+              </li>
+            </ul>
+            <p style={{ marginBottom: 0 }}>
+              <Link
+                to="/news/custom-packaging-samples-guide/"
+                className="text-link"
+              >
+                How sampling works →
+              </Link>
+            </p>
+          </div>
         </div>
       </section>
       {/* Product Line Landings */}

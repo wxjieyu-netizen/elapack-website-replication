@@ -49,6 +49,10 @@ export const products: Product[] = [
   {
     slug: "black-leather-jewelry-box",
     name: "Custom Jewelry Boxes — Black",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Black colourway of the custom jewelry box range; structure, insert and logo finish are specified per project and confirmed on a physical sample",
+    ],
     category: "Boxes",
     shortDesc:
       "Black jewelry box packaging; confirm exterior, interior, insert and branding in the quotation and sample.",
@@ -135,6 +139,10 @@ export const products: Product[] = [
   {
     slug: "custom-white-jewelry-box",
     name: "Custom Jewelry Boxes — White",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "White colourway of the custom jewelry box range; structure, insert and logo finish are specified per project and confirmed on a physical sample",
+    ],
     category: "Boxes",
     shortDesc:
       "White jewelry box packaging; confirm shell, insert, closure and logo method against your approved sample.",
@@ -216,6 +224,10 @@ export const products: Product[] = [
   {
     slug: "custom-ring-boxes",
     name: "Custom Ring Boxes & Engagement Ring Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Ring boxes and engagement ring boxes, made to your size, insert and logo specification and confirmed on a physical sample",
+    ],
     category: "Boxes",
     shortDesc:
       "Custom ring boxes for jewelry brands, from 200 pieces. Plan the ring fit, insert, exterior and logo together before approving a sample.",
@@ -304,6 +316,10 @@ export const products: Product[] = [
   {
     slug: "luxury-gift-box-ribbon",
     name: "Custom Ribbon-Tie Gift Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Ribbon-tie closure gift boxes; board, wrap and ribbon colour are specified per project and confirmed on a sample",
+    ],
     category: "Boxes",
     shortDesc:
       "Rigid luxury gift box with satin ribbon tie closure — premium presentation for corporate gifting. MOQ 200 pcs, typical production 15–20 days.",
@@ -527,6 +543,10 @@ export const products: Product[] = [
   {
     slug: "custom-perfume-boxes",
     name: "Custom Perfume Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Bottle fit, structure, insert and finish are specified for your bottle and confirmed on a loaded physical sample",
+    ],
     category: "Boxes",
     shortDesc:
       "Custom perfume box projects from 200 pieces; confirm the bottle fit, structure, insert and finish in a sample.",
@@ -871,6 +891,10 @@ export const products: Product[] = [
   {
     slug: "custom-watch-boxes",
     name: "Custom Watch Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Made to your watch case dimensions, with the insert, cushion and logo finish confirmed on a physical sample",
+    ],
     category: "Boxes",
     shortDesc:
       "Custom watch boxes with fitted watch pillow inserts — single and multi-watch formats for retail and gifting.",
@@ -1066,6 +1090,10 @@ export const products: Product[] = [
   {
     slug: "custom-cotton-pouches",
     name: "Custom Cotton Pouches & Bags",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Cotton pouches and bags; fabric weight, size and logo method are specified per project and checked on a sample",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Natural cotton pouches and bags — printable, gently protective, made to your size and logo.",
@@ -1151,6 +1179,10 @@ export const products: Product[] = [
   {
     slug: "custom-cotton-envelope-pouches",
     name: "Custom Cotton Envelope Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Envelope-style cotton pouches with a flap closure; fabric, size and logo method are confirmed on a sample",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Cotton envelope pouches with flap-snap, flat-pocket and zip-envelope styles — a workhorse carrier for jewelry, wigs and beauty.",
@@ -1233,6 +1265,14 @@ export const products: Product[] = [
   {
     slug: "velvet-necklace-display",
     name: "Velvet Necklace Display Stands",
+    keyFacts: [
+      "Minimum order: confirmed per project in the quotation — displays are quoted to the specified set, sizes and materials",
+      "Custom samples: made in 3–5 days — USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples — USD 25 shipping only, delivered in 4–7 days",
+      "Production: typically 15–20 days after sample approval and payment; confirmed by order",
+      "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+      "Payment: T/T or PayPal",
+      "Stands are specified to your assortment — height, presentation and branding are confirmed in the quotation",
+    ],
     category: "Retail Display Props",
     shortDesc: "Necklace display stands for wholesale retail projects. Discuss height, presentation and branding for your assortment.",
     description: "Planning wholesale necklace displays? Share the chain lengths, pendant dimensions, available counter space, preferred presentation and quantity. Confirm the proposed height, base footprint, covering and logo options in your quotation, then review the sample with your jewellery.",
@@ -1282,6 +1322,14 @@ export const products: Product[] = [
   {
     slug: "acrylic-earring-display",
     name: "Acrylic Earring Display Stands for Jewelry Retail",
+    keyFacts: [
+      "Minimum order: confirmed per project in the quotation — displays are quoted to the specified set, sizes and materials",
+      "Custom samples: made in 3–5 days — USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples — USD 25 shipping only, delivered in 4–7 days",
+      "Production: typically 15–20 days after sample approval and payment; confirmed by order",
+      "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+      "Payment: T/T or PayPal",
+      "Layout and material are specified to your assortment and confirmed in the quotation",
+    ],
     category: "Retail Display Props",
     shortDesc: "Earring display stands for retail projects. Discuss the layout and material for your assortment.",
     description: "For an earring display quote, list the earring styles, the number of pairs to present and any preferred layout. Check hole or slot placement, spacing, stand dimensions and the chosen material with a sample before approving production.",
@@ -1331,6 +1379,10 @@ export const products: Product[] = [
   {
     slug: "kraft-paper-shopping-bag",
     name: "Custom Kraft Paper Shopping Bags",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Bag size, paper weight, print and handle type are specified per project and confirmed on a sample",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Kraft shopping bag with twisted handles — custom logo printing.",
@@ -1395,6 +1447,14 @@ export const products: Product[] = [
   {
     slug: "stackable-jewelry-tray",
     name: "Stackable Jewelry Trays for Retail Display",
+    keyFacts: [
+      "Minimum order: confirmed per project in the quotation — displays are quoted to the specified set, sizes and materials",
+      "Custom samples: made in 3–5 days — USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples — USD 25 shipping only, delivered in 4–7 days",
+      "Production: typically 15–20 days after sample approval and payment; confirmed by order",
+      "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+      "Payment: T/T or PayPal",
+      "Compartment layout, fixture fit and stacking interface are confirmed in the quotation",
+    ],
     category: "Retail Display Props",
     shortDesc: "Jewelry display trays for wholesale projects. Confirm the compartment layout, fixture fit and stacking interface.",
     description: "For wholesale jewellery display trays, measure the inside of the showcase or drawer and list the jewellery dimensions and desired layout. Confirm external tray size, usable compartments, covering and any stacking interface on the proposed sample.",
@@ -1444,6 +1504,14 @@ export const products: Product[] = [
   {
     slug: "velvet-jewelry-display-set",
     name: "Velvet Jewelry Display Sets for Retail",
+    keyFacts: [
+      "Minimum order: confirmed per project in the quotation — displays are quoted to the specified set, sizes and materials",
+      "Custom samples: made in 3–5 days — USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples — USD 25 shipping only, delivered in 4–7 days",
+      "Production: typically 15–20 days after sample approval and payment; confirmed by order",
+      "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+      "Payment: T/T or PayPal",
+      "The piece mix and the quantity of each component are specified per project in the quotation",
+    ],
     category: "Retail Display Props",
     shortDesc: "Coordinated jewelry display components for retail counters. Specify the piece mix and quantity for each component.",
     description: "For a coordinated jewellery display programme, list each component, its quantity and the available counter space. Confirm the proposed piece mix, covering and colours in the quotation. Display sets are quoted per project; confirm allocation across variants when requesting a quote.",
@@ -1493,6 +1561,10 @@ export const products: Product[] = [
   {
     slug: "leather-envelope-pouch",
     name: "Custom Leather Envelope Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Envelope pouches with a flap closure; material, size and logo finish are specified per project and confirmed on a sample",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Pebbled faux-leather envelope pouch with gold foil logo, snap closure and soft suede-touch interior.",
@@ -1558,6 +1630,10 @@ export const products: Product[] = [
   {
     slug: "custom-satin-wig-bag",
     name: "Custom Satin Wig Bags",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Sized for wigs and hairpieces; satin colour and logo method are specified per project and checked on a sample",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Satin drawstring wig bag; confirm dimensions, fabric contact and logo method on the proposed sample.",
@@ -1623,6 +1699,10 @@ export const products: Product[] = [
   {
     slug: "custom-satin-pouches",
     name: "Custom Satin Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Satin colour matched to your specification; size and logo method are confirmed on a physical sample",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Lustrous satin pouches with drawstring or flap closure — your colour, size and logo.",
@@ -1695,6 +1775,10 @@ export const products: Product[] = [
   {
     slug: "custom-muslin-drawstring-pouch",
     name: "Custom Muslin Drawstring Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Natural-fabric drawstring pouches in muslin, with a linen option; size and logo method are confirmed on a sample",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Natural-look drawstring pouch projects; confirm the fabric composition, weave and cord in a sample.",
@@ -1767,6 +1851,10 @@ export const products: Product[] = [
   {
     slug: "custom-microfiber-pouches",
     name: "Custom Microfiber Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Microfiber pouches for eyewear and jewelry; size, lining and logo method are confirmed on a sample",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Microfiber pouches that clean as they carry — eyewear sleeves, jewelry pouches and cloth-plus-pouch sets with your logo.",
@@ -1815,6 +1903,10 @@ export const products: Product[] = [
   {
     slug: "custom-pvc-bags",
     name: "Custom Clear PVC Bags",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Clear PVC bags made to your size, thickness and print specification, confirmed on a physical sample",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Clear custom bags with logo from 200 pieces; confirm film and closure type in a sample.",
@@ -1883,6 +1975,10 @@ export const products: Product[] = [
   {
     slug: "custom-microfiber-cleaning-cloth-jewelry",
     name: "Custom Microfiber Polishing Cloths for Jewelry",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "The anti-tarnish polishing cloth in the ELAPACK range — dry polishing care for jewelry; cloth size and logo print are specified per project",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Microfiber polishing cloth for jewelry, from 200 pieces; confirm size, edge, print and polishing scope in a sample.",
@@ -1953,6 +2049,10 @@ export const products: Product[] = [
   {
     slug: "custom-microfiber-cleaning-cloth-eyewear",
     name: "Custom Microfiber Cleaning Cloth for Eyewear & Screens",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Cleaning cloths for eyewear, lenses and screens; cloth size and logo print are specified per project",
+    ],
     category: "Pouches & Bags",
     shortDesc:
       "Microfiber cleaning cloth for eyewear, screens and lenses, from 200 pieces; confirm size, edge, print and coated-surface scope in a sample.",

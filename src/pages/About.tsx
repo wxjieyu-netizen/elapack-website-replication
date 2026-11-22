@@ -202,6 +202,35 @@ export default function About() {
                 </Link>
               </li>
             </ul>
+            <h3
+              className="section-title"
+              style={{ marginTop: "2rem", fontSize: "1.35rem" }}
+            >
+              Sampling at ELAPACK
+            </h3>
+            <ul className="about-founder-stats">
+              <li>
+                <strong>Custom sample:</strong> USD 30 + USD 25 shipping,
+                ready in 3–5 days. The sample fee is deductible against your
+                confirmed first order.
+              </li>
+              <li>
+                <strong>Stock sample:</strong> free — you pay USD 25
+                shipping only, delivered in 4–7 days.
+              </li>
+              <li>
+                <strong>Written quotation within 1 working day</strong> of
+                your enquiry.
+              </li>
+            </ul>
+            <p>
+              <Link
+                to="/news/custom-packaging-samples-guide/"
+                className="text-link"
+              >
+                How sampling works →
+              </Link>
+            </p>
           </div>
         </div>
       </section>
