@@ -32,6 +32,11 @@ const redirects: Record<string, string> = {
   "/products/cream-rigid-magnetic-gift-box": "/products/magnetic-closure-gift-box",
   "/products/wooden-ring-box-wedding": "/products",
 
+  // 2026-11-22: two pre-restructure product URLs still returning 404 in GSC
+  // (no current product page under these slugs; route to the line hubs)
+  "/products/custom-ribbons": "/ribbons-accessories",
+  "/products/gift-boxes": "/custom-gift-boxes",
+
   // 2026-10-01 batch-1: pouch SKU de-jewelring + ring box retitle (slug generalization, then URL freeze)
   "/products/custom-velvet-drawstring-pouch": "/products/custom-velvet-pouches",
   "/products/custom-cotton-jewelry-pouch": "/products/custom-cotton-pouches",
