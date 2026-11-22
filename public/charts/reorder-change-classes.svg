@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#faf9f7"/>
+  <text x="60" y="78" font-family="Georgia, serif" font-size="27" font-weight="600" fill="#18120c">Three classes of reorder</text>
+  <text x="60" y="112" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b6258">The class decides what is re-approved, what is re-quoted, and which clock restarts.</text>
+  <rect x="60" y="134" width="64" height="3" fill="#b08d46"/>
+
+  <g>
+    <rect x="60" y="170" width="340" height="420" fill="#ffffff" stroke="#e5ded2"/>
+    <text x="88" y="214" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#b08d46">CLASS 1</text>
+    <text x="88" y="246" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#18120c">Unchanged repeat</text>
+    <rect x="88" y="266" width="284" height="1" fill="#e5ded2"/>
+    <text font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#3d362c">
+      <tspan x="88" y="300">Same approved specification,</tspan>
+      <tspan x="88" y="326">end to end — structure, size,</tspan>
+      <tspan x="88" y="352">materials, artwork and finish.</tspan>
+      <tspan x="88" y="404">Tooling and approvals</tspan>
+      <tspan x="88" y="430">carry over in full.</tspan>
+      <tspan x="88" y="482">The order simply re-enters</tspan>
+      <tspan x="88" y="508">the production schedule.</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect x="430" y="170" width="340" height="420" fill="#ffffff" stroke="#e5ded2"/>
+    <text x="458" y="214" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#b08d46">CLASS 2</text>
+    <text x="458" y="246" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#18120c">Artwork revision</text>
+    <rect x="458" y="266" width="284" height="1" fill="#e5ded2"/>
+    <text font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#3d362c">
+      <tspan x="458" y="300">New graphics or text on an</tspan>
+      <tspan x="458" y="326">untouched structure.</tspan>
+      <tspan x="458" y="378">The dieline does not move, so</tspan>
+      <tspan x="458" y="404">the cutting die carries over.</tspan>
+      <tspan x="458" y="456">What restarts is the print:</tspan>
+      <tspan x="458" y="482">a fresh proof to approve.</tspan>
+      <tspan x="458" y="534">A new die, if genuinely needed,</tspan>
+      <tspan x="458" y="560">is quoted as a separate line.</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect x="800" y="170" width="340" height="420" fill="#ffffff" stroke="#e5ded2"/>
+    <text x="828" y="214" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#b08d46">CLASS 3</text>
+    <text x="828" y="246" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#18120c">Structural or material change</text>
+    <rect x="828" y="266" width="284" height="1" fill="#e5ded2"/>
+    <text font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#3d362c">
+      <tspan x="828" y="300">New dimensions, a different</tspan>
+      <tspan x="828" y="326">board or fabric, a new insert.</tspan>
+      <tspan x="828" y="378">In effect, a new product in</tspan>
+      <tspan x="828" y="404">an old reference code.</tspan>
+      <tspan x="828" y="456">It takes its own sample and</tspan>
+      <tspan x="828" y="482">fit check, and its own</tspan>
+      <tspan x="828" y="508">approval line in the brief.</tspan>
+    </text>
+  </g>
+
+  <text x="60" y="632" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6b6258">An order that changes artwork and structure at once is two revisions on one purchase order — each needs its own approval line.</text>
+</svg>
