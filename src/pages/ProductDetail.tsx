@@ -142,7 +142,7 @@ export default function ProductDetail() {
               <div className="product-trust-badges">
                 {[
                   ...trustBadges,
-                  { icon: "M", label: `Low MOQ From ${product.moq}` },
+                  { icon: "M", label: /^\d/.test(product.moq) ? `Low MOQ From ${product.moq}` : `MOQ ${product.moq}` },
                 ].map((badge) => (
                   <div key={badge.label} className="product-trust-badge">
                     <span className="product-trust-icon">{badge.icon}</span>
