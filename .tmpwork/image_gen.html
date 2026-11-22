@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; padding: 0; background: #333; }
+        canvas { background: white; margin: 10px; }
+    </style>
+</head>
+<body>
+    <canvas id="canvas1" width="1024" height="1024"></canvas>
+    <canvas id="canvas2" width="1024" height="1024"></canvas>
+    <script>
+        const font = '500 24px Montserrat';
+        const colorMagenta = '#E11B6C';
+
+        async function process() {
+            const ctx1 = document.getElementById('canvas1').getContext('2d');
+            const img1 = new Image();
+            img1.crossOrigin = "anonymous";
+            img1.src = 'https://sc02.alicdn.com/kf/H64c632564aa34ac1b2715bd33360195dm.jpg';
+            await new Promise(r => img1.onload = r);
+            ctx1.drawImage(img1, 0, 0);
+
+            // Surgical erase and draw
+            const tasks1 = [
+                { x: 420, y: 305, w: 170, h: 40, text: 'ELAPACK', font: '500 28px Montserrat', color: colorMagenta },
+                { x: 420, y: 485, w: 160, h: 35, text: 'ELAPACK', font: '500 26px Montserrat', color: colorMagenta },
+                { x: 500, y: 755, w: 80, h: 20, text: 'ELAPACK', font: '500 16px Montserrat', color: colorMagenta },
+                { x: 735, y: 410, w: 120, h: 25, text: 'ELAPACK', font: '500 16px Montserrat', color: 'black' },
+                { x: 750, y: 570, w: 100, h: 25, text: 'ELAPACK', font: '500 12px Montserrat', color: 'white' }
+            ];
+
+            tasks1.forEach(t => {
+                // Erase with sampled pixel
+                const p = ctx1.getImageData(t.x, t.y, 1, 1).data;
+                ctx1.fillStyle = `rgb(${p[0]},${p[1]},${p[2]})`;
+                ctx1.fillRect(t.x, t.y, t.w, t.h);
+                // Draw text
+                ctx1.font = t.font;
+                ctx1.fillStyle = t.color;
+                ctx1.textAlign = 'center';
+                ctx1.textBaseline = 'middle';
+                ctx1.fillText(t.text, t.x + t.w/2, t.y + t.h/2);
+            });
+
+            const ctx2 = document.getElementById('canvas2').getContext('2d');
+            const img2 = new Image();
+            img2.crossOrigin = "anonymous";
+            img2.src = 'https://sc02.alicdn.com/kf/He24877a376b04580ad8bc692d68620f65.jpg';
+            await new Promise(r => img2.onload = r);
+            ctx2.drawImage(img2, 0, 0);
+
+            const tasks2 = [
+                { x: 260, y: 215, w: 140, h: 40, text: 'ELAPACK', font: '500 24px Montserrat', color: 'white' },
+                { x: 620, y: 710, w: 150, h: 45, text: 'ELAPACK', font: '500 24px Montserrat', color: 'white', rotate: 180 }
+            ];
+
+            tasks2.forEach(t => {
+                const p = ctx2.getImageData(t.x, t.y, 1, 1).data;
+                ctx2.fillStyle = `rgb(${p[0]},${p[1]},${p[2]})`;
+                ctx2.fillRect(t.x, t.y, t.w, t.h);
+                
+                ctx2.save();
+                ctx2.translate(t.x + t.w/2, t.y + t.h/2);
+                if(t.rotate) ctx2.rotate(t.rotate * Math.PI / 180);
+                ctx2.font = t.font;
+                ctx2.fillStyle = t.color;
+                ctx2.textAlign = 'center';
+                ctx2.textBaseline = 'middle';
+                ctx2.fillText(t.text, 0, 0);
+                ctx2.restore();
+            });
+
+            document.body.dataset.ready = "true";
+        }
+        process();
+    </script>
+</body>
+</html>
