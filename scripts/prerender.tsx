@@ -313,7 +313,25 @@ for (const route of ROUTES) {
         contactType: "sales",
         availableLanguage: ["en"],
       },
+      hasCredential: {
+        "@type": "EducationalOccupationalCredential",
+        credentialCategory: "certification",
+        name: "ISO 9001",
+        recognizedBy: { "@type": "Organization", name: "ISO" },
+      },
     });
+    if (route === "/video") {
+      graph.push({
+        "@type": "VideoObject",
+        "@id": `${SITE}/video/#video`,
+        name: STATIC_TITLES[route],
+        description: STATIC_DESCRIPTIONS[route],
+        contentUrl: `${SITE}/videos/factory-tour.mp4`,
+        thumbnailUrl: `${SITE}/factory-video-poster.webp`,
+        uploadDate: "2026-11-06",
+        duration: "PT49.6S",
+      });
+    }
     if (crumbs.length > 1) {
       graph.push({
         "@type": "BreadcrumbList",
@@ -419,7 +437,7 @@ for (const route of ROUTES) {
       });
     }
     if (product) {
-      graph.push(review ? { ...review.schema_product, mainEntityOfPage: { "@type": "WebPage", "@id": canonical } } : {
+      graph.push(review ? { ...review.schema_product, manufacturer: { "@id": `${SITE}/#organization` }, mainEntityOfPage: { "@type": "WebPage", "@id": canonical } } : {
         "@type": "Product",
         "@id": `${canonical}#product`,
         name: product.name,
@@ -429,6 +447,7 @@ for (const route of ROUTES) {
         category: product.category,
         ...(specReview ? {} : { material: product.materials }),
         brand: { "@type": "Brand", name: "ELAPACK" },
+        manufacturer: { "@id": `${SITE}/#organization` },
         additionalProperty: [
           { "@type": "PropertyValue", name: "Minimum Order Quantity", value: product.moq },
           { "@type": "PropertyValue", name: "Lead Time", value: product.leadTime },
