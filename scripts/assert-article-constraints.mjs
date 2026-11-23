@@ -9,6 +9,12 @@ import fs from 'node:fs';
 
 const FILE = 'src/data/articles.ts';
 
+// Escape hatch (named user approval only): SKIP_ARTICLE_CONSTRAINTS=1
+if (process.env.SKIP_ARTICLE_CONSTRAINTS === '1') {
+  console.warn('[article-constraints] SKIP_ARTICLE_CONSTRAINTS=1 — gate bypassed by named approval');
+  process.exit(0);
+}
+
 function extractBodies(text) {
   const bodies = {};
   const re = /"slug": "([^"]+)"[\s\S]*?"body": "([\s\S]*?)",?\n/g;
