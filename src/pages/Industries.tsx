@@ -172,11 +172,43 @@ export default function Industries() {
             ))}
           </div>
 
-          <p className="markets-note" style={{ marginTop: "1.5rem" }}>
-            Beauty brands can go straight to{" "}
-            <Link to="/custom-cosmetic-packaging/">packaging for beauty brands</Link>{" "}
-            — boxes, pouches and sets specified as one program.
-          </p>
+          <div style={{ marginTop: "1.5rem" }}>
+            <p className="markets-note" style={{ marginBottom: "0.6rem" }}>
+              Jewelry brands can go straight to{" "}
+              <Link to="/custom-jewelry-packaging/">custom jewelry packaging</Link>{" "}
+              — boxes, pouches and display sets specified as one program.
+            </p>
+            <p className="markets-note" style={{ marginBottom: "0.6rem" }}>
+              Eyewear brands can go straight to{" "}
+              <Link to="/eyewear-packaging/">eyewear packaging</Link>{" "}
+              — rigid cases, microfiber pouches and cloths matched to your frames.
+            </p>
+            <p className="markets-note" style={{ marginBottom: "0.6rem" }}>
+              Fragrance brands can go straight to{" "}
+              <Link to="/products/custom-perfume-boxes/">custom perfume boxes</Link>{" "}
+              — rigid and drawer-style boxes with fitted inserts.
+            </p>
+            <p className="markets-note" style={{ marginBottom: "0.6rem" }}>
+              Hair and wig brands can go straight to{" "}
+              <Link to="/custom-wig-packaging/">custom wig packaging</Link>{" "}
+              — satin bags, structured boxes and matched sets sized to your pieces.
+            </p>
+            <p className="markets-note" style={{ marginBottom: "0.6rem" }}>
+              Beauty brands can go straight to{" "}
+              <Link to="/custom-cosmetic-packaging/">packaging for beauty brands</Link>{" "}
+              — boxes, pouches and sets specified as one program.
+            </p>
+            <p className="markets-note" style={{ marginBottom: "0.6rem" }}>
+              Fashion brands can start with our{" "}
+              <Link to="/news/custom-clothing-apparel-packaging-guide/">clothing and apparel packaging guide</Link>{" "}
+              — dust bags, garment covers and retail bags by garment type.
+            </p>
+            <p className="markets-note" style={{ marginBottom: "2rem" }}>
+              Gift programs can go straight to{" "}
+              <Link to="/custom-gift-boxes/">custom gift boxes</Link>{" "}
+              — magnetic, ribbon-tie and two-piece rigid boxes for sets and corporate gifting.
+            </p>
+          </div>
 
           {selected && (
             <div className="industry-detail reveal">
