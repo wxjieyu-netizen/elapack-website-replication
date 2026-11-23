@@ -567,7 +567,7 @@ export const collections: Collection[] = [
         heading: "Two-piece & structure options",
         items: [
           { title: "Two-piece rigid", desc: "Full-height lift-off lid over a rigid base — the premium gift structure." },
-          { title: "Drawer & book-style", desc: "Structures made to your product and occasion, on request." },
+          { title: "Drawer & book-style", desc: "Structures made to your product and occasion, on request.", link: { path: "/products/custom-rigid-drawer-box/", label: "View custom rigid drawer boxes" } },
         ],
       },
       {
