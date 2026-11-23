@@ -1,34 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350" font-family="Arial, Helvetica, sans-serif">
-  <rect width="2400" height="1350" fill="#faf8f4"/>
-  <rect x="0" y="0" width="2400" height="270" fill="#28251f"/>
-  <text x="140" y="118" font-size="62" font-weight="bold" fill="#faf8f4">The jewelry packaging stack, in buying order</text>
-  <text x="140" y="196" font-size="38" fill="#c9c2b2">Each layer is specified against the one before it — one specification list for the set</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <rect x="0" y="0" width="1200" height="600" fill="#faf8f4"/>
+  <text x="56" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="33" font-weight="600" fill="#18120c">Jewelry packaging: buying order</text>
+  <text x="56" y="114" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b675c">Start with the jewelry&#8217;s dimensions and support needs.</text>
 
-  <g font-size="40">
-    <circle cx="205" cy="390" r="42" fill="#28251f"/><text x="205" y="405" text-anchor="middle" font-weight="bold" fill="#faf8f4">1</text>
-    <text x="290" y="378" font-weight="bold" fill="#28251f">The box</text>
-    <text x="290" y="436" font-size="35" fill="#6b675c">Structure, board grade and finish set everything downstream</text>
-    <line x1="140" y1="486" x2="2260" y2="486" stroke="#ddd6c9" stroke-width="2"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="56" y="140" width="532" height="104" rx="14" fill="#ffffff" stroke="#ddd6c9"/>
+    <text x="84" y="183" font-size="21" font-weight="700" fill="#28251f"><tspan fill="#b08d46">01 &#183; </tspan>Box</text>
+    <text x="84" y="215" font-size="16.5" fill="#4a463d">Structure and inside dimensions</text>
 
-    <circle cx="205" cy="586" r="42" fill="#28251f"/><text x="205" y="601" text-anchor="middle" font-weight="bold" fill="#faf8f4">2</text>
-    <text x="290" y="574" font-weight="bold" fill="#28251f">The insert</text>
-    <text x="290" y="632" font-size="35" fill="#6b675c">Specified with the box, not after it — checked with the actual jewellery</text>
-    <line x1="140" y1="682" x2="2260" y2="682" stroke="#ddd6c9" stroke-width="2"/>
+    <rect x="612" y="140" width="532" height="104" rx="14" fill="#ffffff" stroke="#ddd6c9"/>
+    <text x="640" y="183" font-size="21" font-weight="700" fill="#28251f"><tspan fill="#b08d46">02 &#183; </tspan>Insert</text>
+    <text x="640" y="215" font-size="16.5" fill="#4a463d">Support, contact and removal</text>
 
-    <circle cx="205" cy="782" r="42" fill="#28251f"/><text x="205" y="797" text-anchor="middle" font-weight="bold" fill="#faf8f4">3</text>
-    <text x="290" y="770" font-weight="bold" fill="#28251f">The pouch</text>
-    <text x="290" y="828" font-size="35" fill="#6b675c">The soft layer that travels with the piece</text>
-    <line x1="140" y1="878" x2="2260" y2="878" stroke="#ddd6c9" stroke-width="2"/>
+    <text x="56" y="280" font-size="15.5" fill="#6b675c">Review the box and insert together.</text>
 
-    <circle cx="205" cy="978" r="42" fill="#28251f"/><text x="205" y="993" text-anchor="middle" font-weight="bold" fill="#faf8f4">4</text>
-    <text x="290" y="966" font-weight="bold" fill="#28251f">The card</text>
-    <text x="290" y="1024" font-size="35" fill="#6b675c">Specified with the insert slot, printed to the box's colour discipline</text>
-    <line x1="140" y1="1074" x2="2260" y2="1074" stroke="#ddd6c9" stroke-width="2"/>
+    <rect x="56" y="298" width="532" height="104" rx="14" fill="#ffffff" stroke="#ddd6c9"/>
+    <text x="84" y="341" font-size="21" font-weight="700" fill="#28251f"><tspan fill="#b08d46">03 &#183; </tspan>Pouch</text>
+    <text x="84" y="373" font-size="16.5" fill="#4a463d">Closures, seams and fit</text>
 
-    <circle cx="205" cy="1174" r="42" fill="#28251f"/><text x="205" y="1189" text-anchor="middle" font-weight="bold" fill="#faf8f4">5</text>
-    <text x="290" y="1162" font-weight="bold" fill="#28251f">The set, and the display</text>
-    <text x="290" y="1220" font-size="35" fill="#6b675c">The complete presentation quoted as one object; display reviewed on its own task</text>
+    <rect x="612" y="298" width="532" height="104" rx="14" fill="#ffffff" stroke="#ddd6c9"/>
+    <text x="640" y="341" font-size="21" font-weight="700" fill="#28251f"><tspan fill="#b08d46">04 &#183; </tspan>Card</text>
+    <text x="640" y="373" font-size="16.5" fill="#4a463d">Size, slot clearance and artwork</text>
+
+    <rect x="56" y="426" width="1088" height="100" rx="14" fill="#efe9dc" stroke="#c9c2b2"/>
+    <text x="84" y="468" font-size="21" font-weight="700" fill="#28251f"><tspan fill="#b08d46">05 &#183; </tspan>Complete set</text>
+    <text x="84" y="499" font-size="16.5" fill="#4a463d">Approve fit and colour across the physical samples.</text>
+
+    <text x="56" y="568" font-size="16" fill="#4a463d">Review the retail display separately for its intended use.</text>
   </g>
-
-  <text x="140" y="1312" font-size="30" fill="#6b675c">Approve the interfaces between parts on the complete sample set  ·  elapack.com</text>
 </svg>
