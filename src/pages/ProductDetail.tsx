@@ -58,7 +58,7 @@ export default function ProductDetail() {
           <p className="text-soft" style={{ margin: "1rem 0 2rem" }}>
             The product you're looking for doesn't exist or has been moved.
           </p>
-          <Link to="/products/" className="btn-primary">
+          <Link to="/products/" className="pd-btn pd-btn-glass">
             Back to Products
           </Link>
         </div>
@@ -206,7 +206,7 @@ export default function ProductDetail() {
               <p className="product-specs-text">
                 {isHairExtension ? "Send these product and order details for review. Confirm materials, dimensions and fit in the quotation and approved sample." : review?.specs ? "Product specifications are listed first, followed by the confirmed ordering conditions. Confirm the final specification in the quotation and approved sample." : review ? "These are confirmed ordering conditions. Product-specific materials and dimensions are reviewed separately in the quotation and sample." : product.category === "Retail Display Props" ? "Display props are specified for each project, so there are no standard specifications to list. Use this checklist to confirm each item in the quotation and on the proposed sample before production." : "Use the fields below to specify your product. Confirm materials, dimensions, construction and artwork in the quotation, then review the agreed details on the sample before production."}
               </p>
-              <Link to={quoteUrl} className="btn-primary">
+              <Link to={quoteUrl} className="pd-btn pd-btn-glass">
                 Discuss Your Project
               </Link>
             </div>
@@ -319,7 +319,7 @@ export default function ProductDetail() {
                   {para}
                 </p>
               ))}
-              <Link to={quoteUrl} className="btn-primary" style={{ marginTop: "0.5rem" }}>
+              <Link to={quoteUrl} className="pd-btn pd-btn-glass" style={{ marginTop: "0.5rem" }}>
                 {copy.customizeCta}
               </Link>
             </div>
@@ -623,7 +623,7 @@ export default function ProductDetail() {
               Share your specifications and we'll respond with next steps
               within one business day (Mon–Fri, China time).
             </p>
-            <Link to={quoteUrl} className="btn-primary">
+            <Link to={quoteUrl} className="pd-btn pd-btn-glass">
               Start Your Project
             </Link>
           </div>

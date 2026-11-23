@@ -4191,8 +4191,7 @@ a.contact-value:hover {
    border, full pill. Hover turns solid sage #A3B18A.
    Secondary: solid sage at rest; hover turns into the same glass.
    No inset highlight lines, no visible drawn border, no layered shadows. */
-.product-detail-hero .pd-btn,
-.product-contact-bar .pd-btn {
+.pd-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -4215,8 +4214,7 @@ a.contact-value:hover {
   text-align: center;
 }
 
-.product-detail-hero .pd-btn-glass,
-.product-contact-bar .pd-btn-glass {
+.pd-btn-glass {
   background:
     radial-gradient(130% 180% at 15% -10%, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0) 58%),
     linear-gradient(115deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.20) 60%, rgba(255, 255, 255, 0.28));
@@ -4232,22 +4230,19 @@ a.contact-value:hover {
   to { background-position: 90% 35%, 0 0; }
 }
 
-.product-detail-hero .pd-btn-glass:hover,
-.product-contact-bar .pd-btn-glass:hover {
+.pd-btn-glass:hover {
   background: var(--color-accent);
   border-color: transparent;
   animation: none;
 }
 
-.product-detail-hero .pd-btn-sage,
-.product-contact-bar .pd-btn-sage {
+.pd-btn-sage {
   background: var(--color-accent);
   border-color: transparent;
   box-shadow: 0 22px 48px -22px rgba(43, 43, 43, 0.28), 0 2px 8px rgba(43, 43, 43, 0.04);
 }
 
-.product-detail-hero .pd-btn-sage:hover,
-.product-contact-bar .pd-btn-sage:hover {
+.pd-btn-sage:hover {
   background:
     radial-gradient(130% 180% at 15% -10%, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0) 58%),
     linear-gradient(115deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.20) 60%, rgba(255, 255, 255, 0.28));
@@ -4258,17 +4253,14 @@ a.contact-value:hover {
   animation: pd-glass-drift 9s ease-in-out infinite alternate;
 }
 
-.product-detail-hero .pd-btn:focus-visible,
-.product-contact-bar .pd-btn:focus-visible {
+.pd-btn:focus-visible {
   outline: 2px solid var(--color-accent-dark);
   outline-offset: 3px;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .product-detail-hero .pd-btn-glass,
-  .product-contact-bar .pd-btn-glass,
-  .product-detail-hero .pd-btn-sage:hover,
-  .product-contact-bar .pd-btn-sage:hover {
+  .pd-btn-glass,
+  .pd-btn-sage:hover {
     animation: none;
   }
 }
