@@ -69,6 +69,10 @@ var products = [
   {
     slug: "black-leather-jewelry-box",
     name: "Custom Jewelry Boxes \u2014 Black",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Black colourway of the custom jewelry box range; structure, insert and logo finish are specified per project and confirmed on a physical sample"
+    ],
     category: "Boxes",
     shortDesc: "Black jewelry box packaging; confirm exterior, interior, insert and branding in the quotation and sample.",
     description: "Plan a black jewelry box around the jewelry type, item dimensions and required presentation. Tell us whether you want a leather-look exterior, a particular lining or a fitted insert; these are specification choices, not confirmed materials for the pictured reference. Review the proposed structure and logo placement in a free digital dieline preview, then confirm the material, finish and fit in the quotation and approved sample. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate.",
@@ -150,6 +154,10 @@ var products = [
   {
     slug: "custom-white-jewelry-box",
     name: "Custom Jewelry Boxes \u2014 White",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "White colourway of the custom jewelry box range; structure, insert and logo finish are specified per project and confirmed on a physical sample"
+    ],
     category: "Boxes",
     shortDesc: "White jewelry box packaging; confirm shell, insert, closure and logo method against your approved sample.",
     description: "For a white jewelry box, share the jewelry dimensions, item count, preferred opening and artwork. Confirm the shell material, insert and closure for your order. Confirm the proposed construction, finish and fit in the quotation and approved sample before bulk. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate.",
@@ -228,6 +236,10 @@ var products = [
   {
     slug: "custom-ring-boxes",
     name: "Custom Ring Boxes & Engagement Ring Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Ring boxes and engagement ring boxes, made to your size, insert and logo specification and confirmed on a physical sample"
+    ],
     category: "Boxes",
     shortDesc: "Custom ring boxes for jewelry brands, from 200 pieces. Plan the ring fit, insert, exterior and logo together before approving a sample.",
     description: "Custom ring boxes for jewelry brands ordering from 200 pieces. For a comparable quote, send the ring's band width, setting height, the number of rings per box, preferred appearance, logo artwork, quantity and delivery destination. Review the proposed box and insert dimensions, slot layout, closure and finish together; check retention and removal with your actual ring in an approved sample. A free visual preview of the proposed box structure is available. Custom samples cost USD 30 plus USD 25 shipping and take 3\u20135 days to make. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate. Confirm how sizes, colours and artwork are allocated in the quotation.",
@@ -313,6 +325,10 @@ var products = [
   {
     slug: "luxury-gift-box-ribbon",
     name: "Custom Ribbon-Tie Gift Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Ribbon-tie closure gift boxes; board, wrap and ribbon colour are specified per project and confirmed on a sample"
+    ],
     category: "Boxes",
     shortDesc: "Rigid luxury gift box with satin ribbon tie closure \u2014 premium presentation for corporate gifting. MOQ 200 pcs, typical production 15\u201320 days.",
     description: "A rigid luxury gift box with a satin ribbon tie closure, built for corporate gifting, weddings and high-end retail. Greyboard construction wrapped in premium matte art paper gives the box its substantial feel; the double-face satin ribbon makes the opening itself part of the ceremony, and foil stamping, embossing or spot UV carry the brand mark. Sizes are custom to your product, with Pantone-matched wrapping so box, ribbon and any enclosure card read as one palette - color held against an approved sample before bulk. Interior options secure the product for gifting and courier conditions alike. A free digital dieline preview is available to review the box structure. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. A custom sample (USD 30 plus USD 25 shipping, 3-5 days) settles ribbon hand, wrap shade and finish before the bulk order.",
@@ -523,6 +539,10 @@ var products = [
   {
     slug: "custom-perfume-boxes",
     name: "Custom Perfume Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Bottle fit, structure, insert and finish are specified for your bottle and confirmed on a loaded physical sample"
+    ],
     category: "Boxes",
     shortDesc: "Custom perfume box projects from 200 pieces; confirm the bottle fit, structure, insert and finish in a sample.",
     description: "Start a perfume box brief with bottle dimensions, bottle weight, item count, preferred opening and artwork. The gallery shows style references, not a single standard configuration. Ask for the proposed box structure, insert material and branding method to be itemized in the quotation. Check the fit and opening with your bottle in an approved sample; presentation alone does not establish shipping protection. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate.",
@@ -852,6 +872,10 @@ var products = [
   {
     slug: "custom-watch-boxes",
     name: "Custom Watch Boxes",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Made to your watch case dimensions, with the insert, cushion and logo finish confirmed on a physical sample"
+    ],
     category: "Boxes",
     shortDesc: "Custom watch boxes with fitted watch pillow inserts \u2014 single and multi-watch formats for retail and gifting.",
     description: "Custom watch boxes for watch brands, strap makers and gifting programs. Discuss a rigid box, wrap and watch pillow for single-watch or multi-watch presentation. Share the watch case dimensions, closed-strap size, accessories and number of watches per box so the proposed layout can be checked on a loaded sample. Confirm the wrap, decoration and any transit checks for the complete shipping pack before bulk production. MOQ from 200 pieces. Request a stock sample to judge the board and finish.",
@@ -1036,6 +1060,10 @@ var products = [
   {
     slug: "custom-cotton-pouches",
     name: "Custom Cotton Pouches & Bags",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Cotton pouches and bags; fabric weight, size and logo method are specified per project and checked on a sample"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Natural cotton pouches and bags \u2014 printable, gently protective, made to your size and logo.",
     description: "Custom cotton pouches and bags for brands that want a natural, honest carrier. Unbleached cotton has a soft hand feel that suits artisan, beauty, jewelry and favor programs alike, and the fabric takes water-based ink prints beautifully. Choose your style \u2014 drawstring, flap, envelope or zipper \u2014 in sizes reviewed against your product, from small jewelry and cosmetics pouches to larger gift bags, with your logo printed or woven in. Made to order, with materials, dimensions and finishes confirmed in your quote.",
@@ -1118,6 +1146,10 @@ var products = [
   {
     slug: "custom-cotton-envelope-pouches",
     name: "Custom Cotton Envelope Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Envelope-style cotton pouches with a flap closure; fabric, size and logo method are confirmed on a sample"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Cotton envelope pouches with flap-snap, flat-pocket and zip-envelope styles \u2014 a workhorse carrier for jewelry, wigs and beauty.",
     description: "The cotton envelope pouch is one of our most-run pouch programs: a structured cotton carrier with an envelope flap, made in many styles and custom sizes for jewelry, wigs and hair, and beauty lines. Three style families cover the uses \u2014 the flap-and-snap envelope that closes with one hand and gifts beautifully, the flat open pocket for inserts and slip cases, and the zip envelope that secures contents for travel and retail. Natural unbleached cotton takes water-based ink prints and woven labels well, and every size is made to your product. MOQ from 200 pieces; request a stock sample to feel the weave.",
@@ -1194,6 +1226,14 @@ var products = [
   {
     slug: "velvet-necklace-display",
     name: "Velvet Necklace Display Stands",
+    keyFacts: [
+      "Minimum order: confirmed per project in the quotation \u2014 displays are quoted to the specified set, sizes and materials",
+      "Custom samples: made in 3\u20135 days \u2014 USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples \u2014 USD 25 shipping only, delivered in 4\u20137 days",
+      "Production: typically 15\u201320 days after sample approval and payment; confirmed by order",
+      "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+      "Payment: T/T or PayPal",
+      "Stands are specified to your assortment \u2014 height, presentation and branding are confirmed in the quotation"
+    ],
     category: "Retail Display Props",
     shortDesc: "Necklace display stands for wholesale retail projects. Discuss height, presentation and branding for your assortment.",
     description: "Planning wholesale necklace displays? Share the chain lengths, pendant dimensions, available counter space, preferred presentation and quantity. Confirm the proposed height, base footprint, covering and logo options in your quotation, then review the sample with your jewellery.",
@@ -1256,6 +1296,14 @@ var products = [
   {
     slug: "acrylic-earring-display",
     name: "Acrylic Earring Display Stands for Jewelry Retail",
+    keyFacts: [
+      "Minimum order: confirmed per project in the quotation \u2014 displays are quoted to the specified set, sizes and materials",
+      "Custom samples: made in 3\u20135 days \u2014 USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples \u2014 USD 25 shipping only, delivered in 4\u20137 days",
+      "Production: typically 15\u201320 days after sample approval and payment; confirmed by order",
+      "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+      "Payment: T/T or PayPal",
+      "Layout and material are specified to your assortment and confirmed in the quotation"
+    ],
     category: "Retail Display Props",
     shortDesc: "Earring display stands for retail projects. Discuss the layout and material for your assortment.",
     description: "For an earring display quote, list the earring styles, the number of pairs to present and any preferred layout. Check hole or slot placement, spacing, stand dimensions and the chosen material with a sample before approving production.",
@@ -1304,6 +1352,10 @@ var products = [
   {
     slug: "kraft-paper-shopping-bag",
     name: "Custom Kraft Paper Shopping Bags",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Bag size, paper weight, print and handle type are specified per project and confirmed on a sample"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Kraft shopping bag with twisted handles \u2014 custom logo printing.",
     description: "A kraft paper shopping bag for retail carry-out, gift wrapping or events. Share the products to be carried, target loaded weight, desired width, height and gusset depth, handle preference, artwork and quantity for a project-specific quote. Confirm the proposed paper, handle attachment, print method and finish against the quotation and sample; test the assembled bag with the intended load before approving bulk production. Ask us to confirm the selected construction before assessing disposal options. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is quoted separately. Colour is reviewed against the approved sample before bulk. Request a free digital dieline preview to review the proposed dimensions, then approve a custom sample (USD 30 plus USD 25 shipping, 3-5 days) to check handle comfort and print appearance in hand before the bulk run.",
@@ -1366,6 +1418,14 @@ var products = [
   {
     slug: "stackable-jewelry-tray",
     name: "Stackable Jewelry Trays for Retail Display",
+    keyFacts: [
+      "Minimum order: confirmed per project in the quotation \u2014 displays are quoted to the specified set, sizes and materials",
+      "Custom samples: made in 3\u20135 days \u2014 USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples \u2014 USD 25 shipping only, delivered in 4\u20137 days",
+      "Production: typically 15\u201320 days after sample approval and payment; confirmed by order",
+      "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+      "Payment: T/T or PayPal",
+      "Compartment layout, fixture fit and stacking interface are confirmed in the quotation"
+    ],
     category: "Retail Display Props",
     shortDesc: "Jewelry display trays for wholesale projects. Confirm the compartment layout, fixture fit and stacking interface.",
     description: "For wholesale jewellery display trays, measure the inside of the showcase or drawer and list the jewellery dimensions and desired layout. Confirm external tray size, usable compartments, covering and any stacking interface on the proposed sample.",
@@ -1414,6 +1474,14 @@ var products = [
   {
     slug: "velvet-jewelry-display-set",
     name: "Velvet Jewelry Display Sets for Retail",
+    keyFacts: [
+      "Minimum order: confirmed per project in the quotation \u2014 displays are quoted to the specified set, sizes and materials",
+      "Custom samples: made in 3\u20135 days \u2014 USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order); free stock samples \u2014 USD 25 shipping only, delivered in 4\u20137 days",
+      "Production: typically 15\u201320 days after sample approval and payment; confirmed by order",
+      "Shipping: from Shanghai or Shenzhen, by sea or air; DDP quoted on request",
+      "Payment: T/T or PayPal",
+      "The piece mix and the quantity of each component are specified per project in the quotation"
+    ],
     category: "Retail Display Props",
     shortDesc: "Coordinated jewelry display components for retail counters. Specify the piece mix and quantity for each component.",
     description: "For a coordinated jewellery display programme, list each component, its quantity and the available counter space. Confirm the proposed piece mix, covering and colours in the quotation. Display sets are quoted per project; confirm allocation across variants when requesting a quote.",
@@ -1462,11 +1530,28 @@ var products = [
   {
     slug: "leather-envelope-pouch",
     name: "Custom Leather Envelope Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Envelope pouches with a flap closure; material, size and logo finish are specified per project and confirmed on a sample"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Pebbled faux-leather envelope pouch with gold foil logo, snap closure and soft suede-touch interior.",
     description: "The envelope pouch is where a protective sleeve becomes part of the gift. Cut from pebbled faux leather with a structured flap and snap closure, it opens to reveal a suede-touch interior that cushions whatever it carries \u2014 jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries the brand quietly, the way luxury prefers it. A slim profile that mails flat and still feels substantial in the hand. Sizes are cut to your contents, from single-card minis to eyewear-length formats, and foil colour, thread and interior shade are specified together so the pouch reads as one palette \u2014 held against an approved sample before bulk. Production runs from 200 pieces in 15\u201320 days, and a custom sample (USD 30 plus USD 25 shipping, 3\u20135 days) settles flap hand, foil density and interior fit with your actual product before the run.",
     intro: "An envelope pouch in pebbled faux leather with a structured snap-closure flap and a suede-touch interior that cushions jewelry, eyewear, cards or small leather goods. Gold foil stamping on the flap carries your logo quietly; custom colours available, from 200 pieces.",
-    image: "/images/carousel/image.png",
+    image: "/images/products/leather-envelope-pouch/leather-envelope-pouch-hero.webp",
+    gallery: [
+      "/images/products/leather-envelope-pouch/leather-envelope-pouch-hero.webp",
+      "/images/products/leather-envelope-pouch/leather-envelope-pouch-detail-01.webp",
+      "/images/products/leather-envelope-pouch/leather-envelope-pouch-detail-02.webp",
+      "/images/products/leather-envelope-pouch/leather-envelope-pouch-detail-03.webp",
+      "/images/products/leather-envelope-pouch/leather-envelope-pouch-detail-04.webp",
+      "/images/products/leather-envelope-pouch/leather-envelope-pouch-detail-05.webp"
+    ],
+    galleryRatio: "1 / 1",
+    descriptionImage: "/images/products/leather-envelope-pouch/leather-envelope-pouch-description.webp",
+    descriptionImageRatio: "3 / 2",
+    customizeImage: "/images/products/leather-envelope-pouch/leather-envelope-pouch-customize.webp",
+    customizeImageRatio: "2 / 3",
     materials: "Pebbled faux leather, suede-touch lining",
     moq: "200 pcs",
     leadTime: "Typically 15\u201320 days after sample approval and payment receipt; shipping time separate",
@@ -1524,6 +1609,10 @@ var products = [
   {
     slug: "custom-satin-wig-bag",
     name: "Custom Satin Wig Bags",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Sized for wigs and hairpieces; satin colour and logo method are specified per project and checked on a sample"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Satin drawstring wig bag; confirm dimensions, fabric contact and logo method on the proposed sample.",
     description: "A satin drawstring bag option for wigs and hair extensions. Confirm the packed item dimensions, fabric contact, closure and proposed logo method on a sample before ordering. Product photography is in progress; request a stock sample to see and feel the material before ordering.",
@@ -1587,6 +1676,10 @@ var products = [
   {
     slug: "custom-satin-pouches",
     name: "Custom Satin Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Satin colour matched to your specification; size and logo method are confirmed on a physical sample"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Lustrous satin pouches with drawstring or flap closure \u2014 your colour, size and logo.",
     description: "Custom satin pouches for programs that want a gift feel at first touch. The lustrous face catches light in retail displays and unboxing photos, while the soft drape protects finishes and platings \u2014 a natural fit for jewelry, bridal, beauty and gifting lines, and a classic choice for perfume bottle gift bags. Made to order in your satin colour and size, with drawstring or flap closure and your logo silkscreened or hot-stamped. Product photography is in progress; request a stock sample to feel the material.",
@@ -1656,6 +1749,10 @@ var products = [
   {
     slug: "custom-muslin-drawstring-pouch",
     name: "Custom Muslin Drawstring Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Natural-fabric drawstring pouches in muslin, with a linen option; size and logo method are confirmed on a sample"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Natural-look drawstring pouch projects; confirm the fabric composition, weave and cord in a sample.",
     description: "For a muslin-style drawstring pouch, send the item dimensions, quantity, preferred fabric appearance, cord and artwork. Request the exact fiber composition and fabric weight in the quotation, then check the proposed material and logo print in a sample. Orders start at 200 pieces. Typical production takes 15\u201320 days after sample approval and payment receipt; shipping time is separate. Product photography is pending; request a sample to review the actual fabric and print.",
@@ -1725,6 +1822,10 @@ var products = [
   {
     slug: "custom-microfiber-pouches",
     name: "Custom Microfiber Pouches",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Microfiber pouches for eyewear and jewelry; size, lining and logo method are confirmed on a sample"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Microfiber pouches that clean as they carry \u2014 eyewear sleeves, jewelry pouches and cloth-plus-pouch sets with your logo.",
     description: "Custom microfiber pouches for programs where the packaging works twice: it carries the product and polishes it. The fine synthetic weave lifts oils and dust without scratching, which makes it the standard companion for eyewear, sunglasses, screens and polished jewelry. Order the pouch alone, or as a set with a custom-printed microfiber cleaning cloth inside \u2014 a proven retail and care-kit combination. Made to order in your size and colour, with drawstring or flap closure and your logo. Product photography is in progress; request a stock sample to test the wipe performance.",
@@ -1771,6 +1872,10 @@ var products = [
   {
     slug: "custom-pvc-bags",
     name: "Custom Clear PVC Bags",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Clear PVC bags made to your size, thickness and print specification, confirmed on a physical sample"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Clear custom bags with logo from 200 pieces; confirm film and closure type in a sample.",
     description: "For a clear packaging bag, provide the contents, required finished size, usable opening, preferred closure and logo artwork. Confirm the exact film composition, gauge, closure construction and print method in the quotation and approved sample. Orders start at 200 pieces. Product photography is pending; request a sample to check the actual film, opening and print.",
@@ -1837,6 +1942,10 @@ var products = [
   {
     slug: "custom-microfiber-cleaning-cloth-jewelry",
     name: "Custom Microfiber Polishing Cloths for Jewelry",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "The anti-tarnish polishing cloth in the ELAPACK range \u2014 dry polishing care for jewelry; cloth size and logo print are specified per project"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Microfiber polishing cloth for jewelry, from 200 pieces; confirm size, edge, print and polishing scope in a sample.",
     description: "A microfiber cloth to add to a jewelry box + pouch set, so the customer can keep the piece looking like new on every opening. Material: microfiber \u2014 in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180\u2013230g; other weights can be made to request. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. This jewelry version carries a polishing effect and is used to polish oxidized metal jewellery; the eyewear version is plain microfiber with no polishing additive. Confirm the polishing scope you need in the quotation and approved sample. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
@@ -1904,6 +2013,10 @@ var products = [
   {
     slug: "custom-microfiber-cleaning-cloth-eyewear",
     name: "Custom Microfiber Cleaning Cloth for Eyewear & Screens",
+    keyFacts: [
+      ...KEY_FACTS_LINES,
+      "Cleaning cloths for eyewear, lenses and screens; cloth size and logo print are specified per project"
+    ],
     category: "Pouches & Bags",
     shortDesc: "Microfiber cleaning cloth for eyewear, screens and lenses, from 200 pieces; confirm size, edge, print and coated-surface scope in a sample.",
     description: "A microfiber cleaning cloth to add to an eyewear pouch + box set, for glasses, screens and lenses. This eyewear version is the plain microfiber cloth \u2014 fabric only, no polishing additive; for polishing oxidized metal jewellery, use the jewelry version. Material: microfiber \u2014 in 100% polyester, or 80% polyester / 20% polyamide. Conventional weight 180\u2013230g; other weights can be made to request. Processes: silkscreen, embossing, digital printing, hot stamping and related print methods, confirmed in the quotation. If the cloth will be used on a coated lens or screen surface, discuss the required evidence or testing separately \u2014 packaging suitability and cleaning performance are separate requirements. Product photography is pending; request a sample to check the actual cloth, edge and print. Orders start at 200 pieces.",
@@ -3407,7 +3520,49 @@ function Products() {
       /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "products-cta reveal", children: [
         /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { children: "Don't see exactly what you need? Every product is fully customizable \u2014 from dimensions and materials to finishes and structural design." }),
         /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(import_react_router_dom7.Link, { to: "/contact/", className: "btn-outline", children: "Request Custom Quote" })
-      ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(
+        "div",
+        {
+          className: "products-cta reveal",
+          style: { textAlign: "left" },
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h3", { className: "value-title", children: "Sampling at a glance" }),
+            /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(
+              "ul",
+              {
+                style: {
+                  maxWidth: 560,
+                  margin: "0 auto 1.5rem",
+                  lineHeight: 1.7
+                },
+                children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("li", { children: [
+                    /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("strong", { children: "Custom sample:" }),
+                    " USD 30 + USD 25 shipping, ready in 3\u20135 days. The sample fee is deductible against your confirmed first order."
+                  ] }),
+                  /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("li", { children: [
+                    /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("strong", { children: "Stock sample:" }),
+                    " free \u2014 you pay USD 25 shipping only, delivered in 4\u20137 days."
+                  ] }),
+                  /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("li", { children: [
+                    /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("strong", { children: "Written quotation within 1 working day" }),
+                    " of your enquiry."
+                  ] })
+                ]
+              }
+            ),
+            /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { style: { marginBottom: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
+              import_react_router_dom7.Link,
+              {
+                to: "/news/custom-packaging-samples-guide/",
+                className: "text-link",
+                children: "How sampling works \u2192"
+              }
+            ) })
+          ]
+        }
+      )
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("section", { className: "section", style: { paddingBottom: 0 }, children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "values-grid", children: [
       /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(import_react_router_dom7.Link, { to: "/pouches-bags/", className: "value-card reveal", children: [
@@ -9162,7 +9317,37 @@ function About() {
           }
         ) }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(import_react_router_dom11.Link, { to: "/news/", className: "text-link", children: "All guides" }) })
-      ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+        "h3",
+        {
+          className: "section-title",
+          style: { marginTop: "2rem", fontSize: "1.35rem" },
+          children: "Sampling at ELAPACK"
+        }
+      ),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("ul", { className: "about-founder-stats", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("li", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("strong", { children: "Custom sample:" }),
+          " USD 30 + USD 25 shipping, ready in 3\u20135 days. The sample fee is deductible against your confirmed first order."
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("li", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("strong", { children: "Stock sample:" }),
+          " free \u2014 you pay USD 25 shipping only, delivered in 4\u20137 days."
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("li", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("strong", { children: "Written quotation within 1 working day" }),
+          " of your enquiry."
+        ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", { children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+        import_react_router_dom11.Link,
+        {
+          to: "/news/custom-packaging-samples-guide/",
+          className: "text-link",
+          children: "How sampling works \u2192"
+        }
+      ) })
     ] }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("section", { className: "section about-video-section", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
       "div",
@@ -12737,8 +12922,26 @@ for (const route of ROUTES) {
         email: "tina@elapack.com",
         contactType: "sales",
         availableLanguage: ["en"]
+      },
+      hasCredential: {
+        "@type": "EducationalOccupationalCredential",
+        credentialCategory: "certification",
+        name: "ISO 9001",
+        recognizedBy: { "@type": "Organization", name: "ISO" }
       }
     });
+    if (route === "/video") {
+      graph.push({
+        "@type": "VideoObject",
+        "@id": `${SITE}/video/#video`,
+        name: STATIC_TITLES[route],
+        description: STATIC_DESCRIPTIONS[route],
+        contentUrl: `${SITE}/videos/factory-tour.mp4`,
+        thumbnailUrl: `${SITE}/factory-video-poster.webp`,
+        uploadDate: "2026-11-06",
+        duration: "PT49.6S"
+      });
+    }
     if (crumbs.length > 1) {
       graph.push({
         "@type": "BreadcrumbList",
@@ -12842,7 +13045,7 @@ for (const route of ROUTES) {
       });
     }
     if (product) {
-      graph.push(review ? { ...review.schema_product, mainEntityOfPage: { "@type": "WebPage", "@id": canonical } } : {
+      graph.push(review ? { ...review.schema_product, manufacturer: { "@id": `${SITE}/#organization` }, mainEntityOfPage: { "@type": "WebPage", "@id": canonical } } : {
         "@type": "Product",
         "@id": `${canonical}#product`,
         name: product.name,
@@ -12852,6 +13055,7 @@ for (const route of ROUTES) {
         category: product.category,
         ...specReview ? {} : { material: product.materials },
         brand: { "@type": "Brand", name: "ELAPACK" },
+        manufacturer: { "@id": `${SITE}/#organization` },
         additionalProperty: [
           { "@type": "PropertyValue", name: "Minimum Order Quantity", value: product.moq },
           { "@type": "PropertyValue", name: "Lead Time", value: product.leadTime }
