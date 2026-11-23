@@ -37,6 +37,10 @@ export type Product = {
   customizationOptions: string[];
   /** P0 Key Facts block lines (shared lines + one page-specific line). */
   keyFacts?: string[];
+  /** Optional option-group cards (image + option name + use case) rendered
+   *  as a card section on the product page. The section is not rendered
+   *  when this field is absent or empty. */
+  optionGroups?: { title: string; use: string; image: string }[];
 };
 
 /**

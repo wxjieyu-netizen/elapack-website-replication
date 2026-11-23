@@ -4084,3 +4084,191 @@ a.contact-value:hover {
   left: 0;
   color: rgba(176, 141, 70, 0.9);
 }
+
+/* ===== Product page template upgrade (b) — product detail pages only =====
+   b-1 Key Facts inside the hero info column; b-2 option-group cards;
+   b-3 page-level contact bar; finalized glass/sage button system.
+   All selectors are scoped to product-detail markup (.product-detail-hero,
+   .product-contact-bar, .product-*) so no other page's buttons change. */
+
+/* b-1: Key Facts in the hero right column (stacks below the gallery on
+   mobile via the existing single-column hero grid). Copy is unchanged;
+   only the presentation is compacted for the narrower column. */
+.product-key-facts {
+  margin-top: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border-light);
+}
+
+.product-key-facts-title {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.product-key-facts .spec-list {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* b-2: option-group cards (section renders only when a product defines
+   optionGroups; no data, no section, no empty shell). */
+.product-options-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.product-option-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.product-option-image {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+.product-option-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-option-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem 1.25rem 0.35rem;
+}
+
+.product-option-use {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--color-text-soft);
+  margin: 0 1.25rem 1.25rem;
+}
+
+@media (max-width: 860px) {
+  .product-options-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* b-3: page-level contact bar — full-width light sage band after the FAQ. */
+.product-contact-bar {
+  background: var(--color-accent-light);
+  padding: var(--space-6) 0;
+}
+
+.product-contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-contact-email {
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--color-text);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.product-contact-email:hover {
+  color: var(--color-accent-dark);
+}
+
+/* Finalized button system (preview v3, approved 2026-11-23).
+   Primary CTA: Apple-style transparent glass at rest — uniform low-opacity
+   white tint, backdrop blur(28px) saturate(190%), a wide low-contrast light
+   wash drifting on a 9s loop, one broad faint ambient shadow, hairline
+   border, full pill. Hover turns solid sage #A3B18A.
+   Secondary: solid sage at rest; hover turns into the same glass.
+   No inset highlight lines, no visible drawn border, no layered shadows. */
+.product-detail-hero .pd-btn,
+.product-contact-bar .pd-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  padding: 1rem 2.5rem;
+  border: 1px solid rgba(43, 43, 43, 0.06);
+  border-radius: 999px;
+  white-space: nowrap;
+  transition: background 0.35s ease, color 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.product-quote-actions .pd-btn {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+}
+
+.product-detail-hero .pd-btn-glass,
+.product-contact-bar .pd-btn-glass {
+  background:
+    radial-gradient(130% 180% at 15% -10%, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0) 58%),
+    linear-gradient(115deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.20) 60%, rgba(255, 255, 255, 0.28));
+  background-size: 230% 230%, 100% 100%;
+  -webkit-backdrop-filter: blur(28px) saturate(190%);
+  backdrop-filter: blur(28px) saturate(190%);
+  box-shadow: 0 22px 48px -22px rgba(43, 43, 43, 0.28), 0 2px 8px rgba(43, 43, 43, 0.04);
+  animation: pd-glass-drift 9s ease-in-out infinite alternate;
+}
+
+@keyframes pd-glass-drift {
+  from { background-position: 0% 0%, 0 0; }
+  to { background-position: 90% 35%, 0 0; }
+}
+
+.product-detail-hero .pd-btn-glass:hover,
+.product-contact-bar .pd-btn-glass:hover {
+  background: var(--color-accent);
+  border-color: transparent;
+  animation: none;
+}
+
+.product-detail-hero .pd-btn-sage,
+.product-contact-bar .pd-btn-sage {
+  background: var(--color-accent);
+  border-color: transparent;
+  box-shadow: 0 22px 48px -22px rgba(43, 43, 43, 0.28), 0 2px 8px rgba(43, 43, 43, 0.04);
+}
+
+.product-detail-hero .pd-btn-sage:hover,
+.product-contact-bar .pd-btn-sage:hover {
+  background:
+    radial-gradient(130% 180% at 15% -10%, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0) 58%),
+    linear-gradient(115deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.20) 60%, rgba(255, 255, 255, 0.28));
+  background-size: 230% 230%, 100% 100%;
+  border-color: rgba(43, 43, 43, 0.06);
+  -webkit-backdrop-filter: blur(28px) saturate(190%);
+  backdrop-filter: blur(28px) saturate(190%);
+  animation: pd-glass-drift 9s ease-in-out infinite alternate;
+}
+
+.product-detail-hero .pd-btn:focus-visible,
+.product-contact-bar .pd-btn:focus-visible {
+  outline: 2px solid var(--color-accent-dark);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-detail-hero .pd-btn-glass,
+  .product-contact-bar .pd-btn-glass,
+  .product-detail-hero .pd-btn-sage:hover,
+  .product-contact-bar .pd-btn-sage:hover {
+    animation: none;
+  }
+}

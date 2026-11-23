@@ -130,10 +130,10 @@ export default function ProductDetail() {
               <div className="product-detail-quote">
                 <h3 className="product-quote-title">Get A Custom Quote:</h3>
                 <div className="product-quote-actions">
-                  <Link to={quoteUrl} className="btn-primary">
+                  <Link to={quoteUrl} className="pd-btn pd-btn-glass">
                     {review ? "Request a Packaging Quote" : "Request a Quote"}
                   </Link>
-                  <Link to={quoteUrl} className="btn-outline">
+                  <Link to={quoteUrl} className="pd-btn pd-btn-sage">
                     Contact Us
                   </Link>
                 </div>
@@ -176,27 +176,23 @@ export default function ProductDetail() {
                   ))}
                 </div>
               </div>
+
+              {product.keyFacts && (
+                <div className="product-key-facts">
+                  <h2 className="product-key-facts-title">
+                    Key facts (November 2026)
+                  </h2>
+                  <ul className="spec-list">
+                    {product.keyFacts.map((line) => (
+                      <li key={line}>{line}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </section>
-
-      {product.keyFacts && (
-        <section className="section" style={{ paddingBottom: 0 }}>
-          <div className="container">
-            <div className="markets-box reveal">
-              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
-                Key facts (November 2026)
-              </h2>
-              <ul className="spec-list">
-                {product.keyFacts.map((line) => (
-                  <li key={line}>{line}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Specs */}
       <section className="section product-specs-section">
@@ -357,6 +353,28 @@ export default function ProductDetail() {
         </div>
       </section>
 
+      {product.optionGroups && product.optionGroups.length > 0 && (
+        <section className="section product-options-section">
+          <div className="container">
+            <div className="product-options-grid">
+              {product.optionGroups.map((group, i) => (
+                <div key={group.title} className="product-option-card reveal">
+                  <div className="product-option-image">
+                    <img
+                      src={group.image}
+                      alt={`${product.name} option reference ${i + 1}`}
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 className="product-option-title">{group.title}</h3>
+                  <p className="product-option-use">{group.use}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {product.infoImage && (
         <section className="section product-info-image-section">
           <div className="container">
@@ -461,6 +479,23 @@ export default function ProductDetail() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Contact bar */}
+      <section className="product-contact-bar">
+        <div className="container">
+          <div className="product-contact-actions reveal">
+            <Link to={quoteUrl} className="pd-btn pd-btn-glass">
+              Request a Quote
+            </Link>
+            <a href="https://wa.me/8618626352096" className="pd-btn pd-btn-sage">
+              WhatsApp
+            </a>
+            <a href="mailto:tina@elapack.com" className="product-contact-email">
+              tina@elapack.com
+            </a>
           </div>
         </div>
       </section>
