@@ -82,6 +82,7 @@ export const collections: Collection[] = [
           { title: "Spot UV & lamination", desc: "Matte or gloss laminate with spot UV accents." },
           { title: "Pantone-matched wrap", desc: "Wrap colour matched to your Pantone reference, with interior lid printing." },
           { title: "Faux leather wrap", desc: "Textured wrap with embossed branding for jewelry and gift programs.", link: { path: "/products/black-leather-jewelry-box/", label: "View the black jewelry box reference" } },
+          { title: "Velvet covering", desc: "A soft velvet pile over the rigid body — flocked paper or flocked fabric, colour-matched to your reference.", link: { path: "/velvet-jewelry-boxes/", label: "Explore velvet jewelry boxes" } },
         ],
       },
       {
@@ -149,6 +150,102 @@ export const collections: Collection[] = [
       { path: "/custom-jewelry-packaging/", label: "Complete jewelry packaging" },
       { path: "/custom-jewelry-pouches/", label: "Jewelry pouches" },
     ],
+  },
+  {
+    slug: "velvet-jewelry-boxes",
+    browserTitle: "Custom Velvet Jewelry Boxes with Logo, from 200 pcs | ELAPACK",
+    eyebrow: "Velvet Jewelry Boxes",
+    h1: "Custom Velvet Jewelry Boxes with Logo",
+    subhead:
+      "Rigid paperboard jewelry boxes covered in velvet — flocked paper or flocked fabric over a hard box body, with fitted inserts and your branding. Made for rings, necklaces, earrings and bracelets from 200 pieces.",
+    metaDescription:
+      "Custom velvet jewelry boxes with your logo — rigid paperboard boxes with a flocked velvet surface and fitted inserts. MOQ from 200 pieces, free stock samples.",
+    intro:
+      "A velvet jewelry box carries its finish on the outside: a rigid paperboard body covered in a soft velvet pile, so the first thing a customer touches is the velvet, not a printed wrap. ELAPACK makes velvet-covered boxes to order for jewelry brands — the same hard box construction as the rest of our jewelry box range, with the covering, colour, insert and branding specified per program and settled on an approved sample before production. This page covers the rigid box; the soft fabric version is our custom velvet pouches range.",
+    sections: [
+      {
+        heading: "Two velvet coverings, one rigid body",
+        items: [
+          { title: "Flocked paper", desc: "A paper sheet carrying the velvet pile, 157–250 gsm. Light and economical — the standard covering for most velvet box programs, with the paperboard body doing the structural work." },
+          { title: "Flocked fabric", desc: "Flocking on a non-woven base, 200–350 gsm and typically 250–300 gsm. Thicker and more elastic in the hand — the usual choice for mid- to high-end boxes." },
+          { title: "Choosing between them", desc: "Decide by box tier and hand feel, not by a screen image: pile and shade read differently under retail light. The covering is chosen with the construction and confirmed on the approved sample." },
+        ],
+      },
+      {
+        heading: "Velvet boxes by jewelry type",
+        items: [
+          { title: "Ring & engagement boxes", desc: "The classic velvet format: a hinged box with a single or double slot, where the pile carries the presentation moment.", link: { path: "/products/custom-ring-boxes/", label: "View custom ring boxes" } },
+          { title: "Necklace & pendant boxes", desc: "A laid-out cavity with the chain controlled, sized from the piece and its packed arrangement." },
+          { title: "Earring boxes", desc: "Fitted pair positions that hold posts and drops in place under a velvet-covered lid." },
+          { title: "Bracelet boxes & complete sets", desc: "Compact footprints for the counter and for gifting, or the velvet box specified as one component of a complete program.", link: { path: "/sets/", label: "Explore complete packaging sets" } },
+        ],
+      },
+      {
+        heading: "Interiors that match the covering",
+        items: [
+          { title: "EVA, flocked", desc: "A contoured, precise fit with a flocked, velvet-touch surface, so the interior matches the exterior's hand." },
+          { title: "Sponge under velvet", desc: "Soft cushioning covered in velvet or satin, for pieces that sit on a pad rather than in a slot." },
+          { title: "Paper-card fitments", desc: "A printed card where copy belongs beside the piece — care notes, certificates or the brand story.", link: { path: "/products/custom-foam-inserts/", label: "Compare custom foam inserts" } },
+        ],
+      },
+      {
+        heading: "Colour and branding on velvet",
+        items: [
+          { title: "Colour matched to your reference", desc: "Velvet colours are matched to your Pantone or physical reference and settled on the physical sample — pile reads differently under retail light than on a screen." },
+          { title: "Colour acceptance", desc: "Bulk production is checked against the approved sample at ΔE ≤ 1.5, grey scale grade 4." },
+          { title: "Branding on a velvet surface", desc: "Foil stamping, embossing or a printed card inside the lid — the method is specified with the construction in the quotation and confirmed on the sample against the velvet surface, not assumed from paper-wrapped boxes." },
+        ],
+      },
+      {
+        heading: "The box and the pouch in one program",
+        items: [
+          { title: "Velvet pouches", desc: "The same velvet as a soft drawstring, flap, envelope or zipper pouch for storage and travel — produced in one colour, so box and pouch read as a single set.", link: { path: "/products/custom-velvet-pouches/", label: "View custom velvet pouches" } },
+          { title: "Complete sets", desc: "The velvet box as the box component of a full program, with pouch, tissue, cards and ribbon in the same colour story. Each component is counted at 200 pieces.", link: { path: "/sets/", label: "Explore complete packaging sets" } },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces per product or component" },
+      { label: "Stock sample", value: "Free sample; USD 25 shipping; delivery 4–7 days" },
+      { label: "Custom sample", value: "USD 30 + USD 25 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Payment", value: "T/T · PayPal" },
+    ],
+    productSlugs: [
+      "custom-ring-boxes",
+    ],
+    factBlock: {
+      updated: "November 2026",
+      top: true,
+      paragraph:
+        "ELAPACK velvet jewelry boxes — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering rigid paperboard boxes with a flocked-paper or flocked-fabric velvet covering, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork. The sample fee is deductible against the confirmed first order. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal. Quotations: a written quotation within 1 business day of your enquiry.",
+    },
+    table: {
+      heading: "Choose a velvet covering",
+      columns: ["Covering", "Construction", "Best for", "What to confirm on the sample"],
+      rows: [
+        ["Flocked paper", "Velvet pile on a paper sheet, 157–250 gsm, over a rigid paperboard body", "Standard velvet box programs; lighter boxes and larger runs", "Shade and pile under retail light; lid fit over the covered body"],
+        ["Flocked fabric", "Flocking on a non-woven base, 200–350 gsm (typically 250–300 gsm), over a rigid paperboard body", "Mid- to high-end boxes where hand feel carries the tier", "Hand feel and elasticity; shade against the approved sample"],
+      ],
+      note: "Both coverings run on the same rigid paperboard body and the same insert range. The covering is chosen with the box tier and confirmed on the approved sample before production.",
+    },
+    faq: [
+      { q: "What is the minimum order for custom velvet jewelry boxes?", a: "200 pieces, custom sizes included. The box body, velvet covering, insert and branding are quoted together as one order; if the velvet box is one component of a set, each component is counted at 200 pieces." },
+      { q: "What is the difference between a velvet jewelry box and a velvet pouch?", a: "The box is a rigid paperboard body covered in velvet — it holds its shape, stacks and presents on a counter. The pouch is soft velvet fabric with a drawstring, flap, envelope or zipper closure, made for storage and travel. Brands often order both in the same velvet colour: the box for presentation, the pouch for keeping." },
+      { q: "How is this box different from your black and white jewelry boxes?", a: "By its surface. The black box in the range is wrapped in faux leather and the white boxes carry paper wraps; the velvet box is covered in velvet, so its finish is a soft pile in a matched colour rather than a grain or a print. The rigid construction, inserts and ordering terms are the same across the range." },
+      { q: "What should I send for a comparable quote?", a: "The jewelry type and dimensions, the packed arrangement and insert, any certificate or card that must fit inside, the velvet colour reference, logo artwork (AI, PDF or PNG) and branding placement, the quantity (minimum 200 pieces), and the delivery country and target date." },
+      { q: "How is colour difference controlled?", a: "Bulk production is checked against your approved sample: the acceptance standard is a colour difference of ΔE ≤ 1.5 against the confirmed sample, grey scale grade 4. On velvet, the shade is settled on the physical sample, since pile reads differently under retail light than on a screen." },
+      { q: "Can I sample before ordering?", a: "Yes. A custom sample costs USD 30 plus USD 25 shipping, is made in 3–5 days, and the sample fee is deductible against the confirmed first order. A free stock sample carries USD 25 shipping only and typically arrives in 4–7 days. The sample is where the velvet shade and surface are settled — approve it before production rather than working from a screen colour." },
+    ],
+    guideSlugs: ["how-to-choose-custom-jewelry-boxes"],
+    relatedPages: [
+      { path: "/custom-jewelry-boxes/", label: "Custom jewelry boxes — all structures and finishes" },
+      { path: "/boxes/", label: "Rigid boxes by structure" },
+      { path: "/products/custom-velvet-pouches/", label: "Custom velvet pouches — the soft velvet format" },
+    ],
+    ctaLink: { lead: "Send your jewelry dimensions, velvet colour reference and quantity to", anchor: "request a velvet jewelry box quotation", product: "velvet-jewelry-boxes" },
+    ctaTitle: "Request a quote for your velvet jewelry boxes",
   },
   {
     slug: "eyewear-packaging",
