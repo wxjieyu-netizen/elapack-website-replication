@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="A folded pair of glasses measured for length, width and height, with the cavity clearance arrows adding 2-5 mm per side inside the insert">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B6258"/></marker>
+<marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A4A2F"/></marker>
+</defs>
+<rect width="1200" height="675" fill="#F6F3EC"/>
+<text x="64" y="64" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="30" font-weight="650" fill="#2A2521">Sized to the folded pair</text>
+<text x="64" y="90" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" fill="#6B6258">Top view of the open box &#183; cavity clearance in detail &#183; side view closed</text>
+<rect x="150.0" y="180.0" width="640.0" height="352.0" rx="12" fill="#4A4238"/>
+<rect x="168.0" y="198.0" width="604.0" height="316.0" rx="8" fill="#EAE3D2"/>
+<rect x="150.0" y="180.0" width="640.0" height="352.0" rx="12" fill="none" stroke="#2A2521" stroke-width="2.5"/>
+<rect x="164.0" y="250.0" width="612.0" height="212.0" rx="44" fill="#DDD4BD" stroke="#B4A98D" stroke-width="2"/>
+<rect x="208.0" y="268.0" width="248.0" height="176.0" rx="46" fill="#4A453E" stroke="#26221F" stroke-width="10"/>
+<rect x="484.0" y="268.0" width="248.0" height="176.0" rx="46" fill="#4A453E" stroke="#26221F" stroke-width="10"/>
+<path d="M 454.8 370.0 Q 470.0 377.6 485.2 370.0" fill="none" stroke="#26221F" stroke-width="16" stroke-linecap="round"/>
+<line x1="194.0" y1="342.0" x2="420.0" y2="328.8" stroke="#1E1B18" stroke-width="24" stroke-linecap="round"/>
+<circle cx="194.0" cy="343.2" r="9" fill="#14110F"/>
+<line x1="746.0" y1="342.0" x2="520.0" y2="328.8" stroke="#1E1B18" stroke-width="24" stroke-linecap="round"/>
+<circle cx="746.0" cy="343.2" r="9" fill="#14110F"/>
+<line x1="272.0" y1="387.2" x2="320.0" y2="396.8" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" opacity="0.22"/>
+<line x1="548.0" y1="387.2" x2="596.0" y2="396.8" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" opacity="0.22"/>
+<line x1="150.0" y1="152" x2="790.0" y2="152" stroke="#6B6258" stroke-width="1.6" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<line x1="150.0" y1="158" x2="150.0" y2="178.0" stroke="#9A9082" stroke-width="1"/>
+<line x1="790.0" y1="158" x2="790.0" y2="178.0" stroke="#9A9082" stroke-width="1"/>
+<text x="470.0" y="141" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#2A2521" text-anchor="middle" >L &#8212; set by the folded pair</text>
+<line x1="126" y1="180.0" x2="126" y2="532.0" stroke="#6B6258" stroke-width="1.6" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="108" y="356" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#2A2521" text-anchor="middle" transform="rotate(-90 108 356)">W</text>
+<line x1="178.0" y1="508" x2="762.0" y2="508" stroke="#6B6258" stroke-width="1.6" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="470.0" y="496" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="14" font-weight="400" fill="#2A2521" text-anchor="middle" >folded pair &#8776; 14&#8211;15 cm (temple tip to temple tip)</text>
+<line x1="776" y1="330" x2="884" y2="300" stroke="#6B6258" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="776" cy="330" r="3.5" fill="#6B6258"/>
+<clipPath id="det"><circle cx="985.0" cy="300.0" r="102.0"/></clipPath>
+<circle cx="985.0" cy="300.0" r="105.0" fill="#FBF8F0" stroke="#6B6258" stroke-width="2"/>
+<g clip-path="url(#det)"><rect x="1019.0" y="190.0" width="46" height="220" fill="#4A4238" stroke="#2A2521" stroke-width="1.5"/><rect x="881.0" y="200.0" width="70" height="200" rx="26" fill="#4A453E" stroke="#26221F" stroke-width="6"/><line x1="919.0" y1="300" x2="1015.0" y2="300" stroke="#8A4A2F" stroke-width="2" marker-start="url(#ar2)" marker-end="url(#ar2)"/></g>
+<text x="985.0" y="286" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#8A4A2F" text-anchor="middle" >2&#8211;5 mm</text>
+<text x="985.0" y="430" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#6B6258" text-anchor="middle" font-style="italic">clearance per side &#183; detail not to scale</text>
+<rect x="830.0" y="479.0" width="320.0" height="96.0" rx="4" fill="#4A4238" stroke="#2A2521" stroke-width="2"/>
+<rect x="830.0" y="468.0" width="320.0" height="11.0" rx="4" fill="#5A5142" stroke="#2A2521" stroke-width="2"/>
+<line x1="844.0" y1="563.0" x2="1136.0" y2="563.0" stroke="#B08D46" stroke-width="3"/>
+<line x1="1176.0" y1="468.0" x2="1176.0" y2="575.0" stroke="#6B6258" stroke-width="1.6" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="1194.0" y="526.5" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#2A2521" text-anchor="middle" >H</text>
+<text x="990.0" y="599.0" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#6B6258" text-anchor="middle" >side view &#183; closed</text>
+<text x="64" y="648" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#6B6258" text-anchor="start" >Box and cavity are custom-built from your folded frame dimensions &#8212; there is no stock glasses-box size.</text>
+</svg>

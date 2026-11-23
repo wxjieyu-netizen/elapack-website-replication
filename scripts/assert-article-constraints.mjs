@@ -25,7 +25,7 @@ function articleOrder(text) {
 
 let headText;
 try {
-  headText = execSync(`git show HEAD:${FILE}`, {encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe']});
+  headText = execSync(`git show HEAD:${FILE}`, {encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'], maxBuffer: 64 * 1024 * 1024});
 } catch {
   console.warn(`[article-constraints] cannot read HEAD:${FILE}; skipping gate`);
   process.exit(0);
