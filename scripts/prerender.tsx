@@ -71,6 +71,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/products/custom-tissue-paper": "Custom Tissue Paper with Logo | ELAPACK",
   "/products/custom-hang-tags": "Custom Hang Tags with Logo | ELAPACK",
   "/products/custom-foam-inserts": "Custom Foam Inserts for Packaging Boxes | ELAPACK",
+  "/products/custom-rigid-drawer-box": "Custom Rigid Drawer Boxes with Logo | ELAPACK",
   "/products/kraft-paper-shopping-bag": "Custom Kraft Paper Shopping Bags with Logo | ELAPACK",
   "/products/black-leather-jewelry-box": "Custom Jewelry Boxes with Logo — Black | ELAPACK",
   "/products/custom-white-jewelry-box": "Custom Jewelry Boxes with Logo — White | ELAPACK",
@@ -130,6 +131,8 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
     "Custom hang tags from 500 pieces — cardstocks, hot foil and print colour-matched to your boxes and bags, with optional cotton or jute cords. Custom samples in 3–5 days.",
   "/products/custom-foam-inserts":
     "Custom foam inserts cut to your product and box — EVA, sponge, pearl cotton or card, with flocked surfaces. Supplied with your boxes, from 200 sets.",
+  "/products/custom-rigid-drawer-box":
+    "Custom rigid drawer boxes with your logo — slide-out tray in a sleeve, fitted inserts and ribbon or tab pull. MOQ 200 pieces, samples in 3–5 days.",
   "/products/custom-microfiber-cleaning-cloth-eyewear":
     "Custom microfiber cleaning cloths for eyewear, screens and lenses — your size, edge finish and print. MOQ 200 pcs, custom samples in 3–5 days. Request a quote.",
   "/products/custom-microfiber-cleaning-cloth-jewelry":

@@ -13,7 +13,7 @@ const relatedProductSlugs: Record<string, string[]> = {
     "custom-microfiber-pouches",
     "custom-satin-wig-bag",
   ],
-  sets: ["custom-ring-boxes", "custom-velvet-pouches", "custom-perfume-boxes", "custom-satin-pouches"],
+  sets: ["custom-ring-boxes", "custom-velvet-pouches", "custom-perfume-boxes", "custom-satin-pouches", "custom-rigid-drawer-box"],
 };
 
 // Category landings show their full product range as catalog cards, fed
