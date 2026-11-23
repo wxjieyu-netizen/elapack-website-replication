@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Exploded view of a mono-material box: printed paper wrap, paperboard shell and paperboard fitment, all in one fibre stream with no film laminate and no foam core">
+<rect width="1200" height="675" fill="#faf9f7"/>
+<g font-family="Helvetica,Arial,sans-serif">
+<text x="60" y="54" font-family="Georgia,serif" font-size="25" font-weight="600" fill="#18120c">One box, one fibre stream — the layers a buyer can specify</text>
+<text x="60" y="82" font-size="13" fill="#6b6258">Exploded view of a mono-material gift box: paper wrap, paperboard shell and paperboard fitment leave in the same recycling stream</text>
+<line x1="60" y1="104" x2="1140" y2="104" stroke="#e2ddd5" stroke-width="1"/>
+<line x1="347.6" y1="534.5" x2="347.6" y2="362.0" stroke="#c9bfae" stroke-width="1.2" stroke-dasharray="4 5"/>
+<line x1="350.2" y1="414.0" x2="350.2" y2="240.0" stroke="#c9bfae" stroke-width="1.2" stroke-dasharray="4 5"/>
+<polygon points="300.0,430.0 469.7,528.0 395.3,571.0 225.5,473.0" fill="#efe6d6" stroke="#b08d46" stroke-width="1.2"/>
+<polygon points="225.5,473.0 395.3,571.0 395.3,605.0 225.5,507.0" fill="#e3d6c1" stroke="#b08d46" stroke-width="1.2"/>
+<polygon points="469.7,528.0 395.3,571.0 395.3,605.0 469.7,562.0" fill="#e3d6c1" stroke="#b08d46" stroke-width="1.2"/>
+<polygon points="300.0,286.0 481.9,391.0 400.5,438.0 218.6,333.0" fill="#f2e9dc" stroke="#b08d46" stroke-width="1.2"/>
+<polygon points="218.6,333.0 400.5,438.0 400.5,490.0 218.6,385.0" fill="#e6d9c4" stroke="#b08d46" stroke-width="1.2"/>
+<polygon points="481.9,391.0 400.5,438.0 400.5,490.0 481.9,443.0" fill="#e6d9c4" stroke="#b08d46" stroke-width="1.2"/>
+<polygon points="300.0,166.0 476.7,268.0 397.0,314.0 220.3,212.0" fill="#e9dcc6" stroke="#b08d46" stroke-width="1.2"/>
+<polygon points="220.3,212.0 397.0,314.0 397.0,328.0 220.3,226.0" fill="#dccdb2" stroke="#b08d46" stroke-width="1.2"/>
+<polygon points="476.7,268.0 397.0,314.0 397.0,328.0 476.7,282.0" fill="#dccdb2" stroke="#b08d46" stroke-width="1.2"/>
+<line x1="475.7" y1="517.5" x2="686" y2="517.5" stroke="#b08d46" stroke-width="1" stroke-dasharray="3 4"/>
+<circle cx="475.7" cy="517.5" r="3" fill="#b08d46"/>
+<text x="700" y="513.5" font-size="16.5" font-weight="600" fill="#18120c">Paperboard fitment</text>
+<text x="700" y="535.5" font-size="12.5" fill="#6b6258">formed paper cavity in place of a foam insert</text>
+<line x1="487.9" y1="388.0" x2="686" y2="388.0" stroke="#b08d46" stroke-width="1" stroke-dasharray="3 4"/>
+<circle cx="487.9" cy="388.0" r="3" fill="#b08d46"/>
+<text x="700" y="384.0" font-size="16.5" font-weight="600" fill="#18120c">Paperboard shell</text>
+<text x="700" y="406.0" font-size="12.5" fill="#6b6258">greyboard wrapped in paper — no film laminate</text>
+<line x1="482.7" y1="247.0" x2="686" y2="247.0" stroke="#b08d46" stroke-width="1" stroke-dasharray="3 4"/>
+<circle cx="482.7" cy="247.0" r="3" fill="#b08d46"/>
+<text x="700" y="243.0" font-size="16.5" font-weight="600" fill="#18120c">Paper wrap</text>
+<text x="700" y="265.0" font-size="12.5" fill="#6b6258">the printed face, printed straight onto the board</text>
+<text x="600" y="632" font-size="12.5" fill="#6b6258" text-anchor="middle">Specify the wrap, the shell and the fitment as one material family — every layer then exits in the same fibre stream.</text>
+</g>
+</svg>
