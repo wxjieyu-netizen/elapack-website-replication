@@ -109,6 +109,11 @@ export default function Collection({ slug }: { slug: string }) {
                 <div key={item.title} className={`value-card reveal reveal-delay-${(i % 4) + 1}`}>
                   <h3 className="value-title">{item.title}</h3>
                   <p className="value-desc">{item.desc}</p>
+                  {item.link && (
+                    <Link to={item.link.path} className="text-link">
+                      {item.link.label}
+                    </Link>
+                  )}
                 </div>
               ))}
             </div>

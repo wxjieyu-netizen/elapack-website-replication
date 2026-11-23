@@ -13,7 +13,7 @@ export type Collection = {
   subhead: string;
   metaDescription: string;
   intro: string;
-  sections: { heading: string; items: { title: string; desc: string }[] }[];
+  sections: { heading: string; items: { title: string; desc: string; link?: { path: string; label: string } }[] }[];
   facts: { label: string; value: string }[];
   productSlugs: string[];
   /** Related /news sourcing guides linked at the page foot — curated, never forced. */
@@ -49,21 +49,20 @@ export const collections: Collection[] = [
       "ELAPACK makes custom jewelry boxes for brands selling in the US and Europe. We make each order to your specification — box structure, wrap colour, interior insert and branding — so the box fits your jewelry and carries your brand.",
     sections: [
       {
-        heading: "Box structures",
+        heading: "By jewelry type",
         items: [
-          { title: "Rigid lift-off lid", desc: "Full-height lid over a rigid base — the premium, gift-ready structure." },
-          { title: "Magnetic flip-top", desc: "Hidden magnets give a clean exterior and a satisfying slow close." },
-          { title: "Ribbon tie", desc: "Satin ribbon closure that becomes part of the unboxing ritual." },
-          { title: "Faux leather wrap", desc: "Textured wrap with embossed branding for jewelry and gift programs." },
+          { title: "Ring boxes", desc: "Single and double ring slots with velvet or foam cushions.", link: { path: "/products/custom-ring-boxes/", label: "View custom ring boxes" } },
+          { title: "Earring & pendant boxes", desc: "Fitted inserts that hold pairs and chains in place.", link: { path: "/news/jewelry-box-inserts-guide/", label: "Compare insert layouts for earrings and pendants" } },
+          { title: "Bracelet & small gift boxes", desc: "Compact footprints for retail counter and gifting.", link: { path: "/news/necklace-bracelet-packaging-guide/", label: "See bracelet box sizing and formats" } },
+          { title: "Complete jewelry sets", desc: "Box, pouch and insert designed together as one program.", link: { path: "/sets/", label: "Explore box and pouch sets" } },
         ],
       },
       {
-        heading: "By jewelry type",
+        heading: "Box structures",
         items: [
-          { title: "Ring boxes", desc: "Single and double ring slots with velvet or foam cushions." },
-          { title: "Earring & pendant boxes", desc: "Fitted inserts that hold pairs and chains in place." },
-          { title: "Bracelet & small gift boxes", desc: "Compact footprints for retail counter and gifting." },
-          { title: "Complete jewelry sets", desc: "Box, pouch and insert designed together as one program." },
+          { title: "Rigid lift-off lid", desc: "Full-height lid over a rigid base — the premium, gift-ready structure." },
+          { title: "Magnetic flip-top", desc: "Hidden magnets give a clean exterior and a satisfying slow close.", link: { path: "/products/magnetic-closure-gift-box/", label: "View magnetic closure gift boxes" } },
+          { title: "Ribbon tie", desc: "Satin ribbon closure that becomes part of the unboxing ritual.", link: { path: "/products/luxury-gift-box-ribbon/", label: "View ribbon-tie gift boxes" } },
         ],
       },
       {
@@ -82,6 +81,7 @@ export const collections: Collection[] = [
           { title: "Embossing & debossing", desc: "Blind relief marks that read premium without colour." },
           { title: "Spot UV & lamination", desc: "Matte or gloss laminate with spot UV accents." },
           { title: "Pantone-matched wrap", desc: "Wrap colour matched to your Pantone reference, with interior lid printing." },
+          { title: "Faux leather wrap", desc: "Textured wrap with embossed branding for jewelry and gift programs.", link: { path: "/products/black-leather-jewelry-box/", label: "View the black jewelry box reference" } },
         ],
       },
       {
@@ -112,7 +112,7 @@ export const collections: Collection[] = [
       updated: "November 2026",
       top: true,
       paragraph:
-        "ELAPACK custom jewelry boxes — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering rigid lift-off, magnetic flip-top, ribbon-tie and faux leather boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping (sample fee deductible against your confirmed first order), is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal. Quotations: a written quotation within 1 business day of your enquiry.",
+        "ELAPACK custom jewelry boxes — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering rigid lift-off, magnetic flip-top, ribbon-tie and faux leather boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days. A custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork. Any sample fee credit depends on the product or order and must be confirmed in the quotation. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal. Quotations: a written quotation within 1 business day of your enquiry.",
     },
     table: {
       heading: "Choose a jewelry box structure",
@@ -121,12 +121,11 @@ export const collections: Collection[] = [
         ["Rigid lift-off lid", "The premium, gift-ready structure for rings, earrings, necklaces and bracelets", "Insert fit for the piece, and lid fit and clearance"],
         ["Magnetic flip-top", "A clean exterior with a satisfying slow close", "Magnet alignment and opening clearance"],
         ["Ribbon tie", "A closure that becomes part of the unboxing ritual", "Ribbon colour match to your reference, and insert fit"],
-        ["Faux leather wrap", "Textured wrap with embossed branding for jewelry and gift programs", "Wrap texture and the embossed logo on the sample"],
       ],
-      note: "Pair the structure with an insert — EVA for a contoured, precise fit, sponge under velvet or satin covering, molded pulp, or a flocked velvet finish — and check the insert with the actual piece in a sample.",
+      note: "Pair the structure with an insert — EVA for a contoured, precise fit, sponge under velvet or satin covering, molded pulp, or a flocked velvet finish — and check the insert with the actual piece in a sample. Choose the exterior wrap and logo finish separately, and review both on the approved sample.",
     },
     faq: [
-      { q: "Which box structures can I choose?", a: "Rigid lift-off lid, magnetic flip-top, ribbon-tie and faux leather wrapped boxes. Choose the structure against the jewelry type — rings, earrings and pendants, bracelets, or a complete set — and confirm it on a sample." },
+      { q: "Which box structures can I choose?", a: "Choose a rigid lift-off lid, magnetic flip-top or ribbon-tie closure to suit the jewelry and how it will be presented. Select the exterior wrap, such as faux leather, separately. Confirm the closure, insert and finish on an approved sample." },
       { q: "Which inserts are available?", a: "EVA for a contoured, precise fit; sponge under velvet or satin covering; molded pulp; and flocked or velvet finishes for premium lines. Check the insert with the actual piece in a sample." },
       { q: "What do I send for an accurate quote?", a: "The jewelry dimensions and weight, any certificate or card that must fit inside, the structure and insert, logo artwork and colour reference, the finish, the box quantity and the destination — so the quotation prices one clear specification." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
