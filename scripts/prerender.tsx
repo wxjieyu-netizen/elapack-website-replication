@@ -129,7 +129,35 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/products/custom-hang-tags":
     "Custom hang tags from 500 pieces — cardstocks, hot foil and print colour-matched to your boxes and bags, with optional cotton or jute cords. Custom samples in 3–5 days.",
   "/products/custom-foam-inserts":
-    "Custom foam inserts cut to your product and your box — EVA, sponge, pearl cotton or card fitments, with flocked surfaces. Supplied with your ELAPACK boxes as one set, from 200 sets. Samples in 3–5 days.",
+    "Custom foam inserts cut to your product and box — EVA, sponge, pearl cotton or card, with flocked surfaces. Supplied with your boxes, from 200 sets.",
+  "/products/custom-microfiber-cleaning-cloth-eyewear":
+    "Custom microfiber cleaning cloths for eyewear, screens and lenses — your size, edge finish and print. MOQ 200 pcs, custom samples in 3–5 days. Request a quote.",
+  "/products/custom-microfiber-cleaning-cloth-jewelry":
+    "Custom microfiber polishing cloths for jewelry — rings, necklaces and watches — in your size, edge finish and print. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
+  "/products/luxury-gift-box-ribbon":
+    "Rigid luxury gift boxes with satin ribbon tie closure, made to your size, colour and branding for corporate gifting. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
+  "/products/stackable-jewelry-tray":
+    "Stackable jewelry display trays for retail projects — compartment layout, fixture fit and stacking confirmed per project. MOQ per project. Request a quote.",
+  "/products/custom-cotton-envelope-pouches":
+    "Custom cotton envelope pouches in flap-snap, flat-pocket and zip styles for jewelry, wigs and beauty products. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
+  "/products/velvet-jewelry-display-set":
+    "Velvet jewelry display sets for retail counters — coordinated stands, trays, busts and risers specified piece by piece. MOQ per project. Request a quote.",
+  "/products/velvet-necklace-display":
+    "Velvet necklace display stands for retail assortments — height, presentation and branding set per project, in your colours. MOQ per project. Request a quote.",
+  "/products/acrylic-earring-display":
+    "Acrylic earring display stands for retail projects — layout, capacity and material discussed for your assortment. MOQ per project. Request a quote.",
+  "/products/leather-envelope-pouch":
+    "Custom leather envelope pouches in pebbled faux leather with gold foil logo, snap closure and suede-touch lining. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
+  "/products/custom-watch-boxes":
+    "Custom watch boxes with fitted pillow inserts and your logo — single and multi-watch formats for retail and gifting. MOQ 200 pcs. Request a quote.",
+  "/products/custom-satin-wig-bag":
+    "Custom satin drawstring wig bags in your colour — dimensions, fabric and logo method confirmed on a physical sample first. MOQ 200 pcs. Request a quote.",
+  "/products/custom-cotton-pouches":
+    "Natural cotton pouches and bags with drawstring or zip closures, printed with your logo and made to your size. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
+  "/products/custom-satin-pouches":
+    "Lustrous satin pouches with drawstring or flap closure for jewelry, beauty and gifts — your colour, size and logo. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
+  "/products/kraft-paper-shopping-bag":
+    "Custom kraft paper shopping bags with twisted handles and your printed logo, for retail, events and gifting. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
   "/": "ELAPACK makes custom luxury packaging for jewelry, beauty, fragrance and gift brands — rigid boxes, velvet pouches, shopping bags and coordinated sets with your logo, from 200 pieces.",
   "/pouches-bags": "Custom fabric pouches and bags with your logo in velvet, cotton, satin, muslin and microfiber, from 200 pieces — colour-matched with our rigid boxes.",
   "/boxes": "Custom rigid boxes in two-piece, magnetic flap, drawer and folding structures, with EVA, sponge, pulp or flocked inserts. MOQ 200 pcs; samples in 3–5 days.",
@@ -138,13 +166,13 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/eyewear-packaging": "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
   "/custom-jewelry-pouches": "Custom jewelry pouches with logo — velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",
   "/custom-wig-packaging": "Custom wig packaging with logo — compare satin bags, rigid boxes and matched sets by packed dimensions, intended use and sample fit. MOQ from 200 pieces.",
-  "/custom-jewelry-packaging": "Custom jewelry packaging from one manufacturer — logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete box-plus-pouch programs. Boxes and pouches from 200 pieces. Free stock samples.",
+  "/custom-jewelry-packaging": "Custom jewelry packaging from one manufacturer: logo jewelry boxes, velvet, satin and cotton pouches, display sets and complete programs, from 200 pieces.",
   "/custom-gift-boxes": "Custom gift boxes with your logo — magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 200 pieces, free stock samples.",
   "/custom-candle-boxes": "Custom candle boxes with logo — rigid, magnetic and sleeve formats sized to jars and tins, with steady-glass inserts. MOQ 200 pieces, free stock samples.",
   "/custom-cosmetic-packaging": "Custom cosmetic packaging for beauty brands, including eyelash and press-on nail boxes, gift boxes and pouches. MOQ from 200 pieces.",
   "/custom-drawstring-bags": "Custom drawstring bags with your logo — cotton, velvet, satin, muslin and linen pouches in any size, plus handbag and shoe dust bag formats. MOQ from 200 pieces, free stock samples.",
   "/ribbons-accessories": "Custom printed ribbons and packaging accessories — satin ribbon closures, logo-printed ribbon programs, cotton cords and drawstrings matched to your box and pouch programs.",
-  "/custom-cosmetic-pouches": "Custom cosmetic pouches and makeup bags with your logo — drawstring, flap, envelope and zipper styles in cotton, satin, velvet and canvas, plus clear PVC zip bags. MOQ from 200 pieces, free stock samples.",
+  "/custom-cosmetic-pouches": "Custom cosmetic pouches and makeup bags with your logo — drawstring, flap, envelope and zip styles in cotton, satin, velvet and canvas. MOQ 200 pcs.",
   "/subscription-box-packaging": "Custom subscription box packaging from one manufacturer — printed boxes, fabric pouches and insert cards for monthly themed programs. Pantone-matched, MOQ from 200 pieces, free stock samples.",
   "/lightweight-luxury-packaging": "Lightweight luxury packaging — right-sized boxes and board inserts, MOQ 200. Weight, volume and freight comparison confirmed by sample for your specific box.",
   "/products": "Browse ELAPACK's custom packaging catalog — rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
