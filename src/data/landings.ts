@@ -67,7 +67,7 @@ export const landings: Landing[] = [
       "Fabrics: velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven; drawstring, flap, envelope and zipper closures.",
     ],
     intro:
-      "ELAPACK makes custom fabric pouches and bags for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification — not from stock — so the pouch matches your product and your brand, not the other way round.",
+      "ELAPACK makes custom fabric pouches and bags for brands selling in the US and Europe. We produce them in our own factory in Wuxi, and we make each order to your specification — not from stock — so the pouch matches your product and your brand, not the other way round.",
     lead:
       "ELAPACK makes custom packaging bags to order — not stock bags. Choose the material by what the bag has to protect and how it will be used, then specify size, closure and logo. Every bag type below is made to your specification, from 200 pieces per product or component, and can be paired with a matching box as a set.",
     why: {
@@ -156,7 +156,7 @@ export const landings: Landing[] = [
       "Structures: two-piece lift-off lid, magnetic flap, drawer and folding carton; inserts in EVA, sponge, pulp or flocked board.",
     ],
     intro:
-      "ELAPACK makes custom rigid boxes, folding cartons and magnetic closure boxes for brands selling in the US and Europe. We coordinate manufacturing and sourcing for custom packaging, and we make each order to your specification — not from stock — so the box fits your product and carries your brand, not the other way round.",
+      "ELAPACK makes custom rigid boxes, folding cartons and magnetic closure boxes for brands selling in the US and Europe. We produce them in our own factory in Wuxi, and we make each order to your specification — not from stock — so the box fits your product and carries your brand, not the other way round.",
     why: {
       heading: "Box styles",
       items: [
