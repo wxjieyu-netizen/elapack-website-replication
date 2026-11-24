@@ -331,7 +331,7 @@ export const productContentUpdates: Record<string, any> = {
       ],
       [
         "Luxury presentation, with your logo on every surface",
-        "What separates luxury magnetic closure boxes with logo from standard ones is the finish, not the structure. On this box the magnets sit hidden inside the wrap, so the lid and sides stay completely clean for branding: foil stamping, embossing, debossing or print across the outside surfaces. Choose a matte, textured or leather-look wrap over the rigid board, with a fitted EVA foam, velvet, satin or molded pulp insert inside to hold the piece steady. Send your artwork in AI, PDF or PNG; colours are matched to your Pantone references, and bulk production is checked against the approved sample to ΔE ≤ 1.5 and grey scale grade 4."
+        "What separates luxury magnetic closure boxes with logo from standard ones is the finish, not the structure. On this box the magnets sit hidden inside the wrap, so the lid and sides stay completely clean for branding: foil stamping, embossing, debossing or print across the outside surfaces. Choose a matte, textured or leather-look wrap over the rigid board, with a fitted EVA foam, velvet, satin or molded pulp insert inside to hold the piece steady. Send your artwork in AI, PDF or PNG; colours are matched to your Pantone references, and bulk production is checked against the approved sample to ΔE ≤ 2.0 and grey scale grade 4."
       ]
     ],
     "checks": [
