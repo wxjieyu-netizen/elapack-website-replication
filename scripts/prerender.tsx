@@ -36,6 +36,7 @@ const ROUTES = [
   "/boxes",
   "/sets",
   "/custom-jewelry-boxes",
+  "/velvet-jewelry-boxes",
   "/eyewear-packaging",
   "/custom-jewelry-pouches",
   "/custom-wig-packaging",
@@ -96,6 +97,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/boxes": "Custom Rigid Boxes & Magnetic Gift Boxes from 200 Pieces | ELAPACK",
   "/sets": "Custom Packaging Sets with Logo — Box, Pouch & Insert | ELAPACK",
   "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 200 pcs | ELAPACK",
+  "/velvet-jewelry-boxes": "Custom Velvet Jewelry Boxes with Logo, from 200 pcs | ELAPACK",
   "/eyewear-packaging": "Custom Eyewear Packaging — Glasses Boxes & Pouches | ELAPACK",
   "/custom-jewelry-pouches": "Custom Jewelry Pouches with Logo, from 200 pcs | ELAPACK",
   "/custom-wig-packaging": "Custom Wig Packaging with Logo — Bags & Boxes | ELAPACK",
@@ -166,6 +168,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/boxes": "Custom rigid boxes in two-piece, magnetic flap, drawer and folding structures, with EVA, sponge, pulp or flocked inserts. MOQ 200 pcs; samples in 3–5 days.",
   "/sets": "Custom packaging sets with your logo — box, pouch and insert as one set, Pantone colour-matched. Each component from 200 pieces, made in one factory.",
   "/custom-jewelry-boxes": "Custom jewelry boxes with your logo — rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
+  "/velvet-jewelry-boxes": "Custom velvet jewelry boxes with your logo — rigid paperboard boxes with a flocked velvet surface and fitted inserts. MOQ from 200 pieces, free stock samples.",
   "/eyewear-packaging": "Custom eyewear packaging — rigid and magnetic glasses boxes with fitted inserts, plus velvet, cotton and microfiber pouches with your logo. Boxes and pouches from 200 pieces. Free stock samples.",
   "/custom-jewelry-pouches": "Custom jewelry pouches with logo — velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",
   "/custom-wig-packaging": "Custom wig packaging with logo — compare satin bags, rigid boxes and matched sets by packed dimensions, intended use and sample fit. MOQ from 200 pieces.",
@@ -295,6 +298,7 @@ for (const route of ROUTES) {
     const OG_IMAGE_OVERRIDES: Record<string, string> = {
       "/sets": `${SITE}/images/sets/magic-pack-navy-set.webp`,
       "/custom-jewelry-boxes": `${SITE}/images/products/custom-ring-boxes/custom-ring-boxes-hero.webp`,
+      "/velvet-jewelry-boxes": `${SITE}/images/products/custom-ring-boxes/custom-ring-boxes-hero.webp`,
     };
     const ogImage =
       OG_IMAGE_OVERRIDES[route] ??

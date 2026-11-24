@@ -32,6 +32,7 @@ export function AppRoutes() {
         <Route path="/boxes" element={<Landing slug="boxes" />} />
         <Route path="/sets" element={<Landing slug="sets" />} />
         <Route path="/custom-jewelry-boxes" element={<Collection slug="custom-jewelry-boxes" />} />
+        <Route path="/velvet-jewelry-boxes" element={<Collection slug="velvet-jewelry-boxes" />} />
         <Route path="/eyewear-packaging" element={<Collection slug="eyewear-packaging" />} />
         <Route path="/custom-jewelry-pouches" element={<Collection slug="custom-jewelry-pouches" />} />
         <Route path="/custom-wig-packaging" element={<Collection slug="custom-wig-packaging" />} />
