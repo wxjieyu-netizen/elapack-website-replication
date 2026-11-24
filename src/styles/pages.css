@@ -3993,7 +3993,8 @@ a.contact-value:hover {
   color: #6b6258;
   letter-spacing: 0.01em;
 }
-.article-cta-btn { display: inline-block; }
+.article-cta-btn { display: inline-block; background: var(--color-accent); }
+.article-cta-btn:hover { background: var(--color-accent-dark); }
 
 /* Key takeaways block ("## Key takeaways" in article body) — citable summary
    with ghost numbering, modelled on answer-engine-optimized competitor pages */
