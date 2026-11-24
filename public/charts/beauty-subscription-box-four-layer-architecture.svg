@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="The four layers of a beauty subscription box: outer box, reusable pouch, fitted insert and theme card, each with its job and what changes monthly">
+<rect width="1200" height="675" fill="#faf9f7"/>
+<g font-family="Helvetica,Arial,sans-serif">
+<text x="60" y="52" font-family="Georgia,serif" font-size="24" font-weight="600" fill="#18120c">The four layers of a beauty subscription box</text>
+<text x="60" y="79" font-size="13" fill="#6b6258">Box, pouch, insert and card each do a different job — the monthly theme only has to land on the card</text>
+
+<circle cx="104" cy="210" r="15" fill="#18120c"/><text x="104" y="215" text-anchor="middle" font-size="13" fill="#faf9f7">1</text><rect x="70" y="180" width="360" height="60" rx="4" fill="#ffffff" stroke="#b08d46" stroke-width="1.5"/><text x="132" y="206" font-size="14" font-weight="600" fill="#18120c">Outer box</text><text x="132" y="225" font-size="11" fill="#6b6258">the only layer everyone sees</text>
+<polyline points="430,210 470,210" stroke="#c9bfae" stroke-width="1.5" fill="none"/><circle cx="470" cy="210" r="3" fill="#b08d46"/>
+<text x="520" y="196" font-size="14" font-weight="600" fill="#18120c">Outer box — protection and the first impression</text>
+<text x="520" y="218" font-size="12" fill="#6b6258">Rigid box, tuck mailer or folding carton; line the interior for the leak worst case.</text>
+<text x="520" y="236" font-size="12" fill="#6b6258">A sealed product bag inside is cheaper than one ruined edition.</text>
+
+<circle cx="104" cy="302" r="15" fill="#18120c"/><text x="104" y="307" text-anchor="middle" font-size="13" fill="#faf9f7">2</text><rect x="70" y="272" width="360" height="60" rx="4" fill="#ffffff" stroke="#b08d46" stroke-width="1.5"/><text x="132" y="298" font-size="14" font-weight="600" fill="#18120c">Reusable pouch</text><text x="132" y="317" font-size="11" fill="#6b6258">the layer subscribers keep</text>
+<polyline points="430,302 470,302" stroke="#c9bfae" stroke-width="1.5" fill="none"/><circle cx="470" cy="302" r="3" fill="#b08d46"/>
+<text x="520" y="288" font-size="14" font-weight="600" fill="#18120c">Reusable pouch — the layer that carries the brand</text>
+<text x="520" y="310" font-size="12" fill="#6b6258">Velvet 0.8–2.0 mm composite · cotton 200–400 gsm · muslin 100–200 gsm</text>
+<text x="520" y="328" font-size="12" fill="#6b6258">Satin 60–120 gsm · clear PVC 0.12–0.50 mm. Change the colourway, keep the pattern.</text>
+
+<circle cx="104" cy="394" r="15" fill="#18120c"/><text x="104" y="399" text-anchor="middle" font-size="13" fill="#faf9f7">3</text><rect x="70" y="364" width="360" height="60" rx="4" fill="#ffffff" stroke="#b08d46" stroke-width="1.5"/><text x="132" y="390" font-size="14" font-weight="600" fill="#18120c">Fitted insert</text><text x="132" y="409" font-size="11" fill="#6b6258">the layer that makes the box film well</text>
+<polyline points="430,394 470,394" stroke="#c9bfae" stroke-width="1.5" fill="none"/><circle cx="470" cy="394" r="3" fill="#b08d46"/>
+<text x="520" y="380" font-size="14" font-weight="600" fill="#18120c">Fitted insert — one decision, made once</text>
+<text x="520" y="402" font-size="12" fill="#6b6258">Die-cut paper card or EVA foam, cut to the edition's product list.</text>
+<text x="520" y="420" font-size="12" fill="#6b6258">Flexible slot sizes, or a new insert each time the mix changes — not both by accident.</text>
+
+<circle cx="104" cy="486" r="15" fill="#18120c"/><text x="104" y="491" text-anchor="middle" font-size="13" fill="#faf9f7">4</text><rect x="70" y="456" width="360" height="60" rx="4" fill="#ffffff" stroke="#b08d46" stroke-width="1.5"/><text x="132" y="482" font-size="14" font-weight="600" fill="#18120c">Theme card</text><text x="132" y="501" font-size="11" fill="#6b6258">the only layer with words</text>
+<polyline points="430,486 470,486" stroke="#c9bfae" stroke-width="1.5" fill="none"/><circle cx="470" cy="486" r="3" fill="#b08d46"/>
+<text x="520" y="472" font-size="14" font-weight="600" fill="#18120c">Theme card — where the month changes</text>
+<text x="520" y="494" font-size="12" fill="#6b6258">300–400 gsm art card, printed to the theme, one or both sides.</text>
+<text x="520" y="512" font-size="12" fill="#6b6258">The box, pouch and insert stay fixed, so a new theme is a print change.</text>
+
+<rect x="520" y="472" width="0" height="0" fill="none"/>
+<line x1="70" y1="568" x2="1150" y2="568" stroke="#e5dfd4" stroke-width="1.5"/>
+<text x="70" y="600" font-size="11.5" fill="#6b6258">Specify all four together: an insert sized to one edition is not sized to month four.  ·  elapack.com</text>
+</g>
+</svg>
