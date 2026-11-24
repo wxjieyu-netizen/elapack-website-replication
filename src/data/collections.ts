@@ -626,6 +626,7 @@ export const collections: Collection[] = [
     ],
     relatedPages: [
       { path: "/custom-jewelry-boxes/", label: "Compare jewelry boxes" },
+      { path: "/velvet-jewelry-boxes/", label: "Velvet jewelry boxes" },
       { path: "/custom-jewelry-pouches/", label: "Compare jewelry pouches" },
       { path: "/sets/", label: "Specify a complete packaging set" },
     ],
