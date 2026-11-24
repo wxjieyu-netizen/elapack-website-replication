@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 640" font-family="Montserrat, Arial, sans-serif">
+<rect width="1240" height="640" fill="#F8F8F8"/>
+<text x="60" y="66" font-size="28" fill="#2a2a2a" font-weight="600">Why bulk can differ from the approved sample</text>
+<text x="60" y="118" font-size="19" fill="#808080" font-weight="600">FIVE CAUSES</text>
+<text x="660" y="118" font-size="19" fill="#7d8a66" font-weight="600">THE CONTROL — A SEALED-SAMPLE ROUTINE</text>
+<text x="60" y="168" font-size="17.5" fill="#2a2a2a">1. Material batches — a later lot than the sample was cut from</text>
+<text x="60" y="224" font-size="17.5" fill="#2a2a2a">2. Colour across a long print run — density and registration wander</text>
+<text x="60" y="280" font-size="17.5" fill="#2a2a2a">3. Humidity and season — board takes on moisture from the air</text>
+<text x="60" y="336" font-size="17.5" fill="#2a2a2a">4. Hand finishing vs machine production — samples are made slowly</text>
+<text x="60" y="392" font-size="17.5" fill="#2a2a2a">5. Tolerance stacking — component tolerances add up at assembly</text>
+<text x="660" y="168" font-size="17.5" fill="#2a2a2a">• Two identical sealed samples — one with the buyer, one at the factory</text>
+<text x="660" y="224" font-size="17.5" fill="#2a2a2a">• The signed specification travels with the sample</text>
+<text x="660" y="280" font-size="17.5" fill="#2a2a2a">• Photographs of the sealed sample under agreed lighting</text>
+<text x="660" y="336" font-size="17.5" fill="#2a2a2a">• The acceptance standard stated in the order, before production</text>
+<path d="M 600 300 L 644 300" stroke="#A3B18A" stroke-width="3"/><path d="M 636 292 L 646 300 L 636 308" fill="none" stroke="#A3B18A" stroke-width="3"/>
+<rect x="60" y="492" width="1120" height="88" rx="8" fill="#ffffff" stroke="#e5e5e5"/>
+<text x="84" y="528" font-size="17.5" fill="#2a2a2a">Colour acceptance, stated up front: ΔE ≤ 2.0 against the approved sample, grey scale grade 4.</text>
+<text x="84" y="556" font-size="17.5" fill="#6a6a6a">The inspection at receiving is run against the buyer's own sealed copy — not a photograph or a recollection.</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" font-family="Montserrat, Arial, sans-serif">
+<rect width="1200" height="640" fill="#F8F8F8"/>
+<text x="60" y="70" font-size="30" fill="#2a2a2a" font-weight="600">One file, four layers</text>
+<text x="60" y="104" font-size="17" fill="#6a6a6a">Every element lives on exactly one layer of the artwork file.</text>
+<g>
+<rect x="120" y="150" width="520" height="86" rx="8" fill="#ffffff" stroke="#A3B18A" stroke-width="2.5" stroke-dasharray="9 6"/>
+<text x="150" y="188" font-size="21" fill="#2a2a2a" font-weight="600">1 · Dieline</text>
+<text x="150" y="216" font-size="15.5" fill="#6a6a6a">Spot colour, set to overprint — guides the build, does not print</text>
+<rect x="150" y="252" width="520" height="86" rx="8" fill="#eef1e8" stroke="#A3B18A" stroke-width="2"/>
+<text x="180" y="290" font-size="21" fill="#2a2a2a" font-weight="600">2 · Spot UV</text>
+<text x="180" y="318" font-size="15.5" fill="#6a6a6a">100% of the named spot colour “Spot UV”, vector shapes only</text>
+<rect x="180" y="354" width="520" height="86" rx="8" fill="#e6e6e6" stroke="#808080" stroke-width="2"/>
+<text x="210" y="392" font-size="21" fill="#2a2a2a" font-weight="600">3 · Foil</text>
+<text x="210" y="420" font-size="15.5" fill="#6a6a6a">100% of the named spot colour “Foil”, vector shapes only</text>
+<rect x="210" y="456" width="520" height="86" rx="8" fill="#808080"/>
+<text x="240" y="494" font-size="21" fill="#ffffff" font-weight="600">4 · Print</text>
+<text x="240" y="522" font-size="15.5" fill="#f0f0f0">CMYK artwork plus any named Pantone colours</text>
+</g>
+<text x="60" y="600" font-size="17" fill="#808080" font-style="italic">One element, one home — nothing duplicated across layers.</text>
+</svg>
