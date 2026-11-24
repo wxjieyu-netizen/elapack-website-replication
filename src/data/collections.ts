@@ -52,7 +52,7 @@ export const collections: Collection[] = [
         heading: "By jewelry type",
         items: [
           { title: "Ring boxes", desc: "Single and double ring slots with velvet or foam cushions.", link: { path: "/products/custom-ring-boxes/", label: "View custom ring boxes" } },
-          { title: "Earring & pendant boxes", desc: "Fitted inserts that hold pairs and chains in place.", link: { path: "/news/jewelry-box-inserts-guide/", label: "Compare insert layouts for earrings and pendants" } },
+          { title: "Earring & pendant boxes", desc: "Fitted inserts that hold pairs and chains in place.", link: { path: "/news/custom-earring-boxes-guide/", label: "Choose earring boxes by type, insert and structure" } },
           { title: "Bracelet & small gift boxes", desc: "Compact footprints for retail counter and gifting.", link: { path: "/news/necklace-bracelet-packaging-guide/", label: "See bracelet box sizing and formats" } },
           { title: "Complete jewelry sets", desc: "Box, pouch and insert designed together as one program.", link: { path: "/sets/", label: "Explore box and pouch sets" } },
         ],
