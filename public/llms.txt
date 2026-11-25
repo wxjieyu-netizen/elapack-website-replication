@@ -50,7 +50,7 @@ Key facts for buyers:
 - [Custom Rigid Boxes: Construction, Specifications and Ordering](https://elapack.com/news/custom-rigid-boxes-guide/): rigid box structures, board and insert specifications, and what drives cost
 - [Box Dimensions: Length, Width, Height and How to Measure Them](https://elapack.com/news/box-dimensions-guide/): how box dimensions are written, measured, and converted to internal fit
 - [Packaging Inserts: Materials, Trade-Offs and Specification Data](https://elapack.com/news/packaging-inserts-guide/): EVA, sponge, pearl cotton and paperboard inserts compared
-- [Jewelry Box Inserts: Anti-Tarnish Linings, Cavity Layouts and Spec Data](https://elapack.com/news/jewelry-box-inserts-guide/): insert materials and cavity layouts for jewelry boxes
+- [Jewelry Box Inserts: Lining Materials, Cavity Layouts and Spec Data](https://elapack.com/news/jewelry-box-inserts-guide/): insert materials and cavity layouts for jewelry boxes
 - [CMYK Printing for Custom Packaging: Process Colour, Gamut Limits and Sample Approval](https://elapack.com/news/cmyk-printing-for-custom-packaging/): CMYK gamut limits and how colour is approved against the sample
 - [PMS Colors for Custom Packaging: How to Specify, Proof and Approve Brand Color](https://elapack.com/news/pms-colors-for-custom-packaging/): specifying Pantone colours, proofing, and batch-to-batch drift control
 - [Surface Finishes for Custom Boxes Compared: Embossing, Foil Stamping, Lamination and Spot UV](https://elapack.com/news/surface-finishes-compared-guide/): lamination films, foil, embossing and spot UV compared
