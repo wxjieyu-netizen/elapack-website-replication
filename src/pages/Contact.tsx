@@ -54,13 +54,34 @@ const projectTypes = [
   "Other",
 ];
 
+/**
+ * Preselect the closest Project Type chip from the product the visitor came
+ * from (?product= slug). Chips keep their existing names; categories with no
+ * matching chip (Retail Display Props, Packaging Paper, Sampling Cards) get
+ * no preselection, as before.
+ */
+function preselectProjectType(
+  product: ReturnType<typeof getProductBySlug>,
+): string {
+  if (!product) return "";
+  if (product.category === "Boxes") return "Luxury Gift Boxes";
+  if (product.category === "Pouches & Bags") {
+    return product.slug === "kraft-paper-shopping-bag"
+      ? "Shopping Bags"
+      : "Textile Packaging";
+  }
+  return "";
+}
+
 export default function Contact() {
   const [searchParams] = useSearchParams();
   const selectedProduct = getProductBySlug(searchParams.get("product") ?? "");
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [failed, setFailed] = useState(false);
-  const [selectedType, setSelectedType] = useState("");
+  const [selectedType, setSelectedType] = useState(() =>
+    preselectProjectType(selectedProduct),
+  );
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -255,18 +276,6 @@ export default function Contact() {
                       />
                     </div>
                     <div className="form-group">
-                      <label htmlFor="company">Company / Brand</label>
-                      <input
-                        id="company"
-                        name="company"
-                        type="text"
-                        placeholder="Your brand name"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="form-row">
-                    <div className="form-group">
                       <label htmlFor="email">Email *</label>
                       <input
                         id="email"
@@ -274,15 +283,6 @@ export default function Contact() {
                         type="email"
                         required
                         placeholder="jane@brand.com"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <label htmlFor="phone">Phone / WhatsApp</label>
-                      <input
-                        id="phone"
-                        name="phone"
-                        type="tel"
-                        placeholder="+1 555 000 0000"
                       />
                     </div>
                   </div>
@@ -301,82 +301,6 @@ export default function Contact() {
                         </button>
                       ))}
                     </div>
-                  </div>
-
-                  <div className="form-row">
-                    <div className="form-group">
-                      <label htmlFor="industry">Industry</label>
-                      <select id="industry" name="industry">
-                        <option value="">Select industry</option>
-                        <option>Beauty &amp; Fragrance</option>
-                        <option>Storage Bags</option>
-                        <option>Gift Boxes</option>
-                        <option>Jewelry</option>
-                        <option>Eyewear</option>
-                        <option>Hair &amp; Wig</option>
-                        <option>Fashion</option>
-                        <option>Other</option>
-                      </select>
-                    </div>
-                    <div className="form-group">
-                      <label htmlFor="packaging_form">Packaging Form</label>
-                      <select id="packaging_form" name="packaging_form">
-                        <option value="">Select form</option>
-                        <option>Box</option>
-                        <option>Pouch / Bag</option>
-                        <option>Set (box + pouch + card / cloth / ribbon)</option>
-                        <option>Other</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div className="form-row">
-                    <div className="form-group">
-                      <label htmlFor="dimensions">Product / Pack Dimensions</label>
-                      <input id="dimensions" name="dimensions" type="text" placeholder="e.g. 90 x 90 x 40 mm, for a 50 ml bottle" />
-                    </div>
-                    <div className="form-group">
-                      <label htmlFor="material">Material</label>
-                      <input id="material" name="material" type="text" placeholder="e.g. rigid board, velvet, cotton, microfiber" />
-                    </div>
-                  </div>
-
-                  <div className="form-row">
-                    <div className="form-group">
-                      <label htmlFor="finish_insert">Finish / Insert</label>
-                      <input id="finish_insert" name="finish_insert" type="text" placeholder="e.g. foil, emboss, EVA / velvet insert" />
-                    </div>
-                    <div className="form-group">
-                      <label htmlFor="logo_method">Logo Method</label>
-                      <input id="logo_method" name="logo_method" type="text" placeholder="e.g. hot stamp, silkscreen, woven label" />
-                    </div>
-                  </div>
-
-                  <div className="form-row">
-                    <div className="form-group">
-                      <label htmlFor="target_date">Target Delivery Date</label>
-                      <input id="target_date" name="target_date" type="text" placeholder="e.g. before 20 Dec" />
-                    </div>
-                    <div className="form-group">
-                      <label htmlFor="sample_needed">Sample Needed</label>
-                      <select id="sample_needed" name="sample_needed">
-                        <option value="">Select sample</option>
-                        <option>Stock sample (free + USD 25 shipping)</option>
-                        <option>Custom sample (USD 30 + USD 25 shipping, 3–5 days)</option>
-                        <option>No sample yet</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="reference_link">Reference Link (artwork / example)</label>
-                    <input id="reference_link" name="reference_link" type="text" placeholder="Paste a link to artwork or a reference product" />
-                  </div>
-
-                  <div className="form-group">
-                    <label>
-                      <input type="checkbox" name="add_cleaning_cloth" value="Yes" /> Add microfiber cleaning cloth to the set (100% polyester or 80% polyester / 20% polyamide, 180–230g; for jewelry, eyewear, screens and lenses)
-                    </label>
                   </div>
 
                   <div className="form-group">
@@ -399,6 +323,81 @@ export default function Contact() {
                       placeholder="Tell us about your brand, your packaging needs, timelines, and any specific materials or finishes you're considering."
                     />
                   </div>
+
+                  <details className="form-details">
+                    <summary>补充信息（选填，填了报价更快更准）</summary>
+                    <div className="form-details-body">
+                      <div className="form-row">
+                        <div className="form-group">
+                          <label htmlFor="company">Company / Brand</label>
+                          <input
+                            id="company"
+                            name="company"
+                            type="text"
+                            placeholder="Your brand name"
+                          />
+                        </div>
+                        <div className="form-group">
+                          <label htmlFor="phone">Phone / WhatsApp</label>
+                          <input
+                            id="phone"
+                            name="phone"
+                            type="tel"
+                            placeholder="+1 555 000 0000"
+                          />
+                        </div>
+                      </div>
+
+                      <div className="form-row">
+                        <div className="form-group">
+                          <label htmlFor="dimensions">Product / Pack Dimensions</label>
+                          <input id="dimensions" name="dimensions" type="text" placeholder="e.g. 90 x 90 x 40 mm, for a 50 ml bottle" />
+                        </div>
+                        <div className="form-group">
+                          <label htmlFor="material">Material</label>
+                          <input id="material" name="material" type="text" placeholder="e.g. rigid board, velvet, cotton, microfiber" />
+                        </div>
+                      </div>
+
+                      <div className="form-row">
+                        <div className="form-group">
+                          <label htmlFor="finish_insert">Finish / Insert</label>
+                          <input id="finish_insert" name="finish_insert" type="text" placeholder="e.g. foil, emboss, EVA / velvet insert" />
+                        </div>
+                        <div className="form-group">
+                          <label htmlFor="logo_method">Logo Method</label>
+                          <input id="logo_method" name="logo_method" type="text" placeholder="e.g. hot stamp, silkscreen, woven label" />
+                        </div>
+                      </div>
+
+                      <div className="form-row">
+                        <div className="form-group">
+                          <label htmlFor="target_date">Target Delivery Date</label>
+                          <input id="target_date" name="target_date" type="text" placeholder="e.g. before 20 Dec" />
+                        </div>
+                        <div className="form-group">
+                          <label htmlFor="sample_needed">Sample Needed</label>
+                          <select id="sample_needed" name="sample_needed">
+                            <option value="">Select sample</option>
+                            <option>Stock sample (free + USD 25 shipping)</option>
+                            <option>Custom sample (USD 30 + USD 25 shipping, 3–5 days)</option>
+                            <option>No sample yet</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div className="form-group">
+                        <label htmlFor="reference_link">Reference Link (artwork / example)</label>
+                        <input id="reference_link" name="reference_link" type="text" placeholder="Paste a link to artwork or a reference product" />
+                      </div>
+
+                      <div className="form-group">
+                        <label>
+                          <input type="checkbox" name="add_cleaning_cloth" value="Yes" /> Add microfiber cleaning cloth to the set (100% polyester or 80% polyester / 20% polyamide, 180–230g; for jewelry, eyewear, screens and lenses)
+                        </label>
+                      </div>
+                    </div>
+                  </details>
 
                   {failed && (
                     <p

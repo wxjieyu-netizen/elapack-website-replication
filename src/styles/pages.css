@@ -2881,6 +2881,25 @@ a.contact-value:hover {
   border-color: var(--color-primary);
 }
 
+/* Optional-fields disclosure (collapsed by default) */
+.form-details {
+  border-top: 1px solid var(--color-border);
+  padding-top: 1rem;
+  margin-bottom: var(--space-3);
+}
+
+.form-details summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text-soft);
+  padding: 0.25rem 0;
+}
+
+.form-details-body {
+  padding-top: 1rem;
+}
+
 /* Success State */
 .contact-success {
   text-align: center;
