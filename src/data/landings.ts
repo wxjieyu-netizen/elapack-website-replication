@@ -57,7 +57,7 @@ export const landings: Landing[] = [
       { src: "/images/factory/elapack-03.jpg", alt: "Sewing floor producing custom fabric pouches" },
     ],
     eyebrow: "Pouches & Bags",
-    titleTag: "Custom Fabric Pouches & Bags with Logo | ELAPACK",
+    titleTag: "Custom Fabric Pouches & Bags with Logo — From 200 Pcs | ELAPACK",
     h1: "Custom Fabric Pouches & Bags",
     subhead: "Your size. Your fabric. Your closure. Your logo. Cut, sewn and finished together.",
     metaDescription:

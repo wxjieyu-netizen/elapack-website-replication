@@ -93,7 +93,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/products/stackable-jewelry-tray": "Stackable Jewelry Trays for Retail Display | ELAPACK",
   "/products/velvet-jewelry-display-set": "Velvet Jewelry Display Sets for Retail | ELAPACK",
   "/products/velvet-necklace-display": "Velvet Necklace Display Stands | ELAPACK",
-  "/pouches-bags": "Custom Fabric Pouches & Bags with Logo | ELAPACK",
+  "/pouches-bags": "Custom Fabric Pouches & Bags with Logo — From 200 Pcs | ELAPACK",
   "/boxes": "Custom Rigid Boxes & Magnetic Gift Boxes from 200 Pieces | ELAPACK",
   "/sets": "Custom Packaging Sets with Logo — Box, Pouch & Insert | ELAPACK",
   "/custom-jewelry-boxes": "Custom Jewelry Boxes with Logo, from 200 pcs | ELAPACK",
@@ -125,6 +125,8 @@ const STATIC_TITLES: Record<string, string> = {
 const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/products/custom-velvet-pouches":
     "Custom velvet pouches with your logo in drawstring, flap, envelope or zipper styles. MOQ 200 pcs, custom samples in 3–5 days. Request a quote.",
+  "/products/custom-white-jewelry-box":
+    "Custom white jewelry boxes with your logo — structure, insert and logo finish set per project and confirmed on a sample. MOQ 200 pcs, samples in 3–5 days.",
   "/products/custom-press-on-nail-boxes":
     "Custom press-on nail boxes with your logo, from 200 pieces — sized to your nail sets and trays, with shade and size systems shown on pack.",
   "/products/custom-tissue-paper":
@@ -183,7 +185,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/lightweight-luxury-packaging": "Lightweight luxury packaging — right-sized boxes and board inserts, MOQ 200. Weight, volume and freight comparison confirmed by sample for your specific box.",
   "/products": "Browse ELAPACK's custom packaging catalog — rigid jewelry boxes, velvet and cotton pouches, retail bags, display systems and gift sets.",
   "/industries": "Custom packaging for jewelry, eyewear, fragrance, beauty, fashion and gifting brands — engineered for Europe and North America.",
-  "/solutions": "Custom packaging solutions from ELAPACK: structures, materials and finishes for boxes, pouches and configured sets — custom samples in 3–5 days, production from 200 pieces per component.",
+  "/solutions": "Custom packaging solutions: structures, materials and finishes for boxes, pouches and sets, with custom samples in 3–5 days and runs from 200 pieces.",
   "/news": "Packaging insights, material trends and sustainability notes from the ELAPACK team.",
   "/about": "ELAPACK is operated by Wuxi Magic Packaging Co., Ltd. Learn about its packaging scope, material review and order process.",
   "/privacy": "How ELAPACK (Wuxi Magic Packaging Co., Ltd.) collects, uses and protects the information you share when you request a packaging quotation.",
