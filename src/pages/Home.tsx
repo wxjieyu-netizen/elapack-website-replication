@@ -209,6 +209,8 @@ export default function Home() {
               {" · "}
               <Link to="/pouches-bags/" className="text-link">Pouches &amp; Bags <span className="text-link-arrow">→</span></Link>
               {" · "}
+              <Link to="/custom-drawstring-bags/" className="text-link">Drawstring Bags <span className="text-link-arrow">→</span></Link>
+              {" · "}
               <Link to="/sets/" className="text-link">Complete Sets <span className="text-link-arrow">→</span></Link>
             </p>
             <p>

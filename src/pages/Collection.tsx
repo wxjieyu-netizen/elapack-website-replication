@@ -166,6 +166,11 @@ export default function Collection({ slug }: { slug: string }) {
               {collection.table2.intro?.map((para) => (
                 <p key={para.slice(0, 32)} className="about-text" style={{ marginTop: "1rem" }}>{para}</p>
               ))}
+              {collection.table2.image && (
+                <figure style={{ margin: "1.25rem 0 0" }}>
+                  <img src={collection.table2.image.src} alt={collection.table2.image.alt} style={{ width: "100%", height: "auto", display: "block" }} loading="lazy" />
+                </figure>
+              )}
               <div style={{ overflowX: "auto", marginTop: "1rem" }}>
                 <table className="spec-table">
                   <thead>

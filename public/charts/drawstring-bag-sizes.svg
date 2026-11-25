@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1264 668" font-family="Montserrat, Arial, sans-serif">
+<rect x="0" y="0" width="1264" height="668" fill="#F8F8F8"/>
+<line x1="24" y1="512" x2="1240" y2="512" stroke="#C9C4BB" stroke-width="1.5"/>
+<path d="M 43.0 439.42400000000004 L 40.0 506 Q 40.0 512 46.0 512 L 106.0 512 Q 112.0 512 112.0 506 L 109.0 439.42400000000004 Z" fill="#FBFAF7" stroke="#808080" stroke-width="2"/>
+<path d="M 43.0 439.42400000000004 L 44.0 429.6 Q 44.0 425.6 48.0 425.6 L 104.0 425.6 Q 112.0 425.6 108.0 429.6 L 109.0 439.42400000000004 Z" fill="#EDEAE2" stroke="#808080" stroke-width="2"/>
+<line x1="45.0" y1="435.42400000000004" x2="107.0" y2="435.42400000000004" stroke="#A3B18A" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M 42.0 428.6 Q 29.0 418.6 29.0 432.6" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="29.0" cy="435.6" r="3.2" fill="#808080"/>
+<path d="M 110.0 428.6 Q 123.0 418.6 123.0 432.6" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="123.0" cy="435.6" r="3.2" fill="#808080"/>
+<line x1="40.0" y1="534" x2="112.0" y2="534" stroke="#A3B18A" stroke-width="1.4"/>
+<path d="M 40.0 534 l 7 -3.4 v 6.8 Z" fill="#A3B18A"/><path d="M 112.0 534 l -7 -3.4 v 6.8 Z" fill="#A3B18A"/>
+<text x="76.0" y="556" font-size="14.5" fill="#5A5A56" text-anchor="middle">10 cm</text>
+<text x="76.0" y="588" font-size="16.5" font-weight="600" fill="#33322F" text-anchor="middle">Jewelry</text>
+<text x="76.0" y="611" font-size="14.5" fill="#6E6A61" text-anchor="middle">10 × 12 cm</text>
+<path d="M 161.0 398.4 L 158.0 506 Q 158.0 512 164.0 512 L 216.8 512 Q 222.8 512 222.8 506 L 219.8 398.4 Z" fill="#FBFAF7" stroke="#808080" stroke-width="2"/>
+<path d="M 161.0 398.4 L 162.0 386.4 Q 162.0 382.4 166.0 382.4 L 214.8 382.4 Q 222.8 382.4 218.8 386.4 L 219.8 398.4 Z" fill="#EDEAE2" stroke="#808080" stroke-width="2"/>
+<line x1="163.0" y1="394.4" x2="217.8" y2="394.4" stroke="#A3B18A" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M 160.0 385.4 Q 147.0 375.4 147.0 389.4" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="147.0" cy="392.4" r="3.2" fill="#808080"/>
+<path d="M 220.8 385.4 Q 233.8 375.4 233.8 389.4" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="233.8" cy="392.4" r="3.2" fill="#808080"/>
+<line x1="158.0" y1="534" x2="222.8" y2="534" stroke="#A3B18A" stroke-width="1.4"/>
+<path d="M 158.0 534 l 7 -3.4 v 6.8 Z" fill="#A3B18A"/><path d="M 222.8 534 l -7 -3.4 v 6.8 Z" fill="#A3B18A"/>
+<text x="190.4" y="556" font-size="14.5" fill="#5A5A56" text-anchor="middle">9 cm</text>
+<text x="190.4" y="588" font-size="16.5" font-weight="600" fill="#33322F" text-anchor="middle">Eyewear</text>
+<text x="190.4" y="611" font-size="14.5" fill="#6E6A61" text-anchor="middle">9 × 18 cm</text>
+<path d="M 271.8 362.4 L 268.8 506 Q 268.8 512 274.8 512 L 370.8 512 Q 376.8 512 376.8 506 L 373.8 362.4 Z" fill="#FBFAF7" stroke="#808080" stroke-width="2"/>
+<path d="M 271.8 362.4 L 272.8 350.4 Q 272.8 346.4 276.8 346.4 L 368.8 346.4 Q 376.8 346.4 372.8 350.4 L 373.8 362.4 Z" fill="#EDEAE2" stroke="#808080" stroke-width="2"/>
+<line x1="273.8" y1="358.4" x2="371.8" y2="358.4" stroke="#A3B18A" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M 270.8 349.4 Q 257.8 339.4 257.8 353.4" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="257.8" cy="356.4" r="3.2" fill="#808080"/>
+<path d="M 374.8 349.4 Q 387.8 339.4 387.8 353.4" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="387.8" cy="356.4" r="3.2" fill="#808080"/>
+<line x1="256.8" y1="346.4" x2="256.8" y2="512" stroke="#A3B18A" stroke-width="1.4"/>
+<path d="M 256.8 346.4 l -3.4 7 h 6.8 Z" fill="#A3B18A"/><path d="M 256.8 512 l -3.4 -7 h 6.8 Z" fill="#A3B18A"/>
+<text x="250.8" y="429.2" font-size="14.5" fill="#5A5A56" text-anchor="middle" transform="rotate(-90 250.8 429.2)">23 cm</text>
+<line x1="268.8" y1="534" x2="376.8" y2="534" stroke="#A3B18A" stroke-width="1.4"/>
+<path d="M 268.8 534 l 7 -3.4 v 6.8 Z" fill="#A3B18A"/><path d="M 376.8 534 l -7 -3.4 v 6.8 Z" fill="#A3B18A"/>
+<text x="322.8" y="556" font-size="14.5" fill="#5A5A56" text-anchor="middle">15 cm</text>
+<text x="322.8" y="588" font-size="16.5" font-weight="600" fill="#33322F" text-anchor="middle">Fragrance</text>
+<text x="322.8" y="611" font-size="14.5" fill="#6E6A61" text-anchor="middle">15 × 23 cm</text>
+<path d="M 425.8 204.0 L 422.8 506 Q 422.8 512 428.8 512 L 668.8 512 Q 674.8 512 674.8 506 L 671.8 204.0 Z" fill="#FBFAF7" stroke="#808080" stroke-width="2"/>
+<path d="M 425.8 204.0 L 426.8 192.0 Q 426.8 188.0 430.8 188.0 L 666.8 188.0 Q 674.8 188.0 670.8 192.0 L 671.8 204.0 Z" fill="#EDEAE2" stroke="#808080" stroke-width="2"/>
+<line x1="427.8" y1="200.0" x2="669.8" y2="200.0" stroke="#A3B18A" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M 424.8 191.0 Q 411.8 181.0 411.8 195.0" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="411.8" cy="198.0" r="3.2" fill="#808080"/>
+<path d="M 672.8 191.0 Q 685.8 181.0 685.8 195.0" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="685.8" cy="198.0" r="3.2" fill="#808080"/>
+<line x1="410.8" y1="188.0" x2="410.8" y2="512" stroke="#A3B18A" stroke-width="1.4"/>
+<path d="M 410.8 188.0 l -3.4 7 h 6.8 Z" fill="#A3B18A"/><path d="M 410.8 512 l -3.4 -7 h 6.8 Z" fill="#A3B18A"/>
+<text x="404.8" y="350.0" font-size="14.5" fill="#5A5A56" text-anchor="middle" transform="rotate(-90 404.8 350.0)">45 cm</text>
+<line x1="422.8" y1="534" x2="674.8" y2="534" stroke="#A3B18A" stroke-width="1.4"/>
+<path d="M 422.8 534 l 7 -3.4 v 6.8 Z" fill="#A3B18A"/><path d="M 674.8 534 l -7 -3.4 v 6.8 Z" fill="#A3B18A"/>
+<text x="548.8" y="556" font-size="14.5" fill="#5A5A56" text-anchor="middle">35 cm</text>
+<text x="548.8" y="588" font-size="16.5" font-weight="600" fill="#33322F" text-anchor="middle">Shoes · one bag per pair</text>
+<text x="548.8" y="611" font-size="14.5" fill="#6E6A61" text-anchor="middle">35 × 45 cm</text>
+<path d="M 723.8 96.0 L 720.8 506 Q 720.8 512 726.8 512 L 1218.8 512 Q 1224.8 512 1224.8 506 L 1221.8 96.0 Z" fill="#FBFAF7" stroke="#808080" stroke-width="2"/>
+<path d="M 723.8 96.0 L 724.8 84.0 Q 724.8 80.0 728.8 80.0 L 1216.8 80.0 Q 1224.8 80.0 1220.8 84.0 L 1221.8 96.0 Z" fill="#EDEAE2" stroke="#808080" stroke-width="2"/>
+<line x1="725.8" y1="92.0" x2="1219.8" y2="92.0" stroke="#A3B18A" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M 722.8 83.0 Q 709.8 73.0 709.8 87.0" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="709.8" cy="90.0" r="3.2" fill="#808080"/>
+<path d="M 1222.8 83.0 Q 1235.8 73.0 1235.8 87.0" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="1235.8" cy="90.0" r="3.2" fill="#808080"/>
+<line x1="708.8" y1="80.0" x2="708.8" y2="512" stroke="#A3B18A" stroke-width="1.4"/>
+<path d="M 708.8 80.0 l -3.4 7 h 6.8 Z" fill="#A3B18A"/><path d="M 708.8 512 l -3.4 -7 h 6.8 Z" fill="#A3B18A"/>
+<text x="702.8" y="296.0" font-size="14.5" fill="#5A5A56" text-anchor="middle" transform="rotate(-90 702.8 296.0)">60 cm</text>
+<line x1="720.8" y1="534" x2="1224.8" y2="534" stroke="#A3B18A" stroke-width="1.4"/>
+<path d="M 720.8 534 l 7 -3.4 v 6.8 Z" fill="#A3B18A"/><path d="M 1224.8 534 l -7 -3.4 v 6.8 Z" fill="#A3B18A"/>
+<text x="972.8" y="556" font-size="14.5" fill="#5A5A56" text-anchor="middle">70 cm</text>
+<text x="972.8" y="588" font-size="16.5" font-weight="600" fill="#33322F" text-anchor="middle">Handbag</text>
+<text x="972.8" y="611" font-size="14.5" fill="#6E6A61" text-anchor="middle">70 × 60 cm</text>
+<text x="632.0" y="654" font-size="14" fill="#8A8578" text-anchor="middle">Common starting sizes, width × height — every bag is made to your dimensions and confirmed on a sample.</text>
+</svg>

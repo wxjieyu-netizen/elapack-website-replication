@@ -1110,12 +1110,11 @@ export const products: Product[] = [
     shortDesc:
       "Natural cotton pouches and bags — printable, gently protective, made to your size and logo.",
     description:
-      "Custom cotton pouches and bags for brands that want a natural, honest carrier. Unbleached cotton has a soft hand feel that suits artisan, beauty, jewelry and favor programs alike, and the fabric takes water-based ink prints beautifully. Choose your style — drawstring, flap, envelope or zipper — in sizes reviewed against your product, from small jewelry and cosmetics pouches to larger gift bags, with your logo printed or woven in. Made to order, with materials, dimensions and finishes confirmed in your quote.",
+      "Custom cotton pouches and bags for brands that want a natural, honest carrier. Unbleached cotton has a soft hand feel that suits artisan, beauty, jewelry and favor programs alike, and the fabric takes water-based ink prints beautifully. Choose your style — drawstring, flap, envelope or zipper — in sizes reviewed against your product, from small jewelry and cosmetics pouches to larger gift bags, with your logo printed or woven in. Made to order, with materials, dimensions and finishes confirmed in your quote.\n\nLogo methods on cotton: silkscreen is the usual choice for one- to three-colour logos and larger areas, in water-based inks that sit in the weave. Hot stamp (foil) gives a metallic or matte foil edge for small, simple marks — very fine lines can break on coarse cotton, so we check them on the sample. A woven label is sewn into the seam or the front as a brand tag that does not fade. Embroidery gives a raised, stitched finish for small logos where texture suits the brand. Send vector artwork (AI, EPS or PDF); the method is confirmed on a physical sample before production.\n\nCommon starting sizes: 7 × 9 or 8 × 10 cm for rings, earrings and small jewelry; 10 × 12 cm for jewelry and bracelets; 12 × 15 or 15 × 20 cm for necklaces, sunglasses and cosmetics; 16 × 23 cm and up for scarves, socks and folded garments. Every pouch is made to your product, so treat these as starting points, not stock sizes — measure the product (plus any box inside the pouch) and add room for the closure: a drawstring needs extra height for the channel; a flap or zip needs less.",
     intro:
       "Custom cotton pouches and bags in unbleached cotton with a soft, natural hand feel. Choose drawstring, flap, envelope or zipper styles in sizes reviewed against your product — from small jewelry and cosmetics pouches to larger gift bags — with your logo printed in water-based inks.",
     image: "/images/products/custom-cotton-pouches/custom-cotton-pouches-hero.webp",
     gallery: [
-      "/images/products/custom-cotton-pouches/custom-cotton-pouches-hero.webp",
       "/images/products/custom-cotton-pouches/custom-cotton-pouches-detail-01.webp",
       "/images/products/custom-cotton-pouches/custom-cotton-pouches-detail-02.webp",
       "/images/products/custom-cotton-pouches/custom-cotton-pouches-detail-03.webp",
@@ -1123,6 +1122,9 @@ export const products: Product[] = [
       "/images/products/custom-cotton-pouches/custom-cotton-pouches-detail-05.webp",
     ],
     galleryRatio: "1 / 1",
+    customizeImage:
+      "/images/products/custom-cotton-pouches/custom-cotton-pouches-logo-methods.webp",
+    customizeImageRatio: "3 / 2",
     materials: "Natural cotton, cotton cord",
     moq: "200 pcs",
     leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time separate",
@@ -1149,11 +1151,12 @@ export const products: Product[] = [
       { label: "Fabric options", value: "Cotton: confirm fibre composition, fabric construction, colour and finish in the quotation and approved sample" },
       { label: "Closure options", value: "Drawstring, flap, envelope or zipper; string types confirmed in quotation" },
       { label: "Size", value: "Made to your product dimensions — confirm finished size in the quotation" },
-      { label: "Logo method", value: "Silkscreen, hot stamp or woven label; Pantone matching on request" },
+      { label: "Logo method", value: "Silkscreen, hot stamp, woven label or embroidery; Pantone matching on request" },
       { label: "Protection", value: "Check the loaded fit, seams, closure and material contact on a sample. Request material-specific evidence for any claimed protective treatment" },
       { label: "Set option", value: "Add a matching box, card or microfiber cleaning cloth to make a box + pouch set, MOQ 200 per component" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Delivery to the US", value: "Sea or air from Shanghai or Shenzhen; DDP quoted on request, so duties and customs clearance are handled before arrival; payment by T/T or PayPal. Transit time is quoted per route." },
     ],
     faqs: [
       {
@@ -1180,12 +1183,21 @@ export const products: Product[] = [
         q: "Drawstring or zip — which closure should I choose?",
         a: "Drawstring is fastest to open and close, forgiving on size, and the standard for storage and gift pouches. A zip gives a flatter, fully enclosed pack, better for travel formats and items that must stay grouped. Choose by how the pouch will be used daily: frequent opening favours drawstring, tidy flat storage favours zip. Both are sampled before production.",
       },
+      {
+        q: "Can you print cotton pouches in the USA?",
+        a: "We manufacture in China and ship to US brands, with DDP delivery quoted on request. If you need US-made pouches, we are not the right supplier; if you need custom sizes and logos from 200 pieces with landed-cost pricing, ask for a DDP quote.",
+      },
+      {
+        q: "Is silkscreen or hot stamp better on cotton?",
+        a: "Silkscreen is the usual choice for one- to three-colour logos and larger areas. Hot stamp gives a metallic, premium look but works best on small, simple marks, because cotton's texture can break very fine lines. We confirm which one holds up on a sample before production.",
+      },
     ],
     customizationOptions: [
       "Water-based ink printing",
       "Natural, bleached or dyed cotton",
       "Custom sizes and drawcord colors",
       "Drawstring, flap, envelope or zipper closure",
+      "Woven label and embroidery logo options",
     ],
   },
   {
@@ -2625,6 +2637,8 @@ export const productGuides: Record<string, string[]> = {
     "custom-logo-pouches-guide",
   ],
   "custom-cotton-pouches": [
+    "how-to-choose-custom-drawstring-bags",
+    "how-to-package-jewelry-for-shipping",
     "custom-glasses-cases-pouches-guide",
     "how-to-choose-a-custom-jewelry-pouch",
     "velvet-satin-muslin-pouches-compared",
@@ -2633,6 +2647,7 @@ export const productGuides: Record<string, string[]> = {
     "custom-clothing-apparel-packaging-guide",
   ],
   "custom-cotton-envelope-pouches": [
+    "how-to-choose-custom-drawstring-bags",
     "how-to-choose-a-custom-jewelry-pouch",
     "custom-logo-pouches-guide",
     "how-to-read-a-packaging-specification-sheet",
@@ -2654,6 +2669,7 @@ export const productGuides: Record<string, string[]> = {
     "custom-clothing-apparel-packaging-guide",
   ],
   "custom-hang-tags": [
+    "custom-clothing-apparel-packaging-guide",
     "custom-hang-tags-guide",
     "custom-packaging-samples-guide",
   ],
@@ -2693,6 +2709,7 @@ export const productGuides: Record<string, string[]> = {
       "custom-hair-extension-boxes-guide",
   ],
   "custom-satin-pouches": [
+    "how-to-choose-custom-drawstring-bags",
     "custom-cosmetic-bags-guide",
     "velvet-satin-muslin-pouches-compared",
     "how-to-choose-a-custom-jewelry-pouch",

@@ -80,7 +80,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/products/custom-perfume-boxes": "Custom Perfume Boxes with Logo | ELAPACK",
   "/products/custom-perfume-sample-card-boxes": "Custom Perfume Sample Cards with Logo | ELAPACK",
   "/products/custom-watch-boxes": "Custom Watch Boxes with Logo | ELAPACK",
-  "/products/custom-cotton-pouches": "Custom Cotton Pouches & Bags with Logo | ELAPACK",
+  "/products/custom-cotton-pouches": "Custom Cotton Pouches & Drawstring Bags with Logo — MOQ 200 | ELAPACK",
   "/products/custom-cotton-envelope-pouches": "Custom Cotton Envelope Pouches with Logo | ELAPACK",
   "/products/leather-envelope-pouch": "Custom Leather Envelope Pouches with Logo | ELAPACK",
   "/products/custom-muslin-drawstring-pouch": "Custom Muslin Drawstring Pouches with Logo | ELAPACK",
@@ -162,7 +162,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/products/custom-satin-wig-bag":
     "Custom satin drawstring wig bags in your colour — dimensions, fabric and logo method confirmed on a physical sample first. MOQ 200 pcs. Request a quote.",
   "/products/custom-cotton-pouches":
-    "Natural cotton pouches and bags with drawstring or zip closures, printed with your logo and made to your size. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
+    "Custom printed cotton pouches made to your size: silkscreen, hot stamp, woven label or embroidery logos, drawstring, flap or zip closures. MOQ 200, samples in 3–5 days, DDP to the US on request.",
   "/products/custom-satin-pouches":
     "Lustrous satin pouches with drawstring or flap closure for jewelry, beauty and gifts — your colour, size and logo. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
   "/products/kraft-paper-shopping-bag":

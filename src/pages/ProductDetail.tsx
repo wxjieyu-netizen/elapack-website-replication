@@ -562,6 +562,26 @@ export default function ProductDetail() {
                 Choosing pouches for a jewelry line? Compare <Link to="/custom-jewelry-pouches/">jewelry pouches with logo</Link> across fabrics and closures.
               </p>
             )}
+            {slug === "custom-cotton-pouches" && (
+              <p className="product-description-text">
+                Comparing cotton with the other drawstring fabrics? Our <Link to="/news/how-to-choose-custom-drawstring-bags/">guide to choosing custom drawstring bags</Link> compares fabrics, logo methods and starting sizes side by side.
+              </p>
+            )}
+            {slug === "custom-satin-pouches" && (
+              <p className="product-description-text">
+                Choosing between satin and the other drawstring fabrics? See <Link to="/news/how-to-choose-custom-drawstring-bags/">how to choose custom drawstring bags</Link> for the fabric and logo-method comparison before you brief the sample.
+              </p>
+            )}
+            {slug === "custom-muslin-drawstring-pouch" && (
+              <p className="product-description-text">
+                Sizing a muslin pouch for a specific product? Our <Link to="/news/how-to-choose-custom-drawstring-bags/">drawstring bag guide</Link> lists common starting sizes by product type, from jewelry pouches to handbag dust bags.
+              </p>
+            )}
+            {slug === "custom-cotton-envelope-pouches" && (
+              <p className="product-description-text">
+                Need a cord closure instead of a flap? See <Link to="/news/how-to-choose-custom-drawstring-bags/">how to choose custom drawstring bags</Link> for the drawstring formats, fabrics and starting sizes.
+              </p>
+            )}
             <div className="related-grid">
               {related.map((item, i) => (
                 <Link

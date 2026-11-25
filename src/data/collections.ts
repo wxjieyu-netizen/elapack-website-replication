@@ -28,7 +28,7 @@ export type Collection = {
   /** Selection decision table (mirrors the landing tables): type | best for | what to confirm on the sample. */
   table?: { heading: string; columns: string[]; rows: string[][]; note?: string };
   /** Optional second table, rendered after the first; intro paragraphs print above the table. */
-  table2?: { heading: string; intro?: string[]; columns: string[]; rows: string[][]; note?: string };
+  table2?: { heading: string; intro?: string[]; columns: string[]; rows: string[][]; note?: string; image?: { src: string; alt: string } };
   /** Closing FAQ group; also emitted as FAQPage JSON-LD by the prerender, same mechanism as the landings. */
   faq?: { q: string; a: string }[];
   /** Prefilled closing CTA sentence linking to the contact form with a product context (pouches-bags pattern). */
