@@ -162,7 +162,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/products/custom-satin-wig-bag":
     "Custom satin drawstring wig bags in your colour — dimensions, fabric and logo method confirmed on a physical sample first. MOQ 200 pcs. Request a quote.",
   "/products/custom-cotton-pouches":
-    "Custom printed cotton pouches made to your size: silkscreen, hot stamp, woven label or embroidery logos, drawstring, flap or zip closures. MOQ 200, samples in 3–5 days, DDP to the US on request.",
+    "Custom printed cotton pouches made to your size: silkscreen, digital print, hot stamp, woven label or embroidery logos, drawstring, flap or zip closures. MOQ 200, samples in 3–5 days, DDP to the US on request.",
   "/products/custom-satin-pouches":
     "Lustrous satin pouches with drawstring or flap closure for jewelry, beauty and gifts — your colour, size and logo. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
   "/products/kraft-paper-shopping-bag":
@@ -180,7 +180,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/custom-gift-boxes": "Custom gift boxes with your logo — magnetic closure, satin ribbon-tie and two-piece rigid boxes in any size and finish, including candle jar and tin formats. MOQ from 200 pieces, free stock samples.",
   "/custom-candle-boxes": "Custom candle boxes with logo — rigid, magnetic and sleeve formats sized to jars and tins, with steady-glass inserts. MOQ 200 pieces, free stock samples.",
   "/custom-cosmetic-packaging": "Custom cosmetic packaging for beauty brands, including eyelash and press-on nail boxes, gift boxes and pouches. MOQ from 200 pieces.",
-  "/custom-drawstring-bags": "Custom drawstring bags with your logo — cotton, velvet, satin, muslin and linen pouches in any size, plus handbag and shoe dust bag formats. MOQ from 200 pieces, free stock samples.",
+  "/custom-drawstring-bags": "Custom drawstring bags and pouches for jewelry, beauty and gift brands — cotton, velvet, satin, muslin or linen, printed, foiled or embroidered with your logo. Made to your size from 200 pcs; DDP to the US.",
   "/ribbons-accessories": "Custom printed ribbons and packaging accessories — satin ribbon closures, logo-printed ribbon programs, cotton cords and drawstrings matched to your box and pouch programs.",
   "/custom-cosmetic-pouches": "Custom cosmetic pouches and makeup bags with your logo — drawstring, flap, envelope and zip styles in cotton, satin, velvet and canvas. MOQ 200 pcs.",
   "/subscription-box-packaging": "Custom subscription box packaging from one manufacturer — printed boxes, fabric pouches and insert cards for monthly themed programs. Pantone-matched, MOQ from 200 pieces, free stock samples.",

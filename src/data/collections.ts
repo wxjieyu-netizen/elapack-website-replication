@@ -29,6 +29,8 @@ export type Collection = {
   table?: { heading: string; columns: string[]; rows: string[][]; note?: string };
   /** Optional second table, rendered after the first; intro paragraphs print above the table. */
   table2?: { heading: string; intro?: string[]; columns: string[]; rows: string[][]; note?: string; image?: { src: string; alt: string } };
+  /** Optional third table, rendered between the first and second tables. */
+  table3?: { heading: string; intro?: string[]; columns: string[]; rows: string[][]; note?: string };
   /** Closing FAQ group; also emitted as FAQPage JSON-LD by the prerender, same mechanism as the landings. */
   faq?: { q: string; a: string }[];
   /** Prefilled closing CTA sentence linking to the contact form with a product context (pouches-bags pattern). */
@@ -893,11 +895,11 @@ export const collections: Collection[] = [
     eyebrow: "Drawstring Bags",
     h1: "Custom Drawstring Bags & Pouches",
     subhead:
-      "Review fabric, size, closure and logo options for drawstring bags; general MOQ starts at 200 pieces for applicable projects.",
+      "Custom drawstring bags and pouches, made to your product's size and printed with your logo, for jewelry, beauty, fragrance, eyewear, fashion and gift brands. Choose cotton, muslin, velvet, satin or linen, a cord to match, and a logo method that suits the fabric. Every bag is made to order from 200 pieces per design, with a custom sample in 3–5 days and production in 15–20 days.",
     metaDescription:
-      "Custom drawstring bag options for gifts and storage, including handbag and shoe dust bag briefs. General MOQ 200 pieces; confirm fabric, size and logo method in the quote.",
+      "Custom drawstring bags and pouches for jewelry, beauty and gift brands — cotton, velvet, satin, muslin or linen, printed, foiled or embroidered with your logo. Made to your size from 200 pcs; DDP to the US.",
     intro:
-      "Drawstring bags can serve gift, jewellery and storage briefs. Compare cotton, velvet, satin, muslin or linen against the actual product and required opening. Send the item dimensions, target bag size, artwork and quantity; confirm the fabric, size and feasible logo method in the quotation and sample. General MOQ starts at 200 pieces for applicable projects; design and colour allocation are confirmed by order.",
+      "Drawstring bags can serve gift, jewellery and storage briefs. Compare cotton, velvet, satin, muslin or linen against the actual product and required opening. Send the item dimensions, target bag size, artwork and quantity; confirm the fabric, size and feasible logo method in the quotation and sample. General MOQ starts at 200 pieces for applicable projects; design and colour allocation are confirmed by order. We make fabric drawstring pouches and dust bags for product packaging; we do not make drawstring backpacks or promotional gym sacks.",
     sections: [
       {
         heading: "Cotton drawstring bags",
@@ -928,6 +930,15 @@ export const collections: Collection[] = [
           { title: "Wig & hair bags", desc: "Review the packed item dimensions, interior contact and closure on a sample." },
         ],
       },
+      {
+        heading: "How a custom drawstring bag order works",
+        items: [
+          { title: "1. Send your brief", desc: "Product size, fabric, quantity and logo. We reply with a written quote within one business day." },
+          { title: "2. Approve a sample", desc: "A custom sample with your logo in 3–5 days (USD 30 plus USD 25 shipping, deducted from your first order). A free stock sample is also available for USD 25 shipping." },
+          { title: "3. Production", desc: "15–20 days for 200–20,000 pieces, 30–35 days for 20,000–50,000, after sample approval and payment." },
+          { title: "4. Delivery to the US", desc: "About 8–12 days by air or 15–20 days by sea from Shanghai or Shenzhen. We can quote DDP (duties paid) to your address." },
+        ],
+      },
     ],
     facts: [
       { label: "MOQ", value: "200 pieces per product or component" },
@@ -936,6 +947,8 @@ export const collections: Collection[] = [
       { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
       { label: "Payment", value: "T/T · PayPal" },
+      { label: "Delivery to the US", value: "About 8–12 days by air, 15–20 days by sea; DDP quoted on request" },
+      { label: "Quotation", value: "Written quotation within one business day" },
     ],
     productSlugs: [
       "custom-cotton-pouches",
@@ -947,7 +960,7 @@ export const collections: Collection[] = [
     factBlock: {
       updated: "November 2026",
       paragraph:
-        "ELAPACK custom drawstring bags — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering cotton, muslin, velvet, satin and linen drawstring bags, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK custom drawstring bags — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering cotton, muslin, velvet, satin and linen drawstring bags, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment. Delivery to the US takes about 8–12 days by air or 15–20 days by sea, and DDP can be quoted on request. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
     },
     table: {
       heading: "Choose a fabric for your drawstring bag",
@@ -958,6 +971,21 @@ export const collections: Collection[] = [
         ["Linen & blends", "Artisan and premium natural lines", "Texture, finished size and logo method on the sample"],
       ],
       note: "Sizes are quoted from the item dimensions — confirm the usable opening with the actual product in the bag before production.",
+    },
+    table3: {
+      heading: "Which logo method works on which fabric?",
+      intro: [
+        "The fabric decides how a logo looks and how long it lasts. We confirm the method on a physical sample before production.",
+      ],
+      columns: ["Fabric", "Most common logo methods", "Best for"],
+      rows: [
+        ["Cotton", "Silkscreen, full-colour digital print, hot stamp, woven label, embroidery", "Printed logos and multi-colour artwork; natural, eco look"],
+        ["Muslin", "One-colour silkscreen", "Light, low-cost pouches for soaps, favours, samples"],
+        ["Velvet", "Silkscreen, debossing, gold or silver hot stamp, embroidery", "Jewelry and premium gifts; foil and deboss read well on the pile"],
+        ["Satin", "Silkscreen, embroidery", "Fragrance, hair and lingerie; smooth, glossy finish"],
+        ["Linen", "Silkscreen", "Textured, matte natural look"],
+      ],
+      note: "Send vector artwork (AI, EPS or PDF); Pantone matching is available on request.",
     },
     table2: {
       heading: "What size drawstring bag do you need?",
@@ -981,7 +1009,7 @@ export const collections: Collection[] = [
       { q: "Can drawstring bags work as dust bags for handbags and shoes?", a: "Yes. Share the handbag or shoe pair dimensions, closure and logo placement, and review the proposed fabric and fit on a sample with the actual item inside." },
       { q: "Can a drawstring bag be paired with a box as a set?", a: "Yes. The bag and box are specified as separate components of one program, colour-matched to your reference; the 200-piece minimum applies to each component." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon–Fri, China time)." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Delivery to the US takes about 8–12 days by air or 15–20 days by sea from Shanghai or Shenzhen, and DDP can be quoted on request. We reply to enquiries within one business day (Mon–Fri, China time)." },
       {
         q: "What size drawstring bag do I need for my product?",
         a: "Measure the product as packed — width, height and depth — then start from a bag width of item width plus depth plus about 2–3 cm of ease, and an item height plus 3–5 cm on small pouches or 5–8 cm on large dust bags for the drawstring channel. The size table above gives common starting sizes by product type. Send us the dimensions with your enquiry and we will confirm the size on a sample with the actual item inside before production.",
@@ -990,6 +1018,10 @@ export const collections: Collection[] = [
         q: "Where can I buy custom drawstring bags?",
         a: "Directly from ELAPACK — the bags are made to order from 200 pieces, in your fabric, size and logo. Send the fabric, dimensions, quantity and artwork for a quotation, and approve a custom sample (USD 30 plus USD 25 shipping, made in 3–5 days) before production.",
       },
+      { q: "Can you print custom drawstring bags with my logo?", a: "Yes. Depending on the fabric we offer silkscreen, full-colour digital print, gold or silver hot stamp, debossing, woven labels and embroidery — silkscreen works on every fabric we make. Send your logo as a vector file and we confirm the method on a sample before production." },
+      { q: "How much do custom drawstring bags cost?", a: "Unit price depends on fabric, size, logo method, colours and quantity; larger runs lower the unit price. Send your size, fabric and quantity and we return a written quote within one business day." },
+      { q: "Can you deliver custom drawstring bags to the US with duties paid?", a: "Yes. We ship from Shanghai or Shenzhen by air (about 8–12 days) or sea (about 15–20 days), and can quote DDP so duties and customs clearance are handled before the bags reach you." },
+      { q: "Do you make drawstring backpacks?", a: "No. We make drawstring pouches, gift bags and dust bags for product packaging, from 200 pieces per design." },
     
     ],
     ctaLink: { lead: "Send your item dimensions, fabric, target size and quantity to", anchor: "request a drawstring bag quotation", product: "custom-cotton-pouches" },
@@ -998,8 +1030,12 @@ export const collections: Collection[] = [
       "custom-dust-bags-guide",
       "how-to-choose-custom-drawstring-bags",
       "custom-clothing-apparel-packaging-guide",
+      "velvet-satin-muslin-pouches-compared",
     ],
-    relatedPages: [{ path: "/pouches-bags/", label: "Compare all custom fabric pouches and bags" }],
+    relatedPages: [
+      { path: "/pouches-bags/", label: "Compare all custom fabric pouches and bags" },
+      { path: "/custom-jewelry-pouches/", label: "Custom jewelry pouches — drawstring and flap formats by jewelry type" },
+    ],
   },
   {
     slug: "ribbons-accessories",

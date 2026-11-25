@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1264 600" font-family="Montserrat, Arial, sans-serif">
+<rect x="0" y="0" width="1264" height="600" fill="#F8F8F8"/>
+<path d="M 186 196 L 180 452 Q 180 470 198 470 L 462 470 Q 480 470 474 452 L 474 196 Z" fill="#FBFAF7" stroke="#808080" stroke-width="2"/>
+<path d="M 186 196 L 188 158 Q 220 146 260 156 Q 295 166 330 155 Q 365 146 400 156 Q 440 166 472 157 L 474 196 Z" fill="#EDEAE2" stroke="#808080" stroke-width="2"/>
+<line x1="194" y1="172" x2="470" y2="172" stroke="#A3B18A" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M 476 164 Q 524 158 538 186" fill="none" stroke="#808080" stroke-width="2"/>
+<path d="M 476 182 Q 520 184 538 186" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="542" cy="188" r="5" fill="#808080"/>
+<path d="M 542 193 Q 534 214 528 226" fill="none" stroke="#808080" stroke-width="2"/>
+<path d="M 544 193 Q 546 216 552 228" fill="none" stroke="#808080" stroke-width="2"/>
+<path d="M 790 196 L 784 452 Q 784 470 802 470 L 1066 470 Q 1084 470 1078 452 L 1078 196 Z" fill="#FBFAF7" stroke="#808080" stroke-width="2"/>
+<path d="M 790 196 L 792 158 Q 824 146 864 156 Q 899 166 934 155 Q 969 146 1004 156 Q 1044 166 1076 157 L 1078 196 Z" fill="#EDEAE2" stroke="#808080" stroke-width="2"/>
+<line x1="798" y1="166" x2="1070" y2="166" stroke="#A3B18A" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="798" y1="180" x2="1070" y2="180" stroke="#A3B18A" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M 788 172 Q 744 168 730 190" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="726" cy="192" r="5" fill="#808080"/>
+<path d="M 726 197 Q 720 218 714 230" fill="none" stroke="#808080" stroke-width="2"/>
+<path d="M 1080 172 Q 1124 168 1138 190" fill="none" stroke="#808080" stroke-width="2"/>
+<circle cx="1142" cy="192" r="5" fill="#808080"/>
+<path d="M 1142 197 Q 1148 218 1154 230" fill="none" stroke="#808080" stroke-width="2"/>
+<text x="330" y="516" font-size="17" font-weight="600" fill="#33322F" text-anchor="middle">Single drawstring</text>
+<text x="330" y="542" font-size="14.5" fill="#5A5A56" text-anchor="middle">One cord — both ends exit at one side</text>
+<text x="934" y="516" font-size="17" font-weight="600" fill="#33322F" text-anchor="middle">Double drawstring</text>
+<text x="934" y="542" font-size="14.5" fill="#5A5A56" text-anchor="middle">Two cords — one end exits at each side</text>
+</svg>
