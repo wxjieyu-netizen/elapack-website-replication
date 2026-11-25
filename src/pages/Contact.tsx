@@ -47,28 +47,32 @@ const contactInfo = [
 
 const projectTypes = [
   "Luxury Gift Boxes",
-  "Shopping Bags",
-  "Custom Ribbons",
-  "Textile Packaging",
-  "Full Brand Collection",
+  "Pouches & Bags",
+  "Ribbons, Tags & Tissue",
+  "Display Props & Sample Cards",
+  "Complete Packaging Sets",
   "Other",
 ];
 
 /**
- * Preselect the closest Project Type chip from the product the visitor came
- * from (?product= slug). Chips keep their existing names; categories with no
- * matching chip (Retail Display Props, Packaging Paper, Sampling Cards) get
- * no preselection, as before.
+ * Preselect the Project Type chip from the product the visitor came from
+ * (?product= slug). Chip names align with the site's category names, so
+ * every product category maps to a chip (31/31 products covered).
+ * "Complete Packaging Sets" has no product category of its own — sets are
+ * combinations — so it is never preselected, only chosen manually.
  */
 function preselectProjectType(
   product: ReturnType<typeof getProductBySlug>,
 ): string {
   if (!product) return "";
   if (product.category === "Boxes") return "Luxury Gift Boxes";
-  if (product.category === "Pouches & Bags") {
-    return product.slug === "kraft-paper-shopping-bag"
-      ? "Shopping Bags"
-      : "Textile Packaging";
+  if (product.category === "Pouches & Bags") return "Pouches & Bags";
+  if (product.category === "Packaging Paper") return "Ribbons, Tags & Tissue";
+  if (
+    product.category === "Retail Display Props" ||
+    product.category === "Sampling Cards"
+  ) {
+    return "Display Props & Sample Cards";
   }
   return "";
 }
