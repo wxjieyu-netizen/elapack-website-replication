@@ -71,7 +71,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/products/custom-press-on-nail-boxes": "Custom Press-on Nail Boxes with Logo — From 200 Pcs | ELAPACK",
   "/products/custom-ring-boxes": "Custom Ring Boxes with Logo | ELAPACK",
   "/products/custom-tissue-paper": "Custom Tissue Paper with Logo | ELAPACK",
-  "/products/custom-hang-tags": "Custom Hang Tags with Logo | ELAPACK",
+  "/products/custom-hang-tags": "Custom Hang Tags with Logo for Clothing Brands — MOQ 500 | ELAPACK",
   "/products/custom-foam-inserts": "Custom Foam Inserts for Packaging Boxes | ELAPACK",
   "/products/custom-rigid-drawer-box": "Custom Rigid Drawer Boxes with Logo | ELAPACK",
   "/products/kraft-paper-shopping-bag": "Custom Kraft Paper Shopping Bags with Logo | ELAPACK",
