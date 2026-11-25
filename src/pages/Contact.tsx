@@ -120,7 +120,10 @@ export default function Contact() {
           </h1>
           <p className="page-subtitle reveal reveal-delay-2">
             Tell us about your brand and your packaging vision. We'll respond
-            within one business day (Mon–Fri, China time) with next steps.
+            within one business day (Mon–Fri, China time) with next steps. New
+            to ordering custom packaging? See{" "}
+            <Link to="/solutions/how-it-works/">how the process works</Link>{" "}
+            first.
           </p>
         </div>
       </section>

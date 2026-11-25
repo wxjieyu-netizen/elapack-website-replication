@@ -4284,3 +4284,145 @@ a.contact-value:hover {
     animation: none;
   }
 }
+
+/* ===== How It Works page (/solutions/how-it-works) — scoped hiw-* ===== */
+.hiw-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: var(--space-4);
+}
+
+.hiw-facts {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: var(--space-4) var(--space-5);
+}
+
+.hiw-facts-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: var(--space-3);
+}
+
+.hiw-facts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 2.5rem;
+}
+
+.hiw-fact dt {
+  font-size: 0.85rem;
+  color: var(--color-text-soft);
+}
+
+.hiw-fact dd {
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.hiw-step {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: var(--space-4);
+  padding: var(--space-5) 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.hiw-step:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.hiw-step-num {
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--color-accent);
+}
+
+.hiw-step-title {
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.6rem;
+}
+
+.hiw-step-text {
+  color: var(--color-text-soft);
+  line-height: 1.8;
+  max-width: 72ch;
+}
+
+.hiw-read {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--color-text-soft);
+}
+
+.hiw-read a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-accent);
+  padding-bottom: 1px;
+}
+
+.hiw-read a:hover {
+  color: var(--color-text);
+}
+
+.hiw-video-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+  max-width: 560px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+  text-decoration: none;
+  transition: box-shadow 0.35s ease, transform 0.35s ease;
+}
+
+.hiw-video-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(90, 90, 90, 0.1);
+}
+
+.hiw-video-card img {
+  width: 132px;
+  height: 84px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex: none;
+}
+
+.hiw-video-label strong {
+  display: block;
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.hiw-video-label small {
+  color: var(--color-text-soft);
+}
+
+@media (max-width: 860px) {
+  .hiw-facts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hiw-step {
+    grid-template-columns: 3.6rem 1fr;
+    gap: var(--space-3);
+  }
+
+  .hiw-step-num {
+    font-size: 1.8rem;
+  }
+}

@@ -12,6 +12,7 @@ import News from "./pages/News";
 import Article from "./pages/Article";
 import Contact from "./pages/Contact";
 import Video from "./pages/Video";
+import HowItWorks from "./pages/HowItWorks";
 import Landing from "./pages/Landing";
 import Collection from "./pages/Collection";
 
@@ -49,6 +50,7 @@ export function AppRoutes() {
         <Route path="/products/:slug" element={<ProductDetail />} />
         <Route path="/industries" element={<Industries />} />
         <Route path="/solutions" element={<Solutions />} />
+        <Route path="/solutions/how-it-works" element={<HowItWorks />} />
         <Route path="/about" element={<About />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/news" element={<News />} />

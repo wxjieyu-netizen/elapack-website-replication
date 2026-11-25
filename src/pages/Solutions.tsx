@@ -99,6 +99,10 @@ const solutionContent: Record<
       },
     ],
     links: [
+      {
+        label: "The full process, step by step",
+        href: "/solutions/how-it-works/",
+      },
       { label: "Process and video page", href: "/video/" },
       { label: "Sample guide", href: "/news/custom-packaging-samples-guide/" },
     ],

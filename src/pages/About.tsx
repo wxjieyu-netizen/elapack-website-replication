@@ -99,7 +99,11 @@ export default function About() {
                 around each order's specification. ELAPACK is operated by Wuxi
                 Magic Packaging Co., Ltd., based in Wuxi, Jiangsu, China.
                 Production is housed in a 1,000-square-meter facility with
-                three production lines. The company is ISO 9001 certified.
+                three production lines. The company is ISO 9001 certified.{" "}
+                <Link to="/solutions/how-it-works/">
+                  See how an order moves from enquiry to delivery
+                </Link>
+                .
               </p>
               <p className="about-text">
                 Share your product dimensions, material preferences, branding,
