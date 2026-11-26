@@ -729,6 +729,7 @@ export const collections: Collection[] = [
       "magnetic-gift-boxes-wholesale-guide",
       "apparel-gift-boxes-guide",
       "custom-gift-packaging-guide",
+      "mothers-day-packaging-timeline",
       "valentines-day-packaging-timeline",
       "custom-packaging-samples-guide",
     ],
