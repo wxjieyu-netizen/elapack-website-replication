@@ -4,12 +4,21 @@ import { Link, useParams } from "react-router-dom";
 import { getProductBySlug, products, productGuides, type Product } from "../data/products";
 import { getArticleBySlug } from "../data/articles";
 import { categoryCopy, neutralCopy, faqsFor, type CategoryCopy } from "../data/categoryCopy";
+import { CASES } from "./CaseStudies";
 
 const trustBadges = [
   { icon: "M", label: "Custom Pantone Matching" },
   { icon: "C", label: "Custom Options" },
   { icon: "D", label: "Design & Samples" },
 ];
+
+/** Case studies shown on product pages: product slug -> case slugs. */
+const productCaseStudies: Record<string, string[]> = {
+  "custom-velvet-pouches": ["velvet-gwp-pouches-beauty-brand", "jewelry-drawer-box-pouch-set"],
+  "custom-ring-boxes": ["jewelry-drawer-box-pouch-set", "sustainable-magnetic-jewelry-gift-box"],
+  "custom-rigid-drawer-box": ["jewelry-drawer-box-pouch-set"],
+  "magnetic-closure-gift-box": ["sustainable-magnetic-jewelry-gift-box"],
+};
 
 const processSteps = [
   { step: "01", title: "Establish Contact" },
@@ -448,6 +457,59 @@ export default function ProductDetail() {
           </div>
         </div>
       </section>)}
+
+      {/* Case studies */}
+      {(productCaseStudies[product.slug] ?? []).length > 0 && (
+        <section className="section product-case-studies-section">
+          <div className="container">
+            <div className="section-header-center reveal">
+              <p className="eyebrow">Case Studies</p>
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+                Projects We Have Made
+              </h2>
+              <p className="section-subtitle">
+                The brief, the specification we built, and how each order went.{" "}
+                <Link to="/case-studies/" className="text-link">See all case studies</Link>
+              </p>
+            </div>
+            <div
+              className="reveal reveal-delay-1"
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+                gap: "1.5rem",
+                maxWidth: "960px",
+                margin: "0 auto",
+              }}
+            >
+              {CASES.filter((c) => productCaseStudies[product.slug].includes(c.slug)).map((c) => (
+                <Link
+                  key={c.slug}
+                  to={`/case-studies/${c.slug}/`}
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <div className="case-card">
+                    <div className="case-card-image">
+                      <img src={c.hero.src} alt={c.hero.alt} loading="lazy" width={c.hero.w} height={c.hero.h} />
+                      <span className="case-category">{c.cardMeta}</span>
+                    </div>
+                    <div className="case-card-body">
+                      <h3 className="case-solution">{c.h1}</h3>
+                      <div className="case-divider" />
+                      <ul className="case-points">
+                        <li className="case-point">
+                          <span className="case-point-dot" />
+                          {c.cardLine}
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* FAQ */}
       <section className="section product-faq-section">
