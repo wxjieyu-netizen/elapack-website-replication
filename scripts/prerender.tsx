@@ -78,6 +78,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/products/custom-hang-tags": "Custom Hang Tags with Logo for Clothing Brands — MOQ 500 | ELAPACK",
   "/products/custom-foam-inserts": "Custom Foam Inserts for Packaging Boxes | ELAPACK",
   "/products/custom-rigid-drawer-box": "Custom Rigid Drawer Boxes with Logo | ELAPACK",
+  "/products/custom-mailer-boxes": "Custom Mailer Boxes with Logo — Printed Inside & Out, from 200 pcs | ELAPACK",
   "/products/kraft-paper-shopping-bag": "Custom Kraft Paper Shopping Bags with Logo | ELAPACK",
   "/products/black-leather-jewelry-box": "Custom Jewelry Boxes with Logo — Black | ELAPACK",
   "/products/custom-white-jewelry-box": "White Jewelry Boxes with Logo, Custom Sizes from 200 pcs | ELAPACK",
@@ -147,6 +148,8 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
     "Custom hang tags from 500 pieces — cardstocks, hot foil and print colour-matched to your boxes and bags, with optional cotton or jute cords. Custom samples in 3–5 days.",
   "/products/custom-foam-inserts":
     "Custom foam inserts cut to your product and box — EVA, sponge, pearl cotton or card, with flocked surfaces. Supplied with your boxes, from 200 sets.",
+  "/products/custom-mailer-boxes":
+    "Custom printed mailer boxes with your logo, inside and out — E-flute, kraft or specialty paper, six standard sizes from 15 × 10 × 4 cm or your own. MOQ 200, samples in 3–5 days.",
   "/products/custom-rigid-drawer-box":
     "Custom rigid drawer boxes with your logo — slide-out tray in a sleeve, fitted inserts and ribbon or tab pull. MOQ 200 pieces, samples in 3–5 days.",
   "/products/custom-microfiber-cleaning-cloth-eyewear":

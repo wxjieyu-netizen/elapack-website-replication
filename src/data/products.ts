@@ -2541,6 +2541,110 @@ export const products: Product[] = [
         "Construction: board and build are proposed for your product's weight and dimensions, and confirmed on a loaded sample before production",
       ],
     },
+    {
+      slug: "custom-mailer-boxes",
+      name: "Custom Mailer Boxes",
+      category: "Boxes",
+      shortDesc: "Printed corrugated mailer boxes with your logo inside and out — E-flute, kraft or specialty paper, six standard sizes or your own, from 200 pieces.",
+      intro: "Custom mailer boxes are tuck-front corrugated boxes that ship your product and open as the unboxing. ELAPACK prints them with your logo outside and inside, in six standard sizes or made to your product, on E-flute, B-flute, F-flute or kraft board — from 200 pieces, with a custom sample in 3–5 days.",
+      description: "How a mailer box is built: one die-cut sheet of corrugated board folds into a box with a hinged lid and a front tuck, so it closes without a separate lid and opens like a gift box. The outer liner carries the print, the fluted layer gives the box its crush resistance, and the inner liner can be printed too — so the customer sees your brand on the outside, under the lid and on the inside walls.\n\nChoosing the board: E-flute (1.5–1.8 mm) is the usual choice for e-commerce mailers — stiff enough to hold its shape in the post, with a flat surface that prints well. The most cost-effective full-colour build is E-flute with a 250 g white board outer liner. Kraft corrugated (1.5–3.0 mm) is left unlaminated in its natural brown and is usually printed in one colour, most often black, for brands that want a plain, recyclable look. B-flute (2.8–3.2 mm) adds cushioning and crush resistance for heavier products and long international routes. F-flute (0.8–1.2 mm) is thinner than E-flute and suits small premium boxes. For a premium feel, a specialty paper — a textured linen paper or a soft-touch paper — is wrapped over the corrugated board.\n\nPrinting and finishes: full-colour offset printing laminated onto corrugated board, flexo, digital or silkscreen printing, with Pantone spot colours on request, outside and inside. Finishes include matte, gloss or soft-touch lamination, gold or silver foil, embossing and spot UV. The method is proposed for your artwork, quantity and board, and confirmed on the sample.\n\nSizes: our six standard sizes run from 15 × 10 × 4 cm for beauty products and jewelry boxes to 36 × 26 × 6 cm for A4 documents and 14-inch laptops, all quoted as outside dimensions; any other size is made to your product at the same 200-piece minimum. The full size table, drawn to scale, is in our standard box sizes guide. Inside, a paper card insert or an EVA insert holds the product in place.\n\nHow ordering works: send your product dimensions and weight, the size you have in mind (or ask us to propose one), the board and print you want, your logo artwork (AI, PDF or PNG) and quantity. We send a written quotation within one business day and a free digital dieline preview. The custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days; production typically takes 15–20 days after sample approval and payment. Mailer boxes can be ordered together with matching pouches, tissue paper and cards as one packaging set.",
+      image: "/images/products/custom-mailer-boxes/custom-mailer-boxes-hero.webp",
+      gallery: [
+        "/images/products/custom-mailer-boxes/custom-mailer-boxes-hero.webp",
+        "/images/products/custom-mailer-boxes/custom-mailer-boxes-detail-01.webp",
+        "/images/products/custom-mailer-boxes/custom-mailer-boxes-detail-02.webp",
+        "/images/products/custom-mailer-boxes/custom-mailer-boxes-detail-03.webp",
+        "/images/products/custom-mailer-boxes/custom-mailer-boxes-detail-04.webp",
+      ],
+      galleryAlts: [
+        "Two custom printed mailer boxes, one open, with a blue, cream and green pattern printed outside and inside and a logo on the lid",
+        "Six blue printed mailer boxes in the standard sizes T1 to T6 laid out beside a steel ruler",
+        "Close-up of the cut edge of an E-flute corrugated mailer box, showing the fluted layer between a green printed liner and a kraft inner liner",
+        "Kraft corrugated mailer box printed with a one-colour black logo",
+        "Purple specialty paper mailer box with a gold foil logo on the lid",
+      ],
+      galleryRatio: "1 / 1",
+      descriptionImage: "/images/products/custom-mailer-boxes/custom-mailer-boxes-description.webp",
+      descriptionImageAlt: "Hand lifting the lid of a green mailer box with a printed kraft interior, holding an amber pump bottle in tissue paper",
+      descriptionImageRatio: "4 / 3",
+      customizeImage: "/images/products/custom-mailer-boxes/custom-mailer-boxes-customize.webp",
+      customizeImageAlt: "Six kraft mailer boxes in the standard sizes T1 to T6 with a one-colour black logo, laid out beside a steel ruler",
+      customizeImageRatio: "3 / 2",
+      materials: "E-flute, B-flute, F-flute or kraft corrugated board; white board or specialty paper outer liner",
+      moq: "200 pcs",
+      leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time is separate",
+      industries: ["Beauty", "Fashion", "Jewelry", "Gift"],
+      features: [
+        {
+          title: "Printed Outside and Inside",
+          desc: "Full-colour or Pantone print on the outer and inner liner, so the brand shows on the box, under the lid and on the inside walls.",
+        },
+        {
+          title: "Six Standard Sizes, or Yours",
+          desc: "From 15 × 10 × 4 cm to 36 × 26 × 6 cm outside, or made to your product at the same 200-piece minimum.",
+        },
+        {
+          title: "E-Flute, Kraft or Specialty Paper",
+          desc: "Cost-effective E-flute with a white board liner, natural kraft with one-colour print, or a specialty paper wrap for a premium feel.",
+        },
+        {
+          title: "Inserts that Hold the Product",
+          desc: "A paper card insert or an EVA insert keeps the product in place, sized to the box and confirmed on the sample.",
+        },
+      ],
+      specs: [
+        { label: "Structure", value: "Tuck-front corrugated mailer box with a hinged lid, die-cut from one sheet" },
+        { label: "Standard sizes (outside)", value: "T1 15 × 10 × 4 cm; T2 20 × 14 × 4 cm; T3 27 × 16 × 5 cm; T4 25 × 20 × 7 cm; T5 32 × 22 × 12 cm; T6 36 × 26 × 6 cm; custom sizes included" },
+        { label: "Board", value: "E-flute 1.5–1.8 mm (standard); B-flute 2.8–3.2 mm; F-flute 0.8–1.2 mm; kraft corrugated 1.5–3.0 mm" },
+        { label: "Printing", value: "Full-colour offset laminated to corrugated, flexo, digital or silkscreen; Pantone spot colours; outside and inside print" },
+        { label: "Finishes", value: "Matte, gloss or soft-touch lamination; gold or silver foil; embossing; spot UV" },
+        { label: "Inserts", value: "Paper card insert or EVA insert" },
+        { label: "MOQ", value: "200 pieces, custom sizes included" },
+        { label: "Sample & Production", value: "Custom sample USD 30 + USD 25 shipping, made in 3–5 days; production typically 15–20 days after sample approval and payment" },
+        { label: "Delivery to the US", value: "Sea or air from Shanghai or Shenzhen: about 8–12 days by air or 15–20 days by sea; DDP quoted on request" },
+      ],
+      faqs: [
+        {
+          q: "What sizes do your custom mailer boxes come in?",
+          a: "Six standard sizes, measured outside: 15 × 10 × 4 cm, 20 × 14 × 4 cm, 27 × 16 × 5 cm, 25 × 20 × 7 cm, 32 × 22 × 12 cm and 36 × 26 × 6 cm. Any other size is made to your product at the same 200-piece minimum.",
+        },
+        {
+          q: "What is the minimum order for custom mailer boxes?",
+          a: "200 pieces per design, custom sizes included.",
+        },
+        {
+          q: "Can you print the inside of the mailer box?",
+          a: "Yes. The inner liner can be printed in full colour or a Pantone spot colour, so the logo or a pattern shows when the lid opens.",
+        },
+        {
+          q: "Which board should I choose?",
+          a: "For most e-commerce products, E-flute with a 250 g white board outer liner gives full-colour print at a good price. Choose natural kraft with one-colour print for a plain, recyclable look, B-flute for heavier products or long routes, and a specialty paper wrap for a premium feel.",
+        },
+        {
+          q: "Can you match our brand colours?",
+          a: "Yes. Send Pantone references with your artwork; the colours are printed as spot colours where the method allows, and checked on the physical sample before production.",
+        },
+        {
+          q: "How is a custom mailer box different from a shipping carton?",
+          a: "A shipping carton is a plain stock box bought by size. A custom mailer box is printed with your brand and sized to your product, so it is both the shipping box and the unboxing — and a box sized to the product avoids paying dimensional weight for empty space.",
+        },
+        {
+          q: "Can you deliver custom mailer boxes to the US?",
+          a: "Yes. We ship by air (about 8–12 days) or by sea (15–20 days) from Shanghai or Shenzhen, and quote DDP on request so duties and customs clearance are handled before arrival.",
+        },
+      ],
+      customizationOptions: [
+        "Six standard sizes or a custom size",
+        "E-flute, B-flute, F-flute or kraft board",
+        "Full-colour or Pantone print, outside and inside",
+        "Lamination, foil, embossing and spot UV",
+        "Paper card or EVA insert",
+      ],
+      keyFacts: [
+        ...KEY_FACTS_LINES,
+        "Mailer boxes: six standard outside sizes from 15 × 10 × 4 cm to 36 × 26 × 6 cm, printed outside and inside on E-flute, B-flute, F-flute or kraft board",
+      ],
+    },
 ];
 
 export const categories = [
@@ -2723,6 +2827,11 @@ export const productGuides: Record<string, string[]> = {
   "custom-rigid-drawer-box": [
     "drawer-box-packaging-guide",
     "packaging-inserts-guide",
+  ],
+  "custom-mailer-boxes": [
+    "standard-box-sizes",
+    "custom-printed-boxes-guide",
+    "unboxing-experience-guide",
   ],
   "kraft-paper-shopping-bag": [
     "custom-gift-packaging-guide",
