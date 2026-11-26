@@ -42,13 +42,13 @@ export const collections: Collection[] = [
   {
     slug: "custom-jewelry-boxes",
     eyebrow: "Jewelry Boxes",
-    h1: "Custom Jewelry Boxes with Logo",
+    h1: "Custom Jewelry Boxes with Logo — Wholesale",
     subhead:
       "Rigid, magnetic and wrapped boxes for rings, earrings, necklaces and bracelets — your size, structure, finish and logo.",
     metaDescription:
-      "Custom jewelry boxes with your logo — rigid lift-off lids, magnetic flip-tops, ribbon-tie and faux leather boxes with EVA, velvet or pulp inserts. MOQ from 200 pieces, free stock samples.",
+      "Custom jewelry boxes wholesale from our own factory in Wuxi — rigid lift-off, magnetic and ribbon-tie jewelry packaging boxes with EVA, velvet or pulp inserts. MOQ 200; DDP to the US on request.",
     intro:
-      "ELAPACK makes custom jewelry boxes for brands selling in the US and Europe. We make each order to your specification — box structure, wrap colour, interior insert and branding — so the box fits your jewelry and carries your brand.",
+      "ELAPACK is a custom jewelry box manufacturer and supplier for brands selling in the US and Europe, making every order in our own factory in Wuxi. We make each order to your specification — box structure, wrap colour, interior insert and branding — so the box fits your jewelry and carries your brand.",
     sections: [
       {
         heading: "By jewelry type",
@@ -57,7 +57,7 @@ export const collections: Collection[] = [
           { title: "Earring & pendant boxes", desc: "Fitted inserts that hold pairs and chains in place.", link: { path: "/news/custom-earring-boxes-guide/", label: "Choose earring boxes by type, insert and structure" } },
           { title: "Bracelet & small gift boxes", desc: "Compact footprints for retail counter and gifting.", link: { path: "/news/necklace-bracelet-packaging-guide/", label: "See bracelet box sizing and formats" } },
           { title: "Complete jewelry sets", desc: "Box, pouch and insert designed together as one program.", link: { path: "/sets/", label: "Explore box and pouch sets" } },
-          { title: "Jewelry box sizes", desc: "The sizes we run most often for rings, earrings, pendants, bracelets, necklaces and sets, in cm and inches.", link: { path: "/news/jewelry-box-sizes-guide/", label: "Open the jewelry box size chart" } },
+          { title: "Jewelry box sizes", desc: "Sizes we make most often (outside, cm): ring and stud boxes 5 × 5 × 3.5 or 6 × 6 × 4; pendant boxes 7 × 7 × 3; bangle boxes 9 × 9 × 4; long necklace boxes 23 × 5 × 3; set boxes up to 18 × 18 × 4.5. Any size is made to your piece.", link: { path: "/news/jewelry-box-sizes-guide/", label: "Open the jewelry box size chart" } },
         ],
       },
       {
@@ -103,6 +103,7 @@ export const collections: Collection[] = [
       { label: "Custom sample", value: "USD 30 + USD 25 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Delivery to the US", value: "About 8–12 days by air, 15–20 days by sea; DDP quoted on request" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
     productSlugs: [
@@ -116,7 +117,7 @@ export const collections: Collection[] = [
       updated: "November 2026",
       top: true,
       paragraph:
-        "ELAPACK custom jewelry boxes — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering rigid lift-off, magnetic flip-top, ribbon-tie and faux leather boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days. A custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork. The sample fee is deductible against the confirmed first order. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal. Quotations: a written quotation within 1 business day of your enquiry.",
+        "ELAPACK custom jewelry boxes — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering rigid lift-off, magnetic flip-top, ribbon-tie and faux leather boxes, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days. A custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork. The sample fee is deductible against the confirmed first order. Finished orders ship by air or by sea from Shanghai or Shenzhen; delivery to the US takes about 8–12 days by air or 15–20 days by sea, and DDP can be quoted on request. Payment by T/T or PayPal. Quotations: a written quotation within 1 business day of your enquiry.",
     },
     table: {
       heading: "Choose a jewelry box structure",
@@ -133,7 +134,8 @@ export const collections: Collection[] = [
       { q: "Which inserts are available?", a: "EVA for a contoured, precise fit; sponge under velvet or satin covering; molded pulp; and flocked or velvet finishes for premium lines. Check the insert with the actual piece in a sample." },
       { q: "What do I send for an accurate quote?", a: "The jewelry dimensions and weight, any certificate or card that must fit inside, the structure and insert, logo artwork and colour reference, the finish, the box quantity and the destination — so the quotation prices one clear specification." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon–Fri, China time)." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Delivery to the US takes about 8–12 days by air or 15–20 days by sea from Shanghai or Shenzhen, and DDP can be quoted on request. We reply to enquiries within one business day (Mon–Fri, China time)." },
+      { q: "Do you sell jewelry boxes wholesale?", a: "Yes, as made-to-order wholesale: every jewelry box is produced to your specification in our own factory, from 200 pieces per design. We do not sell stock boxes off the shelf, so size, wrap, insert and logo are all yours." },
       {
         q: "Where can I buy custom jewelry boxes?",
         a: "Directly from ELAPACK — jewelry boxes are made to order from 200 pieces, not stocked. Send the box structure you have in mind, your product dimensions, quantity and logo artwork for a quotation, and approve a custom sample (USD 30 plus USD 25 shipping, made in 3–5 days) before production.",
