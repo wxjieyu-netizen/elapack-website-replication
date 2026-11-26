@@ -57,6 +57,7 @@ export const collections: Collection[] = [
           { title: "Earring & pendant boxes", desc: "Fitted inserts that hold pairs and chains in place.", link: { path: "/news/custom-earring-boxes-guide/", label: "Choose earring boxes by type, insert and structure" } },
           { title: "Bracelet & small gift boxes", desc: "Compact footprints for retail counter and gifting.", link: { path: "/news/necklace-bracelet-packaging-guide/", label: "See bracelet box sizing and formats" } },
           { title: "Complete jewelry sets", desc: "Box, pouch and insert designed together as one program.", link: { path: "/sets/", label: "Explore box and pouch sets" } },
+          { title: "Jewelry box sizes", desc: "The sizes we run most often for rings, earrings, pendants, bracelets, necklaces and sets, in cm and inches.", link: { path: "/news/jewelry-box-sizes-guide/", label: "Open the jewelry box size chart" } },
         ],
       },
       {

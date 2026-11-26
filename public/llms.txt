@@ -49,6 +49,7 @@ Key facts for buyers:
 - [Dieline vs Die Cut: What Die Lines Mean in Packaging](https://elapack.com/news/die-cutting-and-dielines-guide/): what a dieline is, how to read one, and how to prepare artwork on it
 - [Custom Rigid Boxes: Construction, Specifications and Ordering](https://elapack.com/news/custom-rigid-boxes-guide/): rigid box structures, board and insert specifications, and what drives cost
 - [Box Dimensions: Length, Width, Height and How to Measure Them](https://elapack.com/news/box-dimensions-guide/): how box dimensions are written, measured, and converted to internal fit
+- [Jewelry Box Sizes & Dimensions: Chart for Rings, Earrings, Necklaces & Bracelets](https://elapack.com/news/jewelry-box-sizes-guide/): the jewelry box sizes ELAPACK runs most often, by jewelry type, with measuring and inside-vs-outside guidance
 - [Packaging Inserts: Materials, Trade-Offs and Specification Data](https://elapack.com/news/packaging-inserts-guide/): EVA, sponge, pearl cotton and paperboard inserts compared
 - [Jewelry Box Inserts: Lining Materials, Cavity Layouts and Spec Data](https://elapack.com/news/jewelry-box-inserts-guide/): insert materials and cavity layouts for jewelry boxes
 - [CMYK Printing for Custom Packaging: Process Colour, Gamut Limits and Sample Approval](https://elapack.com/news/cmyk-printing-for-custom-packaging/): CMYK gamut limits and how colour is approved against the sample

@@ -2562,6 +2562,7 @@ export const productGuides: Record<string, string[]> = {
       "ppwr-recyclability-grades-guide",
   ],
   "custom-ring-boxes": [
+    "jewelry-box-sizes-guide",
     "custom-watch-boxes-guide",
     "custom-ring-boxes-guide",
     "jewelry-box-inserts-guide",
