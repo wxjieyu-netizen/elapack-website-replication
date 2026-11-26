@@ -1124,6 +1124,9 @@ export const products: Product[] = [
     galleryRatio: "1 / 1",
     customizeImage:
       "/images/products/custom-cotton-pouches/custom-cotton-pouches-logo-methods.webp",
+    descriptionImage:
+      "/images/products/custom-cotton-pouches/custom-cotton-pouches-fabrics.webp",
+    descriptionImageRatio: "16 / 9",
     customizeImageRatio: "3 / 2",
     materials: "Natural cotton, cotton cord",
     moq: "200 pcs",
