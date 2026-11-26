@@ -13,6 +13,7 @@ import Article from "./pages/Article";
 import Contact from "./pages/Contact";
 import Video from "./pages/Video";
 import HowItWorks from "./pages/HowItWorks";
+import CaseStudies, { CaseStudyPage } from "./pages/CaseStudies";
 import Landing from "./pages/Landing";
 import Collection from "./pages/Collection";
 
@@ -51,6 +52,10 @@ export function AppRoutes() {
         <Route path="/industries" element={<Industries />} />
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/solutions/how-it-works" element={<HowItWorks />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
+        <Route path="/case-studies/velvet-gwp-pouches-beauty-brand" element={<CaseStudyPage slug="velvet-gwp-pouches-beauty-brand" />} />
+        <Route path="/case-studies/jewelry-drawer-box-pouch-set" element={<CaseStudyPage slug="jewelry-drawer-box-pouch-set" />} />
+        <Route path="/case-studies/sustainable-magnetic-jewelry-gift-box" element={<CaseStudyPage slug="sustainable-magnetic-jewelry-gift-box" />} />
         <Route path="/about" element={<About />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/news" element={<News />} />

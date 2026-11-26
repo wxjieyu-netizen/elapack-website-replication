@@ -573,6 +573,12 @@ export default function Home() {
               <span>›</span>
             </button>
           </div>
+          <div className="section-header-center reveal" style={{ marginTop: "2rem" }}>
+            <Link to="/case-studies/" className="text-link">
+              See our case studies
+              <span className="text-link-arrow">→</span>
+            </Link>
+          </div>
         </div>
       </section>
 

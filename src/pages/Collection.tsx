@@ -252,6 +252,25 @@ export default function Collection({ slug }: { slug: string }) {
         </section>
       )}
 
+      {["custom-jewelry-boxes", "custom-drawstring-bags", "custom-jewelry-pouches"].includes(slug) && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="markets-box reveal">
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
+                Case studies
+              </h2>
+              <p className="markets-note" style={{ maxWidth: "820px" }}>
+                See how briefs like these became finished packaging in our{" "}
+                <Link to="/case-studies/" className="text-link">
+                  case studies
+                </Link>{" "}
+                — the brief, the specification we built, and how each order went.
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
       {guides.length > 0 && (
         <section className="section" style={{ paddingTop: 0 }}>
           <div className="container">

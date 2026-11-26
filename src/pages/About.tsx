@@ -365,6 +365,11 @@ export default function About() {
             <p className="markets-note">
               We discuss packaging requirements with buyers in these
               categories, including size, material, branding, and quantity.
+              See how briefs became finished packaging in our{" "}
+              <Link to="/case-studies/" className="text-link">
+                case studies
+              </Link>
+              .
             </p>
             <Link to="/contact/" className="btn-primary">
               Partner With Us
