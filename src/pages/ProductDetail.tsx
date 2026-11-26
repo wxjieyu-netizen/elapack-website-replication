@@ -101,7 +101,7 @@ export default function ProductDetail() {
                 className="product-gallery-main"
                 style={product.galleryRatio ? { aspectRatio: product.galleryRatio } : undefined}
               >
-                <img src={galleryImgs[activeImg] ?? product.image} alt={review?.gallery_review?.[activeImg]?.alt_proposal ?? product.name} width={1254} height={1254} />
+                <img src={galleryImgs[activeImg] ?? product.image} alt={review?.gallery_review?.[activeImg]?.alt_proposal ?? product.galleryAlts?.[activeImg] ?? product.name} width={1254} height={1254} />
                 <span className="product-detail-category">
                   {isSampleCard ? "Sampling Cards" : product.category}
                 </span>
@@ -117,7 +117,7 @@ export default function ProductDetail() {
                       role="button"
                       aria-label={`View photo ${i + 1}`}
                     >
-                      <img src={img} alt={review?.gallery_review?.[i]?.alt_proposal ?? `${product.name} packaging reference ${i + 1}`} loading="lazy" width={1254} height={1254} />
+                      <img src={img} alt={review?.gallery_review?.[i]?.alt_proposal ?? product.galleryAlts?.[i] ?? `${product.name} packaging reference ${i + 1}`} loading="lazy" width={1254} height={1254} />
                     </div>
                   ))}
               </div>
@@ -258,7 +258,7 @@ export default function ProductDetail() {
             <div className="product-description-image reveal reveal-delay-2" style={product.descriptionImageRatio ? { aspectRatio: product.descriptionImageRatio } : undefined}>
               <img
                 src={product.descriptionImage ?? "/product-collection.webp"}
-                alt={`${product.name} showcase`}
+                alt={product.descriptionImageAlt ?? `${product.name} showcase`}
                 loading="lazy"
               width={1408}
               height={768}
@@ -303,7 +303,7 @@ export default function ProductDetail() {
             {(!needsSpecReview || product.customizeImage) && <div className="product-customize-bags-image reveal" style={product.customizeImageRatio ? { aspectRatio: product.customizeImageRatio } : undefined}>
               <img
                 src={product.customizeImage ?? "/custom-options.webp"}
-                alt={`Customize your ${copy.noun}`}
+                alt={product.customizeImageAlt ?? `Customize your ${copy.noun}`}
                 loading="lazy"
               width={1408}
               height={768}

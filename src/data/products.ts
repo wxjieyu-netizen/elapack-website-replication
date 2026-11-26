@@ -13,6 +13,11 @@ export type Product = {
   image: string;
   /** Optional extra gallery photos after the hero; falls back to [image]. */
   gallery?: string[];
+  /** Optional alt text per gallery image, same order as gallery. */
+  galleryAlts?: string[];
+  /** Optional alt text for descriptionImage and customizeImage. */
+  descriptionImageAlt?: string;
+  customizeImageAlt?: string;
   /** Optional product-specific image for the Product Description section. */
   descriptionImage?: string;
   /** Optional product-specific image for the Customization Options section. */
@@ -246,6 +251,16 @@ export const products: Product[] = [
       "/images/products/custom-ring-boxes/custom-ring-boxes-detail-04.webp",
       "/images/products/custom-ring-boxes/custom-ring-boxes-detail-05.webp",
     ],
+    galleryAlts: [
+      "Navy custom ring box open with a gold band in a velvet slot and a gold foil logo inside the lid",
+      "Closed navy ring box with a gold foil logo on the lid",
+      "Close-up of a gold foil logo on a textured navy ring box lid",
+      "Single-slot and double-slot velvet ring box inserts, top view",
+      "Two ring box sizes side by side with a ruler for scale",
+      "Ring boxes in three finishes: taupe velvet, black leather-look and burgundy paper",
+    ],
+    descriptionImageAlt: "Hand opening a navy ring box with a gold band inside",
+    customizeImageAlt: "Fitting velvet ring inserts into ring boxes by hand",
     descriptionImage: "/images/products/custom-ring-boxes/custom-ring-boxes-description.webp",
     customizeImage: "/images/products/custom-ring-boxes/custom-ring-boxes-customize.webp",
     materials: "Confirm the proposed exterior and insert materials in the quotation and sample",
@@ -434,11 +449,21 @@ export const products: Product[] = [
     image: "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-hero.webp",
     gallery: [
       "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-hero.webp",
+      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-05.webp",
+      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-06.webp",
+      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-07.webp",
       "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-01.webp",
-      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-02.webp",
-      "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-03.webp",
       "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-detail-04.webp",
     ],
+    galleryAlts: [
+      "Green magnetic closure gift box open with a ring box and a drawstring pouch inside, gold foil logo on the lid",
+      "Three magnetic closure gift boxes in green, navy and beige wraps with gold foil logos",
+      "Close-up of the textured wrap and folded corner of a green magnetic gift box",
+      "Green magnetic gift box with a black two-cavity EVA insert, top view",
+      "Blush magnetic closure gift box open with an inner box and a drawstring pouch",
+      "Purple magnetic closure gift box open with a small box and a drawstring pouch inside",
+    ],
+    descriptionImageAlt: "Hand lifting the magnetic flap of a green gift box holding a ring and a drawstring pouch",
     descriptionImage:
       "/images/products/magnetic-closure-gift-box/magnetic-closure-gift-box-description.webp",
     customizeImage:
