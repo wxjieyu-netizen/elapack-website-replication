@@ -342,13 +342,13 @@ export const collections: Collection[] = [
   {
     slug: "custom-jewelry-pouches",
     eyebrow: "Jewelry Pouches",
-    h1: "Custom Jewelry Pouches with Your Logo",
+    h1: "Custom Jewelry Pouches & Bags with Your Logo",
     subhead:
-      "Velvet, cotton, satin and microfiber pouches — your fabric, closure, size and branding.",
+      "Velvet, cotton, satin and microfiber jewelry pouches and bags — your fabric, closure, size and branding.",
     metaDescription:
-      "Custom jewelry pouches with logo — velvet, suede, cotton, muslin, satin, linen and microfiber drawstring and flap pouches in your size and Pantone colour. MOQ from 200 pieces, free stock samples.",
+      "Custom jewelry pouches and bags with your logo — velvet, suede, cotton, muslin, satin, linen and microfiber, drawstring, flap or zip, in your size and Pantone colour. MOQ 200 pieces; DDP to the US on request.",
     intro:
-      "Fabric jewelry pouches for brands that want the packaging to feel like part of the piece. Choose the fabric, the closure and the branding; we make each pouch to your spec — from standard 7×9 cm jewelry sizes up to large gift bags. MOQ from 200 pieces, including custom sizes.",
+      "Fabric jewelry pouches and jewelry bags for brands that want the packaging to feel like part of the piece. Choose the fabric, the closure and the branding; we make each pouch to your spec — from standard 7×9 cm jewelry sizes up to large gift bags. MOQ from 200 pieces, including custom sizes.",
     sections: [
       {
         heading: "Fabrics",
@@ -388,6 +388,9 @@ export const collections: Collection[] = [
         heading: "Sizes",
         items: [
           { title: "Standard band", desc: "From 7×9 cm jewelry pouches up to 30×40 cm gift and wig bags." },
+          { title: "Rings and earrings", desc: "7×9 or 8×10 cm (about 2.75×3.5 or 3.1×3.9 in) — one ring, a pair of earrings or small jewelry." },
+          { title: "Bracelets and small sets", desc: "10×12 cm (about 3.9×4.7 in) — bracelets and jewelry, plus beauty minis and gift-with-purchase items." },
+          { title: "Necklaces", desc: "12×15 or 15×20 cm (about 4.7×5.9 or 5.9×7.9 in) — necklaces and larger pieces, with room for a card or insert." },
           { title: "Travel jewelry pouches", desc: "Closable formats that keep rings, chains and small pieces secure in transit and in luggage — drawstring, flap or zip, sized to your jewelry set." },
           { title: "Any custom size", desc: "Made to your product dimensions, MOQ unchanged." },
         ],
@@ -407,6 +410,7 @@ export const collections: Collection[] = [
       { label: "Custom sample", value: "USD 30 + USD 25 shipping — made in 3–5 days" },
       { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
       { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Delivery to the US", value: "About 8–12 days by air, 15–20 days by sea; DDP quoted on request" },
       { label: "Payment", value: "T/T · PayPal" },
     ],
     productSlugs: [
@@ -422,15 +426,16 @@ export const collections: Collection[] = [
     factBlock: {
       updated: "November 2026",
       paragraph:
-        "ELAPACK custom jewelry pouches — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering drawstring, flap and zip pouches in velvet, cotton, satin, linen and microfiber, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; payment by T/T or PayPal.",
+        "ELAPACK custom jewelry pouches — key facts, current as of November 2026. Minimum order quantity is 200 pieces per product or component, covering drawstring, flap and zip pouches in velvet, cotton, satin, linen and microfiber, custom sizes included. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment; shipping time is quoted separately. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping, is built in 3–5 days from confirmed artwork. Finished orders ship by air or by sea from Shanghai or Shenzhen; delivery to the US takes about 8–12 days by air or 15–20 days by sea, and DDP can be quoted on request. Payment by T/T or PayPal.",
     },
     faq: [
+      { q: "What is the difference between a jewelry pouch and a jewelry bag?", a: "Nothing in practice: brands and buyers use both names for the same small fabric pack. We make both as drawstring, flap or zip styles in your fabric and size, from 200 pieces per design." },
       { q: "Which fabrics can a jewelry pouch be made in?", a: "Velvet, suede, cotton, muslin, satin, linen, microfiber, non-woven and organza, plus clear PVC zip pouches. Choose the fabric against the piece it carries, and confirm it on a sample." },
       { q: "What sizes are available?", a: "The standard band runs from 7×9 cm jewelry pouches up to 30×40 cm gift and wig bags, and any custom size is made to your product dimensions at the same 200-piece minimum." },
       { q: "Which closures can I choose?", a: "Drawstring with a cotton, satin or polyester cord, flap with snap or tuck closure, and zipper or button options for heavier or multi-piece sets." },
       { q: "Can a pouch be matched with a jewelry box as a set?", a: "Yes. Pouch and box are designed together — same colour, same branding — and quoted as separate components, each at the 200-piece minimum." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
-      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon–Fri, China time)." },
+      { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Delivery to the US takes about 8–12 days by air or 15–20 days by sea from Shanghai or Shenzhen, and DDP can be quoted on request. We reply to enquiries within one business day (Mon–Fri, China time)." },
     ],
     ctaLink: { lead: "Send your fabric, closure, size and quantity to", anchor: "request a jewelry pouch quotation", product: "custom-velvet-pouches" },
     ctaTitle: "Request a quote for your custom jewelry pouches",
@@ -442,6 +447,7 @@ export const collections: Collection[] = [
     ],
     relatedPages: [
       { path: "/custom-jewelry-packaging/", label: "Complete jewelry packaging" },
+      { path: "/custom-drawstring-bags/", label: "Custom drawstring bags" },
       { path: "/custom-jewelry-boxes/", label: "Jewelry boxes" },
     ],
   },
