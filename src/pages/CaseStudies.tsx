@@ -144,6 +144,7 @@ export const CASES: CaseData[] = [
     ctaLinks: [
       { label: "Custom jewelry boxes", href: "/custom-jewelry-boxes/" },
       { label: "Custom jewelry pouches", href: "/custom-jewelry-pouches/" },
+      { label: "Custom rigid drawer boxes", href: "/products/custom-rigid-drawer-box/" },
     ],
   },
   {
