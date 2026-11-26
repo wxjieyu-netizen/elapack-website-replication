@@ -60,6 +60,8 @@ Key facts for buyers:
 - [Print-Ready Artwork for Custom Packaging: A Buyer's Prepress Self-Check](https://elapack.com/news/print-ready-artwork-for-custom-packaging/): the prepress checks a buyer runs before sending artwork
 - [Approving a Custom Packaging Sample: The Checks That Prevent Production Surprises](https://elapack.com/news/approving-a-custom-packaging-sample/): what to check and seal at sample approval
 - [How to Inspect a Custom Packaging Delivery Against the Approved Sample](https://elapack.com/news/inspect-custom-packaging-delivery/): inspecting a bulk delivery against the approved sample, including why bulk can differ
+- [How to Write AQL Sampling and Defect Classes into a Custom Packaging Order](https://elapack.com/news/aql-sampling-defect-classification-packaging-orders/): sample sizes and accept numbers by lot size, critical, major and minor defect definitions for boxes and pouches, and the failure procedure to agree in advance
+- [Beyond the Unit Price: What a Custom Packaging Quote Leaves Out](https://elapack.com/news/packaging-quote-beyond-unit-price/): tooling, sampling, quantity bands, freight and duties, specification changes, storage and rework — and the written confirmations to collect before approving a quote
 
 ## Company
 

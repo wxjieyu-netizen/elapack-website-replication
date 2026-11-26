@@ -449,6 +449,16 @@ export const productContentUpdates: Record<string, any> = {
         "url": "https://elapack.com/news/magnetic-gift-boxes-wholesale-guide/",
         "title": "Prepare a bulk order enquiry",
         "summary": "Request comparable quantity tiers and put the specification and order terms in writing."
+      },
+      {
+        "url": "https://elapack.com/news/aql-sampling-defect-classification-packaging-orders/",
+        "title": "Write AQL sampling into the order",
+        "summary": "Fix the sample size, accept numbers and written defect classes for boxes and pouches before production."
+      },
+      {
+        "url": "https://elapack.com/news/packaging-quote-beyond-unit-price/",
+        "title": "Read what a quote leaves out",
+        "summary": "Tooling, sampling, quantity bands, freight and rework — the components beyond the unit price to confirm in writing."
       }
     ],
     "schema_product": {

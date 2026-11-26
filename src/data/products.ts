@@ -2566,6 +2566,8 @@ export const productGuides: Record<string, string[]> = {
     "custom-rigid-boxes-guide",
       "ppwr-packaging-regulation-guide",
       "ppwr-recyclability-grades-guide",
+      "aql-sampling-defect-classification-packaging-orders",
+    "packaging-quote-beyond-unit-price",
   ],
   "luxury-gift-box-ribbon": [
     "custom-printed-ribbon-guide",
@@ -2581,6 +2583,8 @@ export const productGuides: Record<string, string[]> = {
     "custom-rigid-boxes-guide",
       "ppwr-packaging-regulation-guide",
       "ppwr-recyclability-grades-guide",
+      "aql-sampling-defect-classification-packaging-orders",
+    "packaging-quote-beyond-unit-price",
   ],
   "custom-eyelash-packaging-boxes": [
     "how-to-customize-eyelash-boxes",

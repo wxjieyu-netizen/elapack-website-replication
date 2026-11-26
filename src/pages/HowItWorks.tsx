@@ -38,6 +38,10 @@ const steps: {
         label: "Comparing Multi-Component Gift Set Quotes",
         href: "/news/compare-multi-component-gift-set-packaging-quotes/",
       },
+      {
+        label: "Beyond the Unit Price: What a Custom Packaging Quote Leaves Out",
+        href: "/news/packaging-quote-beyond-unit-price/",
+      },
     ],
   },
   {
@@ -93,6 +97,10 @@ const steps: {
       {
         label: "Inspecting a Custom Packaging Delivery",
         href: "/news/inspect-custom-packaging-delivery/",
+      },
+      {
+        label: "Writing AQL Sampling and Defect Classes into an Order",
+        href: "/news/aql-sampling-defect-classification-packaging-orders/",
       },
     ],
   },
