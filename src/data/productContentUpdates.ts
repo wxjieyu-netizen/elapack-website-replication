@@ -317,8 +317,8 @@ export const productContentUpdates: Record<string, any> = {
     }
   },
   "magnetic-closure-gift-box": {
-    "title": "Custom Magnetic Gift Boxes with Logo — From 200 Pcs | ELAPACK",
-    "meta": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Rigid board with EVA foam, velvet, satin or molded pulp inserts; custom samples in 3–5 days.",
+    "title": "Custom Magnetic Closure Gift Boxes with Logo — From 200 Pcs | ELAPACK",
+    "meta": "Custom magnetic closure gift boxes with your logo, from 6 × 6 × 3 cm to 40 × 30 × 12 cm, in 2.0–2.5 mm greyboard with EVA, velvet, satin or molded pulp inserts. MOQ 200; samples in 3–5 days.",
     "intro": "Custom magnetic closure gift boxes with your logo, from 200 pieces. Share product dimensions, weight and insert requirements for a quotation.",
     "body": [
       [
@@ -359,6 +359,14 @@ export const productContentUpdates: Record<string, any> = {
         "Magnetic flip-top, lift-off lid or drawer — confirm with the proposed structure and sample."
       ],
       [
+        "Size range",
+        "Outside dimensions from 6 × 6 × 3 cm to 40 × 30 × 12 cm. Sizes we make often: 20 × 15 × 6 cm for gift sets and 10 × 10 × 4 cm for bracelets; any size in the range is made to your product."
+      ],
+      [
+        "Greyboard",
+        "Standard 2.0 mm (1,200 gsm); 2.5 mm (1,500 gsm) for larger boxes or extra stiffness. Plan the inside about 5–8 mm smaller than the outside on each side-to-side dimension."
+      ],
+      [
         "Insert options",
         "EVA foam, velvet, satin or molded pulp insert, fitted to your product dimensions."
       ],
@@ -389,9 +397,21 @@ export const productContentUpdates: Record<string, any> = {
       [
         "Shipping origin",
         "Shanghai or Shenzhen; confirm the route and delivery terms in the quotation."
+      ],
+      [
+        "Delivery to the US",
+        "About 8–12 days by air or 15–20 days by sea; DDP (duties paid) quoted on request."
       ]
     ],
     "faqs": [
+      [
+        "What sizes can a magnetic closure gift box be made in?",
+        "Any outside size from 6 × 6 × 3 cm to 40 × 30 × 12 cm. The sizes we make most often are 20 × 15 × 6 cm for gift sets and 10 × 10 × 4 cm for bracelets. On standard 2.0 mm board, the inside is about 5–8 mm smaller than the outside, so send your product dimensions and we size the box around them."
+      ],
+      [
+        "Can you deliver magnetic gift boxes to the US?",
+        "Yes. Orders ship from Shanghai or Shenzhen and take about 8–12 days by air or 15–20 days by sea to the US; DDP (duties paid) can be quoted on request."
+      ],
       [
         "Can I review a digital dieline?",
         "Yes. Digital dieline previews are provided free of charge. PDF, editable AI and PSD files can be provided. Share the product dimensions and any existing artwork for the proposed layout."
