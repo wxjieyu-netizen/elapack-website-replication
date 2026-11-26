@@ -57,11 +57,11 @@ export const landings: Landing[] = [
       { src: "/images/factory/elapack-03.jpg", alt: "Sewing floor producing custom fabric pouches" },
     ],
     eyebrow: "Pouches & Bags",
-    titleTag: "Custom Fabric Pouches & Bags with Logo — From 200 Pcs | ELAPACK",
-    h1: "Custom Fabric Pouches & Bags",
+    titleTag: "Custom Pouches & Bags with Logo — Fabric Pouches from 200 Pcs | ELAPACK",
+    h1: "Custom Pouches & Bags with Your Logo",
     subhead: "Your size. Your fabric. Your closure. Your logo. Cut, sewn and finished together.",
     metaDescription:
-      "Custom fabric pouches and bags with your logo in velvet, cotton, satin, muslin and microfiber, from 200 pieces — colour-matched with our rigid boxes.",
+      "Custom pouches and bags with your logo — velvet, cotton, satin, muslin, microfiber and non-woven, drawstring, zip or envelope, made to your size from 200 pieces. DDP to the US on request.",
     keyFacts: [
       ...KEY_FACTS_LINES,
       "Fabrics: velvet, suede, cotton, muslin, satin, linen, microfiber and non-woven; drawstring, flap, envelope and zipper closures.",

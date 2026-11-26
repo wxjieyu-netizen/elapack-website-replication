@@ -348,7 +348,7 @@ export const collections: Collection[] = [
     subhead:
       "Velvet, cotton, satin and microfiber jewelry pouches and bags — your fabric, closure, size and branding.",
     metaDescription:
-      "Custom jewelry pouches and bags with your logo — velvet, suede, cotton, muslin, satin, linen and microfiber, drawstring, flap or zip, in your size and Pantone colour. MOQ 200 pieces; DDP to the US on request.",
+      "Custom jewelry pouches and bags with your logo, in bulk from 200 pieces — velvet, suede, cotton, satin and microfiber, drawstring, flap or zip, in your size and Pantone colour. DDP to the US on request.",
     intro:
       "Fabric jewelry pouches and jewelry bags for brands that want the packaging to feel like part of the piece. Choose the fabric, the closure and the branding; we make each pouch to your spec — from standard 7×9 cm jewelry sizes up to large gift bags. MOQ from 200 pieces, including custom sizes.",
     sections: [
@@ -435,6 +435,7 @@ export const collections: Collection[] = [
       { q: "Which fabrics can a jewelry pouch be made in?", a: "Velvet, suede, cotton, muslin, satin, linen, microfiber, non-woven and organza, plus clear PVC zip pouches. Choose the fabric against the piece it carries, and confirm it on a sample." },
       { q: "What sizes are available?", a: "The standard band runs from 7×9 cm jewelry pouches up to 30×40 cm gift and wig bags, and any custom size is made to your product dimensions at the same 200-piece minimum." },
       { q: "Which closures can I choose?", a: "Drawstring with a cotton, satin or polyester cord, flap with snap or tuck closure, and zipper or button options for heavier or multi-piece sets." },
+      { q: "Can I order custom jewelry pouches in bulk or wholesale?", a: "Yes. Bulk runs are our normal order size: every order is made to your specification with your logo, from 200 pieces per design up to 50,000 pieces. We do not sell stock pouches. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment." },
       { q: "Can a pouch be matched with a jewelry box as a set?", a: "Yes. Pouch and box are designed together — same colour, same branding — and quoted as separate components, each at the 200-piece minimum." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
       { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Delivery to the US takes about 8–12 days by air or 15–20 days by sea from Shanghai or Shenzhen, and DDP can be quoted on request. We reply to enquiries within one business day (Mon–Fri, China time)." },
