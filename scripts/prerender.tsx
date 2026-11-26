@@ -69,7 +69,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/": "Custom Luxury Packaging with Logo — Rigid Boxes, Pouches & Sets from 200 Pcs | ELAPACK",
   "/products/custom-velvet-pouches": "Custom Velvet Pouches with Logo — Drawstring, Envelope & Zip | ELAPACK",
   "/products/custom-press-on-nail-boxes": "Custom Press-on Nail Boxes with Logo — From 200 Pcs | ELAPACK",
-  "/products/custom-ring-boxes": "Custom Ring Boxes with Logo | ELAPACK",
+  "/products/custom-ring-boxes": "Custom Ring Boxes & Engagement Ring Boxes with Logo | ELAPACK",
   "/products/custom-tissue-paper": "Custom Tissue Paper with Logo | ELAPACK",
   "/products/custom-hang-tags": "Custom Hang Tags with Logo for Clothing Brands — MOQ 500 | ELAPACK",
   "/products/custom-foam-inserts": "Custom Foam Inserts for Packaging Boxes | ELAPACK",
@@ -125,6 +125,8 @@ const STATIC_TITLES: Record<string, string> = {
 
 /** Route-level meta descriptions for SEO. */
 const STATIC_DESCRIPTIONS: Record<string, string> = {
+  "/products/custom-ring-boxes":
+    "Custom ring boxes and engagement ring boxes with your logo, made to your ring — common sizes 5 × 5 × 3.5 cm and 6 × 6 × 4 cm, single or double slots. MOQ 200; samples in 3–5 days; DDP to the US.",
   "/products/custom-velvet-pouches":
     "Custom velvet pouches in 200–300 gsm velvet, sized to your product or from 8 × 10, 10 × 12 and 12 × 15 cm, with silkscreen, hot stamp or woven label logos. MOQ 200; samples in 3–5 days.",
   "/products/custom-white-jewelry-box":

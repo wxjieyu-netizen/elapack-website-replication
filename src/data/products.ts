@@ -278,12 +278,22 @@ export const products: Product[] = [
       { label: "Finish options", value: "Foil stamping, embossing, debossing, spot UV, matte / gloss lamination" },
       { label: "Logo method", value: "Hot foil, emboss / deboss, screen or digital print; Pantone-matched colours on request" },
       { label: "Dimensions", value: "Made to your product dimensions — confirm internal clearance and finished outside size separately in the quotation" },
+      { label: "Common sizes", value: "5.0 × 5.0 × 3.5 cm (2.0 × 2.0 × 1.4 in) for one ring; 6.0 × 6.0 × 4.0 cm (2.4 × 2.4 × 1.6 in) for larger settings or a deeper insert — outside dimensions; any size made to your ring" },
       { label: "Protection options", value: "Check retention and removal with the actual contents. Agree evidence and tests for any claimed treatment or transit protection before bulk approval" },
       { label: "Ring brief", value: "Band width, setting height and number of rings per box" },
       { label: "MOQ", value: "200 pcs per product / per component of a set" },
+      { label: "Delivery to the US", value: "About 8–12 days by air or 15–20 days by sea from Shanghai or Shenzhen; DDP quoted on request" },
       { label: "Sample & Production", value: "Stock sample free + USD 25 shipping (4–7 days); custom sample USD 30 + USD 25 shipping, 3–5 days; production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
     ],
     faqs: [
+      {
+        q: "What size is a ring box?",
+        a: "The ring boxes we make most often measure 5.0 × 5.0 × 3.5 cm (2.0 × 2.0 × 1.4 in) for a single ring, and 6.0 × 6.0 × 4.0 cm (2.4 × 2.4 × 1.6 in) for larger settings or a deeper insert, both as outside dimensions. Every box is made to order, so the final size follows your ring and insert.",
+      },
+      {
+        q: "Can you deliver custom ring boxes to the US?",
+        a: "Yes. Orders ship from Shanghai or Shenzhen and take about 8–12 days by air or 15–20 days by sea to the US; DDP (duties paid) can be quoted on request.",
+      },
       {
         q: "What should I send for a custom ring box quote?",
         a: "Send the ring's band width and setting height, rings per box, preferred appearance, logo artwork, quantity and delivery destination. We will confirm the proposed box and insert specification in the quotation.",
