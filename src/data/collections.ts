@@ -726,7 +726,7 @@ export const collections: Collection[] = [
       },
     
     ],
-    relatedPages: [{ path: "/custom-candle-boxes/", label: "rigid candle boxes" }],
+    relatedPages: [{ path: "/custom-candle-boxes/", label: "rigid candle boxes" }, { path: "/custom-christmas-packaging/", label: "Christmas gift boxes and bags" }],
     ctaLink: { lead: "Send your product size, structure, finish and quantity to", anchor: "request a gift box quotation", product: "magnetic-closure-gift-box" },
     ctaTitle: "Request a quote for your custom gift boxes",
     guideSlugs: [
@@ -1393,6 +1393,121 @@ export const collections: Collection[] = [
       paragraph:
         "ELAPACK lightweight luxury packaging — key facts, current as of October 2026. Lightweight structures are available; weight, volume and freight comparison must be confirmed by sample for your specific box, and no generic saving is claimed on this page. Minimum order quantity is 200 pieces per product / per component of a set. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment. A free stock sample carries USD 25 shipping and typically arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping, is built in 3–5 days from confirmed artwork.",
     },
+  },
+  {
+    slug: "custom-christmas-packaging",
+    eyebrow: "Christmas Packaging",
+    h1: "Custom Christmas Gift Boxes & Bags with Your Logo",
+    subhead:
+      "Christmas gift boxes, velvet pouches, wine bags, paper gift bags and printed mailer boxes, made to your size and colour with your logo — wholesale from 200 pieces per design.",
+    metaDescription:
+      "Custom Christmas gift boxes, gift bags, velvet wine bags and printed shipping boxes with your logo — red, green and gold, foil and ribbon, made to order from 200 pcs. DDP to the US.",
+    intro:
+      "ELAPACK makes custom Christmas packaging for brands that sell gift sets in the holiday season: rigid gift boxes, velvet and cotton pouches, velvet wine bags, paper gift bags and printed mailer boxes, all made to order in your size, colour and logo. Nothing is stock: every piece is made from 200 pieces per design, so a box, a pouch and a card can be matched to one Christmas colour and ordered as one set. Send the product sizes, quantities and the date the packaging must be in your warehouse, and we return a quotation and a dated production plan within one business day.",
+    sections: [
+      {
+        heading: "Christmas gift boxes",
+        items: [
+          { title: "Magnetic closure gift boxes", desc: "Rigid boxes with a magnetic flap, wrapped in red, green or any Pantone colour, with a gold or silver foil logo.", link: { path: "/products/magnetic-closure-gift-box/", label: "View magnetic closure gift boxes" } },
+          { title: "Ribbon-tie gift boxes", desc: "Rigid boxes closed with a satin ribbon — the classic festive finish for gift sets.", link: { path: "/products/luxury-gift-box-ribbon/", label: "View ribbon gift boxes" } },
+          { title: "Drawer boxes", desc: "Slide-out drawer boxes for jewelry, accessories and multi-piece sets.", link: { path: "/products/custom-rigid-drawer-box/", label: "View rigid drawer boxes" } },
+        ],
+      },
+      {
+        heading: "Christmas gift bags and pouches",
+        items: [
+          { title: "Velvet gift pouches", desc: "Drawstring velvet pouches in festive colours, with a foil or silkscreen logo — for jewelry, beauty and gift-with-purchase sets.", link: { path: "/products/custom-velvet-pouches/", label: "View custom velvet pouches" } },
+          { title: "Paper gift bags", desc: "Kraft, white card or specialty paper gift bags with rope or ribbon handles, printed with your logo.", link: { path: "/products/kraft-paper-shopping-bag/", label: "View paper gift bags" } },
+          { title: "Cotton drawstring bags", desc: "Natural cotton bags printed in one or two colours, for a plain, reusable Christmas look.", link: { path: "/custom-drawstring-bags/", label: "View custom drawstring bags" } },
+        ],
+      },
+      {
+        heading: "Christmas wine bags",
+        items: [
+          { title: "Velvet wine bags", desc: "Most Christmas wine bags we make are velvet, made to the size of your bottle with your logo; other fabrics and sizes are made to order on request." },
+        ],
+      },
+      {
+        heading: "Christmas shipping boxes",
+        items: [
+          { title: "Printed mailer boxes", desc: "Corrugated mailer boxes printed with your Christmas artwork outside and inside, in six standard sizes or made to your product.", link: { path: "/products/custom-mailer-boxes/", label: "View custom mailer boxes" } },
+          { title: "Tissue paper", desc: "Printed tissue paper to wrap the product inside the box.", link: { path: "/products/custom-tissue-paper/", label: "View custom tissue paper" } },
+        ],
+      },
+      {
+        heading: "Christmas packaging ideas",
+        items: [
+          { title: "One colour across the set", desc: "Match the box wrap, the pouch fabric and the card to one Christmas colour — deep red, forest green or cream — on the same sample round." },
+          { title: "Gold or silver foil", desc: "A foil logo on velvet, paper wrap or a mailer box lid reads as festive without extra print colours." },
+          { title: "Ribbon and tissue", desc: "A satin ribbon tie and printed tissue paper add the unwrapping step that makes a box feel like a gift." },
+          { title: "Inside print", desc: "A printed message or pattern inside the mailer lid turns a shipping box into the first moment of the gift." },
+        ],
+      },
+      {
+        heading: "When to order Christmas packaging for 2027",
+        items: [
+          { title: "Sea freight", desc: "Approve the sample and pay by about September 6, 2027, so production finishes before China's October 1–7 holiday.", link: { path: "/news/christmas-packaging-ordering-timeline/", label: "See the Christmas 2027 timeline" } },
+          { title: "Air freight", desc: "Approve the sample by about October 8 and dispatch by October 30 to reach a US warehouse around mid-November." },
+          { title: "Other seasons", desc: "The same method applies to Valentine's Day and Mother's Day orders.", link: { path: "/news/mothers-day-packaging-timeline/", label: "See the Mother's Day 2027 timeline" } },
+        ],
+      },
+    ],
+    facts: [
+      { label: "MOQ", value: "200 pieces per product or component" },
+      { label: "Custom sample", value: "USD 30 + USD 25 shipping — made in 3–5 days" },
+      { label: "Production time", value: "15–20 days for 200–20,000 pcs; 30–35 days for 20,000–50,000 pcs after sample approval and payment" },
+      { label: "Shipping", value: "By air or by sea from Shanghai or Shenzhen" },
+      { label: "Delivery to the US", value: "About 8–12 days by air, 15–20 days by sea; DDP quoted on request" },
+      { label: "Payment", value: "T/T · PayPal" },
+      { label: "Quotation", value: "Written quotation within one business day" },
+    ],
+    productSlugs: [
+      "magnetic-closure-gift-box",
+      "luxury-gift-box-ribbon",
+      "custom-velvet-pouches",
+      "kraft-paper-shopping-bag",
+      "custom-mailer-boxes",
+      "custom-rigid-drawer-box",
+    ],
+    factBlock: {
+      updated: "November 2026",
+      paragraph:
+        "ELAPACK custom Christmas packaging — key facts, current as of November 2026. ELAPACK makes Christmas gift boxes, velvet and cotton pouches, velvet wine bags, paper gift bags and printed mailer boxes to order, with a minimum of 200 pieces per product or component. A custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days; production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces after sample approval and payment. Delivery to the US takes about 8–12 days by air or 15–20 days by sea from Shanghai or Shenzhen, and DDP can be quoted on request. For Christmas 2027, samples approved by early September can ship by sea before China's October 1–7 holiday; samples approved by early October can ship by air.",
+    },
+    table: {
+      heading: "Choose Christmas packaging by what you are sending",
+      columns: ["Packaging", "Best for", "What to confirm on the sample"],
+      rows: [
+        ["Magnetic or ribbon gift box", "Gift sets, jewelry, beauty and corporate gifts", "Wrap colour against your Pantone, foil logo and insert fit"],
+        ["Velvet pouch", "Jewelry, beauty and gift-with-purchase sets", "Fabric colour, logo method and opening size"],
+        ["Velvet wine bag", "Single bottles for gifting and corporate hampers", "Fit on your actual bottle and logo placement"],
+        ["Paper gift bag", "Retail counters, events and gift wrap", "Paper, handle type and print colour"],
+        ["Printed mailer box", "E-commerce orders and subscription boxes", "Size, board and print outside and inside"],
+      ],
+      note: "Every item is made to order from 200 pieces per design; approve all components of a set on the same sample round so the colours match.",
+    },
+    faq: [
+      { q: "Do you make custom Christmas gift boxes with a logo?", a: "Yes. Magnetic closure, ribbon-tie and drawer gift boxes are wrapped in your Christmas colour and printed or foiled with your logo, from 200 pieces per design." },
+      { q: "Do you sell Christmas gift boxes wholesale?", a: "Yes, as made-to-order wholesale runs: every box is produced to your size, colour and logo from 200 pieces per design. We do not sell stock Christmas boxes." },
+      { q: "Can you make custom Christmas gift bags?", a: "Yes. We make velvet and cotton drawstring pouches and paper gift bags in kraft, white card or specialty paper, with rope or ribbon handles, all with your logo." },
+      { q: "Do you make Christmas wine bags?", a: "Yes. Most of the wine bags we make are velvet, sized to your bottle and printed or foiled with your logo; other fabrics and sizes are made to order on request." },
+      { q: "Can you print Christmas mailer boxes for shipping?", a: "Yes. Corrugated mailer boxes are printed with your Christmas artwork outside and inside, in six standard sizes from 15 × 10 × 4 cm to 36 × 26 × 6 cm or made to your product." },
+      { q: "When should I order Christmas packaging?", a: "For Christmas 2027, approve the sample by early September to ship by sea before China's October 1–7 holiday, or by early October to ship by air. The Christmas timeline guide has the dated plan." },
+      { q: "Can you deliver Christmas packaging to the US with duties paid?", a: "Yes. We ship from Shanghai or Shenzhen by air (about 8–12 days) or sea (about 15–20 days), and quote DDP on request." },
+    ],
+    ctaLink: { lead: "Send your products, quantities and warehouse date to", anchor: "request a Christmas packaging quotation", product: "magnetic-closure-gift-box" },
+    ctaTitle: "Request a quote for your Christmas packaging",
+    guideSlugs: [
+      "christmas-packaging-ordering-timeline",
+      "magnetic-gift-boxes-wholesale-guide",
+      "mothers-day-packaging-timeline",
+      "valentines-day-packaging-timeline",
+    ],
+    relatedPages: [
+      { path: "/custom-gift-boxes/", label: "Custom gift boxes — all structures" },
+      { path: "/pouches-bags/", label: "Custom pouches and bags" },
+      { path: "/products/custom-mailer-boxes/", label: "Custom printed mailer boxes" },
+    ],
   },
 ];
 
