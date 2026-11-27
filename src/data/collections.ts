@@ -1436,7 +1436,7 @@ export const collections: Collection[] = [
         heading: "Christmas wine bags",
         images: [{ src: "/images/collections/christmas/christmas-velvet-wine-bag.webp", alt: "Burgundy velvet wine bag with a drawstring and gold foil logo on an unlabelled bottle" }],
         items: [
-          { title: "Velvet wine bags", desc: "Most Christmas wine bags we make are 250 g polyester velvet — crease-resistant and strong enough for the weight of a bottle — with a double drawstring and a round or folded square base so the bottle stands upright." },
+          { title: "Velvet wine bags", desc: "Most Christmas wine bags we make are 250 g polyester velvet — crease-resistant and strong enough for the weight of a bottle — with a double drawstring and a round or folded square base so the bottle stands upright.", link: { path: "/products/custom-wine-bags/", label: "View custom wine bags" } },
           { title: "Sizes by bottle", desc: "Flat size, width × height: standard 750 ml wine 15 × 35 cm; champagne and wide-base bottles 17 × 38 cm; ice wine and slim bottles 12 × 40 cm; 187 ml minis 10 × 20 cm. Other sizes and fabrics are made to order." },
           { title: "Carry the bottle in a paper bag", desc: "Paper gift bags with a reinforcement card at the handle joints carry a 750 ml bottle safely.", link: { path: "/products/kraft-paper-shopping-bag/", label: "View custom paper gift bags" } },
         ],
