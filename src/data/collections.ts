@@ -54,7 +54,8 @@ export const collections: Collection[] = [
         heading: "By jewelry type",
         items: [
           { title: "Ring boxes", desc: "Single and double ring slots with velvet or foam cushions.", link: { path: "/products/custom-ring-boxes/", label: "View custom ring boxes" } },
-          { title: "Earring & pendant boxes", desc: "Fitted inserts that hold pairs and chains in place.", link: { path: "/news/custom-earring-boxes-guide/", label: "Choose earring boxes by type, insert and structure" } },
+          { title: "Earring & pendant boxes", desc: "Stud and drop earrings in 5 × 5 × 3.5 or 6 × 6 × 4 cm boxes — the footprints shared with ring boxes — and pendant boxes at 7 × 7 × 3, with fitted inserts that hold pairs and chains in place.", link: { path: "/news/custom-earring-boxes-guide/", label: "Choose earring boxes by type, insert and structure" } },
+          { title: "Necklace boxes", desc: "Pendant necklaces in 7 × 9 × 3.5 or 9 × 9 × 3.2 cm boxes, long necklaces in 23 × 5 × 3, and large statement pieces in 16 × 16 × 3.5 — outside dimensions, made to your chain length.", link: { path: "/news/jewelry-box-sizes-guide/", label: "See necklace box sizes" } },
           { title: "Bracelet & small gift boxes", desc: "Compact footprints for retail counter and gifting.", link: { path: "/news/necklace-bracelet-packaging-guide/", label: "See bracelet box sizing and formats" } },
           { title: "Complete jewelry sets", desc: "Box, pouch and insert designed together as one program.", link: { path: "/sets/", label: "Explore box and pouch sets" } },
           { title: "Jewelry box sizes", desc: "Sizes we make most often (outside, cm): ring and stud boxes 5 × 5 × 3.5 or 6 × 6 × 4; pendant boxes 7 × 7 × 3; bangle boxes 9 × 9 × 4; long necklace boxes 23 × 5 × 3; set boxes up to 18 × 18 × 4.5. Any size is made to your piece.", link: { path: "/news/jewelry-box-sizes-guide/", label: "Open the jewelry box size chart" } },
@@ -66,6 +67,7 @@ export const collections: Collection[] = [
           { title: "Rigid lift-off lid", desc: "Full-height lid over a rigid base — the premium, gift-ready structure." },
           { title: "Magnetic flip-top", desc: "Hidden magnets give a clean exterior and a satisfying slow close.", link: { path: "/products/magnetic-closure-gift-box/", label: "View magnetic closure gift boxes" } },
           { title: "Ribbon tie", desc: "Satin ribbon closure that becomes part of the unboxing ritual.", link: { path: "/products/luxury-gift-box-ribbon/", label: "View ribbon-tie gift boxes" } },
+          { title: "Drawer", desc: "A rigid tray sliding out of its sleeve — presents the piece in one motion and stacks flat in storage.", link: { path: "/products/custom-rigid-drawer-box/", label: "View custom rigid drawer boxes" } },
         ],
       },
       {
@@ -92,7 +94,7 @@ export const collections: Collection[] = [
         heading: "What to specify for a wholesale jewelry box quote",
         items: [
           { title: "The jewelry and its fit", desc: "Share the piece dimensions, weight and any certificate or card that must fit inside. Check the insert with the actual piece in a sample." },
-          { title: "Structure and insert", desc: "Choose lift-off, magnetic or ribbon closure, then specify the cavity, insert material and how the piece should be held." },
+          { title: "Structure and insert", desc: "Choose lift-off, magnetic, ribbon or drawer closure, then specify the cavity, insert material and how the piece should be held." },
           { title: "Branding and quantity", desc: "Send logo artwork, colour reference, finish, box quantity and destination so suppliers quote the same specification." },
         ],
       },
@@ -112,6 +114,7 @@ export const collections: Collection[] = [
       "custom-ring-boxes",
       "luxury-gift-box-ribbon",
       "magnetic-closure-gift-box",
+      "custom-rigid-drawer-box",
     ],
     factBlock: {
       updated: "November 2026",
@@ -126,6 +129,7 @@ export const collections: Collection[] = [
         ["Rigid lift-off lid", "The premium, gift-ready structure for rings, earrings, necklaces and bracelets", "Insert fit for the piece, and lid fit and clearance"],
         ["Magnetic flip-top", "A clean exterior with a satisfying slow close", "Magnet alignment and opening clearance"],
         ["Ribbon tie", "A closure that becomes part of the unboxing ritual", "Ribbon colour match to your reference, and insert fit"],
+        ["Drawer", "Rings, eyewear and small goods presented in a sliding tray", "Tray glide and insert fit"],
       ],
       note: "Pair the structure with an insert — EVA for a contoured, precise fit, sponge under velvet or satin covering, molded pulp, or a flocked velvet finish — and check the insert with the actual piece in a sample. Choose the exterior wrap and logo finish separately, and review both on the approved sample.",
     },
@@ -911,27 +915,36 @@ export const collections: Collection[] = [
     metaDescription:
       "Custom drawstring bags and pouches for jewelry, beauty and gift brands — cotton, velvet, satin, muslin or linen, printed, foiled or embroidered with your logo. Made to your size from 200 pcs; DDP to the US.",
     intro:
-      "Drawstring bags can serve gift, jewellery and storage briefs. Compare cotton, velvet, satin, muslin or linen against the actual product and required opening. Send the item dimensions, target bag size, artwork and quantity; confirm the fabric, size and feasible logo method in the quotation and sample. General MOQ starts at 200 pieces for applicable projects; design and colour allocation are confirmed by order. We make fabric drawstring pouches and dust bags for product packaging; we do not make drawstring backpacks or promotional gym sacks.",
+      "Custom drawstring bags made to order for gift, jewellery and storage programs. Choose cotton, velvet, satin, muslin or linen, set the size from the item the bag has to carry, and add your logo by print, embroidery, foil or woven label. Every bag is made to your specification — fabric, dimensions, cord and branding — from 200 pieces per product or component. Send the item dimensions, target bag size, artwork and quantity; the fit and the logo result are confirmed on a sample with the actual item inside before production. We make fabric drawstring pouches and dust bags for product packaging; we do not make drawstring backpacks or promotional gym sacks.",
     sections: [
       {
         heading: "Cotton drawstring bags",
         items: [
-          { title: "Cotton pouch option", desc: "Review cotton fabric, dimensions and the proposed logo method for gift, beauty, jewelry or retail use." },
+          { title: "Cotton pouch option", desc: "Review cotton fabric, dimensions and the proposed logo method for gift, beauty, jewelry or retail use.", link: { path: "/products/custom-cotton-pouches/", label: "View custom cotton pouches" } },
           { title: "Size and quantity", desc: "Specify the item and proposed bag dimensions; confirm availability and quantity allocation in the quote." },
         ],
       },
       {
         heading: "Fabric options",
         items: [
-          { title: "Cotton & muslin", desc: "Natural weaves with an honest, printable face — the volume formats." },
-          { title: "Velvet & satin", desc: "Plush and lustrous carriers for gifting, jewelry and fragrance programs." },
+          { title: "Cotton & muslin", desc: "Natural weaves with an honest, printable face — the volume formats.", link: { path: "/products/custom-muslin-drawstring-pouch/", label: "View muslin drawstring pouches" } },
+          { title: "Velvet & satin", desc: "Plush and lustrous carriers for gifting, jewelry and fragrance programs.", link: { path: "/products/custom-velvet-pouches/", label: "View custom velvet pouches" } },
           { title: "Linen & blends", desc: "Textured, matte natural fabrics for artisan and premium natural lines." },
+        ],
+      },
+      {
+        heading: "Logo & branding",
+        items: [
+          { title: "Silkscreen & print", desc: "Clean one- or two-colour logos on cotton, muslin and linen — the volume method for natural weaves." },
+          { title: "Embroidery", desc: "A stitched mark with a textured, premium hand — suited to satin and velvet gift programs." },
+          { title: "Foil & hot stamp", desc: "Metallic logos on velvet and satin faces, matched to your foil reference on the sample." },
+          { title: "Woven label", desc: "Your mark woven into a small label stitched inside or outside the bag — a quiet, durable option." },
         ],
       },
       {
         heading: "Dust bag applications",
         items: [
-          { title: "Handbag dust bags", desc: "Discuss fabric, dimensions and contact requirements for the actual handbag; review fit on a sample." },
+          { title: "Handbag dust bags", desc: "Discuss fabric, dimensions and contact requirements for the actual handbag; review fit on a sample.", link: { path: "/news/custom-dust-bags-guide/", label: "Read the dust bag guide" } },
           { title: "Shoe dust bags", desc: "Specify the pair dimensions, closure and logo placement; confirm the proposed fabric and fit." },
         ],
       },
@@ -939,7 +952,7 @@ export const collections: Collection[] = [
         heading: "Gift & specialty bags",
         items: [
           { title: "Gift bag formats", desc: "Provide artwork and a colour reference; approve the proposed decoration on a sample." },
-          { title: "Wig & hair bags", desc: "Review the packed item dimensions, interior contact and closure on a sample." },
+          { title: "Wig & hair bags", desc: "Review the packed item dimensions, interior contact and closure on a sample.", link: { path: "/products/custom-satin-wig-bag/", label: "View satin wig bags" } },
         ],
       },
       {
@@ -1123,32 +1136,32 @@ export const collections: Collection[] = [
     eyebrow: "Cosmetic Pouches",
     h1: "Custom Makeup Bags & Cosmetic Pouches",
     subhead:
-      "Compare fabric and clear PVC pouch options by closure, contents and branding; confirm the selected combination in the quote.",
+      "Custom makeup bags and cosmetic pouches with your logo — zip, drawstring, envelope and clear PVC styles in cotton, satin and velvet, sized to your contents from 200 pieces.",
     metaDescription:
-      "Custom cosmetic pouch options with logo, including fabric and clear PVC formats. General MOQ 200 pieces; confirm style, material and branding in the quote.",
+      "Custom cosmetic pouches and makeup bags with your logo — drawstring, flap, envelope and zip styles in cotton, satin, velvet and canvas. MOQ 200 pcs.",
     intro:
-      "Choose a cosmetic pouch around the items it must hold, the required closure and how it will be used. Drawstring, flap, envelope, zipper and clear PVC formats are options to compare; confirm the feasible style, material, dimensions and branding for the selected project. General MOQ starts at 200 pieces for applicable pouch orders; confirm design and colour allocation in the quotation.",
+      "Custom makeup bags built around the kit they carry — brush sets, full-size skincare, or travel minis. Choose a zip, drawstring, envelope or clear PVC format in cotton, canvas, satin or velvet, size it from your contents with the method below, and add your logo by print, embroidery or woven label. Every pouch is made to your specification from 200 pieces per product or component, and the fit is confirmed on a sample loaded with your actual products before production.",
     sections: [
       {
         heading: "Styles",
         items: [
           { title: "Zipper makeup bags", desc: "The secure everyday carrier — classic and flat formats in fabric or clear PVC." },
-          { title: "Drawstring", desc: "One-pull closing for favors, sets and retail counters." },
-          { title: "Envelope & flap", desc: "Structured envelope and snap-flap styles that gift beautifully." },
+          { title: "Drawstring", desc: "One-pull closing for favors, sets and retail counters.", link: { path: "/custom-drawstring-bags/", label: "View custom drawstring bags" } },
+          { title: "Envelope & flap", desc: "Structured envelope and snap-flap styles that gift beautifully.", link: { path: "/products/custom-cotton-envelope-pouches/", label: "View cotton envelope pouches" } },
         ],
       },
       {
         heading: "Fabrics",
         items: [
-          { title: "Cotton & canvas", desc: "Natural, printable carriers for everyday and artisan beauty lines." },
-          { title: "Satin & velvet", desc: "Lustrous and plush finishes for gift and premium beauty programs." },
+          { title: "Cotton & canvas", desc: "Natural, printable carriers for everyday and artisan beauty lines.", link: { path: "/products/custom-cotton-pouches/", label: "View custom cotton pouches" } },
+          { title: "Satin & velvet", desc: "Lustrous and plush finishes for gift and premium beauty programs.", link: { path: "/products/custom-velvet-pouches/", label: "View custom velvet pouches" } },
           { title: "Clear PVC", desc: "Transparent zip bags that show the product — MOQ from 200 pieces." },
         ],
       },
       {
         heading: "Clear PVC zip bags",
         items: [
-          { title: "See-through format", desc: "Cosmetics, skincare and travel sizes visible without opening the bag." },
+          { title: "See-through format", desc: "Cosmetics, skincare and travel sizes visible without opening the bag.", link: { path: "/products/custom-pvc-bags/", label: "View clear PVC zip bags" } },
           { title: "Order quantity", desc: "General MOQ starts at 200 pieces; confirm PVC style, dimensions and decoration in the quote." },
         ],
       },
@@ -1191,10 +1204,25 @@ export const collections: Collection[] = [
       ],
       note: "Choose the style around the items it must hold and the closure you need; confirm the feasible style, material, dimensions and branding for the selected project in the quotation.",
     },
+    table2: {
+      heading: "What size makeup bag do you need?",
+      intro: [
+        "Start from the contents laid out as the customer will pack them, not from a small / medium / large label. Measure the grouped footprint — everything standing or lying together — and the tallest item, then add working clearance: about 2–3 cm across the footprint for seams and hand access, and about 2–3 cm above the tallest item so the zip closes without pressing on caps or brush tips. Flat kits can travel in a flat pouch; anything with bottle depth needs a gusseted base, so the bag stands on a counter and the zip does not strain at the corners.",
+      ],
+      columns: ["Kit", "What to measure", "Starting point"],
+      rows: [
+        ["Brush sets & pencils", "The longest brush or pencil, and the full set laid side by side", "A flat or slim zip pouch sized to the longest piece, plus clearance"],
+        ["Daily makeup kit", "Palettes, compacts and tubes grouped together; the thickest compact", "A zip pouch with a shallow gusset, so compacts stack without forcing the zip"],
+        ["Skincare bottles & jars", "The tallest bottle including cap or pump, and the grouped footprint", "A gusseted bag that stands; height set by the tallest bottle, plus clearance"],
+        ["Travel minis & samples", "The mini set grouped together, in retail cartons if they stay on", "A small zip or clear PVC pouch sized to the grouped footprint"],
+      ],
+      note: "These are starting points for a quotation, not production sizes — the final size is set on a sample loaded with your actual products. Send the contents list and dimensions with your enquiry and we will recommend a size in the quotation.",
+    },
     faq: [
       { q: "Are cosmetic pouches made to order?", a: "Yes — every pouch is made to your specification: style, material, dimensions and branding. There are no stock styles; the minimum order is 200 pieces per product or component." },
       { q: "Fabric or clear PVC — which suits my product?", a: "Fabric pouches in cotton, canvas, satin or velvet carry everyday and gift programs; clear PVC zip bags show cosmetics, skincare and travel sizes without opening the bag. Confirm the style, material and dimensions for your project in the quotation." },
       { q: "How will my logo be applied?", a: "The logo method depends on the chosen material and quantity — ask which method suits your combination and approve it on a sample before production." },
+      { q: "What size makeup bag do I need?", a: "Lay the kit out as it will be packed, measure the grouped footprint and the tallest item, then add about 2–3 cm of clearance across the footprint and above the tallest piece. Bottle-led kits need a gusseted base; flat kits can use a flat pouch. The size table above walks through it by kit type, and the final size is confirmed on a sample loaded with your products." },
       { q: "Can pouches be matched with cosmetic boxes in one program?", a: "Yes. Pouches and boxes can be specified together and colour-matched to one reference; the 200-piece minimum applies to each component." },
       { q: "Can I sample before ordering?", a: "Yes. A free stock sample carries USD 25 shipping and arrives in 4–7 days; a custom sample costs USD 30 plus USD 25 shipping and is made in 3–5 days from confirmed artwork." },
       { q: "How long does production take?", a: "15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 pieces, after sample approval and payment. Shipping by air or by sea from Shanghai or Shenzhen is quoted separately, and we reply to enquiries within one business day (Mon–Fri, China time)." },

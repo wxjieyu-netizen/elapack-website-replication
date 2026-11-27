@@ -479,6 +479,11 @@ export const productContentUpdates: Record<string, any> = {
         "url": "https://elapack.com/news/packaging-quote-beyond-unit-price/",
         "title": "Read what a quote leaves out",
         "summary": "Tooling, sampling, quantity bands, freight and rework — the components beyond the unit price to confirm in writing."
+      },
+      {
+        "url": "https://elapack.com/news/christmas-packaging-ordering-timeline/",
+        "title": "Plan Christmas ordering dates",
+        "summary": "Work back from the holiday selling window — when artwork, samples and production have to land for gift boxes to arrive in time."
       }
     ],
     "schema_product": {
