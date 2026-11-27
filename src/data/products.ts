@@ -1527,6 +1527,10 @@ export const products: Product[] = [
         a: "200 pieces per design, custom sizes included.",
       },
       {
+        q: "Do you sell custom gift bags wholesale?",
+        a: "Yes, as made-to-order wholesale runs: every bag is produced in your size, paper, handle and logo from 200 pieces per design, up to 50,000. We do not sell stock bags. Production takes 15–20 days for 200–20,000 pieces and 30–35 days for 20,000–50,000 after sample approval and payment.",
+      },
+      {
         q: "Can I see a sample before placing a full order?",
         a: "Yes. A custom printed sample costs USD 30 plus USD 25 shipping and is made in 3–5 days, after a free digital dieline preview.",
       },
@@ -3040,6 +3044,7 @@ export const productGuides: Record<string, string[]> = {
     "unboxing-experience-guide",
   ],
   "kraft-paper-shopping-bag": [
+    "gift-bag-sizes",
     "custom-gift-packaging-guide",
     "custom-clothing-apparel-packaging-guide",
     "custom-logo-pouches-guide",
