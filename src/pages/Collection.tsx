@@ -36,6 +36,21 @@ export default function Collection({ slug }: { slug: string }) {
         </div>
       </section>
 
+      {collection.heroImage && (
+        <section className="section" style={{ paddingTop: 0, paddingBottom: 0 }}>
+          <div className="container">
+            <img
+              src={collection.heroImage.src}
+              alt={collection.heroImage.alt}
+              width={collection.heroImage.width}
+              height={collection.heroImage.height}
+              className="reveal"
+              style={{ width: "100%", maxWidth: "1100px", height: "auto", display: "block", margin: "0 auto", borderRadius: "8px" }}
+            />
+          </div>
+        </section>
+      )}
+
       {collection.factBlock?.top && (
         <section className="section" style={{ paddingBottom: 0 }}>
           <div className="container">
@@ -104,6 +119,13 @@ export default function Collection({ slug }: { slug: string }) {
                 {section.heading}
               </h2>
             </div>
+            {section.images && section.images.length > 0 && (
+              <div className="reveal" style={{ display: "grid", gridTemplateColumns: `repeat(${section.images.length}, minmax(0, 1fr))`, gap: "1.25rem", maxWidth: section.images.length > 1 ? "900px" : "480px", margin: "0 auto 2rem" }}>
+                {section.images.map((img) => (
+                  <img key={img.src} src={img.src} alt={img.alt} loading="lazy" width={1254} height={1254} style={{ width: "100%", height: "auto", display: "block", borderRadius: "8px" }} />
+                ))}
+              </div>
+            )}
             <div className="values-grid">
               {section.items.map((item, i) => (
                 <div key={item.title} className={`value-card reveal reveal-delay-${(i % 4) + 1}`}>

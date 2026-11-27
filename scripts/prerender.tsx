@@ -330,6 +330,7 @@ for (const route of ROUTES) {
       "/sets": `${SITE}/images/sets/magic-pack-navy-set.webp`,
       "/custom-jewelry-boxes": `${SITE}/images/products/custom-ring-boxes/custom-ring-boxes-hero.webp`,
       "/velvet-jewelry-boxes": `${SITE}/images/products/custom-ring-boxes/custom-ring-boxes-hero.webp`,
+      "/custom-christmas-packaging": `${SITE}/images/collections/christmas/christmas-hero.webp`,
     };
     const ogImage =
       OG_IMAGE_OVERRIDES[route] ??

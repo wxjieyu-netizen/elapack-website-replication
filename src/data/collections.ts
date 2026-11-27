@@ -13,7 +13,9 @@ export type Collection = {
   subhead: string;
   metaDescription: string;
   intro: string;
-  sections: { heading: string; items: { title: string; desc: string; link?: { path: string; label: string } }[] }[];
+  /** Optional wide photo shown under the page header. */
+  heroImage?: { src: string; alt: string; width: number; height: number };
+  sections: { heading: string; images?: { src: string; alt: string }[]; items: { title: string; desc: string; link?: { path: string; label: string } }[] }[];
   facts: { label: string; value: string }[];
   productSlugs: string[];
   /** Related /news sourcing guides linked at the page foot — curated, never forced. */
@@ -1397,6 +1399,7 @@ export const collections: Collection[] = [
   {
     slug: "custom-christmas-packaging",
     eyebrow: "Christmas Packaging",
+    heroImage: { src: "/images/collections/christmas/christmas-hero.webp", alt: "Christmas packaging set: a burgundy magnetic gift box holding a green velvet pouch, a burgundy velvet wine bag on a bottle and a red mailer box printed with gold snowflakes inside, with pine and gold baubles", width: 1536, height: 1024 },
     h1: "Custom Christmas Gift Bags & Boxes with Your Logo",
     subhead:
       "Christmas gift bags, velvet pouches, wine bags, gift boxes and printed mailer boxes, made to your size and colour with your logo — wholesale from 200 pieces per design.",
@@ -1407,6 +1410,10 @@ export const collections: Collection[] = [
     sections: [
       {
         heading: "Christmas gift bags and pouches",
+        images: [
+          { src: "/images/collections/christmas/christmas-velvet-pouches.webp", alt: "Burgundy, forest green and cream velvet drawstring pouches with gold foil logos" },
+          { src: "/images/collections/christmas/christmas-paper-gift-bag.webp", alt: "Cream paper gift bag with burgundy satin ribbon handles and a gold foil logo" },
+        ],
         items: [
           { title: "Velvet gift pouches", desc: "Drawstring velvet pouches in festive colours, with a foil or silkscreen logo — for jewelry, beauty and gift-with-purchase sets.", link: { path: "/products/custom-velvet-pouches/", label: "View custom velvet pouches" } },
           { title: "Paper gift bags", desc: "Kraft, white card or specialty paper gift bags with rope or ribbon handles, printed with your logo.", link: { path: "/products/kraft-paper-shopping-bag/", label: "View paper gift bags" } },
@@ -1418,6 +1425,7 @@ export const collections: Collection[] = [
       },
       {
         heading: "Christmas gift boxes",
+        images: [{ src: "/images/collections/christmas/christmas-gift-boxes.webp", alt: "Forest green rigid gift box and a burgundy gift box tied with a gold satin bow, both with gold foil logos" }],
         items: [
           { title: "Magnetic closure gift boxes", desc: "Rigid boxes with a magnetic flap, wrapped in red, green or any Pantone colour, with a gold or silver foil logo.", link: { path: "/products/magnetic-closure-gift-box/", label: "View magnetic closure gift boxes" } },
           { title: "Ribbon-tie gift boxes", desc: "Rigid boxes closed with a satin ribbon — the classic festive finish for gift sets.", link: { path: "/products/luxury-gift-box-ribbon/", label: "View ribbon gift boxes" } },
@@ -1426,6 +1434,7 @@ export const collections: Collection[] = [
       },
       {
         heading: "Christmas wine bags",
+        images: [{ src: "/images/collections/christmas/christmas-velvet-wine-bag.webp", alt: "Burgundy velvet wine bag with a drawstring and gold foil logo on an unlabelled bottle" }],
         items: [
           { title: "Velvet wine bags", desc: "Most Christmas wine bags we make are 250 g polyester velvet — crease-resistant and strong enough for the weight of a bottle — with a double drawstring and a round or folded square base so the bottle stands upright." },
           { title: "Sizes by bottle", desc: "Flat size, width × height: standard 750 ml wine 15 × 35 cm; champagne and wide-base bottles 17 × 38 cm; ice wine and slim bottles 12 × 40 cm; 187 ml minis 10 × 20 cm. Other sizes and fabrics are made to order." },
@@ -1434,6 +1443,7 @@ export const collections: Collection[] = [
       },
       {
         heading: "Christmas shipping boxes",
+        images: [{ src: "/images/collections/christmas/christmas-mailer-box.webp", alt: "Red mailer box open to a cream interior printed with gold snowflakes and a logo, with tissue paper inside" }],
         items: [
           { title: "Printed mailer boxes", desc: "Corrugated mailer boxes printed with your Christmas artwork outside and inside, in six standard sizes or made to your product.", link: { path: "/products/custom-mailer-boxes/", label: "View custom mailer boxes" } },
           { title: "Tissue paper", desc: "Printed tissue paper to wrap the product inside the box.", link: { path: "/products/custom-tissue-paper/", label: "View custom tissue paper" } },
