@@ -11,12 +11,18 @@ export default function Layout({ children }: { children?: ReactNode }) {
   useScrollReveal();
   useScrollToTop();
 
-  // One listener covers every wa.me link on the site, current and future.
+  // One listener covers every wa.me, mailto: and tel: link on the site, current and future.
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       const anchor = (e.target as HTMLElement).closest?.("a");
       if (anchor && anchor.href.startsWith("https://wa.me/")) {
         track("whatsapp_click", { link: anchor.href });
+      }
+      if (anchor && anchor.href.startsWith("mailto:")) {
+        track("email_click", { link: anchor.href, page: window.location.pathname });
+      }
+      if (anchor && anchor.href.startsWith("tel:")) {
+        track("phone_click", { link: anchor.href, page: window.location.pathname });
       }
     };
     document.addEventListener("click", onClick);
