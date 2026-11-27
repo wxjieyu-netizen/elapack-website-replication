@@ -118,156 +118,169 @@
 }
 
 /* ===== Hero ===== */
+/* Editorial hero: an oversized two-weight headline, a short lede and the quote
+   CTA, then a row of five material close-ups that each link to the matching
+   product page. Everything sits on the page background so the hero flows into
+   the rest of the site instead of reading as a separate poster. */
 .hero {
-  position: relative;
-  /* The poster is 1942x809 (2.4:1). Giving the section the same ratio shows it
-     whole at every width: never cropped, never stretched. A 100vh hero could
-     only ever show part of it. */
-  aspect-ratio: 1942 / 809;
+  padding: calc(var(--header-height) + var(--space-8)) 0 var(--space-10);
+}
+
+.hero-head {
   display: flex;
-  align-items: center;
-  overflow: hidden;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-6);
+  margin-bottom: var(--space-6);
 }
 
-.hero-image {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
+.hero-copy {
+  flex: 1;
+  min-width: 0;
 }
 
-.hero-image img {
-  width: 100%;
-  height: 100%;
-  /* `contain`, not `cover`: the poster must never be cropped. Because the
-     section carries the image's own ratio, this still fills it exactly. */
-  object-fit: contain;
-  object-position: center;
-  /* Fade in rather than scale up: the old 5% zoom-in also zoomed the poster,
-     which reads as a crop for the animation's first second. */
-  animation: fadeIn 1.2s var(--ease) forwards;
+/* The H1 carries the search phrase; it is set small, as a kicker, so the
+   display line can do the visual work. */
+.hero-kicker {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin: 0 0 var(--space-3);
 }
 
-/* Sits directly under the poster's own headline block: its text starts 3% from
-   the left and its last line ends at ~74% of the height. The section carries the
-   poster's exact ratio, so these percentages line up with the image at every
-   width. Glass/outlined style, matching the header CTA it replaces. */
+.hero-display {
+  font-family: var(--font-sans);
+  font-size: clamp(2.6rem, 6.2vw, 5.4rem);
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.hero-display strong {
+  font-weight: 700;
+}
+
+.hero-lede {
+  max-width: 540px;
+  margin: var(--space-3) 0 0;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--color-text-soft);
+}
+
+.hero-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+
+.hero-aside-note {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
 .hero-cta {
-  position: absolute;
-  left: 3%;
-  top: 77%;
-  z-index: 2;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-family: var(--font-sans);
   font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.15em;
+  font-weight: 600;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--color-text);
-  background: transparent;
-  border: 1px solid var(--color-primary);
+  color: #fff;
+  background: var(--color-accent);
+  border: 1px solid var(--color-accent);
   border-radius: 2px;
-  padding: 0.75rem 1.75rem;
+  padding: 1rem 2.25rem;
   white-space: nowrap;
   transition: all var(--transition);
 }
 
 .hero-cta:hover {
-  background: var(--color-primary);
-  color: #fff;
+  background: var(--color-accent-dark);
+  border-color: var(--color-accent-dark);
 }
 
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  background: linear-gradient(
-    135deg,
-    rgba(42, 42, 42, 0.55) 0%,
-    rgba(42, 42, 42, 0.25) 50%,
-    rgba(42, 42, 42, 0.45) 100%
-  );
+.material-strips {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
 }
 
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 720px;
+.material-strip-link {
+  display: block;
+  color: inherit;
 }
 
-.hero-content .eyebrow {
-  font-size: 16px;
+.material-strip-media {
+  display: block;
+  aspect-ratio: 3 / 5;
+  overflow: hidden;
+  background: var(--color-bg-alt);
 }
 
-.hero-title {
-  font-family: var(--font-serif);
-  font-size: 46px;
-  font-weight: 300;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-  color: #fff;
-  margin: 1.5rem 0;
+.material-strip-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.9s var(--ease);
+  animation: fadeIn 1s var(--ease) both;
 }
 
-.hero-subtitle {
-  font-size: 1.1rem;
-  font-weight: 300;
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.85);
-  max-width: 520px;
-  margin-bottom: 2.5rem;
+.material-strip:nth-child(2) img { animation-delay: 0.08s; }
+.material-strip:nth-child(3) img { animation-delay: 0.16s; }
+.material-strip:nth-child(4) img { animation-delay: 0.24s; }
+.material-strip:nth-child(5) img { animation-delay: 0.32s; }
+
+.material-strip-link:hover .material-strip-media img {
+  transform: scale(1.04);
+}
+
+.material-strip-label {
+  display: block;
+  margin-top: var(--space-2);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.material-strip-label b {
+  font-weight: 600;
+  color: var(--color-text);
+  margin-right: 0.8em;
+}
+
+.material-strip-link:hover .material-strip-label b {
+  color: var(--color-accent-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .material-strip-media img {
+    animation: none;
+    transition: none;
+  }
 }
 
 .hero-actions {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-}
-
-.hero-scroll {
-  position: absolute;
-  bottom: 2.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-/* The poster is light, so the scroll cue is dark rather than white. */
-.hero-scroll span {
-  font-size: 0.65rem;
-  font-weight: 500;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: rgba(42, 42, 42, 0.6);
-}
-
-.scroll-line {
-  width: 1px;
-  height: 48px;
-  background: rgba(42, 42, 42, 0.25);
-  position: relative;
-  overflow: hidden;
-}
-
-.scroll-line::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background: rgba(42, 42, 42, 0.75);
-  animation: scrollDown 2s ease-in-out infinite;
-}
-
-@keyframes scrollDown {
-  0% { transform: translateY(-100%); }
-  100% { transform: translateY(200%); }
 }
 
 /* ===== Intro Section ===== */
@@ -3638,30 +3651,40 @@ a.contact-value:hover {
     padding: var(--space-10) 0;
   }
 
-  /* A 2.4:1 poster is only ~1/2.4 of the width tall, so a full-size button can no
-     longer sit inside the band without being clipped by it. The poster keeps its
-     ratio and the CTA moves below it, where it stays readable. The scroll cue is
-     hidden here because it would land on top of that button. */
+  /* Stack the headline over the CTA, and turn the five material columns into a
+     swipeable row so each image stays tall enough to read. */
   .hero {
-    aspect-ratio: auto;
-    display: block;
-    overflow: visible;
-    padding-bottom: var(--space-3);
+    padding: calc(var(--header-height) + var(--space-4)) 0 var(--space-8);
   }
 
-  .hero-image {
-    position: relative;
-    inset: auto;
-    aspect-ratio: 1942 / 809;
+  .hero-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-4);
   }
 
-  .hero-cta {
-    position: static;
-    margin: var(--space-3) var(--space-4) 0;
+  .hero-aside {
+    align-items: flex-start;
   }
 
-  .hero-scroll {
+  .material-strips {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 var(--space-4);
+    margin: 0 calc(-1 * var(--space-4));
+    padding: 0 var(--space-4) var(--space-2);
+    scrollbar-width: none;
+  }
+
+  .material-strips::-webkit-scrollbar {
     display: none;
+  }
+
+  .material-strip {
+    flex: 0 0 62%;
+    scroll-snap-align: start;
   }
 
   .intro-grid,

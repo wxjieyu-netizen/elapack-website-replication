@@ -14,6 +14,45 @@ const featuredSlugs = [
   { slug: "custom-eyelash-packaging-boxes", tag: "Beauty" },
 ];
 
+// Homepage hero: one material per column, each linking to the matching page.
+const heroMaterials = [
+  {
+    label: "Gold foil",
+    category: "Boxes",
+    to: "/products/custom-rigid-drawer-box/",
+    src: "/images/hero/material-gold-foil-box.webp",
+    alt: "Linen-textured rigid drawer box with gold foil logo and a gold bangle inside",
+  },
+  {
+    label: "Satin",
+    category: "Dust bags",
+    to: "/products/custom-dust-bags/",
+    src: "/images/hero/material-satin-dust-bags.webp",
+    alt: "Satin drawstring dust bags in plum, mauve, blush, grey and lilac",
+  },
+  {
+    label: "Microfiber",
+    category: "Pouches",
+    to: "/products/custom-microfiber-pouches/",
+    src: "/images/hero/material-microfiber-pouch.webp",
+    alt: "Blush microfiber envelope pouch with satin ribbon and a gold bead bracelet",
+  },
+  {
+    label: "Ribbon",
+    category: "Gift boxes",
+    to: "/products/magnetic-closure-gift-box/",
+    src: "/images/hero/material-ribbon-gift-boxes.webp",
+    alt: "Magnetic folding gift boxes in blush, rust and sage with satin ribbon bows",
+  },
+  {
+    label: "Cotton",
+    category: "Drawstring bags",
+    to: "/custom-drawstring-bags/",
+    src: "/images/hero/material-cotton-drawstring-bags.webp",
+    alt: "Cotton drawstring bags in natural, ivory and black with printed logo",
+  },
+];
+
 const products = featuredSlugs
   .map(({ slug, tag }) => {
     const p = getProductBySlug(slug);
@@ -146,27 +185,51 @@ export default function Home() {
     <>
       {/* ===== Hero ===== */}
       <section className="hero">
-        <div className="hero-image">
-          <img
-            src="/hero-poster-oem-odm.webp"
-            alt="OEM &amp; ODM custom packaging by ELAPACK: gift boxes, shopping bags, pouches and jewelry packaging"
-            width={1942}
-            height={809}
-          />
-        </div>
-        {/* The poster carries its own headline and subheading, so the hero paints
-            no copy of its own — only the quote CTA, which sits under the
-            poster's text block. The H1 stays in the document for screen readers
-            and for search engines. */}
-        <Link to="/contact/" className="hero-cta">
-          Get a Quote
-        </Link>
-        <h1 className="visually-hidden">
-          Custom Luxury Packaging for Jewelry, Beauty, Fragrance &amp; Gift Brands
-        </h1>
-        <div className="hero-scroll">
-          <span>Scroll</span>
-          <div className="scroll-line" />
+        <div className="container hero-inner">
+          <div className="hero-head">
+            <div className="hero-copy">
+              <h1 className="hero-kicker">
+                Custom Luxury Packaging for Jewelry, Beauty, Fragrance &amp; Gift Brands
+              </h1>
+              <p className="hero-display">
+                Feel the <strong>difference.</strong>
+              </p>
+              <p className="hero-lede">
+                Custom jewelry boxes, pouches, gift bags and gift boxes — made in our
+                own factory, with your logo, in your colours.
+              </p>
+            </div>
+            <div className="hero-aside">
+              <span className="hero-aside-note">OEM &amp; ODM · From 200 pcs</span>
+              <Link to="/contact/" className="hero-cta">
+                Get a Quote
+              </Link>
+            </div>
+          </div>
+
+          <ul className="material-strips">
+            {heroMaterials.map((m, i) => (
+              <li key={m.label} className="material-strip">
+                <Link to={m.to} className="material-strip-link">
+                  <span className="material-strip-media">
+                    <img
+                      src={m.src}
+                      alt={m.alt}
+                      width={600}
+                      height={1000}
+                      loading={i < 3 ? "eager" : "lazy"}
+                      fetchPriority={i === 0 ? "high" : undefined}
+                      decoding="async"
+                    />
+                  </span>
+                  <span className="material-strip-label">
+                    <b>{m.label}</b>
+                    {m.category}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
