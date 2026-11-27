@@ -241,7 +241,10 @@ export default function Contact() {
                   <h2 className="contact-heading">Request a Quote</h2>
                   <p className="contact-form-intro">
                     Share your project details and we'll prepare a tailored
-                    proposal for you. MOQ 200 per product / per component of a set. Production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment.
+                    proposal for you.{" "}
+                    {selectedProduct && selectedProduct.moq !== "200 pcs"
+                      ? `MOQ for ${selectedProduct.name}: ${selectedProduct.moq.replace(/pcs$/, "pieces")}. Production ${selectedProduct.leadTime.replace(/^Typically /, "typically ")}.`
+                      : "MOQ 200 per product / per component of a set. Production 15–20 days for 200–20,000 pcs and 30–35 days for 20,000–50,000 pcs after sample approval and payment."}
                   </p>
                   {selectedProduct && (
                     <p className="contact-form-intro">
@@ -332,7 +335,7 @@ export default function Contact() {
                   </div>
 
                   <details className="form-details">
-                    <summary>补充信息（选填，填了报价更快更准）</summary>
+                    <summary>More details (optional — helps us quote faster and more accurately)</summary>
                     <div className="form-details-body">
                       <div className="form-row">
                         <div className="form-group">
@@ -398,11 +401,13 @@ export default function Contact() {
                         <input id="reference_link" name="reference_link" type="text" placeholder="Paste a link to artwork or a reference product" />
                       </div>
 
+                      {(!selectedProduct || selectedProduct.industries.some((i) => i === "Jewelry" || i.startsWith("Eyewear"))) && (
                       <div className="form-group">
                         <label>
                           <input type="checkbox" name="add_cleaning_cloth" value="Yes" /> Add microfiber cleaning cloth to the set (100% polyester or 80% polyester / 20% polyamide, 180–230g; for jewelry, eyewear, screens and lenses)
                         </label>
                       </div>
+                      )}
                     </div>
                   </details>
 
