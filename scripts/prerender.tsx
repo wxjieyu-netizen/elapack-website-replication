@@ -82,7 +82,7 @@ const STATIC_TITLES: Record<string, string> = {
   "/products/custom-dust-bags": "Custom Dust Bags with Logo — Handbag, Shoe & Jewelry Dust Bags from 200 pcs | ELAPACK",
   "/products/custom-garment-bags": "Custom Garment Bags with Logo — Suit & Dress Covers from 500 pcs | ELAPACK",
   "/products/custom-mailer-boxes": "Custom Mailer Boxes with Logo — Printed Inside & Out, from 200 pcs | ELAPACK",
-  "/products/kraft-paper-shopping-bag": "Custom Kraft Paper Shopping Bags with Logo | ELAPACK",
+  "/products/kraft-paper-shopping-bag": "Custom Paper Gift Bags with Logo — Kraft & Luxury Shopping Bags from 200 pcs | ELAPACK",
   "/products/black-leather-jewelry-box": "Custom Jewelry Boxes with Logo — Black | ELAPACK",
   "/products/custom-white-jewelry-box": "White Jewelry Boxes with Logo, Custom Sizes from 200 pcs | ELAPACK",
   "/products/custom-perfume-boxes": "Custom Perfume Boxes with Logo | ELAPACK",
@@ -187,7 +187,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/products/custom-satin-pouches":
     "Lustrous satin pouches with drawstring or flap closure for jewelry, beauty and gifts — your colour, size and logo. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
   "/products/kraft-paper-shopping-bag":
-    "Custom kraft paper shopping bags with twisted handles and your printed logo, for retail, events and gifting. MOQ 200 pcs, samples in 3–5 days. Request a quote.",
+    "Custom paper gift bags and shopping bags with your logo — 250 g white card with foil and rope handles, or 150 g kraft with one-colour print. Four standard sizes, MOQ 200.",
   "/": "ELAPACK makes custom luxury packaging for jewelry, beauty, fragrance and gift brands — rigid boxes, velvet pouches, shopping bags and coordinated sets with your logo, from 200 pieces.",
   "/pouches-bags": "Custom pouches and bags with your logo — velvet, cotton, satin, muslin, microfiber and non-woven, drawstring, zip or envelope, made to your size from 200 pieces. DDP to the US on request.",
   "/boxes": "Custom rigid boxes in two-piece, magnetic flap, drawer and folding structures, with EVA, sponge, pulp or flocked inserts. MOQ 200 pcs; samples in 3–5 days.",
