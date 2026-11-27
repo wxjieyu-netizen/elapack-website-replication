@@ -1427,7 +1427,9 @@ export const collections: Collection[] = [
       {
         heading: "Christmas wine bags",
         items: [
-          { title: "Velvet wine bags", desc: "Most Christmas wine bags we make are velvet, made to the size of your bottle with your logo; other fabrics and sizes are made to order on request." },
+          { title: "Velvet wine bags", desc: "Most Christmas wine bags we make are 250 g polyester velvet — crease-resistant and strong enough for the weight of a bottle — with a double drawstring and a round or folded square base so the bottle stands upright." },
+          { title: "Sizes by bottle", desc: "Flat size, width × height: standard 750 ml wine 15 × 35 cm; champagne and wide-base bottles 17 × 38 cm; ice wine and slim bottles 12 × 40 cm; 187 ml minis 10 × 20 cm. Other sizes and fabrics are made to order." },
+          { title: "Carry the bottle in a paper bag", desc: "Paper gift bags with a reinforcement card at the handle joints carry a 750 ml bottle safely.", link: { path: "/products/kraft-paper-shopping-bag/", label: "View custom paper gift bags" } },
         ],
       },
       {
@@ -1496,7 +1498,7 @@ export const collections: Collection[] = [
       { q: "Do you make custom Christmas gift boxes with a logo?", a: "Yes. Magnetic closure, ribbon-tie and drawer gift boxes are wrapped in your Christmas colour and printed or foiled with your logo, from 200 pieces per design." },
       { q: "Do you sell Christmas gift boxes wholesale?", a: "Yes, as made-to-order wholesale runs: every box is produced to your size, colour and logo from 200 pieces per design. We do not sell stock Christmas boxes." },
       { q: "Can you make custom Christmas gift bags?", a: "Yes. We make velvet and cotton drawstring pouches and paper gift bags in kraft, white card or specialty paper, with rope or ribbon handles, all with your logo." },
-      { q: "Do you make Christmas wine bags?", a: "Yes. Most of the wine bags we make are velvet, sized to your bottle and printed or foiled with your logo; other fabrics and sizes are made to order on request." },
+      { q: "Do you make Christmas wine bags?", a: "Yes. Most are 250 g polyester velvet with a double drawstring and a round or folded square base so the bottle stands upright. Standard flat sizes are 15 × 35 cm for a 750 ml bottle, 17 × 38 cm for champagne, 12 × 40 cm for slim bottles and 10 × 20 cm for 187 ml minis; other sizes and fabrics are made to order." },
       { q: "Can you print Christmas mailer boxes for shipping?", a: "Yes. Corrugated mailer boxes are printed with your Christmas artwork outside and inside, in six standard sizes from 15 × 10 × 4 cm to 36 × 26 × 6 cm or made to your product." },
       { q: "When should I order Christmas packaging?", a: "For Christmas 2027, approve the sample by early September to ship by sea before China's October 1–7 holiday, or by early October to ship by air. The Christmas timeline guide has the dated plan." },
       { q: "Can you deliver Christmas packaging to the US with duties paid?", a: "Yes. We ship from Shanghai or Shenzhen by air (about 8–12 days) or sea (about 15–20 days), and quote DDP on request." },
