@@ -43,6 +43,7 @@ export function AppRoutes() {
         <Route path="/custom-candle-boxes" element={<Collection slug="custom-candle-boxes" />} />
         <Route path="/custom-cosmetic-packaging" element={<Collection slug="custom-cosmetic-packaging" />} />
         <Route path="/custom-drawstring-bags" element={<Collection slug="custom-drawstring-bags" />} />
+        <Route path="/custom-christmas-packaging" element={<Collection slug="custom-christmas-packaging" />} />
         <Route path="/ribbons-accessories" element={<Collection slug="ribbons-accessories" />} />
         <Route path="/custom-cosmetic-pouches" element={<Collection slug="custom-cosmetic-pouches" />} />
         <Route path="/subscription-box-packaging" element={<Collection slug="subscription-box-packaging" />} />
