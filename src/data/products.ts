@@ -2783,6 +2783,59 @@ export const products: Product[] = [
         "Payment: T/T or PayPal",
       ],
     },
+    {
+      slug: "custom-wine-bags",
+      name: "Custom Wine Bags",
+      category: "Pouches & Bags",
+      shortDesc: "Custom velvet wine bags with your logo — 250 g polyester velvet, double drawstring and a base that keeps the bottle upright, sized for 750 ml, champagne, slim and mini bottles, from 200 pieces.",
+      intro: "Custom wine bags turn a bottle into a gift that carries your brand. ELAPACK makes them mostly in 250 g polyester velvet, with a double drawstring and a round or folded square base so the bottle stands upright, in four standard sizes or made to your bottle, with your logo — from 200 pieces.",
+      description: "Fabric: 250 g polyester velvet is our standard — it resists creasing and is strong enough to carry the weight of a full bottle. Other fabrics, colours and sizes are made to order on request.\n\nBase and closure: for a single-bottle bag we make a round base or a folded square base, so the bottle stands upright in the bag instead of leaning. A double drawstring, pulled from both sides, closes the bag around the neck.\n\nStandard sizes (flat, width × height): standard 750 ml wine bottle 15 × 35 cm, our most common size; champagne and wide-base bottles 17 × 38 cm, wider so the opening does not pull tight; ice wine and slim bottles 12 × 40 cm, for a taller, slimmer look; 187 ml mini bottles 10 × 20 cm, for gift sets and hotel minibar kits. For any other bottle, send its height and widest diameter.\n\nLogo: gold or silver hot stamping presses the velvet pile flat for a debossed, shining logo; silkscreen printing and embroidery are also available. The logo method and placement are confirmed on a physical sample with your bottle inside.\n\nHow ordering works: send the bottle type or dimensions, the fabric colour, your logo artwork (AI, PDF or PNG) and quantity. We send a written quotation within one business day, make a custom sample, and start production after sample approval and payment. Wine bags can be ordered with paper gift bags — built with a reinforcement card at the handles to carry a 750 ml bottle — and matching boxes as one gift set.",
+      image: "/images/products/custom-wine-bags/custom-wine-bags-hero.webp",
+      gallery: ["/images/products/custom-wine-bags/custom-wine-bags-hero.webp"],
+      galleryAlts: ["Burgundy velvet wine bag with a double drawstring and gold foil logo on an unlabelled bottle"],
+      galleryRatio: "1 / 1",
+      materials: "250 g polyester velvet (standard); other fabrics on request",
+      moq: "200 pcs",
+      leadTime: "Typically 15–20 days after sample approval and payment receipt; shipping time is separate",
+      industries: ["Gift", "Fashion"],
+      features: [
+        { title: "250 g Polyester Velvet", desc: "Crease-resistant and strong enough for the weight of a full bottle." },
+        { title: "Stands Upright", desc: "A round base or folded square base keeps the bottle standing in the bag." },
+        { title: "Four Bottle Sizes", desc: "750 ml, champagne, slim and 187 ml mini bottles, or made to your bottle." },
+        { title: "Foil, Print or Embroidery", desc: "Gold or silver hot stamping on velvet, silkscreen or embroidery, confirmed on the sample." },
+      ],
+      specs: [
+        { label: "Fabric", value: "250 g polyester velvet; other fabrics and colours on request" },
+        { label: "750 ml wine", value: "15 × 35 cm (flat, width × height) — most common size" },
+        { label: "Champagne / wide base", value: "17 × 38 cm" },
+        { label: "Ice wine / slim bottle", value: "12 × 40 cm" },
+        { label: "187 ml mini", value: "10 × 20 cm" },
+        { label: "Base and closure", value: "Round base or folded square base; double drawstring" },
+        { label: "Logo methods", value: "Gold or silver hot stamping, silkscreen, embroidery" },
+        { label: "MOQ", value: "200 pieces, custom sizes included" },
+        { label: "Sample & Production", value: "Custom sample USD 30 + USD 25 shipping, made in 3–5 days; production typically 15–20 days after sample approval and payment" },
+        { label: "Delivery to the US", value: "Sea or air from Shanghai or Shenzhen: about 8–12 days by air or 15–20 days by sea; DDP quoted on request" },
+      ],
+      faqs: [
+        { q: "What size wine bag do I need for a 750 ml bottle?", a: "15 × 35 cm flat (width × height) fits a standard 750 ml wine bottle. Champagne and wide-base bottles take 17 × 38 cm, slim bottles 12 × 40 cm and 187 ml minis 10 × 20 cm." },
+        { q: "What fabric are your wine bags made from?", a: "Our standard is 250 g polyester velvet — crease-resistant and strong enough for a full bottle. Other fabrics and colours are made to order on request." },
+        { q: "Will the bottle stand upright in the bag?", a: "Yes. Single-bottle bags have a round base or a folded square base, so the bottle stands instead of leaning." },
+        { q: "Can you put our logo on the wine bags?", a: "Yes. Gold or silver hot stamping reads best on velvet; silkscreen printing and embroidery are also available, confirmed on a sample with your bottle inside." },
+        { q: "What is the minimum order for custom wine bags?", a: "200 pieces per design, custom sizes included." },
+        { q: "Can you deliver custom wine bags to the US?", a: "Yes. We ship by air (about 8–12 days) or by sea (15–20 days) from Shanghai or Shenzhen, and quote DDP on request." },
+      ],
+      customizationOptions: [
+        "750 ml, champagne, slim, mini or custom bottle size",
+        "Velvet colour or another fabric",
+        "Round or folded square base",
+        "Hot stamping, silkscreen or embroidery logo",
+        "Matching paper gift bag and box",
+      ],
+      keyFacts: [
+        ...KEY_FACTS_LINES,
+        "Wine bags: 250 g polyester velvet with a double drawstring and a round or square base; 15 × 35 cm for 750 ml, 17 × 38 cm for champagne, 12 × 40 cm for slim bottles, 10 × 20 cm for 187 ml minis",
+      ],
+    },
 ];
 
 export const categories = [
@@ -2967,6 +3020,10 @@ export const productGuides: Record<string, string[]> = {
   "custom-rigid-drawer-box": [
     "drawer-box-packaging-guide",
     "packaging-inserts-guide",
+  ],
+  "custom-wine-bags": [
+    "christmas-packaging-ordering-timeline",
+    "velvet-satin-muslin-pouches-compared",
   ],
   "custom-dust-bags": [
     "custom-dust-bags-guide",
