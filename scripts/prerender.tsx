@@ -158,7 +158,7 @@ const STATIC_DESCRIPTIONS: Record<string, string> = {
   "/products/custom-dust-bags":
     "Custom dust bags with your logo for handbags, shoes, wallets and jewelry — velvet, cotton, non-woven, satin or microfiber, drawstring or flap. MOQ 200, samples in 3–5 days.",
   "/products/custom-garment-bags":
-    "Custom garment bags with your logo for suits, dresses and wedding gowns — non-woven, PEVA, cotton or canvas, with zip, hanger opening and window. MOQ 500 pieces.",
+    "Custom garment bags with your logo for suits, dresses and wedding gowns — non-woven, PEVA, cotton or canvas, with zip, hanger opening and window. MOQ 500, samples in 4–6 days.",
   "/products/custom-mailer-boxes":
     "Custom printed mailer boxes with your logo, inside and out — E-flute, kraft or specialty paper, six standard sizes from 15 × 10 × 4 cm or your own. MOQ 200, samples in 3–5 days.",
   "/products/custom-rigid-drawer-box":
