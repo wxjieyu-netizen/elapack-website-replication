@@ -2752,6 +2752,7 @@ export const products: Product[] = [
       gallery: [
         "/images/products/custom-garment-bags/custom-garment-bags-hero.webp",
         "/images/products/custom-garment-bags/custom-garment-bags-detail-01.webp",
+        "/images/products/custom-garment-bags/custom-garment-bags-logo.webp",
         "/images/products/custom-garment-bags/custom-garment-bags-detail-02.webp",
         "/images/products/custom-garment-bags/custom-garment-bags-detail-03.webp",
         "/images/products/custom-garment-bags/custom-garment-bags-detail-04.webp",
@@ -2762,6 +2763,7 @@ export const products: Product[] = [
       galleryAlts: [
         "Cream cotton garment bag with a printed logo hanging on a rail, zip partly open over a navy suit",
         "Four garment bags side by side on hangers: grey non-woven, semi-transparent PEVA showing a suit, cream cotton and textured canvas",
+        "Close-up of a grey embroidered logo on a black garment bag below the webbing handle",
         "Grey non-woven garment bag with a clear window showing a navy jacket and a hanger opening at the top",
         "Close-up of a metal-tooth zip and metal puller at the top of a charcoal garment bag on a wooden hanger",
         "Two charcoal garment bags in suit and dress lengths hanging side by side",
