@@ -1397,28 +1397,31 @@ export const collections: Collection[] = [
   {
     slug: "custom-christmas-packaging",
     eyebrow: "Christmas Packaging",
-    h1: "Custom Christmas Gift Boxes & Bags with Your Logo",
+    h1: "Custom Christmas Gift Bags & Boxes with Your Logo",
     subhead:
-      "Christmas gift boxes, velvet pouches, wine bags, paper gift bags and printed mailer boxes, made to your size and colour with your logo — wholesale from 200 pieces per design.",
+      "Christmas gift bags, velvet pouches, wine bags, gift boxes and printed mailer boxes, made to your size and colour with your logo — wholesale from 200 pieces per design.",
     metaDescription:
-      "Custom Christmas gift boxes, gift bags, velvet wine bags and printed shipping boxes with your logo — red, green and gold, foil and ribbon, made to order from 200 pcs. DDP to the US.",
+      "Custom Christmas gift bags, velvet pouches and wine bags, gift boxes and printed shipping boxes with your logo — red, green and gold, foil and ribbon, made to order from 200 pcs. DDP to the US.",
     intro:
       "ELAPACK makes custom Christmas packaging for brands that sell gift sets in the holiday season: rigid gift boxes, velvet and cotton pouches, velvet wine bags, paper gift bags and printed mailer boxes, all made to order in your size, colour and logo. Nothing is stock: every piece is made from 200 pieces per design, so a box, a pouch and a card can be matched to one Christmas colour and ordered as one set. Send the product sizes, quantities and the date the packaging must be in your warehouse, and we return a quotation and a dated production plan within one business day.",
     sections: [
+      {
+        heading: "Christmas gift bags and pouches",
+        items: [
+          { title: "Velvet gift pouches", desc: "Drawstring velvet pouches in festive colours, with a foil or silkscreen logo — for jewelry, beauty and gift-with-purchase sets.", link: { path: "/products/custom-velvet-pouches/", label: "View custom velvet pouches" } },
+          { title: "Paper gift bags", desc: "Kraft, white card or specialty paper gift bags with rope or ribbon handles, printed with your logo.", link: { path: "/products/kraft-paper-shopping-bag/", label: "View paper gift bags" } },
+          { title: "Satin pouches", desc: "Glossy satin drawstring pouches for fragrance, hair accessories and lingerie gift sets.", link: { path: "/products/custom-satin-pouches/", label: "View custom satin pouches" } },
+          { title: "Cotton drawstring bags", desc: "Natural cotton bags printed in one or two colours, for a plain, reusable Christmas look.", link: { path: "/custom-drawstring-bags/", label: "View custom drawstring bags" } },
+          { title: "Gift-with-purchase pouches", desc: "Small branded pouches given free with a holiday purchase — a regular Christmas order for beauty and jewelry brands.", link: { path: "/case-studies/velvet-gwp-pouches-beauty-brand/", label: "See a velvet GWP pouch case study" } },
+          { title: "Dust bags for gifted handbags and shoes", desc: "Cotton or velvet dust bags with your logo, sized to the handbag or the pair.", link: { path: "/products/custom-dust-bags/", label: "View custom dust bags" } },
+        ],
+      },
       {
         heading: "Christmas gift boxes",
         items: [
           { title: "Magnetic closure gift boxes", desc: "Rigid boxes with a magnetic flap, wrapped in red, green or any Pantone colour, with a gold or silver foil logo.", link: { path: "/products/magnetic-closure-gift-box/", label: "View magnetic closure gift boxes" } },
           { title: "Ribbon-tie gift boxes", desc: "Rigid boxes closed with a satin ribbon — the classic festive finish for gift sets.", link: { path: "/products/luxury-gift-box-ribbon/", label: "View ribbon gift boxes" } },
           { title: "Drawer boxes", desc: "Slide-out drawer boxes for jewelry, accessories and multi-piece sets.", link: { path: "/products/custom-rigid-drawer-box/", label: "View rigid drawer boxes" } },
-        ],
-      },
-      {
-        heading: "Christmas gift bags and pouches",
-        items: [
-          { title: "Velvet gift pouches", desc: "Drawstring velvet pouches in festive colours, with a foil or silkscreen logo — for jewelry, beauty and gift-with-purchase sets.", link: { path: "/products/custom-velvet-pouches/", label: "View custom velvet pouches" } },
-          { title: "Paper gift bags", desc: "Kraft, white card or specialty paper gift bags with rope or ribbon handles, printed with your logo.", link: { path: "/products/kraft-paper-shopping-bag/", label: "View paper gift bags" } },
-          { title: "Cotton drawstring bags", desc: "Natural cotton bags printed in one or two colours, for a plain, reusable Christmas look.", link: { path: "/custom-drawstring-bags/", label: "View custom drawstring bags" } },
         ],
       },
       {
@@ -1462,12 +1465,14 @@ export const collections: Collection[] = [
       { label: "Quotation", value: "Written quotation within one business day" },
     ],
     productSlugs: [
-      "magnetic-closure-gift-box",
-      "luxury-gift-box-ribbon",
       "custom-velvet-pouches",
       "kraft-paper-shopping-bag",
+      "custom-satin-pouches",
+      "custom-cotton-pouches",
+      "custom-dust-bags",
+      "magnetic-closure-gift-box",
+      "luxury-gift-box-ribbon",
       "custom-mailer-boxes",
-      "custom-rigid-drawer-box",
     ],
     factBlock: {
       updated: "November 2026",
@@ -1479,7 +1484,8 @@ export const collections: Collection[] = [
       columns: ["Packaging", "Best for", "What to confirm on the sample"],
       rows: [
         ["Magnetic or ribbon gift box", "Gift sets, jewelry, beauty and corporate gifts", "Wrap colour against your Pantone, foil logo and insert fit"],
-        ["Velvet pouch", "Jewelry, beauty and gift-with-purchase sets", "Fabric colour, logo method and opening size"],
+        ["Velvet or satin pouch", "Jewelry, beauty and fragrance gift sets", "Fabric colour, logo method and opening size"],
+      ["Gift-with-purchase pouch", "Free gifts with holiday orders for beauty and jewelry brands", "Pouch size against the gift, colour and logo"],
         ["Velvet wine bag", "Single bottles for gifting and corporate hampers", "Fit on your actual bottle and logo placement"],
         ["Paper gift bag", "Retail counters, events and gift wrap", "Paper, handle type and print colour"],
         ["Printed mailer box", "E-commerce orders and subscription boxes", "Size, board and print outside and inside"],
