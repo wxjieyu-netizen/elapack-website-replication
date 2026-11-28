@@ -5,11 +5,12 @@ import { industries, products } from "../data/products";
 
 const industryContent: Record<
   string,
-  { desc: string; image: string; highlights: string[] }
+  { desc: string; image: string; imageAlt?: string; highlights: string[] }
 > = {
   Jewelry: {
     desc: "From ring boxes to necklace cases, we craft packaging that protects and presents fine jewelry with the luxury it deserves.",
-    image: "/product-giftbox.webp",
+    image: "/images/scenes/jewelry-boxes-plum-1600.webp",
+    imageAlt: "Plum and charcoal octagonal jewelry boxes with gold-foil ELAPACK logo, one open with a pendant necklace",
     highlights: [
       "Ring, earring, necklace & bracelet boxes",
       "Velvet, suede & leatherette interiors",
@@ -29,7 +30,8 @@ const industryContent: Record<
   },
   Fragrance: {
     desc: "Rigid gift boxes and drawer-style cases that turn fragrance unboxing into a ritual of discovery.",
-    image: "/product-collection.webp",
+    image: "/images/scenes/perfume-box-eva-insert-1600.webp",
+    imageAlt: "Ivory book-style perfume box with a dark EVA insert holding a bottle, beside a matching paper bag",
     highlights: [
       "Drawer-style & magnetic closure boxes",
       "Flocked velvet & satin inserts",
@@ -49,7 +51,8 @@ const industryContent: Record<
   },
   Beauty: {
     desc: "From cream jars to makeup palettes, we design packaging that elevates beauty brands on shelf and in hand.",
-    image: "/product-giftbox.webp",
+    image: "/images/scenes/lash-press-on-nail-boxes-1600.webp",
+    imageAlt: "Pink lash box and ivory press-on nail box with gold-foil logo, with a canvas cosmetic pouch",
     highlights: [
       "Folding cartons & rigid boxes",
       "Soft-touch & matte lamination finishes",
@@ -59,7 +62,8 @@ const industryContent: Record<
   },
   Fashion: {
     desc: "Luxury shopping bags, garment packaging, and branded accessories that extend your brand beyond the product.",
-    image: "/product-shoppingbag.webp",
+    image: "/images/scenes/dust-bag-garment-cover-1600.webp",
+    imageAlt: "Cotton drawstring dust bag holding a handbag, beside a grey garment cover on a rail",
     highlights: [
       "Heavyweight shopping bags with rope handles",
       "Garment bags & dust covers",
@@ -69,7 +73,8 @@ const industryContent: Record<
   },
   Gift: {
     desc: "Coordinated gift packaging systems that make every unboxing a memorable brand experience.",
-    image: "/product-collection.webp",
+    image: "/images/scenes/ribbon-paper-gift-bags-1600.webp",
+    imageAlt: "Four paper gift bags in taupe, sage, ivory and blush with satin ribbon handles",
     highlights: [
       "Complete gift set collections",
       "Seasonal & limited-edition packaging",
@@ -158,7 +163,8 @@ export default function Industries() {
                 <div className="industry-card-image">
                   <img
                     src={industryContent[ind].image}
-                    alt={ind}
+                    alt={industryContent[ind].imageAlt ?? ind}
+                    style={industryContent[ind].imageAlt ? { objectPosition: "72% center" } : undefined}
                     loading="lazy"
                     width={1408}
                     height={768}

@@ -234,7 +234,7 @@ export const landings: Landing[] = [
   },
   {
     slug: "sets",
-    hero: { src: "/images/sets/magic-pack-navy-set.webp", alt: "Custom packaging set in deep navy: shopping bag, rigid drawer box with a necklace inside, velvet pouch, printed ribbon, tissue and cards — every component colour-matched" },
+    hero: { src: "/images/scenes/complete-set-sage-ivory.webp", alt: "Colour-matched packaging set in sage and ivory: linen rigid box, drawer box, ribbon-handle paper bag, drawstring pouch and thank-you card" },
     gallery: [
       { src: "/images/sets/magic-package-cream-set.webp", alt: "Custom packaging set in cream and navy: ribbon-tied shopping bag, book-style box with a pouch inside, and a matching closed box" },
       { src: "/images/factory/elapack-02.jpg", alt: "ELAPACK design team preparing pouch and box dielines for a custom packaging set" },

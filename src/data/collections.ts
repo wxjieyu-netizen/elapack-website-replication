@@ -43,6 +43,7 @@ export type Collection = {
 export const collections: Collection[] = [
   {
     slug: "custom-jewelry-boxes",
+    heroImage: { src: "/images/scenes/jewelry-boxes-plum.webp", alt: "Plum and charcoal octagonal jewelry boxes with gold-foil logo, one open with a pendant necklace, on a travertine block", width: 2400, height: 1350 },
     eyebrow: "Jewelry Boxes",
     h1: "Custom Jewelry Boxes with Logo — Wholesale",
     subhead:
@@ -349,6 +350,7 @@ export const collections: Collection[] = [
   },
   {
     slug: "custom-jewelry-pouches",
+    heroImage: { src: "/images/scenes/velvet-microfiber-jewelry-pouches.webp", alt: "Velvet drawstring pouches in rose and cognac and microfiber envelope pouches with debossed logo and gold hoop earrings", width: 2400, height: 1350 },
     eyebrow: "Jewelry Pouches",
     h1: "Custom Jewelry Pouches & Bags with Your Logo",
     subhead:
@@ -651,6 +653,7 @@ export const collections: Collection[] = [
   },
   {
     slug: "custom-gift-boxes",
+    heroImage: { src: "/images/scenes/complete-set-sage-ivory.webp", alt: "Sage and ivory packaging set: linen rigid box, drawer box with ribbon pull, ribbon-handle paper bag, drawstring pouch and thank-you card", width: 2400, height: 1350 },
     eyebrow: "Gift Boxes",
     h1: "Custom Gift Boxes with Logo",
     subhead:
@@ -825,6 +828,7 @@ export const collections: Collection[] = [
   },
   {
     slug: "custom-cosmetic-packaging",
+    heroImage: { src: "/images/scenes/lash-press-on-nail-boxes.webp", alt: "Pink magnetic lash box and ivory press-on nail box with gold-foil logo, beside a canvas cosmetic pouch", width: 2400, height: 1350 },
     eyebrow: "Cosmetic & Beauty Packaging",
     h1: "Custom Cosmetic Packaging Boxes",
     subhead:
@@ -910,6 +914,7 @@ export const collections: Collection[] = [
   },
   {
     slug: "custom-drawstring-bags",
+    heroImage: { src: "/images/scenes/dust-bag-garment-cover.webp", alt: "Cotton drawstring dust bag with printed logo holding a leather handbag, beside a garment cover", width: 2400, height: 1350 },
     eyebrow: "Drawstring Bags",
     h1: "Custom Drawstring Bags & Pouches",
     subhead:
@@ -1239,6 +1244,7 @@ export const collections: Collection[] = [
   },
   {
     slug: "subscription-box-packaging",
+    heroImage: { src: "/images/scenes/sage-mailer-box-unboxing.webp", alt: "Sage printed mailer box opened to tissue paper, a thank-you card and a small ivory gift box", width: 2400, height: 1350 },
     eyebrow: "Subscription Box Packaging",
     h1: "Custom Subscription Box Packaging — Boxes, Pouches & Inserts",
     subhead:
