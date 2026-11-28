@@ -192,11 +192,11 @@ export default function Home() {
                 Custom Luxury Packaging for Jewelry, Beauty, Fragrance &amp; Gift Brands
               </h1>
               <p className="hero-display">
-                Feel the <strong>difference.</strong>
+                Made to be <strong>kept.</strong>
               </p>
               <p className="hero-lede">
-                Custom jewelry boxes, pouches, gift bags and gift boxes — made in our
-                own factory, with your logo, in your colours.
+                One factory for your whole unboxing — boxes, pouches and gift bags,
+                matched to your colours, finishes and logo.
               </p>
             </div>
             <div className="hero-aside">
