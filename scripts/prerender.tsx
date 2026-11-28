@@ -369,7 +369,7 @@ for (const route of ROUTES) {
       description:
         "Custom packaging manufacturer operating a 1,000-square-meter factory with three production lines in Wuxi, Jiangsu, China.",
       url: `${SITE}/`,
-      logo: `${SITE}/images/brand/elapack-logo.png`,
+      logo: `${SITE}/images/brand/elapack-logo-ink.png`,
       address: {
         "@type": "PostalAddress",
         addressLocality: "Wuxi",
