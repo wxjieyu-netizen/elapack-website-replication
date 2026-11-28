@@ -253,7 +253,7 @@ export default function Contact() {
                   )}
                   {selectedProduct?.slug === "custom-ring-boxes" && (
                     <p className="contact-form-intro">
-                      For ring boxes, include the band width, setting height, rings per box, preferred finish and logo artwork in Project Details.
+                      For ring boxes, include the band width, setting height, rings per box, preferred finish and logo artwork in the packaging field below.
                     </p>
                   )}
 
@@ -324,13 +324,12 @@ export default function Contact() {
                   </div>
 
                   <div className="form-group">
-                    <label htmlFor="message">Project Details *</label>
+                    <label htmlFor="message">What are you packaging? (optional)</label>
                     <textarea
                       id="message"
                       name="message"
-                      required
-                      rows={5}
-                      placeholder="Tell us about your brand, your packaging needs, timelines, and any specific materials or finishes you're considering."
+                      rows={3}
+                      placeholder="e.g. Ring boxes and velvet pouches for a jewelry launch in March."
                     />
                   </div>
 
@@ -427,8 +426,11 @@ export default function Contact() {
                     className="btn-primary btn-full"
                     disabled={sending}
                   >
-                    {sending ? "Sending…" : "Submit Request"}
+                    {sending ? "Sending…" : "Get My Quote"}
                   </button>
+                  <p className="form-reassure">
+                    Only name and email are required. We reply within 1 business day — no obligation.
+                  </p>
                   <p
                     style={{ fontSize: "0.85rem", opacity: 0.75, margin: "1rem 0 0" }}
                   >
