@@ -5,9 +5,12 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       <div className="container">
+        <p className="footer-slogan" aria-hidden="true">
+          Made to be <strong>kept.</strong>
+        </p>
         <div className="footer-grid">
           <div className="footer-brand">
-            <Logo variant="light" />
+            <Logo />
             <p className="footer-desc">
               Crafting premium packaging solutions for global luxury brands.
               From creative design to precision production — one partner, end
@@ -62,7 +65,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className="footer-label">Location</span>
-                Wuxi, Jiangsu, China
+                <span>Wuxi, Jiangsu, China</span>
               </li>
             </ul>
           </div>
