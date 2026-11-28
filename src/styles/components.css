@@ -1,12 +1,12 @@
 /* ===== Logo ===== */
 .logo-img {
   display: block;
-  height: 22px;
+  height: 19px;
   width: auto;
 }
 
 .footer-brand .logo-img {
-  height: 24px;
+  height: 22px;
 }
 
 /* ===== Header ===== */
@@ -393,6 +393,6 @@
   }
 
   .logo-img {
-    height: 18px;
+    height: 16px;
   }
 }
