@@ -154,7 +154,7 @@
 
 .hero-display {
   font-family: var(--font-sans);
-  font-size: clamp(2.6rem, 6.2vw, 5.4rem);
+  font-size: clamp(2.6rem, 5.2vw, 4.5rem);
   font-weight: 200;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -196,21 +196,22 @@
   justify-content: center;
   font-family: var(--font-sans);
   font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.2em;
+  font-weight: 500;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #fff;
-  background: var(--color-accent);
-  border: 1px solid var(--color-accent);
+  background: var(--color-primary);
+  border: 1px solid var(--color-primary);
   border-radius: 2px;
-  padding: 1rem 2.25rem;
+  padding: 1rem 2.5rem;
   white-space: nowrap;
   transition: all var(--transition);
 }
 
+/* Same grey as the site's other quote buttons (.btn-primary). */
 .hero-cta:hover {
-  background: var(--color-accent-dark);
-  border-color: var(--color-accent-dark);
+  background: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
 }
 
 .material-strips {
