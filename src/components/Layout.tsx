@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 
 import Header from "./Header";
 import Footer from "./Footer";
+import QuoteDock from "./QuoteDock";
 import { useScrollReveal } from "../hooks/useScrollReveal";
 import { useScrollToTop } from "../hooks/useScrollToTop";
 import { track } from "../lib/track";
@@ -36,6 +37,7 @@ export default function Layout({ children }: { children?: ReactNode }) {
         {children ?? <Outlet />}
       </main>
       <Footer />
+      <QuoteDock />
     </div>
   );
 }

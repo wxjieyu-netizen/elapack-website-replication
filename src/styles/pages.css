@@ -68,6 +68,13 @@
   width: 100%;
 }
 
+.form-reassure {
+  font-size: 0.85rem;
+  color: var(--color-text-soft);
+  text-align: center;
+  margin: 0.75rem 0 0;
+}
+
 /* ===== Text Link ===== */
 .text-link {
   display: inline-flex;
