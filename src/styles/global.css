@@ -30,7 +30,8 @@
   --fs-lead: 1.0625rem;
   --fs-body: 1rem;
   --fs-small: 0.9rem;
-  --fs-label: 0.72rem;
+  --fs-label: 0.8125rem;
+  --fs-nav: 0.875rem;
 
   /* Spacing — 8px system */
   --space-1: 0.5rem;
