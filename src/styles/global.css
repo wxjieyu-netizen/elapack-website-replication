@@ -30,8 +30,9 @@
   --fs-lead: 1.0625rem;
   --fs-body: 1rem;
   --fs-small: 0.9rem;
-  --fs-label: 0.8125rem;
-  --fs-nav: 0.875rem;
+  --fs-label: 1rem;
+  --fs-nav: 0.9375rem;
+  --fs-kicker: 0.8125rem;
 
   /* Spacing — 8px system */
   --space-1: 0.5rem;
@@ -146,7 +147,7 @@ img {
   font-family: var(--font-sans);
   font-size: var(--fs-label);
   font-weight: 500;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--color-accent-dark);
 }
