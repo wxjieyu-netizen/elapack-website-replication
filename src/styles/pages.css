@@ -3595,6 +3595,11 @@ a.contact-value:hover {
 }
 
 @media (max-width: 860px) {
+  /* Section labels step down on phones so they stay under the section title. */
+  .eyebrow {
+    font-size: 1rem;
+  }
+
   .section {
     padding: var(--space-10) 0;
   }
