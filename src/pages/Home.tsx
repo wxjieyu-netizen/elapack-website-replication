@@ -21,35 +21,35 @@ const heroMaterials = [
     category: "Boxes",
     to: "/products/custom-rigid-drawer-box/",
     src: "/images/hero/material-gold-foil-box.webp",
-    alt: "Linen-textured rigid drawer box with gold foil logo and a gold bangle inside",
+    alt: "Brown linen-textured drawer boxes with gold foil ELAPACK logo and a gold bangle",
   },
   {
     label: "Satin",
     category: "Dust bags",
     to: "/products/custom-dust-bags/",
     src: "/images/hero/material-satin-dust-bags.webp",
-    alt: "Satin drawstring dust bags in plum, mauve, blush, grey and lilac",
+    alt: "Satin drawstring dust bags in plum, blush and mauve with printed ELAPACK logo",
   },
   {
     label: "Microfiber",
     category: "Pouches",
     to: "/products/custom-microfiber-pouches/",
     src: "/images/hero/material-microfiber-pouch.webp",
-    alt: "Blush microfiber envelope pouch with satin ribbon and a gold bead bracelet",
+    alt: "Microfiber envelope pouches in camel, grey, navy, plum and green with debossed and foil logos",
   },
   {
     label: "Ribbon",
     category: "Gift boxes",
     to: "/products/magnetic-closure-gift-box/",
     src: "/images/hero/material-ribbon-gift-boxes.webp",
-    alt: "Magnetic folding gift boxes in blush, rust and sage with satin ribbon bows",
+    alt: "Magnetic folding gift boxes in blush, ivory, rust and sage with satin ribbon bows",
   },
   {
     label: "Cotton",
     category: "Drawstring bags",
     to: "/custom-drawstring-bags/",
     src: "/images/hero/material-cotton-drawstring-bags.webp",
-    alt: "Cotton drawstring bags in natural, ivory and black with printed logo",
+    alt: "Cotton drawstring bags in black, ivory and natural with printed ELAPACK logo",
   },
 ];
 
@@ -215,8 +215,8 @@ export default function Home() {
                     <img
                       src={m.src}
                       alt={m.alt}
-                      width={600}
-                      height={1000}
+                      width={800}
+                      height={1200}
                       loading={i < 3 ? "eager" : "lazy"}
                       fetchPriority={i === 0 ? "high" : undefined}
                       decoding="async"
