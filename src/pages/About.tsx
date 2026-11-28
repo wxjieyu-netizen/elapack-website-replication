@@ -156,7 +156,7 @@ export default function About() {
             </p>
             <h3
               className="section-title"
-              style={{ marginTop: "2rem", fontSize: "1.35rem" }}
+              style={{ marginTop: "2rem", fontSize: "var(--fs-h3)" }}
             >
               Guides by Tina
             </h3>
@@ -208,7 +208,7 @@ export default function About() {
             </ul>
             <h3
               className="section-title"
-              style={{ marginTop: "2rem", fontSize: "1.35rem" }}
+              style={{ marginTop: "2rem", fontSize: "var(--fs-h3)" }}
             >
               Sampling at ELAPACK
             </h3>

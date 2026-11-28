@@ -97,7 +97,7 @@ export default function Privacy() {
             <div key={section.heading}>
               <h2
                 className="section-title"
-                style={{ marginTop: "2rem", fontSize: "1.35rem" }}
+                style={{ marginTop: "2rem", fontSize: "var(--fs-h3)" }}
               >
                 {section.heading}
               </h2>

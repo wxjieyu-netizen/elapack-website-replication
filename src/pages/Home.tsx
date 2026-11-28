@@ -659,8 +659,8 @@ export default function Home() {
               />
             </div>
             <div className="philosophy-content reveal reveal-delay-2">
-              <p className="eyebrow" style={{ fontSize: "30px" }}>Our Philosophy</p>
-              <h2 className="section-title" style={{ marginTop: "1rem", fontSize: "26px" }}>
+              <p className="eyebrow">Our Philosophy</p>
+              <h2 className="section-title" style={{ marginTop: "1rem" }}>
                 Simplicity. Sophistication. Luxury.
               </h2>
               <p className="philosophy-text">
