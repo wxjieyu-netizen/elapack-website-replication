@@ -92,8 +92,9 @@
 }
 
 /* ===== Section Base ===== */
+/* Section rhythm: 80px top and bottom (160px between sections) on desktop. */
 .section {
-  padding: var(--space-16) 0;
+  padding: var(--space-10) 0;
 }
 
 .section-header {
@@ -123,7 +124,7 @@
    product page. Everything sits on the page background so the hero flows into
    the rest of the site instead of reading as a separate poster. */
 .hero {
-  padding: calc(var(--header-height) + var(--space-8)) 0 var(--space-10);
+  padding: calc(var(--header-height) + var(--space-8)) 0 var(--space-6);
 }
 
 .hero-head {
@@ -286,7 +287,6 @@
 
 /* ===== Intro Section ===== */
 .intro-section {
-  padding: var(--space-16) 0;
   background: var(--color-bg);
 }
 
@@ -1542,7 +1542,6 @@
 
 /* ===== CTA Section ===== */
 .cta-section {
-  padding: var(--space-12) 0;
   background: var(--color-bg);
 }
 
@@ -3653,7 +3652,7 @@ a.contact-value:hover {
   }
 
   .section {
-    padding: var(--space-10) 0;
+    padding: var(--space-8) 0;
   }
 
   /* Mobile: tighter type so the headline, lede and CTA fit the first screen,
