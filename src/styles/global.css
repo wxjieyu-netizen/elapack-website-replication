@@ -22,6 +22,16 @@
   --font-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-sans: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
+  /* Type scale: one size per level, used site-wide.
+     H1 page title > H2 section title > H3 card title > lead > body > small > label. */
+  --fs-h1: clamp(2.25rem, 4vw, 3.25rem);
+  --fs-h2: clamp(1.6rem, 2.6vw, 2.25rem);
+  --fs-h3: 1.2rem;
+  --fs-lead: 1.0625rem;
+  --fs-body: 1rem;
+  --fs-small: 0.9rem;
+  --fs-label: 0.72rem;
+
   /* Spacing — 8px system */
   --space-1: 0.5rem;
   --space-2: 1rem;
@@ -133,7 +143,7 @@ img {
 
 .eyebrow {
   font-family: var(--font-sans);
-  font-size: 0.7rem;
+  font-size: var(--fs-label);
   font-weight: 500;
   letter-spacing: 0.28em;
   text-transform: uppercase;
@@ -142,7 +152,7 @@ img {
 
 .section-title {
   font-family: var(--font-serif);
-  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+  font-size: var(--fs-h2);
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: -0.02em;
@@ -150,7 +160,7 @@ img {
 
 .section-title-lg {
   font-family: var(--font-serif);
-  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  font-size: var(--fs-h2);
   font-weight: 300;
   line-height: 1.2;
   letter-spacing: -0.025em;

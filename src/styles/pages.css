@@ -112,7 +112,7 @@
 
 .section-subtitle {
   margin-top: 1.25rem;
-  font-size: 1rem;
+  font-size: var(--fs-lead);
   color: var(--color-text-soft);
   line-height: 1.7;
 }
@@ -169,7 +169,7 @@
 .hero-lede {
   max-width: 540px;
   margin: var(--space-3) 0 0;
-  font-size: 0.95rem;
+  font-size: var(--fs-lead);
   line-height: 1.75;
   color: var(--color-text-soft);
 }
@@ -399,18 +399,10 @@
 }
 
 .intro-text {
-  font-size: 1.05rem;
+  font-size: var(--fs-lead);
   line-height: 1.8;
   color: var(--color-text-soft);
   margin-bottom: 1.25rem;
-}
-
-.intro-right .eyebrow {
-  font-size: 28px;
-}
-
-.intro-right .section-title {
-  font-size: 26px;
 }
 
 .intro-right .text-link {
@@ -475,7 +467,7 @@
 
 .video-showcase-title {
   font-family: var(--font-serif);
-  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-size: var(--fs-h2);
   font-weight: 400;
   margin-top: 0.5rem;
 }
@@ -513,7 +505,7 @@
 }
 
 .video-page-footer p {
-  font-size: 1.05rem;
+  font-size: var(--fs-lead);
   line-height: 1.7;
   color: var(--color-text-soft);
   max-width: 540px;
@@ -545,7 +537,7 @@
 }
 
 .custom-solution-text {
-  font-size: 1.05rem;
+  font-size: var(--fs-lead);
   line-height: 1.8;
   color: var(--color-text-soft);
   margin-bottom: 1.25rem;
@@ -629,14 +621,14 @@
 
 .process-step-title {
   font-family: var(--font-serif);
-  font-size: 1.3rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   color: var(--color-text);
   margin-bottom: 0.5rem;
 }
 
 .process-step-desc {
-  font-size: 0.9rem;
+  font-size: var(--fs-small);
   line-height: 1.7;
   color: var(--color-text-soft);
   margin-bottom: 1rem;
@@ -723,14 +715,14 @@
 
 .success-story-title {
   font-family: var(--font-serif);
-  font-size: 1.3rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   color: var(--color-text);
   margin: 0.5rem 0;
 }
 
 .success-story-desc {
-  font-size: 0.9rem;
+  font-size: var(--fs-small);
   line-height: 1.7;
   color: var(--color-text-soft);
 }
@@ -761,14 +753,14 @@
 
 .delivery-feature-title {
   font-family: var(--font-serif);
-  font-size: 1.2rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   color: var(--color-text);
   margin-bottom: 0.75rem;
 }
 
 .delivery-feature-desc {
-  font-size: 0.9rem;
+  font-size: var(--fs-small);
   line-height: 1.7;
   color: var(--color-text-soft);
 }
@@ -831,7 +823,7 @@
 }
 
 .faq-answer p {
-  font-size: 0.95rem;
+  font-size: var(--fs-body);
   line-height: 1.7;
   color: var(--color-text-soft);
 }
@@ -842,7 +834,7 @@
 }
 
 .faq-cta p {
-  font-size: 1.05rem;
+  font-size: var(--fs-lead);
   color: var(--color-text-soft);
   margin-bottom: 1.5rem;
 }
@@ -913,13 +905,6 @@
   background: var(--color-bg);
 }
 
-.products-preview .eyebrow {
-  font-size: 28px;
-}
-
-.products-preview .section-title {
-  font-size: 26px;
-}
 
 .products-grid {
   display: grid;
@@ -990,7 +975,7 @@
 }
 
 .product-desc {
-  font-size: 0.85rem;
+  font-size: var(--fs-small);
   line-height: 1.6;
   color: var(--color-text-soft);
   flex: 1;
@@ -1018,17 +1003,7 @@
   background: var(--color-surface);
 }
 
-.popular-section .eyebrow {
-  font-size: 28px;
-}
 
-.popular-section .section-title {
-  font-size: 26px;
-}
-
-.popular-section .section-subtitle {
-  font-size: 15px;
-}
 
 .popular-grid {
   display: grid;
@@ -1085,7 +1060,7 @@
 }
 
 .popular-desc {
-  font-size: 0.825rem;
+  font-size: var(--fs-small);
   line-height: 1.6;
   color: var(--color-text-soft);
   flex: 1;
@@ -1140,16 +1115,9 @@
   margin: 0 auto var(--space-6);
 }
 
-.custom-options-banner .eyebrow {
-  font-size: 28px;
-}
-
-.custom-options-banner .section-title {
-  font-size: 26px;
-}
 
 .custom-options-intro {
-  font-size: 15px;
+  font-size: var(--fs-lead);
   line-height: 1.8;
   color: var(--color-text-soft);
   margin: 1.5rem 0 2rem;
@@ -1174,13 +1142,7 @@
   padding: 3rem 0;
 }
 
-.brands-logos-section .eyebrow {
-  font-size: 28px;
-}
 
-.brands-logos-section .section-title {
-  font-size: 26px;
-}
 
 .brands-logos-section .section-header-center {
   margin-bottom: 2rem;
@@ -1225,17 +1187,8 @@
   background: var(--color-bg);
 }
 
-.case-studies-section .eyebrow {
-  font-size: 28px;
-}
 
-.case-studies-section .section-title {
-  font-size: 26px;
-}
 
-.case-studies-section .section-subtitle {
-  font-size: 15px;
-}
 
 .case-carousel {
   overflow: hidden;
@@ -1428,7 +1381,7 @@
 }
 
 .philosophy-text {
-  font-size: 1.05rem;
+  font-size: var(--fs-lead);
   line-height: 1.8;
   color: var(--color-text-soft);
   margin-bottom: 1.25rem;
@@ -1463,13 +1416,7 @@
   background: var(--color-surface);
 }
 
-.advantages-section .eyebrow {
-  font-size: 28px;
-}
 
-.advantages-section .section-title {
-  font-size: 26px;
-}
 
 .advantages-grid {
   display: grid;
@@ -1529,13 +1476,13 @@
 
 .advantage-title {
   font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
 .advantage-desc {
-  font-size: 0.8rem;
+  font-size: var(--fs-small);
   line-height: 1.6;
   color: var(--color-text-soft);
 }
@@ -1583,7 +1530,7 @@
 }
 
 .cta-text {
-  font-size: 1.1rem;
+  font-size: var(--fs-lead);
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
   margin: 1.5rem auto 2.5rem;
@@ -1614,7 +1561,7 @@
 
 .page-title {
   font-family: var(--font-serif);
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-size: var(--fs-h1);
   font-weight: 300;
   line-height: 1.1;
   letter-spacing: -0.02em;
@@ -1622,7 +1569,7 @@
 }
 
 .page-subtitle {
-  font-size: 1.1rem;
+  font-size: var(--fs-lead);
   font-weight: 300;
   line-height: 1.7;
   color: var(--color-text-soft);
@@ -1761,7 +1708,7 @@
 }
 
 .catalog-desc {
-  font-size: 0.875rem;
+  font-size: var(--fs-small);
   line-height: 1.6;
   color: var(--color-text-soft);
   flex: 1;
@@ -1804,7 +1751,7 @@
 }
 
 .products-cta p {
-  font-size: 1rem;
+  font-size: var(--fs-body);
   color: var(--color-text-soft);
   max-width: 480px;
   margin: 0 auto 1.5rem;
@@ -1836,7 +1783,7 @@
 }
 
 .about-text {
-  font-size: 1.05rem;
+  font-size: var(--fs-lead);
   line-height: 1.8;
   color: var(--color-text-soft);
   margin-bottom: 1.25rem;
@@ -1934,7 +1881,7 @@
 
 .about-video-title {
   font-family: var(--font-serif);
-  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-size: var(--fs-h2);
   font-weight: 400;
   color: #fff;
   margin: 0.75rem 0 0.5rem;
@@ -1942,7 +1889,7 @@
 }
 
 .about-video-subtitle {
-  font-size: 0.95rem;
+  font-size: var(--fs-lead);
   font-weight: 300;
   color: rgba(255, 255, 255, 0.75);
   max-width: 440px;
@@ -1974,13 +1921,13 @@
 
 .value-title {
   font-family: var(--font-serif);
-  font-size: 1.5rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
 
 .value-desc {
-  font-size: 0.875rem;
+  font-size: var(--fs-small);
   line-height: 1.7;
   color: var(--color-text-soft);
 }
@@ -2068,13 +2015,13 @@
 
 .timeline-title {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   margin-bottom: 0.4rem;
 }
 
 .timeline-desc {
-  font-size: 0.875rem;
+  font-size: var(--fs-small);
   line-height: 1.6;
   color: var(--color-text-soft);
 }
@@ -2226,7 +2173,7 @@
 }
 
 .industry-desc {
-  font-size: 0.8rem;
+  font-size: var(--fs-small);
   line-height: 1.6;
   color: var(--color-text-soft);
 }
@@ -2266,7 +2213,7 @@
 
 .industry-products-title {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   margin-bottom: var(--space-3);
 }
@@ -2411,7 +2358,7 @@
 }
 
 .solution-desc {
-  font-size: 0.85rem;
+  font-size: var(--fs-small);
   line-height: 1.7;
   color: var(--color-text-soft);
   margin-bottom: var(--space-3);
@@ -2480,13 +2427,13 @@
 
 .solution-point-title {
   font-family: var(--font-serif);
-  font-size: 1.1rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
 .solution-point-desc {
-  font-size: 0.85rem;
+  font-size: var(--fs-small);
   line-height: 1.7;
   color: var(--color-text-soft);
 }
@@ -2545,7 +2492,7 @@
 
 .news-featured-title {
   font-family: var(--font-serif);
-  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-size: var(--fs-h2);
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -2627,7 +2574,7 @@
 
 .news-card-title {
   font-family: var(--font-serif);
-  font-size: 1.5rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   line-height: 1.25;
   margin-bottom: 0.75rem;
@@ -2652,13 +2599,13 @@
 
 .newsletter-title {
   font-family: var(--font-serif);
-  font-size: 1.75rem;
+  font-size: var(--fs-h2);
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
 
 .newsletter-text {
-  font-size: 0.95rem;
+  font-size: var(--fs-body);
   color: var(--color-text-soft);
   margin-bottom: 2rem;
 }
@@ -2701,13 +2648,13 @@
 
 .contact-heading {
   font-family: var(--font-serif);
-  font-size: 1.75rem;
+  font-size: var(--fs-h2);
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
 .contact-intro {
-  font-size: 0.95rem;
+  font-size: var(--fs-lead);
   line-height: 1.7;
   color: var(--color-text-soft);
   margin-bottom: 2rem;
@@ -2780,7 +2727,7 @@ a.contact-value:hover {
 
 .contact-market-title {
   font-family: var(--font-serif);
-  font-size: 1.1rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
@@ -2817,7 +2764,7 @@ a.contact-value:hover {
 }
 
 .contact-form-intro {
-  font-size: 0.9rem;
+  font-size: var(--fs-body);
   color: var(--color-text-soft);
   margin-bottom: 2rem;
 }
@@ -2934,13 +2881,13 @@ a.contact-value:hover {
 
 .success-title {
   font-family: var(--font-serif);
-  font-size: 2rem;
+  font-size: var(--fs-h2);
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
 
 .success-text {
-  font-size: 0.95rem;
+  font-size: var(--fs-body);
   color: var(--color-text-soft);
   line-height: 1.7;
   max-width: 360px;
@@ -3051,7 +2998,7 @@ a.contact-value:hover {
 
 .product-quote-title {
   font-family: var(--font-serif);
-  font-size: 1.2rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   margin-bottom: 1rem;
   color: var(--color-text);
@@ -3125,14 +3072,14 @@ a.contact-value:hover {
 
 .product-detail-title {
   font-family: var(--font-serif);
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: var(--fs-h1);
   font-weight: 400;
   line-height: 1.15;
   margin-bottom: 1.25rem;
 }
 
 .product-detail-desc {
-  font-size: 1.05rem;
+  font-size: var(--fs-lead);
   line-height: 1.8;
   color: var(--color-text-soft);
   margin-bottom: 2rem;
@@ -3223,7 +3170,7 @@ a.contact-value:hover {
 }
 
 .product-description-text {
-  font-size: 1.05rem;
+  font-size: var(--fs-lead);
   line-height: 1.8;
   color: var(--color-text-soft);
   margin-bottom: 1.25rem;
@@ -3280,13 +3227,13 @@ a.contact-value:hover {
 
 .product-benefit-title {
   font-family: var(--font-serif);
-  font-size: 1.3rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
 
 .product-benefit-desc {
-  font-size: 0.9rem;
+  font-size: var(--fs-small);
   line-height: 1.7;
   color: var(--color-text-soft);
   margin-bottom: 0.75rem;
@@ -3411,13 +3358,13 @@ a.contact-value:hover {
 
 .product-feature-title {
   font-family: var(--font-serif);
-  font-size: 1.2rem;
+  font-size: var(--fs-h3);
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
 .product-feature-desc {
-  font-size: 0.85rem;
+  font-size: var(--fs-small);
   line-height: 1.6;
   color: var(--color-text-soft);
 }
@@ -3440,7 +3387,7 @@ a.contact-value:hover {
 }
 
 .product-specs-text {
-  font-size: 1rem;
+  font-size: var(--fs-body);
   line-height: 1.7;
   color: var(--color-text-soft);
   margin: 1.25rem 0 2rem;
@@ -3583,7 +3530,7 @@ a.contact-value:hover {
 }
 
 .related-desc {
-  font-size: 0.825rem;
+  font-size: var(--fs-small);
   line-height: 1.5;
   color: var(--color-text-soft);
   flex: 1;
@@ -4017,10 +3964,10 @@ a.contact-value:hover {
 /* Article page (/news/:slug) */
 .article-container { max-width: 780px; }
 .article-section .news-meta { justify-content: center; display: flex; margin-top: 1rem; }
-.article-body { font-size: 1.05rem; line-height: 1.8; color: var(--color-text, #3a332b); }
+.article-body { font-size: var(--fs-lead); line-height: 1.8; color: var(--color-text, #3a332b); }
 .article-font-arial .page-title, .article-font-arial .article-body { font-family: Arial, sans-serif; }
-.article-body h2 { font-size: 1.6rem; margin: 2.2rem 0 0.9rem; }
-.article-body h3 { font-size: 1.2rem; margin: 1.6rem 0 0.7rem; }
+.article-body h2 { font-size: var(--fs-h2); margin: 2.2rem 0 0.9rem; }
+.article-body h3 { font-size: var(--fs-h3); margin: 1.6rem 0 0.7rem; }
 .article-body p, .article-body ul, .article-body ol { margin: 0 0 1.1rem; }
 .article-body ul, .article-body ol { padding-left: 1.4rem; }
 .article-body li { margin-bottom: 0.5rem; }
@@ -4031,7 +3978,7 @@ a.contact-value:hover {
   padding-top: 1.75rem;
   border-top: 1px solid rgba(24, 18, 12, 0.12);
 }
-.article-related h2 { font-size: 1.25rem; margin-bottom: 0.75rem; }
+.article-related h2 { font-size: var(--fs-h3); margin-bottom: 0.75rem; }
 .article-related .spec-list { flex-direction: column; gap: 0.5rem; }
 .news-card-link { text-decoration: none; color: inherit; display: block; }
 .news-guides-head { margin: 4rem 0 1.5rem; text-align: center; }
@@ -4494,4 +4441,9 @@ a.contact-value:hover {
   .hiw-step-num {
     font-size: 1.8rem;
   }
+}
+
+/* The two pages whose H1 reuses .section-title get the H1 size. */
+h1.section-title {
+  font-size: var(--fs-h1);
 }

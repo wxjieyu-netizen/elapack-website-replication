@@ -147,7 +147,7 @@ export default function Collection({ slug }: { slug: string }) {
         <section className="section" style={{ paddingTop: 0 }}>
           <div className="container">
             <div className="markets-box reveal">
-              <h2 className="section-title" style={{ marginTop: "0.75rem", fontSize: "1.75rem" }}>
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
                 {collection.table.heading}
               </h2>
               <div style={{ overflowX: "auto" }}>
@@ -182,7 +182,7 @@ export default function Collection({ slug }: { slug: string }) {
         <section className="section" style={{ paddingTop: 0 }}>
           <div className="container">
             <div className="markets-box reveal">
-              <h2 className="section-title" style={{ marginTop: "0.75rem", fontSize: "1.75rem" }}>
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
                 {collection.table3.heading}
               </h2>
               {collection.table3.intro?.map((para) => (
@@ -220,7 +220,7 @@ export default function Collection({ slug }: { slug: string }) {
         <section className="section" style={{ paddingTop: 0 }}>
           <div className="container">
             <div className="markets-box reveal">
-              <h2 className="section-title" style={{ marginTop: "0.75rem", fontSize: "1.75rem" }}>
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
                 {collection.table2.heading}
               </h2>
               {collection.table2.intro?.map((para) => (

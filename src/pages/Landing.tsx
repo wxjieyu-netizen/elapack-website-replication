@@ -163,7 +163,7 @@ export default function Landing({ slug }: { slug: string }) {
         <section key={table.heading} className="section" style={{ paddingTop: 0 }}>
           <div className="container">
             <div className="markets-box reveal">
-              <h2 className="section-title" style={{ marginTop: "0.75rem", fontSize: "1.75rem" }}>
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
                 {table.heading}
               </h2>
               <div style={{ overflowX: "auto" }}>
@@ -198,7 +198,7 @@ export default function Landing({ slug }: { slug: string }) {
         <section key={list.heading} className="section" style={{ paddingTop: 0 }}>
           <div className="container">
             <div className="markets-box reveal">
-              <h2 className="section-title" style={{ marginTop: "0.75rem", fontSize: "1.75rem" }}>
+              <h2 className="section-title" style={{ marginTop: "0.75rem" }}>
                 {list.heading}
               </h2>
               <ul className="spec-list">
