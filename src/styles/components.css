@@ -1,7 +1,7 @@
 /* ===== Logo ===== */
 .logo-img {
   display: block;
-  height: 25px;
+  height: 22px;
   width: auto;
 }
 
@@ -393,6 +393,6 @@
   }
 
   .logo-img {
-    height: 20px;
+    height: 18px;
   }
 }
