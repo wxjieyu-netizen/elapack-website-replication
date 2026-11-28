@@ -143,9 +143,9 @@
    display line can do the visual work. */
 .hero-kicker {
   font-family: var(--font-sans);
-  font-size: 0.72rem;
+  font-size: var(--fs-label);
   font-weight: 500;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.24em;
   line-height: 1.6;
   text-transform: uppercase;
   color: var(--color-primary);
@@ -183,9 +183,9 @@
 }
 
 .hero-aside-note {
-  font-size: 0.7rem;
+  font-size: var(--fs-label);
   font-weight: 500;
-  letter-spacing: 0.26em;
+  letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--color-primary);
 }
@@ -3613,7 +3613,7 @@ a.contact-value:hover {
   }
 
   .hero-kicker {
-    font-size: 0.62rem;
+    font-size: 0.7rem;
     letter-spacing: 0.16em;
     margin-bottom: var(--space-2);
   }
@@ -3637,8 +3637,8 @@ a.contact-value:hover {
   }
 
   .hero-aside-note {
-    font-size: 0.6rem;
-    letter-spacing: 0.18em;
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
     line-height: 1.6;
   }
 
