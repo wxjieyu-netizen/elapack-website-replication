@@ -4,10 +4,10 @@ export default function Logo({ variant = "ink" }: { variant?: "ink" | "light" })
   return (
     <img
       className="logo-img"
-      src={`/images/brand/elapack-logo-${variant}.png`}
+      src={`/images/brand/elapack-logo-${variant}.svg`}
       alt="ELAPACK"
-      width={600}
-      height={230}
+      width={1142}
+      height={224}
     />
   );
 }
