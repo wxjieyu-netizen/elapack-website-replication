@@ -142,9 +142,14 @@ export default function ProductDetail() {
                   <Link to={quoteUrl} className="pd-btn pd-btn-glass">
                     {review ? "Request a Packaging Quote" : "Request a Quote"}
                   </Link>
-                  <Link to={quoteUrl} className="pd-btn pd-btn-sage">
-                    Contact Us
-                  </Link>
+                  <a
+                    href={`https://wa.me/8618626352096?text=${encodeURIComponent(`Hi ELAPACK, I'd like a quote for ${product.name}.`)}`}
+                    className="pd-btn pd-btn-sage"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WhatsApp Us
+                  </a>
                 </div>
               </div>
 
