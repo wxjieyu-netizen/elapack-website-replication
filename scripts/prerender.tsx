@@ -330,8 +330,14 @@ for (const route of ROUTES) {
     // Pages whose social image uses an existing real product photo instead
     // of the shared site hero (micro-fix batch, item 6).
     const OG_IMAGE_OVERRIDES: Record<string, string> = {
-      "/sets": `${SITE}/images/sets/magic-pack-navy-set.webp`,
-      "/custom-jewelry-boxes": `${SITE}/images/products/custom-ring-boxes/custom-ring-boxes-hero.webp`,
+      "/sets": `${SITE}/images/scenes/complete-set-sage-ivory.webp`,
+      "/custom-jewelry-boxes": `${SITE}/images/scenes/jewelry-boxes-plum.webp`,
+      "/custom-jewelry-pouches": `${SITE}/images/scenes/velvet-microfiber-jewelry-pouches.webp`,
+      "/custom-cosmetic-packaging": `${SITE}/images/scenes/lash-press-on-nail-boxes.webp`,
+      "/custom-gift-boxes": `${SITE}/images/scenes/complete-set-sage-ivory.webp`,
+      "/subscription-box-packaging": `${SITE}/images/scenes/sage-mailer-box-unboxing.webp`,
+      "/custom-drawstring-bags": `${SITE}/images/scenes/dust-bag-garment-cover.webp`,
+      "/industries": `${SITE}/images/scenes/ribbon-paper-gift-bags.webp`,
       "/velvet-jewelry-boxes": `${SITE}/images/products/custom-ring-boxes/custom-ring-boxes-hero.webp`,
       "/custom-christmas-packaging": `${SITE}/images/collections/christmas/christmas-hero.webp`,
     };
