@@ -363,7 +363,7 @@ for (const route of ROUTES) {
       "@type": "Organization",
       "@id": `${SITE}/#organization`,
       name: "ELAPACK",
-      legalName: "Wuxi Magic Packaging Co., Ltd",
+      legalName: "Wuxi Magic Packaging Co., Ltd.",
       foundingDate: "2018",
       alternateName: ["ELAPACK Custom Luxury Packaging", "Wuxi Magic Packaging"],
       description:
@@ -453,7 +453,7 @@ for (const route of ROUTES) {
         publisher: {
           "@type": "Organization",
           name: "ELAPACK",
-          legalName: "Wuxi Magic Packaging Co., Ltd",
+          legalName: "Wuxi Magic Packaging Co., Ltd.",
           logo: {
             "@type": "ImageObject",
             url: `${SITE}/apple-touch-icon.png`,
