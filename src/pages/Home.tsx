@@ -60,11 +60,12 @@ const products = featuredSlugs
   })
   .filter((p): p is NonNullable<typeof p> => p !== null);
 
+// Each column answers one buyer worry with a number we commit to.
 const stats = [
-  { value: "200", label: "Individual product MOQ (pieces) — 200 per component of a set" },
-  { value: "3–5", label: "Custom sample days — USD 30 + USD 25 shipping" },
-  { value: "15–20", label: "Production days after sample approval + payment — 15–20 for 200–20,000 pcs; 30–35 for 20,000–50,000 pcs" },
-  { value: "1", label: "Business day to reply — stock samples free + USD 25 shipping" },
+  { pain: "High minimums?", value: "200", unit: "pcs", label: "Start small, scale later.", note: "200 per item, 200 per component of a set — test a new line without warehousing thousands." },
+  { pain: "Unsure how it will look?", value: "3–5", unit: "days", label: "Hold a real sample first.", note: "Custom sample in your materials and finish. USD 30 + USD 25 shipping." },
+  { pain: "Colours never match?", value: "1", unit: "factory", label: "Every piece, one colour.", note: "Boxes, pouches, bags and cards made under one roof and Pantone-matched as a set." },
+  { pain: "Launch deadline?", value: "15–20", unit: "days", label: "Production you can plan on.", note: "After sample approval + payment, 200–20,000 pcs. 30–35 days for 20,000–50,000 pcs." },
 ];
 
 const popularSolutions = [
@@ -236,14 +237,36 @@ export default function Home() {
       {/* ===== Stats ===== */}
       <section className="section stats-section">
         <div className="container">
+          <div className="stats-head reveal">
+            <div>
+              <p className="eyebrow">Why brands switch to us</p>
+              <h2 className="stats-title">
+                Small runs. Real samples.
+                <br />
+                <strong>One factory for the whole set.</strong>
+              </h2>
+            </div>
+            <p className="stats-aside">
+              We reply within <strong>1 business day</strong>.
+              <br />
+              Stock samples free + USD 25 shipping.
+            </p>
+          </div>
           <div className="stats-grid">
             {stats.map((stat, i) => (
               <div
-                key={stat.label}
+                key={stat.value}
                 className={`stat-item reveal reveal-delay-${i + 1}`}
               >
-                <span className="stat-value">{stat.value}</span>
+                <span className="stat-pain">
+                  {String(i + 1).padStart(2, "0")} — {stat.pain}
+                </span>
+                <span className="stat-value">
+                  {stat.value}
+                  <small>{stat.unit}</small>
+                </span>
                 <span className="stat-label">{stat.label}</span>
+                <span className="stat-note">{stat.note}</span>
               </div>
             ))}
           </div>

@@ -859,46 +859,98 @@
 }
 
 /* ===== Stats ===== */
+/* Proof strip: four buyer worries, each answered with a number. Editorial
+   columns with a hairline on top, left-aligned, on the page background. */
 .stats-section {
-  padding: var(--space-3) 0;
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border-light);
-  border-bottom: 1px solid var(--color-border-light);
+  background: var(--color-bg);
+}
+
+.stats-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.stats-title {
+  font-family: var(--font-sans);
+  font-size: var(--fs-h2);
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-top: 0.75rem;
+}
+
+.stats-title strong {
+  font-weight: 600;
+}
+
+.stats-aside {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--color-text-soft);
+  text-align: right;
+}
+
+.stats-aside strong {
+  font-weight: 500;
+  color: var(--color-text);
 }
 
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-4);
-  text-align: center;
+  gap: var(--space-5);
 }
 
 .stat-item {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
-  padding: var(--space-2) var(--space-2);
-  border-right: 1px solid var(--color-border-light);
+  border-top: 1px solid var(--color-text);
+  padding-top: 1.25rem;
 }
 
-.stat-item:last-child {
-  border-right: none;
+.stat-pain {
+  font-size: 0.68rem;
+  line-height: 1.6;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-primary);
 }
 
 .stat-value {
-  font-family: var(--font-serif);
-  font-size: 36px;
-  font-weight: 400;
-  color: var(--color-primary);
+  font-family: var(--font-sans);
+  font-size: 40px;
+  font-weight: 200;
   line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  margin: 1rem 0 0.6rem;
+}
+
+.stat-value small {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-left: 0.35rem;
+  color: var(--color-text-soft);
 }
 
 .stat-label {
-  font-size: 0.75rem;
-  font-weight: 400;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  line-height: 1.4;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 0.4rem;
+}
+
+.stat-note {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--color-text-soft);
+  max-width: 270px;
 }
 
 /* ===== Products Preview ===== */
@@ -3714,19 +3766,24 @@ a.contact-value:hover {
     transform: translateX(50%);
   }
 
+  .stats-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+  }
+
+  .stats-aside {
+    text-align: left;
+  }
+
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4) var(--space-3);
   }
 
-  .stat-item:nth-child(2) {
-    border-right: none;
-  }
-
-  .stat-item:nth-child(1),
-  .stat-item:nth-child(2) {
-    border-bottom: 1px solid var(--color-border-light);
-    padding-bottom: var(--space-4);
-    margin-bottom: var(--space-4);
+  .stat-value {
+    font-size: 32px;
   }
 
   .section-header {
