@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <Logo />
+            <Logo variant="light" />
             <p className="footer-desc">
               Crafting premium packaging solutions for global luxury brands.
               From creative design to precision production — one partner, end
